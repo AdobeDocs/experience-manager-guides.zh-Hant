@@ -1,15 +1,15 @@
 ---
-title: 關於本指南
+title: 內部部署安裝
 description: 瞭解如何下載、安裝和設定AEM Guides。
 exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
-source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
+source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
-# 關於本指南 {#id175MC0P0S5Z}
+# 內部部署安裝 {#id175MC0P0S5Z}
 
 Adobe Experience Manager Guides \(稍後稱為 *AEM指南*\)是功能強大、企業級元件內容管理解決方案\(CCMS\)。 如此可啟用Adobe Experience Manager中的原生DITA支援，使AEM能夠處理以DITA為主的內容建立和傳遞。 它可讓作者使用任何離線DITA編寫工具(例如Adobe FrameMaker或易於使用的內建Web編輯器)來建立內容。
 
