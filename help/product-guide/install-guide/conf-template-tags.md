@@ -1,0 +1,18 @@
+---
+title: 設定主題和對應範本
+description: 瞭解如何設定主題和對應範本
+exl-id: 2d813da9-6586-4b43-9c79-ff46a5e651a2
+source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 0%
+
+---
+
+# 設定主題和對應範本 {#id181AH2003PF}
+
+AEM Guides隨附主題和DITA map範本。 您可以建立自己的自訂範本，並與作者共用。 本主題涵蓋使用自訂主題和地圖範本的程式。
+
+- **[設定自訂DITA主題範本](conf-template-tags-custom-dita-topic-template.md)**
+
+- **[設定自訂DITA map範本](conf-template-tags-custom-dita-map-templates.md)**
