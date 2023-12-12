@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager指南
 user-guide-description: 閱讀Adobe Experience Manager Guides的產品檔案。
 breadcrumb-title: AEM Guides指南
-source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
 source-wordcount: '1639'
 ht-degree: 2%
@@ -381,7 +381,7 @@ ht-degree: 2%
       + [學習原生PDF發佈 — 實驗操作 — BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
       + [AEM Guides的擴充功能框架](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
    + 文章 {#kb-articles}
-      + 編寫 {#authoring}
+      + 製作 {#authoring}
          + 報表 {#reports}
             + [管理DITA內容的中繼資料](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          + 網頁編輯器 {#webeditor}

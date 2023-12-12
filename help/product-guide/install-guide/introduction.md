@@ -2,7 +2,7 @@
 title: 內部部署安裝
 description: 瞭解如何下載、安裝和設定AEM Guides。
 exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
-source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -27,39 +27,22 @@ Adobe Experience Manager Guides \(稍後稱為 *AEM指南*\)是功能強大、�
 本指南中的資訊的組織方式如下：
 
 - [關於本指南](#id175MC0P0S5Z)：本主題介紹本指南、目標對象，以及本指南中的資訊組織方式。
-
 - [下載並安裝](download-install.md#)：本主題說明如何下載、安裝或升級AEM Guides。
-
 - [使用者管理與安全性](user-admin-sec.md#)：本主題說明AEM中使用者和驗證的核心概念，以及AEM Guides建立的預設使用者群組。
-
 - [使用自訂DITA-OT與DITA專業化](dita-ot-specialization.md#)：本主題說明如何設定自訂DITA-OT外掛程式及使用DITA專門化。
-
 - [設定檔案狀態](customize-doc-state.md#)：本主題說明如何設定DITA檔案的自訂狀態。
-
 - [移轉現有內容](migrate-content.md#)：本主題說明如何在AEM存放庫中內建現有內容。
-
 - [設定檔案名稱](conf-file-names.md#)：本主題說明如何設定自動指派檔案名稱的設定，以及如何定義有效檔案名稱字元的Regex。
-
 - [設定主題和對應範本](conf-template-tags.md#)：本主題說明如何設定主題和對應範本以符合您的編寫需求。 瞭解AEM中的標籤系統，以及如何設定標籤以搭配AEM Guides使用。
-
 - [自訂Web編輯器](conf-web-editor.md#)：本主題說明您可以在網頁編輯器中進行的各種自訂，以強化其功能。
-
 - [將進階地圖編輯器設定為預設值](conf-map-editor.md#id194GHE0I0CW)：本主題說明如何設定「進階對應編輯器」為對應檔案的預設編輯器。
-
 - [預設包含@navtitle屬性](auto-add-navtitle.md#)：本主題說明如何新增 `@navtitle` 屬性預設為對應中的參考檔案。
-
 - [設定全域或資料夾層級設定檔](conf-folder-level.md#)：本主題說明建立檔案夾設定檔及授予特定使用者許可權的程式。
-
 - [版本管理](version-management.md#)：本主題說明如何為在Web編輯器中開啟以進行編輯的檔案設定自動檔案簽出。
-
 - [整合案頭式XML編輯器](integrate-desktop-editors.md#)：本主題說明在外部XML編輯器中啟用編輯檔案所需的設定。
-
 - [設定輸出產生設定](conf-output-generation.md#)：本主題說明您可以進行的各種設定，以自訂預設輸出產生程式。
-
 - [設定和自訂工作流程](customize-workflows.md#)：本主題說明各種設定，以便自訂AEM Guides中隨附的預設工作流程。
-
 - [翻譯內容](translation.md#)：本主題提供AEM檔案中相關說明文章的連結，以協助您瞭解及設定翻譯架構。 此外，瞭解如何啟用元件式翻譯工作流程。
-
 - [設定AEM Assets UI搜尋](conf-dita-search.md#)：本主題說明如何在Assets UI中設定DITA內容搜尋，以及在搜尋中新增自訂屬性。
 
 

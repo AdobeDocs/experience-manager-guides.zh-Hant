@@ -2,9 +2,9 @@
 title: 設定AEM Assets UI搜尋
 description: 瞭解如何設定AEM Assets UI的搜尋
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 247f4d8fe744b6f9d285a7f61c2b31628de2bb36
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1696'
 ht-degree: 1%
 
 ---
@@ -70,6 +70,7 @@ ht-degree: 1%
 
    - **欄位標籤**： UUID
    - **屬性名稱**： jcr：content/fmUuid
+
 1. 按一下 **完成** 以儲存變更。
 
    當您存取Assets UI中的「篩選器」選項時，您將會取得UIS型搜尋篩選選項。
@@ -118,7 +119,7 @@ ht-degree: 1%
 >
 > 如果您想使用中的預設搜尋設定 `prolog` 元素，則可以略過此程式。
 
-此檔案包含兩個主要區段 — 屬性集和規則集。 規則集區段的片段如下所示：
+此檔案包含兩個主要區段屬性集和規則集。 規則集區段的片段如下所示：
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -127,7 +128,6 @@ ht-degree: 1%
 在規則集段落中，您可以指定：
 
 - 擷取元素的規則
-
 - 用於擷取屬性的規則
 
 
