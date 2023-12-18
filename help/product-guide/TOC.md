@@ -1,11 +1,11 @@
 ---
-user-guide-title: Experience Manager指南
-user-guide-description: 閱讀Adobe Experience Manager Guides的產品檔案。
-breadcrumb-title: AEM Guides指南
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+user-guide-title: Experience Manager Guides
+user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
+breadcrumb-title: AEM Guides 指南
+source-git-commit: 757371f7d9e9029096abd2f269b3bdd715d1c965
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 2%
+source-wordcount: '1635'
+ht-degree: 3%
 
 ---
 
@@ -213,8 +213,8 @@ ht-degree: 2%
       + 內容移轉 {#content-migration}
          + [非UUID移轉至UUID內容](./install-guide/migrate-uuid-non-uuid.md)
          + 移轉程式 {#migration-process}
-            + [使用版本移轉非UUID內容](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            + [移轉不含版本的非UUID內容](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            + [移轉受版本控制的內容](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            + [移轉不帶版本的內容](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          + [移轉現有內容](./install-guide/migrate-content.md)
          + [上傳現有DITA內容](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [移轉非DITA內容](./install-guide/migrate-content-non-dita.md)
