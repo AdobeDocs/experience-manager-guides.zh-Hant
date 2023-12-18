@@ -2,14 +2,14 @@
 title: 將沒有版本的非UUID內容轉換為UUID內容
 description: 瞭解如何移轉不含版本的非UUID內容。
 exl-id: 44b5660d-9961-4463-9686-53085249fb05
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0c45b3bee77d04f031dea157e7d3671b2cc11b45
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
-# 移轉不含版本的非UUID內容
+# 移轉不帶版本的內容
 
 >[!IMPORTANT]
 >
