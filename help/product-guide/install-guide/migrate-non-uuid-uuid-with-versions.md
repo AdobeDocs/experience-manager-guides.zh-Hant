@@ -1,9 +1,9 @@
 ---
 title: 將具有版本的非UUID內容轉換為UUID內容
 description: 瞭解如何將具有版本的非UUID內容移轉至UUID內容。
-source-git-commit: 72cdc50df0dfb4af8c798bd1a488c852ed054707
+source-git-commit: 0d985688af601ca51822b116ea4baafce19f0658
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在移轉至必要的UUID版本之前，請根據您的版本遵循升級指示。
+>請遵循 [升級指示](./upgrade-xml-documentation.md) 特定於您的產品的授權版本。
 
 ## 相容性矩陣
 
@@ -26,10 +26,9 @@ ht-degree: 0%
 
 ## 套件安裝
 
-根據您的版本，從Adobe軟體發佈入口網站下載必要的套件並進行安裝：
+根據您的版本，從Adobe軟體發佈入口網站下載必要的套件：
 <details>
-<summary>  版本4.1的套件 </summary>
-如果您是使用4.1版非UUID，則必須先安裝4.1版UUID，才能安裝下列套件：
+<summary>  版本4.1的套件升級路徑</summary>
 
 1. **移轉前**： [com.adobe.guides.pre-uuid-migration-1.0.9.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.pre-uuid-migration-1.0.9.zip)
 1. **移轉**： [com.adobe.guides.uuid-upgrade-1.0.19.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.uuid-upgrade-1.0.19.zip)
@@ -37,8 +36,7 @@ ht-degree: 0%
 
 
 <details>
-<summary> 版本4.3.1的套件</summary>
-如果您是使用4.3版非UUID，則必須先安裝4.3.1版UUID，才能安裝下列套件：
+<summary> 版本4.3.1的套件升級路徑</summary>
 
 1. **移轉前**： [com.adobe.guides.pre-uuid-migration-1.1.3.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.pre-uuid-migration-1.1.3.zip)
 1. **移轉**： [com.adobe.guides.uuid-upgrade-1.1.15.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.uuid-upgrade-1.1.15.zip)
@@ -47,17 +45,18 @@ ht-degree: 0%
 
 ## 移轉前
 
-1. （可選）對內容執行版本清除以移除不必要的版本，並加快移轉程式。 若要執行版本永久刪除，請選取選項 **版本清除** 從移轉畫面，使用URL前往使用者介面 `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+對非UUID版本（非UUID 4.1或非UUID 4.3.0）執行下列檢查：
 
-   >[!NOTE]
-   >
-   >此公用程式不會移除基準線或評論中使用的任何版本，或具有任何標籤。
 1. 根據您的版本安裝移轉前套件。
 
    >[!NOTE]
    >
    >* 您需要管理員許可權才能執行移轉。
    >* 建議先修復有錯誤的檔案，再繼續移轉。
+1. （可選）對內容執行版本清除以移除不必要的版本，並加快移轉程式。 若要執行版本永久刪除，請選取選項 **版本清除** 從移轉畫面，使用URL前往使用者介面 `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+   >[!NOTE]
+   >
+   >此公用程式不會移除基準線或評論中使用的任何版本，或具有任何標籤。
 1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. 選取 **相容性評估**  從左側面板瀏覽資料夾路徑。
 1. 檢查相容性以列出以下資訊：
@@ -100,7 +99,7 @@ ht-degree: 0%
 1. 停用屬性啟用驗證(`validation.enabled`)。
 
 1. 確定 `uuid.regex` 屬性資料夾在中已正確設定 `com.adobe.fmdita.config.ConfigManager`. 如果空白，則設定為預設值 —  `^GUID-(?<id>.*)`.
-1. 新增單獨的記錄器 `com.adobe.fmdita.uuid.upgrade.UuidUpgrade` 瀏覽器回應也可在以下網址取得： `/content/uuid-upgrade/logs`.
+1. 新增單獨的記錄器 `com.adobe.fmdita.uuid` 瀏覽器回應也可在以下網址取得： `/content/uuid-upgrade/logs`.
 
 ### 步驟2：執行移轉並驗證
 
