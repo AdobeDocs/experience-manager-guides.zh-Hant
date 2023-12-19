@@ -1,7 +1,7 @@
 ---
 title: 將具有版本的非UUID內容轉換為UUID內容
 description: 瞭解如何將具有版本的非UUID內容移轉至UUID內容。
-source-git-commit: 4888bd4647a7ec8bbd4e53786b267cca96630219
+source-git-commit: b4ba381cad13960f2fd514b23c66016f0e08e273
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -54,8 +54,7 @@ ht-degree: 0%
    >* 您需要管理員許可權才能執行移轉。
    >* 建議先修復有錯誤的檔案，再繼續移轉。
 
-1. （可選）對內容執行版本清除以移除不必要的版本，並加快移轉程式。 若要執行版本永久刪除，請選取選項
-   **版本清除** 從移轉畫面，使用URL前往使用者介面 `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. （可選）對內容執行版本清除以移除不必要的版本，並加快移轉程式。 若要執行版本永久刪除，請選取選項 **版本清除** 從移轉畫面，使用URL前往使用者介面 `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >此公用程式不會移除基準線或評論中使用的任何版本，或具有任何標籤。
