@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 指南
-source-git-commit: 757371f7d9e9029096abd2f269b3bdd715d1c965
+source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1638'
 ht-degree: 3%
 
 ---
@@ -380,6 +380,7 @@ ht-degree: 3%
       + [學習原生PDF發佈 — 第1部分](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
       + [學習原生PDF發佈 — 實驗操作 — BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
       + [AEM Guides的擴充功能框架](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
+      + [外部資料來源整合](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
    + 文章 {#kb-articles}
       + 製作 {#authoring}
          + 報表 {#reports}
