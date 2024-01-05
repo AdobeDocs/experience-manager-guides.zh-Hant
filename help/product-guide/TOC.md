@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 指南
-source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
+source-git-commit: 9754536b7954d63d80746b34ff2cf35716086fdf
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1644'
 ht-degree: 3%
 
 ---
@@ -391,6 +391,9 @@ ht-degree: 3%
                + [新增自訂樣式至網頁編輯器](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + 結構描述 {#schematron}
                + [結構描述驗證](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+      + 指南擴充功能框架 {#extention-framework}
+         + [簡介](./guides-ui-extensions/getting-started/Introduction.md)
+         + [安裝指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
       + 發佈 {#publishing}
          + [設定AEM環境以進行原生PDF發佈](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
