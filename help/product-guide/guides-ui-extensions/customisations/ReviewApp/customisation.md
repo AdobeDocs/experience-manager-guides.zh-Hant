@@ -1,10 +1,14 @@
 ---
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+title: 自訂
+description: 自訂稽核應用程式
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
+
+
 # 自訂稽核應用程式
 
 為了方便自訂檢閱應用程式，我們提供了一些鉤點，詳見以下說明：
@@ -14,7 +18,7 @@ ht-degree: 0%
 - id： `review_comment`
 - 勾點： `this.updateExtraProps`：
 
-如討論內容 [此處](../../aem_guides_framework/basic_customisation.md)，自訂期間新增的任何新屬性都會遵循 `this.model.extraProps`. 方法 `updateExtraProps` 可讓您新增屬性至稽核註解，並處理伺服器上新增屬性的更新及儲存。
+如討論內容 [此處](../../aem_guides_framework/basic-customisation.md)，自訂期間新增的任何新屬性都會遵循 `this.model.extraProps`. 方法 `updateExtraProps` 可讓您新增屬性至稽核註解，並處理伺服器上新增屬性的更新及儲存。
 
 ### 使用範例
 

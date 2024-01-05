@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Jui框架
+description: 瞭解Jui框架
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ JUI-React-Spectrum程式庫有AdobeReact Spectrum元件的包裝函式Widget
 
 ### MVC UI設計
 
-![替代文字](./imgs/jui-mvc-flow.png)
+![JUI MVC流程](./imgs/jui-mvc-flow.png)
 
 ### Widget
 
@@ -35,7 +36,7 @@ JUI-React-Spectrum程式庫有AdobeReact Spectrum元件的包裝函式Widget
 - 可以有其他Widget
 - 應用程式是Widget
 
-![替代文字](./imgs/jui-widget.png)
+![JUI Widget](./imgs/jui-widget.png)
 
 ### 元素
 
@@ -76,4 +77,4 @@ JUI-React-Spectrum程式庫有AdobeReact Spectrum元件的包裝函式Widget
 
 ### 範例應用程式設計
 
-![替代文字](./imgs/jui-sample-app.png)
+![範例應用程式](./imgs/jui-sample-app.png)

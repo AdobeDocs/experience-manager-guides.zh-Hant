@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 指南
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 3%
+source-wordcount: '1679'
+ht-degree: 4%
 
 ---
 
@@ -392,6 +392,18 @@ ht-degree: 3%
             + 結構描述 {#schematron}
                + [結構描述驗證](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 指南擴充功能框架 {#extention-framework}
+         + Aem Guides框架 {#aem-guides-framework}
+            + [基本自訂](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+            + [JUI框架](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
+            + 元件 {#framework-components}
+               + [按鈕](./guides-ui-extensions/aem_guides_framework/components/button.md)
+               + [圖示](./guides-ui-extensions/aem_guides_framework/components/icon.md)
+               + [標籤](./guides-ui-extensions/aem_guides_framework/components/label.md)
+               + [清單](./guides-ui-extensions/aem_guides_framework/components/list.md)
+               + [文字區域](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+            + Widget {#framework-widgets}
+               + [轉譯Widget](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+               + [基本Widget](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          + 快速入門 {#getting-started}
             + [簡介](./guides-ui-extensions/getting-started/Introduction.md)
             + [安裝指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -400,8 +412,9 @@ ht-degree: 3%
             + [簡單的自訂](./guides-ui-extensions/customisations/add-button.md)
             + [自訂內容功能表](./guides-ui-extensions/customisations/context-menus.md)
             + [自訂工具列和標題列](./guides-ui-extensions/customisations/toolbar-topbar.md)
-         + 檢閱{#review-app-customisations}
-            + [元件](./guides-ui-extensions/customisations/ReviewApp/components.md)
+            + 檢閱{#review-app-customisations}
+               + [元件](./guides-ui-extensions/customisations/ReviewApp/components.md)
+               + [自訂](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       + 發佈 {#publishing}
          + [設定AEM環境以進行原生PDF發佈](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)

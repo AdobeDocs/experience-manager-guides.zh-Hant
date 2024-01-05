@@ -1,12 +1,12 @@
 ---
-sidebar_position: 5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: 清單
+description: 清單
+source-git-commit: dfd4c898d3c093bfee1a8a6efff4e395efd20c60
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 1%
+source-wordcount: '59'
+ht-degree: 5%
 
 ---
-
 
 # 清單
 
@@ -33,7 +33,7 @@ const listJSON =  {
 },
 ```
 
-通常專案設定是 `widget`. 若要深入瞭解Widget，請前往 [Widget](../Widgets/basic_widget.md)
+通常專案設定是 `widget`. 若要深入瞭解Widget，請前往 [Widget](../Widgets/basic-widget.md)
 
 轉譯後的清單看起來像這樣：
 
