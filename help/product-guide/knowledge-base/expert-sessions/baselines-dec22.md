@@ -2,9 +2,9 @@
 title: 使用基準管理內容
 description: 瞭解如何使用基線來有效地管理您的內容。
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ AEM Guides中的發行管理是使用基準線完成，可讓您選擇主題和�
 ## 關鍵重點
 
 在這場會議中，您將瞭解以下內容：
-
 - AEM Guides中的不同基準線作業
 - 使用基線下載、發佈及翻譯
 - 使用基線的最佳作法
@@ -41,14 +40,13 @@ AEM Guides中的發行管理是使用基準線完成，可讓您選擇主題和�
 
 - **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **使用手冊** - [使用基準線](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
+- **使用手冊** - [使用基準線](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
 - **社群論壇**  — 如需Experience League上特定工作階段的社群互動，請造訪 [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 >此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
->
 > - 內部部署4.1和更新版本
 > - Cloud Service 2211和更新版本
 

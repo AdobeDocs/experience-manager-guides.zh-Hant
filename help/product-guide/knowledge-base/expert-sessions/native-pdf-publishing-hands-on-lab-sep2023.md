@@ -2,9 +2,9 @@
 title: 原生PDF發佈「實驗操作 — BYOS」 — 互動式學習
 description: 這場「實驗操作 — BYOS」課程深入探究原生PDF的發佈方式。 探索各種使用案例、運用主要功能，並直接與Adobe專家互動，以解決您的特定問題陳述和需求。
 exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -46,18 +46,17 @@ ht-degree: 0%
 
 ## 相關資源
 
-- **原生PDF設定步驟** - [Experience League](/help/product-guide/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+- **原生PDF設定步驟** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **原生PDF發佈的功能概觀** - [在Experience League上](/help/product-guide/knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+- **原生PDF發佈的功能概觀** - [在Experience League上](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **記錄常見的使用案例** - [在Experience League上](/help/product-guide/native-pdf/stylesheet.md)
+- **記錄常見的使用案例** - [在Experience League上](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
 - **社群論壇**  — 如需Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
->
 > - 內部部署4.2或更新版本
 > - Cloud Service 2309和更新版本
 

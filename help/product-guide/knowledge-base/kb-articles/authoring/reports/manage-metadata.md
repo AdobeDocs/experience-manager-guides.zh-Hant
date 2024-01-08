@@ -2,9 +2,9 @@
 title: 在AEM Guides中管理DITA檔案的標籤
 description: 有關在AEM Guides中管理cq：tags的簡短文章
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ### 在管理 — >中繼資料中的清單是空的或不完整
 
-如果清單是空的或不完整，您可能需要在您的ditamap上執行索引，您可以參考 [升級指示（為您的內容編制索引）](/help/product-guide/install-guide/upgrade-xml-documentation.md#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [升級指示（為您的內容編制索引）](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### 自訂中繼資料未出現在清單中
 
@@ -54,8 +54,8 @@ ht-degree: 1%
 
 ## 其他實用資源
 
-- [使用地圖儀表板（資產UI）大量標籤](/help/product-guide/user-guide/map-editor-bulk-tagging.md)
-- [網頁編輯器中的Ditamap報表](/help/product-guide/user-guide/reports-web-editor.md)
+- [使用地圖儀表板（資產UI）大量標籤](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [網頁編輯器中的Ditamap報表](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [AEM中的標籤](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 

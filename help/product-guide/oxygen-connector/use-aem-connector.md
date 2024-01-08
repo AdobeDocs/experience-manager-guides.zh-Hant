@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe Experience Manager Guides的氧氣外掛程
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0e19b870541e8e65dc371eb01fc3256f172c1a91
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6294'
 ht-degree: 0%
 
 ---
@@ -246,22 +246,21 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
    ![檔案型別關聯](images/document_type_association.png){width="650" align="left"}
 
-1. 在 **類別路徑** 索引標籤中，選取com.adobe.o2.connector **透過ID使用外掛程式中的父類別載入器** 下拉式清單。
+1. 在 **類別路徑** 索引標籤，選取 `com.adobe.o2.connector` 在 **透過ID使用外掛程式中的父類別載入器** 下拉式清單。
 
    ![類別路徑索引標籤](images/dita-extension.png){width="650" align="left"}
 
 1. 在 **擴充功能** 標籤，進行下列變更：
-   - 按一下 **選擇** 在 **作者擴充功能狀態監聽器** 在 **個別擴充功能** 並選取「 」中的「CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn」 **類別** 清單。 按一下&#x200B;**「確定」**。
-   - 按一下 **選擇** 在 **作者自訂屬性值編輯器** 在 **個別擴充功能** 並選取「 」中的「CustomValueEditor - com.adobe.o2.framework.extn」 **類別** 清單。 按一下 **確定**.
-下列熒幕擷圖顯示設定的 **副檔名** DITA主題的索引標籤：
 
-     ![為DITA主題設定的擴充功能](images/dita-topic-extension-tab.png){width="650" align="left"}
-
-   - 按一下 **選擇** 在 **擴充功能套裝** 並選取LinkResolverExtensionBundle - com.adobe.o2.framework.extn於 **類別** 清單。 按一下&#x200B;**「確定」**。
-
+   - 按一下 **選擇** 在 **擴充功能套裝** 並選取   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` 在 **類別** 清單。 按一下&#x200B;**「確定」**。
      ![為DITA主題設定的擴充功能](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+   - 按一下 **選擇** 在 **作者擴充功能狀態監聽器** 在 **個別擴充功能** 並選取 `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` 在 **類別** 清單。 按一下&#x200B;**「確定」**。
+   - 按一下 **選擇** 在 **作者自訂屬性值編輯器** 在 **個別擴充功能** 並選取 `CustomValueEditor - com.adobe.o2.framework.extn` 在 **類別** 清單。 按一下&#x200B;**「確定」**。
+   - 按一下 **選擇** 在 **編寫外部物件插入處理常式** 在 **個別擴充功能** 並選取 `CustomURLInsertionHandler - com.adobe.o2.ui ` 在 **類別** 清單。 按一下&#x200B;**「確定」**。
 
 
+   下列熒幕擷圖顯示設定的 **副檔名** DITA主題的索引標籤：
+   <img src="images/dita-topic-extension-tab.png" alt="為DITA主題設定的擴充功能" width="650" border="2px">
 1. 按一下 **確定** 以儲存變更。
 
 ### 設定DITA map擴充功能
@@ -270,20 +269,23 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
 執行以下步驟來設定DITA map擴充功能：
 
-1. 在Oxygon XML Author中，按一下&#x200B;**選項** \> **偏好設定**.
+1. 在Oxygon XML Author中，按一下 **選項** \> **偏好設定**.
 1. 在 **檔案型別關聯** 索引標籤，選取 **DITA Map**，然後按一下 **延伸**.
 1. 在 **類別路徑** 索引標籤中，選取com.adobe.o2.connector **透過ID使用外掛程式中的父類別載入器** 下拉式清單。
 1. 在 **擴充功能** 標籤，進行下列變更：
-1. 
-   - 按一下 **選擇** 在 **作者擴充功能狀態監聽器** 在 **個別擴充功能** 並選取CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn於 **類別** 清單。 按一下&#x200B;**「確定」**。
-- 按一下 **選擇** 在 **作者自訂屬性值編輯器** 在 **個別擴充功能** 並選取「 」中的「CustomValueEditor - com.adobe.o2.framework.extn」 **類別** 清單。 按一下&#x200B;**「確定」**。
-- *\（可選\）* 如果您不想在開啟對映檔案時解析參照，則需要執行下列其他組態：
+   - 按一下 **選擇** 在 **擴充功能套裝** 並選取   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` 在 **類別** 清單。 按一下&#x200B;**「確定」**。
 
-  按一下 **選擇** 在 **參考解析程式** 在 **個別擴充功能** 並選取CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn於 **類別** 清單。 按一下&#x200B;**「確定」**。
+   - 按一下 **選擇** 在 **作者擴充功能狀態監聽器** 在 **個別擴充功能** 並選取 `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` 在 **類別** 清單。 按一下&#x200B;**「確定」**。
 
-  下列熒幕擷圖顯示設定的 **副檔名** 標籤：
+   - 按一下 **選擇** 在 **編寫外部物件插入處理常式** 在 **個別擴充功能** 並選取 `CustomURLInsertionHandler - com.adobe.o2.ui ` 在 **類別** 清單。 按一下&#x200B;**「確定」**。
 
-  ![為DITA map設定的延伸](images/dita-map-extension-tab.png){width="650" align="left"}
+   - 按一下 **選擇** 在 **作者自訂屬性值編輯器** 在 **個別擴充功能** 並選取 `CustomValueEditor - com.adobe.o2.framework.extn` 在 **類別** 清單。 按一下&#x200B;**「確定」**。
+
+   - 按一下 **選擇** 在 **參考解析器** 在 **個別擴充功能** 並選取 `CustomDITAMapReferenceResolver - com.adobe.o2` 在 **類別** 清單。 按一下&#x200B;**「確定」**。
+   - *\（可選\）* 如果您不想在開啟對映檔案時解析參照，則需要執行下列其他組態：
+
+   下列熒幕擷圖顯示設定的 **副檔名** 標籤：
+   <img src="images/dita-map-extension-tab.png" alt="為DITA map設定的延伸" width="650" border="2px">
 
 1. 按一下 **確定** 以儲存變更。
 
@@ -440,7 +442,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
    ![簽入對話方塊](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   您可以將多個標籤（以逗號分隔）新增至主題的相同版本。  例如， *Adobe*， *AEM*，*指南*
+   您可以將多個標籤（以逗號分隔）新增至主題的相同版本。  例如， *Adobe*， *AEM*， *指南*.
 不過，您無法將相同的標籤新增至主題的不同版本。 如果您新增已新增至舊版的標籤，則會新增至最新版本並從舊版中移除。
 
    >[!NOTE]
@@ -511,7 +513,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
 - 當您從AEM存放庫簽出內容並在本機系統上變更時，請確保在上傳檔案時檔案名稱未變更。
 
-- 當您在DITA Map管理員中插入參照時，會顯示檔案的標題，而非UUID。 如果標題不存在，則會顯示檔案名稱。
+- 當您在DITA Map管理員或編輯器中插入參照時，會顯示檔案的標題而非UUID。 如果標題不存在，則會顯示檔案名稱。
 
 ### 新增或移除我的最愛 {#id195HC04405P}
 
@@ -607,6 +609,24 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
    >[!NOTE]
    >
    >請確定您使用AEM Guides的氧氣外掛程式來簽入主題，如果您從AEM網頁介面簽入，您在氧氣XML作者中所做的變更不會儲存在主題的簽入版本中。
+
+**插入對「Experience Manager指南」存放庫中主題的參照**
+
+您也可以拖放主題，將參照插入主題或DITA map中。
+>[!NOTE]
+>
+> 在新增任何對檔案的參照之前，您必須先出庫檔案。
+
+會根據參照型別新增下列元素：
+
+如果您拖曳至編輯器並開啟主題：
+- 新增參考資料 `<image>` 影像的元素。
+- 會為視訊或音訊新增物件元素。
+- 此 `<xref>`  會針對所有其他參照(如主題、對應、DITAVAL、PDF、ZIP和XML)新增元素。
+
+如果您使用開啟的對映拖放至編輯器或DITA Map管理員：
+- 此 `<mapref>` 會為對應參照（包括DITA map、書籤對應或主旨配置）新增元素。
+- 此 `<topicref>` 會針對所有其他參照(如主題、對應、DITAVAL、PDF、ZIP和XML)新增元素。
 
 
 ## 使用屬性設定檔 {#id1827JA002YK}

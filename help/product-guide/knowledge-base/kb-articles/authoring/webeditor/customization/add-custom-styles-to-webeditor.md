@@ -2,9 +2,9 @@
 title: 將自訂樣式新增至「參考線」編輯器
 description: 瞭解如何新增自訂樣式以變更「參考線」編輯器的外觀。
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 0%
 [使用此連結來進一步瞭解資料夾設定檔和設定CSS範本版面](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 使用下列專案在編輯器中設定上述樣式：
-
 - 使用 [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) 並將其上傳到您選擇的資料夾設定檔
 - 安裝附加的封裝 [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) 使用AEM套件管理器安裝上述CSS檔案中使用的資源
 
@@ -57,4 +56,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## 參考
 
-您可能也會對中介紹的網路使用者組態和自訂專家座談會感興趣 [Webeditor專家講座](/help/product-guide/knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+您可能也會對中介紹的網路使用者組態和自訂專家座談會感興趣 [Webeditor專家講座](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

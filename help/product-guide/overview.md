@@ -1,15 +1,15 @@
 ---
-title: Experience Manager指南檔案
-description: 尋找Experience Manager指南(先前稱為Adobe Experience Manager的XML Documentation)的產品檔案。 瞭解Experience Manager的原生DITA支援和結構化撰寫。
+title: Experience Manager指南的Tutorials
+description: 尋找「Experience Manager指南」(先前稱為Adobe Experience Manager適用的XML Documentation)的教學課程影片。 瞭解Experience Manager的原生DITA支援和結構化撰寫。
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: f02a9e4a71796996a4ea933cb3c5b983103a251b
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides] 概覽 {#overview}
+# 的Tutorials [!DNL Adobe Experience Manager Guides] {#overview}
 
 [!DNL Experience Manager Guides] (稱為 _[!DNL AEM Guides]_此後)是功能強大、企業級元件內容管理解決方案(CCMS)。 這在Experience Manager中啟用原生DITA支援，使AEM能夠處理以DITA為主的內容建立和傳遞。 它可讓作者使用任何離線DITA編寫工具(例如Adobe FrameMaker或易於使用的內建Web編輯器)來建立內容。
 
@@ -21,17 +21,17 @@ ht-degree: 0%
 > 
 > Adobe Experience Manager Guides先前的品牌為 _適用於Adobe Experience Manager的XML Documentation_. 請注意，檔案中的某些參考資料可能仍會參考先前的品牌，但仍適用於目前的產品。
 
-## 教學影片
+## 新增功能
 
-* **[[!DNL AEM Guides] 快速入門教學課程](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target=_blank}**
+* **[[!DNL AEM Guides] 快速入門課程](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
 
   _瞭解如何建立、組織、編寫和發佈內容 [!DNL Adobe Experience Manager Guides]._
 
-* **[[!DNL AEM Guides] 在內建Web編輯器中編寫](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target=_blank}**
+* **[[!DNL AEM Guides] 在內建Web編輯器中編寫](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
 
   _瞭解如何在中使用原生網頁編輯器製作內容  [!DNL Adobe Experience Manager Guides]. 取得對使用者偏好設定、編輯器設定、組態、工具列等的完整瞭解。_
 
-* **[輸出產生方式 [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target=_blank}**
+* **[輸出產生方式 [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
   _瞭解如何使用產生輸出 [!DNL Adobe Experience Manager Guides]. 瞭解輸出產生的各種可用功能 — 報告、基線、條件、疑難排解、大量發佈和啟用。_
 
@@ -88,11 +88,9 @@ Dummy links cause validation to fail
 
 -->
 
-<!--
 
-## Additional Resources
+## 其他資源
 
-* [[!DNL AEM Guides] Online User Guide](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
-* [[!DNL AEM Guides] PDF Guides](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
--->
+* [[!DNL AEM Guides] 線上使用手冊](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
+* [[!DNL AEM Guides] PDF指南](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [Experience League — 探索AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)

@@ -2,9 +2,9 @@
 title: 內容和範本設定
 description: 瞭解在AEM Guides中設定內容和範本時應考慮哪些事項。
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 ## 工作階段概述
 
 在本次研討會中，我們廣泛涵蓋下列內容：
-
 - 內容設定的不同層面（分類、分類、中繼資料）
 - 設定內容範本（主題範本、地圖範本、代碼片段）
+
 
 
 ## 工作階段錄製
@@ -38,7 +38,6 @@ ht-degree: 1%
 ## 關鍵重點
 
 在本次研討會中，您已瞭解下列內容：
-
 - 在匯入/建立內容之前，需要花時間進行分析和思考
 - 分類內容並加以分類，以符合不同的使用者區段（一般使用者或作者）
 - 運用中繼資料功能提升使用者生產力
@@ -52,14 +51,13 @@ ht-degree: 1%
 
 - **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **使用手冊** - [作者內容](/help/product-guide/user-guide/reports-intro.md)
+- **使用手冊** - [作者內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **社群論壇**  — 如需Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
->
 > - 內部部署：4.2或更新版本
 > - Cloud Service： 2303或更新版本
 

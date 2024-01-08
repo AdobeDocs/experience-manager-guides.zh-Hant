@@ -1,9 +1,9 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides的新增功能，2023年12月發行
 description: 在2023年12月版本的Adobe Experience Manager Guidesas a Cloud Service中瞭解新增和增強功能。
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: a2605a7758f53fd877f28cad98a1ef17f9f87b50
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 0%
 如需有關升級指示、相容性矩陣，以及此版本中修正問題的詳細資訊，請檢視 [發行說明](release-notes-2023.12.0.md).
 
 
-## 在原生PDF輸出中使用變數
+## 在PDF輸出中使用變數
 
-您可以使用變數集來動態插入和管理可能根據特定條件（例如產品名稱和版本）變更的資訊。 此功能可協助您使用相同的PDF配置，並產生具有不同值的輸出。 您不需要為每一組值建立個別的版面。
+您可以使用變數來動態插入及管理可重複使用的資訊。 Experience Manager參考線可協助您在產生PDF輸出時建立、編輯和預覽變數。 您可以快速修改變數的值，讓您的檔案可攜式且易於更新。
 
-例如，您可以為每個產品建立一個變數集。 此變數集可包含不同產品詳細資訊（例如ProductName、VersionNumber和ReleaseDate）的變數。 然後，您可以為這些變數新增不同的值。
+![原生pdf變數](assets/add-variable-default.png){width="800" align="left"}
+
+*在網頁編輯器中建立和管理變數。*
+
+您也可以建立修訂預設值的變數集，並為變數指派替代值。 在頁面配置中插入這些變數，並使用相同的PDF配置，您就不必為每一組值建立個別的配置。 例如，您可以為每個產品發行建立一個變數集。 此變數集可包含不同產品詳細資料的變數，例如產品名稱、版本號碼和發行日期。 然後，您可以為這些變數新增不同的值。
 
 **變數集1：Adobe集1**
 
@@ -27,30 +31,25 @@ ht-degree: 0%
 * 版本號碼：2311
 * 發行日期： 2023年11月2日
 
-**變數集1：Adobe集2**
+**變數集2：Adobe集2**
 
 * ProductName：Experience Manager指南
 * 版本號碼：2310
 * 發行日期： 2023年9月27日
 
 
-![原生pdf變數](assets/native-pdf-variables.png){width="800" align="left"}
-
-*從網頁編輯器的「輸出」標籤建立變數。*
-
-您也可以使用具有HTML標籤的值來建立變數。 例如，使用從內容DAM新增影像 `<img>` 標籤之間。
-
-建立變數後，您可以使用輸出範本中的版面配置將變數新增到檔案中的適當位置。 系統會根據您在輸出預設集中選取的變數集，自動選取PDF輸出中的值。
-
-
 
 <img src="./assets/native-pdf-variable-output.png" alt="PDF輸出中的頁尾" width="500" border="2px">
 
-*使用PDF配置中的變數產生原生PDF輸出。*
+*使用PDF配置中的變數產生PDF輸出。*
 
-此功能可協助您利用檔案中的動態內容產生自訂輸出，並有效管理變更。 您也可以套用樣式，並使用HTML標示來格式化變數。
+您可以套用樣式，並使用HTML標示來格式化變數。  您也可以在需要時快速更新任何變數的值，並重新產生輸出。 例如，如果您需要更新版本的詳細資訊，可以在VersionNumber變數中編輯版本值並重新產生輸出。
 
-您也可以在需要時快速更新任何變數集的值，並重新產生輸出。 例如，如果您需要更新版本的詳細資訊，可以在VersionNumber中更新版本的值並重新產生輸出。
+
+進一步瞭解如何使用 [PDF輸出中的變數](../native-pdf/native-pdf-variables.md).
+
+
+
 
 
 ## 編輯屬性的改版體驗
@@ -89,6 +88,7 @@ ht-degree: 0%
 
 *建立ServiceNow知識庫的輸出預設集。*
 
+進一步瞭解 [知識庫](../user-guide/generate-output-knowledge-base.md) 輸出預設集。
 
 ## 增強的地圖集合儀表板
 
@@ -124,6 +124,8 @@ Experience Manager指南現在提供增強的使用者體驗，讓您從網頁�
 ![複製基準線 ](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *根據標籤複製基準線或建立精確副本。*
+
+進一步瞭解如何 [從網頁編輯器建立和管理基準線](../user-guide/web-editor-baseline.md).
 
 ## 改善建立大量啟用地圖集合的程式
 

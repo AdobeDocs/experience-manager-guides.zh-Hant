@@ -2,9 +2,9 @@
 title: 翻譯內容
 description: 瞭解如何將您的內容翻譯成多種語言。
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '166'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,6 @@ AEM Guides提供終極的多語言內容建立解決方案，並具備強大的�
 ## 關鍵重點
 
 在這場會議中，您將瞭解以下內容：
-
 - 公司投資翻譯以改善業務的原因
 - 可用的框架機制和翻譯程式
 - 自動化翻譯工作流程、API和控制面板
@@ -41,14 +40,13 @@ AEM Guides提供終極的多語言內容建立解決方案，並具備強大的�
 
 - **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **使用手冊** - [翻譯內容](/help/product-guide/install-guide/translation.md)
+- **使用手冊** - [翻譯內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
 - **社群論壇**  — 如需Experience League上特定工作階段的社群互動，請造訪 [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
 > 此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
->
 > - 內部部署4.1或更新版本
 > - Cloud Service 2207或更新版本
 

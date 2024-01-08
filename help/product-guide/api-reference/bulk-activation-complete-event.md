@@ -1,7 +1,7 @@
 ---
 title: 大量啟用完成事件處理常式
 description: 瞭解大量啟用完成事件處理常式
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8f1bb12a92ab9a63aef1765e51159644242683a0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%
@@ -11,7 +11,6 @@ ht-degree: 1%
 # 大量啟用完成事件處理常式
 
 Experience Manager指南公開 `com/adobe/fmdita/replication/complete` 用來在大量啟動程式完成後執行任何作業的事件。 當大量啟用程式完成時，就會觸發此事件。 例如，如果您執行大量啟動地圖的AEM網站預設集，此事件會在啟動程式結束後呼叫。
-
 
 您需要建立AEM事件處理常式，以讀取此事件中可用的屬性，並進行進一步處理。
 

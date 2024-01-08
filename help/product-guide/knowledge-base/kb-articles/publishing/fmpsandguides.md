@@ -2,9 +2,9 @@
 title: AEM Guides中的FrameMaker Publishing Server (FMPS)發佈功能
 description: 使用AEM Guides以FMPS發佈
 exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
-source-git-commit: c31a569c009155dacef00b6b3f1e6d64e556cf29
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## FMPS與AEM Guides的相容性
 
-- 與4.1 AEM Guides的相容性： [4.1相容性矩陣](/help/product-guide/release-info/release-notes-4.1.md#compatibility-matrix)
+- 與4.1 AEM Guides的相容性： [4.1相容性矩陣](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - 與4.0 AEM Guides的相容性： [4.0相容性矩陣](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 最新版本： [最新版本資訊](/help/product-guide/release-info/latest-release-info.md)
+- 最新版本： [最新版本資訊](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## 安裝
 

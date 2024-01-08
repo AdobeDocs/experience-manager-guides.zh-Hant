@@ -2,9 +2,9 @@
 title: 撰寫網頁型內容
 description: 瞭解如何使用網頁編輯器編寫結構化內容。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ AEM Guides隨附內建的網頁編輯器，可用於編寫結構化內容。 您
 ## 關鍵重點
 
 在這場會議中，您將瞭解以下內容：
-
 - 設定網頁編輯器的設定
 - 使用網頁編輯器功能提高作者的生產力
 - 擴充及整合可用的功能
@@ -41,14 +40,13 @@ AEM Guides隨附內建的網頁編輯器，可用於編寫結構化內容。 您
 
 - **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **使用手冊** - [作者內容](/help/product-guide/user-guide/authoring-content.md)
+- **使用手冊** - [作者內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
 - **社群論壇**  — 如需Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
->
 > - 內部部署4.1.3或更新版本
 > - Cloud Service 2211和更新版本
 

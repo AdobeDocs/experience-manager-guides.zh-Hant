@@ -1,10 +1,10 @@
 ---
-title: 原生PDF |產生PDF輸出
+title: 原生PDF | 產生PDF輸出
 description: 瞭解如何使用原生PDF發佈、建立和產生PDF輸出預設集、產生原生PDF輸出後下載暫存檔案，以及在AEM Guides中使用語言變數。
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '3255'
+source-wordcount: '3196'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 使用此方法可從地圖控制面板產生地圖的PDF輸出。 您可以針對在地圖控制面板中開啟的地圖，建立輸出預設集，在產生PDF之前設定發佈屬性。 若要建立或編輯輸出預設集，請使用 *瞭解輸出預設集* 中的區段 [AEM Guidesas a Cloud Service使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-如需有關使用DITA-OT方法產生PDF的詳細資訊，請參閱 [使用DITA-OT產生PDF](/help/product-guide/user-guide/generate-output-pdf.md).
+如需有關使用DITA-OT方法產生PDF的詳細資訊，請參閱 [使用DITA-OT產生PDF](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
 * **FrameMaker Publishing Server(FMPS)**
 
 使用此方法，不僅從DITA內容產生PDF輸出，還從AEM存放庫中可用的FrameMaker檔案(.book和.fm)產生輸出。 您可設定輸出預設集來建立PDF，並使用FrameMaker Publishing Server(FMPS)發佈。 您可以針對PDF和其他格式來設計和設定輸出的外觀，並將它們儲存在設定檔案(.sts)中。 然後FMPS會使用此設定檔案來產生DITA map或.book檔案的輸出。 若要建立或編輯輸出預設集，請參閱  *瞭解輸出預設集* 中的區段 [AEM Guidesas a Cloud Service使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-如需有關設定FMPS的詳細資訊，請參閱 [從FrameMaker檔案產生輸出](/help/product-guide/user-guide/fm-output-generate.md).
+如需有關設定FMPS的詳細資訊，請參閱 [從FrameMaker檔案產生輸出](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
 * **原生PDF發佈**
 
@@ -74,8 +74,8 @@ ht-degree: 0%
 | --- | --- |
 | **輸出路徑** | AEM存放庫內儲存PDF輸出的路徑。 確定輸出路徑不在專案資料夾內。 如果保留為空白，輸出會在預設DITA map輸出位置中產生。<br>您也可以使用下列現成的變數來定義輸出路徑。 您可以使用單一變數或變陣列合來定義此選項。 <br> `${map_filename}`：使用DITA map檔案名稱來建立目的地路徑。 <br> `${map_title}`：使用DITA map標題建立目的地路徑。 <br>`${preset_name}`：使用輸出預設集名稱建立目的地路徑。 <br> `${language_code}`：使用對應檔案所在的語言代碼來建立目的地路徑。 <br> `${map_parentpath}`：使用對應檔案的完整路徑來建立目的地路徑。  <br>`${path_after_langfolder}`：使用語言資料夾之後的對應檔案路徑來建立目的地路徑。 |
 | **PDF檔案** | 指定檔案名稱以儲存PDF。 依預設，PDF檔案名稱會新增DITA map名稱以及預設名稱。 例如，ditamap是「TestMap」，而預設集的名稱是「preset1」，則pdf的預設名稱將是「TestMap_preset1.pdf」。 <br>您也可以使用下列現成可用的變數來定義「PDF檔案」。 您可以使用單一變數或變陣列合來定義此選項。 <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`。 |
-| **套用條件，使用** | 對於條件式內容，請從下列選項中選擇，以根據這些條件產生PDF輸出： <br><ul> <li> **未套用任何** 如果您不想在地圖和來源內容上套用任何條件，請選取此選項。 <br><li> **Ditaval檔案** 選取DITAVAL檔案以產生條件式內容。 若要選取，請按一下「條件預設集」並找出檔案。 <br> <li> **條件預設集** 從下拉式清單中選取條件預設集，以在發佈輸出時套用條件。 如果您已為DITA map檔案新增條件，則會顯示此選項。 條件設定可在DITA map主控台的「條件預設集」標籤中使用。 若要進一步瞭解條件預設集，請參閱 [使用條件預設集](/help/product-guide/user-guide/generate-output-use-condition-presets.md). <br> </ul> |
-| **使用基準線** | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。 另請參閱 [使用基準線](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) 以取得更多詳細資料。 |
+| **套用條件，使用** | 對於條件式內容，請從下列選項中選擇，以根據這些條件產生PDF輸出： <br><ul> <li> **未套用任何** 如果您不想在地圖和來源內容上套用任何條件，請選取此選項。 <br><li> **Ditaval檔案** 選取DITAVAL檔案以產生條件式內容。 若要選取，請按一下「條件預設集」並找出檔案。 <br> <li> **條件預設集** 從下拉式清單中選取條件預設集，以在發佈輸出時套用條件。 如果您已為DITA map檔案新增條件，則會顯示此選項。 條件設定可在DITA map主控台的「條件預設集」標籤中使用。 若要進一步瞭解條件預設集，請參閱 [使用條件預設集](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
+| **使用基準線** | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。 另請參閱 [使用基準線](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) 以取得更多詳細資料。 |
 | **建立已發佈版本間具有變更列的PDF** | 使用下列選項來建立一個PDF，使用變更列顯示兩個版本之間的內容差異：   <br><ul><li> **先前版本的基準線** 選擇要與目前版本或其他基準比較的基準版本。 PDF中會顯示變更列，以指出修改的內容。 變更列是垂直線，以視覺化方式識別新內容或修訂的內容。 變更列會顯示在已插入、變更或刪除的內容左側。 <br> **注意**：如果您選取 **使用基準線** 並選擇要發佈的基準線，則會比較兩個選取的基準線版本。 例如，如果您選擇底下的「比較基準1.3版」 **使用基準線**，和下的1.1版 **先前版本的基準線**，則會比較基準版本1.1與基準版本1.3。 <br><li> **顯示新增的文字** 選取以綠色和底線顯示插入的文字。 依預設，會選取此選項。 <br> <li> **顯示刪除的文字** 選取以紅色顯示刪除的文字，並以刪除線標示。 依預設，會選取此選項。 <br>**注意** 您也可以使用樣式表自訂變更列、插入內容或刪除內容的樣式。<br></ul> |
 | **貼文產生工作流程** | 選取以顯示包含AEM中設定之所有工作流程的下拉式清單。 您可以選取在PDF產生工作流程完成後要執行的工作流程。 |
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 | **啟用MathML公式** | 選取此選項以呈現內容中出現的MathML方程式。 否則預設會忽略方程式。 |
 | **下載暫存檔案** | 如果您想要下載在產生原生HTML輸出時建立的臨時PDF檔案，請選取此選項。 您稍後可以在產生輸出後下載暫存檔案。 |
 | **PDF符合性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請參閱 [關於PDF標準](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
-| **檔案屬性** | 選取您要當作中繼資料處理的屬性。 下拉式清單會同時列出自訂和預設屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 設定後，這些屬性也會複製到對映中的主題中。 選取的中繼資料屬性會傳遞至使用原生PDF產生的輸出。 |
+
 
 ## 產生PDF輸出 {#generate-pdf-output}
 

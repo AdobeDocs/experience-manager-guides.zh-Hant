@@ -2,9 +2,9 @@
 title: 瞭解網頁編輯器功能
 description: 探索AEM Guides中的網頁編輯器功能。 瞭解網頁編輯器的介面，包括主工具列、次要工具列、左側面板、內容編輯區域以及右側面板。
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
 workflow-type: tm+mt
-source-wordcount: '17222'
+source-wordcount: '17364'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 0%
 
       - **在條件面板中顯示主旨配置**：選取此項以在條件面板中檢視主旨配置。 如果取消選取此專案，定義的條件會顯示在「條件」面板中。
 
-   - **編寫**
+   - **製作**
 
       - **啟用全部取代**：選取此項以檢視「尋找和取代」面板中的「全部取代」圖示。
 
@@ -147,9 +147,11 @@ ht-degree: 0%
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **發佈設定檔**：這包含可用來發佈知識庫輸出的發佈設定檔。 您可以為選取的消費者型別建立新的設定檔。 例如，Salesforce。
+- **發佈設定檔**：這包含可用來發佈的發佈設定檔 **知識庫** 輸出。 您可以為目標知識庫建立新的設定檔。 例如，Salesforce或ServiceNow。
 
-   - **建立Salesforce發佈設定檔的需求**
+   - **建立Salesforce發佈設定檔**
+
+     **必備條件**
 
       - 為Salesforce建立連線應用程式。 如需詳細資訊，請參閱 [啟用API整合的OAuth設定](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
@@ -157,7 +159,7 @@ ht-degree: 0%
 
          - 指定回呼。
 
-           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
          - 選取下列OAuth範圍：
             - 完整存取權（完整）
@@ -166,18 +168,38 @@ ht-degree: 0%
   設定應用程式後，Salesforce會提供 **使用者金鑰** 和 **使用者密碼**.
 
   這些可用來建立Salesforce發佈設定檔。
-  ![編輯器設定中的設定檔](./images/create-profile-editor-settings.png){width="300" align="left"}
 
 
+   - 若要建立Salesforce發佈設定檔，請選取 **Salesforce** 知識庫來自 **伺服器型別** 下拉式清單。 輸入設定檔名稱。 在 **網站URL**，輸入您要用來發佈輸出的消費者網站，然後新增 **使用者金鑰** 和 **使用者密碼** 由Salesforce消費者網站提供。 然後 **驗證** 和 **儲存** 新建立的設定檔。
+     ![編輯器設定中的salesforce發佈設定檔](./images/salesforce-publish-profile.png){width="550" align="left"}
 
-- 若要建立「發佈設定檔」，您可以從 **伺服器型別** 下拉式清單。 輸入設定檔名稱。 在 **網站URL** 輸入您要用於發佈輸出的消費者網站，然後新增 **使用者金鑰** 和 **使用者密碼** 由Salesforce等消費者網站所提供。 然後登入新建立的設定檔。
-
-  >[!NOTE]
-  >
-  >若要在Experience Manager指南中設定Salesforce的Proxy，請在AEM中使用Apache HTTP元件Proxy Configuration 。 瞭解如何 [設定AEM連結檢查器的Proxy](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >[!NOTE]
+     >
+     >若要在Experience Manager指南中設定Salesforce的Proxy，請在AEM中使用Apache HTTP元件Proxy Configuration 。 瞭解如何 [設定AEM連結檢查器的Proxy](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-  登入後，您可以在DITA Map的輸出預設集中選取發佈設定檔，並使用產生所選文章的輸出。 如需詳細資訊，請參閱 [從網頁編輯器以文章為基礎的發佈](../install-guide/configure-article-based-publishing.md) 安裝及設定指南中的。
+   - **建立ServiceNow Publish設定檔**
+
+     **必備條件**
+
+     設定ServiceNow伺服器以上傳資產。
+      - 連線至 **ServiceNow** 伺服器。
+      - 瀏覽至 **系統屬性** > **安全性**.
+      - 取消核取下列選項：
+
+        **此屬性必須設定為啟動用於上傳的MIME型別檢查（所有版本均為Eureka及以上）。 啟用(true)或停用(false)檔案附件的mime型別驗證。 上傳期間，系統會檢查透過glide.attachment.extensions設定的副檔名是否為MIME型別。**
+
+      - 按一下「**儲存**」。
+
+     設定應用程式後，請建立 **ServiceNow** 發佈設定檔。
+   - 若要建立發佈設定檔，請從以下位置選取ServiceNow知識庫： **伺服器型別** 下拉式清單。 輸入設定檔 **名稱**. 在 **ServiceNow URL**，輸入您要用於發佈輸出的消費者網站，然後新增 **使用者名稱** 和 **密碼** 由ServiceNow消費者網站提供。 然後 **驗證** 和 **儲存** 新建立的設定檔。
+
+     ![ServiceNow發佈設定檔](./images/service-now-publish-profile.png){width="550" align="left"}
+
+  驗證之後，您可以在DITA Map的輸出預設集中選取發佈設定檔，並使用它產生輸出至  **Salesforce** 或 **ServiceNow** 您選擇的伺服器。
+
+  進一步瞭解 [知識庫](../user-guide/generate-output-knowledge-base.md) 輸出預設集。
+
 
 - **驗證**：此索引標籤包含在網頁編輯器中設定「方案驗證」的選項。 您可以啟用下列功能：
 
@@ -186,7 +208,7 @@ ht-degree: 0%
      >[!NOTE]
      >選取的結構描述檔案將會在選取的資料夾設定檔中持續存在。
 
-     ![在編輯器設定中驗證](./images/editor-setting-validation.png){width="300" align="left"}
+     ![在編輯器設定中驗證](./images/editor-setting-validation.png){width="550" align="left"}
 這可防止使用者儲存任何破壞所選Schematron檔案中定義規則的檔案。 如果未選取此專案，在儲存變更之前，將不會驗證檔案。
 
    - **允許所有使用者在驗證面板中新增結構描述檔案**：選取此項可允許使用者在網頁編輯器的「驗證」面板中新增任何Schematron檔案。 這可讓使用者新增Schematron檔案，然後針對Schematron檔案驗證主題。 若未選取此專案， **新增Schematron檔案** 按鈕無法供中的使用者使用。 **驗證面板** 網頁編輯器的。
@@ -232,9 +254,8 @@ ht-degree: 0%
 
 - **選取根對應**：選取DITA map檔案來解析索引鍵參照或字彙表專案。 選取的根對映解析關鍵參照的優先順序最高。 如需詳細資訊，請參閱 [解析關鍵參考](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > 如果您不想使用任何根對應，請確定 **選取根對應** 欄位為空白。
 
 **作者、來源和預覽模式**
@@ -666,7 +687,7 @@ AEM Guides可讓您以自由格式文字格式指定標籤，或使用一組預�
 
 這些標籤會以下拉式清單的形式顯示給需要指定標籤的作者。 這可確保在系統中只使用預先定義、一致的標籤。
 
-您可以透過不同的方法將標籤套用至主題 —  [版本記錄](web-editor-use-label.md#) Assets UI中的面板， [基準線](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) UI和Web編輯器。 網頁編輯器中的版本標籤功能可讓作者快速輕鬆地為其主題指派標籤。
+您可以透過不同的方法將標籤套用至主題 —  [版本記錄](web-editor-use-label.md) Assets UI中的面板， [基準線](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI和Web編輯器。 網頁編輯器中的版本標籤功能可讓作者快速輕鬆地為其主題指派標籤。
 
 若要從網頁編輯器將標籤新增至主題，請執行下列步驟：
 

@@ -2,9 +2,9 @@
 title: AEM Guides中的報表
 description: 瞭解哪些報表可在AEM中使用，以協助使用者改善內容品質。
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 1%
 ## 工作階段概述
 
 在這場會議中，我們展示了可供使用者使用的現成報告。 我們廣泛涵蓋下列專案：
-
 - 檔案（地圖）和主題報表
 - 中繼資料報表與大量中繼資料管理選項
 - 內容重複使用報告
@@ -41,7 +40,6 @@ ht-degree: 1%
 ## 關鍵重點
 
 在本次研討會中，您已瞭解下列內容：
-
 - CCMS中報告的重要性
 - 現成可用的報表
 - 內容報告的範例
@@ -53,14 +51,13 @@ ht-degree: 1%
 
 - **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **使用手冊** - [作者內容](/help/product-guide/user-guide/reports-intro.md)
+- **使用手冊** - [作者內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **社群論壇**  — 如需Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
->
 > - 內部部署：4.2或更新版本
 > - Cloud Service： 2302或更新版本
 

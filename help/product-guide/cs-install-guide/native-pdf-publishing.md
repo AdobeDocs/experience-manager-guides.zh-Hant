@@ -2,9 +2,9 @@
 title: 自訂及設定原生PDF發佈功能
 description: 瞭解如何自訂和設定原生PDF功能的各種元件。
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: c79f1d114d8a708cd088f2846243bbcfeed6e620
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 0%
 * [PDF範本的元件](../native-pdf/components-pdf-template.md)
 * [設計頁面配置](../native-pdf/design-page-layout.md)
 * [支援語言變數](../native-pdf/native-pdf-language-variables.md)
+* [PDF輸出中的變數](../native-pdf/native-pdf-variables.md)
 * 常見內容樣式 {#content-styles}
    * [使用常見的內容樣式](../native-pdf/stylesheet.md)
    * [使用自訂變更列樣式](../native-pdf/change-bar-style.md)

@@ -1,7 +1,7 @@
 ---
 title: 發行說明 | 2023年12月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年12月版的Adobe Experience Manager Guidesas a Cloud Service。
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 執行下列步驟，升級您目前的Experience Manager指南as a Cloud Service設定：
 
 1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將您的Cloud Service Git程式碼檔案設為2023.12.0.16。
+2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將您的Cloud Service Git程式碼檔案改成2023.12.0.15。
 3. 提交變更並執行Cloud Service管道，以升級至2023年12月版本的Experience Manager指南as a Cloud Service。
 
 ## 透過servlet啟用指令碼觸發的步驟
@@ -88,7 +88,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 執行以下步驟來索引現有內容，並在報表標籤底下的對應層級和主題清單中使用新的尋找和取代文字：
 
-1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引||例如： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引|| 例如： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
@@ -138,7 +138,7 @@ Experience Manager指南有 [**自訂sling重寫程式**](../cs-install-guide/co
 
 
 
-### 編寫
+### 製作
 
 - 此 **標題** 在Web編輯器索引標籤中，會在點(.)之後被截斷 設定的 Cookie。(14372)
 - 資產UI中重複對應名稱的錯誤訊息未更新。 (14320)

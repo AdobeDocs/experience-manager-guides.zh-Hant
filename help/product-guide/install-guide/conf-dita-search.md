@@ -2,9 +2,9 @@
 title: 設定AEM Assets UI搜尋
 description: 瞭解如何設定AEM Assets UI的搜尋
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1697'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,6 @@ ht-degree: 1%
 
    - **欄位標籤**： UUID
    - **屬性名稱**： jcr：content/fmUuid
-
 1. 按一下 **完成** 以儲存變更。
 
    當您存取Assets UI中的「篩選器」選項時，您將會取得UIS型搜尋篩選選項。
@@ -119,7 +118,7 @@ ht-degree: 1%
 >
 > 如果您想使用中的預設搜尋設定 `prolog` 元素，則可以略過此程式。
 
-此檔案包含兩個主要區段屬性集和規則集。 規則集區段的片段如下所示：
+此檔案包含兩個主要區段 — 屬性集和規則集。 規則集區段的片段如下所示：
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -128,6 +127,7 @@ ht-degree: 1%
 在規則集段落中，您可以指定：
 
 - 擷取元素的規則
+
 - 用於擷取屬性的規則
 
 
@@ -135,15 +135,15 @@ ht-degree: 1%
 
 xpath ：這是從DITA檔案擷取元素或屬性的XPath查詢。 元素規則的預設設定會擷取全部 `prolog` 元素。 而且，屬性規則的預設設定會擷取所有屬性 `prolog` 元素。 您可以指定XPath查詢來序列化您要搜尋的元素或屬性。
 
-XPath查詢包含檔案型別的類別名稱。 此 `topic/topic` 類別用於主題型別DITA檔案。 如果要為其他DITA檔案建立規則，則必須使用下列類別名稱：
-
-| 檔案型別 | 類別名稱 |
-|-------------|----------|
-| 主題 |  — 主題/主題 |
-| 任務 |  — 主題/主題任務/任務 |
-| 概念 |  — 主題/主題概念/概念 |
-| 參考 |  — 主題/主題參照/參照 |
-| 地圖 |  — 地圖/地圖 |
+    XPath查詢包含檔案型別的類別名稱。 「主題/主題」類別用於主題型別DITA檔案。 如果要為其他DITA檔案建立規則，則必須使用下列類別名稱：
+    
+    |檔案型別|類別名稱|
+    -------------|----------|
+    |主題| — 主題/主題|
+    |任務| — 主題/主題任務/任務|
+    |概念| — 主題/主題概念/概念|
+    |參考| — 主題/主題參考/參考|
+    |地圖| — 地圖/地圖|
 
 文字：如果您想要搜尋指定元素中的文字，請指定yes值。 如果您指定no as值，則只會序列化元素內的屬性。 您要在屬性集區段中搜尋的屬性必須指定。
 

@@ -2,9 +2,9 @@
 title: 建立和自訂原生PDF範本
 description: 瞭解如何建立及自訂原生PDF範本。
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 選取此選項，即可在「資產」UI中檢視範本。 開啟範本的根位置時，您可以檢視範本的所有資源。
 
 建立自訂範本後，您可以從PDF輸出預設集的「頁面配置」中選擇它。
-瞭解如何 [發佈PDF輸出](/help/product-guide/web-editor/native-pdf-web-editor.md).
+瞭解如何 [發佈PDF輸出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -112,7 +112,6 @@ ht-degree: 0%
 您可以調整範本元件並使用樣式表套用樣式格式來自訂範本。
 
 若要自訂PDF範本，請執行下列步驟：
-
 1. 在網頁編輯器中，前往 **輸出** 標籤。
 1. 展開左側邊欄並選取 **範本**.
 

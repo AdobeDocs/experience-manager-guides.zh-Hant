@@ -2,9 +2,9 @@
 title: 在編輯器工具列中新增自訂可操作的按鈕
 description: 瞭解如何在編輯器工具列中新增自訂按鈕，並呼叫javascript以自訂操作。
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ ht-degree: 0%
 
 ### 處理新按鈕的點按事件
 
->[!NOTE]
->
->以下提及的步驟可作為此貼文附加的套件使用
-
+    注意：以下提及的步驟可作為此貼文附加的套件提供
 
 
 - 儲存資料夾設定檔後，請在專案目錄(可能位於 */apps*)並新增屬性，如下列熒幕擷圖所示：

@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2023年2月發行
 description: 2月Adobe Experience Manager Guidesas a Cloud Service版本
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -121,22 +121,22 @@ AEM Guides可讓您在地圖中搜尋包含特定文字的檔案。 搜尋的文
 
 對於每個發佈請求，AEM Guidesas a Cloud Service會執行單獨的容器，其會根據使用者請求水平縮放。 這可讓您執行多個發佈請求並獲得改進的效能。
 
-如需詳細資訊，請參閱 [為AEM Guidesas a Cloud Service設定新的微服務型發佈](/help/product-guide/knowledge-base/publishing/configure-microservices.md).
+如需詳細資訊，請參閱 [為AEM Guidesas a Cloud Service設定新的微服務型發佈](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
-## 原生PDF |在PDF輸出中新增自訂書籤
+## 原生PDF | 在PDF輸出中新增自訂書籤
 
 現在，您可以在最終PDF輸出中的特定內容上新增自訂書籤，以方便瀏覽。 這將會新增至目錄，此目錄是根據DITA map中的主題或區段標題建立的。
 
-## 原生PDF |在目錄專案和主題內容套用自訂樣式
+## 原生PDF | 在目錄專案和主題內容套用自訂樣式
 
 AEM Guides提供在目錄專案或PDF輸出中的特定主題上套用自訂樣式的功能。 例如，您可以變更目錄中的文字顏色和主題標題。 您也可以在主題內的整個內容上套用樣式。
 
 
-## 原生PDF |在註腳元件中設定頁面標籤的樣式
+## 原生PDF | 設定註腳元件中頁面標籤的樣式
 
 現在您可以在註腳中設定頁面標籤的樣式。 例如，您可以新增括弧或變更其顏色。 這些樣式可協助使用者輕鬆識別檔案中的頁面標籤。
 
-## 原生PDF |變更列以指示目錄中已變更的主題
+## 原生PDF | 變更列以指示目錄中已變更的主題
 
 AEM Guides現在可讓您快速識別PDF輸出目錄中的變更主題。  它會在目錄中已變更的主題左側顯示變更列。 您可以按一下目錄中的主題並檢視詳細變更。
 
