@@ -2,7 +2,9 @@
 title: 將自訂樣式新增至「參考線」編輯器
 description: 瞭解如何新增自訂樣式以變更「參考線」編輯器的外觀。
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Web Editor
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

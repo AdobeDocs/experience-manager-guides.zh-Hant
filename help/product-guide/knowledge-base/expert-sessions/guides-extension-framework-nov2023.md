@@ -2,7 +2,9 @@
 title: AEM Guides的擴充功能架構 — 自訂Web編輯器並檢閱UI
 description: 透過Guides擴充功能架構，您可以使用易於更新的JSON、CSS和JavaScript，自訂Review Ui或Webeditor的所需區段。
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 20fb3f3556b5188764266e7fdf8aa876e45c1922
+feature: Web Editor, Troubleshooting
+role: User, Admin
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%

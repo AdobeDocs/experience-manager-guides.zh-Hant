@@ -2,7 +2,10 @@
 title: 建立和自訂原生PDF範本
 description: 瞭解如何建立及自訂原生PDF範本。
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 0%

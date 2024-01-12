@@ -2,10 +2,12 @@
 title: 發行說明 | 2023年11月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年11月版的Adobe Experience Manager Guidesas a Cloud Service
 exl-id: 80839890-075f-4187-a167-444c73215496
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1673'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -89,7 +91,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 執行以下步驟來索引現有內容，並在報表標籤底下的對應層級和主題清單中使用新的尋找和取代文字：
 
-1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 ||例如： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 || 例如： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
@@ -139,7 +141,7 @@ Experience Manager指南有 [**自訂sling重寫程式**](../cs-install-guide/co
 
 
 
-### 編寫
+### 製作
 
 - conref後的空格 `<ph>` 儲存主題時，元素會消失。 (13642)
 - 嘗試在後處理完成之前儲存DITA檔案時發生應用程式錯誤。 (13571)

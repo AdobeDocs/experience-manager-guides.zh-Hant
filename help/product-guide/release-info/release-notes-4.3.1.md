@@ -1,8 +1,10 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guides 4.3.1版中的升級指示和修正問題
+title: 發行說明 | Adobe Experience Manager Guides 4.3.1版中的升級指示和已修正問題
 description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Guides 4.3.1版
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 1%
@@ -78,7 +80,7 @@ ht-degree: 1%
 
 以下列出各種區域中修正的錯誤：
 
-### 編寫
+### 製作
 
 - 下午時數未設定在 **日期** 用於建立基準線。 (12712)
 - 無法將JSON程式碼貼入 `<codeblock>` 網站編輯器的元素。 (12326)
@@ -104,22 +106,22 @@ ht-degree: 1%
 
 ### 發佈
 
-- 原生PDF |產生PDF輸出時，主題的順序未固定。 (13157)
-- 原生PDF|沒有預設樣式標籤可用於 `<p>`元素。 (12559)
-- 原生PDF |套用至內容區域的內嵌樣式不會套用至前後關聯的主題。 (13510)
+- 原生PDF | 產生PDF輸出時，主題的順序未固定。 (13157)
+- 原生PDF| 沒有預設的樣式標籤可供使用 `<p>`元素。 (12559)
+- 原生PDF | 套用至內容區域的內嵌樣式不會套用至前後關聯的主題。 (13510)
 - 此 `DeliveryTarget` 屬性在產生AEM Site輸出時不會傳播。  (13132)
 - 此 **發佈** 為具有某些錯誤的內容產生AEM網站輸出時，工作流程卡住。 (12000)
 
-- 原生PDF |包含多個Xref會使文字延伸超過欄寬。 (13004)
-- 原生PDF |當主題和標題具有相同的ID時，會導致PDF輸出的產生格式錯誤。 (12644)
-- 原生PDF |新增輸出類別至父級時 `<topicref>` DITA map中的元素並將自訂樣式套用至outputclass時，該樣式會套用至主題內文中的元素，包括區段標題。 (12166)
+- 原生PDF | 包含多個Xref會延伸文字超過欄寬。 (13004)
+- 原生PDF | 當主題和標題具有相同的ID時，會導致PDF輸出的產生格式錯誤。 (12644)
+- 原生PDF | 將輸出類別新增至父級時 `<topicref>` DITA map中的元素並將自訂樣式套用至outputclass時，該樣式會套用至主題內文中的元素，包括區段標題。 (12166)
 - 如果DITA map有多個ditavalref，則增量發佈無法運作。 (12117)
-- AEM網站 |使用keydef將指向某個主題做為變數來建立對應，然後新增processing-role=resource-only會建立一些未預期的頁面。 (12099)
+- AEM網站 | 使用keydef將主題作為變數來建立對應，然後新增processing-role=resource-only會建立一些未預期的頁面。 (12099)
 - 如果來自AEM DAM的任何資產用於AEM網站以外的任何輸出，則中繼資料「jcr：createdBy」不會反映發佈者的名稱或上次修改DITA map或主題的使用者名稱。 (12090)
-- AEM Sites | DITA map的navtitle中帶有topichead （包含不支援的字元）會導致頁面URL錯誤。 (11978)
-- 原生PDF |在Frontmatter和Backmatter支援topichead / topicmeta / navtitle時發生問題。 (11969)
-- 原生PDF |為大型檔案產生PDF非常耗時。 (11955)
-- 原生PDF |重新命名預設集會在產生PDF輸出時擲回NullPointerException。 (11889)
+- AEM Sites | DITA地圖的navtitle中帶有主題標題（包含不支援的字元）會導致頁面URL錯誤。 (11978)
+- 原生PDF | 在Frontmatter和Backmatter支援topichead / topicmeta / navtitle時發生問題。 (11969)
+- 原生PDF | 為大型檔案產生PDF非常耗時。 (11955)
+- 原生PDF | 重新命名預設集會在產生PDF輸出時擲回NullPointerException。 (11889)
 - 此 `<conref>` 內容不會顯示在PDF輸出中。 (11131)
 - 系統會新增一個額外空格至 `<div>` 在頁面配置編輯器中的作者和來源檢視之間切換的元素。 (10750)
 - 在AEM Cloud Manager上復寫的內容在發佈執行個體上不可見。 (9564)

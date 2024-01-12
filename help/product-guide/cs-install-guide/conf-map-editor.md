@@ -2,7 +2,10 @@
 title: 將進階地圖編輯器設定為預設值
 description: 瞭解如何將進階地圖編輯器設為預設值
 exl-id: 365264ab-f990-42c1-ab79-61a40ecea42f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%

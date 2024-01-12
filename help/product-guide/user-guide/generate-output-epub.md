@@ -2,7 +2,9 @@
 title: ePub預設集
 description: 瞭解如何從地圖控制面板建立EPUB預設集。 在AEM Guides中設定EPUB輸出預設集。
 exl-id: b6fb5483-064e-4552-84c7-b6723b79d8c5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 1%

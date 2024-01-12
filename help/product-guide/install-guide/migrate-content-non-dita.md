@@ -2,7 +2,10 @@
 title: 移轉非DITA內容
 description: 瞭解如何移轉非DITA內容
 exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Migration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2761'
 ht-degree: 0%

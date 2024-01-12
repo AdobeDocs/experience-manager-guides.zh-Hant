@@ -1,7 +1,9 @@
 ---
 title: 發行說明 | 2023年12月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年12月版的Adobe Experience Manager Guidesas a Cloud Service。
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%

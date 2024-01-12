@@ -2,7 +2,9 @@
 title: 從網頁編輯器翻譯檔案
 description: 從網頁編輯器將您的內容翻譯成多種語言。 瞭解如何在AEM Guides中建立翻譯專案、新增規則、檢視版本和關閉不同步的檔案。
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Translation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 0%

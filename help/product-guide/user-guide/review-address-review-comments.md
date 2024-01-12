@@ -2,7 +2,9 @@
 title: 處理稽核意見
 description: 瞭解如何在AEM Guides中處理作為作者的評論意見。 探索作者如何編輯、篩選、接受或拒絕檔案中的註解。
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Reviewing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%

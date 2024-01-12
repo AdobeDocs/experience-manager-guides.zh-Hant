@@ -1,8 +1,10 @@
 ---
-title: 發行說明 |在Adobe Experience Manager Guides 4.3.0版本中的升級指示和修正問題
+title: 發行說明 | Adobe Experience Manager Guides 4.3.0版的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Guides 4.3.0版
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 1%
@@ -70,7 +72,7 @@ ht-degree: 1%
 
 以下列出各種區域中修正的錯誤：
 
-### 編寫
+### 製作
 
 - 雖然已選取「解除鎖定檔案」選項和「不儲存」選項，但不會在Web編輯器中解除鎖定主題檔案。 (12558)
 - 無法簽出網頁編輯器中的檔案，儘管選擇NO選項在簽入前捨棄變更。 (12557)
@@ -87,10 +89,10 @@ ht-degree: 1%
 - 安裝AEM Guides後即無法在欄檢視中編輯內容片段。 (7342)
 - 當未包裝的xref位於子元素標籤下時，內容會遺失。 (12532)
 - 從右側面板的「檔案」屬性將dostate變更為「結束狀態」時，核准工作流程無法運作。 (11026)
-- 資產UI |在「清單」檢視中，無法合併覆蓋的可用欄。 (11528)
+- 資產UI | 在「清單」檢視中，無法合併覆蓋的可用欄。 (11528)
 - 地圖檢視中未解析Keyref。 (11490)
 - 透過XML編輯器導覽時，未顯示最上方選單。 (10868)
-- `conref` 在ph標籤中 |顯示的瀏覽對話方塊不正確。 (9481)
+- `conref` 在ph標籤中 | 顯示的瀏覽對話方塊不正確。 (9481)
 - 指向其他元素的本機連結不會在網頁編輯器中解析。 (8790)
 - Matches()函式在schematron功能中無法運作。 (11224)
 
@@ -104,22 +106,22 @@ ht-degree: 1%
 
 ### 評論
 
-- 新檢閱UI |條件會醒目提示，且顯示隱藏的工作方式與在Web編輯器中有所不同。 (11628)
+- 新檢閱UI | 條件會醒目提示並顯示隱藏的運作方式，與它們在網頁編輯器中的運作方式不同。 (11628)
 
 ### 發佈
 
 - 重新命名原生PDF預設集時發佈失敗。 (12564)
 - 複製原生PDF範本會複製到預設範本位置，而不是提供的自訂範本位置。 (12563)
-- 原生PDF |語言中繼資料無法在產生的PDF中設定以符合WCAG 2.0。 (12407)
+- 原生PDF | 無法在產生的PDF中設定語言中繼資料以符合WCAG 2.0。 (12407)
 - 從Pod讀取可能已重新整理或重新啟動的暫存檔時，發佈至AEM網站失敗。 (12113)
-- 原生PDF |自訂屬性不會傳播至暫時HTML或PDF引擎。 (DXML-12005)
-- 原生PDF |發佈大型內容時發生Java OutOfMemoryError。 (11789)
+- 原生PDF | 自訂屬性不會傳播至暫時HTML或PDF引擎。 (DXML-12005)
+- 原生PDF | 發佈大型內容時發生Java OutOfMemoryError。 (11789)
 - 原生PDF | Xref正在列印href主題標題的內容而非Xref標籤。 (11322)
-- 原生PDF |無法儲存PDF範本設定。 (10751)
-- 原生PDF |文字延伸超過欄寬，包含多個xref。 (10876)
+- 原生PDF | 無法儲存PDF範本設定。 (10751)
+- 原生PDF | 文字延伸超過欄寬，包括多個xref。 (10876)
 - 原生PDF | `<note>``</note>` 元素不會產生其型別的額外範圍標題。 (10549)
-- JSON輸出 | `fmUuid` JSON的jcr：content節點上的屬性與JSON內的「id」不同。 (11564)
-- JSON輸出 |如果存在具有相同檔案名稱的對映和主題，則會移除對映的JSON。 (11524)
+- JSON輸出 | 此 `fmUuid` JSON的jcr：content節點上的屬性與JSON內的「id」不同。 (11564)
+- JSON輸出 | 如果存在具有相同檔案名稱的對映和主題，則會移除該對映的JSON。 (11524)
 
 ## 已知問題
 

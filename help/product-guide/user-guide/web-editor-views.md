@@ -2,7 +2,9 @@
 title: 網頁編輯器檢視
 description: 以作者、來源和預覽模式檢視檔案。 瞭解如何在AEM Guides中根據條件篩選器檢視內容、檢視追蹤變更標籤，以及將主題匯出為PDF。
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 新增和管理內容中的引文
 description: 在AEM Guides中新增和管理引文。 瞭解如何套用、匯入、篩選、搜尋、變更引文樣式、編輯、預覽、插入、刪除和產生包含引文的內容輸出。
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -133,7 +135,7 @@ AEM Guides支援多種型別的引用，例如Modern Language Association (MLA)�
 | MLA | APA | 芝加哥 | IEEE | AHA |
 |---|---|---|---|---|
 | 現代語言關聯樣式 <br> | 美國心理協會風格 | 芝加哥風格手冊 | 電氣與電子工程師風格協會 | 美國心臟協會風格 |
-| 範例：<br> 克勞福德、克萊爾等 *黑暗記憶的情感內容*.Edited by Memory， vol 16， 2010， Amsterdam。 | 範例： <br> Crawford， C.， J.， &amp; ， C.(2010)。 *黑暗記憶的情感內容* （505-16版本）。 10.1080/09658210902067289 | 範例： <br> 克勞福德、克萊爾等 *黑暗記憶的情感內容*. 505-16， 2010。 | 範例： <br> C. Crawford， J.和C. ， *黑暗記憶的情感內容*. 阿姆斯特丹，2010年。 | 範例： <br> C. Crawford， J.和C. ， *黑暗記憶的情感內容*. 阿姆斯特丹，2010年。 |
+| 範例：<br> 克勞福德、克萊爾等 *黑暗記憶的情感內容*.Edited by Memory， vol 16， 2010， Amsterdam。 | 範例： <br> Crawford， C.， J.， &amp;， C. (2010)。 *黑暗記憶的情感內容* （505-16版本）。 10.1080/09658210902067289 | 範例： <br> 克勞福德、克萊爾等 *黑暗記憶的情感內容*. 505-16， 2010。 | 範例： <br> C. Crawford， J.和C. ， *黑暗記憶的情感內容*. 阿姆斯特丹，2010年。 | 範例： <br> C. Crawford， J.和C. ， *黑暗記憶的情感內容*. 阿姆斯特丹，2010年。 |
 
 
 ## 編輯引文

@@ -2,7 +2,9 @@
 title: AEM網站
 description: 在AEM Guides中建立和設定AEM網站預設集。 使用AEM網站支援來產生文章式輸出、輸出連結主題、發佈conref，以及在內容中搜尋字串。
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 0%

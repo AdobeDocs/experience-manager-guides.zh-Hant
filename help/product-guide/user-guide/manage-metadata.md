@@ -2,7 +2,9 @@
 title: 管理中繼資料
 description: 瞭解如何在AEM Guides中定義和管理中繼資料。 使用智慧和大量標籤，在DITA map中輕鬆尋找相關主題。
 exl-id: 3d2d4eb7-79a7-430c-84e5-b90eb639a66b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Metadata Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 2%

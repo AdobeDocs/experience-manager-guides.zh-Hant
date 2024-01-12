@@ -2,7 +2,9 @@
 title: 原生PDF | 產生PDF輸出
 description: 瞭解如何使用原生PDF發佈、建立和產生PDF輸出預設集、產生原生PDF輸出後下載暫存檔案，以及在AEM Guides中使用語言變數。
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing, Web Editor, Native PDF Output
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '3196'
 ht-degree: 0%

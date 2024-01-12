@@ -2,7 +2,9 @@
 title: 網頁編輯器中的鍵盤快速鍵
 description: 探索AEM Guides網頁編輯器中的省時鍵盤快速鍵。
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%

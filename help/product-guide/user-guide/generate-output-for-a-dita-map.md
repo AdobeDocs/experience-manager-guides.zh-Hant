@@ -2,7 +2,9 @@
 title: 從Map主控台產生DITA Map的輸出
 description: 從AEM Guides中的對應主控台產生DITA map的輸出。 瞭解增量輸出產生以及如何檢視狀態、取消和刪除輸出任務。
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%

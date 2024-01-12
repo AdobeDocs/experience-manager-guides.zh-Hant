@@ -2,7 +2,9 @@
 title: 使用「稽核儀表板」管理稽核任務
 description: 從AEM Guides的「稽核儀表板」管理稽核任務。 瞭解任務、內容、稽核者標籤下的執行動作，並檢查稽核任務的狀態。
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Reviewing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%

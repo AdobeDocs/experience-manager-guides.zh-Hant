@@ -2,7 +2,9 @@
 title: 關於Adobe Experience Manager Guides
 description: 了解 Adobe Experience Manager Guides，這是以 DITA 為主的企業級元件內容管理解決方案。了解 AEM Guides 的優點。
 exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Introduction
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 7%

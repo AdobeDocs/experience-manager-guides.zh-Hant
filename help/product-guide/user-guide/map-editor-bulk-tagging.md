@@ -2,7 +2,9 @@
 title: 大量標籤DITA內容
 description: 在AEM Guides中使用大量內容標籤來改善DITA內容可發現性。 瞭解如何在單一或多個主題上套用、移除、顯示或隱藏大量標籤。
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Metadata Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

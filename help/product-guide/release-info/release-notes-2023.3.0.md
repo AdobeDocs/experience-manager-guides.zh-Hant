@@ -2,7 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2023年3月發行
 description: Adobe Experience Manager Guidesas a Cloud Service3月版
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -27,7 +29,7 @@ ht-degree: 0%
 執行以下步驟，為現有內容編制索引，並在地圖層級使用新的尋找和取代文字：
 
 * 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`.
-(選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 ||範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 || 範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * 此API將傳回jobId。 若要檢查作業的狀態，您可以傳送作業識別碼的GET要求至相同的端點 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (例如： http://&lt;_localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
@@ -58,10 +60,10 @@ ht-degree: 0%
 以下列出各種區域中修正的錯誤：
 
 * 下載PDF程式在網頁編輯器中無法正常運作。 (11496)
-* JSON輸出 |將屬性值對應為的中繼資料 `"value in spaces and double quotes"` 會導致發佈錯誤。 (11438)
+* JSON輸出 | 屬性值為「 」的中繼資料對應 `"value in spaces and double quotes"` 會導致發佈錯誤。 (11438)
 * 音訊和視訊多媒體檔案的插入在YouTube格式下失敗 **插入多媒體** 圖示。 (11320)
 * 使用具有專門化標題元素的範本建立對應時，會發生驗證錯誤。 (11212)
-* 原生PDF |表格標題中的註腳會在PDF輸出的對應頁尾中導向粗體和置中對齊文字。 (10610)
+* 原生PDF | 表格標題中的註腳會在PDF輸出的對應頁尾中導向粗體與置中對齊文字。 (10610)
 >[!NOTE]
 >
 >若要反映原生PDF變更，請刪除位於/content/dam/dita-templates的PDF資料夾，然後升級至最新版本。 (10610)

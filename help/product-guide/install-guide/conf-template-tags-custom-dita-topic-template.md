@@ -2,7 +2,10 @@
 title: 設定自訂DITA主題範本
 description: 瞭解如何設定自訂DITA主題範本
 exl-id: a9b2c479-7bf6-4c62-addd-fdfe74dc1f69
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Template Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%

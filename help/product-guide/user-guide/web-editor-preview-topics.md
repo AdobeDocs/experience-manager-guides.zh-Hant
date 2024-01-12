@@ -2,7 +2,9 @@
 title: 預覽主題
 description: 瞭解如何在AEM Guides中預覽主題。 瞭解預覽模式中可用的功能。 在AEM Guides中分支、還原及後續版本設定。
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%

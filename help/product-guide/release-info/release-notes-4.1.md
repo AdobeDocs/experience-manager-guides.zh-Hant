@@ -2,7 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guides 4.1版
 description: 最新版本的Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -23,7 +25,7 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱 [升級指示](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
-## 4.1.3 |發行說明
+## 4.1.3 | 發行說明
 
 ## 相容性矩陣
 
@@ -66,7 +68,7 @@ ht-degree: 1%
 * Web編輯器會間歇性地載入空白頁面。 (10678)
 
 
-## 4.1.2 |發行說明
+## 4.1.2 | 發行說明
 
 ## 相容性矩陣
 
@@ -119,7 +121,7 @@ ht-degree: 1%
 
   **因應措施**：使用DITA map控制面板的基線標籤。
 
-## 4.1 |發行說明
+## 4.1 | 發行說明
 
 此發行說明涵蓋Adobe Experience Manager Guides 4.1.x版的升級指示、新功能和增強功能(以下稱為 *AEM指南*)。
 
@@ -354,7 +356,7 @@ AEM Guides不再支援為FrameMaker檔案產生DITA輸出格式。 此DITA選項
 * 複製並貼上資產時，AEM Guides不會複製資產的非唯一屬性。 (8241)
 * 建立時DITA map檔案名稱未轉換為小寫。 (8383)
 * 當指派新的稽核任務時，稽核任務說明未出現在正在傳送的電子郵件通知中。 (8507)
-* 下載地圖API |萬一下載程式發生錯誤，暫時資料夾沒有清除。 (8523)
+* 下載地圖API | 萬一下載程式發生錯誤，暫時資料夾沒有清除。 (8523)
 * `columnpreview.jsp` 依存於SP。  (8543)
 * 發佈儀表板不會清理狀態為「等待」或「正在執行」的輸出工作。  (8569)
 * 使用「產生」按鈕產生報表時挑選的預設圖示，即使已定義icon屬性亦然。 (8573)

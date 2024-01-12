@@ -2,7 +2,9 @@
 title: 瞭解輸出預設集
 description: 瞭解AEM Guides中的輸出預設集。 從網頁編輯器和地圖儀表板建立AEM網站、PDF、HTML5、EPUB、自訂和JSON格式的輸出預設集。
 exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

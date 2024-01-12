@@ -2,7 +2,9 @@
 title: 發行說明 | 2023年6月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年6月Adobe Experience Manager Guidesas a Cloud Service版本
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 1%
@@ -86,7 +88,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 執行以下步驟來索引現有內容，並在報表標籤底下的對應層級和主題清單中使用新的尋找和取代文字：
 
-1. 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
@@ -119,15 +121,15 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 以下列出各種區域中修正的錯誤：
 
-### 編寫
+### 製作
 
 - 從版面檢視切換至作者或來源檢視時，Navtitle會從content33中移除。 (12174)
 - 按一下DITA map有時會發生應用程式錯誤。 (11842)
-- 網頁編輯器 |編輯主題時，在XML編輯器中新增不斷行空格。 (11786)
-- 資產UI |在「清單」檢視中，無法合併覆蓋的可用欄。 (11528)
+- 網頁編輯器 | 編輯主題時，會在XML編輯器中新增不斷行空格。 (11786)
+- 資產UI | 在「清單」檢視中，無法合併覆蓋的可用欄。 (11528)
 - 地圖檢視中未解析Keyref。 (11490)
 - 透過XML編輯器導覽時，未顯示最上方選單。 (10868)
-- `conref` 在ph標籤中 |顯示的瀏覽對話方塊不正確。 (9481)
+- `conref` 在ph標籤中 | 顯示的瀏覽對話方塊不正確。 (9481)
 - 指向其他元素的本機連結不會在網頁編輯器中解析。 (8790)
 - Matches()函式在schematron功能中無法運作。 (11224)
 
@@ -141,18 +143,18 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 ### 發佈
 
 - 從Pod讀取可能已重新整理或重新啟動的暫存檔時，發佈至AEM網站失敗。 (12113)
-- 原生PDF |如果發佈的內容具有包含brackets()的輸出類別，會導致發佈凍結。 (11936)
-- JSON輸出 |將屬性值對應為的中繼資料 `"value in spaces and double quotes"` 會導致發佈錯誤。 (11933)
-- 網頁編輯器 |無法在AEM預設集中選取輸出路徑和範本。 (11530)
-- 原生PDF |自訂屬性不會傳播至暫時HTML或PDF引擎。 (DXML-12005)
-- 原生PDF |發佈大型內容時發生Java OutOfMemoryError。 (11789)
-- JSON輸出 | `fmUuid` JSON的jcr：content節點上的屬性與JSON內的「id」不同。 (11564)
-- JSON輸出 |如果存在具有相同檔案名稱的對映和主題，則會移除對映的JSON。 (11524)
+- 原生PDF | 如果發佈的內容具有包含brackets()的輸出類別，會導致發佈凍結。 (11936)
+- JSON輸出 | 屬性值為「 」的中繼資料對應 `"value in spaces and double quotes"` 會導致發佈錯誤。 (11933)
+- 網頁編輯器 | 無法在AEM預設集中選取輸出路徑和範本。 (11530)
+- 原生PDF | 自訂屬性不會傳播至暫時HTML或PDF引擎。 (DXML-12005)
+- 原生PDF | 發佈大型內容時發生Java OutOfMemoryError。 (11789)
+- JSON輸出 | 此 `fmUuid` JSON的jcr：content節點上的屬性與JSON內的「id」不同。 (11564)
+- JSON輸出 | 如果存在具有相同檔案名稱的對映和主題，則會移除該對映的JSON。 (11524)
 - 原生PDF | Xref正在列印href主題標題的內容而非Xref標籤。 (11322)
-- 原生PDF |無法儲存PDF範本設定。 (10751)
-- 原生PDF |文字延伸超過欄寬，包含多個xref。 (10876)
+- 原生PDF | 無法儲存PDF範本設定。 (10751)
+- 原生PDF | 文字延伸超過欄寬，包括多個xref。 (10876)
 - 原生PDF | `<note>``</note>` 元素不會產生其型別的額外範圍標題。 (10549)
-- 原生PDF |語言中繼資料無法在產生的PDF中設定以符合WCAG 2.0。 (12296)
+- 原生PDF | 無法在產生的PDF中設定語言中繼資料以符合WCAG 2.0。 (12296)
 
 
 
@@ -162,4 +164,4 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 評論
 
-- 新檢閱UI |條件會醒目提示，且顯示隱藏的工作方式與在Web編輯器中有所不同。 (11628)
+- 新檢閱UI | 條件會醒目提示並顯示隱藏的運作方式，與它們在網頁編輯器中的運作方式不同。 (11628)

@@ -2,7 +2,9 @@
 title: 使用進階地圖編輯器
 description: 瞭解如何在AEM Guides中使用進階地圖編輯器。 瞭解進階地圖編輯器的功能。 透過DITA map編輯主題，並使用版面檢視、作者檢視和預覽模式。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2022年10月發行
 description: Adobe Experience Manager Guidesas a Cloud Service10月版
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -61,12 +63,12 @@ AEM Guidesas a Cloud Service在10月版本中提供了增強功能和新功能�
 
 以下列出各種區域中修正的錯誤：
 
-* 原生PDF |從PDF輸出移除僅限資源的主題時發生錯誤。 (10554)
-* 原生PDF |PDF輸出中出現空白的Keyref。 (10553)
+* 原生PDF | 從PDF輸出移除僅限資源的主題時發生錯誤。 (10554)
+* 原生PDF | PDF輸出中出現空白的Keyref。 (10553)
 * 原生PDF | `navtitle` 的 `topichead` 不接受。 (10509)
-* 原生PDF |支援amd64 JDK風格。 (10465)
-* 原生PDF |無法從目錄隱藏重要主題。 (10355)
-* 原生PDF |重新啟動章節配置中的頁碼會從上一個章節的結尾開始隨機編號。 (10154)
-* Chrome瀏覽器 |從UI拖放任何元素時，畫面會變成空白。 例如，從「條件」面板拖曳條件時。 (10524)
+* 原生PDF | amd64 JDK風格所需的支援。 (10465)
+* 原生PDF | 無法從目錄隱藏重要主題。 (10355)
+* 原生PDF | 重新啟動章節配置中的頁碼會從上一個章節的結尾開始隨機編號。 (10154)
+* Chrome瀏覽器 | 從UI拖放任何元素時，畫面會變成空白。 例如，從「條件」面板拖曳條件時。 (10524)
 * 資產執行複製貼上操作後，節點屬性會被移除。 (10053)
 * 按一下  **關閉** 系統已將使用者重新導向至資產 — 已修正體驗，將使用者帶至AEM首頁。 (9654)

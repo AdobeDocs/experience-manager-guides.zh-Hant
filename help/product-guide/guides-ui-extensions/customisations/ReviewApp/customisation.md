@@ -1,7 +1,8 @@
 ---
 title: 自訂
 description: 自訂稽核應用程式
-source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%

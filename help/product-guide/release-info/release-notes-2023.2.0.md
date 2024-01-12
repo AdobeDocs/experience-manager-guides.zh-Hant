@@ -2,7 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2023年2月發行
 description: 2月Adobe Experience Manager Guidesas a Cloud Service版本
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -27,7 +29,7 @@ ht-degree: 0%
 執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
 
 * 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`.
-(選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 ||範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 || 範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * 此API將傳回jobId。 若要檢查作業的狀態，您可以傳送作業識別碼的GET要求至相同的端點 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (例如： http://&lt;_localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
@@ -58,7 +60,7 @@ ht-degree: 0%
 
 以下列出各種區域中修正的錯誤：
 
-### 編寫
+### 製作
 
 * 網頁編輯器html中的變更會導致 `<dl>` 和 `<dlentry>`. (11024)
 * 有些屬性不會被視為有條件屬性，而會造成問題。 (10895)
@@ -78,10 +80,10 @@ ht-degree: 0%
 
 * 複製DITA map資產（從資產UI ）會導致複製的資產中出現錯誤的基準線。 (11218)
 * 在檔案上傳超過AEM允許的上限（預設為2 GB）時，不會顯示警告訊息。 (10817)
-* 網頁編輯器 — 基準線 |在網頁編輯器內的新基準儀表板中，「最新」欄的行為是不同的。 (10808)
-* 翻譯 |由於/libs/fmdita/i18n/ja.json無效，翻譯工作未開始。 (10543)
-* 翻譯 |從翻譯控制面板（人工翻譯）建立的範圍設定翻譯專案發生錯誤。 (10526)
-* 翻譯 |如果整個語言資料夾的資產位於使用中的翻譯專案中，該資料夾的後處理會被封鎖。 (10332)
+* 網頁編輯器 — 基準線 | 在網頁編輯器內的新基準線儀表板中，「最新」欄的行為是不同的。 (10808)
+* 翻譯 | 由於/libs/fmdita/i18n/ja.json無效，翻譯工作未開始。 (10543)
+* 翻譯 | 從翻譯儀表板（人工翻譯）建立的範圍設定翻譯專案中發生錯誤。 (10526)
+* 翻譯 | 若整個語言資料夾的資產位於使用中的翻譯專案中，該資料夾的後置處理會遭到封鎖。 (10332)
 * 如果版本在基線編輯器中變更並儲存，則任何資產都會出現多個快顯視窗。 (10399)
 * 工作階段洩漏發生於 `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
 
@@ -89,12 +91,12 @@ ht-degree: 0%
 
 * 主題重新產生不適用於某些案例。 (10635)
 * Publishlistener不會在資訊記錄中顯示要求的資料，而且其中也包含一些垃圾記錄檔。( 10567)
-* 原生PDF |使用「新增至資料夾設定檔」選項建立輸出預設集時，PDF產生會因「Null指標」例外而失敗。 (10950)
-* 原生PDF |旋轉表格標題時發生問題。 (10555)
-* 原生PDF |巢狀 `<indexterm>` 非巢狀內嵌於原生PDF匯出中。 (10521)
-* 原生PDF |附錄中的巢狀topicref全部轉換為臨時HTML中的h1。 (10454)
+* 原生PDF | 使用「新增至資料夾設定檔」選項建立輸出預設集時，PDF產生會因「Null指標」例外而失敗。 (10950)
+* 原生PDF | 旋轉表格標題時發生問題。 (10555)
+* 原生PDF | 巢狀 `<indexterm>` 非巢狀內嵌於原生PDF匯出中。 (10521)
+* 原生PDF | 附錄中的巢狀topicref全部轉換為臨時HTML中的h1。 (10454)
 * 使用FrameMaker Publishing Server2020產生的PDF基準發佈失敗。 (10551)
-* 原生PDF |新增 `xref` 至影像不會呈現在產生的PDF上。 (11346)
-* 原生PDF |影像標籤會將display-inline屬性新增至所有影像。 (10653)
-* 原生PDF |預設會在產生的輸出中隱藏草稿註解。 (10560)
-* 原生PDF |不會將navtitle授予topichead。 (10509)
+* 原生PDF | 新增 `xref` 至影像不會呈現在產生的PDF上。 (11346)
+* 原生PDF | 影像標籤會將display-inline屬性新增至所有影像。 (10653)
+* 原生PDF | 預設會在產生的輸出中隱藏草稿註解。 (10560)
+* 原生PDF | navtitle不適用於topichead。 (10509)

@@ -2,7 +2,10 @@
 title: 使用自訂DITA-OT與DITA專業化
 description: 瞭解如何使用自訂DITA-OT和DITA專業化
 exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
-source-git-commit: 8e8e64ad1105b0546856cb82b47547ceacd405b9
+feature: DITA-OT Configuration
+role: Admin
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '2093'
 ht-degree: 0%

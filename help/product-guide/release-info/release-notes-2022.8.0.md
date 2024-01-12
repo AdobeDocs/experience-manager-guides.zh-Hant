@@ -2,7 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2022年8月發行
 description: Adobe Experience Manager Guidesas a Cloud Service8月版
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -95,9 +97,9 @@ AEM Guides現在允許設定 **內嵌屬性** 由您的管理員從 **編輯器�
 * 更新的Node.js不用於發佈。 (9835)
 * DITA主題不會隨著對所做的變更自動更新 **屬性** 頁面。 (8745)
 * Frontmatter元素在新增至DITA bookmap時無法正常運作。 (9507)
-* 原生PDF |使用時產生空白PDF **快速產生** 適用於多個檔案。 (9822)
-* 原生PDF |附錄作為PDF輸出中的章節發佈。 (9829)
-* 原生PDF |編輯SVG影像時，其未顯示在頁面配置中更新。 (9069)
+* 原生PDF | 使用時產生空白PDF **快速產生** 適用於多個檔案。 (9822)
+* 原生PDF | 附錄會在PDF輸出中發佈為章節。 (9829)
+* 原生PDF | 編輯SVG影像時，其未顯示在頁面版面中更新。 (9069)
 * 一般連字元會在 `Nonbreaking Hyphen` 使用插入字元 **插入特殊字元** 對話方塊。 (8919)
 * 如果更新後的影像已經過編輯，XML編輯器不會在主題中顯示這些影像。 (9500)
 * 透過編輯器發佈輸出時，無法從刪除預設集 **輸出** 標籤。 (9100)

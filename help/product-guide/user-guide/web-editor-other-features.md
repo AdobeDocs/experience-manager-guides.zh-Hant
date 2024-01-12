@@ -2,7 +2,9 @@
 title: 網頁編輯器中的其他功能
 description: 探索AEM Guides中網頁編輯器的其他功能。 瞭解如何使用這些功能來改善AEM Guides中的撰寫作業。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%

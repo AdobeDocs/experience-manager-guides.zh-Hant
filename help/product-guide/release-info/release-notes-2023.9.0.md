@@ -2,7 +2,9 @@
 title: 發行說明 | 2023年9月發行的Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至2023年9月Adobe Experience Manager Guidesas a Cloud Service版本
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 0%
@@ -88,7 +90,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 執行以下步驟來索引現有內容，並在報表標籤底下的對應層級和主題清單中使用新的尋找和取代文字：
 
-1. 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
@@ -127,7 +129,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 以下列出各種區域中修正的錯誤：
 
-### 編寫
+### 製作
 
 - 雖然已選取「解除鎖定檔案」選項和「不儲存」選項，但不會在Web編輯器中解除鎖定主題檔案。 (12558)
 - 無法簽出網頁編輯器中的檔案，儘管選擇NO選項在簽入前捨棄變更。 (12557)
@@ -159,16 +161,16 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - 重新命名原生PDF預設集時發佈失敗。 (12564)
 - 複製原生PDF範本會複製到預設範本位置，而不是提供的自訂範本位置。 (12563)
 
-- 原生PDF |包含多個Xref會使文字延伸超過欄寬。 (13004)
-- 原生PDF |當主題和標題具有相同的ID時，會導致PDF輸出的產生格式錯誤。 (12644)
-- 原生PDF |新增輸出類別至父級時 `<topicref>` DITA map中的元素並將自訂樣式套用至outputclass時，該樣式會套用至主題內文中的元素，包括區段標題。(12166)
+- 原生PDF | 包含多個Xref會延伸文字超過欄寬。 (13004)
+- 原生PDF | 當主題和標題具有相同的ID時，會導致PDF輸出的產生格式錯誤。 (12644)
+- 原生PDF | 將輸出類別新增至父級時 `<topicref>` DITA map中的元素並將自訂樣式套用至outputclass時，該樣式會套用至主題內文中的元素，包括區段標題。(12166)
 - 如果DITA map有多個ditavalref，則增量發佈無法運作。 (12117)
-- AEM網站 |使用keydef將指向某個主題做為變數來建立對應，然後新增processing-role=resource-only會建立一些未預期的頁面。 (12099)
+- AEM網站 | 使用keydef將主題作為變數來建立對應，然後新增processing-role=resource-only會建立一些未預期的頁面。 (12099)
 - 如果來自AEM DAM的任何資產用於AEM網站以外的任何輸出，則中繼資料「jcr：createdBy」不會反映發佈者的名稱或上次修改DITA map或主題的使用者名稱。 (12090)
-- AEM Sites | DITA map的navtitle中帶有topichead （包含不支援的字元）會導致頁面URL錯誤。 (11978)
-- 原生PDF |在Frontmatter和Backmatter支援topichead / topicmeta / navtitle時發生問題。 (11969)
-- 原生PDF |為大型檔案產生PDF非常耗時。 (11955)
-- 原生PDF |重新命名預設集會在產生PDF輸出時擲回NullPointerException。 (11889)
+- AEM Sites | DITA地圖的navtitle中帶有主題標題（包含不支援的字元）會導致頁面URL錯誤。 (11978)
+- 原生PDF | 在Frontmatter和Backmatter支援topichead / topicmeta / navtitle時發生問題。 (11969)
+- 原生PDF | 為大型檔案產生PDF非常耗時。 (11955)
+- 原生PDF | 重新命名預設集會在產生PDF輸出時擲回NullPointerException。 (11889)
 - 此 `<conref>` 內容不會顯示在PDF輸出中。 (11131)
 - 系統會新增一個額外空格至 `<div>` 在頁面配置編輯器中的作者和來源檢視之間切換的元素。 (10750)
 - 在AEM Cloud Manager上復寫的內容在發佈執行個體上不可見。 (9564)

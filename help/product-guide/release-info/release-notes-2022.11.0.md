@@ -2,7 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2022年11月發行
 description: Adobe Experience Manager Guidesas a Cloud Service11月版
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -23,7 +25,7 @@ as a Cloud Service升級您目前的Adobe Experience Manager Guides (稍後稱�
 執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
 
 * 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`.
-(選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 ||範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 || 範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * 此API將傳回jobId。 若要檢查作業的狀態，您可以傳送作業識別碼的GET要求至相同的端點 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (例如： http://&lt;_localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
@@ -100,7 +102,7 @@ AEM Guides提供您為全域和資料夾設定檔建立和管理輸出預設集�
 <img src="assets/send-translation.png" alt="傳送以供翻譯" width="600">
 
 
-### 原生PDF |帶有顯示檔案版本之間差異之變更列的PDF
+### 原生PDF | 帶有顯示檔案版本之間差異之變更列的PDF
 
 現在您可以使用變更列來建立PDF，以顯示兩個版本之間的內容差異。 您可以選擇將目前版本與先前版本的基準進行比較，或比較兩個選取的基準版本。
 
@@ -110,7 +112,7 @@ PDF中會顯示變更列，以指出已修改、插入或刪除的內容。 您�
 * 以綠色和底線顯示插入的內容
 * 以紅色顯示刪除的內容並加上刪除線
 
-### 原生PDF |輸出路徑和PDF檔案名稱的變數支援
+### 原生PDF | 輸出路徑和PDF檔案名稱的變數支援
 
 現在，您也可以使用下列現成的變數來定義輸出路徑和PDF檔案。 您可以使用單一變數或變陣列合來定義這些選項：
 * `${map_filename}`
@@ -121,7 +123,7 @@ PDF中會顯示變更列，以指出已修改、插入或刪除的內容。 您�
 * `${path_after_langfolder}` （僅適用於輸出路徑）
 
 
-### 原生PDF |產生DITA map的目錄並重新排序頁面配置
+### 原生PDF | 產生DITA map的目錄並重新排序頁面配置
 
 現在您也可以使用範本的進階PDF設定在DITA map中產生TOC。 您可以選擇啟用或停用各種頁面配置圖的顯示，也可以重新排列它們的位置。
 
@@ -130,8 +132,8 @@ PDF中會顯示變更列，以指出已修改、插入或刪除的內容。 您�
 以下列出各種區域中修正的錯誤：
 
 * 原生PDF | `conkeyref` 不會在產生的PDF輸出中解析。 (10564)
-* 原生PDF |存取PDF輸出中的對應中繼資料時發生問題。 (10556)
-* 原生PDF |使用內嵌樣式來產生標籤，而非類別名稱。  (10498)
+* 原生PDF | 存取PDF輸出中的對應中繼資料時發生問題。 (10556)
+* 原生PDF | 內嵌樣式是用來產生標籤，而非類別名稱。  (10498)
 * Web編輯器會間歇性地載入空白頁面。 (10678)
 * 如果我們透過複製現有預設集來建立預設集，則PDF發佈會失敗。 (10584)
 * **檢視記錄** 預設集的PDF產生失敗時，按鈕無法運作。 (10576)

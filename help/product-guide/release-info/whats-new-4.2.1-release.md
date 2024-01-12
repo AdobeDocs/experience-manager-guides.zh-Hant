@@ -2,7 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guides 4.2.1版的新增功能
 description: 瞭解Adobe Experience Manager Guides 4.2.1版中的新功能和增強功能
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -61,7 +63,7 @@ AEM Guides提供為您的技術檔案產生報表的功能。  您可以使用�
 
 如需更多詳細資訊，請參閱 [來自網頁編輯器的DITA map報表](../user-guide/reports-web-editor.md) 區段。
 
-## 原生PDF |變更列以指示目錄中已變更的主題
+## 原生PDF | 變更列以指示目錄中已變更的主題
 
 AEM Guides現在可讓您快速識別PDF輸出目錄中的變更主題。  它會在目錄中已變更的主題左側顯示變更列。 您可以按一下目錄中的主題並檢視詳細變更。
 
@@ -71,7 +73,7 @@ AEM Guides現在可讓您快速識別PDF輸出目錄中的變更主題。  它�
 
 
 
-## 原生PDF |在註腳元件中設定頁面標籤的樣式
+## 原生PDF | 設定註腳元件中頁面標籤的樣式
 
 現在您可以在註腳中設定頁面標籤的樣式。 例如，您可以新增括弧或變更其顏色。 這些樣式可協助使用者輕鬆識別檔案中的頁面標籤。
 

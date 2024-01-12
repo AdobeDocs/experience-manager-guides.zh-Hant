@@ -2,7 +2,9 @@
 title: 在AEM中使用中繼資料
 description: 瞭解如何使用Adobe Experience Manager Assets建立資產和新增中繼資料。 從AEM Guides管理中繼資料。
 exl-id: 51e4fcab-7d76-4070-af32-96626e12ef82
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Metadata Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

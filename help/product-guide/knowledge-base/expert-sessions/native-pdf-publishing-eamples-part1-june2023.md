@@ -2,7 +2,9 @@
 title: 原生PDF發佈 — 範例學習（第1部分）
 description: 透過原生PDF發佈引擎，您可以視需要使用易於更新的CSS、HTML和JavaScript來控制檔案的內容版面，同時處理所需的區段。
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Native PDF Output
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%

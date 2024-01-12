@@ -2,7 +2,9 @@
 title: 版本注意事項 [!DNL AEM Guides]， 2022年1月發行
 description: 1月版的 [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 0%
@@ -195,7 +197,7 @@ ht-degree: 0%
 ### 地圖儀表板
 
 * 在地圖控制面板的主題或報告標籤的主題標題中無法看到conref內容。 (8263)
-* AEM Sites輸出 | jcr：更新DITA主題標題時，產生的網站頁面的標題未更新。 (8131)
+* AEM Sites輸出 | jcr：更新DITA主題標題時，生成的網站頁面的標題未更新。 (8131)
 * 下載MAP不會下載主題內使用的視訊檔案。 (8070)
 * 透過下載bookmap API使用物件標籤時，不會下載媒體檔案。 (8057)
 * 如果任何主題的conref檔案的標題以conref開頭，則「報告」標籤中會顯示不正確的報告。 (4698)
@@ -234,9 +236,9 @@ ht-degree: 0%
 
 ### 內容匯入
 
-* HTML至DITA轉換 |含有空白&#39;td&#39;專案之&#39;tr&#39;的表格會在輸出中產生其他列。 (8132)
-* HTML至DITA轉換 |具有包含多個主體的表格的HTML發生例外狀況時失敗。 (7940)
-* HTML至DITA轉換 |如果來源HTML有註解，則會傳回錯誤。 (7937)
+* HTML至DITA轉換 | 含有空白「td」專案之「tr」的表格會在輸出中產生其他列。 (8132)
+* HTML至DITA轉換 | HTML具有包含多個表體的表格時會發生例外狀況，導致失敗。 (7940)
+* HTML至DITA轉換 | 如果來源HTML有註解，則會發生錯誤。 (7937)
 * 匯入DITA 1.3 DITA檔案會導致某些href轉換成格式錯誤的連結。 (8019)
 
 ## 已知問題

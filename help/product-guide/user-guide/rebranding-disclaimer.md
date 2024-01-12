@@ -2,7 +2,9 @@
 title: 免責聲明
 description: 這是免責宣告，說明將適用於Adobe Experience Manager的XML Documentation產品名稱變更為AEM Guides
 exl-id: 388fb8d9-a7d0-4bbb-b244-4ccf461eafdf
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Disclaimer
+role: User, Leader, Admin, Developer
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%

@@ -2,7 +2,10 @@
 title: 設定AEM Site輸出的有效檔案名稱
 description: 瞭解如何為AEM網站輸出設定有效的檔案名稱
 exl-id: 1e69d6f8-7baf-4189-bbbd-34cd0fec6634
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Filename Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%

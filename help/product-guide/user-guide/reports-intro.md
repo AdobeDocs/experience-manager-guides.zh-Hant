@@ -2,7 +2,9 @@
 title: 報告
 description: 瞭解如何在AEM Guides中建立DITA map報表。
 exl-id: 1f8a33ba-d6e5-448f-b40b-646b9fdc0b19
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Report Generation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%

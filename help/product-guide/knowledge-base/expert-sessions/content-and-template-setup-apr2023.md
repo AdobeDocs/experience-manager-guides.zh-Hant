@@ -2,7 +2,9 @@
 title: 內容和範本設定
 description: 瞭解在AEM Guides中設定內容和範本時應考慮哪些事項。
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Template Configuration
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 1%

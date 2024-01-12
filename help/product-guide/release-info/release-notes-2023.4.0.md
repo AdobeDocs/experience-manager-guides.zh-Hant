@@ -2,7 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2023年4月發行
 description: 2023年4月發行的Adobe Experience Manager Guidesas a Cloud Service
 exl-id: fa339eab-d3d0-4763-adbf-6411e39aa213
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -28,7 +30,7 @@ ht-degree: 0%
 執行以下步驟，為現有內容編制索引，並在地圖層級使用新的尋找和取代文字：
 
 * 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`.
-(選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 ||範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 || 範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * 此API將傳回jobId。 若要檢查作業的狀態，您可以傳送作業識別碼的GET要求至相同的端點 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (例如： http://&lt;_localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
@@ -60,7 +62,7 @@ ht-degree: 0%
 
 以下列出各種區域中修正的錯誤：
 
-* 原生PDF |如果發佈的內容具有包含brackets()的輸出類別，會導致發佈凍結。 (11596)
+* 原生PDF | 如果發佈的內容具有包含brackets()的輸出類別，會導致發佈凍結。 (11596)
 * 在移動（拖放）至具有追蹤變更的現有清單專案時，發生問題。 (11570)
 * 當作為新清單專案移動（拖放）並開啟追蹤變更時發生問題。 (11569)
 * 「追蹤變更」開啟時，縮排或減少縮排清單專案無法如預期運作。 (11568)
@@ -74,4 +76,4 @@ ht-degree: 0%
 
 Adobe已發現AEM Guides 2023年4月as a Cloud Service版本的下列已知問題。
 
-* 原生PDF |輸出預設集明確開啟前，不會填入舊中繼資料。
+* 原生PDF | 輸出預設集明確開啟前，不會填入舊中繼資料。

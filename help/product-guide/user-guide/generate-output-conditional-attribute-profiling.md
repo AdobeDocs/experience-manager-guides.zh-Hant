@@ -2,7 +2,9 @@
 title: 條件屬性分析
 description: 瞭解如何在AEM Guides中建立條件屬性。 使用資料夾和全域設定檔中的條件式屬性來條件化您的內容。
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%

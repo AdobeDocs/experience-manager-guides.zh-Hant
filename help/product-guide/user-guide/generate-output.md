@@ -2,7 +2,9 @@
 title: 產生輸出
 description: 透過AEM Guides中的DITA-OT外掛程式、原生PDF發佈和FMPS，在AEM網站、PDF、HTML5、EPUB、自訂和JSON中產生輸出。
 exl-id: fd5e4c17-13c1-4679-8d88-af9de92aec9a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%

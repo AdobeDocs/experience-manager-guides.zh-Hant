@@ -1,7 +1,8 @@
 ---
 title: 擴充功能存放庫簡介
 description: AEM Guides擴充功能套件目錄結構
-source-git-commit: 9345278dd02f5736e5384f3a97b2422894d20339
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%

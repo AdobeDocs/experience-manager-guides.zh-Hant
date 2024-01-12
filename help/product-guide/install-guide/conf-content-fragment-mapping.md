@@ -2,7 +2,10 @@
 title: 設定主題與內容片段模型之間的JSON型對應。
 description: 瞭解如何設定主題與內容片段模型之間的JSON型對應。
 exl-id: 21446bcb-e7df-4823-acc3-1fdc7473f0d1
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
