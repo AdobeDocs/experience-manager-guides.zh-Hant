@@ -1,9 +1,9 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides 4.4.0版的新增功能
 description: 瞭解Adobe Experience Manager Guides 4.4.0版的新增和增強功能
-source-git-commit: ca86700d033ad8eb7cdba917f010f3aa71113a19
+source-git-commit: 027e8e6a6119145a5b2255449514a76488c90463
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,7 @@ Experience Manager指南可讓您以管理員身分設定AEM Site輸出的URL。
 
 「Experience Manager」提供根據套用至主題的主題標籤自動挑選主題以建立基準的功能。 現在，您也可以使用相同DITA map的自動基準線，順暢地發佈多個輸出預設集。 您不需要一次只發佈一個預設集，但可以輕鬆地同時發佈多個輸出預設集。
 
+進一步瞭解如何 [從網頁編輯器建立和管理基準線](../user-guide/web-editor-baseline.md).
 
 ## 原生PDF增強功能
 
@@ -216,7 +217,7 @@ Experience Manager指南可讓您以管理員身分設定AEM Site輸出的URL。
 進一步瞭解如何使用 [PDF輸出中的變數](../native-pdf/native-pdf-variables.md).
 
 
-### 將資產中繼資料傳輸至PDF輸出
+### 將資產中繼資料傳播至PDF輸出
 
 Experience Manager現在提供將資產的中繼資料屬性從DITA map傳輸至PDF輸出的功能。
 從原生PDF輸出預設集中，您可以選擇要傳播到PDF發佈流程的中繼資料。 您可以同時選取自訂和預設屬性。  選取的中繼資料屬性會傳輸到使用原生PDF產生的PDF檔案。
