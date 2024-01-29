@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '5744'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > 請依照產品的授權版本專屬的升級指示操作。
 
-您可以將目前版本的Experience Manager指南升級至4.3.1版
+您可以將目前版本的Experience Manager指南升級至4.4.0版：
 
-- 如果您是使用4.3.0、4.2或4.2.1版，則可以直接升級至4.3.1版。
-- 如果您使用的是4.1或4.1.x版，則必須先升級至4.3.0、4.2或4.2.x版，才能升級至4.3.1版。
-- 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.1版。
+- 如果您是使用4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，則可以直接升級至4.4.0版。
+- 如果您是使用4.2、4.1或4.1.x版，則必須先升級至4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，才能升級至4.4.0版。
+- 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
 - 如果您使用的版本早於3.8.5，請參閱產品特定安裝指南中的升級Experience Manager指南區段。
 
@@ -38,6 +38,7 @@ ht-degree: 0%
 - [升級至4.2.1版](#upgrade-version-4-2-1)
 - [升級至4.3.0版](#upgrade-version-4-3)
 - [升級至4.3.1版](#upgrade-version-4-3-1)
+- [升級至4.4.0版](#upgrade-version-4-4-0)
 
 
 >[!IMPORTANT]
@@ -61,7 +62,7 @@ ht-degree: 0%
 1. 已匯入開啟供稽核之主題中的稽核註釋。
 1. 已關閉所有進行中的評論。
 1. 已關閉所有翻譯任務。
-1. 解除安裝安裝安裝在Experience Manager指南先前版本\（主要或修補程式版本\）頂端的Experience Manager指南熱修復程式。
+1. 解除安裝安裝安裝在Experience Manager指南先前版本\（主要或修補程式版本\）頂端的Experience Manager指南Hotfix。
 
 **安裝4.0版之前**
 
@@ -206,7 +207,7 @@ ht-degree: 0%
    >
    > 重新整理並確認自訂變更和Experience Manager指南後處理步驟存在於最終工作流程模型中。
 
-1. 一次 **DAM更新資產工作流程**&#x200B;已驗證，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
+1. 一次 **DAM更新資產工作流程** 已驗證，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
@@ -292,9 +293,11 @@ ht-degree: 0%
 
 ## 升級至4.2.1版 {#upgrade-version-4-2-1}
 
-升級至4.2.1版須視目前Experience Manager指南的版本而定。
+>[!TIP]
+>
+>建議您在4.2.1版之上安裝Hotfix 4.2.1.3。
 
-如果您是使用4.1版、4.1.x版或4.2版，則可以直接升級至4.2.1版。
+升級至4.2.1版須視目前Experience Manager指南的版本而定。 如果您是使用4.1版、4.1.x版或4.2版，則可以直接升級至4.2.1版。
 
 >[!NOTE]
 >
@@ -419,7 +422,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    >
    > 重新整理並確認自訂變更和Experience Manager指南後處理步驟存在於最終工作流程模型中。
 
-1. 一次 **DAM更新資產工作流程**&#x200B;已驗證，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
+1. 一次 **DAM更新資產工作流程** 已驗證，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
@@ -525,7 +528,6 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 1. 恢復為預設值或先前的現有值 `queryLimitReads` 如果您已在步驟1中加以變更。
 
 
-4.3.1
 
 ## 升級至4.3.1版 {#upgrade-version-4-3-1}
 
@@ -540,7 +542,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 在開始Experience Manager指南4.3.1升級程式之前，請確定您擁有：
 
 1. 已升級至Experience Manager指南4.3.0、4.2或4.2.1版，並完成各自的安裝步驟。
-1. 已關閉所有翻譯任務。
+1. （選用）已關閉所有翻譯工作。
 1. 將記錄層級變更為 **資訊** 的 `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` 類別並將這些記錄附加至新的記錄檔中，例如， `logs/translation_upgrade.log`.
 
 
@@ -725,6 +727,205 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 1. 恢復為預設值或先前的現有值 `queryLimitReads` 如果您已在步驟1中加以變更。
 
+## 升級至4.4.0版 {#upgrade-version-4-4-0}
+
+升級至4.4.0版需視目前Experience Manager指南的版本而定。 如果您是使用4.3.1、4.3.0、4.2或4.2.1版(Hotfix 4.2.1.3) ，則可以直接升級至4.4.0版
+
+>[!NOTE]
+>
+>後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
+
+****必備條件****
+
+在開始Experience Manager指南4.4.0升級程式之前，請確定您擁有：
+
+1. 已升級至Experience Manager指南4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，並完成各自的安裝步驟。
+1. （選用）已關閉所有翻譯工作。
+1. 將記錄層級變更為 **資訊** 的 `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` 類別並將這些記錄附加至新的記錄檔中，例如， `logs/translation_upgrade.log`.
+
+
+## 安裝4.4.0版
+
+1. 從下載4.4.0版本套件 [Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. 安裝4.4.0版本的套件。
+1. 您可以選擇點選觸發器，以啟動翻譯對應升級工作。 如需詳細資訊，請參閱 [透過Servlet啟用指令碼的觸發](#enable-trigger-serverlet-4-4-0).
+
+1. 完成套件安裝後，請等候記錄中的下列訊息：
+
+   `Completed the post deployment setup script`
+
+   上述訊息表示安裝的所有步驟均已完成。
+
+   如果您遇到以下任何錯誤首碼，請向您的客戶成功團隊報告：
+
+   - 部署後安裝指令碼發生錯誤
+   - 移植翻譯MAP時發生例外狀況
+   - 無法將屬性的轉譯對應從v1連線至v2
+1. 升級氧氣聯結器外掛程式4.4.0版\（如有需要\）。
+1. 安裝套件後清除瀏覽器快取。
+1. 繼續升級自訂，如下一節所述。
+
+
+## 安裝4.4.0版之後
+
+安裝Experience Manager指南後，您可以將適用於從新安裝的版本到設定的各種設定合併。
+
+>[!NOTE]
+>
+> 可以自訂dam-update-asset模型。 因此，如果已完成任何自訂，那麼我們需要將自訂和Experience Manager參考線同步到模型的工作副本中。
+
+1. **DAM更新資產工作流程\（後處理變更\）：**
+
+1. 開啟URL：
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. 選取 **DAM更新資產工作流程**.
+1. 按一下 **編輯**.
+1. 如果 **DXML後續程式發起人** 元件存在，請確定自訂已同步。
+1. 如果 **DXML後續程式發起人** 元件不存在，請執行以下步驟來插入它：
+
+1. 按一下 **插入元件** \(負責「Experience Manager指南」後續處理，將此作為程式的最後一步\)。
+1. 設定 **程式步驟** 詳細資料如下：
+
+   **通用標籤**
+
+   **標題：** DXML後續程式發起人
+
+   **說明**：DXML後續處理啟動器步驟，此步驟將觸發用於已修改/已建立資產的DXML後續處理的Sling工作
+
+   **「處理」標籤**
+
+   - 選取 **DXML後續程式發起人**&#x200B;從 **程式** 下拉式清單
+
+   - 選取 **處理常式前進**
+
+   - 選取 **完成**
+
+1. 按一下 **同步** 完成變更後於右上角顯示。 您將會收到成功通知。
+
+   >[!NOTE]
+   >
+   > 重新整理並確認自訂變更和Experience Manager指南後處理步驟存在於最終工作流程模型中。
+
+1. 一次 **DAM更新資產工作流程** 已驗證，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   尋找下列兩個啟動器\（若有需要\）並進行變更\（應該為作用中\），其對應至 **DAM更新資產工作流程**：
+
+1. 「 」的啟動器&#x200B;*節點已建立*「 for **DAM更新資產工作流程** — 適用於條件 `"jcr:content/jcr:mimeType!=video"`，萬用字元值應為：
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39;應該有 `"event-user-data:changedByWorkflowProcess"`.
+   - 「 」的啟動器&#x200B;*節點已修改*「 for **DAM更新資產工作流程 —** 條件&quot;`jcr:content/jcr:mimeType!=video`&quot;，&#39;萬用字元&#39;值應該是：
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` 應該有 `"event-user-data:changedByWorkflowProcess"`.
+
+1. 升級完成後，請確定所有自訂/覆蓋圖均已驗證並更新，以符合新的應用程式程式碼。 以下提供一些範例：
+   - 從/libs/fmditor/libsis覆寫的任何元件都應與新的產品程式碼進行比較，且更新應在/apps下方的覆寫檔案中完成。
+   - 產品中使用的任何clientlib類別都應檢閱是否有變更。 任何覆寫的設定\（範例如下\）都應與最新的設定進行比較，以取得最新的功能：
+   - elementmapping.xml
+   - ui\_config.json\（可能已在資料夾設定檔中設定\）
+   - 已修改 `com.adobe.fmdita.config.ConfigManager`
+
+1. 如果您已在damAssetLucene中新增任何自訂，您可能需要再次套用它們。 進行這些變更後，將重新索引設定為true。 這會使用自訂重新索引所有現有節點。 完成後，重新索引標幟將再次設定為false。 視系統中的資產數量而定，這可能需要幾個小時的時間。
+
+## 索引現有內容的步驟
+
+>[!NOTE]
+>
+> 如果您從4.3.0或4.3.1升級，則不需要執行這些步驟。
+
+執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
+
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- 此API將傳回jobId。 若要檢查作業的狀態，您可以傳送作業識別碼的GET要求至相同的端點 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+
+- 工作完成後，上述GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
+
+## 後續處理現有內容以使用中斷連結報告的步驟
+
+>[!NOTE]
+>
+> 如果您從4.3.0或4.3.1升級，則不需要執行這些步驟。
+
+執行以下步驟後續處理現有內容並使用新的中斷連結報表：
+
+1. （選用）如果系統中有超過100,000個dita檔案，請更新 `queryLimitReads` 在 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` 變更為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
+
+   | PID | 屬性索引鍵 | 屬性值 |
+   |---|---|---|
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | querylimitereads | 值： 200000 <br> 預設值： 100000 |
+
+1. 執行下列API以對所有檔案執行後續處理：
+
+   | 端點 | /bin/guides/reports/upgrade |
+   |---|---|
+   | 請求型別 | **POST**  此指令碼為POST請求，因此應透過Postman等代理程式執行。 |
+   | 預期回應 | 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點。<br> 範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+
+   | 端點 | /bin/guides/reports/upgrade |
+   |---|---|
+   | 請求型別 | **GET** |
+   | 引數 | jobId：傳遞從上一個post請求收到的jobId。 |
+   | 預期回應 |  — 工作完成後，GET要求會成功回應。 <br>  — 如果發生錯誤，請和您的客戶成功團隊共用錯誤記錄以及API輸出。  <br>範例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
+1. 恢復為預設值或先前的現有值 `queryLimitReads` 如果您已在步驟1中加以變更。
+
+### 透過Servlet啟用指令碼的觸發{#enable-trigger-serverlet-4-4-0}
+
+>[!NOTE]
+>
+> 如果您從4.3.0或4.3.1升級，則不需要執行這些步驟。
+
+POST：
+
+```
+http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
+```
+
+回應：
+
+```
+{
+"msg": "Job is successfully submitted and lock node is created for future reference",
+"lockNodePath": "/var/dxml/executor-locks/translation-map-upgrade/1683190032886",
+"status": "SCHEDULED"
+}
+```
+
+在上述回應JSON中，索引鍵 `lockNodePath` 儲存指向存放庫中建立的、指向已提交作業的節點的路徑。 它會在作業完成後自動刪除，在此之前，您可以參照此節點來瞭解作業的目前狀態。
+
+尋找 `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` 和 `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` 然後再繼續進行後續步驟。
+
+>[!NOTE]
+>
+> 您應該檢查節點是否仍然存在以及工作的狀態。
+
+**GET**： `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
+
+
+
+## 處理問題的步驟 `'fmdita rewriter'` 衝突
+
+Experience Manager指南有 [**自訂sling重寫程式**](../cs-install-guide/conf-output-generation.md#custom-rewriter) 用於處理交叉地圖情況下產生的連結的模組（兩個不同地圖主題之間的連結）。
+
+如果您的程式碼基底中有另一個自訂Sling重寫程式，請使用 `'order'` 值大於50，因為Experience Manager指南sling重寫程式使用 `'order'` 50.  若要覆寫此值，您需要大於50的值。 如需詳細資訊，請檢視 [輸出重寫管道](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+在此升級期間，由於 `'order'` 值從1000變更為50，您需要將現有的自訂重寫程式（如果有的話）與 `'fmdita-rewriter'`.
 
 
 **父級主題：**[&#x200B;下載並安裝](download-install.md)

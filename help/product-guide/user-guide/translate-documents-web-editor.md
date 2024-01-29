@@ -4,9 +4,9 @@ description: 從網頁編輯器將您的內容翻譯成多種語言。 瞭解如
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1925'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ AEM Guides在網頁編輯器中提供強大的功能，可讓您將內容翻譯�
 ## 建立翻譯專案
 
 1. 在「存放庫」面板中，開啟地圖檢視中的DITA map檔案。
-1. 按一下 **管理** 標籤。 「轉譯」面板會顯示DITA map的超連結標題以及 **語言** 清單。
-1. 從 **語言** 清單中，選取您要翻譯專案的地區設定。 您可以選取 **全部** 將專案翻譯成所有可用語言。
+1. 按一下 **管理** 標籤。 「翻譯」面板會顯示 **可用語言** 清單。
+1. 從 **可用語言** 清單中，選取您要翻譯專案的地區設定。 您可以選擇 **全選** 將專案翻譯成所有可用語言。
 
    >[!NOTE]
    >
@@ -46,11 +46,13 @@ AEM Guides在網頁編輯器中提供強大的功能，可讓您將內容翻譯�
 
    >[!IMPORTANT]
    >
-   > 語言只會顯示其語言資料夾是與來源語言平行建立的語言。 在任何其他層級建立的語言資料夾（例如從來源語言資料夾往下一個層級）也不會顯示。 請確定您建立的所有目標語言資料夾都與來源語言資料夾處於同一層級。
+   > 此清單僅顯示其語言資料夾平行於來源語言建立的語言。 在任何其他層級建立的語言資料夾（例如從來源語言資料夾往下一個層級）也不會顯示。 請確定您建立的所有目標語言資料夾都與來源語言資料夾處於同一層級。
 
-   ![](images/translation-languages.png){width="350" align="left"}
+   ![](images/translation-languages.png){width="300" align="left"}
 
-1. 您也可以使用下列選項：
+1. 您也可以選取下列其中一個選項來翻譯專案：
+
+   **無** 選取此選項可翻譯檔案的預設版本。 依預設，會選取此選項。
 
    **使用基準線：** 您可以選取基準線來翻譯專案。 按一下使用基準線，然後選擇在地圖上建立的基準線。 所有屬於所選「基準線」一部分的檔案都會顯示在「轉譯」頁面中。 翻譯內容後，即可匯出翻譯的「基準線」。 如需有關匯出轉換後的基準線的詳細資訊，請參閱 [匯出已翻譯基準線](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
@@ -146,7 +148,7 @@ AEM Guides可讓您將來源檔案的標籤傳遞至目標檔案。 這可協助
 
 AEM Guides提供的功能可檢查主題的所選版本與上次翻譯來源版本之間的差異。 您可以選擇翻譯 **不同步** 根據所做的變更建立檔案。
 
-![](images/translation-version-diff.png){width="800" align="left"}
+![](images/translation-version-diff.png){width="650" align="left"}
 
 選取 **顯示差異**&#x200B;圖示\(![](images/show-difference-icon.svg)\)以取得主題，檢視所選檔案的最新轉譯版本與目前版本之間的差異。
 

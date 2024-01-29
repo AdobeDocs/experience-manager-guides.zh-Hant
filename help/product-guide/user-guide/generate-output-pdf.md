@@ -4,9 +4,9 @@ description: 瞭解如何從網頁編輯器和地圖控制面板建立PDF預設�
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1008'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,6 @@ ht-degree: 1%
 | 目的地路徑 | 您的AEM存放庫內儲存PDF的路徑。<br><br>您也可以在設定目的地路徑時使用變數。 如需使用變數的詳細資訊，請參閱 [使用變數來設定目的地路徑、網站名稱或檔案名稱選項](generate-output-use-variables.md#id18BUG70K05Z). |
 | 清除DITA-OT暫存檔 | 選取此選項可清除DITA-OT產生的暫存檔案。 可以在輸出產生記錄中找到DITA-OT儲存暫存檔的位置。<br><br>如果您在透過DITA-OT產生輸出時發生錯誤，您可以取消選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。 |
 | 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>另請參閱 [使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) 以取得詳細資訊。 |
-| 屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單選取的屬性會顯示在 **屬性** 欄位。 選取屬性旁的十字圖示以將其移除。 <br><br>注意：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資訊，請參閱 [使用DITA-OT將中繼資料傳遞至輸出](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| 檔案屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單選取的屬性會顯示在 **檔案屬性** 欄位。 選取屬性旁的十字圖示以將其移除。 <br><br>注意：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資訊，請參閱 [使用DITA-OT將中繼資料傳遞至輸出](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

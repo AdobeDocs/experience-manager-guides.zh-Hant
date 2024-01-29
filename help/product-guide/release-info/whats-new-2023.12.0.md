@@ -3,9 +3,9 @@ title: 發行說明 | Adobe Experience Manager Guides的新增功能，2023年12
 description: 在2023年12月版本的Adobe Experience Manager Guidesas a Cloud Service中瞭解新增和增強功能。
 feature: What's New
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -128,13 +128,6 @@ Experience Manager指南現在提供增強的使用者體驗，讓您從網頁�
 *根據標籤複製基準線或建立精確副本。*
 
 進一步瞭解如何 [從網頁編輯器建立和管理基準線](../user-guide/web-editor-baseline.md).
-
-## 改善建立大量啟用地圖集合的程式
-
-建立大量啟動地圖集合的程式現在更加協調。 現在，當顯示啟用結果頁面時，您可以檢視啟用結果和記錄。
-如需詳細資訊，請參閱 [建立大量啟用地圖集合](../user-guide/conf-bulk-activation-create-map-collection.md).
-
-
 
 ## 解析AEM網站輸出中的交叉對應連結
 

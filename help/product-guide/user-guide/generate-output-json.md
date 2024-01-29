@@ -4,9 +4,9 @@ description: 瞭解如何從網頁編輯器和地圖儀表板建立JSON預設集
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,6 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱 [JSON設定](#id231KJA00REJ).
 
-**從地圖儀表板**
-
-若要開啟輸出預設集以進行PDF，請從Assets UI按一下DITA map檔案，然後按一下輸出預設集，再按一下HTML5選項。 在地圖控制面板中，按一下 **編輯** 以更新各種設定，然後按一下 **儲存**.
 
 **JSON設定**
 

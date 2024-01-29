@@ -4,9 +4,9 @@ description: 瞭解如何使用原生PDF發佈、建立和產生PDF輸出預設�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3196'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -87,16 +87,20 @@ ht-degree: 0%
 
 使用「中繼資料」標籤來設定中繼資料欄位，例如作者姓名、檔案標題、關鍵字、版權資訊以及PDF輸出的其他資料欄位。 您也可以為PDF輸出新增自訂中繼資料。
 
-此中繼資料會對應至輸出PDF之「檔案屬性」內「說明」標籤中的中繼資料。
+此中繼資料會對應至中的中繼資料 **說明** 標籤內的欄位 **檔案屬性** 輸出PDF的。
 
-**注意**：此中繼資料會覆寫在書籍層級定義的中繼資料。
+
 
 <img src="assets/pdf-metadata.png" alt="中繼資料標籤" width="600">
 
-從輸出預設集， **選取PDF** > **中繼資料** 以新增及自訂中繼資料選項。
+在輸出預設集中，選擇  **PDF** > **原生PDF** > **中繼資料** 以新增及自訂中繼資料選項。
+* **使用Topicmeta中新增的Metdata**
+
+  依預設，會選取此選項。 您可以使用在DITA map的topicmeta元素中新增的中繼資料來填入PDF輸出的中繼資料欄位。
+
 * **提供XMP檔案**
 
-  中繼資料欄位可透過匯入直接填入 [XMP](https://www.adobe.com/products/xmp.html) （可延伸中繼資料平台）檔案。 您可以從這裡下載範例XMP檔案。
+  您也可以透過匯入直接填入中繼資料欄位 [XMP](https://www.adobe.com/products/xmp.html) （可延伸中繼資料平台）檔案。 您可以從這裡下載範例XMP檔案。
 
 [下載](assets/SampleXMP.xmp)
 
@@ -169,6 +173,7 @@ ht-degree: 0%
 | **啟用MathML公式** | 選取此選項以呈現內容中出現的MathML方程式。 否則預設會忽略方程式。 |
 | **下載暫存檔案** | 如果您想要下載在產生原生HTML輸出時建立的臨時PDF檔案，請選取此選項。 您稍後可以在產生輸出後下載暫存檔案。 |
 | **PDF符合性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請參閱 [關於PDF標準](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **檔案屬性** | 選取您要傳遞給原生PDF發佈的中繼資料。 下拉式清單會同時列出自訂和預設屬性。 例如， `dc:description`， `dc:language`， `dc:title`、和 `docstate` 是預設屬性，但您可以有 `author` 作為自訂屬性。 選取的中繼資料屬性會傳遞至使用原生PDF產生的PDF檔案。 <br> 這些屬性挑選自 `metadataList` 檔案位於：`/libs/fmdita/config/metadataList`. <br>此檔案可覆蓋於： `/apps/fmdita/config/metadataList`. |
 
 
 ## 產生PDF輸出 {#generate-pdf-output}
