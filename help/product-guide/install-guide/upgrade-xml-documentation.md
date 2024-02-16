@@ -5,7 +5,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
 workflow-type: tm+mt
 source-wordcount: '5744'
 ht-degree: 0%
@@ -237,7 +237,7 @@ ht-degree: 0%
    - ui\_config.json\（可能已在資料夾設定檔中設定\）
    - 已修改 `com.adobe.fmdita.config.ConfigManager`
    - 檢查是否有任何自訂程式碼使用任何舊路徑\(如 [移轉對應](#id2244LE040XA) section\) — 應更新為新路徑，以便自訂也能如預期運作。
-1. 閱讀最新版本中的任何新設定\(檢查 [發行說明](../release-info/release-notes-4.3.md)\)並檢視是否有任何功能受到影響，然後採取適當的動作。 例如使用4.0版中引進的「改善檔案和版本處理」，您需要為此啟用設定。
+1. 閱讀最新版本中的任何新設定\(檢查 [發行說明](../release-info/release-notes-4-3.md)\)並檢視是否有任何功能受到影響，然後採取適當的動作。 例如使用4.0版中引進的「改善檔案和版本處理」，您需要為此啟用設定。
 
 ## 為現有內容建立索引以使用新尋找和取代的步驟：
 
@@ -452,7 +452,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    - ui\_config.json\（可能已在資料夾設定檔中設定\）
    - 已修改 `com.adobe.fmdita.config.ConfigManager`
    - 檢查是否有任何自訂程式碼使用任何舊路徑\(如 [移轉對應](#id2244LE040XA) section\) — 應更新為新路徑，以便自訂也能如預期運作。
-1. 閱讀最新版本中的任何新設定\(檢查 [發行說明](../release-info/release-notes-4.2.1.md)\)並檢視是否有任何功能受到影響，然後採取適當的動作。 例如使用4.0版中引進的「改善檔案和版本處理」，您需要為此啟用設定。
+1. 閱讀最新版本中的任何新設定\(檢查 [發行說明](../release-info/release-notes-4-2-1.md)\)並檢視是否有任何功能受到影響，然後採取適當的動作。 例如使用4.0版中引進的「改善檔案和版本處理」，您需要為此啟用設定。
 
 ## 為現有內容建立索引以使用新尋找和取代的步驟：
 

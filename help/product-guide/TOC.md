@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 1171f785ff183f9d3332842fb9a15e123041de4a
+source-git-commit: ae821964e123079707f51377390df378230680fc
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 4%
@@ -21,63 +21,63 @@ ht-degree: 4%
          + [部署指示](./release-info/deploy-xml-on-aemaacs.md)
          + 2023版本 {#2023-releases}
             + 12月發行 {#2312-release}
-               + [新增功能](./release-info/whats-new-2023.12.0.md)
-               + [發行說明](./release-info/release-notes-2023.12.0.md)
+               + [新增功能](./release-info/whats-new-2023-12-0.md)
+               + [發行說明](./release-info/release-notes-2023-12-0.md)
             + 11月發行 {#2311-release}
-               + [新增功能](./release-info/whats-new-2023.11.0.md)
-               + [發行說明](./release-info/release-notes-2023.11.0.md)
+               + [新增功能](./release-info/whats-new-2023-11-0.md)
+               + [發行說明](./release-info/release-notes-2023-11-0.md)
             + 10月發行 {#2310-release}
-               + [新增功能](./release-info/whats-new-2023.10.0.md)
-               + [發行說明](./release-info/release-notes-2023.10.0.md)
+               + [新增功能](./release-info/whats-new-2023-10-0.md)
+               + [發行說明](./release-info/release-notes-2023-10-0.md)
             + 9月發行 {#2309-release}
-               + [新增功能](./release-info/whats-new-2023.9.0.md)
-               + [發行說明](./release-info/release-notes-2023.9.0.md)
+               + [新增功能](./release-info/whats-new-2023-9-0.md)
+               + [發行說明](./release-info/release-notes-2023-9-0.md)
             + 7月發行 {#2307-release}
-               + [新增功能](./release-info/whats-new-2023.7.0.md)
-               + [發行說明](./release-info/release-notes-2023.7.0.md)
+               + [新增功能](./release-info/whats-new-2023-7-0.md)
+               + [發行說明](./release-info/release-notes-2023-7-0.md)
             + 6月發行版本 {#2306-release}
-               + [新增功能](./release-info/whats-new-2023.6.0.md)
-               + [發行說明](./release-info/release-notes-2023.6.0.md)
+               + [新增功能](./release-info/whats-new-2023-6-0.md)
+               + [發行說明](./release-info/release-notes-2023-6-0.md)
             + 4月發行 {#2304-release}
-               + [新增功能](./release-info/whats-new-2023.4.0.md)
-               + [發行說明](./release-info/release-notes-2023.4.0.md)
+               + [新增功能](./release-info/whats-new-2023-4-0.md)
+               + [發行說明](./release-info/release-notes-2023-4-0.md)
             + 3月發行 {#2303-release}
-               + [新增功能](./release-info/whats-new-2023.3.0.md)
-               + [發行說明](./release-info/release-notes-2023.3.0.md)
+               + [新增功能](./release-info/whats-new-2023-3-0.md)
+               + [發行說明](./release-info/release-notes-2023-3-0.md)
             + 2月發行 {#2302-release}
-               + [新增功能](./release-info/whats-new-2023.2.0.md)
-               + [發行說明](./release-info/release-notes-2023.2.0.md)
+               + [新增功能](./release-info/whats-new-2023-2-0.md)
+               + [發行說明](./release-info/release-notes-2023-2-0.md)
          + 2022版本 {#2022-releases}
-            + [11月發行說明](./release-info/release-notes-2022.11.0.md)
-            + [10月發行說明](./release-info/release-notes-2022.10.0.md)
-            + [9月發行說明](./release-info/release-notes-2022.9.0.md)
-            + [8月發行說明](./release-info/release-notes-2022.8.0.md)
-            + [5月發行說明](./release-info/release-notes-2022.5.0.md)
-            + [4月發行說明](./release-info/release-notes-2022.4.0.md)
-            + [3月發行說明](./release-info/release-notes-2022.3.0.md)
-            + [2月發行說明](./release-info/release-notes-2022.2.0.md)
-            + [1月發行說明](./release-info/release-notes-2022.1.0.md)
+            + [11月發行說明](./release-info/release-notes-2022-11-0.md)
+            + [10月發行說明](./release-info/release-notes-2022-10-0.md)
+            + [9月發行說明](./release-info/release-notes-2022-9-0.md)
+            + [8月發行說明](./release-info/release-notes-2022-8-0.md)
+            + [5月發行說明](./release-info/release-notes-2022-5-0.md)
+            + [4月發行說明](./release-info/release-notes-2022-4-0.md)
+            + [3月發行說明](./release-info/release-notes-2022-3-0.md)
+            + [2月發行說明](./release-info/release-notes-2022-2-0.md)
+            + [1月發行說明](./release-info/release-notes-2022-1-0.md)
       + 內部部署/Managed Services {#on-prem-release-notes}
       + 4.4.0版 {#44-release}
          + 新增功能 {#44-whats-new}
-            + [4.4新增功能](./release-info/whats-new-4.4.md)
+            + [4.4新增功能](./release-info/whats-new-4-4.md)
          + 發行說明 {#44-release-notes}
-            + [4.4發行說明](./release-info/release-notes-4.4.md)
+            + [4.4發行說明](./release-info/release-notes-4-4.md)
       + 4.3.0版 {#43-release}
          + 新增功能 {#43-whats-new}
-            + [4.3.1新增功能](./release-info/whats-new-4.3.1-release.md)
-            + [4.3.0新增功能](./release-info/whats-new-4.3-release.md)
+            + [4.3.1新增功能](./release-info/whats-new-4-3-1-release.md)
+            + [4.3.0新增功能](./release-info/whats-new-4-3-release.md)
          + 發行說明 {#43-release-notes}
-            + [4.3.1發行說明](./release-info/release-notes-4.3.1.md)
-            + [4.3.0發行說明](./release-info/release-notes-4.3.md)
+            + [4.3.1發行說明](./release-info/release-notes-4-3-1.md)
+            + [4.3.0發行說明](./release-info/release-notes-4-3.md)
       + 4.2版 {#42-release}
          + 新增功能 {#42-whats-new}
-            + [4.2.1新增功能](./release-info/whats-new-4.2.1-release.md)
-            + [4.2新增功能](./release-info/whats-new-4.2-release.md)
+            + [4.2.1新增功能](./release-info/whats-new-4-2-1-release.md)
+            + [4.2新增功能](./release-info/whats-new-4-2-release.md)
          + 發行說明 {#42-release-notes}
-            + [4.2.1發行說明](./release-info/release-notes-4.2.1.md)
-            + [4.2發行說明](./release-info/release-notes-4.2.md)
-      + [4.1.x發行說明](./release-info/release-notes-4.1.md)
+            + [4.2.1發行說明](./release-info/release-notes-4-2-1.md)
+            + [4.2發行說明](./release-info/release-notes-4-2.md)
+      + [4.1.x發行說明](./release-info/release-notes-4-1.md)
       + [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       + [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + 使用手冊 {#user-guide}
