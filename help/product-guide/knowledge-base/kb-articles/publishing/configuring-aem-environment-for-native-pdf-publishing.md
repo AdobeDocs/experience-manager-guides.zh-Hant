@@ -4,9 +4,9 @@ description: 設定AEM環境以進行原生PDF發佈
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: a41fed965ed9fe33994478d51030eefdad1037de
+source-git-commit: 1baed01b2e573d79d4baaa6a551966ce59449136
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -181,12 +181,6 @@ AEM Guides包含原生PDF發佈引擎，可讓使用者設計、開發及發佈P
 
 驗證CRX存放庫中/var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs中nodejs節點的逾時屬性值。 預設值為 300。
 
-### 擷取相依性例外時發生錯誤（字串太長）
-![字串太長例外狀況](..//assets/publishing/string-too-long-error.png)
-
-若要解決此例外狀況：
-1. 刪除一些不需要的樣式，使其變小。
-2. 建立多個樣式表，而非單一大型css。
 
 
 如果您在執行上述任何步驟時遇到任何問題，請在AEM Guides社群中發佈您的問題 [論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 以取得協助。
