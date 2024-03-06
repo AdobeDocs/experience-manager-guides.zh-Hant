@@ -1,9 +1,9 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides 4.4.0版的升級指示和修正問題
 description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Guides 4.4.0版
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 0%
 ## 升級至Experience Manager指南4.4.0版
 
 
-您可以輕鬆地將最新版本的Guides升級至4.4.0版。在繼續升級至4.4.0版的Experience Manager指南之前，您必須考慮以下幾點：
+您可以輕鬆地將目前版本的Experience Manager指南升級至4.4.0版。在繼續升級至4.4.0版的Experience Manager指南之前，您必須考慮以下幾點：
 
 
 - 如果您是使用4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，則可以直接升級至4.4.0版。
 - 如果您是使用4.2、4.1或4.1.x版，則必須先升級至4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，才能升級至4.4.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用的版本早於3.8.5，請參閱產品特定安裝指南中的升級Experience Manager指南區段。
+- 如果您使用的是3.8.5之前的版本，請參閱上的產品特定安裝指南中的「升級Experience Manager指南」一節。 [Adobe Experience Manager Guides說明PDF封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 

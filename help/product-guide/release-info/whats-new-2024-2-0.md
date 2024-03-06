@@ -1,34 +1,41 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guides的新增功能（2024年2月發行）
-description: 在2024年2月發行的Adobe Experience Manager Guidesas a Cloud Service中瞭解新功能和增強功能。
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+title: 發行說明 | Adobe Experience Manager Guides，2024.2.0版的新增功能
+description: 瞭解2024.2.0版Adobe Experience Manager Guidesas a Cloud Service中的新功能和增強功能。
+source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
 
-# 2024年2月版Adobe Experience Manager Guides的as a Cloud Service新增功能
+# 2024.2.0版的新增功能
 
-本文介紹2024年2月版Adobe Experience Manager Guides (以下稱為 *Experience Manager指南as a Cloud Service*)。
+本文介紹2024.2.0版Adobe Experience Manager Guides中的新功能和增強功能。
 
-如需有關升級指示、相容性矩陣，以及此版本中修正問題的詳細資訊，請檢視 [發行說明](release-notes-2023-12-0.md).
+如需此版本已修正的問題清單，請檢視 [已修正2024.2.0版本中的問題](fixed-issues-2024-2-0.md).
 
-## 創作內容的AI型智慧型建議
+
+瞭解 [2024.2.0版的升級指示](upgrade-instructions-2024-2-0.md).
+
+
+
+## AI支援的智慧型建議，可在編寫內容時新增內容參考
 
 現在，您可以使用智慧型建議來增強您的撰寫歷程，智慧型建議是網頁編輯器中以人工智慧為基礎的新功能。 當您編寫內容時，此智慧型功能會提供內容參考的即時建議、改善您的工作流程、增加準確性，並確保無與倫比的效率。
 
 
 為了確保您的內容正確且一致，搜尋和建議會限制在您組織擁有的內容，且與您搜尋的關鍵字非常相符。
 
-![網頁編輯器中的智慧型建議面板 ](web-editor-smart-suggestion.png) {width="800" align="left"}
+![網頁編輯器中的智慧型建議面板 ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *檢視智慧型建議，從您的內容存放庫尋找及新增相符的內容參考。*
 
-您也可以將目前的內容與其他主題中的類似內容進行比較。 然後，您就可以輕鬆地從各種主題中挑選內容片段，並將其作為內容參照新增到您目前的主題中。 新增內容參考可讓更新更易於管理，尤其是在大型檔案專案中。 例如，假設您正在建立產品最新功能的手冊。 在這種情況下，您可以快速新增更新的規格作為相關功能檔案中的內容參照。
+您也可以將目前的內容與其他主題中的類似內容進行比較。 然後，您就可以輕鬆地從各種主題中挑選內容片段，並將其作為內容參照新增到您目前的主題中。 新增內容參考可讓更新更易於管理，尤其是在大型檔案專案中。 例如，您正在建立產品最新功能的手冊。 在這種情況下，您可以快速新增更新的規格作為相關功能檔案中的內容參照。
 
 使用此智慧型功能可減少手動搜尋相關內容的工作量，並幫助您專注於新內容的建立。  此外還有助於維持一致性，以及促進更出色的團隊協同合作。
+
+進一步瞭解 [創作內容的AI支援智慧型建議](../user-guide/authoring-ai-based-smart-suggestions.md).
 
 ## 網頁編輯器中的翻新版本記錄功能
 
@@ -40,7 +47,7 @@ ht-degree: 0%
 
 進一步瞭解 **版本記錄** 中的功能說明 [左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 區段。
 
-## 增強型翻譯面板
+## 改善翻譯面板的使用者體驗
 
 此 **翻譯** 面板已改善。  您可以檢視 **可用語言** 列出並快速選取您要翻譯專案的地區設定。 只要選取一個專案，您也可選擇 **全選** 將專案翻譯成所有可用語言。
 
@@ -66,7 +73,7 @@ ht-degree: 0%
 如需詳細資訊，請檢視 **插入元素** 中的功能說明 [左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 區段。
 
 
-## 在同一層級分割清單的功能
+## 分割目前清單並從相同層級的新清單專案開始的功能
 
 現在，您可以在網頁編輯器中輕鬆分割清單。 選取 **分割清單** 從清單專案的前後關聯功能表中分割目前清單的選項。 從您為分割選取的清單專案開始，會在相同層級建立新清單。
 
@@ -82,14 +89,14 @@ ht-degree: 0%
 
 如需詳細資訊，請檢視 **檔案屬性** 中的功能說明 [右側面板](../user-guide/web-editor-features.md#id2051EB003YK) 區段。
 
-## 同時發佈多個輸出預設集
+## 能夠使用動態基準並行發佈多個輸出預設集
 
 「Experience Manager」提供根據套用至主題的主題標籤自動挑選主題以建立基準的功能。 現在，您也可以使用相同DITA map的自動基準線，順暢地發佈多個輸出預設集。 您不需要一次只發佈一個預設集，但可以輕鬆地同時發佈多個輸出預設集。
 
 
 ## 原生PDF增強功能
 
-下列原生PDF增強功能已在2024年2月版本中完成：
+2024.2.0版已完成下列原生PDF增強功能：
 
 ### 將資產中繼資料傳遞至PDF輸出
 

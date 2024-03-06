@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 22150456d455687a1e3bf36695ce6c1238f92e0c
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 1%
    - [部署AEM指南模組](download-install-dxml-first-time.md)
    - [設定Dispatcher](download-install-configure-dispatcher.md)
    - [驗證AEM Guides安裝](download-install-verify-dxml-installation.md)
-   - [升級AEM指南](download-install-upgrade-dxml.md)
    - [設定覆寫](download-install-additional-config-override.md)
    - [Recommendations的效能最佳化](download-install-recommend-perf-optimiz.md)
 - [使用者管理與安全性](user-admin-sec.md)

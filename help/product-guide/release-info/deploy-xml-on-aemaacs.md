@@ -1,35 +1,28 @@
 ---
-title: 如何新增 [!DNL AEM Guides] 至您的 [!DNL AEM as a Cloud Service] 環境
+title: 如何新增 [!DNL Experience Manager Guides] 至您的 [!DNL Experience Manager as a Cloud Service] 環境
 description: 瞭解如何新增 [!DNL AEM Guides] 至您的 [!DNL AEM as a Cloud Service] 環境
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
-# [!DNL AEM Guides] as a Cloud Service部署
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service部署
 
-瞭解如何新增 [!DNL Guides] 至您的 [!DNL AEM as a Cloud Service] 環境。
+瞭解如何新增 [!DNL Experience Manager Guides] 至您的 [!DNL Experience Manager as a Cloud Service] 環境。
 
-## 透過Cloud Manager Git管道手動部署
 
-如果您已購買 [!DNL AEM Guides] 與2022年3月29日之前as a Cloud Service，請遵循下列部署指示：
-
-* 如果您重新開始，可以取代自動產生的程式碼 [!UICONTROL Cloud Manager] 使用來自以下存放庫的程式碼（其已整合XML外掛程式）： https://github.com/Adobe-TCS/XML-documentation-for-AEMaaCS
-
-* 如果您在中已經簽入自訂 [!UICONTROL Cloud Manager] git存放庫，您可以參閱下列存放庫，瞭解如何在現有程式碼中新增XML外掛程式的指示：https://github.com/Adobe-TCS/DoX-Installer-for-AEMaaCS
-
-## 透過Cloud Manager部署
-
-如果您是購買產品的客戶 [!DNL AEM Guides] 與2022年3月29日或之後as a Cloud Service，請依照下列指示新增 [!DNL Guides] 至您的 [!DNL AEM as a Cloud Service] 環境：
+>[!NOTE]
+>
+> 從2024.2.0版開始，Experience Manager指南僅以Experience Manageras a Cloud Service的自動化附加元件形式提供。 如果您對Experience Manager指南使用手動部署，請移除此行 `<module>dox.installer</module> from file dox/pom.xml` 在您的雲端管理Git程式碼基底中，再啟用程式的Experience Manager指南。
 
 1. 登入 [!UICONTROL Cloud Manager].
 
-1. 編輯要設定的程式 [!DNL AEM Guides].
+1. 編輯要設定的程式 [!DNL Experience Manager Guides].
 
 1. 切換至 **[!UICONTROL 解決方案和附加元件]** 標籤。
 
@@ -37,10 +30,10 @@ ht-degree: 0%
 
 1. 選取 **[!UICONTROL 指南]** 並選取 **[!UICONTROL 儲存]**.
 
-您已成功設定程式以自動布建AEM Guides解決方案。
+您已成功設定程式以自動布建Experience Manager指南解決方案。
 
-![設定AEM Guides解決方案](assets/addon-configuration.png)
+![設定Experience Manager Guides解決方案](assets/addon-configuration.png)
 
 >[!NOTE]
 >
->若要安裝 [!DNL AEM Guides] 在整合計畫下的任何環境中，您必須執行與環境關聯的管道。 您的CM Git程式碼基底中不需要進行額外的設定即可安裝 [!DNL AEM Guides].
+>若要安裝 [!DNL Experience Manager Guides] 在整合計畫下的任何環境中，您必須執行與環境關聯的管道。 您的CM Git程式碼基底中不需要進行額外的設定即可安裝 [!DNL Experience Manager Guides].

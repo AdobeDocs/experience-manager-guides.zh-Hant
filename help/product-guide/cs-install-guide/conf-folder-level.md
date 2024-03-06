@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '4285'
 ht-degree: 0%
 
 ---
@@ -405,6 +405,43 @@ AEM Guides可讓管理員以特定設定建立輸出預設集，然後供所有�
 
 1. 按一下 **確定** 將所選輸出預設集的變更套用到所有現有DITA map上。
 
+
+
+## 在網頁編輯器中設定AI支援的智慧型建議 {#conf-ai-smart-suggestions}
+
+的 ![AEM雲端 ](assets/aem-cloud-icon.svg) Experience Manager指南as a Cloud Service。
+
+您可以設定AI支援的智慧型建議，並協助作者重複使用現有內容，輕鬆建立正確且一致的內容參考。 此 **AI設定** 索引標籤可讓您控制網頁編輯器中「智慧建議」面板的設定。
+
+執行以下步驟，在全域或資料夾層級的設定檔中設定標準AI設定：
+1. 以系統管理員或具有檔案夾層級設定檔管理許可權的使用者身分登入Adobe Experience Manager。
+1. 選取 **Adobe Experience Manager** 在頂端連結，然後選擇 **工具**.
+1. 選取 **指南** 從工具清單中選取 **資料夾設定檔** 圖磚。
+1. 選取您要設定的設定檔拼貼。
+
+   >[!NOTE]
+   >
+   >您可以將以AI為基礎的智慧型建議設定至全域或資料夾層級的設定檔。
+
+1. 在設定檔頁面上，選取 **AI設定** 標籤。
+   ![全域設定檔中的AI設定索引標籤](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+
+1. 按一下 **編輯**.
+1. 身為管理員，您可以進行下列設定：
+
+   **最小字元數**：輸入作者需要輸入以取得建議的最少字元數。 例如，如果此數字為7，作者必須新增至少7個字元才能檢視智慧型建議。
+
+   **最大建議**：輸入作者在編寫內容時可取得的最大建議數量。 例如，如果此數字為5，則作者可檢視五個或更少的智慧建議。
+
+   **檔案和資料夾**：選取要顯示智慧建議的檔案或資料夾。 *為保持內容的一致性，建議清單中不要有兩個專案之間有通用檔案*. 選取檔案和資料夾後，它們就會列出。
+
+1. 按一下「**儲存**」。
+
+   >[!NOTE]
+   >
+   > 儲存檔案後，最後索引的狀態詳細資訊會顯示在頂端。
+
+進一步瞭解如何檢視和新增 [AI型智慧型建議](../user-guide/authoring-ai-based-smart-suggestions.md) 以在網頁編輯器中編寫時新增內容參照。
 
 ## 設定和自訂XML Web編輯器 {#id2065G300O5Z}
 
