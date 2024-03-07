@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 98fec02367c7e3f33f2511e51675d9e02e41170a
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5940'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您可以將目前版本的Experience Manager指南升級至4.4.0版：
 
-- 如果您是使用4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，則可以直接升級至4.4.0版。
+- 如果您是使用4.3.1.5、4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，則可以直接升級至4.4.0版。
 - 如果您是使用4.2、4.1或4.1.x版，則必須先升級至4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，才能升級至4.4.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
@@ -38,6 +38,7 @@ ht-degree: 0%
 - [升級至4.2.1版](#upgrade-version-4-2-1)
 - [升級至4.3.0版](#upgrade-version-4-3)
 - [升級至4.3.1版](#upgrade-version-4-3-1)
+- [升級至4.3.1.5版](#upgrade-version-4-3-1-5)
 - [升級至4.4.0版](#upgrade-version-4-4-0)
 
 
@@ -53,7 +54,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升級程式僅適用於3.8.5版到4.0版。如需從3.4版或更新版本升級至3.8.5的程式，請參閱 *升級Experience Manager指南* 中提供的產品特定安裝指南部分 [說明封存頁面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> 此升級程式僅適用於3.8.5版到4.0版。如需從3.4版或更新版本升級至3.8.5的程式，請參閱 *升級Experience Manager指南* 產品特定安裝指南的區段，請見 [Adobe Experience Manager Guides說明PDF封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
+
 
 ****必備條件****
 
@@ -726,6 +729,48 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 
 1. 恢復為預設值或先前的現有值 `queryLimitReads` 如果您已在步驟1中加以變更。
+
+
+
+## 升級至4.3.1.5版 {#upgrade-version-4-3-1-5}
+
+升級至4.3.1.5版須視目前Experience Manager指南的版本而定。 如果您是使用4.3.1版，則可以直接升級至4.3.1.5版。
+
+
+
+## 安裝4.3.1.5版
+
+1. 從下載4.3.1.5版本的套件 [Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. 安裝4.3.1.5版本的套件。
+
+1. 請等候安裝程式順利完成。
+1. 繼續升級自訂，如下一節所述。
+
+
+## 安裝4.3.1.5版之後
+
+
+>[!NOTE]
+>
+>如果您想使用org.apache.velocity套件組合，請於上傳套件組合前執行下列步驟：
+> 1. 前往 `<server>:<port>/system/console/bundles`。
+> 1. 搜尋org.apache.velocity。
+> 1. 解除安裝搜尋的套件組合。
+> 1. 安裝所需的Velocity套件。
+
+
+1. 升級完成後，請確定所有自訂/覆蓋圖均已驗證並更新，以符合新的應用程式程式碼。 以下提供一些範例：
+   - 任何覆蓋的元件 `/libs/fmdita` 或` /libs` 應該與新的產品程式碼進行比較，並且更新應在下的覆寫檔案中完成 `/apps` .
+   - 產品中使用的任何clientlib類別都應檢閱是否有變更。 任何覆寫的設定\（範例如下\）都應與最新的設定進行比較，以取得最新的功能：
+   - `elementmapping.xml`
+   - `ui\_config.json\` （可能已在資料夾設定檔中設定\）
+   - 已修改 `com.adobe.fmdita.config.ConfigManager`
+
+
+
+
+
+
 
 ## 升級至4.4.0版 {#upgrade-version-4-4-0}
 
