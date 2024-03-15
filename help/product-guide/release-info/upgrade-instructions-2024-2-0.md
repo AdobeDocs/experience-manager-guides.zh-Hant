@@ -1,7 +1,7 @@
 ---
 title: 發行說明 | 2024.2.0版Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解相容性矩陣，以及如何升級至2024.2.0版Adobe Experience Manager Guidesas a Cloud Service。
-source-git-commit: e7457762ced59f696c5bd762c719cfd59b357250
+source-git-commit: 9022b8fbae9ff9eba962ca75e25c1f1137b008f8
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 | 雲端版Experience Manager指南 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- | --- | --- |
-| 2024.2.0 | 3.4-uuid 1 | 3.4-uuid 1 | 2.3 | 2.3 |
+| 2024.2.0 | 3.5-uuid 1 | 3.5-uuid 1 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
