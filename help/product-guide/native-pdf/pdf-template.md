@@ -5,9 +5,9 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: e3fcfeb94c77ee9e499425608048fc882eaa293b
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -27,16 +27,19 @@ ht-degree: 0%
 您可以使用樣式表來建立具有特定頁面配置的自訂PDF範本，並定義頁面配置元件（例如TOC、索引、字彙表）或DITA元件（例如標題、段落、清單）的格式。
 
 若要建立新的PDF範本，請執行下列步驟：
+
 1. 在網頁編輯器中，前往 **輸出** 標籤。
 1. 選取 **範本** <img src="./assets/template.svg" alt= "範本圖示" width="25"> 在左側面板中。
-<img src="assets/create-pdf-template.png" alt="建立PDF範本" width="400">
-1.在**樣版**視窗中，選取**樣版**旁的**+**圖示，然後選擇**PDF樣版**。
-1.在**新增PDF樣版**對話方塊中，選取要作為建立自訂樣版基礎的工廠樣版。 您也可以使用搜尋方塊來搜尋範本。
-1.指定樣版的標題。
 
->[!NOTE]
->
->  您也可以在建立和複製範本時預覽範本的縮圖。 編輯或刪除縮圖，使用 [**屬性**](#properties-option) 在 **選項** 選單。
+   <img src="assets/create-pdf-template.png" alt="建立PDF範本" width="400">
+
+1. 在 **範本** 視窗，選取 **+** 圖示旁邊 **範本** 並選擇 **PDF範本**.
+1. 在 **新增PDF範本** 對話方塊中，選取要用來作為建立自訂範本基礎的工廠範本。 您也可以使用搜尋方塊來搜尋範本。
+1. 指定範本的標題。
+
+   >[!NOTE]
+   >
+   >  您也可以在建立和複製範本時預覽範本的縮圖。 編輯或刪除縮圖，使用 [**屬性**](#properties-option) 在 **選項** 選單。
 
 1. 按一下&#x200B;**建立**。
 
@@ -47,6 +50,7 @@ ht-degree: 0%
 如果要建立與現有範本具有相同頁面配置及格式的新範本，您可以建立副本。 複製範本後，您可以視需要進一步自訂其元件。
 
 若要複製現有PDF範本，請遵循下列步驟：
+
 1. 在網頁編輯器中，前往 **輸出** 標籤。
 1. 選取 **範本** <img src="./assets/template.svg" alt= "範本圖示" width="25"> 在左側面板中。 如此將可開啟 **範本** 視窗。
 1. 將游標停留在您要複製的範本上，然後選取 **...** *選項* 圖示並選擇 **複製** 從內容功能表。
@@ -88,6 +92,7 @@ ht-degree: 0%
 選取此選項，即可在「資產」UI中檢視範本。 開啟範本的根位置時，您可以檢視範本的所有資源。
 
 建立自訂範本後，您可以從PDF輸出預設集的「頁面配置」中選擇它。
+
 瞭解如何 [發佈PDF輸出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
@@ -96,35 +101,36 @@ ht-degree: 0%
 
 根據您的設定，您的管理員可以設定範本：
 
-<details>
-<summary> 雲端服務 </summary>
++++ 雲端服務
 
 如需設定全域和檔案夾層級設定檔的詳細資訊，請檢視 [設定範本](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) 一節(適用於Cloud Service的安裝與設定指南)。
 
-</details>
++++
 
-<details>    
-<summary>  內部部署軟體 </summary>
++++ 內部部署軟體
 
 如需設定全域和檔案夾層級設定檔的詳細資訊，請檢視 [設定編寫範本](../install-guide/conf-folder-level.md#create-custom-authoring-template-id1917d0eg0hj) On-premise安裝和設定指南中的區段。
 
-</details>
++++
 
 ## 自訂PDF範本 {#customize-pdf-template}
 
 您可以調整範本元件並使用樣式表套用樣式格式來自訂範本。
 
 若要自訂PDF範本，請執行下列步驟：
+
 1. 在網頁編輯器中，前往 **輸出** 標籤。
 1. 展開左側邊欄並選取 **範本**.
 
    如此將可開啟 **範本** 面板。
+
 1. 若要檢視範本的元件，請執行下列任一項作業：
 
    * 選取範本旁的>圖示，或按兩下範本名稱。
    * 將滑鼠指標暫留在任何範本上，並選取…… (**選項** 圖示)並選擇 **編輯** 從內容功能表。
 
-     依預設，這會開啟 **設定** 範本編輯器中的面板。
+   依預設，這會開啟 **設定** 範本編輯器中的面板。
+
    <img src="assets/customize-pdf-template.png" alt="自訂PDFTeamplte" width="350">
 
    >[!NOTE]
@@ -134,6 +140,7 @@ ht-degree: 0%
    > `/libs/fmdita/pdf`
 
    您可以自訂的各種範本元件分為以下幾節：
+
    * 頁面配置：典型的PDF包含不同的頁面，例如封面或標題頁面、目錄、章節、索引、引文等。 「頁面配置」區段可讓您設計構成PDF之不同頁面的外觀。 如需詳細資訊，請檢視 [頁面配置](../native-pdf/components-pdf-template.md#page-layouts).
 
      除了外觀之外，您還可以定義頁面元素（例如頁首、頁尾和頁面上的內容區域）的排列。 若要進一步瞭解自訂頁面的版面，請參閱 [建立和自訂頁面配置](components-pdf-template.md#create-customize-page-layout).
@@ -143,8 +150,10 @@ ht-degree: 0%
 您也可以使用存在於存放庫中任何其他位置的資源。 您不需要為每個範本建立重複資源，您可以將它們儲存在共用資料夾中，並在所有原生PDF範本中使用它們。
 
      若要進一步瞭解如何利用資源，請參閱 [使用資源](components-pdf-template.md#work-with-resources).
+
    * 設定：設定輸出設定，以使用範本產生PDF。 本節可讓您為PDF中的各種頁面、章節開始頁面、列印標籤、引文等定義範本對應。
-您也可以排列它們在最終PDF輸出中的顯示順序。
+
+   您也可以排列它們在最終PDF輸出中的顯示順序。
 如需套用設定的詳細資訊，請參閱 [進階PDF設定](components-pdf-template.md#advanced-pdf-settings).
 
 
