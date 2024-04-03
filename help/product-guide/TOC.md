@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 46fae421d3fb3bedaa2841c29d7d20f539bdf793
+source-git-commit: fa6486d7a1ca392742968fc4adad3e3910a91903
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1749'
 ht-degree: 5%
 
 ---
@@ -435,6 +435,9 @@ ht-degree: 5%
                - [自訂](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       - 發佈 {#publishing}
          - [設定AEM環境以進行原生PDF發佈](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+
+         - [在原生PDF發佈中產生書籤圖的目錄](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+
          - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [微服務架構與效能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [設定以微服務為基礎的發佈](./knowledge-base/publishing/configure-microservices.md)
