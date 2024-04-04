@@ -5,7 +5,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e3fcfeb94c77ee9e499425608048fc882eaa293b
+source-git-commit: 7790aa9dce9a586b8b422dc6deeecab3d53aca8d
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 若要建立新的PDF範本，請執行下列步驟：
 
 1. 在網頁編輯器中，前往 **輸出** 標籤。
-1. 選取 **範本** <img src="./assets/template.svg" alt= "範本圖示" width="25"> 在左側面板中。
+1. 選取 **範本** ![範本圖示](./assets/template.svg) 在左側面板中。
 
    <img src="assets/create-pdf-template.png" alt="建立PDF範本" width="400">
 
