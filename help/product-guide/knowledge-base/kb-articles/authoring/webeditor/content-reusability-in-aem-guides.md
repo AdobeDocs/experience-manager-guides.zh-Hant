@@ -2,9 +2,9 @@
 title: AEM Guides中的DITA內容重複使用
 description: 本簡短文章說明AEM Guides和DITA如何協助您在使用內容重複使用時節省時間和精力
 role: User, Admin
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 # AEM Guides中的內容可重複使用
 
 Adobe AEM Guides運用DITA的優勢，提供使用者易用的介面以重複使用內容。
+
+在本文中，我們將討論：
+
+1. 使用主題參照(`topicrefs`)
+2. 使用內容參照(`conref` 和 `conkeyref`)
+3. 透過AEM Guides中的拖放功能重複使用內容的額外秘訣
 
 ## 使用主題參照(topicref)可重複使用
 
@@ -129,7 +135,7 @@ Kyc_procedure.dita仍然是唯一的資訊來源。 如果根據法規要求對K
 此處根目錄地圖已自動選取，因為它已在地圖檢視中開啟
 
 
-### 在AEM Guides中按一下即可重複使用內容
+## 在AEM Guides中按一下即可重複使用內容
 
 AEM Guides提供「可重複使用的內容」功能，只需按一下即可新增內容參考。
 
