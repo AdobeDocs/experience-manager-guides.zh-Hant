@@ -4,9 +4,9 @@ description: 瞭解如何從網頁編輯器和地圖控制面板建立PDF預設�
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
 feature: Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: b82f1f3b42f85cce8420d3962c69cd3bafc5728d
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1050'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
 進階標籤包含以下設定：
 
 - 啟用版本設定
-- 清除DITA-OT暫存檔
+- 下載暫存檔案
 
 如需詳細資訊，請參閱 [PDF設定](#id231KIM004X1).
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 | 轉換名稱 | 指定您要產生的輸出型別。 如果您想要使用自己的自訂外掛程式產生輸出（已整合在DITA-OT外掛程式中），則需要此專案。 例如，如果要產生XHTML輸出，請指定 `xhtml`. 如需DITA-OT中可用的轉換清單，請參閱 [DITA-OT轉換（輸出格式）](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) OASIS DITA-OT使用手冊中的。 |
 | 檔案名稱 | 指定要用來儲存PDF的檔案名稱。<br><br>設定「PDF檔案名稱」時，您也可以使用變數。 如需使用變數的詳細資訊，請參閱 [使用變數來設定目的地路徑、網站名稱或檔案名稱選項](generate-output-use-variables.md#id18BUG70K05Z).<br><br>**注意**：如果您未提供檔案名稱，則會使用DITA map的標題來產生最終PDF的檔案名稱。 如果對應沒有標題，則會使用DITA map的檔案名稱來命名最終PDF。 系統會使用系統中設定的規則來清除檔案名稱，以處理任何無效字元。 |
 | 目的地路徑 | 您的AEM存放庫內儲存PDF的路徑。<br><br>您也可以在設定目的地路徑時使用變數。 如需使用變數的詳細資訊，請參閱 [使用變數來設定目的地路徑、網站名稱或檔案名稱選項](generate-output-use-variables.md#id18BUG70K05Z). |
-| 清除DITA-OT暫存檔 | 選取此選項可清除DITA-OT產生的暫存檔案。 可以在輸出產生記錄中找到DITA-OT儲存暫存檔的位置。<br><br>如果您在透過DITA-OT產生輸出時發生錯誤，您可以取消選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。 |
+| 下載暫存檔案 | 選取此選項可下載DITA-OT產生的暫存檔案。 可以在輸出產生記錄中找到DITA-OT儲存暫存檔的位置。 如果您在透過DITA-OT產生輸出時發生錯誤，請選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。<br> <br>  產生輸出後，選取 **下載暫存檔案** ![下載暫存檔圖示](images/download-temp-files-icon.png) 圖示可下載包含暫存檔的ZIP資料夾。 <br><br> **注意**：如果您選取一些檔案屬性，然後下載暫存檔，您也會取得 *metadata.xml* ZIP資料夾中的檔案。 |
 | 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>另請參閱 [使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) 以取得詳細資訊。 |
 | 檔案屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單選取的屬性會顯示在 **檔案屬性** 欄位。 選取屬性旁的十字圖示以將其移除。 <br><br>注意：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資訊，請參閱 [使用DITA-OT將中繼資料傳遞至輸出](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

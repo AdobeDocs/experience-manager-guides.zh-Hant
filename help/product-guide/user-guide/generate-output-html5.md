@@ -4,9 +4,9 @@ description: 瞭解如何從網頁編輯器和地圖儀表板建立HTML5預設�
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: b82f1f3b42f85cce8420d3962c69cd3bafc5728d
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1187'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ HTML5輸出會以平面資料夾階層產生。 這表示存放庫中的內容�
 進階標籤包含以下設定：
 
 - 轉換名稱
-- 清除DITA-OT暫存檔
+- 下載暫存檔案
 - 檔案屬性
 
 如需詳細資訊，請參閱 [HTML5設定](#id231KJA00REJ).
@@ -65,7 +65,7 @@ HTML5輸出會以平面資料夾階層產生。 這表示存放庫中的內容�
 | 檔案名稱 | 指定您要用來儲存HTML5輸出的檔案名稱。<br><br>**注意**：如果您未提供檔案名稱，則會使用DITA map的標題來產生最終HTML5輸出檔案名稱。 如果對應沒有標題，則會使用DITA map的檔案名稱來命名最終HTML5輸出。 系統會使用系統中設定的規則來清除檔案名稱，以處理任何無效字元。 |
 | 執行後期產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。<br><br>**注意**：如需建立自訂輸出後產生工作流程的詳細資訊，請參閱 _自訂輸出後產生工作流程_ 在as a Cloud Service安裝與設定Adobe Experience Manager Guides中。 |
 | 目的地路徑 | AEM存放庫內儲存HTML5輸出的路徑。 |
-| 清除DITA-OT暫存檔 | 選取此選項可清除DITA-OT產生的暫存檔案。 可以在輸出產生記錄中找到DITA-OT儲存暫存檔的位置。<br><br>如果您在透過DITA-OT產生輸出時發生錯誤，您可以取消選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。 |
+| 下載暫存檔案 | 選取此選項可下載DITA-OT產生的暫存檔案。 可以在輸出產生記錄中找到DITA-OT儲存暫存檔的位置。 如果您在透過DITA-OT產生輸出時發生錯誤，請選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。<br> <br>  產生輸出後，選取 **下載暫存檔案** ![下載暫存檔圖示](images/download-temp-files-icon.png) 圖示可下載包含暫存檔的ZIP資料夾。 <br><br> **注意**：如果您選取一些檔案屬性，然後下載暫存檔，您也會取得 *metadata.xml* ZIP資料夾中的檔案。 |
 | 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>另請參閱 [使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) 以取得詳細資訊。 |
 | 檔案屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單選取的屬性會顯示在 **檔案屬性** 欄位。 選取屬性旁的十字圖示以將其移除。 <br><br>**注意**：您也可以使用DITA-OT發佈將中繼資料傳遞至輸出。 如需詳細資訊，請參閱 [使用DITA-OT將中繼資料傳遞至輸出](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

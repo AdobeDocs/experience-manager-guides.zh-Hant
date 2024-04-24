@@ -4,9 +4,9 @@ description: 探索AEM Guides中網頁編輯器的其他功能。 瞭解如何�
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,25 @@ Web編輯器中有其他一些有用的功能可供您使用：
 
 **插入MathML公式**
 
-- AEM Guides提供開箱即用的支援，可透過與整合，插入MathML方程式 [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) 應用程式。 若要插入MathML方程式，請按一下 **插入元素** 圖示並輸入mathml。 從清單中選取MathMl元素時，會顯示「插入MathML」對話方塊：
+- Experience Manager指南提供開箱即用的支援，讓您透過與整合，插入MathML方程式 [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) 應用程式。 若要插入MathML方程式，請選取 **插入元素** 圖示並輸入mathml。 當您從清單中選取數學元素時， **插入MathML** 對話方塊隨即顯示：
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![在數學編輯器中插入數學方程式](images/insert-mathml-equation.png){width="550" align="left"}
 
-使用MathML方程式工具，建立您的方程式，然後按一下「插入」將其新增到檔案中。 方程式會以淺灰色背景插入，如下所示：
+使用MathML方程式工具，建立您的方程式並按一下 **插入** 以將其新增至您的檔案。 方程式會以淺灰色背景插入，如下所示：
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![範例數學方程式](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 您可以隨時更新方程式，方法是以滑鼠右鍵按一下現有方程式並選取 **編輯MathML** 從內容功能表。
+
+- **在MathML編輯器中驗證方程式**
+
+  儲存包含MathML方程式的主題時，「Experience Manager參考線」會驗證這些方程式。
+使用MathML編輯器插入方程式時，如果有任何語法問題，「Experience Manager指南」會以紅色反白標示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取 **插入**，便會顯示警告。
+
+  ![驗證數學方程式](images/validate-mathml-equation.png){width="400" align="left"}
+
+  如果您插入包含語法錯誤的MathML方程式，則當您嘗試儲存主題時，會發生驗證錯誤。
+
 
 **插入註腳**
 
@@ -203,11 +213,30 @@ Web編輯器中有其他一些有用的功能可供您使用：
 
 - 展開元素可讓您從選取的文字中移除元素標籤，並將其與其父元素合併。 例如，如果您擁有 `p` 內的元素 `note` 元素，您可以將 `p` 元素直接將文字合併至 `note` 元素。 此 **解除元素包裝** 選項位於主題階層連結的內容功能表中。 若要取消繞排元素，請在元素上按一下滑鼠右鍵，開啟內容功能表，最後選取 **解除元素包裝** 移除元素，並將元素的文字與其父元素合併。
 
+**DITA元素的空白處理**
+
+- 在XML中，空白字元包括空格、定位字元、歸位字元和空白行。 「Experience Manager參考線」會將多個後續空格轉換為一個空格。 這可協助您保留網頁編輯器的WYSIWYG檢視。
+
+  >[!NOTE]
+  >
+  >在某些需要根據DITA規則保留空白的元素中，會保留多個後續空格。 例如， `<pre>` 和 `<codeblock>` 元素。
+
+
 **保留分行和縮排**
 
 - 根據在「作者」、「來源」或「預覽」模式中的定義，以及在最終發佈的輸出中的定義，支援並轉譯包含分行符號和空格的DITA元素。 下列熒幕擷圖顯示 `msgblock` 其中已保留分行符號和空格\(indentation\)的元素：
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
+
+
+
+**在網頁編輯器中處理不斷行空格**
+
+- 您可以使用將連續空格插入檔案中 **插入特殊字元**  ![插入特殊字元圖示](images/insert-special-chars-icon.svg) 圖示或 **Alt** + **空格** 快速鍵。  在網頁編輯器中編輯主題時，這些不間斷的空格會顯示為指示器。 您可以使用 **在製作模式中顯示不斷行空格指示器** 選項來自 **外觀** 的標籤 **使用者偏好設定** ![使用者偏好設定圖示](images/user_preference_editor_icon.svg)..
+
+- 如果您將任何外部來源具有連續空白的內容複製並貼上至 **作者** 檢視，不中斷的空間會轉換為空間。
+不過，如果您複製並貼上內容時，內容中的空格不會中斷， **作者** 檢視，會保留。
+
 
 **自動生成元素ID**
 

@@ -4,24 +4,28 @@ description: 瞭解如何為AEM Guides設定新的微服務型發佈。
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
-# 為AEM Guidesas a Cloud Service設定新的微服務型發佈
+# 使用JWT驗證設定微服務型發佈
 
-新的發佈微服務可讓使用者在AEM Guidesas a Cloud Service上同時執行大型發佈工作負載，並利用業界領先的Adobe I/O Runtime無伺服器平台。
-
-對於每個發佈請求，AEM Guidesas a Cloud Service會執行單獨的容器，其會根據使用者請求水平縮放。 這可讓使用者執行多個發佈請求，並獲得比其大型內部部署AEM伺服器更好的效能。
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
-> AEM Guides中以微服務為基礎的發佈可支援PDF（原生和DITA-OT型）、HTML5、JSON和CUSTOM型別的輸出預設集。
+> 服務帳戶(JWT)憑證已遭取代，改用OAuth伺服器對伺服器憑證。 使用服務帳戶(JWT)憑證的應用程式將在2025年1月1日之後停止運作。 您必須在2025年1月1日之前移轉至新認證，以確保您的應用程式繼續運作。 進一步瞭解 [從服務帳戶(JWT)認證移轉至OAuth伺服器對伺服器認證](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
-由於新的雲端發佈服務受到Adobe IMS JWT型驗證的保護，客戶應該遵循以下指定步驟，將其環境與Adobe的安全權杖型驗證工作流程整合，並開始使用新的雲端型可擴充發佈解決方案。
+
+
+適用於Adobe Experience Manager Guides的中微服務型發佈as a Cloud Service支援PDF（原生和DITA-OT型）、HTML5、JSON和CUSTOM型別的輸出預設集。
+
+由於服務帳戶(JWT)憑證已過時，因此建議使用Adobe IMS OAuth型驗證。 瞭解如何 [使用OAuth驗證設定微服務型發佈](configure-microservices-imt-config.md).
+
+針對以Adobe IMS JWT型驗證為基礎的雲端發佈服務，客戶應該遵循以下指定步驟，將其環境與Adobe的安全權杖型驗證工作流程整合，並開始使用新的雲端型可擴充發佈解決方案。
 
 
 ## 在Adobe Developer Console中建立IMS設定
@@ -80,7 +84,7 @@ ht-degree: 0%
 >
 > 您需要開啟、複製私密金鑰和服務詳細資料JSON檔案的內容，並將其貼到設定面板的值欄，如上面的熒幕擷取所示。
 
-新增IMS設定至環境後，請使用OSGi執行以下步驟將這些屬性與AEM Guides連結：
+新增IMS設定至環境後，請使用OSGi執行以下步驟將這些屬性與Experience Manager指南連結：
 
 1. 在您的Cloud Manager Git專案程式碼中，新增以下兩個指定的檔案(如需檔案內容，請參閱 [附錄](#appendix))。
 
