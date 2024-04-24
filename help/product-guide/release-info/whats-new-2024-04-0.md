@@ -1,7 +1,7 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides，2024.4.0版的新增功能
 description: 瞭解2024.4.0版Adobe Experience Manager Guidesas a Cloud Service中的新功能和增強功能。
-source-git-commit: 9a0d2886012bd1695387a93984ccac5127384db3
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '1806'
 ht-degree: 0%
@@ -223,3 +223,4 @@ Experience Manager指南改善了從地圖編輯器簽入大量檔案功能的�
 
 
 Experience Manager指南的雲端發佈服務現在由Adobe IMS OAuth型驗證提供保護。 瞭解如何 [使用OAuth驗證設定微服務型發佈](../knowledge-base/publishing/configure-microservices-imt-config.md).
+

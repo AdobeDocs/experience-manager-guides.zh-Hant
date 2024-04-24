@@ -3,7 +3,7 @@ title: 使用AEM Guides的OAuth驗證設定微服務型發佈as a Cloud Service
 description: 瞭解如何使用AEM Guides的OAuth驗證來設定微服務型發佈。
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 17116ed5619b7177cf0174449d67cfebf5b9cf46
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -21,9 +21,6 @@ ht-degree: 0%
 > 「Experience Manager指南」中以微服務為基礎的發佈可支援PDF（原生和DITA-OT型）、HTML5、JSON和CUSTOM型別的輸出預設集。
 
 由於雲端發佈服務受到Adobe IMS OAuth型驗證的保護，請執行以下步驟來整合其環境與Adobe的安全權杖型驗證工作流程，並開始使用雲端型可擴充發佈解決方案。
-
-
-
 
 
 ## 在Adobe Developer Console中建立IMS設定

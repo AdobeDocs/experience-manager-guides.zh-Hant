@@ -5,7 +5,7 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 11%
@@ -85,3 +85,4 @@ ht-degree: 11%
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布林值： <br>  — 如果不想對暫存檔執行後期處理作業，則 *停用* \( false\) **處理後語言副本** 選項。<br>  — 如果要在暫存檔上執行後續處理作業，則 *啟用* \( true\) **處理後語言副本** 選項。<br> **預設值**： false |
+

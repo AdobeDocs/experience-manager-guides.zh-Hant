@@ -4,7 +4,7 @@ description: 探索AEM Guides中的網頁編輯器功能。 瞭解網頁編輯�
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -2014,3 +2014,4 @@ AEM Guides提供可在您的專案中顯示所有稽核任務的功能。 您可
 > 追蹤的變更功能會顯示使用主工具列的啟用/停用追蹤變更功能所追蹤的所有更新。 如需詳細資訊，請參閱 [啟用/停用追蹤變更](#id205DF0203Y4).
 
 **父級主題：**[&#x200B;使用網頁編輯器](web-editor.md)
+
