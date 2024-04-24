@@ -2,7 +2,7 @@
 title: 設定智慧型建議以進行編寫
 description: 瞭解如何設定智慧型撰寫建議
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
+source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 1%
@@ -34,7 +34,9 @@ ht-degree: 1%
    *新增I/O Management API至您的專案。*
 
 1. 建立新的 **OAuth認證** 並儲存。
-   ![設定API中的OAuth認證磚](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+
+   ![設定API中的OAuth認證磚](assets/conf-ss-OAuth-credential.png)
+
    *設定API的OAuth認證。*
 
 1. 在  **專案** 索引標籤，選擇 **OAuth伺服器至伺服器** 選項，然後選取新建立的認證。
