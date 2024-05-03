@@ -1,19 +1,19 @@
 ---
 title: 為自訂Dita型別設定圖示
 description: 瞭解如何為自訂Dita型別定義圖示，以便在AEM中的不同UI上顯示其圖示
-source-git-commit: 60d4aeec9841fdab8ff97d975fbbe4a640ccf9e8
+source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-# 為自訂Dita （主題或地圖）型別設定圖示
+# 為自訂/專門化dita （主題或地圖）型別設定圖示
 
 
 ## 問題陳述
 
-使用AEM Guides中使用的自訂結構，您可以建立自訂主題或地圖型別，並可能會注意到自訂主題/地圖不會在網頁編輯器或Assets UI中顯示圖示。 請參閱下方熒幕擷圖以取得參考
+使用AEM Guides中使用的自訂結構，您可以建立自訂主題或對應型別，並且可能會注意到自訂主題/對應型別不會在網頁編輯器或Assets UI中顯示圖示。 請參閱下方熒幕擷圖以取得參考
 
 ![熒幕擷圖以供參考](../assets/authoring/custom-ditatype-icon-notshown.png)
 
