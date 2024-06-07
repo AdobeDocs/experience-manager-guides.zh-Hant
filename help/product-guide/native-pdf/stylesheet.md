@@ -5,9 +5,9 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
 workflow-type: tm+mt
-source-wordcount: '3525'
+source-wordcount: '3778'
 ht-degree: 0%
 
 ---
@@ -374,3 +374,63 @@ h1樣式的屬性會連同其「預覽」一起顯示在「屬性」面板中。
 下列熒幕擷圖顯示套用至「主要控制項」文字的wintitle樣式。
 
 <img src="./assets/other-style-wintitle.png" width="500">
+
+
+## 為單頁版面配置定義唯一樣式
+
+發佈原生PDF輸出時，所有樣式都會合併到最終PDF中，為CSS中的每個範本指派唯一樣式至關重要。
+使用不同的CSS樣式名稱，將特定字型和樣式套用至PDF的不同區段。 例如，您可以使用下列CSS定義封面頁的所需字型。
+
+```css
+...
+[data-page-layout="Front"] * { 
+    font-size: 18pt; 
+}  
+...
+```
+
+
+檔案的其餘部分將使用您為Body標籤指定的預設字型 `content.css` 或 `layout.css`. 這樣可確保不會合併樣式，且每個區段都保留其預期設計。 如果您想要不同的字型大小，請為其建立特定的樣式。
+
+例如，您可以定義下列樣式來定義封面首頁段落的字型大小18和封面首頁的字型大小11 pt：
+
+```css
+[data-page-layout="Front"] p { //For all paragraphs inside Front page
+  font-size: 18pt; 
+} 
+  
+[data-page-layout="Back"] p { //For all paragraphs inside Back page
+  font-size: 11pt; 
+}
+```
+
+>[!NOTE]
+>
+在上一個範例中，「前面」和「後面」是配置圖檔案的範例名稱，您可以在範本中使用。
+
+
+## 定義字首與字尾內容的自訂CSS樣式
+
+如果您定義自訂CSS樣式，則在產生原生PDF輸出時，會優先提供給它們。
+下列預設CSS樣式會隱藏字首與字尾內容。
+
+```css
+...
+.prefix-content, .suffix-content{
+    display: none;
+} 
+...
+```
+
+若要允許在 `<note>` 元素，將下列CSS加入您的 `content.css`：
+
+```css
+...
+.prefix-content{
+    display: inline !important;
+}
+...
+```
+
+此 `<note>` 元素會產生一個額外的 `<span>` 具有與其型別屬性對應的類別前置詞content。 此CSS規則的目標為 `.prefix-content` 類別範圍 `<note>` 元素具有type屬性，可讓您視需要樣式化或操作前置詞內容。
+

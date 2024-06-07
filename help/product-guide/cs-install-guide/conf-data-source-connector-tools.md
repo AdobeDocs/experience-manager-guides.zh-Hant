@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
+source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 0%
 
 Experience Manager指南隨附於 **資料來源** 可協助您為資料來源設定現成可用聯結器的工具。 您可以設定JIRA、SQL (MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce、Elasticsearch和一般REST使用者端聯結器。
 
-除了這些現成可用的聯結器外，Experience Manager指南還提供Salsify、Akeneo和Microsoft Azure DevOps Boards (ADO)資料來源的聯結器。 您可以下載並安裝這些程式。 接著，使用者即可設定這些聯結器。
+
+除了這些現成可用的聯結器外，Experience Manager指南還提供Salsify、Akeneo和Microsoft Azure DevOps Boards (ADO)資料來源的聯結器。 您可以從以下位置下載並安裝這些開放原始碼聯結器： [Maven中央存放庫](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). 接著，使用者即可設定這些聯結器。
+瞭解如何 [安裝開放原始碼聯結器](#install-open-source-connector).
+
+
 
 您也可以使用檔案聯結器來連線至JSON資料檔案。 從您的電腦上傳JSON檔案，或從Adobe Experience Manager資產瀏覽該檔案。 然後，使用產生器建立內容片段或主題。
 
@@ -78,6 +82,39 @@ Experience Manager指南隨附於 **資料來源** 可協助您為資料來源�
 1. 您也可以使用Salsify、Akeneo和Microsoft ADO等資料來源可用的預設資源。 將您不想要為資料來源設定的資源選項切換為OFF。
 
 這可協助您從單一內容片段或主題中特定資料來源的任何資源快速擷取資料。
+
+
+
+## 安裝開放原始碼聯結器{#install-open-source-connector}
+
+若要發佈存在於上的相依性 [Maven中央存放庫](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) 對於Cloud Service，您需要包含並嵌入開放原始碼聯結器的相依性。
+
+1. 在中新增相依性 `all/pom.xml`  在您的cloud manager Git專案程式碼中。 例如，您可以為Microsoft Azure DevOps Boards資料來源聯結器新增下列相依性。
+
+
+   ```
+   <dependency>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <version>1.0.0</version>
+       <type>jar</type>
+   </dependency> 
+   ```
+
+1. 內嵌新增的相依性。
+
+       ```
+       &lt;embedded>
+       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
+       &lt;artifactid>konnect-azure-devops&lt;/artifactid>
+       &lt;type>jar&lt;/type>
+       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
+       &lt;/embedded>
+       ```
+   
+1. 執行管道以套用Cloud Service中的變更。
+聯結器會安裝在您的環境中。
+
 
 ## 聯結器可用的功能
 

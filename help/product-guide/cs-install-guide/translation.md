@@ -5,10 +5,10 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 11%
+source-wordcount: '756'
+ht-degree: 9%
 
 ---
 
@@ -68,9 +68,26 @@ ht-degree: 11%
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布林值： <br>  — 如果您使用人工翻譯，則 *停用* \( `false`\) **元件式翻譯工作流程** 選項。 <br>  — 如果您使用機器翻譯，則 *啟用\( `true`\)* 此 **元件式翻譯工作流程** 選項。 |
 
+
+
+## 設定舊版翻譯工作流程
+
+建議您使用最新的翻譯工作流程，此工作流程可提升效能。 但是，如果您想使用舊版翻譯工作流程，則可加以設定。
+
+使用中提供的指示 [設定覆寫](download-install-additional-config-override.md#) 以建立組態檔。 在設定檔案中，提供下列（屬性）詳細資料以設定舊版翻譯工作流程：
+
+
+
+
+| PID | 屬性索引鍵 | 屬性值 |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布林值： <br>  — 如果您使用最新的翻譯工作流程，則 *停用* \( `false`\) **執行舊版翻譯工作流程** 選項。 最新翻譯工作流程預設為啟用。 <br>  — 如果您使用舊版翻譯，則 *啟用\( `true`\)* 此 **執行舊版翻譯工作流程** 選項。 |
+
+
+
 >[!NOTE]
 >
-> 如果您使用翻譯聯結器，請確定您已依照 *[設定翻譯整合框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* AEM檔案中的主題。
+> 如果您使用翻譯聯結器，請確定您已依照 *[設定翻譯整合框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* Adobe Experience Manager檔案中的主題。
 
 >[!IMPORTANT]
 >

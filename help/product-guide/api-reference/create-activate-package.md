@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 32da48d82b1267bb220424edf385035426293b66
+source-git-commit: b95a64ca2e8ebffebec3d8ff8704f76f7faceca2
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,17 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 **有效值**
 
-`preview` 或 `publish` 用于Cloud Service和 `publish` 內部部署軟體
+`preview` 或 `publish` 用於Cloud Service和 `publish` 內部部署軟體
 
-如果參數包含無效值，則包的啟用將失敗。 以下範例顯示了使用 curl 命令和可選參數的 API 呼叫：
+- 對於Cloud Service，如果參數包含無效值，則包啟用失敗。
+
+- 對於內部部署軟體，如果參數包含無效值，則會記錄錯誤，並使用預設值 . `publish`
+
+如果未定義可選參數 ， `activationTarget`則會使用 Cloud Service 和本地軟體的預設 發佈 代理啟動。
+
+
+
+以下範例顯示了使用 curl 命令和可選參數的 API 呼叫：
 
 
     &#39;&#39;&#39;XML

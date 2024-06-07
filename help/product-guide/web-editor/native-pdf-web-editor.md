@@ -4,9 +4,9 @@ description: 瞭解如何使用原生PDF發佈、建立和產生PDF輸出預設�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: e78749b1d5b4ba944cbca69ba65c6d28355b2c34
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3362'
 ht-degree: 0%
 
 ---
@@ -212,3 +212,10 @@ ht-degree: 0%
 
 AEM Guides也支援語言變數。 選取 **語言變數** <img src="./assets/language-variables.svg" width="25">  在左側面板中定義現成標籤的當地語系化版本，例如PDF輸出中的「注意」、「警告」和「警告」或靜態文字。 如需詳細資訊，請參閱 [支援語言變數](../native-pdf/native-pdf-language-variables.md).
 
+
+
+### 支援Markdown檔案
+
+Experience Manager指南也支援您的Markdown檔案。  Markdown檔案易於撰寫，並提供各種格式選項。 瞭解如何 [從網頁編輯器編寫Markdown檔案](../user-guide/web-editor-markdown-topic.md).
+
+您可以將Markdown主題新增至DITA map，並使用原生PDF輸出預設集產生PDF輸出。  瞭解如何設定或 [建立PDF輸出預設集](#create-a-pdf-output-preset-create-output-preset).

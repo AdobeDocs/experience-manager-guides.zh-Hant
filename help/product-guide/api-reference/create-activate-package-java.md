@@ -5,9 +5,9 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,10 @@ ht-degree: 0%
 >
 > 在建立或啟動過程中遇到的錯誤會寫入 `outputstream`.
 
+### 具有兩個引數的範例
+
 **語法**：
+
 
 ```JAVA
 public static void activate
@@ -54,9 +57,28 @@ public static void activate
 throws GuidesApiException
 ```
 
-**引數**： |名稱|型別|說明| --------資----------- |`json`|字串|決定要建置CRX套件的JSON字串。 使用以下格式建立JSON字串： <br>- `activate`：屬於布林型別\(`true`/`false`\)。 判斷是否將在製作執行個體中建立的CRX套件復寫至發佈執行個體。 <br> - `rules`：屬於JSON陣列型別。 一系列JSON規則，會依序處理以建置CRX套件。 <br> - `rootPath`：屬於字串型別。 執行節點/屬性查詢的基底路徑。 如果不存在節點/屬性查詢，則根路徑以及根路徑下存在的所有節點都會包含在CRX套件中。 <br> - `nodeQueries`：屬於Regex陣列型別。 規則運算式的陣列，用來包含根路徑下的特定檔案。 <br> - `propertyQueries`：屬於JSON陣列型別。 JSON物件陣列，其中每個JSON物件包含要在根路徑上執行的XPath查詢，以及執行查詢後每個JCR節點中存在的屬性名稱。 每個JCR節點中屬性的值應為路徑或路徑陣列。 此屬性中存在的路徑已新增到CRX套件中。| |`outputstream`|java.io.OutputStream|這用於撰寫不同階段的結果，例如查詢執行、檔案包含、CRX封裝建立或啟動。 在建立或啟動過程中遇到的任何錯誤都會寫入 `outputstream`. 這對於偵錯很有用。| |`session`|字串|具有啟用許可權的有效JCR工作階段。|
+### 第三個選用引數的範例
 
-**例外**：擲回 ``java.io.IOException``.
+```JAVA
+public static void activate
+(
+  String json, 
+  OutputStream outputstream,
+  String activationTarget, 
+  Session session
+) 
+throws GuidesApiException
+```
+
+**引數**： |名稱|型別|說明| --------資----------- |`json`|字串|決定要建置CRX套件的JSON字串。 使用以下格式建立JSON字串： <br>- `activate`：屬於布林型別\(`true`/`false`\)。 判斷是否將在製作執行個體中建立的CRX套件復寫至發佈執行個體。 <br> - `rules`：屬於JSON陣列型別。 一系列JSON規則，會依序處理以建置CRX套件。 <br> - `rootPath`：屬於字串型別。 執行節點/屬性查詢的基底路徑。 如果不存在節點/屬性查詢，則根路徑以及根路徑下存在的所有節點都會包含在CRX套件中。 <br> - `nodeQueries`：屬於Regex陣列型別。 規則運算式的陣列，用來包含根路徑下的特定檔案。 <br> - `propertyQueries`：屬於JSON陣列型別。 JSON物件陣列，其中每個JSON物件包含要在根路徑上執行的XPath查詢，以及執行查詢後每個JCR節點中存在的屬性名稱。 每個JCR節點中屬性的值應為路徑或路徑陣列。 此屬性中存在的路徑已新增到CRX套件中。| |`outputstream`|java.io.OutputStream|這用於撰寫不同階段的結果，例如查詢執行、檔案包含、CRX封裝建立或啟動。 在建立或啟動過程中遇到的任何錯誤都會寫入 `outputstream`. 這對於偵錯很有用。| |`session`|字串|具有啟用許可權的有效JCR工作階段。| |`activationTarget`|字串|(*可選*) `preview` 或 `publish` 用於Cloud Service和 `publish` 適用於內部部署軟體 <br>  — 對於Cloud Service，如果引數包含無效值，則封裝啟用會失敗。 <br>  — 針對On-Premise軟體，如果引數包含無效值，則會記錄錯誤，並使用預設值完成發佈。 `publish`. |
+
+**例外**：
+
+擲回 `java.io.IOException` 和 `java.io.IllegalArgumentException`
+
+
+如果您未定義選用引數， `activationTarget`，它會使用Cloud Service和On-premise Software的預設發佈代理程式來啟用。
+
 
 **範例**：下列範例顯示如何建立JSON查詢：
 

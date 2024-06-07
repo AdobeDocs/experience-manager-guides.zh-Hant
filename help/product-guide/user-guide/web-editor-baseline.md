@@ -4,9 +4,9 @@ description: 從AEM Guides的網頁編輯器建立和管理基準線。 瞭解�
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: c4c5fa16daf3f713f85783152094c8af59eb4f8c
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,12 @@ AEM Guides提供整合在網頁編輯器中的基準線功能，可讓使用者�
 
    ![建立基準線](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **選取標籤**：如果主題具有為其指定的標籤，則使用 **選取標籤** 下拉式選單以從 [列出的標籤](#labels-list).
+   - **標籤**：如果主題具有為其指定的標籤，則使用 **標籤** 下拉式選單以從 [列出的標籤](#labels-list).
 先選取的標籤會獲得較高的優先順序。
+
+     >[!NOTE]
+     >
+     >提取標籤時，載入器會出現，且下拉式清單會停用。
 
      對於動態基準線，標籤會從最新儲存的版本和地圖目前的工作副本中提取。 例如，如果您已建立標籤   `Label Release A.1.0 ` 和 `Label Release A.1.1` 適用於主題A 1.0和1.1版及標籤 `Label Release B.1.0` 和 `Label Release B.1.1` 適用於主題B 1.0和1.1版。 然後，您可以新增主題A至1.0版中的「對應A」，新增主題B至1.0*版中的「對應A」（工作復本）。 在此案例中，您可以檢視  `Label Release A.1.0 `， `Label Release A.1.1`， `Label Release B.1.0`、和 `Label Release B.1.1` 在動態基準線標籤的下拉式清單中。
 

@@ -2,10 +2,11 @@
 title: 發行說明 | Adobe Experience Manager Guides 4.4.0版的升級指示
 description: 瞭解如何升級至Adobe Experience Manager Guides 4.4.0版
 role: Leader
-source-git-commit: 2209fd311ca1ad524db35633b8be22f6d303346d
+exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
+source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '461'
+ht-degree: 5%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 本文介紹Adobe Experience Manager Guides 4.4.0版的升級指示和相容性矩陣。
 
-如需新功能和增強功能的詳細資訊，請檢視 [4.4.0版的新增功能](../release-info/whats-new-4-4.md).
+如需新功能和增強功能的詳細資訊，請參閱 [4.4.0 版本中的新增功能](../release-info/whats-new-4-4.md)。
 
 如需此版本已修正的問題清單，請檢視 [已修正4.4.0版本中的問題](../release-info/fixed-issues-4-4.md).
 
@@ -27,10 +28,10 @@ ht-degree: 1%
 ### Adobe Experience Manager
 
 **4.4.0非UUID**
-6.5版Service Pack 19、18、17
+版本6.5 Service Pack 20、19、18或17
 
 **4.4.0 UUID**
-6.5版Service Pack 19、18、17
+版本6.5 Service Pack 20、19、18或17
 
 
 如需詳細資訊，請檢視 [技術需求](../install-guide/download-install-technical-requirements.md) On-Premise安裝與設定指南中的區段。
@@ -82,4 +83,3 @@ ht-degree: 1%
 >您必須先安裝AEM Service Pack，才能升級Experience Manager指南版本。
 
 如需詳細資訊，請檢視 [內部部署版本的升級指示](../install-guide/upgrade-xml-documentation.md) Experience Manager指南。
-
