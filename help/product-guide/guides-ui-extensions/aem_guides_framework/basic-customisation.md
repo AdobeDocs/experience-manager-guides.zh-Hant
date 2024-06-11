@@ -2,7 +2,8 @@
 title: 自訂應用程式
 description: 自訂應用程式
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -18,20 +19,21 @@ ht-degree: 0%
 模型會定義各種屬性並儲存其值。 可使用語法從控制器存取儲存在模型中的各種屬性的值
 
 ```typescript
-this.model.attributeName
+this.getValue('attributeName')
 ```
 
 為了在應用程式中進行自訂，所有新建立的屬性都會新增到模型中的對應下。
 若要在模型中設定新屬性，我們將在控制器中使用下列語法：
 
 ```typescript
-this.model.extraProps.set("key", value)
+// If a key is not already in model then it will be added to extraProps
+this.setValue('key', value)
 ```
 
 若要存取新增至模型的屬性，我們將使用下列語法：
 
 ```typescript
-const value = this.model.extraProps.get("key")
+const value = this.getValue("key")
 ```
 
 ## 檢視
@@ -87,13 +89,13 @@ this.next('methodName', args)
 
 ```typescript
   controller: {
-    init: function () {
-      this.model.extraProps.set("buttonLabel", "Submit")
+    init: function (context) {
+      context.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
-        const buttonLabel = this.model.extraProps.get("buttonLabel") === "Submit"? "Cancel" : "Submit"
-        this.model.extraProps.set("buttonLabel", buttonLabel)
+        const buttonLabel = this.getValue("buttonLabel") === "Submit"? "Cancel" : "Submit"
+        this.setValue("buttonLabel", buttonLabel)
     }
   }
 ```
