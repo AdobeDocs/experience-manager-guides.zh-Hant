@@ -3,7 +3,8 @@ title: 使用AEM Guides的OAuth驗證設定微服務型發佈as a Cloud Service
 description: 瞭解如何使用AEM Guides的OAuth驗證來設定微服務型發佈。
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
+source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -12,13 +13,13 @@ ht-degree: 0%
 
 # 使用OAuth驗證設定微服務型發佈
 
-發佈微服務可讓您在Experience Manager Guidesas a Cloud Service上同時執行大型發佈工作負載，並利用業界領先的Adobe I/O Runtime無伺服器平台。
+發佈微服務可讓您在Experience Manager Guides as a Cloud Service上同時執行大型發佈工作負載，並利用業界領先的Adobe I/O Runtime無伺服器平台。
 
-對於每個發佈請求，Experience Manager指南as a Cloud Service會執行單獨的容器，該容器會根據使用者請求水平縮放。 如此一來，您便可執行多個發佈請求，並取得優於其大型內部部署Adobe Experience Manager伺服器的效能。
+對於每個發佈請求，Experience Manager Guides as a Cloud Service會執行單獨的容器，此容器會根據使用者請求水平縮放。 如此一來，您便可執行多個發佈請求，並取得優於其大型內部部署Adobe Experience Manager伺服器的效能。
 
 >[!NOTE]
 >
-> 「Experience Manager指南」中以微服務為基礎的發佈可支援PDF（原生和DITA-OT型）、HTML5、JSON和CUSTOM型別的輸出預設集。
+> Experience Manager Guides中基於微服務的發佈支援PDF（原生和DITA-OT型）、HTML5、JSON和CUSTOM型別的輸出預設集。
 
 由於雲端發佈服務受到Adobe IMS OAuth型驗證的保護，請執行以下步驟來整合其環境與Adobe的安全權杖型驗證工作流程，並開始使用雲端型可擴充發佈解決方案。
 
@@ -33,7 +34,7 @@ ht-degree: 0%
 >
 >如果您已建立OAuth專案以設定AI支援的智慧型建議以進行編寫，您可以略過下列步驟來建立專案。
 
-1. 開啟 **開發人員主控台**： `https://developer.adobe.com/console`.
+1. 開啟 **Developer Console**： `https://developer.adobe.com/console`.
 
 1. 切換至 **專案** 標籤來顯示。
 
@@ -127,7 +128,7 @@ ht-degree: 0%
 >
 > 如果您已使用以微服務為基礎的發佈，請略過下列步驟：
 
-新增IMS設定至環境後，請使用OSGi執行以下步驟將這些屬性與Experience Manager指南連結：
+新增IMS設定至環境後，請使用OSGi執行以下步驟將這些屬性與Experience Manager Guides連結：
 
 1. 在您的Cloud Manager Git專案程式碼中，新增以下兩個檔案(針對檔案內容，檢視 [附錄](#appendix))。
 
