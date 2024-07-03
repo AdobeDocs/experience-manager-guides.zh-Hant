@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 1ec647821129467ecbf3641fcee0360e37e91fc0
+source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 5%
@@ -138,8 +138,8 @@ ht-degree: 5%
                - 文章式發佈 {#article-based-pub}
                   - [從網頁編輯器以文章為基礎的發佈](./user-guide/web-editor-article-publishing.md)
                   - [從網頁編輯器建立輸出預設集](./user-guide/web-editor-article-publishing-presets.md)
-                  - [「存放庫」面板或「地圖檢視」面板的Generate輸出](./user-guide/web-editor-article-publishing-output.md)
-                  - [使用Quick Generate面板以generate和檢視輸出](./user-guide/web-editor-quick-generate-panel.md)
+                  - [從存放庫面板或地圖檢視面板產生輸出](./user-guide/web-editor-article-publishing-output.md)
+                  - [使用快速產生面板來產生和檢視輸出](./user-guide/web-editor-quick-generate-panel.md)
                - [從網頁編輯器翻譯檔案](./user-guide/translate-documents-web-editor.md)
                - [從Web編輯器建立和管理基準線](./user-guide/web-editor-baseline.md)
                - [檔案狀態](./user-guide/web-editor-document-states.md)
@@ -197,7 +197,7 @@ ht-degree: 5%
       - [條件屬性分析](./user-guide/generate-output-conditional-attribute-profiling.md)
       - [使用條件預設集](./user-guide/generate-output-use-condition-presets.md)
       - [使用基準線](./user-guide/generate-output-use-baseline-for-publishing.md)
-      - [地圖主控台中DITA map的Generate輸出](./user-guide/generate-output-for-a-dita-map.md)
+      - [從Map主控台產生DITA Map的輸出](./user-guide/generate-output-for-a-dita-map.md)
       - [使用地圖集合產生輸出](./user-guide/generate-output-use-map-collection-output-generation.md)
       - 使用原生PDF發佈功能 {#web-editor}
          - [PublishPDF輸出](./web-editor/native-pdf-web-editor.md)
@@ -213,13 +213,13 @@ ht-degree: 5%
          - [編輯大量啟用地圖集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [刪除大量啟用地圖集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - 產生FrameMaker檔案的輸出 {#generate-fm-output}
-      - [FrameMaker檔案的Generate輸出](./user-guide/fm-output-generatation.md)
+      - [產生FrameMaker檔案的輸出](./user-guide/fm-output-generatation.md)
       - 支援的預設集 {#fm-docs-generating-presets}
          - [用於產生FrameMaker檔案的預設集](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
          - [ePub](./user-guide/fm-output-epub-preset.md)
-      - [.book或.fm檔案的Generate輸出](./user-guide/fm-output-generate.md)
+      - [產生.book或.fm檔案的輸出](./user-guide/fm-output-generate.md)
       - [檢視輸出產生工作的狀態](./user-guide/fm-output-view-status.md)
    - AEM Guides中的報表 {#reports-aem-guide}
       - [報表簡介](./user-guide/reports-intro.md)
@@ -276,10 +276,10 @@ ht-degree: 5%
          - [在左側面板中設定自訂面板](./install-guide/configure-custom-panel.md)
          - [在網頁編輯器中設定檔案自動儲存](./install-guide/auto-save-in-editor.md)
          - [設定檔案瀏覽對話方塊的篩選器](./install-guide/conf-custom-file-filters.md)
-         - [設定prompt在關閉時另存為新版本](./install-guide/conf-save-as-new-version-close.md)
-         - [設定prompt在關閉時簽入檔案](./install-guide/conf-checkin-file-close.md)
+         - [設定關閉時儲存為新版本的提示](./install-guide/conf-save-as-new-version-close.md)
+         - [設定關閉時簽入檔案的提示](./install-guide/conf-checkin-file-close.md)
          - [設定允許的特殊字元](./install-guide/conf-special-chars.md)
-         - [自動generate元素ID](./install-guide/auto-generate-ids.md)
+         - [自動生成元素ID](./install-guide/auto-generate-ids.md)
          - [自訂AEM預設字典](./install-guide/customize-aem-custom-dictionary.md)
          - [設定文字篩選](./install-guide/config-text-filters.md)
          - [設定查詢的LimitReads數目](./install-guide/conf-query-limitreads.md)
@@ -358,10 +358,10 @@ ht-degree: 5%
          - [在同一個索引標籤中開啟DITA主題或對應檔案](./cs-install-guide/open-dita-files-same-tab.md)
          - [在左側面板中設定自訂面板](./cs-install-guide/configure-custom-panel.md)
          - [在網頁編輯器中設定檔案自動儲存](./cs-install-guide/auto-save-in-editor.md)
-         - [設定prompt在關閉時另存為新版本](./cs-install-guide/conf-save-as-new-version-close.md)
-         - [設定prompt在關閉時簽入檔案](./cs-install-guide/conf-checkin-file-close.md)
+         - [設定關閉時儲存為新版本的提示](./cs-install-guide/conf-save-as-new-version-close.md)
+         - [設定關閉時簽入檔案的提示](./cs-install-guide/conf-checkin-file-close.md)
          - [設定允許的特殊字元](./cs-install-guide/conf-special-chars.md)
-         - [自動generate元素ID](./cs-install-guide/auto-generate-ids.md)
+         - [自動生成元素ID](./cs-install-guide/auto-generate-ids.md)
          - [自訂AEM預設字典](./cs-install-guide/customize-aem-custom-dictionary.md)
          - [設定文字篩選](./cs-install-guide/config-text-filters.md)
          - [設定檔案瀏覽對話方塊的篩選器](./cs-install-guide/conf-custom-file-filters.md)
@@ -422,7 +422,7 @@ ht-degree: 5%
       - [外部資料來源整合](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
       - [在指南中翻譯內容 — 第2部分](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
       - [定義、管理和利用中繼資料](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-      - [AEM網站輸出變數](./knowledge-base/expert-sessions/aem-site-output-variations-27jun.md)
+      - [AEM網站輸出變數](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
    - 文章 {#kb-articles}
 
       - 製作 {#authoring}
@@ -466,7 +466,7 @@ ht-degree: 5%
 
          - [設定AEM環境以進行原生PDF發佈](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
 
-         - [原生PDF發佈中的Generate Bookmap目錄](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+         - [在原生PDF發佈中產生書籤圖的目錄](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
 
          - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [微服務架構與效能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
