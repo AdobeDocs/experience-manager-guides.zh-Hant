@@ -1,6 +1,6 @@
 ---
 title: 輸出預設集簡介
-description: 在AEM Guides中發佈FrameMaker檔案。 瞭解如何產生PDF、HTML5和EPUB格式的FrameMaker檔案輸出。
+description: Publish會在AEM Guides中FrameMaker檔案。 瞭解如何產生PDF、HTML5和EPUB格式的FrameMaker檔案輸出。
 exl-id: fa682007-68d6-415b-b9c2-acd5d9fc1aae
 feature: Publishing FrameMaker Documents
 role: User

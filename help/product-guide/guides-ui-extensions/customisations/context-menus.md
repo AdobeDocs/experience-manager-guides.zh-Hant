@@ -46,7 +46,7 @@ ht-degree: 0%
 
 您也可以定義新的唯一ID，以建立自己的內容功能表。
 
-現在，每個內容功能表都有 `controller id` 與其相關聯。 此控制器處理 `on-event` 各種前後關聯功能表選項的功能
+現在，每個內容功能表都有一個相關聯的`controller id`。 此控制器處理各種內容功能表選項的`on-event`功能
 
 讓我們以範例來瞭解
 
@@ -118,7 +118,7 @@ const fileOptions = {
 
 現在，讓我們瞭解此程式碼正在做什麼。
 
-1. `id` 用於識別我們要自訂的內容功能表。
-2. `contextMenuWidget` 用於定義 `widget id` 或 `component` 會呼叫內容功能表並處理 `events`.
+1. `id`用於識別我們要自訂的內容功能表。
+2. `contextMenuWidget`是用來定義`widget id`或`component`，以呼叫內容功能表並處理`events`。
 
-其餘部分保持不變，其中 `view` 用於定義專案， `target` 會識別要在何處取代、附加或附加選項，以及 `contextMenuWidget` 控制器處理 `on-click` 事件。
+其餘專案維持不變，因此`view`可用來定義專案，`target`會識別取代、附加或附加選項的位置，而`contextMenuWidget`控制器會處理`on-click`事件。

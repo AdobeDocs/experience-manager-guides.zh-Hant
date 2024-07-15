@@ -1,6 +1,6 @@
 ---
-title: 版本注意事項 [!DNL AEM Guides]， 2022年2月發行
-description: 2月發行的 [!DNL Adobe Experience Manager Guides] as a Cloud Service
+title: ' [!DNL AEM Guides]的發行說明，2022年2月發行'
+description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service的2月版本'
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# 2月發行的 [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# [!DNL Adobe Experience Manager Guides]as a Cloud Service的2月版本
 
 ## 升級至2月發行
 
-升級您目前的 [!DNL Adobe Experience Manager Guides] as a Cloud Service(稍後稱為 [!DNL AEM Guides] as a Cloud Service)進行設定，請執行以下步驟：
+執行下列步驟，升級您目前的[!DNL Adobe Experience Manager Guides]as a Cloud Service(稍後稱為[!DNL AEM Guides]as a Cloud Service)安裝程式：
 1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-1. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將您的Cloud Service Git程式碼檔案設為2022.2.114。
-1. 提交變更並執行Cloud Service管道，以升級至2月版的 [!DNL AEM Guides] as a Cloud Service。
+1. 將Cloud Service Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2022.2.114。
+1. 認可變更並執行Cloud Service管道，以升級至[!DNL AEM Guides]的2月版本as a Cloud Service。
 
 ## 相容性矩陣
 
-本節列出所支援軟體應用程式的相容性矩陣。 [!DNL AEM Guides] 2022年2月版本as a Cloud Service。
+本節列出[!DNL AEM Guides] 2022年2月as a Cloud Service發行版本所支援之軟體應用程式的相容性矩陣。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 氧氣聯結器
 
-| [!DNL AEM Guides] 雲端發行版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac |
+| [!DNL AEM Guides]雲端版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac |
 | --- | --- | --- |
 | 2022.2.0 | 2.4.0 | 2.4.0 |
 |  |  |  |
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 ### 原生PDF發佈
 
-對建立原生PDF的支援也已新增至2月發行的 [!DNL AEM Guides] as a Cloud Service。 推出新的發佈引擎，其功能如下：
+建立原生PDF的支援也已新增至2月發行的[!DNL AEM Guides]as a Cloud Service中。 推出新的發佈引擎，其功能如下：
 * 建立CSS範本
 * 建立不同的頁面範本
 * 設計包含CSS和頁面範本的PDF範本
-* 以PDF格式發佈地圖和主題內容
+* Publish地圖和PDF格式的主題內容
 
 ### 在文章式發佈中支援知識庫網站路徑
 
@@ -60,15 +60,15 @@ ht-degree: 0%
 
 * **已改善檔案關閉的對話方塊**
 
-[!DNL AEM Guides] 當您嘗試關閉在網頁編輯器中開啟的檔案時，as a Cloud Service會提示您儲存變更並解除鎖定檔案。 提示會根據 **關閉時要求籤入** 和 **關閉時要求新版本** 管理員設定的設定。
+當您嘗試關閉在網頁編輯器中開啟的檔案時，[!DNL AEM Guides]as a Cloud Service會提示您儲存變更並解除鎖定檔案。 提示會根據系統管理員設定的&#x200B;**關閉時要求籤入**&#x200B;和&#x200B;**關閉時要求新版本**&#x200B;設定顯示。
 
 根據組態，您可以選擇儲存變更並建立檔案的新版本。 或者，您也可以將檔案入庫並將變更儲存至目前版本。
 
 ![檔案關閉](assets/file-close-save-changes-unlock.png)
 
-如需詳細資訊，請參閱 *檔案關閉並儲存案例* 使用手冊中的。
+如需詳細資訊，請參閱使用手冊中的&#x200B;*檔案關閉和儲存案例*。
 
-* 字元托盤已新增了連續空格。  A **不中斷** 空格可防止HTML檔案中特定點出現自動分行符號。 網頁編輯器支援AEM Site和HTML5輸出的連續空格。
+* 字元托盤已新增了連續空格。  **連續的**&#x200B;空格可防止HTML檔案中特定點出現自動分行符號。 網頁編輯器支援AEM Site和HTML5輸出的連續空格。
 
 * 當您從網頁編輯器上傳影像時，如果已存在相同名稱的影像，則會顯示確認對話方塊。 您可以同時保留現有檔案和新檔案，或是覆寫現有檔案並只儲存新檔案。
 
@@ -105,10 +105,10 @@ ht-degree: 0%
 * 在製作Glossentry時，Glosusage會顯示為Note。 (8384)
 * xref即使在有效位置也無法插入。 (8354)
 * 元素清單(Alt+Enter)會以深色/最深的佈景主題顯示為灰色。 (7913)
-* 中的對應範本清單 **建立** 存放庫面板的選項（省略符號選單）不符合 **資料夾設定檔** 在「使用者偏好設定」中。 (5918)
+* 存放庫面板的&#x200B;**建立**&#x200B;選項（省略符號選單）中的對應範本清單與使用者偏好設定中的&#x200B;**資料夾設定檔**&#x200B;不同。 (5918)
 * 從主工具列的「重複使用內容」功能新增的元素，不會自動產生元素ID。 (5826)
 
-### Assets UI
+### ASSETS UI
 
 * 雲端伺服器上的影像編輯功能無法如預期運作。 (8768)
 * 在版本記錄面板中，「目前版本」區段會顯示不正確的時間戳記及修改者資訊。 (8765)
@@ -119,5 +119,5 @@ ht-degree: 0%
 ### 可用性變更
 
 * 在網頁編輯器的「審閱」面板中，如果使用者名稱很長，則接受/拒絕的圖示不會清楚顯示。 (8793)
-* 在 **尋找和取代** 面板，在結果區段的滑鼠懸停上會顯示一個不想要的圖示。 (8775)
+* 在&#x200B;**尋找和取代**&#x200B;面板中，在結果區段的滑鼠游標上會顯示一個不想要的圖示。 (8775)
 * 自訂圖示不會從屬性中挑選出來，而是為使用「產生報表」按鈕產生的報表顯示預設圖示。 (8573)

@@ -36,7 +36,7 @@ ht-degree: 1%
 - **日期** - 2023年3月30日
 - **出席者人數** - 102
 - **持續時間** - 60分鐘
-- **對象**  — 客戶、合作夥伴和Adobe員工
+- **對象** — 客戶、合作夥伴和Adobe員工
 
 
 ## 關鍵重點
@@ -49,27 +49,27 @@ ht-degree: 1%
 
 ## 相關資源
 
-- **[下載AEM Guides報表手冊](./assets/aem-guides-expert-session-reports-documentation.pdf)** 以瞭解工作階段中示範的報表詳細資料。
+- **[下載AEM Guides報告手冊](./assets/aem-guides-expert-session-reports-documentation.pdf)**，瞭解工作階段中展示的報告詳細資訊。
 
-- **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
+- **功能影片** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
 - **使用手冊** - [作者內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **社群論壇**  — 如需Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社群論壇** — 若為Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 >[!NOTE]
 >
-> 此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
+> 此工作階段中顯示的功能適用於下列AEM Guides版本：
 > - 內部部署：4.2或更新版本
 > - Cloud Service： 2302或更新版本
 
 
 ## 下一次專家會議
 
-- **主題**  — 內容和範本設定
-- **排程日期** - 2023年4月27日
+- **主題** — 內容與範本設定
+- **排程於** - 2023年4月27日
 
 
 ## 聯絡我們
 
-如有任何疑問，請傳送電子郵件至 <techcomm@adobe.com>
+若有任何疑問，請傳送電子郵件至<techcomm@adobe.com>

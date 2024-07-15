@@ -1,22 +1,22 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guides，2024.2.0版的新增功能
+title: 發行說明 | 2024.2.0版Adobe Experience Manager Guides的新增功能
 description: 瞭解2024.2.0版Adobe Experience Manager Guidesas a Cloud Service中的新功能和增強功能。
 exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
 source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 2024.2.0版的新增功能
 
-本文介紹2024.2.0版Adobe Experience Manager Guides的新增和增強功能。
+本文介紹2024.2.0版Adobe Experience Manager Guides的新增功能和增強功能。
 
-如需此版本中修正的問題清單，請檢視 [已修正2024.2.0版本中的問題](fixed-issues-2024-2-0.md).
+有關此版本中的問題修正清單，請查看 [2024.2.0 版本中修正的問題](fixed-issues-2024-2-0.md)。
 
 
-瞭解 [2024.2.0版的升級指示](upgrade-instructions-2024-2-0.md).
+瞭解2024.2.0版](upgrade-instructions-2024-2-0.md)的[升級指示。
 
 
 
@@ -27,68 +27,69 @@ ht-degree: 0%
 
 為了確保您的內容正確且一致，搜尋和建議會限制在您組織擁有的內容，且與您搜尋的關鍵字非常相符。
 
-![網頁編輯器中的智慧型建議面板 ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+網頁編輯器中的![智慧型建議面板](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
-*檢視智慧型建議，從您的內容存放庫尋找及新增相符的內容參考。*
+*檢視智慧型建議以從您的內容存放庫尋找及新增相符的內容參考。*
 
 您也可以將目前的內容與其他主題中的類似內容進行比較。 然後，您就可以輕鬆地從各種主題中挑選內容片段，並將其作為內容參照新增到您目前的主題中。 新增內容參考可讓更新更易於管理，尤其是在大型檔案專案中。 例如，您正在建立產品最新功能的手冊。 在這種情況下，您可以快速新增更新的規格作為相關功能檔案中的內容參照。
 
 使用此智慧型功能可減少手動搜尋相關內容的工作量，並幫助您專注於新內容的建立。  此外還有助於維持一致性，以及促進更出色的團隊協同合作。
 
-進一步瞭解 [創作內容的AI支援智慧型建議](../user-guide/authoring-ai-based-smart-suggestions.md).
+深入瞭解[AI支援的Smart建議，以撰寫內容](../user-guide/authoring-ai-based-smart-suggestions.md)。
 
 ## 網頁編輯器中的翻新版本記錄功能
 
-現在，Experience Manager指南提供增強的版本記錄功能，可讓您比較檔案在一段時間內所做的變更。 在新的並排檢視中，您可以輕鬆將目前版本的內容和中繼資料與相同檔案的任何先前版本進行比較。 您也可以檢視比較版本的標籤和註解。 作為管理員，您可以控制主題中要顯示的版本中繼資料及其值 **版本記錄** 對話方塊。
+現在，Experience Manager Guides提供增強的版本記錄功能，可讓您比較檔案在一段時間內所做的變更。 在新的並排檢視中，您可以輕鬆將目前版本的內容和中繼資料與相同檔案的任何先前版本進行比較。 您也可以檢視比較版本的標籤和註解。 身為管理員，您可以控制主題版本中繼資料及其值顯示在&#x200B;**版本記錄**&#x200B;對話方塊中。
 
 ![版本記錄對話方塊](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *預覽不同版本主題中的變更。*
 
 
-進一步瞭解 **版本記錄** 中的功能說明 [左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 區段。
+在[左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS)區段中進一步瞭解&#x200B;**版本記錄**&#x200B;功能說明。
 
 ## 改善翻譯面板的使用者體驗
 
-此 **翻譯** 面板已改善。  您可以檢視 **可用語言** 列出並快速選取您要翻譯專案的地區設定。 只要選取一個專案，您也可選擇 **全選** 將專案翻譯成所有可用語言。
+已改善&#x200B;**翻譯**&#x200B;面板。  您可以檢視&#x200B;**可用語言**&#x200B;清單，並快速選取您要翻譯專案的地區設定。 只要選取一項，您就可以選擇&#x200B;**全選**，將專案翻譯成所有可用的語言。
 
 ![翻譯面板](assets/translation-languages-4.4.png){width="300" align="left"}
 
 *選取您要翻譯專案的地區設定。 選擇檔案的預設版本、基準版本或最新版本以進行翻譯。*
 
-進一步瞭解如何 [翻譯內容](../user-guide/translation.md).
+深入瞭解如何[翻譯內容](../user-guide/translation.md)。
 
 
 ## 改善「插入元素」對話方塊中的搜尋邏輯
 
 您現在可以在「插入元素」對話方塊中輕鬆找到元素。  您可以在搜尋方塊中輸入字串，並取得以輸入字串開頭的所有有效元素清單。
 
-例如，在編輯您要插入元素的段落時，您可以搜尋字元「t」以取得以「t」開頭的所有有效元素。
+例如，在編輯要插入元素的段落時，您可以搜尋「t」字元以取得
+以&#39;t&#39;開頭的所有有效元素。
 
 
 ![插入對話方塊](assets/insert-element.png){width="300" align="left"}
 
-*輸入字元以搜尋以該字元開頭的所有有效元素。*
+*輸入字元以搜尋所有以字元開頭的有效元素。*
 
 
-如需詳細資訊，請檢視 **插入元素** 中的功能說明 [左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 區段。
+如需詳細資訊，請在[左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS)區段中檢視&#x200B;**插入元素**&#x200B;功能說明。
 
 
 ## 分割目前清單並從相同層級的新清單專案開始的功能
 
-現在，您可以在網頁編輯器中輕鬆分割清單。 選取 **分割清單** 從清單專案的前後關聯功能表中分割目前清單的選項。 從您為分割選取的清單專案開始，會在相同層級建立新清單。
+現在，您可以在網頁編輯器中輕鬆分割清單。 從清單專案的內容功能表中選取&#x200B;**分割清單**&#x200B;選項，以分割目前清單。 從您為分割選取的清單專案開始，會在相同層級建立新清單。
 
 ![翻譯面板](assets/context-menu-split-list.png){width="300" align="left"}
 
 *選取分割目前清單的選項。*
 
-如需詳細資訊，請檢視 **插入清單** 中的功能說明 [左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 區段。
+如需詳細資訊，請檢視[左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS)區段中的&#x200B;**插入清單**&#x200B;功能說明。
 
 ## 在編寫的來源模式中存取檔案屬性
 
-現在，您可以存取右側面板的 **檔案屬性** 功能在所有四種模式或檢視中：「配置」、「作者」、「來源」和「預覽」。  即使在不同模式之間切換，這也可以幫助您檢視檔案的屬性。
+現在，您可以在全部四種模式或檢視中存取右側面板的&#x200B;**檔案屬性**&#x200B;功能：配置、作者、Source和預覽。  即使在不同模式之間切換，這也可以幫助您檢視檔案的屬性。
 
-如需詳細資訊，請檢視 **檔案屬性** 中的功能說明 [右側面板](../user-guide/web-editor-features.md#id2051EB003YK) 區段。
+如需詳細資訊，請檢視[右側面板](../user-guide/web-editor-features.md#id2051EB003YK)區段中的&#x200B;**檔案屬性**&#x200B;功能說明。
 
 ## 能夠使用動態基準並行發佈多個輸出預設集
 
@@ -106,18 +107,18 @@ Experience Manager現在提供將資產的中繼資料屬性從DITA map傳遞至
 
 此功能相當實用，可協助您保持資產屬性（例如作者、建立日期或檔案標題）的一致性。 這可讓您更輕鬆地組織、搜尋和分類您的檔案。
 
-如需詳細資訊，請檢視 **進階** 中的設定 [發佈PDF輸出](../web-editor/native-pdf-web-editor.md).
+如需詳細資訊，請檢視[PublishPDF輸出](../web-editor/native-pdf-web-editor.md)中的&#x200B;**進階**&#x200B;設定。
 
 
-### 使用在中新增的中繼資料 `topicmeta` PDF輸出的元素
+### 使用新增至`topicmeta`元素的中繼資料做為PDF輸出
 
 原生PDF發佈的中繼資料功能有助於內容管理，也有助於在網際網路上搜尋檔案。
 <img src="assets/pdf-metadata-4-4.png" alt="中繼資料標籤" width="800">
 
 *選取選項以新增和自訂中繼資料選項。*
 
-現在，Experience Manager指南提供您使用在中新增中繼資料的選項 `topicmeta` DITA map的元素，以填入PDF輸出的中繼資料欄位。 依預設，會選取此選項。
+現在Experience Manager Guides提供選項，讓您使用已在DITA map的`topicmeta`元素中新增的中繼資料填入PDF輸出的中繼資料欄位。 依預設，會選取此選項。
 
 此功能有助於改善檔案管理、確保一致性，並讓您的檔案可供搜尋。
 
-若要瞭解更多，請檢視 **中繼資料** 索引標籤中的 [發佈PDF輸出](../web-editor/native-pdf-web-editor.md).
+若要瞭解更多資訊，請檢視[PublishPDF輸出](../web-editor/native-pdf-web-editor.md)中的&#x200B;**中繼資料**&#x200B;索引標籤。

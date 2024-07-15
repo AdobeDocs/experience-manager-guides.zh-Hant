@@ -11,22 +11,22 @@ ht-degree: 8%
 
 ---
 
-# AEM Guides在AEMaaCS上發佈基準
+# AEMaaCS上的AEM Guides發佈基準
 
-目前AEM Guides雲端服務在發佈指南團隊正積極努力解決的地圖大小上有一些限制。
+目前，AEM Guides雲端服務在發佈指南團隊正積極努力解決的地圖大小上有一些限制。
 
-指南團隊已推出可擴充的發佈微服務，以支援大型地圖和多個同時發佈。 若要進一步瞭解新的發佈微服務，請參閱 [發佈微服務架構](publish-microservice-architecture-and-performance.md)
+指南團隊已推出可擴充的發佈微服務，以支援大型地圖和多個同時發佈。 若要深入瞭解新的發佈微服務，請參閱[發佈微服務架構](publish-microservice-architecture-and-performance.md)
 
-若要為任何AEM雲端環境設定新的發佈服務，請參閱 [設定新的微服務型發佈](configure-microservices.md)
+若要為任何AEM雲端環境設定新的發佈服務，請參閱[設定新的微服務式發佈](configure-microservices.md)
 
 
 ## 執行環境
 
     AEM版本： 2023.5.11983.20230511T173830Z
-    指南新增至發行版本：2023.6.0
+    指南附加版本： 2023.6.0
     AEM網站範本： AEM Guides OOTB範本
     DITA-OT版本： 3.5.4
-    發佈工作流程型別：分割發佈工作流程
+    Publish工作流程型別：分割Publish工作流程
     微服務支援的輸出：原生PDF、PDF(Dita-OT)
 
 ## 輸出世代編號

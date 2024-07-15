@@ -23,24 +23,24 @@ ht-degree: 9%
 
 翻譯內容涉及以下步驟：
 
-1. 連線AEM與您的 [翻譯服務提供者](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) 和建立 [翻譯整合框架設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. 連線AEM與您的[翻譯服務提供者](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)並建立[翻譯整合架構設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
 
-1. 將語言主版的頁面與 [翻譯服務與框架設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. 將語言主版的頁面與[翻譯服務與架構設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)建立關聯。
 
-1. 識別型別 [要翻譯的內容](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. 識別要翻譯的[內容型別](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html)。
 
 1. 編寫語言主版並建立語言副本的根頁面，[以備妥內容進行翻譯](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)。
 
-1. 建立 [翻譯專案](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 收集要翻譯的內容並準備翻譯程式。
+1. 建立[翻譯專案](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻譯的內容並準備翻譯程式。
 
-1. 使用翻譯專案至 [管理內容翻譯](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 程式。
+1. 使用翻譯專案來[管理內容翻譯](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)程式。
 
 
 如果您的翻譯服務提供者未提供聯結器來與AEM整合，則AEM支援手動匯出和匯入XML格式的翻譯內容。
 
 >[!TIP]
 >
-> 請參閱 *翻譯*&#x200B;最佳實務指南中的區段，以取得翻譯內容的最佳實務。
+> 如需有關翻譯內容的最佳實務，請參閱「最佳實務指南」中的&#x200B;*翻譯*&#x200B;一節。
 
 ## 在DITA map控制面板上設定翻譯標籤
 
@@ -54,9 +54,9 @@ ht-degree: 9%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;套件。
 
-1. 選取 **隱藏翻譯索引標籤** 選項，以隱藏地圖圖示板上的翻譯標籤。
+1. 選取&#x200B;**隱藏翻譯標籤**&#x200B;選項，以隱藏地圖儀表板上的翻譯標籤。
 
    >[!NOTE]
    >
@@ -78,17 +78,17 @@ ht-degree: 9%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;套件。
 
-1. 設定 **元件型DITA翻譯工作流程** 根據您的設定提供的選項：
+1. 根據您的設定，設定&#x200B;**元件式DITA翻譯工作流程**&#x200B;選項：
 
-   - 如果您使用人工翻譯，則 *停用* 此 **元件式翻譯工作流程** 選項。
+   - 如果您使用人工翻譯，請&#x200B;*停用* **元件式翻譯工作流程**&#x200B;選項。
 
-   - 如果您使用機器翻譯，則 *啟用* 此 **元件式翻譯工作流程** 選項。
+   - 如果您正在使用機器翻譯，請&#x200B;*啟用* **元件式翻譯工作流程**&#x200B;選項。
 
    >[!NOTE]
    >
-   > 如果您使用翻譯聯結器，請確定您已依照 *[設定翻譯整合框架](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* AEM檔案中的主題。
+   > 如果您使用翻譯聯結器，請確定您已依照AEM檔案中&#x200B;*[設定翻譯整合架構](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主題中的說明設定聯結器。
 
 1. 按一下「**儲存**」。
 
@@ -143,12 +143,12 @@ Based on the translation workflow used in your setup, provide the following (pro
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;套件。
 
-1. 設定 **處理後語言副本** 根據您的設定提供的選項：
+1. 根據您的設定，設定&#x200B;**Post處理語言副本**&#x200B;選項：
 
-   - \(*預設*\)如果您不想對暫存檔執行後期處理作業，則 *停用* 此 **處理後語言副本** 選項。
+   - \（*預設*\）如果您不想對暫存檔執行後續處理作業，請&#x200B;*停用* **Post處理語言副本**&#x200B;選項。
 
-   - 如果要在暫存檔上執行後期處理作業，則 *啟用* 此 **處理後語言副本** 選項。
+   - 如果要在暫存檔上執行後續處理作業，請&#x200B;*啟用* **Post處理語言副本**&#x200B;選項。
 
 1. 按一下「**儲存**」。

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 執行以下步驟來檢視輸出產生佇列：
 
-1. 在Assets UI中，導覽至並按一下FrameMaker檔案，以檢查輸出產生狀態。
+1. 在Assets UI中，導覽至並按一下您要核取輸出產生狀態的FrameMaker檔案。
 
 1. 按一下「輸出」。
 

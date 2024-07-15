@@ -26,29 +26,29 @@ ht-degree: 0%
 
 ## 在Adobe Developer Console中建立IMS設定
 
-**建立設定所需的角色**：系統管理員
+**建立組態所需的角色**：系統管理員
 
-執行以下步驟，在中建立IMS設定 **Adobe Developer Console**：
+執行以下步驟，在&#x200B;**Adobe Developer Console**&#x200B;中建立IMS設定：
 
 >[!NOTE]
 >
 >如果您已建立OAuth專案以設定AI支援的智慧型建議以進行編寫，您可以略過下列步驟來建立專案。
 
-1. 開啟 **Developer Console**： `https://developer.adobe.com/console`.
+1. 開啟&#x200B;**Developer Console**： `https://developer.adobe.com/console`。
 
-1. 切換至 **專案** 標籤來顯示。
+1. 從頂端切換至&#x200B;**專案**&#x200B;索引標籤。
 
    <img src="assets/projects-tab.png" alt="專案索引標籤" width="500">
 
-   *選取&#x200B;**專案**標籤上的&#x200B;**Adobe Developer Console***
+   *在&#x200B;**Adobe Developer Console***上選取**&#x200B;專案&#x200B;**標籤
 
-1. 若要建立新的空白專案，請選取 **空白專案** 從 **建立新專案** 下拉式清單。
+1. 若要建立新的空白專案，請從&#x200B;**建立新專案**&#x200B;下拉式清單中選取&#x200B;**空白專案**。
 
    <img src="assets/create-new-project.png" alt="建立新專案" width="500">
 
    *建立新的空白專案。*
 
-1. 選取 **API** 從 **新增至專案** 下拉式清單，將IO Management API新增至您的專案。
+1. 從&#x200B;**新增至專案**&#x200B;下拉式清單中選取&#x200B;**API**，將IO管理API新增至您的專案。
 
    <img src="assets/add-project.png" alt="新增專案" width="300">
 
@@ -62,16 +62,16 @@ ht-degree: 0%
 
    <img src="assets/microservice-api-oauth.png" alt="產生金鑰組" width="500">
 
-   *設定API的OAuth認證。*
+   *將OAuth認證設定到您的API。*
 
 
-1. 返回 **專案** 標籤並選取 **專案概述** 左側。
+1. 返回「**專案**」標籤，並在左側選取「**專案概述**」。
 
    <img src="assets/project-overview.png" alt="專案概述" width="500">
 
    *開始新專案。*
 
-1. 按一下 **下載** 按鈕來下載服務JSON。
+1. 按一下頂端的「**下載**」按鈕即可下載服務JSON。
 
    <img src="assets/download-json.png" alt="下載json" width="500">
 
@@ -86,16 +86,16 @@ ht-degree: 0%
 >
 >如果您已針對智慧建議建立OAuth專案，則您可以對微服務重複使用相同的專案，並跳過以下步驟以將IMS設定新增至環境。
 
-### 更新現有設定（JWT至OAuth Shift ）
+### 更新現有設定(JWT)   至OAuth Shift )
 
 如果您已使用微服務來使用JWT發佈（已棄用），請執行以下步驟來更新設定：
 
 
 
-1. 開啟 **Experience Manager** 並選取包含要設定之環境的程式。
-1. 切換至 **環境** 標籤。
-1. 選取要設定的環境名稱。 這應該會將您導覽至 **環境資訊** 頁面。
-1. 切換至 **設定** 標籤。
+1. 開啟&#x200B;**Experience Manager**，並選取包含您要設定之環境的程式。
+1. 切換至&#x200B;**環境**&#x200B;標籤。
+1. 選取要設定的環境名稱。 這應該會將您導覽至&#x200B;**環境資訊**&#x200B;頁面。
+1. 切換至&#x200B;**組態**&#x200B;標籤。
 
 1. 使用您下載的新OAuth JSON檔案更新SERVICE_ACCOUNT_DETAILS JSON欄位。
 1. 刪除PRIVATE_KEY欄位。
@@ -109,10 +109,10 @@ ht-degree: 0%
 ### 首次設定
 
 若要第一次使用發佈微服務，請依照下列步驟更新設定：
-1. 開啟 **Experience Manager** 並選取包含要設定環境的程式。
-1. 切換至 **環境** 標籤。
-1. 選取要設定的環境名稱。 這應該會將您導覽至 **環境資訊** 頁面。
-1. 切換至 **設定** 標籤。
+1. 開啟&#x200B;**Experience Manager**，並選取包含您要設定之環境的程式。
+1. 切換至&#x200B;**環境**&#x200B;標籤。
+1. 選取要設定的環境名稱。 這應該會將您導覽至&#x200B;**環境資訊**&#x200B;頁面。
+1. 切換至&#x200B;**組態**&#x200B;標籤。
 
 1. 建立名稱為SERVICE_ACCOUNT_DETAILS的新設定。 在價值中，新增您從開發人員控制檯下載的OAuth JSON檔案內容。
 
@@ -130,11 +130,11 @@ ht-degree: 0%
 
 新增IMS設定至環境後，請使用OSGi執行以下步驟將這些屬性與Experience Manager Guides連結：
 
-1. 在您的Cloud Manager Git專案程式碼中，將以下兩個檔案新增到 `/apps/fmditaCustom/config` (針對檔案內容，檢視 [附錄](#appendix))。
+1. 在您的Cloud Manager Git專案程式碼中，將以下兩個檔案新增到`/apps/fmditaCustom/config`中（針對檔案內容，請檢視[附錄](#appendix)）。
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
-1. 確保新新增的檔案包含在您的 `filter.xml`.
+1. 確保您的`filter.xml`涵蓋新新增的檔案。
 1. 認可並推送您的Git變更。
 1. 執行管道以將變更套用至環境。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 
 1. 如果啟用使用微服務的OSGi設定，發佈程式是否可以在具有相同程式碼基底的本機Experience Manager伺服器上運作？
-   * 否，如果旗標 `dxml.use.publish.microservice` 設為 `true`，會一律尋找微服務設定。 設定 `dxml.use.publish.microservice` 至 `false` 讓發佈功能在本機伺服器上運作。
+   * 否，如果旗標`dxml.use.publish.microservice`設為`true`，則一律會尋找微服務組態。 將`dxml.use.publish.microservice`設為`false`，讓發佈在您的本機伺服器上運作。
 1. 使用以微服務為基礎的發佈時，為DITA程式分配了多少記憶體？ 這是否透過DITA設定檔和引數驅動？
    * 使用以微服務為基礎的發佈，記憶體配置不會透過DITA設定檔和引數驅動。 服務容器上可用的記憶體總計為8 GB，其中6 GB會配置給DITA-OT處理序。
 

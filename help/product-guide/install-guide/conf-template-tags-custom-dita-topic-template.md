@@ -35,11 +35,11 @@ AEM Guides隨附下列DITA主題範本：
 
 若要自訂DITA主題範本並用於撰寫，您必須執行下列三個主要工作：
 
-1. *\（可選\）* [設定自訂DITA範本資料夾路徑](#id191LCF0095Z)
+1. *\（選擇性\）* [設定自訂DITA範本資料夾路徑](#id191LCF0095Z)
 
 1. [建立自訂編寫範本](conf-folder-level.md#id1917D0EG0HJ)
 
-1. 將自訂範本新增到全域或資料夾層級的設定檔中，如 [設定編寫範本](conf-folder-level.md#id1889D0IL0Y4) 區段
+1. 將自訂範本新增至全域或資料夾層級的設定檔，如[設定編寫範本](conf-folder-level.md#id1889D0IL0Y4)區段中所述
 
 
 ## 設定自訂DITA範本資料夾路徑 {#id191LCF0095Z}
@@ -48,9 +48,9 @@ AEM Guides可讓您設定資料夾以儲存自訂的DITA map和範本。 依預�
 
 `/content/dam/dita-templates/`
 
-為了管理主題和對應範本檔案，有專用的資料夾來儲存主題和對應範本。 依預設，所有主題範本都儲存在 `/content/dam/dita-templates/topics`
+為了管理主題和對應範本檔案，有專用的資料夾來儲存主題和對應範本。 依預設，所有主題範本都儲存在`/content/dam/dita-templates/topics`下
 
-資料夾。 所有地圖範本都儲存在 `/content/dam/dita-templates/maps` 資料夾。
+資料夾。 所有對應範本都儲存在`/content/dam/dita-templates/maps`資料夾下。
 
 作為管理員，您可以選擇在預設資料夾中建立自訂地圖或主題範本，或建立您自己的資料夾以儲存自訂範本。 如果您計畫使用預設資料夾，則可以略過此程式。
 
@@ -68,13 +68,13 @@ AEM Guides可讓您設定資料夾以儲存自訂的DITA map和範本。 依預�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 *com.adobe.fmdita.config.ConfigManager* 套件組合。
+1. 搜尋並按一下&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;套件。
 
-1. 在 **範本位置** 屬性，指定儲存自訂範本的位置。
+1. 在&#x200B;**範本位置**&#x200B;屬性中，指定儲存自訂範本的位置。
 
 1. 按一下「**儲存**」。
 
 
 如果DAM中存在指定的位置，則所有預設地圖和主題範本都會複製到該資料夾中。 如果該位置不存在，則會使用所有預設地圖和主題範本建立該資料夾。
 
-**父級主題：**[&#x200B;設定主題和對應範本](conf-template-tags.md)
+**父級主題：**[&#x200B;設定主題與對應範本](conf-template-tags.md)

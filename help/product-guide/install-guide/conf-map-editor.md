@@ -28,8 +28,8 @@ AEM Guides隨附基本地圖編輯器和進階地圖編輯器。 基本地圖編
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;套件。
 
-1. 選取 **隱藏基本地圖編輯器** 選項。
+1. 選取&#x200B;**隱藏基本地圖編輯器**&#x200B;選項。
 
    選取此選項後，使用者在使用者介面中的任何位置都不會看到「基本地圖編輯器」連結。 依預設，對應檔案會在「進階對應編輯器」中開啟。

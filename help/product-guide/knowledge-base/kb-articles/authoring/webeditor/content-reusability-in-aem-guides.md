@@ -1,6 +1,6 @@
 ---
 title: AEM Guides中的DITA內容重複使用
-description: 本簡短文章說明AEM Guides和DITA如何協助您在使用內容重複使用性時節省時間和精力
+description: 此簡短文章說明AEM Guides和DITA如何協助您在使用內容重複使用性時節省時間和精力
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
 source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# AEM Guides中的內容可重複使用
+# AEM Guides中的內容重複使用性
 
-Adobe AEM Guides運用DITA的優勢，提供使用者易用的介面以重複使用內容。
+AdobeAEM Guides運用DITA的長處，提供使用者易用的介面以重複使用內容。
 
 在本文中，我們將討論：
 
@@ -77,7 +77,7 @@ Adobe AEM Guides運用DITA的優勢，提供使用者易用的介面以重複使
 </section>
 ```
 
-此處 `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita是檔案識別碼，#individual_kyc是片段識別碼。
+此處`conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita是檔案識別碼，#individual_kyc是片段識別碼。
 
 Kyc_procedure.dita仍然是唯一的資訊來源。 如果根據法規要求對KYC流程有任何變更，您只需要更新一個主題，這些變更會自動反映在所有參考該主題的主題中。
 
@@ -164,4 +164,4 @@ AEM Guides提供「可重複使用的內容」功能，只需按一下即可新�
 <br>
 
 
-在AEM Guides社群發文 [論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 以取得任何查詢。
+AEM Guides社群[論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上的Post以進行任何查詢。

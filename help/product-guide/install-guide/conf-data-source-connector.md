@@ -40,7 +40,7 @@ Jira使用使用者名稱和密碼進行基本驗證的設定檔範例：
 }
 ```
 
-例如，另存為 `jira.json`.
+例如，儲存為`jira.json`。
 
 使用Token進行Jira基本驗證的設定檔範例：
 
@@ -59,7 +59,7 @@ Jira使用使用者名稱和密碼進行基本驗證的設定檔範例：
 }
 ```
 
-例如，另存為 `jira.json`.
+例如，儲存為`jira.json`。
 
 Jira基本驗證的設定檔範例，其中包含具有「Basic」關鍵字的Token：
 
@@ -78,7 +78,7 @@ Jira基本驗證的設定檔範例，其中包含具有「Basic」關鍵字的To
 }
 ```
 
-例如，另存為 `jira.json`.
+例如，儲存為`jira.json`。
 
 MySql基本驗證的範例安裝檔案：
 
@@ -99,7 +99,7 @@ MySql基本驗證的範例安裝檔案：
 }
 ```
 
-例如，另存為 `mysql.json`.
+例如，儲存為`mysql.json`。
 
 PostgreSQL基本驗證的設定檔範例：
 
@@ -120,7 +120,7 @@ PostgreSQL基本驗證的設定檔範例：
 }
 ```
 
-例如，另存為 `postgres.json`.
+例如，儲存為`postgres.json`。
 
 MS SQL Server基本驗證的安裝檔案範例：
 
@@ -141,7 +141,7 @@ MS SQL Server基本驗證的安裝檔案範例：
 }
 ```
 
-例如，另存為 `mssqlserver.json`.
+例如，儲存為`mssqlserver.json`。
 
 SQLite基本驗證的範例安裝檔案：
 
@@ -162,7 +162,7 @@ SQLite基本驗證的範例安裝檔案：
 }
 ```
 
-例如，另存為 `sqqlite.json`.
+例如，儲存為`sqqlite.json`。
 
 ### 自訂聯結器設定
 
@@ -179,10 +179,10 @@ AEM Guides可讓您自訂設定檔案中的某些值，以符合使用者的需�
 
 將檔案上傳到AEM Assets中的某個位置。
 
-例如，  `/content/dam/jira.json`
+例如，`/content/dam/jira.json`
 
 ## 使用REST API建立設定
 
-您可以使用REST API註冊設定。 如需詳細資訊，請檢視 *REST API可註冊資料來源聯結器* Adobe Experience Manager Guides的API參考資料中的區段。
+您可以使用REST API註冊設定。 如需詳細資訊，請檢視Adobe Experience Manager Guides的API參考中的&#x200B;*REST API以註冊資料來源聯結器*&#x200B;區段。
 
-設定資料來源後，聯結器會列在網頁編輯器的「資料來源」面板下。 然後，您可以連線至資料來源，並將內容片段插入主題中。 如需詳細資訊，請檢視 [從您的資料來源插入內容片段](../user-guide/web-editor-content-snippet.md).
+設定資料來源後，聯結器會列在網頁編輯器的「資料來源」面板下。 然後，您可以連線至資料來源，並將內容片段插入主題中。 如需詳細資訊，請檢視[插入資料來源的內容片段](../user-guide/web-editor-content-snippet.md)。

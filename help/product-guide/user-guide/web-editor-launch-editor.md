@@ -1,6 +1,6 @@
 ---
 title: 啟動網頁編輯器
-description: 瞭解如何從AEM Guides中的AEM導覽頁面、AEM Assets UI和DITA Map主控台啟動網頁編輯器。
+description: 瞭解如何從AEM Guides的AEM導覽頁面、AEM Assets UI和DITA Map主控台啟動網頁編輯器。
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
@@ -27,15 +27,15 @@ ht-degree: 0%
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-按一下 **指南** 連結會直接將您導向至網頁編輯器。
+按一下&#x200B;**Guides**&#x200B;連結，即可直接前往網頁編輯器。
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 當您未選取任何檔案就啟動網頁編輯器時，會顯示空白的網頁編輯器畫面。 您可以從AEM存放庫或「我的最愛」集合開啟檔案以進行編輯。
 
-- 按一下 **指南** 圖示(![](images/aem-guides-icon.png) )，返回AEM導覽頁面。
+- 按一下&#x200B;**參考線**&#x200B;圖示(![](images/aem-guides-icon.png))，返回AEM導覽頁面。
 
-- 此 **關閉** 按鈕會根據您的設定帶您前往目的地：
+- 根據您的設定，**關閉**&#x200B;按鈕會帶您前往目的地：
 
 
 
@@ -43,14 +43,14 @@ ht-degree: 0%
 
   <summary> 雲端服務 </summary>
 
-  如果您正在使用Cloud Service，請按一下 **關閉** 按鈕返回AEM導覽頁面。
+  如果您正在使用Cloud Service，請按一下&#x200B;**關閉**&#x200B;按鈕，返回AEM導覽頁面。
   </details>
 
   <details>
 
   <summary> 內部部署軟體</summary>
 
-  如果您使用AEM Guides On-premise Software （4.2.1及更新版本），請按一下 **關閉** 按鈕返回資產UI中的目前檔案路徑。
+  如果您使用AEM Guides內部部署軟體（4.2.1和更新版本），請按一下右側的&#x200B;**關閉**&#x200B;按鈕，返回至Assets UI中的目前檔案路徑。
 
   </details>
 
@@ -72,11 +72,11 @@ ht-degree: 0%
    >
    > 確保您對包含要編輯之主題的資料夾具有讀取和寫入許可權。
 
-1. 若要取得主題的獨佔鎖定，請選取主題，然後按一下 **簽出**.
+1. 若要取得該主題的獨佔鎖定，請選取該主題，然後按一下[出庫]。****
 
    >[!IMPORTANT]
    >
-   > 如果您的管理員已設定 **停用編輯而不簽出** 選項，則在編輯之前必須先出庫檔案。 如果您未出庫檔案，將無法看到編輯選項。
+   > 如果您的管理員已設定&#x200B;**停用編輯而不簽出**&#x200B;選項，則您必須先簽出檔案才能進行編輯。 如果您未出庫檔案，將無法看到編輯選項。
 
 1. 關閉資產選擇模式，然後按一下您要編輯的主題。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. 按一下 **編輯** 以在Web編輯器中開啟主題。
+1. 按一下&#x200B;**編輯**，在網頁編輯器中開啟主題。
 
    ![](images/edit-mode.png){width="800" align="left"}
 
@@ -107,13 +107,13 @@ ht-degree: 0%
 
    將顯示DITA map主控台。
 
-1. 按一下 **主題**.
+1. 按一下&#x200B;**主題**。
 
    隨即顯示地圖檔案中的主題清單。 主題的UUID會顯示在主題標題下方。
 
 1. 選取要編輯的主題檔案。
 
-1. 按一下 **編輯主題**.
+1. 按一下&#x200B;**編輯主題**。
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   > 如果您的管理員已設定 **停用編輯而不簽出** 選項，則在編輯之前必須先出庫檔案。 如果未出庫檔案，則檔案會在編輯器中以唯讀模式開啟。
+   > 如果您的管理員已設定&#x200B;**停用編輯而不簽出**&#x200B;選項，則您必須先簽出檔案才能進行編輯。 如果未出庫檔案，則檔案會在編輯器中以唯讀模式開啟。
 
 
-**父級主題：**[&#x200B;使用網頁編輯器](web-editor.md)
+**上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)

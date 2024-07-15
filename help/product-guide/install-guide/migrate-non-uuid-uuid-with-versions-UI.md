@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 相容性矩陣
 
-| 最新AEM Guides版本（非UUID） | 移轉至UUID的必要版本 | 支援的升級路徑 |
+| 目前的AEM Guides版本（非UUID） | 移轉至UUID的必要版本 | 支援的升級路徑 |
 |---|---|---|
 | 4.3.x或更新版本 | 4.3.0非UUID | 安裝4.3.1 (UUID) |
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 移轉前
 
-1. （可選）對內容執行版本清除以移除不必要的版本，並加快移轉程式。 若要在4.1版上執行版本清除（4.0版不支援），請安裝套件 `com.adobe.guides.version-purge-1.0.11.zip`，並使用此URL前往使用者介面 `http://<server-name> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`.
+1. （可選）對內容執行版本清除以移除不必要的版本，並加快移轉程式。 若要在4.1版上執行版本清除（4.0版不支援），請安裝套件`com.adobe.guides.version-purge-1.0.11.zip`，並使用此URL `http://<server-name> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`移至使用者介面。
 
    >[!NOTE]
    >
@@ -40,7 +40,7 @@ ht-degree: 0%
    >* 您需要管理員許可權才能執行移轉。
    >* 建議先修復有錯誤的檔案，再繼續移轉。
 
-1. 選取 **相容性評估**  從左側面板瀏覽資料夾路徑。
+1. 從左側面板選取&#x200B;**相容性評估**，並瀏覽資料夾路徑。
 1. 檢查相容性以列出以下資訊：
    * 檔案總數
    * 總版本
@@ -49,12 +49,12 @@ ht-degree: 0%
 
 
 
-![移轉中的相容性評估標籤](assets/migration-compatibility-assessment.png){width="800" align="left"}
+移轉中的![相容性評估標籤](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
-1. 選取 **設定驗證** 從左側面板。 則 **選取地圖** 和 **選取預設集** 以設定這些變數。 目前的輸出驗證清單將顯示移轉前存在的輸出檔案，並可在稍後針對移轉後產生的輸出檔案進行驗證。
+1. 從左側面板中選取&#x200B;**設定驗證**。 然後&#x200B;**選取對映**&#x200B;和&#x200B;**選取對映的預設集**&#x200B;以進行設定。 目前的輸出驗證清單將顯示移轉前存在的輸出檔案，並可在稍後針對移轉後產生的輸出檔案進行驗證。
 
-![移轉中的「設定驗證」索引標籤](assets/migration-configure-validation.png){width="800" align="left"}
+![在移轉中設定[驗證]索引標籤](assets/migration-configure-validation.png){width="800" align="left"}
 
 
 
@@ -63,25 +63,25 @@ ht-degree: 0%
 
 ### 步驟1：更新設定
 
-1. 請確定可用的空間至少是AEM （crx-quickstart目錄）在移轉期間所佔用空間的10倍。 完成移轉後，您可以執行壓縮來回收大部分的磁碟空間(請參閱 [修訂清除](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en))。
+1. 請確定可用的空間至少是AEM （crx-quickstart目錄）在移轉期間所佔用空間的10倍。 完成移轉後，您可以執行壓縮來回收大部分的磁碟空間（請參閱[修訂清理](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)）。
 
-1. 啟用 *啟用後處理工作流程啟動器* 在 `com.adobe.fmdita.config.ConfigManager` 和 *啟用版本後處理* 在 `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. 啟用&#x200B;*在`com.adobe.fmdita.config.ConfigManager`中啟用Post處理工作流程啟動器*，並在`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`中啟用&#x200B;*版本後處理*
 
 1. 安裝支援發行版本的UUID版本，而非非UUID版本。 舉例來說，如果您使用4.0版的非UUID組建或4.1版的非UUID組建，便需要安裝UUID 4.1版。
 
 1. 安裝新的套件以進行uuid移轉(`com.adobe.guides.uuid-upgrade-1.1.13`)。
 
-1. 停用下列工作流程以及執行的任何其他工作流程 `/content/dam` 在中使用啟動器 `http://localhost:4502/libs/cq/workflow/content/console.html`.
+1. 停用下列工作流程，以及使用`http://localhost:4502/libs/cq/workflow/content/console.html`中的啟動器在`/content/dam`上執行的任何其他工作流程。
 
    * DAM更新資產工作流程
    * dam中繼資料回寫工作流程
 
-1. 停用 *啟用後處理工作流程啟動器* 在 `com.adobe.fmdita.config.ConfigManager` 和停用 *啟用版本後處理* 在 `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. 停用&#x200B;*啟用`com.adobe.fmdita.config.ConfigManager`中的Post處理工作流程啟動器*，並停用`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`中的&#x200B;*啟用版本後處理*。
 
-1. 停用屬性啟用驗證(`validation.enabled`)。
+1. 停用Day CQ Tagging Service中的Enable validation (`validation.enabled`)屬性。
 
-1. 確定 `uuid.regex` 屬性資料夾在中已正確設定 `com.adobe.fmdita.config.ConfigManager`. 如果空白，則設定為預設值 —  `^GUID-(?<id>.*)`.
-1. 新增單獨的記錄器 `com.adobe.fmdita.uuid.upgrade.UuidUpgrade` 瀏覽器回應也可在以下網址取得： `/content/uuid-upgrade/logs`.
+1. 請確定`com.adobe.fmdita.config.ConfigManager`中的`uuid.regex`屬性資料夾已正確設定。 如果空白，請將其設定為預設值 — `^GUID-(?<id>.*)`。
+1. 為`com.adobe.fmdita.uuid.upgrade.UuidUpgrade`新增個別的記錄器瀏覽器回應也可在`/content/uuid-upgrade/logs`取得。
 
 ### 步驟2：執行移轉並驗證
 
@@ -89,22 +89,22 @@ ht-degree: 0%
 
 ![移轉中的系統升級索引標籤](assets/migration-system-upgrade.png){width="800" align="left"}
 
-* 選取 **系統升級** 從左側面板開始執行移轉。 在較小資料的資料夾上開始執行，然後再執行 `/content/dam`.
+* 從左側面板選取&#x200B;**系統升級**&#x200B;以執行移轉。 先從資料夾中較小的資料開始，再於`/content/dam`上執行。
 
-* 選取 **下載報表** 當移轉正在執行時，檢查資料夾中的所有檔案是否已正確升級，以及所有功能是否只適用於該資料夾。
+* 在移轉執行時選取[下載報表] **，檢查資料夾中的所有檔案是否已正確升級，以及所有功能是否只適用於該資料夾。**
 
 
 >[!NOTE]
 >
-> 內容移轉可在檔案夾層級或完整上執行 `/content/dam` 或在相同資料夾中（重新執行移轉）。
+> 內容移轉可在資料夾層級或完整`/content/dam`上執行，或在相同資料夾上執行（重新執行移轉）。
 
 此外，請務必確實針對所有媒體資產完成內容移轉，例如您在DITA內容中使用的影像和圖形。
 
 #### 基準線及檢閱移轉
 
-選取 **基準/檢閱升級** 從左側面板移轉基準線並在資料夾層級檢閱。
+從左側面板選取&#x200B;**基準線/檢閱升級**，以移轉基準線並在資料夾層級檢閱。
 
-![移轉中的基線和檢閱索引標籤](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+![移轉中的基準與檢閱索引標籤](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
 
 ### 步驟3：還原設定
@@ -120,10 +120,10 @@ ht-degree: 0%
 
 ## 移轉驗證
 
-移轉完成後，請選取「 」 **驗證系統升級** 從左側面板中，在移轉之前和之後驗證輸出檔案，以確保移轉成功。
+移轉完成後，請從左側面板選取&#x200B;**驗證系統升級**，並在移轉前後驗證輸出檔案，以確保移轉成功。
 
 ![在移轉中驗證系統升級索引標籤](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. 完成移轉後，可執行壓縮以回收大部分的磁碟空間(請參閱 `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`)。
+1. 完成移轉後，可以執行壓縮來回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。
 

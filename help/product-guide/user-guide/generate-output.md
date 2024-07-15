@@ -21,7 +21,7 @@ AEM Guides內建發佈功能，可產生多種業界標準格式的輸出。 目
 >
 > AEM Guides也支援產生LwDITA map和主題檔案的輸出。
 
-身為生產專家，AEM Guides也能讓您建立發佈控制面板並執行發佈後工作流程，輕鬆將發佈程式自動化。 Publishing Dashboard也可讓您以統一的檢視方式，檢視系統中已佇列及執行的所有發佈工作。 您可以選擇從發佈儀表板終止或取消任何發佈任務。 您可以建立並關聯自訂設計範本，以產生特定版面的輸出。 此外，AEM Guides可讓您使用自訂DITA-OT外掛程式，以重複使用現有的PDF產生程式。
+身為生產專家，AEM Guides也可讓您建立Publish控制面板和執行發佈後工作流程，輕鬆將發佈程式自動化。 Publishing Dashboard也可讓您以統一的檢視方式，檢視系統中已佇列及執行的所有發佈工作。 您可以選擇從Publish控制面板終止或取消任何發佈任務。 您可以建立並關聯自訂設計範本，以產生特定版面的輸出。 此外，AEM Guides可讓您使用自訂DITA-OT外掛程式，以重複使用現有的PDF產生程式。
 
 您也可以建立各種預設集，並從網頁編輯器產生輸出。
 
@@ -37,7 +37,7 @@ AEM Guides內建發佈功能，可產生多種業界標準格式的輸出。 目
 
 - [使用地圖集合產生輸出](generate-output-use-map-collection-output-generation.md#)
 
-- [使用發佈儀表板管理發布任務](generate-output-publish-dashboard.md#)
+- [使用Publish儀表板管理發布任務](generate-output-publish-dashboard.md#)
 
 - [基本疑難排解](generate-output-basic-troubleshooting.md#)
 

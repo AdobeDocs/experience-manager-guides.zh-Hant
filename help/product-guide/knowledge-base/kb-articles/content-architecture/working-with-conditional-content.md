@@ -1,6 +1,6 @@
 ---
 title: 使用條件式內容
-description: 瞭解如何建立條件，然後設定在中產生條件式內容 [!DNL AEM Guides]
+description: 瞭解如何在 [!DNL AEM Guides]中建立條件，然後設定條件式內容產生
 role: User
 exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
 feature: Publishing
@@ -23,21 +23,25 @@ ht-degree: 0%
 
 **步驟1**
 
-在中定義與檔案相關的條件 [!UICONTROL 資料夾設定檔]：請參閱區段 **設定全域或資料夾層級設定檔的條件屬性** 在 [安裝及設定指南的第69頁](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+在[!UICONTROL 資料夾設定檔]中定義與檔案相關的條件：
+請參閱《安裝與組態指南》第69頁[中的&#x200B;**設定全域或資料夾層級設定檔的條件屬性**&#x200B;一節](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ![在資料夾設定檔中設定條件](assets/conditions-in-profiles.png)
 
 **步驟2**
 
-選取 **[!UICONTROL 資料夾設定檔]** 中的步驟1所定義 **使用者偏好設定** 在XML編輯器中：請參閱區段 **使用者偏好設定** 在 [使用手冊的第41頁](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+在XML編輯器中選取&#x200B;**使用者偏好設定**&#x200B;中步驟1定義的&#x200B;**[!UICONTROL 資料夾設定檔]**：
+請參閱使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第41頁[中的&#x200B;**使用者偏好設定**&#x200B;節
 
 
 **步驟3**
 
-使用條件來條件化內容的區段：請參閱區段 **條件** 在 [使用手冊的第90頁](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+使用條件來條件化內容的區段：
+請參閱使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第90頁[中的&#x200B;**條件**&#x200B;小節
 
-![網頁編輯器中的使用條件](assets/conditions-in-web-editor.png)
+![在網頁編輯器中使用條件](assets/conditions-in-web-editor.png)
 
 **步驟4**
 
-在地圖層級定義條件預設集，以選擇要在輸出中啟用哪些條件：請參閱區段 **使用條件預設集** 在 [使用手冊第249頁](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+定義對應層級的條件預設集，以選擇要於輸出中啟用的條件：
+請參閱使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第249頁[中的&#x200B;**使用條件預設集**&#x200B;節

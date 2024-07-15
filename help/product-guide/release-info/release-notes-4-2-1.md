@@ -13,24 +13,25 @@ ht-degree: 1%
 
 # 4.2.1版Adobe Experience Manager Guides （2023年5月）
 
-此發行說明涵蓋升級指示、相容性矩陣，以及Adobe Experience Manager Guides 4.2.1版中修正的問題(之後稱為 *AEM指南*)。
+此發行說明涵蓋升級指示、相容性矩陣，以及Adobe Experience Manager Guides 4.2.1版(後來稱為&#x200B;*AEM Guides*)中修正的問題。
 
-如需新功能和增強功能的詳細資訊，請參閱 [Adobe Experience Manager Guides 4.2.1版的新增功能](whats-new-4-2-1-release.md).
+如需新功能和增強功能的詳細資訊，請參閱[Adobe Experience Manager Guides 4.2.1版的新增功能](whats-new-4-2-1-release.md)。
 
 ## 升級至AEM Guides的4.2.1版
 
 
-您可以輕鬆將AEM Guides的最新版本升級至4.2.1版在繼續升級至AEM Guides 4.2.1版之前，您必須先考慮下列幾點：您可以將您目前的AEM Guides版本升級至4.2.1版
+您可以輕鬆地將目前的AEM Guides版本升級為4.2.1版。在繼續升級為4.2.1版的AEM Guides之前，您必須考量下列幾點：
+您可以將目前的AEM Guides版本升級至4.2.1版
 * 如果您是使用4.1、4.1.x或4.2版，則可以直接升級至4.2.1版。
 * 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.2.1版。
 * 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-* 如果您使用的是3.8.5之前的版本，請參閱產品特定安裝指南中的升級AEM Guides區段。
+* 如果您使用的版本早於3.8.5，請參閱產品特定安裝指南中的升級AEM Guides區段。
 
 >[!NOTE]
 >
->您必須先安裝AEM Service Pack，才能升級AEM Guides版本。
+>升級AEM Guides版本前，您必須先安裝AEM Service Pack。
 
-如需詳細資訊，請參閱 [升級指示](../install-guide/upgrade-xml-documentation.md).
+如需詳細資訊，請參閱[升級指示](../install-guide/upgrade-xml-documentation.md)。
 
 ## 相容性矩陣
 
@@ -44,7 +45,7 @@ ht-degree: 1%
 **UUID**
 版本6.5 Service Pack 15、14、13或12
 
-如需詳細資訊，請參閱 *技術需求* 安裝與設定Adobe Experience Manager指南中的區段。
+如需詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides」指南中的&#x200B;*技術需求*&#x200B;一節。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -82,7 +83,7 @@ ht-degree: 1%
 * 使用自訂結構描述載入內容時，瀏覽器（網頁編輯器）會凍結。 (11211)
 * 原生PDF | 使用「新增至資料夾設定檔」選項建立輸出預設集時，PDF產生會因「Null指標」例外而失敗。 (10950)
 * 原生PDF | 影像標籤會將display-inline屬性新增至所有影像。 (10653)
-* 音訊和視訊多媒體檔案的插入在YouTube格式下失敗 **插入多媒體** 圖示。 (11320)
+* 在&#x200B;**插入多媒體**&#x200B;圖示下，無法以YouTube格式插入音訊和視訊多媒體檔案。 (11320)
 * 使用具有專門化標題元素的範本建立對應時，會發生驗證錯誤。 (11212)
 * 網頁編輯器 | 編輯主題時，會在XML編輯器中新增不斷行空格。 (11786)
 
@@ -90,20 +91,20 @@ ht-degree: 1%
 
 * Web編輯器UI中的「報表」索引標籤不會顯示4.2升級之前建立的舊DITA map的主題清單。 (11708)
 
-* 4.2版本中，Assets UI內的「上傳檔案」按鈕功能中斷。 (11633)
+* Assets UI中的「上傳檔案」按鈕功能在4.2版中中斷。 (11633)
 
 
 ### 發佈
 
 * 原生PDF | 如果發佈的內容具有包含brackets()的輸出類別，會導致發佈凍結。 (11936)
-* JSON輸出 | 屬性值為「 」的中繼資料對應 `"value in spaces and double quotes"` 會導致發佈錯誤。 (11933)
+* JSON輸出 | 屬性值為`"value in spaces and double quotes"`的對應中繼資料會導致發佈錯誤。 (11933)
 * 在AEM網站搜尋中發生問題（在2-3層節點之外無法運作）。 (11352)
 * 網頁編輯器 | 無法在AEM預設集中選取輸出路徑和範本。 (11530)
 * 從4.1.x升級至4.2版時，原生PDF引擎無法運作，且擲回NullPointerException，即使是支援的作業系統亦然。(11526)
 * 下載PDF程式在網頁編輯器中無法正常運作。 (11496)
 * 原生PDF | 預設會在產生的輸出中隱藏草稿註解。 (10560)
 * 原生PDF | navtitle不適用於topichead。 (10509)
-* 原生PDF | 新增 `xref` 至影像不會呈現在產生的PDF上。 (11346)
+* 原生PDF | 將`xref`新增至影像不會轉譯產生PDF上的影像。 (11346)
 * 原生PDF | 表格標題中的註腳會在PDF輸出的對應頁尾中導向粗體與置中對齊文字。 (10610)
 
 ### 轉換

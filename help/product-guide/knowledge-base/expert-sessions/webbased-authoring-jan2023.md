@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 撰寫網頁型內容
 
-AEM Guides隨附內建的網頁編輯器，可用於編寫結構化內容。 您可以使用簡化的Web式撰寫體驗，但還是選擇使用或啟用強大的功能，例如條件式內容驗證、拼字檢查、內容重複使用、參考驗證、好記的名稱和撰寫數學方程式。
+AEM Guides隨附內建的Web編輯器，可用於編寫結構化內容。 您可以使用簡化的Web式撰寫體驗，但還是選擇使用或啟用強大的功能，例如條件式內容驗證、拼字檢查、內容重複使用、參考驗證、好記的名稱和撰寫數學方程式。
 
 ## 工作階段概述
 
@@ -28,7 +28,7 @@ AEM Guides隨附內建的網頁編輯器，可用於編寫結構化內容。 您
 - **日期** - 2023年1月19日
 - **出席者人數** - 89
 - **持續時間** - 60分鐘
-- **對象**  — 客戶、合作夥伴和Adobe員工
+- **對象** — 客戶、合作夥伴和Adobe員工
 
 ## 關鍵重點
 
@@ -40,18 +40,18 @@ AEM Guides隨附內建的網頁編輯器，可用於編寫結構化內容。 您
 
 ## 相關資源
 
-- **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能影片** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **使用手冊** - [作者內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **社群論壇**  — 如需Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社群論壇** — 若為Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 >[!NOTE]
 >
-> 此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
+> 此工作階段中顯示的功能適用於下列AEM Guides版本：
 > - 內部部署4.1.3或更新版本
 > - Cloud Service 2211和更新版本
 
 ## 聯絡我們
 
-如有任何疑問，請傳送電子郵件至 <techcomm@adobe.com>
+若有任何疑問，請傳送電子郵件至<techcomm@adobe.com>

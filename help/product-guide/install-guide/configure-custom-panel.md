@@ -16,8 +16,8 @@ ht-degree: 0%
 
 執行以下步驟，在網頁編輯器的左側面板中新增自訂面板：
 
-1. 建立 *clientlib* 並將您的JavaScript和CSS檔案新增至此資料夾。
-1. 更新「 」的「 」類別屬性 *clientlib* 資料夾，為其指派值 *apps.fmdita.xml\_editor.page\_overrides*.
+1. 建立&#x200B;*clientlib*&#x200B;資料夾，並將您的JavaScript和CSS檔案新增至此資料夾。
+1. 透過將&#x200B;*apps.fmdita.xml\_editor.page\_overrides*&#x200B;的值指派給&#x200B;*clientlib*&#x200B;資料夾來更新categories屬性。
 
 設定自訂面板的程式碼範例：
 
@@ -58,4 +58,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**父級主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

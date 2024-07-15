@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 上傳現有DITA內容 {#id176FF000JUI}
 
-最有可能的情況是，您擁有要搭配AEM Guides使用的現有DITA內容的存放庫。 對於這類現有內容，您可以使用下列任何一種方法，將內容大量上傳至AEM存放庫。
+您很可能擁有要與AEM Guides搭配使用的現有DITA內容存放庫。 對於這類現有內容，您可以使用下列任何一種方法，將內容大量上傳至AEM存放庫。
 
 ## 使用WebDAV工具
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    「登入」對話方塊隨即顯示。
 
-1. 在「登入」對話方塊中，選擇WebDAV作為，指定「新網站」設定。 **檔案通訊協定** 並提供其他連線詳細資料，例如：
+1. 在[登入]對話方塊中，選擇WebDAV作為&#x200B;**檔案通訊協定**&#x200B;並提供其他連線詳細資訊，以指定[新站台]設定，例如：
 
    - AEM伺服器託管所在的URL、
 
@@ -49,20 +49,20 @@ Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆將現有DITA和其
 
 1. 啟動FrameMaker。
 
-1. 開啟 **連線管理員** 對話方塊。
+1. 開啟&#x200B;**連線管理員**&#x200B;對話方塊。
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
 1. 輸入以下詳細資料以連線至AEM存放庫：
 
-   - **名稱**：輸入描述性名稱以識別與您的AEM伺服器的連線。
+   - **名稱**：輸入描述性名稱，以識別與您的AEM伺服器的連線。
    - **伺服器**：輸入AEM伺服器的URL和連線埠號碼。
 
-   - **使用者名稱**/**密碼**：輸入使用者名稱和密碼來存取AEM伺服器。
+   - **使用者名稱**/**密碼**：輸入使用者名稱和密碼以存取AEM伺服器。
 
-1. 按一下 **連線**.
+1. 按一下&#x200B;**連線**。
 
-   成功建立連線後，「存放庫管理員」視窗中會顯示AEM存放庫中的資產。
+   成功建立連線後，AEM存放庫中的Assets會顯示在「存放庫管理員」視窗中。
 
    ![](assets/fm-repo-manager.png){width="550" align="left"}
 
@@ -83,9 +83,9 @@ Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆將現有DITA和其
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 *com.adobe.fmdita.config.ConfigManager* 套件組合。
+1. 搜尋並按一下&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;套件。
 
-1. 在 **UUID檔案名稱模式** 屬性，指定模式以檢查匯入檔案的名稱。
+1. 在&#x200B;**UUID檔案名稱模式**&#x200B;屬性中，指定模式以檢查匯入檔案的名稱。
 
    如果檔案未遵循指定的模式，則會將UUID新增至檔案的屬性，而且所有對該檔案的參照都會以指派給該檔案的UUID更新。
 
@@ -97,14 +97,14 @@ Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆將現有DITA和其
 您可以使用下列任何一種方法，透過UUID上傳您的內容：
 
 - 從您的本機系統拖放內容。
-- 使用 **建立** \> **檔案** AEM Assets UI的工作流程。
+- 使用AEM Assets UI中的&#x200B;**建立** \> **檔案**&#x200B;工作流程。
 - 使用WinSCP之類的工具。
 
-如果您使用WinSCP之類的工具，您可以設定 **將具有相同UUID的舊檔案移至新資料夾** configMgr中的選項。 此選項會定義在檔案上執行的動作，該檔案可在AEM存放庫中的其他位置取得。 此設定可在 *com.adobe.fmdita.config.ConfigManager* configMgr中的套件組合。
+如果您使用WinSCP之類的工具，您可以設定configMgr中的&#x200B;**將具有相同UUID的舊檔案移動至新資料夾**&#x200B;選項，以定義要在重複檔案上執行的動作。 此選項會定義在檔案上執行的動作，該檔案可在AEM存放庫中的其他位置取得。 此設定可在configMgr的&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;套件組合中使用。
 
-根據預設 **將具有相同UUID的舊檔案移至新資料夾** 選項已開啟。 這代表上傳的檔案出現在存放庫中的其他資料夾時，現有檔案會移至目前位置並以上傳的檔案覆寫。 如果您未選取此選項，則檔案會在其現有位置被覆寫。
+預設會開啟&#x200B;**將具有相同UUID的舊檔案移動到新資料夾**&#x200B;選項。 這代表上傳的檔案出現在存放庫中的其他資料夾時，現有檔案會移至目前位置並以上傳的檔案覆寫。 如果您未選取此選項，則檔案會在其現有位置被覆寫。
 
-**有關使用UUID型檔案的其他附註**：
+**使用UUID檔案的其他附註**：
 
 在AEM存放庫中移動或複製內容時，必須考量下列幾點：
 
@@ -136,11 +136,11 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 指定下列引數以建立資料夾：
 
-- `<username>:<passowrd>`：指定存取AEM存放庫的使用者名稱和密碼。 此使用者必須擁有資料夾建立許可權。
+- `<username>:<passowrd>`：指定要存取AEM存放庫的使用者名稱和密碼。 此使用者必須擁有資料夾建立許可權。
 
-- `jcr:primaryType=sling:Folder`：指定此引數 *原樣* 以建立資料夾型別資源。
+- `jcr:primaryType=sling:Folder`：指定此引數&#x200B;*為*，以建立資料夾型別資源。
 
-- `<server folder path>`：完整的資料夾路徑，包括您要在AEM存放庫中建立的新資料夾名稱。 例如，如果您將路徑指定為 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，然後資料夾 `AEM-Guides` 建立於 `projects` DAM資料夾。
+- `<server folder path>`：完整的資料夾路徑，包括您要在AEM存放庫中建立的新資料夾名稱。 例如，如果您將路徑指定為`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，則會在DAM的`projects`資料夾中建立資料夾`AEM-Guides`。
 
 
 **上傳檔案**
@@ -153,11 +153,11 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 指定下列引數以上傳檔案：
 
-- `<username>:<passowrd>`：指定存取AEM存放庫的使用者名稱和密碼。 此使用者必須擁有寫入許可權， `server folder path`.
+- `<username>:<passowrd>`：指定要存取AEM存放庫的使用者名稱和密碼。 此使用者必須擁有`server folder path`的寫入許可權。
 
-- ``local file path``：本機系統上您要上傳的完整檔案路徑。
+- ``local file path``：您想要上傳之本機系統上的完整檔案路徑。
 
-- `<server folder path>`：AEM伺服器上您要上傳檔案的完整資料夾路徑。
+- `<server folder path>`：您要上傳檔案的AEM伺服器上的完整資料夾路徑。
 
 
 **新增中繼資料**
@@ -170,11 +170,11 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 指定下列引數以新增中繼資料資訊：
 
-- `<username>:<passowrd>`：指定存取AEM存放庫的使用者名稱和密碼。 此使用者必須擁有寫入許可權， ``metadata node path``.
+- `<username>:<passowrd>`：指定要存取AEM存放庫的使用者名稱和密碼。 此使用者必須擁有``metadata node path``的寫入許可權。
 
-- ``-F<attribute name>=<value>``：此 `<attribute name>` 是中繼資料屬性的名稱，例如 `audience` 和 `<value>` 可以 `internal`. 您可以指定多個以空格分隔的屬性名稱 — 值組。
+- ``-F<attribute name>=<value>``： `<attribute name>`是中繼資料屬性的名稱，例如`audience`，而`<value>`可以是`internal`。 您可以指定多個以空格分隔的屬性名稱 — 值組。
 
-- `<metadata node path>`：完整的資料夾路徑，包括檔案名稱及其中繼資料節點。 例如，如果您將路徑指定為 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`，則指定的中繼資料資訊會設定在 `intro.xml` 檔案。
+- `<metadata node path>`：完整的資料夾路徑，包括檔案名稱及其中繼資料節點。 例如，如果您將路徑指定為`http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`，則指定的中繼資料資訊會設定在`intro.xml`檔案上。
 
 
-**父級主題：**[&#x200B;移轉現有內容](migrate-content.md)
+**上層主題：**[&#x200B;移轉現有內容](migrate-content.md)

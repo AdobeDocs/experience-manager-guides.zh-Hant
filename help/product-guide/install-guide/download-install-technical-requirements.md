@@ -31,7 +31,7 @@ ht-degree: 0%
 - Red Hat Linux 7和6
 
 
-**Java Development Kit**
+**Java開發套件**
 
 - oracleSE 11 JRE 11.x
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 - Google Chrome
 
 
-**父級主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)

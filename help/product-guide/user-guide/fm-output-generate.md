@@ -15,7 +15,7 @@ ht-degree: 0%
 
 執行以下步驟來產生FrameMaker檔案的輸出：
 
-1. 在Assets UI中，導覽至，然後按一下 `.book` 或 `.fm` 您要發佈的檔案。
+1. 在Assets UI中，導覽至並按一下您要發佈的`.book`或`.fm`檔案。
 
    DITA map主控台隨即出現，顯示可用於產生輸出的輸出預設集清單。
 
@@ -28,6 +28,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 您可以按一下「輸出」，檢視輸出產生請求的目前狀態。 如需詳細資訊，請參閱 [檢視輸出產生工作的狀態](fm-output-view-status.md).
+> 您可以按一下「輸出」，檢視輸出產生請求的目前狀態。 如需詳細資訊，請參閱[檢視輸出產生工作的狀態](fm-output-view-status.md)。
 
 **父級主題：**[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)

@@ -18,8 +18,8 @@ AEM Guides可讓您將各種結構化和非結構化檔案轉換為DITA格式。
 
 >[!TIP]
 >
-> 請參閱 *內容移轉與上傳* 最佳作法指南中的區段，以瞭解使用移轉及上傳現有內容的最佳作法。
+> 請參閱最佳實務指南中的&#x200B;*內容移轉和上傳*&#x200B;區段，以取得使用移轉和上傳現有內容的最佳實務。
 
-- **[上傳現有DITA內容](migrate-content-upload-existing-dita-content.md)**
+- **[上傳現有的DITA內容](migrate-content-upload-existing-dita-content.md)**
 
 - **[移轉非DITA內容](migrate-content-non-dita.md)**

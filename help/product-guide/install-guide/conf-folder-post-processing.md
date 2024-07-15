@@ -4,19 +4,19 @@ description: 瞭解如何針對已上傳至Adobe Experience Manager Assets的資
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 532e7c562a233619a8c4b7cbdbaef44bc73eb4b2
+exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
-
 # 停用資料夾的後處理
 
-依預設，所有上傳的資產都使用DAM更新資產工作流程進行處理。 Experience Manager指南會執行額外的處理（稱為後處理），作為此工作流程的一部分。 這也有助於產生UUID
+依預設，所有上傳的資產都使用DAM更新資產工作流程進行處理。 Experience Manager Guides會在此工作流程中執行稱為後續處理的其他處理。 這也有助於產生UUID
 
-將檔案和資料夾上傳至 *Adobe Experience Manager Assets* 伺服器，您也可以停用後處理和UUID的產生。
+將檔案和資料夾上傳至&#x200B;*Adobe Experience Manager Assets*&#x200B;伺服器時，您也可以停用後處理和UUID的產生。
 
 
 執行以下步驟來停用指定路徑的後處理，或忽略資料夾的後處理：
@@ -30,11 +30,11 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;套件。
 
-1. 選取 **已忽略後處理的路徑** 選項，忽略資料夾以進行後續處理。
+1. 選取&#x200B;**Post處理的已忽略路徑**&#x200B;選項，以忽略後續處理的資料夾。
 
-   字串值，用來設定任何標準NODE_OPTIONS（多值屬性，帶有忽略路徑的字串） `/` 在結尾)
+   用於設定任何標準NODE_OPTIONS的字串值（多值屬性，路徑結尾省略`/`的字串）
 
    **預設值**： `/content/dam/projects/translation_output`
 
@@ -42,9 +42,9 @@ ht-degree: 0%
    >
    > 此屬性預設為停用，且地圖控制面板上提供翻譯標籤。
 
-1. 選取 **啟用後處理的路徑** 選項，啟用後續處理的路徑。
+1. 選取&#x200B;**啟用Post處理的路徑**&#x200B;選項，以啟用後續處理的路徑。
 
-   字串值，用來設定任何標準NODE_OPTIONS（多值屬性，帶有忽略路徑的字串） `/` 在結尾)
+   用於設定任何標準NODE_OPTIONS的字串值（多值屬性，路徑結尾省略`/`的字串）
 
    **預設值**： `/content/dam/`
 

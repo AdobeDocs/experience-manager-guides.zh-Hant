@@ -1,23 +1,23 @@
 ---
 title: 針對特定使用者或群組，在資料夾快顯功能表選項中隱藏建立DitaMap選項。
 description: 瞭解如何透過隱藏特定使用者/群組的資料夾快顯選單中的「DitaMap」選項來自訂編輯器
-source-git-commit: ea8fb646287f68676b6530b4cc5f56e7ba2d9b0c
+exl-id: 796bfe3a-3950-4ade-9215-c33534791055
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
-
 # 在編輯器中從資料夾內容選單顯示/隱藏「建立DitaMAP」
 
 在本文中，我們將瞭解如何根據使用者/群組許可權，自訂Guides網頁編輯器，以隱藏或顯示檔案夾快顯選單中的「建立DitaMap」選項。
 在此使用案例中，我們將為所有非作者使用者隱藏此選項。
 
-## 先決條件
+## 必要條件
 
 我們將運用AEM Guides擴充功能套件，該套件可讓您根據自己的需求自訂應用程式的UI。
-請詳閱以下內容 [檔案](https://github.com/adobe/guides-extension/tree/main) 以深入瞭解Guides擴充功能框架的運作方式。
+請參閱此[檔案](https://github.com/adobe/guides-extension/tree/main)，深入瞭解Guides擴充功能架構的運作方式。
 
 現在開始瞭解如何自訂資料夾快顯功能表，以針對所有非作者使用者隱藏此選項。
 
@@ -60,7 +60,7 @@ const folderOptions = {
 };
 ```
 
-- **建立新Widget以處理邏輯**
+- **建立新的Widget以處理邏輯**
 
   需要建立新的Widget (customoptions.ts)來寫入邏輯，以僅針對非編寫使用者隱藏此選項。 為此，我們使用了「show」鍵，作為JSON結構中的切換。
 
@@ -113,7 +113,7 @@ controller: {
   },
 ```
 
-- **新增自訂程式碼**
+- **正在新增自訂程式碼**
 
   將folder_options.ts和customoptions.ts匯入/src下的index.ts檔案中。
 
@@ -126,13 +126,13 @@ controller: {
 
 ### 相關資源
 
-- **Extension Framework基本存放庫** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **擴充框架基本存放庫** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **檔案** - [在Experience League上](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **檔案** - [Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **記錄常見的使用案例** - [在Experience League上](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **在Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)上記錄常見的使用案例** - [
 
-- **有範例的公共存放庫** - [在GIT上](https://github.com/adobe/guides-extension/tree/sc-expert-session). 請參閱分支sc-expert-session
+- 在GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)上有&#x200B;**公開存放庫（含樣本）** - [。 請參閱分支sc-expert-session
 
 ```
 

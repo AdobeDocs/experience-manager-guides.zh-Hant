@@ -17,13 +17,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如需如何在AEM中設定作者與發佈例項的詳細資訊，請參閱 [製作與發佈架構概覽](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> 如需有關如何在AEM中設定作者與發佈執行個體的詳細資訊，請參閱[作者與Publish架構概覽](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)。
 
-透過AEM Guides的大量啟用功能，您可以輕鬆快速地啟用從製作到發佈執行個體的內容。 大量啟動功能可讓您靈活地：
+透過AEM Guides的大量啟動功能，您可以快速輕鬆地啟動從製作到發佈執行個體的內容。 大量啟動功能可讓您靈活地：
 
 - 新增一或多個對應\（至對應集合\）至單一啟動工作
 
-- 選取一或多個您要發佈的輸出預設集。 您可以新增AEM Site、PDF、原生PDF、HTML5、自訂和JSON輸出預設集。
+- 選取一或多個您要發佈的輸出預設集。 您可以新增AEM網站、PDF、原生PDF、HTML5、自訂和
+JSON輸出預設集。
 
 
 - 定義必須啟動輸出的地區設定
@@ -40,4 +41,4 @@ ht-degree: 0%
 - **[刪除大量啟用地圖集合](conf-bulk-activation-delete-map-collection.md)**
 
 
-**父級主題：**[&#x200B;產生輸出](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)

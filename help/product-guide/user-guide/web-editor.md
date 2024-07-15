@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 使用網頁編輯器 {#id181OD0QE05Z}
 
-AEM Guides隨附易於使用的網頁編輯器，可用來建立和編輯結構化檔案。 編輯器會隱藏DITA結構的所有複雜程度，不讓編寫器看到。 編輯器會提供使用者通常需要在檔案中工作的DITA元素清單。
+AEM Guides隨附易於使用的網頁型網頁編輯器，可建立及編輯結構化檔案。 編輯器會隱藏DITA結構的所有複雜程度，不讓編寫器看到。 編輯器會提供使用者通常需要在檔案中工作的DITA元素清單。
 
 此外，Web編輯器具有DITA感知功能，並支援DITA 1.3、1.2標準、輕量DITA以及專用的DITA。 這表示不允許您將元素放置在不符合DITA標準的位置。 網頁編輯器也可讓您使用最常用的區塊和行內元素。
 
@@ -23,9 +23,9 @@ AEM Guides隨附易於使用的網頁編輯器，可用來建立和編輯結構�
 
 - **[瞭解網頁編輯器功能](web-editor-features.md)**
 
-- **[網頁編輯器中的鍵盤快速鍵](web-editor-keyboard-shortcuts.md)**
+- 網頁編輯器中的&#x200B;**[鍵盤快速鍵](web-editor-keyboard-shortcuts.md)**
 
-- **[網頁編輯器中的其他功能](web-editor-other-features.md)**
+- 網頁編輯器中的&#x200B;**[其他功能](web-editor-other-features.md)**
 
 - **[網頁編輯器檢視](web-editor-views.md)**
 
@@ -33,13 +33,13 @@ AEM Guides隨附易於使用的網頁編輯器，可用來建立和編輯結構�
 
 - **[管理全域和資料夾設定檔輸出預設集](web-editor-manage-output-presets.md)**
 
-- **[從網頁編輯器以文章為基礎的發佈](web-editor-article-publishing.md)**
+- 從網頁編輯器&#x200B;**[以文章為基礎的發佈](web-editor-article-publishing.md)**
 
-- **[使用快速產生面板來產生和檢視輸出](web-editor-quick-generate-panel.md)**
+- **[使用「快速產生」面板來產生和檢視輸出](web-editor-quick-generate-panel.md)**
 
 - **[從網頁編輯器翻譯檔案](translate-documents-web-editor.md)**
 
-- **[從Web編輯器建立和管理基準線](web-editor-baseline.md)**
+- **[從網頁編輯器建立和管理基準線](web-editor-baseline.md)**
 
 - **[檔案狀態](web-editor-document-states.md)**
 

@@ -18,6 +18,6 @@ ht-degree: 0%
 
 - **[根據UUID設定自動檔案名稱](conf-auto-uuid-filenames.md)**
 
-- **[設定Regx以取得有效的檔案名稱字元](conf-file-names-valid-regx.md)**
+- **[設定有效檔案名稱字元的Regx](conf-file-names-valid-regx.md)**
 
-- **[設定AEM Site輸出的有效檔案名稱](conf-file-names-valid-regx-aem-site-output.md)**
+- **[設定AEM站台輸出的有效檔案名稱](conf-file-names-valid-regx-aem-site-output.md)**

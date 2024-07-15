@@ -28,7 +28,7 @@ AEM Guides內建的PDF發佈引擎讓使用者能以PDF格式建立、開發和�
 - **日期** - 2023年2月23日
 - **出席者人數** - 135
 - **持續時間** - 60分鐘
-- **對象**  — 客戶、合作夥伴和Adobe員工
+- **對象** — 客戶、合作夥伴和Adobe員工
 
 ## 關鍵重點
 
@@ -41,18 +41,18 @@ AEM Guides內建的PDF發佈引擎讓使用者能以PDF格式建立、開發和�
 
 ## 相關資源
 
-- **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能影片** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **使用手冊** - [原生PDF發佈](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **社群論壇**  — 如需Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社群論壇** — 若為Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 >[!NOTE]
 >
-> 此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
+> 此工作階段中顯示的功能適用於下列AEM Guides版本：
 > - 內部部署4.2或更新版本
 > - Cloud Service 2211和更新版本
 
 ## 聯絡我們
 
-如有任何疑問，請傳送電子郵件至 <techcomm@adobe.com>
+若有任何疑問，請傳送電子郵件至<techcomm@adobe.com>

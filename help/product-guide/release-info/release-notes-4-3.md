@@ -13,28 +13,29 @@ ht-degree: 1%
 
 # Adobe Experience Manager Guides 4.3.0版（2023年7月）
 
-此發行說明涵蓋升級指示、相容性矩陣，以及Adobe Experience Manager Guides 4.3.0版修正的問題(以下稱 *AEM指南*)。
+此發行說明涵蓋升級指示、相容性矩陣，以及Adobe Experience Manager Guides 4.3.0版(後來稱為&#x200B;*AEM Guides*)中修正的問題。
 
-如需新功能和增強功能的詳細資訊，請參閱 [Adobe Experience Manager Guides 4.3.0版的新增功能](./whats-new-4-3-release.md).
+如需新功能和增強功能的詳細資訊，請參閱[Adobe Experience Manager Guides 4.3.0版的新增功能](./whats-new-4-3-release.md)。
 
-## 升級至AEM Guides的4.3.0版
+## 升級至AEM Guides 4.3.0版
 
 
-您可以輕鬆地將目前版本的AEM Guides升級至4.3.0版。在繼續升級至AEM Guides 4.3.0版之前，您必須考慮以下幾點：您可以將目前的AEM Guides版本升級至4.3.0版
+您可以輕鬆地將您目前的AEM Guides版本升級至4.3.0版。在繼續升級至AEM Guides 4.3.0版之前，您必須先考量下列幾點：
+您可以將目前的AEM Guides版本升級至4.3.0版
 
 - 如果您是使用4.2或4.2.x版，則可以直接升級至4.3.0版。
 - 如果您使用的是4.1或4.1.x版，則必須先升級至4.2或4.2.x版，才能升級至4.3.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.0版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用的是3.8.5之前的版本，請參閱產品特定安裝指南中的升級AEM Guides區段。
+- 如果您使用的版本早於3.8.5，請參閱產品特定安裝指南中的升級AEM Guides區段。
 
 
 
 >[!NOTE]
 >
->您必須先安裝AEM Service Pack，才能升級AEM Guides版本。
+>升級AEM Guides版本前，您必須先安裝AEM Service Pack。
 
-如需詳細資訊，請參閱 [升級指示](../install-guide/upgrade-xml-documentation.md).
+如需詳細資訊，請參閱[升級指示](../install-guide/upgrade-xml-documentation.md)。
 
 ## 相容性矩陣
 
@@ -48,7 +49,7 @@ ht-degree: 1%
 **4.3.0 UUID**
 版本6.5 Service Pack 18、17、16、15或14
 
-如需詳細資訊，請參閱 *技術需求* 安裝與設定Adobe Experience Manager指南中的區段。
+如需詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides」指南中的&#x200B;*技術需求*&#x200B;一節。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -86,13 +87,13 @@ ht-degree: 1%
 - 內嵌/顯示屬性不會顯示在網頁編輯器的「版面」檢視中。 (12498)
 - 全域設定檔UI設定與資料夾設定檔不相符。 (11970)
 - 複製和貼上DITA檔案時，內容參照會損毀。 (11959)
-- 安裝AEM Guides後即無法在欄檢視中編輯內容片段。 (7342)
+- 安裝AEM Guides後無法編輯欄檢視中的內容片段。 (7342)
 - 當未包裝的xref位於子元素標籤下時，內容會遺失。 (12532)
 - 從右側面板的「檔案」屬性將dostate變更為「結束狀態」時，核准工作流程無法運作。 (11026)
 - 資產UI | 在「清單」檢視中，無法合併覆蓋的可用欄。 (11528)
 - 地圖檢視中未解析Keyref。 (11490)
 - 透過XML編輯器導覽時，未顯示最上方選單。 (10868)
-- `conref` 在ph標籤中 | 顯示的瀏覽對話方塊不正確。 (9481)
+- `conref`在ph標籤中 | 顯示的瀏覽對話方塊不正確。 (9481)
 - 指向其他元素的本機連結不會在網頁編輯器中解析。 (8790)
 - Matches()函式在schematron功能中無法運作。 (11224)
 
@@ -100,7 +101,7 @@ ht-degree: 1%
 
 ### 管理
 
-- DITA map中繼資料屬性中的「標題」欄位會由覆寫 `<title>` 對應元素。 (10702)
+- DITA map中繼資料屬性中的&quot;title&quot;欄位被地圖的`<title>`元素覆寫。 (10702)
 - 當嘗試開啟或更新基準線中的主題版本時，「從伺服器擷取資訊」載入器會無限期執行。(12478)
 
 
@@ -115,12 +116,12 @@ ht-degree: 1%
 - 原生PDF | 無法在產生的PDF中設定語言中繼資料以符合WCAG 2.0。 (12407)
 - 從Pod讀取可能已重新整理或重新啟動的暫存檔時，發佈至AEM網站失敗。 (12113)
 - 原生PDF | 自訂屬性不會傳播至暫時HTML或PDF引擎。 (DXML-12005)
-- 原生PDF | 發佈大型內容時發生Java OutOfMemoryError。 (11789)
+- 原生PDF |  發佈大型內容時發生Java OutOfMemoryError。 (11789)
 - 原生PDF | Xref正在列印href主題標題的內容而非Xref標籤。 (11322)
 - 原生PDF | 無法儲存PDF範本設定。 (10751)
 - 原生PDF | 文字延伸超過欄寬，包括多個xref。 (10876)
-- 原生PDF | `<note>``</note>` 元素不會產生其型別的額外範圍標題。 (10549)
-- JSON輸出 | 此 `fmUuid` JSON的jcr：content節點上的屬性與JSON內的「id」不同。 (11564)
+- 原生PDF | `<note>``</note>`元素沒有產生其型別的額外範圍標題。 (10549)
+- JSON輸出 | JSON的jcr：content節點上的`fmUuid`屬性與JSON內的「id」不同。 (11564)
 - JSON輸出 | 如果存在具有相同檔案名稱的對映和主題，則會移除該對映的JSON。 (11524)
 
 ## 已知問題
@@ -129,12 +130,13 @@ Adobe已發現AEM Guides 4.3.0版的下列已知問題：
 
 - 基本範本中定義的通用頁面配置未套用為預設範本。
 
-  解決方法：新增通用頁面版面作為封底和封面，然後它會開始出現每個頁面。
+  因應措施：
+新增通用頁面版面作為封面和封面，然後它會開始出現每個頁面。
 - 在AEM Service Pack 16或17的AEM網站輸出頁面中搜尋時，網站搜尋會發生問題。
 
   因應措施：
 
-   1. 開啟檔案，路徑為： `/libs/foundation/components/search/search.jsp` 在 `crx/de`
+   1. 在`crx/de`中開啟路徑為`/libs/foundation/components/search/search.jsp`的檔案
    1. 將行號234取代為下列代碼：
 
       ```

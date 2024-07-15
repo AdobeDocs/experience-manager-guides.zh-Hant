@@ -1,5 +1,5 @@
 ---
-title: 原生PDF發佈功能 | 在註腳中使用自訂樣式
+title: 原生PDFPublish功能 | 在註腳中使用自訂樣式
 description: 瞭解如何在註腳中的數字上套用樣式。
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
@@ -31,8 +31,8 @@ ht-degree: 0%
 
 使用給定的範例，在註腳呼叫和標籤之前和之後新增括弧：
 
-* 使用以下專案中的內容屬性，新增前置詞「（」及後置詞「）」： `footnote-call` 樣式，這會在主題內容的註腳數字兩側加上括弧。
-* 使用以下專案中的內容屬性，新增前置詞「（」及後置詞「）」： `footnote-marker` 樣式，這會在頁面底部的註腳數字周圍加上括弧。
+* 在`footnote-call`樣式中使用content屬性來新增前置詞「（」與後置詞「）」，這會在主題內容的註腳數字周圍加上括弧。
+* 在`footnote-marker`樣式中使用content屬性來新增前置詞「（」與後置詞「）」，這會在頁面底部的註腳數字周圍加上括弧。
 
 ```css
 ...
@@ -51,7 +51,7 @@ content: "(" counter(footnote, decimal) ")";
 
 <img src="./assets/pdf-output-footer-numbers.png" alt="PDF輸出中的頁尾" width="500" border="2px">
 
-*在註腳呼叫和註腳標籤周圍新增括弧。*
+*在註腳呼叫和註腳標籤周圍加上括弧。*
 
 **範例2**：
 
@@ -71,11 +71,12 @@ content: "(" counter(footnote, decimal) ")";
 
 <img src="./assets/footnote-number-2.png" alt="PDF輸出中的頁尾" width="500" border="2px">
 
-*在註腳呼叫和標籤中新增星號。*
+*將星號加入註腳呼叫和標籤。*
 
 ## 隱藏註腳呼叫
 
-您也可以將樣式套用至具有特定屬性的註腳呼叫。 例如，使用下列樣式來隱藏具有ID的註腳：註腳呼叫會隱藏在主要內容中，但註腳標籤會出現在頁面底部。
+您也可以將樣式套用至具有特定屬性的註腳呼叫。 例如，使用以下樣式來隱藏具有ID的註腳：
+註腳呼叫會隱藏在主要內容中，但註腳標籤會出現在頁面底部。
 
 ```css
 .fn[id]::footnote-call {
@@ -92,7 +93,7 @@ content: "(" counter(footnote, decimal) ")";
 
 您可以使用頁面配置圖中的頁面屬性，來設定PDF檔案中不同區段的註腳區域樣式。 例如，您可以指定章節中註腳區域的邊界和邊框間距屬性。 您也可以變更邊框側、樣式、顏色、寬度和半徑。
 
-瞭解如何 [使用頁面配置的頁面屬性](./design-page-layout.md#page-props-page-layout).
+瞭解如何[使用頁面配置](./design-page-layout.md#page-props-page-layout)的頁面屬性。
 
 ### CSS樣式
 
@@ -115,7 +116,7 @@ content: "(" counter(footnote, decimal) ")";
 
 ### 頁面配置
 
-您可以在版面配置中指定一個數字，以重新啟動PDF檔案中不同區段的註腳編號。 例如，從 **重新開始編號** 「頁面屬性」面板中的欄位，以重新啟動每個章節的註腳編號。
+您可以在版面配置中指定一個數字，以重新啟動PDF檔案中不同區段的註腳編號。 例如，在「頁面屬性」面板中，從&#x200B;**從**&#x200B;重新開始編號欄位中選取一個編號，以重新開始每個章節的註腳編號。
 
 ### CSS樣式
 

@@ -4,7 +4,8 @@ description: 在 PDF 輸出和輸出範本中使用變數
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 0%
@@ -26,23 +27,23 @@ ht-degree: 0%
 *建立變數並定義其值。*
 
 
-1. 在網頁編輯器中，前往 **輸出** 標籤。
-1. 選取 **變數** <img alt= "變數圖示" src="./assets/variables-icon.svg" width="25"> 在左側面板中。
-1. 選取 **編輯** <img alt= "編輯鉛筆圖示" src="./assets/edit_pencil_icon.svg" width="25"> 以開啟 **變數** 編輯者。
+1. 在Web編輯器中，移至&#x200B;**輸出**&#x200B;標籤。
+1. 選取&#x200B;**變數** 左側面板中的<img alt= "變數圖示" src="./assets/variables-icon.svg" width="25">。
+1. 選取&#x200B;**編輯** <img alt= "編輯鉛筆圖示" src="./assets/edit_pencil_icon.svg" width="25">以開啟&#x200B;**變數**編輯器。
 變數按字母順序列出。
 1. 在名稱&#x200B;**列**&#x200B;中輸入變數名稱，在值&#x200B;**列中**&#x200B;輸入其值。
    >[!TIP]
    >
-   >您可以使用任何HTML內容作為變數值，以特定格式顯示變數值。 例如，您可以新增 `<b>` 標籤來顯示變數值 **Experience Manager指南** 粗體。 您也可以從存放庫將影像新增為值。
+   >您可以使用任何HTML內容作為變數值，以特定格式顯示變數值。 例如，您可以新增`<b>`標籤至變數值，以粗體顯示值&#x200B;**Experience Manager Guides**。 您也可以從存放庫將影像新增為值。
 
-1. 選取 **新增變數** <img alt= "「新增」圖示" src="./assets/add-icon.svg" width="25"> 以新增變數。 您無法建立與現有變數同名的變數。 顯示錯誤。
+1. 選取&#x200B;**新增變數** <img alt= "「新增」圖示" src="./assets/add-icon.svg" width="25">以新增變數。 您無法建立與現有變數同名的變數。 顯示錯誤。
 
    >[!NOTE]
    >
-   >如果您未選取 **新增變數** <img alt= "「新增」圖示" src="./assets/add-icon.svg" width="25">，不會建立變數並將其新增至清單中。
+   >如果您未選取&#x200B;**新增變數** <img alt= "「新增」圖示" src="./assets/add-icon.svg" width="25">，未建立變數並將其新增至清單。
 
 如此一來，您便可建立具有預設值的變數。 例如：
-* ProductName：Experience Manager指南
+* 產品名稱：Experience Manager Guides
 * 版本號碼：2300
 * 發行日期： 2023年1月1日
 
@@ -51,17 +52,17 @@ ht-degree: 0%
 
 編輯變數有兩個方法：
 
-**從左側的「變數」面板**
+**從左側的[變數]面板**
 
-1. 在中選取變數 **變數** 面板。
-1. 將滑鼠指標暫留在變數上以檢視 **選項** 功能表，然後選取 **編輯** 選項。
-1. 在 **編輯變數** 對話方塊中，您可以編輯所選變數的預設值。
+1. 在&#x200B;**變數**&#x200B;面板中選取變數。
+1. 將滑鼠停留在變數上以檢視&#x200B;**選項**&#x200B;功能表，然後選取&#x200B;**編輯**&#x200B;選項。
+1. 在&#x200B;**編輯變數**&#x200B;對話方塊中，您可以編輯所選變數的預設值。
 1. 按一下&#x200B;**「完成」**。
 
-**從變數編輯器**
+**來自變數編輯器**
 
-1. 選取 **變數** <img alt= "變數圖示" src="./assets/variables-icon.svg" width="25"> 在左側面板中。
-1. 選取 **編輯** <img alt= "編輯鉛筆圖示" src="./assets/edit_pencil_icon.svg" width="25"> 以打開 **“變數”** 編輯者。
+1. 選取&#x200B;**變數** 左側面板中的<img alt= "變數圖示" src="./assets/variables-icon.svg" width="25">。
+1. 選取&#x200B;**編輯** <img alt= "編輯鉛筆圖示" src="./assets/edit_pencil_icon.svg" width="25"> 以打開 **“變數”** 編輯者。
 
 1. **在「變數**」編輯者中，您可以编辑所选變數的值。
 
@@ -73,25 +74,25 @@ ht-degree: 0%
 
 ### Search並預覽變數
 
-您可以搜尋及預覽變數的值。 在的搜尋方塊中輸入字串 **變數** 面板。 它會根據變數名稱及其值來搜尋。
+您可以搜尋及預覽變數的值。 在&#x200B;**變數**面板的搜尋方塊中輸入字串。 它會根據變數名稱及其值來搜尋。
 您可以透過兩種方式預覽變數：
 
 變數的預覽會顯示預設值。 例如，如果您已將ProductName變數的預設值定義為「Adobe Experience Manager Guides」，它會在預覽中顯示此值。
 
-**從左側的「變數」面板**
+**從左側的[變數]面板**
 
 
-1. 在中選取變數 **變數** 面板。
-1. 將滑鼠指標暫留在變數上以檢視 **選項** 功能表，然後選取 **預覽** 選項。
+1. 在&#x200B;**變數**&#x200B;面板中選取變數。
+1. 將滑鼠停留在變數上以檢視&#x200B;**選項**&#x200B;功能表，然後選取&#x200B;**預覽**&#x200B;選項。
 
-![變數面板中的變數預覽](assets/variables-panel-preview-default.png){width="550" align="left"}
+從變數面板預覽![變數](assets/variables-panel-preview-default.png){width="550" align="left"}
 
 *預覽變數的預設值。*
 
-**從變數編輯器**
+**來自變數編輯器**
 
-1. 將滑鼠指標暫留在清單中的變數上，以檢視 **選項** 功能表。
-1. 選取 **預覽**.
+1. 將滑鼠停留在清單中的變數上以檢視&#x200B;**選項**&#x200B;功能表。
+1. 選取&#x200B;**預覽**。
 
 
 
@@ -104,21 +105,21 @@ ht-degree: 0%
 1. 將滑鼠懸停在清單中的變數上以視圖 **選項** 功能表。
 1. 選擇 **複製**。
 
-變數的預設名稱為 `<selected variable name>` （例如「範例」）。 您可以根據自己的需求變更名稱。
+變數的預設名稱為`<selected variable name>` （如「範例」）。 您可以根據自己的需求變更名稱。
 
 ### 刪除變數
 
 您可以透過兩種方式刪除變數：
 
-**從左側的「變數」面板**
+**從左側的[變數]面板**
 
-1. 在中選取變數 **變數** 面板。
-1. 將滑鼠指標暫留在變數上以檢視 **選項** 功能表，然後選取 **刪除** 選項。
+1. 在&#x200B;**變數**&#x200B;面板中選取變數。
+1. 將滑鼠停留在變數上以檢視&#x200B;**選項**&#x200B;功能表，然後選取&#x200B;**刪除**&#x200B;選項。
 
-**從變數編輯器**
+**來自變數編輯器**
 
-1. 將滑鼠指標暫留在清單中的變數上，以檢視 **選項** 功能表。
-1. 選取 **刪除** 選項。
+1. 將滑鼠停留在清單中的變數上以檢視&#x200B;**選項**&#x200B;功能表。
+1. 選取&#x200B;**刪除**&#x200B;選項。
 
 變數會從所有變數集中刪除。
 
@@ -132,19 +133,19 @@ Adobe Experience Manager指南還支援變數集，使您可以為變數指定�
 
 
 
-1. 選取 **設定** <img alt= "設定圖示" src="./assets/settings-icon.svg" width="25"> 以開啟 **設定變數集** 對話方塊。
+1. 選取&#x200B;**設定** <img alt= "設定圖示" src="./assets/settings-icon.svg" width="25">以開啟&#x200B;**設定變數集**對話方塊。
    ![設定變數集](assets/configure-variable-set.png){width="550" align="left"}
-1. 在中輸入變數集名稱 **名稱** 欄。
-1. 選取 **新增變數** <img alt= "「新增」圖示" src="./assets/add-icon.svg" width="25"> 以新增變數集。 變數集會依字母順序列出。
-1. 您可以選取 **刪除** 以移除變數集。
+1. 在&#x200B;**Name**&#x200B;欄中輸入變數集名稱。
+1. 選取&#x200B;**新增變數** <img alt= "「新增」圖示" src="./assets/add-icon.svg" width="25">以新增變數集。 變數集會依字母順序列出。
+1. 您可以選取&#x200B;**刪除**&#x200B;以移除變數集。
 
 ### 變數集作業
 
 所有變數集都具有相同的變數，但可能有不同的值。
 
-您可以檢視、編輯和預覽特定變數集的值。 從以下專案選取變數集： **變數集** 下拉式清單。 值會根據所選變數集而顯示。
+您可以檢視、編輯和預覽特定變數集的值。 從&#x200B;**變數集**下拉式清單中選取變數集。 值會根據所選變數集而顯示。
 當您編輯特定變數集中的變數值時，它會覆寫預設值並變更所選變數集的值。
-例如，您可以為變數集設定下列值， *Adobe集1* 和 *Adobe集2* .
+例如，您可以為變數集設定下列值，*Adobe集1*&#x200B;和&#x200B;*Adobe集2*。
 
 
 **變數集1**： *Adobe集1*
@@ -163,16 +164,16 @@ Adobe Experience Manager指南還支援變數集，使您可以為變數指定�
 每個新變數都會新增至所有變數集。 當您刪除或複製變數時，將會為所有變數集更新。
 
 您也可以預覽變數集的值。
-例如，針對變數集 *Adobe集1*，您已將ProductName變數的值定義為「ProductA」，它便會在變數編輯器的預覽中顯示此值。
+例如，針對變數集*Adobe集1*，您已將ProductName變數的值定義為「ProductA」，然後在「變數」編輯器的預覽中顯示此值。
 
-![從變數編輯器預覽變數](assets/variables-editor-preview.png){width="550" align="left"}
+從變數編輯器預覽![變數](assets/variables-editor-preview.png){width="550" align="left"}
 
-*預覽您在所選變數集中定義的值。*
+*預覽您在選取的變數集中定義的值。*
 
 ### 重設變數的值
 
 如果您已編輯值，您也可以將變數重設為預設值。
-重設 <img alt= "重設圖示" src="./assets/application-variable-revert.svg" width="25"> 會針對值已變更的變數顯示。
+重設 針對具有變更值的變數顯示<img alt= "重設圖示" src="./assets/application-variable-revert.svg" width="25">。
 例如，您可以將ProductName變數的值重設為預設值Experience Manager Guides。
 
 ## 在原生PDF範本中使用變數
@@ -186,7 +187,7 @@ Adobe Experience Manager指南還支援變數集，使您可以為變數指定�
 
    >[!NOTE]
    >
-   > 檢視 [自訂頁面配置](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) 區段，用於開啟頁面版面以進行自訂或編輯。
+   > 檢視[自訂頁面配置](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout)區段，以開啟頁面配置以供自訂或編輯。
 
 1. 選取標頭，將其設為使用中以插入變數。
 
@@ -198,15 +199,15 @@ Adobe Experience Manager指南還支援變數集，使您可以為變數指定�
 
    **從工具列**
 
-   1. 選取 **插入變數/欄位** <img alt= "變數圖示" src="./assets/variables-icon.svg" width="25">。
-   1. 在 **變數** 對話方塊中，選取變數的名稱，將其插入標頭區域。
+   1. 選取&#x200B;**插入變數/欄位** <img alt= "變數圖示" src="./assets/variables-icon.svg" width="25">。
+   1. 在&#x200B;**變數**&#x200B;對話方塊中，選取變數的名稱，將其插入標頭區域。
    1. 您也可以在文字方塊中輸入搜尋字串。 包含指定字串的變數名稱會經過篩選，並顯示在清單中。 選取的變數會插入頁首區域中。 您可以檢視變數的預設值。
-   1. 若要取代變數，請連按兩下變數值，然後從 **變數** 對話方塊。 變數會遭取代。
+   1. 若要取代變數，請連按兩下變數值，然後從&#x200B;**變數**&#x200B;對話方塊中選取另一個變數。 變數會遭取代。
 
 
 ## 使用變數產生PDF輸出
 
-您可以使用不同變數的值來產生PDF輸出。 在產生版面之前，請從輸出預設集中選擇變數集 **變數集** 下拉式清單以挑選其值。
+您可以使用不同變數的值來產生PDF輸出。 產生版面之前，請從輸出預設集的&#x200B;**變數集**&#x200B;下拉式清單中選擇變數集以挑選其值。
 
 ![變數集下拉式清單](assets/output-preset-variable-dropdown.png){width="550" align="left"}
 
@@ -216,7 +217,7 @@ Adobe Experience Manager指南還支援變數集，使您可以為變數指定�
 >
 > 您也可以從下拉功能表中選擇 （預設） 以發佈所有變數的預設值。
 
-根據您選擇的變數集，您將會取得與變數集中定義的變數值相對應的輸出。 例如，如果您選取變數集 *Adobe集1*，您的輸出會顯示此集中定義的變數值。
+根據您選擇的變數集，您將會取得與變數集中定義的變數值相對應的輸出。 例如，如果您選取變數集&#x200B;*Adobe集1*，您的輸出會顯示此集中定義的變數值。
 
 
 <img src="assets/variable-pdf-output.png" alt="使用變數PDF輸出" width="500" border="2px">
@@ -224,5 +225,3 @@ Adobe Experience Manager指南還支援變數集，使您可以為變數指定�
 *使用頁面配置中的變數產生PDF輸出。*
 
 您也可以在需要時快速更新任何變數集的值，並重新產生輸出。 例如，如果您需要更新版本的詳細資訊，可以在VersionNumber變數中更新版本的值並重新產生輸出。
-
-

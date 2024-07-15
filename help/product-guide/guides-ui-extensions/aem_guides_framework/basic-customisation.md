@@ -39,13 +39,13 @@ const value = this.getValue("key")
 ## 檢視
 
 此檢視會定義應用程式的UI。 我們使用JSON檔案來定義檔案的檢視。 在此，我們會定義元件和css （如元件外部範例中所提供），並轉譯儲存在模型中的值。
-在我們的應用程式中，每個檢視都是使用JSON來定義。 JSON是使用稱為的唯一ID來參照 `id`.
+在我們的應用程式中，每個檢視都是使用JSON來定義。 JSON是使用稱為`id`的唯一ID來參照。
 
 ## 控制器
 
 控制器是用來處理事件及處理資料。 控制器是用來從伺服器擷取及傳送資料，是UI上顯示與儲存在後端之間的介面。
 
-- 若要在初始化時設定值，我們使用 `init` 函式。
+- 若要在初始化時設定值，請使用`init`函式。
 - 若要將方法新增至控制器，請使用下列語法：
 
 ```typescript
@@ -54,7 +54,7 @@ methodName: function(args){
 }
 ```
 
-此 `methodName` 這裡將用作 `key` 以參照JSON （檢視）或其他函式中的方法
+這裡的`methodName`用作`key`，參考JSON （檢視）或其他函式中的方法
 
 - 若要呼叫控制器中的方法，請使用語法
 
@@ -69,7 +69,7 @@ this.next('methodName', args)
 
 ### 檢視範例
 
-以下是我們為顯示儲存在模型中變數名稱下的動態文字的按鈕定義JSON `buttonLabel`.
+我們在下方定義按鈕的JSON，該按鈕會以變數名稱`buttonLabel`顯示儲存在模型中的動態文字。
 在此範例中，按一下按鈕會變更其標籤。
 
 ```JSON
@@ -83,7 +83,7 @@ this.next('methodName', args)
 
 ### 模型範例
 
-在這種情況下， `extraProps.buttonLabel` 保留按鈕的標籤
+在此情況下，`extraProps.buttonLabel`會保留按鈕的標籤
 
 ### 控制器範例
 

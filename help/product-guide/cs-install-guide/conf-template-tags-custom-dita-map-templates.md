@@ -14,19 +14,19 @@ ht-degree: 1%
 
 # 設定自訂DITA map範本 {#id1774F04F05Z}
 
-AEM Guides隨附兩個現成可用的地圖範本：DITA map和Bookmap。 您可以根據這些範本建立對映；或者，您可以定義自己的對映範本，然後使用這些範本建立新的對映。
+AEM Guides隨附兩個現成可用的地圖範本 — DITA map和Bookmap。 您可以根據這些範本建立對映；或者，您可以定義自己的對映範本，然後使用這些範本建立新的對映。
 
 執行以下步驟以新增自訂地圖範本：
 
 1. 以管理員身分登入Adobe Experience Manager。
 
-1. 在「資產」UI中，導覽至設定用來儲存對應範本檔案的資料夾。 依預設，所有對應範本都會儲存在/content/dam/dita-templates/maps資料夾中。
+1. 在Assets UI中，導覽至設定用來儲存地圖範本檔案的資料夾。 依預設，所有對應範本都會儲存在/content/dam/dita-templates/maps資料夾中。
 
    >[!NOTE]
    >
-   > 若要設定自訂位置以儲存主題或對應範本，請參閱 [設定自訂DITA範本資料夾路徑](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
+   > 若要設定自訂位置以儲存主題或對應範本，請參閱[設定自訂DITA範本資料夾路徑](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
 
-1. 按一下 **建立** \> **DITA範本**.
+1. 按一下&#x200B;**建立** \> **DITA範本**。
 
 1. 在Blueprint頁面上，選取您要建立的對映範本型別。
 
@@ -36,7 +36,7 @@ AEM Guides隨附兩個現成可用的地圖範本：DITA map和Bookmap。 您可
 
 1. 按一下「**下一步**」。
 
-1. 在新範本的「屬性」頁面上，輸入 **標題** 和 **名稱** 範本的。
+1. 在新範本[內容]頁面上，輸入範本的&#x200B;**Title**&#x200B;和&#x200B;**Name**。
 
    >[!NOTE]
    >
@@ -53,6 +53,6 @@ AEM Guides隨附兩個現成可用的地圖範本：DITA map和Bookmap。 您可
 
 >[!TIP]
 >
-> 另請參閱 *自訂範本* 最佳作法指南中的區段，以瞭解使用自訂地圖範本的最佳作法。
+> 如需使用自訂對應範本的最佳實務，請參閱「最佳實作指南」中的&#x200B;*自訂範本*&#x200B;區段。
 
-**父級主題：**[&#x200B;設定主題和對應範本](conf-template-tags.md)
+**父級主題：**[&#x200B;設定主題與對應範本](conf-template-tags.md)

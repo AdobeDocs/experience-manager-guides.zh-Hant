@@ -2,7 +2,8 @@
 title: Jui框架
 description: 瞭解Jui框架
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: c193cf90-5916-4d8c-88f1-be5014beca1c
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -19,7 +20,7 @@ ht-degree: 1%
 JUI是MVC架構，以React和AdobeReact Spectrum元件為基礎。 JUI是JSON使用者介面。 它包含多個Git存放庫。
 
 JUI-Core是核心程式庫，具有將JSON設定轉換為工作react元件的所有邏輯，並將其與相關控制器類別例項連結。
-JUI-React-Spectrum程式庫有AdobeReact Spectrum元件的包裝函式Widget
+JUI-React-Spectrum  程式庫有AdobeReact Spectrum元件的包裝函式小工具
 
 ## JUI核心設計
 

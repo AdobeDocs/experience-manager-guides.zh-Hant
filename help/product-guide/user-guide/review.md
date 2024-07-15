@@ -1,6 +1,6 @@
 ---
 title: 檢閱主題或地圖
-description: 在AEM Guides中有效率地檢閱主題或地圖，以順暢地評估內容。 瞭解AEM Guides中可供作者和檢閱者使用的功能。
+description: 在AEM Guides中有效率地檢閱主題或地圖，以順暢地評估內容。 瞭解AEM Guides中適用於作者和檢閱者的功能。
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 幾乎所有的技術檔案都需要經過多輪稽核。 在大多數情況下，稽核週期涉及多個稽核者。 對於作者來說，回應多個稽核者的意見總是很有挑戰性。 此外，在多重稽核者案例中，如果一個稽核者也可以看到其他稽核者所做的評論，那麼這個選項會很有幫助。
 
-AEM Guides提供的一些主要功能給 *初始器\（或作者\）* 為：
+AEM Guides提供給&#x200B;*啟動器\（或作者\）*&#x200B;的一些主要功能包括：
 
 - 為稽核工作流程建立DITA專案。
 - 在單一稽核任務中傳送一或多個要稽核的主題。
@@ -35,7 +35,7 @@ AEM Guides提供的一些主要功能給 *初始器\（或作者\）* 為：
 - 自動將\（已刪除或插入\）註解匯入共用供檢閱的主題版本。
 
 
-可供使用的功能 *檢閱者*：
+*檢閱者*&#x200B;可用的功能：
 
 - 取得共用供檢閱之主題的複合檢視。
 - 在複合檢視和個別主題檢視之間切換。
@@ -51,7 +51,7 @@ AEM Guides提供的一些主要功能給 *初始器\（或作者\）* 為：
 
 >[!NOTE]
 >
-> 請參閱 *檢閱* 最佳作法指南中有關建立稽核任務的最佳作法的區段。
+> 如需有關建立稽核任務的最佳實務，請參閱「最佳實務指南」中的&#x200B;*稽核*&#x200B;區段。
 
 - **[建立DITA專案](authoring-create-dita-project.md)**
 
@@ -61,6 +61,6 @@ AEM Guides提供的一些主要功能給 *初始器\（或作者\）* 為：
 
 - **[檢閱主題](review-topics.md)**
 
-- **[處理稽核意見](review-address-review-comments.md)**
+- **[地址稽核註解](review-address-review-comments.md)**
 
-- **[使用「稽核儀表板」管理稽核任務](review-manage-tasks-review-dashboard.md)**
+- **[使用檢閱儀表板管理檢閱工作](review-manage-tasks-review-dashboard.md)**

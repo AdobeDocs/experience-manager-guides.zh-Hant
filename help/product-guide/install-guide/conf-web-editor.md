@@ -34,11 +34,11 @@ AEM Guides隨附強大的網頁編輯器，可讓您的作者建立和編輯DITA
 
 - [設定允許的特殊字元](conf-special-chars.md)
 
-- [自動生成元素ID](auto-generate-ids.md)
+- [自動產生專案ID](auto-generate-ids.md)
 
 - [自訂AEM預設字典](customize-aem-custom-dictionary.md)
 
-- [設定文字篩選](config-text-filters.md)
+- [設定文字篩選器](config-text-filters.md)
 
 - [設定查詢的LimitReads數目](conf-query-limitreads.md)
 

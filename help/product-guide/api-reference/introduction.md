@@ -1,6 +1,6 @@
 ---
 title: 簡介
-description: AEM Guides的API參考指南簡介
+description: AEM Guides API參考指南簡介
 exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # 簡介 {#id1761C0007W7}
 
-Adobe Experience Manager Guides \(稍後稱為 *AEM指南*\)是端對端的企業解決方案，可讓Adobe Experience Manager \(AEM\)具備元件內容管理解決方案\(CCMS\)功能，以建立及傳遞DITA型內容。 客戶可以使用AEM Guides API以程式設計方式存取AEM Guides工作流程，以便將其與其他企業應用程式整合。 Adobe合作夥伴也可以使用這些API，透過擴充其功能或將其與其他應用程式或服務整合來增強AEM Guides的價值主張。
+Adobe Experience Manager Guides \(後來稱為&#x200B;*AEM Guides*\)是端對端的企業解決方案，可讓Adobe Experience Manager \(AEM\)擁有元件內容管理解決方案\(CCMS\)功能，以建立及傳遞DITA式內容。 客戶可以使用AEM Guides API以程式設計方式存取AEM Guides工作流程，以便將其與其他企業應用程式整合。 Adobe合作夥伴也可以使用這些API，透過擴充其功能或將其與其他應用程式或服務整合來增強AEM Guides的價值主張。
 
-## AEM Guides API
+## AEM GUIDES API
 
 AEM Guides API有兩種格式：HTTP和Java。 這些API向應用程式開發人員公開AEM Guides的主要功能。 使用這些函式，開發人員可以建立自己的外掛程式，以擴充現成的工作流程。 API可用於管理DITA內容的輸出、使用DITA map、將條件屬性加入資料夾層級設定檔，以及將HTML和Words檔案轉換為DITA格式。
 
@@ -42,13 +42,13 @@ AEM Guides API有兩種格式：HTTP和Java。 這些API向應用程式開發人
    >
    > 在上述命令中，X.x應該以Dfile和Dversion引數中的實際版本編號取代。
 
-4. \(*可選*\)在本機Maven專案的存放庫中安裝相依性。 您可以在Maven專案中建立資料夾，然後執行 `mvn install` 上一步驟中所給的指令搭配下列其他引數：
+4. \（*選擇性*\）在本機Maven專案的存放庫中安裝相依性。 您可以在Maven專案中建立資料夾，然後使用下列其他引數執行上一步驟中指定的`mvn install`命令來達成此目的：
 
    ```
    -DlocalRepositoryPath=<path_to_project_repository>
    ```
 
-   接下來，若要將專案的本機存放庫資料夾公開給Maven建置流程，請新增 `repository` 元素，如下所示：
+   接下來，若要將專案的本機存放庫資料夾公開給Maven建置程式，請在父pom.xml檔案中新增`repository`元素，如下所示：
 
    ```XML
    <repositories>
@@ -74,7 +74,7 @@ AEM Guides API有兩種格式：HTTP和Java。 這些API向應用程式開發人
 
    >[!IMPORTANT]
    >
-   > 在以下程式碼片段中，應將X.x取代為實際版本號碼和API JAR的檔案名稱。 此資訊將與 [安裝過程](#install-jar-local).
+   > 在以下程式碼片段中，應將X.x取代為實際版本號碼和API JAR的檔案名稱。 此資訊將與[安裝程式](#install-jar-local)的步驟3中所提供的資訊相同。
 
    ```XML
    <plugin>
@@ -171,7 +171,7 @@ AEM Guides API有兩種格式：HTTP和Java。 這些API向應用程式開發人
 
 執行以下步驟，在您的專案中設定和使用公用Maven存放庫中的服務API JAR：
 
-1. 若要在專案中使用服務API JAR，請在pom.xml檔案中設定AEM Guides公共Maven存放庫。
+1. 若要在專案中使用服務API JAR，請在pom.xml檔案中設定AEM Guides公用Maven存放庫。
 2. 依照以下步驟，在Maven的settings.xml檔案中設定公用Maven存放庫：
 
    ```XML
@@ -186,7 +186,7 @@ AEM Guides API有兩種格式：HTTP和Java。 這些API向應用程式開發人
 
    >[!NOTE]
    >
-   > 使用與您安裝在伺服器上的AEM Guides套件相同版本的API JAR。
+   > 使用與您在伺服器上安裝的AEM Guides套件相同版本的API JAR。
 
 4. 設定Maven相依性，如下所示：
 
@@ -199,7 +199,7 @@ AEM Guides API有兩種格式：HTTP和Java。 這些API向應用程式開發人
    ```
 
 
-一旦在專案的pom.xml檔案中將服務API JAR新增為專案相依性，您就可以在專案中建置和使用AEM Guides Java API。
+一旦在專案的pom.xml檔案中將服務API JAR新增為專案相依性，您即可在專案中建立並使用AEM Guides Java API。
 
 ## 使用AEM Guides的Maven中央存放庫中的API JARas a Cloud Service
 
@@ -225,7 +225,7 @@ AEM Guides API有兩種格式：HTTP和Java。 這些API向應用程式開發人
 
 ## 其他資源
 
-以下是AEM Guides的其他實用資源清單，這些資源位於 [學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 頁面：
+以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)頁面上取得：
 
 - 使用手冊
 - 安裝及設定指南

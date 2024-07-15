@@ -1,6 +1,6 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2022年4月發行
-description: Adobe Experience Manager Guidesas a Cloud Service於4月發行
+description: 4月發行的Adobe Experience Manager Guidesas a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service於4月發行
+# 4月發行的Adobe Experience Manager Guidesas a Cloud Service
 
 ## 升級至4月發行
 
-升級您目前的 [!DNL Adobe Experience Manager Guides] as a Cloud Service(稍後稱為 *[!DNL AEM Guides]as a Cloud Service*)進行設定，請執行以下步驟：
+執行下列步驟，升級您目前的[!DNL Adobe Experience Manager Guides]as a Cloud Service(稍後稱為&#x200B;*[!DNL AEM Guides]as a Cloud Service*)安裝程式：
 1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-1. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將Cloud Service Git程式碼的檔案設為2022.4.133。
-1. 提交變更並執行Cloud Service管道，以升級至4月版本的 [!DNL AEM Guides] as a Cloud Service。
+1. 將Cloud Service Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2022.4.133。
+1. 認可變更並執行Cloud Service管道，以升級至[!DNL AEM Guides]的4月版本as a Cloud Service。
 
 ## 相容性矩陣
 
-本節列出所支援軟體應用程式的相容性矩陣。 [!DNL AEM Guides] 2022年4月版本as a Cloud Service。
+本節列出[!DNL AEM Guides] 2022年4月as a Cloud Service版本支援之軟體應用程式的相容性矩陣。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 氧氣聯結器
 
-| AEM Guides雲端版 | 氧氣聯結器視窗 | 氧氣聯結器Mac |
+| AEM Guides Cloud版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac |
 | --- | --- | --- |
 | 2022.4.0 | 2.5.6 | 2.5.6 |
 |  |  |  |
@@ -57,15 +57,15 @@ DITA內容索引鍵參照會將部分內容從一個主題插入另一個主題�
 1. 地圖檢視面板
 1. 資料夾設定檔
 
-如需詳細資訊，請參閱 *解析關鍵參考* 區段。
+如需詳細資訊，請參閱使用手冊中的&#x200B;*解析金鑰參考*&#x200B;區段。
 
 ### 在左側面板中新增自訂面板
 
-現在您可以在網頁編輯器的左側面板中新增自訂面板。 您可以將自訂面板用於各種用途，例如提供說明或針對專案進行測試。 如果自訂面板已設定，則它也出現在內的面板清單中 **編輯器設定**. 您可以切換開關，以顯示或隱藏自訂面板。
+現在您可以在網頁編輯器的左側面板中新增自訂面板。 您可以將自訂面板用於各種用途，例如提供說明或針對專案進行測試。 如果已設定自訂面板，則它也會出現在&#x200B;**編輯器設定**&#x200B;內的面板清單中。 您可以切換開關，以顯示或隱藏自訂面板。
 
 ### 能夠變更DITA map中主題的檔案狀態
 
-現在您可以輕鬆地變更DITA map中選取主題的檔案狀態。 您也可以在DITA map中開啟及編輯所選主題的屬性，其來源為 **更多選項** 選單（位於地圖檢視面板底部）。
+現在您可以輕鬆地變更DITA map中選取主題的檔案狀態。 您也可以從「對映檢視」面板底部的&#x200B;**更多選項**&#x200B;功能表，開啟並編輯DITA map中選取主題的屬性。
 
 ![選取的主題屬性](assets/map-view-properties.png)
 
@@ -87,7 +87,7 @@ DITA內容索引鍵參照會將部分內容從一個主題插入另一個主題�
 * 在索引標籤的標題中使用任何關鍵字時會發生問題。 (9318)
 * 基線無法新增含有空格的標籤。 (9362)
 * AEM網站輸出未正確顯示glosusage元素。 (8936)
-* 開啟 **輸出** 索引標籤進行編輯。 (8715)
+* 在網頁編輯器中開啟&#x200B;**輸出**&#x200B;索引標籤時發生主控台錯誤。 (8715)
 * 透過Salesforce發佈手動記錄型別時顯示的錯誤訊息不是直覺式的。 (8952)
 * 使用條件屬性設定進行驗證不會立即開啟，而是使用者需要重新開啟檔案才能檢視驗證。 (9300)
 * 使用中繼資料發佈DITA map後，就無法移除中繼資料。  (9178)
@@ -100,7 +100,7 @@ DITA內容索引鍵參照會將部分內容從一個主題插入另一個主題�
 
 ## 已知問題
 
-Adobe已在中發現下列已知問題 [!DNL AEM Guides] 4月版本as a Cloud Service。
+Adobe已在[!DNL AEM Guides]as a Cloud Service四月版本中找出下列已知問題。
 
 * 當以相同名稱建立兩個或多個基準線，但兩者有空格或大小寫差異時，Web編輯器不會報告錯誤。 例如，「adobe」和「Adobe」或「Adobe」。
 * 執行頻繁登入或登出，或在不同驗證型別之間切換時，氧氣聯結器會斷斷續續地掛起。

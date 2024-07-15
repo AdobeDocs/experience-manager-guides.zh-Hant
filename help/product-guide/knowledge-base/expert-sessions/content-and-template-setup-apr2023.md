@@ -34,7 +34,7 @@ ht-degree: 1%
 - **日期** - 2023年4月27日
 - **出席者人數** - 70
 - **持續時間** - 60分鐘
-- **對象**  — 客戶、合作夥伴和Adobe員工
+- **對象** — 客戶、合作夥伴和Adobe員工
 
 
 ## 關鍵重點
@@ -51,25 +51,25 @@ ht-degree: 1%
 
 ## 相關資源
 
-- **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **功能影片** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
 - **使用手冊** - [作者內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **社群論壇**  — 如需Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社群論壇** — 若為Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 >[!NOTE]
 >
-> 此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
+> 此工作階段中顯示的功能適用於下列AEM Guides版本：
 > - 內部部署：4.2或更新版本
 > - Cloud Service： 2303或更新版本
 
 
 ## 下一次專家會議
 
-- **主題**  — 原生PDF發佈 — 透過範例學習（第1部分）
-- **排程日期** - 2023年6月01日
+- **主題** — 原生PDF發佈 — 以範例學習（第1部分）
+- **排程於** - 2023年6月1日
 
 
 ## 聯絡我們
 
-如有任何疑問，請傳送電子郵件至 <techcomm@adobe.com>
+若有任何疑問，請傳送電子郵件至<techcomm@adobe.com>

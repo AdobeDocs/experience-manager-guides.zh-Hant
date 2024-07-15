@@ -26,9 +26,9 @@ ht-degree: 1%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並選取 *com.adobe.fmdita.config.ConfigManager* 套件組合。
+1. 搜尋並選取&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;套件。
 
-1. 更新屬性 **原生pdf的Java命令列選項** (*native.pdf.java.opts*)，以傳遞任何標準JVM標幟。
+1. 更新原生pdf **(*native.pdf.java.opts*)的屬性** Java命令列選項，以傳遞任何標準JVM標幟。
 
 
 

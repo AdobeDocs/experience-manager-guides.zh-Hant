@@ -2,19 +2,19 @@
 title: 頂端列和工具列
 description: 自訂標題列和工具列
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 7065c9b8-67ac-4f6d-8124-daa547f2dc3b
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
-
 # 自訂標題列和工具列
 
-若要自訂 `topbar` 和 `toolbar`，我們會使用id： `topbar` 或 `toolbar`，並遵循相同的檢視、控制器結構。
+若要自訂`topbar`和`toolbar`，我們將使用ID： `topbar`或`toolbar`，並遵循相同的檢視、控制器結構。
 
-以下是工具列自訂的簡單範例。 在此，我們已移除 `Insert Numbered List` 按鈕，並取代 `Insert Paragraph` 按鈕搭配我們自己的元件，並使用自訂的點按處理常式。
+以下是工具列自訂的簡單範例。 我們已移除「`Insert Numbered List`」按鈕，並使用自訂的點按處理常式將「`Insert Paragraph`」按鈕取代為我們自己的元件。
 
 ```js title = toolbar_customisation.js
 const toolbarExtend = {

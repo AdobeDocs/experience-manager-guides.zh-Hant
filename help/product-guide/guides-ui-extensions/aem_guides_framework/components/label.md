@@ -2,7 +2,8 @@
 title: 標籤
 description: 標籤
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: aceefb08-3198-4c3a-90ec-ac1cdde28582
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 6%
@@ -12,7 +13,7 @@ ht-degree: 6%
 # 標籤
 
 若要顯示任何文字或字串，我們會使用元件label。
-JUI中的label元件代表html `<label/>`.
+JUI中的標籤元件代表html `<label/>`。
 
 以下是新增靜態標籤的範例
 

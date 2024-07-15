@@ -2,7 +2,8 @@
 title: 文字區域
 description: 文字區域
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 4c576acc-fa6a-4c41-9b92-443ba51dc8ee
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 3%
@@ -12,7 +13,7 @@ ht-degree: 3%
 # 文字欄位和文字區域
 
 若要以文字作為輸入，我們使用元件、文字欄位和文字區域。
-JUI中的文字區域元件代表html `<textarea/>`.
+JUI中的文字區域元件代表html `<textarea/>`。
 
 ```js title="textArea.js"
 const textAreaJSON =  {
@@ -30,9 +31,9 @@ const textAreaJSON =  {
 },
 ```
 
-此處， `on-keyup` 是叫用控制器中命令的語法。
-這會產生textArea，按下ENTER即可呼叫事件 `submitName`
+這裡，`on-keyup`是叫用控制器中命令的語法。
+這會產生textArea，按ENTER鍵會呼叫事件`submitName`
 
 演算後的文字區域看起來像這樣：
 
-![text-area](./imgs/text_area.png "文字區域")
+![文字區域](./imgs/text_area.png "文字區域")

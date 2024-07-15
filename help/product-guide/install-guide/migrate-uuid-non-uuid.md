@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 將內容移轉至UUID伺服器之前，請確定您有已安裝相容AEM Guides版本的非UUID伺服器。
+> 將內容移轉至UUID伺服器之前，請確定您有安裝了相容AEM Guides版本的非UUID伺服器。
 
 
 

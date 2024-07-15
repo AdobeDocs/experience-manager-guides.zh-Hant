@@ -26,13 +26,13 @@ ht-degree: 1%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;套件。
 
-1. 在 *XmlEditorConfig* 設定，選取 **自動儲存** 選項。
+1. 在&#x200B;*XmlEditorConfig*&#x200B;設定中，選取&#x200B;**自動儲存**&#x200B;選項。
 
-1. 在 **自動儲存間隔** 欄位中，指定觸發自動儲存功能的時間間隔（以秒為單位）。
+1. 在&#x200B;**自動儲存間隔**&#x200B;欄位中，指定觸發自動儲存功能的時間間隔（秒）。
 
 1. 按一下「**儲存**」。
 
 
-**父級主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

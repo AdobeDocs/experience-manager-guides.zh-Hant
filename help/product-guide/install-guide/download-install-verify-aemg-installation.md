@@ -24,15 +24,15 @@ ht-degree: 0%
 
    隨即顯示套件組合清單。
 
-1. 在篩選文字方塊中輸入fmdita並按，以篩選套件組合清單 **輸入**.
+1. 在篩選文字方塊中輸入fmdita並按&#x200B;**Enter**，以篩選組合清單。
 
-   套件組合清單會經過篩選，以顯示AEM Guides安裝的套件組合。 如果安裝成功，則所有已安裝的套件組合都會有 **狀態** 之 **作用中**.
+   套件組合清單會經過篩選，以顯示AEM Guides安裝的套件組合。 如果安裝成功，則所有安裝的套件組合都會有&#x200B;**使用中**&#x200B;的&#x200B;**狀態**。
 
-   如果任何套件組合沒有 **作用中** 狀態，然後檢查AEM記錄檔以疑難排解安裝問題。
+   如果任何套件組合的狀態不是&#x200B;**作用中**，請檢查AEM記錄檔以疑難排解安裝問題。
 
 
 >[!IMPORTANT]
 >
-> 您可以考慮許多效能最佳化建議，以提升系統效能。 另請參閱 [Recommendations的效能最佳化](download-install-recommend-perf-optimiz.md#) 以取得詳細資訊。
+> 您可以考慮許多效能最佳化建議，以提升系統效能。 如需詳細資訊，請參閱[Recommendations的效能最佳化](download-install-recommend-perf-optimiz.md#)。
 
-**父級主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)

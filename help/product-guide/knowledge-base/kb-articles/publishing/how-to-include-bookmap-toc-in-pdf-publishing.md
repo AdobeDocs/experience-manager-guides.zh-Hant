@@ -16,7 +16,8 @@ ht-degree: 0%
 
 ## 設定書籤
 
-包含 `<toc>`  元素：在書籤的 `<frontmatter>`元素，找出 `<booklists>` 元素。  巢狀內嵌 `<toc>` 元素在內 `<booklists>` 如下所示：
+包含`<toc>`元素：
+在書籤地圖的`<frontmatter>`元素中，找出`<booklists>`元素。  在`<booklists>`中巢狀內嵌`<toc>`專案，如下所示：
 
 ```
 <frontmatter>
@@ -27,7 +28,7 @@ ht-degree: 0%
 </frontmatter>
 ```
 
-DITA規格允許將TOC和書籤放在 `<backmatter>` 區段。
+DITA規格也允許將TOC和書籤放在`<backmatter>`區段中。
 
 
 ```
@@ -77,7 +78,7 @@ DITA規格允許將TOC和書籤放在 `<backmatter>` 區段。
 
 TOC和其他PDF中的書籤清單順序僅以書籤圖的結構為基礎。
 
-![目錄](../assets/publishing/toc.png)
+![toc](../assets/publishing/toc.png)
 
 
 ## 常見問題集
@@ -88,17 +89,17 @@ Ditamap本身不會像書籤一樣直接擁有目錄(TOC)。 不過，Ditamap在
 
 如果您要發佈Ditamap，則原生PDF提供自動產生目錄和書籤清單的功能，您可以啟用/停用從原生PDF設定在ditamap產生目錄。
 
-![啟用停用目錄](../assets/publishing/pageorder.png)
+![啟用停用TOC](../assets/publishing/pageorder.png)
 
 ## 其他資源：
 
 - [原生PDF設計頁面配置檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [原生PDF基本知識預先錄製的專家講座](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [預先錄製的原生PDF基本課程](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-在AEM Guides社群發文 [論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 以取得任何查詢。
+AEM Guides社群[論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上的Post以進行任何查詢。
 
 
 

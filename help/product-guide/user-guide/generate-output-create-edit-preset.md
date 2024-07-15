@@ -17,7 +17,7 @@ ht-degree: 0%
 
 執行以下步驟來建立自訂輸出預設集：
 
-1. 在「資產」UI中，導覽至任何DITA map並按一下，以開啟DITA map主控台。
+1. 在Assets UI中，導覽至任何DITA map並按一下以開啟DITA map主控台。
 
 1. 請確定已選取「輸出預設集」標籤。 按一下工具列中的「建立」 。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 執行以下步驟來編輯現有的輸出預設集：
 
-1. 在「資產」UI中，導覽至任何DITA map並按一下，以開啟DITA map主控台。
+1. 在Assets UI中，導覽至任何DITA map並按一下以開啟DITA map主控台。
 
 1. 請確定已選取「輸出預設集」標籤。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 執行以下步驟以複製現有的輸出預設集：
 
-1. 在「資產」UI中，導覽至任何DITA map並按一下，以開啟DITA map主控台。
+1. 在Assets UI中，導覽至任何DITA map並按一下以開啟DITA map主控台。
 
 1. 請確定已選取「輸出預設集」標籤。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 執行以下步驟來刪除現有的輸出預設集：
 
-1. 在「資產」UI中，導覽至任何DITA map並按一下，以開啟DITA map主控台。
+1. 在Assets UI中，導覽至任何DITA map並按一下以開啟DITA map主控台。
 
 1. 選取您要刪除的輸出預設集。
 
@@ -77,4 +77,4 @@ ht-degree: 0%
    預設集會從「輸出預設集」清單中移除。
 
 
-**父級主題：**[&#x200B;產生輸出](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)

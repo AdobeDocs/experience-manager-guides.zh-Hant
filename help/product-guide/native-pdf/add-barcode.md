@@ -1,13 +1,13 @@
 ---
-title: 原生PDF發佈功能 | 新增條碼
+title: 原生PDFPublish功能 | 新增條碼
 description: 瞭解如何新增條碼。
-source-git-commit: a766353908829ab433173f8fd003ecad0c9d1bf1
+exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
 
 ---
-
 
 # 將條碼新增至PDF輸出
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ### 更新範本的CSS以轉譯條碼值
 
-修改 `layout.css` 檔案以在PDF產生期間呈現條碼。 支援各種條碼型別，例如「qrcode」和「pdf417」。  如需詳細資訊，請檢視 [條碼型別](#barcode-types).
+修改`layout.css`檔案以在PDF產生期間呈現條碼。 支援各種條碼型別，例如「qrcode」和「pdf417」。  如需詳細資訊，請檢視[條碼型別](#barcode-types)。
 
 
 
@@ -50,7 +50,7 @@ margin-top: 2mm;
 
 在範本標題中新增條碼預留位置並套用樣式：
 
-1. 編輯 **範本** > **頁面配置**
+1. 編輯&#x200B;**範本** > **頁面配置**
 1. 選取版面配置。 例如，您可以選取「封底」頁面版面，其中包含頁首或頁尾。
 1. 將下列範圍新增至您要插入條碼的位置。
 
@@ -58,9 +58,9 @@ margin-top: 2mm;
 
    >[!NOTE]
    >
-   > 使用您在中定義的相同類別名稱 `layout.css`.
+   > 使用您在`layout.css`中定義的相同類別名稱。
 
-1. 取代 `<Sample barcode>` 使用您要條碼掃描器讀取的值……
+1. 將`<Sample barcode>`取代為您要條碼掃描器讀取的值。
 
 您可以使用範本產生輸出PDF時檢視條碼，其中包括頁面配置。 執行完上述步驟後，即可使用條碼產生PDF輸出。
 
@@ -70,7 +70,7 @@ margin-top: 2mm;
 
 **範例 2**
 
-修改 `Common.plt` 中的檔案 **基本** 範本以在專案標題後新增條碼。
+修改&#x200B;**Basic**&#x200B;範本中的`Common.plt`檔案，在專案標題之後新增條碼。
 
 若要建立ISBN號碼的條碼，請新增ISBN號碼。 然後使用ISBN編號來產生條碼。
 
@@ -89,7 +89,7 @@ margin-top: 2mm;
 
 若要使用地圖中繼資料建立條碼：
 
-使用中出現的任何中繼資料 `<topicmeta>` 要顯示為條碼的DITA map元素。 確定使用正確的XPath。 例如，您可以新增 `<resourceid>` 在 `<topicmeta>` DITA map的URL。
+使用DITA map的`<topicmeta>`元素中存在的任何中繼資料，以條碼顯示。 確定使用正確的XPath。 例如，您可以在DITA map `<topicmeta>`中新增`<resourceid>`。
 
 在以下範例中，資源ID會作為產生條碼的主要輸入。
 
@@ -156,6 +156,3 @@ margin-top: 2mm;
 | Aztec代碼 | aztec-code | 根據ISO/IEC 24778：2008的Aztec條碼條碼符號。 |                            |
 | DataMatrix | data-matrix | 資料矩陣ECC 200條碼符號依據ISO/IEC 16022：2006。 |
 | 程式碼1 | code-one |                            |
-
-
-

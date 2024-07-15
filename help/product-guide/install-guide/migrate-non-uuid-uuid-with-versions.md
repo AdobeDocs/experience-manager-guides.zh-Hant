@@ -4,7 +4,8 @@ description: 瞭解如何將具有版本的非UUID內容移轉至UUID內容。
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->請遵循 [升級指示](./upgrade-xml-documentation.md) 特定於您的產品的授權版本。
+>請依照產品授權版本專屬的[升級指示](./upgrade-xml-documentation.md)執行。
 
 ## 相容性矩陣
 
-| 最新Experience Manager指南版本（非UUID） | 移轉至UUID的必要版本 | 支援的升級路徑 |
+| 目前的Experience Manager Guides版本（非UUID） | 移轉至UUID的必要版本 | 支援的升級路徑 |
 |---|---|---|
 | 3.8.5、4.0.x或4.1.x | 4.1非UUID | 安裝4.1 (UUID)並執行移轉 |
 | 4.2、4.2.x或4.3 | 4.3.0非UUID | 安裝4.3.1 (UUID)並執行移轉 |
@@ -57,25 +58,25 @@ ht-degree: 0%
    >* 您需要管理員許可權才能執行移轉。
    >* 建議先修復有錯誤的檔案，再繼續移轉。
 
-1. （可選）對內容執行版本清除以移除不必要的版本，並加快移轉程式。 若要執行版本永久刪除，請選取選項 **版本清除** 從移轉畫面，使用URL前往使用者介面 `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. （可選）對內容執行版本清除以移除不必要的版本，並加快移轉程式。 若要執行版本清除，請從移轉畫面中選取選項&#x200B;**版本清除**，然後使用URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`移至使用者介面。
    >[!NOTE]
    >
    >此公用程式不會移除基準線或評論中使用的任何版本，或具有任何標籤。
 
-1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
-1. 選取 **相容性評估**  從左側面板瀏覽資料夾路徑。
+1. 啟動`http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`。
+1. 從左側面板選取&#x200B;**相容性評估**，並瀏覽資料夾路徑。
 1. 檢查相容性以列出以下資訊：
    * 檔案總數
    * 總版本
    * 預估移轉時間
    * 有錯誤的檔案數
 
-   ![移轉中的相容性評估標籤](assets/migration-compatibility-assessment.png){width="800" align="left"}
+   移轉中的![相容性評估標籤](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
-1. 選取 **設定驗證** 從左側面板。 然後 **選取地圖** 和 **選取預設集** 以設定這些變數。 目前的輸出驗證清單會顯示移轉前存在的輸出檔案，並可在稍後針對移轉後產生的輸出檔案進行驗證。
+1. 從左側面板中選取&#x200B;**設定驗證**。 然後，**選取對映**&#x200B;和&#x200B;**選取對映的預設集**&#x200B;以進行設定。 目前的輸出驗證清單會顯示移轉前存在的輸出檔案，並可在稍後針對移轉後產生的輸出檔案進行驗證。
 
-   ![移轉中的「設定驗證」索引標籤](assets/migration-configure-validation.png){width="800" align="left"}
+   ![在移轉中設定[驗證]索引標籤](assets/migration-configure-validation.png){width="800" align="left"}
 
 
 
@@ -84,50 +85,50 @@ ht-degree: 0%
 
 ### 步驟1：更新設定
 
-1. 請確定可用的空間至少是AEM （crx-quickstart目錄）在移轉期間所佔用空間的10倍。 完成移轉後，您可以執行壓縮來回收大部分的磁碟空間(請參閱 [修訂清除](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en))。
+1. 請確定可用的空間至少是AEM （crx-quickstart目錄）在移轉期間所佔用空間的10倍。 完成移轉後，您可以執行壓縮來回收大部分的磁碟空間（請參閱[修訂清理](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)）。
 
-1. 啟用 *啟用後處理工作流程啟動器* 在 `com.adobe.fmdita.config.ConfigManager` 和 *啟用版本後處理* 在 `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. 啟用&#x200B;*在`com.adobe.fmdita.config.ConfigManager`中啟用Post處理工作流程啟動器*，並在`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`中啟用&#x200B;*版本後處理*
 
 1. 安裝支援發行版本的UUID版本，而非非UUID版本。 例如，如果您使用4.1非UUID版本編號，則需安裝UUID 4.1版並執行移轉。
 
 1. 安裝新套件以進行uuid移轉。
 
-1. 停用下列工作流程以及執行的任何其他工作流程 `/content/dam` 在中使用啟動器 `http://<server-name>/libs/cq/workflow/content/console.html`.
+1. 停用下列工作流程，以及使用`http://<server-name>/libs/cq/workflow/content/console.html`中的啟動器在`/content/dam`上執行的任何其他工作流程。
 
    * DAM更新資產工作流程
    * dam中繼資料回寫工作流程
 
-1. 停用 *啟用後處理工作流程啟動器* 在 `com.adobe.fmdita.config.ConfigManager` 和停用 *啟用版本後處理* 在 `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. 停用&#x200B;*啟用`com.adobe.fmdita.config.ConfigManager`中的Post處理工作流程啟動器*，並停用`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`中的&#x200B;*啟用版本後處理*。
 
-1. 停用屬性啟用驗證(`validation.enabled`)。
+1. 停用Day CQ Tagging Service中的Enable validation (`validation.enabled`)屬性。
 
-1. 確定 `uuid.regex` 屬性資料夾在中已正確設定 `com.adobe.fmdita.config.ConfigManager`. 如果空白，則設定為預設值 —  `^GUID-(?<id>.*)`.
-1. 新增單獨的記錄器 `com.adobe.fmdita.uuid` 瀏覽器回應也可在以下網址取得： `/content/uuid-upgrade/logs`.
+1. 請確定`com.adobe.fmdita.config.ConfigManager`中的`uuid.regex`屬性資料夾已正確設定。 如果空白，請將其設定為預設值 — `^GUID-(?<id>.*)`。
+1. 為`com.adobe.fmdita.uuid`新增個別的記錄器瀏覽器回應也可在`/content/uuid-upgrade/logs`取得。
 
 ### 步驟2：執行移轉並驗證
 
 #### 安裝移轉套件
 
-1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. 啟動`http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`。
 
    ![移轉中的系統升級索引標籤](assets/migration-system-upgrade.png){width="800" align="left"}
 
-1. 選取 **系統升級** 從左側面板開始執行移轉。 在較小資料的資料夾上開始執行，然後再執行 `/content/dam`.
+1. 從左側面板選取&#x200B;**系統升級**&#x200B;以執行移轉。 先從資料夾中較小的資料開始，再於`/content/dam`上執行。
 
-1. 選取 **下載報表** 當移轉正在執行時，檢查資料夾中的所有檔案是否已正確升級，以及所有功能是否只適用於該資料夾。
+1. 在移轉執行時選取[下載報表] **，檢查資料夾中的所有檔案是否已正確升級，以及所有功能是否只適用於該資料夾。**
 
 
 >[!NOTE]
 >
-> 內容移轉可在檔案夾層級執行，完成 `/content/dam`，或相同的資料夾（重新執行移轉）。
+> 內容移轉可在資料夾層級、完整`/content/dam`或相同資料夾上執行（重新執行移轉）。
 
 此外，請務必確實針對所有媒體資產完成內容移轉，例如您在DITA內容中使用的影像和圖形。
 
 #### 基準線及檢閱移轉
 
-選取 **基準/檢閱升級** 從左側面板移轉基準線並在資料夾層級檢閱。
+從左側面板選取&#x200B;**基準線/檢閱升級**，以移轉基準線並在資料夾層級檢閱。
 
-![移轉中的基線和檢閱索引標籤](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+![移轉中的基準與檢閱索引標籤](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
 
 ### 步驟3：還原設定
@@ -143,10 +144,9 @@ ht-degree: 0%
 
 ## 移轉驗證
 
-1. 移轉完成後，請選取「 」 **驗證系統升級** 從左側面板中，在移轉之前和之後驗證輸出檔案，以確保移轉成功。
+1. 移轉完成後，請從左側面板選取&#x200B;**驗證系統升級**，並在移轉前後驗證輸出檔案，以確保移轉成功。
 
    ![在移轉中驗證系統升級索引標籤](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間(請參閱 `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`)。
-
+1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。

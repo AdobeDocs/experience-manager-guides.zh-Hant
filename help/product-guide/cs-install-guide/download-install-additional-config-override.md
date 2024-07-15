@@ -16,7 +16,7 @@ ht-degree: 0%
 
 要進行任何設定更新，應使用以下通用方法：
 
-1. 存取您的Cloud Manager的Git存放庫。
+1. 存取您的Cloud Manager Git存放庫。
 
 1. 在下列位置建立新的JSON檔案：
 
@@ -41,4 +41,4 @@ ht-degree: 0%
 1. 認可變更並執行Cloud Manager管道以部署更新的設定。
 
 
-**父級主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)

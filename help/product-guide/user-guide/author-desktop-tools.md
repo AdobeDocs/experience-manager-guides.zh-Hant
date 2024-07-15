@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 使用案頭工具製作內容 {#id221EB0Z80KS}
 
-AEM Guides也支援使用Adobe FrameMaker和Oxygon XML Editor等案頭工具進行撰寫。 您可以使用這些工具來製作DITA內容、以各種格式發佈您的檔案，以及維護檔案的版本。
+AEM Guides也支援使用Adobe FrameMaker和Oxygon XML Editor等案頭工具進行製作。 您可以使用這些工具來製作DITA內容、以各種格式發佈您的檔案，以及維護檔案的版本。
 
 - **[使用FrameMaker](author-desktop-framemaker.md)**
 

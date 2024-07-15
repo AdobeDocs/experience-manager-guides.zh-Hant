@@ -26,9 +26,9 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* 套件組合。
+1. 搜尋並按一下&#x200B;*com.adobe.fmdita.xmleditor.config.XmlEditorConfig*&#x200B;套件。
 
-1. 選取 **使用以UUID為基礎的系統檔案名稱** 選項。
+1. 選取&#x200B;**使用UUID系統檔案名稱**&#x200B;選項。
 
 1. 按一下「**儲存**」。
 
@@ -37,4 +37,4 @@ ht-degree: 0%
 >
 > 依預設，此選項是關閉的。 開啟此選項後，作者在建立新主題或對應檔案時，看不到指定檔案名稱的選項。 您可以從Assets UI和Web編輯器建立新的主題或地圖檔案。
 
-**父級主題：**[&#x200B;設定檔案名稱](conf-file-names.md)
+**父級主題：**[&#x200B;設定檔名](conf-file-names.md)

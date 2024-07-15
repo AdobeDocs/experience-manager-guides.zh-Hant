@@ -18,7 +18,7 @@ ht-degree: 0%
 
 作為管理員，您可以強制實施規則來限制使用者編輯檔案而不將其出庫。 同樣地，您可以確保所有出庫的檔案都會入庫，以避免任何資料遺失。
 
-在多用途環境中，確保使用者不會從系統刪除檔案也很重要。 對於由其他使用者簽出的檔案，此要求更為重要。您可以允許或防止使用者覆寫由其他使用者簽出的檔案。 為了防止使用者意外地從系統中刪除已出庫的檔案，AEM Guides提供了您可以使用的配置。 除了出庫檔案外，您還可以控制刪除包含參照的檔案或從其他檔案參照的檔案。 此外，您也可以為上傳的檔案建立新版本。
+在多用途環境中，確保使用者不會從系統刪除檔案也很重要。 對於由其他使用者簽出的檔案，此要求更為重要。您可以允許或防止使用者覆寫由其他使用者簽出的檔案。 為避免使用者意外從系統中刪除已出庫的檔案，AEM Guides提供了您可使用的配置。 除了出庫檔案外，您還可以控制刪除包含參照的檔案或從其他檔案參照的檔案。 此外，您也可以為上傳的檔案建立新版本。
 
 ## 為上傳的檔案建立新版本
 
@@ -36,20 +36,20 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;套件。
 
-1. 選取 **為上傳的檔案建立新版本** 選項。
+1. 選取&#x200B;**為已上傳的檔案建立新版本**&#x200B;選項。
 
    依預設，此選項是關閉的。
 
-   選取此選項時，就會發生新版本管理機制，並覆寫適用於任何後續上傳的預設上傳行為，這會將上傳檔案的內容儲存為新版本。 如果取消選取選項，AEM Guides會使用AEM預設版本管理機制。
+   選取此選項時，就會發生新版本管理機制，並覆寫適用於任何後續上傳的預設上傳行為，這會將上傳檔案的內容儲存為新版本。 如果取消選取選項，AEM Guides會使用AEM的預設版本管理機制。
 
 1. 按一下「**儲存**」。
 
 
 >[!NOTE]
 >
-> 如果您啟用屬性，則可以以70或以下的批次上傳檔案 **為上傳的檔案建立新版本** \(create.ver.new.content\)並使用 **Assets UI**&#x200B;以大量上傳資產。
+> 如果您啟用屬性&#x200B;**為已上傳的檔案建立新版本** \(create.ver.new.content\)，並使用&#x200B;**Assets UI**&#x200B;大量上傳資產，則可以以70個或以下的批次上傳檔案。
 
 ## 設定允許編輯已取出檔案的設定
 
@@ -67,15 +67,15 @@ AEM Guides的網頁編輯器可讓您建立和更新DITA主題。 您可以設�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;套件。
 
-1. 選取 **停用編輯而不簽出** 選項。
+1. 選取&#x200B;**停用[不簽出]的編輯**&#x200B;選項。
 
    ![](assets/xml-editor-config.png){width="650" align="left"}
 
    使用此選項，使用者在簽出檔案之前，不會在工具列中看到「編輯」選項。
 
-1. 選取 **關閉時要求籤到** 此選項可在每次關閉已出庫的檔案時顯示警告訊息，而不儲存或將其入庫至存放庫。
+1. 選取&#x200B;**關閉時要求籤入**&#x200B;選項，以在已簽出的檔案關閉時顯示警告訊息，而不儲存或將其簽回存放庫。
 
 1. 按一下「**儲存**」。
 
@@ -100,9 +100,9 @@ AEM Guides的網頁編輯器可讓您建立和更新DITA主題。 您可以設�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;套件。
 
-1. 選取 **上傳時覆寫已簽出的檔案** 選項。
+1. 選取&#x200B;**在上傳時覆寫取出檔案**&#x200B;選項。
 
    此選項預設為開啟。 選取此選項後，使用者將可覆寫已出庫的檔案。 如果未選取該選項，則當使用者或其他使用者取出檔案時，將無法覆寫檔案。
 
@@ -121,34 +121,34 @@ AEM Guides的網頁編輯器可讓您建立和更新DITA主題。 您可以設�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;套件。
 
-1. 選取 **防止刪除已取出的內容** 選項。
+1. 選取&#x200B;**防止刪除簽出的內容**&#x200B;選項。
 
    此選項預設為開啟。 選取此選項後，使用者將無法刪除已出庫的檔案。
 
 1. 按一下「**儲存**」。
 
 
-若要支援此功能，請使用新的索引屬性 `drivelock` 新增至 `oak:index`：
+若要支援此功能，已在`oak:index`中新增索引屬性`drivelock`：
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
 ![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
 
-除了新的index屬性外，請確定下列屬性已設定在 `/oak:index/damAssetLucene`：
+除了新的索引屬性之外，請確定已在`/oak:index/damAssetLucene`上設定下列屬性：
 
 - `jcr:primaryType`=`"oak:QueryIndexDefinition"`
 - `async`=`"async"`
 - `compatVersion`=`"{Long}2"`
 - `evaluatePathRestrictions`=`"{Boolean}true"`
 - `reindex`=`"{Boolean}false"`
-- `reindexCount`=`"{Long}3"` *\（這是重新索引完成的次數，會由安裝我們的套件取代\）*
+- `reindexCount`=`"{Long}3"` *\（這是完成重新索引的次數計數，已取代為安裝我們的套件\）*
 - `type`=`"lucene"`
 
 >[!NOTE]
 >
-> 您可以變更以下專案的值： `reindex` 至 `"{Boolean}true"`. 這樣一來，資料夾階層內已出庫檔案的搜尋結果就會更快。
+> 您可以將`reindex`的值變更為`"{Boolean}true"`。 這樣一來，資料夾階層內已出庫檔案的搜尋結果就會更快。
 
 ## 防止刪除參照的檔案
 
@@ -171,9 +171,9 @@ AEM Guides的網頁編輯器可讓您建立和更新DITA主題。 您可以設�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;套件。
 
-1. 找到 **封鎖參考資產的刪除** 選項。
+1. 找出所參考Assets **選項的**&#x200B;區塊刪除。
 
 1. 根據您想要授予刪除存取權的對象，請指定下列其中一個常數：
 
@@ -181,7 +181,7 @@ AEM Guides的網頁編輯器可讓您建立和更新DITA主題。 您可以設�
 
      ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
 
-   - allow\_unsafe\_delete\_for\_delete\_assets\_group：屬於下列專案的管理員或使用者： *delete-assets* 允許群組刪除檔案。 若有其他使用者嘗試刪除含有任何參照的檔案，則在移除所有參照之前，不允許使用者刪除這類檔案。 當沒有許可權的使用者嘗試刪除檔案時，會出現下列熒幕擷圖。
+   - allow\_unsafe\_delete\_for\_delete\_assets\_group：屬於&#x200B;*delete-assets*&#x200B;群組的系統管理員或使用者可刪除檔案。 若有其他使用者嘗試刪除含有任何參照的檔案，則在移除所有參照之前，不允許使用者刪除這類檔案。 當沒有許可權的使用者嘗試刪除檔案時，會出現下列熒幕擷圖。
 
      ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
 
@@ -213,15 +213,15 @@ AEM Guides的網頁編輯器可讓您建立和更新DITA主題。 您可以設�
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
 1. 
-   - **從最新版本保留的版本數目**：輸入應保留且未永久刪除的版本數目。 例如，如果輸入5，則會保留最後5個版本，而之前的版本則符合其他清除條件時，可以清除該版本。
-- **保留時間跨度內建立的版本\（以天為單位\）**：輸入版本的最長存留期（以天為單位）。 如果符合其他清除條件，則符合清除指定天數之前的版本。 例如，如果輸入100，則符合其他永久刪除條件時，所有在100天之前建立的版本都符合永久刪除的條件。
-- **路徑**：選取您要清除其檔案的檔案或資料夾的路徑。
+   - **從最新版本保留的版本數目**：輸入應保留且未清除的版本數目。 例如，如果輸入5，則會保留最後5個版本，而之前的版本則符合其他清除條件時，可以清除該版本。
+- **保留時間跨度內建立的版本\（以天為單位\）**：輸入版本的最長期限（以天為單位）。 如果符合其他清除條件，則符合清除指定天數之前的版本。 例如，如果輸入100，則符合其他永久刪除條件時，所有在100天之前建立的版本都符合永久刪除的條件。
+- **路徑**：選取您要清除其檔案的檔案或資料夾路徑。
 
   >[!NOTE]
   >
   > 您只能清除DITA檔案。
 
-1. 按一下 **預覽清除報告**.
+1. 按一下&#x200B;**預覽清除報告**。
 
    >[!NOTE]
    >
@@ -230,13 +230,13 @@ AEM Guides的網頁編輯器可讓您建立和更新DITA主題。 您可以設�
    系統會產生版本清除報告。
 
 1. 下載版本清除報告，並檢查要清除的檔案和版本。
-1. 您可以選擇 **取消清除** 或 **開始清除**.
+1. 您可以選擇&#x200B;**取消清除**&#x200B;或&#x200B;**開始清除**。
 
    ![](assets/download-purge-report.png){width="350" align="left"}
 
    系統會顯示清除狀態。
 
-   按一下 **下載版本清除報告** 以檢視已永久刪除的版本。 此報表提供所有版本的清除狀態，以及保留特定版本或清除該版本的原因。
+   按一下&#x200B;**下載版本清除報告**&#x200B;以檢視清除的版本。 此報表提供所有版本的清除狀態，以及保留特定版本或清除該版本的原因。
 
 
 >[!NOTE]

@@ -2,7 +2,8 @@
 title: AEM Guides的外部資料來源整合
 description: 整合內容資料來源與AEM Guides 。
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 02a6c2ea-a550-49d5-ae54-1cc24ef35287
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
@@ -12,7 +13,7 @@ ht-degree: 1%
 # AEM Guides的外部資料來源整合：如何運作？
 
 許多企業客戶擁有分散在多個資料庫中的資料，但通常需要將資料整合在AEM Guides中，作為可處理資料的單一來源。
-Adobe Experience Manager Guides現在包含外部資料來源的現成聯結器，包括JIRA、PIM、SQL Data Base和PLM，使其成為真正的內容中心。
+Adobe Experience Manager Guides現在包含外部資料來源的現成聯結器，包括JIRA、PIM、SQL Data Base和PLM，使其成為真正的Content Hub。
 
 
 ## 工作階段錄製
@@ -24,12 +25,12 @@ Adobe Experience Manager Guides現在包含外部資料來源的現成聯結器�
 - **日期** - 2023年12月14日
 - **出席者人數** - 80
 - **持續時間** - 60分鐘
-- **對象**  — 客戶、合作夥伴和Adobe員工
+- **對象** — 客戶、合作夥伴和Adobe員工
 
 ## 關鍵重點
 
 在本次研討會中，您已瞭解下列內容：
-- 概述資料來源及其與AEM Guides搭配使用
+- 資料來源及其與AEM Guides搭配使用的概述
 - 如何設定各種資料來源的連線
    - 在資料來源範本中使用Velocity工具
    - 使用對應範本
@@ -43,17 +44,17 @@ Adobe Experience Manager Guides現在包含外部資料來源的現成聯結器�
 
 ## 相關資源
 
-- **設定資料來源聯結器** - [在Experience League上](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
+- **在Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)上設定資料來源聯結器** - [
 
-- **檔案** - [在Experience League上](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
+- **檔案** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
 
-- **使用範本的Velocity工具** - [在Experience League上](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)
+- **使用Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)上範本的Velocity工具** - [
 
 
 
 >[!NOTE]
 >
-> 此工作階段中顯示的功能可在下列版本的AEM Guides中取得：
+> 此工作階段中顯示的功能適用於下列AEM Guides版本：
 > - 2023年12月（雲端）
 > - 4.3.1 （適用於非雲端）
 
@@ -61,4 +62,4 @@ Adobe Experience Manager Guides現在包含外部資料來源的現成聯結器�
 
 ## 聯絡我們
 
-如有任何疑問，請傳送電子郵件至 <techcomm@adobe.com>
+若有任何疑問，請傳送電子郵件至<techcomm@adobe.com>

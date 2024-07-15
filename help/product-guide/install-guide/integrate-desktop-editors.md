@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您可以使用FrameMaker或任何其他DITA編輯器來建立和更新DITA內容。 但是，如果您的組織使用FrameMaker作為DITA編輯器，則您可以為使用者提供直接在AEM的FrameMaker中開啟DITA檔案的選項。
 
-依預設，您的使用者看不到 **以FrameMaker開啟** AEM按鈕。 執行以下步驟，在AEM工具列上新增此按鈕：
+依預設，您的使用者在AEM工具列上看不到&#x200B;**在FrameMaker中開啟**&#x200B;按鈕。 執行以下步驟，在AEM工具列上新增此按鈕：
 
 1. 開啟Adobe Experience Manager Web主控台設定頁面。
 
@@ -30,13 +30,13 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;套件。
 
    ![](assets/open-in-fm-toolbar.png){width="550" align="left"}
 
-1. 選取 **顯示「在FrameMaker中開啟」按鈕** 選項。
+1. 選取&#x200B;**在FrameMaker中顯示開啟按鈕**&#x200B;選項。
 
 1. 按一下「**儲存**」。
 
 
-當您啟用 **顯示「在FrameMaker中開啟」按鈕** 選項，然後 **以FrameMaker開啟** 在AEM存放庫中選取任何DITA檔案時，按鈕就會顯示。 當此選項為 *未啟用*，則 **以FrameMaker開啟** 只有當您選取存放庫中的.fm或.book檔案時，按鈕才會顯示。
+當您啟用&#x200B;**在FrameMaker中顯示開啟按鈕**&#x200B;選項時，在AEM存放庫中選取任何DITA檔案時，就會顯示&#x200B;**在FrameMaker中開啟**&#x200B;按鈕。 當此選項&#x200B;*未啟用*&#x200B;時，只有當您在存放庫中選取.fm或.book檔案時，才會顯示&#x200B;**在FrameMaker中開啟**&#x200B;按鈕。

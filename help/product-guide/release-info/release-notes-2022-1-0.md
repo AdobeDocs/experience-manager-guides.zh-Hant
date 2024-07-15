@@ -1,6 +1,6 @@
 ---
-title: 版本注意事項 [!DNL AEM Guides]， 2022年1月發行
-description: 1月版的 [!DNL Adobe Experience Manager Guides] as a Cloud Service
+title: ' [!DNL AEM Guides]的發行說明，2022年1月發行'
+description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service的1月版本'
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# 1月版的 [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# [!DNL Adobe Experience Manager Guides]as a Cloud Service的1月版本
 
 ## 升級至1月發行
 
-升級您目前的 [!DNL Adobe Experience Manager Guides] as a Cloud Service(稍後稱為 [!DNL AEM Guides] as a Cloud Service)進行設定，請執行以下步驟：
+執行下列步驟，升級您目前的[!DNL Adobe Experience Manager Guides]as a Cloud Service(稍後稱為[!DNL AEM Guides]as a Cloud Service)安裝程式：
 1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-1. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將Cloud Service Git程式碼的檔案設為2022.1.78。
-1. 提交變更並執行Cloud Service管道，以升級至1月版的 [!DNL AEM Guides] as a Cloud Service。
+1. 將Cloud Service Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2022.1.78。
+1. 認可變更並執行Cloud Service管道，以升級至[!DNL AEM Guides]的1月版本as a Cloud Service。
 
 ## 相容性矩陣
 
-本節列出所支援軟體應用程式的相容性矩陣。 [!DNL AEM Guides] 2022年1月版本as a Cloud Service。
+本節列出[!DNL AEM Guides]as a Cloud Service2022年1月發行版本所支援之軟體應用程式的相容性矩陣。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 氧氣聯結器
 
-| [!DNL AEM Guides] 雲端發行版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
+| [!DNL AEM Guides]雲端版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2.2 | 2.2 |
 |  |  |  |  |  |
@@ -48,14 +48,14 @@ ht-degree: 0%
 
 此功能可讓使用者以累加方式建置DITA map，並在準備好時發佈主題。 發佈地圖後，請使用文章式發佈功能，僅對更新的文章實現增量發佈。
 
-![文章式發佈](assets/article-based-publishing.png)
+![以文章為基礎的發佈](assets/article-based-publishing.png)
 
 除了AEM之外，您也可以使用此獨特功能，將文章發佈至任何知識庫入口網站（例如Salesforce）。 此功能也隨附OOTB內容範本(以AEM核心元件為基礎)，讓您建立技術內容的知識型存放庫。 此範本的優點在於其可完全自訂，以符合您的組織需求，並且可支援企業內部網路入口網站等使用案例。
 您也可以根據文章的檔案狀態和修改時間來篩選文章。
 
 這種按需文章發佈功能不僅可讓您完全控制內容發佈，還可縮短發布更新內容的整體時間。
 使用此範本發佈文章時，它也可以將中繼資料傳遞至您已發佈的頁面。
-如需詳細資訊，請參閱 *從網頁編輯器以文章為基礎的發佈* 使用手冊中的。
+如需詳細資訊，請參閱使用手冊中的*從網頁編輯器*&#x200B;發行文章式內容。
 
 ### 已改良的網頁編輯器
 
@@ -72,11 +72,11 @@ ht-degree: 0%
 * 在可重複使用的內容面板中新增重新整理功能，可讓您快速重新整理參考檔案中的可重複使用內容。
 * 新的工作副本指示器會顯示您目前的（工作副本）檔案是否與儲存的版本同步。
 
-![版本指標](assets/version-update-indicator.png)
+![版本指示器](assets/version-update-indicator.png)
 
 * 加強「存放庫面板」和檔案瀏覽對話方塊中的搜尋篩選器，以提供更多可進一步自訂的篩選選項。
 
-![在存放庫中搜尋篩選器](assets/repository-filter-search.png)
+![搜尋存放庫中的篩選器](assets/repository-filter-search.png)
 
 * 您現在可以從網頁編輯器上傳.docx檔案。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 現在您可以用FrameMaker製作和發佈檔案。 FrameMaker隨附Adobe Experience Manager的現成可用聯結器。 在FrameMaker中，您會獲得易於使用的介面，讓您在分散的合作環境中維護檔案的版本。
 
 建立內容後，FrameMaker可讓您以不同格式發佈檔案 — PDF、HTML5、EPUB和DITA。 您也可以執行各種檔案管理操作，例如出庫、具有相依項的出庫、入庫、重新整理等。
-使用FrameMaker在中創作 [!DNL AEM Guides] as a Cloud Service使用FrameMaker2020.4版及更高版本。
+若要使用[!DNL AEM Guides]as a Cloud Service中的FrameMaker進行撰寫，請使用FrameMaker版本2020.4及更高版本。
 
 ### 新增翻譯儀表板
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 ![DITA-OT中繼資料](assets/custom-meta-data-output-preset.png)
 
-* 已新增新設定，讓使用者保留或刪除以下情況下要刪除的主題版本： **刪除並建立** 選項用於AEM Site輸出產生。
+* 已新增設定，以讓使用者保留或刪除在AEM Site輸出產生中使用&#x200B;**刪除與建立**&#x200B;選項時要刪除的主題版本。
 
 ### 改善檔案處理
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 ### 新的報告匯出功能
 
-報告對於識別內容的健康情況非常有用。 [!DNL AEM Guides] as a Cloud Service提供各種報表，讓您控制內容。 現在，您不僅可以檢視報表，還可以將報表資料匯出為CSV檔案，以便檢視並與更廣大的團隊分享。 報表資料可讓您快速瀏覽任何中斷的連結或遺失的影像。
+報告對於識別內容的健康情況非常有用。 [!DNL AEM Guides]as a Cloud Service提供各種報告來控制您的內容。 現在，您不僅可以檢視報表，還可以將報表資料匯出為CSV檔案，以便檢視並與更廣大的團隊分享。 報表資料可讓您快速瀏覽任何中斷的連結或遺失的影像。
 
 ![報告匯出](assets/export-report.png)
 
@@ -134,8 +134,8 @@ ht-degree: 0%
 
 ### 其他功能增強功能
 
-* 您現在可以建立新的 **Dita專案** 範本在 **/apps/projects/templates** 路徑。
-* 現在下載預設值 **ui_config.json** 資料夾設定檔中的檔案。 這可用來合併現有的自訂變更 **ui_config.json** 檔案進行升級。
+* 您現在可以在&#x200B;**/apps/projects/templates**&#x200B;路徑下建立新的&#x200B;**Dita專案**&#x200B;範本。
+* 現在從您的資料夾設定檔下載預設的&#x200B;**ui_config.json**&#x200B;檔案。 這可用於在升級時合併現有&#x200B;**ui_config.json**&#x200B;檔案中的自訂變更。
 * 即使存在新版本的JS檔案，您也無需清除瀏覽器快取。
 
 ## 已修正的問題
@@ -163,13 +163,13 @@ ht-degree: 0%
 * 移動來源檔案時，conrefred屬性不會更新。 (7698)
 * 使用參考主題型別檔案會導致幾個UI問題。 (7656)
 * 當作者在對應中新增ditavalref時，DITAVAL檔案不會顯示。 (7594)
-* 在每一空白處找到未預期的空格 `<entry>` 元素(當輸出類別屬性新增至 `<tgroup>` 元素。 (7532)
-* 來源按鈕無法用於透過地圖儀表板開啟的主題。 (7465)
+* 將outputclass屬性新增到`<tgroup>`元素時，在每一個空白`<entry>`元素中找到未預期的空間。 (7532)
+* Source按鈕無法用於透過地圖儀表板開啟的主題。 (7465)
 * 美化列印會插入空白行與空格，當檔案以FrameMaker或氧氣開啟時，即可看到這些空白行與空格。 (7408)
 * 在任何主題中具有href=&quot;/&quot;的地圖都不會發佈在AEM網站上。 (7405)
 * 根對映包含大量索引鍵時，在編輯器中發現效能問題。 (7400)
 * 含有自訂範本之對應的檔案狀態不會從其對應的狀態設定檔繼承。 (7359)
-* `<tm>` 元素未正確地呈現為區塊元素。 (7286)
+* `<tm>`元素未正確呈現為區塊元素。 (7286)
 * 建立新範本時，編輯器範本面板中會顯示重複的範本。 (5814)
 * ui_config中為影像定義用於設定其他屬性的範本不適用於拖放情況。 (5713)
 * menucascade中uicontrol的預設外觀不正確。 (5483)
@@ -178,7 +178,7 @@ ht-degree: 0%
 * 即使重新整理頁面後，新建立的對映集合也不會列出。(8603)
 * 無法關閉已解鎖的主題。 (8545)
 * 在來源和作者模式之間切換會將主題標籤為已變更，並需要再次儲存內容。(8524)
-* 在搜尋特殊字元時重複使用內容面板當機 `[` 或 `*` .(8279)
+* 在搜尋特殊字元`[`或`*`時，重複使用內容面板當機。(8279)
 * 使用鍵盤快速鍵Alt+Enter開啟插入元素對話方塊時，游標不會顯示在搜尋列中。(7912)
 * 搜尋選項只會搜尋檔案名稱，而不會搜尋內容。 (7784)
 
@@ -209,14 +209,14 @@ ht-degree: 0%
 * 在AEM網站輸出的&#39;tm；標籤後自動新增空白字元。 (7964)
 * 無法在AEM網站輸出中檢視YouTube影片。 (7401)
 * 使用者按一下瀏覽地圖控制面板基線標籤中的所有主題後，參照內容的標籤篩選失敗。 (7388)
-* 使用元素發佈主題 `<tm>` 屬性值為SM或reg的屬性在產生的輸出中無法正確顯示。 (7239)
+* 含有屬性值SM或reg之元素`<tm>`的發佈主題在產生的輸出中顯示不正確。 (7239)
 * 使用影像進行基準線發佈時，不會在發佈的輸出中挑選影像的最新版本。 (7231)
 * 「基準線」標籤中會顯示可關聯的參考主題。 (5424)
 * 標題中包含conkeyref之主題的增量發佈無法如預期運作。 (4474)
 * 即使已勾選該設定，頁面標題也不會用於產生輸出URL。 (8257)
 * 基準線發佈，挑選目前版本的影像，而非凍結節點。 如果影像的檔案名稱中有空格或特殊字元，也會顯示此訊息。 (8274， 8322)
 * DITA map的增量發佈失敗，其型別主旨配置具有mapref。 (8218)
-* 每當將對應新增至大量發佈儀表板時，就會新增Null。 (8695)
+* 每當將對應新增至大量Publish儀表板時，就會新增Null。 (8695)
 * 在主題中使用將影像做為conref的基準線發佈時，輸出中不會發佈影像。 (8564)
 * 如果刪除AEM網站發佈中使用的基準線，發佈會失敗並出現例外狀況。 (8572)
 * 主題再生無法運作。 (8091)
@@ -228,7 +228,7 @@ ht-degree: 0%
 * 如果將DITA述詞新增至搜尋篩選器，儲存的搜尋功能（智慧型集合）會中斷。 (8048)
 * 將影像回覆成較舊版本無法運作。 (DXML-7903)
 * 沒有刪除許可權的作者也可看到刪除選項。 (7322)
-* 「資產編輯器」的CCMS覆蓋會中斷刪除選項的呈現。 (8093)
+* Assets編輯器的CCMS覆蓋會中斷刪除選項的呈現。 (8093)
 * 未刪除檔案設定檔。 (8604)
 * 執行「全選」並將多媒體/Dita_Content移至其他資料夾時，參照會中斷。 (8621)
 * 移動資產時，來源中出現不正確的參考。 (8627)
@@ -243,7 +243,7 @@ ht-degree: 0%
 
 ## 已知問題
 
-Adobe已發現的下列已知問題 [!DNL AEM Guides] 2022年1月版本as a Cloud Service。
+Adobe已針對[!DNL AEM Guides] 2022年1月as a Cloud Service版本找出下列已知問題。
 
 
 ### 因應措施的已知問題
@@ -254,16 +254,16 @@ Adobe已發現的下列已知問題 [!DNL AEM Guides] 2022年1月版本as a Clou
   **因應措施**：現在請使用Windows上的氧氣聯結器。
 
 * 在Firefox瀏覽器中，必須開啟並排檢視，才能匯入稽核註釋。
-  **因應措施**：暫時使用Chrome瀏覽器。
+  **因應措施**：現在請使用Chrome瀏覽器。
 
 * 移動檔案名稱中有空格的影像或多媒體檔案時，參照會中斷。
   **因應措施**：重新命名檔案，並在移動之前移除檔案名稱中的空格。
 
 * 最新版Chrome瀏覽器中的地圖儀表板不會間歇性載入。
-  **因應措施**：重新整理地圖控制面板頁面。
+  **因應措施**：重新整理地圖儀表板頁面。
 
 ### 其他已知問題
 
-* 如果氧氣連線至 [!DNL AEM Guides] 解決方案使用Web驗證，然後登出失敗。
+* 如果Oxyor已使用Web驗證連線至[!DNL AEM Guides]解決方案，則登出會失敗。
 * 無法將稽核任務重新指派給使用者。
-* 地圖收集UI中出現問題，例如文字扭曲和 **全選** 功能無法正常運作。
+* 地圖集合UI中出現問題，例如文字扭曲以及&#x200B;**全選**&#x200B;功能無法正常運作。

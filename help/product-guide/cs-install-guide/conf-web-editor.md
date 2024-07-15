@@ -28,7 +28,7 @@ AEM Guides隨附強大的網頁編輯器，可讓您的作者建立和編輯DITA
 
 - **[設定標籤檢視的預設值](configure-default-value-tags-view.md)**
 
-- **[設定UUID型連結的顯示方式](conf-uuid-based-links.md)**
+- **[設定UUID連結的顯示](conf-uuid-based-links.md)**
 
 - **[在同一個索引標籤中開啟DITA主題或對應檔案](open-dita-files-same-tab.md)**
 
@@ -42,15 +42,15 @@ AEM Guides隨附強大的網頁編輯器，可讓您的作者建立和編輯DITA
 
 - **[設定允許的特殊字元](conf-special-chars.md)**
 
-- **[自動生成元素ID](auto-generate-ids.md)**
+- **[自動產生專案ID](auto-generate-ids.md)**
 
 - **[自訂AEM預設字典](customize-aem-custom-dictionary.md)**
 
-- **[設定文字篩選](config-text-filters.md)**
+- **[設定文字篩選器](config-text-filters.md)**
 
 - **[設定檔案瀏覽對話方塊的篩選器](conf-custom-file-filters.md)**
 
-- **[安裝文章式發佈的套件](configure-article-based-publishing.md)**
+- **[安裝以文章為基礎的發行套件](configure-article-based-publishing.md)**
 
 - **[設定單一主題PDF產生](conf-pdf-generation-dita-ot.md)**
 

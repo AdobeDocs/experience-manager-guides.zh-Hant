@@ -20,10 +20,13 @@ ht-degree: 0%
 
 註冊資料來源聯結器的GET方法。
 
-**請求URL**：
+**要求URL**：
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
-**引數**： |名稱|型別|必要|說明| --------------------------- |`path`|字串|是|指向AEM存放庫中路徑的字串。 它可以是 `/content/dam or /var/dxml`.|
+**引數**：
+|名稱|型別|必要|說明|
+---------------------------
+|`path`|字串|是|指向AEM存放庫中路徑的字串。 它可以是`/content/dam or /var/dxml`中的路徑。|
 
 **範例**：\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`

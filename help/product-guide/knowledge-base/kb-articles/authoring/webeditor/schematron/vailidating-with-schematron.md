@@ -13,35 +13,35 @@ ht-degree: 0%
 
 # 在網頁編輯器中控制內容品質
 
-本文概述AEM Guides網頁編輯器中驗證的可能性。
+本文概述AEM Guides Web編輯器中的驗證可能性。
 透過設計Web編輯器，會利用系統中的DITA架構設定來強制使用者建立符合DITA規範的內容。 如此一來，儲存在系統中的所有內容都會結構化、可重複使用且有效的DITA內容。
 
-除了支援DITA規則外，網頁編輯器也支援根據&quot;*結構描述*」規則。
+除了支援DITA規則之外，網頁編輯器也支援根據&quot;*Schematron*&quot;規則驗證內容。
 
-&quot;*結構描述*「是指用於定義XML檔案測試的規則型驗證語言。 您可以匯入Schematron檔案，也可以在Web編輯器中編輯它們。 使用「Schematron」檔案，您可以定義特定規則，然後針對DITA主題或地圖驗證這些規則。 Schematron規則可以強制實施定義為規則的限制，以確保XML結構的一致性。 這些限制是由擁有內容品質和一致性的SME所推動。
+「*Schematron*」是指用來定義XML檔案測試的規則型驗證語言。 您可以匯入Schematron檔案，也可以在Web編輯器中編輯它們。 使用「Schematron」檔案，您可以定義特定規則，然後針對DITA主題或地圖驗證這些規則。 Schematron規則可以強制實施定義為規則的限制，以確保XML結構的一致性。 這些限制是由擁有內容品質和一致性的SME所推動。
 
-    注意：網頁編輯器支援ISO架構。
+    注意：網頁編輯器支援ISO結構描述。
 
 
 ## 瞭解「Schematron」在網頁編輯器中如何運作
 
 ### 設定結構描述規則
 
-請參閱以下主題中的「支援Schematron檔案」一節： [使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+請參閱[使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)中的「支援Schematron檔案」一節
 
 
 ### 在檔案儲存時強制執行驗證規則
 
-Webeditor設定可讓超級使用者設定每次使用者更新內容時所執行的Schematron規則/檔案。 如需更多詳細資料，請參閱以下的「驗證」一節： [使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+Webeditor設定可讓超級使用者設定每次使用者更新內容時所執行的Schematron規則/檔案。 如需更多詳細資料，請參閱[使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)中的「驗證」一節
 
-![從網頁編輯器設定設定設定規則](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
+![從Web編輯器設定設定設定規則](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
 
 ### 您可以手動執行驗證嗎？
 
 可以，作為作者/使用者，在建立內容時，您可以使用Webeditor中的「方案」面板來上傳Schematron檔案，並在編輯器中開啟的檔案上執行驗證。
 
-    為了使其運作，資料夾設定檔管理員必須允許所有使用者在驗證面板中新增結構描述檔案。 請參閱編輯器設定（上方提供的熒幕擷圖）
+    為了使其運作，資料夾設定檔管理員必須允許所有使用者在[驗證]面板中新增Schemtron檔案。 檢視編輯器設定（以上提供的熒幕擷圖）
 
 ![選擇結構描述檔案](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![執行驗證](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
@@ -49,7 +49,8 @@ Webeditor設定可讓超級使用者設定每次使用者更新內容時所執�
 
 ### 支援的規則
 
-目前版本的AEM Guides僅支援使用「宣告」型規則進行驗證。 (請參閱 [資產vs報表](https://schematron.com/document/205.html))尚未支援任何以「報表」為基礎的規則。
+目前版本的AEM Guides僅支援使用「宣告」型規則進行驗證。 （請參閱[資產與報表](https://schematron.com/document/205.html)）
+尚未支援任何以「報表」為基礎的規則。
 
 
 ### 有關Schematron規則的範例和更多說明
@@ -100,6 +101,6 @@ Webeditor設定可讓超級使用者設定每次使用者更新內容時所執�
 
 #### 資源
 
-- 瞭解  [Schematron基本概念](https://da2022.xatapult.com/#what-is-schematron)
-- 更多關於 [結構描述中的判斷提示規則](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- 瞭解[結構描述基本概念](https://da2022.xatapult.com/#what-is-schematron)
+- 深入瞭解Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)中的[宣告規則
 - [Schematron檔案範例](../../../assets/authoring/sample_schematron.sch)

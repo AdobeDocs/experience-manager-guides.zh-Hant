@@ -24,13 +24,13 @@ ht-degree: 2%
    http://<server name>:<port>/system/console/jmx
    ```
 
-1. 搜尋並按一下 **QueryEngineSettings**.
+1. 搜尋並按一下&#x200B;**QueryEngineSettings**。
 
-1. 變更的屬性值 **限制讀取** 屬性。
+1. 變更&#x200B;**LimitReads**&#x200B;屬性的屬性值。
 
 1. 按一下「**儲存**」。
 
 
 當您增加這個屬性值時，它有助於您為較大的DITA map產生報表。
 
-**父級主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

@@ -24,18 +24,18 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 套件組合。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;套件。
 
-1. 選取 **在同一個標籤中開啟DITA主題/對應** 選項。
+1. 選取&#x200B;**在相同索引標籤**&#x200B;中開啟DITA主題/地圖選項。
 
 1. 按一下「**儲存**」。
 
 
 此設定會影響您存取主題或對應檔案的下列位置：
 
-- 建立DITA主題\(在工作流程結束時，當您按一下 **開啟主題** button\)
+- 建立DITA主題\（在工作流程結束時，當您按一下&#x200B;**開啟主題**&#x200B;按鈕時\）
 
-- 建立DITA Map \(在工作流程結束時，當您按一下 **開啟地圖** button\)
+- 建立DITA Map \（在工作流程結束時，當您按一下&#x200B;**開啟對應**&#x200B;按鈕時\）
 
 - DITA map主控台中的主題標籤
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 - DITA map主控台中的「報表」索引標籤
 
 
-**父級主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

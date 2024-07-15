@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 步驟1：建立全域對應以儲存金鑰
 
-建立地圖並新增 [!UICONTROL keyref] 元素加入其中。
+建立對應並新增[!UICONTROL keyref]元素。
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,7 +37,7 @@ ht-degree: 0%
 </map>
 ```
 
-您已在此定義兩個定義，如上所示，並提供 [!UICONTROL keyref] 作為 _AEM_ 針對 _Adobe Experience Manager_ 文字。
+您在此處定義了兩個定義，如上所示，為&#x200B;_Adobe Experience Manager_&#x200B;文字提供[!UICONTROL keyref]為&#x200B;_AEM_。
 
 ## 步驟2：將此地圖新增至您的出版物地圖
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 步驟3：使用索引鍵來參照全域索引鍵對映中定義的變數
 
-+ 編輯主題並使用 [!UICONTROL keyref].
++ 使用[!UICONTROL keyref]編輯主題並新增索引鍵值。
 + 如熒幕擷圖所示，將顯示一個小視窗，您可在其中選擇關鍵字。 當您新增「keyword」元素時，就會顯示這個專案。
   ![插入元素](assets/insert_element.png)
   ![索引鍵參考](assets/key_ref.png)

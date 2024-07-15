@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **套件組合詳細資料**：
 
-- 群組ID： **com.adobe.fmdita**
+- 群組識別碼： **com.adobe.fmdita**
 
 - 成品ID： **api**
 
@@ -32,12 +32,12 @@ ht-degree: 0%
   public class ConversionUtils extends Object
   ```
 
-  此 **ConversionUtils** 類別包含將HTML和Word檔案轉換為DITA格式的方法。
+  **ConversionUtils**&#x200B;類別包含將HTML和Word檔案轉換為DITA格式的方法。
 
 
 ## 轉換HTML檔案
 
-此 `convertHtmlToDita` 方法會將HTML檔案轉換為DITA格式。
+`convertHtmlToDita`方法將HTML檔案轉換為DITA格式。
 
 **語法**：
 
@@ -49,13 +49,20 @@ public static void convertHtmlToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**引數**： |名稱|型別|說明| --------資----------- |`session`|javax.jcr.Session|有效的JCR工作階段。| |`inputFile`|字串|AEM存放庫中來源HTML檔案的絕對路徑。| |`destPath`|字串|將儲存轉換之DITA檔案的目的地位置的絕對路徑。| |`createRev`|布林值|指定是否建立檔案的修訂版本\( `true`\)是否在指定的目的地\( `false`\)。 只有在目的地位置包含轉換檔案的現有版本時，才會考慮使用此選項。|
+**引數**：
+|名稱|型別|說明|
+--------資-----------
+|`session`|javax.jcr.Session|有效的JCR工作階段。|
+|`inputFile`|字串|AEM存放庫中來源HTML檔案的絕對路徑。|
+|`destPath`|字串|要儲存轉換之DITA檔案的目的地位置的絕對路徑。|
+|`createRev`|布林值|指定是否在指定的目的地建立\(`true`\)檔案的修訂版本\(`false`\)。 只有在目的地位置包含轉換檔案的現有版本時，才會考慮使用此選項。|
 
-**例外**：擲回 `RepositoryException`.
+**例外狀況**：
+擲回`RepositoryException`。
 
 ## 轉換Word檔案
 
-此 ``convertWordToDita`` 方法會將Word檔案轉換為DITA格式。
+``convertWordToDita``方法會將Word檔案轉換為DITA格式。
 
 **語法**：
 
@@ -68,6 +75,14 @@ public static void convertWordToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**引數**： |名稱|型別|說明| --------資----------- |`session`|javax.jcr.Session|有效的JCR工作階段。| |`inputFile`|字串|AEM存放庫中來源Word檔案的絕對路徑。| |`destPath`|字串|將儲存轉換之DITA檔案的目的地位置的絕對路徑。| |`style2tagMap`|字串|用於轉換的樣式對應檔案的絕對路徑。| |`createRev`|布林值|指定是否建立檔案的修訂版本\( `true`\)是否在指定的目的地\( `false`\)。 只有在目的地位置包含轉換檔案的現有版本時，才會考慮使用此選項。|
+**引數**：
+|名稱|型別|說明|
+--------資-----------
+|`session`|javax.jcr.Session|有效的JCR工作階段。|
+|`inputFile`|字串|AEM存放庫中來源Word檔案的絕對路徑。|
+|`destPath`|字串|要儲存轉換之DITA檔案的目的地位置的絕對路徑。|
+|`style2tagMap`|字串|用於轉換的樣式對應檔案的絕對路徑。|
+|`createRev`|布林值|指定是否在指定的目的地建立\(`true`\)檔案的修訂版本\(`false`\)。 只有在目的地位置包含轉換檔案的現有版本時，才會考慮使用此選項。|
 
-**例外**：擲回 `RepositoryException`.
+**例外狀況**：
+擲回`RepositoryException`。

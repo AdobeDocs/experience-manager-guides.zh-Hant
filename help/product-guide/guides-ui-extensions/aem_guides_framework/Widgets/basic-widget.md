@@ -2,13 +2,13 @@
 title: Widget
 description: 瞭解Widget
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 96e960df-d595-4d58-8ad4-27057f857bac
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
 
 ---
-
 
 # Widget
 
@@ -45,8 +45,8 @@ const widgetJSON =  {
 },
 ```
 
-此處， `@languages` 是模型中定義的陣列 `widget_languages` 作為： [「英文」、「法文」、「印地文」、「西班牙文」、「烏爾都文」]
+在此，`@languages`是在`widget_languages`的模型中定義的陣列，如： [&quot;English&quot;、&quot;French&quot;、&quot;Hindi&quot;、&quot;Spanish&quot;、&quot;Urdu&quot;]
 
 演算後的基本Widget如下所示：
 
-![basic_widget](imgs/basic_widget.png "基本Widget")
+![basic_widget](imgs/basic_widget.png "基本widget")

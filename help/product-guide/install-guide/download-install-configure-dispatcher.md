@@ -14,15 +14,15 @@ ht-degree: 5%
 
 # 設定Dispatcher {#id213BCM0M05U}
 
-如果您打算在AEM Author執行個體上將Dispatcher與AEM Guides搭配使用，則您需要執行下列額外設定以完成設定：
+如果您打算在AEM Author執行個體上搭配使用Dispatcher以及AEM Guides，則您需要執行下列額外設定以完成設定：
 
 >[!NOTE]
 >
-> Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。如需有關使用Dispatcher的詳細資訊，請參閱 [Dispatcher綜覽](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
+> Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。如需有關使用Dispatcher的詳細資訊，請參閱[Dispatcher概觀](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en)。
 
 ## 在URL中啟用AllowEncodedSlases
 
-在AEM Dispatcher設定中，預設不會啟用包含編碼斜線的URL，但是當您在AEM Guides中工作時，需要啟用此設定。 為此，您需要在Apache設定中將AllowEncodedSlashes引數設定為On ，如下列程式碼片段所示：
+AEM Dispatcher設定中預設不會啟用具有編碼斜線的URL，但在AEM Guides中運作時，您需要啟用此設定。 為此，您需要在Apache設定中將AllowEncodedSlashes引數設定為On ，如下列程式碼片段所示：
 
 ```XML
 <VirtualHost *:80>
@@ -41,7 +41,7 @@ ht-degree: 5%
 
 ## 設定DITA的mime.types檔案
 
-搭配AEM Guides使用Dispatcher時，您必須確保DITA map和主題檔案以HTML呈現，以供作者依預期檢視內容\（而非原始文字格式\）。
+搭配AEM Guides使用Dispatcher時，您必須確保DITA map和主題檔案呈現為HTML，讓作者如預期般檢視內容\（而非原始文字格式\）。
 
 執行以下步驟來更新mime.types檔案：
 
@@ -60,13 +60,13 @@ ht-degree: 5%
 1. 儲存並關閉檔案。
 
 
-此設定更新會確保Dispatcher轉譯的DITA map和主題檔案在Assets UI中會顯示為HTML。
+此設定更新可確保Dispatcher轉譯的DITA map和主題檔案在Assets UI中顯示為HTML。
 
 ## 允許使用者偏好設定請求URL
 
-搭配AEM Guides使用Dispatcher時，如果您的作者執行個體前面有Dispatcher，則進行下列兩項變更：
+將Dispatcher與AEM Guides搭配使用時，如果您的編寫執行個體前端有Dispatcher，則進行下列兩項變更：
 
-- 將POST請求URL加入白名單。 範例» `/filters`&quot;規則如下所示 — 將此規則新增到Dispatcher設定檔案：
+- 將POST請求URL加入白名單。 以下提供&quot; `/filters`&quot;規則的範例 — 將此規則新增到Dispatcher設定檔案：
 
 ```json
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}
@@ -81,4 +81,4 @@ ht-degree: 5%
                 }
 ```
 
-**父級主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)

@@ -18,13 +18,13 @@ ht-degree: 0%
 
 執行以下步驟來覆寫預設的特殊字元清單：
 
-1. 建立 `symbols.json` 檔案，位於Cloud Manager的Git存放庫中的以下位置：
+1. 在您的Cloud Manager Git存放庫中的下列位置建立`symbols.json`檔案：
 
    ```
    /apps/fmdita/xmleditor/
    ```
 
-1. 在中新增特殊字元定義 `symbols.json` 檔案為：
+1. 在`symbols.json`檔案中新增特殊字元定義為：
 
    ```
    {"symbols": [{"label": "Arrows",
@@ -37,13 +37,13 @@ ht-degree: 0%
    ```
 
 
-的結構 `symbols.json` 檔案說明如下：
+`symbols.json`檔案的結構說明如下：
 
-- `"label": "Arrows"`：這會指定特殊字元的類別。 在程式碼片段中，具有名稱的類別 `"Arrows"` 已定義。
+- `"label": "Arrows"`：這會指定特殊字元的類別。 在程式碼片段中，已定義名稱為`"Arrows"`的類別。
 - `"items"`：這會定義類別中特殊字元的集合。
-- `"name": "←", "title": "Left Arrow"`：這是特殊字元的定義。 它從 `"name"` 標籤，不可變更。 名稱后面接著特殊字元。 此 `"title"` 是特殊字元的名稱或標題，會顯示為該特殊字元的工具提示。
+- `"name": "←", "title": "Left Arrow"`：這是特殊字元的定義。 它以`"name"`標籤開始，該標籤不可變更。 名稱后面接著特殊字元。 `"title"`是特殊字元的名稱或標題，會顯示為該特殊字元的工具提示。
 
   您可以在類別中定義多個特殊字元的定義。
 
 
-**父級主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

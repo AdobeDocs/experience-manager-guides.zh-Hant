@@ -1,21 +1,21 @@
 ---
 title: 針對特定使用者，從編輯器中的檔案內容功能表中移除「刪除」選項
 description: 瞭解如何透過從特定使用者/群組的檔案快顯選單中移除「刪除」選項來自訂編輯器
-source-git-commit: aacc04e2fb6ca061825e5e219ad6e03bf711b3d0
+exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
 # 移除Webeditor中檔案內容功能表的[刪除]選項
 
-在本文中，我們將瞭解如何在AEM Guides網頁編輯器中，針對特定使用者或群組從檔案快顯選單中隱藏「刪除」選項。 如需檔案快顯功能表選項的其他自訂內容，請檢查Guides擴充功能框架。 可以找到更多詳細資料 [此處](https://github.com/adobe/guides-extension/tree/main).
+在本文中，我們將瞭解如何在AEM Guides Web Editor的檔案快顯選單中，為特定使用者或群組隱藏「刪除」選項。 如需檔案快顯功能表選項的其他自訂內容，請檢查Guides擴充功能框架。 在[這裡](https://github.com/adobe/guides-extension/tree/main)可找到更多詳細資料。
 
 如以下程式碼片段所示，檔案快顯功能表具有「刪除」選項可供此特定使用者使用。
 
-![含刪除功能的檔案內容功能表](../../../assets/authoring/file-contextmenu-Delete.png)
+![含刪除的檔案內容功能表](../../../assets/authoring/file-contextmenu-Delete.png)
 
 現在，讓我們看看如何隱藏此使用者的「刪除」選項。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 檔案快顯功能表現在看起來像這樣：
 
-![檔案內容功能表（不含Delete）](../../../assets/authoring/file-contextmenu-Delete-removed.png)
+![不含Delete的File contextmenu](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
 Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.

@@ -1,6 +1,6 @@
 ---
 title: 作者內容
-description: 在AEM Guides中編寫內容。 瞭解如何建立、預覽、編輯、儲存檔案版本以及共用供檢閱。
+description: 在AEM Guides中製作內容。 瞭解如何建立、預覽、編輯、儲存檔案版本以及共用供檢閱。
 exl-id: 2696f315-7c27-4bac-a621-b8066cf5c96e
 feature: Authoring
 role: User
