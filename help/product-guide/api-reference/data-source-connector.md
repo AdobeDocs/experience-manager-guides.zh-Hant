@@ -24,9 +24,10 @@ ht-degree: 0%
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
 **引數**：
+
 |名稱|型別|必要|說明|
----------------------------
-|`path`|字串|是|指向AEM存放庫中路徑的字串。 它可以是`/content/dam or /var/dxml`中的路徑。|
+|----|----|--------|-----------|
+|`path`|String|Yes|A string which points to a path in the AEM repository. It can be a path in the `/content/dam or /var/dxml`.|
 
 **範例**：\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`
