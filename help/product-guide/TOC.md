@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
+source-git-commit: d16d9915b826a754f834ad82f413e860c2da12d2
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 5%
 
 ---
@@ -403,7 +403,7 @@ ht-degree: 5%
    - [使用基線和標籤的Java式API](./api-reference/create-baseline-label-java.md)
    - [使用資料夾設定檔的Java型API](./api-reference/folder-profile-java.md)
    - [用於建立和啟用套件的Java型API](./api-reference/create-activate-package-java.md)
-   - [Post處理事件處理常式](./api-reference/post-process-event.md)
+   - [後續處理事件處理常式](./api-reference/post-process-event.md)
    - [大量啟用完成事件處理常式](./api-reference/bulk-activation-complete-event.md)
    - [轉換程式事件處理常式](./api-reference/conversion-complete-event.md)
 - 知識庫{#knowledge-base}
@@ -459,9 +459,12 @@ ht-degree: 5%
             - [簡單的自訂](./guides-ui-extensions/customisations/add-button.md)
             - [自訂內容功能表](./guides-ui-extensions/customisations/context-menus.md)
             - [自訂工具列和標題列](./guides-ui-extensions/customisations/toolbar-topbar.md)
+            - [範例](./guides-ui-extensions/examples.md)
+            - [可自訂的Json](./guides-ui-extensions/JSONs.md)
             - 檢閱{#review-app-customisations}
                - [元件](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [自訂](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+               - [自訂對話方塊](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 正在發佈{#publishing}
 
          - [設定AEM環境以進行原生PDF發佈](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -477,7 +480,7 @@ ht-degree: 5%
          - [設定自訂DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
       - 工作流程 {#workflows}
-         - [Post產生工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         - [貼文產生工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 轉換 {#translation}
          - [從翻譯中排除段落](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - 使用案例{#use-cases}

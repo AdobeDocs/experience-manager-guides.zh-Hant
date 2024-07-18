@@ -3,7 +3,7 @@ title: 自訂
 description: 自訂稽核應用程式
 role: User, Admin
 exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 ## Review-Comment
 
 - 識別碼： `review_comment`
-- 勾點： `this.updateExtraProps`：
+- 勾點： `this.next('updateExtraProps')`：
 
 如同[這裡](../../aem_guides_framework/basic-customisation.md)所述，自訂期間新增的任何新屬性都會落在`this.model.extraProps`之下。 方法`updateExtraProps`可讓您新增屬性到檢閱註解，同時處理伺服器上新增屬性的更新及儲存。
 
@@ -80,8 +80,20 @@ ht-degree: 0%
 在上述程式碼片段中，我們正在檢查已傳送事件是否為新註解或回覆。 若有新的註解或回覆，我們正在呼叫方法`setUserInfo`
 
 ```typescript
+    const getUserInfo = (userId) => {
+      return $.ajax({
+        url: '/bin/dxml/xmleditor/userinfo',
+        data: {
+          username: userId,
+        },
+        success: (data) => {
+          return data
+        }
+      })
+    }
+
     setUserInfo(event) {
-      this.loader?.getUserInfo(event.user).subscribe(userData => {
+      getUserInfo(event.user).done(userData => {
         const extraProps = {
           "userFirstName": userData?.givenName || '',
           "userLastName": userData?.familyName || '',
