@@ -5,10 +5,10 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -28,15 +28,15 @@ com/adobe/fmdita/replication/complete
 
 **引數**：
 
-|Name|Type|Description|
+| 名稱 | 類型 | 說明 |
 |----|----|-----------|
-|`path`|String|The path of the file that triggered this event. <br> For example, `/content/output/sites/ditamap1-ditamap`. <br> It is a list of paths serialized as a JSON array.|
-|`messageType`|String|The type of a message. <br>Possible option : `REPLICATION`|
-|`action`|String|This is the action performed. <br>Possible option : `BulkReplicate`|
-|`user`|String|The user who started the operation.|
-|`result`|String|The result of the Bulk Activation. It is a serialized JSON Object: <br>`{"success":boolean,"code":integer,"message":"" }`|
-|`agentId`|String|The agentId used in the replication. For example, `"publish"`.|
-|`importMode`|String|Import mode used in Activation. The possible options are: <br>`REPLACE, MERGE, UPDATE`.|
+| `path` | 字串 | 觸發此事件的檔案路徑。 <br>例如，`/content/output/sites/ditamap1-ditamap`。 <br>這是序列化為JSON陣列的路徑清單。 |
+| `messageType` | 字串 | 訊息的型別。 <br>可能的選項： `REPLICATION` |
+| `action` | 字串 | 這是執行的動作。 <br>可能的選項： `BulkReplicate` |
+| `user` | 字串 | 啟動作業的使用者。 |
+| `result` | 字串 | 大量啟動的結果。 它是序列化JSON物件： <br>`{"success":boolean,"code":integer,"message":"" }` |
+| `agentId` | 字串 | 復寫中使用的agentId。 例如，`"publish"`。 |
+| `importMode` | 字串 | Activation中使用的匯入模式。 可能的選項包括： <br>`REPLACE, MERGE, UPDATE`。 |
 
 
 **範例事件接聽程式**：

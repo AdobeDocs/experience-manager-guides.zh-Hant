@@ -5,10 +5,10 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 7c529e98334999cf2b5e9ee18a27278d24318437
+source-git-commit: d0196ffbe5a779445d627871c2940f7eea40f1ce
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,10 +24,11 @@ ht-degree: 0%
 http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/fmdita/exportditamap
 
 **引數**：
-|名稱|型別|必要|說明|
----------------------------
-|`ditamap`|字串|是|AEM存放庫中DITA map檔案的絕對路徑。|
-|`baseline`|字串|否|用來擷取已建立版本之內容的基準標題。<br> **注意：**&#x200B;值區分大小寫。 |
+
+| 名稱 | 類型 | 必要 | 說明 |
+|----|----|--------|-----------|
+| `ditamap` | 字串 | 是 | AEM存放庫中DITA map檔案的絕對路徑。 |
+| `baseline` | 字串 | 否 | 用來擷取已建立版本之內容的基準標題。<br> **注意：**&#x200B;值區分大小寫。 |
 
 **回應值**：
 一個.zip檔案，其內容會寫入回應的輸出資料流中。

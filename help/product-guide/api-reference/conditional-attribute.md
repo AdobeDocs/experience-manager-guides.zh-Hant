@@ -5,10 +5,10 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,12 +23,13 @@ ht-degree: 0%
 **要求URL**：\
 http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/fmdita/folderprofiles
 
-**引數**：\
-|名稱|型別|必要|說明|
----------------------------
-|`:operation`|字串|是|要呼叫之作業的名稱。 此引數的值為``ADDATTRIBUTEPROFILES``。<br> **注意：**值不區分大小寫。|
-|`profilename`|字串|是|必須新增條件屬性的資料夾層級設定檔的顯示名稱。|
-|`conditionalprofiles`|JSON陣列|是|由條件屬性名稱和值組成的JSON陣列。 下列程式碼片段範例顯示JSON陣列具有兩個屬性 — `platform`和`product`，指派了多個值。|
+**引數**：
+
+| 名稱 | 類型 | 必要 | 說明 |
+|----|----|--------|-----------|
+| `:operation` | 字串 | 是 | 要呼叫的作業名稱。 此引數的值為``ADDATTRIBUTEPROFILES``。<br> **注意：**&#x200B;值不區分大小寫。 |
+| `profilename` | 字串 | 是 | 必須新增條件屬性的資料夾層級設定檔的顯示名稱。 |
+| `conditionalprofiles` | JSON陣列 | 是 | 由條件屬性名稱和值組成的JSON陣列。 下列程式碼片段範例顯示JSON陣列具有兩個屬性 — `platform`和`product`，指派了多個值。 |
 
 ```JSON
 [  {    name: "platform",    
