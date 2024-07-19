@@ -1,9 +1,9 @@
 ---
 title: 範例
 description: 自訂範例清單
-source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
+source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 0%
 
 6. [接受修改對話方塊](./examples/review_app_examples/accept_with_modification_dialog.ts)
 這是將新Widget新增至應用程式的範例。 我們已在此建立新的對話方塊，其中包含兩個輸入文字欄位： `Revised Text`和`Adjudicator Comment Rationale`
+
+7. [儲存修訂](./examples/save_revision.ts)
+以下是如何更新現有對話方塊的範例。 我們在此新增了發佈按鈕。 我們允許修改對話方塊的內容。 請在此參考其json： [`save_revision`](./jsons/dialogs/save_revision.json)
 
 ![接受修改對話方塊](./imgs/accept_with_modification_dialogue.png)
 

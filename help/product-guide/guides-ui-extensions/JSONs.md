@@ -2,9 +2,9 @@
 title: 公開的JSON
 description: 公開的JSON清單
 role: User, Admin
-source-git-commit: c18dd9b41b780ba3bdca8952dc0d94e1af1459dc
+source-git-commit: 0691a3e64b90bac8df90d1ee6314610b0e13dd29
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '29'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,7 @@ ht-degree: 0%
 - [&#39;review_left_panels_container&#39;](./jsons/review_app/review_left_panels_container.json)
 - [&#39;review_left_panel_topics&#39;](./jsons/review_app/review_left_panel_topics.json)
 - [&#39;review_left_panel_item&#39;](./jsons/review_app/review_left_panel_item.json)
+
+對話方塊：
+
+- [&#39;save_revision&#39;](./jsons/dialogs/save_revision.json)
