@@ -4,7 +4,7 @@ description: 最新版本的Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -18,6 +18,7 @@ ht-degree: 1%
 ## 升級至最新版本
 
 您可以輕鬆地將您目前的AEM Guides版本升級至4.1.3版。在繼續升級至AEM Guides 4.1.3版之前，您必須先考量下列幾點：
+
 * 如果您是使用4.1或4.1.x版，則可以直接升級至4.1.3版。
 * 如果您是使用4.0.x版，則必須先升級至4.1或4.1.x版，才能升級至4.1.3。
 * 如果您是使用3.8.5版，則必須先升級至4.0.x版，才能升級至4.1。

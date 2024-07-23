@@ -3,9 +3,9 @@ title: 發行說明 | Adobe Experience Manager Guides 4.4.0版的新增功能
 description: 瞭解Adobe Experience Manager Guides 4.4.0版中的新功能和增強功能
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,7 @@ ht-degree: 0%
 ![版本記錄對話方塊](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *預覽不同版本主題中的變更。*
 
-
-在[左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS)區段中進一步瞭解&#x200B;**版本記錄**&#x200B;功能說明。
+在[左側面板（舊版）](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS)區段中進一步瞭解&#x200B;**版本記錄**&#x200B;功能說明。
 
 ## 管理條件預設集
 
