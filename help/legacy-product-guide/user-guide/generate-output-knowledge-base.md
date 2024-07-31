@@ -3,7 +3,8 @@ title: 知識庫
 description: 瞭解如何從網頁編輯器和地圖控制面板建立知識庫預設集。 在AEM Guides中設定知識庫輸出預設集。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
@@ -51,12 +52,13 @@ ht-degree: 1%
 | 類別 | 從下拉式清單中選取類別，以在Salesforce網站上發佈該類別中目錄的主題。 |
 
 您也可以在Salesforce和ServiceNow預設集中檢視下列選項：
+
 | 選項 | 說明 |
-| — | — |
-|從文章本文中移除主題標題。|選取此選項，即可從已發佈輸出的文章中移除主題標題。 |
-|上傳為草稿 | 選取此選項以上傳主題，將其共用為草稿，然後才可供使用者使用。|
-|上傳影像| 如果您要將主題中的任何影像包含在發佈的輸出中，請選取此選項。|
-|上傳連結的檔案| 選取此選項可將連結在主題中的檔案包含在已發佈的輸出中。|
+| --- | --- |
+| 從文章本文中移除主題標題。 | 選取此選項，從發佈輸出的文章中移除主題標題。 |
+| 上傳為草稿 | 選取此選項以上傳主題，將其共用為草稿，然後才可供使用者使用。 |
+| 上傳影像 | 如果您要將主題中的任何影像包含在發佈的輸出中，請選取此選項。 |
+| 上傳連結的檔案 | 選取此選項可將連結在主題中的檔案包含在已發佈的輸出中。 |
 
 
 ### Adobe Experience Manager
@@ -73,6 +75,7 @@ ht-degree: 1%
 | 類別 | 從下拉式清單中選取類別，以在AdobeExperience Manager網站上發佈該類別中目錄的主題。 |
 | 章節範本和文章範本 | 這些是用來組織輸出內容的結構元件。 這些範本已在Adobe Experience Manager網站範本中預先定義。 |
 | 貼文產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含Adobe Experience Manager中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。<br>進一步瞭解如何在安裝與設定指南中[自訂輸出後產生工作流程](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)區段。 |
+
 >[!TIP]
 > 
 >選取&#x200B;**重新整理** ![重新整理圖示](images/navtitle-refresh-icon.svg)，以依照您選取的知識庫範本填入欄位中的個別範本。

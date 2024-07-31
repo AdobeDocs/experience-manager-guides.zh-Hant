@@ -5,10 +5,10 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -50,12 +50,13 @@ public static void convertHtmlToDita(Session session,
 ```
 
 **引數**：
-|名稱|型別|說明|
---------資-----------
-|`session`|javax.jcr.Session|有效的JCR工作階段。|
-|`inputFile`|字串|AEM存放庫中來源HTML檔案的絕對路徑。|
-|`destPath`|字串|要儲存轉換之DITA檔案的目的地位置的絕對路徑。|
-|`createRev`|布林值|指定是否在指定的目的地建立\(`true`\)檔案的修訂版本\(`false`\)。 只有在目的地位置包含轉換檔案的現有版本時，才會考慮使用此選項。|
+
+| 名稱 | 類型 | 說明 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR工作階段。 |
+| `inputFile` | 字串 | AEM存放庫中來源HTML檔案的絕對路徑。 |
+| `destPath` | 字串 | 儲存轉換之DITA檔案的目的地位置的絕對路徑。 |
+| `createRev` | 布林值 | 指定是否在指定的目的地建立\(`true`\)檔案的修訂版本\(`false`\)。 僅當目的地位置包含轉換檔案的現有版本時，才會考慮這種情況。 |
 
 **例外狀況**：
 擲回`RepositoryException`。
@@ -76,13 +77,14 @@ public static void convertWordToDita(Session session,
 ```
 
 **引數**：
-|名稱|型別|說明|
---------資-----------
-|`session`|javax.jcr.Session|有效的JCR工作階段。|
-|`inputFile`|字串|AEM存放庫中來源Word檔案的絕對路徑。|
-|`destPath`|字串|要儲存轉換之DITA檔案的目的地位置的絕對路徑。|
-|`style2tagMap`|字串|用於轉換的樣式對應檔案的絕對路徑。|
-|`createRev`|布林值|指定是否在指定的目的地建立\(`true`\)檔案的修訂版本\(`false`\)。 只有在目的地位置包含轉換檔案的現有版本時，才會考慮使用此選項。|
+
+| 名稱 | 類型 | 說明 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR工作階段。 |
+| `inputFile` | 字串 | AEM存放庫中來源Word檔案的絕對路徑。 |
+| `destPath` | 字串 | 儲存轉換之DITA檔案的目的地位置的絕對路徑。 |
+| `style2tagMap` | 字串 | 用於轉換的樣式對應檔案的絕對路徑。 |
+| `createRev` | 布林值 | 指定是否在指定的目的地建立\(`true`\)檔案的修訂版本\(`false`\)。 僅當目的地位置包含轉換檔案的現有版本時，才會考慮這種情況。 |
 
 **例外狀況**：
 擲回`RepositoryException`。

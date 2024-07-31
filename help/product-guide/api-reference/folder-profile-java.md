@@ -5,10 +5,10 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -54,13 +54,14 @@ Session session) throws GuidesApiException
 ```
 
 **引數**：
-|名稱|型別|說明|
---------資-----------
-|``attributeNames``|字串|屬性名稱清單。|
-|``values``|字串|指定屬性的值清單。|
-|`labels`|字串|適用於`attribute`- `value`配對的標籤清單。 [1](#fntarg_1)|
-|`profileName`|字串|必須套用這些屬性、值和標籤的資料夾層級設定檔名稱。 **重要：**設定檔中定義的所有現有屬性 — 值 — 標籤都會被覆寫。|
-|`session`|javax.jcr.Session|有效的JCR工作階段。|
+
+| 名稱 | 類型 | 說明 |
+|----|----|-----------|
+| ``attributeNames`` | 字串 | 屬性名稱清單。 |
+| ``values`` | 字串 | 指定屬性的值清單。 |
+| `labels` | 字串 | `attribute`- `value`配對的標籤清單。 [1](#fntarg_1) |
+| `profileName` | 字串 | 必須套用這些屬性、值和標籤的資料夾層級設定檔名稱。 **重要：**&#x200B;設定檔中定義的所有現有屬性 — 值 — 標籤都會被覆寫。 |
+| `session` | javax.jcr.Session | 有效的JCR工作階段。 |
 
 **傳回**：
 成功為`true`。 如果失敗，系統會擲回例外狀況。

@@ -5,10 +5,10 @@ exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
 feature: Java-Based API Dita Map
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -57,13 +57,14 @@ public static void zipMapWithDependents(Session session,
 ```
 
 **引數**：
-|名稱|型別|說明|
---------資-----------
-|`session`|javax.jcr.Session|有效的JCR工作階段。|
-需要下載之DITA map檔案的|`sourcePath`|字串|路徑\(在AEM存放庫中\)。|
-|`outputStream`|java.io.OutputStream|要將ZIP寫入的資料流。|
-|`baseline`|字串|用來擷取已建立版本之內容的基準標題。<br> **注意：**值區分大小寫。|
-|flatFS|Boolean|\(Optional\)如果設為true，則會在ZIP檔案中傳回檔案的平面結構。 例如，如果您的DITA map參照多個資料夾中的內容，則所有參照的檔案都會提取到單一資料夾中。 如果存在同名檔案，則會新增數值尾碼以重新命名這些檔案。 所有參照\（在DITA map和主題中\）都會自動處理，因為它們會根據平面資料夾結構中檔案的新位置進行更新。 如果設為false，則會維持資料夾結構在ZIP檔案中的原樣。 如果DITA map參照來自多個位置的檔案，則所有這些位置也會在ZIP檔案中建立。 還原ZIP檔案時，會在目的地位置建立精確的資料夾結構。 <br>此引數的預設值為false。|
+
+| 名稱 | 類型 | 說明 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR工作階段。 |
+| `sourcePath` | 字串 | 需要下載之DITA map檔案的路徑\(在AEM存放庫中\)。 |
+| `outputStream` | java.io.OutputStream | 要將ZIP寫入的資料流。 |
+| `baseline` | 字串 | 用來擷取已建立版本之內容的基準標題。<br> **注意：**&#x200B;值區分大小寫。 |
+| flatFS | 布林值 | \(Optional\)如果設為true，則會在ZIP檔案中傳回檔案的平面結構。 例如，如果您的DITA map參照多個資料夾中的內容，則所有參照的檔案都會提取到單一資料夾中。 如果存在同名檔案，則會新增數值尾碼以重新命名這些檔案。 所有參照\（在DITA map和主題中\）都會自動處理，因為它們會根據平面資料夾結構中檔案的新位置進行更新。 如果設為false，則會維持資料夾結構在ZIP檔案中的原樣。 如果DITA map參照來自多個位置的檔案，則所有這些位置也會在ZIP檔案中建立。 還原ZIP檔案時，會在目的地位置建立精確的資料夾結構。 <br>此引數的預設值為false。 |
 
 **傳回**：
 ZIP的內容會寫入`outputStream`。
@@ -93,12 +94,13 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 ```
 
 **引數**：
-|名稱|型別|說明|
---------資-----------
-|`session`|javax.jcr.Session|有效的JCR工作階段。|
-需要下載之DITA map檔案的|`sourcePath`|字串|路徑\(在AEM存放庫中\)。|
-|`baseline`|字串|用來擷取已建立版本之內容的基準標題。<br> **注意：**值區分大小寫。|
-|flatFS|Boolean|\(Optional\)如果設為true，則會在ZIP檔案中傳回檔案的平面結構。 例如，如果您的DITA map參照多個資料夾中的內容，則所有參照的檔案都會提取到單一資料夾中。 如果存在同名檔案，則會新增數值尾碼以重新命名這些檔案。 所有參照\（在DITA map和主題中\）都會自動處理，因為它們會根據平面資料夾結構中檔案的新位置進行更新。 如果設為false，則會維持資料夾結構在ZIP檔案中的原樣。 如果DITA map參照來自多個位置的檔案，則所有這些位置也會在ZIP檔案中建立。 還原ZIP檔案時，會在目的地位置建立精確的資料夾結構。<br>此引數的預設值為false。|
+
+| 名稱 | 類型 | 說明 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR工作階段。 |
+| `sourcePath` | 字串 | 需要下載之DITA map檔案的路徑\(在AEM存放庫中\)。 |
+| `baseline` | 字串 | 用來擷取已建立版本之內容的基準標題。<br> **注意：**&#x200B;值區分大小寫。 |
+| flatFS | 布林值 | \(Optional\)如果設為true，則會在ZIP檔案中傳回檔案的平面結構。 例如，如果您的DITA map參照多個資料夾中的內容，則所有參照的檔案都會提取到單一資料夾中。 如果存在同名檔案，則會新增數值尾碼以重新命名這些檔案。 所有參照\（在DITA map和主題中\）都會自動處理，因為它們會根據平面資料夾結構中檔案的新位置進行更新。 如果設為false，則會維持資料夾結構在ZIP檔案中的原樣。 如果DITA map參照來自多個位置的檔案，則所有這些位置也會在ZIP檔案中建立。 還原ZIP檔案時，會在目的地位置建立精確的資料夾結構。<br>此引數的預設值為false。 |
 
 **傳回**：
 Zip檔案的Node已包裝在`CompletableFuture`類別中。 使用者可以繼續以非同步方式處理它，並且可以在需要節點時使用未來的`.get()`方法來封鎖執行緒。 傳回的值也可能以錯誤結束，而且可以使用`.exceptionally()`方法處理。
@@ -117,10 +119,11 @@ public static List<HashMap<String,String>> getBaselineList(
 ```
 
 **引數**：
-|名稱|型別|說明|
---------資-----------
-|`session`|javax.jcr.Session|有效的JCR工作階段。|
-|`sourcePath`|字串|路徑\(在AEM存放庫中\) DITA map檔案中，將擷取其基準資訊。|
+
+| 名稱 | 類型 | 說明 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR工作階段。 |
+| `sourcePath` | 字串 | 要擷取基準線資訊之DITA map檔案的路徑\(在AEM存放庫中\)。 |
 
 **傳回**：
 `HashMap`物件的清單。 每個`HashMap`物件代表一個基準線，並包含基準線的名稱和標題。
@@ -142,10 +145,11 @@ public static List<HashMap<String,String>> getConditionalPresetList (
 ```
 
 **引數**：
-|名稱|型別|說明|
---------資-----------
-|`session`|javax.jcr.Session|有效的JCR工作階段。|
-|`sourcePath`|字串|路徑\(在AEM存放庫中\) DITA map檔案（將擷取其條件式預設集資訊）。|
+
+| 名稱 | 類型 | 說明 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR工作階段。 |
+| `sourcePath` | 字串 | 要擷取條件預設集資訊之DITA map檔案的路徑\(在AEM存放庫中\)。 |
 
 **傳回**：
 `HashMap`物件的清單。 每個`HashMap`物件代表一個條件式預設集，並包含條件式預設集的名稱和標題。
@@ -167,11 +171,12 @@ public static String getDitavalFromConditionalPreset
 ```
 
 **引數**：
-|名稱|型別|說明|
---------資-----------
-|`session`|javax.jcr.Session|有效的JCR工作階段。|
-|`sourcePath`|字串|要擷取DITAVAL檔案之DITA map檔案的路徑\(在AEM存放庫中\)。|
-|`cpName`|字串|要擷取DITAVAL檔案之DITA map中的條件預設集名稱。|
+
+| 名稱 | 類型 | 說明 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR工作階段。 |
+| `sourcePath` | 字串 | 要擷取DITAVAL檔案之DITA map檔案的路徑\(在AEM存放庫中\)。 |
+| `cpName` | 字串 | DITA map中要擷取DITAVAL檔案的條件預設集名稱。 |
 
 **傳回**：
 與DITA map檔案中定義的條件預設集相對應的DITAVAL檔案路徑。
@@ -189,9 +194,10 @@ public static List
 ```
 
 **引數**：
-|名稱|型別|說明|
---------資-----------
-|`rootNode`|javax.jcr.Node|要擷取其所有相依性的根節點。|
+
+| 名稱 | 類型 | 說明 |
+|----|----|-----------|
+| `rootNode` | javax.jcr.Node | 要擷取其所有相依性的根節點。 |
 
 **傳回**：
 包含根節點所有相依性的節點清單。
