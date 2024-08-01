@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 2b63b1d1c71e60c06c1d2c01b40b085dc7f4a6b0
+source-git-commit: 44875f9fb0935abd0ee58bf933bb0eedb50c0616
 workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 5%
@@ -428,7 +428,7 @@ ht-degree: 5%
       - 製作 {#authoring}
          - 網頁編輯器{#webeditor}
             - [AEM Guides中的內容重複使用性](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-            - [在AEM Guides中使用Markdown](./knowledge-base/kb-articles/authoring/webeditor/mardown-in-DITA-and-AEM-Guides.md)
+            - [在AEM Guides中使用Markdown](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
             - 自訂{#customizing}
                - [新增自訂按鈕到工具列](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [新增自訂樣式至網頁編輯器](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
