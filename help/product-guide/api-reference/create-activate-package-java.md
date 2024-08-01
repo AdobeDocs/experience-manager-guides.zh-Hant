@@ -5,10 +5,10 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
+source-git-commit: 1bb422427822e7f369e0c1be7de6b12ec012075e
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -71,12 +71,13 @@ throws GuidesApiException
 ```
 
 **引數**：
-|名稱|型別|說明|
---------資-----------
-|`json`|字串|決定要建置CRX套件的JSON字串。 使用以下格式建立JSON字串： <br>- `activate`：屬於布林型別\(`true`/`false`\)。 判斷是否將在製作執行個體中建立的CRX套件復寫至發佈執行個體。 <br> - `rules`：屬於JSON陣列型別。 一系列JSON規則，系統會依序處理以建置CRX套件。 <br> - `rootPath`：屬於字串型別。 執行節點/屬性查詢的基底路徑。 如果不存在節點/屬性查詢，根路徑以及根路徑下存在的所有節點都會包含在CRX套件中。 <br> - `nodeQueries`：屬於型別Regex陣列。 規則運算式的陣列，用來包含根路徑下的特定檔案。 <br> - `propertyQueries`：屬於JSON陣列型別。 JSON物件陣列，其中每個JSON物件包含要在根路徑上執行的XPath查詢，以及執行查詢後每個JCR節點中存在的屬性名稱。 每個JCR節點中屬性的值應為路徑或路徑陣列。 此屬性中存在的路徑已新增至CRX套件。|
-|`outputstream`|java.io.OutputStream|這可用來寫入不同階段的結果，例如查詢執行、檔案包含、CRX封裝建立或啟動。 在建立或啟動程式期間遇到的任何錯誤都會寫入`outputstream`。 這對於偵錯很有用。|
-|`session`|字串|具有啟用許可權的有效JCR工作階段。|
-|`activationTarget`|字串|（*選擇性*） `preview`或`publish` (適用於Cloud Service)，以及`publish` （適用於On-premise軟體<br>） — 若為Cloud Service，如果引數包含無效值，則封裝啟用會失敗。 <br> — 針對On-Premise軟體，如果引數包含無效值，則會記錄錯誤，並使用預設值`publish`完成發佈。 |
+
+| 名稱 | 類型 | 說明 |
+|----|----|-----------|
+| `json` | 字串 | 決定要建置CRX套件的JSON字串。 使用以下格式建立JSON字串： <br>- `activate`：屬於布林型別\(`true`/`false`\)。 判斷是否將在製作執行個體中建立的CRX套件復寫至發佈執行個體。 <br> - `rules`：屬於JSON陣列型別。 一系列JSON規則，系統會依序處理以建置CRX套件。 <br> - `rootPath`：屬於字串型別。 執行節點/屬性查詢的基底路徑。 如果不存在節點/屬性查詢，根路徑以及根路徑下存在的所有節點都會包含在CRX套件中。 <br> - `nodeQueries`：屬於型別Regex陣列。 規則運算式的陣列，用來包含根路徑下的特定檔案。 <br> - `propertyQueries`：屬於JSON陣列型別。 JSON物件陣列，其中每個JSON物件包含要在根路徑上執行的XPath查詢，以及執行查詢後每個JCR節點中存在的屬性名稱。 每個JCR節點中屬性的值應為路徑或路徑陣列。 此屬性中存在的路徑已新增至CRX套件。 |
+| `outputstream` | java.io.OutputStream | 這可用來寫入不同階段的結果，例如查詢執行、檔案包含、CRX套件建立或啟動。 在建立或啟動程式期間遇到的任何錯誤都會寫入`outputstream`。 這對於偵錯很有用。 |
+| `session` | 字串 | 具有啟用許可權的有效JCR工作階段。 |
+| `activationTarget` | 字串 | (*Optional*) `preview`或`publish` (適用於Cloud Service)以及`publish` （適用於On-premise軟體<br>） — 若是Cloud Service，如果引數包含無效值，則封裝啟用會失敗。 <br> — 針對On-Premise軟體，如果引數包含無效值，則會記錄錯誤，並使用預設值`publish`完成發佈。 |
 
 **例外狀況**：
 
