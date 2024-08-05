@@ -4,7 +4,7 @@ description: 瞭解如何將內容從內部部署軟體移轉至Cloud Service
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0c29d3cffa9f9a741ba5f7bd6150d234fbe8341e
+source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
@@ -74,8 +74,7 @@ Experience Manageras a Cloud Service為Experience Manager Assets、Forms和Scree
 1. 建立之後，請選取三個點，然後選取&#x200B;**複製擷取金鑰**。
 
 
-1. 按一下&#x200B;**複製到剪貼簿**。
-建立您的第一個專案。
+1. 按一下&#x200B;**複製到剪貼簿**。 建立您的第一個專案。
    ![擷取金鑰](./assets/migration-copy-to-clipboard.png)
 
 1. 在上方選取「**Adobe Experience Manager**」，然後選取「**軟體發佈**」圖磚。
@@ -125,17 +124,14 @@ Experience Manageras a Cloud Service為Experience Manager Assets、Forms和Scree
 1. 選取&#x200B;**移轉集**，然後在頂端選取&#x200B;**擷取**。
    ![移轉集擷取](./assets/migration-extract.png)
 
-1. 在&#x200B;**移轉集擷取**&#x200B;快顯視窗中驗證您所選取的路徑和設定的詳細資料，然後按一下&#x200B;**擷取**。
-擷取需要幾分鐘的時間，而您將檢視更新狀態。
+1. 在&#x200B;**移轉集擷取**&#x200B;快顯視窗中驗證您所選取的路徑和設定的詳細資料，然後按一下&#x200B;**擷取**。 擷取需要幾分鐘的時間，而您將檢視更新狀態。
    ![移轉集擷取](./assets/migration-set-extraction.png)
 
 1. 擷取完成後，以狀態`finished`表示後，請前往Cloud Acceleration Manager並選取您在步驟18建立的專案。
 如需詳細資訊，請選取三個點，然後選取**檢視詳細資料**。
 
 
-1. 在移轉集詳細資訊快顯視窗中，驗證移轉集設定並關閉快顯視窗。
-
-   您可以檢視路徑和其他設定，如下列熒幕擷圖所示：
+1. 在移轉集詳細資訊快顯視窗中，驗證移轉集設定並關閉快顯視窗。 您可以檢視路徑和其他設定，如下列熒幕擷圖所示：
    ![移轉詳細資料](./assets/migration-details.png)
 
 
@@ -146,8 +142,6 @@ Experience Manageras a Cloud Service為Experience Manager Assets、Forms和Scree
 1. 挑選移轉集，選取環境所需的伺服器，然後按一下[內嵌]。****
 
    ![新內嵌](./assets/migration-new-ingestion.png)
-
-
 
 ## 在Publish執行個體上執行內容轉移工具
 
