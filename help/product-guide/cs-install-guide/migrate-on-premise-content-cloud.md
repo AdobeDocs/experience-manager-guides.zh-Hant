@@ -4,18 +4,29 @@ description: 瞭解如何將內容從內部部署軟體移轉至Cloud Service
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
+source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1000'
 ht-degree: 1%
 
 ---
 
 # 將內容從內部部署移轉至Cloud Service
 
-Experience Manageras a Cloud Service為Experience Manager Assets、Forms和Screens提供可擴充、安全且敏捷的技術基礎。 這可讓行銷人員和IT專業人士專注於大規模提供具影響力的體驗。
+Experience Manageras a Cloud Service為Experience Manager Guides、Assets、Forms和Screens提供可擴充、安全且敏捷的技術基礎。 這可讓行銷人員和IT專業人士專注於大規模提供具影響力的體驗。
 透過Experience Manageras a Cloud Service，您的團隊便能專注於創新而非規劃產品升級。 新產品功能會經過徹底測試，並持續傳送給您的團隊，讓團隊可以隨時存取最新版Adobe Experience Manager。
+
 本文提供將內部部署或Managed Services Experience Manager Guides內容移轉至Cloud Service的詳細逐步程式，確保順利轉換至雲端型平台。
+
+## 必要條件
+
+* Adobe Experience Manager 6.4或更新版本
+* Experience Manager Guides應採用UUID版本。 如果您使用非UUID版本的Adobe Experience Manager Guides，請先使用[移轉非DITA內容](./migrate-content-non-dita.md)中的步驟移轉至UUID。
+* 存取您要移轉內容之雲端執行個體的&#x200B;**Cloud Acceleration Manager**
+* 支援高達20TB的存放庫大小
+* 25 GB的Lucene索引總大小
+* 節點名稱的長度必須少於150個位元組
+
 
 ## 移轉程式
 
@@ -36,15 +47,11 @@ Experience Manageras a Cloud Service為Experience Manager Assets、Forms和Scree
 > 
 > 僅支援2.0.0版及更新版本，建議使用最新版本。
 
-### 必要條件
-
-* Adobe Experience Manager 6.4或更新版本
-* 支援高達20TB的存放庫大小
-* 25 GB的Lucene索引總大小
-* 節點名稱的長度必須少於150個位元組
 
 
-執行以下步驟，將您的Experience Manager Guides內容移轉至Experience Manager as a Cloud Service。
+
+
+執行以下步驟，將Experience Manager Guides內容移轉至Experience Manager as a cloud service。
 
 1. 登入[experience.adobe.com](https://experience.adobe.com/)並選取&#x200B;**Experience Manager**。
 
@@ -100,9 +107,9 @@ Experience Manageras a Cloud Service為Experience Manager Assets、Forms和Scree
    ![](./assets/migration-create-migration-set.png)
 
 1. 提供您要移轉的路徑，然後按一下[儲存]。****
-例如，`/content/we-retail`
+例如，`/content/sites`
 或
-   `/content/dam/wknd-events`
+   `/content/dam/tech-docs`
    ![包含的路徑](./assets/migration-included-paths.png)
 
 
@@ -118,7 +125,7 @@ Experience Manageras a Cloud Service為Experience Manager Assets、Forms和Scree
    * `/apps`
    * `/libs`
    * `/home`
-   * `/etc`您可以在CTT中選取某些`/etc`路徑。
+   * `/etc`您可以選取CTT中的某些`/etc`路徑。
 
 1. 按一下&#x200B;**儲存**
 1. 選取&#x200B;**移轉集**，然後在頂端選取&#x200B;**擷取**。
