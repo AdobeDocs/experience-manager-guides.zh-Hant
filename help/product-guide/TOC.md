@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: f2c99e59e7352279135169796221faba74fe45c7
+source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1842'
 ht-degree: 5%
 
 ---
@@ -423,10 +423,11 @@ ht-degree: 5%
       - [外部資料來源整合](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
       - [在指南中翻譯內容 — 第2部分](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
       - [定義、管理和利用中繼資料](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-      - [AEM網站輸出變數](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+      - [AEM Sites輸出變數](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+      - [部署選項和移轉至雲端](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
    - 文章{#kb-articles}
 
-      - 製作 {#authoring}
+      - 製作{#authoring}
          - 網頁編輯器{#webeditor}
             - [AEM Guides中的內容重複使用性](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [在AEM Guides中使用Markdown](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
