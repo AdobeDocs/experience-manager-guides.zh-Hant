@@ -4,7 +4,7 @@ description: 瞭解如何將內容從內部部署軟體移轉至Cloud Service
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
+source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Experience Manageras a Cloud Service為Experience Manager Guides、Assets、Form
 ## 必要條件
 
 * Adobe Experience Manager 6.4或更新版本
-* Experience Manager Guides應採用UUID版本。 如果您使用非UUID版本的Adobe Experience Manager Guides，請先使用[移轉非DITA內容](./migrate-content-non-dita.md)中的步驟移轉至UUID。
+* Experience Manager Guides應採用UUID版本。 如果您使用非UUID版本的Adobe Experience Manager Guides，請先使用[移轉非DITA內容](../install-guide/migrate-uuid-non-uuid.md)中的步驟移轉至UUID。
 * 存取您要移轉內容之雲端執行個體的&#x200B;**Cloud Acceleration Manager**
 * 支援高達20TB的存放庫大小
 * 25 GB的Lucene索引總大小
