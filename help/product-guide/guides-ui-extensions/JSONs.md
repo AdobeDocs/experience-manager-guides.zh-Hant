@@ -2,15 +2,19 @@
 title: 公開的JSON
 description: 公開的JSON清單
 role: User, Admin
-source-git-commit: 0691a3e64b90bac8df90d1ee6314610b0e13dd29
+exl-id: 7ad86795-d26b-464a-94f6-ffaf3376b252
+source-git-commit: 46ebda920ee1eb115eb03ca129578e41d2da57a2
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
 
-
 # 可自訂的JSON
+
+編輯者：
+
+- [&#39;other_attribute_list_item&#39;](./jsons/editor/other_attribute_list_item.json)
 
 內容功能表：
 
