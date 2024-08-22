@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
 workflow-type: tm+mt
-source-wordcount: '1842'
-ht-degree: 5%
+source-wordcount: '1848'
+ht-degree: 6%
 
 ---
 
@@ -84,14 +84,14 @@ ht-degree: 5%
                - [4.3.1新增功能](./release-info/whats-new-4-3-1-release.md)
                - [4.3.0新增功能](./release-info/whats-new-4-3-release.md)
             - 發行說明{#43-release-notes}
-               - [4.3.1發行說明](./release-info/release-notes-4-3-1.md)
-               - [4.3.0發行說明](./release-info/release-notes-4-3.md)
+               - [4.3.1 發行說明](./release-info/release-notes-4-3-1.md)
+               - [4.3.0 發行說明](./release-info/release-notes-4-3.md)
          - 4.2版本{#42-release}
             - 新增功能{#42-whats-new}
                - [4.2.1新增功能](./release-info/whats-new-4-2-1-release.md)
                - [4.2新增功能](./release-info/whats-new-4-2-release.md)
             - 發行說明{#42-release-notes}
-               - [4.2.1發行說明](./release-info/release-notes-4-2-1.md)
+               - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
          - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
@@ -469,16 +469,14 @@ ht-degree: 5%
                - [自訂](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [自訂對話方塊](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 正在發佈{#publishing}
-
+         - DITA-OT {#dita-ot}
+            - [在外掛程式中使用AEM中繼資料](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [設定AEM環境以進行原生PDF發佈](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
          - [在原生PDF發佈中產生書籤圖的目錄](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
          - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [微服務架構與效能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [使用JWT驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices.md)
          - [使用OAuth驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
          - [在AEM雲端上發佈基準](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [設定自訂DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
