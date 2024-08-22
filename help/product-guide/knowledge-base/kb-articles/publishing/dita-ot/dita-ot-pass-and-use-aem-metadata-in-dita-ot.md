@@ -1,15 +1,15 @@
 ---
 title: 將AEM Assets中繼資料傳播至DITA-OT外掛程式產生的輸出
 description: 在AEM中設定DITA-OT外掛程式和內容，以將中繼資料推送至產生的輸出
-source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
+source-git-commit: b48f5a342989d3be48bbc1e8af51a2ce477d0ac7
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
 
 
-# 關於本文
+# 將AEM Assets中繼資料傳播至DITA-OT外掛程式產生的輸出
 
 在本文中，我們將說明如何對DITA-OT外掛程式實作變更，以讀取metadata.xml _（可在暫存檔案中取得）_，並利用AEM Guides發佈工作流程傳遞的屬性在DITA-OT外掛程式中，並在產生的輸出中設定它。
 
