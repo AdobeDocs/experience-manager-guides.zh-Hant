@@ -1,7 +1,7 @@
 ---
 title: 將AEM Assets中繼資料傳播至DITA-OT外掛程式產生的輸出
 description: 在AEM中設定DITA-OT外掛程式和內容，以將中繼資料推送至產生的輸出
-source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
+source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%
@@ -21,8 +21,8 @@ ht-degree: 0%
 
 ## 背景
 
-透過AEM Guides，您可以使用DITA-OT外掛程式，使用已設定的外掛程式發佈至您選擇的輸出格式，並且
-您也可以將在AEM DAM中管理的資產的中繼資料傳遞給DITA-OT程式，以便在產生的輸出中使用它 — 請參閱有關如何設定ditamap/主題以透過輸出預設集傳遞中繼資料的檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)[
+透過AEM Guides，您可以使用DITA-OT外掛程式，透過已設定的外掛程式，發佈至您選擇的輸出格式，並且
+您也可以將在AEM DAM中管理的資產的中繼資料傳遞至DITA-OT程式，以便在產生的輸出中使用它 — 請參閱有關[如何設定ditamap/主題以透過輸出預設集傳遞中繼資料的檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## 假設
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 #### 存取暫存目錄中的metadata.xml
 
-在下載的暫存檔案套件中，您會注意到metadata.xml檔案，您可在此檢視屬性和值的結構（請參閱下方的熒幕擷圖）
+在下載的暫存檔套件中，您會注意到metadata.xml檔案，您可以在此檢視屬性和值的結構（請參閱下面的熒幕擷圖）
 ![metadata.xml結構和建構](../../assets/publishing/publish-tempfiles-metadata-structure.png)
 
 ##### 瞭解metadata.xml
