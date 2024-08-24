@@ -3,7 +3,7 @@ title: Adobe Experience Manager Guides發行藍圖2024
 description: 取得現場部署和即將發行的Adobe Experience Manager Guides版本的相關資訊，以及Adobe Experience Manager Guidesas a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: cefa1e87ba70308a9da9e2a8c6c352c00e38db1a
+source-git-commit: eaa079dc4c591c1cfe6c2fa1f10b7fc6d9683e7d
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 26%
@@ -28,6 +28,8 @@ Experience Manager Guidesas a Cloud Service的發行計畫如下：
 | Adobe Experience Manager Guides 2024.4.0 | 自動更新 | 2024年4月26日 | [這裡](whats-new-2024-04-0.md) | [這裡](upgrade-instructions-2024-04-0.md) | [這裡](fixed-issues-2024-04-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.6.0 | 自動更新 | 2024 年 6 月 10 - 12 日 | [這裡](whats-new-2024-06-0.md) | [這裡](upgrade-instructions-2024-06-0.md) | [這裡](fixed-issues-2024-06-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.9.0 | 自動更新 | 2024年9月02日至04日 |  |  |  | 為確保獲得最佳體驗，我們已確定最佳展示者，將此版本移至下一個週期。 我們將會很快分享更新的發行日期。 |
+
+{style="table-layout:fixed"}
 
 ## [!DNL Experience Manager Guides]內部部署和Managed Services （2024年行事曆） {#aem-guides-roadmap-on-prem}
 
