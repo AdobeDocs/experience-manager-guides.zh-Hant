@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
+source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 6%
@@ -450,12 +450,12 @@ ht-degree: 6%
                - [圖示](./guides-ui-extensions/aem_guides_framework/components/icon.md)
                - [標籤](./guides-ui-extensions/aem_guides_framework/components/label.md)
                - [清單](./guides-ui-extensions/aem_guides_framework/components/list.md)
-               - [文字區域](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+               - [文字區域](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
             - Widget {#framework-widgets}
                - [轉譯Widget](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本Widget](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          - 快速入門 {#getting-started}
-            - [簡介](./guides-ui-extensions/getting-started/Introduction.md)
+            - [簡介](./guides-ui-extensions/getting-started/introduction.md)
             - [安裝指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
             - [擴充功能存放庫介紹](./guides-ui-extensions/getting-started/extension-repo-intro.md)
          - 自訂{#customisations}
@@ -463,7 +463,7 @@ ht-degree: 6%
             - [自訂內容功能表](./guides-ui-extensions/customisations/context-menus.md)
             - [自訂工具列和標題列](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [範例](./guides-ui-extensions/examples.md)
-            - [可自訂的Json](./guides-ui-extensions/JSONs.md)
+            - [可自訂的Json](./guides-ui-extensions/jsons.md)
             - 檢閱{#review-app-customisations}
                - [元件](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [自訂](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
