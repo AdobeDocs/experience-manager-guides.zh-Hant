@@ -3,9 +3,9 @@ title: AEM Guides中的DITA內容重複使用
 description: 此簡短文章說明AEM Guides和DITA如何協助您在使用內容重複使用性時節省時間和精力
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
+source-git-commit: 12d7f9c3479d2fa8e8f0adad7cb89993cd17dec0
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 AdobeAEM Guides運用DITA的長處，提供使用者易用的介面以重複使用內容。
 
-在本文中，我們將討論：
+本文將討論：
 
 1. [使用主題參考可重複使用(](#reusability-using-topic-referencestopicref)
 2. [使用內容參考的可重複使用性(](#reusability-using-content-reference-conref--conkeyref)
@@ -79,7 +79,7 @@ AdobeAEM Guides運用DITA的長處，提供使用者易用的介面以重複使�
 
 此處`conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita是檔案識別碼，#individual_kyc是片段識別碼。
 
-Kyc_procedure.dita仍然是唯一的資訊來源。 如果根據法規要求對KYC流程有任何變更，您只需要更新一個主題，這些變更會自動反映在所有參考該主題的主題中。
+Kyc_procedure.dita仍然是唯一的資訊來源。 如果法規變更需要更新KYC程式，請使用新的路徑更新主題路徑。 這些變更會自動反映在所有參照它的主題中。
 
 使用AEM Guides時，只要按兩下
 
@@ -91,7 +91,7 @@ Kyc_procedure.dita仍然是唯一的資訊來源。 如果根據法規要求對K
 步驟2：選取需要重複使用的檔案和片段。
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
-與「conref」類似，您也可以使用「conkeyref」，其中您可以透過金鑰參照內容，而不需提供內容路徑。
+與「conref」類似，您也可以使用「conkeyref」，除了提供內容路徑以外，您還可以透過索引鍵參考內容
 
 程式碼範例：
 
@@ -111,7 +111,7 @@ Kyc_procedure.dita仍然是唯一的資訊來源。 如果根據法規要求對K
 </map>
 ```
 
-索引鍵 — 「Kyc_procedure」將繼續是唯一的資訊來源。 如果因法規要求對KYC流程有任何變更，您只需要以新的主題路徑更新一個主題路徑，這些變更會自動反映在引用它的所有主題中。
+索引鍵 — &#39;Kyc_procedure&#39;仍然是單一資訊來源。 如果根據法規要求對KYC流程有任何變更，您只需要以新主題路徑更新一個主題路徑，這些變更會自動反映在引用它的所有主題中。
 
 ```
 <map id="ABC_manual">
@@ -133,7 +133,7 @@ Kyc_procedure.dita仍然是唯一的資訊來源。 如果根據法規要求對K
 步驟2：選取您的根對應（選用）、金鑰以及需要重複使用的片段。
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
 
-此處根目錄地圖已自動選取，因為它已在地圖檢視中開啟
+在此處，由於根對映已在對映檢視中開啟，因此已自動選取根對映。
 
 
 ## 在AEM Guides中按一下即可重複使用內容
@@ -154,14 +154,16 @@ AEM Guides提供「可重複使用的內容」功能，只需按一下即可新�
 
 - ### 在「重複使用內容」對話方塊中選擇檔案/金鑰後，所有內容都未顯示
 
-您必須指派ID給要在其他主題中重複使用的片段（Dita元素）
+將ID指派給您想在其他主題中重複使用的片段（Dita元素）
 
 - ## 金鑰未顯示在「重複使用內容」對話方塊中
 
-請確定您已開啟具有索引鍵定義的對映檢視中的根對映/父對映，或在相同對話方塊中手動新增根對映路徑。
+  請確定您已在地圖檢視中開啟根對應/父對應，它具有索引鍵定義，或在同一個對話方塊中手動新增根對映路徑。
 
 
 <br>
+<br>
+<br>
 
 
-AEM Guides社群[論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上的Post以進行任何查詢。
+在AEM Guides社群[論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上發佈任何查詢。
