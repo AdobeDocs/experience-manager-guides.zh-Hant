@@ -2,8 +2,8 @@
 title: 提高AEM指南中DITA檔案的翻譯效能
 description: 在AEM Guides中提高DITA翻譯專案效能的最佳實務、提示和秘訣
 feature: Translation
-role: User, admin
-source-git-commit: b22dcdf2c040159b30128dfe97f0e5a0605ca068
+role: User, Admin
+source-git-commit: d25e7b1b8a1be15e1d627e74a23bbb33b7fc6e94
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
