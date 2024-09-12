@@ -5,9 +5,9 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: e979823b7947b561165fde92023ae9c440182e94
+source-git-commit: 45ae1471fe0f0586764ede9dd96530b7f75f69ee
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 9%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 9%
 
 **要求URL**：
 http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/fmdita/conversion
-
-**引數**：
 
 | 名稱 | 類型 | 必要 | 說明 |
 |----|----|--------|-----------|
@@ -41,6 +39,7 @@ http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/fmdita/conversio
 將HTML檔案轉換為DITA格式的GET方法。
 
 **要求URL**：
+
 http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/fmdita/conversion
 
 **引數**：
@@ -53,6 +52,7 @@ http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/fmdita/conversio
 | `createRev` | 布林值 | 是 | 指定是否在指定的目的地建立\(`true`\)檔案的修訂版本\(`false`\)。 僅當目的地位置包含轉換檔案的現有版本時，才會考慮這種情況。 |
 
 **回應值**：
+
 傳回HTTP 200 \(Successful\)回應。
 
 ## 轉換InDesign檔案

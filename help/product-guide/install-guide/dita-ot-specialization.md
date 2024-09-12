@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
 workflow-type: tm+mt
-source-wordcount: '2093'
+source-wordcount: '2122'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ DITA Open Toolkit \(DITA-OT\)是一組以Java為基礎的開放原始碼工具�
 
 依預設，AEM Guides附帶預先設定的設定檔，其中包含用於編輯和發佈內容的預設範本設定。 您可以使用在編輯檔案時使用的自訂範本來建立自訂設定檔，並使用自訂DITA-OT外掛程式來發佈內容。
 
-AEM Guides提供的預設DITA-OT套件附帶Apache FOP XSL-FO處理器，該處理器不支援轉譯MathML方程式。 如果您在內容中使用MathML方程式，請確定您已針對Apache FOP整合了MathML轉譯引擎外掛程式，或使用不同的XSL-FO處理器。
+AEM Guides提供的預設DITA-OT套件附帶Apache FOP XSL-FO處理器，該處理器不支援轉譯MathML方程式。 如果您在內容中使用MathML方程式，請確定您已整合Apache FOP適用的MathML轉譯引擎外掛程式，或使用其他XSL-FO處理器。
 
 >[!IMPORTANT]
 >
@@ -171,6 +171,8 @@ DITA專業化是透過新增元素或移除現有元素來建立新DITA結構的
    >
    > 預設設定檔資訊會顯示在「設定檔」頁面上。 如果您已將AEM Guides從2.2版升級至2.5.1或2.6版，則透過Configuration Manager進行的所有變更都會自動挑選並儲存在「預設設定檔」中。
 
+
+
 1. 您可以選擇編輯「預設設定檔」、建立新設定檔，或從「預設設定檔」複製設定以建立新設定檔。
 
    >[!NOTE]
@@ -178,6 +180,12 @@ DITA專業化是透過新增元素或移除現有元素來建立新DITA結構的
    > 您無法刪除預設設定檔。 但是，您可以編輯和刪除您建立的所有新設定檔。
 
 1. 在&#x200B;**結構描述** \> **目錄**&#x200B;設定中，指定您AEM存放庫中自訂DTD和XSD `catalog.xml`檔案的路徑。
+
+   >[!NOTE]
+   >
+   > 如果您使用自訂結構描述，則必須在&#x200B;**整合目錄**&#x200B;選項中定義AEM儲存庫中自訂DTD和XSD catalog.xml檔案的路徑。
+
+
 
 1. 選取&#x200B;**新增系統識別碼目錄**&#x200B;選項。
 

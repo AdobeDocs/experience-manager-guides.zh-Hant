@@ -5,14 +5,20 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: 1860525120edc4df33b898841b9073311d3031c5
+source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '931'
 ht-degree: 2%
 
 ---
 
 # 使用基線和標籤的Java式API {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> 您可以使用Experience Manager Guides中提供的Java式API來建立自訂外掛程式，並擴充現成可用的工作流程。 本文將會在2024年11月封存。
+> 檢視[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api)，以取得有關使用Java型API的最新和詳細檔案。
+
 
 下列Java式API可讓您建立基準線，並將標籤新增至基準線中的檔案。 這些API以套件組合的形式提供。 您必須在程式碼中包含此套件組合，才能使用這些API。
 

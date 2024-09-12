@@ -5,16 +5,24 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
+source-git-commit: 97d7776c81e7776d0248d6711ae5d05c46c44239
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # 建立主題與內容片段之間的對應
 
-AEM Guides提供在主題與內容片段模型之間建立JSON型對應的功能。 您可以使用此對應，將主題內部分或所有元素中存在的內容發佈到內容片段。
+
+
+Adobe Experience Manager Guides可讓您在主題與內容片段模型之間建立JSON型對應。 您可以使用JSON型對應，將主題內部分或所有元素中存在的內容發佈至內容片段。
+
+>[!NOTE]
+> 
+> 如果您使用4.6或更新版本，則不需要建立此對應，您可以將主題元素拖曳至內容片段模式中顯示的欄位。
+> 深入瞭解如何[發佈內容片段](../user-guide/publish-content-fragment.md)。
+
 
 1. 若要下載&#x200B;*contentFragmentMapping.json*，請以管理員身分登入Adobe Experience Manager。
 1. 選取頂端的Adobe Experience Manager連結，然後選擇&#x200B;**工具**。

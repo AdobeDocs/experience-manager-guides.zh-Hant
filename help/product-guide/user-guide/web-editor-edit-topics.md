@@ -4,9 +4,9 @@ description: 瞭解如何在網頁編輯器中編輯主題。 瞭解各種編輯
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
+source-git-commit: 2a22aa0746602f7ecd6b3d6cf616a68d45309bdf
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,13 @@ Web編輯器提供了一系列編輯功能，可讓您輕鬆建立或修改主�
 ## 跨元素的部分內容選取
 
 Experience Manager Guides也可讓您跨元素選取內容。 選取內容後，您可以執行下列操作：
+
 - 格式設定和刪除：將選取的內容變為粗體、斜體、加底線，或甚至刪除選取的內容。 然後，有效開放標籤的內容會合併並顯示在單一元素下。 例如，您可以選取段落中的內容，並將選取範圍延伸至另一個段落。 然後，如果您將選取的內容設為粗體，則會合併開啟標籤中的所有粗體內容，並顯示在單一段落元素下。
 
 同樣地，如果您刪除選取的內容，則會在開放標籤中刪除後合併剩餘的內容。
 
 - 以有效元素包住內容：執行下列步驟，以有效元素包住內容：
+
    - 選取元素中的內容。
    - 從頂端的次要工具列選取![新增](images/Add_icon.svg)圖示，以檢視&#x200B;**Surround with Element**&#x200B;對話方塊。 此對話方塊會列出所選內容的有效元素。
      >[!NOTE]
@@ -74,7 +76,27 @@ AEM Guides也會指出上次儲存的檔案\(working\)復本是否與儲存的�
 ![版本更新指標](images/version-update-indicator.png){width="550" align="left"}
 
 
+## 在「作者」和「Source」模式中開啟鎖定的檔案
 
+當DITA或Markdown檔案被其他使用者鎖定或出庫時，便無法編輯或修改內容。 不過，除了&#x200B;**預覽**&#x200B;模式外，您仍然可以在&#x200B;**作者**&#x200B;和&#x200B;**Source**&#x200B;模式下以唯讀格式檢視檔案。
+
+在唯讀模式中，您可以檢視&#x200B;**作者**&#x200B;或&#x200B;**Source**&#x200B;模式中的內容、標籤和屬性。 您也可以修改檔案屬性。
+
+工具列會顯示下列圖示以供唯讀存取：
+
+- 切換標籤檢視
+- 版本記錄
+- 版本標籤
+
+Experience Manager Guides在版本號碼附近也會顯示&#x200B;**唯讀存取**&#x200B;指標。
+
+![以作者模式檢視唯讀檔案](images/locked-file-editor.png)
+
+您可以存取唯讀DITA map的&#x200B;**配置**&#x200B;檢視。 此檢視可讓您檢視DITA map及其屬性，但避免編輯。
+
+>[!NOTE]
+>
+> 您的資料夾層級管理使用者必須更新&#x200B;*ui_config.json*，以便您可以在「作者」、「Source」和「配置」模式中協調存取唯讀檔案。
 
 ## 在「存放庫檢視」中找到開啟的檔案
 

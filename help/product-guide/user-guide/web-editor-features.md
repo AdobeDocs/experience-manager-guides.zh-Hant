@@ -4,9 +4,9 @@ description: 探索AEM Guides中網頁編輯器的功能。 瞭解網頁編輯�
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
+source-git-commit: 2e474dec4f55ccf54a415b1969f7e7f79c4d0226
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >若要在Experience Manager Guides中設定Salesforce的Proxy，請使用AEM中的Apache HTTP元件Proxy設定。 瞭解如何[設定AEM連結檢查器](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的Proxy。
+     >若要在Experience Manager Guides中設定Salesforce的Proxy，請在AEM中使用Apache HTTP元件Proxy設定。 瞭解如何[設定AEM連結檢查器](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的Proxy。
 
 
    - **建立ServiceNow Publish設定檔**
@@ -1030,7 +1030,7 @@ Favroties集合的&#x200B;**選項功能表**\
 
 視您選取的是媒體檔案還是DITA檔案而定，您會在「選項」選單中看到不同的選項。 媒體和DITA檔案可用的常見選項有：
 
-- 重複項
+- 複製
 - 簽出/簽入
 - 預覽
 - 移至
@@ -1508,7 +1508,22 @@ AEM Guides可讓您輕鬆建立和使用字彙表型別的檔案。 您可以建
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-從「屬性」清單中，選取您要定義的條件屬性，輸入條件的值，然後指定顯示在「條件」面板中的標籤。 您也可以定義條件的顏色。 此顏色會設定為套用條件的內容背景顏色
+從「屬性」清單中，選取您要定義的條件屬性，輸入條件的值，然後指定顯示在「條件」面板中的標籤。 定義條件的群組。 您可以將多個條件新增至群組。 您也可以定義條件的顏色。 此顏色會設定為套用條件的內容背景顏色。
+
+您可以將條件分組，並在巢狀資料夾中加以建構。 群組可協助您在多個層級建立條件，並更好地組織這些條件以用於內容。
+
+例如，您可以建立&#x200B;*Acrobat*&#x200B;和&#x200B;*AEM Guides*&#x200B;等產品的條件群組。 您可以選取兩個群組的條件屬性。 在每個群組下，您都可以有特定的值，例如&#x200B;*使用者*、*管理員*、*檢閱者*&#x200B;和&#x200B;*作者*。
+
+>[!NOTE]
+>
+> 鍵入以建立新群組或為特定屬性選取現有群組。
+
+您可以使用`/`並定義子群組定義子群組，例如`AEM Guides/Cloud Service`。
+
+
+
+以巢狀階層方式組織的![條件](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 若要編輯條件，請從[選項]功能表選擇[編輯]。**** 「編輯條件」對話方塊隨即顯示：
 
@@ -1806,7 +1821,7 @@ AEM Guides提供可在您的專案中顯示所有稽核任務的功能。 您可
    - 選取![](images/filter-search-icon.svg)以開啟&#x200B;**篩選器**&#x200B;對話方塊。 您可以選取所有專案或僅選取特定專案。 選取的專案會列在&#x200B;**檢閱**面板中。
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     依預設會啟用由我起始的&#x200B;**工作**&#x200B;選項。 它可讓您僅檢視您已起始的任務。
+     依預設會啟用由我起始的&#x200B;**工作**&#x200B;選項。 它可讓您僅檢視您已起始的任務。 即使在重新整理頁面後，也會維持此選項的切換狀態。
 
 1. 依預設，在您的稽核專案中，您將檢視含有與其相關之註解的主題平面清單。 從左側邊欄套用所需的篩選器，以根據主題中存在的稽核評論來篩選主題：
 
@@ -1917,7 +1932,7 @@ AEM Guides提供可在您的專案中顯示所有稽核任務的功能。 您可
 
 ## 內容編輯區域 {#id2051EB000UI}
 
-內容編輯區域是顯示主題或地圖內容的地方。 您會在此區域中編輯所有內容。 它提供您正在編輯的內容的WYSIWYG檢視。 您可以同時開啟多個主題，這些主題會顯示在各自的標籤中。
+內容編輯區域是顯示主題或地圖內容的地方。 您會在此區域中編輯所有內容。 其會提供您正在編輯內容的WYSIWYG檢視。 您可以同時開啟多個主題，這些主題會顯示在各自的標籤中。
 
 依預設，您可以在標籤中檢視檔案標題。 當您將滑鼠停留在檔案上時，您可以檢視檔案標題和檔案路徑作為工具提示。
 

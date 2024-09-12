@@ -5,9 +5,9 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -75,3 +75,17 @@ CSS中`new-topic`的類別定義可讓您定義下列專案的樣式：
 使用上述樣式屬性，變更列會新增至&#x200B;*航班歷史記錄*&#x200B;主題的左側，如下所示：
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
+
+## 從目錄移除空白列
+
+如果您尚未定義任何主題的標題，則此類主題的目錄會顯示空白列。
+
+若要從目錄和迷你目錄移除空白列，請在`layout.css`中新增下列樣式：
+
+```css
+.toc-body a:empty,
+.chaptoc-body a:empty {
+    display: none;
+} 
+```
+

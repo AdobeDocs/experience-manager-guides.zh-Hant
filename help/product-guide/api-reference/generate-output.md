@@ -5,14 +5,19 @@ exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
 level: Experienced
-source-git-commit: a255007fc9fe169f926e356ec9d2a8f5a2fdbe29
+source-git-commit: ee4eb829ebe215315b05cd1f376e934c02a73b1e
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '201'
+ht-degree: 2%
 
 ---
 
 # 使用以Java為基礎的API來產生輸出 {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> 您可以使用Experience Manager Guides中提供的Java式API來建立自訂外掛程式，並擴充現成可用的工作流程。 本文將會在2024年11月封存。
+> 檢視[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api)，以取得有關使用Java型API的最新和詳細檔案。
 
 下列Java型API可讓您產生DITA map的輸出。 此API可以套件形式提供。 您必須在程式碼中包含此套件組合才能使用此API。
 

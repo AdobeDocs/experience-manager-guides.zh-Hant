@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1644bfba3332b0f023aa8d70aefd2680d4220d8a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -130,27 +130,42 @@ AEM Guides可讓您轉換InDesign檔案。 與FrameMaker類似，InDesign也可�
 
    `/libs/fmdita/config/idml2dita_io.xml`
 
-1. 在`apps`節點內建立`config`資料夾的覆蓋節點。
+1. 若要根據您的需求建立自訂設定，請在`apps`節點內建立`config`資料夾的覆蓋節點。
+
+1. 將下列檔案或資料夾從`libs`資料夾複製到apps資料夾：
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. 導覽至`apps`節點中可用的組態檔：
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-   在`idml2dita_io.xml`檔案中設定下列引數：
+1. 在`idml2dita_io.xml`檔案的`idml12dita`資料夾中，新增設定對應。
+1. 在`idml2dita_io.xml`檔案中新增下列屬性：
 
-   - 在`inputDir`元素中，指定可以使用來源InDesign檔案的輸入資料夾位置。 例如，如果您的InDesign檔案儲存在`projects`資料夾中名為`indesigntodita`的資料夾中，則指定位置為： `/content/dam/idmlfiles/indesigntodita/`
+   ```
+   <entry key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
 
-   - 在`outputDir`元素中，指定輸出資料夾的位置，或保留預設輸出位置以儲存轉換的DITA檔案。 如果DAM上不存在指定的輸出資料夾，則轉換工作流程會建立輸出資料夾。
+在`idml2dita_io.xml`檔案中設定下列引數：
 
-   - 在`mapStyle`元素中，指定對應檔案的位置，該對應檔案包含InDesign檔案樣式至DITA元素的對應。 預設對應儲存在檔案中，檔案位於：
+- 在`inputDir`元素中，指定可以使用來源InDesign檔案的輸入資料夾位置。 例如，如果您的InDesign檔案儲存在`projects`資料夾中名為`indesigntodita`的資料夾中，則指定位置為： `/content/dam/idmlfiles/indesigntodita/`
 
-     ```XML
-     /stmap.adobeidml.xml
-     ```
+- 在`outputDir`元素中，指定輸出資料夾的位置，或保留預設輸出位置以儲存轉換的DITA檔案。 如果DAM上不存在指定的輸出資料夾，則轉換工作流程會建立輸出資料夾。
 
-     >[!NOTE]
-     >
-     > 如需有關`stmap.adobeidml.xml`檔案的結構以及如何自訂的詳細資訊，請參閱&#x200B;*附錄*&#x200B;中的[準備對應檔案以InDesign到DITA移轉](appendix.md#id194AF0003HT)區段。
+- 在`mapStyle`元素中，指定對應檔案的位置，該對應檔案包含InDesign檔案樣式至DITA元素的對應。 預設對應儲存在檔案中，檔案位於：
+
+```XML
+    /stmap.adobeidml.xml
+```
+
+>[!NOTE]
+>
+> 如需有關`stmap.adobeidml.xml`檔案的結構以及如何自訂的詳細資訊，請參閱&#x200B;*附錄*&#x200B;中的[準備對應檔案以InDesign到DITA移轉](appendix.md#id194AF0003HT)區段。
 
 1. 儲存 `idml2dita_io.xml` 檔案。
 

@@ -4,7 +4,7 @@ description: 尋找Experience Manager Guides (先前稱為XML Documentation for 
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: fb4b5fa72cc0643810e4c299dd827803687f0bc4
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 2%
@@ -36,7 +36,6 @@ ht-degree: 2%
 * 產生&#x200B;**[輸出並顯示 [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
   _瞭解如何使用[!DNL Adobe Experience Manager Guides]產生輸出。 瞭解輸出產生的各種可用功能 — 報告、基線、條件、疑難排解、大量發佈和啟用。_
-
 
 <!--
 
@@ -90,9 +89,9 @@ Dummy links cause validation to fail
 
 -->
 
-
 ## 其他資源
 
 * [[!DNL AEM Guides] 線上使用手冊](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] PDF指南](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League — 探索AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+

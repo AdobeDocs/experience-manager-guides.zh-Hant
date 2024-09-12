@@ -4,14 +4,19 @@ description: 瞭解如何在AEM Guides中使用Basic Map Editor。 瞭解地圖�
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
 
 # 使用基本地圖編輯器 {#id1942CM005Y4}
+
+>[!NOTE]
+>
+> Basic Map Editor (先前在Experience Manager Guides中提供)已從4.3版和2307版開始淘汰。 您無法存取「基本對映編輯器」來建立和管理DITA map。
+>建議您使用進階地圖編輯器。 進階地圖編輯器提供增強功能和更好的自訂選項。 深入瞭解如何使用[進階地圖編輯器](../user-guide/map-editor-advanced-map-editor.md)。
 
 基本地圖編輯器提供簡單的拖放功能，可從AEM存放庫新增主題以建立DITA地圖或書籤。 您可以新增巢狀主題、關係表格\(relatable\)、屬性和中繼資料資訊，也可以驗證對映是否正確。
 
