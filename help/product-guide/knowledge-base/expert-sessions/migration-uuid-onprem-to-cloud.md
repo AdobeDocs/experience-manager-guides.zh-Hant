@@ -1,9 +1,10 @@
 ---
 title: 部署選項和移轉至雲端
 description: AEM Guides、不同的部署選項，以及將內容從內部部署設定移轉到AEMaaCS
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+exl-id: 6224f35a-bbed-4a3b-b411-ee653c108d90
+source-git-commit: 4644b7237dcb85a2bc62495abcd48d2c312a7842
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 1%
 
 ---
@@ -50,9 +51,9 @@ ht-degree: 1%
 ### 文件
 
 - [移至AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
-- [AEM Guides：將UUID內容從內部部署/AMS移至雲端](https://experienceleague.corp.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/migrate-con-cs/migrate-on-premise-content-cloud.html)
+- [AEM Guides：將UUID內容從內部部署/AMS移至雲端](../../cs-install-guide/migrate-on-premise-content-cloud.md)
 - [內容轉移工具：常見問題集](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
-- [AEM Guides：將非uuid內容移轉至Cloud](https://experienceleague.corp.adobe.com/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migrate-uuid-non-uuid.html)
+- [AEM Guides：將非uuid內容移轉至雲端](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### 社群論壇
 
