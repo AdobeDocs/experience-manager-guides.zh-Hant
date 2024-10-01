@@ -2,9 +2,9 @@
 title: 發行說明 | 已修正Adobe Experience Manager Guides 4.6.0版本中的問題
 description: 瞭解Adobe Experience Manager Guides 4.6.0版的錯誤修正
 role: Leader
-source-git-commit: 5a30d427fa579e37a18b0fca65dea96dc486c594
+source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,8 @@ Adobe已找出下列4.6.0版的已知問題：
 - 從DITA map的頂端工具列插入時，主題參照在使用者介面中顯示為已損毀。
 - 如果DITA map遺失參照，則原生PDF產生會失敗。
 - 一旦主題的檔案狀態更新為&#x200B;**完成**，**開始新的版本**&#x200B;圖示就只能用於主題的&#x200B;**預覽**&#x200B;模式。
+- 在資產UI中選取DITA檔案時，會出現&#x200B;**在FrameMaker**&#x200B;中開啟選項，即使它在組態設定中已停用。
+
 
 
 
