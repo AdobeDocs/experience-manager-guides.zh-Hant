@@ -2,9 +2,9 @@
 title: 發行說明 | 已修正Adobe Experience Manager Guides 4.6.0版本中的問題
 description: 瞭解Adobe Experience Manager Guides 4.6.0版的錯誤修正
 role: Leader
-source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
+source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ ht-degree: 0%
 - 使用「自動儲存」功能時，「關閉」按鈕的行為不一致。 (10996)
 - 插入任何新元素或修改方程式時，MathML元素中會發生驗證問題。 (10624)
 - 以韓文字元開頭的文字無法使用「追蹤變更」功能。 (14538)
-
-
+- 建立版本後，主題中的連結影像無法顯示在基準線中。 (16931)
 
 ## 發佈
 
