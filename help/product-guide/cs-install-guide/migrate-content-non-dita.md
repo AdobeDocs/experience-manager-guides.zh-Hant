@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: cddbd7a19d4dfaa3f6549ed1bd511eeeb02acbb2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -137,12 +137,29 @@ AEM Guides可讓您轉換InDesign檔案。 與FrameMaker類似，InDesign也可�
 1. 導覽至下列位置可用的預設組態檔：
 
    `/libs/fmdita/config/idml2dita_io.xml`
+1. 若要根據您的需求建立自訂設定，請在`apps`節點內建立`config`資料夾的覆蓋節點。
 
-1. 在`apps`節點內建立`config`資料夾的覆蓋節點。
+1. 將下列檔案或資料夾從`libs`資料夾複製到apps資料夾：
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. 導覽至`apps`節點中可用的組態檔：
 
    `/apps/fmdita/config/idml2dita_io.xml`
+
+1. 在`idml2dita_io.xml`檔案的`idml12dita`資料夾中，新增設定對應。
+1. 在`idml2dita_io.xml`檔案中新增下列屬性：
+
+   ```
+   <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
+
+1. 在`apps`節點內建立`config`資料夾的覆蓋節點。
+
 
    在`idml2dita_io.xml`檔案中設定下列引數：
 

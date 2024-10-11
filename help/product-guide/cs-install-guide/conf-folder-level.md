@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
+source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
 workflow-type: tm+mt
-source-wordcount: '4285'
+source-wordcount: '4521'
 ht-degree: 0%
 
 ---
@@ -411,7 +411,7 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 
 針對![AEM雲端](assets/aem-cloud-icon.svg) Experience Manager Guidesas a Cloud Service。
 
-您可以設定AI支援的智慧型建議，並協助作者重複使用現有內容，輕鬆建立正確且一致的內容參考。 **AI組態**&#x200B;索引標籤可讓您控制網頁編輯器中[智慧建議]面板的設定。
+您可以設定AI支援的智慧型建議，並協助作者重複使用現有內容，並輕鬆建立正確且一致的內容參考。 **AI組態**&#x200B;索引標籤可讓您從網頁編輯器的AI助理面板控制&#x200B;**建議可重複使用內容**&#x200B;的設定。
 
 執行以下步驟，在全域或資料夾層級的設定檔中設定標準AI設定：
 1. 以系統管理員或具有檔案夾層級設定檔管理許可權的使用者身分登入Adobe Experience Manager。
@@ -441,57 +441,57 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
    >
    > 儲存檔案後，最後索引的狀態詳細資訊會顯示在頂端。
 
-深入瞭解如何檢視及新增[AI型智慧型建議](../user-guide/authoring-ai-based-smart-suggestions.md)，以在Web編輯器中撰寫時新增內容參考。
+深入瞭解如何檢視及新增[以AI為基礎的智慧型建議](../user-guide/authoring-ai-based-smart-suggestions.md)，以在Web編輯器中撰寫時新增內容參考。
 
 
 
 
-<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+## 在網頁編輯器中設定AI支援的智慧型說明 {#conf-ai-guides-assistant}
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+針對![AEM雲端](assets/aem-cloud-icon.svg) Experience Manager Guidesas a Cloud Service。
 
-You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+您可以設定AI支援的&#x200B;**智慧型說明**，協助作者提出問題，並從[Experience Manager Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中輕鬆尋找所需內容。
 
-The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
+**XML編輯器設定**&#x200B;索引標籤可讓您設定Web編輯器中&#x200B;**智慧說明面板**&#x200B;的預設問題。
 
 >[!NOTE]
 >
->You can configure up to 10 default questions. 
+>您可以設定最多10個預設問題。
 
-Perform the following steps to configure the default questions:
+執行以下步驟來設定預設問題：
 
-1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
-1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
-1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
-1. Select the profile tile that you want to configure.
+1. 以系統管理員或具有檔案夾層級設定檔管理許可權的使用者身分登入Adobe Experience Manager。
+1. 選取頂端的&#x200B;**Adobe Experience Manager**&#x200B;連結，然後選擇&#x200B;**工具**。
+1. 從工具清單中選取&#x200B;**參考線**，然後選取&#x200B;**資料夾設定檔**&#x200B;圖磚。
+1. 選取您要設定的設定檔拼貼。
 
-    >[!NOTE]
-    >
-    >You can configure default questions for the **Guides assistant panel** to the global or a folder-level profile.
+   >[!NOTE]
+   >
+   >您可以將&#x200B;**智慧說明面板**&#x200B;的預設問題設定為全域或資料夾層級設定檔。
 
-1.  Select the **XML Editor Configuration** tab. 
+1. 選取&#x200B;**XML編輯器組態**&#x200B;索引標籤。
 
-1. Click the **Edit** icon on the top.
-1.  In the **XML Editor UI configuration** section, select the **Download** icon to download the `ui_config.json` file on your local system.
-1.  In the `ui_config.json` file, add the sample questions.
+1. 按一下頂端的&#x200B;**編輯**&#x200B;圖示。
+1. 在&#x200B;**XML編輯器UI組態**&#x200B;區段中，選取&#x200B;**下載**&#x200B;圖示以在本機系統上下載`ui_config.json`檔案。
+1. 在`ui_config.json`檔案中，新增範例問題。
 
-    **Example of sample questions**:
+   **範例問題範例**：
 
-    ```json
-    "assistantSampleQuestions": [
-    "How to create a new topic",
-    "How to create a new map",
-    "What is a baseline" ]
-    ```
+   ```json
+   "assistantSampleQuestions": [
+   "How to create a new topic",
+   "How to create a new map",
+   "What is a baseline" ]
+   ```
 
-1. Save the file and upload it.
+1. 儲存檔案並上傳。
 
-    >[!NOTE]
-    >
-    > The default questions appear in the **Guides assistant** panel after you save the file. 
+   >[!NOTE]
+   >
+   > 儲存檔案後，**智慧型說明**&#x200B;面板中會顯示預設問題。
 
 
-Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
+進一步瞭解如何使用[AI支援的Smart Help](../user-guide/ai-based-smart-help.md)，從Experience Manager Guides檔案中尋找所需的內容。
 
 
 ## 設定和自訂XML Web編輯器 {#id2065G300O5Z}

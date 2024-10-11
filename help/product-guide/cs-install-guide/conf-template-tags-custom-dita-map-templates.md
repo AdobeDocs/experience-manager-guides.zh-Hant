@@ -5,9 +5,9 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -55,4 +55,20 @@ AEM Guides隨附兩個現成可用的地圖範本 — DITA map和Bookmap。 您�
 >
 > 如需使用自訂對應範本的最佳實務，請參閱「最佳實作指南」中的&#x200B;*自訂範本*&#x200B;區段。
 
-**父級主題：**[&#x200B;設定主題與對應範本](conf-template-tags.md)
+
+## 自訂DITA map中的參照數量
+
+您可以根據DITA map中的參照數量來設定非同步處理的臨界值。 依預設，會透過非同步操作建立參照超過5個的地圖，而參照較少的地圖將繼續使用同步操作。
+
+
+使用[組態覆寫](download-install-additional-config-override.md#)中提供的指示來建立組態檔。 在組態檔案中，提供下列（屬性）詳細資訊，以指定DITA map範本中的參照數目，讓程式保持同步：
+
+| PID | 屬性索引鍵 | 屬性值 |
+|---|------------|--------------|
+| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **預設值**： 5 |
+
+使用自訂範本建立包含大型主題參照的DITA map時，如果總處理時間超過60秒，雲端伺服器上的對應建立將會失敗。
+
+若要防止此情況，請在XmlEditorConfig中設定&#x200B;**非同步dita map建立**，讓工作可並行執行，並縮短大型DITA map的處理時間。
+
+**父級主題：** [設定主題與對應範本](conf-template-tags.md)

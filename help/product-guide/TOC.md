@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 23470fdb176fa487139f8a8822be7f95dd205a3e
+source-git-commit: f6e34c0bc57603b4251abd4859b43c95042e8819
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1964'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 6%
       - Cloud Service{#cloud-release-notes}
          - [部署指示](./release-info/deploy-xml-on-aemaacs.md)
          - 2024版本{#2024-releases}
+            - 2024.10.0版本{#2406-release}
+               - [新增功能](./release-info/whats-new-2024-10-0.md)
+               - [已修正的問題](./release-info/fixed-issues-2024-10-0.md)
+               - [升級指示](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0版本{#2406-release}
                - [新增功能](./release-info/whats-new-2024-06-0.md)
                - [已修正的問題](./release-info/fixed-issues-2024-06-0.md)
@@ -135,7 +139,8 @@ ht-degree: 6%
                - [網頁編輯器檢視](./user-guide/web-editor-views.md)
                - [支援Schematron檔案](./user-guide/support-schematron-file.md)
                - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
-
+               - [AI支援的Smart Help可搜尋內容](./user-guide/ai-based-smart-help.md)
+               - [AI Assistant，以智慧效率撰寫檔案](./user-guide/AI-assistant-right-panel.md)
                - [從網頁編輯器編寫Markdown檔案](./user-guide/web-editor-markdown-topic.md)
                - [將引文新增至您的內容](./user-guide/web-editor-apply-citations.md)
                - [使用來自您的資料來源的資料](./user-guide/web-editor-content-snippet.md)
@@ -189,7 +194,10 @@ ht-degree: 6%
       - [輸出產生基本概念](./user-guide/generate-output.md)
       - [輸出預設集簡介](./user-guide/generate-output-understand-presets.md)
       - AEM Guides {#output-presets-aemg}中的輸出預設集
-         - [AEM網站](./user-guide/generate-output-aem-site.md)
+
+         - [AEM Sites](./user-guide/generate-output-aem-site.md)
+         - [地圖儀表板上的AEM Sites預設集](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [網頁編輯器中的AEM Sites預設集](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [知識庫](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
@@ -302,6 +310,8 @@ ht-degree: 6%
          - [整合案頭式XML編輯器](./install-guide/integrate-desktop-editors.md)
       - 使用輸出產生設定{#output-gen-config}
          - [設定輸出產生設定](./install-guide/conf-output-generation.md)
+         - [下載及安裝aem sites範本](./install-guide/download-install-aem-sites-templates.md)
+         - [覆蓋AEM Sites輸出中的HTML標籤](./install-guide/overlay-html-tags-aem-sites.md)
          - 原生PDF發佈{#config-native-pdf-publish}
             - [PDF範本](./native-pdf/pdf-template.md)
             - [PDF範本的元件](./native-pdf/components-pdf-template.md)
@@ -359,6 +369,8 @@ ht-degree: 6%
          - [自訂Web編輯器](./cs-install-guide/conf-web-editor.md)
          - [自訂工具列](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          - [設定AI支援的智慧型建議以進行編寫](./cs-install-guide/conf-smart-suggestions.md)
+
+         - [設定AI支援的Smart Help以搜尋內容](./cs-install-guide/conf-smart-help.md)
          - [設定標籤檢視的預設值](./cs-install-guide/configure-default-value-tags-view.md)
          - [設定UUID型連結的顯示方式](./cs-install-guide/conf-uuid-based-links.md)
          - [在同一個索引標籤中開啟DITA主題或對應檔案](./cs-install-guide/open-dita-files-same-tab.md)
@@ -383,8 +395,10 @@ ht-degree: 6%
       - 設定版本{#version-mgt-cs}
          - [版本管理](./cs-install-guide/version-management.md)
       - 使用桌上型XML編輯器{#desktop-xml-editor}
-         - 使用輸出產生設定{#output-gen-config-cs}
+         - [整合案頭式XML編輯器](./cs-install-guide/integrate-desktop-editors-cs.md)
+      - 使用輸出產生設定{#output-gen-config-cs}
          - [設定輸出產生設定](./cs-install-guide/conf-output-generation.md)
+         - [下載及安裝aem sites範本](./cs-install-guide/download-install-aem-sites-templates-cs.md)
          - [原生PDF發佈](./cs-install-guide/native-pdf-publishing.md)
          - [設定原生PDF發佈的節點程式](./native-pdf/configure-node-options.md)
          - [建立主題與內容片段之間的對應](./cs-install-guide/conf-content-fragment-mapping-cs.md)
