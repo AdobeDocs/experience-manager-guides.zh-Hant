@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 6543bc66e1c950a6bf6b923652d61ee87ef966c8
+source-git-commit: fb586c7e857db5c4aa68645cb1be2a48fdbe165c
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1972'
 ht-degree: 6%
 
 ---
@@ -496,6 +496,7 @@ ht-degree: 6%
       - 正在發佈{#publishing}
          - DITA-OT {#dita-ot}
             - [在外掛程式中使用AEM中繼資料](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
+         - [新增自訂字型至您的DITA原生PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
          - [設定AEM環境以進行原生PDF發佈](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          - [將企業品牌新增至PDF的第一頁](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
          - [在原生PDF發佈中產生書籤圖的目錄](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
