@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: fb586c7e857db5c4aa68645cb1be2a48fdbe165c
+source-git-commit: 9db546b3a9e0ece66024e1c06c6cec52b786ff76
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1974'
 ht-degree: 6%
 
 ---
@@ -494,18 +494,22 @@ ht-degree: 6%
          - [設定資料來源聯結器](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
 
       - 正在發佈{#publishing}
+
+         - 原生PDF{#native-pdf}
+            - [新增自訂字型至您的DITA原生PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+            - [設定AEM環境以進行原生PDF發佈](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+            - [將企業品牌新增至PDF的第一頁](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
+            - [在原生PDF發佈中產生書籤圖的目錄](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - DITA-OT {#dita-ot}
             - [在外掛程式中使用AEM中繼資料](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
-         - [新增自訂字型至您的DITA原生PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-         - [設定AEM環境以進行原生PDF發佈](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-         - [將企業品牌新增至PDF的第一頁](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-         - [在原生PDF發佈中產生書籤圖的目錄](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+            - [設定自訂DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
          - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+
          - [微服務架構與效能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [使用JWT驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices.md)
          - [使用OAuth驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [在AEM雲端上發佈基準](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-         - [設定自訂DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+
 
       - 工作流程 {#workflows}
          - [貼文產生工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
