@@ -2,9 +2,9 @@
 title: 發行說明 | 已修正Adobe Experience Manager Guides 4.6.0版本中的問題
 description: 瞭解Adobe Experience Manager Guides 4.6.0版的錯誤修正
 role: Leader
-source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
+source-git-commit: 9ffe068bbcdc0fe32e3dbf56a48171d241825e5a
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,7 @@ ht-degree: 0%
 - 由於OOTB重新產生主題或增量發佈API失敗，主題重新產生失敗。 (18452)
 - 升級Experience Manager Guides後，條件預設集沒有擷取更新的屬性。 (18174)
 - 如果包含索引鍵定義的檔案與DITA map不在相同的資料夾中，則無法正確解析原生PDF輸出的內容參照。 (15062)
+- 大量啟用已發佈內容的功能，無法用於當地語系化地圖。 (17638)
 
 
 ## 管理
