@@ -2,7 +2,7 @@
 title: 發行說明 | Adobe Experience Manager Guides 2024.10.0版的新增功能
 description: 瞭解2024.10.0版Adobe Experience Manager Guides中的新功能和增強功能
 role: Leader
-source-git-commit: 545e51cbd970aa3df01a0fe2461a2e730c0db66a
+source-git-commit: b5ee4610811209719c7f0ff4bd03d8ae55f2d934
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 1%

@@ -5,10 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
+source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 9%
+source-wordcount: '836'
+ht-degree: 8%
 
 ---
 
@@ -92,6 +92,40 @@ ht-degree: 9%
 
 1. 按一下「**儲存**」。
 
+>[!IMPORTANT]
+>
+> 設定翻譯設定後，請務必在語言資料夾上設定適當的雲端設定。
+
+## 設定舊版翻譯工作流程
+
+>[!IMPORTANT]
+> 
+> 建議您使用最新的翻譯工作流程，此工作流程可提升效能。 不過，如果您目前的翻譯程式已啟用任何自訂，請考慮使用舊版翻譯工作流程。
+
+舊版翻譯工作流程選項預設為停用。 您可以執行下列步驟來設定此選項：
+
+1. 開啟Adobe Experience Manager Web主控台設定頁面。
+
+   存取設定頁面的預設URL為：
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;套件。
+
+1. 根據您的設定，設定舊版翻譯工作流程選項：
+
+   - （*預設*）如果您想要使用最新的翻譯工作流程，請停用&#x200B;**執行舊版翻譯工作流程**&#x200B;選項。
+   - 若要使用舊版翻譯工作流程，請啟用&#x200B;**執行舊版翻譯工作流程**&#x200B;選項。
+
+1. 按一下「**儲存**」。
+
+
+
+
+
+
 <!---
 
 This was added for 2406 CS IG
@@ -125,9 +159,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 --->
->[!IMPORTANT]
->
-> 設定翻譯設定後，請務必在語言資料夾上設定適當的雲端設定。
+
 
 ## 設定暫存語言副本的後處理
 
@@ -145,10 +177,10 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 1. 搜尋並按一下&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;套件。
 
-1. 根據您的設定，設定&#x200B;**Post處理語言副本**&#x200B;選項：
+1. 根據您的設定，設定&#x200B;**後續處理語言副本**&#x200B;選項：
 
-   - \（*預設*\）如果您不想對暫存檔執行後續處理作業，請&#x200B;*停用* **Post處理語言副本**&#x200B;選項。
+   - \（*預設*\）如果您不想對暫存檔執行後續處理作業，請&#x200B;*停用* **後續處理語言副本**&#x200B;選項。
 
-   - 如果要在暫存檔上執行後續處理作業，請&#x200B;*啟用* **Post處理語言副本**&#x200B;選項。
+   - 如果要在暫存檔上執行後續處理作業，請&#x200B;*啟用* **後續處理語言副本**&#x200B;選項。
 
 1. 按一下「**儲存**」。
