@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 9553c05b1ab9657d6138aa0ff026cc4494514bd8
+source-git-commit: 59929235b3d93267b9b82fd2827c8d3ac6607e61
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 6%
@@ -139,7 +139,7 @@ ht-degree: 6%
                - [支援Schematron檔案](./user-guide/support-schematron-file.md)
                - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [AI支援的Smart Help可搜尋內容](./user-guide/ai-based-smart-help.md)
-               - [AI Assistant，以智慧效率撰寫檔案](./user-guide/AI-assistant-right-panel.md)
+               - [AI Assistant，以智慧效率撰寫檔案](./user-guide/ai-assistant-right-panel.md)
                - [從網頁編輯器編寫Markdown檔案](./user-guide/web-editor-markdown-topic.md)
                - [將引文新增至您的內容](./user-guide/web-editor-apply-citations.md)
                - [使用來自您的資料來源的資料](./user-guide/web-editor-content-snippet.md)
