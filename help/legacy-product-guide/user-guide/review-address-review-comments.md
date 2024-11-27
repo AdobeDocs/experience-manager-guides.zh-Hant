@@ -3,7 +3,7 @@ title: 處理稽核意見
 description: 瞭解如何在AEM Guides中以作者身分處理評論意見。 探索作者如何編輯、篩選、接受或拒絕檔案中的註解。
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # 處理稽核意見 {#id2056B0X0KBI}
 
 
-身為作者，您可以使用網頁編輯器在主題中處理註解。 註解會根據在「稽核」面板中選取的稽核任務載入。 如需更多詳細資料，請在[左側面板](/help/product-guide/user-guide/web-editor-features.md#id2051EA0M0HS)區段中檢視&#x200B;**檢閱**&#x200B;面板![](images/active-review-tasklist-icon.svg)功能說明。
+身為作者，您可以使用網頁編輯器在主題中處理註解。 註解會根據在「稽核」面板中選取的稽核任務載入。 如需更多詳細資料，請在[左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS)區段中檢視&#x200B;**檢閱**&#x200B;面板![](images/active-review-tasklist-icon.svg)功能說明。
 
 以下各節說明在Web編輯器中編輯註解的方法。
 

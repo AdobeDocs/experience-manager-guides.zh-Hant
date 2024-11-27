@@ -3,9 +3,9 @@ title: 瞭解網頁編輯器功能
 description: 探索AEM Guides中網頁編輯器的功能。 瞭解網頁編輯器的介面，包括主工具列、次要工具列、左側面板、內容編輯區域以及右側面板。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >若要在Experience Manager Guides中設定Salesforce的Proxy，請使用AEM中的Apache HTTP元件Proxy設定。 瞭解如何[設定AEM連結檢查器](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的Proxy。
+     >若要在Experience Manager Guides中設定Salesforce的Proxy，請在AEM中使用Apache HTTP元件Proxy設定。 瞭解如何[設定AEM連結檢查器](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的Proxy。
 
 
    - **建立ServiceNow Publish設定檔**
@@ -199,7 +199,7 @@ ht-degree: 0%
 
   驗證之後，您可以在DITA Map的輸出預設集中選取Publish設定檔，並使用它產生輸出至您選擇的&#x200B;**Salesforce**&#x200B;或&#x200B;**ServiceNow**&#x200B;伺服器。
 
-  深入瞭解[知識庫](/help/product-guide/user-guide/generate-output-knowledge-base.md)輸出預設集。
+  深入瞭解[知識庫](../user-guide/generate-output-knowledge-base.md)輸出預設集。
 
 
 - **驗證**：此標籤包含在Web編輯器中設定Schematron驗證的選項。 您可以啟用下列功能：
@@ -605,7 +605,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 簽入/簽出的工具提示由`ui_config.json`檔案中的標題屬性決定。
 
-如需詳細資訊，請檢視「內部部署安裝與組態指南」中的[設定簽入與簽出圖示的標題](/help/product-guide/install-guide/conf-checkin-checkout-title.md)。
+如需詳細資訊，請檢視「內部部署安裝與組態指南」中的[設定簽入與簽出圖示的標題](../install-guide/conf-checkin-checkout-title.md)。
 
 
 **切換標籤檢視** - ![](images/Label_icon.svg)
@@ -1029,7 +1029,7 @@ Favroties集合的&#x200B;**選項功能表**\
 
 視您選取的是媒體檔案還是DITA檔案而定，您會在「選項」選單中看到不同的選項。 媒體和DITA檔案可用的常見選項有：
 
-- 重複項
+- 複製
 - 簽出/簽入
 - 預覽
 - 移至
@@ -1142,7 +1142,7 @@ Favroties集合的&#x200B;**選項功能表**\
 
   >[!NOTE]
   >
-  >請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這不會當作現成支援的一部分啟用。 如需更多詳細資訊，請檢視《安裝與組態指南》中的[設定選項以在Oxyo ](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md)中編輯。
+  >請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這不會當作現成支援的一部分啟用。 如需更多詳細資訊，請檢視《安裝與組態指南》中的[設定選項以在Oxyo ](../cs-install-guide/conf-edit-in-oxygen.md)中編輯。
 
 
 - **在Assets UI中檢視**：使用此專案來顯示Assets UI中.dita/.xml檔案的預覽。 若是.ditamap/.bookmap檔案，對應中的所有主題檔案都會以單一統一的逐頁檢視顯示。
@@ -1507,7 +1507,22 @@ AEM Guides可讓您輕鬆建立和使用字彙表型別的檔案。 您可以建
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-從「屬性」清單中，選取您要定義的條件屬性，輸入條件的值，然後指定顯示在「條件」面板中的標籤。 您也可以定義條件的顏色。 此顏色會設定為套用條件的內容背景顏色
+從「屬性」清單中，選取您要定義的條件屬性，輸入條件的值，然後指定顯示在「條件」面板中的標籤。 定義條件的群組。 您可以將多個條件新增至群組。 您也可以定義條件的顏色。 此顏色會設定為套用條件的內容背景顏色。
+
+您可以將條件分組，並在巢狀資料夾中加以建構。 群組可協助您在多個層級建立條件，並更好地組織這些條件以用於內容。
+
+例如，您可以建立&#x200B;*Acrobat*&#x200B;和&#x200B;*AEM Guides*&#x200B;等產品的條件群組。 您可以選取兩個群組的條件屬性。 在每個群組下，您都可以有特定的值，例如&#x200B;*使用者*、*管理員*、*檢閱者*&#x200B;和&#x200B;*作者*。
+
+>[!NOTE]
+>
+> 鍵入以建立新群組或為特定屬性選取現有群組。
+
+您可以使用`/`並定義子群組定義子群組，例如`AEM Guides/Cloud Service`。
+
+
+
+以巢狀階層方式組織的![條件](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 若要編輯條件，請從[選項]功能表選擇[編輯]。**** 「編輯條件」對話方塊隨即顯示：
 
@@ -1805,7 +1820,7 @@ AEM Guides提供可在您的專案中顯示所有稽核任務的功能。 您可
    - 選取![](images/filter-search-icon.svg)以開啟&#x200B;**篩選器**&#x200B;對話方塊。 您可以選取所有專案或僅選取特定專案。 選取的專案會列在&#x200B;**檢閱**面板中。
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     依預設會啟用由我起始的&#x200B;**工作**&#x200B;選項。 它可讓您僅檢視您已起始的任務。
+     依預設會啟用由我起始的&#x200B;**工作**&#x200B;選項。 它可讓您僅檢視您已起始的任務。 即使在重新整理頁面後，也會維持此選項的切換狀態。
 
 1. 依預設，在您的稽核專案中，您將檢視含有與其相關之註解的主題平面清單。 從左側邊欄套用所需的篩選器，以根據主題中存在的稽核評論來篩選主題：
 
@@ -1916,7 +1931,7 @@ AEM Guides提供可在您的專案中顯示所有稽核任務的功能。 您可
 
 ## 內容編輯區域 {#id2051EB000UI}
 
-內容編輯區域是顯示主題或地圖內容的地方。 您會在此區域中編輯所有內容。 它提供您正在編輯的內容的WYSIWYG檢視。 您可以同時開啟多個主題，這些主題會顯示在各自的標籤中。
+內容編輯區域是顯示主題或地圖內容的地方。 您會在此區域中編輯所有內容。 其會提供您正在編輯內容的WYSIWYG檢視。 您可以同時開啟多個主題，這些主題會顯示在各自的標籤中。
 
 依預設，您可以在標籤中檢視檔案標題。 當您將滑鼠停留在檔案上時，您可以檢視檔案標題和檔案路徑作為工具提示。
 

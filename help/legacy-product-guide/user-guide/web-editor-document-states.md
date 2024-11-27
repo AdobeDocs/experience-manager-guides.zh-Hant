@@ -3,7 +3,7 @@ title: 檔案狀態
 description: 瞭解AEM Guides中的檔案狀態型別。 瞭解如何變更或檢視檔案狀態，以及如何在DDLC中使用檔案狀態。
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
    >
    >管理員可以檢視所有檔案狀態，並將檔案變更為任何可能的狀態。
 
-1. 按一下&#x200B;**「儲存並關閉」**。
+1. 按一下「**儲存並關閉**」。
 
 ## 檢視檔案狀態
 

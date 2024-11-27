@@ -3,7 +3,7 @@ title: 網頁編輯器中的其他功能
 description: 探索AEM Guides中網頁編輯器的其他功能。 瞭解如何使用這些功能來改善AEM Guides中的撰寫作業。
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -156,9 +156,9 @@ Web編輯器中有其他一些有用的功能可供您使用：
 
 - 網頁編輯器支援您可以新增`term`或`abbreviated-form`元素來插入的DITA字彙表辭彙。
 
-**插入MathML公式**
+**插入MathML方程式**
 
-- Experience Manager Guides提供立即可用的支援，可讓您透過與[MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro)應用程式的整合，插入MathML方程式。 若要插入MathML方程式，請選取&#x200B;**插入元素**&#x200B;圖示並輸入mathml。 當您從清單中選取mathml元素時，會顯示&#x200B;**插入MathML**&#x200B;對話方塊：
+- Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro)應用程式的整合，插入MathML方程式。 若要插入MathML方程式，請選取&#x200B;**插入元素**&#x200B;圖示並輸入mathml。 當您從清單中選取mathml元素時，會顯示&#x200B;**插入MathML**&#x200B;對話方塊：
 
 ![在mathml編輯器中插入mathml方程式](images/insert-mathml-equation.png){width="550" align="left"}
 
@@ -170,12 +170,12 @@ Web編輯器中有其他一些有用的功能可供您使用：
 
 - **在MathML編輯器中驗證方程式**
 
-  當您儲存包含MathML方程式的主題時，Experience Manager Guides會驗證這些方程式。
-使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白標示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取**插入**，則會顯示警告。
+  當您儲存包含方程式的主題時，Experience Manager Guides會驗證MathML方程式。
+使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取**插入**，則會顯示警告。
 
   ![驗證mathml方程式](images/validate-mathml-equation.png){width="400" align="left"}
 
-  如果您插入包含語法錯誤的MathML方程式，則當您嘗試儲存主題時，會發生驗證錯誤。
+  如果您插入包含語法錯誤的MathML方程式，則在嘗試儲存主題時會發生驗證錯誤。
 
 
 **插入註腳**

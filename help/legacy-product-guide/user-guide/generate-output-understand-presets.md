@@ -3,7 +3,7 @@ title: 瞭解輸出預設集
 description: 瞭解AEM Guides中的輸出預設集。 從網頁編輯器和地圖儀表板建立AEM網站、PDF、HTML5、EPUB、自訂和JSON格式的輸出預設集。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

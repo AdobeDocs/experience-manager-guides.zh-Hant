@@ -3,7 +3,7 @@ title: 智慧標籤
 description: 瞭解如何在AEM Guides中新增智慧標籤。 使用XML關鍵字擷取工具來擷取相關關鍵字。
 feature: Metadata Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%

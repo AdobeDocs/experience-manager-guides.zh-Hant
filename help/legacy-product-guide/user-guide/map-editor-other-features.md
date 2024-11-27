@@ -3,7 +3,7 @@ title: 地圖編輯器中的其他功能
 description: 探索基本和進階地圖編輯器中的部分常見功能。 瞭解如何在Map編輯器中解析索引鍵參考。
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

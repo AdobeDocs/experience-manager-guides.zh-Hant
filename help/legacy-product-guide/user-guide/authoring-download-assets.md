@@ -3,7 +3,7 @@ title: 下載檔案
 description: 瞭解如何從AEM Guides的DITA map主控台下載檔案，以及匯出AEM存放庫中的DITA map檔案。
 feature: Content Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%

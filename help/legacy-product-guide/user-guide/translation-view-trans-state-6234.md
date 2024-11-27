@@ -3,7 +3,7 @@ title: 檢視翻譯狀態
 description: 瞭解如何在AEM Guides的DITA map中檢視每個主題的翻譯狀態和翻譯的語言副本。
 feature: Translation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%

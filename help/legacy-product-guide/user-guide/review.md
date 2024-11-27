@@ -3,7 +3,7 @@ title: 檢閱主題或地圖
 description: 在AEM Guides中有效率地檢閱主題或地圖，以順暢地評估內容。 瞭解AEM Guides中適用於作者和檢閱者的功能。
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%

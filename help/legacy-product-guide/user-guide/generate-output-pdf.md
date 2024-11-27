@@ -3,9 +3,9 @@ title: 產生PDF
 description: 瞭解如何從網頁編輯器和地圖控制面板建立PDF預設集。 在AEM Guides中設定PDF輸出預設集。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1032'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 進階標籤包含以下設定：
 
 - 啟用版本設定
-- 下載暫存檔案
+- 保留暫存檔
 
 如需詳細資訊，請參閱[PDF組態](#id231KIM004X1)。
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 | 轉換名稱 | 指定您要產生的輸出型別。 如果您想要使用自己的自訂外掛程式產生輸出（已整合在DITA-OT外掛程式中），則需要此專案。 例如，如果您要產生XHTML輸出，請指定`xhtml`。 如需DITA-OT中可用的轉換清單，請參閱OASIS DITA-OT使用手冊中的[DITA-OT轉換（輸出格式）](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html)。 |
 | 檔案名稱 | 指定要用來儲存PDF的檔案名稱。<br><br>您也可以在設定PDF檔案名稱時使用變數。 如需有關使用變數的詳細資訊，請參閱[使用變數來設定目的地路徑、網站名稱或檔案名稱選項](generate-output-use-variables.md#id18BUG70K05Z)。<br><br>**注意**：如果您未提供檔案名稱，則會使用DITA map的標題來產生最終PDF的檔案名稱。 如果對應沒有標題，則會使用DITA map的檔案名稱來命名最終PDF。 系統會使用系統中設定的規則來清除檔案名稱，以處理任何無效字元。 |
 | 目的地路徑 | 您的AEM存放庫內儲存PDF的路徑。<br><br>您也可以在設定目的地路徑時使用變數。 如需有關使用變數的詳細資訊，請參閱[使用變數來設定目的地路徑、網站名稱或檔案名稱選項](generate-output-use-variables.md#id18BUG70K05Z)。 |
-| 下載暫存檔案 | 選取此選項可下載DITA-OT產生的暫存檔案。 可以在輸出產生記錄中找到DITA-OT儲存暫存檔的位置。 如果您在透過DITA-OT產生輸出時發生錯誤，請選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。<br> <br>產生輸出後，請選取&#x200B;**下載暫存檔** ![下載暫存檔圖示](images/download-temp-files-icon.png)圖示來下載包含暫存檔的ZIP資料夾。<br><br> **注意**：如果您選取某些檔案屬性，然後下載暫存檔案，您也會在ZIP資料夾中取得&#x200B;*metadata.xml*&#x200B;檔案。 |
+| 保留暫存檔 | 選取此選項可保留DITA-OT產生的暫存檔案。 如果您在透過DITA-OT產生輸出時發生錯誤，請選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。<br> <br>產生輸出後，請選取&#x200B;**下載暫存檔** ![下載暫存檔圖示](images/download-temp-files-icon.png)圖示來下載包含暫存檔的ZIP資料夾。<br><br> **注意**：如果在產生期間新增檔案屬性，輸出暫存檔也會包含包含包含這些屬性的&#x200B;*metadata.xml*&#x200B;檔案。 |
 | 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>如需詳細資訊，請參閱[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)。 |
 | 檔案屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會顯示在&#x200B;**檔案屬性**&#x200B;欄位下。 選取屬性旁的十字圖示以將其移除。 <br><br>注意：您也可以使用DITA-OT發行將中繼資料傳遞至輸出。 如需詳細資訊，請參閱[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞給輸出。 |
 

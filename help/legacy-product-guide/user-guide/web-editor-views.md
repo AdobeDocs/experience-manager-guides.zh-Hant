@@ -3,7 +3,7 @@ title: 網頁編輯器檢視
 description: 以作者、來源和預覽模式檢視檔案。 瞭解如何根據條件篩選器檢視內容、檢視追蹤變更標籤，以及在AEM Guides中將主題匯出為PDF。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%

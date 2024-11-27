@@ -3,7 +3,7 @@ title: 從存放庫面板產生輸出
 description: 在AEM Guides中，從存放庫面板或地圖檢視面板產生輸出。 瞭解如何發佈用於一個或多個DITA map的主題，或為多個主題產生輸出。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%

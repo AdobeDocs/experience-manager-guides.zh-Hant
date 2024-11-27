@@ -3,7 +3,7 @@ title: 檢視輸出產生工作的狀態
 description: 檢視FrameMaker檔案的輸出產生佇列。 瞭解如何檢視輸出產生任務的狀態。
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%

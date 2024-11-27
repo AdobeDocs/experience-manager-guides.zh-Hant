@@ -3,7 +3,7 @@ title: 使用AEM Guides製作內容
 description: 使用AEM Guides高效地創作內容。 瞭解如何在AEM Guides中建立、編輯和發佈檔案。
 feature: Authoring
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%

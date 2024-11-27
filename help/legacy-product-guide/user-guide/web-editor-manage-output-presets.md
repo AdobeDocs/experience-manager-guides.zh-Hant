@@ -3,7 +3,7 @@ title: 管理全域和資料夾設定檔輸出預設集
 description: 瞭解如何在AEM Guides中以管理使用者的身分建立、編輯、重新命名、複製和刪除全域和資料夾設定檔輸出預設集。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: 啟動輸出
 description: 在AEM Guides中啟動DITA map的輸出。 瞭解如何在發佈執行個體上啟用您的內容。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 1%

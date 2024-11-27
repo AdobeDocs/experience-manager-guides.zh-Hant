@@ -3,7 +3,7 @@ title: 傳送主題以供檢閱
 description: 瞭解如何在AEM Guides中建立稽核任務並傳送稽核主題。 在DITA map中傳送一或多個主題以供檢閱。
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 0%

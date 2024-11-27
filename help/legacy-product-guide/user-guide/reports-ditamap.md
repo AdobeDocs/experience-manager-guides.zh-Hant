@@ -3,7 +3,7 @@ title: DITA map報表（從map儀表板）
 description: 從AEM Guides中的Map儀表板產生DITA Map報表。 瞭解如何產生DITA map報表的CSV。
 feature: Report Generation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: 從Web編輯器建立和管理基準線
 description: 在AEM Guides中從Web編輯器建立和管理基準線。 瞭解如何根據標籤建立基準並將篩選器套用至基準線。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%

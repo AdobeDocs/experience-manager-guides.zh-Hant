@@ -3,7 +3,7 @@ title: 從您的資料來源插入內容片段
 description: 在AEM Guides中使用來自您資料來源的資料。 瞭解如何從您的資料來源插入內容片段。 使用主題產生器建立主題。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ ht-degree: 0%
 <summary> 雲端服務 </summary>
 
 
-- 如果您使用的是2023年10月發行版本或更新版本，請在Cloud Service安裝與設定指南中瞭解如何[從使用者介面](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)設定資料來源聯結器。
+- 如果您使用的是2023年10月發行版本或更新版本，請在Cloud Service安裝與設定指南中瞭解如何[從使用者介面](../cs-install-guide/conf-data-source-connector-tools.md)設定資料來源聯結器。
 
-- 如果您使用的是2023年7月或2023年9月版本，請在Cloud Service安裝與設定指南中瞭解如何[設定資料來源聯結器](/help/product-guide/cs-install-guide/conf-data-source-connector.md)。
+- 如果您使用的是2023年7月或2023年9月版本，請在Cloud Service安裝與設定指南中瞭解如何[設定資料來源聯結器](../cs-install-guide/conf-data-source-connector.md)。
 
 </details>
 
 <details>    
 <summary>  內部部署軟體 </summary>
 
-- 如果您使用4.3.1版或更新版本，在On-premise Installation and Configuration Guide中瞭解如何[從使用者介面](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)設定資料來源聯結器。
+- 如果您使用4.3.1版或更新版本，在On-premise Installation and Configuration Guide中瞭解如何[從使用者介面](../cs-install-guide/conf-data-source-connector-tools.md)設定資料來源聯結器。
 
-- 如果您使用4.3版，請在On-premise安裝與設定指南中瞭解如何[設定資料來源聯結器](/help/product-guide/cs-install-guide/conf-data-source-connector.md)。
+- 如果您使用4.3版，請在On-premise安裝與設定指南中瞭解如何[設定資料來源聯結器](../cs-install-guide/conf-data-source-connector.md)。
 </details>
 
 

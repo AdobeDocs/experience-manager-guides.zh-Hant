@@ -3,7 +3,7 @@ title: Publish體驗片段的主題
 description: Publish主題或AEM Guides中體驗片段的主題元素。  瞭解如何檢視呈現給主題的體驗片段並重新發佈。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
 
 
 
-     您的管理員可以在&#x200B;*experienceFragmentMapping.json*&#x200B;檔案中新增對應。  進一步瞭解如何在安裝及設定指南中[建立主題與體驗片段](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md)之間的對應。
+     您的管理員可以在&#x200B;*experienceFragmentMapping.json*&#x200B;檔案中新增對應。  進一步瞭解如何在安裝及設定指南中[建立主題與體驗片段](../cs-install-guide/conf-experience-fragment-mapping-cs.md)之間的對應。
 
    * 您也可以選取不同的條件來發佈內容。  選取下列其中一個選項：
 

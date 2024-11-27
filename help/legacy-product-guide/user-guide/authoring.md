@@ -3,7 +3,7 @@ title: 管理內容
 description: 在AEM Guides中管理內容並識別您的角色和許可權。 瞭解內容管理以及使用全域或檔案夾層級設定檔的主要概念。
 feature: Content Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 9%
@@ -67,7 +67,7 @@ AEM Guides提供三個現成可用的群組。 這些群組是： *作者*、*�
 | **DITA map主控台中可用的功能\（輸出預設集索引標籤\）** |
 | 產生 |   |   | 是 |
 | 編輯 |   |   | 是 |
-| 重複項 |   |   | 是 |
+| 複製 |   |   | 是 |
 | 建立 |   |   | 是 |
 | 刪除預設集 |   |   | 是 |
 | **DITA map主控台中可用的功能\（輸出標籤\）** |
@@ -78,7 +78,7 @@ AEM Guides提供三個現成可用的群組。 這些群組是： *作者*、*�
 | **DITA map主控台中可用的功能\（基準線標籤\）** |
 | 建立 |   |   | 是 |
 | 編輯 |   |   | 是 |
-| 重複項 |   |   | 是 |
+| 複製 |   |   | 是 |
 | 移除 |   |   | 是 |
 | DITA map主控台\（報表標籤\） | 是 |   | 是 |
 | DITA map主控台中可用的&#x200B;**功能\（條件預設集\）** |
