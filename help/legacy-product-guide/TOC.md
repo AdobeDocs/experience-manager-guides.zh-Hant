@@ -4,9 +4,9 @@ user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
 hide: true
 badgeAll: label="舊版指南 — 更多資訊" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="舊版指南"
-source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
+source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '543'
 ht-degree: 4%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 4%
       - [輸出預設集簡介](./user-guide/generate-output-understand-presets.md)
       - AEM Guides {#output-presets-aemg}中的輸出預設集
          - [AEM網站](./user-guide/generate-output-aem-site.md)
+         - [地圖儀表板上的AEM Sites預設集](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [網頁編輯器中的AEM Sites預設集](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [知識庫](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
