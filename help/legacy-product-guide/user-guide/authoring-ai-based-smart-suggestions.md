@@ -1,7 +1,7 @@
 ---
 title: 創作內容的AI支援智慧型建議
 description: 瞭解如何在網頁編輯器中檢視並利用AI支援的智慧型建議。
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Experience Manager Guides提供智慧型建議，協助您建立一致且精確�
 這可協助您重複使用檔案存放庫中的現有內容，並建立一致的內容。 例如，您正在製作包含有關&#x200B;**Adobe Firefly**&#x200B;資訊的檔案，其中包括有關&#x200B;**Adobe**&#x200B;的段落。 在這種情況下，您可以快速檢視並新增其他主題(例如&#x200B;**Adobe Photoshop**)的內容參考，其中包含相同的段落。
 >[!NOTE]
 >
-> 在[全域或資料夾層級設定檔](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions)中，您的管理員需要定義要索引的檔案或資料夾，以取得智慧型建議、檢視建議所需輸入的最小字元數，以及可在清單中檢視的最大建議數。
+> 在[全域或資料夾層級設定檔](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions)中，您的管理員需要定義要索引的檔案或資料夾，以取得智慧型建議、檢視建議所需輸入的最小字元數，以及可在清單中檢視的最大建議數。
 
 執行以下步驟，檢視將適當內容參照新增至主題的智慧建議：
 

@@ -1,7 +1,7 @@
 ---
 title: AI支援的Smart Help可搜尋內容
 description: 瞭解如何在網頁編輯器中檢視並利用AI支援的Smart Help。
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Experience Manager Guides提供GenAI型Smart Help，這是對話式搜尋功能�
 
 >[!NOTE]
 >
-> 您的管理員必須設定&#x200B;**智慧說明**&#x200B;功能。 如需詳細資訊，請檢視《安裝與設定指南》中的[設定AI支援的Smart Help以搜尋內容](../cs-install-guide/conf-smart-help.md)區段以取得Cloud Service。
+> 您的管理員必須設定&#x200B;**智慧說明**&#x200B;功能。 如需詳細資訊，請檢視《安裝與設定指南》中的[設定AI支援的Smart Help以搜尋內容](/help/product-guide/cs-install-guide/conf-smart-help.md)區段以取得Cloud Service。
 
 ![智慧型說明面板](images/smart-help-panel.png){width="300" align="left"}
 
@@ -39,7 +39,7 @@ Experience Manager Guides提供GenAI型Smart Help，這是對話式搜尋功能�
 
    >[!NOTE]
    >
-   > 在[全域或資料夾層級設定檔](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant)中，您的管理員需要定義出現在面板中的預設問題。
+   > 在[全域或資料夾層級設定檔](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant)中，您的管理員需要定義出現在面板中的預設問題。
 
 1. 輸入問題以在Experience Manager Guides檔案中尋找相關內容。 您可以在面板中選取預設問題，或在文字方塊中輸入問題。
 

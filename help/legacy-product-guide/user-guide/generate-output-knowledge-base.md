@@ -3,7 +3,7 @@ title: 知識庫
 description: 瞭解如何從網頁編輯器和地圖控制面板建立知識庫預設集。 在AEM Guides中設定知識庫輸出預設集。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 | --- | --- |
 | 套用條件，使用 | 選取下列其中一個選項： <br><br>* **未套用任何專案**：如果您不想在發佈的輸出上套用任何條件，請選取此選項。<br>* **DITAVAL檔案**：選取DITAVAL檔案以產生個人化內容。 您可以使用瀏覽對話方塊或輸入檔案路徑來選取多個DITAVAL檔案。 使用檔案名稱附近的十字圖示可將其移除。 DITAVAL檔案會依指定的順序評估，因此第一個檔案中指定的條件優先於後續檔案中指定的相符條件。 您可以透過新增或刪除檔案來維持檔案順序。 如果DITAVAL檔案被移動到其他位置或刪除，它不會自動從預設集中刪除。 您必須更新位置，才能移動或刪除檔案。 您可以將滑鼠停留在檔案名稱上，檢視檔案儲存所在的Adobe Experience Manager存放庫中的路徑。 您只能選取DITAVAL檔案，如果您選取任何其他檔案型別，則會顯示錯誤。<br>* **條件預設集**：從下拉式清單中選取條件預設集，以在發佈輸出時套用條件。 如果您在DITA map主控台的「條件預設集」標籤中新增條件，則會顯示選項。 若要進一步瞭解條件預設集，請檢視[使用條件預設集](generate-output-use-condition-presets.md#id1825FL004PN)。 |
 | 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得詳細資料。 |
-| 貼文產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含Adobe Experience Manager中設定的所有工作流程。 您必須選取要在輸出產生完成後執行的工作流程。<br><br>**注意**：進一步瞭解如何在Cloud Service的安裝與設定指南中[自訂輸出後產生工作流程](../cs-install-guide/customize-workflows.md#id17A6GI004Y4)區段。 |
+| 貼文產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含Adobe Experience Manager中設定的所有工作流程。 您必須選取要在輸出產生完成後執行的工作流程。<br><br>**注意**：進一步瞭解如何在Cloud Service的安裝與設定指南中[自訂輸出後產生工作流程](/help/product-guide/cs-install-guide/customize-workflows.md#id17A6GI004Y4)區段。 |
 
 ### ServiceNow
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的管理員已設定Adobe Experience Manager知識庫預設集，您就可以使用該預設集。 如需詳細資訊，請檢視《安裝與設定指南》中Web編輯器](../install-guide/configure-article-based-publishing.md)區段的[以文章為基礎的發佈。
+>如果您的管理員已設定Adobe Experience Manager知識庫預設集，您就可以使用該預設集。 如需詳細資訊，請檢視《安裝與設定指南》中Web編輯器](/help/product-guide/install-guide/configure-article-based-publishing.md)區段的[以文章為基礎的發佈。
 
 | Adobe Experience Manager選項 | 說明 |
 | --- | --- |
@@ -73,7 +73,7 @@ ht-degree: 2%
 | 網站 | 使用此欄位來選取必要的Adobe Experience Manager知識庫。 您可以在Adobe Experience Manager網站中設定知識庫，以根據許可權儲存內容。 此DITA map中的文章可發佈至這些知識庫。 |
 | 類別 | 從下拉式清單中選取類別，以在AdobeExperience Manager網站上發佈該類別中目錄的主題。 |
 | 章節範本和文章範本 | 這些是用來組織輸出內容的結構元件。 這些範本已在Adobe Experience Manager網站範本中預先定義。 |
-| 貼文產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含Adobe Experience Manager中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。<br>進一步瞭解如何在安裝與設定指南中[自訂輸出後產生工作流程](../install-guide/customize-workflows.md#id17A6GI004Y4)區段。 |
+| 貼文產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含Adobe Experience Manager中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。<br>進一步瞭解如何在安裝與設定指南中[自訂輸出後產生工作流程](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)區段。 |
 
 >[!TIP]
 > 

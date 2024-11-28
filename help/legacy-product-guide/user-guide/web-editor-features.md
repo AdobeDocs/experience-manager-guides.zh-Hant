@@ -3,7 +3,7 @@ title: 瞭解網頁編輯器功能
 description: 探索AEM Guides中網頁編輯器的功能。 瞭解網頁編輯器的介面，包括主工具列、次要工具列、左側面板、內容編輯區域以及右側面板。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -605,7 +605,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 簽入/簽出的工具提示由`ui_config.json`檔案中的標題屬性決定。
 
-如需詳細資訊，請檢視「內部部署安裝與組態指南」中的[設定簽入與簽出圖示的標題](../install-guide/conf-checkin-checkout-title.md)。
+如需詳細資訊，請檢視「內部部署安裝與組態指南」中的[設定簽入與簽出圖示的標題](/help/product-guide/install-guide/conf-checkin-checkout-title.md)。
 
 
 **切換標籤檢視** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ Favroties集合的&#x200B;**選項功能表**\
 
   >[!NOTE]
   >
-  >請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這不會當作現成支援的一部分啟用。 如需更多詳細資訊，請檢視《安裝與組態指南》中的[設定選項以在Oxyo ](../cs-install-guide/conf-edit-in-oxygen.md)中編輯。
+  >請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這不會當作現成支援的一部分啟用。 如需更多詳細資訊，請檢視《安裝與組態指南》中的[設定選項以在Oxyo ](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md)中編輯。
 
 
 - **在Assets UI中檢視**：使用此專案來顯示Assets UI中.dita/.xml檔案的預覽。 若是.ditamap/.bookmap檔案，對應中的所有主題檔案都會以單一統一的逐頁檢視顯示。

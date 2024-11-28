@@ -3,7 +3,7 @@ title: 根據自訂範本建立地圖
 description: 瞭解如何建立自訂範本、使用範本建立新的地圖檔案，並將定義的標題傳遞給AEM Guides中的DITA map。
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,13 +96,13 @@ AEM Guides可讓您從dita-templates資料夾建立自訂地圖和主題。 您�
 <details>
     <summary> 雲端服務 </summary>
 
-瞭解如何在Cloud Service安裝與設定指南中[設定自訂DITA範本資料夾路徑](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)。
+瞭解如何在Cloud Service安裝與設定指南中[設定自訂DITA範本資料夾路徑](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)。
 </details>
 
 <details>
     <summary> 內部部署軟體</summary>
 
-瞭解如何在On-premise Installation and Configuration Guide中[設定自訂DITA範本資料夾路徑](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)。
+瞭解如何在On-premise Installation and Configuration Guide中[設定自訂DITA範本資料夾路徑](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)。
 </details>
 
 ## 傳遞範本中定義的標題

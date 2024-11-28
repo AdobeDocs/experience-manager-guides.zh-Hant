@@ -3,7 +3,7 @@ title: Publish內容片段的主題
 description: Publish主題或AEM Guides中內容片段的主題元素。  瞭解如何檢視主題目前的內容片段並重新發佈。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
      >[!NOTE]
      >
-     > 如果您使用的是4.4或更早版本，請從下拉式清單中選取對應。 它會從&#x200B;*contentFragmentMapping.json*&#x200B;檔案中挑選對應。  您的管理員可以在&#x200B;*contentFragmentMapping.json*&#x200B;檔案中新增對應。 進一步瞭解如何在安裝及設定指南中[建立主題與內容片段之間的對應](../cs-install-guide/conf-content-fragment-mapping-cs.md)。
+     > 如果您使用的是4.4或更早版本，請從下拉式清單中選取對應。 它會從&#x200B;*contentFragmentMapping.json*&#x200B;檔案中挑選對應。  您的管理員可以在&#x200B;*contentFragmentMapping.json*&#x200B;檔案中新增對應。 進一步瞭解如何在安裝及設定指南中[建立主題與內容片段之間的對應](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md)。
 
 1. 按一下&#x200B;**產生**&#x200B;以發佈內容片段。
 
@@ -110,4 +110,4 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
 新的UUID內容移轉指令碼已大幅最佳化，讓內容從非UUID移轉至UUID的速度比先前的指令碼快30倍。 功能包括從查核點恢復、即時深入分析、預估完成時間和詳細報告，確保和諧的移轉程式。 特別要注意的是，移轉程式會保留資產中繼資料，不會做任何變更。 指令碼已在300萬資產的大型資料集上經過測試和驗證，證實其對於大規模移轉的效率和可靠性。
 
-深入瞭解[非UUID移轉至UUID內容轉換](../install-guide/migrate-non-uuid-uuid.md)。
+深入瞭解[非UUID移轉至UUID內容轉換](/help/product-guide/install-guide/migrate-non-uuid-uuid.md)。

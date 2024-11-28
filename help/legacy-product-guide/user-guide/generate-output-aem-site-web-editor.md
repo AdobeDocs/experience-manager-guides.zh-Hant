@@ -3,7 +3,7 @@ title: AEM Sites
 description: 在Web編輯器中建立和設定AEM Sites預設集，並產生DITA map、所選主題和連結主題的AEM Sites輸出。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 您可以從網頁編輯器建立AEM Sites預設集，並將其設定為產生AEM Sites輸出。 AEM Sites輸出以複合元件對應以及`guides-components`為基礎，有助於有效率的內容建立和管理。
 
 Experience Manager Guides為建立AEM Sites提供預先定義的範本。 這些預設集可協助您確保內容版面配置與結構的一致性。
-- [根據這些預先定義的範本建立首頁](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template)。
-- 您可以[編輯主題範本](../cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation)，並根據您的需求套用樣式。
-- 您也可以[自訂現有的AEM Sites範本](../cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates)。
+- [根據這些預先定義的範本建立首頁](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template)。
+- 您可以[編輯主題範本](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation)，並根據您的需求套用樣式。
+- 您也可以[自訂現有的AEM Sites範本](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates)。
 
 
 
@@ -40,8 +40,8 @@ Experience Manager Guides為建立AEM Sites提供預先定義的範本。 這些
 >[!NOTE]
 >
 >在為Experience Manager Guides設定AEM Sites預設集之前，您的管理員需要使用範本建立AEM Sites結構。
-- **內部部署軟體**：深入瞭解如何[下載並安裝內部部署軟體的AEM Sites範本](../install-guide/download-install-aem-sites-templates.md)。
-- **Cloud Service**：進一步瞭解如何[下載及安裝用於Cloud Service的AEM Sites範本](../cs-install-guide/download-install-aem-sites-templates-cs.md)。
+- **內部部署軟體**：深入瞭解如何[下載並安裝內部部署軟體的AEM Sites範本](/help/product-guide/install-guide/download-install-aem-sites-templates.md)。
+- **Cloud Service**：進一步瞭解如何[下載及安裝用於Cloud Service的AEM Sites範本](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)。
 
 
 
@@ -140,7 +140,7 @@ Experience Manager Guides為建立AEM Sites提供預先定義的範本。 這些
 Experience Manager Guides可讓您使用立即可用的範本，或新增您自己的AEM Sites範本。
 
 在設定AEM Sites預設集之前，請務必使用範本建立AEM Sites結構。\
-如需詳細資訊，請檢視[下載並安裝AEM Sites範本](../install-guide/download-install-aem-sites-templates.md)。
+如需詳細資訊，請檢視[下載並安裝AEM Sites範本](/help/product-guide/install-guide/download-install-aem-sites-templates.md)。
 
 
 
