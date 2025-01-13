@@ -5,9 +5,9 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '773'
 ht-degree: 9%
 
 ---
@@ -72,16 +72,17 @@ ht-degree: 9%
 
 ## 設定舊版翻譯工作流程
 
-建議您使用最新的翻譯工作流程，此工作流程可提升效能。 但是，如果您想使用舊版翻譯工作流程，則可加以設定。
+>[!IMPORTANT]
+>
+> 建議您使用AEM Guides 2024.06.0及更高版本中提供的最新翻譯工作流程，以提升效能。 不過，如果您已在翻譯程式中啟用任何自訂，且受新工作流程的影響，請考慮恢復為舊版翻譯工作流程作為因應措施。
 
 使用[組態覆寫](download-install-additional-config-override.md#)中提供的指示來建立組態檔。 在設定檔案中，提供下列（屬性）詳細資料以設定舊版翻譯工作流程：
 
 
-
-
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布林值： <br> — 如果您使用最新的翻譯工作流程，則&#x200B;*停用* \( `false`\) **執行舊版翻譯工作流程**&#x200B;選項。 最新翻譯工作流程預設為啟用。 <br> -   如果您使用舊版翻譯，則&#x200B;*啟用\( `true`\)* **執行舊版翻譯工作流程**&#x200B;選項。 |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布林值： <br> — 如果您使用最新的翻譯工作流程，則&#x200B;*停用* \( `false`\) **執行舊版翻譯工作流程**&#x200B;選項。  <br> -   如果您使用舊版翻譯，則&#x200B;*啟用\( `true`\)* **執行舊版翻譯工作流程**&#x200B;選項。<br> **預設值**： false |
+
 
 
 
@@ -101,5 +102,5 @@ ht-degree: 9%
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布林值： <br> -   如果您不想對暫存檔執行後續處理作業，請&#x200B;*停用* \( false\) **Post處理語言副本**&#x200B;選項。<br> -   如果要在暫存檔上執行後續處理作業，請&#x200B;*啟用* \( true\) **Post處理語言副本**&#x200B;選項。<br> **預設值**： false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布林值： <br> -   如果您不想對暫存檔執行後續處理作業，請&#x200B;*停用* \( false\) **後續處理語言復本**&#x200B;選項。<br> -   如果要在暫存檔上執行後續處理作業，請&#x200B;*啟用* \( true\) **後續處理語言副本**&#x200B;選項。<br> **預設值**： false |
 

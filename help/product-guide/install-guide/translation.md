@@ -5,9 +5,9 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '854'
 ht-degree: 8%
 
 ---
@@ -100,7 +100,9 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 > 
-> 建議您使用最新的翻譯工作流程，此工作流程可提升效能。 不過，如果您目前的翻譯程式已啟用任何自訂，請考慮使用舊版翻譯工作流程。
+> 建議您使用AEM Guides 4.6.0及更高版本中提供的最新翻譯工作流程，以提升效能。 不過，如果您已在翻譯程式中啟用任何自訂，且受新工作流程的影響，請考慮恢復為舊版翻譯工作流程作為因應措施。
+
+
 
 舊版翻譯工作流程選項預設為停用。 您可以執行下列步驟來設定此選項：
 

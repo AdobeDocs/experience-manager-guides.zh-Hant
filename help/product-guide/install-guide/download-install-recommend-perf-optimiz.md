@@ -5,9 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -114,17 +114,5 @@ JVM啟動引數應根據基礎架構和磁碟大小仔細調整。 建議您洽�
 **此變更的結果**
 棧積**屬性中** Limit AEM Site Pages的增加數目會最佳化AEM Site輸出產生程式。
 
-## 最佳化後處理執行緒的數量\（必要，視使用案例而定\）
-
-**有什麼變更？**
-如果您大量上傳DITA內容，則必須進行此變更。
-
-將`com.adobe.fmdita.config.ConfigManager`下的&#x200B;**Post程式Threads**&#x200B;屬性設定為`1`。
-
-**何時設定？**
-這可在執行階段完成。
-
-**此變更的結果**
-此變更可減少大量上傳DITA檔案的後處理時間。
 
 **上層主題：**[&#x200B;下載並安裝](download-install.md)
