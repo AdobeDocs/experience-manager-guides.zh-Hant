@@ -3,10 +3,10 @@ title: Adobe Experience Manager Guides發行藍圖2024
 description: 取得現場部署和即將發行的Adobe Experience Manager Guides版本的相關資訊，以及Adobe Experience Manager Guidesas a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 50e7445e368831d9310124617341f51e0161742f
+source-git-commit: 90861abe508f766d37309d872d20cc2dfa5f8fed
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 28%
+source-wordcount: '323'
+ht-degree: 27%
 
 ---
 
@@ -29,7 +29,7 @@ Experience Manager Guidesas a Cloud Service的發行計畫如下：
 | Adobe Experience Manager Guides 2024.6.0 | 自動更新 | 2024 年 6 月 10 - 12 日 | [這裡](whats-new-2024-06-0.md) | [這裡](upgrade-instructions-2024-06-0.md) | [這裡](fixed-issues-2024-06-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.10.0 | 自動更新 | 2024 年 10 月 14-16 日 | [這裡](whats-new-2024-10-0.md) | [這裡](upgrade-instructions-2024-10-0.md) | [這裡](fixed-issues-2024-10-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.10.0 | Service Pack 1 | 2024年10月29日 | - | - | [這裡](fixed-issues-2024-10-0-sp1.md) | 已更新 |
-| Adobe Experience Manager Guides 2024.12.0 | 自動更新 | 2025 年 1 月 13 至 15 日 |  |  |  | 目標 |
+| Adobe Experience Manager Guides 2024.12.0 | 自動更新 | 2025 年 1 月 13 至 15 日 |  | [這裡](upgrade-instructions-2024-12-0.md) | [這裡](fixed-issues-2024-12-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2025.02.0 | 自動更新 | ~ 2025年2月 |  |  |  | 目標 |
 | Adobe Experience Manager Guides 2025.04.0 | 自動更新 | ~ 2025年4月 |  |  |  | 目標 |
 
@@ -44,6 +44,6 @@ Experience Manager Guidesas a Cloud Service的發行計畫如下：
 | Adobe Experience Manager Guides 4.4.0 | 發行 | 2024年1月29日 | [這裡](whats-new-4-4.md) | [這裡](upgrade-instructions-4-4.md) | 已發行 |
 | Adobe Experience Manager Guides 4.6.0 | 發行 | 2024年9月12日 | [這裡](whats-new-4-6.md) | [這裡](upgrade-instructions-4-6-0.md) | 已發行 |
 | Adobe Experience Manager Guides 4.6.0 | Service Pack 1 | 2024年10月29日 | - | [這裡](upgrade-instructions-4-6-0-sp1.md) | 已發行 |
-| Adobe Experience Manager Guides 4.6.0 | Service Pack 2 | 2025年1月底 |  |  | 目標 |
+| Adobe Experience Manager Guides 4.6.0 | Service Pack 3 | 2025年1月底 |  |  | 目標 |
 | Adobe Experience Manager Guides 5.0.0 | 發行 | ~ 2025年2月 |  |  | 目標 |
 | Adobe Experience Manager Guides 5.1.0 | 發行 | ~ 2025年8月 |  |  | 目標 |
