@@ -1,10 +1,9 @@
 ---
 title: 透過AEM Guides在AEM Sites中啟用內容變數(CCVAR)
 description: 透過AEM Guides在AEM Sites中使用內容變數(CCVAR)
-exl-id: null
 feature: Web Editor
 role: User, Admin
-source-git-commit: ac40ab63b691ea31dfa1a3c9f7644b357b3167a4
+source-git-commit: cd5b8329153f598365a640f50d2c003af72dac50
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 1%
