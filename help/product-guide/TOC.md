@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 6d0648ddaabffe84c923afe7c531eea902406c1c
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2016'
 ht-degree: 6%
 
 ---
@@ -511,5 +511,5 @@ ht-degree: 6%
       - 使用案例{#use-cases}
          - [使用條件式內容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [使用索引鍵](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-         - [透過aemguides在aemsites中啟用內容變數](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
+         - [在從AEM Guides產生的AEM Sites頁面中啟用內容變數(CCVAR)](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
    - [使用氧氣聯結器](./oxygen-connector/use-aem-connector.md)

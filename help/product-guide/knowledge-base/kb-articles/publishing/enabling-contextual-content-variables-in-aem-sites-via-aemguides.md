@@ -1,16 +1,17 @@
 ---
-title: 透過AEM Guides在AEM Sites中啟用內容變數(CCVAR)
-description: 透過AEM Guides在AEM Sites中使用內容變數(CCVAR)
+title: 在從AEM Guides產生的AEM Sites頁面中啟用內容變數(CCVAR)
+description: 在從AEM Guides產生的AEM Sites頁面中使用內容變數(CCVAR)
 feature: Web Editor
 role: User, Admin
-source-git-commit: cd5b8329153f598365a640f50d2c003af72dac50
+exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '473'
 ht-degree: 1%
 
 ---
 
-# 透過AEM Guides在AEM Sites中啟用內容變數(CCVAR)
+# 在從AEM Guides產生的AEM Sites頁面中啟用內容變數(CCVAR)
 
 內容變數(CCVAR)是ACS Commons的功能，可讓作者直接在其編寫的文字中使用動態內容變數。 雖然CCVAR常用於AEM Sites，本文說明如何透過從&#x200B;**AEM Guides** *中編寫的內容產生的頁面，主要使用DITA map*&#x200B;中定義的關鍵字來達成類似的功能。
 
@@ -20,7 +21,7 @@ ht-degree: 1%
 CCVAR可讓作者將動態變數插入其內容，這些動態變數會在執行階段根據內容解析。 例如，`((page_properties.pageTitle))`等變數可在內容轉譯期間動態提取頁面標題。
 
 
-## 如何啟用從AEM Guides產生的AEM Sites中的CCVAR？
+## 如何在AEM Guides產生的AEM Sites頁面中啟用CCVAR？
 
 考慮到AEM Guides是作為所有內容(包括AEM Sites、PDF或HTML5)的來源，若要在從AEM Guides產生的頁面上啟用CCVAR，您需要使用關鍵字來定義CCVAR名稱。 若要在參考線中執行此動作，請使用`<keydef>`元素在您的DITA map中定義&#x200B;**關鍵字**。 這些關鍵字可對應至動態值（或CCVAR名稱），可讓您在DITA主題中參照它們。
 
