@@ -1,9 +1,10 @@
 ---
 title: 發行說明 | 已修正2024.12.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2024.12.0版中的錯誤修正。
-source-git-commit: f643a4a22151af2ff14288ab3885c1a6657a80ca
+exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
+source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '408'
 ht-degree: 1%
 
 ---
@@ -40,3 +41,30 @@ ht-degree: 1%
 ## 翻譯
 
 - 使用基線的地圖轉譯會變得緩慢，最終無法載入所有關聯主題和地圖檔案的清單。 (19733)
+
+## 因應措施的已知問題
+
+Adobe已在2024.12.0版的Adobe Experience Manager Guidesas a Cloud Service中找出下列已知問題。
+
+**處理內容翻譯時專案建立失敗**
+
+傳送內容以供翻譯時，專案建立會因下列記錄錯誤而失敗：
+
+處理翻譯專案時發生`com.adobe.cq.wcm.translation.impl.TranslationPrepareResource`錯誤
+
+`com.adobe.cq.projects.api.ProjectException`：無法建立專案
+
+原因為： `org.apache.jackrabbit.oak.api.CommitFailedException`： `OakAccess0000`：存取遭拒
+
+
+**因應措施**：若要解決此問題，請執行下列因應措施：
+
+1. 新增repoinit檔案。 如果檔案不存在，請執行[範例repoinit設定建立步驟](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854)來建立檔案。
+2. 在檔案中新增下列行並部署程式碼：
+
+   ```
+   { "scripts": [ "set principal ACL for translation-job-service\n allow jcr:all on /home/users/system/cq:services/internal/translation\nend" ] }
+   ```
+
+3. 部署後測試翻譯。
+
