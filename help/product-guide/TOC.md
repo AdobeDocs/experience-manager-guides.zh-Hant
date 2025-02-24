@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: ab7e91306d9a5253205e773f148d789141b9b0d1
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2040'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,8 @@ ht-degree: 6%
       - [!DNL AEM Guides]正在運作且主要功能{#aemg-works-features}
          - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
          - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
-   - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
+   - 首頁{#home-page}
+      - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
    - 作者內容{#author-content}
       - [製作概述](./user-guide/authoring-content.md)
       - [使用AEM Guides創作內容的方法](./user-guide/authoring-content-xml-doc.md)
@@ -158,7 +159,7 @@ ht-degree: 6%
          - [使用DITAVAL編輯器](./user-guide/ditaval-editor.md)
       - 製作內容{#author-using-desktop-tools}的案頭工具
          - [使用案頭工具製作內容](./user-guide/author-desktop-tools.md)
-   - 檢閱{#review}
+   - 檢閱內容{#review}
       - [評論簡介](./user-guide/review.md)
       - [建立DITA專案](./user-guide/authoring-create-dita-project.md)
       - [傳送主題以供檢閱](./user-guide/review-send-topics-for-review.md)
@@ -177,6 +178,19 @@ ht-degree: 6%
    - 對應管理和發佈{#map-management-publishing}
       - [地圖主控台概觀](./user-guide/map-console-overview.md)
       - [在地圖控制檯中開啟檔案](./user-guide/open-files-map-console.md)
+      - 報表 {#reports-aem-guide}
+         - [報表簡介](./user-guide/reports-intro.md)
+         - [Map主控台的DITA map報表](./user-guide/reports-web-editor.md)
+         - [Map儀表板的DITA map報表](./user-guide/reports-ditamap.md)
+         - [內容重複使用報表](./user-guide/reports-content-reuse.md)
+         - [轉換狀態報表](./user-guide/reports-convertion-status.md)
+         - [還原的檔案版本記錄報告](./user-guide/reports-reverted-file-version-history.md)
+      - 內容翻譯{#translate-content}
+         - [內容翻譯概觀](./user-guide/translation.md)
+         - [內容翻譯的最佳實務](./user-guide/translation-first-time.md)
+         - [從地圖主控台翻譯檔案](./user-guide/translate-documents-web-editor.md)
+         - [檢視翻譯狀態](./user-guide/translation-view-trans-state-6234.md)
+         - [翻譯修改的主題](./user-guide/translation-modified-topics-6234.md)
       - 輸出產生{#output-gen}
          - [輸出產生基本概念](./user-guide/generate-output.md)
          - AEM Guides {#output-presets-aemg}中的輸出預設集
@@ -203,19 +217,6 @@ ht-degree: 6%
          - [管理全域和資料夾設定檔輸出預設集](./user-guide/web-editor-manage-output-presets.md)
          - [使用變數來設定目的地路徑、網站名稱或檔案名稱選項](./user-guide/generate-output-use-variables.md)
          - [使用DITA-OT將中繼資料傳遞至輸出](./user-guide/pass-metadata-dita-ot.md)
-         - 報表 {#reports-aem-guide}
-            - [報表簡介](./user-guide/reports-intro.md)
-            - [Map主控台的DITA map報表](./user-guide/reports-web-editor.md)
-            - [Map儀表板的DITA map報表](./user-guide/reports-ditamap.md)
-            - [內容重複使用報表](./user-guide/reports-content-reuse.md)
-            - [轉換狀態報表](./user-guide/reports-convertion-status.md)
-            - [還原的檔案版本記錄報告](./user-guide/reports-reverted-file-version-history.md)
-         - 內容翻譯{#translate-content}
-            - [內容翻譯概觀](./user-guide/translation.md)
-            - [內容翻譯的最佳實務](./user-guide/translation-first-time.md)
-            - [從地圖主控台翻譯檔案](./user-guide/translate-documents-web-editor.md)
-            - [檢視翻譯狀態](./user-guide/translation-view-trans-state-6234.md)
-            - [翻譯修改的主題](./user-guide/translation-modified-topics-6234.md)
          - 產生輸出{#generate-output}
             - [產生DITA map的輸出](./user-guide/generate-output-for-a-dita-map.md)
             - [產生知識庫輸出](./user-guide/web-editor-article-publishing.md)
@@ -228,12 +229,12 @@ ht-degree: 6%
          - [管理輸出產生程式](./user-guide/generate-output-manage-process.md)
          - [使用發佈儀表板管理發布任務](./user-guide/generate-output-publish-dashboard.md)
          - [基本疑難排解](./user-guide/generate-output-basic-troubleshooting.md)
-         - 大量啟用內容{#bulk-activation}
-            - [大量啟用已發佈的內容](./user-guide/conf-bulk-activation.md)
-            - [建立大量啟用地圖集合](./user-guide/conf-bulk-activation-create-map-collection.md)
-            - [啟動輸出](./user-guide/conf-bulk-activation-publish-map-collection.md)
-            - [編輯大量啟用地圖集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
-            - [刪除大量啟用地圖集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - 大量啟用內容{#bulk-activation}
+         - [大量啟用已發佈的內容](./user-guide/conf-bulk-activation.md)
+         - [建立大量啟用地圖集合](./user-guide/conf-bulk-activation-create-map-collection.md)
+         - [啟動輸出](./user-guide/conf-bulk-activation-publish-map-collection.md)
+         - [編輯大量啟用地圖集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
+         - [刪除大量啟用地圖集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - 產生FrameMaker檔案{#generate-fm-output}的輸出
       - [FrameMaker輸出產生基本需知](./user-guide/fm-output-generatation.md)
       - 支援的預設集{#fm-docs-generating-presets}
@@ -256,7 +257,8 @@ ht-degree: 6%
          - [上傳檔案](./user-guide/authoring-upload-existing-files.md)
          - [管理檔案和資料夾](./user-guide/authoring-file-management.md)
          - [下載檔案](./user-guide/authoring-download-assets.md)
-- [使用手冊（舊的UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- 使用手冊（舊的UI） {#user-guide-old-ui}
+   - [AEM Guides概觀)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝及組態{#install-guide}
    - 內部部署{#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)

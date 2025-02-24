@@ -1,13 +1,13 @@
 ---
 user-guide-title: Experience Manager Guides舊版UI
-user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
+user-guide-description: 使用舊版使用者介面閱讀Adobe Experience Manager Guides的產品檔案。
 breadcrumb-title: AEM Guides 文件
 hide: true
 badgeAll: label="舊版UI指南 — 更多資訊" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="舊版UI指南"
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 4%
+source-wordcount: '555'
+ht-degree: 3%
 
 ---
 
@@ -139,4 +139,5 @@ ht-degree: 4%
       - [內容重複使用報表](./user-guide/reports-content-reuse.md)
       - [轉換狀態報表](./user-guide/reports-convertion-status.md)
       - [還原檔案版本記錄報告](./user-guide/reports-reverted-file-version-history.md)
-- [使用手冊（新UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro)
+- [使用手冊（新UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+
