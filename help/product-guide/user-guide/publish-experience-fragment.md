@@ -1,17 +1,17 @@
 ---
-title: Publish體驗片段的主題
-description: Publish主題或AEM Guides中體驗片段的主題元素。  瞭解如何檢視呈現給主題的體驗片段並重新發佈。
+title: 發佈主題至體驗片段
+description: 將主題或主題內的元素發佈至AEM Guides中的體驗片段。  瞭解如何檢視呈現給主題的體驗片段並重新發佈。
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# Publish體驗片段
+# 發佈體驗片段
 
 體驗片段是Adobe Experience Manager中的模組化內容片段。 這些內容區塊是以範本為基礎，並封裝內容及其版面。 這些可重複使用的內容片段可讓內容建立者跨越Experience Manager支援的多個管道，組合併提供一致、可擴充的體驗。 此功能可協助您有效率地輕鬆建立一致的行銷體驗，例如電子報、促銷橫幅和客戶口碑。
 
@@ -30,7 +30,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
 
    * **標題**：檢視或編輯資料夾標題。
 
-   * **允許的範本**：包含可新增為Experiencefragment子頁面的範本清單。 若要新增允許的範本，請在&#x200B;**允許的範本**欄位中指定用於擷取所需範本的規則運算式。
+   * **允許的範本**：包含可新增為體驗片段子頁面的範本清單。 若要新增允許的範本，請在&#x200B;**允許的範本**欄位中指定用於擷取所需範本的規則運算式。
 例如：
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
@@ -40,16 +40,16 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
      *在資料夾屬性中新增雲端設定，以將其與片段範本連線。*
 1. 若要產生體驗片段，請從主題&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段中，選取&#x200B;**新輸出** ![新輸出圖示](./images/Add_icon.svg)。
 1. 選取&#x200B;**體驗片段**。\
-   ![檔案屬性選項標籤](./images/file-properties-outputs.png){width="300" align="left"}
+   ![檔案屬性選項標籤](./images/file-properties-outputs-new.png){width="300" align="left"}
 
    *從主題*&#x200B;的檔案屬性新增體驗片段。
 
    >[!NOTE]
    >
-   > 您也可以從&#x200B;**存放庫檢視**&#x200B;發佈體驗片段。 選取您要發佈為體驗片段的主題。 然後，從&#x200B;**選項**&#x200B;功能表選取&#x200B;**Publish As** > **體驗片段**。
+   > 您也可以從&#x200B;**存放庫檢視**&#x200B;發佈體驗片段。 選取您要發佈為體驗片段的主題。 然後，從&#x200B;**選項**&#x200B;功能表選取&#x200B;**發佈為** > **體驗片段**。
 
 1. 在&#x200B;**產生體驗片段**對話方塊中，填入下列詳細資料：
-   ![在Publish中新增片段模型和對應詳細資訊，作為體驗片段對話方塊](images/experience-fragment-generate.png){width="500" align="left"}
+   ![在「以體驗片段形式發佈」對話方塊中新增片段模型和對應詳細資訊](images/experience-fragment-generate.png){width="500" align="left"}
 
    *新增路徑、範本和對映詳細資訊，將主題或其元素發佈為體驗片段。 您可以覆寫現有的體驗片段。*
 
@@ -76,10 +76,10 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
 
 
    * 如果您的體驗片段已經存在並且您想要覆寫它，請選取&#x200B;**覆寫現有內容**&#x200B;核取方塊。 如果您未勾選核取方塊，而且您的體驗片段已存在，Experience Manager Guides會顯示錯誤。
-1. 按一下&#x200B;**產生**&#x200B;以發佈體驗片段。
+1. 選取&#x200B;**產生**&#x200B;以發佈體驗片段。
 1. 您可以在&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段下檢視主題的體驗片段。 體驗片段會根據其發佈的日期和時間顯示，最新的會顯示為第一個體驗片段。
 
-   ![檢視主題的體驗片段](images/experience-fragment-outputs.png){width=300 align=&quot;left&quot;}
+   ![檢視主題的體驗片段](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
 
    *檢視主題存在的體驗片段並重新發佈。*
 

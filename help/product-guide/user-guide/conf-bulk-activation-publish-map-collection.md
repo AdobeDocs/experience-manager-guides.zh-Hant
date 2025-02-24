@@ -4,9 +4,9 @@ description: 在AEM Guides中啟動DITA map的輸出。 瞭解如何在發佈執
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 66d22560d40012a7475026ed44cec7bf301c1a97
+source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 當您建立了大量啟動的地圖集合後，下一步是在發佈執行個體上啟動您的內容。 若要啟用內容，請執行下列步驟：
 
-1. 從工具清單中選取&#x200B;**指南**。
+1. 選取頂端的Adobe Experience Manager標誌，然後選擇&#x200B;**工具**。
 
-1. 按一下頂端的Adobe Experience Manager連結，然後選擇&#x200B;**工具**。
+1. 在&#x200B;**工具**&#x200B;面板中，選取&#x200B;**參考線**。
 
-1. 按一下&#x200B;**大量Publish控制面板**&#x200B;圖磚。
+1. 選取&#x200B;**大量發佈儀表板**&#x200B;圖磚。
 
-   此時會顯示大量啟用地圖集合清單。
+   大量發佈儀表板會顯示大量啟用地圖集合清單。 您也可以從[Adobe Experience Manager Guides首頁](intro-home-page.md)的左側面板存取此儀表板。
 
-1. 選取您要發佈的集合，然後按一下&#x200B;**開啟**。
+1. 選取您要發佈的集合，並選取&#x200B;**開啟**。
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
@@ -41,19 +41,19 @@ ht-degree: 1%
 
 在雲端服務上![大量集合 — 發佈](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
-您可以啟動輸出至&#x200B;**預覽**&#x200B;或&#x200B;**Publish**&#x200B;執行個體。
+您可以啟動輸出至&#x200B;**預覽**&#x200B;或&#x200B;**發佈**&#x200B;執行個體。
 
 **預覽**
 
-* 若要啟用選取的地圖的輸出，請選取預先產生的地圖輸出，然後選取&#x200B;**Publish至** > **預覽**。
-* 若要使用設定的預設集啟用所有DITA map的輸出，請選取&#x200B;**Map**&#x200B;欄旁的核取方塊，然後選取&#x200B;**Publish to** > **Publish**。
+* 若要啟用選取的地圖的輸出，請選取預先產生的地圖輸出，然後選取&#x200B;**發佈至** > **預覽**。
+* 若要啟用所有DITA map及其設定之預設集的輸出，請選取&#x200B;**Map**&#x200B;欄旁的核取方塊，然後選取&#x200B;**發佈至** > **發佈**。
 
 
-**Publish**
+**發佈**
 
-* 若要啟用選取的地圖的輸出，請選取預先產生的地圖輸出，然後選取&#x200B;**Publish to** > **Publish**。
+* 若要啟用選取的地圖的輸出，請選取預先產生的地圖輸出，然後選取&#x200B;**發佈至** > **發佈**。
 
-* 若要啟動所有DITA map及其設定之預設集的輸出，請選取[對應] （欄）旁的核取方塊，然後選取&#x200B;**Publish to** > **Publish**。
+* 若要啟動所有DITA map及其設定之預設集的輸出，請選取Map （欄）旁的核取方塊，然後選取&#x200B;**發佈至** > **發佈**。
 
 
 >[!NOTE]
@@ -72,8 +72,8 @@ ht-degree: 1%
 
 執行下列任一項作業：
 
-* 若要啟動選取的地圖的輸出，請選取預先產生的地圖輸出，然後選取&#x200B;**快速Publish**。
-* 若要啟動所有DITA map及其設定之預設集的輸出，請選取[對應] （欄）旁的核取方塊，然後選取&#x200B;**快速Publish。**
+* 若要啟動選取的地圖的輸出，請選取預先產生的地圖輸出，並選取&#x200B;**快速發佈**。
+* 若要啟動所有DITA map及其設定之預設集的輸出，請選取Map （欄）旁的核取方塊，然後選取&#x200B;**快速發佈。**
   ![大量集合 — 發佈](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]

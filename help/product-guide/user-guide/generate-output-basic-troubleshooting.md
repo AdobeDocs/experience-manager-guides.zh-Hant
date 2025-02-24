@@ -4,22 +4,22 @@ description: 解決AEM Guides中基本疑難排解的問題。 瞭解如何在�
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
 # 基本疑難排解 {#id1821I0Y0G0A}
 
-使用AEM Guides時，您在發佈或開啟檔案時可能會遇到錯誤。 此類錯誤可能位於DITA map、主題或AEM Guides程式本身中。 本節提供如何存取及剖析輸出產生記錄檔中的資訊。 此外，如果您的DITA主題太大，您可能會看到JSP編譯錯誤。 本節也提供如何解決JSP編譯錯誤的資訊。
+使用Adobe Experience Manager Guides時，您在發佈或開啟檔案時可能會遇到錯誤。 此類錯誤可能位於DITA map、主題或Experience Manager Guides程式本身中。 本節提供如何存取及剖析輸出產生記錄檔中的資訊。 此外，如果您的DITA主題太大，您可能會檢視JSP編譯錯誤。 本節也提供如何解決JSP編譯錯誤的資訊。
 
 ## 檢視並檢查記錄檔 {#id1822G0P0CHS}
 
 執行以下步驟來檢視及檢查輸出產生記錄檔：
 
-1. 啟動輸出產生程式後，在DITA map主控台中按一下&#x200B;**輸出**。
+1. 啟動輸出產生程式後，在DITA map主控台中選取&#x200B;**輸出**。
 
    **產生的輸出**&#x200B;的&#x200B;**一般**&#x200B;資料行會顯示圖示，以提供有關輸出產生成功或失敗的視覺提示。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    在上述熒幕擷圖中，第一個和第三個圖示顯示無法產生的輸出。 第二個圖示會顯示成功的輸出產生，但會有訊息。 最後一個是產生輸出成功，沒有訊息。
 
-1. 工作完成之後，請按一下&#x200B;**產生時間**&#x200B;欄中的連結。
+1. 在工作完成之後，選取&#x200B;**產生於**&#x200B;欄中的連結。
 
    日誌檔案會在新標籤中開啟。
 
@@ -48,35 +48,35 @@ ht-degree: 0%
 
 執行以下步驟，在文字編輯器中複製並檢查輸出產生記錄檔：
 
-1. 啟動輸出產生程式後，在DITA map主控台中按一下&#x200B;**輸出**。
+1. 啟動輸出產生程式後，在DITA map主控台中選取&#x200B;**輸出**。
 
-1. 工作完成之後，請按一下&#x200B;**產生時間**&#x200B;欄中的連結。
+1. 在工作完成之後，選取&#x200B;**產生於**&#x200B;欄中的連結。
 
    日誌檔案會在新標籤中開啟。
 
-1. 按一下&#x200B;**複製記錄檔**&#x200B;按鈕。 記錄檔會複製到剪貼簿。
+1. 選取&#x200B;**複製記錄檔**&#x200B;按鈕。 記錄檔會複製到剪貼簿。
 1. 開啟文字編輯器，並在編輯器中貼上記錄檔。
 
 1. 捲動記錄檔並檢查訊息。
 
-   下列資訊可協助您判斷DITA檔案或AEM Guides處理序中是否有錯誤：
+   下列資訊可協助您判斷DITA檔案或Experience Manager Guides處理序中是否有錯誤：
 
    - *與DITA map檔案相關的錯誤*：如果在DITA map檔案或DITA map中包含的任何其他檔案中找到錯誤，記錄檔將包含字串「BUILD FAILED」。 您可以檢查記錄檔中提供的資訊，以找出錯誤的檔案並修正問題。
 
-   在以下記錄檔片段範例中，您可以看到`BUILD FAILED`訊息以及錯誤的原因。
+   在以下記錄檔片段範例中，您可以檢視`BUILD FAILED`訊息以及錯誤原因。
 
    ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-   - *AEM Guides相關錯誤*：您可以在記錄檔中識別的其他錯誤型別，與AEM Guides處理序本身相關。 在此情況下，會成功剖析DITA map檔案，但輸出產生程式會因AEM Guides中的某些內部錯誤而失敗。 對於這類錯誤，您必須尋求技術支援團隊的協助。
+   - *Experience Manager Guides相關錯誤*：您可以在記錄檔中識別的其他錯誤型別，與Experience Manager Guides處理序本身相關。 在此情況下，會成功剖析DITA map檔案，但輸出產生程式會因Experience Manager Guides中的某些內部錯誤而失敗。 對於這類錯誤，您必須尋求技術支援團隊的協助。
 
-   在下列記錄檔片段範例中，您可以看到`BUILD SUCCESSFUL`訊息，隨後是其他技術錯誤。
+   在以下記錄檔片段範例中，您可以檢視`BUILD SUCCESSFUL`訊息，接著檢視其他技術錯誤。
 
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## 解決JSP編譯錯誤
 
-如果您的DITA主題太大，瀏覽器中可能會顯示JSP編譯錯誤\(`org.apache.sling.api.request.TooManyCallsException`\)。 當您開啟主題進行編輯、稽核或發佈時，可能會出現此錯誤。
+如果您的DITA主題太大，則可以在瀏覽器中檢視JSP編譯錯誤\(`org.apache.sling.api.request.TooManyCallsException`\)。 當您開啟主題進行編輯、稽核或發佈時，可能會出現此錯誤。
 
 執行以下步驟以解決此問題：
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
    便會顯示「Adobe Experience Manager Web主控台組態」頁面。
 
-1. 搜尋並按一下&#x200B;*Apache Sling主要Servlet*&#x200B;元件。
+1. 搜尋並選取&#x200B;*Apache Sling主要Servlet*&#x200B;元件。
 
    隨即顯示Apache Sling主要Servlet的可設定選項。
 

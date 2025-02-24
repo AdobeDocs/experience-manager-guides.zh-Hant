@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
+source-git-commit: ab7e91306d9a5253205e773f148d789141b9b0d1
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2034'
 ht-degree: 6%
 
 ---
@@ -17,8 +17,13 @@ ht-degree: 6%
 - 發行資訊 {#release-info}
    - [AEM Guides發行藍圖](./release-info/aem-guides-releases-roadmap.md)
    - 發行說明 {#release-notes}
-      - Cloud Service{#cloud-release-notes}
+      - 雲端服務{#cloud-release-notes}
          - [部署指示](./release-info/deploy-xml-on-aemaacs.md)
+         - 2025版本{#2025-releases}
+            - 2025.02.0版本{#2502-release}
+               - [新增功能](./release-info/whats-new-2025-02-0.md)
+               - [已修正的問題](./release-info/fixed-issues-2025-02-0.md)
+               - [升級指示](./release-info/upgrade-instructions-2025-02-0.md)
          - 2024版本{#2024-releases}
             - 2024.12.0版本{#2412-release}
                - [已修正的問題](./release-info/fixed-issues-2024-12-0.md)
@@ -115,134 +120,143 @@ ht-degree: 6%
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
          - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-- 使用手冊{#user-guide}
-   - 簡介 {#about-aem-guide}
+- 使用手冊（新UI） {#user-guide}
+   - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在運作且主要功能{#aemg-works-features}
          - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
          - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
-   - 管理內容{#manage-content}
-      - [重要概念、角色和許可權及必要條件](./user-guide/authoring.md)
-      - [上傳檔案](./user-guide/authoring-upload-existing-files.md)
-      - [管理檔案和資料夾](./user-guide/authoring-file-management.md)
-      - [下載檔案](./user-guide/authoring-download-assets.md)
+   - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
    - 作者內容{#author-content}
       - [製作概述](./user-guide/authoring-content.md)
-      - 主題建立和預覽{#create-preview-topics}
-         - [建立和預覽主題](./user-guide/create-preview-topics.md)
-         - [建立主題](./user-guide/web-editor-create-topics.md)
-         - [預覽主題](./user-guide/web-editor-preview-topics.md)
-         - 作者內容{#author-content-aem-guides}
-            - [使用AEM Guides創作內容的方式](./user-guide/authoring-content-xml-doc.md)
-            - 網頁編輯器{#work-with-web-editor}
-               - [使用網頁編輯器](./user-guide/web-editor.md)
-               - [啟動網頁編輯器](./user-guide/web-editor-launch-editor.md)
-               - [在網頁編輯器中編輯主題](./user-guide/web-editor-edit-topics.md)
-               - [瞭解網頁編輯器功能](./user-guide/web-editor-features.md)
-               - [網頁編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
-               - [網頁編輯器中的其他功能](./user-guide/web-editor-other-features.md)
-               - [網頁編輯器檢視](./user-guide/web-editor-views.md)
-               - [支援Schematron檔案](./user-guide/support-schematron-file.md)
-               - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
-               - [AI支援的Smart Help可搜尋內容](./user-guide/ai-based-smart-help.md)
-               - [AI Assistant，以智慧效率撰寫檔案](./user-guide/ai-assistant-right-panel.md)
-               - [從網頁編輯器編寫Markdown檔案](./user-guide/web-editor-markdown-topic.md)
-               - [將引文新增至您的內容](./user-guide/web-editor-apply-citations.md)
-               - [使用來自您的資料來源的資料](./user-guide/web-editor-content-snippet.md)
-               - [管理全域和資料夾設定檔輸出預設集](./user-guide/web-editor-manage-output-presets.md)
-               - 以文章為基礎的發佈{#article-based-pub}
-                  - [從網頁編輯器以文章為基礎的發佈](./user-guide/web-editor-article-publishing.md)
-                  - [從網頁編輯器建立輸出預設集](./user-guide/web-editor-article-publishing-presets.md)
-                  - [從存放庫面板或地圖檢視面板產生輸出](./user-guide/web-editor-article-publishing-output.md)
-                  - [使用快速產生面板來產生和檢視輸出](./user-guide/web-editor-quick-generate-panel.md)
-               - [從網頁編輯器翻譯檔案](./user-guide/translate-documents-web-editor.md)
-               - [從Web編輯器建立和管理基準線](./user-guide/web-editor-baseline.md)
-               - [檔案狀態](./user-guide/web-editor-document-states.md)
-               - [使用標籤](./user-guide/web-editor-use-label.md)
-            - 對應編輯器{#work-with-map-editor}
-               - [使用地圖編輯器](./user-guide/map-editor.md)
-               - [建立地圖](./user-guide/map-editor-create-map.md)
-               - [根據自訂範本建立地圖](./user-guide/create-maps-customized-templates.md)
-               - [使用進階地圖編輯器](./user-guide/map-editor-advanced-map-editor.md)
-               - [使用基本地圖編輯器](./user-guide/map-editor-basic-map-editor.md)
-               - [地圖編輯器中的其他功能](./user-guide/map-editor-other-features.md)
-            - DITAVAL編輯器{#ditaval-editor}
-               - [使用DITAVAL編輯器](./user-guide/ditaval-editor.md)
-         - 製作內容{#author-using-desktop-tools}的案頭工具
-            - [使用案頭工具製作內容](./user-guide/author-desktop-tools.md)
-            - [使用FrameMaker](./user-guide/author-desktop-framemaker.md)
-            - [使用氧氣](./user-guide/author-desktop-oxygen.md)
-   - 檢閱內容{#review-topic-maps}
-      - [檢閱主題或地圖](./user-guide/review.md)
+      - [使用AEM Guides創作內容的方法](./user-guide/authoring-content-xml-doc.md)
+      - 編輯器{#work-with-editor}
+         - [編輯器簡介](./user-guide/web-editor.md)
+         - [啟動編輯器](./user-guide/web-editor-launch-editor.md)
+         - [在編輯器中編輯主題](./user-guide/web-editor-edit-topics.md)
+         - 主題建立和預覽{#create-preview-topics}
+            - [建立和預覽主題](./user-guide/create-preview-topics.md)
+            - [建立主題](./user-guide/web-editor-create-topics.md)
+            - [預覽主題](./user-guide/web-editor-preview-topics.md)
+         - [瞭解編輯器功能](./user-guide/web-editor-features.md)
+         - [編輯器中的其他功能](./user-guide/web-editor-other-features.md)
+         - [編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
+         - [編輯器檢視](./user-guide/web-editor-views.md)
+         - [支援Schematron檔案](./user-guide/support-schematron-file.md)
+         - [從編輯器編寫Markdown檔案](./user-guide/web-editor-markdown-topic.md)
+         - [將引文新增至您的內容](./user-guide/web-editor-apply-citations.md)
+         - [使用來自您的資料來源的資料](./user-guide/web-editor-content-snippet.md)
+         - [檔案狀態](./user-guide/web-editor-document-states.md)
+         - [使用標籤](./user-guide/web-editor-use-label.md)
+      - 對應編輯器{#map-editor}
+         - [地圖編輯器簡介](./user-guide/map-editor.md)
+         - [建立地圖](./user-guide/map-editor-create-map.md)
+         - [根據自訂範本建立地圖](./user-guide/create-maps-customized-templates.md)
+         - [地圖編輯器功能](./user-guide/map-editor-advanced-map-editor.md)
+         - [地圖編輯器中的其他功能](./user-guide/map-editor-other-features.md)
+      - DITAVAL編輯器{#ditaval-editor}
+         - [使用DITAVAL編輯器](./user-guide/ditaval-editor.md)
+      - 製作內容{#author-using-desktop-tools}的案頭工具
+         - [使用案頭工具製作內容](./user-guide/author-desktop-tools.md)
+   - 檢閱{#review}
+      - [評論簡介](./user-guide/review.md)
       - [建立DITA專案](./user-guide/authoring-create-dita-project.md)
       - [傳送主題以供檢閱](./user-guide/review-send-topics-for-review.md)
       - [使用通知重新指派稽核任務](./user-guide/reassign-review-using-notification.md)
-      - 主題評論{#review-topics}
-         - [檢閱主題](./user-guide/review-topics.md)
-         - [處理稽核意見](./user-guide/review-address-review-comments.md)
+      - [檢閱主題](./user-guide/review-topics.md)
+      - [處理稽核意見](./user-guide/review-address-review-comments.md)
       - [使用「稽核儀表板」管理稽核任務](./user-guide/review-manage-tasks-review-dashboard.md)
       - [檢視完成的稽核任務](./user-guide/review-view-completed-task.md)
-   - AEM Guides {#manaege-metadata}中的中繼資料
+   - 使用Adobe Workfront {#workfront-integration}共同作業
+      - [Workfront與Experience Manager Guides整合](./user-guide/workfront-integration.md)
+   - 中繼資料和標籤{#manage-metadata}
       - [管理中繼資料](./user-guide/manage-metadata.md)
       - [在AEM中使用中繼資料](./user-guide/metadata-dita.md)
       - [智慧標籤](./user-guide/web-editor-smart-tagging.md)
       - [大量標籤DITA內容](./user-guide/map-editor-bulk-tagging.md)
-   - 內容翻譯{#translate-content}
-      - [翻譯內容](./user-guide/translation.md)
-      - [內容翻譯的最佳實務](./user-guide/translation-first-time.md)
-      - [檢視翻譯狀態](./user-guide/translation-view-trans-state-6234.md)
-      - [翻譯修改的主題](./user-guide/translation-modified-topics-6234.md)
-   - 輸出產生{#output-gen}
-      - [輸出產生基本概念](./user-guide/generate-output.md)
-      - [輸出預設集簡介](./user-guide/generate-output-understand-presets.md)
-      - AEM Guides {#output-presets-aemg}中的輸出預設集
-         - [AEM Sites](./user-guide/generate-output-aem-site.md)
-         - [地圖儀表板上的AEM Sites預設集](./user-guide/generate-output-aem-site-map-dashboard.md)
-         - [網頁編輯器中的AEM Sites預設集](./user-guide/generate-output-aem-site-web-editor.md)
-         - [PDF](./user-guide/generate-output-pdf.md)
-         - [知識庫](./user-guide/generate-output-knowledge-base.md)
-         - [HTML5](./user-guide/generate-output-html5.md)
-         - [ePub](./user-guide/generate-output-epub.md)
-         - [自訂](./user-guide/generate-output-custom.md)
-         - [JSON](./user-guide/generate-output-json.md)
-      - [使用變數來設定目的地路徑、網站名稱或檔案名稱選項](./user-guide/generate-output-use-variables.md)
-      - [建立、編輯、複製或移除輸出預設集](./user-guide/generate-output-create-edit-preset.md)
-      - [使用DITA-OT將中繼資料傳遞至輸出](./user-guide/pass-metadata-dita-ot.md)
-      - [條件屬性分析](./user-guide/generate-output-conditional-attribute-profiling.md)
-      - [使用條件預設集](./user-guide/generate-output-use-condition-presets.md)
-      - [使用基準線](./user-guide/generate-output-use-baseline-for-publishing.md)
-      - [從Map主控台產生DITA Map的輸出](./user-guide/generate-output-for-a-dita-map.md)
-      - [使用地圖集合產生輸出](./user-guide/generate-output-use-map-collection-output-generation.md)
-      - 使用原生PDF發佈功能{#web-editor}
-         - [PublishPDF輸出](./web-editor/native-pdf-web-editor.md)
-         - [設定其他特殊字元](./web-editor/configure-additional-special-characters.md)
-      - [使用Publish儀表板管理發布任務](./user-guide/generate-output-publish-dashboard.md)
-      - [基本疑難排解](./user-guide/generate-output-basic-troubleshooting.md)
-      - [Publish內容片段](./user-guide/publish-content-fragment.md)
-      - [Publish體驗片段](./user-guide/publish-experience-fragment.md)
-      - [Publish AEM Sites頁面](./user-guide/publish-aem-sites.md)
-      - 大量啟用內容{#bulk-activation}
-         - [大量啟用已發佈的內容](./user-guide/conf-bulk-activation.md)
-         - [建立大量啟用地圖集合](./user-guide/conf-bulk-activation-create-map-collection.md)
-         - [啟動輸出](./user-guide/conf-bulk-activation-publish-map-collection.md)
-         - [編輯大量啟用地圖集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
-         - [刪除大量啟用地圖集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
+   - 對應管理和發佈{#map-management-publishing}
+      - [地圖主控台概觀](./user-guide/map-console-overview.md)
+      - [在地圖控制檯中開啟檔案](./user-guide/open-files-map-console.md)
+      - 輸出產生{#output-gen}
+         - [輸出產生基本概念](./user-guide/generate-output.md)
+         - AEM Guides {#output-presets-aemg}中的輸出預設集
+            - [輸出預設集簡介](./user-guide/generate-output-understand-presets.md)
+            - AEM Sites {#aem-sites}
+               - [地圖主控台中的AEM Sites預設集](./user-guide/generate-output-aem-site-web-editor.md)
+               - [地圖儀表板中的AEM Sites預設集](./user-guide/generate-output-aem-site-map-dashboard.md)
+            - PDF {#pdf-preset}
+               - [PDF輸出預設集概述](./user-guide/generate-output-pdf.md)
+               - [DITA-OT PDF輸出預設集](./user-guide/generate-output-pdf-dita-ot.md)
+               - [原生PDF輸出預設集](./web-editor/native-pdf-web-editor.md)
+            - [知識庫](./user-guide/generate-output-knowledge-base.md)
+            - [HTML5](./user-guide/generate-output-html5.md)
+            - [ePub](./user-guide/generate-output-epub.md)
+            - [自訂](./user-guide/generate-output-custom.md)
+            - [JSON](./user-guide/generate-output-json.md)
+         - [編輯、複製或刪除輸出預設集](./user-guide/generate-output-create-edit-preset.md)
+         - 條件化內容{#conditional-content}
+            - [使用條件預設集](./user-guide/generate-output-use-condition-presets.md)
+            - [條件屬性分析](./user-guide/generate-output-conditional-attribute-profiling.md)
+         - 使用基準線{#work-with-baseline}
+            - [從Map主控台建立和管理基準線](./user-guide/web-editor-baseline.md)
+            - [從「地圖」控制面板建立和管理基準線](./user-guide/generate-output-use-baseline-for-publishing.md)
+         - [管理全域和資料夾設定檔輸出預設集](./user-guide/web-editor-manage-output-presets.md)
+         - [使用變數來設定目的地路徑、網站名稱或檔案名稱選項](./user-guide/generate-output-use-variables.md)
+         - [使用DITA-OT將中繼資料傳遞至輸出](./user-guide/pass-metadata-dita-ot.md)
+         - 報表 {#reports-aem-guide}
+            - [報表簡介](./user-guide/reports-intro.md)
+            - [Map主控台的DITA map報表](./user-guide/reports-web-editor.md)
+            - [Map儀表板的DITA map報表](./user-guide/reports-ditamap.md)
+            - [內容重複使用報表](./user-guide/reports-content-reuse.md)
+            - [轉換狀態報表](./user-guide/reports-convertion-status.md)
+            - [還原的檔案版本記錄報告](./user-guide/reports-reverted-file-version-history.md)
+         - 內容翻譯{#translate-content}
+            - [內容翻譯概觀](./user-guide/translation.md)
+            - [內容翻譯的最佳實務](./user-guide/translation-first-time.md)
+            - [從地圖主控台翻譯檔案](./user-guide/translate-documents-web-editor.md)
+            - [檢視翻譯狀態](./user-guide/translation-view-trans-state-6234.md)
+            - [翻譯修改的主題](./user-guide/translation-modified-topics-6234.md)
+         - 產生輸出{#generate-output}
+            - [產生DITA map的輸出](./user-guide/generate-output-for-a-dita-map.md)
+            - [產生知識庫輸出](./user-guide/web-editor-article-publishing.md)
+            - 單一主題發佈{#single-topic-publishing}
+               - [發佈內容片段](./user-guide/publish-content-fragment.md)
+               - [發佈體驗片段](./user-guide/publish-experience-fragment.md)
+               - [發佈AEM Sites頁面](./user-guide/publish-aem-sites.md)
+               - [增量輸出產生](./user-guide/generate-output-aem-site.md)
+         - [使用地圖集合產生輸出](./user-guide/generate-output-use-map-collection-output-generation.md)
+         - [管理輸出產生程式](./user-guide/generate-output-manage-process.md)
+         - [使用發佈儀表板管理發布任務](./user-guide/generate-output-publish-dashboard.md)
+         - [基本疑難排解](./user-guide/generate-output-basic-troubleshooting.md)
+         - 大量啟用內容{#bulk-activation}
+            - [大量啟用已發佈的內容](./user-guide/conf-bulk-activation.md)
+            - [建立大量啟用地圖集合](./user-guide/conf-bulk-activation-create-map-collection.md)
+            - [啟動輸出](./user-guide/conf-bulk-activation-publish-map-collection.md)
+            - [編輯大量啟用地圖集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
+            - [刪除大量啟用地圖集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - 產生FrameMaker檔案{#generate-fm-output}的輸出
-      - [產生FrameMaker檔案的輸出](./user-guide/fm-output-generatation.md)
+      - [FrameMaker輸出產生基本需知](./user-guide/fm-output-generatation.md)
       - 支援的預設集{#fm-docs-generating-presets}
-         - [用於產生FrameMaker檔案的預設集](./user-guide/fm-output-understand-presets.md)
+         - [用來產生FrameMaker檔案的預設集](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
          - [ePub](./user-guide/fm-output-epub-preset.md)
       - [產生.book或.fm檔案的輸出](./user-guide/fm-output-generate.md)
       - [檢視輸出產生工作的狀態](./user-guide/fm-output-view-status.md)
-   - AEM Guides {#reports-aem-guide}中的報告
-      - [報表簡介](./user-guide/reports-intro.md)
-      - [來自網頁編輯器的DITA map報表](./user-guide/reports-web-editor.md)
-      - [DITA map報表（從map儀表板）](./user-guide/reports-ditamap.md)
-      - [內容重複使用報表](./user-guide/reports-content-reuse.md)
-      - [轉換狀態報表](./user-guide/reports-convertion-status.md)
-      - [還原檔案版本記錄報告](./user-guide/reports-reverted-file-version-history.md)
+   - AEM Guides {#ai-assistant-aem}中的AI助理
+      - [Adobe Generative AI使用者披露](./user-guide/adobe-generative-ai-disclosures.md)
+      - [AI助理總覽](./user-guide/ai-assistant.md)
+      - [AI支援的智慧型協助以搜尋內容](./user-guide/ai-based-smart-help.md)
+      - [AI助理撰寫以聰明地撰寫檔案](./user-guide/ai-assistant-right-panel.md)
+      - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
+      - [常見問題集](./user-guide/ai-assistant-faq.md)
+   - 附錄{#appendix}
+      - 管理內容{#manage-content}
+         - [重要概念、角色和許可權及必要條件](./user-guide/authoring.md)
+         - [上傳檔案](./user-guide/authoring-upload-existing-files.md)
+         - [管理檔案和資料夾](./user-guide/authoring-file-management.md)
+         - [下載檔案](./user-guide/authoring-download-assets.md)
+- [使用手冊（舊的UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝及組態{#install-guide}
    - 內部部署{#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
@@ -255,7 +269,7 @@ ht-degree: 6%
          - [驗證AEM Guides安裝](./install-guide/download-install-verify-aemg-installation.md)
          - [升級AEM Guides](./install-guide/upgrade-xml-documentation.md)
          - [解除安裝AEM Guides](./install-guide/download-install-unistall-aemg.md)
-         - [Recommendations的效能最佳化](./install-guide/download-install-recommend-perf-optimiz.md)
+         - [效能最佳化建議](./install-guide/download-install-recommend-perf-optimiz.md)
       - 使用使用者群組及安全性{#user-group-sec}
          - [使用者管理與安全性](./install-guide/user-admin-sec.md)
       - 內容移轉{#content-migration}
@@ -273,7 +287,7 @@ ht-degree: 6%
       - [設定檔案名稱](./install-guide/conf-file-names.md)
       - [根據UUID設定自動檔案名稱](./install-guide/conf-auto-uuid-filenames.md)
       - [設定Regx以取得有效的檔案名稱字元](./install-guide/conf-file-names-valid-regx.md)
-      - [設定AEM Site輸出的有效檔案名稱](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - [設定AEM網站輸出的有效檔案名稱](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - 使用主題和地圖範本{#topic-map-template}
          - [設定主題和對應範本](./install-guide/conf-template-tags.md)
          - [設定自訂DITA主題範本](./install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -294,7 +308,7 @@ ht-degree: 6%
          - [設定關閉時簽入檔案的提示](./install-guide/conf-checkin-file-close.md)
          - [設定允許的特殊字元](./install-guide/conf-special-chars.md)
          - [自動生成元素ID](./install-guide/auto-generate-ids.md)
-         - [自訂AEM預設字典](./install-guide/customize-aem-custom-dictionary.md)
+         - [自訂AEM的預設字典](./install-guide/customize-aem-custom-dictionary.md)
          - [設定文字篩選](./install-guide/config-text-filters.md)
          - [設定查詢的LimitReads數目](./install-guide/conf-query-limitreads.md)
          - [安裝文章式發佈的套件](./install-guide/configure-article-based-publishing.md)
@@ -302,6 +316,7 @@ ht-degree: 6%
          - [將進階地圖編輯器設定為預設值](./install-guide/conf-map-editor.md)
          - [預設包含@navtitle屬性](./install-guide/auto-add-navtitle.md)
          - [設定在Oxygon中編輯的選項](./cs-install-guide/conf-edit-in-oxygen.md)
+         - [設定其他特殊字元](./web-editor/configure-additional-special-characters.md)
       - 使用全域和資料夾層級設定檔{#global-folder-profiles}
          - [設定全域或資料夾層級設定檔](./install-guide/conf-folder-level.md)
       - 設定版本{#version-mgt}
@@ -334,16 +349,16 @@ ht-degree: 6%
       - 使用AEM Assets搜尋{#aem-asset-search}
          - [設定AEM Assets UI搜尋](./install-guide/conf-dita-search.md)
       - [附錄](./install-guide/appendix.md)
-   - Cloud Service{#cs-ig}
+   - 雲端服務{#cs-ig}
       - [關於本指南](./cs-install-guide/introduction.md)
-      - 部署並設定AEM Guides為Cloud Service{#deploy-conf-aemg-cs}
+      - 部署並設定AEM Guides as Cloud Service {#deploy-conf-aemg-cs}
          - [下載並安裝](./cs-install-guide/download-install.md)
          - [部署AEM Guides模組](./cs-install-guide/download-install-dxml-first-time.md)
          - [設定Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
          - [驗證AEM Guides安裝](./cs-install-guide/download-install-verify-dxml-installation.md)
          - [升級AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
          - [設定覆寫](./cs-install-guide/download-install-additional-config-override.md)
-         - [Recommendations的效能最佳化](./cs-install-guide/download-install-recommend-perf-optimiz.md)
+         - [效能最佳化建議](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       - 使用使用者群組及安全性{#user-group-sec-cs}
          - [使用者管理與安全性](./cs-install-guide/user-admin-sec.md)
       - 內容移轉{#migrate-con-cs}
@@ -358,7 +373,7 @@ ht-degree: 6%
          - [設定檔案名稱](./cs-install-guide/conf-file-names.md)
          - [根據UUID設定自動檔案名稱](./cs-install-guide/conf-auto-uuid-filenames.md)
          - [設定Regx以取得有效的檔案名稱字元](./cs-install-guide/conf-file-names-valid-regx.md)
-         - [設定AEM Site輸出的有效檔案名稱](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
+         - [設定AEM網站輸出的有效檔案名稱](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - 使用主題和地圖範本{#topic-map-template-cs}
          - [設定主題和對應範本](./cs-install-guide/conf-template-tags.md)
          - [設定自訂DITA主題範本](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -372,6 +387,7 @@ ht-degree: 6%
          - [設定AI支援的Smart Help以搜尋內容](./cs-install-guide/conf-smart-help.md)
          - [設定標籤檢視的預設值](./cs-install-guide/configure-default-value-tags-view.md)
          - [設定UUID型連結的顯示方式](./cs-install-guide/conf-uuid-based-links.md)
+         - [設定貼上表格的顯示](./cs-install-guide/conf-pasted-tables.md)
          - [在同一個索引標籤中開啟DITA主題或對應檔案](./cs-install-guide/open-dita-files-same-tab.md)
          - [在左側面板中設定自訂面板](./cs-install-guide/configure-custom-panel.md)
          - [在網頁編輯器中設定檔案自動儲存](./cs-install-guide/auto-save-in-editor.md)
@@ -379,7 +395,7 @@ ht-degree: 6%
          - [設定關閉時簽入檔案的提示](./cs-install-guide/conf-checkin-file-close.md)
          - [設定允許的特殊字元](./cs-install-guide/conf-special-chars.md)
          - [自動生成元素ID](./cs-install-guide/auto-generate-ids.md)
-         - [自訂AEM預設字典](./cs-install-guide/customize-aem-custom-dictionary.md)
+         - [自訂AEM的預設字典](./cs-install-guide/customize-aem-custom-dictionary.md)
          - [設定文字篩選](./cs-install-guide/config-text-filters.md)
          - [設定檔案瀏覽對話方塊的篩選器](./cs-install-guide/conf-custom-file-filters.md)
          - [安裝文章式發佈的套件](./cs-install-guide/configure-article-based-publishing.md)
@@ -395,6 +411,8 @@ ht-degree: 6%
          - [版本管理](./cs-install-guide/version-management.md)
       - 使用桌上型XML編輯器{#desktop-xml-editor}
          - [整合案頭式XML編輯器](./cs-install-guide/integrate-desktop-editors-cs.md)
+      - 設定Workfront {#configure-workfront-cs}
+         - [設定Workfront](./cs-install-guide/conf-workfront.md)
       - 使用輸出產生設定{#output-gen-config-cs}
          - [設定輸出產生設定](./cs-install-guide/conf-output-generation.md)
          - [下載及安裝aem sites範本](./cs-install-guide/download-install-aem-sites-templates-cs.md)
@@ -490,11 +508,11 @@ ht-degree: 6%
          - [整合資料來源](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
          - [設定資料來源聯結器](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - 正在發佈{#publishing}
-         - 原生PDF{#native-pdf}
-            - [新增自訂字型至您的DITA原生PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-            - [設定AEM環境以進行原生PDF發佈](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+         - 原生PDF {#native-pdf}
+            - [新增自訂字型至您的DITA Native PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+            - [為原生AEM發佈設定PDF環境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
             - [將企業品牌新增至PDF的第一頁](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-            - [在原生PDF發佈中產生書籤圖的目錄](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+            - [在原生PDF發佈中產生Bookmap的目錄](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - DITA-OT {#dita-ot}
             - [在外掛程式中使用AEM中繼資料](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [設定自訂DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)

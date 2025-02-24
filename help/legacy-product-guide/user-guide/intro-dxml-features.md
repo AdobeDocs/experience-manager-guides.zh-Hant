@@ -3,7 +3,8 @@ title: AEM Guides重要功能
 description: 探索AEM Guides、DITA製作、內容管理、網頁式審閱、翻譯、本地化、多頻道發佈及FrameMaker整合的主要功能。
 feature: Introduction
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
+source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 內建的網頁型編輯器可協助您輕鬆編寫並有效管理DITA主題、地圖和DITAVAL檔案。 內建編輯器具有簡單且直覺式的文書處理介面，為主題專家、臨時貢獻者和可能未接受使用DITA培訓的稽核者提供輕鬆的入口。 使用智慧型插入元素功能，您不必擔心將元素放在正確的位置。 元素一律會插入下一個可用的有效位置。
 
-您也可以從AEM工具列和Web編輯器中提供的新選項中籤出和簽入檔案。
+您也可以從AEM工具列和網頁編輯器中提供的新選項中籤出和簽入檔案。
 
-如果您的組織使用特殊形式的DITA，則可自訂Web編輯器以建立及編輯特殊的DITA檔案。 如需有關使用DITA專業化的詳細資訊，請參閱安裝與設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*使用自訂DITA-OT與DITA專業化*。
+如果您的組織使用特殊形式的DITA，則可自訂Web編輯器以建立及編輯特殊的DITA檔案。 如需有關使用DITA專業化的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*使用自訂DITA-OT和DITA專業化*。
 
 目前，內建編輯器支援下列DITA標準：
 
@@ -56,14 +57,14 @@ Adobe Experience Manager隨附內建聯結器，適合領先翻譯供應商使�
 在內容上線之前，輕鬆檢查並修正內容，讓發佈作業沒有錯誤。 透過在DITA map層級輕鬆存取各種報告，密切監視系統健康情況。 您可以檢查遺失主題的數目、中斷的連結或參照、檢閱的狀態以及所有主題的翻譯。 您也可以在發佈前，使用報表在最後階段中執行完整的健全度檢查。
 
 **個人化輸出的廣泛標籤管理支援**\
-透過高度相關的內容體驗，推動更深入的使用者參與和內容採用。 透過AEM Guides，您可以運用Experience Manager中廣泛的標籤管理支援，在DITA來源內容上套用相關標籤。 使用這些標籤為一般使用者提供高度個人化的內容體驗。
+透過高度相關的內容體驗，推動更深入的使用者參與和內容採用。 透過AEM Guides，您可以運用Experience Manager中的廣泛標籤管理支援，在DITA來源內容上套用相關標籤。 使用這些標籤為一般使用者提供高度個人化的內容體驗。
 
 **與Adobe FrameMaker的原生整合**
-使用Experience Manager與FrameMaker（2015年發行版本） Update 4或更新版本，享受快速順暢的體驗。
+使用Experience Manager和FrameMaker （2015年發行版本） Update 4或更新版本，享受快速且順暢的體驗。
 
-透過內建聯結器將Experience Manager和FrameMaker緊密整合，協助您順暢地與Experience Manager內容存放庫搭配使用。 善用聯結器以快速開始編寫、檢閱和搜尋DITA內容。
+透過內建聯結器將Experience Manager與FrameMaker緊密整合，協助您順暢地與Experience Manager內容存放庫搭配使用。 善用聯結器以快速開始編寫、檢閱和搜尋DITA內容。
 
-在FrameMaker中使用AEM聯結器，您可以管理您的FrameMaker檔案。 AEM聯結器可讓您在AEM上輕鬆上傳DITA和其他FrameMaker檔案(.book和.fm)。 AEM Guides也可讓您直接從AEM發佈FrameMaker檔案。 如果您的FrameMaker簿檔案包含DITA和.fm檔案的組合，AEM Guides也可以發佈此類檔案。 目前，您可以將FrameMaker的.book和.fm檔案發佈為PDF、HTML5和EPUB格式。
+使用FrameMaker中的AEM聯結器，您可以管理您的FrameMaker檔案。 AEM聯結器可讓您在AEM上輕鬆上傳DITA和其他FrameMaker檔案(.book和.fm)。 AEM Guides也可讓您直接從AEM發佈FrameMaker檔案。 如果您的FrameMaker書籍檔案包含DITA和.fm檔案的組合，AEM Guides也可以發佈這類檔案。 目前，您可以將FrameMaker的.book和.fm檔案發佈為PDF、HTML5和EPUB格式。
 
 ## 其他資源
 
@@ -74,4 +75,4 @@ Adobe Experience Manager隨附內建聯結器，適合領先翻譯供應商使�
 * 快速入門手冊
 * [說明*封存頁面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) （存取舊版檔案）
 
-**上層主題：**[&#x200B;關於Adobe Experience Manager Guidesas a Cloud Service](intro.md)
+**上層主題：**[&#x200B;關於Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

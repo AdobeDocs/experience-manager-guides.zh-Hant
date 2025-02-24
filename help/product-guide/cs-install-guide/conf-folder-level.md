@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4755'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,8 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
 - **XML編輯器設定**：使用此標籤來自訂Web編輯器的外觀和各種功能。 Web編輯器可使用下列可配置的設定：
 
    - XML編輯器UI設定
+   - XML編輯器頁面配置
+   - XML編輯器設定
    - CSS範本佈局
    - XML編輯器代碼片段
    - XML內容版本標籤
@@ -106,7 +108,7 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
 
 1. 若要設定&#x200B;**輸出預設集**，請參閱[設定輸出預設集](#id18AGD0IH0Y4)。
 
-1. 若要設定XML編輯器組態，請參閱[設定和自訂XML Web編輯器](#id2065G300O5Z)。
+1. 若要設定XML編輯器組態，請參閱[設定和自訂XML編輯器](#id2065G300O5Z)。
 
 1. 完成所有必要的更新後，儲存並關閉&#x200B;**全域設定檔**。
 
@@ -188,7 +190,7 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
 
 1. 在設定檔頁面上，按一下&#x200B;**條件屬性**&#x200B;標籤。
 
-1. 按一下&#x200B;**編輯**。
+1. 按一下「**編輯**」。
 
 1. 按一下&#x200B;**新增**。
 
@@ -230,11 +232,11 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
 
 ## 設定範本 {#id1889D0IL0Y4}
 
-AEM Guides隨附7個現成的主題範本、2個DITA map範本和3個PDF範本。 您可以選擇只有幾個範本可供您的作者和發佈者使用。 若您使用自訂範本，則可設定相同的範本，並可供編寫和發佈使用。 您使用資料夾設定檔組態中的&#x200B;**範本**&#x200B;索引標籤，從全域或資料夾層級的設定檔中新增或移除主題、對應或PDF範本。
+AEM Guides隨附7個現成的主題範本、2個DITA map範本和3個PDF範本。 您可以選擇只有幾個範本可供您的作者和發佈者使用。 若您使用自訂範本，則可設定相同的範本，並可供編寫和發佈使用。 您可以使用「資料夾設定檔」設定中的&#x200B;**範本**&#x200B;索引標籤，從全域或資料夾層級的設定檔中新增或移除主題、地圖或PDF範本。
 
 您甚至可以在全域或資料夾層級設定主題、地圖或PDF範本之前，定義儲存自訂範本的位置。 若要設定自訂位置以儲存範本，請參閱[設定自訂DITA範本資料夾路徑](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)。
 
-執行以下步驟，將主題、對應或PDF範本新增至資料夾設定檔：
+執行以下步驟，將主題、地圖或PDF範本新增至資料夾設定檔：
 
 1. 以管理員或具有檔案夾層級設定檔管理許可權的使用者身分登入Adobe Experience Manager。
 
@@ -249,9 +251,9 @@ AEM Guides隨附7個現成的主題範本、2個DITA map範本和3個PDF範本�
    > 您可以選擇在「全域設定檔」或資料夾層級設定檔中設定範本。
 
 1. 在設定檔頁面上，按一下&#x200B;**範本**&#x200B;標籤。
-1. 按一下&#x200B;**編輯**。
+1. 按一下「**編輯**」。
 
-   您可以從預設位置搜尋或瀏覽主題、地圖和PDF範本，以取得新增主題、地圖和範本的選項。
+   透過從預設位置搜尋或瀏覽，您可以取得新增主題、地圖和PDF範本的選項。
 
    >[!NOTE]
    >
@@ -259,7 +261,7 @@ AEM Guides隨附7個現成的主題範本、2個DITA map範本和3個PDF範本�
 
    ![](assets/search-author-temp.png){width="800" align="left"}
 
-1. 將所需主題、地圖和PDF範本新增到您的設定檔。
+1. 將所需主題、地圖和PDF範本新增至您的設定檔。
 
    若要新增範本，請執行下列任一項作業：
 
@@ -337,7 +339,7 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 
 在系統中建立預設輸出預設集後，所有在此之後建立的DITA map都會使用預設預設集來產生輸出。 但是，所有現有DITA map都會繼續使用先前使用它們設定的輸出預設集。 如果您想要在所有現有DITA map上套用新的輸出預設集，則需要執行套用預設集變更工作流程。
 
-除了在全域或企業層級設定的預設集之外，發行者仍然有權建立更多輸出預設集。 但是，這些預設集會繫結到為其建立預設集的DITA map。 如需有關為DITA map建立一般輸出預設集的詳細資訊，請參閱「使用Adobe Experience Manager Guides」as a Cloud Service指南中的&#x200B;*建立、編輯、複製或移除輸出預設集*。
+除了在全域或企業層級設定的預設集之外，發行者仍然有權建立更多輸出預設集。 但是，這些預設集會繫結到為其建立預設集的DITA map。 如需有關為DITA map建立一般輸出預設集的詳細資訊，請參閱「使用Adobe Experience Manager Guides as a Cloud Service」指南中的&#x200B;*建立、編輯、複製或移除輸出預設集*。
 
 執行以下步驟來設定全域或資料夾特定的輸出預設集：
 
@@ -355,7 +357,7 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 
 1. 在設定檔頁面上。 按一下&#x200B;**輸出預設集**&#x200B;索引標籤。
 
-   隨即顯示現成可用的輸出預設集清單，其中包括「AEM網站」、「PDF」、「HTML5」、「EPUB」和「自訂」。
+   隨即顯示現成可用的輸出預設集清單，其中包含AEM Site、PDF、HTML5、EPUB和CUSTOM。
 
 1. 執行下列任一項作業，以建立或編輯輸出預設集：
 
@@ -364,7 +366,7 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 
    - 按一下&#x200B;**編輯**，開啟選取的預設集組態以進行編輯。
 
-     如需輸出預設集設定的相關資訊，請參閱「使用Adobe Experience Manager Guides」as a Cloud Service指南中的&#x200B;*瞭解輸出預設集*。
+     如需輸出預設集設定的相關資訊，請參閱「使用Adobe Experience Manager Guides as a Cloud Service」指南中的&#x200B;*瞭解輸出預設集*。
 
 1. 按一下&#x200B;**儲存**&#x200B;以儲存預設集設定。
 
@@ -391,7 +393,7 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 
 1. 在設定檔頁面上。 按一下&#x200B;**輸出預設集**&#x200B;索引標籤。
 
-   隨即顯示現成可用的輸出預設集清單，其中包括「AEM網站」、「PDF」、「HTML5」、「EPUB」和「自訂」。
+   隨即顯示現成可用的輸出預設集清單，其中包含AEM Site、PDF、HTML5、EPUB和CUSTOM。
 
 1. 選取要套用至現有DITA map的輸出預設集。
 
@@ -407,9 +409,15 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 
 
 
-## 在網頁編輯器中設定AI支援的智慧型建議 {#conf-ai-smart-suggestions}
+## 設定AI助理以提供智慧說明和編寫
 
-針對![AEM雲端](assets/aem-cloud-icon.svg) Experience Manager Guidesas a Cloud Service。
+針對![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service 。
+
+Adobe Experience Manager Guides中的AI Assistant是功能強大的AI驅動工具，可透過智慧撰寫和內容重複使用體驗來增強您的內容。 它將兩個強大的AI功能 — **撰寫**&#x200B;和&#x200B;**說明** — 整合到Experience Manager Guides介面中，讓您能夠更快且更有效率地撰寫檔案和存取資訊。
+
+如需組態詳細資訊，請檢視[AI助理組態](./conf-smart-suggestions.md)。
+
+**設定AI支援的智慧型建議**
 
 您可以設定AI支援的智慧型建議，並協助作者重複使用現有內容，並輕鬆建立正確且一致的內容參考。 **AI組態**&#x200B;索引標籤可讓您從網頁編輯器的AI助理面板控制&#x200B;**建議可重複使用內容**&#x200B;的設定。
 
@@ -423,10 +431,11 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
    >
    >您可以將以AI為基礎的智慧型建議設定至全域或資料夾層級的設定檔。
 
-1. 在設定檔頁面上，選取&#x200B;**AI設定**索引標籤。
+1. 在設定檔頁面上，選取&#x200B;**AI設定**&#x200B;索引標籤。
+
    全域設定檔中的![AI設定索引標籤](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
-1. 按一下&#x200B;**編輯**。
+1. 選取&#x200B;**編輯**。
 1. 身為管理員，您可以進行下列設定：
 
    **最少字元數**：輸入作者需要輸入的最小字元數以取得建議。 例如，如果此數字為7，作者必須新增至少7個字元才能檢視智慧型建議。
@@ -443,16 +452,13 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 
 深入瞭解如何檢視及新增[以AI為基礎的智慧型建議](../user-guide/authoring-ai-based-smart-suggestions.md)，以在Web編輯器中撰寫時新增內容參考。
 
+**自訂智慧型說明的預設問題**
 
+針對![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service。
 
+您可以設定AI支援的智慧&#x200B;**說明**，協助作者提出問題，並從[Experience Manager Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中輕鬆尋找所需內容。
 
-## 在網頁編輯器中設定AI支援的智慧型說明 {#conf-ai-guides-assistant}
-
-針對![AEM雲端](assets/aem-cloud-icon.svg) Experience Manager Guidesas a Cloud Service。
-
-您可以設定AI支援的&#x200B;**智慧型說明**，協助作者提出問題，並從[Experience Manager Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中輕鬆尋找所需內容。
-
-**XML編輯器設定**&#x200B;索引標籤可讓您設定Web編輯器中&#x200B;**智慧說明面板**&#x200B;的預設問題。
+**XML編輯器組態**&#x200B;索引標籤可讓您設定&#x200B;**說明**&#x200B;面板的預設問題。
 
 >[!NOTE]
 >
@@ -494,13 +500,27 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 進一步瞭解如何使用[AI支援的Smart Help](../user-guide/ai-based-smart-help.md)，從Experience Manager Guides檔案中尋找所需的內容。
 
 
-## 設定和自訂XML Web編輯器 {#id2065G300O5Z}
+## 設定和自訂XML編輯器 {#id2065G300O5Z}
 
-依預設，XML Web編輯器附帶許多功能，可協助您的作者建立DITA檔案。 如果您在限制性的環境中工作，您可以選擇向作者公開哪些功能。 XML編輯器設定索引標籤可讓您輕鬆控制功能，並且變更網頁編輯器的外觀。 身為管理員，您可以自訂Web編輯器的下列元件：
+依預設，XML編輯器提供許多功能來協助您的作者建立DITA檔案。 如果您在限制性的環境中工作，您可以選擇向作者公開哪些功能。 XML編輯器設定索引標籤可讓您輕鬆控制功能，並變更編輯器的外觀。 管理員可以自訂編輯器的下列元件：
 
 **XML編輯器UI組態**
 
-此設定控制網頁編輯器的工具列和其他使用者介面元素。 按一下「下載」圖示，在本機系統上下載ui\_config.json檔案。 然後，您可以對檔案進行變更，並上傳相同的檔案。 根據您上傳檔案的位置、全域或資料夾層級設定檔，變更會據此套用。 如需有關如何使用ui\_config.json檔案自訂XML編輯器的詳細資訊，請參閱[自訂工具列](conf-web-editor-customize-toolbar.md#)。
+此設定可讓您建立可反映`ui_config.json`檔案中所作修改的JSON副檔名。 您可以在資料夾設定檔層級獨立上傳這些擴充功能，提供增強的彈性和自訂功能。 例如，當您變更&#x200B;**XML編輯器組態** （例如更新按鈕）時，系統會自動識別差異。 透過將這些變更上傳到&#x200B;**XML編輯器UI設定**，並使用&#x200B;**將UI設定轉換為JSON**&#x200B;按鈕將它們轉換為JSON擴充功能，系統會產生合併新功能的擴充功能。
+
+深入瞭解&#x200B;**自訂JSON設定和轉換新AEM Guides編輯器的UI設定**。
+
+**XML編輯器頁面配置**
+
+此功能可讓您上傳CSS檔案，以設定在&#x200B;**XML編輯器UI組態**&#x200B;下上傳的新擴充功能的樣式。 上傳的CSS會一致地套用至所有相關應用程式，確保您的UI自訂專案具有統一且拋光的外觀。
+
+**XML編輯器組態**
+
+此設定會控制編輯器的工具列和其他使用者介面元素。 選取「**下載**」圖示以在本機系統上下載`ui\_config.json`檔案。 然後，您可以對檔案進行變更，並上傳相同的檔案。 根據您上傳檔案的位置、全域或資料夾層級設定檔，變更會據此套用。 如需有關如何使用`ui\_config.json file`自訂XML編輯器的詳細資訊，請檢視[自訂工具列](conf-web-editor-customize-toolbar.md#)。
+
+>[!NOTE]
+>
+> 若為AEM Guides 2502發行版本及較新版本，建議使用擴充功能JSON而非`ui_config.json`來自訂。 如需詳細資訊，請參閱上面的&#x200B;**XML編輯器UI設定**&#x200B;區段。
 
 **CSS範本配置**
 

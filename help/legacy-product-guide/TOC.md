@@ -1,25 +1,23 @@
 ---
-user-guide-title: Experience Manager Guides （舊版）
+user-guide-title: Experience Manager Guides舊版UI
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
 hide: true
-badgeAll: label="舊版指南 — 更多資訊" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="舊版指南"
-source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
+badgeAll: label="舊版UI指南 — 更多資訊" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="舊版UI指南"
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '550'
 ht-degree: 4%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides (Legacy)] {#using-legacy}
+# [!DNL Adobe Experience Manager Guides Old UI] {#using-old-ui}
 
+- [免責聲明](disclaimer.md)
 - [[!DNL AEM Guides] 概覽](overview.md)
-- [瞭解舊版](legacy.md)
-- [發行說明（主要指南）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
-
-- 使用手冊{#user-guide}
-
+- [發行資訊](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- 使用手冊（舊的UI） {#user-guide}
    - 簡介 {#about-aem-guide}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在運作且主要功能{#aemg-works-features}
@@ -31,18 +29,14 @@ ht-degree: 4%
       - [管理檔案和資料夾](./user-guide/authoring-file-management.md)
       - [下載檔案](./user-guide/authoring-download-assets.md)
    - 作者內容{#author-content}
-
       - [製作概述](./user-guide/authoring-content.md)
       - 主題建立和預覽{#create-preview-topics}
-
          - [建立和預覽主題](./user-guide/create-preview-topics.md)
          - [建立主題](./user-guide/web-editor-create-topics.md)
          - [預覽主題](./user-guide/web-editor-preview-topics.md)
          - 作者內容{#author-content-aem-guides}
-
             - [使用AEM Guides創作內容的方式](./user-guide/authoring-content-xml-doc.md)
             - 網頁編輯器{#work-with-web-editor}
-
                - [使用網頁編輯器](./user-guide/web-editor.md)
                - [啟動網頁編輯器](./user-guide/web-editor-launch-editor.md)
                - [在網頁編輯器中編輯主題](./user-guide/web-editor-edit-topics.md)
@@ -52,7 +46,6 @@ ht-degree: 4%
                - [網頁編輯器檢視](./user-guide/web-editor-views.md)
                - [支援Schematron檔案](./user-guide/support-schematron-file.md)
                - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
-
                - [從網頁編輯器編寫Markdown檔案](./user-guide/web-editor-markdown-topic.md)
                - [將引文新增至您的內容](./user-guide/web-editor-apply-citations.md)
                - [使用來自您的資料來源的資料](./user-guide/web-editor-content-snippet.md)
@@ -66,7 +59,6 @@ ht-degree: 4%
                - [從Web編輯器建立和管理基準線](./user-guide/web-editor-baseline.md)
                - [檔案狀態](./user-guide/web-editor-document-states.md)
                - [使用標籤](./user-guide/web-editor-use-label.md)
-
             - 對應編輯器{#work-with-map-editor}
                - [使用地圖編輯器](./user-guide/map-editor.md)
                - [建立地圖](./user-guide/map-editor-create-map.md)
@@ -76,12 +68,10 @@ ht-degree: 4%
                - [地圖編輯器中的其他功能](./user-guide/map-editor-other-features.md)
             - DITAVAL編輯器{#ditaval-editor}
                - [使用DITAVAL編輯器](./user-guide/ditaval-editor.md)
-
          - 製作內容{#author-using-desktop-tools}的案頭工具
             - [使用案頭工具製作內容](./user-guide/author-desktop-tools.md)
             - [使用FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [使用氧氣](./user-guide/author-desktop-oxygen.md)
-
    - 檢閱內容{#review-topic-maps}
       - [檢閱主題或地圖](./user-guide/review.md)
       - [建立DITA專案](./user-guide/authoring-create-dita-project.md)
@@ -123,10 +113,10 @@ ht-degree: 4%
       - [使用基準線](./user-guide/generate-output-use-baseline-for-publishing.md)
       - [從Map主控台產生DITA Map的輸出](./user-guide/generate-output-for-a-dita-map.md)
       - [使用地圖集合產生輸出](./user-guide/generate-output-use-map-collection-output-generation.md)
-      - [使用Publish儀表板管理發布任務](./user-guide/generate-output-publish-dashboard.md)
+      - [使用發佈儀表板管理發布任務](./user-guide/generate-output-publish-dashboard.md)
       - [基本疑難排解](./user-guide/generate-output-basic-troubleshooting.md)
-      - [Publish內容片段](./user-guide/publish-content-fragment.md)
-      - [Publish體驗片段](./user-guide/publish-experience-fragment.md)
+      - [發佈內容片段](./user-guide/publish-content-fragment.md)
+      - [發佈體驗片段](./user-guide/publish-experience-fragment.md)
       - 大量啟用內容{#bulk-activation}
          - [大量啟用已發佈的內容](./user-guide/conf-bulk-activation.md)
          - [建立大量啟用地圖集合](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -136,7 +126,7 @@ ht-degree: 4%
    - 產生FrameMaker檔案{#generate-fm-output}的輸出
       - [產生FrameMaker檔案的輸出](./user-guide/fm-output-generatation.md)
       - 支援的預設集{#fm-docs-generating-presets}
-         - [用於產生FrameMaker檔案的預設集](./user-guide/fm-output-understand-presets.md)
+         - [用來產生FrameMaker檔案的預設集](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
          - [ePub](./user-guide/fm-output-epub-preset.md)
@@ -149,76 +139,4 @@ ht-degree: 4%
       - [內容重複使用報表](./user-guide/reports-content-reuse.md)
       - [轉換狀態報表](./user-guide/reports-convertion-status.md)
       - [還原檔案版本記錄報告](./user-guide/reports-reverted-file-version-history.md)
-
-<!--
-  - Articles {#kb-articles}
-
-    - Use native PDF publishing feature {#web-editor}
-      - [Publish PDF output](./web-editor/native-pdf-web-editor.md)
-      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
-
-    - Authoring {#authoring}
-      - Web Editor {#webeditor}
-        - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-        - Customizing {#customizing}
-          - [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-          - [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
-          - [Customize Folder ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
-          - [Customize File ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
-        - Schematron {#schematron}
-          - [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
-      - Reports {#reports}
-        - [Manage metadata for your DITA content](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-      - [Define icon for custom dita types](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-    - Guides Extention Framework {#extention-framework}
-      - Aem Guides Framework {#aem-guides-framework}
-        - [Basic Customisations](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
-        - [JUI Framework](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
-        - Components {#framework-components}
-          - [Button](./guides-ui-extensions/aem_guides_framework/components/button.md)
-          - [Icon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
-          - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
-          - [List](./guides-ui-extensions/aem_guides_framework/components/list.md)
-          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
-        - Widgets {#framework-widgets}
-          - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
-          - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-      - Getting Started {#getting-started}
-        - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
-        - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
-        - [Extension Repositry intro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
-      - Customisations {#customisations}
-        - [Simple customisation](./guides-ui-extensions/customisations/add-button.md)
-        - [Customising Context Menus](./guides-ui-extensions/customisations/context-menus.md)
-        - [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
-        - [Examples](./guides-ui-extensions/examples.md)
-        - [Customisable Jsons](./guides-ui-extensions/JSONs.md)
-        - Review{#review-app-customisations}
-          - [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
-          - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
-          - [Custom Dialog](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
-    - Publishing {#publishing}
-
-      - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
-      - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
-      - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-      - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-      - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
-      - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
-      - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-      - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
-
-    - Workflows {#workflows}
-      - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
-    - Translation {#translation}
-      - [Exclude paragraphs from translation](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-    - Use Cases {#use-cases}
-      - [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
-      - [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-
-  - [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
-
--->
+- [使用手冊（新UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro)

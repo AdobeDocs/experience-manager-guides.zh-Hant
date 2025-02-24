@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,30 @@ ht-degree: 0%
    ```
 
 1. 認可變更並執行Cloud Manager管道以部署更新的設定。
+
+## 設定Experience Manager Guides UI
+
+2025.02.0版的Adobe Experience Manager Guides提供翻新過的UI和增強功能，幫助您比以往更快更有效率地工作。 這包括全新的首頁、更乾淨且更有條理的編輯器工具列、專屬的地圖主控台，以及增強功能。
+
+為了確保順暢的轉換並將中斷的情況降至最低，Experience Manager Guides提供可讓您視需要切換回舊版UI （反之亦然）的設定選項。
+
+>[!IMPORTANT]
+>
+> 在2025.4.0版發行前，這個在新舊使用者介面之間切換的設定選項將可用。 之後，新的UI將成為預設值，並且不再支援切換回先前UI的選項。
+
+執行以下步驟來設定Experience Manager Guides UI：
+
+1. 開啟Adobe Experience Manager，然後選取包含您要設定環境的程式。
+2. 切換至&#x200B;**環境**&#x200B;標籤。
+3. 選取您要設定的環境名稱。 這應該會將您導覽至&#x200B;**環境資訊**&#x200B;頁面。
+4. 切換至&#x200B;**組態**&#x200B;標籤。
+5. 選取&#x200B;**新增/更新**。
+6. 新增UI設定詳細資料。 確定您使用與下列熒幕擷取畫面相同的名稱和設定。
+
+   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+
+   將值設定為&#x200B;**true**&#x200B;會保留舊的UI，而&#x200B;**false**&#x200B;會啟用新的UI。
+
 
 
 **上層主題：**[&#x200B;下載並安裝](download-install.md)

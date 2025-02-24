@@ -3,9 +3,9 @@ title: 安裝及設定
 description: 安裝和使用AEM Guides擴充功能套件
 role: User, Admin
 exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b4d6c1c8c2d413bb4137e58391554abf2fb68b8c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ npx @adobe/create-guides-extension
 
 ![建置輸出](./../imgs/build_output.png)
 
-## 將自訂新增至AEM
+## 新增自訂至AEM
 
 - 移至`CRXDE` `crx/de/index.jsp#/`
 - 在`apps`資料夾下，建立型別`cq:ClientLibraryFolder`的新節點
@@ -55,6 +55,11 @@ npx @adobe/create-guides-extension
 名稱： `categories`
 型別： `String []`
 值： `apps.fmdita.review_overrides`， `apps.fmdita.xml_editor.page_overrides`
+
+>[!NOTE]
+>
+> 對於倒數第二個UI，值為： `apps.fmdita.penultimate.xml_editor.page_overrides`和`apps.fmdita.review_overrides`
+
 
 ![資料夾屬性](./../imgs/crxde_folder_properties.png)
 

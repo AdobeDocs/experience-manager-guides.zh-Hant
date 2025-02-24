@@ -2,16 +2,16 @@
 title: 創作內容的AI支援智慧型建議
 description: 瞭解如何在網頁編輯器中檢視並利用AI支援的智慧型建議。
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: 6cf65f70252e133cf8977ce925f0a103dc79c0ec
+source-git-commit: dd6fae108ddca23d36615fe38d176723bc4cfe86
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # 創作內容的AI支援智慧型建議
 
-Experience Manager Guides提供智慧型建議，協助您建立一致且精確的內容。
+Adobe Experience Manager Guides提供智慧型建議，協助您建立一致且精確的內容。
 
 當您編寫內容時，AI助理工具中的&#x200B;**建議可重複使用的內容**&#x200B;功能可以使用AI進行搜尋，並顯示語義上與您的內容類似的現有內容。 然後，您可以選擇想要包含在目前主題中作為參考的最佳相符內容。
 
@@ -24,7 +24,7 @@ Experience Manager Guides提供智慧型建議，協助您建立一致且精確�
 
 
 1. 選取主題中的內容以檢視相關建議。 確保內容的字元長度超過管理員在資料夾設定檔中設定的值，以便顯示內容建議。
-1. 從AI助理面板中，選取&#x200B;**建議可重複使用的內容** ![ai建議可重複使用的內容圖示](./images/ai-suggest-reusable-content-icon.svg)。
+1. 從AI助理中的&#x200B;**編寫面板**，選取&#x200B;**建議可重複使用的內容** ![AI建議可重複使用的內容圖示](./images/ai-suggest-reusable-content-icon.svg)。
 
 1. 選取標籤以檢視目前標籤的撰寫建議。  根據目前標籤中的內容，顯示從索引檔案檢視和新增內容參考的建議。 您也可以選取多個標籤。
 
@@ -38,7 +38,7 @@ Experience Manager Guides提供智慧型建議，協助您建立一致且精確�
    > 您只能檢視目前檢視區的建議（畫面上顯示的內容）。 若要檢視檔案中任何其他內容的建議，請向上或向下捲動以在檢視區中顯示該內容，然後選取&#x200B;**建議可重複使用的內容** ![ai建議可重複使用的內容圖示](./images/ai-suggest-reusable-content-icon.svg)。
 
 
-1. 您可以在建議面板中檢視智慧型建議。  Experience Manager Guides提供的建議內容內容內容內容內容內容內容內容內容內容內容內容內容內容類似，或具有相同涵義。 例如，您可以搜尋包含確切版本號碼的主題，例如「2023.03.12版發行版本」。 您也可以搜尋「Adobe總部位於加州聖荷西」，並尋找類似內容，例如「聖荷西擁有許多軟體公司的季度，如Adobe」。
+1. 您可以在建議面板中檢視智慧型建議。  Experience Manager Guides提供的建議內容內容內容內容內容內容內容內容內容內容內容內容內容內容類似，或具有相同涵義。 例如，您可以搜尋包含確切版本號碼的主題，例如「2023.03.12版發行版本」。 您也可以搜尋「Adobe總部位於加州聖荷西」，並尋找類似「聖荷西擁有Adobe等許多軟體公司的季度」的內容。
 1. 選取&#x200B;**內容資訊** ![內容資訊](images/smart-suggestions-content-info-icon.svg)以檢視詳細資料。
 
    ![內容資訊面板](images/smart-suggestions-content-information.png){width="300" align="left"}
@@ -55,7 +55,7 @@ Experience Manager Guides提供智慧型建議，協助您建立一致且精確�
 
    *預覽目前內容與建議內容之間的比較。*
 
-1. 按一下&#x200B;**接受**，在&#x200B;**建議可重複使用的內容**&#x200B;預覽中新增建議的內容參考。
+1. 選取&#x200B;**接受**，在&#x200B;**建議可重複使用的內容**&#x200B;預覽中新增建議的內容參考。
 1. 您也可以在建議面板中選取&#x200B;**接受**&#x200B;或&#x200B;**關閉**，以取得適當的建議。
 
 

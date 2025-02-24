@@ -4,14 +4,18 @@ description: 在AEM Guides中，從存放庫面板或地圖檢視面板產生輸
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # 從存放庫面板或地圖檢視面板產生輸出 {#id218CL6010AE}
+
+>[!NOTE]
+>
+> 快速產生面板(先前在Adobe Experience Manager Guides中提供)自4.0版和2502版起已棄用。 您無法存取「快速產生」面板，以從「存放庫」面板或「地圖」檢視面板產生輸出。
 
 您也可以使用為DITA map建立的輸出預設集，從「存放庫」面板或「對映檢視」面板產生輸出。
 
@@ -23,7 +27,7 @@ ht-degree: 0%
 
 - 使用地圖檢視面板中的&#x200B;**產生輸出**&#x200B;功能，為選取的多個主題產生輸出。
 
-## Publish用於一或多個DITA map的主題
+## 發佈用於一或多個DITA map的主題
 
 執行以下步驟來產生DITA map中一或多個主題的輸出：
 

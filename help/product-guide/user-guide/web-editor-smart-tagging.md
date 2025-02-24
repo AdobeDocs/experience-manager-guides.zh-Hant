@@ -4,9 +4,9 @@ description: 瞭解如何在AEM Guides中新增智慧標籤。 使用XML關鍵�
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > 智慧型標籤功能並非現成可用，其需要自訂實作，而您需要就此諮詢系統管理員。
 
-AEM Guides隨附新增智慧標籤的功能。 您可以使用XML關鍵字擷取工具來擷取智慧標籤。 此工具使用人工智慧來瞭解內容並提供相關關鍵字。 您可以使用智慧標籤來改善搜尋引擎最佳化\(SEO\)，並幫助使用者尋找您的相關內容。
+Adobe Experience Manager Guides隨附新增智慧標籤的功能。 您可以使用XML關鍵字擷取工具來擷取智慧標籤。 此工具使用人工智慧來瞭解內容並提供相關關鍵字。 您可以使用智慧標籤來改善搜尋引擎最佳化\(SEO\)，並幫助使用者尋找您的相關內容。
 
 執行以下步驟來建立智慧標籤：
 
@@ -27,7 +27,7 @@ AEM Guides隨附新增智慧標籤的功能。 您可以使用XML關鍵字擷取
 
    ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
-1. 選取執行Post程式選項。 成功初始化工具時會顯示訊息。
+1. 選取「執行後續處理」選項。 成功初始化工具時會顯示訊息。
 1. 系統會自動擷取標籤，並可在所選主題的「屬性」頁面上看到標籤。
 
    ![](images/properties-smart-tags.png){width="800" align="left"}

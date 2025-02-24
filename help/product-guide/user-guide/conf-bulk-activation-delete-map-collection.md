@@ -4,9 +4,9 @@ description: 瞭解如何刪除AEM Guides中的大量啟用地圖集合。
 exl-id: 8e1f30e4-4b83-4282-97c9-7e6960c6ec19
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -15,19 +15,20 @@ ht-degree: 0%
 
 您可以在不再需要大量啟用對應集合時將其刪除。 若要刪除大量啟動對映集合，請執行下列步驟：
 
-1. 從工具清單中選取&#x200B;**指南**。
+1. 選取頂端的Adobe Experience Manager標誌，然後選擇&#x200B;**工具**。
 
-1. 按一下頂端的Adobe Experience Manager連結，然後選擇&#x200B;**工具**。
+1. 在&#x200B;**工具**&#x200B;面板中，選取&#x200B;**參考線**。
 
-1. 按一下&#x200B;**大量Publish控制面板**&#x200B;圖磚。
+1. 選取&#x200B;**大量發佈儀表板**&#x200B;圖磚。
 
-   此時會顯示大量啟用地圖集合清單。
+   大量發佈儀表板會顯示大量啟用地圖集合清單。 您也可以從[Adobe Experience Manager Guides首頁](intro-home-page.md)的左側面板存取此儀表板。
 
-1. 選取您要編輯的集合，然後按一下&#x200B;**刪除**。
+
+1. 選取您要編輯的集合，並選取&#x200B;**刪除**。
 
    刪除確認訊息隨即顯示。
 
-1. 按一下&#x200B;**是**。
+1. 選取&#x200B;**是**。
 
    大量啟用地圖集合已從系統刪除。
 

@@ -4,62 +4,63 @@ description: 瞭解如何匯入及驗證DITA主題、使用判斷提示報表陳
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
 
 # 支援Schematron檔案
 
-「Schematron」是指用於定義XML檔案測試的規則型驗證語言。 網頁編輯器支援Schematron檔案。 您可以匯入Schematron檔案，也可以在Web編輯器中編輯它們。 使用Schematron檔案，您可以定義某些規則，然後針對DITA主題或地圖驗證這些規則。
+「Schematron」是指用於定義XML檔案測試的規則型驗證語言。 編輯器支援Schematron檔案。 您可以匯入Schematron檔案，也可以在編輯器中編輯它們。 使用Schematron檔案，您可以定義某些規則，然後針對DITA主題或地圖驗證這些規則。
 
 >[!NOTE]
 >
-> 網頁編輯器支援ISO架構。
+> 編輯器支援ISO架構。
 
 
 ## 匯入Schematron檔案
 
 執行以下步驟來匯入Schematron檔案：
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/schematron-panel.png){width="300" align="left"}
 
-1. 在&#x200B;*存放庫檢視*&#x200B;中導覽至所需的資料夾（您要上傳檔案的位置）。
-1. 按一下&#x200B;**選項**&#x200B;圖示以開啟內容功能表，然後選擇&#x200B;**上傳Assets**。
-1. 在&#x200B;**上傳Assets**&#x200B;對話方塊中，您可以在&#x200B;**選取資產資料夾**&#x200B;欄位中變更目的地資料夾。
-1. 按一下&#x200B;**選擇檔案**&#x200B;並瀏覽以選取Schematron檔案。 您可以選取一或多個Schematron檔案，然後按一下[上傳]。****
+1. 瀏覽至&#x200B;*存放庫*&#x200B;中的必要資料夾（您要上傳檔案的位置）。
+1. 選取&#x200B;**選項**&#x200B;圖示以開啟內容功能表，然後選擇&#x200B;**上傳資產**。
+1. 在&#x200B;**上傳資產**&#x200B;對話方塊中，您可以在&#x200B;**選取資產資料夾**&#x200B;欄位中變更目的地資料夾。
+1. 選取&#x200B;**選擇檔案**&#x200B;並瀏覽以選取Schematron檔案。 您可以選取一或多個Schematron檔案，然後選取&#x200B;**上傳**。
 
 ## 使用Schematron驗證DITA主題或地圖
 
-匯入Schematron檔案後，您可以在Web編輯器中編輯它們。 您可以使用Schematron檔案來驗證主題或DITA map。 例如，您可以為DITA map或主題建立下列規則：
+匯入Schematron檔案後，您可以在編輯器中編輯它們。 您可以使用Schematron檔案來驗證主題或DITA map。 例如，您可以為DITA map或主題建立下列規則：
 
 * 已為DITA map定義標題。
 * 已新增特定長度的簡短說明。
 * 地圖中應至少有一個topicref。
 
-當您在網頁編輯器中開啟主題時，右側會出現「架構驗證」面板。 執行以下步驟，使用Schematron檔案新增並驗證主題或地圖：
-![](images/schematron-validate.png){width="300" align="left"}
+在編輯器中開啟主題時，「架構驗證」面板會顯示在右側。 執行以下步驟，使用Schematron檔案新增並驗證主題或地圖：
 
-1. 按一下「結構描述」圖示()以開啟「結構描述」面板。
-1. 使用「新增Schematron檔案」來新增Schematron檔案。
+![](images/schematron-panel-file-validated.png){width="500" align="left"}
+
+1. 選取結構描述圖示()以開啟結構描述面板。
+1. 使用&#x200B;**新增Schematron檔案**&#x200B;來新增Schematron檔案。
 1. 如果Schematron檔案沒有錯誤，則會新增並列在「驗證」面板中。 對於包含錯誤的Schematron檔案，會顯示錯誤訊息。
    >[!NOTE]
    >
    >您可以使用Schematron檔案名稱附近的十字圖示來移除它。
-1. 按一下使用結構描述進行驗證，以驗證主題。
+1. 選取&#x200B;**使用Schematron進行驗證**&#x200B;以驗證主題。
 
    * 如果主題未破壞任何規則，則會顯示檔案的驗證成功訊息。
    * 如果主題破壞規則，例如，如果它不包含標題並為上述給定結構描述驗證，它會顯示驗證錯誤。
 
-1. 按一下錯誤訊息，在開啟的主題/地圖中反白顯示包含錯誤的元素。
+1. 選取錯誤訊息，在開啟的主題/地圖中反白顯示包含錯誤的元素。
 
-網頁編輯器中的Schematron支援可協助您根據一組規則來驗證檔案，並維護主題間的一致性和正確性。
+編輯器中的Schematron支援可協助您根據一組規則來驗證檔案，並維護主題間的一致性和正確性。
 
 ## 使用判斷提示和報表陳述式來檢查規則{#schematron-assert-report}
 
-AEM Guides也支援Schematron中的判斷提示和報表陳述式。 這些陳述式可協助您驗證DITA主題。
+Experience Manager Guides也支援Schematron中的判斷提示和報表陳述式。 這些陳述式可協助您驗證DITA主題。
 
 ### Assert陳述式
 
@@ -107,7 +108,7 @@ No one word titles.
 
 ## 定義抽象模式{#schematron-abstract-patterns}
 
-AEM Guides也支援Schematron中的抽象模式。 您可以定義一般抽象模式，重複使用這些抽象模式。  您可以建立指定實際模式的預留位置引數。
+Experience Manager Guides也支援Schematron中的抽象模式。 您可以定義一般抽象模式，重複使用這些抽象模式。  您可以建立指定實際模式的預留位置引數。
 
 
 使用抽象模式可減少規則的重複，並更容易管理和更新驗證邏輯，藉此簡化您的Schematron方案。 它也能讓您的結構描述更易於理解，因為您可以在可在整個結構描述中重複使用的單一抽象模式中定義複雜的驗證邏輯。

@@ -4,60 +4,66 @@ description: 從網頁編輯器建立輸出預設集。 瞭解如何在AEM Guide
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# 從網頁編輯器建立輸出預設集 {#id218CL400JW3}
+# 從編輯器建立知識庫的輸出預設集 {#id218CL400JW3}
 
 執行以下步驟來建立DITA map的輸出預設集：
 
 1. 在Assets UI中，導覽至您要編輯的地圖檔案。
 
-1. 若要取得對映檔案的獨佔鎖定，請選取對映檔案，然後按一下&#x200B;**簽出**。
+1. 若要取得對應檔的獨佔鎖定，請選取對應檔，然後選取&#x200B;**簽出**。
 
 1. 從地圖檔案的動作選單中選取&#x200B;**編輯主題**&#x200B;選項。
 
-   會開啟對應檔案，以便在Web編輯器中編輯。
+   將在編輯器中開啟對應檔案以進行編輯。
 
    >[!NOTE]
    >
-   > 您可以使用進階地圖編輯器在地圖中新增或刪除任何主題。 如需詳細資訊，請參閱[使用進階地圖編輯器](map-editor-advanced-map-editor.md#)。
+   > 您可以使用進階地圖編輯器在地圖中新增或刪除任何主題。 如需詳細資訊，請檢視[使用進階地圖編輯器](map-editor-advanced-map-editor.md#)。
 
-1. 在&#x200B;**輸出**&#x200B;標籤中，選取+圖示以建立DITA map的輸出預設集。
+1. 選取&#x200B;**在地圖主控台中開啟**&#x200B;圖示。 地圖會在地圖主控台中開啟。
 
-   ![](images/output-tab-preset_cs.png){width="350" align="left"}
+1. 導覽至&#x200B;**輸出預設集**&#x200B;標籤，並選取+圖示以建立DITA map的輸出預設集。
 
-1. 在[新增預設集]對話方塊中輸入預設集名稱，然後按一下[新增]。****
+1. 從&#x200B;**型別**&#x200B;下拉式清單中選取&#x200B;**知識庫**，輸入名稱，並在&#x200B;**新增輸出預設集**&#x200B;對話方塊中選取&#x200B;**Adobe Experience Manager**。
+1. 選取&#x200B;**新增至目前的資料夾設定檔**&#x200B;選項，為目前的資料夾設定檔建立輸出預設集。 ![資料夾設定檔圖示](images/global-preset-icon.svg)圖示表示資料夾設定檔層級預設集。
 
-1. 輸入下列組態詳細資訊。
+   深入瞭解[管理全域和資料夾設定檔輸出預設集](./web-editor-manage-output-presets.md)。
 
-   1. 在&#x200B;**一般**&#x200B;索引標籤中選取必要的選項。 您可以選擇建立附帶或不附帶條件的輸出預設集。 您也可以使用DITVAL檔案。 AEM Guides也可讓您選取基準線，以發佈特定版本的DITA map。
-   1. 在&#x200B;**AEM**&#x200B;索引標籤中輸入AEM網站詳細資料。 **網站**&#x200B;會顯示您的AEM存放庫中可用的AEM Sites清單。 **類別**、**區段範本**&#x200B;和&#x200B;**文章範本**&#x200B;是用來組織您輸出之外觀與感覺的結構元件。 這些範本已在AEM網站範本中預先定義。
+1. 選取「**新增**」。
 
-      >[!NOTE]
-      >
-      > 重新整理每個下拉式清單，以便在下一個下拉式清單中取得進一步的分類。
+   會建立知識庫預設集。
 
-   1. 從&#x200B;**文章**&#x200B;索引標籤，選取您要產生輸出的主題。
-1. 選取頂端的&#x200B;**產生預設集**&#x200B;圖示以產生輸出。
+
+   ![新](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+
+建立預設集後，即可產生特定知識庫文章的輸出。 若要這麼做，請導覽至&#x200B;**文章**&#x200B;標籤，並選取您要產生輸出的主題。
+1. 選取頂端的&#x200B;**產生輸出**&#x200B;以產生輸出。
 
    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-1. 您將會看到輸出產生程式的狀態。 **主題**&#x200B;欄會列出正在產生輸出的主題，而&#x200B;**狀態**&#x200B;欄會顯示每個主題的發佈狀態。
+1. 在&#x200B;**確認要發佈的檔案**&#x200B;提示中，選取您要發佈的檔案並透過選取&#x200B;**發佈**&#x200B;進行確認。
 
-   若要檢視輸出，請將滑鼠指標停留在主題上，然後按一下「檢視輸出」。
+   ![新](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+您將檢視輸出產生程式的狀態。 **主題**&#x200B;欄會列出正在產生輸出的主題，而&#x200B;**狀態**&#x200B;欄會顯示每個主題的發佈狀態。
+
+
+![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+
+若要檢視輸出，請關閉[產生的輸出]對話方塊，並在預設頁面上選取&#x200B;**檢視輸出**。
 
 
 >[!NOTE]
 >
-> 您也可以從「選項」選單中編輯、重新命名、複製或刪除現有的輸出預設集。
+> 您也可以從「選項」選單中「重新命名」、「複製」或「刪除」現有的輸出預設集。
 
-![](images/edit-preset_cs.png){width="550" align="left"}
 
-**上層主題：**[&#x200B;網頁編輯器的文章式發佈](web-editor-article-publishing.md)
+
+**父級主題：**[&#x200B;編輯器的文章式發佈](web-editor-article-publishing.md)

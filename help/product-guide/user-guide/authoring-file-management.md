@@ -4,16 +4,16 @@ description: 瞭解如何在AEM Guides中管理檔案和資料夾。 複製並�
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
 
 # 管理檔案和資料夾 {#id2116G0L08XA}
 
-本節說明AEM Guides如何處理基本檔案操作，例如複製、貼上、拖放和刪除檔案。 可能會出現以下情況：
+本節說明Adobe Experience Manager Guides如何處理基本檔案操作，例如複製、貼上、拖放和刪除檔案。 可能會出現以下情況：
 
 ## 複製並貼上檔案
 
@@ -61,13 +61,13 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > **您的管理員必須啟用**&#x200B;為上傳的檔案建立新版本。 如果啟用此功能，則會建立上傳檔案的新版本。 如果取消選取選項，則不會建立已上傳檔案的版本。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*為已上傳的檔案建立新版本*&#x200B;區段。
+  > **您的管理員必須啟用**&#x200B;為上傳的檔案建立新版本。 如果啟用此功能，則會建立上傳檔案的新版本。 如果取消選取選項，則不會建立已上傳檔案的版本。 如需詳細資訊，請檢視「安裝與設定Adobe Experience Manager Guides as a Cloud Service」中的&#x200B;*為上傳的檔案建立新版本*&#x200B;區段。
 
   如果檔案已由其他使用者取出以進行編輯，而您嘗試上傳並覆寫現有檔案，則檔案會失敗並顯示錯誤。
 
   >[!NOTE]
   >
-  >您的管理員必須停用&#x200B;**在上傳時覆寫取出檔案**&#x200B;功能。 如果啟用此功能，您可以覆寫出庫檔案。 如果未啟用該功能，則不會覆寫出庫的檔案。 如需詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides」as a Cloud Service中的&#x200B;*上傳時覆寫取出檔案*。
+  >您的管理員必須停用&#x200B;**在上傳時覆寫取出檔案**&#x200B;功能。 如果啟用此功能，您可以覆寫出庫檔案。 如果未啟用該功能，則不會覆寫出庫的檔案。 如需詳細資訊，請檢視安裝與設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*上傳時覆寫取出檔案*。
 
 
 - *在不同位置拖放檔案*：已建立檔案的新復本，且已在新位置為其指派新的UUID。 在這裡，檔案名稱與原始檔案名稱相同。
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 如果您選取&#x200B;**建立現有工作復本的版本**&#x200B;選項，則會從檔案的工作復本建立新版本；會上傳新檔案，也會建立檔案的新版本，並將其作為檔案的工作復本。
 
-**您的管理員必須啟用**&#x200B;為上傳的檔案建立新版本。 如果啟用此功能，則會建立上傳檔案的新版本。 如果取消選取選項，則不會建立已上傳檔案的版本。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*為已上傳的檔案建立新版本*&#x200B;區段。
+**您的管理員必須啟用**&#x200B;為上傳的檔案建立新版本。 如果啟用此功能，則會建立上傳檔案的新版本。 如果取消選取選項，則不會建立已上傳檔案的版本。 如需詳細資訊，請檢視「安裝與設定Adobe Experience Manager Guides as a Cloud Service」中的&#x200B;*為已上傳的檔案建立新版本*&#x200B;區段。
 
 
 *在不同位置拖放檔案*：您有&#x200B;**覆寫現有檔案\(s\)**、**將檔案移至新位置\(s\)的選項，以及建立現有工作復本的版本的選項。**
@@ -99,11 +99,11 @@ ht-degree: 0%
 
 ## 大量移動檔案 {#move-files-bulk}
 
-AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的資料夾從一個位置移動到另一個位置。 此工具可輕鬆地將一或多個資料夾中的檔案移動到AEM存放庫中的不同資料夾。 此工具的主要功能之一是，它不但會移動大量檔案，而且會維護要移動之檔案的參照與來源參照。 您可以調整可以批次移動的檔案數量，而不會妨礙編寫和發佈工作。
+Experience Manager Guides隨附大量移動工具，可協助管理員將具有大量檔案的資料夾從一個位置移動到另一個位置。 此工具可輕鬆地將一或多個資料夾中的檔案移至Adobe Experience Manager存放庫中的其他資料夾。 此工具的主要功能之一是，它不但會移動大量檔案，而且會維護要移動之檔案的參照與來源參照。 您可以調整可以批次移動的檔案數量，而不會妨礙編寫和發佈工作。
 
 >[!NOTE]
 >
-> 「大量移動工具」只適用於資料夾層級。 如果要移動個別主題或地圖檔案，請使用AEM Assets UI中的一般移動工具。
+> 「大量移動工具」只適用於資料夾層級。 如果要移動個別主題或地圖檔案，請使用Adobe Experience Manager Assets UI中的一般移動工具。
 
 以下是「大量移動工具」所提供的部分功能：
 
@@ -124,14 +124,14 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
 若要大量移動檔案，請執行下列步驟：
 
-1. 按一下頂端的Adobe Experience Manager連結，然後選擇&#x200B;**工具**。
+1. 選取頂端的Adobe Experience Manager標誌，然後選擇&#x200B;**工具**。
 1. 從工具清單中選取&#x200B;**指南**。
-1. 按一下&#x200B;**大量移動工具**&#x200B;圖磚。
+1. 選取&#x200B;**大量移動工具**&#x200B;圖磚。
 1. 會根據您的設定顯示「大量移動工具」頁面。 在&#x200B;**大量移動工具**&#x200B;頁面上提供下列詳細資料：
 
    <details>
 
-   <summary> Cloud Service及內部部署UUID型檔案系統 </summary>
+   <summary> 雲端服務和內部部署UUID型檔案系統 </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -146,23 +146,23 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
    - **Source路徑\(s\)**：指定您要移動的資料夾位置。
 
-      - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">    以開啟瀏覽檔案對話方塊。 選取您要移動的資料夾，然後按一下&#x200B;**選取**&#x200B;以完成程式。
+      - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">    以開啟瀏覽檔案對話方塊。 選取您要移動的資料夾，然後選擇&#x200B;**選取**&#x200B;以完成程式。
 
       - 您也可以鍵入或複製並貼上來源位置。 按Enter將資料夾新增至清單。
 
         選取的資料夾會與其路徑一起列出。 將游標停留在資料夾標籤上可檢視完整路徑。
-      - 您也可以按一下&#x200B;**[移除]**&#x200B;來移除任何資料夾 資料夾附近的<img src="images/remove-folder.svg" width="25">。
+      - 您也可以選取&#x200B;**移除**，移除任何資料夾 資料夾附近的<img src="images/remove-folder.svg" width="25">。
 
 
    - **目的地路徑**：指定您要移動來源資料夾的位置。
 
-      - 選取&#x200B;**瀏覽資料夾** <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動來源資料夾的位置。 並按一下「選取」以完成該程式。
+      - 選取&#x200B;**瀏覽資料夾** <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動來源資料夾的位置。 並選擇「選取」以完成處理。
       - 您也可以輸入或複製並貼上目的地路徑。
 
      選取的資料夾會與其路徑一起顯示在文字方塊中。
 
 
-   - 按一下&#x200B;**大量移動**。
+   - 選取&#x200B;**大量移動**。
 
      系統開始將檔案從來源移動到目的地位置。 程式完成後，頁面右側會顯示移動程式的摘要。
 
@@ -195,22 +195,22 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
    - **Source路徑\(s\)**：指定您要移動的資料夾位置。
 
-      - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">    以開啟瀏覽檔案對話方塊。 選取您要移動的資料夾，然後按一下&#x200B;**選取**&#x200B;以完成程式。
+      - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">    以開啟瀏覽檔案對話方塊。 選取您要移動的資料夾，然後選擇&#x200B;**選取**&#x200B;以完成程式。
 
       - 您也可以鍵入或複製並貼上來源位置。 按Enter將資料夾新增至清單。
 
         選取的資料夾會與其路徑一起列出。 將游標停留在資料夾標籤上可檢視完整路徑。
-      - 您也可以按一下&#x200B;**[移除]**&#x200B;來移除任何資料夾 資料夾附近的<img src="images/remove-folder.svg" width="25">。
+      - 您也可以選取&#x200B;**移除**，移除任何資料夾 資料夾附近的<img src="images/remove-folder.svg" width="25">。
 
 
    - **目的地路徑**：指定您要移動來源資料夾的位置。
 
-      - 選取&#x200B;**瀏覽資料夾** <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動來源資料夾的位置。 並按一下「選取」以完成該程式。
+      - 選取&#x200B;**瀏覽資料夾** <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動來源資料夾的位置。 並選擇「選取」以完成處理。
       - 您也可以輸入或複製並貼上目的地路徑。
 
         選取的資料夾會與其路徑一起顯示在文字方塊中。
 
-   - 按一下&#x200B;**大量移動**。
+   - 選取&#x200B;**大量移動**。
 
      系統開始將檔案從來源移動到目的地位置。 程式完成後，頁面右側會顯示移動程式的摘要。
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
@@ -218,11 +218,11 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
 ## 搜尋DITA內容
 
-依預設，AEM不會識別DITA內容，因此不會提供任何機制來搜尋其存放庫中的DITA內容。 AEM Guides在AEM上方新增圖層，可讓AEM瞭解及處理DITA內容。 AEM Guides中的搜尋DITA內容功能可讓您搜尋AEM存放庫中的DITA內容。
+依預設，Adobe Experience Manager不會辨識DITA內容，因此不會提供任何機制來搜尋其存放庫中的DITA內容。 Experience Manager Guides在Adobe Experience Manager上新增圖層，可讓Adobe Experience Manager瞭解及處理DITA內容。 Experience Manager Guides中的搜尋DITA內容功能可讓您搜尋Adobe Experience Manager存放庫中的DITA內容。
 
 >[!NOTE]
 >
->您的系統管理員可以設定&#x200B;**DITA Element**&#x200B;搜尋元件，然後您就可以從AEM Assets UI使用此功能。 如需更多詳細資料，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*在Assets UI中新增DITA元素搜尋元件*&#x200B;一節。
+>您的系統管理員可以設定&#x200B;**DITA Element**&#x200B;搜尋元件，然後您就可以從Adobe Experience Manager Assets UI使用此功能。 如需詳細資料檢視，請在安裝和設定Adobe Experience Manager Guides as a Cloud Service的Assets UI *區段中*&#x200B;新增DITA元素搜尋元件。
 
 使用搜尋功能，您可以：
 
@@ -230,7 +230,7 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 - 根據屬性值搜尋DITA內容；例如，`@platform`=視窗
 - 使用DITA元素和屬性值的組合；例如，`author`= xml `AND` `@platform`= windows
 
-執行以下步驟來搜尋AEM存放庫中的DITA內容：
+執行以下步驟，在Adobe Experience Manager存放庫中搜尋DITA內容：
 
 1. 開啟Assets UI。
 
@@ -259,13 +259,13 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
 **搜尋中的簽出狀態篩選器**
 
-除了DITA元素篩選器之外，AEM Guides也可讓您根據內容的簽出狀態來搜尋內容。 如果您想要快速篩選出目前由您出庫且想要重新入庫的檔案，這會很有幫助。
+除了DITA元素篩選器之外，Experience Manager Guides也可讓您根據內容的簽出狀態來搜尋內容。 如果您想要快速篩選出目前由您出庫且想要重新入庫的檔案，這會很有幫助。
 
 執行以下步驟，根據檔案的簽出狀態來搜尋檔案：
 
 1. 開啟Assets UI。
 
-1. 按一下左側邊欄中的&#x200B;**篩選器**。
+1. 在左側邊欄中選取&#x200B;**篩選器**。
 1. 在搜尋列中輸入您的搜尋關鍵字。
 1. 從左側邊欄套用所需的篩選器。
 
@@ -276,7 +276,7 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
 ## 刪除檔案
 
-從AEM存放庫中刪除檔案是一項受限制的功能，由您的系統管理員控制。 根據設定，刪除檔案在以下情況下可能會受到限制：
+從Adobe Experience Manager存放庫刪除檔案是一項受限制的功能，由您的系統管理員控制。 根據設定，刪除檔案在以下情況下可能會受到限制：
 
 - 已簽出
 - 具有傳入或傳出參考
@@ -285,7 +285,7 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
 >[!NOTE]
 >
-> 如需檔案管理設定的詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides」as a Cloud Service中的&#x200B;*防止刪除取出檔案*&#x200B;與&#x200B;*防止刪除參考的檔案*&#x200B;區段。
+> 如需檔案管理設定的詳細資訊，請檢視&#x200B;*防止刪除取出檔案*&#x200B;和&#x200B;*防止刪除參考的檔案*&#x200B;安裝與設定Adobe Experience Manager Guides as a Cloud Service中的區段。
 
 如果您的管理員已將檔案刪除許可權授予所有使用者，則當您刪除包含參照的檔案時，會顯示下列訊息：
 
@@ -307,12 +307,12 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
 1. 存取&#x200B;**Assets UI**&#x200B;中的檔案。
 1. 選取您要檢視其版本記錄的檔案。
-1. 在左側邊欄中，按一下&#x200B;**版本記錄**&#x200B;並選取版本。
+1. 在左側邊欄中，選取&#x200B;**版本記錄**&#x200B;並選取版本。
 1. 您也可以在「版本記錄」下檢視不同版本的縮圖。
 
    ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1. 從列出的版本中，選取要做為基礎版本的版本，然後按一下&#x200B;**預覽版本**。 所選版本的預覽會顯示在「版本預覽」視窗中。
+1. 從列出的版本中，選取您要用來作為基礎版本的版本，然後選取&#x200B;**預覽版本**。 所選版本的預覽會顯示在「版本預覽」視窗中。
 
    ![](images/media-version-preview.png){width="650" align="center"}
 

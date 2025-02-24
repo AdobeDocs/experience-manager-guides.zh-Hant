@@ -4,9 +4,9 @@ description: 使用AEM Guides中的通知重新指派稽核任務。 瞭解如�
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ ht-degree: 0%
 
 指派的稽核者會在「收件匣」中收到重新指派稽核任務的通知。
 
-**父級主題：**[&#x200B;檢閱主題或地圖](review.md)
+**父級主題：**[&#x200B;檢閱簡介](review.md)

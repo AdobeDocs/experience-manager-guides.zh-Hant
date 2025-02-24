@@ -1,35 +1,29 @@
 ---
-title: Publish主題至AEM Sites頁面
-description: Publish主題或主題內的元素至Adobe Experience Manager Sites輸出。  瞭解如何檢視主題的Experience Manager Sites頁面並重新發佈。
+title: 將主題發佈至AEM Sites頁面
+description: 將主題或主題內的元素發佈至Adobe Experience Manager Sites輸出。  瞭解如何檢視主題的Experience Manager Sites頁面並重新發佈。
 feature: Publishing
 role: User
-source-git-commit: 05c3e5e6f3c6aea4b3e3f3a52af5810307f1f29b
+exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
+source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
-# Publish Adobe Experience Manager Sites頁面
+# 發佈Adobe Experience Manager Sites頁面
 
 
 Experience Manager Sites頁面是指在Adobe Experience Manager網站上發佈的內容。 Experience Manager Guides可讓您將獨立主題發佈至網站頁面。
 
 此功能可讓您發佈主題及其元素，而不需建立DITA map和輸出預設集。 您可以輕鬆更新主題、重新發佈Sites頁面，並在不同網頁中重複使用它。 使用此功能，您可以輕鬆發佈獨立文章或行銷內容。
 
-
-
-
-
 若要產生「網站」頁面，請執行下列步驟：
 
 
-
-
-1. 從主題&#x200B;**檔案內容**&#x200B;的&#x200B;**輸出**&#x200B;區段中，選取&#x200B;**新輸出** ![新輸出圖示](./images/Add_icon.svg)。
+1. 在編輯器中開啟主題，然後從右側面板中選取「檔案屬性」 。
+1. 從&#x200B;**輸出**&#x200B;區段中選取&#x200B;**新輸出**&#x200B;圖示![新輸出圖示](./images/Add_icon.svg)。
 1. 選取&#x200B;**網站頁面**。
-
-
 1. 在&#x200B;**產生網站頁面**對話方塊中，填入下列詳細資料：
    ![在[產生網站]頁面中新增路徑與範本詳細資料](images/aem-sites-page-generate.png){width="500" align="left"}
 
@@ -54,15 +48,12 @@ Experience Manager Sites頁面是指在Adobe Experience Manager網站上發佈�
 
 
 
-1. 按一下&#x200B;**產生**&#x200B;以發佈網站頁面。
+1. 選取&#x200B;**產生**&#x200B;以發佈網站頁面。
 1. 您可以在&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段下，檢視主題的「網站」頁面。 Sites頁面會根據其發佈的日期和時間顯示，最新的頁面為第一個頁面。
 
-   ![檢視主題的網站頁面](images/aem-sites-outputs.png){width=300 align=&quot;left&quot;}
+   ![檢視主題的網站頁面](images/aem-sites-output-new.png){width=300 align=&quot;left&quot;}
 
    *檢視主題的Sites頁面並重新發佈。*
-
-
-
 
 發佈Sites頁面後，您也可以在任何Adobe Experience Manager網站上使用。
 

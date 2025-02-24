@@ -1,19 +1,19 @@
 ---
-title: 網頁編輯器中的鍵盤快速鍵
+title: 編輯器中的鍵盤快速鍵
 description: 探索AEM Guides網頁編輯器中的省時鍵盤快速鍵。
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
+source-git-commit: e5f4dc964a31d3bc23db166ee391e5e3550d8cbc
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
-# 網頁編輯器中的鍵盤快速鍵 {#id2056B0A0WHT}
+# 編輯器中的鍵盤快速鍵 {#id2056B0A0WHT}
 
-在Web編輯器中有許多作業可以使用鍵盤快速鍵來執行。 下表列出這些鍵盤快速鍵：
+編輯器中有許多操作可以使用鍵盤快速鍵來執行。 下表列出這些鍵盤快速鍵：
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 | 專注於目前的編輯器 | **Ctrl***+**Shift**+***0*** | ***命令***+**Shift**+***0*** |
 | 在作者或Source檢視中儲存檔案 | ***Ctrl***+**Shift**+***S*** | ***命令***+**Shift**+***S*** |
 | 在「作者」或「Source」檢視中儲存所有開啟的檔案 | ***Ctrl***+***S*** | ***命令***+***S*** |
-| 顯示[插入元素]對話方塊 | ***Alt***+***輸入*** | ***選項***+***輸入*** |
+| 顯示[插入元素]對話方塊 | ***Alt***+***1*** | ***選項***+***輸入*** |
 | 顯示[插入元素]對話方塊，在選取的元素之前插入元素 | ***Alt***+***Shift***+***Enter*** | ***Option***+***Shift***+***Enter*** |
 | 將游標向左移動一個單字。 | ***Ctrl***+***向左箭號*** | ***選項***+***向左箭號*** |
 | 將游標向右移動一個單字。 | ***Ctrl***+***向右鍵*** | ***選項***+***向右箭號*** |

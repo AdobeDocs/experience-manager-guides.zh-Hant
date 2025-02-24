@@ -5,9 +5,9 @@ exl-id: 9a52ba17-68c0-4552-aae6-e89bc5d3ac6f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ede91932959b952a47c890269695a69a2edab523
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ AEM Guides隨附強大的網頁編輯器，可讓您的作者建立和編輯DITA
 
 - [自訂工具列](conf-web-editor-customize-toolbar.md#)
 - [在網頁編輯器中設定檔案自動儲存](auto-save-in-editor.md#)
-- [自訂AEM預設字典](customize-aem-custom-dictionary.md#)
+- [自訂AEM的預設字典](customize-aem-custom-dictionary.md#)
 - [自動生成元素ID](auto-generate-ids.md#)
 - [設定允許的特殊字元](conf-special-chars.md#)
 - [設定檔案瀏覽對話方塊的篩選器](conf-custom-file-filters.md#)
@@ -29,6 +29,8 @@ AEM Guides隨附強大的網頁編輯器，可讓您的作者建立和編輯DITA
 - **[設定標籤檢視的預設值](configure-default-value-tags-view.md)**
 
 - **[設定UUID連結的顯示](conf-uuid-based-links.md)**
+
+- **[設定貼上表格的顯示](conf-pasted-tables.md)**
 
 - **[在同一個索引標籤中開啟DITA主題或對應檔案](open-dita-files-same-tab.md)**
 
@@ -44,7 +46,7 @@ AEM Guides隨附強大的網頁編輯器，可讓您的作者建立和編輯DITA
 
 - **[自動產生專案ID](auto-generate-ids.md)**
 
-- **[自訂AEM預設字典](customize-aem-custom-dictionary.md)**
+- **[自訂AEM的預設字典](customize-aem-custom-dictionary.md)**
 
 - **[設定文字篩選器](config-text-filters.md)**
 
@@ -59,3 +61,5 @@ AEM Guides隨附強大的網頁編輯器，可讓您的作者建立和編輯DITA
 - **[將進階地圖編輯器設定為預設值](conf-map-editor.md)**
 
 - **[預設包含@navtitle屬性](auto-add-navtitle.md)**
+
+

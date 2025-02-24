@@ -3,7 +3,8 @@ title: AEM Guides的運作方式
 description: 瞭解AEM Guides如何與AEM和其他DITA編輯器搭配使用，以增強企業情境中的內容管理、重複使用、翻譯和審閱。
 feature: Introduction
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 531f7d2c-7b11-44b1-b4af-d3f660066643
+source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -17,4 +18,4 @@ ht-degree: 0%
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 
 
-**上層主題：**[&#x200B;關於Adobe Experience Manager Guidesas a Cloud Service](intro.md)
+**上層主題：**[&#x200B;關於Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

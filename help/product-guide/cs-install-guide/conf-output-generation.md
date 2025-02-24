@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
 workflow-type: tm+mt
-source-wordcount: '5470'
+source-wordcount: '5620'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ AEM Guides提供許多設定選項，供您自訂輸出產生流程。 本主題
 
 ## 在現有AEM網站中設定混合發佈 {#id1691I0V0MGR}
 
-如果您的AEM網站包含DITA內容，您可以設定AEM網站輸出，將DITA內容發佈至網站內預先定義的位置。 例如，在以下AEM Site頁面熒幕擷圖中，`ditacontent`節點會保留以儲存DITA內容：
+如果您有包含DITA內容的AEM網站，您可以設定AEM網站輸出，將DITA內容發佈至網站內預先定義的位置。 例如，在以下AEM網站頁面熒幕擷圖中，`ditacontent`節點已保留以儲存DITA內容：
 
 ![](assets/publish-in-aem-site.png)
 
@@ -74,7 +74,7 @@ AEM Guides支援以下列格式建立輸出：
 - ePub
 - 透過DITA-OT自訂輸出
 
-對於AEM Site輸出，您可以為不同的輸出任務指派不同的設計範本。 這些設計範本可以不同的版面配置呈現DITA內容。 例如，您可以為內部和外部對象指定不同的設計範本。
+對於AEM Site輸出，您可以針對不同的輸出任務指派不同的設計範本。 這些設計範本可以不同的版面配置呈現DITA內容。 例如，您可以為內部和外部對象指定不同的設計範本。
 
 您也可以將自訂的DITA Open Toolkit \(DITA-OT\)外掛程式與AEM Guides搭配使用。 您可以上傳這些自訂DITA-OT外掛程式，以特定方式產生PDF輸出。
 
@@ -85,7 +85,7 @@ AEM Guides支援以下列格式建立輸出：
 
 ### 自訂設計範本以產生輸出 {#customize_xml-add-on}
 
-AEM Guides使用一組預先定義的設計範本來產生AEM Site輸出。 您可以自訂AEM Guides設計範本，以產生符合您公司品牌規範的輸出。 設計範本是各種樣式\(CSS\)、指令碼\（伺服器端和使用者端\）、資源\（影像、標誌和其他資產\）以及將所有這些資源繫結在一起的JCR節點的集合。 設計範本可以像單一伺服器端指令碼一樣簡單，只包含幾個JCR節點，或樣式、資源和JCR節點的複雜組合。 AEM Guides發佈子系統會在產生AEM Site輸出時使用設計範本，這些範本可控制所產生輸出的結構、外觀和風格。
+AEM Guides使用一組預先定義的設計範本來產生AEM網站輸出。 您可以自訂AEM Guides設計範本，以產生符合您公司品牌規範的輸出。 設計範本是各種樣式\(CSS\)、指令碼\（伺服器端和使用者端\）、資源\（影像、標誌和其他資產\）以及將所有這些資源繫結在一起的JCR節點的集合。 設計範本可以像單一伺服器端指令碼一樣簡單，只包含幾個JCR節點，或樣式、資源和JCR節點的複雜組合。 AEM Guides發佈子系統會在產生AEM Site輸出時使用設計範本，這些範本可控制所產生輸出的結構、外觀和風格。
 
 設計範本資源在伺服器上的放置位置沒有限制，但通常會根據其功能進行邏輯組織。 例如，預設範本的所有JavaScript和CSS檔案都儲存在`/etc/designs/fmdita/clientlibs/siteoutput/default`資料夾下。 無論這些檔案位於何處，都會由JCR節點集合連結在一起。 這些JCR節點和檔案共同構成了整個設計範本。
 
@@ -126,19 +126,19 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 
 >[!NOTE]
 >
-> 建立自訂設計範本節點後，您必須更新AEM Site輸出預設集中的「設計」選項才能使用自訂設計範本節點。
+> 建立自訂設計範本節點後，您必須更新AEM網站輸出預設集中的「設計」選項，才能使用自訂設計範本節點。
 
 如需詳細資訊，請參閱[建立您的第一個Adobe Experience Manager網站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en)和[在AEM上開發您自己的網站的基本知識](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)。
 
 ### 使用檔案標題來產生AEM網站輸出
 
-產生AEM Site輸出時，產生URL的方式在內容的可發現性方面扮演重要角色。 如果您使用UUID型檔案名稱，根據檔案的UUID產生URL將不利於搜尋。 身為管理員或發佈者，您可以控制要如何產生AEM Site輸出的URL。 AEM Guides提供設定，您可選擇使用檔案標題而非UUID型檔案名稱來產生AEM Site輸出的URL。 對於以UUID為基礎的檔案系統，此選項預設為開啟。 這表示當您產生UUID型檔案系統的AEM Site輸出時，會使用檔案的標題來產生URL，而非檔案的UUID。
+產生AEM Site輸出時，產生URL的方式對發現您的內容而言至關重要。 如果您使用UUID型檔案名稱，根據檔案的UUID產生URL將不利於搜尋。 身為管理員或發佈者，您可以控制要如何產生AEM網站輸出的URL。 AEM Guides提供設定，您可選擇使用檔案標題而非UUID式檔案名稱來產生AEM Site輸出的URL。 對於以UUID為基礎的檔案系統，此選項預設為開啟。 這表示當您產生UUID型檔案系統的AEM Site輸出時，會使用檔案的標題來產生URL，而非檔案的UUID。
 
 >[!NOTE]
 >
-> 您可以進一步設定規則，以僅允許AEM Site輸出的URL中的一組字元。 如需詳細資訊，請參閱[設定建立主題和發佈AEM網站輸出的檔案名稱清理規則](#id2164D0KD0XA)。
+> 您可以進一步設定規則，以僅允許AEM網站輸出的URL中的一組字元。 如需詳細資訊，請參閱[設定檔案名稱清理規則，以建立主題並發佈AEM網站輸出](#id2164D0KD0XA)。
 
-使用[組態覆寫](download-install-additional-config-override.md#)中提供的指示來建立組態檔。 在設定檔案中，提供下列\(property\)詳細資訊，以設定AEM Site輸出中的URL產生：
+使用[組態覆寫](download-install-additional-config-override.md#)中提供的指示來建立組態檔。 在設定檔案中，提供下列\(property\)詳細資訊，以在AEM網站輸出中設定URL產生：
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
@@ -146,7 +146,7 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 
 ### 設定AEM網站輸出的URL以使用檔案標題
 
-您可以在AEM Site輸出的URL中使用檔案標題。 如果檔案名稱不存在或包含所有特殊字元，您可以設定系統在AEM Site輸出的URL中，以分隔符號取代特殊字元。 您也可以將其設定為使用第一個子主題名稱來取代。
+您可以在AEM網站輸出的URL中使用檔案標題。 如果檔案名稱不存在或包含所有特殊字元，您可以設定系統在AEM Site輸出的URL中，以分隔符號取代特殊字元。 您也可以將其設定為使用第一個子主題名稱來取代。
 
 
 若要設定頁面名稱，請執行下列步驟：
@@ -161,9 +161,9 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 例如，如果`<topichead>`中的&#x200B;*@navtitle*&#x200B;具有所有特殊字元，而您將`aemsite.pagetitle`屬性設定為true，則預設會使用分隔符號。 如果您將`nodename.systemDefinedPageName`屬性設為true，它會顯示第一個子主題的名稱。
 
 
-### 設定檔案名稱清理規則，以建立主題和發佈AEM網站輸出 {#id2164D0KD0XA}
+### 設定檔案名稱清理規則，以AEM Sites和其他格式建立主題和發佈輸出 {#id2164D0KD0XA}
 
-作為管理員，您可以定義檔案名稱中允許的有效特殊字元清單，這些字元最終會形成AEM Site輸出的URL。 在舊版中，使用者可定義包含特殊字元（如`@`、`$`、`>`等）的檔案名稱。 這些特殊字元會在產生AEM網站頁面時產生編碼的URL。
+身為管理員，您可以定義檔案名稱中允許的有效特殊字元清單，這些字元最終會形成AEM網站輸出的URL。 在舊版中，使用者可定義包含特殊字元（如`@`、`$`、`>`等）的檔案名稱。 這些特殊字元會在產生AEM網站頁面時產生編碼的URL。
 
 自3.8發行版本開始，已新增設定以定義檔案名稱中允許的特殊字元清單。 依預設，有效的檔案名稱組態包含&quot;`a-z A-Z 0-9 - _`&quot;。 這表示在建立檔案時，檔案標題中可以有任何特殊字元，但在內部，檔案名稱中將會以連字型大小\(`-`\)取代。 例如，您可以將檔案的標題設為Introduction 1或Introduction@1，針對這兩種情況產生的對應檔案名稱都是Introduction-1。
 
@@ -179,6 +179,10 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | 確定屬性已設定為``'<>`@$``。 您可以在此清單中新增更多特殊字元。 |
 
+>[!NOTE]
+> 
+> 上述設定適用於所有輸出格式。 這表示產生PDF、HTML或自訂輸出時，最終輸出將遵循設定的檔案名稱清理規則。
+
 您也可以設定其他屬性，例如檔案名稱中的使用小寫、處理無效字元的分隔符號，以及檔案名稱中允許的最大字元數。 若要設定這些屬性，請在設定檔案中新增下列機碼值組：
 
 | 屬性索引鍵 | 屬性值 |
@@ -189,13 +193,13 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 
 ### 設定AEM網站節點結構的平面化
 
-產生AEM Site輸出時，主題中每個元素的節點都會在內部建立。 對於包含數千個主題的DITA map，此節點結構可能會變得太深。 對於較大的網站，這種深度巢狀節點結構可能會出現效能問題。 下列快照會顯示AEM Site輸出的深度巢狀節點結構：
+產生AEM Site輸出時，主題中每個元素的節點都會在內部建立。 對於包含數千個主題的DITA map，此節點結構可能會變得太深。 對於較大的網站，這種深度巢狀節點結構可能會出現效能問題。 下列快照會顯示AEM網站輸出的深度巢狀節點結構：
 
 ![](assets/deep-nested-aem-site-node-structure.png)
 
 在上述快照中，請注意會為每個`p`元素及其後續子元素建立節點，並為主題中使用的其他所有元素建立類似的結構。
 
-AEM Guides可讓您設定AEM Site輸出的節點結構在內部建立的方式。 您可以在指定元素處平面化節點結構，這表示您可以定義元素，將其視為主要元素，其內的所有子元素將與主要元素合併。 例如，如果您決定平面化`p`元素，則出現在`p`元素中的任何元素都將與主要`p`元素合併。 不會為`p`元素內的任何子元素建立個別附註。 下列快照顯示平面化於`p`元素的節點結構：
+AEM Guides可讓您設定AEM網站輸出的節點結構在內部建立的方式。 您可以在指定元素處平面化節點結構，這表示您可以定義元素，將其視為主要元素，其內的所有子元素將與主要元素合併。 例如，如果您決定平面化`p`元素，則出現在`p`元素中的任何元素都將與主要`p`元素合併。 不會為`p`元素內的任何子元素建立個別附註。 下列快照顯示平面化於`p`元素的節點結構：
 
 ![](assets/flattened-aem-site-node-structure.png)
 
@@ -237,7 +241,7 @@ AEM Guides可讓您設定AEM Site輸出的節點結構在內部建立的方式�
 
 **在AEM網站輸出內容中搜尋字串**
 
-依預設，您只能在AEM Site輸出中搜尋標題中的字串。 您可以設定系統以搜尋字串，同時搜尋標題以及AEM Site輸出的內容或內文。
+依預設，您只能在AEM網站輸出中搜尋標題中的字串。 您可以設定系統搜尋標題中的字串，也可以搜尋AEM Site輸出的內容或內文。
 
 >[!NOTE]
 >
@@ -245,7 +249,7 @@ AEM Guides可讓您設定AEM Site輸出的節點結構在內部建立的方式�
 
 ![](assets/flatten-aem-site-note-props-crxde-search.png)
 
-若要啟用搜尋，您應該設定AEM Site節點結構的平面化。
+若要啟用搜尋，您應該設定AEM網站節點結構的平面化。
 
 注意:
 
@@ -265,7 +269,7 @@ AEM Guides可讓您設定AEM Site輸出的節點結構在內部建立的方式�
 
 ### 在AEM網站輸出中設定已刪除頁面的版本設定
 
-當您針對現有輸出頁面設定選取&#x200B;**刪除和**&#x200B;建立&#x200B;****選項來產生AEM網站輸出時，會為要刪除的頁面建立一個版本。 您可以設定系統在刪除前停止建立版本。
+當您針對現有輸出頁面設定選取了&#x200B;**刪除和**&#x200B;建立&#x200B;****選項來產生AEM網站輸出時，會為要刪除的頁面建立一個版本。 您可以設定系統在刪除前停止建立版本。
 
 執行以下步驟，停止建立要刪除之頁面的版本：
 
@@ -316,7 +320,7 @@ AEM Guides提供在使用DITA-OT發佈輸出時傳遞自訂中繼資料的方法
    >
    > DITA map的「屬性」頁面上顯示的屬性取自此表單。
 
-1. 按一下&#x200B;**編輯**。
+1. 按一下「**編輯**」。
 
 1. 新增您要在發佈的輸出中使用的自訂中繼資料。 例如，我們將使用下列步驟新增對象中繼資料：
 
@@ -362,13 +366,13 @@ AEM Guides提供在使用DITA-OT發佈輸出時傳遞自訂中繼資料的方法
 
    ![](assets/properties-page-custom-metadata-value.png)
 
-1. 按一下&#x200B;**「儲存並關閉」**。
+1. 按一下「**儲存並關閉**」。
 
 1. 按一下DITA map檔案以開啟DITA map主控台。
 
 1. 在&#x200B;**輸出預設集**&#x200B;索引標籤中，選取您要用來產生輸出的輸出預設集。
 
-1. 按一下&#x200B;**編輯**。
+1. 按一下「**編輯**」。
 
 1. 從&#x200B;**屬性**&#x200B;下拉式清單中，選取您要傳遞給發佈程式的屬性。
 
@@ -420,15 +424,31 @@ AEM Guides提供在使用DITA-OT發佈輸出時傳遞自訂中繼資料的方法
 >
 > 如果檔案不存在特定的中繼資料，則含有索引鍵的&lt;meta\>標籤將不會顯示該檔案在metadata.xml檔案中的屬性。
 
+## 設定DITA-OT命令列引數欄位以接受根對映中繼資料
+
+若要使用DITA-OT命令列引數欄位來傳遞根對映中繼資料，請執行下列步驟：
+
+1. 使用[組態覆寫](download-install-additional-config-override.md#)中提供的指示來建立組態檔。
+1. 在組態檔案中，提供下列\(property\)詳細資訊，以設定預設集中的DITA-OT命令列引數欄位：
+
+| PID | 屬性索引鍵 | 屬性值 |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | 布林值\(`true/false`\)。**預設值**： `true` |
+
+- 將屬性值設定為&#x200B;**true**&#x200B;可啟用DITA-OT命令列功能，讓您透過DITA-OT命令列傳遞中繼資料。
+- 將屬性值設定為&#x200B;**false**&#x200B;會停用DITA-OT命令列功能。 然後，您可以使用預設集中的「屬性」欄位來傳遞中繼資料。
+
+
+
 ## 使用AEM元件自訂DITA元素對應 {#id1679J600HEL}
 
-AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工作流程（例如發佈和稽核）中使用此對應，將DITA元素轉換為對應的AEM元件。 在`elementmapping.xml`檔案中定義對應，該檔案可使用封裝管理員存取。
+AEM Guides中的DITA元素對應至其對應的AEM元件。 AEM Guides在工作流程（例如發佈和稽核）中使用此對應，將DITA元素轉換為對應的AEM元件。 在`elementmapping.xml`檔案中定義對應，該檔案可使用封裝管理員存取。
 
 >[!NOTE]
 >
 > 請勿在``libs``節點中使用預設組態檔中的任何自訂專案。 您必須在``apps``節點中建立``libs``節點的覆蓋，並僅更新``apps``節點中的必要檔案。
 
-您可以使用預先定義的DITA元素對映，也可以將DITA元素對映至自訂AEM元件。 若要使用自訂AEM元件，您必須瞭解`elementmapping.xml`檔案的結構。
+您可以使用預先定義的DITA元素對應，也可以將DITA元素對映至自訂AEM元件。 若要使用自訂AEM元件，您必須瞭解`elementmapping.xml`檔案的結構。
 
 ### elementmapping.xml結構
 
@@ -569,18 +589,18 @@ AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工�
 
 下表說明DITA元素結構描述中的元素：
 
-| 元素 | 說明 |
+| 元素 | 描述 |
 |-------|-----------|
 | `<ditaelement>` | 每個對應元素的頂層節點。 |
 | `<class>` | 您正在寫入元件的目標DITA元素的類別屬性。<br>例如，DITA主題的類別屬性是： <br> `- topic/topic` |
 | `<componentpath>` | 對應AEM元件的CRXDE路徑。 |
 | `<type>` | 可能的值： <br> -   **複合**：處理子專案及<br> -   **STANDALONE**：略過處理子專案 |
-| `<attributeprop>` | 用於將序列化DITA屬性和值作為屬性對應至AEM節點。 例如，如果您有`<note type="Caution">`個專案，而對應至此專案的元件有`<attributeprop>attr_t</ attributeprop>`，則節點的屬性和值會序列化為對應AEM節點\( `attr_t->type="caution"`\)的`attr_t`屬性。 |
+| `<attributeprop>` | 用於將序列化DITA屬性和值作為屬性對應至AEM節點。 例如，如果您有`<note type="Caution">`個元素，而對應至此元素的元件有`<attributeprop>attr_t</ attributeprop>`，則節點的屬性和值會序列化為對應AEM節點\( `attr_t->type="caution"`\)的`attr_t`屬性。 |
 | `<textprop>propname_t</textprop>` | 將`getTextContent()`輸出儲存至`propname_t.` <br>所定義的屬性 **注意：**&#x200B;這是最佳化的屬性。 |
 | `<xmlprop>propname_x </xmlprop>` | 將此節點的序列化XML儲存到由&#x200B;`propname_x.<br> `**定義的屬性注意：**&#x200B;這是最佳化的屬性。 |
 | `<xpath>` | 如果在元素對應中提供了XPath元素，則應該連同元素名稱和類別一起滿足XPath條件，才能使用元件對應。 |
 | `<target>` | 將DITA元素放置在crx存放庫中的指定位置。<br>可能的值： <br> - **head**：在標題節點<br>之下 — **文字**：在段落節點之下 |
-| `<wrapelement>` | 包住內容的HTML元素。 |
+| `<wrapelement>` | 要將內容包裝在其中的HTML元素。 |
 | `<wrapclass>` | 屬性`wrapclass.`的元素值 |
 | `<attributemap>` | 包含一或多個`<attribute>`節點的容器節點。 |
 | `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | 將DITA屬性對應至AEM屬性： <br> -   **`from`**： DITA屬性名稱<br> -   **`to`**： AEM元件屬性名稱<br> -   **`ispath`**：如果屬性是路徑值\（例如： *image*\） <br> -   **`rel`**：如果路徑是來源或目標<br> **注意：**&#x200B;如果`attrname`開頭為`%`，則將`attrname minus '%'`對應至Prop &#39; `propname`&#39;。 |
@@ -589,7 +609,7 @@ AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工�
 
 - 如果您計畫覆寫預設元素對應，建議您不要在預設`elementmapping.xml`檔案中進行變更。 您應該建立新的對應XML檔案，並將檔案放置於其他位置，最好是放在您建立的自訂應用程式資料夾內。
 
-- 在`elementmapping.xml`檔案中，有許多參考fmdita/components/dita/wrapper元件的對應專案。 包裝函式是一種泛型元件，會使用其網站節點上的屬性來產生相關HTML，以呈現相對簡單的DITA建構。 它使用`wrapelement`屬性來產生封閉標籤，並將子轉譯委派給對應的元件。 當您只想要容器元件時，這個用法就相當實用。 您可以搭配使用Wrapper元件與`wrapelement`和`wrapclass`屬性來達到相同的效果，而不需建立可轉譯特定容器標籤（如`div`或`p`）的新元件。
+- 在`elementmapping.xml`檔案中，有許多參考fmdita/components/dita/wrapper元件的對應專案。 包裝函式是一種泛型元件，會使用其網站節點上的屬性來產生相關的HTML，以呈現相對簡單的DITA建構。 它使用`wrapelement`屬性來產生封閉標籤，並將子轉譯委派給對應的元件。 當您只想要容器元件時，這個用法就相當實用。 您可以搭配使用Wrapper元件與`wrapelement`和`wrapclass`屬性來達到相同的效果，而不需建立可轉譯特定容器標籤（如`div`或`p`）的新元件。
 
 - 不建議在字串JCR屬性中儲存大量文字。 輸出產生中最佳化的屬性型別計算可確保大型文字內容不會儲存為字串型別。 反之，當需要儲存大於某個臨界值的內容時，屬性的型別會變更為二進位。 預設會將此臨界值設定為512個位元組，但可以在Configuration Manager \(*com.adobe.fmdita.config.ConfigManager*\)中變更，方法是變更&#x200B;**另存為二進位臨界值**&#x200B;設定。
 
@@ -600,7 +620,7 @@ AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工�
 
 ## 自訂DITA map主控台 {#id188HC08M0CZ}
 
-AEM Guides可讓您彈性擴充DITA map主控台的功能。 例如，如果您有一組與AEM Guides中可用的報表不同，您可以將這類報表新增至地圖主控台。 若要自訂對應主控台，您必須建立AEM使用者端程式庫\（或ClientLib\），其中包含執行所需功能的程式碼。
+AEM Guides可讓您彈性擴充DITA map主控台的功能。 例如，如果您有一組與AEM Guides中可用的報表不同，您可以將這類報表新增至地圖主控台。 若要自訂地圖主控台，您必須建立AEM使用者端程式庫\（或ClientLib\），其中包含執行所需功能所需的程式碼。
 
 >[!NOTE]
 >
@@ -636,7 +656,7 @@ AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 
 </renditionmap>
 ```
 
-`mimetype`專案指定檔案格式的MIME型別。 `rendition output`專案指定輸出格式的型別以及應該用於發佈指定輸出的轉譯\（例如，`cq5dam.web.1280.1280.jpeg`\）的名稱。 您可以指定用於所有支援輸出格式的影像轉譯 — AEMSITE、PDF、HTML5、EPUB和CUSTOM。
+`mimetype`專案指定檔案格式的MIME型別。 `rendition output`專案指定輸出格式的型別以及應該用於發佈指定輸出的轉譯\（例如，`cq5dam.web.1280.1280.jpeg`\）的名稱。 您可以指定用於所有受支援輸出格式的影像轉譯 — AEMSITE、PDF、HTML5、EPUB和CUSTOM。
 
 如果指定的轉譯不存在，AEM Guides發佈程式會先尋找指定影像的Web轉譯。 如果找不到網頁轉譯，則會使用影像的原始轉譯。
 
@@ -682,3 +702,4 @@ AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 
 >[!TIP]
 >
 > 如需有關使用輸出歷史記錄的最佳實務，請參閱「最佳實作指南」中的&#x200B;*輸出歷史記錄*&#x200B;區段。
+

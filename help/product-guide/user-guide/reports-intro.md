@@ -1,26 +1,27 @@
 ---
-title: 報告
-description: 瞭解如何在AEM Guides中建立DITA map報表。
+title: 報表簡介
+description: 瞭解如何在AEM Guides中檢視DITA map報告。
 exl-id: 1f8a33ba-d6e5-448f-b40b-646b9fdc0b19
 feature: Report Generation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 1%
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
-# 報告 {#id1645H9007MZ}
+# 報表簡介 {#id1645H9007MZ}
 
-在組織設定中，您想要先驗證技術檔案的整體完整性，然後再開始處理或即時推送檔案。 在多使用者和大規模環境中，這樣的需求變得更加重要。 AEM Guides提供了一些報表，為您存放庫內容的整體健康狀況，以及說明檔案流程中如何使用內容提供了有用的深入分析。
+在組織設定中，您想要先驗證技術檔案的整體完整性，然後再開始處理或即時推送檔案。 在多使用者和大規模環境中，這樣的需求變得更加重要。 Adobe Experience Manager Guides提供了一些報表，為您存放庫內容的整體健康狀況，以及說明檔案流程中如何使用內容提供了有用的深入分析。
 
-您可以使用兩種方式建立DITA map報表：
+您可以兩種方式存取DITA map報表：
 
-- **從網頁編輯器**：可讓您從網頁編輯器產生目前DITA map的主題清單和中繼資料報告。 您可以排序主題，或根據您的選擇篩選主題。 您也有功能大量更新所選主題的中繼資料。
-- **從地圖儀表板**：可讓您產生DITA map報告，並提供地圖層級和主題層級的詳細資訊。
+- **從Map主控台**：可讓您產生主題清單、管理所有參照的中繼資料、檢視多媒體清單，以及從Map主控台修正目前DITA map的所有中斷連結。 您可以排序主題，或根據您的選擇篩選主題。 您也有功能大量更新所選主題的中繼資料。 所有報表都會以分頁方式呈現。 只要向下捲動，新的記錄集就會繼續載入。
 
-- 來自網頁編輯器的&#x200B;**[DITA map報告](reports-web-editor.md)**
+- **從Map儀表板**：可讓您產生DITA map報告，並提供地圖和主題層級的詳細資訊。
+
+- 來自地圖主控台的&#x200B;**[DITA map報告](reports-web-editor.md)**
 
 - 從地圖儀表板&#x200B;**[DITA map報告](reports-ditamap.md)**
 

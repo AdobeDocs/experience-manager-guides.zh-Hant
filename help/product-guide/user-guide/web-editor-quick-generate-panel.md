@@ -4,14 +4,19 @@ description: 使用AEM Guides中的快速產生面板。 瞭解如何從快速�
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # 使用快速產生面板來產生和檢視輸出 {#id22AKE050F5L}
+
+>[!NOTE]
+>
+> 快速產生面板(先前在Adobe Experience Manager Guides中提供)自4.0版和2502版起已棄用。 您無法存取「快速產生」面板來產生和檢視輸出
+
 
 AEM Guides提供整合在網頁編輯器中的&#x200B;**快速產生**&#x200B;面板。 此面板可讓您同時產生為DITA map建立的輸出預設集的輸出。 您可以產生一或多個預設集的輸出，或產生為DITA map建立的所有預設集的輸出。 您也可以使用&#x200B;**快速產生**&#x200B;面板，以便稍後檢視針對預設集產生的輸出。
 

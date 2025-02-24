@@ -1,17 +1,17 @@
 ---
-title: Publish內容片段的主題
-description: Publish主題或AEM Guides中內容片段的主題元素。  瞭解如何檢視主題目前的內容片段並重新發佈。
+title: 發佈主題至內容片段
+description: 將主題或主題內的元素發佈至AEM Guides中的內容片段。  瞭解如何檢視主題目前的內容片段並重新發佈。
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: f86d8f2d2e6aa48941cf16526e608df4845420fd
+source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
 
-# Publish內容片段
+# 發佈內容片段
 
 內容片段是Adobe Experience Manager中的分散式內容片段。 它們是以內容模型為基礎的結構化內容。 內容片段是純內容，沒有設計或版面配置資訊。 可獨立於Adobe Experience Manager支援的管道之外獨立編寫和管理這些管道。 內容片段為模組化，其中內容會劃分為較小的元件。
 
@@ -33,14 +33,14 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
 1. 若要產生內容片段，請從主題&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段中，選取&#x200B;**新輸出** ![新輸出圖示](./images/Add_icon.svg)。
 1. 選取&#x200B;**內容片段**。\
-   ![檔案屬性選項標籤](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   ![檔案屬性選項標籤](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
 
    *從主題*&#x200B;的檔案屬性加入新的內容片段。
 
 1. 在「**產生內容片段**」對話方塊中，在「**一般**」和「**對應**」標籤下填入下列詳細資料。
 
    **一般**標籤
-   ![在Publish中新增片段模型和對應詳細資訊作為內容片段對話方塊](images/generate-content-fragment.png)
+   ![在[以內容片段形式發佈]對話方塊中新增片段模型和對應詳細資料](images/generate-content-fragment.png)
    *新增路徑、名稱、標題和條件篩選，將主題或其元素發佈為內容片段。*
 
 
@@ -64,7 +64,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
    **對應**&#x200B;索引標籤
 
-   ![在Publish中新增片段模型和對應詳細資訊作為內容片段對話方塊](images/content-fragment-mapping.png)
+   ![在[以內容片段形式發佈]對話方塊中新增片段模型和對應詳細資料](images/content-fragment-mapping.png)
 
    *選取內容片段模式，並新增對應詳細資訊，以發佈主題或其元素做為內容片段。*
 
@@ -77,11 +77,11 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
      >
      > 如果您使用的是4.4或更早版本，請從下拉式清單中選取對應。 它會從&#x200B;*contentFragmentMapping.json*&#x200B;檔案中挑選對應。  您的管理員可以在&#x200B;*contentFragmentMapping.json*&#x200B;檔案中新增對應。 進一步瞭解如何在安裝及設定指南中[建立主題與內容片段之間的對應](../cs-install-guide/conf-content-fragment-mapping-cs.md)。
 
-1. 按一下&#x200B;**產生**&#x200B;以發佈內容片段。
+1. 選取&#x200B;**產生**&#x200B;以發佈內容片段。
 
 1. 您可以在&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段下檢視主題的內容片段。
 
-   ![檢視主題](images/outputs-options-menu.png){width="300" align="left"}的內容片段
+   ![檢視主題](images/outputs-options-menu-new.png){width="300" align="left"}的內容片段
 
    *檢視主題的內容片段並重新發佈。*
 
@@ -106,9 +106,3 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
   > 此動作不會從內容片段中刪除任何內容。
 
 * **檢視**：檢視內容片段編輯器。 您也可以進行變更並儲存。
-
-## 改善非UUID至UUID內容移轉
-
-新的UUID內容移轉指令碼已大幅最佳化，讓內容從非UUID移轉至UUID的速度比先前的指令碼快30倍。 功能包括從查核點恢復、即時深入分析、預估完成時間和詳細報告，確保和諧的移轉程式。 特別要注意的是，移轉程式會保留資產中繼資料，不會做任何變更。 指令碼已在300萬資產的大型資料集上經過測試和驗證，證實其對於大規模移轉的效率和可靠性。
-
-深入瞭解[非UUID移轉至UUID內容轉換](../install-guide/migrate-non-uuid-uuid.md)。

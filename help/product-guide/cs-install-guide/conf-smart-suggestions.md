@@ -1,17 +1,26 @@
 ---
-title: 設定智慧型建議以進行編寫
-description: 瞭解如何設定智慧型撰寫建議
+title: 設定AI助理以提供智慧說明和編寫
+description: 瞭解如何在Experience Manager Guides中設定AI助理
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
+source-git-commit: 6856b9b31ee5d1111ee1c53836dfa8138780a283
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 1%
+source-wordcount: '880'
+ht-degree: 0%
 
 ---
 
-# 設定AI支援的智慧型建議以進行編寫
+# 設定AI助理
 
-身為管理員，您可以為作者設定「智慧型建議」功能。 智慧型建議服務受到Adobe IMS驗證型驗證的保護。 將您的環境與Adobe的安全權杖型驗證工作流程整合，並開始使用新的智慧建議功能。 下列組態可協助您將&#x200B;**AI組態**&#x200B;索引標籤新增至資料夾設定檔。 新增後，您便可以在網頁編輯器中使用智慧型建議功能。
+作為管理員，您可以在Experience Manager Guides中設定AI助理功能。 AI小幫手由Adobe IMS驗證型驗證保護。 將您的環境與Adobe的安全權杖型驗證工作流程整合，並開始使用AI助理功能。 下列組態可協助您將&#x200B;**AI組態**&#x200B;索引標籤新增至資料夾設定檔。 新增後，您就可以在Experience Manager Guides中使用AI助理功能。
+
+執行以下步驟來設定「AI小幫手」：
+
+1. [在Adobe Developer Console中建立IMS設定](#create-ims-configurations-in-adobe-developer-console)。
+2. [將IMS設定新增至環境](#add-ims-configuration-to-the-environment)
+3. [在環境中啟用AI標幟](#enable-ai-flag-in-the-environment)
+4. [套用變更至環境](#apply-changes-to-the-environment)
+5. [在資料夾設定檔中啟用AI助理](#enable-ai-assistant-in-folder-profile)
+6. [在資料夾設定檔中設定智慧建議](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 ## 在Adobe Developer Console中建立IMS設定
 
@@ -27,7 +36,7 @@ ht-degree: 1%
    ![快速入門連結](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *建立新專案。*
 
-1. 從&#x200B;**專案**&#x200B;畫面選取&#x200B;**新增API**。  **新增API**&#x200B;畫面會出現。 此畫面會顯示所有可用的API、事件和服務，供您用來開發應用程式的Adobe產品和技術。
+1. 從&#x200B;**專案**&#x200B;畫面選取&#x200B;**新增API**。  **新增API**&#x200B;畫面會出現。 此畫面會顯示Adobe產品與技術的所有可用API、事件和服務，供您開發應用程式。
 
 1. 選取&#x200B;**I/O管理API**以將其新增至您的專案。
    ![IO管理API](assets/confi-ss-io-management.png)
@@ -53,7 +62,7 @@ ht-degree: 1%
 
    *開始新專案。*
 
-1. 按一下頂端的「**下載**」按鈕即可下載服務JSON。
+1. 選取頂端的&#x200B;**下載**&#x200B;按鈕以下載服務JSON。
 
    <img src="assets/download-json.png" alt="下載json" width="500">
 
@@ -61,7 +70,7 @@ ht-degree: 1%
 
 您已設定OAuth驗證詳細資料並下載JSON服務詳細資料。 將此檔案依下一區段的要求保留為方便使用。
 
-### 將IMS設定新增至環境
+## 將IMS設定新增至環境
 
 執行以下步驟，將IMS設定新增至環境：
 
@@ -71,26 +80,43 @@ ht-degree: 1%
 1. 切換至&#x200B;**組態**&#x200B;標籤。
 1. 更新SERVICE_ACCOUNT_DETAILS JSON欄位。 確定您使用與下列熒幕擷取畫面相同的名稱和設定。
 
-![ims服務帳戶設定](assets/ims-service-account-config.png){width="800" align="left"}
+   ![ims服務帳戶設定](assets/ims-service-account-config.png){width="800" align="left"}
 
+## 在環境中啟用AI標幟
 
-*新增環境組態詳細資料。*
+若要在Experience Manager Guides UI上啟用AI助理功能，請在環境中新增`ENABLES_GUIDES_AI`標幟。
 
+確定您使用與下列熒幕擷取畫面相同的名稱和設定。
 
+![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
 
+將標幟設定為&#x200B;**true**&#x200B;會啟用該功能，而將其設定為&#x200B;**false**&#x200B;則會停用該功能。
 
-新增IMS設定至環境後，請使用OSGi執行以下步驟將這些屬性與AEM Guides連結：
+## 套用變更至環境
+
+新增IMS設定並啟用AI Assistant標幟到環境後，執行以下步驟來使用OSGi將這些屬性與AEM Guides連結：
 
 1. 在您的Cloud Manager Git專案程式碼中，新增以下指定的兩個檔案（針對檔案內容，請檢視[附錄](#appendix)）。
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
-   * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
+   * `com.adobe.guides.ai.config.service.AiConfigImpl.cfg.json`
 1. 確保您的`filter.xml`涵蓋新新增的檔案。
 1. 認可並推送您的Git變更。
 1. 執行管道以在環境中套用變更。
 
-完成此操作後，您應該能夠使用智慧型建議功能。
+## 在資料夾設定檔中啟用AI助理
 
+套用組態變更後，為所需的資料夾設定檔啟用AI助理員功能。
+
+如需詳細資訊，請檢視[瞭解編輯器功能](../user-guide/web-editor-features.md)。
+
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+
+## 在資料夾設定檔中設定智慧建議
+
+啟用AI助理功能後，請在資料夾設定檔中設定智慧建議功能。
+
+如需詳細資訊，請參閱[在資料夾設定檔](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)中設定智慧建議。
 
 
 ## 附錄 {#appendix}
@@ -106,28 +132,29 @@ ht-degree: 1%
 }
 ```
 
-**檔案**： `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
+**檔案**： `com.adobe.guides.ai.config.service.AiConfigImpl.cfg.json`
 
 **內容**：
 
 ```
 {
-  "smart.suggestion.flag":true,
   "conref.inline.threshold":0.6,
   "conref.block.threshold":0.7,
+  "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
-  "instance.type":"prod"
+  "instance.type":"prod",
+  "chat.url":"https://aem-guides-ai.adobe.io"
 }
 ```
 
-## 智慧建議組態詳細資料
+## AI助理設定詳細資料
 
-| 索引鍵 | 說明 | 允許的值 | 預設值 |
+| 索引鍵 | 描述 | 允許的值 | 預設值 |
 |---|---|---|---|
-| smart.suggestion.flag | 控制是否啟用智慧建議 | true/false | false |
 | conref.inline.threshold | 此臨界值可控制針對使用者目前輸入的標籤所擷取建議的精確度/召回率。 | 從–1.0到1.0的任何值。 | 0.6 |
 | conref.block.threshold | 此臨界值會控制在整個檔案中為標籤擷取的建議精確度/召回率。 | 從–1.0到1.0的任何值。 | 0.7 |
-| emerald.url | 翡翠向量資料庫的端點 | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
+| emerald.url | 智慧建議向量資料庫的端點 | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
+| chat.url | AI助理服務的端點 | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) |
 | instance.type | AEM執行個體的型別。 請確定此名稱對於已設定智慧建議的每個AEM執行個體都是唯一的。 使用案例是在Stage環境中以「instance.type」=「stage」測試功能，同時在「prod」上也設定此功能。 | 任何可識別環境的唯一關鍵值。 僅允許&#x200B;*個英數字元*&#x200B;值。 &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | &quot;prod&quot; |
 
-完成設定後，智慧型建議圖示會顯示在Web編輯器的右側面板中。 編輯主題時，您可以檢視智慧型建議清單。 如需更多詳細資料，請檢視Experience Manager使用手冊中的[AI智慧型編寫建議](../user-guide/authoring-ai-based-smart-suggestions.md)區段。
+完成設定後， AI助理圖示會顯示在Experience Manager Guides的首頁和編輯器中。 如需詳細資訊，請檢視Experience Manager使用手冊中的[AI助理](../user-guide/ai-assistant.md)區段。
