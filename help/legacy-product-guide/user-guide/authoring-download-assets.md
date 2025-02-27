@@ -3,7 +3,9 @@ title: 下載檔案
 description: 瞭解如何從AEM Guides的DITA map主控台下載檔案，以及匯出AEM存放庫中的DITA map檔案。
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 ## 匯出DITA map檔案
 
-在AEM存放庫中擁有DITA map檔案後，您就可以下載對應檔案及其相依物件。 這可讓您彈性地共用完整的對應檔案，以進行離線編輯、驗證、檢閱或只是建立備份。
+在AEM存放庫中擁有DITA map檔案後，您就可以下載對應檔案及其相依專案。 這可讓您彈性地共用完整的對應檔案，以進行離線編輯、驗證、檢閱或只是建立備份。
 
 執行以下步驟來下載DITA map檔案及其相依檔案：
 

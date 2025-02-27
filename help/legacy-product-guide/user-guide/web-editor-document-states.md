@@ -3,7 +3,9 @@ title: 檔案狀態
 description: 瞭解AEM Guides中的檔案狀態型別。 瞭解如何變更或檢視檔案狀態，以及如何在DDLC中使用檔案狀態。
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 這些狀態是根據「檔案狀態」設定檔設定來手動或自動設定的。 例如，如果「檔案狀態」設定檔的開始狀態設定為「草稿」，且檢閱中的檔案定義為「稽核中」狀態。 然後，當您建立檔案時，檔案狀態會設定為&#x200B;*草稿*。 如果您啟動稽核任務，則檔案的狀態將變更為「稽核中」。
 
-您也可以手動變更單一或多個檔案的檔案狀態。 但是，如果您選擇變更多個檔案的檔案狀態，則允許的狀態會由所選檔案允許的一般狀態決定。 例如，假設您已以相同順序將檔案狀態定義為「草稿」、「稽核中」、「已稽核」和「準備就緒Publish」。 在檔案1.dita上，狀態設定為&#x200B;*草稿*，而在檔案2.dita上，狀態設定為「已檢閱」。 當您同時選取 — one.dita和two.dita時，允許的檔案狀態將為&#x200B;*準備使用Publish*。 由於two.dita處於&#x200B;*已檢閱*&#x200B;狀態，因此two.dita的下一個可能狀態只是&#x200B;*已準備好Publish*，這會在選取兩個檔案時顯示。
+您也可以手動變更單一或多個檔案的檔案狀態。 但是，如果您選擇變更多個檔案的檔案狀態，則允許的狀態會由所選檔案允許的一般狀態決定。 例如，假設您已以相同順序將檔案狀態定義為「草稿」、「稽核中」、「已稽核」和「準備發佈」。 在檔案1.dita上，狀態設定為&#x200B;*草稿*，而在檔案2.dita上，狀態設定為「已檢閱」。 當您同時選取 — one.dita和two.dita時，允許的檔案狀態將為&#x200B;*準備發佈*。 由於two.dita處於&#x200B;*已檢閱*&#x200B;狀態，因此two.dita的下一個可能狀態只是&#x200B;*準備發佈*，這會在選取兩個檔案時顯示。
 
 >[!NOTE]
 >
@@ -62,7 +64,7 @@ AEM Guides提供檔案核准工作流程，可協助您控制檔案開發流程�
 
 >[!NOTE]
 >
-> 您的管理員必須啟用核准工作流程功能。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*啟用核准工作流程*&#x200B;區段。
+> 您的管理員必須啟用核准工作流程功能。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*啟用核准工作流程*&#x200B;區段。
 
 1. 在Web編輯器中，開啟要標籤為核准的檔案。
 

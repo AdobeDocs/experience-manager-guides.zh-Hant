@@ -1,9 +1,11 @@
 ---
 title: 瞭解輸出預設集
-description: 瞭解AEM Guides中的輸出預設集。 從網頁編輯器和地圖儀表板建立AEM網站、PDF、HTML5、EPUB、自訂和JSON格式的輸出預設集。
+description: 瞭解AEM Guides中的輸出預設集。 從AEM網站、PDF、HTML5、EPUB、自訂和JSON格式的網頁編輯器和地圖控制面板建立輸出預設集。
 feature: Publishing
+hide: true
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 682ca543-86f3-46b0-9e05-7e011a4cf7b8
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # 瞭解輸出預設集 {#understanding_output_settings}
 
-AEM Guides支援透過DITA-OT、原生PDF和FMPS以最熱門的格式(例如AEM網站、PDF、知識庫、HTML5、EPUB、JSON和自訂輸出)建立輸出。 使用這些輸出格式，您可以設定各種輸出預設集。 輸出預設集代表您想要發佈內容的自訂輸出格式。
+AEM Guides支援以最熱門的格式建立輸出，例如AEM Site、PDF、知識庫、HTML5、EPUB、JSON，以及透過DITA-OT、原生PDF和FMPS的自訂輸出。 使用這些輸出格式，您可以設定各種輸出預設集。 輸出預設集代表您想要發佈內容的自訂輸出格式。
 
 以下各節將說明支援的輸出格式可用的選項。
 

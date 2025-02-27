@@ -3,7 +3,9 @@ title: 檢視輸出產生工作的狀態
 description: 檢視FrameMaker檔案的輸出產生佇列。 瞭解如何檢視輸出產生任務的狀態。
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 執行以下步驟來檢視輸出產生佇列：
 
-1. 在Assets UI中，導覽至並按一下您要核取輸出產生狀態的FrameMaker檔案。
+1. 在Assets UI中，導覽至並按一下您要檢查輸出產生狀態的FrameMaker檔案。
 
 1. 按一下「輸出」。
 

@@ -1,16 +1,17 @@
 ---
-title: Publish主題至AEM Sites頁面
-description: Publish主題或主題內的元素至Adobe Experience Manager Sites輸出。  瞭解如何檢視主題的Experience Manager Sites頁面並重新發佈。
+title: 將主題發佈至AEM Sites頁面
+description: 將主題或主題內的元素發佈至Adobe Experience Manager Sites輸出。  瞭解如何檢視主題的Experience Manager Sites頁面並重新發佈。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
-# Publish Adobe Experience Manager Sites頁面
+# 發佈Adobe Experience Manager Sites頁面
 
 
 Experience Manager Sites頁面是指在Adobe Experience Manager網站上發佈的內容。 Experience Manager Guides可讓您將獨立主題發佈至網站頁面。

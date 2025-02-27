@@ -3,7 +3,9 @@ title: 大量標籤DITA內容
 description: 在AEM Guides中使用大量內容標籤來改善DITA內容可發現性。 瞭解如何在單一或多個主題上套用、移除、顯示或隱藏大量標籤。
 feature: Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 標籤可讓您對內容存放庫及已發佈輸出中的內容進行分組或分類。 如果您已在內容上套用標籤，即可輕鬆地在DITA map中尋找可協助您編寫內容的相關主題。 透過已發佈的輸出，使用者將可透過適當的標籤更快找到所需內容。
 
-AEM Guides可讓您按幾下滑鼠，標籤DITA內容。 您可以使用大量標籤功能，在多個主題、DITA map或子對映上套用多個標籤。 或者，您也可以在個別主題上套用標籤。 標籤是AEM的原生功能，您可以在AEM檔案的[管理標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)區段中找到有關建立和管理標籤的詳細資訊。
+AEM Guides可讓您按幾下滑鼠，標籤DITA內容。 您可以使用大量標籤功能，在多個主題、DITA map或子對映上套用多個標籤。 或者，您也可以在個別主題上套用標籤。 標籤是AEM的原生功能，您可以在AEM檔案的[管理標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)章節中找到有關建立和管理標籤的更多詳細資料。
 
 依預設，AEM Guides不會將「讀取」存取權授與資料夾(AEM存放庫中的所有標籤皆儲存於此資料夾)上的任何使用者。 若要使用AEM存放庫中定義的標籤，您必須要求系統管理員授與標籤儲存所在資料夾的存取權。
 

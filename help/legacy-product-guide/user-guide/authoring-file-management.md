@@ -3,7 +3,9 @@ title: 管理檔案和資料夾
 description: 瞭解如何在AEM Guides中管理檔案和資料夾。 複製並貼上、拖放、刪除、大量移動檔案和資料夾，以及搜尋DITA內容。
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
@@ -60,13 +62,13 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > **您的管理員必須啟用**&#x200B;為上傳的檔案建立新版本。 如果啟用此功能，則會建立上傳檔案的新版本。 如果取消選取選項，則不會建立已上傳檔案的版本。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*為已上傳的檔案建立新版本*&#x200B;區段。
+  > **您的管理員必須啟用**&#x200B;為上傳的檔案建立新版本。 如果啟用此功能，則會建立上傳檔案的新版本。 如果取消選取選項，則不會建立已上傳檔案的版本。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*為已上傳的檔案建立新版本*&#x200B;區段。
 
   如果檔案已由其他使用者取出以進行編輯，而您嘗試上傳並覆寫現有檔案，則檔案會失敗並顯示錯誤。
 
   >[!NOTE]
   >
-  >您的管理員必須停用&#x200B;**在上傳時覆寫取出檔案**&#x200B;功能。 如果啟用此功能，您可以覆寫出庫檔案。 如果未啟用該功能，則不會覆寫出庫的檔案。 如需詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides」as a Cloud Service中的&#x200B;*上傳時覆寫取出檔案*。
+  >您的管理員必須停用&#x200B;**在上傳時覆寫取出檔案**&#x200B;功能。 如果啟用此功能，您可以覆寫出庫檔案。 如果未啟用該功能，則不會覆寫出庫的檔案。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*覆寫上傳時簽出的檔案*&#x200B;區段。
 
 
 - *在不同位置拖放檔案*：已建立檔案的新復本，且已在新位置為其指派新的UUID。 在這裡，檔案名稱與原始檔案名稱相同。
@@ -82,7 +84,7 @@ ht-degree: 0%
 
 如果您選取&#x200B;**建立現有工作復本的版本**&#x200B;選項，則會從檔案的工作復本建立新版本；會上傳新檔案，也會建立檔案的新版本，並將其作為檔案的工作復本。
 
-**您的管理員必須啟用**&#x200B;為上傳的檔案建立新版本。 如果啟用此功能，則會建立上傳檔案的新版本。 如果取消選取選項，則不會建立已上傳檔案的版本。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*為已上傳的檔案建立新版本*&#x200B;區段。
+**您的管理員必須啟用**&#x200B;為上傳的檔案建立新版本。 如果啟用此功能，則會建立上傳檔案的新版本。 如果取消選取選項，則不會建立已上傳檔案的版本。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*為已上傳的檔案建立新版本*&#x200B;區段。
 
 
 *在不同位置拖放檔案*：您有&#x200B;**覆寫現有檔案\(s\)**、**將檔案移至新位置\(s\)的選項，以及建立現有工作復本的版本的選項。**
@@ -98,7 +100,7 @@ ht-degree: 0%
 
 ## 大量移動檔案 {#move-files-bulk}
 
-AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的資料夾從一個位置移動到另一個位置。 此工具可輕鬆地將一或多個資料夾中的檔案移動到AEM存放庫中的不同資料夾。 此工具的主要功能之一是，它不但會移動大量檔案，而且會維護要移動之檔案的參照與來源參照。 您可以調整可以批次移動的檔案數量，而不會妨礙編寫和發佈工作。
+AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的資料夾從一個位置移動到另一個位置。 此工具可輕鬆地將一或多個資料夾中的檔案移至AEM存放庫中的其他資料夾。 此工具的主要功能之一是，它不但會移動大量檔案，而且會維護要移動之檔案的參照與來源參照。 您可以調整可以批次移動的檔案數量，而不會妨礙編寫和發佈工作。
 
 >[!NOTE]
 >
@@ -130,7 +132,7 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
    <details>
 
-   <summary> Cloud Service及內部部署UUID型檔案系統 </summary>
+   <summary> 雲端服務和內部部署UUID型檔案系統 </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -217,11 +219,11 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
 ## 搜尋DITA內容
 
-依預設，AEM不會識別DITA內容，因此不會提供任何機制來搜尋其存放庫中的DITA內容。 AEM Guides在AEM上方新增圖層，可讓AEM瞭解及處理DITA內容。 AEM Guides中的搜尋DITA內容功能可讓您搜尋AEM存放庫中的DITA內容。
+依預設，AEM不會辨識DITA內容，因此不會提供任何機制來搜尋其存放庫中的DITA內容。 AEM Guides在AEM上新增圖層，可讓AEM瞭解及處理DITA內容。 AEM Guides中的搜尋DITA內容功能可讓您搜尋AEM存放庫中的DITA內容。
 
 >[!NOTE]
 >
->您的系統管理員可以設定&#x200B;**DITA Element**&#x200B;搜尋元件，然後您就可以從AEM Assets UI使用此功能。 如需更多詳細資料，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*在Assets UI中新增DITA元素搜尋元件*&#x200B;一節。
+>您的系統管理員可以設定&#x200B;**DITA Element**&#x200B;搜尋元件，然後您就可以從AEM Assets UI使用此功能。 如需更多詳細資料，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*在Assets UI中新增DITA元素搜尋元件*&#x200B;一節。
 
 使用搜尋功能，您可以：
 
@@ -229,7 +231,7 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 - 根據屬性值搜尋DITA內容；例如，`@platform`=視窗
 - 使用DITA元素和屬性值的組合；例如，`author`= xml `AND` `@platform`= windows
 
-執行以下步驟來搜尋AEM存放庫中的DITA內容：
+執行以下步驟，在AEM存放庫中搜尋DITA內容：
 
 1. 開啟Assets UI。
 
@@ -275,7 +277,7 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
 ## 刪除檔案
 
-從AEM存放庫中刪除檔案是一項受限制的功能，由您的系統管理員控制。 根據設定，刪除檔案在以下情況下可能會受到限制：
+從AEM存放庫刪除檔案是一項受限制的功能，由您的系統管理員控制。 根據設定，刪除檔案在以下情況下可能會受到限制：
 
 - 已簽出
 - 具有傳入或傳出參考
@@ -284,7 +286,7 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
 >[!NOTE]
 >
-> 如需檔案管理設定的詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides」as a Cloud Service中的&#x200B;*防止刪除取出檔案*&#x200B;與&#x200B;*防止刪除參考的檔案*&#x200B;區段。
+> 如需檔案管理設定的詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides as a Cloud Service」中的&#x200B;*防止刪除已取出檔案*&#x200B;與&#x200B;*防止刪除參考的檔案*&#x200B;區段。
 
 如果您的管理員已將檔案刪除許可權授予所有使用者，則當您刪除包含參照的檔案時，會顯示下列訊息：
 

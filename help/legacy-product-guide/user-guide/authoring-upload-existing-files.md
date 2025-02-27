@@ -3,7 +3,9 @@ title: 上傳檔案
 description: 瞭解如何將檔案上傳至AEM存放庫並處理錯誤。 瞭解資產控制檯使用者介面、AEM案頭應用程式、資產大量擷取器，以及使用FrameMaker進行大量上傳。
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # 上傳檔案 {#id176FF000JUI}
 
-您很可能擁有要與AEM Guides搭配使用的現有DITA內容存放庫。 對於這類現有內容，您可以使用下列任何一種方法，將內容大量上傳至AEM存放庫：
+您很可能擁有要與AEM Guides搭配使用的現有DITA內容存放庫。 對於這類現有內容，您可以使用下列任一方法，將內容大量上傳至AEM存放庫：
 
 >[!IMPORTANT]
 >
@@ -34,7 +36,7 @@ ht-degree: 0%
 
 Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆將現有DITA和其他FrameMaker檔案\（`.book`和`.fm`\）上傳到AEM。 您可以使用各種檔案上傳功能，例如上傳單一檔案、上傳具有或不具有相依性的完整資料夾\（如內容參照、交叉參照和圖形\）。
 
-如需在FrameMaker中使用大量上傳功能的詳細資訊，請參閱FrameMaker使用手冊中的&#x200B;*建立CRX資料夾及上傳檔案*&#x200B;一節。
+如需在FrameMaker中使用大量上傳功能的詳細資訊，請參閱FrameMaker使用指南中的&#x200B;*建立CRX資料夾及上傳檔案*&#x200B;一節。
 
 ## 上傳內容時的錯誤處理 {#id201MI0I04Y4}
 
@@ -44,6 +46,6 @@ Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆將現有DITA和其
 
 如需有關各種檔案上傳情況的詳細資訊，請參閱[上傳DITA內容](authoring-file-management.md#)。
 
-如果您使用AEM案頭應用程式或資產大量擷取器之類的工具，則對重複檔案執行的動作會由AEM伺服器中的設定控制。 請連絡您的系統管理員以瞭解此設定。
+如果您使用AEM案頭應用程式或資產大量擷取器等工具，則對重複檔案執行的動作會由AEM伺服器中的設定控制。 請連絡您的系統管理員以瞭解此設定。
 
 **父級主題：**[&#x200B;管理內容](authoring.md)

@@ -1,16 +1,18 @@
 ---
-title: Publish內容片段的主題
-description: Publish主題或AEM Guides中內容片段的主題元素。  瞭解如何檢視主題目前的內容片段並重新發佈。
+title: 發佈主題至內容片段
+description: 將主題或主題內的元素發佈至AEM Guides中的內容片段。  瞭解如何檢視主題目前的內容片段並重新發佈。
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
-# Publish內容片段
+# 發佈內容片段
 
 內容片段是Adobe Experience Manager中的分散式內容片段。 它們是以內容模型為基礎的結構化內容。 內容片段是純內容，沒有設計或版面配置資訊。 可獨立於Adobe Experience Manager支援的管道之外獨立編寫和管理這些管道。 內容片段為模組化，其中內容會劃分為較小的元件。
 
@@ -39,7 +41,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 1. 在「**產生內容片段**」對話方塊中，在「**一般**」和「**對應**」標籤下填入下列詳細資料。
 
    **一般**標籤
-   ![在Publish中新增片段模型和對應詳細資訊作為內容片段對話方塊](images/generate-content-fragment.png)
+   ![在[以內容片段形式發佈]對話方塊中新增片段模型和對應詳細資料](images/generate-content-fragment.png)
    *新增路徑、名稱、標題和條件篩選，將主題或其元素發佈為內容片段。*
 
 
@@ -63,7 +65,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
    **對應**&#x200B;索引標籤
 
-   ![在Publish中新增片段模型和對應詳細資訊作為內容片段對話方塊](images/content-fragment-mapping.png)
+   ![在[以內容片段形式發佈]對話方塊中新增片段模型和對應詳細資料](images/content-fragment-mapping.png)
 
    *選取內容片段模式，並新增對應詳細資訊，以發佈主題或其元素做為內容片段。*
 

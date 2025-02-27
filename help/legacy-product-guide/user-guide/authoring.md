@@ -3,7 +3,9 @@ title: 管理內容
 description: 在AEM Guides中管理內容並識別您的角色和許可權。 瞭解內容管理以及使用全域或檔案夾層級設定檔的主要概念。
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 9%
@@ -34,7 +36,7 @@ AEM Guides為您的數位資產提供版本管理。 您可以輕鬆地從所選
 
 **原生DITA處理**
 
-雖然AEM Guides會維護DITA檔案的結構，但同時也讓AEM能夠使用元素對映將DITA元素對應至AEM元件，以原生方式處理DITA。 原生DITA處理用於主題預覽、AEM Sites發佈和稽核工作流程等功能。
+雖然AEM Guides可維護DITA檔案的結構，但同時也讓AEM能夠使用元素對應，將DITA元素對應至AEM元件，以原生方式處理DITA。 原生DITA處理用於主題預覽、AEM Sites發佈和稽核工作流程等功能。
 
 ## 識別您的角色和許可權 {#id181TF0K0MHT}
 
@@ -67,7 +69,7 @@ AEM Guides提供三個現成可用的群組。 這些群組是： *作者*、*�
 | **DITA map主控台中可用的功能\（輸出預設集索引標籤\）** |
 | 產生 |   |   | 是 |
 | 編輯 |   |   | 是 |
-| 複製 |   |   | 是 |
+| 重複項目 |   |   | 是 |
 | 建立 |   |   | 是 |
 | 刪除預設集 |   |   | 是 |
 | **DITA map主控台中可用的功能\（輸出標籤\）** |
@@ -78,7 +80,7 @@ AEM Guides提供三個現成可用的群組。 這些群組是： *作者*、*�
 | **DITA map主控台中可用的功能\（基準線標籤\）** |
 | 建立 |   |   | 是 |
 | 編輯 |   |   | 是 |
-| 複製 |   |   | 是 |
+| 重複項目 |   |   | 是 |
 | 移除 |   |   | 是 |
 | DITA map主控台\（報表標籤\） | 是 |   | 是 |
 | DITA map主控台中可用的&#x200B;**功能\（條件預設集\）** |
@@ -98,4 +100,4 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
 
 此外，您也可以將檔案夾特定的設定委派給部門或產品管理員，以分散管理。
 
-如需設定全域和資料夾層級設定檔的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*設定全域或資料夾層級設定檔*。
+如需設定全域和資料夾層級設定檔的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*設定全域或資料夾層級設定檔*。

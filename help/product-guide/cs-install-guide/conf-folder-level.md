@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
-source-wordcount: '4755'
+source-wordcount: '4756'
 ht-degree: 0%
 
 ---
@@ -508,7 +508,7 @@ Adobe Experience Manager Guides中的AI Assistant是功能強大的AI驅動工�
 
 此設定可讓您建立可反映`ui_config.json`檔案中所作修改的JSON副檔名。 您可以在資料夾設定檔層級獨立上傳這些擴充功能，提供增強的彈性和自訂功能。 例如，當您變更&#x200B;**XML編輯器組態** （例如更新按鈕）時，系統會自動識別差異。 透過將這些變更上傳到&#x200B;**XML編輯器UI設定**，並使用&#x200B;**將UI設定轉換為JSON**&#x200B;按鈕將它們轉換為JSON擴充功能，系統會產生合併新功能的擴充功能。
 
-深入瞭解&#x200B;**自訂JSON設定和轉換新AEM Guides編輯器的UI設定**。
+深入瞭解[自訂JSON設定和轉換新AEM Guides編輯器的UI設定](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
 
 **XML編輯器頁面配置**
 

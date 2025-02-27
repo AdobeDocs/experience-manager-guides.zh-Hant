@@ -1,7 +1,8 @@
 ---
 title: 使用AI助理聰明地編寫檔案'
 description: 瞭解如何使用AI助理在網頁編輯器中以智慧效率撰寫檔案。
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+hide: true
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%

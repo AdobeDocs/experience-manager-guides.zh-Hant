@@ -3,7 +3,9 @@ title: 網頁編輯器檢視
 description: 以作者、來源和預覽模式檢視檔案。 瞭解如何根據條件篩選器檢視內容、檢視追蹤變更標籤，以及在AEM Guides中將主題匯出為PDF。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: dbc27856-6903-4694-9875-77dc778c80bd
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -120,7 +122,7 @@ Source檢視會顯示組成主題的基礎XML。 如果您習慣直接使用XML�
 
 ### 將主題匯出為PDF {#id2114BL00B5U}
 
-PDF是在檔案開發週期的每個可能階段中最常用的輸出格式之一。 AEM Guides可讓您靈活地產生個別主題或整個地圖檔案的PDF。 「匯出為PDF」功能可讓作者、發佈者或管理員輕鬆產生個別主題的PDF輸出。 它會使用儲存在資料夾層級設定檔中的DITA-OT設定來產生PDF。
+PDF是在檔案開發週期的每個可能階段中最常用的輸出格式之一。 AEM Guides可讓您靈活地產生個別主題或整個地圖檔案的PDF。 匯出為PDF功能可讓作者、發佈者或管理員輕鬆產生個別主題的PDF輸出。 它會使用儲存在資料夾層級設定檔中的DITA-OT設定來產生PDF。
 
 此功能支援下列功能：
 
@@ -145,9 +147,9 @@ PDF是在檔案開發週期的每個可能階段中最常用的輸出格式之�
 
    >[!NOTE]
    >
-   > 請確認您已在瀏覽器設定中啟用快顯視窗，否則將不會下載PDF。
+   > 確認已在瀏覽器設定中啟用快顯視窗，否則將不會下載PDF。
 
-   PDF會產生，並在新標籤中開啟，或是您會看到一個對話方塊，讓您將PDF儲存在本機系統上。
+   PDF會在新標籤中產生並開啟，或是您看到一個對話方塊以在您的本機系統上儲存PDF。
 
 
 **上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)

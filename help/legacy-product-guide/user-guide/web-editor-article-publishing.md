@@ -3,7 +3,9 @@ title: 從網頁編輯器以文章為基礎的發佈
 description: 瞭解如何從網頁編輯器發佈一或多篇文章。 在AEM Guides中為DITA map中的一個或多個主題產生輸出。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ddd6da80-d179-4da3-bff2-915c17bb6e5a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -20,9 +22,9 @@ AEM Guides隨附整合在網頁編輯器中的文章式發佈功能，可讓使�
 
 >[!NOTE]
 >
-> 文章式發佈僅適用於AEM Site輸出。
+> 文章式發佈僅適用於AEM網站輸出。
 
-對於以文章為基礎的發佈，您需要從Web編輯器為DITA map建立輸出預設集。 您的地圖必須包含您要發佈的主題。 您也可以套用條件，並指定輸出預設集的「AEM網站」詳細資料。 然後，您可以使用「產生預設集」功能產生輸出。
+對於以文章為基礎的發佈，您需要從Web編輯器為DITA map建立輸出預設集。 您的地圖必須包含您要發佈的主題。 您也可以套用條件，並指定輸出預設集的AEM網站詳細資料。 然後，您可以使用「產生預設集」功能產生輸出。
 
 您也可以使用為DITA map建立的輸出預設集，從「存放庫」面板或「對映」檢視面板產生輸出。 您可以產生一或多個主題或整個DITA map的輸出。
 

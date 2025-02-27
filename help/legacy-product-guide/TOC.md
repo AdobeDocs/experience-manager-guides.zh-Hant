@@ -4,9 +4,9 @@ user-guide-description: 使用舊版使用者介面閱讀Adobe Experience Manage
 breadcrumb-title: AEM Guides 文件
 hide: true
 badgeAll: label="舊版UI指南 — 更多資訊" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="舊版UI指南"
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 3%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 3%
                - [網頁編輯器檢視](./user-guide/web-editor-views.md)
                - [支援Schematron檔案](./user-guide/support-schematron-file.md)
                - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [AI支援的Smart Help可搜尋內容](./user-guide/ai-based-smart-help.md)
+               - [AI Assistant，以智慧效率撰寫檔案](./user-guide/ai-assistant-right-panel.md)
                - [從網頁編輯器編寫Markdown檔案](./user-guide/web-editor-markdown-topic.md)
                - [將引文新增至您的內容](./user-guide/web-editor-apply-citations.md)
                - [使用來自您的資料來源的資料](./user-guide/web-editor-content-snippet.md)
@@ -117,6 +119,7 @@ ht-degree: 3%
       - [基本疑難排解](./user-guide/generate-output-basic-troubleshooting.md)
       - [發佈內容片段](./user-guide/publish-content-fragment.md)
       - [發佈體驗片段](./user-guide/publish-experience-fragment.md)
+      - [發佈AEM Sites頁面](./user-guide/publish-aem-sites.md)
       - 大量啟用內容{#bulk-activation}
          - [大量啟用已發佈的內容](./user-guide/conf-bulk-activation.md)
          - [建立大量啟用地圖集合](./user-guide/conf-bulk-activation-create-map-collection.md)

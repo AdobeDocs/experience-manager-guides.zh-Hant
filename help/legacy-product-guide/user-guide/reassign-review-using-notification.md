@@ -3,7 +3,9 @@ title: 使用通知重新指派稽核任務
 description: 使用AEM Guides中的通知重新指派稽核任務。 瞭解如何從收件匣通知重新指派稽核者任務。
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%

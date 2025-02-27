@@ -3,7 +3,9 @@ title: 編輯大量啟用地圖集合
 description: 在AEM Guides中使用大量發佈儀表板。 瞭解如何透過新增或移除地圖檔案來編輯大量啟用地圖集合。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a15ee164-ec60-483e-8760-b1c290625415
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -18,7 +20,7 @@ ht-degree: 2%
 
 1. 按一下頂端的Adobe Experience Manager連結，然後選擇&#x200B;**工具**。
 
-1. 按一下&#x200B;**大量Publish控制面板**&#x200B;圖磚。
+1. 按一下&#x200B;**大量發佈儀表板**&#x200B;圖磚。
 
    此時會顯示大量啟用地圖集合清單。
 
@@ -27,7 +29,7 @@ ht-degree: 2%
 1. 按一下「**編輯**」。
 
    大量啟動地圖集合頁面隨即出現，您可在其中顯示地圖，以及每個可用地區設定的預先設定預設集。
-您可以檢視各種型別的輸出預設集及其圖示，例如AEM網站、PDF、原生PDF、HTML5、自訂和JSON輸出
+您可以檢視各種型別的輸出預設集及其圖示，例如AEM Site、PDF、原生PDF、HTML5、自訂和JSON輸出
 .
 
    >[!NOTE]

@@ -3,7 +3,9 @@ title: 從您的資料來源插入內容片段
 description: 在AEM Guides中使用來自您資料來源的資料。 瞭解如何從您的資料來源插入內容片段。 使用主題產生器建立主題。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,9 +28,9 @@ ht-degree: 0%
 <summary> 雲端服務 </summary>
 
 
-- 如果您使用的是2023年10月發行版本或更新版本，請在Cloud Service安裝與設定指南中瞭解如何[從使用者介面](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)設定資料來源聯結器。
+- 如果您使用的是2023年10月發行版本或更新版本，請在Cloud Services安裝與設定指南中瞭解如何[從使用者介面](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)設定資料來源聯結器。
 
-- 如果您使用的是2023年7月或2023年9月版本，請在Cloud Service安裝與設定指南中瞭解如何[設定資料來源聯結器](/help/product-guide/cs-install-guide/conf-data-source-connector.md)。
+- 如果您使用的是2023年7月或2023年9月版本，請瞭解如何在雲端服務安裝與設定指南中[設定資料來源聯結器](/help/product-guide/cs-install-guide/conf-data-source-connector.md)。
 
 </details>
 
@@ -90,7 +92,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
    >[!NOTE]
    >
-   >Experience Manager為各種資料來源中的所有資源提供各種範例查詢。 這些會將對應至您要從中擷取資料的資料來源。
+   >Experience Manager為各種資料來源中的所有資源提供不同的範例查詢。 這些會將對應至您要從中擷取資料的資料來源。
 
 1. 如果使用檔案聯結器，您可以從電腦上傳JSON檔案，或從Adobe Experience Manager資產瀏覽JSON檔案。
 
@@ -191,7 +193,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
       >[!NOTE]
       >
-      >Experience Manager為各種資料來源中的所有資源提供各種範例查詢。 這些會將對應至您要從中擷取資料的資料來源。
+      >Experience Manager為各種資料來源中的所有資源提供不同的範例查詢。 這些會將對應至您要從中擷取資料的資料來源。
 
    1. 如果使用檔案聯結器，您可以從電腦上傳JSON檔案，或從Adobe Experience Manager資產瀏覽JSON檔案。
 

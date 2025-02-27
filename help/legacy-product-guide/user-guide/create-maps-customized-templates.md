@@ -3,7 +3,9 @@ title: 根據自訂範本建立地圖
 description: 瞭解如何建立自訂範本、使用範本建立新的地圖檔案，並將定義的標題傳遞給AEM Guides中的DITA map。
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,7 +98,7 @@ AEM Guides可讓您從dita-templates資料夾建立自訂地圖和主題。 您�
 <details>
     <summary> 雲端服務 </summary>
 
-瞭解如何在Cloud Service安裝與設定指南中[設定自訂DITA範本資料夾路徑](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)。
+瞭解如何在Cloud Services安裝與設定指南中[設定自訂DITA範本資料夾路徑](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)。
 </details>
 
 <details>
@@ -156,7 +158,7 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 
 >[!NOTE]
 >
-> 對應範本必須設定好並由您的管理員提供撰寫功能。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*設定撰寫範本*&#x200B;區段。
+> 對應範本必須設定好並由您的管理員提供撰寫功能。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*設定撰寫範本*&#x200B;區段。
 
 執行以下步驟，使用自訂地圖範本建立地圖：
 

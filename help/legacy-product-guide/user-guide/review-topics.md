@@ -3,7 +3,9 @@ title: 檢閱主題
 description: 瞭解如何在AEM Guides中檢閱主題並將功能作為檢閱者、檔案檢視、主題檢視、內容工具列、預覽模式、新增附件至註解和條件面板使用。
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%
@@ -30,7 +32,7 @@ ht-degree: 0%
    >
    > 如果您是在以下位置建立稽核，則UI可能會不同：
    >
-   > - AEM Guides as a Cloud Service2022年11月版或更早版本
+   > - AEM Guides as a Cloud Service 2022年11月版或更早版本
    > - AEM Guides 4.1版或更舊版本
 
 

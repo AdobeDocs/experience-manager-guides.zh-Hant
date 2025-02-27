@@ -3,7 +3,9 @@ title: 來自網頁編輯器的DITA map報表
 description: 從AEM Guides中的網頁編輯器產生DITA map報表。 瞭解如何產生主題清單、多媒體、中繼資料和中斷連結報表的CSV。
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 0%

@@ -1,16 +1,18 @@
 ---
-title: Publish體驗片段的主題
-description: Publish主題或AEM Guides中體驗片段的主題元素。  瞭解如何檢視呈現給主題的體驗片段並重新發佈。
+title: 發佈主題至體驗片段
+description: 將主題或主題內的元素發佈至AEM Guides中的體驗片段。  瞭解如何檢視呈現給主題的體驗片段並重新發佈。
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
 
 ---
 
-# Publish體驗片段
+# 發佈體驗片段
 
 體驗片段是Adobe Experience Manager中的模組化內容片段。 這些內容區塊是以範本為基礎，並封裝內容及其版面。 這些可重複使用的內容片段可讓內容建立者跨越Experience Manager支援的多個管道，組合併提供一致、可擴充的體驗。 此功能可協助您有效率地輕鬆建立一致的行銷體驗，例如電子報、促銷橫幅和客戶口碑。
 
@@ -45,10 +47,10 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
 
    >[!NOTE]
    >
-   > 您也可以從&#x200B;**存放庫檢視**&#x200B;發佈體驗片段。 選取您要發佈為體驗片段的主題。 然後，從&#x200B;**選項**&#x200B;功能表選取&#x200B;**Publish As** > **體驗片段**。
+   > 您也可以從&#x200B;**存放庫檢視**&#x200B;發佈體驗片段。 選取您要發佈為體驗片段的主題。 然後，從&#x200B;**選項**&#x200B;功能表選取&#x200B;**發佈為** > **體驗片段**。
 
 1. 在&#x200B;**產生體驗片段**對話方塊中，填入下列詳細資料：
-   ![在Publish中新增片段模型和對應詳細資訊，作為體驗片段對話方塊](images/experience-fragment-generate.png){width="500" align="left"}
+   ![在「以體驗片段形式發佈」對話方塊中新增片段模型和對應詳細資訊](images/experience-fragment-generate.png){width="500" align="left"}
 
    *新增路徑、範本和對映詳細資訊，將主題或其元素發佈為體驗片段。 您可以覆寫現有的體驗片段。*
 

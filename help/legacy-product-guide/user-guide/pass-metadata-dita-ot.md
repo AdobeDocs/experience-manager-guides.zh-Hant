@@ -3,7 +3,9 @@ title: 使用DITA-OT將中繼資料傳遞至輸出
 description: 瞭解如何使用AEM Guides中的DITA-OT發佈將中繼資料傳遞至輸出。
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -32,7 +34,7 @@ ht-degree: 0%
 
    此檔案可覆蓋於： `/apps/fmdita/config/metadataList`。
 
-   若要傳遞已定義值的自訂屬性，請參閱[在DITA-OTPDF輸出中使用AEM中繼資料](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)。
+   若要傳遞您已定義值的自訂屬性，請參閱[在DITA-OT PDF輸出中使用AEM中繼資料](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)。
 
 1. 從&#x200B;**屬性**&#x200B;下拉式清單中，選取必要的自訂和預設屬性。 例如，選取`author`、`dc:title`和`dc:description`。 這些是在我們建立檔案後建立的標準`metadata/properties`。 選取的屬性會列在下拉式方塊下方。
 

@@ -3,8 +3,9 @@ title: 使用進階地圖編輯器
 description: 瞭解如何使用AEM Guides中的進階地圖編輯器。 瞭解進階地圖編輯器的功能。 透過DITA map編輯主題，並使用版面檢視、作者檢視和預覽模式。
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -97,7 +98,7 @@ ht-degree: 0%
 
      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
-   - 若要檢查地圖檔案的屬性，請在地圖編輯區域的任意位置按一下滑鼠右鍵，然後從內容功能表中選擇&#x200B;**屬性**。 根據您的AEM版本，您可以看到屬性，例如中繼資料、排程\(de\)啟用、參考、檔案狀態等。
+   - 若要檢查地圖檔案的屬性，請在地圖編輯區域的任意位置按一下滑鼠右鍵，然後從內容功能表中選擇&#x200B;**屬性**。 根據您的AEM版本，您可以看到中繼資料、排程\(de\)啟動、參考、檔案狀態等屬性。
 
 1. 按一下「**儲存**」。
 
@@ -272,7 +273,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 您的管理員可以設定自動新增`@navtitle`屬性至您新增到對應的每個參考檔案。 如需有關設定自動新增`@navtitle`屬性的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*預設包含@navtitle屬性*。
+> 您的管理員可以設定自動新增`@navtitle`屬性至您新增到對應的每個參考檔案。 如需有關設定自動新增`@navtitle`屬性的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*預設包含@navtitle屬性*。
 
 按一下「重新整理導覽標題屬性」圖示，以同步`title`專案和`@navtitle`屬性的值。
 

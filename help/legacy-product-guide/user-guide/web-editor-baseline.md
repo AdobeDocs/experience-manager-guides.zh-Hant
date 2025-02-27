@@ -3,7 +3,9 @@ title: 從Web編輯器建立和管理基準線
 description: 在AEM Guides中從Web編輯器建立和管理基準線。 瞭解如何根據標籤建立基準並將篩選器套用至基準線。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 如果您已升級至AEM Guides as a Cloud Service三月版或更新版本，建議從網頁編輯器使用此基準線功能。
+> 如果您已升級至AEM Guides as a Cloud Service March版本或更新版本，建議從網頁編輯器使用此基準線功能。
 
 AEM Guides提供整合在網頁編輯器中的基準線功能，可讓使用者建立基準線，並使用基準線來發佈或翻譯不同版本的主題。 它們也可以同時發佈同一DITA map的多個輸出預設集。
 
@@ -153,4 +155,3 @@ AEM Guides提供整合在網頁編輯器中的基準線功能，可讓使用者�
 編輯基準線後，您可以按一下頂端的「儲存&#x200B;****」按鈕，以儲存基準線的變更。 如果您不想儲存變更並重設基準線，可以按一下&#x200B;**重設**&#x200B;按鈕。 當您按一下&#x200B;**重設**&#x200B;按鈕時，會顯示警告，指出您未儲存的變更將會遺失。
 
 **上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)
-

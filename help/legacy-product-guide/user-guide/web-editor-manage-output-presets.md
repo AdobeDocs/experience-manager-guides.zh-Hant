@@ -3,7 +3,9 @@ title: 管理全域和資料夾設定檔輸出預設集
 description: 瞭解如何在AEM Guides中以管理使用者的身分建立、編輯、重新命名、複製和刪除全域和資料夾設定檔輸出預設集。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -39,7 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEM Guides也提供現成的PDF輸出預設集，以產生DITA map的輸出。
+> AEM Guides也提供現成的PDF輸出預設集，用於產生DITA map的輸出。
 
 **選項功能表的其他作業**
 

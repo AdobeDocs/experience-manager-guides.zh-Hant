@@ -1,9 +1,11 @@
 ---
 title: 建立大量啟用地圖集合
-description: 瞭解如何在AEM Guides中建立大量啟用地圖集合。
+description: 瞭解如何在AEM指南中建立大量啟用地圖集合。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 1. 選取頂端的Adobe Experience Manager連結，然後選擇&#x200B;**工具**。
 
-1. 選取&#x200B;**大量Publish儀表板**&#x200B;圖磚。
+1. 選取&#x200B;**大量發佈儀表板**&#x200B;圖磚。
 
    系統首次顯示空白的集合頁面。 如果您先前已建立大量啟動集合，則會顯示在此頁面上。
 
@@ -75,7 +77,7 @@ DITA map檔案會新增至您的大量啟動對映集合中。
 - **語言**：顯示DITA map的語言代碼。
 - **預設集**：顯示在地圖檔案上設定的輸出預設集標題。 也會根據輸出預設集的型別顯示圖示。
 - **狀態**：將啟動狀態顯示為成功或不成功。
-- **目的地**：如果您在Experience Manager Guides as a Cloud Service上產生輸出，則可以以Publish或預覽檢視輸出的目的地。
+- **目的地**：如果您在Experience Manager Guides as a Cloud Service上產生輸出，可以以「發佈」或「預覽」檢視輸出的目的地。
 
   >[!NOTE]
   >
@@ -99,7 +101,7 @@ DITA map檔案會新增至您的大量啟動對映集合中。
 左側面板上有以下篩選選項：
 
 - **已修改**：您可以選取「是」或「否」。 如果您選取「是」，則只會顯示修改過的DITA map。 修改後的對應是自上次發佈後產生的對應。
-- **預設集**：選取您要篩選掉地圖檔案的預設集。 此欄顯示地圖檔案上設定的輸出預設集標題。 例如，如果您選擇&#x200B;*AEM Site*&#x200B;預設集，則只會顯示設定了&#x200B;*AEM Site*&#x200B;輸出預設集的地圖。
+- **預設集**：選取您要篩選掉地圖檔案的預設集。 此欄顯示地圖檔案上設定的輸出預設集標題。 例如，如果您選擇&#x200B;*AEM網站*&#x200B;預設集，則只會顯示設定了&#x200B;*AEM網站*&#x200B;輸出預設集的地圖。
 - **語言**：您可以選取任何可用的語言代碼，並在[地圖和預設集]索引標籤中僅顯示選取的語言。
 
 當您從&#x200B;**對應和預設集**&#x200B;標籤切換到&#x200B;**稽核歷史記錄**&#x200B;標籤時，篩選器會更新，反之亦然。

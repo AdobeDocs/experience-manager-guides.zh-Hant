@@ -1,9 +1,11 @@
 ---
 title: 還原檔案版本記錄報告
-description: 在AEM Guides中檢視還原的檔案版本記錄報告。 瞭解如何從Assets UI、主題預覽和AEM工具選取專案存取回覆版本記錄檔。
+description: 在AEM Guides中檢視還原的檔案版本記錄報告。 瞭解如何從Assets UI、主題預覽和AEM工具選擇存取回覆版本記錄。
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -24,7 +26,7 @@ AEM Guides可讓您為個別檔案或資料夾中的所有檔案產生版本記�
 
 - **主題預覽**：當您預覽主題時，也可以從左側邊欄開啟&#x200B;**版本記錄**&#x200B;面板。 您將會取得一個類似於Assets UI的面板，您可以從其中按一下&#x200B;**回覆版本記錄**&#x200B;連結，以存取使用中檔案的回覆版本記錄。
 
-- **AEM工具區段**：您也可以從AEM工具區段存取此報告。 下列程式說明如何從「AEM工具」區段存取回覆版本記錄。
+- **AEM的「工具」區段**：您也可以從AEM的「工具」區段存取此報告。 下列程式說明如何從AEM的「工具」區段存取回覆版本記錄。
 
 
 執行以下步驟來存取「還原歷史記錄」報告：

@@ -3,7 +3,9 @@ title: 使用條件預設集
 description: 瞭解AEM Guides中條件預設集的使用。 瞭解如何在AEM中建立、編輯、複製和刪除條件預設集。
 feature: Publishing
 role: User
-source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
+hide: true
+exl-id: 991179c7-186e-4b23-b918-248f596644ec
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 2%
@@ -71,7 +73,7 @@ Experience Manager Guides可讓您從網頁編輯器管理條件預設集，並�
    >
    > 如果您選取其他預設集或關閉預設集但未儲存它，則會檢視警告。
 
-建立條件預設集後，會顯示在輸出預設集的&#x200B;**條件預設集**&#x200B;下拉式清單中。 進一步瞭解如何[PublishPDF輸出](/help/product-guide/web-editor/native-pdf-web-editor.md)。
+建立條件預設集後，會顯示在輸出預設集的&#x200B;**條件預設集**&#x200B;下拉式清單中。 深入瞭解如何[發佈PDF輸出](/help/product-guide/web-editor/native-pdf-web-editor.md)。
 
 ### 重新命名條件預設集
 

@@ -1,9 +1,11 @@
 ---
 title: 產生FrameMaker檔案的輸出
-description: 瞭解如何在AEM指南中產生FrameMaker檔案的輸出，以以PDF、HTML5和EPUB格式發佈。
+description: 瞭解如何在AEM指南中產生FrameMaker檔案的輸出，以便以PDF、HTML5和EPUB格式發佈。
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ddb6b1ee-7993-479f-993c-d2ce686b10b3
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
@@ -21,7 +23,7 @@ ht-degree: 0%
 - ePub
 
 
-身為作者，您只需按一下幾個連結，就能產生輸出。 您可以產生整個書冊檔案的輸出，也可以選擇性地發佈個別FrameMaker檔案。 在產生輸出之前，您也可以變更FrameMaker檔案。 當您在AEM存放庫中選取.fm或.book檔案時，您會取得工具列上的&#x200B;**在FrameMaker中開啟**&#x200B;按鈕。 按一下此按鈕會以FrameMaker開啟選取的檔案。
+身為作者，您只需按一下幾個連結，就能產生輸出。 您可以產生整個書冊檔案的輸出，也可以選擇性地發佈個別FrameMaker檔案。 在產生輸出之前，您也可以變更FrameMaker檔案。 當您在AEM存放庫中選取.fm或.book檔案時，您會取得工具列上的&#x200B;**在FrameMaker中開啟**&#x200B;按鈕。 按一下此按鈕即可在FrameMaker中開啟選取的檔案。
 
 以下小節中的資訊適用於將使用輸出產生工作流程來發佈FrameMaker檔案的發佈者：
 

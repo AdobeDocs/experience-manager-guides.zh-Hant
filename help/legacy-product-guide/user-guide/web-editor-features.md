@@ -3,7 +3,9 @@ title: 瞭解網頁編輯器功能
 description: 探索AEM Guides中網頁編輯器的功能。 瞭解網頁編輯器的介面，包括主工具列、次要工具列、左側面板、內容編輯區域以及右側面板。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -98,7 +100,7 @@ ht-degree: 0%
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
-   - **拼字檢查**：有兩個選項 — **AEM拼字檢查**&#x200B;和&#x200B;**瀏覽器拼字檢查**。 依預設，編輯器會使用瀏覽器拼字檢查功能，其中拼字檢查是使用瀏覽器的內建字典執行。 您可以切換至AEM拼字檢查以使用AEM字典，也可以自訂以新增自訂字詞清單。 如需自訂AEM字典的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*自訂AEM預設字典*&#x200B;區段。
+   - **拼字檢查**：有兩個選項 — **AEM拼字檢查**&#x200B;和&#x200B;**瀏覽器拼字檢查**。 依預設，編輯器會使用瀏覽器拼字檢查功能，其中拼字檢查是使用瀏覽器的內建字典執行。 您可以切換至AEM拼字檢查以使用AEM的字典，也可以自訂以新增自訂字詞清單。 如需自訂AEM字典的詳細資訊，請參閱安裝和設定AEM as a Cloud Service中的&#x200B;*自訂Adobe Experience Manager Guides的預設字典*&#x200B;區段。
 
 
    - **狀況**
@@ -128,7 +130,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如果自訂面板已設定，則會顯示在面板清單中。 您可以切換開關，以顯示或隱藏自訂面板。 如需設定的詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides」as a Cloud Service中的&#x200B;*在左側面板中設定自訂面板*&#x200B;區段。
+> 如果自訂面板已設定，則會顯示在面板清單中。 您可以切換開關，以顯示或隱藏自訂面板。 如需設定的詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides as a Cloud Service」中的&#x200B;*在左側面板中設定自訂面板*&#x200B;區段。
 
 - **元素清單**：身為管理員，您可以使用[插入元素](#id204SG30105Z)快顯視窗控制作者可以插入的元素清單，也可以定義元素的顯示名稱。 「元素清單」設定可讓您根據DITA規格來指定元素名稱，以及要使用的標籤，而非DITA定義的元素名稱：
 
@@ -148,9 +150,9 @@ ht-degree: 0%
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publish設定檔**：這包含可用來發佈&#x200B;**知識庫**&#x200B;輸出的Publish設定檔。 您可以為目標知識庫建立新的設定檔。 例如，Salesforce或ServiceNow。
+- **發佈設定檔**：這包含可用來發佈&#x200B;**知識庫**&#x200B;輸出的發佈設定檔。 您可以為目標知識庫建立新的設定檔。 例如，Salesforce或ServiceNow。
 
-   - **建立Salesforce Publish設定檔**
+   - **建立Salesforce發佈設定檔**
 
      **必備條件**
 
@@ -168,18 +170,18 @@ ht-degree: 0%
 
   設定應用程式後，Salesforce會提供&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。
 
-  這些可用來建立Salesforce Publish設定檔。
+  這些可用來建立Salesforce發佈設定檔。
 
 
-   - 若要建立Salesforce Publish設定檔，請從&#x200B;**伺服器型別**&#x200B;下拉式清單中選取&#x200B;**Salesforce**&#x200B;知識庫。 輸入設定檔名稱。 在&#x200B;**網站URL**&#x200B;中，輸入您要用來發佈輸出的消費者網站，然後新增Salesforce消費者網站提供的&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 然後，**驗證**&#x200B;並&#x200B;**儲存**新建立的設定檔。
+   - 若要建立Salesforce發佈設定檔，請從&#x200B;**伺服器型別**&#x200B;下拉式清單中選取&#x200B;**Salesforce**&#x200B;知識庫。 輸入設定檔名稱。 在&#x200B;**網站URL**&#x200B;中，輸入您要用來發佈輸出的消費者網站，然後新增Salesforce消費者網站提供的&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 然後，**驗證**&#x200B;並&#x200B;**儲存**新建立的設定檔。
      在編輯器設定中![salesforce發佈設定檔](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >若要在Experience Manager Guides中設定Salesforce的Proxy，請在AEM中使用Apache HTTP元件Proxy設定。 瞭解如何[設定AEM連結檢查器](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的Proxy。
+     >若要在Experience Manager Guides中設定Salesforce的Proxy，請使用AEM中的Apache HTTP元件Proxy設定。 瞭解如何[設定AEM連結檢查器的Proxy](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)。
 
 
-   - **建立ServiceNow Publish設定檔**
+   - **建立ServiceNow發佈設定檔**
 
      **必備條件**
 
@@ -192,12 +194,12 @@ ht-degree: 0%
 
       - 按一下「**儲存**」。
 
-     設定應用程式後，請建立&#x200B;**ServiceNow** Publish設定檔。
-   - 若要建立Publish設定檔，請從&#x200B;**伺服器型別**&#x200B;下拉式清單中選取ServiceNow知識庫。 輸入設定檔&#x200B;**名稱**。 在&#x200B;**ServiceNow URL**&#x200B;中，輸入您要用來發佈輸出的消費者網站，然後新增ServiceNow消費者網站所提供的&#x200B;**使用者名稱**&#x200B;和&#x200B;**密碼**。 然後，**驗證**&#x200B;並&#x200B;**儲存**&#x200B;新建立的設定檔。
+     設定應用程式之後，請建立&#x200B;**ServiceNow**&#x200B;發佈設定檔。
+   - 若要建立發佈設定檔，請從&#x200B;**伺服器型別**&#x200B;下拉式清單中選取ServiceNow知識庫。 輸入設定檔&#x200B;**名稱**。 在&#x200B;**ServiceNow URL**&#x200B;中，輸入您要用來發佈輸出的消費者網站，然後新增ServiceNow消費者網站所提供的&#x200B;**使用者名稱**&#x200B;和&#x200B;**密碼**。 然後，**驗證**&#x200B;並&#x200B;**儲存**&#x200B;新建立的設定檔。
 
      ![ServiceNow發佈設定檔](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  驗證之後，您可以在DITA Map的輸出預設集中選取Publish設定檔，並使用它產生輸出至您選擇的&#x200B;**Salesforce**&#x200B;或&#x200B;**ServiceNow**&#x200B;伺服器。
+  驗證之後，您可以在DITA Map的輸出預設集中選取發佈設定檔，並使用它產生輸出至您選擇的&#x200B;**Salesforce**&#x200B;或&#x200B;**ServiceNow**&#x200B;伺服器。
 
   深入瞭解[知識庫](../user-guide/generate-output-knowledge-base.md)輸出預設集。
 
@@ -284,13 +286,13 @@ ht-degree: 0%
 
    - **資料夾設定檔**：資料夾設定檔控制與條件屬性、製作範本、輸出預設集和網頁編輯器設定相關的各種設定。 預設會顯示「全域設定檔」。 此外，如果您的管理員在系統中設定了資料夾設定檔，則這些資料夾設定檔也會顯示在「資料夾設定檔」清單中。
 
-     管理員可以在資料夾設定檔中定義的網頁編輯器設定包括：自訂使用者介面，包括工具列圖示、網頁編輯器的版面、片段和根對應。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*設定全域或資料夾層級設定檔*。
+     管理員可以在資料夾設定檔中定義的網頁編輯器設定包括：自訂使用者介面，包括工具列圖示、網頁編輯器的版面、片段和根對應。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*設定全域或資料夾層級設定檔*。
 
      >[!NOTE]
      >
      > 目前資料夾描述檔的名稱會顯示為主工具列中「使用者偏好設定」圖示的標籤。
 
-   - **基底路徑**：根據預設，當您從網頁編輯器存取AEM存放庫時，您會看到來自/content/dam位置的資產。 您的工作資料夾很可能是/content/dam/資料夾內的幾個資料夾。 每次按幾下即可到達工作資料夾。 您可以將「基本路徑」設定為工作資料夾，然後將「存放庫檢視」顯示為該位置的前置內容。 這可以縮短存取工作資料夾的時間。 此外，當您在主題中插入任何參照或媒體檔案時，檔案瀏覽位置會從「基本路徑」中設定的資料夾開始。
+   - **基本路徑**：根據預設，當您從網頁編輯器存取AEM存放庫時，您會看到來自/content/dam位置的資產。 您的工作資料夾很可能是/content/dam/資料夾內的幾個資料夾。 每次按幾下即可到達工作資料夾。 您可以將「基本路徑」設定為工作資料夾，然後將「存放庫檢視」顯示為該位置的前置內容。 這可以縮短存取工作資料夾的時間。 此外，當您在主題中插入任何參照或媒體檔案時，檔案瀏覽位置會從「基本路徑」中設定的資料夾開始。
 
    - **選取根對應**：選取DITA map檔案來解析索引鍵參考或字彙表專案。 選取的根對映解析關鍵參照的優先順序最高。 如需詳細資訊，請參閱[解析索引鍵參考](map-editor-other-features.md#id176GD01H05Z)。
 
@@ -517,7 +519,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 >[!NOTE]
 >
-> 您的系統管理員也可以設定文字篩選器，並顯示或隱藏其他篩選器。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的設定文字篩選器一節。
+> 您的系統管理員也可以設定文字篩選器，並顯示或隱藏其他篩選器。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的設定文字篩選器一節。
 
 將顯示包含搜尋文字的篩選檔案清單。 例如，在上面的熒幕擷圖中，會列出包含「一般」文字的檔案。 您也可以預覽檔案的內容。
 
@@ -531,7 +533,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 若要插入「內容參照」，您也可以輸入檔案的UUID，且該檔案中的可重複使用內容會列在「預覽」區段中。
 
-根據插入連結的設定，您可以在「屬性」面板或Source程式碼檢視中看到插入內容的UUID或相對路徑。 連結一律會使用參照內容的UUID來建立。 請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的設定UUID型連結。
+根據插入連結的設定，您可以在「屬性」面板或Source程式碼檢視中看到插入內容的UUID或相對路徑。 連結一律會使用參照內容的UUID來建立。 請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的設定UUID型連結。
 
 >[!NOTE]
 >
@@ -629,7 +631,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 >[!NOTE]
 >
-> 如果使用者從網頁編輯器啟用「標籤檢視」，則即使跨工作階段，該檢視也會保持啟用狀態。 這表示您不需要再次啟用「標籤檢視」即可稍後存取。新使用者工作階段的「標籤檢視」預設值由ui\_config.json檔案中的tagsView屬性決定。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*設定標籤檢視的預設值*&#x200B;區段。
+> 如果使用者從網頁編輯器啟用「標籤檢視」，則即使跨工作階段，該檢視也會保持啟用狀態。 這表示您不需要再次啟用「標籤檢視」即可稍後存取。新使用者工作階段的「標籤檢視」預設值由ui\_config.json檔案中的tagsView屬性決定。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*設定標籤檢視的預設值*&#x200B;區段。
 
 **啟用/停用追蹤變更** ![](images/track-change-icon.svg)
 
@@ -785,7 +787,7 @@ AEM Guides提供追蹤變更功能，其中包含檔案中所做更新的相關�
 
 標籤可協助您識別DDLC \（檔案開發生命週期\）中特定主題的階段。 例如，當您處理主題時，可以將標籤設定為「已核准」。 主題發佈並可供客戶使用後，您就可以為該主題指派「已發行」標籤。
 
-AEM Guides可讓您以自由格式文字格式指定標籤，或使用一組預先定義的標籤。 自訂標籤可讓系統中的任何作者根據其選擇指定標籤。 這可提供彈性，但會導致系統中出現不一致的標籤。 若要克服此問題，管理員可以設定一組預先定義的標籤。 如需有關設定預先定義標籤的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*設定和自訂XML Web編輯器*。
+AEM Guides可讓您以自由格式文字格式指定標籤，或使用一組預先定義的標籤。 自訂標籤可讓系統中的任何作者根據其選擇指定標籤。 這可提供彈性，但會導致系統中出現不一致的標籤。 若要克服此問題，管理員可以設定一組預先定義的標籤。 如需有關設定預先定義標籤的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*設定和自訂XML Web編輯器*。
 
 這些標籤會以下拉式清單的形式顯示給需要指定標籤的作者。 這可確保在系統中只使用預先定義、一致的標籤。
 
@@ -974,7 +976,7 @@ Favroties集合的&#x200B;**選項功能表**\
 
   >[!NOTE]
   >
-  >您的系統管理員也可以設定文字篩選器，並顯示或隱藏其他篩選器。 如需詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides」as a Cloud Service中的&#x200B;*設定文字篩選器*&#x200B;區段。
+  >您的系統管理員也可以設定文字篩選器，並顯示或隱藏其他篩選器。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*設定文字篩選器*&#x200B;區段。
   >
   >會顯示包含搜尋文字的已篩選檔案清單。 例如，包含文字`general purpose`的檔案會列在前一個熒幕擷圖中。 您可以從篩選的清單中選取多個檔案，將其拖放到開啟以進行編輯的對映中。
 
@@ -1029,7 +1031,7 @@ Favroties集合的&#x200B;**選項功能表**\
 
 視您選取的是媒體檔案還是DITA檔案而定，您會在「選項」選單中看到不同的選項。 媒體和DITA檔案可用的常見選項有：
 
-- 複製
+- 重複項目
 - 簽出/簽入
 - 預覽
 - 移至
@@ -1105,7 +1107,7 @@ Favroties集合的&#x200B;**選項功能表**\
 
      >[!NOTE]
      >
-     > 如果您的管理員已阻止刪除已出庫的檔案，則只會顯示錯誤訊息。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*防止刪除已取出檔案*&#x200B;區段。
+     > 如果您的管理員已阻止刪除已出庫的檔案，則只會顯示錯誤訊息。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*防止刪除已取出檔案*&#x200B;區段。
 
    - 如果檔案已新增至我的最愛集合，會顯示&#x200B;**強制刪除**&#x200B;對話方塊，您可以強制刪除它。
    - 如果從任何其他檔案參照檔案，則會顯示包含確認訊息的&#x200B;**強制刪除**&#x200B;對話方塊，您可以強制刪除檔案：
@@ -1114,7 +1116,7 @@ Favroties集合的&#x200B;**選項功能表**\
 
      >[!NOTE]
      >
-     > 如果您的管理員已授予檔案刪除許可權，則會啟用&#x200B;**強制刪除**。 否則，**強制刪除**&#x200B;已停用，且會顯示一則訊息，指出您沒有許可權刪除參考的檔案。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*防止刪除參照的檔案*&#x200B;區段。
+     > 如果您的管理員已授予檔案刪除許可權，則會啟用&#x200B;**強制刪除**。 否則，**強制刪除**&#x200B;已停用，且會顯示一則訊息，指出您沒有許可權刪除參考的檔案。 如需詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*防止刪除參照的檔案*&#x200B;區段。
 
    - 如果刪除參照主題並開啟包含要編輯參照的檔案，將會顯示參照檔案的斷開連結。
 
@@ -1147,9 +1149,9 @@ Favroties集合的&#x200B;**選項功能表**\
 
 - **在Assets UI中檢視**：使用此專案來顯示Assets UI中.dita/.xml檔案的預覽。 若是.ditamap/.bookmap檔案，對應中的所有主題檔案都會以單一統一的逐頁檢視顯示。
 
-- **下載為PDF**：使用選項產生PDF輸出並下載。
+- **下載為PDF**：使用選項來產生PDF輸出並下載。
 
-- **Publish As**：使用選項將主題或主題內的元素發佈到內容片段。
+- **發佈為**：使用選項將主題或主題內的元素發佈到內容片段。
 
 - **快速產生**：產生所選檔案的輸出。 只能為屬於輸出預設集一部分的檔案產生輸出。 如需詳細資訊，請參閱[從網頁編輯器](web-editor-article-publishing.md#id218CK0U019I)以文章為基礎的發佈。
 

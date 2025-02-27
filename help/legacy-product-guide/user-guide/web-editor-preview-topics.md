@@ -1,9 +1,11 @@
 ---
 title: 預覽主題
-description: 瞭解如何在AEM Guides中預覽主題。 瞭解預覽模式中可用的功能。 在AEM Guides中分支、還原及後續版本設定。
+description: 瞭解如何在AEM Guides中預覽主題。 瞭解預覽模式中可用的功能。 在AEM指南中分支、還原及後續版本設定。
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%
@@ -37,7 +39,7 @@ ht-degree: 0%
 
 **屬性**
 
-檢視所選主題的內容。 根據您的AEM版本，您可以看到屬性，例如中繼資料、排程\(de\)啟用、參考、檔案狀態等。
+檢視所選主題的內容。 根據您的AEM版本，您可以看到中繼資料、排程\(de\)啟動、參考、檔案狀態等屬性。
 
 >[!NOTE]
 >

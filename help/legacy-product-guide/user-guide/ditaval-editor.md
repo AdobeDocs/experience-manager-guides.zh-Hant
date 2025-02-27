@@ -3,7 +3,9 @@ title: 使用DITAVAL編輯器
 description: 瞭解如何使用AEM Guides中的DIVATAL Editor建立和編輯DITAVAL檔案。 瞭解DITAVAL編輯器如何在製作和來源檢視中支援DITAVAL檔案。
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -77,7 +79,7 @@ AEM Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 D
 
    >[!NOTE]
    >
-   > 如果您關閉檔案而不儲存，變更將會遺失。 如果您不想將變更提交至AEM存放庫，請按一下[關閉] ****，然後在[未儲存的變更] ****&#x200B;對話方塊中按一下[關閉] **[不儲存變更]**。
+   > 如果您關閉檔案而不儲存，變更將會遺失。 如果您不想將變更提交至AEM存放庫，請按一下&#x200B;**關閉**，然後在&#x200B;**未儲存的變更**&#x200B;對話方塊中按一下&#x200B;**關閉而不儲存**。
 
 
 ## DITAVAL編輯器檢視

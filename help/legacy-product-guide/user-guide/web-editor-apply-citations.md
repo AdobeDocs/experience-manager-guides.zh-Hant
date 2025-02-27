@@ -3,7 +3,9 @@ title: 新增和管理內容中的引文
 description: 在AEM Guides中新增和管理引文。 瞭解如何套用、匯入、篩選、搜尋、變更引文樣式、編輯、預覽、插入、刪除和產生包含引文的內容輸出。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
+hide: true
+exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -17,14 +19,14 @@ ht-degree: 0%
 在AEM Guides中，您可以新增和匯入引文，並將其套用至您的內容。 您可以從任何書籍、網站和分錄來源新增這些引文。
 
 
-AEM Guides可協助您編輯、預覽和排序您的引用。 將引文新增至內容後，您可以使用原生PDF產生輸出。 您也可以在原生PDF輸出中新增書目或參考頁面。
+AEM Guides可協助您編輯、預覽和排序您的引用。 將引文新增至內容後，您可以使用原生PDF產生輸出。 您也可以在原生PDF輸出中新增目錄或參考頁面。
 
 AEM Guides支援多種型別的引用，例如現代語言協會(MLA)、美國心理協會(APA)、芝加哥、電氣和電子工程師協會(IEEE)和美國心臟協會(AHA)。 建議清晰且一致地使用這些量度。
 
 
 >[!NOTE]
 >
->目前AEM Guides僅支援引文的原生PDF。
+>目前AEM Guides僅支援原生PDF的引文功能。
 
 
 ## 新增引文
@@ -212,7 +214,7 @@ AEM Guides支援多種型別的引用，例如現代語言協會(MLA)、美國�
 1. 從&#x200B;**引文**&#x200B;對話方塊中選取您要插入的引文。
 1. 選取&#x200B;**完成**&#x200B;以新增至主題。
 
-在主題中插入引文後，您可以在網頁編輯器中預覽它們。 您也可以使用原生PDF來發佈引文內容。
+在主題中插入引文後，您可以在網頁編輯器中預覽它們。 您也可以使用原生PDF發佈引文內容。
 
 
 
@@ -257,7 +259,7 @@ AEM Guides支援多種型別的引用，例如現代語言協會(MLA)、美國�
 
 在原生PDF輸出中，引文會出現在您已插入的內容中。 您也可以建立「書目」頁面。 當您按一下任何引文時，您會被重新導向至書目頁面。
 
-在PDF範本中建立&#x200B;**引文**&#x200B;頁面配置，並將其包含在您的檔案中。 書冊中使用的所有引文都會列在PDF輸出中的一個頁面上。 若要深入瞭解如何建立版面配置，請檢視[建立版面配置](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout)。
+在PDF範本中建立&#x200B;**引文**&#x200B;頁面配置，並將其包含在您的檔案中。 書冊中使用的所有引文都會列在PDF輸出中顯示的單一頁面上。 若要深入瞭解如何建立版面配置，請檢視[建立版面配置](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout)。
 
 
 若要變更引文頁面的檢視與風格，請檢視[自訂PDF範本](/help/product-guide/native-pdf/pdf-template.md)。
@@ -268,7 +270,7 @@ AEM Guides支援多種型別的引用，例如現代語言協會(MLA)、美國�
 
 新增至主題時，套用格式至引文。
 
-1. 在原生PDF輸出預設集的&#x200B;**範本**&#x200B;面板中選取&#x200B;**樣式表**。   它會開啟包含所有樣式選項的&#x200B;**樣式**&#x200B;面板。
+1. 在Native PDF輸出預設集的&#x200B;**範本**&#x200B;面板中選取&#x200B;**樣式表**。   它會開啟包含所有樣式選項的&#x200B;**樣式**&#x200B;面板。
 
 1. 在[搜尋]面板中搜尋`<cite>`。
 

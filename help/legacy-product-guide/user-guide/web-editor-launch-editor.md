@@ -3,7 +3,9 @@ title: 啟動網頁編輯器
 description: 瞭解如何從AEM Guides的AEM導覽頁面、AEM Assets UI和DITA Map主控台啟動網頁編輯器。
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 ## AEM導覽頁面 {#id2056BG00RZJ}
 
-登入AEM時，您會看到「導覽」頁面：
+登入AEM時，畫面會顯示導覽頁面：
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
@@ -30,9 +32,9 @@ ht-degree: 0%
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-當您未選取任何檔案就啟動網頁編輯器時，會顯示空白的網頁編輯器畫面。 您可以從AEM存放庫或「我的最愛」集合開啟檔案以進行編輯。
+當您未選取任何檔案就啟動網頁編輯器時，會顯示空白的網頁編輯器畫面。 您可以開啟檔案，以從AEM存放庫或「我的最愛」集合進行編輯。
 
-- 按一下&#x200B;**參考線**&#x200B;圖示(![](images/aem-guides-icon.png))，返回AEM導覽頁面。
+- 按一下&#x200B;**指南**&#x200B;圖示(![](images/aem-guides-icon.png))以返回AEM導覽頁面。
 
 - 根據您的設定，**關閉**&#x200B;按鈕會帶您前往目的地：
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
   <summary> 雲端服務 </summary>
 
-  如果您正在使用Cloud Service，請按一下&#x200B;**關閉**&#x200B;按鈕，返回AEM導覽頁面。
+  如果您正在使用雲端服務，請按一下&#x200B;**關閉**&#x200B;按鈕以返回AEM導覽頁面。
   </details>
 
   <details>

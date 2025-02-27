@@ -3,7 +3,9 @@ title: 從網頁編輯器翻譯檔案
 description: 從網頁編輯器將您的內容翻譯成多種語言。 瞭解如何在AEM Guides中建立翻譯專案、新增規則、檢視版本及關閉不同步的檔案。
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -14,13 +16,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 如果您已升級至AEM Guides 2022年2月as a Cloud Service版或更新版本，建議使用網頁編輯器的此翻譯功能。
+> 如果您已升級至AEM Guides as a Cloud Service 2022年2月版或更新版本，建議使用網頁編輯器的此翻譯功能。
 
 AEM Guides在網頁編輯器中提供強大的功能，可讓您將內容翻譯成多種語言。 您可以建立新的翻譯專案，稍後再新增翻譯工作至現有的翻譯專案。 您也可以建立多語言翻譯專案，其中包含所有選定語言的翻譯工作。
 
 >[!NOTE]
 >
-> 您的管理員可以在網頁編輯器中設定管理標籤\（用於翻譯\）。 如需詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides」as a Cloud Service中的&#x200B;*在Web編輯器設定翻譯功能*&#x200B;區段。
+> 您的管理員可以在網頁編輯器中設定管理標籤\（用於翻譯\）。 如需詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides as a Cloud Service」中的&#x200B;*在網頁編輯器中設定翻譯功能*。
 
 ## 開始之前
 
@@ -136,7 +138,7 @@ AEM Guides可讓管理員設定翻譯規則。 SRX （分段規則交換）格�
 SRX檔案應該命名為`<language-code>.srx`。 例如，en-US或ar-AE。
 
 >[!NOTE]
->標題不區分大小寫，因此您可以有&#39;en-US&#39;、&#39;en-us&#39;或&#39;EN-us&#39;。 此外，AEM Guides也可以解析&#39;-&#39; （連字型大小）或&#39;_&#39; （底線）。 因此，您可以有&#39;en-US&#39;或&#39;en_US&#39;。
+>標題不區分大小寫，因此您可以有&#39;en-US&#39;、&#39;en-us&#39;或&#39;EN-us&#39;。 此外，AEM指南可解析「 — 」（連字型大小）或「_」（底線）。 因此，您可以有&#39;en-US&#39;或&#39;en_US&#39;。
 
 此外，您可以將這些檔案放入AEM資產根目錄下的任何資料夾(`./content/dam`)中。
 
@@ -150,7 +152,7 @@ SRX檔案應該命名為`<language-code>.srx`。 例如，en-US或ar-AE。
 AEM Guides會根據翻譯專案的來源語言挑選SRX規則。 它會尋找某種語言的自訂SRX檔案，如果您未定義自訂SRX檔案，則會根據現成的翻譯規則挑選規則。
 
 
-如需設定全域和資料夾層級設定檔的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*設定撰寫範本*&#x200B;區段。
+如需設定全域和資料夾層級設定檔的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*設定撰寫範本*&#x200B;區段。
 
 ## 將版本標籤傳遞至目標版本
 
@@ -205,7 +207,7 @@ AEM Guides提供的功能可檢查主題的所選版本與上次翻譯來源版�
 
 >[!NOTE]
 >
-> 您可以在「進行中」連結中檢視在AEM Guides 2023年2月as a Cloud Service版本或更新版本中建立的翻譯專案。
+> 您可以檢視「進行中」連結，瞭解在AEM Guides as a Cloud Service 2023年2月或之後版本中建立的翻譯專案。
 
 在對話方塊中按一下參照的名稱，以在預覽模式中開啟它。 您也可以按一下翻譯專案以開始翻譯。
 

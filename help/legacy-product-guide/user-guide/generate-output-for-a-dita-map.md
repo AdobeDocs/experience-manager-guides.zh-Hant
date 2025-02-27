@@ -3,7 +3,9 @@ title: 從Map主控台產生DITA Map的輸出
 description: 從AEM Guides中的對應主控台產生DITA map的輸出。 瞭解增量輸出產生以及如何檢視狀態、取消和刪除輸出任務。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
@@ -24,7 +26,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果您正在產生AEM Site輸出，則發佈程式會使用`.ditamap`檔案中定義的結構，來建立AEM Site結構。
+   > 如果您正在產生AEM網站輸出，則發佈程式會使用`.ditamap`檔案中定義的結構，來建立AEM網站結構。
 
 1. 按一下「產生」圖示以啟動輸出產生程式。
 
@@ -53,7 +55,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 當您再生「AEM場地」輸出時，會使用檔案的目前版本而非附加的「基準線」來建立輸出。
+> 當您重新產生「AEM場地」輸出時，會使用檔案的目前版本而非附加的「基準線」來建立輸出。
 
 1. 在Assets UI中，導覽至DITA map檔案並按一下。
 
@@ -104,7 +106,7 @@ ht-degree: 0%
 
      列出等待產生或正在產生程式中的輸出。 已排入佇列或進行中的工作會在預設集名稱前顯示一個藍色圖示。 您也可以找到用於已排入佇列之任務的輸出產生設定或預設集、型別、啟動任務的使用者、任務已排入佇列後的時間以及目前狀態。
 
-     按一下連結以存取&#x200B;**Publish控制面板**&#x200B;並檢視目前執行中的狀態。 Publish Dashboard中提供所有作用中發佈任務的清單。 **佇列的輸出**&#x200B;和&#x200B;**Publish控制面板**&#x200B;連結只有在輸出正在等待產生或正在產生過程中時才會顯示。 輸出工作完成後，它們不會顯示。如需Publish控制面板的詳細資訊，請參閱[使用Publish控制面板管理發布工作](generate-output-publish-dashboard.md#)。
+     按一下連結以存取&#x200B;**發佈儀表板**&#x200B;並檢視目前執行中的狀態。 發佈儀表板中提供所有作用中發佈任務的清單。 **佇列輸出**&#x200B;和&#x200B;**發佈儀表板**&#x200B;連結只有在輸出正在等待產生或正在產生過程中時才會顯示。 輸出工作完成時，它們不會顯示。如需有關發佈儀表板的詳細資訊，請參閱[使用發佈儀表板管理發布工作](generate-output-publish-dashboard.md#)。
 
    - **產生的輸出**
 
@@ -116,12 +118,12 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     > 當您按一下所產生PDF輸出的連結時，系統會要求您下載PDF。 這是AEM 6.5和6.4中的預設行為。
+     > 當您按一下產生的PDF輸出的連結時，系統會要求您下載PDF。 這是AEM 6.5和6.4中的預設行為。
 
 
 ## 取消輸出產生任務 {#id2061H100T5Z}
 
-AEM Guides可讓發佈者簡單輕鬆地取消任何進行中的發佈工作。 身為發行者，您可以從DITA map主控台或[Publish儀表板](generate-output-publish-dashboard.md#)取消進行中的發行工作。
+AEM Guides可讓發佈者簡單輕鬆地取消任何進行中的發佈工作。 身為發行者，您可以從DITA map主控台或[發佈儀表板](generate-output-publish-dashboard.md#)取消進行中的發佈工作。
 
 執行以下步驟，從DITA map主控台取消輸出產生工作：
 

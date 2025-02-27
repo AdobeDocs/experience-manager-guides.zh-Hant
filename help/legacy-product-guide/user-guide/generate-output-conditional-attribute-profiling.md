@@ -3,10 +3,12 @@ title: 條件屬性分析
 description: 瞭解如何在AEM Guides中建立條件屬性。 使用資料夾和全域設定檔中的條件式屬性來條件化您的內容。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -50,7 +52,7 @@ AEM Guides可讓您使用相關DITA屬性輕鬆建立及關聯條件屬性。 �
 
 1. 若要新增更多屬性，請按一下[新增]。****
 
-1. 按一下[儲存]儲存變更。****
+1. 按一下「**儲存**」以儲存變更。
 
 
 `platform`屬性儲存在系統中。 每當作者決定使用資料夾中DITA主題中的`platform`屬性時，他們就會在Web編輯器的「屬性」標籤中看到值。

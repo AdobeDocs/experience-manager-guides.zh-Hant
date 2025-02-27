@@ -3,7 +3,9 @@ title: 使用地圖集合產生輸出
 description: 瞭解如何建立及刪除對應集合，以及新增或刪除DITA map。 在AEM Guides中，從對應集合設定、產生和取消輸出產生工作。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 1%
@@ -54,7 +56,7 @@ AEM Guides可讓您使用名為「地圖集合」的控制面板，組織內容�
 
 - **篩選器：**&#x200B;最新的邊欄會顯示下列篩選器：
    - **已修改**：您可以選取「是」或「否」。 如果您選取「是」，則只有修改過的DITA map會顯示在「對映與預設集」表格中。
-   - **預設集**：選取您要篩選掉地圖檔案的預設集。 例如，如果您選擇&#x200B;*AEM Site*&#x200B;預設集，則只會顯示設定了&#x200B;*AEM Site*&#x200B;輸出預設集的地圖。
+   - **預設集**：選取您要篩選掉地圖檔案的預設集。 例如，如果您選擇&#x200B;*AEM網站*&#x200B;預設集，則只會顯示設定了&#x200B;*AEM網站*&#x200B;輸出預設集的地圖。
    - **語言**：您可以選取任何可用的語言代碼，並在「地圖」和「預設集」表格中僅顯示選取的語言。
 - **對應和預設集**&#x200B;表格：「對應」和「預設集」表格會顯示下列欄位中的資訊：
    - **對應**：顯示DITA map檔案的標題。
@@ -69,7 +71,7 @@ AEM Guides可讓您使用名為「地圖集合」的控制面板，組織內容�
 
 若要使用「對映集合」來設定及產生輸出，請執行下列步驟：
 
-1. 開啟地圖集合。您可以檢視各種輸出預設集，例如AEM網站、PDF(包括原生PDF)、HTML5、EPUB和自訂預設集。 您也可以檢視管理員建立的全域和資料夾設定檔預設集。
+1. 開啟地圖集合。您可以檢視各種輸出預設集，例如AEM網站、PDF (包括原生PDF)、HTML5、EPUB和自訂預設集。 您也可以檢視管理員建立的全域和資料夾設定檔預設集。
 
    ![](images/global-preset-icon.svg)圖示表示資料夾設定檔層級預設集。
 1. \（可選\）請根據您的需求執行下列任一項作業：
@@ -137,7 +139,7 @@ AEM Guides可讓您使用名為「地圖集合」的控制面板，組織內容�
 
 ## 從對應集合取消輸出產生工作
 
-與從[DITA Map主控台](generate-output-for-a-dita-map.md#id2061H100T5Z)或[Publish儀表板](generate-output-publish-dashboard.md#)取消輸出產生工作的方式類似，您可以從Map集合取消輸出產生工作。 存取對應集合的「輸出」標籤，並移至您要取消的發佈工作，然後按一下&#x200B;**取消此工作**&#x200B;圖示以取消發佈工作。
+與從[DITA Map主控台](generate-output-for-a-dita-map.md#id2061H100T5Z)或[Publish Dashboard](generate-output-publish-dashboard.md#)取消輸出產生工作的方式類似，您可以從Map集合取消輸出產生工作。 存取對應集合的「輸出」標籤，並移至您要取消的發佈工作，然後按一下&#x200B;**取消此工作**&#x200B;圖示以取消發佈工作。
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 

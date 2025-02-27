@@ -3,7 +3,9 @@ title: 建立DITA專案
 description: 使用AEM Guides中的範本建立DITA專案。 瞭解如何使用DITA專案來啟動稽核。
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -20,7 +22,7 @@ AEM Guides提供DITA專案範本，您可用來建立和管理稽核任務。
 
 建立DITA專案後，您可以從網頁編輯器或Assets UI啟動稽核。 如需詳細資訊，請參閱[傳送檢閱主題](review-send-topics-for-review.md#)。
 
-同樣地，每當作者啟動任何稽核工作流程，專案的選定成員都會收到電子郵件通知。 若要設定電子郵件通知，請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*自訂電子郵件範本*。
+同樣地，每當作者啟動任何稽核工作流程，專案的選定成員都會收到電子郵件通知。 若要設定電子郵件通知，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*自訂電子郵件範本*。
 
 執行以下步驟來建立DITA專案：
 

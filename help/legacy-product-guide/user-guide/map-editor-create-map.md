@@ -3,7 +3,9 @@ title: 建立地圖
 description: 在AEM Guides中使用地圖編輯器建立地圖。 尋找根據對應範本建立對應檔案的步驟。
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -50,7 +52,7 @@ AEM Guides提供兩個現成可用的地圖範本 — DITA map和Bookmap。 您�
 
    >[!NOTE]
    >
-   > 若要使用「進階對映編輯器」，請存取網頁編輯器中的對映檔案。 如果您的管理員已將「進階對應編輯器」設定為對應檔案中的預設編輯器，則對應檔案會直接在「進階對應編輯器」中開啟以進行編輯。 請參閱安裝和設定Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*將進階地圖編輯器設為預設值*&#x200B;區段。
+   > 若要使用「進階對映編輯器」，請存取網頁編輯器中的對映檔案。 如果您的管理員已將「進階對應編輯器」設定為對應檔案中的預設編輯器，則對應檔案會直接在「進階對應編輯器」中開啟以進行編輯。 請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*將進階地圖編輯器設為預設值*&#x200B;區段。
 
 
 **父級主題：**[&#x200B;使用對應編輯器](map-editor.md)

@@ -3,7 +3,9 @@ title: 編寫Markdown檔案
 description: 從網頁編輯器撰寫Markdown檔案。 瞭解如何在AEM Guides中建立、編寫和預覽Markdown主題。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
