@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 7252254443b5f1fee8c51e49efe23da418e46d50
+source-git-commit: 48f5e2693cae093cf19f8254d1c222536642498e
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2043'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
          - [部署指示](./release-info/deploy-xml-on-aemaacs.md)
          - 2025版本{#2025-releases}
             - 2025.02.0版本{#2502-release}
-               - [新增功能](./release-info/whats-new-2025-02-0.md)
+               - [最新資訊](./release-info/whats-new-2025-02-0.md)
                - [已修正的問題](./release-info/fixed-issues-2025-02-0.md)
                - [升級指示](./release-info/upgrade-instructions-2025-02-0.md)
          - 2024版本{#2024-releases}
@@ -31,48 +31,48 @@ ht-degree: 6%
             - 2024.10.0 SP1版本{#2410-0-sp1-release}
                - [已修正的問題](./release-info/fixed-issues-2024-10-0-sp1.md)
             - 2024.10.0版本{#2410-0-release}
-               - [新增功能](./release-info/whats-new-2024-10-0.md)
+               - [最新資訊](./release-info/whats-new-2024-10-0.md)
                - [已修正的問題](./release-info/fixed-issues-2024-10-0.md)
                - [升級指示](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0版本{#2406-release}
-               - [新增功能](./release-info/whats-new-2024-06-0.md)
+               - [最新資訊](./release-info/whats-new-2024-06-0.md)
                - [已修正的問題](./release-info/fixed-issues-2024-06-0.md)
                - [升級指示](./release-info/upgrade-instructions-2024-06-0.md)
             - 2024.4.0版本{#2404-release}
-               - [新增功能](./release-info/whats-new-2024-04-0.md)
+               - [最新資訊](./release-info/whats-new-2024-04-0.md)
                - [已修正的問題](./release-info/fixed-issues-2024-04-0.md)
                - [升級指示](./release-info/upgrade-instructions-2024-04-0.md)
             - 2024.2.0版本{#2402-release}
-               - [新增功能](./release-info/whats-new-2024-2-0.md)
+               - [最新資訊](./release-info/whats-new-2024-2-0.md)
                - [已修正的問題](./release-info/fixed-issues-2024-2-0.md)
                - [升級指示](./release-info/upgrade-instructions-2024-2-0.md)
          - 2023版本{#2023-releases}
             - 12月版本{#2312-release}
-               - [新增功能](./release-info/whats-new-2023-12-0.md)
+               - [最新資訊](./release-info/whats-new-2023-12-0.md)
                - [發行說明](./release-info/release-notes-2023-12-0.md)
             - 11月版本{#2311-release}
-               - [新增功能](./release-info/whats-new-2023-11-0.md)
+               - [最新資訊](./release-info/whats-new-2023-11-0.md)
                - [發行說明](./release-info/release-notes-2023-11-0.md)
             - 10月發行版本{#2310-release}
-               - [新增功能](./release-info/whats-new-2023-10-0.md)
+               - [最新資訊](./release-info/whats-new-2023-10-0.md)
                - [發行說明](./release-info/release-notes-2023-10-0.md)
             - 9月發行版本{#2309-release}
-               - [新增功能](./release-info/whats-new-2023-9-0.md)
+               - [最新資訊](./release-info/whats-new-2023-9-0.md)
                - [發行說明](./release-info/release-notes-2023-9-0.md)
             - 7月發行版本{#2307-release}
-               - [新增功能](./release-info/whats-new-2023-7-0.md)
+               - [最新資訊](./release-info/whats-new-2023-7-0.md)
                - [發行說明](./release-info/release-notes-2023-7-0.md)
             - 6月發行版本{#2306-release}
-               - [新增功能](./release-info/whats-new-2023-6-0.md)
+               - [最新資訊](./release-info/whats-new-2023-6-0.md)
                - [發行說明](./release-info/release-notes-2023-6-0.md)
             - 4月發行版本{#2304-release}
-               - [新增功能](./release-info/whats-new-2023-4-0.md)
+               - [最新資訊](./release-info/whats-new-2023-4-0.md)
                - [發行說明](./release-info/release-notes-2023-4-0.md)
             - 3月版本{#2303-release}
-               - [新增功能](./release-info/whats-new-2023-3-0.md)
+               - [最新資訊](./release-info/whats-new-2023-3-0.md)
                - [發行說明](./release-info/release-notes-2023-3-0.md)
             - 2月發行版本{#2302-release}
-               - [新增功能](./release-info/whats-new-2023-2-0.md)
+               - [最新資訊](./release-info/whats-new-2023-2-0.md)
                - [發行說明](./release-info/release-notes-2023-2-0.md)
          - 2022版本{#2022-releases}
             - [11月發行說明](./release-info/release-notes-2022-11-0.md)
@@ -93,11 +93,11 @@ ht-degree: 6%
             - [已修正的問題](./release-info/fixed-issues-4-6-0-sp1.md)
             - [升級指示](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - 4.6.0版本{#460-release}
-            - [新增功能](./release-info/whats-new-4-6.md)
+            - [最新資訊](./release-info/whats-new-4-6.md)
             - [已修正的問題](./release-info/fixed-issues-4-6-0.md)
             - [升級指示](./release-info/upgrade-instructions-4-6-0.md)
          - 4.4.0版本{#440-release}
-            - [新增功能](./release-info/whats-new-4-4.md)
+            - [最新資訊](./release-info/whats-new-4-4.md)
             - [已修正的問題](./release-info/fixed-issues-4-4.md)
             - [升級指示](./release-info/upgrade-instructions-4-4.md)
          - 4.3.1.5版本{#4315-release}
@@ -464,6 +464,7 @@ ht-degree: 6%
       - [AEM Sites輸出變數](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
       - [部署選項和移轉至雲端](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
       - [將內容從非UUID移轉至UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
+      - [差異內容移轉](./knowledge-base/expert-sessions/migration-delta-content.md)
    - 文章{#kb-articles}
       - 製作{#authoring}
          - 網頁編輯器{#webeditor}
