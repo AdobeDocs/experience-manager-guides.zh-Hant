@@ -4,9 +4,9 @@ description: 探索Adobe Experience Manager Guides中編輯器的功能。 瞭�
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
 workflow-type: tm+mt
-source-wordcount: '18656'
+source-wordcount: '18661'
 ht-degree: 0%
 
 ---
@@ -1120,7 +1120,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 - 編輯
 - 在FrameMaker中開啟
-- 複製
+- 重複項目
 - 鎖定/解鎖
 - 預覽
 - 移至
@@ -1265,7 +1265,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 您可以使用對映檔案的「選項」選單執行下列動作：
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+地圖檢視中的![選項功能表](images/options-menu-map-view_cs.png){width="800" align="left"}
 
 - **編輯**：開啟對應檔案以在對應編輯器中編輯。
 
