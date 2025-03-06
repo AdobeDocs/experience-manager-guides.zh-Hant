@@ -4,9 +4,9 @@ description: AEM Guides 最新發行版本和必備的 AEM 版本
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
 feature: Release Notes
 role: Leader
-source-git-commit: 3c81a9ed367c51fb1653055e1e0b5492948a9dd8
+source-git-commit: 0ba0cf9ce20ab868792f2487dfff7c7b9940ab75
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '925'
 ht-degree: 1%
 
 ---
@@ -58,16 +58,15 @@ UUID和非UUID組建之間的主要差異如下：
 >
 >請聯絡您的客戶成功案例經理，以存取AEM as a Cloud Service的[!DNL AEM Guides]組建。
 
-下列清單包含可在AMS或內部部署安裝的最新[!DNL AEM Guides]套件、套件的下載連結以及其他實用資訊。 建議僅使用[!DNL AEM Guides]的最新組建。 如果由於某些原因，您需要存取較舊的組建，請聯絡您帳戶的客戶成功經理。
-
-
+下列清單包含可在AMS或內部部署安裝的最新[!DNL AEM Guides]套件、套件的下載連結以及其他實用資訊。 在安裝Experience Manager Guides之前，請確認您的系統符合[技術需求](../install-guide/download-install-technical-requirements.md)。 此外，建議僅使用[!DNL AEM Guides]的最新組建。 如果由於某些原因，您需要存取較舊的組建，請聯絡您帳戶的客戶成功經理。
 
 >[!NOTE]
 >
->在安裝Experience Manager Guides之前，請確認您的系統符合[技術需求](../install-guide/download-install-technical-requirements.md)。
+> Experience Manager Guides 5.0.0版已不支援非UUID建置。 如果您是使用AEM 5.0.0版之前的非UUID版本編號，請聯絡客戶成功案例經理，瞭解從非UUID版本編號移轉至UUID版本編號的必要程式。
 
 | [!DNL AEM Guides]版本 | 發行說明 | 建立下載連結 |
 |---|---|---|
+| **AEM Guides 5.0.0** | [5.0.0已修正問題](./fixed-issues-5-0-0.md)<br><br>[5.0.0升級指示](./upgrade-instructions-5-0-0.md) | **UUID AEM 6.5** <br> [5.0.0](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F5-0%2Fcom.adobe.fmdita-6.5-uuid-5.0.0.211.zip) |
 | **AEM Guides 4.6.0** | [4.6.0 Service Pack 3已修正問題](./fixed-issues-4-6-0-sp2.md)<br><br>[4.6.0 Service Pack 3升級指示](upgrade-instructions-4-6-0-sp2.md)<br><br>[4.6.0 Service Pack 1升級指示](upgrade-instructions-4-6-0-sp1.md)<br><br>[4.6.0升級指示](./upgrade-instructions-4-6-0.md)<br><br>[4.6.0最新資訊](./whats-new-4-6.md)<br><br> [4.6.0已修正問題](./fixed-issues-4-6-0.md) | **非UUID AEM 6.5** <br> [4.6.0 Service Pack 3](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6-3%2Fcom.adobe.fmdita-6.5-hotfix-4.6.0.3.9.zip)<br>[4.6.0 Service Pack 1](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6-1%2Fcom.adobe.fmdita-6.5-hotfix-4.6.0.1.10.zip) <br> [4.6.0](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6%2Fcom.adobe.fmdita-6.5-4.6.0.164.zip) <br> **UUID AEM 6.5** <br> [4.6.0 Service Pack 3](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6-3%2Fcom.adobe.fmdita.uuid-6.5-hotfix-4.6.0.3.9.zip)<br>[4.6.0 Service Pack 1](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6-1%2Fcom.adobe.fmdita.uuid-6.5-hotfix-4.6.0.1.10.zip) <br> [4.6.0](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6%2Fcom.adobe.fmdita-6.5-uuid-4.6.0.164.zip) |
 | **AEM Guides 4.4.0** | [4.4.0升級指示](./upgrade-instructions-4-4.md)<br><br>[4.4.0新功能](./whats-new-4-4.md)<br><br> [4.4.0已修正問題](./fixed-issues-4-4.md) | **非UUID AEM 6.5** <br> [4.4.0](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-4%2Fcom.adobe.fmdita-6.5-4.4.0.40.zip) <br> **UUID AEM 6.5** <br>[4.4.0](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-4%2Fcom.adobe.fmdita-6.5-uuid-4.4.0.40.zip) |
 | **AEM Guides 4.3.0** | [4.3.1.5升級指示](./upgrade-instructions-4-3-1-5.md)<br><br> [4.3.1發行說明](./release-notes-4-3-1.md)<br><br>[4.3.0發行說明](./release-notes-4-3.md) | **非UUID AEM 6.5** <br>[4.3.1.5](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3-1-5%2Fcom.adobe.fmdita-6.5-hotfix-4.3.1.5.1.zip)<br> [4.3.1](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3-1%2Fcom.adobe.fmdita-6.5-4.3.1.390.zip) <br> [4.3.0](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3%2Fcom.adobe.fmdita-6.5-4.3.0.347.zip)<br> **UUID AEM 6.5** <br>[4.3.1.5](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3-1-5%2Fcom.adobe.fmdita.uuid-6.5-hotfix-4.3.1.5.1.zip)<br> [4.3.1](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3-1%2Fcom.adobe.fmdita-6.5-uuid-4.3.1.390.zip)<br>[4.3.0](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3%2Fcom.adobe.fmdita-6.5-uuid-4.3.0.347.zip) |

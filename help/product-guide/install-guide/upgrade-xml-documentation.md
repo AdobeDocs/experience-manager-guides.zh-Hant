@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: d63a5983409467bc036d6f17677df51019d1f39c
+source-git-commit: de79a2d63328fc6142b475a776dafd7e6d12f911
 workflow-type: tm+mt
-source-wordcount: '7012'
+source-wordcount: '8018'
 ht-degree: 0%
 
 ---
@@ -18,31 +18,31 @@ ht-degree: 0%
 >
 > 請依照產品的授權版本專屬的升級指示操作。
 
-您可以將目前的Experience Manager Guides版本升級至4.6.0 Service Pack 3版：
+您可以將目前的Experience Manager Guides版本升級至5.0.0版：
 
 
-- 如果您是使用4.6.0或4.6.0 Service Pack 1版，則可以直接升級至4.6.0 Service Pack 3。
-- 如果您是使用4.4、4.3.1或4.3.0版，則需升級至4.6.0版。
-- 如果您是使用4.2、4.2.1 (Hotfix 4.2.1.3)、4.1或4.1.x版，則必須先升級至4.4版，才能升級至4.6.0版。
+- 如果您是使用4.6.3、4.6.1、4.6或4.4版，則可以直接升級至5.0.0版。
+- 如果您是使用4.3.x、4.2、4.2.1 (Hotfix 4.2.1.3)、4.1或4.1.x版，則必須先升級至4.4版，才能升級至5.0.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用3.8.5之前的版本，請參閱[Experience Manager Guides說明PDF封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上產品特定安裝指南中的「升級Adobe Experience Manager Guides」一節。
+- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
 
 
 >[!NOTE]
 >
-> 升級Experience Manager Guides版本前，您必須先安裝AEM Service Pack。
+> 您必須先安裝AEM Service Pack，才能升級Experience Manager Guides版本。
 
 如需詳細資訊，請參閱下列程式：
 
-- [從3.8.5升級至4.0版](#id2256DK003E1)
-- [升級至4.2版](#id22A3F500SXA)
-- [升級至4.2.1版](#upgrade-version-4-2-1)
-- [升級至4.3.0版](#upgrade-version-4-3)
-- [升級至4.3.1版](#upgrade-version-4-3-1)
-- [升級至4.3.1.5版](#upgrade-version-4-3-1-5)
-- [升級至4.4.0版](#upgrade-version-4-4-0)
-- [升級至4.6.0版](#upgrade-version-4-6-0)
+- [從3.8.5升級至4.0版](#upgrade-from-version-385-to-version-40)
+- [升級至4.2版](#upgrade-to-version-42)
+- [升級至4.2.1版](#upgrade-to-version-421)
+- [升級至4.3.0版](#upgrade-to-version-430)
+- [升級至4.3.1版](#upgrade-to-version-431)
+- [升級至版本4.3.1.5](#upgrade-to-version-4315)
+- [升級至4.4.0版](#upgrade-to-version-440)
+- [升級至4.6.0版](#upgrade-to-version-460)
+- [升級至5.0.0版](#upgrade-to-version-500)
 
 
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 >
 > 在開始升級之前，請先進行完整的系統備份，以避免任何資料遺失。
 
-## 從3.8.5版升級至4.0版 {#id2256DK003E1}
+## 從3.8.5版升級至4.0版
 
 如果您使用的是Experience Manager Guides 3.8.5版，則可升級至Experience Manager Guides 4.0版。 使用升級功能，您不必解除安裝舊版Experience Manager Guides。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升級程式僅適用於3.8.5版到4.0版。如需從3.4版或更新版本升級至3.8.5的程式，請參閱[Experience Manager Guides說明PDF封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上產品特定安裝指南中的&#x200B;*升級Adobe Experience Manager Guides*&#x200B;一節。
+> 此升級程式僅適用於3.8.5版到4.0版。如需從3.4版或更新版本升級至3.8.5的程式，請參閱[Experience Manager Guides說明PDF封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的&#x200B;*升級Adobe Experience Manager Guides*&#x200B;一節。
 
 
 
@@ -76,8 +76,8 @@ ht-degree: 0%
 安裝4.0版之前，請先執行下列步驟：
 
 1. 此時請確定Experience Manager Guides為3.8.5版。
-1. 下載升級指令碼套件。 若要這麼做，請在[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)上搜尋「XML Documentation解決方案4.0升級套件」，此網站將會下載zip檔案。
-1. 透過封裝管理員將此封裝上傳到AEM並安裝此封裝。
+1. 下載升級指令碼套件。 若要這麼做，請在[XML Documentation軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)上搜尋「Adobe解決方案4.0升級套件」，此網站將會下載zip檔案。
+1. 透過封裝管理員將此封裝上傳至AEM並安裝此封裝。
 1. 安裝升級套件後，請以相同順序執行下列指定指令碼，並依照指定指示執行：
 
 **檢查升級相容性API**
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 | 端點 | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
-| 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman之類的代理程式執行。 |
+| 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman等代理程式執行。 |
 | 預期回應 | -   一旦移轉成功，您就可以安裝XML Documentation解決方案4.0版。<br>-   如果發生錯誤，請還原至最後一個查核點，並與您的客戶成功團隊共用錯誤記錄檔及API輸出。 |
 
 **移轉對應**：上述API會將來源位置下的所有資料移轉到目標位置。
@@ -115,8 +115,8 @@ ht-degree: 0%
 1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載4.0版套件：
 
    - 如果您使用UUID版本的軟體，請搜尋「適用於AEM 6.5的XML Documentation解決方案的4.0 UUID版本」。
-   - 如果您使用非UUID版本的軟體，請搜尋「適用於AEM 6.5的XML Documentation解決方案的4.0非UUID版本」。
-使用CRX Package Manager將套件上傳到現有的AEM伺服器執行個體並進行安裝。
+   - 如果您使用非UUID版本的軟體，請搜尋「適用於AEM 6.5的XML Documentation解決方案非UUID版本4.0」。
+使用AEM封裝管理員將封裝上傳到現有的CRX伺服器執行個體並進行安裝。
 
    >[!NOTE]
    >
@@ -129,7 +129,7 @@ ht-degree: 0%
    - 不會快取URL模式/libs/cq/security/userinfo.json 。
 1. 清除Dispatcher快取\（以清除任何`clientlibs`快取\）。
 
-## 升級至4.2版 {#id22A3F500SXA}
+## 升級至4.2版
 
 升級至版本4.2取決於目前的Experience Manager Guides版本。
 
@@ -214,7 +214,7 @@ ht-degree: 0%
    >
    > 重新整理並確認自訂變更和Experience Manager Guides後處理步驟存在於最終工作流程模型中。
 
-1. 驗證&#x200B;**DAM更新資產工作流程**&#x200B;後，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
+1. 驗證&#x200B;**DAM更新資產工作流程**&#x200B;後，請檢查對應的啟動器設定。 若要這麼做，請前往AEM工作流程介面並開啟啟動器。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
@@ -252,7 +252,7 @@ ht-degree: 0%
 
 - 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 \(可選：您可以傳遞地圖的特定路徑來為其建立索引，預設情況下，所有地圖都會建立索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- 此API將傳回jobId。 若要檢查作業的狀態，您可以傳送作業識別碼的GET要求至相同的端點 — 
+- 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點 — 
 
 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
@@ -299,7 +299,7 @@ ht-degree: 0%
 1. 執行先前的步驟，再次執行索引指令碼。
 
 
-## 升級至4.2.1版 {#upgrade-version-4-2-1}
+## 升級至4.2.1版
 
 >[!TIP]
 >
@@ -325,9 +325,9 @@ ht-degree: 0%
 
 ## 安裝4.2.1版
 
-1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載4.2.1版本的套件。
+1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載4.2.1版套件。
 1. 安裝4.2.1版本的套件。
-1. 您可以選擇點選觸發器，以啟動翻譯對應升級工作。 如需詳細資訊，請參閱[透過Servlet啟用指令碼的觸發程式](#enable-trigger-serverlet)。
+1. 您可以選擇點選觸發器，以啟動翻譯對應升級工作。 如需詳細資訊，請參閱[透過Servlet啟用指令碼的觸發程式](#enable-trigger-of-script-via-a-servlet-for-421)。
 
 
 1. 完成套件安裝後，請等候記錄中的下列訊息：
@@ -345,9 +345,9 @@ ht-degree: 0%
 1. 安裝套件後清除瀏覽器快取。
 1. 繼續升級自訂，如下一節所述。
 
-### 透過Servlet啟用指令碼的觸發{#enable-trigger-serverlet}
+### 透過Servlet啟用指令碼觸發（適用於4.2.1）
 
-POST：
+張貼：
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -431,7 +431,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    >
    > 重新整理並確認自訂變更和Experience Manager Guides後處理步驟存在於最終工作流程模型中。
 
-1. 驗證&#x200B;**DAM更新資產工作流程**&#x200B;後，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
+1. 驗證&#x200B;**DAM更新資產工作流程**&#x200B;後，請檢查對應的啟動器設定。 若要這麼做，請前往AEM工作流程介面並開啟啟動器。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
@@ -480,7 +480,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 - 工作完成後，上述GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
 
 
-## 升級至4.3.0版 {#upgrade-version-4-3}
+## 升級至4.3.0版
 
 升級至4.3.0版須視目前的Experience Manager Guides版本而定。 如果您是使用4.2或4.2.x版，則可以直接升級至4.3.0版。
 
@@ -524,7 +524,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
-   | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman之類的代理程式執行。 |
+   | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman等代理程式執行。 |
    | 預期回應 | 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點。<br>範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 端點 | /bin/guides/reports/upgrade |
@@ -538,7 +538,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 
 
-## 升級至4.3.1版 {#upgrade-version-4-3-1}
+## 升級至4.3.1版
 
 升級至4.3.1版須視目前的Experience Manager Guides版本而定。 如果您是使用4.3.0、4.2或4.2.1版，則可以直接升級至4.3.1版。
 
@@ -559,7 +559,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載4.3.1版本的套件。
 1. 安裝4.3.1版本的套件。
-1. 您可以選擇點選觸發器，以啟動翻譯對應升級工作。 如需詳細資訊，請參閱[透過Servlet啟用指令碼的觸發程式](#enable-trigger-serverlet-4-3-1)。
+1. 您可以選擇點選觸發器，以啟動翻譯對應升級工作。 如需詳細資訊，請參閱[透過Servlet啟用指令碼的觸發程式](#enable-trigger-of-script-via-a-servlet-for-431)。
 
 
 1. 完成套件安裝後，請等候記錄中的下列訊息：
@@ -577,9 +577,9 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 1. 安裝套件後清除瀏覽器快取。
 1. 繼續升級自訂，如下一節所述。
 
-### 透過Servlet啟用指令碼的觸發{#enable-trigger-serverlet-4-3-1}
+### 透過Servlet啟用指令碼觸發（適用於4.3.1）
 
-POST：
+張貼：
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -659,7 +659,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    >
    > 重新整理並確認自訂變更和Experience Manager Guides後處理步驟存在於最終工作流程模型中。
 
-1. 驗證&#x200B;**DAM更新資產工作流程**&#x200B;後，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
+1. 驗證&#x200B;**DAM更新資產工作流程**&#x200B;後，請檢查對應的啟動器設定。 若要這麼做，請前往AEM工作流程介面並開啟啟動器。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
@@ -725,7 +725,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
-   | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman之類的代理程式執行。 |
+   | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman等代理程式執行。 |
    | 預期回應 | 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點。<br>範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 端點 | /bin/guides/reports/upgrade |
@@ -739,22 +739,22 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 
 
-## 升級至4.3.1.5版 {#upgrade-version-4-3-1-5}
+## 升級至版本4.3.1.5
 
-升級至4.3.1.5版須視目前的Experience Manager Guides版本而定。 如果您是使用4.3.1版，則可以直接升級至4.3.1.5版。
+升級至版本4.3.1.5取決於目前版本的Experience Manager Guides。 如果您使用的是4.3.1版，則可以直接升級至4.3.1.5版。
 
 
 
-## 安裝4.3.1.5版
+## 安裝版本4.3.1.5
 
-1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載4.3.1.5版本的套件。
-1. 安裝4.3.1.5版本的套件。
+1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載4.3.1.5版本套件。
+1. 安裝版本4.3.1.5封裝。
 
 1. 請等候安裝程式順利完成。
 1. 繼續升級自訂，如下一節所述。
 
 
-## 安裝4.3.1.5版之後
+## 安裝版本4.3.1.5之後
 
 
 >[!NOTE]
@@ -779,9 +779,9 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 
 
-## 升級至4.4.0版 {#upgrade-version-4-4-0}
+## 升級至4.4.0版
 
-升級至4.4.0版須視目前的Experience Manager Guides版本而定。 如果您是使用4.3.1、4.3.0、4.2或4.2.1版(Hotfix 4.2.1.3) ，則可以直接升級至4.4.0版
+升級至4.4.0版須視目前的Experience Manager Guides版本而定。 如果您是使用4.3.1、4.3.0、4.2或4.2.1版(Hotfix 4.2.1.3)，則可以直接升級至4.4.0版
 
 >[!NOTE]
 >
@@ -791,16 +791,16 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 在開始Experience Manager Guides 4.4.0升級程式之前，請確定您擁有：
 
-1. 已升級至Experience Manager Guides 4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，並完成各自的安裝步驟。
+1. 已升級至Experience Manager Guides 4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，並已完成各自的安裝步驟。
 1. （選用）已關閉所有翻譯工作。
 1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
 
 
 ## 安裝4.4.0版
 
-1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載4.4.0版本的套件。
+1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載4.4.0版套件。
 1. 安裝4.4.0版本的套件。
-1. 您可以選擇點選觸發器，以啟動翻譯對應升級工作。 如需詳細資訊，請參閱[透過Servlet啟用指令碼的觸發程式](#enable-trigger-serverlet-4-4-0)。
+1. 您可以選擇點選觸發器，以啟動翻譯對應升級工作。 如需詳細資訊，請參閱[透過Servlet啟用指令碼的觸發程式](#enable-trigger-of-script-via-a-servlet)。
 
 1. 完成套件安裝後，請等候記錄中的下列訊息：
 
@@ -862,7 +862,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    >
    > 重新整理並確認自訂變更和Experience Manager Guides後處理步驟存在於最終工作流程模型中。
 
-1. 驗證&#x200B;**DAM更新資產工作流程**&#x200B;後，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
+1. 驗證&#x200B;**DAM更新資產工作流程**&#x200B;後，請檢查對應的啟動器設定。 若要這麼做，請前往AEM工作流程介面並開啟啟動器。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
@@ -926,7 +926,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
-   | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman之類的代理程式執行。 |
+   | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman等代理程式執行。 |
    | 預期回應 | 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點。<br>範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 端點 | /bin/guides/reports/upgrade |
@@ -937,13 +937,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 1. 如果您在步驟1中變更了`queryLimitReads`的值，請恢復為預設值或先前的現有值。
 
-### 透過Servlet啟用指令碼的觸發{#enable-trigger-serverlet-4-4-0}
+### 透過Servlet啟用指令碼的觸發
 
 >[!NOTE]
 >
 > 如果您從4.3.0或4.3.1升級，則不需要執行這些步驟。
 
-POST：
+張貼：
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -983,13 +983,13 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 **上層主題：**[&#x200B;下載並安裝](download-install.md)
 
 
-## 升級至4.6.0版 {#upgrade-version-4-6-0}
+## 升級至4.6.0版
 
 >[!TIP]
 >
 > 建議您在4.6.0或4.6.0 Service Pack 1版之上安裝4.6.0 Service Pack 3。 4.6.0 Service Pack 3版本的升級程式遵循與4.6.0版本相同的步驟。
 
-升級至4.6.0版須視目前的Experience Manager Guides版本而定。 如果您是使用4.4.0、4.3.1、4.3.0、4.2或4.2.1版(Hotfix 4.2.1.3)，則可以直接升級至4.6.0版。
+升級至4.6.0版須視目前的Experience Manager Guides版本而定。 如果您是使用4.4.0、4.3.1、4.3.0、4.2或4.2.1版(Hotfix 4.2.1.3)，可以直接升級至4.6.0版。
 
 >[!NOTE]
 >
@@ -999,7 +999,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 在開始Experience Manager Guides 4.6.0升級程式之前，請確定您擁有：
 
-1. 已升級至Experience Manager Guides 4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，並完成各自的安裝步驟。
+1. 已升級至Experience Manager Guides 4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，並已完成各自的安裝步驟。
 1. （選用）已關閉所有翻譯工作。
 1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
 
@@ -1008,7 +1008,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載4.6.0版本的套件。
 1. 安裝4.6.0版本的套件。
-1. 您可以選擇點選觸發器，以啟動翻譯對應升級工作。 如需詳細資訊，請參閱[透過Servlet啟用指令碼的觸發程式](#enable-trigger-serverlet-4-6-0)。
+1. 您可以選擇點選觸發器，以啟動翻譯對應升級工作。 如需詳細資訊，請參閱[透過Servlet啟用指令碼的觸發程式](#enable-trigger-of-script-via-a-servlet)。
 
 1. 完成套件安裝後，請等候記錄中的下列訊息：
 
@@ -1068,7 +1068,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
    >
    > 重新整理並確認自訂變更和Experience Manager Guides後處理步驟存在於最終工作流程模型中。
 
-1. 驗證&#x200B;**DAM更新資產工作流程**&#x200B;後，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
+1. 驗證&#x200B;**DAM更新資產工作流程**&#x200B;後，請檢查對應的啟動器設定。 若要這麼做，請前往AEM工作流程介面並開啟啟動器。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
@@ -1126,7 +1126,162 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 >[!NOTE]
 >
-> 如果您使用自訂結構描述，則必須在&#x200B;**整合目錄**&#x200B;選項中定義AEM儲存庫中自訂DTD和XSD catalog.xml檔案的路徑。
+> 如果您使用自訂結構描述，您必須在&#x200B;**整合目錄**&#x200B;選項中，定義AEM儲存庫中自訂DTD和XSD catalog.xml檔案的路徑。
+
+
+
+
+## 處理`'fmdita rewriter'`衝突的步驟
+
+Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-guide/conf-output-generation.md#custom-rewriter)&#x200B;模組，可處理交叉對映時產生的連結（兩個不同對映之主題之間的連結）。
+
+如果您的程式碼基底中有另一個自訂Sling重寫程式，請使用大於50的`'order'`值，因為Experience Manager Guides Sling重寫程式使用`'order'` 50。  若要覆寫此值，您需要大於50的值。 如需詳細資訊，請檢視[輸出重寫管道](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)。
+
+在此升級期間，由於`'order'`值從1000變更為50，因此您必須將現有的自訂重寫程式（若有的話）與`'fmdita-rewriter'`合併。
+
+
+## 升級至5.0.0版
+
+>[!TIP]
+>
+> 升級至5.0.0版須視目前的Experience Manager Guides版本而定。 如果您是使用4.6.3、4.6.1、4.6.0或4.4版，則可以直接升級至5.0.0版。
+
+>[!NOTE]
+>
+> 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
+
+****必備條件****
+
+在開始Experience Manager Guides 5.0.0升級程式之前，請確定您擁有：
+
+1. 已升級至Experience Manager Guides 4.6.3、4.6.1、4.6.0或4.4版，並完成各自的安裝步驟。
+1. （選用）已關閉所有翻譯工作。
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
+
+
+## 安裝5.0.0版
+
+1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載5.0.0版本的套件。
+1. 安裝5.0.0版本的套件。
+1. 您可以選擇點選觸發器，以啟動翻譯對應升級工作。 如需詳細資訊，請參閱[透過Servlet啟用指令碼的觸發程式](#enable-trigger-of-script-via-a-servlet)。
+
+1. 完成套件安裝後，請等候記錄中的下列訊息：
+
+   `Completed the post deployment setup script`
+
+   上述訊息表示安裝的所有步驟均已完成。
+
+   如果您遇到以下任何錯誤首碼，請向您的客戶成功團隊報告：
+
+   - 部署後安裝指令碼發生錯誤
+   - 移植翻譯MAP時發生例外狀況
+   - 無法將屬性的轉譯對應從v1連線至v2
+1. 升級氧氣聯結器外掛程式5.0.0版\（如有需要\）。
+1. 安裝套件後清除瀏覽器快取。
+
+## 安裝5.0.0版之後
+
+安裝Experience Manager Guides後，您可以將適用於新安裝版本的各種設定合併到您的設定中。
+
+>[!NOTE]
+>
+> 可以自訂dam-update-asset模型。 因此，如果已完成任何自訂，則需要將自訂和Experience Manager Guides同步到模型的工作副本中。
+
+1. **DAM更新資產工作流程\（後續處理變更\）：**
+
+1. 開啟URL：
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. 選取&#x200B;**DAM更新資產工作流程**。
+1. 按一下&#x200B;**編輯**。
+1. 如果&#x200B;**DXML後續程式啟動器**&#x200B;元件存在，請確定自訂已同步。
+1. 如果&#x200B;**DXML後續處理啟動器**&#x200B;元件不存在，請執行下列步驟以插入它：
+
+1. 按一下「**插入元件**」\(負責Experience Manager Guides後續處理，作為程式的最後一個步驟\)。
+1. 使用下列詳細資料設定&#x200B;**處理序步驟**：
+
+   **一般標籤**
+
+   **標題：** DXML後續程式發起人
+
+   **描述**： DXML後續處理啟動器步驟將觸發已修改/建立的資產的DXML後續處理的Sling工作
+
+   **處理標籤**
+
+   - 從&#x200B;**程式**&#x200B;下拉式清單中選取&#x200B;**DXML程式後啟動器**
+
+   - 選取&#x200B;**處理常式進階**
+
+   - 選取&#x200B;**完成**
+
+1. 完成變更後，請按一下右上角的&#x200B;**同步**。 您將會收到成功通知。
+
+   >[!NOTE]
+   >
+   > 重新整理並確認自訂變更和Experience Manager Guides後處理步驟存在於最終工作流程模型中。
+
+1. 驗證&#x200B;**DAM更新資產工作流程**&#x200B;後，請檢查對應的啟動器設定。 若要這麼做，請前往AEM工作流程介面並開啟啟動器。
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   尋找下列兩個啟動器\（若有需要\）並進行變更\（應該為作用中\），其對應至&#x200B;**DAM更新資產工作流程**：
+
+1. 已針對&#x200B;**DAM更新資產工作流程**&#x200B;建立「*節點*」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39;應該有`"event-user-data:changedByWorkflowProcess"`。
+   - 針對&#x200B;**DAM更新資產工作流程 —**&#x200B;的「*節點已修改*」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList`應該有`"event-user-data:changedByWorkflowProcess"`。
+
+1. 升級完成後，請確定所有自訂/覆蓋圖均已驗證並更新，以符合新的應用程式程式碼。 以下提供一些範例：
+   - 從/libs/fmditor/libsis覆寫的任何元件都應與新的產品程式碼進行比較，且更新應在/apps下方的覆寫檔案中完成。
+   - 產品中使用的任何clientlib類別都應檢閱是否有變更。 任何覆寫的設定\（範例如下\）都應與最新的設定進行比較，以取得最新的功能：
+   - elementmapping.xml
+   - ui\_config.json\（可能已在資料夾設定檔中設定\）
+   - 已修改`com.adobe.fmdita.config.ConfigManager`
+
+1. 如果您已在damAssetLucene中新增任何自訂，您可能需要再次套用它們。 進行這些變更後，將重新索引設定為true。 這會使用自訂重新索引所有現有節點。 完成後，重新索引標幟將再次設定為false。 視系統中的資產數量而定，這可能需要幾個小時的時間。
+
+## 重新索引Experience Manager Guides索引的步驟
+
+1. 開啟`crx/de`並導覽至索引路徑： `/oak:index/guidesAssetProperties`
+2. 將重新索引屬性設定為`true` （預設為`false`），然後按一下&#x200B;**全部儲存**。
+3. 重新索引完成後，重新索引屬性會再次設定為`false`，而重新索引計數會增加1。
+
+   >[!NOTE]
+   >
+   > 視資料數量而定，這可能需要幾分鐘的時間。
+4. 對其他新增或修改的索引執行相同的步驟： `guidesBulkActivation`、`guidesPeerLinkIndex`和`guidesKonnectTemplateIndex`。
+
+## 索引現有內容的步驟
+
+
+
+執行以下步驟來索引現有內容：
+
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 || 範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
+
+- 工作完成後，上述GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
+
+
+>[!NOTE]
+>
+> 如果您使用自訂結構描述，您必須在&#x200B;**整合目錄**&#x200B;選項中，定義AEM儲存庫中自訂DTD和XSD catalog.xml檔案的路徑。
 
 
 
@@ -1141,7 +1296,13 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 
 
+## 重新索引damAssetLucene的步驟
 
+已更新包含Guides的damAssetLucene的索引定義。 請參閱https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460 ，以在升級至5.0.0版後重新索引damAssetLucene。
+
+>[!NOTE]
+>
+> 在依照檔案指示進行時，請確定兩個屬性（對於/oak：index/damAssetLucene而言，reindex=true和reindex-async=true）同時透過儲存作業更新。
 
 
 **父級主題：** [下載並安裝](download-install.md)

@@ -1,10 +1,10 @@
 ---
-title: 從網頁編輯器翻譯檔案
+title: 從地圖主控台翻譯檔案
 description: 從網頁編輯器將您的內容翻譯成多種語言。 瞭解如何在AEM Guides中建立翻譯專案、新增規則、檢視版本及關閉不同步的檔案。
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: f29c1225fcb95dbe05a3fc8aa471c88dc7b8ffb2
+source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%
