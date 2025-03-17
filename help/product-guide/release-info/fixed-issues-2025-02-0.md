@@ -2,9 +2,9 @@
 title: 發行說明 | 已修正2025.02.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2025.02.0版中的錯誤修正。
 exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+source-git-commit: 71971c25094b842cb7a0bd1f5bd2acbca4212a66
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -102,3 +102,4 @@ Adobe已找出下列2025.02.0版的已知問題：
 - 當您使用影像做為`<keyref>`時，影像的&#x200B;**參考型別**&#x200B;不會顯示在&#x200B;**多媒體報告**&#x200B;中。
 - 在某些情況下，CSS檔案的鎖定功能無法如預期運作，以致於其他使用者鎖定檔案時，仍能編輯及儲存檔案。
 - 如果預設集名稱有任何大寫字元，則套用預設集設定變更不會反映在已在地圖中建立的預設集。
+- 在啟用Unified Shell的情況下開啟DITA Map時，編輯器會間歇性地重新整理。

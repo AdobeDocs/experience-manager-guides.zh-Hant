@@ -5,9 +5,9 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # 自訂工具列 {#id172FB00L0V6}
 
 依預設，Web編輯器會隨附任何DITA編輯器所需的最常見編輯功能。 編輯器中有插入型別清單\（編號或專案符號\）、互動參照、內容參照、表格、段落和字元格式等元素的功能。 除了這些基本元素之外，您還可以自訂Web編輯器來插入在編寫環境中使用的元素。
+
+>[!NOTE]
+>
+> 從舊版UI移轉至新AEM Guides UI (適用於2502和5.0版的AEM Guides)時，`ui_config`的更新必須轉換為更靈活且模組化的UI設定。 此框架可協助您順暢地採用對editor_toolbar和其他目標Widget的變更（如適用）。 如需詳細資訊，請檢視[轉換UI組態](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)的總覽。
 
 自訂網頁編輯器的工具列有兩種方式：
 

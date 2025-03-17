@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides發行藍圖2024
 description: 取得關於Adobe Experience Manager Guides現場直播和即將發行和Adobe Experience Manager Guides as a Cloud Service的資訊
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
+source-git-commit: 18f15390fa26229f5d14552835a3c7e645b3e81d
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '366'
 ht-degree: 30%
 
 ---
@@ -27,13 +27,13 @@ Experience Manager Guides as a Cloud Service預計發行版本如下：
 
 | 發行 | 事件 | 計劃 | 最新資訊 | 升級指示 | 已修正的問題 | 狀態 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.04.0 | 自動更新 | ~ 2025年4月 |  |  |  | 目標 |
+| Adobe Experience Manager Guides 2025.04.0 | 自動更新 | 2025 年 4 月 21-23 日 |  |  |  | 目標 |
 
 ### 即時發行
 
 | 發行 | 事件 | 計劃 | 最新資訊 | 升級指示 | 已修正的問題 | 狀態 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.2.0 | 自動更新 | 2025 年 2 月 24 至 26 日 | [這裡](whats-new-2025-02-0.md) | [這裡](upgrade-instructions-2025-02-0.md) | [這裡](fixed-issues-2025-02-0.md) | 進行中 |
+| Adobe Experience Manager Guides 2025.2.0 | 自動更新 | 2025 年 3 月 10 至 12 日 | [這裡](whats-new-2025-02-0.md) | [這裡](upgrade-instructions-2025-02-0.md) | [這裡](fixed-issues-2025-02-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.12.0 | 自動更新 | 2025 年 1 月 13 至 15 日 |  | [這裡](upgrade-instructions-2024-12-0.md) | [這裡](fixed-issues-2024-12-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.10.0 | Service Pack 1 | 2024年10月29日 | - | - | [這裡](fixed-issues-2024-10-0-sp1.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.10.0 | 自動更新 | 2024 年 10 月 14-16 日 | [這裡](whats-new-2024-10-0.md) | [這裡](upgrade-instructions-2024-10-0.md) | [這裡](fixed-issues-2024-10-0.md) | 已更新 |
@@ -53,6 +53,7 @@ Experience Manager Guides as a Cloud Service預計發行版本如下：
 
 | 發行 | 事件 | 計劃 | 最新資訊 | 升級指示 | 狀態 |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 4.6.0 | Service Pack 4 | 2025年4月4日 |  |  | 目標 |
 | Adobe Experience Manager Guides 5.1.0 | 發行 | ~ 2025年8月 |  |  | 目標 |
 
 ### 即時發行
