@@ -4,7 +4,7 @@ description: 瞭解如何在AEM Guides中建立稽核任務並傳送稽核主題
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    隨即顯示「內容」頁面。
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){align="left"}
 
 1. 在「內容」頁面上，選取您要共用以供檢閱的主題版本。
 
@@ -214,7 +214,7 @@ Experience Manager Guides可讓您同時在DITA map中傳送一或多個主題�
 
    隨即顯示「內容」頁面，其中包含從對應檔案參照的所有主題。 如果您的DITA map包含巢狀對映，則巢狀對映中的主題也會在此處列出。
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){align="left"}
 
 1. 在「內容」頁面上，選取您要共用以供檢閱的主題版本。
 

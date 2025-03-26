@@ -4,7 +4,7 @@ description: 瞭解如何在AEM Guides的DITA map中檢視每個主題的翻譯�
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -26,6 +26,6 @@ ht-degree: 0%
    >
    > 您可以根據內容的翻譯狀態\（如不同步、缺少副本、進行中或同步\）、Source型別\（如全部、DITA、DITA map或資源\）和修改日期來進一步篩選內容。 此外，您可以輸入關鍵字來搜尋特定主題。 如果已進行任何變更，您可以使用&#x200B;**重新整理**&#x200B;來更新狀態。
 
-   ![](images/translation-status-new.png){width="800" align="left"}
+   ![](images/translation-status-new.png){align="left"}
 
 **上層主題：**[&#x200B;內容翻譯概觀](translation.md)

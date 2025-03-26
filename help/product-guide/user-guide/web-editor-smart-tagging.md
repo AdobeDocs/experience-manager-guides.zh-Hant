@@ -4,7 +4,7 @@ description: 瞭解如何在AEM Guides中新增智慧標籤。 使用XML關鍵�
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Adobe Experience Manager Guides隨附新增智慧標籤的功能。 您可以使
 1. 選取「執行後續處理」選項。 成功初始化工具時會顯示訊息。
 1. 系統會自動擷取標籤，並可在所選主題的「屬性」頁面上看到標籤。
 
-   ![](images/properties-smart-tags.png){width="800" align="left"}
+   ![](images/properties-smart-tags.png){align="left"}
 
    >[!NOTE]
    >

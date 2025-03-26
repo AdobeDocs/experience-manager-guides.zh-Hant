@@ -4,7 +4,7 @@ description: 瞭解如何使用AEM Guides中的DITA-OT發佈將中繼資料傳�
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 1. 選取並開啟您要將中繼資料欄位傳遞到的輸出預設集。 例如，選取「PDF輸出預設集」。 確定它是使用&#x200B;**DITA-OT**&#x200B;選項建立的。
 1. 從&#x200B;**檔案屬性**&#x200B;下拉式清單中，選取您要傳遞至DITA-OT發佈的中繼資料。
 
-   ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
+   ![](images/custom-metadata-output-preset-new.png){align="left"}
 
    「屬性」下拉式清單會同時列出自訂和預設屬性。 例如，在上述熒幕擷圖中，`dc:description`、`dc:language`、`dc:title`和`docstate`為預設屬性。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 1. 選取並編輯您要將中繼資料欄位傳遞到的輸出預設集。 例如，選取「PDF輸出預設集」。
 1. 在選取的輸出預設集中選取&#x200B;**DITA-OT**&#x200B;選項。
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){align="left"}
 
 1. 從屬性下拉式清單中選取您要傳遞至DITA-OT發佈的中繼資料。
 

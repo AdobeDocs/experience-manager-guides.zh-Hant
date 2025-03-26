@@ -4,7 +4,7 @@ description: 瞭解如何使用Adobe Experience Manager Guides中的自訂範本
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Adobe Experience Manager Guides可讓您建立以下型別的DITA主題：主題
 
 主題是在指定的路徑中建立。 此外，主題也會在編輯器中開啟以進行編輯。
 
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## 從Assets UI建立主題
 
@@ -61,7 +61,7 @@ Adobe Experience Manager Guides可讓您建立以下型別的DITA主題：主題
 
 1. 在Blueprint頁面上，選取您要建立的DITA檔案型別，然後選取&#x200B;**下一步**。
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){align="left"}
 
    依預設，Experience Manager Guides提供最常用的DITA主題範本。 您可以根據組織需求設定更多主題範本，檢視「安裝」中的&#x200B;*設定撰寫範本*，並為您的設定設定Adobe Experience Manager Guides。
 

@@ -4,7 +4,7 @@ description: 瞭解如何在AEM指南中建立大量啟用地圖集合。
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 DITA map檔案會新增至您的大量啟動對映集合中。
 
-![已建立大量啟動集合](images/bulk-activation-collection-created.png){width="800" align="left"}
+![已建立大量啟動集合](images/bulk-activation-collection-created.png){align="left"}
 
 ## 地圖和預設集索引標籤
 
@@ -87,7 +87,7 @@ DITA map檔案會新增至您的大量啟動對映集合中。
 
 - **Modified**：指出是否在上次發行之後更新DITA map。 根據此資訊，您可以決定是否啟動此DITA map的輸出。
 - **已發佈**：顯示上次發佈（或已啟動）輸出的日期和時間。 如果您選取連結，會顯示「啟用結果」頁面，其中包含記錄檔，內含啟用內容的根路徑相關資訊。
-  ![已建立大量啟動集合稽核歷程記錄標籤](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![已建立大量啟動集合稽核歷程記錄標籤](images/bulk-collection-audit-history.png){align="left"}
 
   *在&#x200B;**稽核歷史記錄**索引標籤中檢視已啟動地圖輸出的相關資訊。*
 

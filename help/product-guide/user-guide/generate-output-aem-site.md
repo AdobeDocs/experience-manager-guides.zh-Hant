@@ -4,7 +4,7 @@ description: 瞭解AEM Sites的增量輸出產生如何在AEM Guides中運作。
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 1. 選取您要產生增量輸出的AEM Sites預設集。
 1. 在&#x200B;**主題**&#x200B;索引標籤中，選取您要發佈的主題。
 
-   ![aem網站主題清單](images/aem-presets-topic-list.png) {width="800" align="left"}
+   ![aem網站主題清單](images/aem-presets-topic-list.png) {align="left"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ ht-degree: 0%
    >
    > 如果您已將新主題新增至DITA map，您將無法從此處產生這些新主題。 您必須先使用DITA map發佈函式發佈新加入的主題。
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){align="left"}
 
 1. 選取&#x200B;**重新產生**。
 

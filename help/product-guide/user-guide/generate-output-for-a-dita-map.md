@@ -4,7 +4,7 @@ description: 從AEM Guides中的Map主控台和Map儀表板產生DITA map的輸�
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 選取要用來產生輸出的一或多個輸出預設集。
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){align="left"}
 
 1. 選取&#x200B;**產生**&#x200B;圖示以啟動輸出產生程式。
 

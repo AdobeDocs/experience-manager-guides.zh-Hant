@@ -4,7 +4,7 @@ description: 瞭解如何在AEM Guides中檢閱主題並將功能作為檢閱者
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    使用DITA map啟動稽核工作流程時，會出現下列畫面：
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){align="left"}
 
    此畫面提供下列選項：
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
    地圖中的所有主題都會顯示為單一複合檔案。 允許檢閱者檢閱的主題會正常顯示。 不允許稽核的主題不顯示。
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){align="left"}
 
    在上述熒幕擷圖中，一般說明主題會與目前的稽核者共用，以稽核，正常顯示。 不過，下一個主題「小眾測試版歷程記錄」內容不會共用以供檢閱，且會以唯讀模式顯示。 目前成為焦點的主題也會在目錄中反白顯示。
 
    選取並共用一個或多個主題以供稽核時，畫面如下：
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){align="left"}
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 當您檢視單一主題時，您會獲得另一個選項，可切換回檔案檢視。 在下列熒幕擷圖中，會開啟對應檔案中的特定主題以供檢閱。 反白顯示的選項 — **顯示檔案檢視**&#x200B;可讓使用者切換回對應檔案的檔案檢視。
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){align="left"}
 
 **使用不同型別的註解工具** — 您可以反白文字、以文字標示、插入文字或新增註解註解，以新增內嵌註解。 「註解」工具列中提供的不同型別的註解工具說明如下：
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 
 插入任何註解時，註解快顯視窗會出現。 在快顯視窗中提供其他註解或資訊後，按下Enter即可提交該註解或資訊。 新增註解後，您就可以選擇將附件新增至該註解。
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){align="left"}
 
 在上述熒幕擷圖中，檔案包含醒目提示註解的快顯視窗，註解也會新增至「註解」面板中。 兩個位置都有檔案附件圖示![](images/file-attach-review.svg)和註解可供使用。
 
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 - 選取過時的註解圖示\(![](images/outdated-comment-icon.svg)\)會顯示檔案最新版本與註解版本之間的差異。 版本編號\（正在比較的版本\）會顯示在檔案頂端。
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){align="left"}
 
   >[!NOTE]
   >

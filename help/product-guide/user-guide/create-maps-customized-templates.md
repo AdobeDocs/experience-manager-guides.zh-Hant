@@ -4,7 +4,7 @@ description: 瞭解如何建立自訂範本、使用範本建立新的地圖檔�
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Adobe Experience Manager Guides可讓您從dita-templates資料夾建立自訂�
 
 1. 在&#x200B;**Assets UI**&#x200B;中，導覽至dita-templates資料夾。
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){align="left"}
 
 1. 如果要建立&#x200B;**主題**&#x200B;範本，請開啟&#x200B;**主題**&#x200B;資料夾。 如果要建立&#x200B;**對應**&#x200B;範本，請開啟&#x200B;**對應**&#x200B;資料夾。
 1. 選取&#x200B;**建立\> DITA範本**。

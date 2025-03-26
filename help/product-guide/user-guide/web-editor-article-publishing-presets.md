@@ -4,7 +4,7 @@ description: 從網頁編輯器建立輸出預設集。 瞭解如何在AEM Guide
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -41,21 +41,21 @@ ht-degree: 0%
    會建立知識庫預設集。
 
 
-   ![新](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+   ![新](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 建立預設集後，即可產生特定知識庫文章的輸出。 若要這麼做，請導覽至&#x200B;**文章**&#x200B;標籤，並選取您要產生輸出的主題。
 1. 選取頂端的&#x200B;**產生輸出**&#x200B;以產生輸出。
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. 在&#x200B;**確認要發佈的檔案**&#x200B;提示中，選取您要發佈的檔案並透過選取&#x200B;**發佈**&#x200B;進行確認。
 
-   ![新](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![新](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 您將檢視輸出產生程式的狀態。 **主題**&#x200B;欄會列出正在產生輸出的主題，而&#x200B;**狀態**&#x200B;欄會顯示每個主題的發佈狀態。
 
 
-![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+![](images/add-preset-output-generated_cs.png){align="left"}
 
 若要檢視輸出，請關閉[產生的輸出]對話方塊，並在預設頁面上選取&#x200B;**檢視輸出**。
 

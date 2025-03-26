@@ -4,7 +4,7 @@ description: 在AEM Guides中啟動DITA map的輸出。 瞭解如何在發佈執
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 1. 選取您要發佈的集合，並選取&#x200B;**開啟**。
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){align="left"}
 
 1. \（*選擇性*\）從左側邊欄套用必要的篩選器，以根據其修改的\(status\)、輸出預設集或語言來篩選對映。
 

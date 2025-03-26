@@ -4,7 +4,7 @@ description: 從編輯器撰寫Markdown檔案。 瞭解如何在AEM Guides中建
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Features available in the tab bar are explained as follows:
 
 工具列位於標籤列的正下方。 工具列中的可用功能說明如下：
 
-![](images/markdown-main-toolbar.png){width="800" align="left"}
+![](images/markdown-main-toolbar.png){align="left"}
 
 | 功能 | 描述 |
 |----------------|----------------|
@@ -104,7 +104,7 @@ Features available in the tab bar are explained as follows:
 
 對於Markdown製作，編輯器支援三種不同的檢視模式，以輔助內容建立和格式化：
 
-![](images/markdown-footer.png){width="800" align="left"}
+![](images/markdown-footer.png){align="left"}
 
 * 來源
 * 並排

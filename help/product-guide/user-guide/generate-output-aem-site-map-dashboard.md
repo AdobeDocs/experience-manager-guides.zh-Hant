@@ -4,7 +4,7 @@ description: 從地圖控制面板在AEM Guides中建立及設定AEM網站預設
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 連結內容的另一種方式是使用`peer` `@scope`建立連結。 對於此類內容，在執行階段會透過從DITA map的發佈內容中選取檔案標題和連結主題的已設定內容來解析連結。 下列熒幕擷圖顯示具有`peer` `@scope`之連結的「屬性」面板：
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 為簡化複雜地圖及連結至其他地圖中其他主題之主題的發佈作業，Adobe Experience Manager Guides可讓您設定每個輸出預設集的發佈內容。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    您可以取得「AEM預設集設定」和「發佈內容」標籤。
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){align="left"}
 
 1. 開啟&#x200B;**發佈內容**&#x200B;標籤。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    依預設，所有連結的主題都會選取其最新的輸出預設集和地圖。
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){align="left"}
 
 1. 若要變更DITA map和預設集的預設選項，請選取&#x200B;**編輯** \（在主工具列中\）。
 

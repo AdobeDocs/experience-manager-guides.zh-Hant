@@ -4,7 +4,7 @@ description: 探索Adobe Experience Manager Guides中不同版本檔案的標籤
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Experience Manager Guides可讓您將標籤新增至檔案的不同版本�
 
 若要從主題中刪除版本標籤，請使用針對「版本標籤管理」對話方塊中新增的每個標籤提供的&#x200B;**移除**&#x200B;圖示。
 
-![](images/remove-version-label.png){width="800" align="left"}
+![](images/remove-version-label.png){align="left"}
 
 
 ## 從Assets UI使用標籤

@@ -4,7 +4,7 @@ description: 在AEM Guides中，從存放庫面板或地圖檢視面板產生輸
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
    - **對應**：列出包含所選主題的DITA map。
    - **狀態**：顯示每個主題的發佈狀態。
 若要檢視輸出，請將滑鼠指標停留在主題上，然後按一下「檢視輸出」。
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){align="left"}
 
 
 ## 從網頁編輯器產生DITA map的輸出

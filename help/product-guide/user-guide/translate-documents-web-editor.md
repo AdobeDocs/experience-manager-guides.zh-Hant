@@ -4,7 +4,7 @@ description: 從網頁編輯器將您的內容翻譯成多種語言。 瞭解如
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Experience Manager Guides在編輯器中提供強大的功能，可讓您將內�
    - **目標標籤**：目標檔案所選版本的標籤
 1. 選取右上角的&#x200B;**傳送以進行翻譯**。
 
-   ![](images/translation-send.png){width="800" align="left"}
+   ![](images/translation-send.png){align="left"}
 
 1. 從下拉式清單中，選取&#x200B;**建立新翻譯專案**。
 

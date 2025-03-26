@@ -4,7 +4,7 @@ description: 瞭解如何在AEM Guides中建立條件屬性。 使用資料夾�
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Adobe Experience Manager Guides可讓您使用相關DITA屬性輕鬆建立及關
 
    下列熒幕擷圖顯示值為`unix`且標籤為`Red Hat Linux`的`platform`屬性的定義。
 
-   ![](images/add-profile-new.png){width="800" align="left"}
+   ![](images/add-profile-new.png){align="left"}
 
 1. 如果您想要為相同屬性新增更多值，請選取&#x200B;**+**&#x200B;圖示並輸入其他值和標籤。
 

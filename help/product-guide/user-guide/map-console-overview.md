@@ -3,23 +3,23 @@ title: Adobe Experience Manager Guides中的地圖主控台
 description: 瞭解地圖主控台以及可讓您在Adobe Experience Manager Guides中發佈和管理地圖的各種可用功能。
 feature: Publishing
 role: User
-source-git-commit: 4c13d0dab23c19fe2340128aaa05803bb711a486
+exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # 地圖主控台概觀
 
 Adobe Experience Manager Guides提供專用的主控台，稱為&#x200B;**地圖主控台**，可簡化所有地圖管理和發佈工作。 此集中式介面可讓您選擇在單一位置產生輸出、翻譯內容、存取報表等，藉此提升地圖相關活動的生產力和正確性。
 
-![檔案屬性選項標籤](./images/map-console-screen.png){width="800" align="left"}
+![檔案屬性選項標籤](./images/map-console-screen.png){align="left"}
 
 地圖主控台介面主要分為兩個區段 — **導覽列**&#x200B;和&#x200B;**左側面板**。
 
-![新增](images/map-console-sections.png){width="800" align="left"}
+![新增](images/map-console-sections.png){align="left"}
 
 - (**A**) **導覽列**：導覽列會顯示切換導覽、調整頁面檢視以及顯示所選地圖檔案名稱的工具。
 

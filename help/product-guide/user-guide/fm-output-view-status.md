@@ -4,7 +4,7 @@ description: 檢視FrameMaker檔案的輸出產生佇列。 瞭解如何檢視�
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 執行以下步驟來檢視輸出產生佇列：
 
-1. 在Assets UI中，導覽至並按一下您要核取輸出產生狀態的FrameMaker檔案。
+1. 在Assets UI中，導覽至並按一下您要檢查輸出產生狀態的FrameMaker檔案。
 
 1. 按一下「輸出」。
 
-   ![](images/output-queued-fm.png){width="800" align="left"}
+   ![](images/output-queued-fm.png){align="left"}
 
 1. 「輸出」頁面分為兩個部分：
 

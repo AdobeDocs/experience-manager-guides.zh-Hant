@@ -4,7 +4,7 @@ description: 瞭解如何在Adobe Experience Manager Guides中預覽主題。 �
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    此時會顯示主題的「預覽」。
 
-   ![](images/preview-pop-up.png){width="800" align="left"}
+   ![](images/preview-pop-up.png){align="left"}
 
 **從預覽模式預覽主題**
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 從Assets UI使用預覽功能時，工具列中可以使用以下操作，
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **屬性**
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 **用於**&#x200B;參考區段中的\(+\)圖示可讓您進一步向上導覽，以尋找該主題正在使用或參考的位置。
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 選取檔案旁的![](images/right-arrow-used-in-dialog.svg)圖示，會顯示該檔案被進一步參照的地圖或主題檔案。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
   >
   > 若要取得DITA map檔案的原始碼檢視，請在Assets UI中選取該檔案，然後選取「Source」。
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **共用UUID連結**
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 新選項&#x200B;**共用UUID連結**&#x200B;會顯示在上述區域的工具列中。 下列熒幕擷圖顯示主題預覽模式中的&#x200B;**共用UUID連結**&#x200B;選項：
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 在資產UI中，選取檔案時可看見此選項。 在「預覽」模式中，此選項預設可在主工具列中使用。 在DITA map主控台中，此選項會顯示在「輸出預設集」區段中。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 如果取出資料行不顯示，請在&#x200B;**清單檢視**&#x200B;下選取&#x200B;**檢視設定**，並在&#x200B;**設定資料行**&#x200B;對話方塊中選取&#x200B;**取出**&#x200B;狀態。
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ ht-degree: 0%
 
    1. 在左側邊欄中，選取&#x200B;**版本記錄**&#x200B;並選取版本。
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){align="left"}
 
    1. 從列出的版本中，選取您要用來作為基礎版本的版本，然後選取&#x200B;**預覽版本**。 所選版本的預覽會顯示在「版本預覽」視窗中。
 
    1. 從&#x200B;**顯示差異**&#x200B;清單中，選取您要與基本版本比較的版本。
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){align="left"}
 
       變更的內容會在主題預覽中反白顯示。 以綠色反白顯示的內容表示新新增的內容，而以紅色顯示的內容則是刪除的內容。
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){align="left"}
 
 
 ## 分支、還原和後續版本設定

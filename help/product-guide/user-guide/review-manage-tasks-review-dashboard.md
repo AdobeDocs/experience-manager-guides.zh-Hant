@@ -4,7 +4,7 @@ description: 從AEM Guides的「稽核儀表板」管理稽核任務。 瞭解�
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -25,13 +25,13 @@ ht-degree: 0%
 
    隨即顯示具有任務圖磚的「專案」面板。
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){align="left"}
 
 1. 選取&#x200B;**檢閱**&#x200B;方塊中的三個點。
 
    此時會顯示「稽核儀表板」。 儀表板會列出您已建立的所有稽核任務。
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){align="left"}
 
    「稽核儀表板」顯示有關稽核任務的詳細資訊，例如任務名稱、開始稽核的人員、開始稽核的日期、到期日、狀態、尚未被作者接受或拒絕的新註釋數目以及稽核者名稱。 這些任務會按照新建任務到舊任務的順序列出。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 任務標籤
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){align="left"}
 
 您可以在&#x200B;**工作**&#x200B;標籤下執行下列動作：
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ## 內容索引標籤
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){align="left"}
 
 您可以在&#x200B;**Content**&#x200B;標籤下執行下列動作：
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ## 檢閱者索引標籤 {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){align="left"}
 
 您可以在&#x200B;**檢閱者**&#x200B;標籤下執行下列動作：
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 從主要「稽核儀表板」頁面，如果您選取稽核任務並選擇&#x200B;**狀態**，則會顯示稽核任務的狀態報告。
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){align="left"}
 
 複查任務的狀態報告包含下列詳細資訊：
 

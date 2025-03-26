@@ -4,7 +4,7 @@ description: 使用AEM Guides中的發佈儀表板管理發布任務。 瞭解�
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 「發佈」儀表板提供系統中目前執行的所有發佈任務的完整總覽。
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){align="left"}
 
 發佈儀表板包含下列詳細資訊：
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 - **輸出預設集** — 選取一或多個要檢視目前作用中發佈工作的輸出預設集。 在下列熒幕擷圖中，發佈工作經篩選，僅顯示使用AEM網站輸出預設集的工作：
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){align="left"}
 
 - **起始者** — 從清單中選取使用者名稱，以顯示所選使用者起始的發佈工作。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    如果您選取「檔案名稱」連結，則會顯示所選對映的DITA map儀表板。
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){align="left"}
 
 
 >[!NOTE]
@@ -80,13 +80,13 @@ ht-degree: 0%
 
 1. 從作用中的發佈工作清單中，選取您要取消之工作的刪除圖示。
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){align="left"}
 
 1. 在&#x200B;**確認取消**&#x200B;訊息提示上選取&#x200B;**是**。
 
    只要工作保持作用中，就會接受取消指令，並嘗試取消。 工作一旦成功終止，就會從目前使用中的工作清單中移除工作。 任務狀態也會在DITA map儀表板中更新為「已取消」。 在下列熒幕擷圖中，*HTML5*&#x200B;任務已從發佈儀表板取消，其狀態也會在DITA map儀表板中變更。
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 **父級主題：**[&#x200B;輸出產生](generate-output.md)

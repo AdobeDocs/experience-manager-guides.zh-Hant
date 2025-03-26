@@ -4,7 +4,7 @@ description: 在AEM Guides中使用來自您資料來源的資料。 瞭解如�
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 0%
@@ -154,7 +154,7 @@ Adobe Experience Manager Guides提供與您的資料來源連線的功能。 您
 
 您也可以使用工具列中的&#x200B;**查詢資料** ![](images/data-sources-new-icon.svg)，將資料片段插入主題。  您可以從下拉式清單中選取產生器、編輯查詢，或變更範本並將資料插入主題中。
 
-![](images/add-content-snippet-generator.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){align="left"}
 
 *編輯並插入資料片段。*
 
@@ -248,7 +248,7 @@ Adobe Experience Manager Guides提供與您的資料來源連線的功能。 您
 
 
 
-   ![](images/add-topic-generator.png){width="800" align="left"}
+   ![](images/add-topic-generator.png){align="left"}
 
    *從現有主題產生器產生新主題。*
 

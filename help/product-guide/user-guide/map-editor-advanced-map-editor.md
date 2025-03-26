@@ -4,7 +4,7 @@ description: 瞭解Adobe Experience Manager Guides中地圖編輯器的功能。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2570'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 顯示主題搜尋對話方塊。 瀏覽至您要插入的主題/地圖檔案，並選擇&#x200B;**選取**&#x200B;以將其新增到地圖。
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **主題群組** - ![](images/topic-group.svg)
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 **作者**&#x200B;檢視可讓您在編輯器中編輯您的DITA map。 這會顯示地圖編輯器的WYSIWYG檢視，而且在「作者」檢視中顯示的部分圖示會與在「版面」檢視中顯示的部分圖示相同。
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 此外，您可以檢視下列圖示，並從「作者」檢視執行相關工作：
 
@@ -243,7 +243,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 此檢視可讓您以原始格式編輯內容，完整控制結構和格式。
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 在此檢視中，工具列提供&#x200B;**功能表**&#x200B;下拉式清單下可用的基本內容編輯和插入選項，包括「剪下」、「複製」、「還原」、「重做」、「刪除」、「尋找和取代」、「版本標籤」、「合併」、「另存為新版本」、「鎖定和解除鎖定」。
@@ -254,7 +254,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 除了能夠檢視每個主題檔案在地圖中的位置之外，最好以一個連續的流程來檢視地圖內容。 「預覽對映」功能可讓您按一下即可檢視對應檔案的整個內容。 您不需要產生對應檔案的輸出，就能檢視發佈後整個對應的外觀。 您只需存取對映的預覽，所有主題和子對映都會以書籍的形式呈現。
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Experience Manager Guides可讓作者在編輯器中開啟DITA map，並檢視�
 
    您可以在編輯器中開啟多個主題，而每個主題都會在編輯器的新標籤中開啟。 即使您的DITA map包含子對映，子對映中的主題也會在新的標籤中開啟以進行編輯。 如果您想要檢視子地圖下的主題，可以選取並展開子地圖。
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){align="left"}
 
    如果您選取對映檔案，會在編輯器的新標籤中開啟對映。
 

@@ -4,7 +4,7 @@ description: 瞭解如何從地圖控制檯和地圖儀表板建立自訂預設�
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 在Map主控台中，預設集組態選項會整理在&#x200B;**一般**&#x200B;和&#x200B;**進階**&#x200B;標籤下。
 
-![](images/custom-preset-config.png){width="800" align="left"}
+![](images/custom-preset-config.png){align="left"}
 
 **一般**&#x200B;索引標籤包含下列組態選項：
 

@@ -4,7 +4,7 @@ description: 探索Adobe Experience Manager Guides中編輯器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2406'
 ht-degree: 0%
@@ -222,7 +222,7 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 根據在「作者」、「Source」或「預覽」模式中的定義，以及在最終發佈的輸出中的定義，支援並轉譯包含分行符號和空格的DITA元素。 下列熒幕擷圖顯示`msgblock`元素中的內容，其中分行符號和空格\(indentation\)已保留：
 
-![](images/new-line-support_cs.png){width="800" align="left"}
+![](images/new-line-support_cs.png){align="left"}
 
 
 

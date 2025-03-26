@@ -4,7 +4,7 @@ description: 從AEM Guides中的對應主控台產生DITA map報表。 瞭解如
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Adobe Experience Manager Guides在Map Console中提供的功能可讓您檢查�
 
 您可以從&#x200B;**報告**&#x200B;面板找到所有四個報告。 您可以根據自己的需求，選取此處所示的任何報表。
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 「報表」面板提供四種不同型別報表的存取權。 下文將詳細討論每個報表及其協助工具和功能。
 
@@ -44,7 +44,7 @@ Adobe Experience Manager Guides在Map Console中提供的功能可讓您檢查�
 
 1. 從「報表」面板中選取&#x200B;**主題清單**。 將顯示DITA map中的主題清單。
 
-   ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1. 從&#x200B;**篩選器**&#x200B;面板中，您可以根據&#x200B;**參考型別** \（直接或間接\）、**檔案狀態** \（例如，如果您的主題處於編輯、稽核中或稽核狀態，這些將會列出\）或主題的&#x200B;**作者**&#x200B;來篩選主題。
 
@@ -78,7 +78,7 @@ Adobe Experience Manager Guides在Map Console中提供的功能可讓您檢查�
 1. 從「報表」面板中選取&#x200B;**中繼資料**。 所有地圖參照的清單會與其中繼資料（例如標籤、檔案狀態、自訂中繼資料）一起顯示。 若要新增自訂中繼資料欄，請參閱[新增自訂中繼資料欄](#add-custom-metadata-columns)區段。
 
 
-   ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel-new.png){align="left"}
 
 
 1. 從&#x200B;**篩選器**&#x200B;面板，您可以根據&#x200B;**檔案狀態**&#x200B;來篩選主題\（例如，如果您的主題處於編輯、稽核中或稽核狀態，這些將會列出\）、**參考** \（直接或間接\）、**檔案型別** \（地圖、主題、檔案、影像、視訊及其他\）。
@@ -127,7 +127,7 @@ Adobe Experience Manager Guides在Map Console中提供的功能可讓您檢查�
    >
    > 您無法選取任何出庫檔案。 出庫圖示也會出現在出庫檔案的標題附近。 您可以將滑鼠停留在圖示上以檢視使用者名稱。
 
-   ![](images/all-selection.png){width="800" align="left"}
+   ![](images/all-selection.png){align="left"}
 
 
 1. 從頂端選取&#x200B;**管理**。
@@ -225,13 +225,13 @@ Adobe Experience Manager Guides在Map Console中提供的功能可讓您檢查�
     — 當您依&#x200B;**中斷連結**&#x200B;排序時，中斷連結的路徑會顯示在第一欄，而使用中斷連結的所有參照名稱則會顯示在另一個欄的個別列中。 如果在多個檔案中使用了相同的斷開連結，則它們會顯示在一列中，並顯示為分組或子列。 例如，下列熒幕擷圖顯示第一欄中有兩個中斷的連結，以及使用這些連結的參照，`m_ElectricalSpecs_900.ditamap`會顯示在第三欄的兩個個別列中。
 
 
-   ![](images/broken-link-report-new.png){width="800" align="left"}
+   ![](images/broken-link-report-new.png){align="left"}
 
 
     — 如果您依&#x200B;**用於**&#x200B;欄排序，您將檢視已使用中斷連結的參照名稱列在第一欄，而中斷連結列在同一列的另一欄。 例如，下列熒幕擷圖顯示第一欄中的參照（使用中斷連結） `m_ElectricalSpecs_900.ditamap`，而同一列的第三欄中會顯示中斷連結。
 
 
-   ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. 您可以根據&#x200B;**檔案型別**&#x200B;和&#x200B;**連結型別**&#x200B;來篩選中斷的連結。 系統會根據您於下拉式清單中的選取專案，顯示失效連結清單。 例如，您可以選擇只顯示DITA map中的內容參照，而檔案只會顯示其中使用的中斷內容參照。

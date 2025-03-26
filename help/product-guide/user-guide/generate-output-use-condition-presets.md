@@ -4,7 +4,7 @@ description: 瞭解AEM Guides中條件預設集的使用。 瞭解如何在AEM�
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Experience Manager Guides可讓您從Map主控台建立和管理條件預設集，並在&#x200B;**輸出預設集**&#x200B;中使用這些預設集來產生最終的條件輸出。
 
-<img src="images/manage-condtions-presets.png" alt= "地圖控制檯中的條件預設集" width="800" border="1px">
+<img src="images/manage-condtions-presets.png" alt= "地圖控制檯中的條件預設集" border="1px">
 
 ### 建立條件預設集
 

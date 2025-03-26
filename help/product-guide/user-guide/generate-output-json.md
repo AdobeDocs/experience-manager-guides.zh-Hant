@@ -4,7 +4,7 @@ description: 瞭解如何從Map主控台建立JSON預設集。 在Experience Man
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[JSON組態](#json-configuration)。
 
-![](images/json-preset-config.png){width="800" align="left"}
+![](images/json-preset-config.png){align="left"}
 
 ## JSON設定
 

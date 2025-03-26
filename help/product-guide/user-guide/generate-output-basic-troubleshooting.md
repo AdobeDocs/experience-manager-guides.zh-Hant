@@ -4,7 +4,7 @@ description: 解決AEM Guides中基本疑難排解的問題。 瞭解如何在�
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    日誌檔案會在新標籤中開啟。
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){align="left"}
 
 1. 套用下列篩選器以反白標示記錄檔中的文字：
    - 嚴重：以粉紅色反白記錄檔中的嚴重錯誤。

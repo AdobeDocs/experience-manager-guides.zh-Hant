@@ -4,7 +4,7 @@ description: 瞭解如何建立及刪除對應集合，以及新增或刪除DITA
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Adobe Experience Manager Guides可讓您使用名為「地圖集合」的控制�
 
    DITA map檔案會新增至您的Map集合。
 
-   ![對應集合儀表板](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![對應集合儀表板](./images/map-collection-dashboard.png){align="left"}
 
 **篩選選項**
 
@@ -95,7 +95,7 @@ Adobe Experience Manager Guides可讓您使用名為「地圖集合」的控制�
    - 啟用DITA map的&#x200B;**所有預設集**，一次選取所有預設集。 此選項預設為停用。
    - 啟用DITA map的&#x200B;**資料夾設定檔預設集**，以選取其所有資料夾設定檔預設集。 此選項預設為停用。
 
-![在雲端服務上編輯地圖集合](images/edit-map-collection-cs.png){width="800" align="left"}
+![在雲端服務上編輯地圖集合](images/edit-map-collection-cs.png){align="left"}
 
 
 
@@ -112,7 +112,7 @@ Adobe Experience Manager Guides可讓您使用名為「地圖集合」的控制�
 
 在地圖集合中，您可以大量設定DITA map的中繼資料屬性。 選取&#x200B;**設定中繼資料**&#x200B;以開啟&#x200B;**資產中繼資料**&#x200B;頁面。 在&#x200B;**資產中繼資料**&#x200B;頁面上，收藏集中出現的所有地圖都會列在左側。
 
-![設定中繼資料](images/map-collection-asset-metadata.png){width="800" align="left"}
+![設定中繼資料](images/map-collection-asset-metadata.png){align="left"}
 
 執行以下步驟來設定中繼資料屬性：
 
@@ -147,6 +147,6 @@ Adobe Experience Manager Guides可讓您使用名為「地圖集合」的控制�
 
 與從[DITA Map主控台](generate-output-for-a-dita-map.md#id2061H100T5Z)或[Publish Dashboard](generate-output-publish-dashboard.md#)取消輸出產生工作的方式類似，您可以從Map集合取消輸出產生工作。 存取對應集合的「輸出」標籤，並移至您要取消的發佈工作，然後選取&#x200B;**取消此工作**&#x200B;圖示以取消發佈工作。
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){align="left"}
 
 **父級主題：**[&#x200B;輸出產生](generate-output.md)

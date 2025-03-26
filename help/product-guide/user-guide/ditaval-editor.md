@@ -4,7 +4,7 @@ description: 瞭解如何使用Adobe Experience Manager Guides中的DIVATAL Edit
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編
 
 1. 在「存放庫」面板中，選取&#x200B;**新檔案**&#x200B;圖示，然後從下拉式功能表中選取&#x200B;**主題**。
 
-   ![](images/new-file-option.png){width="800" align="left"}
+   ![](images/new-file-option.png){align="left"}
 
    您也可以從[Experience Manager Guides首頁](./intro-home-page.md)以及存放庫檢視中資料夾的選項功能表存取此選項。
 
@@ -49,7 +49,7 @@ Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編
 
 主題是在指定的路徑中建立。 此外，主題也會在編輯器中開啟以進行編輯。
 
-![](images/ditaval-file-editor.png){width="800" align="left"}
+![](images/ditaval-file-editor.png){align="left"}
 
 ## 編輯DITAVAL檔案
 

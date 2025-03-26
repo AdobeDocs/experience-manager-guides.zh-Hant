@@ -4,7 +4,7 @@ description: 探索Adobe Experience Manager Guides中編輯器的功能。 瞭�
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e3a957dffc7296210eea89814cf6ca83ff1200e
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '18659'
 ht-degree: 0%
@@ -299,7 +299,7 @@ ht-degree: 0%
 
 **尋找和取代**&#x200B;功能可在作者和Source檢視模式中使用。 啟用時，「尋找和取代」文字列會顯示在主題編輯區域的底部。 您可以使用快速鍵&#x200B;**CTRL**+**F**&#x200B;來叫用尋找與取代列。
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 使用設定圖示\(![](images/settings-find-replace-icon.svg)\)，您可以切換&#x200B;**忽略大小寫**&#x200B;和僅&#x200B;**全字**&#x200B;搜尋選項。 若要執行不區分大小寫的搜尋，請開啟（或選取） **忽略大小寫**&#x200B;選項。 否則，如果您要執行區分大小寫的搜尋，請關閉（或取消選取） **忽略大小寫**&#x200B;選項。 您也可以選擇搜尋整個單字。
 
@@ -365,7 +365,7 @@ ht-degree: 0%
 
    當您回覆至較舊的版本時，會顯示視覺提示，指出您目前使用的版本不是最新版本。
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 **版本標籤**
 
@@ -544,7 +544,7 @@ Experience Manager Guides提供追蹤變更功能，其中包含檔案中所做�
 
 如果您在區塊元素（如`note`）內工作，則使用[插入元素]圖示在`note`元素之後插入新元素。 在下列熒幕擷圖中，筆記元素已插入p \(paragraph\)元素內：
 
-![在區塊元素中插入元素](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![在區塊元素中插入元素](images/note-in-para-insert-element_cs.png){align="left"}
 
 如果您在註記元素中按Enter鍵，會在註記元素本身中建立新段落。 若要在附註外插入新元素，請在元素階層連結中選取p元素\（在熒幕擷取畫面中反白顯示\），然後選取「元素」圖示，或按&#x200B;***Alt***+***Enter***&#x200B;開啟「插入元素」對話方塊。 然後，選取想要的元素並按Enter鍵將選取的元素插入註記元素之後。
 
@@ -613,7 +613,7 @@ Experience Manager Guides提供追蹤變更功能，其中包含檔案中所做�
 1. 從值下拉式清單中，選取您想要套用至所選表格儲存格的文字對齊方式。
 1. 選取&#x200B;**新增。**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 **影像** - ![](images/Image_icon.svg)
 
@@ -636,7 +636,7 @@ Experience Manager Guides提供追蹤變更功能，其中包含檔案中所做�
 
 插入影像後，您可以從「內容屬性」面板變更高度、寬度、位置和屬性。 選取影像檔案，然後在右側面板的「內容屬性」面板中進行變更。
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停留在Source欄位上，以找到所插入影像檔案的完整路徑。 路徑會顯示在工具提示中。
 
@@ -713,7 +713,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 如果您的管理員已啟用&#x200B;*XMLEditorConfig*&#x200B;中的UUID選項，則您將會在&#x200B;**Link**&#x200B;屬性中檢視參考內容的UUID。
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -816,12 +816,12 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
   版本編號會隨著為主題或對應檔案建立的每個新版本而變更。 如果您正在處理新建立的檔案，則版本資訊會顯示為&#x200B;**none**。
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **另存為新版本**&#x200B;按鈕可儲存您在主題中所做的變更，並建立主題的新版本。
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 當您選擇使用&#x200B;**另存為新版本**&#x200B;來儲存主題或地圖時，會出現下列對話方塊：
@@ -842,7 +842,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 當您將指標停留在主題標題上時，會顯示檔案標題、檔案路徑和版本號碼。
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -852,7 +852,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 鎖定或解除鎖定目前的檔案。 鎖定檔案可讓您以獨佔方式寫入檔案。 這會限制其他使用者編輯檔案。 如果您希望其他人有編輯存取權，請解除鎖定檔案。 解除鎖定檔案時，變更會儲存在檔案的目前版本中。
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 如果您在「對映檢視」中，並展開父對映，只要按一下即可鎖定對映中的所有檔案。 只要展開父對映檔案並選取父檔案，就會選取對映中的所有檔案。 然後，您可以選取&#x200B;**鎖定** ![](images/LockClosed_icon.svg)以取得對應中所有檔案的鎖定。
 
@@ -935,7 +935,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 - 在編輯器中的檔案索引標籤上按一下滑鼠右鍵，開啟快顯功能表。 選擇&#x200B;**新增至** > **集合**&#x200B;以將檔案新增至您的最愛清單。
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -1098,7 +1098,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
   如果您的管理員已在&#x200B;*XMLEditorConfig*&#x200B;中啟用UUID選項，則您將會在&#x200B;**Source**&#x200B;屬性中檢視已上傳影像的UUID。
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **尋找資料夾**&#x200B;中的檔案：將焦點移至存放庫搜尋，您可以在其中輸入搜尋字詞。 搜尋會在存放庫中選取的資料夾下執行。 您也可以套用濾鏡以傳回DITA檔案、影像檔案或兩者。
 
@@ -1150,7 +1150,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 - **預覽**：取得檔案（.dita、.xml、音訊、視訊或影像）的快速預覽，而不需要開啟它。 您可以調整預覽窗格的大小。 如果內容包含任何`<xref>`或`<conref>`，您可以選取它以在新的索引標籤中開啟。 檔案的標題會顯示在視窗中。 如果沒有任何標題，則會顯示檔案名稱。 若要關閉&#x200B;**預覽**&#x200B;面板，您可以選取關閉圖示或選取窗格之外的任何位置。
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **重新命名**：使用此選項來重新命名選取的檔案。 在&#x200B;**重新命名資產**&#x200B;對話方塊中輸入新檔案的名稱。
    - 您可以重新命名任何型別的檔案。
@@ -1270,7 +1270,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 您可以使用對映檔案的「選項」選單執行下列動作：
 
-地圖檢視中的![選項功能表](images/options-menu-map-view_cs.png){width="800" align="left"}
+地圖檢視中的![選項功能表](images/options-menu-map-view_cs.png){align="left"}
 
 - **編輯**：開啟對應檔案以在對應編輯器中編輯。
 
@@ -1326,7 +1326,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 下列熒幕擷圖顯示對應檢視中檔案的「選項」功能表：
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 您可以使用「選項」功能表執行下列動作：
 
@@ -1436,11 +1436,11 @@ DITA的主要功能之一是重複使用內容的能力。 **可重複使用的�
 
 - 拖放元素。 您可以將另一個元素拖放到元素上，即可輕鬆取代元素。 如果您將元素拖放到另一個元素上，並檢視元素周圍的虛線矩形方塊，則表示元素會被取代。 它會取代元素被捨棄時所處的元素。
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   如果拖放元素，虛線矩形表示元素可以放置在目前位置。 如果拖放無效，則會顯示錯誤訊息，指出不允許此操作。
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - *大綱*&#x200B;檢視中的&#x200B;**選項**&#x200B;功能表可讓您執行一般作業，例如剪下、複製、刪除、產生ID、在目前元素之前或之後插入元素、重新命名或取代元素、繞排元素、解除元素包裝，以及從選取的元素建立程式碼片段。
 
@@ -1523,7 +1523,7 @@ Experience Manager Guides可讓您輕鬆建立和使用字彙表型別的檔案�
 
 您也可以在元素上拖放多個條件，以在元素上套用多個條件。 對元素套用多個條件時，「屬性」面板會顯示以逗號分隔的套用條件。
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 不過，在程式碼檢視中，條件會使用空格分隔符號分隔。 在程式碼檢視中新增或編輯條件時，請務必使用空格分隔多個條件。
 
@@ -1531,7 +1531,7 @@ Experience Manager Guides可讓您輕鬆建立和使用字彙表型別的檔案�
 >
 > 下列熒幕擷圖為具有管理許可權的使用者。 作為具有管理許可權的使用者，您可以新增、編輯和刪除條件。 否則，身為一般作者，您只會獲得套用條件的選項。
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 若要新增或定義條件，請選取「條件」面板旁的+圖示，以顯示「定義條件」對話方塊：
 
@@ -1761,7 +1761,7 @@ Experience Manager Guides也支援巢狀層級主旨配置對應，您可以在�
 >
 > 下列熒幕擷圖為具有管理許可權的使用者。 身為具有管理許可權的使用者，您可以新增、編輯和刪除程式碼片段。 否則，身為一般作者，您只會取得預覽和插入程式碼片段的選項。
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 若要新增程式碼片段，請使用下列任一方法：
 
@@ -1826,7 +1826,7 @@ Experience Manager Guides可讓您建立和管理原生PDF發佈的變數。 如
 
 尋找和取代圖示位於左側面板底部。 「尋找和取代」面板可讓您搜尋和取代地圖或存放庫內資料夾中檔案間的文字。 您可以尋找和取代地圖的所有主題，以及地圖內子地圖中的主題。
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 依預設，您可以依標題檢視檔案。 當您將滑鼠停留在檔案上時，您可以檢視檔案標題和檔案路徑作為工具提示。
 
@@ -1919,7 +1919,7 @@ Experience Manager Guides提供可在您的專案中顯示所有稽核任務的�
 1. 您也可以輸入要在主題標題或檔案路徑中尋找的搜尋字詞或文字。 會列出標題或檔案路徑中包含辭彙的主題。
 1. 連按兩下任何主題，以在作者檢視中開啟。 您可以在&#x200B;**註解**&#x200B;面板中檢視註解。
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 
@@ -1935,7 +1935,7 @@ Experience Manager Guides提供可在您的專案中顯示所有稽核任務的�
 
 在內容編輯區域的左下方，您有目前游標位置處的元素階層連結。 可用的編輯器檢視會顯示在右下角。
 
-![](images/content-editing-area.png){width="800" align="left"}
+![](images/content-editing-area.png){align="left"}
 
 若要進一步瞭解內容編輯區域中主題檔案可用的編輯器檢視，請檢視[編輯器檢視](./web-editor-views.md)。
 

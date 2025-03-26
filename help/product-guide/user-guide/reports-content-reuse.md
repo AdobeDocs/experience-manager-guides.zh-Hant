@@ -4,7 +4,7 @@ description: 瞭解如何在AEM Guides中檢視內容重複使用報告。 產�
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 選取&#x200B;**產生報告**&#x200B;以取得內容重複使用報告。
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){align="left"}
 
    報告頁面分為兩個部分：
 

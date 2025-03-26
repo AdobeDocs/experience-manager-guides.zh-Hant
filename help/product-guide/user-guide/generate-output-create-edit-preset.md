@@ -4,7 +4,7 @@ description: 瞭解如何在AEM Guides中建立、編輯、複製和刪除自訂
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -22,14 +22,14 @@ ht-degree: 0%
 此外，您可以使用&#x200B;**選項**&#x200B;下拉式選單來複製或刪除輸出預設集，如下所示。
 
 
-![](images/delete-preset-map-console.png){width="800" align="left"}
+![](images/delete-preset-map-console.png){align="left"}
 
 
 ## 使用地圖儀表板
 
 您可以使用地圖圖示板編輯、複製和刪除輸出預設集，方法是從頂端列選取所需的標籤，如下所示。
 
-![](images/create-new-preset-map-dashboard-new.png){width="800" align="left"}
+![](images/create-new-preset-map-dashboard-new.png){align="left"}
 
 
 

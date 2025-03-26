@@ -4,7 +4,7 @@ description: 在Experience Manager Guides中使用地圖編輯器建立地圖。
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
 1. 在「存放庫」面板中，選取&#x200B;**新增檔案**&#x200B;圖示，然後從下拉式功能表中選取&#x200B;**DITA Map**。
 
-   ![](images/create-map-options.png){width="800" align="left"}
+   ![](images/create-map-options.png){align="left"}
 
    您也可以從[Experience Manager Guides首頁](./intro-home-page.md)以及存放庫檢視中資料夾的選項功能表存取此選項。
 
@@ -38,7 +38,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
 會在指定的路徑建立對應。 此外，對應會在「對應編輯器」中開啟以進行編輯。
 
-![](images/map-file-in-map-editor.png){width="800" align="left"}
+![](images/map-file-in-map-editor.png){align="left"}
 
 ## 將主題新增至地圖檔案
 
@@ -53,7 +53,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
 1. 對應檔案會在對應編輯器中開啟。 如果您已開啟新的地圖檔案，則編輯器中只會顯示地圖的標題。
 
-   ![](images/new-map-file-in-editor.png){width="800" align="left"}
+   ![](images/new-map-file-in-editor.png){align="left"}
 
 
    - **A** - \（*索引標籤列*\）：這與編輯器的索引標籤列類似。 在編輯器中檢視[索引標籤列](./web-editor-features.md#tab-bar)以取得詳細資料。
@@ -76,7 +76,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
    主題會新增至地圖中。
 
-   ![地圖編輯器新增主題](images/map-editor-add-topic.png){width="800" align="left"}
+   ![地圖編輯器新增主題](images/map-editor-add-topic.png){align="left"}
 
 1. 若要新增後續主題或子地圖，請拖放主題或子地圖至地圖中的必要位置。
 
@@ -84,7 +84,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
    - 檔案會新增至地圖編輯區域中虛線矩形列出現的位置。 在下列熒幕擷圖中，將在&#x200B;*智慧型建議1*&#x200B;與&#x200B;*智慧型建議2*&#x200B;主題之間新增&#x200B;*範例主題*&#x200B;主題。
 
-     ![](images/horizontal-line-in-adv-map-editor.png){width="800" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){align="left"}
 
    - 若要取代主題，請將新主題拖放至要取代的主題上方。 若將其拖放到，表示該主題將被拖放其上的主題取代。
 
@@ -94,7 +94,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
    - 若要變更主題的位置，請選取主題\（藉由選取主題圖示\），然後將其拖放到地圖檔案中的所需位置。 在下列熒幕擷圖中，主題&#x200B;*智慧型建議1*&#x200B;正移至&#x200B;*A範例主題*&#x200B;之後。
 
-     ![](images/move-topic-adv-map-editor.png){width="800" align="left"}
+     ![](images/move-topic-adv-map-editor.png){align="left"}
 
    - 若要檢查地圖檔案的屬性，請在地圖編輯區域的任意位置按一下滑鼠右鍵，然後從內容功能表中選擇&#x200B;**屬性**。 根據您的Adobe Experience Manager版本，您可以檢視屬性，例如中繼資料、排程\(de\)啟用、參考、檔案狀態等。
 
@@ -116,7 +116,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
    >
    > 在對應檔案中參照主題的方式取決於對應範本。 例如，如果您選取「對應」範本，則主題參照\(`topicref`\)會用來參照主題。 若是Bookmap，主題參考是使用DITA中的`chapter`元素所建立。
 
-   ![](images/map-template.png){width="800" align="left"}
+   ![](images/map-template.png){align="left"}
 
 1. 在[屬性]頁面上，指定對應&#x200B;**標題**。
 
@@ -132,7 +132,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
    您從Assets UI或編輯器建立的每個新對應檔案都會獲得唯一對應ID。 此外，新地圖也會儲存為DAM中的最新工作副本。 除非儲存新建立對映的修訂版本，否則不會在「版本記錄」中檢視任何版本號碼。 如果您開啟地圖進行編輯，版本資訊會顯示在地圖檔案之索引標籤的右上角：
 
-   ![](images/first-version-map-none.png){width="800" align="left"}
+   ![](images/first-version-map-none.png){align="left"}
 
    新建立的地圖的版本資訊顯示為&#x200B;*none*。 儲存新版本時，會為其指定版本編號1.0。如需有關儲存新版本的詳細資訊，請檢視[另存為新版本](web-editor-features.md#save-as-new-version)。
 
@@ -160,11 +160,11 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
 1. 選取地圖檔案後，選取&#x200B;**編輯主題**。
 
-   ![](images/edit-map-main-menu.png){width="800" align="left"}
+   ![](images/edit-map-main-menu.png){align="left"}
 
    或者，您也可以從對應檔案的動作功能表中選取&#x200B;**編輯主題**&#x200B;選項：
 
-   ![](images/edit-map-action-menu.png){width="800" align="left"}
+   ![](images/edit-map-action-menu.png){align="left"}
 
    將在編輯器中開啟對應檔案以進行編輯。 若要將主題新增至對映檔案，請依照[將主題新增至對映檔案](#add-topics-to-a-map-file)中的步驟(4-8)執行。
 

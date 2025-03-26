@@ -4,7 +4,7 @@ description: 瞭解AEM Guides內容翻譯的最佳實務。 瞭解如何設定�
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 下圖顯示當您全域使用內容和三個語言副本時，Adobe Experience Manager中的資料夾結構範例。
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){align="left"}
 
 ## 設定翻譯服務
 

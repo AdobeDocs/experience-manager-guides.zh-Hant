@@ -4,7 +4,7 @@ description: 使用複合元件對應和舊版元件對應，在「對應」主�
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3533'
 ht-degree: 0%
@@ -122,7 +122,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 **主題清單**&#x200B;索引標籤會顯示DITA map目前工作復本中的主題清單。 依預設，會包含所有主題。 您可以選取特定主題，並僅為其產生AEM Sites輸出。 例如，您已更新一些主題，因此您可以僅發佈這些主題，而非發佈整個DITA map。
 
-![aem網站主題清單](images/aem-presets-topic-list.png) {width="800" align="left"}
+![aem網站主題清單](images/aem-presets-topic-list.png) {align="left"}
 
 
 >[!NOTE]

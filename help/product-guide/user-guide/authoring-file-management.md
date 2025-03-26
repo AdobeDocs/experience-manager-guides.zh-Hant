@@ -4,7 +4,7 @@ description: 瞭解如何在AEM Guides中管理檔案和資料夾。 複製並�
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3131'
 ht-degree: 0%
@@ -310,7 +310,7 @@ Experience Manager Guides隨附大量移動工具，可協助管理員將具有�
 1. 在左側邊欄中，選取&#x200B;**版本記錄**&#x200B;並選取版本。
 1. 您也可以在「版本記錄」下檢視不同版本的縮圖。
 
-   ![](images/media-version-history-icon.png){width="800" align="center"}
+   ![](images/media-version-history-icon.png){align="center"}
 
 1. 從列出的版本中，選取您要用來作為基礎版本的版本，然後選取&#x200B;**預覽版本**。 所選版本的預覽會顯示在「版本預覽」視窗中。
 

@@ -4,7 +4,7 @@ description: 從AEM Guides中的Map儀表板產生DITA Map報表。 瞭解如何
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Adobe Experience Manager Guides提供管理員報告功能，可在檔案上線�
 
 1. 選取&#x200B;**報表**。
 
-   ![](images/reports-page-uuid-new.png){width="800" align="left"}
+   ![](images/reports-page-uuid-new.png){align="left"}
 
    「報表」頁面分為兩個部分：
 
@@ -37,7 +37,7 @@ Adobe Experience Manager Guides提供管理員報告功能，可在檔案上線�
 
      選取主題時，會顯示所選主題的詳細報告。
 
-     ![](images/detailed-report-uuid-new.png){width="800" align="left"}
+     ![](images/detailed-report-uuid-new.png){align="left"}
 
      在&#x200B;**A**、**B**、**C**&#x200B;和&#x200B;**D**&#x200B;下反白顯示的專案說明如下：
 
@@ -82,7 +82,7 @@ Adobe Experience Manager Guides提供管理員報告功能，可在檔案上線�
 
 1. 選取左上方的&#x200B;**產生報表**&#x200B;以產生DITA map報表。
 
-   ![](images/generate-DITA-map-report-new.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report-new.png){align="left"}
 
 1. 報告可供下載後，您將會收到通知。 選取「下載&#x200B;****」以下載產生報表的CSV。
 

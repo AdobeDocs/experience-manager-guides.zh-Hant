@@ -4,7 +4,7 @@ description: 瞭解如何在AEM Guides中使用Basic Map Editor。 瞭解地圖�
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 > Basic Map Editor (先前在Experience Manager Guides中提供)已從4.3版和2307版開始淘汰。 您無法存取「基本對映編輯器」來建立和管理DITA map。
 >建議您使用進階地圖編輯器。 進階地圖編輯器提供增強功能和更好的自訂選項。 深入瞭解如何使用[進階地圖編輯器](../user-guide/map-editor-advanced-map-editor.md)。
 
-基本地圖編輯器提供簡單的拖放功能，可從AEM存放庫新增主題以建立DITA地圖或書籤。 您可以新增巢狀主題、關係表格\(relatable\)、屬性和中繼資料資訊，也可以驗證對映是否正確。
+「基本地圖編輯器」提供簡單的拖放功能，可從AEM存放庫新增主題以建立DITA地圖或書籤。 您可以新增巢狀主題、關係表格\(relatable\)、屬性和中繼資料資訊，也可以驗證對映是否正確。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    對映檔案隨即開啟，以便在「對映編輯器」中進行編輯。 使用「對映編輯器」，您可以使用「參考」邊欄中顯示的目前可用主題來建置對映。
 
-   ![](images/dita-map-01.png){width="800" align="left"}
+   ![](images/dita-map-01.png){align="left"}
 
 1. 使用&#x200B;**參考**&#x200B;邊欄，導覽至包含您要新增之主題或子地圖的資料夾。
 
@@ -73,13 +73,13 @@ ht-degree: 0%
 
 基本地圖編輯器中的主工具列可讓您執行下列工作：
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){align="left"}
 
 **A：搜尋**
 
 您可以從DAM搜尋並包含必要主題。 按一下此圖示會顯示「搜尋」對話方塊：
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){align="left"}
 
 輸入您要搜尋的關鍵字，這些關鍵字會與主題檔案名稱、內容甚至屬性值相符。 搜尋結果可用後，選取所需的主題\(s\)，然後按一下「核取」按鈕，將選取的檔案新增到對映結構的末尾。 您可以指定「修改日期」引數來篩選搜尋結果。
 
