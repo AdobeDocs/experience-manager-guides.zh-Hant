@@ -4,7 +4,7 @@ description: 瞭解如何使用Adobe Experience Manager Guides中的自訂範本
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: c6709ffb8e415c88931e732456e2f2a5e6b63729
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Adobe Experience Manager Guides可讓您建立以下型別的DITA主題：主題
 
 1. 在「存放庫」面板中，選取&#x200B;**新檔案**&#x200B;圖示，然後從下拉式功能表中選取&#x200B;**主題**。
 
-   ![](create-topic-option.png){width="500" align="left"}
+   ![](images/create-topic-option.png){width="500" align="left"}
 
    您也可以從[Experience Manager Guides首頁](./intro-home-page.md)以及存放庫檢視中資料夾的「選項」功能表存取此選項。
 
