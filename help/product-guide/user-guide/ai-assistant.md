@@ -1,7 +1,8 @@
 ---
 title: 使用AI助理聰明地編寫檔案'
 description: 瞭解如何使用AI助理聰明地在Adobe Experience Manager Guides中搜尋和編寫檔案。
-source-git-commit: d51b460610617cafec07124c4fdb091aa4e37a09
+exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
+source-git-commit: aab7bc0c79d3c98f062d230d1d21ec7f4e6a01c3
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -20,14 +21,14 @@ AI Assistant中的&#x200B;**製作**&#x200B;功能可讓您更聰明、更快速
 
 如需更多詳細資料，請檢視[製作](./ai-assistant-right-panel.md)。
 
-![ai助理](./images/ai-assistant-panel.png){width="300" align="left"}
+![ai助理](./images/ai-assistant-panel.png){align="left"}
 
 AI Assistant中的&#x200B;**說明**&#x200B;功能是直覺式的聊天式工具，可協助您更清楚瞭解Experience Manager Guides、疑難排解問題，以及在Adobe Experience Manager Guides檔案中搜尋資訊。 您可以使用&#x200B;**說明**&#x200B;功能，快速找到查詢的相關解答，而不需搜尋使用手冊和參考檔案。 這有助於節省時間，讓您專注在內容建立上，進而提高生產力和效率。
 
 如需詳細資訊，請檢視[說明](./ai-based-smart-help.md)。
 
 
-![智慧型說明面板](images/smart-help-panel.png){width="300" align="left"}
+![智慧型說明面板](images/smart-help-panel.png){align="left"}
 
 ## 開始使用AI助理
 
@@ -40,7 +41,7 @@ AI Assistant中的&#x200B;**說明**&#x200B;功能是直覺式的聊天式工具
 
    顯示AI助理頁面，其中醒目顯示其主要功能、使用者指南連結和&#x200B;**開始使用**&#x200B;按鈕。
 
-   ![智慧型說明面板](images/get-started-ai.png){width="300" align="left"}
+   ![智慧型說明面板](images/get-started-ai.png){align="left"}
 
 1. 請仔細閱讀使用者准則，然後選取&#x200B;**開始使用**&#x200B;以啟動AI小幫手。
 
@@ -51,8 +52,3 @@ AI Assistant中的&#x200B;**說明**&#x200B;功能是直覺式的聊天式工具
 [Adobe Experience Manager Guides Generative AI披露](./adobe-generative-ai-disclosures.md)
 
 [設定AI助理以提供智慧說明和編寫](../cs-install-guide/conf-smart-suggestions.md)
-
-
-
-
-
