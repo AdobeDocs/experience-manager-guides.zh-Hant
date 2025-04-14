@@ -4,9 +4,9 @@ description: 探索Adobe Experience Manager Guides中編輯器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -213,9 +213,9 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 在XML中，空白字元包括空格、定位字元、歸位字元和空白行。 Experience Manager Guides會將多個後續空格轉換為一個空格。 這可協助您保留編輯器的WYSIWYG檢視。
 
-    >[！NOTE]
-    >
-    >在某些需要根據DITA規則保留空白的元素中，會保留多個後續空格。 例如，&#39;&lt;pre>&#39;和&#39;&lt;codeblock>&#39;元素。
+>[!NOTE]
+>
+> 在某些需要根據DITA規則保留空白的元素中，會保留多個後續空格。 例如，`<pre>`和`<codeblock>`個元素。
 
 
 **保留分行和縮排**
