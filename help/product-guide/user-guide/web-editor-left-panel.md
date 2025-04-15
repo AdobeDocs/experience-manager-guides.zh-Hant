@@ -3,9 +3,10 @@ title: 編輯器中的左側面板
 description: 瞭解編輯器中的左側面板。 瞭解Adobe Experience Manager Guides中的編輯器介面和功能。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '9325'
+source-wordcount: '9323'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 左側面板中可用的功能由您的管理員管理，可讓他們啟用或停用左側面板中顯示的個別功能。 只有已啟用的功能才會顯示在左側面板中。 如需詳細資訊，請檢視[索引標籤列](#tab-bar)的&#x200B;**面板**&#x200B;區段。
+> 左側面板中可用的功能由您的管理員管理，可讓他們啟用或停用左側面板中顯示的個別功能。 只有已啟用的功能才會顯示在左側面板中。 如需詳細資訊，請檢視[索引標籤列](./web-editor-tab-bar.md)的&#x200B;**面板**&#x200B;區段。
 
 左面板功能的詳細說明如下：
 
@@ -89,7 +90,7 @@ ht-degree: 0%
 
 - 在編輯器中的檔案索引標籤上按一下滑鼠右鍵，開啟快顯功能表。 選擇&#x200B;**新增至** > **集合**&#x200B;以將檔案新增至您的最愛清單。
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -131,7 +132,7 @@ ht-degree: 0%
 視訊的檢視畫面。 在捷徑功能表中，您也有下載、變更播放的選項
 速度，或檢視子母畫面。
 
-選取地圖並按Enter鍵，或按兩下以在&#x200B;**地圖檢視**&#x200B;中開啟地圖。 如需詳細資訊，請在[左側面板](#left-panel)區段中檢視&#x200B;**地圖檢視**&#x200B;功能說明。 選取主題並按Enter鍵或按兩下以在[內容編輯區域](#content-editing-area)中開啟該主題。 能夠直接從編輯器導覽和開啟檔案，可節省時間並提高生產力。
+選取地圖並按Enter鍵，或按兩下以在&#x200B;**地圖檢視**&#x200B;中開啟地圖。 如需詳細資訊，請在左側面板中檢視&#x200B;**地圖檢視**&#x200B;功能說明。 選取主題並按Enter鍵或按兩下以在[內容編輯區域](./web-editor-content-editing-area.md)中開啟該主題。 能夠直接從編輯器導覽和開啟檔案，可節省時間並提高生產力。
 
 **在存放庫中篩選搜尋**
 
@@ -220,7 +221,6 @@ ht-degree: 0%
    - 主題將依據的範本。 例如，對於現成可用的設定，您可以從「空白」、「概念」、「DITAVAL」、「參考」、「任務」、「主題」、「Markdown」、「字彙表」和「疑難排解」範本中選擇。 如果您的資料夾上設定了「資料夾設定檔」，則您將只會檢視在「資料夾設定檔」上設定的主題範本。
 
    - 您要儲存主題檔案的路徑。 依預設，存放庫中目前所選資料夾的路徑會顯示在「路徑」欄位中。
-
 4. 選擇 **建立**。主題是在指定的路徑中建立。 此外，主題也會在編輯器中開啟以進行編輯。
 
 </details>
@@ -269,7 +269,7 @@ ht-degree: 0%
 
   如果您的管理員已在&#x200B;*XMLEditorConfig*&#x200B;中啟用UUID選項，則您將會在&#x200B;**Source**&#x200B;屬性中檢視已上傳影像的UUID。
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **尋找資料夾**&#x200B;中的檔案：將焦點移至存放庫搜尋，您可以在其中輸入搜尋字詞。 搜尋會在存放庫中選取的資料夾下執行。 您也可以套用濾鏡以傳回DITA檔案、影像檔案或兩者。
 
@@ -321,7 +321,7 @@ ht-degree: 0%
 
 - **預覽**：取得檔案（.dita、.xml、音訊、視訊或影像）的快速預覽，而不需要開啟它。 您可以調整預覽窗格的大小。 如果內容包含任何`<xref>`或`<conref>`，您可以選取它以在新的索引標籤中開啟。 檔案的標題會顯示在視窗中。 如果沒有任何標題，則會顯示檔案名稱。 若要關閉&#x200B;**預覽**&#x200B;面板，您可以選取關閉圖示或選取窗格之外的任何位置。
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **重新命名**：使用此選項來重新命名選取的檔案。 在&#x200B;**重新命名資產**&#x200B;對話方塊中輸入新檔案的名稱。
    - 您可以重新命名任何型別的檔案。
@@ -441,7 +441,7 @@ ht-degree: 0%
 
 您可以使用對映檔案的「選項」選單執行下列動作：
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![](images/options-menu-map-view_cs.png){align="left"}
 
 - **編輯**：開啟對應檔案以在對應編輯器中編輯。
 
@@ -497,7 +497,7 @@ ht-degree: 0%
 
 下列熒幕擷圖顯示對應檢視中檔案的「選項」功能表：
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 您可以使用「選項」功能表執行下列動作：
 
@@ -607,11 +607,11 @@ DITA的主要功能之一是重複使用內容的能力。 **可重複使用的�
 
 - 拖放元素。 您可以將另一個元素拖放到元素上，即可輕鬆取代元素。 如果您將元素拖放到另一個元素上，並檢視元素周圍的虛線矩形方塊，則表示元素會被取代。 它會取代元素被捨棄時所處的元素。
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   如果拖放元素，虛線矩形表示元素可以放置在目前位置。 如果拖放無效，則會顯示錯誤訊息，指出不允許此操作。
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - *大綱*&#x200B;檢視中的&#x200B;**選項**&#x200B;功能表可讓您執行一般作業，例如剪下、複製、刪除、產生ID、在目前元素之前或之後插入元素、重新命名或取代元素、繞排元素、解除元素包裝，以及從選取的元素建立程式碼片段。
 
@@ -634,7 +634,7 @@ DITA的主要功能之一是重複使用內容的能力。 **可重複使用的�
 如果您的管理員已建立屬性的設定檔，則您將會取得這些屬性及其設定的值。 您也可以在&#x200B;**設定**&#x200B;的&#x200B;**顯示屬性**&#x200B;標籤下，指派管理員設定的顯示屬性。 為元素定義的屬性會顯示在「配置圖」和「大綱」檢視中。
 
 
-如需詳細資訊，請在[左側面板](#left-panel)區段的&#x200B;*設定*&#x200B;功能說明中檢視&#x200B;*顯示屬性*。
+如需詳細資訊，請在左側面板的&#x200B;*設定*&#x200B;功能說明中檢視&#x200B;*顯示屬性*。
 
 **搜尋功能**
 
@@ -698,7 +698,7 @@ Experience Manager Guides可讓您輕鬆建立和使用字彙表型別的檔案�
 
 您也可以在元素上拖放多個條件，以在元素上套用多個條件。 對元素套用多個條件時，「屬性」面板會顯示以逗號分隔的套用條件。
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 不過，在程式碼檢視中，條件會使用空格分隔符號分隔。 在程式碼檢視中新增或編輯條件時，請務必使用空格分隔多個條件。
 
@@ -706,7 +706,7 @@ Experience Manager Guides可讓您輕鬆建立和使用字彙表型別的檔案�
 >
 > 下列熒幕擷圖為具有管理許可權的使用者。 作為具有管理許可權的使用者，您可以新增、編輯和刪除條件。 否則，身為一般作者，您只會獲得套用條件的選項。
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 若要新增或定義條件，請選取「條件」面板旁的+圖示，以顯示「定義條件」對話方塊：
 
@@ -929,7 +929,7 @@ Experience Manager Guides也支援巢狀層級主旨配置對應，您可以在�
 
 您也可以從「條件」面板檢視並套用主旨配置。
 
-若要從「條件」面板檢視主旨配置，您的系統管理員必須在「設定」的「一般」標籤下，選取&#x200B;**「在條件面板中顯示主旨配置」**&#x200B;選項。 如需詳細資訊，請檢視[索引標籤列](#tab-bar)中的&#x200B;**設定**&#x200B;區段。
+若要從「條件」面板檢視主旨配置，您的系統管理員必須在「設定」的「一般」標籤下，選取&#x200B;**「在條件面板中顯示主旨配置」**&#x200B;選項。 如需詳細資訊，請檢視[索引標籤列](./web-editor-tab-bar.md)中的&#x200B;**設定**&#x200B;區段。
 
 「條件」面板會顯示主旨配置中主旨定義的平面垂直結構。
 
@@ -943,7 +943,7 @@ Experience Manager Guides也支援巢狀層級主旨配置對應，您可以在�
 >
 > 下列熒幕擷圖為具有管理許可權的使用者。 身為具有管理許可權的使用者，您可以新增、編輯和刪除程式碼片段。 否則，身為一般作者，您只會取得預覽和插入程式碼片段的選項。
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 若要新增程式碼片段，請使用下列任一方法：
 
@@ -1008,7 +1008,7 @@ Experience Manager Guides可讓您建立和管理原生PDF發佈的變數。 如
 
 尋找和取代圖示位於左側面板底部。 「尋找和取代」面板可讓您搜尋和取代地圖或存放庫內資料夾中檔案間的文字。 您可以尋找和取代地圖的所有主題，以及地圖內子地圖中的主題。
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 依預設，您可以依標題檢視檔案。 當您將滑鼠停留在檔案上時，您可以檢視檔案標題和檔案路徑作為工具提示。
 
@@ -1111,7 +1111,7 @@ Experience Manager Guides提供可在您的專案中顯示所有稽核任務的�
 1. 您也可以輸入要在主題標題或檔案路徑中尋找的搜尋字詞或文字。 會列出標題或檔案路徑中包含辭彙的主題。
 1. 連按兩下任何主題，以在作者檢視中開啟。 您可以在&#x200B;**註解**&#x200B;面板中檢視註解。
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 

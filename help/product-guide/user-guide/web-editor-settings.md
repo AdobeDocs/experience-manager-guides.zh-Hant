@@ -1,18 +1,19 @@
 ---
-title: 主題的編輯器檢視
-description: 以作者、來源和預覽模式檢視主題。 瞭解如何根據條件篩選器檢視內容、檢視追蹤變更標籤，以及在AEM Guides中將主題匯出為PDF。
-Sfeature: Authoring, Features of Web Editor
+title: Experience Manager Guides中的編輯器設定
+description: 瞭解Experience Manager Guides編輯器介面中可用的各種設定。
+feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 0fb079d08c31688046acf0e5a1e2ce7997d24cd6
+exl-id: fad2874f-dab5-4538-8502-f7112c51d941
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
 
 # 編輯器設定
 
-編輯器[索引標籤列]中的&#x200B;**設定**&#x200B;選項僅供管理員和資料夾設定檔管理員使用，並允許設定下列設定：
+編輯器[索引標籤列](./web-editor-tab-bar.md)中的&#x200B;**設定**&#x200B;選項僅供管理員和資料夾設定檔管理員使用，並允許設定下列設定：
 
 - [一般](#general)
 - [面板](#panels)

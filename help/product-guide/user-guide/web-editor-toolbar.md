@@ -3,7 +3,8 @@ title: 編輯器中的工具列
 description: 瞭解編輯器中的工具列。 瞭解Adobe Experience Manager Guides中的編輯器介面和功能。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -38,7 +39,7 @@ ht-degree: 0%
 
 **尋找和取代**&#x200B;功能可在作者和Source檢視模式中使用。 啟用時，「尋找和取代」文字列會顯示在主題編輯區域的底部。 您可以使用快速鍵&#x200B;**CTRL**+**F**&#x200B;來叫用尋找與取代列。
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 使用設定圖示\(![](images/settings-find-replace-icon.svg)\)，您可以切換&#x200B;**忽略大小寫**&#x200B;和僅&#x200B;**全字**&#x200B;搜尋選項。 若要執行不區分大小寫的搜尋，請開啟\（或選取\） **忽略大小寫**&#x200B;選項。 否則，如果您要執行區分大小寫的搜尋，請關閉\（或取消選取\） **忽略大小寫**&#x200B;選項。 您也可以選擇搜尋整個單字。
 
@@ -107,7 +108,7 @@ ht-degree: 0%
 
    當您回覆至較舊的版本時，會顯示視覺提示，指出您目前使用的版本不是最新版本。
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 </details>
 
@@ -295,7 +296,7 @@ Experience Manager Guides提供追蹤變更功能，其中包含檔案中所做�
 
 如果您在區塊元素（如`note`）內工作，則使用[插入元素]圖示在`note`元素之後插入新元素。 在下列熒幕擷圖中，筆記元素已插入p \(paragraph\)元素內：
 
-![在區塊元素中插入元素](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![在區塊元素中插入元素](images/note-in-para-insert-element_cs.png){align="left"}
 
 如果您在註記元素中按Enter鍵，會在註記元素本身中建立新段落。 若要在附註外插入新元素，請在元素階層連結中選取p元素\（在熒幕擷取畫面中反白顯示\），然後選取「元素」圖示，或按&#x200B;***Alt***+***Enter***&#x200B;開啟「插入元素」對話方塊。 然後，選取想要的元素並按Enter鍵將選取的元素插入註記元素之後。
 
@@ -366,7 +367,7 @@ Experience Manager Guides提供追蹤變更功能，其中包含檔案中所做�
 1. 從值下拉式清單中，選取您想要套用至所選表格儲存格的文字對齊方式。
 1. 選取&#x200B;**新增。**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 </details>
 
@@ -379,11 +380,11 @@ Experience Manager Guides提供追蹤變更功能，其中包含檔案中所做�
 > 您也可以將影像從本機系統拖放到文章上，以新增影像。 在此情況下，會使用&#x200B;**上傳Assets**&#x200B;工作流程新增影像檔案。  如需詳細資訊，請在[左側面板](#left-panel)區段中檢視&#x200B;**上傳Assets**&#x200B;工作流程。
 
 
-![](images/insert-image.png){width="650" align="left"}
+![](images/insert-image.png){width="300" align="left"}
 
 您可以在「插入影像」對話方塊中為影像新增影像/插圖示題和替代文字。
 
->
+>[!NOTE]
 >
 > 當您插入影像並為其指定替代文字時，會根據最新的DITA標準將其新增到`<alt>`元素中。 不建議將`@alt`屬性用於替代文字，但在舊版DITA中仍支援此功能。
 
@@ -391,7 +392,7 @@ Experience Manager Guides提供追蹤變更功能，其中包含檔案中所做�
 
 插入影像後，您可以從「內容屬性」面板變更高度、寬度、位置和屬性。 選取影像檔案，然後在右側面板的「內容屬性」面板中進行變更。
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停留在Source欄位上，以找到所插入影像檔案的完整路徑。 路徑會顯示在工具提示中。
 
@@ -468,7 +469,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 如果您的管理員已啟用&#x200B;*XMLEditorConfig*&#x200B;中的UUID選項，則您將會在&#x200B;**Link**&#x200B;屬性中檢視參考內容的UUID。
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -523,7 +524,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 >
 > Experience Manager Guides提供可移動和可調整大小的對話方塊。 在右下角有兩個橫線的對話方塊可以調整大小。 「特殊字元」對話方塊中的十字線顯示如下。
 
-![](images/insert-special-char.png){width="550" align="left"}
+![](images/insert-special-char.png){width="350" align="left"}
 
 在「插入特殊字元」對話方塊中，您可以使用特殊字元的名稱來搜尋特殊字元。 所有特殊字元都儲存在各種類別下。 使用選取類別下拉式清單並選取類別。 會顯示所選類別中可用的特殊字元。 您可以使用方向鍵瀏覽特殊字元的清單，或選取想要插入的字元。 所選特殊字元的「名稱」和「十六進位代碼」會顯示在清單下方。 選取&#x200B;**插入**&#x200B;以在檔案中插入選取的字元。
 
@@ -543,7 +544,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 **代碼片段** - ![](images/insert-snippet-icon.svg)
 
-在目前或下一個有效位置插入程式碼片段。 若要讓此功能運作，您必須在系統中定義程式碼片段。 如需新增程式碼片段的詳細資訊，請檢視[左側面板](web-editor-features.md#left-panel)區段中的&#x200B;**程式碼片段**&#x200B;功能說明。
+在目前或下一個有效位置插入程式碼片段。 若要讓此功能運作，您必須在系統中定義程式碼片段。 如需新增程式碼片段的詳細資訊，請檢視[左側面板](./web-editor-left-panel.md)區段中的&#x200B;**程式碼片段**&#x200B;功能說明。
 
 選取「程式碼片段」選項時，您會看到「插入程式碼片段」目錄。 目錄是內容感應式的，這表示只有在目前位置允許程式碼片段時，才會顯示程式碼片段。
 
@@ -571,12 +572,12 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
   版本編號會隨著為主題或對應檔案建立的每個新版本而變更。 如果您正在處理新建立的檔案，則版本資訊會顯示為&#x200B;**none**。
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **另存為新版本**&#x200B;按鈕可儲存您在主題中所做的變更，並建立主題的新版本。
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 當您選擇使用&#x200B;**另存為新版本**&#x200B;來儲存主題或地圖時，會出現下列對話方塊：
@@ -597,7 +598,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 當您將指標停留在主題標題上時，會顯示檔案標題、檔案路徑和版本號碼。
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -607,7 +608,7 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 鎖定或解除鎖定目前的檔案。 鎖定檔案可讓您以獨佔方式寫入檔案。 這會限制其他使用者編輯檔案。 如果您希望其他人有編輯存取權，請解除鎖定檔案。 解除鎖定檔案時，變更會儲存在檔案的目前版本中。
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 如果您在「對映檢視」中，並展開父對映，只要按一下即可鎖定對映中的所有檔案。 只要展開父對映檔案並選取父檔案，就會選取對映中的所有檔案。 然後，您可以選取&#x200B;**鎖定** ![](images/LockClosed_icon.svg)以取得對應中所有檔案的鎖定。
 
