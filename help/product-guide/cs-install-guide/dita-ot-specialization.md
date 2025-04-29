@@ -5,9 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 3119ef32a753afac9405af31a241ae508f922ea7
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ DITA Open Toolkit \(DITA-OT\)是一組以Java為基礎的開放原始碼工具�
 
 >[!NOTE]
 >
-> AEM Guides隨附DITA-OT版本3.3.2。不過，AEM Guides支援DITA-OT 1.7版及更新版本。 如需DITA-OT版本的完整清單，請參閱[DITA-OT版本](http://www.dita-ot.org/download)。
+> AEM Guides隨附DITA-OT 3.3.2版，但支援從DITA-OT 1.7到DITA-OT 4.x的一系列版本。如需DITA-OT版本的完整清單，請參閱[DITA-OT版本](http://www.dita-ot.org/download)。
 
 >[!TIP]
 >
@@ -30,7 +30,7 @@ DITA Open Toolkit \(DITA-OT\)是一組以Java為基礎的開放原始碼工具�
 
 您可以將自訂DITA-OT外掛程式上傳至AEM存放庫，以使用自訂DITA-OT外掛程式進行發佈。 依預設，AEM Guides附帶預先設定的設定檔，其中包含用於編輯和發佈內容的預設範本設定。 您可以使用在編輯檔案時使用的自訂範本來建立自訂設定檔，並使用自訂DITA-OT外掛程式來發佈內容。
 
-AEM Guides提供的預設DITA-OT套件附帶Apache FOP XSL-FO處理器，該處理器不支援轉譯MathML方程式。 如果您在內容中使用MathML方程式，請確定您已針對Apache FOP整合了MathML轉譯引擎外掛程式，或使用不同的XSL-FO處理器。
+AEM Guides提供的預設DITA-OT套件附帶Apache FOP XSL-FO處理器，該處理器不支援轉譯MathML方程式。 如果您在內容中使用MathML方程式，請確定您已整合Apache FOP適用的MathML轉譯引擎外掛程式，或使用其他XSL-FO處理器。
 
 執行以下步驟，將自訂DITA-OT外掛程式上傳至AEM存放庫：
 
@@ -48,7 +48,7 @@ AEM Guides提供的預設DITA-OT套件附帶Apache FOP XSL-FO處理器，該處�
 
    - 在Mac/Linux作業系統上執行整合程式\（以安裝自訂外掛程式\），以避免檔案分隔符號發生問題，因為Windows和Linux作業系統有不同的檔案分隔符號，所以在Mac/Linux作業系統上整合的外掛程式會與Windows和Linux安裝程式相容。
    - 確定`DITA-OT.ZIP`檔案包含名為「DITA-OT」的資料夾，其中包含所有相關的外掛程式和檔案。
-   - 檢查您建立的`DITA-OT.ZIP`檔案是否為mimeType： &quot;nt：file&quot; \(這與上傳至AEM時的ZIP檔案主要型別相對應\)。 使用WebDAV工具或程式碼部署，將此ZIP檔案上傳至AEM中的所需路徑。 \(請勿使用AEM封裝管理員來部署此ZIP檔案，因為此ZIP不是AEM內容封裝，而只是封存檔案。\)
+   - 檢查您建立的`DITA-OT.ZIP`檔案是否為mimeType： &quot;nt：file&quot; \(這與上傳至AEM時的ZIP檔案主要型別相對應\)。 使用WebDAV工具或程式碼部署，將此ZIP檔案上傳至AEM中的所需路徑。 \(請勿使用AEM的封裝管理員來部署此ZIP檔案，因為此ZIP不是AEM內容封裝，而只是封存檔案。\)
 
    >[!NOTE]
    >
@@ -71,8 +71,8 @@ AEM Guides提供的預設DITA-OT套件附帶Apache FOP XSL-FO處理器，該處�
    | 指派的路徑 | \（*選擇性*\）指定此設定檔適用的內容存放庫路徑。 您可以指定多個位置。 |
    | **DITA-OT屬性** |
    | DITA-OT逾時 | \（*選擇性*\）指定AEM Guides等待DITA-OT外掛程式回應的時間\（以秒為單位）。 如果在指定時間內未收到任何回應，AEM Guides會終止發佈工作，且工作會標籤為失敗。 此外，輸出產生記錄檔中也有失敗記錄檔。 <br>預設值： 300秒\（5分鐘\） |
-   | dita-OTPDF引數 | 指定由自訂DITA-OT外掛程式處理以產生PDF輸出的命令列引數。 對於所有自訂DITA-OT設定檔，請指定下列命令列引數： `-lib plugins/org.dita.pdf2.fop/lib/` |
-   | DITA-OT AEM引數 | \（*選擇性*\）指定自訂DITA-OT外掛程式處理用來產生AEM Site輸出的自訂命令列引數。 |
+   | dita-OT PDF引數 | 指定由自訂DITA-OT外掛程式處理以產生PDF輸出的命令列引數。 對於所有自訂DITA-OT設定檔，請指定下列命令列引數： `-lib plugins/org.dita.pdf2.fop/lib/` |
+   | dita-OT AEM引數 | \（*選擇性*\）指定自訂DITA-OT外掛程式處理用來產生AEM網站輸出的自訂命令列引數。 |
    | DITA-OT程式庫路徑 | \（*選擇性*\）指定DITA-OT外掛程式的其他程式庫路徑。 |
    | DITA-OT建置XML | \（*選擇性*\）指定自訂DITA-OT外掛程式隨附的自訂Ant建置指令碼路徑。 此路徑相對於檔案系統上的DITA-OT目錄。 |
    | DITA-OT Ant指令碼資料夾 | \（可選\）指定DITA-OT Ant指令碼資料夾的路徑。 此路徑相對於檔案系統上的DITA-OT目錄。 |
@@ -80,7 +80,7 @@ AEM Guides提供的預設DITA-OT套件附帶Apache FOP XSL-FO處理器，該處�
    | 覆寫DITA-OT輸出 | 選擇是否應覆寫DITA-OT輸出。 保持選取此選項。 |
    | AEM DITA-OT Zip路徑 | 指定自訂DITA-OT.zip檔案儲存在AEM存放庫中的完整路徑。 |
    | DITA-OT外掛程式路徑 | 自訂外掛程式的路徑。 此外掛程式會自動與主要DITA-OT套件整合。 |
-   | 整合目錄 | \(*Optional*\) AEM儲存庫中自訂DTD和XSD catalog.xml檔案的路徑。 只有在DITA-OT套件中遺失目錄時，才應提供此專案。 這些目錄會作為外掛程式自動與主要DITA-OT整合。 |
+   | 整合目錄 | \(*Optional*\) AEM存放庫中自訂DTD和XSD catalog.xml檔案的路徑。 只有在DITA-OT套件中遺失目錄時，才應提供此專案。 這些目錄會作為外掛程式自動與主要DITA-OT整合。 |
    | 新增系統ID目錄 | \（*選擇性*\）只有在目錄中有遺失的公用ID專案，或DITA檔案僅使用相對於其上傳來源伺服器路徑的系統ID時，才選取此選項。 |
    | DITA-OT暫時路徑 | 複製DITA檔案以供處理的暫存位置。 在DITA-OT處理檔案之前，會先在此暫存位置複製檔案。 預設的暫存位置為： <br> `<*AEM-Install*>/crx-quickstart/profiles/ditamaps` <br> **重要：**&#x200B;您不可變更預設路徑。 |
 

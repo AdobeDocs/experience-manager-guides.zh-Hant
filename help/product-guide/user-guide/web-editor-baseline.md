@@ -4,9 +4,9 @@ description: 從Adobe Experience Manager Guides的地圖主控台建立和管理
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ ht-degree: 0%
   > 新增或移除標籤的程式會非同步進行，因此您可以繼續處理其他檔案。 新增或移除標籤後，會顯示快顯訊息，確認已新增或移除標籤，且您也會收到該標籤的收件匣通知。
 
 - **編輯您在建立基準時所設定的現有靜態基準線的屬性**。
-- 使用&#x200B;**匯出基準線**&#x200B;選項匯出Microsoft Excel檔案中的基準線快照。
+- **匯出基準線**&#x200B;選項會匯出Microsoft Excel檔案中基準線的快照，包括所有必要的詳細資訊，例如標題、檔案名稱、檔案型別、版本編號、檔案狀態及其他相關資訊。
 
 
 ### 標籤清單 {#labels-list}

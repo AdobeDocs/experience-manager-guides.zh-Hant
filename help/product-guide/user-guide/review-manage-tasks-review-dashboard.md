@@ -4,9 +4,9 @@ description: 從AEM Guides的「稽核儀表板」管理稽核任務。 瞭解�
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 0%
 - 修改&#x200B;**到期日**。 您可以預先或延後完成任務的截止日期。
 - 選取選項可限制使用者僅檢閱指派給他們的主題。
 - 選取&#x200B;**更新**&#x200B;以更新修改的詳細資料。
+
+  系統會顯示快顯通知訊息，確認更新是否成功。
 - 選取&#x200B;**完成**&#x200B;以在到期日之前將稽核任務標示為完成。 當個別主題的任務標示為完成時，會關閉所選主題的複查。 但是，如果主題是透過DITA map共用以供檢閱，將DITA map任務標示為完成將會關閉對映內共用以供檢閱的所有主題的檢閱。
 - 選取&#x200B;**複製**&#x200B;以建立稽核工作的復本。 建立重複稽核任務的程式與建立新稽核任務類似。 啟動複製任務工作流程後，您會看到「建立稽核任務」頁面。 您必須提供新任務詳細資訊，如[傳送主題以供稽核](review-send-topics-for-review.md#)中所述。
 

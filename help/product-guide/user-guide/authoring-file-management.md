@@ -4,9 +4,9 @@ description: 瞭解如何在AEM Guides中管理檔案和資料夾。 複製並�
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Experience Manager Guides隨附大量移動工具，可協助管理員將具有�
 
    - **Source路徑\(s\)**：指定您要移動的資料夾位置。
 
-      - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">    以開啟瀏覽檔案對話方塊。 選取您要移動的資料夾，然後選擇&#x200B;**選取**&#x200B;以完成程式。
+      - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">    以開啟&#x200B;**選取路徑**&#x200B;對話方塊。 選取您要移動的資料夾，然後選擇&#x200B;**選取**&#x200B;以完成程式。 您可以在路徑瀏覽器中選取放置在不同位置的多個資料夾。 所選資料夾的路徑將會保留，讓您在重新開啟對話方塊時可以輕鬆檢閱或修改它們。
 
       - 您也可以鍵入或複製並貼上來源位置。 按Enter將資料夾新增至清單。
 
@@ -195,7 +195,7 @@ Experience Manager Guides隨附大量移動工具，可協助管理員將具有�
 
    - **Source路徑\(s\)**：指定您要移動的資料夾位置。
 
-      - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">    以開啟瀏覽檔案對話方塊。 選取您要移動的資料夾，然後選擇&#x200B;**選取**&#x200B;以完成程式。
+      - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">    以開啟&#x200B;**選取路徑**&#x200B;對話方塊。 選取您要移動的資料夾，然後選擇&#x200B;**選取**&#x200B;以完成程式。 您可以在路徑瀏覽器中選取放置在不同位置的多個資料夾。 所選資料夾的路徑將會保留，讓您在重新開啟對話方塊時可以輕鬆檢閱或修改它們。
 
       - 您也可以鍵入或複製並貼上來源位置。 按Enter將資料夾新增至清單。
 

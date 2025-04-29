@@ -4,10 +4,10 @@ description: 在AEM Guides中管理內容並識別您的角色和許可權。 �
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 9%
+source-wordcount: '584'
+ht-degree: 11%
 
 ---
 
@@ -68,7 +68,7 @@ Experience Manager Guides提供三個現成可用的群組。 這些群組是：
 | **DITA map主控台中可用的功能\（輸出預設集索引標籤\）** |
 | 產生 |   |   | 是 |
 | 編輯 |   |   | 是 |
-| 複製 |   |   | 是 |
+| 重複項目 |   |   | 是 |
 | 建立 |   |   | 是 |
 | 刪除預設集 |   |   | 是 |
 | **DITA map主控台中可用的功能\（輸出標籤\）** |
@@ -79,7 +79,7 @@ Experience Manager Guides提供三個現成可用的群組。 這些群組是：
 | **DITA map主控台中可用的功能\（基準線標籤\）** |
 | 建立 |   |   | 是 |
 | 編輯 |   |   | 是 |
-| 複製 |   |   | 是 |
+| 重複項目 |   |   | 是 |
 | 移除 |   |   | 是 |
 | DITA map主控台\（報表標籤\） | 是 |   | 是 |
 | DITA map主控台中可用的&#x200B;**功能\（條件預設集\）** |
@@ -88,15 +88,3 @@ Experience Manager Guides提供三個現成可用的群組。 這些群組是：
 [1](#fnsrc_1)如果邀請&#x200B;*作者*&#x200B;與&#x200B;*發行者*&#x200B;檢閱。
 
 [2](#fnsrc_2)根據檔案狀態設定檔中授予使用者的許可權。
-
-## 內容製作的先決條件
-
-**使用全域或資料夾層級的設定檔**
-
-在企業中，不同的群組或產品可能會使用不同的編寫範本、輸出範本、條件屬性設定檔\（或主旨配置\）和網頁編輯器設定。 僅在企業層級\（或全域\）設定這些專案，可能會讓作者體驗困難，因為他們會檢視與他們無關的範本或設定檔。
-
-Experience Manager Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\（主題或地圖\）範本、輸出範本、條件屬性和Web編輯器設定。 如此一來，您就可以分隔企業中不同部門或產品的組態。
-
-此外，您也可以將檔案夾特定的設定委派給部門或產品管理員，以分散管理。
-
-如需設定全域和資料夾層級設定檔的詳細資訊，請檢視「安裝和設定Adobe Experience Manager Guides as a Cloud Service」中的&#x200B;*設定全域或資料夾層級設定檔*。

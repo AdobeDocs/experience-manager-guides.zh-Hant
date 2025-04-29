@@ -4,7 +4,7 @@ description: 瞭解如何從AEM Guides的DITA map主控台下載檔案，以及�
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: f3858b1694837c7a3fa7bb222ed8ff31ce7103f8
+source-git-commit: 632b253a36822b4b5b93766153f0fc3a1116b616
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -36,7 +36,10 @@ ht-degree: 0%
 1. 選取&#x200B;**下載**。 在「下載對應」對話方塊中，您可以選擇下列選項：
 
    - **使用基準線**：選取此選項可取得為DITA map建立的基準線清單。 如果您要根據特定的「基準線」下載對映檔案及其內容，請從下拉式清單中選取「基準線」。 如需使用基準線的詳細資訊，請檢視[使用基準線](generate-output-use-baseline-for-publishing.md#)。
+
    - **平面化檔案階層**：選取此選項可將所有參考的主題和媒體檔案儲存在單一資料夾中。
+
+
    >[!NOTE]
    >
    > 您也可以在不選取任何選項的情況下下載地圖檔案。 在這種情況下，會下載參照的主題和媒體檔案的最後一個儲存版本。

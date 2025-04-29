@@ -4,9 +4,9 @@ description: 瞭解如何將Workfront與Adobe Experience Manager Guides整合，
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
+source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,8 @@ Workfront任務頁面也包含連結輸出圖示![](./images/Smock_LinkOut_18_N.
 3. 在&#x200B;**Assets**&#x200B;索引標籤中，選取&#x200B;**新增**&#x200B;以將資產新增至此工作。
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
+
+   顯示&#x200B;**選取路徑**&#x200B;對話方塊。 選取所需資產的路徑。 您可以在路徑瀏覽器中選取有效路徑，以新增多個資產。 您選取的路徑將會保留，讓您在重新開啟對話方塊時可輕鬆檢閱或修改它們。
 
    * 對於製作、發佈和翻譯工作，系統會提示您在&#x200B;**選取路徑**&#x200B;對話方塊中選取所需檔案的位置。 選取&#x200B;**建立**&#x200B;按鈕後，選取的檔案（用於編寫的主題，以及發佈和翻譯的對應）會立即新增到任務中。
 

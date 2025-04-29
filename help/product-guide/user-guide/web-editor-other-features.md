@@ -4,9 +4,9 @@ description: 探索Adobe Experience Manager Guides中編輯器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 編輯器中有其他幾個實用的功能可供您使用：
 
-**檔案索引標籤上的內容功能表功能**
+## 檔案索引標籤上的內容功能表功能
 
 當您在編輯器中開啟檔案時，可以從內容功能表執行各種動作。 視您開啟媒體檔案、單一DITA檔案還是多個檔案而定，可能會檢視不同的選項。
 
@@ -142,19 +142,21 @@ Generate the output for the selected file. Output can be generated only for file
 >
 > 如果是影像、音訊或視訊檔案，檔案瀏覽對話方塊會預設為檔案的位置，而不是最後使用的位置。
 
-**文章式發佈的支援**
+## 支援文章式發佈
 
 從編輯器中，您可以產生一或多個主題或整個DITA map的輸出。 您需要為DITA map建立輸出預設集，然後可以輕鬆產生一或多個主題的輸出。 如果您更新了地圖中的幾個主題，也可以僅從編輯器為這些主題產生輸出。 如需詳細資訊，請檢視[以文章為基礎的發佈](web-editor-article-publishing.md#id218CK0U019I)。
 
-**支援Markdown檔案**
+## 支援Markdown檔案
 
 編輯器可讓您使用Markdown檔案\(.md\)以及DITA檔案。 您可以在編輯器中輕鬆編寫及預覽Markdown檔案，也可以透過DITA map編輯器將其新增至地圖檔案中。 如需更多詳細資料，請從編輯器檢視[作者Markdown檔案](web-editor-markdown-topic.md#)。
 
-**支援DITA字彙術語主題**
+## 支援DITA字彙術語主題
 
 編輯器支援您可以新增`term`或`abbreviated-form`元素來插入的DITA字彙表辭彙。
 
-**插入MathML方程式**
+## 使用MathML方程式
+
+### 插入MathML方程式
 
 Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro)應用程式的整合，插入MathML方程式。 若要插入MathML方程式，請選取&#x200B;**元素**&#x200B;圖示並輸入mathml。 當您從清單中選取mathml元素時，會顯示&#x200B;**插入MathML**&#x200B;對話方塊：
 
@@ -164,22 +166,22 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 您可以隨時更新方程式，方法是以滑鼠右鍵按一下現有方程式，然後從內容功能表選取&#x200B;**編輯MathML**。
 
-- **在MathML編輯器中驗證方程式**
+### 在MathML編輯器中驗證方程式
 
-  當您儲存包含方程式的主題時，Experience Manager Guides會驗證MathML方程式。
+當您儲存包含方程式的主題時，Experience Manager Guides會驗證MathML方程式。
 使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取**插入**，則會顯示警告。
 
-  ![驗證mathml方程式](images/validate-mathml-equation.png){width="400" align="left"}
+![驗證mathml方程式](images/validate-mathml-equation.png){width="400" align="left"}
 
-  如果您插入包含語法錯誤的MathML方程式，則在嘗試儲存主題時會發生驗證錯誤。
+如果您插入包含語法錯誤的MathML方程式，則在嘗試儲存主題時會發生驗證錯誤。
 
 
-**插入註腳**
+## 插入註腳
 
 使用`fn`元素在內容中插入註腳。 在製作模式中，註腳值與內容內嵌顯示。 但是，當您切換「預覽」模式或發佈檔案時，註腳會出現在主題末尾。
 
 
-**重新命名或取代專案**
+## 重新命名或取代元素
 
 編輯器會在主題左下角顯示元素的階層連結。 如果要使用另一個元素交換或取代某個元素，則可以從階層連結的內容選單中進行此操作。 例如，您可以將`p`元素與內容中的`note`或任何其他有效元素交換。
 
@@ -195,9 +197,9 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 - 您可以呼叫「大綱」面板中元素的「選項」功能表，來存取「重新命名元素」對話方塊。
 
+## 包裝和展開元素
 
-
-**繞排專案**
+### 繞排元素
 
 - 繞排元素可讓您將元素標籤新增至選取的文字。 您可以依照DITA標準將文字繞排為任何子元素。 例如，如果您在`note`元素下有文字，則可以將文字繞排為`p`元素。
 
@@ -205,11 +207,11 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 - 您也可以選取內容中的文字或元素，然後從內容功能表中選取&#x200B;**繞排元素**&#x200B;選項。
 
-**解除專案包裝**
+### 解除元素包裝
 
 展開元素可讓您從選取的文字中移除元素標籤，並將其與其父元素合併。 例如，如果您在`note`元素中有一個`p`元素，您可以解除`p`元素的包裝，直接在`note`元素中合併文字。 在主題階層連結的內容功能表中可以使用&#x200B;**Unwrap Element**&#x200B;選項。 若要解除專案包裝，請在專案上按一下滑鼠右鍵以開啟內容功能表，最後選取&#x200B;**解除專案包裝**&#x200B;以移除專案，並將專案的文字與其父專案合併。
 
-**DITA元素的空白處理**
+## DITA元素的空白處理
 
 在XML中，空白字元包括空格、定位字元、歸位字元和空白行。 Experience Manager Guides會將多個後續空格轉換為一個空格。 這可協助您保留編輯器的WYSIWYG檢視。
 
@@ -218,7 +220,7 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 > 在某些需要根據DITA規則保留空白的元素中，會保留多個後續空格。 例如，`<pre>`和`<codeblock>`個元素。
 
 
-**保留分行和縮排**
+## 保留分行和縮排
 
 根據在「作者」、「Source」或「預覽」模式中的定義，以及在最終發佈的輸出中的定義，支援並轉譯包含分行符號和空格的DITA元素。 下列熒幕擷圖顯示`msgblock`元素中的內容，其中分行符號和空格\(indentation\)已保留：
 
@@ -226,7 +228,7 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 
 
-**在編輯器中處理不斷行空格**
+## 在編輯器中處理不斷行空格
 
 - 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)圖示或&#x200B;**Alt** + **Space**&#x200B;捷徑鍵，在檔案中插入不間斷的空格。  在編輯器中編輯主題時，這些不斷行空格會顯示為指示器。 您可以從[使用者偏好設定](./intro-home-page.md#user-preferences)的&#x200B;**外觀**&#x200B;索引標籤中，使用&#x200B;**在作者模式**&#x200B;中顯示不斷行空格指示器選項關閉不斷行空格的顯示。
 
@@ -234,7 +236,7 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 不過，如果您從**作者**&#x200B;檢視複製並貼上含有不斷行空格的內容，內容會保留。
 
 
-**自動產生專案識別碼**
+## 自動生成元素ID
 
 您可以為DITA主題中的元素自動產生ID。 這些ID在DITA主題中是唯一的。 例如，如果您產生段落元素的ID，ID將為p\_1、p2、p\_3等。 您可以選取多個元素，並為每個選取的元素產生ID。
 
@@ -246,5 +248,24 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
    或者，您可以在階層連結中按一下滑鼠右鍵，然後選取&#x200B;**產生ID**。
 
+
+
+## 在編輯器中處理大型檔案
+
+旨在改善大型檔案處理方式的主要功能如下：
+
+- 為了增強效能，某些功能（如還原、重做、大綱面板和已變更的標籤）會停用。 建議將主題分成較小的主題，以獲得最佳體驗。
+
+- 大型檔案的頂端會顯示警示訊息，如下面的程式碼片段所示。 此警報會根據uiconfig.json檔案的&#x200B;**largeFileTagCount**&#x200B;引數中指定的值，反白標示元素數目。 根據預設，**largeFileTagCount**&#x200B;設為2500。
+
+![](images/add-toast-notification.png){width="600" align="left"}
+
+
+- 此外，標籤計數會顯示在介面的底端列。 當您將滑鼠懸停在此標籤計數值上時，畫面會顯示工具提示。 選取&#x200B;**深入瞭解**&#x200B;索引標籤可提供處理大型檔案的詳細資訊。
+
+![](images/add-toast-tag-count.png){width="600" align="left"}
+
+
+- 警報訊息僅適用於DITA檔案，且在所有檢視中皆可見：作者、Source和版面。
 
 **父級主題：**[&#x200B;編輯器簡介](web-editor.md)
