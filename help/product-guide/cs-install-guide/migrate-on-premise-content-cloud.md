@@ -30,7 +30,7 @@ Experience Manageras a Cloud Service為Experience Manager Guides、Assets、Form
 
 ## 移轉程式
 
-**內容轉移工具**是由Adobe開發的工具，可用來啟動將現有內容從來源Adobe Experience Manager內部部署或Managed Services執行個體移轉至目標Experience Manager Cloud Service執行個體的作業。
+**內容轉移工具**&#x200B;是由Adobe開發的工具，可用來啟動將現有內容從來源Adobe Experience Manager內部部署或Managed Services執行個體移轉至目標Experience Manager Cloud Service執行個體的作業。
 此工具也會自動轉移主體 (使用者或群組)。
 
 您可以從&#x200B;**軟體發佈**&#x200B;入口網站下載&#x200B;**內容轉移工具**&#x200B;的ZIP檔：
@@ -40,7 +40,7 @@ Experience Manageras a Cloud Service為Experience Manager Guides、Assets、Form
 1. 從清單中選取&#x200B;**內容轉移工具**&#x200B;並下載。
 
 ![下載內容轉移工具](./assets/content-transfer-tool-software-portal.png)
-然後透過**封裝管理員**在您的來源Adobe Experience Manager執行個體上安裝封裝。 請務必下載最新版本。
+然後透過&#x200B;**封裝管理員**&#x200B;在您的來源Adobe Experience Manager執行個體上安裝封裝。 請務必下載最新版本。
 如需最新版本的詳細資訊，請檢視[發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en)。
 
 >[!NOTE]
@@ -64,7 +64,7 @@ Experience Manageras a Cloud Service為Experience Manager Guides、Assets、Form
 1. 建立您的第一個專案。
    ![建立專案](./assets/migration-cloud-create-project.png)
 
-1. 新增名稱和描述，然後按一下[建立]。**** 您的專案已建立。
+1. 新增名稱和描述，然後按一下[建立]。**&#x200B;** 您的專案已建立。
 1. 選取已建立的專案，並開啟專案畫面。
 1. 在&#x200B;**內容轉移**&#x200B;圖磚上按一下&#x200B;**檢閱**。
 
@@ -103,10 +103,10 @@ Experience Manageras a Cloud Service為Experience Manager Guides、Assets、Form
 
 1. 選取&#x200B;**內容轉移**、建立移轉集，並貼上從Cloud Acceleration Manager複製的擷取金鑰。 這會在來源和目標之間建立連線。 然後它會驗證金鑰，並在輸入值後顯示有效性。
 
-1. 啟用&#x200B;**包含版本**選項以包含檔案版本。
+1. 啟用&#x200B;**包含版本**&#x200B;選項以包含檔案版本。
    ![](./assets/migration-create-migration-set.png)
 
-1. 提供您要移轉的路徑，然後按一下[儲存]。****
+1. 提供您要移轉的路徑，然後按一下[儲存]。**&#x200B;**
 例如，`/content/sites`
 或
    `/content/dam/tech-docs`
@@ -135,7 +135,7 @@ Experience Manageras a Cloud Service為Experience Manager Guides、Assets、Form
    ![移轉集擷取](./assets/migration-set-extraction.png)
 
 1. 擷取完成後，以狀態`finished`表示後，請前往Cloud Acceleration Manager並選取您在步驟18建立的專案。
-如需詳細資訊，請選取三個點，然後選取**檢視詳細資料**。
+如需詳細資訊，請選取三個點，然後選取&#x200B;**檢視詳細資料**。
 
 
 1. 在移轉集詳細資訊快顯視窗中，驗證移轉集設定並關閉快顯視窗。 您可以檢視路徑和其他設定，如下列熒幕擷圖所示：
@@ -143,10 +143,10 @@ Experience Manageras a Cloud Service為Experience Manager Guides、Assets、Form
 
 
 1. 按一下&#x200B;**內嵌工作** > **新增內嵌**。
-1. 認可必要的核取記號值，然後按一下[建立]。****
+1. 認可必要的核取記號值，然後按一下[建立]。**&#x200B;**
    ![認可移轉檢查](./assets/migration-new-ingestion-acknowledge.png)
 
-1. 挑選移轉集，選取環境所需的伺服器，然後按一下[內嵌]。****
+1. 挑選移轉集，選取環境所需的伺服器，然後按一下[內嵌]。**&#x200B;**
 
    ![新內嵌](./assets/migration-new-ingestion.png)
 

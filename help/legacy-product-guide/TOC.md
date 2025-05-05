@@ -70,7 +70,7 @@ ht-degree: 3%
                - [地圖編輯器中的其他功能](./user-guide/map-editor-other-features.md)
             - DITAVAL編輯器{#ditaval-editor}
                - [使用DITAVAL編輯器](./user-guide/ditaval-editor.md)
-         - 製作內容{#author-using-desktop-tools}的案頭工具
+         - 製作內容的案頭工具{#author-using-desktop-tools}
             - [使用案頭工具製作內容](./user-guide/author-desktop-tools.md)
             - [使用FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [使用氧氣](./user-guide/author-desktop-oxygen.md)
@@ -84,7 +84,7 @@ ht-degree: 3%
          - [處理稽核意見](./user-guide/review-address-review-comments.md)
       - [使用「稽核儀表板」管理稽核任務](./user-guide/review-manage-tasks-review-dashboard.md)
       - [檢視完成的稽核任務](./user-guide/review-view-completed-task.md)
-   - AEM Guides {#manaege-metadata}中的中繼資料
+   - AEM Guides中的中繼資料 {#manaege-metadata}
       - [管理中繼資料](./user-guide/manage-metadata.md)
       - [在AEM中使用中繼資料](./user-guide/metadata-dita.md)
       - [智慧標籤](./user-guide/web-editor-smart-tagging.md)
@@ -97,7 +97,7 @@ ht-degree: 3%
    - 輸出產生{#output-gen}
       - [輸出產生基本概念](./user-guide/generate-output.md)
       - [輸出預設集簡介](./user-guide/generate-output-understand-presets.md)
-      - AEM Guides {#output-presets-aemg}中的輸出預設集
+      - AEM Guides中的輸出預設集 {#output-presets-aemg}
          - [AEM網站](./user-guide/generate-output-aem-site.md)
          - [地圖儀表板上的AEM Sites預設集](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [網頁編輯器中的AEM Sites預設集](./user-guide/generate-output-aem-site-web-editor.md)
@@ -126,7 +126,7 @@ ht-degree: 3%
          - [啟動輸出](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [編輯大量啟用地圖集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [刪除大量啟用地圖集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   - 產生FrameMaker檔案{#generate-fm-output}的輸出
+   - 產生FrameMaker檔案的輸出{#generate-fm-output}
       - [產生FrameMaker檔案的輸出](./user-guide/fm-output-generatation.md)
       - 支援的預設集{#fm-docs-generating-presets}
          - [用來產生FrameMaker檔案的預設集](./user-guide/fm-output-understand-presets.md)
@@ -135,7 +135,7 @@ ht-degree: 3%
          - [ePub](./user-guide/fm-output-epub-preset.md)
       - [產生.book或.fm檔案的輸出](./user-guide/fm-output-generate.md)
       - [檢視輸出產生工作的狀態](./user-guide/fm-output-view-status.md)
-   - AEM Guides {#reports-aem-guide}中的報告
+   - AEM Guides中的報告 {#reports-aem-guide}
       - [報表簡介](./user-guide/reports-intro.md)
       - [來自網頁編輯器的DITA map報表](./user-guide/reports-web-editor.md)
       - [DITA map報表（從map儀表板）](./user-guide/reports-ditamap.md)

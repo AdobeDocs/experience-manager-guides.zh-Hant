@@ -35,4 +35,4 @@ ht-degree: 0%
 >
 > 您可以考慮許多效能最佳化建議，以提升系統效能。 如需詳細資訊，請參閱[Recommendations的效能最佳化](download-install-recommend-perf-optimiz.md#)。
 
-**上層主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)

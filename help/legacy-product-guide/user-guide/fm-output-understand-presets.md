@@ -18,4 +18,4 @@ AEM Guides支援以PDF、HTML5和EPUB格式建立FrameMaker檔案的輸出。 �
 
 以下各節將說明支援的輸出格式可用的選項。
 
-**父級主題：**[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)
+**父級主題：**&#x200B;[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)

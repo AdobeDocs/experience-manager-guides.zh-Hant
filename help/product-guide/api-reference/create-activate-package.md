@@ -53,7 +53,7 @@ Cloud Service的`preview`或`publish`，以及內部部署軟體的`publish`
 以下範例顯示使用具有選用引數的curl命令的API呼叫：
 
 
-    ``XML
+    &grave;&grave;XML
     
     curl -u &lt;*username*>：&lt;*password*> -H &quot;Content-Type： application/json； charset=UTF-8&quot; -k -XPOST-d &quot;{[JSON規則字串](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>：&lt;*port-number*>/bin/fmdita/activate？activationTarget=&#39;&lt;validTarget&lt;validActivationTarget值>「
     」「

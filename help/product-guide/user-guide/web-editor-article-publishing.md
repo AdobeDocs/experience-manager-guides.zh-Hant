@@ -46,4 +46,4 @@ Adobe Experience Manager Guides隨附以文章為基礎的發佈功能，可讓�
    > 您也可以從「選項」選單中「重新命名」、「複製」或「刪除」現有的輸出預設集。
 
 
-**父級主題：**[&#x200B;使用編輯器](web-editor.md)
+**父級主題：**&#x200B;[&#x200B;使用編輯器](web-editor.md)

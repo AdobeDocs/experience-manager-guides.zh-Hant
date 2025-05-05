@@ -40,7 +40,7 @@ ht-degree: 0%
 
    <img src="assets/projects-tab.png" alt="專案索引標籤" width="500">
 
-   *在&#x200B;**Adobe Developer Console***上選取**&#x200B;專案&#x200B;**標籤
+   *在&#x200B;**Adobe Developer Console***上選取&#x200B;**&#x200B;專案&#x200B;**&#x200B;標籤
 
 1. 若要建立新的空白專案，請從&#x200B;**建立新專案**&#x200B;下拉式清單中選取&#x200B;**空白專案**。
 

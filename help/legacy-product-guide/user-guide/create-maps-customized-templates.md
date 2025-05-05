@@ -164,7 +164,7 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 
 1. 在&#x200B;**Assets UI中，**&#x200B;導覽至您要建立對應的資料夾。
 1. 按一下&#x200B;**建立\> DITA Map**。
-1. 在Blueprint頁面上，選取您要使用的對應範本，然後按一下[下一步]。**** 例如，如果您已建立對應範本&#39;test-template&#39;，請選取它。
+1. 在Blueprint頁面上，選取您要使用的對應範本，然後按一下[下一步]。**&#x200B;** 例如，如果您已建立對應範本&#39;test-template&#39;，請選取它。
 1. 在[屬性]頁面上，指定對應&#x200B;**標題**。
 1. 指定檔案&#x200B;**名稱**。
 
@@ -190,4 +190,4 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 
 - 如果在資料夾的相同層級建立另一個地圖或主題，則新建立的資產名稱會附加0、1、2等等。 您可以選擇開啟地圖進行編輯，或將地圖檔案儲存在存放庫中。
 
-**父級主題：**[&#x200B;使用對應編輯器](map-editor.md)
+**父級主題：**&#x200B;[&#x200B;使用對應編輯器](map-editor.md)

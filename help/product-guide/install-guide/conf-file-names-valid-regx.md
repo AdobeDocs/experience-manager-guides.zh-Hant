@@ -47,4 +47,4 @@ ht-degree: 0%
 >
 > 與有效的檔案名稱字元清單類似，您也可以為AEM Site輸出指定有效的檔案名稱字元清單。 如需詳細資訊，請參閱[設定AEM站台輸出的有效檔案名稱](conf-file-names-valid-regx-aem-site-output.md#)。
 
-**父級主題：**[&#x200B;設定檔名](conf-file-names.md)
+**父級主題：**&#x200B;[&#x200B;設定檔名](conf-file-names.md)

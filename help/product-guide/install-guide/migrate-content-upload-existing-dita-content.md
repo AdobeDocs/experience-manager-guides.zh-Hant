@@ -177,4 +177,4 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 - `<metadata node path>`：完整的資料夾路徑，包括檔案名稱及其中繼資料節點。 例如，如果您將路徑指定為`http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`，則指定的中繼資料資訊會設定在`intro.xml`檔案上。
 
 
-**上層主題：**[&#x200B;移轉現有內容](migrate-content.md)
+**上層主題：**&#x200B;[&#x200B;移轉現有內容](migrate-content.md)

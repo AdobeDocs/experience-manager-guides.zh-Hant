@@ -178,4 +178,4 @@ Features available in the tab bar are explained as follows:
 > **尋找和取代**&#x200B;功能不會處理存放庫層級的Markdown檔案。 這包括搜尋地圖或資料夾中的Markdown檔案。 不過，仍可在Markdown編輯器中使用。 此外，存放庫檢視中的&#x200B;**搜尋**&#x200B;和&#x200B;**篩選器**&#x200B;選項不會處理Markdown檔案。
 
 
-**父級主題：**[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)

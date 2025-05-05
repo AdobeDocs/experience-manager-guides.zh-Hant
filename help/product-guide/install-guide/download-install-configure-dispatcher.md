@@ -81,4 +81,4 @@ AEM Dispatcher設定中預設不會啟用具有編碼斜線的URL，但在AEM Gu
                 }
 ```
 
-**上層主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)

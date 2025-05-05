@@ -30,7 +30,7 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**套件。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;套件。
    ![](assets/open-in-fm-config.png)
 
 1. 選取&#x200B;**在FrameMaker中顯示開啟按鈕**&#x200B;選項。

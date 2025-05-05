@@ -93,4 +93,4 @@ Adobe Experience Manager Guides可讓您建立以下型別的DITA主題：主題
 
 4. 建立DITA主題後，請繼續儲存對工作副本所做的變更，並在完成主題更新後建立新版本。
 
-**父級主題：**[&#x200B;建立和預覽主題](create-preview-topics.md)
+**父級主題：**&#x200B;[&#x200B;建立和預覽主題](create-preview-topics.md)

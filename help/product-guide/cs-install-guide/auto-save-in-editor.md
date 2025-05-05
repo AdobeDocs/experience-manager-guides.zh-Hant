@@ -25,4 +25,4 @@ ht-degree: 1%
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | 布林值\(true/false\)。<br> **預設值**： false |
 | `xmleditor.autosaveinterval` | 指定觸發自動儲存功能的時間間隔（秒）。 |
 
-**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)

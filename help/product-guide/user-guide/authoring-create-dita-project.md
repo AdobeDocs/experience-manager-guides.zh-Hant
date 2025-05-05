@@ -76,4 +76,4 @@ Adobe Experience Manager Guides提供DITA專案範本，您可用來建立和管
 1. 選取&#x200B;**開啟**&#x200B;以開啟您的專案頁面。
 
 
-**父級主題：**[&#x200B;檢閱簡介](review.md)
+**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)

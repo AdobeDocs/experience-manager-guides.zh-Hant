@@ -13,7 +13,7 @@ ht-degree: 1%
 
 本文介紹Adobe Experience Manager Guides 4.6.0 Service Pack 3版的升級指示和相容性矩陣。
 
-如需此版本中已修正的問題清單，請檢視4.6.0 Service Pack 3版本](fixed-issues-4-6-0-sp2.md)中的[已修正問題。
+如需此版本中已修正的問題清單，請檢視4.6.0 Service Pack 3版本[&#128279;](fixed-issues-4-6-0-sp2.md)中的已修正問題。
 
 ## 相容性矩陣
 
@@ -74,4 +74,4 @@ ht-degree: 1%
 >
 >升級Experience Manager Guides版本前，您必須先安裝AEM Service Pack。
 
-4.6.0 Service Pack 3版本的升級程式遵循與4.6.0版本相同的步驟。 如需詳細指示，請檢視Experience Manager Guides內部部署版本](../install-guide/upgrade-xml-documentation.md)的[升級指示。
+4.6.0 Service Pack 3版本的升級程式遵循與4.6.0版本相同的步驟。 如需詳細指示，請檢視Experience Manager Guides內部部署版本[&#128279;](../install-guide/upgrade-xml-documentation.md)的升級指示。

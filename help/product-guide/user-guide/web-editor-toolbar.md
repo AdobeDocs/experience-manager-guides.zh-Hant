@@ -621,4 +621,4 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 身為管理員，您還能存取&#x200B;**強制解除鎖定**&#x200B;功能，讓您解除鎖定其他使用者鎖定的檔案。 使用此功能可存取其他使用者鎖定的檔案的編輯許可權。
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**父級主題：**[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)

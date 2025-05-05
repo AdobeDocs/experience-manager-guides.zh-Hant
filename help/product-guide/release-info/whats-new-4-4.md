@@ -16,7 +16,7 @@ ht-degree: 0%
 
 如需此版本中已修正的問題清單，請檢視[4.4.0版本](../release-info/fixed-issues-4-4.md)中已修正的問題。
 
-瞭解4.4.0版](../release-info/upgrade-instructions-4-4.md)的[升級指示。
+瞭解4.4.0版[&#128279;](../release-info/upgrade-instructions-4-4.md)的升級指示。
 
 
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 您可以在DITA主題中定義條件屬性。 然後，使用條件預設集中的條件屬性，在DITA map中發佈內容。 Experience Manager Guides現在也提供豐富的Web編輯器體驗，協助您更有效率地建立和管理條件預設集。 您也可以輕鬆進行編輯、複製或刪除。
 
-來自網頁編輯器](assets/web-editor-manage-condition-presets.png){width="550" align="left"}的[管理]索引標籤的![條件預設集
+來自網頁編輯器![&#128279;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}的[管理]索引標籤的條件預設集
 
 如需詳細資訊，請檢視[使用條件預設集](../user-guide/generate-output-use-condition-presets.md)。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 ## 根據標籤複製基準線的功能
 
 Experience Manager Guides現在為從網頁編輯器建立基準線提供增強的使用者體驗。
-選項**手動更新**&#x200B;和&#x200B;**自動更新**&#x200B;更直覺化，可協助您輕鬆選擇建立靜態基準線或根據標籤自動更新。
+選項&#x200B;**手動更新**&#x200B;和&#x200B;**自動更新**&#x200B;更直覺化，可協助您輕鬆選擇建立靜態基準線或根據標籤自動更新。
 
 ![建立新基準線](assets/dynamic-baseline-4-4.png) {width="300" align="left"}
 *從網頁編輯器建立基準線。*
@@ -154,7 +154,7 @@ Experience Manager Guides提供增強的地圖集合儀表板。 在地圖集合
 
 ![使用者偏好設定對話方塊](assets/user-preferences-2311.png){width="550" align="left"}
 
-*從&#x200B;**使用者偏好設定**對話方塊變更檢視檔案的預設方式。*
+*從&#x200B;**使用者偏好設定**&#x200B;對話方塊變更檢視檔案的預設方式。*
 
 
 ## 在重新整理瀏覽器時還原檔案索引標籤
@@ -220,7 +220,7 @@ Experience Manager Guides可讓您以管理員身分設定AEM網站輸出的URL�
 您可以套用樣式，並使用HTML標示來格式化變數。  您也可以在需要時快速更新任何變數的值，並重新產生輸出。 例如，如果您需要更新版本的詳細資訊，可以在VersionNumber變數中編輯版本值並重新產生輸出。
 
 
-進一步瞭解如何在PDF輸出](../native-pdf/native-pdf-variables.md)中使用[變數。
+進一步瞭解如何在PDF輸出[&#128279;](../native-pdf/native-pdf-variables.md)中使用變數。
 
 
 ### 將資產中繼資料傳播至PDF輸出

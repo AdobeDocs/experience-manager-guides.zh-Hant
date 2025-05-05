@@ -65,8 +65,8 @@ ht-degree: 0%
 ##### 瞭解metadata.xml
 
 - 此檔案包含所有已發佈資產的清單，每個資產具有：
-   - Path專案]的DITA目錄[id屬性中的檔案路徑
-   - 和&#x200B;_中繼資料_&#x200B;專案]下的中繼資料屬性值配對[清單
+   - Path專案&rbrack;的DITA目錄&lbrack;id屬性中的檔案路徑
+   - 和&#x200B;_中繼資料_&#x200B;專案&rbrack;下的中繼資料屬性值配對&lbrack;清單
 
 ```
         <Path id="topics\about-this-document.dita">

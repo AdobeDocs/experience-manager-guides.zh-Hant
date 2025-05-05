@@ -75,7 +75,7 @@ AEM Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 D
 
    ![](images/ditaval-all-props.png)
 
-1. 完成編輯DITAVAL檔案後，請按一下[儲存]。****
+1. 完成編輯DITAVAL檔案後，請按一下[儲存]。**&#x200B;**
 
    >[!NOTE]
    >

@@ -66,7 +66,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的管理員已設定Adobe Experience Manager知識庫預設集，您就可以使用該預設集。 如需詳細資訊，請檢視《安裝與設定指南》中Web編輯器](/help/product-guide/install-guide/configure-article-based-publishing.md)區段的[以文章為基礎的發佈。
+>如果您的管理員已設定Adobe Experience Manager知識庫預設集，您就可以使用該預設集。 如需詳細資訊，請檢視《安裝與設定指南》中Web編輯器[&#128279;](/help/product-guide/install-guide/configure-article-based-publishing.md)區段的以文章為基礎的發佈。
 
 | Adobe Experience Manager選項 | 描述 |
 | --- | --- |

@@ -34,4 +34,4 @@ Experience Manager Guides隨附易於使用的編輯器，用於建立和編輯�
 - **[使用標籤](web-editor-use-label.md)**
 
 
-**父級主題：**[&#x200B;使用Experience Manager Guides製作內容](authoring-content-xml-doc.md)
+**父級主題：**&#x200B;[&#x200B;使用Experience Manager Guides製作內容](authoring-content-xml-doc.md)

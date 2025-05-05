@@ -14,7 +14,7 @@ ht-degree: 1%
 
 本文章說明4.6.0 Service Pack 4版本Adobe Experience Manager Guides中不同區域所修正的錯誤。
 
-瞭解4.6.0 Service Pack 4版本](upgrade-instructions-4-6-0-sp4.md)的[升級指示。
+瞭解4.6.0 Service Pack 4版本[&#128279;](upgrade-instructions-4-6-0-sp4.md)的升級指示。
 
 ## 製作
 

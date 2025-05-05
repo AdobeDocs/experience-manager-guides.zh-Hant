@@ -34,7 +34,7 @@ ht-degree: 0%
 1. 執行驗證指令碼\[`/bin/fmdita/validatebtree?operation=validate`\]以檢查是否有任何新的中斷參考。
 1. 如果驗證指令碼報告任何錯誤，您可以使用修補程式指令碼來修補。
 1. 紀錄以下提供的詳細資訊，並在必要時與客戶成功團隊分享：
-1. 
+1. &#x200B;
    - 驗證指令碼列印的記錄
 - 「`/content/fmdita/references`」的封裝
 - 根據所報告案例的任何其他必要細節
@@ -50,7 +50,7 @@ ht-degree: 0%
 > 建議您複製並儲存記錄檔以供參考。
 
 1. 一旦修正程式指令碼執行成功，您就可以執行下列檢查：
-1. 
+1. &#x200B;
    - 檢查已在`/content/fmdita`下建立新節點&#39;&#39;`references_backup_<timestamp>"`&#39;
 - 檢查參考是否已修正
 
@@ -344,7 +344,7 @@ InDesign表格樣式允許欄和儲存格的排版遵循交替模式。 雖然�
 
 `paragraphStyleRule`元素說明如下：
 
-新**`paraRule`元素**
+新&#x200B;**`paraRule`元素**
 
 `paraRule`專案為必要專案。 這會指定所有段落樣式的對應規則。 在InDesign檔案中，所有文字都包含在段落樣式的子結構內，即使沒有任何樣式的段落也命名為`\[No paragraph style\]`。 方括弧，表示內建的InDesign樣式名稱。
 

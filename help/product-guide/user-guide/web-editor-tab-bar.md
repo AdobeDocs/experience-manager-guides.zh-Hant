@@ -52,4 +52,4 @@ ht-degree: 0%
    - **內部部署軟體**：如果您正在使用Adobe Experience Manager Guides （4.2.1和更新版本），選取&#x200B;**Assets**&#x200B;選項會帶您前往Assets UI中的目前檔案路徑。
 - **設定**：帶您前往[編輯器設定]對話方塊。 如需詳細資訊，請參閱[使用編輯器設定](./web-editor-settings.md)。
 
-**父級主題：**[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)

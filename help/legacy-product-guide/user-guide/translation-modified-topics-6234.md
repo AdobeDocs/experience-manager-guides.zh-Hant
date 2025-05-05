@@ -79,4 +79,4 @@ ht-degree: 0%
 1. 在Assets UI中導覽回來源語言資料夾中的DITA map檔案。 重新翻譯的主題現在已同步。
 
 
-**父級主題：**[&#x200B;翻譯內容](translation.md)
+**父級主題：**&#x200B;[&#x200B;翻譯內容](translation.md)

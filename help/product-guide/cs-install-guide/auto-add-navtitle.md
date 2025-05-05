@@ -54,4 +54,4 @@ ht-degree: 1%
 
 透過此設定，您新增至對應的每個參考檔案依預設將包含`@navtitle`屬性。
 
-**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)

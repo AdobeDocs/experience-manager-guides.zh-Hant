@@ -61,7 +61,7 @@ AEM Guides提供為您的技術檔案產生報表的功能。  您可以使用�
 
 <img src="assets/web-editor-reports-multimedia.png" alt="多媒體報告" width="600">
 
-如需詳細資訊，請參閱從網頁編輯器](../user-guide/reports-web-editor.md)的[DITA map報告中的產生多媒體報告功能說明。
+如需詳細資訊，請參閱從網頁編輯器[&#128279;](../user-guide/reports-web-editor.md)的DITA map報告中的產生多媒體報告功能說明。
 
 ## 原生PDF | 變更列以指示目錄中已變更的主題
 

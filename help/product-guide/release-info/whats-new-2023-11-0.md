@@ -59,14 +59,14 @@ Experience Manager Guides現在已改善原生PDF範本的資源管理。 您現
 
 ![使用者偏好設定對話方塊](assets/user-preferences-2311.png){width="550" align="left"}
 
-*從&#x200B;**使用者偏好設定**對話方塊變更檢視檔案的預設方式。*
+*從&#x200B;**使用者偏好設定**&#x200B;對話方塊變更檢視檔案的預設方式。*
 
 
 ### 管理條件預設集
 
 您可以在DITA主題中定義條件屬性。 然後，使用條件預設集中的條件屬性，在DITA map中發佈內容。 Experience Manager Guides現在也可讓您從網頁編輯器建立和管理條件預設集。 您也可以輕鬆進行編輯、複製或刪除。
 
-來自網頁編輯器](assets/web-editor-manage-condition-presets.png){width="550" align="left"}的[管理]索引標籤的![條件預設集
+來自網頁編輯器![&#128279;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}的[管理]索引標籤的條件預設集
 
 如需詳細資訊，請檢視[使用條件預設集](../user-guide/generate-output-use-condition-presets.md)。
 

@@ -42,11 +42,11 @@ ht-degree: 0%
 
    套件會上傳至您的AEM執行個體。
 
-1. 若要安裝封裝，請按一下[安裝]。****
+1. 若要安裝封裝，請按一下[安裝]。**&#x200B;**
 
    ![](assets/install-package.png){width="650" align="left"}
 
-1. 在[安裝封裝]對話方塊中，按一下[安裝]。****
+1. 在[安裝封裝]對話方塊中，按一下[安裝]。**&#x200B;**
 
 1. 若要開始使用AEM Guides，請按一下CRX封裝管理員左上角的「首頁」按鈕![](assets/home-button.png)。
 
@@ -55,4 +55,4 @@ ht-degree: 0%
 >
 > 在您的設定中，對AEM伺服器的所有執行個體執行安裝程式。
 
-**上層主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)

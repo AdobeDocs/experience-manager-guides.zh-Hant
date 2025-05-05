@@ -53,6 +53,7 @@ ht-degree: 0%
 1. **設定資料來源聯結器**
    - 資料來源聯結器可作為介面，與外部資料來源建立連線。 您必須設定聯結器以建立連線並包含驗證方法，例如`Basic Auth`或`API key Auth`。 所有設定詳細資料（包括加密資訊）都會安全地儲存在Adobe Experience Manager中。
    - 聯結器層可擴充，可讓您建立實作，以連線至Experience Manager Guides未提供的現成可用的各種系統。
+
      ![聯結器層](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -98,8 +99,10 @@ ht-degree: 0%
         ```
 
       - 範本
+
         ![範本化引擎](assets/data-source-TemplatingEngine.png){width="800" align="left"}
       - 從相同資料來源但不同範本產生的資料
+
         ![已產生資料](assets/data-source-templates-topics.png){width="800" align="left"}
 
 1. **使用範本產生內容**

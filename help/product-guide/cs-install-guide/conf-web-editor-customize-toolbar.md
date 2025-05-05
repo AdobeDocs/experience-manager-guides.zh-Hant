@@ -51,16 +51,16 @@ ht-degree: 0%
    **個專案**：   在工具列中指定所有群組的定義。 每個群組可以包含一或多個工具列圖示。 若要定義工具列群組中的圖示，您必須在`items`中重新定義`type`屬性，並將其值設為`buttonGroup`。 在`extraclass`屬性中指定一或多個類別名稱。 在`label`屬性中指定功能名稱。 `ui_config.json`檔案中的下列程式碼片段顯示主要工具列區塊的定義，後面接著`buttonGroup`定義：
 
        「
-」       「工具列」： {
+」       「工具列」： &lbrace;
        &quot;type&quot;： &quot;blockGroup&quot;，
        「extraclass」：
        「工具列作業」，
-       「專案」： [
-       {
+       「專案」： &lbrack;
+       &lbrace;
        &quot;type&quot;： &quot;buttonGroup&quot;，
        &quot;extraclass&quot;： &quot;left-controls&quot;，
        &quot;label&quot;： &quot;Left Controls&quot;，
-       「專案」： [
+       「專案」： &lbrack;
        「
 」   
    在`items`集合中，您必須指定一或多個工具列圖示的定義。
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    **點按**：   在JavaScript檔案中指定為特徵定義的指令名稱。 如果您的命令需要輸入引數，則指定命令名稱為：
 
-       ``Javascript
+       &grave;&grave;Javascript
        &quot;on-click&quot;： {&quot;name&quot;： &quot;AUTHOR_INSERT_ELEMENT&quot;， &quot;args&quot;： &quot;simpletable&quot;}
        「
 」   
@@ -145,4 +145,4 @@ ht-degree: 0%
 1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入網頁編輯器。
 
 
-**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)

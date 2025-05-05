@@ -35,12 +35,15 @@ ht-degree: 0%
 
 - 評論回覆： `id: comment_reply`
    - 每個評論回覆的Widget。
+
      ![檢閱評論回覆熒幕擷圖](./imgs/reply.png)
 
 - 新的評論回覆： `id: comment_new_reply`
    - 新評論回覆的Widget。
+
      ![新的評論回覆熒幕擷圖](./imgs/new_reply.png)
 
 - 註解工具箱： `id: annotation_toolbox`
    - 檢閱應用程式右上方的工具列。
+
      ![註解工具箱熒幕擷圖](./imgs/annotation_toolbox.png)

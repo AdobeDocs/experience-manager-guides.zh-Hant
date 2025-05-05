@@ -19,4 +19,4 @@ AEM Guides也支援使用Adobe FrameMaker和Oxygon XML Editor等案頭工具進�
 - **[使用氧氣](author-desktop-oxygen.md)**
 
 
-**父級主題：**[&#x200B;作者內容](authoring-content.md)
+**父級主題：**&#x200B;[&#x200B;作者內容](authoring-content.md)

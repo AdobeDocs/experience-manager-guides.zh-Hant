@@ -31,4 +31,4 @@ ht-degree: 0%
 >
 > 您可以按一下「輸出」，檢視輸出產生請求的目前狀態。 如需詳細資訊，請參閱[檢視輸出產生工作的狀態](fm-output-view-status.md)。
 
-**父級主題：**[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)
+**父級主題：**&#x200B;[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)

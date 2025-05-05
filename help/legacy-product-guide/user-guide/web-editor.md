@@ -47,4 +47,4 @@ AEM Guides隨附易於使用的網頁型網頁編輯器，可建立及編輯結�
 - **[使用標籤](web-editor-use-label.md)**
 
 
-**父級主題：**[&#x200B;使用AEM Guides製作內容](authoring-content-xml-doc.md)
+**父級主題：**&#x200B;[&#x200B;使用AEM Guides製作內容](authoring-content-xml-doc.md)

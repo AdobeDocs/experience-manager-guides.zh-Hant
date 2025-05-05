@@ -22,4 +22,4 @@ ht-degree: 1%
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | 在AEM Site輸出檔案名稱中新增要以底線取代的字元。<br> **預設值**： ``'<\>\`@$`` |
 
-**父級主題：**[&#x200B;設定檔名](conf-file-names.md)
+**父級主題：**&#x200B;[&#x200B;設定檔名](conf-file-names.md)

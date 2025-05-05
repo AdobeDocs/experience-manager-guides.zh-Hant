@@ -15,7 +15,7 @@ ht-degree: 28%
 
 有關此版本中的問題修正清單，請查看 [2024.4.0 版本中修正的問題](fixed-issues-2024-04-0.md)。
 
-瞭解2024.4.0版](upgrade-instructions-2024-04-0.md)的[升級指示。
+瞭解2024.4.0版[&#128279;](upgrade-instructions-2024-04-0.md)的升級指示。
 
 ## 能夠使用預先設定的語言群組將內容翻譯成多種語言
 
@@ -70,7 +70,7 @@ Experience Manager Guides 現在允許您建立語言群組並輕鬆將您的內
 
 ![已建立大量啟動集合稽核歷程記錄標籤](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
-*在&#x200B;**稽核歷史記錄**索引標籤中檢視已啟動地圖輸出的相關資訊。*
+*在&#x200B;**稽核歷史記錄**&#x200B;索引標籤中檢視已啟動地圖輸出的相關資訊。*
 
 
 深入瞭解[大量啟用](../user-guide/conf-bulk-activation-publish-map-collection.md)。
@@ -201,7 +201,7 @@ Experience Manager Guides可讓您在網頁編輯器中編輯檔案時顯示不�
 ## 改善從對應編輯器大量檢查檔案時的效能
 
 Experience Manager Guides改善了從地圖編輯器簽入大量檔案功能的效能和體驗。 此項改善可協助您更快地簽入大量檔案。
-您也可以從**另存為新版本和解除鎖定**&#x200B;對話方塊檢視檔案的簽入作業進度。 最後，成功訊息會在作業完成且所有選取的已出庫檔案都已入庫後出現。
+您也可以從&#x200B;**另存為新版本和解除鎖定**&#x200B;對話方塊檢視檔案的簽入作業進度。 最後，成功訊息會在作業完成且所有選取的已出庫檔案都已入庫後出現。
 
 ![另存為新版本並解除鎖定對話方塊](./assets/save-version-lock.png){width="300" align="left"}
 

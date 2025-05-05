@@ -15,7 +15,7 @@ ht-degree: 2%
 
 有關此版本中的問題修正清單，請查看 [2024.06.0 版本中修正的問題](fixed-issues-2024-06-0.md)。
 
-瞭解2024.06.0版](upgrade-instructions-2024-06-0.md)的[升級指示。
+瞭解2024.06.0版[&#128279;](upgrade-instructions-2024-06-0.md)的升級指示。
 
 
 ## Publish體驗片段的主題或其元素

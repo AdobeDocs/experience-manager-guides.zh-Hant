@@ -23,4 +23,4 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。如
 >
 > AEM as a cloud service不支援Dispatcher作為製作例項。
 
-**上層主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)

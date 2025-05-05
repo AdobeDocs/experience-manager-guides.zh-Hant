@@ -33,4 +33,4 @@ ht-degree: 0%
    大量啟用地圖集合已從系統刪除。
 
 
-**父級主題：**[&#x200B;大量啟用已發佈的內容](conf-bulk-activation.md)
+**父級主題：**&#x200B;[&#x200B;大量啟用已發佈的內容](conf-bulk-activation.md)

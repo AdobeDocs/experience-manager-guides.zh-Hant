@@ -21,7 +21,7 @@ Experience Manager Guides提供GenAI智慧型說明，這是對話式搜尋功�
 
 ![智慧型說明面板](images/smart-help-panel.png){width="300" align="left"}
 
-*檢視&#x200B;**說明**面板。*
+*檢視&#x200B;**說明**&#x200B;面板。*
 
 執行以下步驟，使用「說明」面板來尋找適當的內容並解決您的查詢：
 

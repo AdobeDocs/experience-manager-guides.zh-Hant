@@ -62,7 +62,7 @@ ht-degree: 0%
 
 
 
-****必備條件****
+**&#x200B;**&#x200B;必備條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides升級程式之前，請確定您擁有：
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 在安裝版本 4.0 之前，請執行以下步驟：
 
 1. 確保此時 Experience Manager Guides 使用的是版本 3.8.5。
-1. 下載升級腳本包。 為此，搜尋軟體分發門戶](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)上的[“XML 文件解決方案 4.0 升級包”Adobe Systems該包將下載 zip 文件。
+1. 下載升級腳本包。 為此，搜尋軟體分發門戶[&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)上的“XML 文件解決方案 4.0 升級包”Adobe Systems該包將下載 zip 文件。
 1. 透過封裝管理員將此封裝上傳至AEM並安裝此封裝。
 1. 安裝升級套件後，請以相同順序執行下列指定指令碼，並依照指定指示執行：
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 ## 安裝4.0版 {#id23598G006XA}
 
 1. 只有在升級步驟成功時才安裝4.0版。
-1. 從軟體分發門戶](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載 [4.0 版本包Adobe Systems：
+1. 從軟體分發門戶[&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載 4.0 版本包Adobe Systems：
 
    - 如果您使用的是 UUID 版本的軟體，請搜尋“XML 的 4.0 UUID 發行版文件 AEM 6.5 的解決方案”。
    - 如果您使用的是非 UUID 版本的軟體，請搜尋“XML 的 4.0 非 UUID 發行版文件 AEM 6.5 的解決方案”。使用 CRX 封裝管理員將套件上載到現有 AEM 伺服器 執行個體\（s\） 並安裝。
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 如果您是使用4.0、4.1或4.1.x版，則可以直接升級至4.2版。
 
-****必備條件****
+**&#x200B;**&#x200B;必備條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 4.2升級程式之前，請確定您擁有：
 
@@ -309,7 +309,7 @@ ht-degree: 0%
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****必備條件****
+**&#x200B;**&#x200B;必備條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 4.2.1升級程式之前，請確定您擁有：
 
@@ -486,7 +486,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****必備條件****
+**&#x200B;**&#x200B;必備條件&#x200B;**&#x200B;**
 
 在開始 Experience Manager指南 4.3.0 升級過程之前，請確保您已：
 
@@ -544,7 +544,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****必備條件****
+**&#x200B;**&#x200B;必備條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 4.3.1升級程式之前，請確定您擁有：
 
@@ -723,7 +723,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
-   | 請求類型 | **** POST 此腳本是POST 要求因此應通過Postman按讚代理執行。 |
+   | 請求類型 | **&#x200B;**&#x200B;POST 此腳本是POST 要求因此應通過Postman按讚代理執行。 |
    | 預期回應 | 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點。<br>範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 端點 | /bin/guides/reports/upgrade |
@@ -785,7 +785,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****必備條件****
+**&#x200B;**&#x200B;必備條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 4.4.0升級程式之前，請確定您擁有：
 
@@ -978,7 +978,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 在此升級期間，由於`'order'`值從1000變更為50，因此您必須將現有的自訂重寫程式（若有的話）與`'fmdita-rewriter'`合併。
 
 
-**上層主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)
 
 
 ## 升級至4.6.0版
@@ -993,7 +993,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 >
 > 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****必備條件****
+**&#x200B;**&#x200B;必備條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 4.6.0升級程式之前，請確定您擁有：
 
@@ -1004,7 +1004,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 ## 安裝 4.6.0 版
 
-1. 從軟體分發門戶](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載 [4.6.0 版本包Adobe Systems。
+1. 從軟體分發門戶[&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載 4.6.0 版本包Adobe Systems。
 1. 安裝 4.6.0 版套件。
 1. 您可以選擇點擊觸發器以開始翻譯地圖升級工作。 有關詳細資訊，請參閱 [通過 Servlet](#enable-trigger-of-script-via-a-servlet) 啟用腳本觸發器。
 
@@ -1148,7 +1148,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 >
 > 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****必備條件****
+**&#x200B;**&#x200B;必備條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 5.0.0升級程式之前，請確定您擁有：
 

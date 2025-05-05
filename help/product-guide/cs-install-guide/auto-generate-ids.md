@@ -30,4 +30,4 @@ AEM Guides提供簡易的組態設定，您需要在其中定義ID自動產生�
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | 此欄位的預設值設定為`${elementName}_${id}`。 `${elementName}`值會取代為專案名稱。 `${id}`變數會產生專案的連續數字。 例如，如果您將段落元素指派給具有自動產生的ID，則主題或檔案中的第一個段落將取得p\_1之類的ID，而下一個段落將取得p\_2等。 不過，在不同的檔案中，ID產生程式會重新啟動。 這表示在不同的檔案中，可以將p\_1和p\_2等ID指派給段落元素。 **預設值**： ``${elementName}_${id}`` |
 
-**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)

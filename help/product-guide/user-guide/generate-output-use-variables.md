@@ -30,4 +30,4 @@ ht-degree: 0%
 | `${system_time}` | 使用目前的伺服器時間建立目的地路徑。 | **DITA map檔案名稱：** <br>`SampleDita.ditamap` <br> <br> **DITA map檔案路徑：** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**目的地路徑**&#x200B;設定為： <br> `/content/output/sites/${system_time}`<br><br>**最終輸出位置：**<br>`/content/output/sites/055612/SampleDita.html` |
 
 此外，您也可以使用為DITA map或bookmap檔案定義的中繼資料作為變數。 中繼資料可以在DITA map或bookmap檔案的`/jcr:content/metadata`節點下找到。 例如，`/jcr:content/metadata`節點中定義的其中一個中繼資料屬性是`dc:title`。 您可以指定`${dc:title}`，且標題值會用於最終輸出。
-**父級主題：**[&#x200B;輸出產生](generate-output.md)
+**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)

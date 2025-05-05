@@ -35,4 +35,4 @@ ht-degree: 1%
 
 作者需要重新啟動網頁編輯器工作階段，才能在AEM字典中更新自訂字詞清單。
 
-**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)

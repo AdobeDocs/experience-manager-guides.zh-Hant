@@ -31,4 +31,4 @@ ht-degree: 0%
 
 完成升級程式後，所有使用者必須先清除瀏覽器快取，才能使用升級版的AEM Guides。
 
-**上層主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 
 1. 在編輯器中，導航到左側面板並選擇 **變數** <img alt= "變數圖示" src="./assets/variables-icon.svg" width="25">。此選項在「更多」部分下可用。
-1. 選取 **編輯** <img alt= "編輯筆圖示" src="./assets/edit_pencil_icon.svg" width="25">以開啟&#x200B;**變數**編輯器。
+1. 選取 **編輯** <img alt= "編輯筆圖示" src="./assets/edit_pencil_icon.svg" width="25">以開啟&#x200B;**變數**&#x200B;編輯器。
 變數會依字母順序列出。
 1. 在&#x200B;**Name**&#x200B;資料行中輸入變數名稱，並在&#x200B;**Value**&#x200B;資料行中輸入其值。
    >[!TIP]
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ### 搜尋和預覽變數
 
-您可以搜尋及預覽變數的值。 在&#x200B;**變數**面板的搜尋方塊中輸入字串。 它會根據變數名稱及其值來搜尋。
+您可以搜尋及預覽變數的值。 在&#x200B;**變數**&#x200B;面板的搜尋方塊中輸入字串。 它會根據變數名稱及其值來搜尋。
 您可以透過兩種方式預覽變數：
 
 變數的預覽會顯示預設值。 例如，如果您已將ProductName變數的預設值定義為「Adobe Experience Manager Guides」，它會在預覽中顯示此值。
@@ -125,7 +125,7 @@ Adobe Experience Manager Guides也支援變數集，可讓您指派變數替代�
 
 您需要先設定變數集，然後再新增變數。
 
-1. 選取&#x200B;**設定** <img alt= "設定圖示" src="./assets/settings-icon.svg" width="25">以開啟&#x200B;**設定變數集**對話方塊。
+1. 選取&#x200B;**設定** <img alt= "設定圖示" src="./assets/settings-icon.svg" width="25">以開啟&#x200B;**設定變數集**&#x200B;對話方塊。
    ![設定變數集](assets/configure-variable-set.png){width="550" align="left"}
 1. 在&#x200B;**Name**&#x200B;欄中輸入變數集名稱。
 1. 選取&#x200B;**新增變數** <img alt= "「新增」圖示" src="./assets/add-icon.svg" width="25">以新增變數集。 變數集會依字母順序列出。
@@ -135,7 +135,7 @@ Adobe Experience Manager Guides也支援變數集，可讓您指派變數替代�
 
 所有變數集都具有相同的變數，但可能有不同的值。
 
-您可以檢視、編輯和預覽特定變數集的值。 從&#x200B;**變數集**下拉式清單中選取變數集。 值會根據所選變數集而顯示。
+您可以檢視、編輯和預覽特定變數集的值。 從&#x200B;**變數集**&#x200B;下拉式清單中選取變數集。 值會根據所選變數集而顯示。
 當您編輯特定變數集中的變數值時，它會覆寫預設值並變更所選變數集的值。
 例如，您可以為變數集設定下列值，*Adobe-set1*&#x200B;和&#x200B;*Adobe-set2*。
 

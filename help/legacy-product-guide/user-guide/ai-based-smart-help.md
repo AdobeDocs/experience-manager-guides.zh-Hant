@@ -30,7 +30,7 @@ Experience Manager Guides提供GenAI型Smart Help，這是對話式搜尋功能�
 
 ![智慧型說明面板](images/smart-help-panel.png){width="300" align="left"}
 
-*檢視&#x200B;**智慧型說明**面板。*
+*檢視&#x200B;**智慧型說明**&#x200B;面板。*
 
 執行以下步驟來使用對話式搜尋，以尋找適當的內容並解決您的查詢：
 

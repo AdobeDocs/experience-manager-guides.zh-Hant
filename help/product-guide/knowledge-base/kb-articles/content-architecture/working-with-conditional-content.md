@@ -31,17 +31,17 @@ ht-degree: 0%
 **步驟2**
 
 在XML編輯器中選取&#x200B;**使用者偏好設定**&#x200B;中步驟1定義的&#x200B;**[!UICONTROL 資料夾設定檔]**：
-請參閱使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第41頁[中的&#x200B;**使用者偏好設定**&#x200B;節
+請參閱使用手冊[&#128279;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第41頁中的&#x200B;**使用者偏好設定**&#x200B;節
 
 
 **步驟3**
 
 使用條件來條件化內容的區段：
-請參閱使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第90頁[中的&#x200B;**條件**&#x200B;小節
+請參閱使用手冊[&#128279;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第90頁中的&#x200B;**條件**&#x200B;小節
 
 ![在網頁編輯器中使用條件](assets/conditions-in-web-editor.png)
 
 **步驟4**
 
 定義對應層級的條件預設集，以選擇要於輸出中啟用的條件：
-請參閱使用手冊](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第249頁[中的&#x200B;**使用條件預設集**&#x200B;節
+請參閱使用手冊[&#128279;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第249頁中的&#x200B;**使用條件預設集**&#x200B;節

@@ -49,9 +49,9 @@ ht-degree: 0%
 
 - **檔案** - [Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **在Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)上記錄常見的使用案例** - [
+- **在Experience League[&#128279;](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)上記錄常見的使用案例** - 
 
-- 在GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)上有&#x200B;**公開存放庫（含樣本）** - [。 請參閱分支sc-expert-session
+- 在GIT[&#128279;](https://github.com/adobe/guides-extension/tree/sc-expert-session)上有&#x200B;**公開存放庫（含樣本）** - 。 請參閱分支sc-expert-session
 
 
 >[!NOTE]

@@ -33,13 +33,13 @@ ht-degree: 0%
 
    封裝管理員會管理本機AEM安裝上的封裝。 如需使用封裝管理員的詳細資訊，請參閱AEM檔案中的[如何使用封裝](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。
 
-1. 若要上傳封裝，請按一下[上傳封裝]。****
+1. 若要上傳封裝，請按一下[上傳封裝]。**&#x200B;**
 
 1. 在&#x200B;**上傳封裝**&#x200B;對話方塊中，瀏覽至您在步驟1下載的檔案，然後按一下&#x200B;**確定**。
 
    套件會上傳至您的AEM執行個體。
 
-1. 若要安裝封裝，請按一下[安裝]。****
+1. 若要安裝封裝，請按一下[安裝]。**&#x200B;**
 
 1. 在&#x200B;**安裝封裝**&#x200B;對話方塊中，按一下&#x200B;**安裝**&#x200B;以安裝封裝。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 - **AEMG**&#x200B;資料夾中有英文(en)語言的資料夾。 您可以根據需求建立類似的語言副本。 例如，多語言網站包含英文(en)、德文(de)和法文(fr)語言副本。  進一步瞭解如何使用[語言副本精靈](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard)建立語言副本。
 - 在English(en)語言資料夾中，Experience Manager Guides提供許多現成的範例頁面，例如&#x200B;**搜尋**、**登入**、**檔案**&#x200B;和&#x200B;**支援**。
 
-- **檔案**是範例檔案首頁。 它是所有產品相關檔案的中心位置
+- **檔案**&#x200B;是範例檔案首頁。 它是所有產品相關檔案的中心位置
 和會顯示說明檔案以個別圖磚方式提供的每個產品。
 
 - 除了檔案首頁之外，還有&#x200B;**搜尋**、**登入**&#x200B;和&#x200B;**支援**&#x200B;的範例頁面。 您可以視需求自訂這些範例。
@@ -114,8 +114,10 @@ AEM範本編輯器隨即開啟。 您可以編輯主題範本。 深入瞭解[�
   ![區段頁面範本](assets/customize-existing-aem-templates-section.png)
    - 詳細資訊頁面或主題頁面範本：此範本用於地圖主題的內容。 所有DITA/XML內容的「網站」頁面都是使用「主題頁面」範本建立的。 若要建立這些範本，有兩個先決條件：
       - 將文字元件新增至範本（包含在容器元件中），並帶有強制屬性。`text="$topic.content$"`。
+
         ![容器頁面範本](assets/customize-existing-aem-templates-container.png)
       - 在相同的範本結構中反映相同的容器和文字元件，如下列熒幕擷圖所示：
+
         ![容器範本的結構](assets/customize-existing-aem-templates-structure.png)
 
 ### 將類別頁面標示為檔案容器

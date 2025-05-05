@@ -65,6 +65,7 @@ AEM Guides提供的預設DITA-OT套件附帶Apache FOP XSL-FO處理器，該處�
    - 在Mac/Linux作業系統上執行整合程式\（以安裝自訂外掛程式\），以避免檔案分隔符號發生問題，因為Windows和Linux作業系統有不同的檔案分隔符號，所以在Mac/Linux作業系統上整合的外掛程式會與Windows和Linux安裝程式相容。
    - 確定`DITA-OT.ZIP`檔案包含名為「DITA-OT」的資料夾，其中包含所有相關的外掛程式和檔案。
    - 檢查您建立的`DITA-OT.ZIP`檔案是否為mimeType： &quot;nt：file&quot; \(這與上傳至AEM時的ZIP檔案主要型別相對應\)。 使用WebDAV工具或程式碼部署，將此ZIP檔案上傳至AEM中的所需路徑。 \(請勿使用AEM封裝管理員來部署此ZIP檔案，因為此ZIP不是AEM內容封裝，而只是封存檔案。\)
+
    >[!NOTE]
    >
    > 建議不要覆寫預設的DITA-OT套件。 您應該將包含外掛程式的自訂DITA-OT套件上傳到`apps`資料夾下的其他位置。

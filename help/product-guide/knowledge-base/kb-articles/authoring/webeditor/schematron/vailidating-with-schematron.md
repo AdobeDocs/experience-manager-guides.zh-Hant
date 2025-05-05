@@ -102,5 +102,5 @@ Webeditor設定可讓超級使用者設定每次使用者更新內容時所執�
 #### 資源
 
 - 瞭解[結構描述基本概念](https://da2022.xatapult.com/#what-is-schematron)
-- 深入瞭解Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)中的[宣告規則
+- 深入瞭解Schematron[&#128279;](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)中的宣告規則
 - [Schematron檔案範例](../../../assets/authoring/sample_schematron.sch)

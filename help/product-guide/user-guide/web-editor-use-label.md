@@ -81,4 +81,4 @@ Adobe Experience Manager Guides可讓您將標籤新增至檔案的不同版本�
 ![](images/delete-labels.png){width="300" align="left"}
 
 
-**父級主題：**[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)

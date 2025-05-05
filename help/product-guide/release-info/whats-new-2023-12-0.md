@@ -49,7 +49,7 @@ ht-degree: 0%
 您可以套用樣式，並使用HTML標示來格式化變數。  您也可以在需要時快速更新任何變數的值，並重新產生輸出。 例如，如果您需要更新版本的詳細資訊，可以在VersionNumber變數中編輯版本值並重新產生輸出。
 
 
-進一步瞭解如何在PDF輸出](../native-pdf/native-pdf-variables.md)中使用[變數。
+進一步瞭解如何在PDF輸出[&#128279;](../native-pdf/native-pdf-variables.md)中使用變數。
 
 
 

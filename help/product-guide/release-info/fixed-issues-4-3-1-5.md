@@ -17,7 +17,7 @@ ht-degree: 2%
 
 
 
-瞭解4.3.1.5版](../release-info/upgrade-instructions-4-3-1-5.md)的[升級指示。
+瞭解4.3.1.5版[&#128279;](../release-info/upgrade-instructions-4-3-1-5.md)的升級指示。
 
 
 ## 製作
