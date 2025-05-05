@@ -40,7 +40,7 @@ AEM Guides提供終極的多語言內容建立解決方案，並具備強大的�
 
 ## 相關資源
 
-- **功能影片** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能影片** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=zh-Hant)
 
 - **使用手冊** - [翻譯內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 

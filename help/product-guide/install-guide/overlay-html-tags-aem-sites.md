@@ -143,4 +143,4 @@ ht-degree: 0%
 
 
 
-深入瞭解[安全性](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security)的最佳實務。
+深入瞭解[安全性](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/security)的最佳實務。

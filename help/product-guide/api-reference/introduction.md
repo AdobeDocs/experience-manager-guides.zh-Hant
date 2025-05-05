@@ -231,9 +231,9 @@ AEM Guides API有兩種格式：HTTP和Java。 這些API向應用程式開發人
 
 ## 其他資源
 
-以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)頁面上取得：
+以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/tw/support/xml-documentation-for-experience-manager.html)頁面上取得：
 
 - 使用手冊
 - 安裝及設定指南
 - 快速入門手冊
-- [說明封存頁面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（存取舊版檔案\）
+- [說明封存頁面](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html) \（存取舊版檔案\）

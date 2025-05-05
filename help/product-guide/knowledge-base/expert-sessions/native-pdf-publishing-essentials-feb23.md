@@ -41,7 +41,7 @@ AEM Guides內建的PDF發佈引擎讓使用者能以PDF格式建立、開發和�
 
 ## 相關資源
 
-- **功能影片** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能影片** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=zh-Hant)
 
 - **使用手冊** - [原生PDF發佈](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 

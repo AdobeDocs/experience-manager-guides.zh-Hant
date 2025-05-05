@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 上傳現有DITA內容 {#id176FF000JUI}
 
-您很可能擁有要與AEM Guides搭配使用的現有DITA內容存放庫。 對於這類現有內容，您可以使用[新增數位資產至Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)中說明的任何支援方法。
+您很可能擁有要與AEM Guides搭配使用的現有DITA內容存放庫。 對於這類現有內容，您可以使用[新增數位資產至Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hant)中說明的任何支援方法。
 
 ## 設定UUID檔案名稱模式
 

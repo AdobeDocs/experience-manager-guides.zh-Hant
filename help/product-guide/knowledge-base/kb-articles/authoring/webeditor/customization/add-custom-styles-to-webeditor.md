@@ -34,7 +34,7 @@ ht-degree: 0%
 
 使用資料夾設定檔來檢查「XML編輯器設定」索引標籤下的&#x200B;*css_layout.css*，並新增具有自訂樣式的CSS
 
-[使用此連結來進一步瞭解資料夾設定檔和設定CSS範本配置](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[使用此連結來進一步瞭解資料夾設定檔和設定CSS範本配置](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=zh-Hant#customize-the-css-template-layout)
 
 使用下列專案在編輯器中設定上述樣式：
 - 使用[css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css)並將其上傳至您選擇的資料夾設定檔
@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## 參考
 
-您也可能對有關Webeditor組態與Webeditor [Expert講座](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)中的自訂的專家講座感興趣
+您也可能對有關Webeditor組態與Webeditor [Expert講座](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=zh-Hant)中的自訂的專家講座感興趣

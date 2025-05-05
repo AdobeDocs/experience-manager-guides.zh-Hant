@@ -35,7 +35,7 @@ ht-degree: 0%
 1. 輸入`Site title`和`Site name`。
 1. 按一下「**建立**」。套件已安裝，且已建立AEM Sites範本。
 
-深入瞭解[新增網站範本至AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding)。
+深入瞭解[新增網站範本至AEM](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding)。
 
 
 >[!NOTE]
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 
 **AEMG**&#x200B;包含下列元件。
-- **AEMG**&#x200B;資料夾中有英文(en)語言的資料夾。 您可以根據需求建立類似的語言副本。 例如，多語言網站包含英文(en)、德文(de)和法文(fr)語言副本。  進一步瞭解如何使用[語言副本精靈](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard)建立語言副本。
+- **AEMG**&#x200B;資料夾中有英文(en)語言的資料夾。 您可以根據需求建立類似的語言副本。 例如，多語言網站包含英文(en)、德文(de)和法文(fr)語言副本。  進一步瞭解如何使用[語言副本精靈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard)建立語言副本。
 - 在English(en)語言資料夾中，Experience Manager Guides提供許多現成的範例頁面，例如&#x200B;**搜尋**、**登入**、**檔案**&#x200B;和&#x200B;**支援**。
 
 - **檔案**&#x200B;是範例檔案首頁。 它是所有產品相關檔案的中心位置
@@ -96,7 +96,7 @@ ht-degree: 0%
 1. 選取您要編輯的範本。
 1. 選取頂端的&#x200B;**編輯**&#x200B;圖示。
 
-AEM範本編輯器隨即開啟。 您可以編輯主題範本。 深入瞭解[建立頁面範本](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author)。
+AEM範本編輯器隨即開啟。 您可以編輯主題範本。 深入瞭解[建立頁面範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author)。
 
 
 ## 自訂現有的AEM Sites範本 {#customize-existing-aem-sites-templates}

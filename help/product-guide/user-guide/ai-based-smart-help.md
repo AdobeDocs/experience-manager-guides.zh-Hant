@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 使用AI助理(Beta)中的智慧說明提高效率
 
-Experience Manager Guides提供GenAI智慧型說明，這是對話式搜尋功能，可協助您從[Adobe Experience Manager Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)尋找相關內容。
+Experience Manager Guides提供GenAI智慧型說明，這是對話式搜尋功能，可協助您從[Adobe Experience Manager Guides檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)尋找相關內容。
 
 您可以透過資訊化方式詢問問題並獲得答案。 您的查詢答案取決於產品檔案中的內容。 此搜尋完全是對話式的。 您可以詢問有關Experience Manager Guides各種功能的問題，也可以選擇詢問疑難排解查詢。 您也可以根據回應提出進一步的問題。 回應也包含來原始檔的連結，您可以參閱以取得詳細資訊。
 

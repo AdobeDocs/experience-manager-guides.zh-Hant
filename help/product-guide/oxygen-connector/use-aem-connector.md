@@ -44,7 +44,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
 >[!IMPORTANT]
 >
->如果您的系統上安裝了舊版外掛程式，請務必先解除安裝該外掛程式，然後再開始安裝程式。 如需解除安裝指示，請參閱[如何使用套件](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)文章中的&#x200B;**解除安裝套件**&#x200B;一節。
+>如果您的系統上安裝了舊版外掛程式，請務必先解除安裝該外掛程式，然後再開始安裝程式。 如需解除安裝指示，請參閱[如何使用套件](https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/package-manager.html)文章中的&#x200B;**解除安裝套件**&#x200B;一節。
 
 在安裝Oxygon XML Author的系統上執行下列步驟：
 
@@ -78,7 +78,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
 >[!IMPORTANT]
 >
->如果您的系統上安裝了舊版外掛程式，請務必先解除安裝該外掛程式，然後再開始安裝程式。 請參閱[如何使用套件](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)文章解除安裝指示中的&#x200B;**解除安裝套件**&#x200B;一節。
+>如果您的系統上安裝了舊版外掛程式，請務必先解除安裝該外掛程式，然後再開始安裝程式。 請參閱[如何使用套件](https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/package-manager.html)文章解除安裝指示中的&#x200B;**解除安裝套件**&#x200B;一節。
 
 在安裝Oxygon XML Author的系統上執行下列步驟：
 
@@ -117,7 +117,7 @@ AEM Guides的氧氣外掛程式可透過您的Adobe軟體發佈入口網站取�
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   封裝管理員會管理本機AEM安裝上的封裝。 如需使用封裝管理員的詳細資訊，請參閱AEM檔案中的[如何使用封裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en)。
+   封裝管理員會管理本機AEM安裝上的封裝。 如需使用封裝管理員的詳細資訊，請參閱AEM檔案中的[如何使用封裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=zh-Hant)。
 
    ![封裝管理員](images/package-manager.png) {width="650" align="left"}
 

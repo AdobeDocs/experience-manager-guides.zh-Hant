@@ -51,7 +51,7 @@ ht-degree: 1%
 
 - **[下載AEM Guides報告手冊](./assets/aem-guides-expert-session-reports-documentation.pdf)**，瞭解工作階段中展示的報告詳細資訊。
 
-- **功能影片** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
+- **功能影片** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=zh-Hant)
 
 - **使用手冊** - [作者內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 

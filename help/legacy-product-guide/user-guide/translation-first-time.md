@@ -50,7 +50,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 如需有關與協力廠商翻譯服務整合的詳細資訊，請參閱AEM檔案中的[設定翻譯整合架構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)。
+   > 如需有關與協力廠商翻譯服務整合的詳細資訊，請參閱AEM檔案中的[設定翻譯整合架構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hant)。
 
 1. 按一下&#x200B;**儲存並關閉**&#x200B;以儲存更新的資料夾屬性。
 

@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。如需有關使用Dispatcher的詳細資訊，請參閱[Dispatcher概觀](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en)。
+> Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。如需有關使用Dispatcher的詳細資訊，請參閱[Dispatcher概觀](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=zh-Hant)。
 
 ## 在URL中啟用AllowEncodedSlases
 

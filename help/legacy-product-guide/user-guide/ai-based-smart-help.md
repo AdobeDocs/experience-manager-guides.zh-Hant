@@ -13,7 +13,7 @@ ht-degree: 0%
 
 
 
-Experience Manager Guides提供GenAI型Smart Help，這是對話式搜尋功能，可協助您從[Adobe Experience Manager Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)尋找相關內容。
+Experience Manager Guides提供GenAI型Smart Help，這是對話式搜尋功能，可協助您從[Adobe Experience Manager Guides檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)尋找相關內容。
 您可以透過資訊化方式詢問問題並獲得答案。 您的查詢答案取決於產品檔案中的內容。 此搜尋完全是對話式的。 您可以提出問題，然後根據回應提出進一步的問題。 回應也包含來原始檔的連結，您可以參閱以取得詳細資訊。
 
 例如，您可以在Experience Manager Guides中建立檔案主題。 您可以詢問，*如何建立主題？*&#x200B;您收到回應，以及相關文章的連結。 之後，如果您想瞭解如何產生檔案的PDF輸出，可以詢問相關問題。 例如，*如何將主題發佈至PDF？*&#x200B;或&#x200B;*如何產生主題的PDF輸出？*

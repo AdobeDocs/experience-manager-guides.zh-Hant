@@ -25,10 +25,10 @@ Adobe Workfront是雲端型工作管理解決方案，可協助團隊和組織�
 
 * 計畫、分配和追蹤個別任務和專案的進度，而不需依賴多個非整合工具。
 * 更有效率地管理所有Experience Manager Guides工作流程，包括撰寫、檢閱、發佈和翻譯內容。
-* 每當指派新任務時，接收來自Adobe Workfront的電子郵件通知。 如需詳細資訊，請檢視[通知總覽](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications)。
+* 每當指派新任務時，接收來自Adobe Workfront的電子郵件通知。 如需詳細資訊，請檢視[通知總覽](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/use-notifications/wf-notifications)。
 * 使用Adobe Workfront的直覺式儀表板監控專案狀況，提供專案績效的即時深入分析。
 
-  若要瞭解為Experience Manager Guides中的專案經理啟用的Adobe Workfront強大專案管理功能，請檢視[計畫專案概述](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project)。
+  若要瞭解為Experience Manager Guides中的專案經理啟用的Adobe Workfront強大專案管理功能，請檢視[計畫專案概述](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-work/projects/plan-a-project/plan-project)。
 
 ## 開始
 
@@ -61,7 +61,7 @@ Workfront工作頁面提供下列功能：
 
 Workfront任務頁面也包含連結輸出圖示![](./images/Smock_LinkOut_18_N.svg)，選取此選項時會帶您前往Adobe Workfront專案頁面。 在這裡，您可以根據與您的Adobe Workfront帳戶對應的許可權，檢視任務詳細資訊、檢視註釋、新增註釋及存取其他功能。
 
-如需更多詳細資料，請檢視[Workfront中專案、任務和問題日期的概觀](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates)。
+如需更多詳細資料，請檢視[Workfront中專案、任務和問題日期的概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/navigate/definitions-pti-dates)。
 
 ### 建立Workfront任務
 
@@ -122,7 +122,7 @@ Workfront任務頁面也包含連結輸出圖示![](./images/Smock_LinkOut_18_N.
 
 >[!NOTE]
 >
-> 身為專案經理，您可以在Adobe Workfront控制面板中檢視此新建立的任務以及其他關鍵任務詳細資訊。 如需詳細資訊，請檢視[瞭解儀表板](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards)。
+> 身為專案經理，您可以在Adobe Workfront控制面板中檢視此新建立的任務以及其他關鍵任務詳細資訊。 如需詳細資訊，請檢視[瞭解儀表板](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards)。
 
 ### 管理您建立的任務
 

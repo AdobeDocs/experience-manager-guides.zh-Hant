@@ -18,11 +18,11 @@ ht-degree: 0%
 
 1. 存取您Cloud Service的Developer Console。
 
-   如需存取Developer Console的詳細資訊，請參閱AEM檔案中的[Developer Console存取](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html)。
+   如需存取Developer Console的詳細資訊，請參閱AEM檔案中的[Developer Console存取](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=zh-Hant)。
 
 1. 存取AEM中的OSGi套件組合清單。
 
-   如需存取套裝的詳細資訊，請參閱AEM檔案中的[套裝](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles)。
+   如需存取套裝的詳細資訊，請參閱AEM檔案中的[套裝](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=zh-Hant#bundles)。
 
 1. 在套件組合清單中搜尋fmdita並檢查其狀態。
 

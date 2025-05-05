@@ -142,5 +142,5 @@ ht-degree: 3%
       - [內容重複使用報表](./user-guide/reports-content-reuse.md)
       - [轉換狀態報表](./user-guide/reports-convertion-status.md)
       - [還原檔案版本記錄報告](./user-guide/reports-reverted-file-version-history.md)
-- [使用手冊（新UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [使用手冊（新UI）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

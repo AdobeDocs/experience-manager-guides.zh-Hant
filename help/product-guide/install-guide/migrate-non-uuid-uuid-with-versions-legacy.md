@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ### 步驟1：更新設定
 
-1. 請確定可用的空間至少是AEM （crx-quickstart目錄）在移轉期間所佔用空間的10倍。 完成移轉後，您可以執行壓縮來回收大部分的磁碟空間（請參閱[修訂清理](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)）。
+1. 請確定可用的空間至少是AEM （crx-quickstart目錄）在移轉期間所佔用空間的10倍。 完成移轉後，您可以執行壓縮來回收大部分的磁碟空間（請參閱[修訂清理](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hant)）。
 
 1. 啟用&#x200B;*在`com.adobe.fmdita.config.ConfigManager`中啟用後處理工作流程啟動器*，並在`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`中啟用&#x200B;*版本後處理*
 
@@ -154,4 +154,4 @@ ht-degree: 0%
    ![在移轉中驗證系統升級索引標籤](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。
+1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hant`）。

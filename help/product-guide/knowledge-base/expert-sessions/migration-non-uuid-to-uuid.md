@@ -46,9 +46,9 @@ ht-degree: 1%
 
 ### 文件
 
-- [將內容從非UUID移轉至UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [將內容從非UUID移轉至UUID](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides：將UUID內容從內部部署/AMS移至雲端](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [移至AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [移至AEM Cloud](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides：將非uuid內容移轉至雲端](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### 社群論壇

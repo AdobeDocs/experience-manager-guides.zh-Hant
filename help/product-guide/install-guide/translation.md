@@ -23,17 +23,17 @@ ht-degree: 8%
 
 翻譯內容涉及以下步驟：
 
-1. 連線AEM與您的[翻譯服務提供者](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)並建立[翻譯整合架構設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
+1. 連線AEM與您的[翻譯服務提供者](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)並建立[翻譯整合架構設定](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
 
-1. 將語言主版的頁面與[翻譯服務與架構設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)建立關聯。
+1. 將語言主版的頁面與[翻譯服務與架構設定](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)建立關聯。
 
-1. 識別要翻譯的[內容型別](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html)。
+1. 識別要翻譯的[內容型別](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/tc-rules.html)。
 
-1. 編寫語言主版並建立語言副本的根頁面，[以備妥內容進行翻譯](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)。
+1. 編寫語言主版並建立語言副本的根頁面，[以備妥內容進行翻譯](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/tc-prep.html)。
 
-1. 建立[翻譯專案](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻譯的內容並準備翻譯程式。
+1. 建立[翻譯專案](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻譯的內容並準備翻譯程式。
 
-1. 使用翻譯專案來[管理內容翻譯](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)程式。
+1. 使用翻譯專案來[管理內容翻譯](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/tc-manage.html)程式。
 
 
 如果您的翻譯服務提供者未提供聯結器來與AEM整合，則AEM支援手動匯出和匯入XML格式的翻譯內容。
@@ -88,7 +88,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   > 如果您使用翻譯聯結器，請確定您已依照AEM檔案中&#x200B;*[設定翻譯整合架構](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主題中的說明設定聯結器。
+   > 如果您使用翻譯聯結器，請確定您已依照AEM檔案中&#x200B;*[設定翻譯整合架構](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主題中的說明設定聯結器。
 
 1. 按一下「**儲存**」。
 

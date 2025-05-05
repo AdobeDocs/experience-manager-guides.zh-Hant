@@ -72,11 +72,11 @@ Adobe Experience Manager隨附內建聯結器，適合領先翻譯供應商使�
 
 ## 其他資源
 
-以下是Experience Manager Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)頁面上取得：
+以下是Experience Manager Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/tw/support/xml-documentation-for-experience-manager.html)頁面上取得：
 
 * 使用手冊
 * API參考指南
 * 快速入門手冊
-* [說明*封存頁面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) （存取舊版檔案）
+* [說明*封存頁面](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html) （存取舊版檔案）
 
 **上層主題：**&#x200B;[&#x200B;關於Adobe Experience Manager Guides as a Cloud Service](intro.md)

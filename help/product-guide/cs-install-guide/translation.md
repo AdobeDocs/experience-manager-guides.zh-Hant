@@ -23,17 +23,17 @@ ht-degree: 9%
 
 翻譯內容涉及以下步驟：
 
-1. 連線AEM與您的[翻譯服務提供者](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)並建立翻譯整合架構設定。
+1. 連線AEM與您的[翻譯服務提供者](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hant)並建立翻譯整合架構設定。
 
 1. 將語言主版的頁面與翻譯服務和框架設定建立關聯。
 
-1. 識別要翻譯的[內容型別](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en)。
+1. 識別要翻譯的[內容型別](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=zh-Hant)。
 
-1. 編寫語言主版並建立語言副本的根頁面，[以備妥內容進行翻譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)。
+1. 編寫語言主版並建立語言副本的根頁面，[以備妥內容進行翻譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=zh-Hant)。
 
-1. 建立[翻譯專案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)以收集要翻譯的內容並準備翻譯程式。
+1. 建立[翻譯專案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=zh-Hant)以收集要翻譯的內容並準備翻譯程式。
 
-1. 使用翻譯專案來[管理內容翻譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)程式。
+1. 使用翻譯專案來[管理內容翻譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=zh-Hant)程式。
 
 
 如果您的翻譯服務提供者未提供聯結器來與AEM整合，則AEM支援手動匯出和匯入XML格式的翻譯內容。
@@ -88,7 +88,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
-> 如果您使用翻譯聯結器，請確定您已依照Adobe Experience Manager檔案中&#x200B;*[設定翻譯整合架構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)*&#x200B;主題中的說明設定聯結器。
+> 如果您使用翻譯聯結器，請確定您已依照Adobe Experience Manager檔案中&#x200B;*[設定翻譯整合架構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hant)*&#x200B;主題中的說明設定聯結器。
 
 >[!IMPORTANT]
 >

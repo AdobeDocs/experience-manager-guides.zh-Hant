@@ -68,7 +68,7 @@ ht-degree: 1%
 - 如果您使用的是版本 4.2、4.2.1（修補程式 4.2.1.3）、4.1 或 4.1.x，則需要先升級到版本 4.4，然後再升級到版本 4.6.0。
 - 如果您使用的是 4.0 版，那麼在升級到 4.3.x 版之前需要升級到 4.2 版。
 - 如果您使用的是版本 3.8.5，則需要先升級到版本 4.0，然後再升級到版本 4.2。
-- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
+- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
 
 >[!NOTE]
 >

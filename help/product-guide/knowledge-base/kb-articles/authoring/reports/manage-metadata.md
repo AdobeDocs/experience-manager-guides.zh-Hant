@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ### 在管理 — >中繼資料中的清單是空的或不完整
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [升級指示（索引您的內容）](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [升級指示（索引您的內容）](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=zh-Hant#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### 自訂中繼資料未出現在清單中
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 - [使用地圖儀表板(Assets UI)大量標籤](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
 - 網頁編輯器中的[Ditamap報告](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
-- 在AEM[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)中標籤
+- 在AEM[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=zh-Hant)中標籤
 
 
 **如有任何其他查詢，請連絡您個別的CSM**

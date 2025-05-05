@@ -41,7 +41,7 @@ Experience Manageras a Cloud Service為Experience Manager Guides、Assets、Form
 
 ![下載內容轉移工具](./assets/content-transfer-tool-software-portal.png)
 然後透過&#x200B;**封裝管理員**&#x200B;在您的來源Adobe Experience Manager執行個體上安裝封裝。 請務必下載最新版本。
-如需最新版本的詳細資訊，請檢視[發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en)。
+如需最新版本的詳細資訊，請檢視[發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=zh-Hant)。
 
 >[!NOTE]
 > 
