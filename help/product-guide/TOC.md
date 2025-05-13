@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2106'
 ht-degree: 8%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # [!DNL Adobe Experience Manager Guides] {#using}
 
-- [[!DNL AEM Guides] 概覽](overview.md)
+- [[!DNL AEM Guides] 概觀](overview.md)
 - [免責聲明](./user-guide/rebranding-disclaimer.md)
 - 發行資訊 {#release-info}
    - [AEM Guides發行藍圖](./release-info/aem-guides-releases-roadmap.md)
@@ -129,8 +129,8 @@ ht-degree: 8%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -277,7 +277,7 @@ ht-degree: 8%
          - [管理檔案和資料夾](./user-guide/authoring-file-management.md)
          - [下載檔案](./user-guide/authoring-download-assets.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
@@ -485,6 +485,7 @@ ht-degree: 8%
       - [將內容從非UUID移轉至UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
       - [差異內容移轉](./knowledge-base/expert-sessions/migration-delta-content.md)
       - [使用原生PDF更智慧型PDF發佈](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
+      - [AEM Guides中的新UX和AI功能](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
    - 文章 {#kb-articles}
       - 製作 {#authoring}
          - 網頁編輯器 {#webeditor}
