@@ -1,9 +1,10 @@
 ---
 title: AEM Guides中的新UX和AI功能
 description: 探索AEM Guides中重新設計的使用者體驗和AI助理如何簡化製作、增強導覽，並將即時智慧帶入您的內容工作流程。
-source-git-commit: 87d1ff16daea5d40924ebb59669a3474ec5bafca
+exl-id: 26daaae5-1f10-42bf-91b5-93cdb6df6625
+source-git-commit: 1b41b2eb7e917c389c6f15ff73037f89353e8269
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '271'
 ht-degree: 1%
 
 ---
@@ -27,9 +28,9 @@ ht-degree: 1%
 ## 關鍵重點
 
 在本次研討會中，我們涵蓋：
-- 重新設計的個人化登陸頁面可快速存取最近的檔案、集合和workfront。
+- 重新設計的個人化登陸頁面可快速存取最近的檔案、集合和Workfront任務。
 - 簡化撰寫、發佈和內容管理之間的轉換導覽。
-- 將發佈、翻譯和報表工作整合在同一個位置的專用地圖主控台。
+- 將發佈、翻譯及報告功能整合在一起的專用地圖主控台。
 - 透過AI驅動的建議，更聰明地重複使用內容。
 - 內容增強功能，例如翻譯、摘要和製作期間的即時內容改善。
 - AI導向的「說明」面板，在製作環境中提供內容相關協助。
@@ -37,11 +38,11 @@ ht-degree: 1%
 
 ## 相關資源
 
-- [新首頁體驗](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [新首頁體驗](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [AI功能](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- AEM Guides中的[AI功能](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [新首頁體驗](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [設定AI小幫手](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
