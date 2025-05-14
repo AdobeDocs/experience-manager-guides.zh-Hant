@@ -4,7 +4,7 @@ description: 瞭解編輯器中的工具列。 瞭解Adobe Experience Manager Gu
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 您的系統管理員可以從&#x200B;**設定**&#x200B;的中繼資料標籤變更要顯示的中繼資料。 如需詳細資訊，請參閱[索引標籤列](#tab-bar)的&#x200B;**更多動作**&#x200B;區段。
+   > 您的系統管理員可以從&#x200B;**設定**&#x200B;的中繼資料標籤變更要顯示的中繼資料。 如需詳細資訊，請參閱[索引標籤列](./web-editor-tab-bar.md)的&#x200B;**更多動作**&#x200B;區段。
 
    您也可以檢視目前版本和比較版本的使用者和時間詳細資訊。
 
@@ -132,7 +132,7 @@ Experience Manager Guides可讓您以自由格式文字格式指定標籤，或�
 
    隨即顯示「版本標籤管理」對話方塊。
 
-   ![](images/version-label-management-dialog.png){width="650" align="left"}
+   ![](images/version-label-management-dialog.png){width="350" align="left"}
 
    「版本標籤管理」對話方塊分為兩個部分 — 左側面板包含可用於主題的版本清單，以及標籤下拉式清單\（或文字方塊以輸入標籤\），右側面板包含主題預覽。
 
@@ -249,7 +249,7 @@ Experience Manager Guides提供追蹤變更功能，其中包含檔案中所做�
 
 >[!NOTE]
 >
-> 「預覽」模式可讓您檢視包含或不包含變更內容標示的檔案。 如需詳細資訊，請檢視[預覽](web-editor-views.md#preview-mode-id19AAGL00163)模式。
+> 「預覽」模式可讓您檢視包含或不包含變更內容標示的檔案。 如需詳細資訊，請檢視[預覽](web-editor-views.md#preview-mode)模式。
 
 **標籤**
 
@@ -377,7 +377,7 @@ Experience Manager Guides提供追蹤變更功能，其中包含檔案中所做�
 
 >[!NOTE]
 >
-> 您也可以將影像從本機系統拖放到文章上，以新增影像。 在此情況下，會使用&#x200B;**上傳Assets**&#x200B;工作流程新增影像檔案。  如需詳細資訊，請在[左側面板](#left-panel)區段中檢視&#x200B;**上傳Assets**&#x200B;工作流程。
+> 您也可以將影像從本機系統拖放到文章上，以新增影像。 在此情況下，會使用&#x200B;**上傳Assets**&#x200B;工作流程新增影像檔案。  如需詳細資訊，請在[左側面板](./web-editor-left-panel.md)區段中檢視&#x200B;**上傳Assets**&#x200B;工作流程。
 
 
 ![](images/insert-image.png){width="300" align="left"}
@@ -621,4 +621,4 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 身為管理員，您還能存取&#x200B;**強制解除鎖定**&#x200B;功能，讓您解除鎖定其他使用者鎖定的檔案。 使用此功能可存取其他使用者鎖定的檔案的編輯許可權。
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)
