@@ -16,7 +16,7 @@ ht-degree: 3%
 
 有關此版本中的問題修正清單，請查看 [2025.04.0 版本中修正的問題](fixed-issues-2025-04-0.md)。
 
-瞭解2025.04.0版](../release-info/upgrade-instructions-2025-04-0.md)的[升級指示。
+瞭解2025.04.0版[&#128279;](../release-info/upgrade-instructions-2025-04-0.md)的升級指示。
 
 ## 已針對參考連結新增「Format」屬性
 
