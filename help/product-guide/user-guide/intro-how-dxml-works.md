@@ -20,4 +20,4 @@ ht-degree: 0%
 處理任何工作流程時，如果工作階段長時間保持非使用中，則會觸發工作階段逾時提示，以防止內容遺失。 如需詳細資訊，請檢視[工作階段逾時](./session-timeout-prompt.md)。
 
 
-**上層主題：**[&#x200B;關於Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**上層主題：**&#x200B;[&#x200B;關於Adobe Experience Manager Guides as a Cloud Service](intro.md)
