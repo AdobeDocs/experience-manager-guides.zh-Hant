@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides發行藍圖2024
 description: 取得關於Adobe Experience Manager Guides現場直播和即將發行和Adobe Experience Manager Guides as a Cloud Service的資訊
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 1a3e9734119db9fe6a2657cc0c18aae9da3bbcdf
+source-git-commit: 7fbdb110dfc4c88352199f7a76891c2611238e34
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '410'
 ht-degree: 27%
 
 ---
@@ -27,13 +27,13 @@ Experience Manager Guides as a Cloud Service預計發行版本如下：
 
 | 發行 | 事件 | 排程 | 新增功能 | 升級指示 | 已修正的問題 | 狀態 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.06.0 | 自動更新 | 2025年6月02日至04日 |  |  |  | 目標 |
 | Adobe Experience Manager Guides 2025.07.0 | 自動更新 | 2025年7月15至17日 |  |  |  | 目標 |
 
 ### 即時發行
 
 | 發行 | 事件 | 排程 | 新增功能 | 升級指示 | 已修正的問題 | 狀態 |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2025.6.0 | 自動更新 | 2025年6月02日至04日 | [這裡](whats-new-2025-06-0.md) | [這裡](upgrade-instructions-2025-06-0.md) | [這裡](fixed-issues-2025-06-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2025.4.0 | 自動更新 | 2025年5月05至07日 | [這裡](whats-new-2025-04-0.md) | [這裡](upgrade-instructions-2025-04-0.md) | [這裡](fixed-issues-2025-04-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2025.2.0 | 自動更新 | 2025 年 3 月 10 至 12 日 | [這裡](whats-new-2025-02-0.md) | [這裡](upgrade-instructions-2025-02-0.md) | [這裡](fixed-issues-2025-02-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.12.0 | 自動更新 | 2025 年 1 月 13 至 15 日 | - | [這裡](upgrade-instructions-2024-12-0.md) | [這裡](fixed-issues-2024-12-0.md) | 已更新 |

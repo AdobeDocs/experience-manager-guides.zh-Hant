@@ -2,9 +2,9 @@
 title: 設定AI助理以提供智慧說明和編寫
 description: 瞭解如何在Experience Manager Guides中設定AI助理
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,10 @@ ht-degree: 0%
 1. [在Adobe Developer Console中建立IMS設定](#create-ims-configurations-in-adobe-developer-console)。
 2. [將IMS設定新增至環境](#add-ims-configuration-to-the-environment)
 3. [在環境中啟用AI標幟](#enable-ai-flag-in-the-environment)
-4. [套用變更至環境](#apply-changes-to-the-environment)
-5. [在資料夾設定檔中啟用AI助理](#enable-ai-assistant-in-folder-profile)
-6. [在資料夾設定檔中設定智慧建議](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
+4. [在環境中新增GUIDES_AI_SITE_ID變數](#add-the-guides_ai_site_id-variable-in-the-environment)
+5. [套用變更至環境](#apply-changes-to-the-environment)
+6. [在資料夾設定檔中啟用AI助理](#enable-ai-assistant-in-folder-profile)
+7. [在資料夾設定檔中設定智慧建議](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 ## 在Adobe Developer Console中建立IMS設定
 
@@ -38,7 +39,7 @@ ht-degree: 0%
 
 1. 從&#x200B;**專案**&#x200B;畫面選取&#x200B;**新增API**。  **新增API**&#x200B;畫面會出現。 此畫面會顯示Adobe產品與技術的所有可用API、事件和服務，供您開發應用程式。
 
-1. 選取&#x200B;**I/O管理API**&#x200B;以將其新增至您的專案。
+1. 選取&#x200B;**I/O管理API**以將其新增至您的專案。
    ![IO管理API](assets/confi-ss-io-management.png)
    *新增I/O Management API至您的專案。*
 
@@ -92,6 +93,14 @@ ht-degree: 0%
 
 將標幟設定為&#x200B;**true**&#x200B;會啟用該功能，而將其設定為&#x200B;**false**&#x200B;則會停用該功能。
 
+## 在環境中新增GUIDES_AI_SITE_ID變數
+
+在您的環境(Cloud Manager)中新增`GUIDES_AI_SITE_ID`變數並將值設定為`id_f651abc807c84f52b425737bb93f87ba`以啟用它。
+
+確定您使用與下列熒幕擷取畫面相同的名稱和設定。
+
+![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+
 ## 套用變更至環境
 
 新增IMS設定並啟用AI Assistant標幟到環境後，執行以下步驟來使用OSGi將這些屬性與AEM Guides連結：
@@ -143,8 +152,8 @@ ht-degree: 0%
   "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
   "instance.type":"prod",
-  "chat.url":"https://aem-guides-ai.adobe.io"
-}
+  "chat.url":"https://aem-guides-ai-v2.adobe.io"
+  }
 ```
 
 ## AI助理設定詳細資料
@@ -154,7 +163,7 @@ ht-degree: 0%
 | conref.inline.threshold | 此臨界值可控制針對使用者目前輸入的標籤所擷取建議的精確度/召回率。 | 從–1.0到1.0的任何值。 | 0.6 |
 | conref.block.threshold | 此臨界值會控制在整個檔案中為標籤擷取的建議精確度/召回率。 | 從–1.0到1.0的任何值。 | 0.7 |
 | emerald.url | 智慧建議向量資料庫的端點 | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| chat.url | AI助理服務的端點 | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) |
+| chat.url | AI助理服務的端點 | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | AEM執行個體的型別。 請確定此名稱對於已設定智慧建議的每個AEM執行個體都是唯一的。 使用案例是在Stage環境中以「instance.type」=「stage」測試功能，同時在「prod」上也設定此功能。 | 任何可識別環境的唯一關鍵值。 僅允許&#x200B;*個英數字元*&#x200B;值。 &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | &quot;prod&quot; |
 
 完成設定後， AI助理圖示會顯示在Experience Manager Guides的首頁和編輯器中。 如需詳細資訊，請檢視Experience Manager使用手冊中的[AI助理](../user-guide/ai-assistant.md)區段。

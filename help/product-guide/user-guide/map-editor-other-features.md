@@ -4,9 +4,9 @@ description: 探索地圖編輯器中的部分常見功能。 瞭解如何在Map
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: 41c6e4edb470038c4934c01f1c28539f1e4d4f86
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,35 @@ DITA內容索引鍵參照，或`conkeyref`是將部分內容從一個主題插�
 
 **主題編輯檢視** — 編輯DITA主題時選取「關鍵解析度」圖示，並選取要用於解析關鍵參考的DITA檔案。
 
-**上層主題：**&#x200B;[&#x200B;地圖編輯器簡介](map-editor.md)
+## 新增導覽參考
+
+`navref`元素在DITA map內使用，以包含來自其他DITA map的導覽參照。 這可讓作者重複使用導覽結構（例如共用功能表或連結），而不會將參照的地圖的實際內容合併到輸出中。
+
+>[!NOTE]
+>
+> `navref`元素僅供地圖結構中的導覽使用。 它不會參與產生的DITA map輸出，且不會在「對映」檢視、「報表」、「基準線」、「轉譯」和「預覽」中進行處理和顯示。
+
+若要將導覽參照新增至對映，請執行下列步驟：
+
+1. 開啟要新增導覽參照的DITA map檔案。
+
+   對應檔案會在對應編輯器中開啟。
+1. 切換至「作者」檢視，並將游標置於導覽參考的有效位置。
+1. 從工具列選取&#x200B;**元素**&#x200B;選項。
+1. 在&#x200B;**插入專案**&#x200B;對話方塊中，選取&#x200B;**navref**。
+
+   ![](./images/select-navref-element.png)
+1. 顯示&#x200B;**選取路徑**&#x200B;對話方塊。 選取要包含在地圖中作為導覽參考的地圖檔案，然後選擇&#x200B;**選取**。
+
+所選地圖檔案的導覽參考會新增至指定位置。 此外，參考地圖的標題會顯示在「作者」檢視和「版面」檢視中。
+
+![](./images/navref-added-author-view.png)
+
+*作者檢視*
+
+![](./images/navref-added-layout-view.png)
+
+*配置檢視*
+
+
+**上層主題：**[&#x200B;地圖編輯器簡介](map-editor.md)

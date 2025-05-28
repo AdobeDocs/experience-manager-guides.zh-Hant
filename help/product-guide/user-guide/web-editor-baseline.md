@@ -4,9 +4,9 @@ description: 從Adobe Experience Manager Guides的地圖主控台建立和管理
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
+source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ ht-degree: 0%
 
 - **日期** ：在指定的日期和時間挑選主題的版本。
 - **標籤**：選取此選項以根據套用至主題的主題標籤挑選主題。 如果主題有為其指定的標籤，則標籤會列在下拉式清單中。 您可以從清單中選擇標籤。 您也可以在文字方塊中新增標籤。
+
+  >[!NOTE]
+  >
+  > 選擇標籤時，標籤載入器會保持可見，直到成功擷取並完整載入所有標籤為止。 載入後，標籤會以不區分大小寫的字母順序顯示。 它們會以20的批次擷取，並在下拉式選單中啟用無限捲動，以便在您捲動時載入其他批次。
 
   對於靜態基準線中的直接參照，標籤會從最新儲存的地圖版本中提取。 例如，如果您已為主題A 1.0和1.1版建立標籤`Label Release 1.0`和`Label Release 1.1`，然後將主題A新增至儲存為1.0版的地圖。在此情況下，您可以在靜態基準線標籤的下拉式清單中檢視標籤`Label Release 1.0`和`Label Release 1.1`。
 
@@ -105,7 +109,7 @@ ht-degree: 0%
   >
   >當使用標籤在執行階段產生動態基準的參照時，動態基準的編輯作業可讓您編輯基準的屬性。
 
-  基準線![&#128279;](images/baseline-options.png){width="500" align="left"}的選項
+  基準線](images/baseline-options.png){width="500" align="left"}的![選項
 
 ### 現有基準的可用動作
 
@@ -118,7 +122,7 @@ ht-degree: 0%
 ![複製基準線](images/baseline-duplicate.png){width="300" align="left"}
 *根據標籤複製基準線或建立精確副本。*
 
-1. 從基準線的[選項]功能表選取[複製] **&#x200B;**。 **重複的基準線**&#x200B;對話方塊開啟。
+1. 從基準線的[選項]功能表選取[複製] ****。 **重複的基準線**對話方塊開啟。
 >[!NOTE]
 >
 >基準線的預設名稱為`<selected baseline name>`_suffix （如sample-baseline_1）。 您可以根據自己的需求變更名稱。
@@ -164,5 +168,5 @@ ht-degree: 0%
 
 編輯基準線後，選取&#x200B;**儲存**&#x200B;以儲存基準線的變更。 如果您不想儲存變更並重設基準線，可以選取&#x200B;**重設**。 當您選取&#x200B;**重設**&#x200B;時，會顯示警告，指出您未儲存的變更將會遺失。
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)
 

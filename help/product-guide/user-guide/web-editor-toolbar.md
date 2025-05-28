@@ -4,7 +4,7 @@ description: 瞭解編輯器中的工具列。 瞭解Adobe Experience Manager Gu
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -380,7 +380,7 @@ Experience Manager Guides提供追蹤變更功能，其中包含檔案中所做�
 > 您也可以將影像從本機系統拖放到文章上，以新增影像。 在此情況下，會使用&#x200B;**上傳Assets**&#x200B;工作流程新增影像檔案。  如需詳細資訊，請在[左側面板](./web-editor-left-panel.md)區段中檢視&#x200B;**上傳Assets**&#x200B;工作流程。
 
 
-![](images/insert-image.png){width="300" align="left"}
+![](images/insert-image-new-dialog.png){width="300" align="left"}
 
 您可以在「插入影像」對話方塊中為影像新增影像/插圖示題和替代文字。
 
@@ -621,4 +621,4 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 身為管理員，您還能存取&#x200B;**強制解除鎖定**&#x200B;功能，讓您解除鎖定其他使用者鎖定的檔案。 使用此功能可存取其他使用者鎖定的檔案的編輯許可權。
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

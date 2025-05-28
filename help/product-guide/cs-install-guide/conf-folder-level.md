@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+source-git-commit: 10c0a105c09f5a20b5bf2ef9b3201e7747048a8a
 workflow-type: tm+mt
-source-wordcount: '4756'
+source-wordcount: '4794'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
 
    「資料夾設定檔」頁面第一次只顯示預設的「全域設定檔」圖磚。
 
-1. 按一下&#x200B;**建立**。
+1. 按一下「**建立**」。
 
    ![](assets/create-folder-profile.png){width="300" align="left"}
 
@@ -137,7 +137,7 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
      >
      > 您無法在一個資料夾上套用多個資料夾設定檔。 確定您在這裡選取的資料夾沒有套用任何其他設定檔。 如果父 — 子資料夾有自己的特定設定檔，則子資料夾將使用其自身設定檔中的設定。 來自父資料夾的設定不會覆寫子資料夾的設定。
 
-1. 按一下&#x200B;**建立**。
+1. 按一下「**建立**」。
 
    在「資料夾設定檔」頁面中會建立具有資料夾設定檔名稱的新圖磚
 
@@ -204,7 +204,7 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
 
 1. 如果您想要為相同屬性新增更多值，請按一下&#x200B;**+**&#x200B;圖示並輸入其他值和標籤。
 
-1. 若要新增更多屬性，請按一下[新增]。**&#x200B;**
+1. 若要新增更多屬性，請按一下[新增]。****
 
 1. 按一下「**儲存**」。
 
@@ -324,7 +324,7 @@ AEM Guides可讓您輕鬆建立製作範本。 作為系統管理員，您可以
 
 1. *\（選擇性\）*&#x200B;按一下&#x200B;**新增縮圖**&#x200B;按鈕到瀏覽器，並選取要與範本關聯的縮圖。
 
-1. 按一下&#x200B;**建立**。
+1. 按一下「**建立**」。
 
    「主題已建立」訊息便會顯示。
 
@@ -361,7 +361,7 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 
 1. 執行下列任一項作業，以建立或編輯輸出預設集：
 
-   - 按一下[建立&#x200B;**&#x200B;**]從頭開始建立新的輸出預設集。
+   - 按一下[建立&#x200B;****]從頭開始建立新的輸出預設集。
    - 按一下「複製」以建立所選輸出預設集的副本。 您可以變更並儲存重複的預設集。
 
    - 按一下&#x200B;**編輯**，開啟選取的預設集組態以進行編輯。
@@ -456,7 +456,7 @@ Adobe Experience Manager Guides中的AI Assistant是功能強大的AI驅動工�
 
 針對![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service。
 
-您可以設定AI支援的智慧&#x200B;**說明**，協助作者提出問題，並從[Experience Manager Guides檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)中輕鬆尋找所需內容。
+您可以設定AI支援的智慧&#x200B;**說明**，協助作者提出問題，並從[Experience Manager Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中輕鬆尋找所需內容。
 
 **XML編輯器組態**&#x200B;索引標籤可讓您設定&#x200B;**說明**&#x200B;面板的預設問題。
 
@@ -508,7 +508,11 @@ Adobe Experience Manager Guides中的AI Assistant是功能強大的AI驅動工�
 
 此設定可讓您建立可反映`ui_config.json`檔案中所作修改的JSON副檔名。 您可以在資料夾設定檔層級獨立上傳這些擴充功能，提供增強的彈性和自訂功能。 例如，當您變更&#x200B;**XML編輯器組態** （例如更新按鈕）時，系統會自動識別差異。 透過將這些變更上傳到&#x200B;**XML編輯器UI設定**，並使用&#x200B;**將UI設定轉換為JSON**&#x200B;按鈕將它們轉換為JSON擴充功能，系統會產生合併新功能的擴充功能。
 
-深入瞭解[自訂JSON設定和轉換新AEM Guides編輯器的UI設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
+深入瞭解[自訂JSON設定和轉換新AEM Guides編輯器的UI設定](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
+
+>[!NOTE]
+>
+> 使用擴充功能架構自訂應用程式時，建議僅使用支援的基本React Spectrum元件（例如樹狀結構、表格、核取方塊、選項按鈕和選項群組等），以避免部署期間出現任何問題。
 
 **XML編輯器頁面配置**
 

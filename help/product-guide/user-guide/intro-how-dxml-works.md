@@ -4,9 +4,9 @@ description: 瞭解Experience Manager Guides如何與AEM和其他DITA編輯器�
 exl-id: 7c76fa01-63dc-4017-af15-c1e62b1849d1
 feature: Introduction
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 288375d153ff805af05a60eb9c58ae1af4dd8744
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -17,5 +17,7 @@ ht-degree: 0%
 
 ![](images/xml-add-on-how-it-works.png){align="center"}
 
+處理任何工作流程時，如果工作階段長時間保持非使用中，則會觸發工作階段逾時提示，以防止內容遺失。 如需詳細資訊，請檢視[工作階段逾時](./session-timeout-prompt.md)。
 
-**上層主題：**&#x200B;[&#x200B;關於Adobe Experience Manager Guides as a Cloud Service](intro.md)
+
+**上層主題：**[&#x200B;關於Adobe Experience Manager Guides as a Cloud Service](intro.md)
