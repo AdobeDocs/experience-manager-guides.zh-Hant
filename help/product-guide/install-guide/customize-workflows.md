@@ -5,10 +5,10 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 3f61aa6615a1b9765154d55249a33136443dfa33
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 1%
+source-wordcount: '1856'
+ht-degree: 2%
 
 ---
 
@@ -18,20 +18,20 @@ ht-degree: 1%
 
 如需AEM工作流程的詳細資訊，請參閱：
 
-- [管理工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/workflows.html)
+- [管理工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 套用及參與工作流程： [使用工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/authoring/using/workflows.html)。
+- 套用及參與工作流程： [使用工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)。
 
-- 正在建立工作流程模型並擴充工作流程功能： [開發和擴充工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/workflows.html)。
+- 正在建立工作流程模型並擴充工作流程功能： [開發和擴充工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)。
 
-- 改善使用重要伺服器資源的工作流程效能： [並行工作流程處理](https://helpx.adobe.com/tw/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
+- 改善使用重要伺服器資源的工作流程效能： [並行工作流程處理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
 
 
 本主題中的各節將逐步引導您瞭解在AEM Guides中提供的預設工作流程中可以進行的各種自訂。
 
 ## 自訂稽核工作流程 {#id176NE0C00HS}
 
-每個組織的內容製作團隊都會以特定方式運作，以符合其業務需求。 某些組織設有專屬的編輯者，而其他組織則可設有自動編輯稽核系統。 例如，在組織中，典型的撰寫和發佈工作流程可能包括這樣的任務 — 每當作者完成編寫內容時，它會自動轉給稽核者，當稽核完成時，它就會轉給發佈者用於產生最終輸出。 在AEM中，您對內容和資產執行的活動可以程式形式合併，並對應至AEM工作流程。 如需AEM工作流程的詳細資訊，請參閱AEM檔案中的[管理工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/workflows.html)。
+每個組織的內容製作團隊都會以特定方式運作，以符合其業務需求。 某些組織設有專屬的編輯者，而其他組織則可設有自動編輯稽核系統。 例如，在組織中，典型的撰寫和發佈工作流程可能包括這樣的任務 — 每當作者完成編寫內容時，它會自動轉給稽核者，當稽核完成時，它就會轉給發佈者用於產生最終輸出。 在AEM中，您對內容和資產執行的活動可以程式形式合併，並對應至AEM工作流程。 如需AEM工作流程的詳細資訊，請參閱AEM檔案中的[管理工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)。
 
 AEM Guides可讓您自訂預設的稽核工作流程。 您可以搭配其他撰寫或發佈工作流程，使用下列四個自訂檢閱相關流程。
 
@@ -44,7 +44,9 @@ AEM Guides可讓您自訂預設的稽核工作流程。 您可以搭配其他撰
 - **將工作排程為關閉檢閱**：此程式可確保檢閱程式在到達截止日期時完成。
 
 
-建立自訂稽核工作流程時，第一項工作是設定「建立稽核」程式所需的必要中繼資料。 若要這樣做，您可以建立ECMA指令碼。 指派中繼資料的ECMA指令碼範例如下：
+建立自訂稽核工作流程時，第一項工作是設定「建立稽核」程式所需的必要中繼資料。 若要這樣做，您可以建立ECMA指令碼。 以下提供指派中繼資料的ECMA指令碼範例，供主題和地圖使用。
+
+主題&#x200B;**的**
 
 ```json
 var workflowdata=workItem.getWorkflowData();
@@ -59,6 +61,35 @@ workflowdata.getMetaDataMap().put("assignee","user-one", "user-two");
 workflowdata.getMetaDataMap().put("status","1");
 workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
+workflowdata.getMetaDataMap().put("reviewType", "AEM");
+workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
+workflowdata.getMetaDataMap().put("isDitamap","false");
+```
+
+地圖的&#x200B;****
+
+```json
+var workflowdata = workItem.getWorkflowData();
+workflowdata.getMetaDataMap().put("initiator", "admin");
+workflowdata.getMetaDataMap().put("operation", "AEM_REVIEW");
+workflowdata.getMetaDataMap().put("orgTopics", "GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita|GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita|GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita|");
+var payloadJson = "{\"referrer\":\"\",\"rootMap\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"asset\":[\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\"],\"base\":\"/content/dam\"}";
+workflowdata.getMetaDataMap().put("payloadJson", payloadJson);
+workflowdata.getMetaDataMap().put("deadline", "2047-06-27T13:19:00.000+05:30");
+workflowdata.getMetaDataMap().put("title", "Review task via workflow with map");
+workflowdata.getMetaDataMap().put("description", "Review task via workflow with map Description");
+workflowdata.getMetaDataMap().put("assignee", "user-one");
+workflowdata.getMetaDataMap().put("status", "1");
+workflowdata.getMetaDataMap().put("projectPath", "/content/projects/review_project_via_workflow");
+workflowdata.getMetaDataMap().put("startTime", new Date().getTime());
+var versionJson = "[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]}]";
+workflowdata.getMetaDataMap().put("versionJson", versionJson);
+workflowdata.getMetaDataMap().put("notifyViaEmail", "true");
+workflowdata.getMetaDataMap().put("allowAllReviewers", "false");
+workflowdata.getMetaDataMap().put("isDitamap", "true");
+workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
+var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
+workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 ```
 
 您可以在`/etc/workflows/scripts`節點中建立此指令碼。 下表說明此ECMA命令檔所指派的特性：
@@ -68,30 +99,39 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 | `initiator` | 字串 | 起始稽核任務之使用者的使用者ID。 |
 | `operation` | 字串 | 設定為`AEM_REVIEW`的靜態值。 |
 | `orgTopics` | 字串 | 共用以供檢閱的主題路徑。 指定多個以逗號分隔的主題。 |
-| `payloadJson` | json物件 | 指定下列值： <br> - `base`：包含要送出檢閱之主題的父資料夾路徑。<br>- `asset`：傳送供檢閱之主題的路徑。 <br>- `referrer`：請保留空白。 |
+| `payloadJson` | JSON 物件 | 指定下列值： <br> - `base`：包含要送出檢閱之主題的父資料夾路徑。<br>- `asset`：傳送供檢閱之主題的路徑。 <br>- `referrer`：請保留空白。 |
 | `deadline` | 字串 | 以`yyyy-MM-dd'T'HH:mm:ss.SSSXXX`格式指定時間。 |
 | `title` | 字串 | 輸入稽核任務的標題。 |
 | `description` | 字串 | 輸入複查工作的說明。 |
 | `assignee` | 字串 | 要傳送主題以供檢閱之使用者的使用者ID。 |
 | `status` | 整數 | 設定為1的靜態值。 |
 | `startTime` | 長 | 使用`System.currentTimeMillis()`函式取得目前系統時間。 |
+| `projectPath` | 字串 | 將指派稽核任務的稽核專案路徑，例如： /content/projects/samplereviewproject。 |
+| `reviewType` | 字串 | 靜態值「AEM」。 |
+| `versionJson` | JSON 物件 | versionJson是正在稽核的主題清單，其中每個主題物件都有以下結構{ &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } |
+| `isDitamap` | 布林值 | false/true |
+| `ditamapHierarchy` | JSON 物件 | 若已傳送地圖以供檢閱，則值應如下：[ { &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： 「」，「items」： [] } ] ]。 |
+| `ditamap` | 字串 | 指定稽核任務的ditamap路徑 |
+| `allowAllReviewers` | 布林值 | false/true |
+| `notifyViaEmail` | 布林值 | false/true |
+
 
 建立指令碼後，請先呼叫它，然後再在工作流程中呼叫建立檢閱程式。 然後，根據您的需求，您可以呼叫其他稽核工作流程處理。
 
 ### 從永久刪除組態中移除複查工作流程
 
-若要改善工作流程引擎效能，您可以定期從AEM儲存庫中清除已完成的工作流程執行個體。 如果您使用預設的AEM設定，則會在特定時段後清除所有已完成的工作流程執行個體。 這也會導致所有稽核工作流程從AEM存放庫清除。
+若要改善工作流程引擎效能，您可以定期從AEM存放庫中清除已完成的工作流程例項。 如果您使用預設的AEM設定，則會在特定時段後清除所有已完成的工作流程執行個體。 這也會導致所有稽核工作流程從AEM存放庫清除。
 
-您可以從自動永久刪除組態中移除稽核工作流程模型\（資訊\），以防止稽核工作流程自動永久刪除。 您必須使用&#x200B;**AdobeGranite工作流程清除組態**，才能從自動清除清單中移除稽核工作流程模型。
+您可以從自動永久刪除組態中移除稽核工作流程模型\（資訊\），以防止稽核工作流程自動永久刪除。 您必須使用&#x200B;**Adobe Granite工作流程清除組態**，才能從自動清除清單中移除稽核工作流程模型。
 
-在&#x200B;**AdobeGranite工作流程清除設定**&#x200B;中，請確定您至少列出一個可以安全清除的工作流程。 例如，您可以使用AEM Guides建立的下列任何工作流程：
+在&#x200B;**Adobe Granite工作流程清除設定**&#x200B;中，請確定您至少列出一個可以安全清除的工作流程。 例如，您可以使用AEM Guides建立的下列任何工作流程：
 
 - /etc/workflow/models/publishditamap/jcr：content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/ jcr：content/model
 
-在&#x200B;**AdobeGranite工作流程清除組態**&#x200B;中新增工作流程，可確保AEM僅清除組態中列出的工作流程。 這可防止AEM永久刪除稽核工作流程資訊。
+在&#x200B;**Adobe Granite工作流程清除組態**&#x200B;中新增工作流程，可確保AEM僅清除組態中列出的工作流程。 這可防止AEM清除稽核工作流程資訊。
 
-如需有關設定&#x200B;**AdobeGranite工作流程清除設定**&#x200B;的詳細資訊，請參閱AEM檔案中的&#x200B;*管理工作流程執行個體*。
+如需有關設定&#x200B;**Adobe Granite工作流程清除設定**&#x200B;的詳細資訊，請參閱AEM檔案中的&#x200B;*管理工作流程執行個體*。
 
 ### 自訂電子郵件範本
 
@@ -163,7 +203,7 @@ generatedPath;
 */
 ```
 
-建立指令碼後，請呼叫工作流程中的自訂指令碼。 然後，根據您的需求，您可以呼叫其他工作流程處理。 設計好自訂工作流程後，請呼叫&#x200B;*完成Post產生*&#x200B;作為工作流程程式的最後一步。 *完成Post產生*&#x200B;步驟可確保輸出產生工作的狀態在輸出產生程式完成時更新為&#x200B;*已完成*。 建立自訂輸出後產生工作流程後，您可以使用任何輸出產生預設集進行設定。 在必要預設集的&#x200B;*執行Post產生工作流程*&#x200B;屬性中選取必要的工作流程。 當您使用設定的輸出預設集執行輸出產生工作時，工作狀態\（在「輸出」索引標籤中\）會變更為&#x200B;*Post-Processing*。
+建立指令碼後，請呼叫工作流程中的自訂指令碼。 然後，根據您的需求，您可以呼叫其他工作流程處理。 設計好自訂工作流程後，請呼叫&#x200B;*完成產生貼文*，作為工作流程程式的最後一步。 *完成產生後工作*&#x200B;步驟可確保輸出產生工作的狀態在輸出產生程式完成時更新為&#x200B;*已完成*。 建立自訂輸出後產生工作流程後，您可以使用任何輸出產生預設集進行設定。 在必要預設集的&#x200B;*執行產生後工作流程*&#x200B;屬性中選取必要的工作流程。 當您使用設定的輸出預設集執行輸出產生工作時，工作狀態\（在[輸出]索引標籤中\）會變更為&#x200B;*後續處理*。
 
 ## 自訂更新資產工作流程 {#id18C3D0I0B5Z}
 
@@ -192,7 +232,7 @@ generatedPath;
 
 ## 設定後處理XML工作流程 {#id18CJB03J0Y4}
 
-AEM Guides會建立一系列工作流程，好讓您在AEM中使用DITA內容。 例如，當您上傳DITA內容或更新現有內容時，會執行一些工作流程。 這些工作流程會剖析DITA檔案並執行各種工作，例如設定中繼資料、將預設輸出預設集新增到新的DITA map，以及其他相關工作。
+AEM Guides會建立一系列工作流程，好讓您在AEM中處理DITA內容。 例如，當您上傳DITA內容或更新現有內容時，會執行一些工作流程。 這些工作流程會剖析DITA檔案並執行各種工作，例如設定中繼資料、將預設輸出預設集新增到新的DITA map，以及其他相關工作。
 
 >[!NOTE]
 >
@@ -207,4 +247,4 @@ AEM Guides會建立一系列工作流程，好讓您在AEM中使用DITA內容。
 | 屬性 | 組合包名稱 | 說明 |
 |--------|-----------|-----------|
 | 動態輸出 | `com.adobe.fmdita.postprocess.PostProcessObservation` | 對於尚未執行後續處理的所有檔案，它會透過剖析主題檔案來擷取傳出參照。 建議停用此選項，因為如果要處理的檔案數量很大，此選項可能會讓系統過載。 |
-| Post程式Threads | `com.adobe.fmdita.config.ConfigManager` | 設定用於後處理工作流程的後處理執行緒數目。 <br>預設值為1。 |
+| 後續程式Threads | `com.adobe.fmdita.config.ConfigManager` | 設定用於後處理工作流程的後處理執行緒數目。 <br>預設值為1。 |

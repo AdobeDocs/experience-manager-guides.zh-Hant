@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: 5a458fb644e435e418bef1a7e5b79a0ed280a80b
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2130'
 ht-degree: 8%
 
 ---
@@ -94,6 +94,9 @@ ht-degree: 8%
             - [1月發行說明](./release-info/release-notes-2022-1-0.md)
       - 內部部署/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
+         - 5.0.0 SP1版本 {#500-sp1-release}
+            - [已修正的問題](./release-info/fixed-issues-5-0-0-sp1.md)
+            - [升級指示](./release-info/upgrade-instructions-5-0-0-sp1.md)
          - 5.0.0版 {#500-release}
             - [新增功能](./release-info/whats-new-5-0-0.md)
             - [已修正的問題](./release-info/fixed-issues-5-0-0.md)
@@ -133,8 +136,8 @@ ht-degree: 8%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -144,7 +147,7 @@ ht-degree: 8%
    - 首頁 {#home-page}
       - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
    - 作者內容 {#author-content}
-      - [製作概述](./user-guide/authoring-content.md)
+      - [製作概觀](./user-guide/authoring-content.md)
       - [使用AEM Guides創作內容的方法](./user-guide/authoring-content-xml-doc.md)
       - 編輯器 {#work-with-editor}
          - [編輯器簡介](./user-guide/web-editor.md)
@@ -274,7 +277,7 @@ ht-degree: 8%
       - [AI支援的智慧型協助以搜尋內容](./user-guide/ai-based-smart-help.md)
       - [AI助理撰寫以聰明地撰寫檔案](./user-guide/ai-assistant-right-panel.md)
       - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
-      - [常見問題集](./user-guide/ai-assistant-faq.md)
+      - [常見問題](./user-guide/ai-assistant-faq.md)
    - 附錄 {#appendix}
       - 管理內容 {#manage-content}
          - [重要概念、角色和許可權及必要條件](./user-guide/authoring.md)
@@ -284,7 +287,7 @@ ht-degree: 8%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
@@ -494,7 +497,7 @@ ht-degree: 8%
       - [使用原生PDF更智慧型PDF發佈](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
       - [AEM Guides中的新UX和AI功能](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
    - 文章 {#kb-articles}
-      - 編寫 {#authoring}
+      - 製作 {#authoring}
          - 網頁編輯器 {#webeditor}
             - [AEM Guides中的內容重複使用性](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [在AEM Guides中使用Markdown](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)

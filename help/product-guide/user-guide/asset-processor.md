@@ -4,7 +4,8 @@ description: 瞭解如何處理資產
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0e744baeb6867bfc9e7d212ec53e581812d8f63
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
+source-git-commit: 851dafc1f17864bf6a295de7be12ffe513c3af57
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -27,7 +28,7 @@ ht-degree: 0%
 1. 在&#x200B;**工具**&#x200B;面板中選取&#x200B;**參考線**。
 1. 選取&#x200B;**資產處理器**&#x200B;圖磚。
 
-   ![流程資產處理器](images/flow-asset-processor.png){width="550" align="left"}
+   ![流程資產處理器](images/flow-asset-processor.png){align="left"}
 
 1. 「指南資產處理器」視窗會開啟，其詳細資訊如下所示。 此外，此視窗上只會顯示最近五個移轉的相關資訊。
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 
    - **狀態**：指向重新處理的狀態，即[進行中]、[已完成]或[已取消]。
 
-   ![指南 — 資產處理器](images/guides-asset-processor.png){width="550" align="left"}
+   ![指南 — 資產處理器](images/guides-asset-processor.png){align="left"}
 
 1. 選取視窗右上角的&#x200B;**新處理序**&#x200B;索引標籤，以開始新的處理作業。
 
@@ -66,20 +67,16 @@ ht-degree: 0%
 
 - **重新啟動** ：重新啟動先前成功的資產處理工作。
 
-  ![重新啟動asset-processor](images/restart-asset-processor.png){width="550" align="left"}
+  ![重新啟動asset-processor](images/restart-asset-processor.png){align="left"}
 
 - **繼續** ：繼續先前取消或失敗的資產處理工作。
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="550" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){align="left"}
 
 - **取消** ：取消目前進行中的資產處理工作。
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="550" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){align="left"}
 
 - **檢視記錄**：顯示資產處理工作的記錄。 對於進行中的工作，記錄會顯示詳細的處理資訊，包括預估剩餘時間和資產狀態。 此記錄清單最多可顯示500個最新專案。 可以下載完整記錄。
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-
+  ![logs-asset-processor](images/logs-asset-processor.png){align="left"}
