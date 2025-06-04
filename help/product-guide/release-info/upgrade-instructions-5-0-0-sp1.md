@@ -12,7 +12,7 @@ ht-degree: 1%
 
 本文介紹Adobe Experience Manager Guides 5.0.0 Service Pack 1版的升級指示和相容性矩陣。
 
-如需此版本中已修正的問題清單，請檢視5.0.0 Service Pack 1版本](../release-info/fixed-issues-5-0-0-sp1.md)中的[已修正問題。
+如需此版本中已修正的問題清單，請檢視5.0.0 Service Pack 1版本[&#128279;](../release-info/fixed-issues-5-0-0-sp1.md)中的已修正問題。
 
 ## 相容性矩陣
 
@@ -66,4 +66,4 @@ ht-degree: 1%
 >
 >您必須先安裝AEM Service Pack，才能升級Experience Manager Guides版本。
 
-如需詳細資訊，請檢視Experience Manager Guides內部部署版本](../install-guide/upgrade-xml-documentation.md)的[升級指示。
+如需詳細資訊，請檢視Experience Manager Guides內部部署版本[&#128279;](../install-guide/upgrade-xml-documentation.md)的升級指示。

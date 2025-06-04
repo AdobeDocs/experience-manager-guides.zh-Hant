@@ -62,7 +62,7 @@ ht-degree: 0%
 
 
 
-****先決條件****
+**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides升級程式之前，請確定您擁有：
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 如果您是使用4.0、4.1或4.1.x版，則可以直接升級至4.2版。
 
-****先決條件****
+**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 4.2升級程式之前，請確定您擁有：
 
@@ -311,7 +311,7 @@ ht-degree: 0%
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****先決條件****
+**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 4.2.1升級程式之前，請確定您擁有：
 
@@ -488,7 +488,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****先決條件****
+**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 4.3.0升級程式之前，請確定您擁有：
 
@@ -546,7 +546,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****先決條件****
+**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 4.3.1升級程式之前，請確定您擁有：
 
@@ -787,7 +787,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****先決條件****
+**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 4.4.0升級程式之前，請確定您擁有：
 
@@ -980,7 +980,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 在此升級期間，由於`'order'`值從1000變更為50，因此您必須將現有的自訂重寫程式（若有的話）與`'fmdita-rewriter'`合併。
 
 
-**上層主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)
 
 
 ## 升級至4.6.0版
@@ -995,7 +995,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 >
 > 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****先決條件****
+**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 4.6.0升級程式之前，請確定您擁有：
 
@@ -1150,7 +1150,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 >
 > 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-****先決條件****
+**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
 
 在開始Experience Manager Guides 5.0.0升級程式之前，請確定您擁有：
 
