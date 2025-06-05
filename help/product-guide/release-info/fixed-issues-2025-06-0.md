@@ -2,9 +2,9 @@
 title: 發行說明 | 已修正2025.06.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2025.06.0版中的錯誤修正。
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
+source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 如需新功能和增強功能的詳細資訊，請參閱 [2025.06.0 版本中的新增功能](whats-new-2025-06-0.md)。
 
-瞭解2025.06.0版[&#128279;](upgrade-instructions-2025-06-0.md)的升級指示。
+瞭解2025.06.0版](upgrade-instructions-2025-06-0.md)的[升級指示。
 
 ## 製作
 
@@ -50,6 +50,6 @@ Adobe發現以下2025.06.0版的已知問題：
 
 - 在啟用Unified Shell的情況下開啟DITA Map時，編輯器會間歇性地重新整理。 (GUIDES-26919)
 
-- 在資料夾設定檔中，從UI中刪除已編制索引的資產時，不會移除對應的已編制索引路徑，且重新編制索引的嘗試會失敗，並出現錯誤訊息。 (GUIDES-29147) <br>**因應措施：**&#x200B;您必須先移除已不存在的過時路徑，才能起始重新索引。
+- 針對資料夾設定檔底下的AI設定，當從UI中刪除已編制索引的資產時，將不會移除對應的已編制索引路徑，且嘗試重新編制索引會失敗並出現錯誤訊息。 (GUIDES-29147) <br>**因應措施：**&#x200B;您必須先移除已不存在的過時路徑，才能起始重新索引。
 
-- 如果地圖包含循環相依性，而您開啟了「地圖預覽」，則在重新整理頁面之前，Source、作者和版面檢視將變為無法存取。 (GUIDES-28334) <br>**因應措施：**&#x200B;您必須重新整理頁面，才能還原對這些檢視的存取權。
+- 如果對應包含循環相依性且您開啟了「對應預覽」，則在重新整理瀏覽器之前，將無法存取Source、作者和版面檢視。 (GUIDES-28334) <br>**因應措施：**&#x200B;您必須重新整理瀏覽器，才能還原對這些檢視的存取權。
