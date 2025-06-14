@@ -22,7 +22,7 @@ ht-degree: 0%
 ## 背景
 
 透過AEM Guides，您可以使用DITA-OT外掛程式，透過已設定的外掛程式，發佈至您選擇的輸出格式，並且
-您也可以將在AEM DAM中管理的資產的中繼資料傳遞至DITA-OT程式，以便在產生的輸出中使用它 — 請參閱有關[如何設定ditamap/主題以透過輸出預設集傳遞中繼資料的檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+您也可以將在AEM DAM中管理的資產的中繼資料傳遞至DITA-OT程式，以便在產生的輸出中使用它 — 請參閱有關[如何設定ditamap/主題以透過輸出預設集傳遞中繼資料的檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## 假設

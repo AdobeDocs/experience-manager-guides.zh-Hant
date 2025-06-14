@@ -40,9 +40,9 @@ ht-degree: 2%
 ## 相關資源
 
 
-- [AEM網站輸出發佈](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
+- [AEM網站輸出發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [KB輸出發佈](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [KB輸出發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
 - [AEM範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 

@@ -45,7 +45,7 @@ Adobe Experience Manager Guides可讓您針對系統中管理的內容，有效�
 - [在DITA資產中管理中繼資料](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
 - [將DITA中繼資料擷取為中繼資料](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
 - [在DITA-OT輸出中使用中繼資料](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
-- [使用原生PDF的中繼資料](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
+- [使用原生PDF的中繼資料](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
 ### 社群論壇

@@ -57,8 +57,8 @@ ht-degree: 1%
 
 ## 其他實用資源
 
-- [使用地圖儀表板(Assets UI)大量標籤](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- 網頁編輯器中的[Ditamap報告](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- [使用地圖儀表板(Assets UI)大量標籤](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=zh-Hant)
+- 網頁編輯器中的[Ditamap報告](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=zh-Hant)
 - 在AEM[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=zh-Hant)中標籤
 
 
