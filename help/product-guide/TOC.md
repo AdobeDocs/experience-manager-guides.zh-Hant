@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 5a458fb644e435e418bef1a7e5b79a0ed280a80b
+source-git-commit: 0cbeef94aa1c2300feae33ad3bc53bef82ebec47
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2139'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 8%
       - 雲端服務 {#cloud-release-notes}
          - [部署指示](./release-info/deploy-xml-on-aemaacs.md)
          - 2025版本 {#2025-releases}
+            - 2025.07.0版本 {#2507-release}
+               - [新增功能](./release-info/whats-new-2025-07-0.md)
+               - [已修正的問題](./release-info/fixed-issues-2025-07-0.md)
+               - [升級指示](./release-info/upgrade-instructions-2025-07-0.md)
             - 2025.06.0版本 {#2506-release}
                - [新增功能](./release-info/whats-new-2025-06-0.md)
                - [已修正的問題](./release-info/fixed-issues-2025-06-0.md)
@@ -136,8 +140,8 @@ ht-degree: 8%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -287,7 +291,7 @@ ht-degree: 8%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
@@ -458,6 +462,7 @@ ht-degree: 8%
       - 使用AEM Assets搜尋 {#aem-asset-search-cs}
          - [設定AEM Assets UI搜尋](./cs-install-guide/conf-dita-search.md)
       - [附錄](./cs-install-guide/appendix.md)
+
 - API 參考 {#api-reference}
    - [簡介](./api-reference/introduction.md)
    - [用於輸出管理的REST API](./api-reference/output-management.md)

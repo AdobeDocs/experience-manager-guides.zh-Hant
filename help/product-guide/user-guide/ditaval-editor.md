@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe Experience Manager Guides中的DIVATAL Edit
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL檔案用於產生條件輸出。 在單一主題中，您可以使用元素屬性來新增條件，以條件化內容。 然後，您會建立DITAVAL檔案，在其中指定應擷取以產生內容的條件，以及應從最終輸出中排除哪些條件。
 
-Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 DITAVAL編輯器會擷取您系統中定義的屬性\（或標籤\），您可以使用它們來建立或編輯DITAVAL檔案。 如需有關在Adobe Experience Manager中建立和管理標籤的詳細資訊，請檢視Adobe Experience Manager檔案中的[管理標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=zh-Hant)區段。
+Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 DITAVAL編輯器會擷取您系統中定義的屬性（可做為條件使用），您可以使用這些屬性來建立或編輯DITAVAL檔案。 如需有關在Adobe Experience Manager中建立和管理條件的詳細資訊，請檢視Adobe Experience Manager檔案中的[管理標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)區段。
 
 以下各節涵蓋Experience Manager Guides中DITAVAL檔案可用的選項。
 
@@ -30,7 +30,7 @@ Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編
 
 1. 在「存放庫」面板中，選取&#x200B;**新檔案**&#x200B;圖示，然後從下拉式功能表中選取&#x200B;**主題**。
 
-   ![](images/new-file-option.png){align="left"}
+   ![](images/new-file-option.png){width="300" align="left"}
 
    您也可以從[Experience Manager Guides首頁](./intro-home-page.md)以及存放庫檢視中資料夾的選項功能表存取此選項。
 
@@ -55,37 +55,109 @@ Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編
 
 當您建立DITAVAL主題時，它會在編輯器中開啟以進行編輯。 若要編輯現有的DITAVAL主題，請導覽至DITAVAL主題所在的資料夾或地圖，然後從&#x200B;**選項**&#x200B;功能表選取&#x200B;**編輯**。
 
-DITAVAL編輯器可讓您執行下列工作：
+DITAVAL編輯器可讓您使用編輯器工具列中的選項，執行下列多個工作。
 
-- 切換左側面板
+### 編輯器工具列選項
 
-  切換左側面板檢視。 如果您已透過DITA map開啟DITAVAL檔案，則地圖和存放庫會顯示在此面板中。 如需透過DITA map開啟檔案的詳細資訊，請檢視[透過DITA map編輯主題](map-editor-advanced-map-editor.md#id17ACJ0F0FHS)。
+#### 功能表下拉式清單
 
-- 儲存
+「選單」下拉式清單提供編輯動作、「尋找和取代」、「版本記錄」、「版本標籤」、「合併」、「建立稽核任務」、「追蹤變更」和「標籤」功能的存取權。
+如需詳細資訊，請檢視[功能表下拉式清單選項](./web-editor-toolbar.md#menu-dropdown)
 
-  儲存您在檔案中所做的變更。 所有變更都會儲存在檔案的目前版本中。
+#### 新增屬性
 
-- 新增屬性
+在您的DITAVAL檔案中新增單一屬性。
 
-  在您的DITAVAL檔案中新增單一屬性。
+![](images/ditaval-editor-props-new.png){width="650" align="left"}
 
-  ![](images/ditaval-editor-props-new.png)
+第一個下拉式清單列出可在DITAVAL檔案中使用的允許DITA屬性。
 
-  第一個下拉式清單列出可在DITAVAL檔案中使用的允許DITA屬性。 有五個支援的屬性 — `audience`、`platform`、`product`、`props`和`otherprops`。
+第二個下拉式清單會顯示為選取的屬性設定的值。 然後，下一個下拉式清單會顯示您可在選取的屬性上設定的動作。 動作下拉式清單中允許的值為 — `include`、`exclude`、`passthrough`和`flag`。 如需這些值的詳細資訊，請檢視OASIS DITA檔案中[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)元素的定義。 如需屬性中新增之屬性的動作詳細資訊，請檢視屬性[的](#actions-for-property)動作。
 
-  第二個下拉式清單會顯示為選取的屬性設定的值。 然後，下一個下拉式清單會顯示您可在選取的屬性上設定的動作。 動作下拉式清單中允許的值為 — `include`、`exclude`、`passthrough`和`flag`。 如需這些值的詳細資訊，請檢視OASIS DITA檔案中[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)元素的定義
+#### 新增收入屬性
 
-- 新增所有屬性
+若要將特定修訂版本編號新增至XML格式的標籤，您可以使用「新增修訂版本prop」選項。 這會將rev屬性新增至標籤，其值在「值」欄位中定義，同時為該屬性選取動作。 此修訂屬性稍後可用於在產生輸出時根據指定的修訂版本編號來篩選相關的XML內容。
 
-  如果您要按一下即可新增系統中定義的所有條件屬性或屬性，請使用「新增所有屬性」功能。
+![](images/ditaval-rev-props.png){width="650" align="left"}
 
-  >[!NOTE]
-  >
-  > 如果DITAVAL檔案中已存在所有已定義的條件屬性，則無法新增更多屬性。 在此案例中，您會收到一則錯誤訊息。
+#### 新增所有Prop
 
-  ![](images/ditaval-all-props-new.png)
+如果您要按一下即可新增系統中定義的所有條件屬性或屬性，請使用「新增所有屬性」功能。 動作下拉式清單中允許的值為 — `include`、`exclude`、`passthrough`和`flag`。 這些動作的詳細資訊如下所述。
 
-完成編輯DITAVAL檔案後，請選取&#x200B;**儲存**。
+>[!NOTE]
+>
+> 如果DITAVAL檔案中已存在所有已定義的條件屬性，則無法新增更多屬性。 在此案例中，您會收到一則錯誤訊息。
+
+
+![](images/ditaval-all-props-new.png){width="650" align="left"}
+
+
+
+##### 屬性的動作
+
+特定屬性主要有四個動作可供使用，如下所示：
+
+**包含：**&#x200B;包含輸出中的內容。 除非另有設定，否則此為預設行為。
+
+**排除：**&#x200B;從輸出中排除內容（如果特定屬性中的所有值都已排除）。
+
+**通過：**&#x200B;將內容包含在輸出中，並保留屬性值作為輸出資料流的一部分，以供執行階段引擎進一步處理，例如根據個別使用者設定的執行階段篩選。
+
+**新增標幟：**&#x200B;若要在輸出中標幟內容，您可以將標幟設定為檔案中所需屬性的動作。 您也可以使用&#x200B;**旗標樣式**&#x200B;下拉式清單套用不同的旗標樣式，如下面的程式碼片段所示。
+
+
+![](images/ditaval-flag-style.png){width="650" align="left"}
+
+
+- **背景色彩**：從背景色彩中選取色相、飽和度、對比。 對應的十六進位值將會根據您的選擇自動更新。 您也可以使用下拉式選單來切換色域格式，以便在HEX、RGB和HSB之間選擇。
+
+
+![](images/ditaval-background-color.png){width="650" align="left"}
+
+
+
+- **文字色彩**：從文字色彩中選取色相、飽和度、對比。 對應的十六進位值將會根據您的選擇自動更新。 您也可以使用下拉式選單來切換色域格式，以便在HEX、RGB和HSB之間選擇。
+
+
+![](images/ditaval-text-color.png){width="650" align="left"}
+
+
+
+- **樣式選項**：您可以新增一些樣式選項，例如粗體、斜體、底線、上線、雙底線。
+
+
+![](images/ditaval-styling-option.png){width="650" align="left"}
+
+
+
+- **開始和結束旗標**：您可以使用&#x200B;**新增旗標**&#x200B;按鈕，將影像插入為開始和結束旗標。 若要選擇影像，請使用&#x200B;**瀏覽Assets**&#x200B;從「指南」存放庫中選擇，或使用&#x200B;**新增檔案**&#x200B;從您的本機系統上傳。 此外，您也可以為影像指定替代文字。
+
+
+![](images/ditaval-start-end-flags.png){width="650" align="left"}
+
+
+
+- **樣式衝突**：它解決當單一元素包含具有不同Flag樣式的多個屬性時發生的衝突。 在這種情況下，會選取樣式衝突屬性中定義的值，以有效地做為背景和文字顏色的預設值選擇器。
+
+
+![](images/ditaval-style-conflict.png){width="650" align="left"}
+
+
+#### 版本資訊和另存為新版本
+
+版本資訊和另存為新版本功能將版本追蹤和內容儲存結合為單一功能。
+如需詳細資訊，請檢視[另存為新版本](./web-editor-toolbar.md#version-information-and-save-as-new-version)
+
+
+#### 鎖定/解鎖
+
+鎖定或解除鎖定目前的檔案。 鎖定檔案可讓您以獨佔方式寫入檔案。
+如需詳細資訊，請檢視[鎖定解除鎖定檔案](./web-editor-toolbar.md#lockunlock)
+
+
+### 儲存內容
+
+完成編輯DITAVAL檔案後，在索引標籤列上選取&#x200B;**儲存**。
 
 >[!NOTE]
 >
