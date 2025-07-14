@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 0cbeef94aa1c2300feae33ad3bc53bef82ebec47
+source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2277'
 ht-degree: 8%
 
 ---
@@ -140,8 +140,8 @@ ht-degree: 8%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -282,6 +282,47 @@ ht-degree: 8%
       - [AI助理撰寫以聰明地撰寫檔案](./user-guide/ai-assistant-right-panel.md)
       - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [常見問題](./user-guide/ai-assistant-faq.md)
+   - 管理學習內容 {#learning-training-content}
+      - 快速入門手冊 {#get-started}
+         - 簡介 {#intro-lc}
+            - [學習與訓練內容概觀](./learning-content/intro.md)
+            - [存取學習與訓練內容介面](./learning-content/access-lc-interface.md)
+         - 設定您的課程 {#setup-course}
+            - [課程總覽](./learning-content/course-overview.md)
+            - [建立您的第一個課程](./learning-content/create-first-course.md)
+            - [瞭解課程經理基本知識](./learning-content/course-manager-basics.md)
+            - [管理您的課程](./learning-content/manage-course.md)
+         - 建立及自訂學習內容 {#customize-lc}
+            - [學習內容概觀](./learning-content/lc-overview.md)
+            - [建立學習內容](./learning-content/create-content.md)
+            - [編輯學習內容](./learning-content/edit-content.md)
+            - [新增基本建置區塊](./learning-content/lc-basic-blocks.md)
+            - [使用互動式Widget](./learning-content/lc-widgets.md)
+            - [使用內嵌樣式](./learning-content/lc-inline-styles.md)
+         - 建立及管理測驗 {#quiz}
+            - [測驗概觀](./learning-content/quiz-overview.md)
+            - [建立測驗](./learning-content/create-quiz.md)
+            - [編輯測驗](./learning-content/edit-quiz.md)
+            - [在測驗中插入問題](./learning-content/quiz-insert-questions.md)
+            - 問題庫 {#question-bank}
+               - [建立問題庫](./learning-content/create-qb.md)
+               - [插入來自問題庫的問題](./learning-content/insert-questions.md)
+            - [測驗屬性](./learning-content/quiz-properties.md)
+         - 發佈您的課程 {#publish-course}
+            - [關於課程發佈](./learning-content/publish-overview.md)
+            - [支援的預設集](./learning-content/course-presets.md)
+            - 以SCORM格式發佈課程 {#scorm-output}
+               - [建立SCORM輸出預設集](./learning-content/create-scorm-preset.md)
+               - [設定SCORM輸出預設集](./learning-content/config-scorm-preset.md)
+               - [產生SCORM輸出](./learning-content/generate-scorm-output.md)
+            - 以PDF格式發佈課程 {#pdf-output}
+               - [建立PDF輸出預設集](./learning-content/create-course-pdf-preset.md)
+               - [設定PDF輸出預設集](./learning-content/config-course-pdf-preset.md)
+               - [產生 PDF](./learning-content/generate-course-pdf.md)
+      - 設定指南 {#config-lc}
+         - [關於本指南](./lc-config-guide/introduction.md)
+         - [設定資料夾設定檔](./lc-config-guide/lc-folder-profile.md)
+         - [設定其他設定](./lc-config-guide/lc-other-settings.md)
    - 附錄 {#appendix}
       - 管理內容 {#manage-content}
          - [重要概念、角色和許可權及必要條件](./user-guide/authoring.md)
@@ -291,7 +332,7 @@ ht-degree: 8%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
@@ -462,7 +503,6 @@ ht-degree: 8%
       - 使用AEM Assets搜尋 {#aem-asset-search-cs}
          - [設定AEM Assets UI搜尋](./cs-install-guide/conf-dita-search.md)
       - [附錄](./cs-install-guide/appendix.md)
-
 - API 參考 {#api-reference}
    - [簡介](./api-reference/introduction.md)
    - [用於輸出管理的REST API](./api-reference/output-management.md)
