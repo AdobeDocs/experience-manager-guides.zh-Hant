@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+source-git-commit: cc57af80f2556a9be9a7cc610ae0efa50e0e086b
 workflow-type: tm+mt
-source-wordcount: '2277'
+source-wordcount: '2283'
 ht-degree: 8%
 
 ---
@@ -140,8 +140,8 @@ ht-degree: 8%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -323,6 +323,9 @@ ht-degree: 8%
          - [關於本指南](./lc-config-guide/introduction.md)
          - [設定資料夾設定檔](./lc-config-guide/lc-folder-profile.md)
          - [設定其他設定](./lc-config-guide/lc-other-settings.md)
+      - 教學影片 {#lc-video}
+         - [作者工作流程](./lc-video-tutorials/author-workflow.md)
+         - [管理員工作流程](./lc-video-tutorials/admin-workflow.md)
    - 附錄 {#appendix}
       - 管理內容 {#manage-content}
          - [重要概念、角色和許可權及必要條件](./user-guide/authoring.md)
@@ -332,7 +335,7 @@ ht-degree: 8%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)

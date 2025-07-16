@@ -3,7 +3,8 @@ title: 建立學習內容
 description: 說明如何在學習與訓練內容中建立學習內容。
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: a08a165d-801b-4b35-9626-b27471349327
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -19,7 +20,7 @@ ht-degree: 2%
    ![](assets/workflow-learning-content.png){width="650" align="left"}
 
 1. 選取&#x200B;**學習內容**。
-新學習內容對話方塊隨即顯示。
+顯示**新學習內容**&#x200B;對話方塊。
 
    ![](assets/learning-content-dialog.png){width="350" align="left"}
 
@@ -35,4 +36,3 @@ ht-degree: 2%
 >[!NOTE]
 >
 > 建立新學習內容後，系統會自動指派版本1.0。
-

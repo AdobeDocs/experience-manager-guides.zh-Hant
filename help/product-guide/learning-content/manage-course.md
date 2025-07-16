@@ -3,7 +3,8 @@ title: 管理學習與訓練內容中的課程
 description: 瞭解Experience Manager Guides提供的各種功能，這些功能可讓您有效率地管理您的課程。
 feature: Authoring
 role: User
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -26,7 +27,7 @@ ht-degree: 0%
    - **學習摘要**：課程章節結尾的快速檢閱，提醒學習者他們剛學習的關鍵點。
    - **測驗**：一組用於檢查某個人是否瞭解他們所學知識的問題。 如需詳細資訊，請檢視[建立和管理測驗](./create-quiz.md)。
    - **問題庫**：可重複使用問題的共用集區，可用來快速且一致地建立測驗。 如需詳細資訊，請檢視[問題庫](./create-qb.md)。
-   - **學習群組**：學習群組可協助將相關學習內容（例如章節、主題和其他模組）組織成邏輯順序，以建立清晰的階層，讓管理和重複使用訓練資料更容易。
+   - **學習群組**：學習群組可協助將相關學習內容（例如章節、主題和其他模組）組織成邏輯順序，以建立清晰的階層，讓您更輕鬆地管理和重複使用訓練教材。
 3. 選取&#x200B;**建立**。
 所選內容隨即建立並新增至課程。
 
@@ -36,24 +37,24 @@ ht-degree: 0%
 
 1. 選取&#x200B;**選項**&#x200B;功能表> **新增現有**。
 2. 選取您要建立的課程內容型別。
-3. 在「選取路徑」對話方塊中，導覽至內容位置並選取所需的學習內容。
+3. 在&#x200B;**選取路徑**&#x200B;對話方塊中，導覽至內容位置並選取想要的學習內容。
 
    ![](assets/add-existing-learning-content.png)
 4. 選擇&#x200B;**選取**。
 
-選取的學習內容會從存放庫新增至課程。
+選取的課程內容會從存放庫新增至課程。
 
 ## 移除內容
 
 您可以選取特定主題的&#x200B;**選項**&#x200B;功能表，然後選取&#x200B;**移除**，移除課程中的任何主題，如下所示。
 
-![](assets/remove-learning-content.png){width="350" align="left"}
+![](assets/remove-learning-content.png)
 
 ## 建立課程版本
 
 您可以選取&#x200B;**選項**&#x200B;功能表> **版本設定**&#x200B;來控制課程的版本設定。
 
-![](assets/course-versioning.png){width="650" align="left"}
+![](assets/course-versioning.png)
 
 您會取得下列課程版本設定選項：
 
@@ -70,7 +71,3 @@ ht-degree: 0%
 > 這些檢視設定只會套用在「課程管理員」中，不會影響已發佈的輸出。
 
 ![](assets/course-display-settings.png)
-
-
-
-
