@@ -20,7 +20,7 @@ ht-degree: 2%
    ![](assets/workflow-learning-content.png){width="650" align="left"}
 
 1. 選取&#x200B;**學習內容**。
-顯示**新學習內容**&#x200B;對話方塊。
+顯示&#x200B;**新學習內容**&#x200B;對話方塊。
 
    ![](assets/learning-content-dialog.png){width="350" align="left"}
 
