@@ -1,9 +1,10 @@
 ---
 title: 發行說明 | 已修正2025.07.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2025.07.0版中的錯誤修正。
-source-git-commit: bf8b295444a1e21fc19bfbc04efaa20fe78f71bb
+exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
+source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '527'
 ht-degree: 4%
 
 ---
@@ -50,6 +51,6 @@ ht-degree: 4%
 Adobe已找出下列2025.07.0版的已知問題：
 
 - 使用Markdown主題時，編輯器工具列中會顯示&#x200B;**主題參考**&#x200B;按鈕，但無法運作。 (GUIDES-31038)
-- 使用Adobe Experience Manager案頭應用程式上傳具有大寫名稱的資料夾時，不會保留大小寫，且名稱會在編輯器中以小寫顯示。 (GUIDES-30909)
+- 在編輯器中，資料夾節點名稱無法正確取代資料夾標題。 (GUIDES-30909)
 - 在&#x200B;**合併**&#x200B;對話方塊中，下拉式清單錯誤地顯示&#x200B;**主要內容**，而不是顯示所選主題的可用版本。 (GUIDES-30820)
 - 在啟用Unified Shell的情況下開啟DITA Map時，編輯器會間歇性地重新整理。(GUIDES-26919)
