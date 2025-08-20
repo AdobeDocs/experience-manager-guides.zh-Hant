@@ -4,9 +4,9 @@ description: 使用複合元件對應和舊版元件對應，在「對應」主�
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 8f2658bd3a724ff375d6d1a9b4474a5cdd8ce270
+source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
 workflow-type: tm+mt
-source-wordcount: '3534'
+source-wordcount: '3592'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 | AEM Sites選項 | 說明 |
 | --- | --- |
 | 使用網站路徑 | 使用此選項將您的內容發佈至Experience Manager網站。 |
-| 網站路徑 | **如果您選取**&#x200B;使用網站路徑&#x200B;**選項**，就會出現此選項。 瀏覽預先定義的Experience Manager網站路徑，或指定您要發佈輸出的自訂路徑。 **使用Sites選項**&#x200B;可讓您指定整個發佈路徑，即使指定的路徑尚未在AEM Sites結構中預先建立。 在這種情況下，系統會在發佈程式期間使用選取的對應首頁範本建立必要的結構。 |
+| 網站路徑 | **如果您選取**&#x200B;使用網站路徑&#x200B;**選項**，就會出現此選項。 瀏覽預先定義的Experience Manager網站路徑，或指定您要發佈輸出的自訂路徑。 **使用Sites選項**&#x200B;可讓您指定整個發佈路徑，即使指定的路徑尚未在AEM Sites結構中預先建立。 在這種情況下，系統會在發佈程式期間使用選取的對應首頁範本建立必要的結構。<br><br>您也可以在設定網站路徑時使用變數。 如需詳細資訊，請檢視[使用變數來設定目的地路徑、網站名稱或檔案名稱選項](./generate-output-use-variables.md) |
 | 對應頁面範本 | **如果您選取**&#x200B;使用網站路徑&#x200B;**選項**，就會出現此選項。 選取您要套用至地圖首頁的範本。 |
 | 網站 | 您要發佈內容的Experience Manager Sites名稱。 下拉式清單中的選項會根據AEM Sites中可用的網站清單填入。 <br>選取&#x200B;**重新整理** ![重新整理圖示](images/navtitle-refresh-icon.svg)以擷取新的選項清單，並反映更新的資料。 |
 | 發佈路徑 | AEM存放庫內儲存輸出的路徑。 「發佈路徑」會填入包含根據首頁範本建立之頁面的所有路徑。 DITA map的AEM Sites輸出會在此路徑下產生。  例如，如果您將網站指定為`AEMG-Docs`，並將發佈路徑指定為`aemg-docs-en/docs/product-abc.`，則會在`aemg-docs-en/docs/product-abc/`中的`crx/de`節點下產生AEM Sites輸出。 |
@@ -161,8 +161,8 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 | AEM Sites選項 | 說明 |
 | --- | --- |
-| 網站名稱 | 儲存輸出至AEM存放庫的網站名稱。<br><br>AEM存放庫中的節點是以此處指定的名稱建立的。 如果您未指定「場地名稱」，則會以DITA map檔案名稱建立場地節點。<br><br>您在此指定的網站名稱也會當作瀏覽器標籤中的標題。<br><br>您也可以在設定網站名稱時使用變數。 |
-| 輸出路徑 | AEM存放庫內儲存輸出的路徑。 產生最終輸出時，會組合場地名稱和輸出路徑。 例如，如果您將網站名稱指定為`user-guide`，並將輸出路徑指定為`/content/output/aem-guides`，則最終輸出會在`/content/output/aem-guides/user-guide`節點下產生。<br><br>您也可以在設定輸出路徑時使用變數。 |
+| 網站名稱 | 儲存輸出至AEM存放庫的網站名稱。<br><br>AEM存放庫中的節點是以此處指定的名稱建立的。 如果您未指定「場地名稱」，則會以DITA map檔案名稱建立場地節點。<br><br>您在此指定的網站名稱也會當作瀏覽器標籤中的標題。<br><br>您也可以在設定網站名稱時使用變數。 如需詳細資訊，請檢視[使用變數來設定目的地路徑、網站名稱或檔案名稱選項](./generate-output-use-variables.md) |
+| 輸出路徑 | AEM存放庫內儲存輸出的路徑。 產生最終輸出時，會組合場地名稱和輸出路徑。 例如，如果您將網站名稱指定為`user-guide`，並將輸出路徑指定為`/content/output/aem-guides`，則最終輸出會在`/content/output/aem-guides/user-guide`節點下產生。<br><br>您也可以在設定輸出路徑時使用變數。 如需詳細資訊，請檢視[使用變數來設定目的地路徑、網站名稱或檔案名稱選項](./generate-output-use-variables.md) |
 | 現有的輸出頁面 | 選取&#x200B;**覆寫內容**&#x200B;選項，以覆寫現有頁面中的內容。 此選項只會覆寫存在於頁面內容和標題節點下方的內容。 此選項可啟用混合式發佈內容。 選取此選項可提供一個選項，讓您選取從已發佈輸出中刪除孤立頁面。 這也是建立AEM Sites輸出的&#x200B;*預設*&#x200B;選項。<br><br>選取&#x200B;**刪除並建立**&#x200B;選項，以在發佈期間強制刪除任何現有頁面。 此選項會刪除頁面節點，及其內容和其下的所有子頁面。 如果您已變更輸出預設集的設計範本，或想要移除目的地中已存在的任何額外頁面，請使用此選項。 |
 | 為從地圖中移除的主題刪除先前產生的頁面 | 如果DTIA對映的結構變更，您可以使用此選項來移除先前為已移除主題產生的頁面。 此功能僅適用於完整地圖發佈。<br><br>假設您已發佈DITA map，其中包含主題a.dita、b.dita和c.dita。 再次發佈對應之前，您已從對應移除b.dita主題。 現在，如果您已選取此選項，則會從AEM Sites輸出中移除與b.dita相關的所有內容，並且僅發佈a.dita和c.dita。<br><br>**注意**：有關已刪除頁面的資訊也會擷取到輸出產生記錄檔中。 如需有關存取記錄檔的詳細資訊，請[檢視並檢查記錄檔](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS)。 <br><br>**警告**：刪除主題時，已發佈網站的頁面會變成無法使用。 因此，在刪除主題之前，會顯示警告。 您必須確認以刪除它們。 |
 | 設計 | 選取您要用來產生輸出的設計範本。<br><br>如需有關如何使用自訂設計範本產生輸出的詳細資訊，請連絡您的發佈系統管理員。 |
@@ -216,7 +216,7 @@ Experience Manager Guides可讓您使用`peer @scope`建立主題參考。 然�
 
    ![交叉對應參考](images/aem-sites-preset-cross-map-references.png)
 
-1. 如果要使用地圖中每個相依檔案最近發佈的輸出，請選取&#x200B;**對所有相依主題使用最近產生的**&#x200B;發佈內容。
+1. 如果要使用地圖中每個相依檔案最近發佈的輸出，請選取&#x200B;**對所有相依主題使用最近產生的**發佈內容。
 在發佈包含連結主題的地圖之前，您應該發佈選取為父對映的地圖。 如果含有已連結主題的地圖未發佈，則連結會在AEM Sites輸出中顯示為普通文字，而非超連結。
 您應該為連結的主題選取相同型別的AEM Sites預設集。 例如，如果目前的AEM Sites預設集使用舊版元件對應，則選取連結主題的類似AEM Sites預設集。
 1. 在「父對映」下拉式清單中，選取要與其輸出連結目前對映輸出的對映檔案。

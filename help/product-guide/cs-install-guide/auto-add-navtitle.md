@@ -5,10 +5,10 @@ exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a3c7973868549c72e868c05a3fc6ca8bdce9bce3
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -41,12 +41,13 @@ ht-degree: 1%
                            },
    ```
 
-1. 將`required`引數變更為：
+1. 變更`required`引數，如下所示：
 
    ```
    "required": {"navtitle": true}
    ```
 
+   設定為`true`時，會啟用&#x200B;**重新整理導覽標題屬性**&#x200B;按鈕，使其顯示在編輯器工具列中。 當設定為`false`或保持空白時，按鈕在編輯器中保持隱藏。
 1. 儲存檔案。
 
 1. 將檔案上傳至對應的設定檔\（全域或資料夾\）。
@@ -54,4 +55,6 @@ ht-degree: 1%
 
 透過此設定，您新增至對應的每個參考檔案依預設將包含`@navtitle`屬性。
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+
+
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

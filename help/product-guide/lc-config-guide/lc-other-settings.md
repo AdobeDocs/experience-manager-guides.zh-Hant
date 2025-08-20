@@ -4,9 +4,10 @@ description: 瞭解如何為Experience Manager Guides中的不同部門設定資
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,18 +16,6 @@ ht-degree: 0%
 
 身為管理員，您也可以為學習課程作者與發佈者設定下列設定：
 
-- **資料夾設定**
-   - **建立不同的資料夾**：您可以為企業中不同部門或產品中工作的作者與發行者建立資料夾。 這些資料夾可以對應至特定的資料夾設定檔，每個設定檔都設定有不同的編寫和輸出範本，以支援部門特定的學習課程建立和分散式管理。
-
-     您可以從「存放庫」面板中建立新資料夾。
-
-     ![](assets/create-new-folder.png){width="350" align="left"}
-   - **建立語言資料夾**：如果您將內容翻譯成不同的語言，則必須建立與每種語言對應的資料夾。 每個語言資料夾都會包含對應於該語言的內容。
-
-     如需詳細資訊，請檢視[內容翻譯的最佳實務](../user-guide/translation-first-time.md)。
-   - **Assets管理**：與資料夾類似，您也可以建立不同的Assets資料夾，以符合不同部門的需求。 如此一來，您也能確保作者和發佈者有權存取範本、影像和其他資產中設定的正確CSS。
-
-     ![](assets/configure-assets-folder.png){width="350" align="left"}
 - **程式碼片段**：您可以在資料夾層級設定程式碼片段，以確保作者能夠存取正確的程式碼片段。 只有管理員可以在Experience Manager Guides中建立程式碼片段，然後作者可在編輯器中使用這些程式碼片段。
 
   您可以從編輯器的左側面板存取程式碼片段。

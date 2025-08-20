@@ -5,9 +5,9 @@ exl-id: a5742082-cc0b-49d9-9921-d0da1b272ea5
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 026d75e69ef002607ac375cf1af7d055fcc22b38
+source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1762'
 ht-degree: 2%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 2%
 
 如需AEM工作流程的詳細資訊，請參閱：
 
-- [管理工作流程執行個體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=zh-Hant)
+- [管理工作流程執行個體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)
 
-- 套用及參與工作流程： [使用專案工作流程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=zh-Hant)。
+- 套用及參與工作流程： [使用專案工作流程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html)。
 
 
 本主題中的各節將逐步引導您瞭解在AEM Guides中提供的預設工作流程中可以進行的各種自訂。
 
 ## 自訂稽核工作流程 {#id176NE0C00HS}
 
-每個組織的內容製作團隊都會以特定方式運作，以符合其業務需求。 某些組織設有專屬的編輯者，而其他組織則可設有自動編輯稽核系統。 例如，在組織中，典型的撰寫和發佈工作流程可能包括這樣的任務 — 每當作者完成編寫內容時，它會自動轉給稽核者，當稽核完成時，它就會轉給發佈者用於產生最終輸出。 在AEM中，您對內容和資產執行的活動可以程式形式合併，並對應至AEM工作流程。 如需AEM工作流程的詳細資訊，請參閱AEM檔案中的[管理工作流程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=zh-Hant)。
+每個組織的內容製作團隊都會以特定方式運作，以符合其業務需求。 某些組織設有專屬的編輯者，而其他組織則可設有自動編輯稽核系統。 例如，在組織中，典型的撰寫和發佈工作流程可能包括這樣的任務 — 每當作者完成編寫內容時，它會自動轉給稽核者，當稽核完成時，它就會轉給發佈者用於產生最終輸出。 在AEM中，您對內容和資產執行的活動可以程式形式合併，並對應至AEM工作流程。 如需AEM工作流程的詳細資訊，請參閱AEM檔案中的[管理工作流程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)。
 
 AEM Guides可讓您自訂預設的稽核工作流程。 您可以搭配其他撰寫或發佈工作流程，使用下列四個自訂檢閱相關流程。
 
@@ -60,9 +60,10 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
-地圖的&#x200B;**&#x200B;**
+地圖的&#x200B;****
 
 ```javascript
 var workflowdata = workItem.getWorkflowData();
@@ -86,6 +87,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 您可以在`/etc/workflows/scripts`節點中建立這些指令碼。 下表說明上述兩個ECMA指令碼所指派的屬性。
@@ -104,12 +106,13 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 | `startTime` | 長 | 使用`System.currentTimeMillis()`函式取得目前系統時間。 |
 | `projectPath` | 字串 | 將指派稽核任務的稽核專案路徑，例如： /content/projects/samplereviewproject。 |
 | `reviewType` | 字串 | 靜態值「AEM」。 |
-| `versionJson` | JSON 物件 | versionJson是正在稽核的主題清單，其中每個主題物件都有以下結構{ &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } |
+| `versionJson` | JSON 物件 | versionJson是正在稽核的主題清單，其中每個主題物件都有以下結構[ { &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | 布林值 | false/true |
-| `ditamapHierarchy` | JSON 物件 | 若已傳送地圖以供檢閱，則值應如下：[ &lbrace; &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： 「」，「items」： [] } ] ]。 |
+| `ditamapHierarchy` | JSON 物件 | 若已傳送地圖以供檢閱，則值應如下：[ { &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： 「」，「items」： [] } ] ]。 |
 | `ditamap` | 字串 | 指定稽核任務的ditamap路徑 |
 | `allowAllReviewers` | 布林值 | false/true |
 | `notifyViaEmail` | 布林值 | false/true |
+| `reviewVersion` | 字串 | 指定稽核工作流程的目前版本。 預設值設為`3.0` 。<br>若要啟用[作者](../user-guide/review-close-review-task.md)和[檢閱者](../user-guide/review-complete-review-tasks.md)的新檢閱工作流程功能，請確定`reviewVersion`已設為`3.0`。 |
 
 
 建立指令碼後，請先呼叫它，然後再在工作流程中呼叫建立檢閱程式。 然後，根據您的需求，您可以呼叫其他稽核工作流程處理。
@@ -122,32 +125,65 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 
 在&#x200B;**Adobe Granite工作流程清除設定**&#x200B;中，請確定您至少列出一個可以安全清除的工作流程。 例如，您可以使用AEM Guides建立的下列任何工作流程：
 
-- /etc/workflow/models/publishditamap/jcr：content/model
-- /etc/workflow/models/post-dita-project-creation-tasks/ jcr：content/model
+- /etc/workflow/models/publishditamap/jcr:content/model
+- /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
 在&#x200B;**Adobe Granite工作流程清除組態**&#x200B;中新增工作流程，可確保AEM僅清除組態中列出的工作流程。 這可防止AEM清除稽核工作流程資訊。
 
 如需有關設定&#x200B;**Adobe Granite工作流程清除設定**&#x200B;的詳細資訊，請參閱AEM檔案中的&#x200B;*管理工作流程執行個體*。
 
-### 自訂電子郵件範本
+### 自訂電子郵件和AEM通知
 
-許多AEM Guides工作流程會使用電子郵件通知。 例如，如果您啟動稽核任務，則會傳送電子郵件通知給稽核者。 不過，若要確保電子郵件通知已傳送，您必須在AEM中啟用此功能。 若要在AEM中啟用電子郵件通知，請參閱AEM檔案中的文章[傳送電子郵件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=zh-Hant#sending-email)。
+許多AEM Guides工作流程會使用電子郵件通知。 例如，如果您啟動稽核任務，則會傳送電子郵件通知給稽核者。 不過，若要確保電子郵件通知已傳送，您必須在AEM中啟用此功能。 若要在AEM中啟用電子郵件通知，請參閱AEM檔案中的文章[傳送電子郵件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email)。
 
-AEM Guides包含一組您可自訂的電子郵件範本。 執行以下步驟來自訂這些範本：
+AEM Guides包含一組您在稽核工作流程中使用的電子郵件和AEM通知，您可加以自訂。 執行以下步驟來自訂這些通知：
 
-1. 使用封裝管理員下載`/libs/fmdita/mail`檔案。
+1. 使用封裝管理員下載`/libs/fmdita/mail/review`資料夾。
 
    >[!NOTE]
    >
-   > 請勿在``libs``節點中使用預設組態檔中的任何自訂專案。 您必須在``apps``節點中建立``libs``節點的覆蓋，並僅更新``apps``節點中的必要檔案。
+   > 請勿在``libs``節點中使用預設組態檔中的任何自訂專案。 您必須在``libs``節點中建立``apps``節點的覆蓋，並僅更新``apps``節點中的必要檔案。
 
-1. 郵件資料夾包含下列可自訂的範本：
+1. `review`資料夾包含以下子資料夾：
 
-   | 範本檔案名稱 | 說明 |
+   - `aem-notification`
+   - `CSS`
+   - `email-notification`
+
+   這些子資料夾的詳細說明如下：
+
+   | 檢閱子資料夾 | 說明 |
    |-----------------|-----------|
-   | closereview.html | 此電子郵件範本在稽核任務關閉時使用。 |
-   | createreview.html | 建立新稽核任務時會使用此電子郵件範本。 |
-   | reviewapproval.css | 此CSS檔案包含電子郵件範本的樣式。 |
+   | `aem-notification` | 包含可供自訂的不同AEM通知型別。<br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br>在這些子資料夾中，`primary.vm`和`secondary.vm`個檔案皆已找到，可讓您分別自訂AEM通知標題和說明。 |
+   | `CSS` | 包含用於自訂電子郵件通知樣式的`email-notification.css`檔案。 |
+   | `email-notification` | 包含可供自訂的不同電子郵件通知型別。<br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br>在這些子資料夾中，`primary.vm`和`secondary.vm`檔案皆已找到，可讓您分別自訂電子郵件通知主旨和內文。 |
+
+每種通知型別的定義概述如下：
+
+- `closed`：評論任務關閉時觸發此事件。
+- `content-updated`：當作者或啟動器更新內容時觸發。
+- `feedback-addressed`：當作者或發起者處理註解並要求稽核者重新稽核時觸發。
+- `feedback-provided`當檢閱者藉由向檢閱任務的作者或發起者提供任務層級的註解將任務標籤為完成時觸發。
+- `requested`：當作者或發起者建立稽核任務時觸發。
+- `reviewer-removed`：從稽核任務中取消指派稽核者時觸發此事件。
+- `tag-mention`：當使用者在評論中被提及或標籤時觸發。
+
+自訂電子郵件或AEM通知時，請確定您僅使用下列在`primary.vm`和`secondary.vm`檔案中使用的預先定義變數集。
+
+
+| **變數名稱** | **說明** | **資料型別** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath` | 包含稽核任務的專案路徑 | 字串 |
+| `reviewTitle` | 評論任務的標題 | 字串 |
+| `projectName` | 專案名稱 | 字串 |
+| `commentator` | 新增評論的使用者名稱 | 字串 |
+| `commentExcerpt` | 已新增的評論片段 | 字串 |
+| `taskLink` | 評論任務的直接連結 | URL |
+| `authorName` | 建立或更新評論任務的作者名稱 | 字串 |
+| `dueDate` | 評論任務的到期日 | 日期 |
+| `reviewerName` | 指派給任務的檢閱者名稱 | 字串 |
+| `user` | 與稽核任務有關的使用者，例如「作者」、「稽核者」或甚至管理員。 | 字串 |
+| `recipient` | 接收通知的特定使用者 | 字串 |
 
 
 ## 自訂輸出後產生工作流程 {#id17A6GI004Y4}

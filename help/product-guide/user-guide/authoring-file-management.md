@@ -4,9 +4,9 @@ description: 瞭解如何在AEM Guides中管理檔案和資料夾。 複製並�
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 0%
 - *如果目的地資料夾中不存在相同名稱的檔案*：已建立檔案的新復本，且已在新位置為其指派新的UUID。 在這裡，檔案名稱與UUID相同。
 - *如果目的地資料夾中已存在相同名稱的檔案*：已建立檔案的新復本，且已指派新的UUID。 檔案名稱與UUID相同。
 
-
 ## 複製並貼上資料夾
 
 **在同一位置複製並貼上資料夾**
@@ -43,6 +42,16 @@ ht-degree: 0%
 - *資料夾中有可讀取檔案名稱的檔案*：已建立資料夾的新復本，且已將新的UUID指派給新位置資料夾中的所有檔案。 在此，資料夾或檔案名稱沒有變更。
 
 - *資料夾中有檔案名稱是以UUID模式為基礎*：資料夾的新復本是以與原始資料夾相同的名稱建立的。 新的UUID也會指派給新資料夾中的所有檔案。 檔案名稱也會變更；檔案名稱會與新的UUID相同。
+
+**成功訊息和通知**
+
+Assets UI中資料夾的複製 — 貼上作業會在背景以非同步方式執行，讓您可以在系統處理請求時繼續工作。 系統會顯示快顯訊息，指出已啟動流程。
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+作業完成後，系統會觸發成功或失敗通知，指出作業是成功還是失敗。
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## 拖放檔案
@@ -317,4 +326,4 @@ Experience Manager Guides隨附大量移動工具，可協助管理員將具有�
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**父級主題：**&#x200B;[&#x200B;管理內容](authoring.md)
+**父級主題：**[&#x200B;管理內容](authoring.md)

@@ -4,9 +4,9 @@ description: 從AEM Guides的「稽核儀表板」管理稽核任務。 瞭解�
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 0%
    隨即顯示具有任務圖磚的「專案」面板。
 
    ![](images/review-management.png){align="left"}
+
+   >[!NOTE]
+   >
+   > 或者，您也可以從編輯器的左側面板直接存取專案控制面板。 開啟[檢閱面板](./web-editor-left-panel.md#review)並使用針對檢閱面板中列出的每個檢閱專案放置的&#x200B;**開啟專案儀表板**&#x200B;圖示。
 
 1. 選取&#x200B;**檢閱**&#x200B;方塊中的三個點。
 
@@ -126,4 +130,4 @@ ht-degree: 0%
 - 在所有主題上發表的評論總數。 若有多個正在檢閱的主題，則會對主題名稱提及\（在方括弧中\）每個主題的註解數。
 - 檢閱者上次存取任何主題的日期。
 
-**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)
+**父級主題：**[&#x200B;檢閱簡介](review.md)

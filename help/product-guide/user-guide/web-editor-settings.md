@@ -4,16 +4,16 @@ description: 瞭解Experience Manager Guides編輯器介面中可用的各種設
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 84cc3db0e14217a7ba92143cb63b94329d5c26e1
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
 
 # 編輯器設定
 
-編輯器[索引標籤列](./web-editor-tab-bar.md)中的&#x200B;**設定**&#x200B;選項僅供管理員和資料夾設定檔管理員使用，並允許設定下列設定：
+編輯器&#x200B;**索引標籤列**&#x200B;中的[設定](./web-editor-tab-bar.md)選項僅供管理員和資料夾設定檔管理員使用，並允許設定下列設定：
 
 - [一般](#general)
 - [面板](#panels)
@@ -21,7 +21,7 @@ ht-degree: 0%
 - [屬性清單](#attributes-list)
 - [顏色](#colors)
 - [發佈設定檔](#publish-profiles)
-- [驗證 ](#validation)
+- [驗證](#validation)
 - [顯示屬性](#display-attributes)
 - [翻譯](#translation)
 - [中繼資料](#metadata)
@@ -33,11 +33,34 @@ ht-degree: 0%
 
 ## 一般
 
-一般設定可讓您設定要與編輯器搭配使用的字典。 此索引標籤包含四個區段： **拼字檢查**、**條件**、**製作**&#x200B;以及&#x200B;**引文**。
+一般設定可讓您設定使用編輯器的設定。 此索引標籤包含五個區段：**AI小幫手**、**製作**、**引文**、**條件**&#x200B;以及&#x200B;**拼字檢查**。
 
-![](images/editor-setting-general.png){width="650" align="left"}
+![](images/editor-setting-general-new.png){width="350" align="left"}
 
-- **拼字檢查**：有兩個選項 — **AEM拼字檢查**&#x200B;和&#x200B;**瀏覽器拼字檢查**。 依預設，編輯器會使用瀏覽器拼字檢查功能，其中拼字檢查是使用瀏覽器的內建字典執行。 您可以切換至AEM拼字檢查，以使用Adobe Experience Manager的字典，也可以自訂字典以新增自訂字詞清單。 如需自訂AEM字典的詳細資訊，請檢視安裝與設定AEM as a Cloud Service中的[自訂Adobe Experience Manager Guides的預設字典](../cs-install-guide/customize-aem-custom-dictionary.md)區段。
+- **AI小幫手**
+選取此項以啟用Experience Manager Guides中的[AI小幫手](./ai-assistant.md)功能。 取消選取以停用該功能。
+
+  啟用&#x200B;**AI小幫手**&#x200B;切換功能後，您就可以使用&#x200B;**製作快速動作**&#x200B;功能表，為作者設定&#x200B;**製作標籤**&#x200B;下顯示的選項，如下所示。\
+  這些變更會套用至您使用的特定資料夾設定檔。 如果您建立新的資料夾設定檔，它將依預設繼承&#x200B;**全域**&#x200B;資料夾設定檔中定義的編輯器設定。 您可以視需要使用&#x200B;**編輯器設定**&#x200B;修改這些設定，並儲存更新的設定。\
+  如需使用AI助理撰寫之可用選項的詳細概觀，請檢視[使用AI助理聰明地撰寫檔案](./ai-assistant-right-panel.md)。
+
+  從&#x200B;**編寫快速動作**&#x200B;功能表，您可以：
+
+   - 使用切換可啟用或停用作者在使用AI助理時可存取的特定選項。
+
+   - 變更選項的顯示順序，視需要拖放選項。
+
+  ![](images/authoring-quick-actions.png){width="350" align="left"}
+
+
+
+- **編寫**
+
+   - **啟用「全部取代」**：選取此項以檢視「**尋找和取代**」面板中的「**全部取代**」圖示。
+
+- **引文**
+
+  變更引文樣式。 從您要在專案中使用的下拉式清單中選擇引文樣式。 如需詳細資訊，請檢視[變更引文樣式](./web-editor-apply-citations.md#change-citation-style)。
 
 - **狀況**
 
@@ -51,16 +74,8 @@ ht-degree: 0%
 
    - **在[條件]面板中顯示主旨配置**：選取此專案，在條件面板中檢視主旨配置。 如果取消選取此專案，定義的條件會顯示在「條件」面板中。
 
-- **製作**
-
-   - **啟用「全部取代」**：選取此項以檢視「**尋找和取代**」面板中的「**全部取代**」圖示。
-
-- **引文**
-
-  變更引文樣式。 從您要在專案中使用的下拉式清單中選擇引文樣式。 如需詳細資訊，請檢視[變更引文樣式](./web-editor-apply-citations.md#change-citation-style)。
-
-- **AI小幫手**
-選取此項以啟用Experience Manager Guides中的[AI小幫手](./ai-assistant.md)功能。 取消選取以停用該功能。
+- **拼字檢查**
+有兩個選項 — **AEM拼字檢查**&#x200B;和&#x200B;**瀏覽器拼字檢查**。 依預設，編輯器會使用瀏覽器拼字檢查功能，其中拼字檢查是使用瀏覽器的內建字典執行。 您可以切換至AEM拼字檢查，以使用Adobe Experience Manager的字典，也可以自訂字典以新增自訂字詞清單。 如需自訂AEM字典的詳細資訊，請檢視安裝與設定AEM as a Cloud Service中的[自訂Adobe Experience Manager Guides的預設字典](../cs-install-guide/customize-aem-custom-dictionary.md)區段。
 
 
 ## 面板
@@ -114,9 +129,9 @@ ht-degree: 0%
 
 **建立Salesforce設定檔**
 
-**必備條件**
+**先決條件**
 
-- 為Salesforce建立連線應用程式。 如需詳細資訊，請參閱[啟用API整合的OAuth設定](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5)。
+- 為Salesforce建立連線應用程式。 如需詳細資訊，請參閱[啟用API整合的OAuth設定](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5)。
 
 - 設定連線應用程式時，請確定下列事項：
 
@@ -142,7 +157,7 @@ ht-degree: 0%
 
 **建立ServiceNow設定檔**
 
-**必備條件**
+**先決條件**
 
 設定ServiceNow伺服器以上傳資產。
 
@@ -165,7 +180,7 @@ ht-degree: 0%
   深入瞭解[知識庫](../user-guide/generate-output-knowledge-base.md)輸出預設集。
 
 
-## 驗證 
+## 驗證
 
 此索引標籤包含在編輯器中設定Schematron驗證的選項。 您可以啟用下列功能：
 
@@ -237,11 +252,11 @@ ht-degree: 0%
 
 編輯器設定中的![中繼資料標籤](images/editor-setting-metadata.png){width="550" align="left"}
 
-*設定&#x200B;**版本記錄**&#x200B;對話方塊的中繼資料。*
+*設定&#x200B;**版本記錄**對話方塊的中繼資料。*
 
 
 
 您也可以定義這些中繼資料標籤的顯示順序。 若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
-中繼資料標籤會以相同的順序顯示在編輯器的&#x200B;**版本記錄**&#x200B;對話方塊中。
+中繼資料標籤會以相同的順序顯示在編輯器的**版本記錄**&#x200B;對話方塊中。
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

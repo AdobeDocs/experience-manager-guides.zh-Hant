@@ -4,9 +4,9 @@ description: 從編輯器撰寫Markdown檔案。 瞭解如何在AEM Guides中建
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1197'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Markdown是一種輕量型的標籤語言，可以協助您將格式元素新增
 執行以下步驟，從編輯器建立Markdown主題：
 
 1. 在「存放庫」面板中，選取![](images/Add_icon.svg)，然後從下拉式清單中選取&#x200B;**主題**。
-1. 在&#x200B;**新主題**&#x200B;對話方塊中，提供下列詳細資料：
+2. 在&#x200B;**新主題**&#x200B;對話方塊中，提供下列詳細資料：
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -29,10 +29,10 @@ Markdown是一種輕量型的標籤語言，可以協助您將格式元素新增
    * **範本**：從下拉式清單中選取&#x200B;**Markdown**。 預設會選取範本&#x200B;**主題**。
    * **路徑**：瀏覽您要儲存主題檔案的路徑。 依預設，存放庫中目前所選資料夾的路徑會顯示在「路徑」欄位中。
 
-   >
+   >[!NOTE]
    >
    > 若進行升級，您需要將Markdown範本新增至目前使用的資料夾設定檔中。 您可以[從編輯器](./web-editor-features.md#templates)建立新的Markdown範本，或使用現有的Markdown範本進行編寫。 如需有關如何在Experience Manager Guides中新增編寫範本的詳細資訊，請檢視[設定全域或資料夾層級的設定檔](../cs-install-guide/conf-folder-level.md)。
-1. 選取「**建立**」。
+3. 選取「**建立**」。
 
    Markdown主題會在選取的路徑中建立，並開啟以進行編輯。
 
@@ -83,7 +83,7 @@ Features available in the tab bar are explained as follows:
 
 ![](images/markdown-main-toolbar.png){align="left"}
 
-| 功能 | 描述 |
+| 功能 | 說明 |
 |----------------|----------------|
 | 編輯動作 | 提供各種檔案編輯功能的存取權，包括&#x200B;**剪下**  ![](images/S_Cut_18_N.svg)，**復原**  ![](images/S_Undo_18_N.svg)，**取消復原**  ![](images/S_Redo_18_N.svg)，**副本**  ![](images/S_Copy_18_N.svg)，**刪除**  ![](images/S_Delete_18_N.svg)和&#x200B;**尋找和取代**  ![](images/S_FindAndReplace_18_N.svg)。 您可以從&#x200B;**功能表**&#x200B;下拉式清單存取可用的選項。 |
 | 文字格式選項 | 提供各種文字格式選項的存取權，包括&#x200B;**標題**  ![](images/S_DisplayHeading_18_N.svg)，**粗體**  ![](images/S_TextBold_18_N.svg)，**斜體**  ![](images/S_TextItalic_18_N.svg)，**刪除線**  ![](images/S_TextStrikethrough_18_N.svg)，**代碼**  ![](images/S_Code_18_N.svg)和&#x200B;**封鎖報價**  ![](images/S_BlockQuoteMultipleLines_18_N.svg)。 |
@@ -151,14 +151,14 @@ Features available in the tab bar are explained as follows:
 * **標籤**：這些是主題的中繼資料標籤。 從屬性頁面的標籤欄位中設定。 您可以輸入或從下拉式清單中選取。 標籤會顯示在下拉式清單下方。 若要刪除標籤，請選取標籤旁的十字圖示。
 * **編輯更多屬性**：您可以從檔案屬性頁面編輯更多屬性。
 
-**個參考**
+**參照**
 
 「參照」區段可讓您存取下列功能：
 
 * **用於**： Used in references列出參照或使用目前檔案的檔案。
 * **傳出連結**：傳出連結列出目前檔案中參照的檔案。
 
->
+>[!NOTE]
 >
 > 所有「使用於」和「輸出」連結參照都會以超連結方式連結至檔案。 您可以輕鬆開啟及編輯連結的檔案。
 
@@ -170,12 +170,9 @@ Features available in the tab bar are explained as follows:
 2. 合併
 3. AI 助理
 4. 追蹤變更
-5. 尋找並取代
-6. 搜尋和篩選
-
->[!NOTE]
->
-> **尋找和取代**&#x200B;功能不會處理存放庫層級的Markdown檔案。 這包括搜尋地圖或資料夾中的Markdown檔案。 不過，仍可在Markdown編輯器中使用。 此外，存放庫檢視中的&#x200B;**搜尋**&#x200B;和&#x200B;**篩選器**&#x200B;選項不會處理Markdown檔案。
 
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+
+
+
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

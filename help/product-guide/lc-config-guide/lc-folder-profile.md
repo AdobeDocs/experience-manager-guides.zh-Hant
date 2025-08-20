@@ -4,9 +4,10 @@ description: 瞭解如何在Experience Manager Guides中使用學習與培訓內
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+exl-id: dc26ae48-c953-492c-823a-5f65157b6902
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -17,12 +18,23 @@ ht-degree: 0%
 
 若要開始使用學習和訓練內容的資料夾設定檔設定，您需要：
 
-1. [建立資料夾設定檔](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile)。
-2. **選取要設定的資料夾設定檔**：建立資料夾設定檔後，您必須在[使用者偏好設定](../user-guide/intro-home-page.md#user-preferences)頁面上選取資料夾設定檔，以確保作者和發佈者可以存取正確的範本。
+1. **建立不同的資料夾以管理撰寫與輸出範本**：您可以為企業中不同部門或產品中工作的作者與發行者建立資料夾。 這些資料夾可以對應至特定的資料夾設定檔，每個設定檔都設定有不同的編寫和輸出範本，以支援部門特定的學習課程建立和分散式管理。
+
+   您可以從「存放庫」面板中建立新資料夾。
+
+   ![](assets/create-new-folder.png){width="350" align="left"}
+2. **建立語言資料夾以管理翻譯**：如果您將內容翻譯成不同的語言，則必須建立與每種語言對應的資料夾。 每個語言資料夾都會包含對應於該語言的內容。
+
+   如需詳細資訊，請檢視[內容翻譯的最佳實務](../user-guide/translation-first-time.md)。
+3. **建立資料夾以管理Assets**：與資料夾類似，您也可以建立不同的Assets資料夾以符合不同部門的需求。 如此一來，您也能確保作者和發佈者有權存取範本、影像和其他資產中設定的正確CSS。
+
+   ![](assets/configure-assets-folder.png){width="350" align="left"}
+4. [建立資料夾設定檔](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile)以對應不同的資料夾。
+5. **選取要設定的資料夾設定檔**：建立資料夾設定檔後，您必須在[使用者偏好設定](../user-guide/intro-home-page.md#user-preferences)頁面上選取資料夾設定檔，以確保作者和發佈者可以存取正確的範本。
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
-3. **設定資料夾設定檔設定**：對於學習與訓練內容，可以在資料夾層級設定下列設定：
+6. **設定資料夾設定檔設定**：對於學習與訓練內容，可以在資料夾層級設定下列設定：
    - [面板](#configure-panels)
    - [範本](#configure-templates)
    - [輸出預設集](#configure-output-presets)

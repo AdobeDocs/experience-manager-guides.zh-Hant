@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f61aa6615a1b9765154d55249a33136443dfa33
+source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1854'
 ht-degree: 2%
 
 ---
@@ -18,20 +18,20 @@ ht-degree: 2%
 
 如需AEM工作流程的詳細資訊，請參閱：
 
-- [管理工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/workflows.html)
+- [管理工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 套用及參與工作流程： [使用工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/authoring/using/workflows.html)。
+- 套用及參與工作流程： [使用工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)。
 
-- 正在建立工作流程模型並擴充工作流程功能： [開發和擴充工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/workflows.html)。
+- 正在建立工作流程模型並擴充工作流程功能： [開發和擴充工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)。
 
-- 改善使用重要伺服器資源的工作流程效能： [並行工作流程處理](https://helpx.adobe.com/tw/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
+- 改善使用重要伺服器資源的工作流程效能： [並行工作流程處理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
 
 
 本主題中的各節將逐步引導您瞭解在AEM Guides中提供的預設工作流程中可以進行的各種自訂。
 
 ## 自訂稽核工作流程 {#id176NE0C00HS}
 
-每個組織的內容製作團隊都會以特定方式運作，以符合其業務需求。 某些組織設有專屬的編輯者，而其他組織則可設有自動編輯稽核系統。 例如，在組織中，典型的撰寫和發佈工作流程可能包括這樣的任務 — 每當作者完成編寫內容時，它會自動轉給稽核者，當稽核完成時，它就會轉給發佈者用於產生最終輸出。 在AEM中，您對內容和資產執行的活動可以程式形式合併，並對應至AEM工作流程。 如需AEM工作流程的詳細資訊，請參閱AEM檔案中的[管理工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/workflows.html)。
+每個組織的內容製作團隊都會以特定方式運作，以符合其業務需求。 某些組織設有專屬的編輯者，而其他組織則可設有自動編輯稽核系統。 例如，在組織中，典型的撰寫和發佈工作流程可能包括這樣的任務 — 每當作者完成編寫內容時，它會自動轉給稽核者，當稽核完成時，它就會轉給發佈者用於產生最終輸出。 在AEM中，您對內容和資產執行的活動可以程式形式合併，並對應至AEM工作流程。 如需AEM工作流程的詳細資訊，請參閱AEM檔案中的[管理工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)。
 
 AEM Guides可讓您自訂預設的稽核工作流程。 您可以搭配其他撰寫或發佈工作流程，使用下列四個自訂檢閱相關流程。
 
@@ -66,7 +66,7 @@ workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889
 workflowdata.getMetaDataMap().put("isDitamap","false");
 ```
 
-地圖的&#x200B;**&#x200B;**
+地圖的&#x200B;****
 
 ```json
 var workflowdata = workItem.getWorkflowData();
@@ -108,9 +108,9 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 | `startTime` | 長 | 使用`System.currentTimeMillis()`函式取得目前系統時間。 |
 | `projectPath` | 字串 | 將指派稽核任務的稽核專案路徑，例如： /content/projects/samplereviewproject。 |
 | `reviewType` | 字串 | 靜態值「AEM」。 |
-| `versionJson` | JSON 物件 | versionJson是正在稽核的主題清單，其中每個主題物件都有以下結構{ &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } |
+| `versionJson` | JSON 物件 | versionJson是正在稽核的主題清單，其中每個主題物件都有以下結構[ { &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | 布林值 | false/true |
-| `ditamapHierarchy` | JSON 物件 | 若已傳送地圖以供檢閱，則值應如下：[ &lbrace; &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： 「」，「items」： [] } ] ]。 |
+| `ditamapHierarchy` | JSON 物件 | 若已傳送地圖以供檢閱，則值應如下：[ { &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： 「」，「items」： [] } ] ]。 |
 | `ditamap` | 字串 | 指定稽核任務的ditamap路徑 |
 | `allowAllReviewers` | 布林值 | false/true |
 | `notifyViaEmail` | 布林值 | false/true |
@@ -126,8 +126,8 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 
 在&#x200B;**Adobe Granite工作流程清除設定**&#x200B;中，請確定您至少列出一個可以安全清除的工作流程。 例如，您可以使用AEM Guides建立的下列任何工作流程：
 
-- /etc/workflow/models/publishditamap/jcr：content/model
-- /etc/workflow/models/post-dita-project-creation-tasks/ jcr：content/model
+- /etc/workflow/models/publishditamap/jcr:content/model
+- /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
 在&#x200B;**Adobe Granite工作流程清除組態**&#x200B;中新增工作流程，可確保AEM僅清除組態中列出的工作流程。 這可防止AEM清除稽核工作流程資訊。
 
@@ -147,7 +147,7 @@ AEM Guides包含一組您可自訂的電子郵件範本。 執行以下步驟來
 
    >[!NOTE]
    >
-   > 請勿在``libs``節點中使用預設組態檔中的任何自訂專案。 您必須在``apps``節點中建立``libs``節點的覆蓋，並僅更新``apps``節點中的必要檔案。
+   > 請勿在``libs``節點中使用預設組態檔中的任何自訂專案。 您必須在``libs``節點中建立``apps``節點的覆蓋，並僅更新``apps``節點中的必要檔案。
 
 1. 郵件資料夾包含下列可自訂的範本：
 
@@ -227,7 +227,7 @@ generatedPath;
    jcr:content/metadata/dc:format!=application/xml
    ```
 
-1. 按一下&#x200B;**儲存並關閉**
+1. 按一下「**儲存並關閉**」
 
 
 ## 設定後處理XML工作流程 {#id18CJB03J0Y4}

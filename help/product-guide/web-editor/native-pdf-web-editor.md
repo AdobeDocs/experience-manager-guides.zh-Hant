@@ -4,9 +4,9 @@ description: 瞭解如何使用原生PDF發佈、建立和產生PDF輸出預設�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-source-git-commit: 9ae2690c52ab5408a9d17e9a40a89fe1f902042f
+source-git-commit: e722ba35e27599566140709e060f3b391d50b4db
 workflow-type: tm+mt
-source-wordcount: '3083'
+source-wordcount: '3232'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. [在Map主控台](../user-guide/open-files-map-console.md)中開啟DITA map檔案。
 
-   您也可以從[概觀區段](../user-guide/intro-home-page.md#overview)中的&#x200B;**最近使用的檔案** Widget存取對應檔案。 選取的對映檔案將會在地圖主控台中開啟。
+   您也可以從&#x200B;**概觀區段**&#x200B;中的[最近使用的檔案](../user-guide/intro-home-page.md#overview) Widget存取對應檔案。 選取的對映檔案將會在地圖主控台中開啟。
 1. 在&#x200B;**輸出預設集**&#x200B;索引標籤中，選取+圖示以建立輸出預設集。
 1. 從&#x200B;**新增輸出預設集**&#x200B;對話方塊的「型別」下拉式清單中選取&#x200B;**PDF**。
 1. 在&#x200B;**名稱**&#x200B;欄位中，提供此預設集的名稱。
@@ -46,17 +46,17 @@ ht-degree: 0%
 
 建立預設集後，請設定原生PDF預設集設定。 DITA-OT的預設集組態選項組織在&#x200B;**一般**、**中繼資料**、**配置**、**安全性**、**列印**&#x200B;和&#x200B;**進階**&#x200B;索引標籤下。
 
-<img src="assets/preset-panel.png" alt="預設面板" width="800">
+<img src="assets/preset-panel-new.png" alt="預設面板" width="800">
 
 **一般**
 
 用於指定基本輸出設定，例如指定輸出路徑、PDF檔案名稱等。
 
-| 設定 | 描述 |
+| 設定 | 說明 |
 | --- | --- |
-| **輸出路徑** | AEM存放庫內儲存PDF輸出的路徑。 確定輸出路徑不在專案資料夾內。 如果保留為空白，輸出會在預設DITA map輸出位置中產生。<br>您也可以使用下列現成的變數來定義輸出路徑。 您可以使用單一變數或變陣列合來定義此選項。<br> `${map_filename}`：使用DITA map檔案名稱來建立目的地路徑。<br> `${map_title}`：使用DITA map標題來建立目的地路徑。 <br>`${preset_name}`：使用輸出預設集名稱來建立目的地路徑。<br> `${language_code}`：使用對應檔案所在的語言代碼來建立目的地路徑。<br> `${map_parentpath}`：使用對應檔案的完整路徑來建立目的地路徑。  <br>`${path_after_langfolder}`：使用語言資料夾之後的對應檔路徑來建立目的地路徑。 |
+| **輸出路徑** | AEM存放庫內儲存PDF輸出的路徑。 確定輸出路徑不在專案資料夾內。 透過管理員設定的變數`${base_output_path}`設定輸出路徑。 若要設定輸出路徑，請檢視[設定雲端服務的基底輸出位置](../native-pdf/configure-base-location-cs.md)或[根據您使用的服務設定內部部署服務的基底輸出位置](../native-pdf/configure-base-output-location.md)。 <br>您也可以使用下列現成的變數來定義輸出路徑。 您可以使用單一變數或變陣列合來定義此選項。<br> `${map_filename}`：使用DITA map檔案名稱來建立目的地路徑。<br> `${map_title}`：使用DITA map標題來建立目的地路徑。 <br>`${preset_name}`：使用輸出預設集名稱來建立目的地路徑。<br> `${language_code}`：使用對應檔案所在的語言代碼來建立目的地路徑。<br> `${map_parentpath}`：使用對應檔案的完整路徑來建立目的地路徑。  <br>`${path_after_langfolder}`：使用語言資料夾之後的對應檔路徑來建立目的地路徑。 |
 | **PDF檔案** | 指定要儲存PDF的檔案名稱。 依預設，PDF檔案名稱會新增DITA map名稱以及預設集名稱。 例如，ditamap是「TestMap」，而預設集的名稱是「preset1」，則pdf的預設名稱將是「TestMap_preset1.pdf」。 <br>您也可以使用下列現成可用的變數來定義PDF檔案。 您可以使用單一變數或變陣列合來定義此選項。<br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`。 |
-| **套用條件使用** | 針對條件式內容，請從下列選項中選擇，以根據這些條件產生PDF輸出： <br><ul> <li> **未套用**&#x200B;如果您不想在地圖和來源內容上套用任何條件，請選取此選項。<br><li> **Ditaval檔案**&#x200B;選取DITAVAL檔案以產生條件式內容。 若要選取，請選取「條件預設集」，然後找出檔案。<br> <li> **條件預設集**&#x200B;從下拉式清單中選取條件預設集，以在發佈輸出時套用條件。 如果您已為DITA map檔案新增條件，則會顯示此選項。 條件設定可在DITA map主控台的「條件預設集」標籤中使用。 若要進一步瞭解條件預設集，請檢視[使用條件預設集](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html)。<br> </ul> |
+| **套用條件使用** | 針對條件式內容，請從下列選項中選擇，以根據這些條件產生PDF輸出： <br><ul> <li> **未套用**&#x200B;如果您不想在地圖和來源內容上套用任何條件，請選取此選項。<br><li> **DITAVAL檔案**&#x200B;選取DITAVAL檔案以產生條件式內容。 您可以使用瀏覽對話方塊或手動輸入檔案路徑來選取多個DITAVAL檔案。 若要移除選取的檔案，請按一下檔案名稱旁的十字圖示。 如果選取了無效的檔案，則會顯示錯誤訊息，指出&#x200B;**選取了無效的DITAVAL檔案**。<br> <br>每個DITAVAL檔案都可以包含一系列屬性，例如篩選條件和標幟樣式。 標幟可讓您使用開始和結束標幟以視覺化方式標示內容，這些標幟可包括影像或文字格式，例如粗體或斜體。 如果發生重疊條件或樣式衝突，您可以使用「樣式衝突」設定來定義背景顏色。 如需詳細資訊，請檢視[使用DITAVAL編輯器](../user-guide/ditaval-editor.md)。<br><li> **條件預設集**&#x200B;從下拉式清單中選取條件預設集，以在發佈輸出時套用條件。 如果您已為DITA map檔案新增條件，則會顯示此選項。 條件設定可在DITA map主控台的「條件預設集」標籤中使用。 若要進一步瞭解條件預設集，請檢視[使用條件預設集](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html)。<br> </ul> |
 | **使用基準線** | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。 檢視[使用基準線](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)以取得詳細資料。 |
 | **使用已發佈版本之間的變更列建立PDF** | 使用下列選項來建立PDF，使用變更列顯示兩個版本之間的內容差異：   <br><ul><li> **先前版本的基準**&#x200B;選擇您要與目前版本或其他基準比較的基準版本。 PDF中會出現變更列，指出修改的內容。 變更列是垂直線，以視覺化方式識別新內容或修訂的內容。 變更列會顯示在已插入、變更或刪除的內容左側。<br> **注意**：如果您選取&#x200B;**使用基準線**&#x200B;並選擇要發佈的基準線，將會比較兩個選取的基準線版本。 例如，如果您在&#x200B;**使用基準線**&#x200B;下選擇基準線1.3版，而在先前版本&#x200B;**的**&#x200B;基準線下選擇基準線1.1版，則比較基準線1.1版和基準線1.3版。<br><li> **顯示新增的文字**&#x200B;選取以綠色和底線顯示插入的文字。 依預設，會選取此選項。<br> <li> **顯示已刪除的文字**&#x200B;選取此選項可讓刪除的文字以紅色顯示，並標示為刪除線。 依預設，會選取此選項。 <br>**附註**&#x200B;您也可以使用樣式表自訂變更列、插入內容或刪除內容的樣式。<br></ul> |
 | **產生貼文工作流程** | 選取以顯示包含AEM中已設定所有工作流程的下拉式清單。 您可以選取在PDF產生工作流程完成後要執行的工作流程。 |
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 用來設定頁面配置，以及指定PDF輸出的頁面檢視選項，例如「頁面顯示」和設定「縮放等級」。
 
-| 設定 | 描述 |
+| 設定 | 說明 |
 | --- | --- |
 | **PDF範本** | PDF範本提供清晰的結構，可供定義頁面配置、內容樣式以及套用各種設定至PDF輸出。 從「PDF範本」下拉式選項中選取，選擇您偏好的範本。 <br>您也可以選取&#x200B;**瀏覽範本** <img src="./assets/browse-templates-icon.svg"  alt= "瀏覽範本圖示" width="25">以選擇範本。 在&#x200B;**選取PDF範本**&#x200B;對話方塊中，您也可以預覽縮圖，並檢視所選範本的標題和說明。 |
 | **頁面顯示** | 使用「頁面顯示」進行頁面檢視，以顯示PDF在開啟時的顯示方式。 從「頁面顯示」下拉式選項中選取，以選擇偏好的檢視。<br><ul><li> **預設**&#x200B;會依據使用者電腦上PDF檢視器的預設設定顯示。 <br> <li> **單頁檢視**&#x200B;一次顯示一個頁面。   <br> <li> **單頁捲動**&#x200B;在連續的垂直欄中顯示單頁。 <br> <li> **兩頁檢視**&#x200B;一次並排顯示兩頁跨頁。.<br> <li> **兩頁捲動**&#x200B;以連續捲動方式並排顯示兩頁跨頁。 </ul> |
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 新增開啟和讀取檔案的限制，以保護您的PDF。 使用下列選項以避免未經授權的存取。
 
-| 設定 | 描述 |
+| 設定 | 說明 |
 | --- | --- |
 | **設定密碼以開啟檔案** | 選取以新增安全密碼以檢視您的PDF檔案。 在&#x200B;**使用者密碼**&#x200B;欄位中指定密碼。 使用者只能透過輸入此欄位中提供的密碼來開啟PDF。 |
 | **設定檔案限制** | 選取「 」以限制使用者與您的PDF互動的方式。 在&#x200B;**擁有者密碼**&#x200B;欄位中指定密碼，讓下列限制設定生效。 <br><ul><li> **列印**&#x200B;選取以允許使用者列印PDF。<br> <li> **草稿品質列印**&#x200B;選取以允許使用者以較低的解析度列印PDF。 <br> <li> **內容複製**&#x200B;選取以允許使用者從PDF複製內容。   <br> <li> **註解**&#x200B;選取以允許使用者在PDF中新增註解或註解。<br> <li> **內容修改**&#x200B;選取以允許使用者在PDF中變更內容。<br> <li> **為協助工具複製內容**&#x200B;選取以允許熒幕朗讀程式在PDF中讀取和導覽內容。<br>  **檔案元件**&#x200B;選取以允許使用者在PDF中插入頁面。<br> **注意**：使用者必須輸入擁有者密碼，才能變更Adobe Acrobat中[檔案] > [內容]的任何限制。 |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 使用下列選項來指定合併PDF、使用壓縮、選取規範標準等的進階設定。
 
-| 設定 | 描述 |
+| 設定 | 說明 |
 | --- | --- |
 | **建立可存取（已標籤） PDF** | 選取此選項即可產生含有標籤的PDF。 標籤的PDF讓熒幕助讀程式更容易閱讀及導覽內容、超連結、書籤等。 例如，如果表格已加上標籤，熒幕助讀程式會知道它正在讀取表格，而不只是行與文字。 |
 | **合併目錄中包含的PDF** | 選取此選項，將現有PDF作為資源檔案新增至DITA map中，以將它們合併到輸出中。 PDF將會插入地圖中顯示的位置，頁面也會隨之增加。 |
@@ -183,8 +183,8 @@ ht-degree: 0%
 | **啟用MathML方程式** | 選取此選項可呈現內容中出現的MathML方程式。 否則預設會忽略方程式。 |
 | **建立互動式PDF表單** | 如果您想要在產生的PDF輸出中包含互動式且可自訂的PDF表單欄位，以強化使用者輸入，請選取此選項。 |
 | **包含追蹤變更** | 如果您想要在產生的PDF中包含追蹤變更以方便檢閱和比較，請選取此選項。 |
-| **保留暫存檔案** | 如果您想要保留在產生原生HTML輸出時建立的臨時PDF檔案，請選取此選項。 您稍後可以在產生輸出後下載暫存檔案。 下載的檔案也會包含`system_config.json`檔案，提供您有關作者URL、本機URL和發佈URL的資訊。 |
-| **PDF合規性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請檢視[關於PDF標準](https://helpx.adobe.com/tw/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
+| **保留暫存檔案** | 如果您想要保留在產生原生HTML輸出時建立的臨時PDF檔案，請選取此選項。 您稍後可以在產生輸出後下載暫存檔案。 下載的檔案也會包含`system_config.xml`檔案，提供您有關作者URL、本機URL和發佈URL的資訊。 這些URL是在AEM外部化設定中設定，並反映在`system_config.xml`檔案中。 |
+| **PDF合規性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請檢視[關於PDF標準](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
 | **檔案屬性** | 選取您要傳遞至原生PDF發佈的中繼資料。 下拉式清單會同時列出自訂和預設屬性。 例如，`dc:description`、`dc:language`、`dc:title`和`docstate`為預設屬性，而您可以將`author`作為自訂屬性。 選取的中繼資料屬性會傳遞至使用原生PDF產生的PDF檔案。 <br>這些屬性是從下列位置可用的`metadataList`檔案中挑選的：`/libs/fmdita/config/metadataList`。 <br>此檔案可以覆蓋於： `/apps/fmdita/config/metadataList`。 |
 
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 **Download temporary files after generating the Native PDF output**
 
-If you select the **Download temporary files** option in the Advanced settings, you can also download the interim HTML files created while generating the Native PDF output. Once you’ve generated the output, you can download the temporary files using the **Download temporary files** ![download temporary files](assets/native-pdf-download-temporary-files-icon.svg)icon on the top bar. This feature helps you view your interim HTML styles and layouts and helps you correct or change your CSS styles according to your requirements.
+If you select the **Download temporary files** option in the Advanced settings, you can also download the interim HTML files created while generating the Native PDF output. Once you've generated the output, you can download the temporary files using the **Download temporary files** ![download temporary files](assets/native-pdf-download-temporary-files-icon.svg)icon on the top bar. This feature helps you view your interim HTML styles and layouts and helps you correct or change your CSS styles according to your requirements.
 
 
 >[!NOTE]

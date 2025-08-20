@@ -2,9 +2,9 @@
 title: 使用AI助理聰明地編寫檔案'
 description: 瞭解如何使用AI Assistant以聰明效率撰寫檔案。
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 3d344a1d1b8d51ddadd618db5296531f549dc70b
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Adobe Experience Manager Guides提供AI Assistant工具，可幫助您更聰明�
 
 >[!NOTE]
 >
-> 此編寫功能僅適用於DITA主題，且只能從編輯器介面存取。 在首頁和地圖主控台上，只顯示&#x200B;**說明**&#x200B;面板。
+> 此編寫功能僅適用於DITA主題，且只能從編輯器介面存取。 在首頁和地圖主控台上，只顯示&#x200B;**說明**&#x200B;面板。 「編寫」功能下可用的選項由管理員使用編輯器設定在資料夾設定檔層級設定。
 
 在主題中選取文字後，您可以選擇執行任何「AI輔助程式」動作：
 
@@ -35,7 +35,7 @@ Adobe Experience Manager Guides提供AI Assistant工具，可幫助您更聰明�
 您可以使用文字提示來變更內容。 例如，您可以選取目前主題的內容，並使用提示&#x200B;*讓文字更簡潔*。 同樣地，您可以使用文字提示將屬性加入至所選內容中所使用的標籤。
 
 1. 選取您要使用文字提示的文字。
-1. 從&#x200B;**製作**&#x200B;面板中選取&#x200B;**使用文字提示** ![ai使用文字提示圖示](./images/ai-use-text-prompt.svg)。
+1. 從&#x200B;**製作**&#x200B;面板中選取![使用文字提示](./images/ai-use-text-prompt.svg) **ai使用文字提示圖示**。
 1. 以下列其中一種方式發出提示：
 
    - 從建議的提示中選擇提示。
@@ -136,10 +136,10 @@ Adobe Experience Manager Guides提供AI Assistant工具，可幫助您更聰明�
 執行以下步驟來翻譯內容：
 
 1. 選取您要翻譯的內容。
-1. 從&#x200B;**製作**&#x200B;面板中選取&#x200B;**翻譯內容** ![ai翻譯內容圖示](./images/ai-translate-content-icon.svg)。
+1. 從&#x200B;**製作**&#x200B;面板中選取![翻譯內容](./images/ai-translate-content-icon.svg) **ai翻譯內容圖示**。
 1. 從下拉式清單中選取目標語言。 翻譯的內容會顯示在「AI助理」面板中。
 
 1. （選擇性）選取&#x200B;**展開**&#x200B;以開啟&#x200B;**翻譯內容**&#x200B;編輯器。
-1. 您也可以從下拉式選單中選取其他語言，並以所選語言重新產生內容。 例如，如果您選取[法文]，然後選取[重新產生] **&#x200B;**，內容就會轉譯成法文。
+1. 您也可以從下拉式選單中選取其他語言，並以所選語言重新產生內容。 例如，如果您選取[法文]，然後選取[重新產生] ****，內容就會轉譯成法文。
 
 ![ai助理翻譯內容](./images/ai-assisstant-translate-content.png)

@@ -4,7 +4,7 @@ description: 瞭解如何使用Adobe Experience Manager Guides中的DIVATAL Edit
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
+source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL檔案用於產生條件輸出。 在單一主題中，您可以使用元素屬性來新增條件，以條件化內容。 然後，您會建立DITAVAL檔案，在其中指定應擷取以產生內容的條件，以及應從最終輸出中排除哪些條件。
 
-Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 DITAVAL編輯器會擷取您系統中定義的屬性（可做為條件使用），您可以使用這些屬性來建立或編輯DITAVAL檔案。 如需有關在Adobe Experience Manager中建立和管理條件的詳細資訊，請檢視Adobe Experience Manager檔案中的[管理標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=zh-Hant)區段。
+Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 DITAVAL編輯器會擷取您系統中定義的屬性（可做為條件使用），您可以使用這些屬性來建立或編輯DITAVAL檔案。 如需有關在Adobe Experience Manager中建立和管理條件的詳細資訊，請檢視Adobe Experience Manager檔案中的[管理標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)區段。
 
 以下各節涵蓋Experience Manager Guides中DITAVAL檔案可用的選項。
 
@@ -30,7 +30,7 @@ Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編
 
 1. 在「存放庫」面板中，選取&#x200B;**新檔案**&#x200B;圖示，然後從下拉式功能表中選取&#x200B;**主題**。
 
-   ![](images/new-file-option.png){width="300" align="left"}
+   ![](images/new-file-option.png){width="350" align="left"}
 
    您也可以從[Experience Manager Guides首頁](./intro-home-page.md)以及存放庫檢視中資料夾的選項功能表存取此選項。
 
@@ -42,7 +42,7 @@ Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編
    - 主題將依據的範本。 若為DITAVAL檔案，請從下拉式清單中選取&#x200B;**Ditaval**。
    - 您要儲存主題檔案的路徑。 依預設，存放庫中目前所選資料夾的路徑會顯示在「路徑」欄位中。
 
-   ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
 
 
 4. 選取「**建立**」。
@@ -112,35 +112,35 @@ DITAVAL編輯器可讓您使用編輯器工具列中的選項，執行下列多�
 - **背景色彩**：從背景色彩中選取色相、飽和度、對比。 對應的十六進位值將會根據您的選擇自動更新。 您也可以使用下拉式選單來切換色域格式，以便在HEX、RGB和HSB之間選擇。
 
 
-![](images/ditaval-background-color.png){width="650" align="left"}
+  ![](images/ditaval-background-color.png){width="350" align="left"}
 
 
 
 - **文字色彩**：從文字色彩中選取色相、飽和度、對比。 對應的十六進位值將會根據您的選擇自動更新。 您也可以使用下拉式選單來切換色域格式，以便在HEX、RGB和HSB之間選擇。
 
 
-![](images/ditaval-text-color.png){width="650" align="left"}
+  ![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **樣式選項**：您可以新增一些樣式選項，例如粗體、斜體、底線、上線、雙底線。
 
 
-![](images/ditaval-styling-option.png){width="650" align="left"}
+  ![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **開始和結束旗標**：您可以使用&#x200B;**新增旗標**&#x200B;按鈕，將影像插入為開始和結束旗標。 若要選擇影像，請使用&#x200B;**瀏覽Assets**&#x200B;從「指南」存放庫中選擇，或使用&#x200B;**新增檔案**&#x200B;從您的本機系統上傳。 此外，您也可以為影像指定替代文字。
 
 
-![](images/ditaval-start-end-flags.png){width="650" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
 
 
 
 - **樣式衝突**：它解決當單一元素包含具有不同Flag樣式的多個屬性時發生的衝突。 在這種情況下，會選取樣式衝突屬性中定義的值，以有效地做為背景和文字顏色的預設值選擇器。
 
 
-![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
 #### 版本資訊和另存為新版本
