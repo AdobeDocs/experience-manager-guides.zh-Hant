@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL檔案用於產生條件輸出。 在單一主題中，您可以使用元素屬性來新增條件，以條件化內容。 然後，您會建立DITAVAL檔案，在其中指定應擷取以產生內容的條件，以及應從最終輸出中排除哪些條件。
 
-Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 DITAVAL編輯器會擷取您系統中定義的屬性（可做為條件使用），您可以使用這些屬性來建立或編輯DITAVAL檔案。 如需有關在Adobe Experience Manager中建立和管理條件的詳細資訊，請檢視Adobe Experience Manager檔案中的[管理標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)區段。
+Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 DITAVAL編輯器會擷取您系統中定義的屬性（可做為條件使用），您可以使用這些屬性來建立或編輯DITAVAL檔案。 如需有關在Adobe Experience Manager中建立和管理條件的詳細資訊，請檢視Adobe Experience Manager檔案中的[管理標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=zh-Hant)區段。
 
 以下各節涵蓋Experience Manager Guides中DITAVAL檔案可用的選項。
 
