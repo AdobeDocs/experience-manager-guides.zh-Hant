@@ -326,4 +326,4 @@ Experience Manager Guides隨附大量移動工具，可協助管理員將具有�
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**父級主題：**[&#x200B;管理內容](authoring.md)
+**父級主題：**&#x200B;[&#x200B;管理內容](authoring.md)
