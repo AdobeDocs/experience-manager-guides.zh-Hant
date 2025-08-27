@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 10c0a105c09f5a20b5bf2ef9b3201e7747048a8a
+source-git-commit: 63e81b6213e293dd6b6e7e46b611b25d8cb6a815
 workflow-type: tm+mt
 source-wordcount: '4794'
 ht-degree: 0%
@@ -204,7 +204,7 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
 
 1. 如果您想要為相同屬性新增更多值，請按一下&#x200B;**+**&#x200B;圖示並輸入其他值和標籤。
 
-1. 若要新增更多屬性，請按一下[新增]。**&#x200B;**
+1. 若要新增更多屬性，請按一下[新增]。****
 
 1. 按一下「**儲存**」。
 
@@ -361,7 +361,7 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 
 1. 執行下列任一項作業，以建立或編輯輸出預設集：
 
-   - 按一下[建立&#x200B;**&#x200B;**]從頭開始建立新的輸出預設集。
+   - 按一下[建立&#x200B;****]從頭開始建立新的輸出預設集。
    - 按一下「複製」以建立所選輸出預設集的副本。 您可以變更並儲存重複的預設集。
 
    - 按一下&#x200B;**編輯**，開啟選取的預設集組態以進行編輯。
@@ -411,7 +411,7 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 
 ## 設定AI助理以提供智慧說明和編寫
 
-針對![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service 。
+適用於Experience Manager Guides as a Cloud Service (![AEM雲端](assets/aem-cloud-icon.svg))。
 
 Adobe Experience Manager Guides中的AI Assistant是功能強大的AI驅動工具，可透過智慧撰寫和內容重複使用體驗來增強您的內容。 它將兩個強大的AI功能 — **撰寫**&#x200B;和&#x200B;**說明** — 整合到Experience Manager Guides介面中，讓您能夠更快且更有效率地撰寫檔案和存取資訊。
 
@@ -454,9 +454,9 @@ Adobe Experience Manager Guides中的AI Assistant是功能強大的AI驅動工�
 
 **自訂智慧型說明的預設問題**
 
-針對![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service。
+適用於Experience Manager Guides as a Cloud Service (![AEM雲端](assets/aem-cloud-icon.svg))。
 
-您可以設定AI支援的智慧&#x200B;**說明**，協助作者提出問題，並從[Experience Manager Guides檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)中輕鬆尋找所需內容。
+您可以設定AI支援的智慧&#x200B;**說明**，協助作者提出問題，並從[Experience Manager Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中輕鬆尋找所需內容。
 
 **XML編輯器組態**&#x200B;索引標籤可讓您設定&#x200B;**說明**&#x200B;面板的預設問題。
 
@@ -508,7 +508,7 @@ Adobe Experience Manager Guides中的AI Assistant是功能強大的AI驅動工�
 
 此設定可讓您建立可反映`ui_config.json`檔案中所作修改的JSON副檔名。 您可以在資料夾設定檔層級獨立上傳這些擴充功能，提供增強的彈性和自訂功能。 例如，當您變更&#x200B;**XML編輯器組態** （例如更新按鈕）時，系統會自動識別差異。 透過將這些變更上傳到&#x200B;**XML編輯器UI設定**，並使用&#x200B;**將UI設定轉換為JSON**&#x200B;按鈕將它們轉換為JSON擴充功能，系統會產生合併新功能的擴充功能。
 
-深入瞭解[自訂JSON設定和轉換新AEM Guides編輯器的UI設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
+深入瞭解[自訂JSON設定和轉換新AEM Guides編輯器的UI設定](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
 
 >[!NOTE]
 >
