@@ -1,7 +1,7 @@
 ---
 title: AEM Guides中的發佈
 description: 探索AEM Guides中的發佈格式，瞭解如何跨多個管道(包括AEM Sites、PDF、HTML5、Edge Delivery Services、JSON等)傳遞內容。
-source-git-commit: ace32569321747c53829c58f9daca7e5c7753f99
+source-git-commit: 95404f56afdf4527de80f39ed1633ed3806e4b8a
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 1%
@@ -39,9 +39,9 @@ ht-degree: 1%
 
 ## 相關資源
 
-- [輸出產生基本概念] (https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
+- [輸出產生基本資訊](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
 
-- [安裝新的AEM Sites範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
+- [安裝新的AEM Sites範本](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
 
 - [單一主題發佈](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output/single-topic-publishing/publish-content-fragment.html)
 
