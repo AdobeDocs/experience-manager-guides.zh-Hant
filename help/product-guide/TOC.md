@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 3b306a873f3b71078256407d977e8bdd5af1180b
+source-git-commit: 9cdd4c94ccf71585ef2c630da8c7b3808f68bb3b
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2349'
 ht-degree: 8%
 
 ---
@@ -144,8 +144,8 @@ ht-degree: 8%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -342,7 +342,7 @@ ht-degree: 8%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
@@ -607,6 +607,10 @@ ht-degree: 8%
          - DITA-OT {#dita-ot}
             - [在外掛程式中使用AEM中繼資料](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [設定自訂DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+         - AEM Sites範本 {#aem-site-templates}
+            - [下載並安裝雲端服務的AEM Sites範本](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
+            - [下載並安裝適用於內部部署服務的AEM Sites範本](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
+            - [自訂現有的AEM Sites範本](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
          - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [微服務架構與效能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [使用JWT驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices.md)
