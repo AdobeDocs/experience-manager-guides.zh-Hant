@@ -1,9 +1,9 @@
 ---
 title: 發行說明 | 已修正Adobe Experience Manager Guides 5.1.0版本中的問題
 description: 瞭解Adobe Experience Manager Guides 5.1.0版的錯誤修正。
-source-git-commit: 64df76f371867469d738f59a174e7931176e8591
+source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,6 @@ Adobe已找出下列5.1.0版的已知問題：
 
 - 如果「稽核者」完成工作而沒有加入註解，則最近的任務層級註解會顯示在傳送給任務發起者的電子郵件通知中。 (GUIDES-33590)
 - 在合併對話方塊中，下拉式清單錯誤地顯示主要內容，而不是顯示所選主題的可用版本。 (GUIDES-30820)
-讓連結開始運作。 (GUIDES-30820)
 - 在使用相同「基線」的預設集之間切換時，會停用目前預設集的「儲存」按鈕。 (GUIDES-28025)
 - 將新內容貼入程式碼區塊元素中的新行時，會自動插入空白行。(GUIDES-27842)
 - DITA map中的主題在其子對映中同時作為keydef和topicref使用時，無法發佈到AEM Sites輸出中。 (GUIDES-22269)
