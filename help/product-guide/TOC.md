@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 27cf1d90cc3fb8ad30def0cdedd71b537c21a40f
+source-git-commit: a437256345b923bbcdbfb3fcdd79d1e0f67bc9f7
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2370'
 ht-degree: 8%
 
 ---
@@ -106,6 +106,9 @@ ht-degree: 8%
             - [新增功能](./release-info/whats-new-5-1-0.md)
             - [已修正的問題](./release-info/fixed-issues-5-1-0.md)
             - [升級指示](./release-info/upgrade-instructions-5-1-0.md)
+         - 5.0.0 SP2版本 {#500-sp2-release}
+            - [已修正的問題](./release-info/fixed-issues-5-0-0-sp2.md)
+            - [升級指示](./release-info/upgrade-instructions-5-0-0-sp2.md)
          - 5.0.0 SP1版本 {#500-sp1-release}
             - [已修正的問題](./release-info/fixed-issues-5-0-0-sp1.md)
             - [升級指示](./release-info/upgrade-instructions-5-0-0-sp1.md)
@@ -148,8 +151,8 @@ ht-degree: 8%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -346,7 +349,7 @@ ht-degree: 8%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
