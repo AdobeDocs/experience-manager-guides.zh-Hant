@@ -1,19 +1,19 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides 2023年7月發行版本的新增功能
-description: 在2023年7月發行的Adobe Experience Manager Guidesas a Cloud Service中瞭解新功能和增強功能
+description: 在2023年7月發行的Adobe Experience Manager Guides as a Cloud Service中瞭解新功能和增強功能
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # 2023年7月發行的Adobe Experience Manager Guides as a Cloud Service的新增功能
 
-本文介紹2023年7月Adobe Experience Manager Guides版本中的新功能和增強功能(後來稱為&#x200B;*AEM Guidesas a Cloud Service*)。
+本文介紹2023年7月版Adobe Experience Manager Guides (後來稱為&#x200B;*AEM Guides as a Cloud Service*)中的新功能和增強功能。
 
 如需有關升級指示、相容性矩陣，以及此版本中修正問題的詳細資訊，請參閱[發行說明](release-notes-2023-7-0.md)。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 身為作者，此功能可協助您輕鬆開啟稽核工作、檢視評論，並在集中式檢視中快速處理評論。
 ![](assets/active-review-task-comments.png){width="800" align="left"}
-如需詳細資訊，請檢視[左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS)區段中的&#x200B;**檢閱**&#x200B;功能說明。
+如需詳細資訊，請檢視**左側面板**&#x200B;區段中的[檢閱](../user-guide/web-editor-features.md#id2051EA0M0HS)功能說明。
 
 
 ## 地圖集合增強功能
@@ -53,9 +53,9 @@ ht-degree: 0%
 
 如需詳細資訊，請檢視[輸出產生](../user-guide/generate-output-use-map-collection-output-generation.md)的[使用地圖集合]。
 
-## 可在產生原生HTML輸出時存取暫存PDF檔案
+## 可在產生原生HTML輸出的同時存取暫存PDF檔案
 
-現在，AEM Guides可讓您下載在產生原生HTML輸出時建立的暫時PDF檔案。 在輸出預設集設定中，選取下載暫存檔的選項。  然後，AEM Guides可讓您下載使用該預設集產生輸出時建立的暫存檔。
+現在，AEM Guides可讓您下載在產生原生HTML輸出時建立的臨時PDF檔案。 在輸出預設集設定中，選取下載暫存檔的選項。  然後，AEM Guides可讓您下載使用該預設集產生輸出時建立的暫存檔。
 
 此功能可讓您透過存取臨時樣式和版面來更深入分析產生流程，並協助您根據需求修正或變更CSS樣式。
 
@@ -63,14 +63,14 @@ ht-degree: 0%
 
 如需詳細資訊，請檢視[建立PDF輸出預設集](../web-editor/native-pdf-web-editor.md#create-output-preset)。
 
-## 以微服務為基礎的發佈，以產生HTML5和自訂輸出
+## 微服務式發佈以產生HTML5和自訂輸出
 
 新的發佈微服務可讓您在AEM Guides as a Cloud Service上同時執行大型發佈工作負載，並利用業界領先的Adobe I/O Runtime無伺服器平台。 現在使用微服務，您還可以產生HTML5和自訂輸出。
 您可以執行多個發佈請求，並獲得更好的效能來產生這些輸出格式。
-如需詳細資訊，請檢視[設定AEM Guidesas a Cloud Service的微服務式發佈](../knowledge-base/publishing/configure-microservices.md)。
+如需詳細資訊，請檢視[設定AEM Guides as a Cloud Service的微服務式發佈](../knowledge-base/publishing/configure-microservices.md)。
 
 ## 檢視「關於」資訊中的AEM Guides版本詳細資料
 
 現在除了AEM **關於**&#x200B;資訊外，您還可以檢視AEM Guides版本詳細資料。 您可以在AEM導覽頁面上&#x200B;**說明**&#x200B;的&#x200B;**關於**&#x200B;選項中檢視目前的版本詳細資料。
 
-![](assets/about-aem-help.png)(width=&quot;800&quot; align=&quot;left&quot;)
+![](assets/about-aem-help.png){width="800" align="left"}

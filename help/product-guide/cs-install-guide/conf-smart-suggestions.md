@@ -2,9 +2,9 @@
 title: 設定AI助理以提供智慧說明和編寫
 description: 瞭解如何在Experience Manager Guides中設定AI助理
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b5b4c5484593a2f7d9121da1c7bfb28dd2c36a57
+source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. 從&#x200B;**專案**&#x200B;畫面選取&#x200B;**新增API**。  **新增API**&#x200B;畫面會出現。 此畫面會顯示Adobe產品與技術的所有可用API、事件和服務，供您開發應用程式。
 
-1. 選取&#x200B;**I/O管理API**&#x200B;以將其新增至您的專案。
+1. 選取&#x200B;**I/O管理API**以將其新增至您的專案。
    ![IO管理API](assets/confi-ss-io-management.png)
    *新增I/O Management API至您的專案。*
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 1. 切換至&#x200B;**環境**&#x200B;標籤。
 1. 選取您要設定的環境名稱。 這應該會將您導覽至&#x200B;**環境資訊**&#x200B;頁面。
 1. 切換至&#x200B;**組態**&#x200B;標籤。
-1. 更新JSON欄位 — `SERVICE_ACCOUNT_DETAILS`。 確定您使用與下列熒幕擷取畫面相同的名稱和設定。
+1. 將JSON服務詳細資料（在上一節中下載）貼到與&#x200B;**相對應的**&#x200B;值`SERVICE_ACCOUNT_DETAILS`欄位。 請確定您使用與下列熒幕擷取畫面相同的名稱和設定。
 
    ![ims服務帳戶設定](assets/ims-service-account-config.png){width="800" align="left"}
 
