@@ -39,7 +39,7 @@ ht-degree: 0%
 
 身為作者，此功能可協助您輕鬆開啟稽核工作、檢視評論，並在集中式檢視中快速處理評論。
 ![](assets/active-review-task-comments.png){width="800" align="left"}
-如需詳細資訊，請檢視**左側面板**&#x200B;區段中的[檢閱](../user-guide/web-editor-features.md#id2051EA0M0HS)功能說明。
+如需詳細資訊，請檢視&#x200B;**左側面板**&#x200B;區段中的[檢閱](../user-guide/web-editor-features.md#id2051EA0M0HS)功能說明。
 
 
 ## 地圖集合增強功能
