@@ -73,5 +73,5 @@ ht-degree: 0%
 
 這些許可權可確保使用者只能在其指定的資料夾中建立或修改內容。
 
-如需更多詳細資料，請在AEM[中檢視](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem)許可權。
+如需更多詳細資料，請在AEM[中檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/security/security#permissions-in-aem)許可權。
 
