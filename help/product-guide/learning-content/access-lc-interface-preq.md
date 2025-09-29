@@ -1,9 +1,10 @@
 ---
 title: 探索介面和先決條件
-description: 探索在Adobe Experience Manager Guides中使用學習與訓練內容時的介面和先決條件。
+description: 探索在Adobe Experience Manager Guides中使用產品培訓和學習時的介面和先決條件。
 feature: Authoring
 role: User
-source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
+exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -44,13 +45,3 @@ ht-degree: 0%
 - **外觀**：提供您選取應用程式主題和學習內容來源檢視的選項。
 
 如需詳細資訊，請在Experience Manager Guides中檢視[使用者偏好設定](../user-guide/intro-home-page.md#user-preferences)。
-
-
-
-
-
-
-
-
-
-

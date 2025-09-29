@@ -1,9 +1,10 @@
 ---
 title: 產生 PDF
-description: 在學習與訓練內容中瞭解如何產生PDF輸出。
+description: 瞭解如何在產品培訓和學習中產生PDF輸出。
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 364aa6a4-4ef6-4f7d-b207-ee011b79183c
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
@@ -26,8 +27,3 @@ ht-degree: 4%
 1. 您可以在成功訊息及工具列上選取&#x200B;**檢視輸出**，即可下載PDF。
 
    ![](assets/view-output.png){width="650" align="left"}
-
-
-
-
-

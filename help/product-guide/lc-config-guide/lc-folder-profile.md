@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # 設定資料夾設定檔
 
 需要資料夾設定檔來分隔企業中不同部門或產品的組態。 針對學習和訓練內容，您可以建立並設定檔案夾層級的設定檔，以管理撰寫範本、輸出範本、輸出預設集和其他檔案夾層級的設定。
+
+瞭解[設定資料夾結構的最佳實務](best-practices-folder-structure.md)。
 
 若要開始使用學習和訓練內容的資料夾設定檔設定，您需要：
 
@@ -25,7 +27,6 @@ ht-degree: 0%
    ![](assets/create-new-folder.png){width="350" align="left"}
 2. **建立語言資料夾以管理翻譯**：如果您將內容翻譯成不同的語言，則必須建立與每種語言對應的資料夾。 每個語言資料夾都會包含對應於該語言的內容。
 
-   如需詳細資訊，請檢視[內容翻譯的最佳實務](../user-guide/translation-first-time.md)。
 3. **建立資料夾以管理Assets**：與資料夾類似，您也可以建立不同的Assets資料夾以符合不同部門的需求。 如此一來，您也能確保作者和發佈者有權存取範本、影像和其他資產中設定的正確CSS。
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}

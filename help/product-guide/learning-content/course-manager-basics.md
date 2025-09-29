@@ -1,9 +1,10 @@
 ---
 title: 課程經理基本知識
-description: 瞭解在Adobe Experience Manager Guides中使用學習與訓練內容時，課程經理的基本知識。
+description: 瞭解在Adobe Experience Manager Guides中進行產品培訓和學習時，Course Manager的基本知識。
 feature: Authoring
 role: User
-source-git-commit: 33b6080ec0a98e85f96e0ccb46c91bbffb882d2a
+exl-id: 091cd47e-558b-49d7-ae47-b600fc8fe79d
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

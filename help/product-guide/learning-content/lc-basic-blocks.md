@@ -1,20 +1,27 @@
 ---
-title: 將基本建置區塊新增至學習內容
-description: 在學習與訓練內容中瞭解可新增至學習內容的基本建置區塊
+title: 新增基本建置區塊
+description: 瞭解在產品培訓和學習中可以新增到主題或學習內容的基本建置區塊
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# 將基本建置區塊新增至學習內容
+# 將基本建置區塊新增至主題
 
-您可以使用學習內容工具列上的基本編輯功能，如下所述：
+為了更清楚瞭解如何建立學習主題及新增基本建置區塊，以下影片提供可用功能的簡短概覽。
 
-- **Widget**：使用&#x200B;**插入**&#x200B;功能表，將摺疊式功能表、輪播、熱點等工具新增至您的學習內容，如下所示。 如需互動介面工具集的詳細資訊，請檢視[使用互動介面工具集](./lc-widgets.md)。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)
+
+
+您可以使用編輯器工具列上可用的基本編輯功能，如下所述：
+
+- **介面工具集**：使用&#x200B;**插入**&#x200B;功能表，將摺疊式功能表、轉盤、熱點等介面工具集新增至您的主題或學習內容，如下所示。 如需互動介面工具集的詳細資訊，請檢視[使用互動介面工具集](./lc-widgets.md)。
 
   ![](assets/widgets-learning-content.png){width="650" align="left"}
 
@@ -50,5 +57,3 @@ ht-degree: 0%
 - **超連結**：將超連結新增至內容中的必要位置。 您可以從工具列上的&#x200B;**更多**&#x200B;功能表使用它。 它可以是檔案參考、網頁URL或電子郵件連結，如下所示。
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
-
-

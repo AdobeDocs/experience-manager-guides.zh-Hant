@@ -3,19 +3,26 @@ title: 建立您的第一個課程
 description: 瞭解如何在Adobe Experience Manager Guides中開始您的第一門學習課程。
 feature: Authoring
 role: User
-source-git-commit: 33b6080ec0a98e85f96e0ccb46c91bbffb882d2a
+exl-id: 8680482d-5688-4bb5-890f-c5a7e4bfdba1
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
 
 # 建立您的第一個課程
 
+Experience Manager Guides中的課程可依照不同的學習目標而設計。 雖然常規學習課程可能包括主題、測驗和摘要，但您也可以建立主要聚焦於評估的課程。 例如，您可以設定僅含測驗的課程，或附有一個概觀主題的測驗，以快速檢查瞭解。 您也可以建立包含評估前測驗、主要課程內容和最終測驗的結構化路徑。 這些選項可協助您提供目標式學習體驗，同時有效測量學習者進度。
+
+在我們開始逐步程式之前，這裡有一段簡短的逐步解說影片，示範如何建立您的第一個課程及新增元件。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)
+
+
 執行以下步驟來建立您的第一個課程：
 
 1. 導覽至您要建立課程的資料夾，然後從&#x200B;**選項**&#x200B;功能表選取&#x200B;**新增>課程**。
-
    ![](assets/create-new-course.png)
 
    顯示&#x200B;**新課程對話方塊**。
@@ -33,6 +40,3 @@ ht-degree: 0%
 課程會根據選取的範本，在指定的路徑上建立。 此外，課程會在「課程管理員」中開啟以進行編輯。
 
    ![](assets/course-manager-read-only-mode.png)
-
-
-

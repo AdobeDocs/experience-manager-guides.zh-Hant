@@ -1,13 +1,13 @@
 ---
-title: 管理學習與訓練內容中的課程
+title: 管理產品訓練與學習課程
 description: 瞭解Experience Manager Guides提供的各種功能，這些功能可讓您有效率地管理您的課程。
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 0%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -23,13 +23,15 @@ ht-degree: 0%
 
    ![](assets/learning-course-content.png)
 2. 選取您要建立的內容型別。 可使用的選項包括：
-   - **學習內容**：課程中的主要內容是由一些簡短且重點突出的片段所組成，例如步驟、範例，或用來傳授特定技能或想法的說明。 如需詳細資訊，請檢視[建立和自訂學習內容](./create-content.md)。
-   - **學習摘要**：課程章節結尾的快速檢閱，提醒學習者他們剛學習的關鍵點。
+   - **概述**：提供課程內容快速介紹的課程第一個主題。
+   - **主題**：課程中的主要素材是由一些簡短且重點突出的片段所組成，例如步驟、範例，或教導特定技能或想法的說明。 如需詳細資訊，請檢視[建立和自訂主題](./create-content.md)。
+   - **摘要**：課程章節結尾的快速檢閱，提醒學習者他們剛學到的要點。
    - **測驗**：一組用於檢查某個人是否瞭解他們所學知識的問題。 如需詳細資訊，請檢視[建立和管理測驗](./create-quiz.md)。
    - **問題庫**：可重複使用問題的共用集區，可用來快速且一致地建立測驗。 如需詳細資訊，請檢視[問題庫](./create-qb.md)。
-   - **學習群組**：學習群組可協助將相關學習內容（例如章節、主題和其他模組）組織成邏輯順序，以建立清晰的階層，讓您更輕鬆地管理和重複使用訓練教材。
-3. 選取&#x200B;**建立**。
-所選內容隨即建立並新增至課程。
+   - **群組**：學習群組可協助將相關主題（例如章節、主題和其他模組）組織成邏輯順序，以建立清晰的階層，更易於管理和重複使用訓練教材。
+3. 選取「**建立**」。
+
+所選內容隨即建立並新增至課程。 如需影片概述，請檢視[新增內容至課程](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)。
 
 ## 新增現有內容
 
@@ -44,11 +46,19 @@ ht-degree: 0%
 
 選取的課程內容會從存放庫新增至課程。
 
+>[!NOTE]
+>
+>您也可以使用&#x200B;**Add Existing**>**File （僅限資源zip）**&#x200B;選項來包含解壓縮並整合至最終SCORM輸出的資料夾結構的zip檔案。 這有助於在課程發佈期間簡化資源封裝。
+
+如需影片概述，請檢視[新增現有內容至課程](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)。
+
 ## 移除內容
 
-您可以選取特定主題的&#x200B;**選項**&#x200B;功能表，然後選取&#x200B;**移除**，移除課程中的任何主題，如下所示。
+您可以選取特定主題的&#x200B;**選項**&#x200B;功能表，然後選取&#x200B;**移除專案**，移除課程中的任何主題，如下所示。
 
 ![](assets/remove-learning-content.png)
+
+如需影片概述，請檢視[從課程](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)移除內容。
 
 ## 建立課程版本
 
@@ -71,3 +81,5 @@ ht-degree: 0%
 > 這些檢視設定只會套用在「課程管理員」中，不會影響已發佈的輸出。
 
 ![](assets/course-display-settings.png)
+
+如需影片簡介，請檢視[顯示選項](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)。

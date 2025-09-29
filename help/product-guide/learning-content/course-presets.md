@@ -1,11 +1,12 @@
 ---
 title: 支援的預設集
-description: 介紹在學習與訓練內容中發佈課程的支援預設集
+description: 介紹在產品培訓和學習中發佈課程的支援預設集
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
+source-git-commit: 37eeecfa5683ce9de95f576b185e98bf180fab18
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,4 @@ ht-degree: 0%
 
 - **PDF：** PDF輸出預設集可讓您以專業且可供列印的格式發佈課程內容。 PDF格式非常適合用於共用內容以供檢閱或封存。
 
-
-
-
+如需有關如何建立、設定和產生預設集輸出的影片概觀，請檢視[建立和設定預設集](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)。

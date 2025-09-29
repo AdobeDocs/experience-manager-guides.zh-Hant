@@ -3,16 +3,22 @@ title: 使用互動式Widget
 description: 瞭解您可在學習內容中使用的互動式Widget。
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # 使用互動式Widget
 
-您可以新增多個Widget來增強學習內容，讓課程更具互動性。 選取工具列上的&#x200B;**插入**&#x200B;功能表以存取介面工具集。 可用的Widget包括：
+您可以新增多個Widget來增強學習內容，讓課程更具互動性。 以下是各種可用Widget的簡短逐步解說影片。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides)
+
+
+可用的Widget可強化使用者體驗並簡化內容傳送，包括：
 
 - **收合式選單：**&#x200B;新增收合式選單至內容。 您可以在收合式選單標題及其內文中插入適當的文字。 可以使用&#x200B;**Content properties**&#x200B;面板管理其屬性，包括允許同時開啟單一或多個摺疊式功能表，以及新增或移除元素的選項。
 

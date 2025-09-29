@@ -1,22 +1,25 @@
 ---
 title: 插入來自問題庫的問題
-description: 瞭解如何在學習與訓練內容測驗中插入問題庫中的問題
+description: 瞭解如何在產品訓練與學習測驗中插入問題庫的問題
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
 # 插入來自問題庫的問題
 
-執行下列步驟，在測驗中插入題庫中的問題：
+執行以下步驟，在測驗中插入問題庫的提問：
 
-1. 從工具列的&#x200B;**問題**&#x200B;下拉式選單中選取&#x200B;**從問題庫插入**&#x200B;選項，如下所示。 **從問題庫**&#x200B;插入對話方塊開啟。
+1. 從工具列的&#x200B;**問題**&#x200B;下拉式選單中選取&#x200B;**從問題庫插入**&#x200B;選項，如下所示。
 
    ![](assets/insert-from-question-bank.png){width="350" align="left"}
+
+   顯示&#x200B;**從HTML問題庫**&#x200B;插入對話方塊。
 
 1. 指定儲存於存放庫中的問題庫的路徑，並選取您要插入測驗中的問題，如下所示。 您也可以使用&#x200B;**全選**&#x200B;來選取問題庫的所有問題。
 
@@ -33,3 +36,5 @@ ht-degree: 0%
    隨機問題會新增到測驗中，如下所示。
 
    ![](assets/inserted-question.png){width="650" align="left"}
+
+如需快速影片概述，請檢視[使用問題庫](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)。

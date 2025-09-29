@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: a437256345b923bbcdbfb3fcdd79d1e0f67bc9f7
+source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
 workflow-type: tm+mt
-source-wordcount: '2370'
-ht-degree: 8%
+source-wordcount: '2373'
+ht-degree: 9%
 
 ---
 
@@ -151,8 +151,8 @@ ht-degree: 8%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -291,7 +291,7 @@ ht-degree: 8%
       - [檢視輸出產生工作的狀態](./user-guide/fm-output-view-status.md)
    - AEM Guides中的AI助理 {#ai-assistant-aem}
       - [Adobe Generative AI使用者披露](./user-guide/adobe-generative-ai-disclosures.md)
-      - [AI助理總覽](./user-guide/ai-assistant.md)
+      - [AI 助理概觀](./user-guide/ai-assistant.md)
       - [AI支援的智慧型協助以搜尋內容](./user-guide/ai-based-smart-help.md)
       - [AI助理撰寫以聰明地撰寫檔案](./user-guide/ai-assistant-right-panel.md)
       - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
@@ -307,9 +307,9 @@ ht-degree: 8%
             - [瞭解課程經理基本知識](./learning-content/course-manager-basics.md)
             - [管理您的課程](./learning-content/manage-course.md)
          - 建立及自訂學習內容 {#customize-lc}
-            - [學習內容概觀](./learning-content/lc-overview.md)
-            - [建立學習內容](./learning-content/create-content.md)
-            - [編輯學習內容](./learning-content/edit-content.md)
+            - [概觀](./learning-content/lc-overview.md)
+            - [建立主題](./learning-content/create-content.md)
+            - [編輯主題](./learning-content/edit-content.md)
             - [新增基本建置區塊](./learning-content/lc-basic-blocks.md)
             - [使用互動式Widget](./learning-content/lc-widgets.md)
             - [使用內嵌樣式](./learning-content/lc-inline-styles.md)
@@ -318,10 +318,10 @@ ht-degree: 8%
             - [建立測驗](./learning-content/create-quiz.md)
             - [編輯測驗](./learning-content/edit-quiz.md)
             - [在測驗中插入問題](./learning-content/quiz-insert-questions.md)
+            - [測驗屬性](./learning-content/quiz-properties.md)
             - 問題庫 {#question-bank}
                - [建立問題庫](./learning-content/create-qb.md)
                - [插入來自問題庫的問題](./learning-content/insert-questions.md)
-            - [測驗屬性](./learning-content/quiz-properties.md)
          - 發佈您的課程 {#publish-course}
             - [關於課程發佈](./learning-content/publish-overview.md)
             - [支援的預設集](./learning-content/course-presets.md)
@@ -336,6 +336,7 @@ ht-degree: 8%
       - 設定指南 {#config-lc}
          - [關於本指南](./lc-config-guide/introduction.md)
          - [設定資料夾設定檔](./lc-config-guide/lc-folder-profile.md)
+         - [設定檔案夾結構的最佳實務](./lc-config-guide/best-practices-folder-structure.md)
          - [設定其他設定](./lc-config-guide/lc-other-settings.md)
       - 教學影片 {#lc-video}
          - [作者工作流程](./lc-video-tutorials/author-workflow.md)
@@ -349,7 +350,7 @@ ht-degree: 8%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)

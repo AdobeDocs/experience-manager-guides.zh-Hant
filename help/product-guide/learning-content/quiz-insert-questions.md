@@ -1,11 +1,12 @@
 ---
 title: 在測驗中插入問題
-description: 瞭解如何在學習與訓練內容中將問題插入測驗，
+description: 瞭解如何在產品培訓和學習的測驗中插入問題，
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: dff38476-c078-4970-b967-05a902430015
+source-git-commit: 40c12185223cdc35c069d44ceb66a38cecacf84f
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,10 @@ ht-degree: 0%
 
    ![](assets/question-types.png){width="650" align="left"}
 
+   插入問題時，如果游標位於問題區塊上，則新問題會依預設新增至其後面。
+
+   若要在兩個現有問題之間插入問題，請先[插入段落](#insert-paragraph-within-the-quiz)，然後插入問題。
+
 1. 問題會以選取的格式插入。 然後，您可以根據您的要求編輯問題。
 
 1. 您可以選取任何問題，並使用&#x200B;**內容屬性**&#x200B;面板來設定其屬性。 例如，您可以指定正確答案、設定要授與的標籤，以及定義不正確回應的任何懲罰。
@@ -26,3 +31,20 @@ ht-degree: 0%
 
 1. 儲存您在測驗中所做的所有變更。
 
+## 在測驗中插入段落
+
+當您將游標放在特定問題或兩個問題之間的空白處時，藍色水平線會以藍色箭頭顯示在畫面的最右角。 選取藍色箭頭，可在測驗編寫介面中插入段落。
+
+![](assets/insert-paragraph-here-arrow.png){width="650" align="left"}
+
+- 用於問題中時，它可讓您在問題中新增更多元素，例如影像、表格、文字元素等。
+- 在問題之間使用時，它可讓您插入另一個問題或新增上述的其他編寫元素。
+
+## 刪除問題或選項
+
+執行以下步驟來刪除測驗中的問題或特定選項：
+
+1. 以滑鼠右鍵按一下您要移除的問題或選項。
+1. 在內容功能表中，選取&#x200B;**刪除問題** （以移除整個問題）或&#x200B;**刪除選項** （僅移除選取的選項）。
+
+![](assets/delete-options-lc.png){width="650" align="left"}
