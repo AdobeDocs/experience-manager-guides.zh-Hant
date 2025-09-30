@@ -4,9 +4,9 @@ description: 瞭解如何在產品培訓和學習中建立學習內容時使用�
 feature: Authoring
 role: User
 exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # 使用內嵌樣式
 
 套用內嵌樣式，以直接在課程內容中自訂特定文字的外觀。 這允許快速格式化調整，例如字型大小、顏色、對齊方式等。 您可以使用&#x200B;**內容屬性**&#x200B;面板，修改所選文字的內嵌樣式。
+
+以下是簡短的逐步解說影片，示範各種可用的內嵌樣式。
 
 >[!NOTE]
 >
@@ -23,10 +25,7 @@ ht-degree: 0%
 >[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
 
 
-下列是可用的內嵌樣式選項。
-
-![](assets/content-properties-learning-content.png){width="350" align="left"}
-
+可用的內嵌樣式選項說明如下：
 
 - **字型：**&#x200B;可讓您使用各種選項（如字型系列、字型粗細、文字裝飾、字型大小等）自訂文字外觀。 這些設定可協助您設定內容樣式，如下列範例所示。
 
