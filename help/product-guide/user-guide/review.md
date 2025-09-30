@@ -4,9 +4,9 @@ description: 在AEM Guides中有效率地檢閱主題或地圖，以順暢地評
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+source-git-commit: 6f18b2e4b5cd095f5b446fa9a78badfcdbefc068
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ Adobe Experience Manager Guides提供給&#x200B;*啟動器\（或作者\）*&#x2
 - 即時檢視其他檢閱者的評論或作者對評論的回覆。
 - 存取針對舊版主題提供的註解。
 
->[!NOTE]
->
-> 檢視最佳實務指南中的&#x200B;*檢閱*&#x200B;區段，以取得有關建立檢閱任務的最佳實務。
 
 - **[建立DITA專案](authoring-create-dita-project.md)**
 
