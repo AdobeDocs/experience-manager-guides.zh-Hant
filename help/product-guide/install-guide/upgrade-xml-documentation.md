@@ -25,7 +25,7 @@ ht-degree: 0%
 - 如果您是使用4.3.x、4.2、4.2.1 (Hotfix 4.2.1.3)、4.1或4.1.x版，則必須先升級至4.4版，才能升級至5.0.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
+- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
 
 
 >[!NOTE]
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升級程式僅適用於3.8.5版到4.0版。如需從3.4版或更新版本升級至3.8.5的程式，請參閱&#x200B;*Experience Manager Guides說明PDF封存*&#x200B;中提供的產品特定安裝指南中的[升級Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)一節。
+> 此升級程式僅適用於3.8.5版到4.0版。如需從3.4版或更新版本升級至3.8.5的程式，請參閱&#x200B;*Experience Manager Guides說明PDF封存*&#x200B;中提供的產品特定安裝指南中的[升級Adobe Experience Manager Guides](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)一節。
 
 
 
@@ -1299,7 +1299,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 ## 重新索引damAssetLucene的步驟
 
-已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.0.0版後如何重新索引damAssetLucene。
+已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.0.0版後如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
@@ -1309,7 +1309,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 >[!IMPORTANT]
 >
-> 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.1.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.1.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 **&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
 
@@ -1462,7 +1462,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 ## 重新索引damAssetLucene的步驟
 
-已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.1.0版後如何重新索引damAssetLucene。
+已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.1.0版後如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
