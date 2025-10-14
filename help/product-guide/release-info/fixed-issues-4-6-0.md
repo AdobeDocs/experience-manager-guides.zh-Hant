@@ -16,7 +16,7 @@ ht-degree: 0%
 本文章說明4.6.0版Adobe Experience Manager Guides中不同區域所修正的錯誤。
 
 
-如需新功能和增強功能的詳細資訊，請檢視[ 4.6.0版的新功能](whats-new-4-6.md)。
+如需新功能和增強功能的詳細資訊，請檢視[&#x200B; 4.6.0版的新功能](whats-new-4-6.md)。
 
 瞭解4.6.0版[&#128279;](../release-info/upgrade-instructions-4-6-0.md)的升級指示。
 

@@ -21,7 +21,7 @@ ht-degree: 3%
    - 簡介 {#about-aem-guide}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在運作且主要功能{#aemg-works-features}
-         - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
+         - [&#x200B; [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
          - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 管理內容{#manage-content}
       - [重要概念、角色和許可權及必要條件](./user-guide/authoring.md)

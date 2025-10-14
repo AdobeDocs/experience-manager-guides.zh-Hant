@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### FMPS
 
-對於FMPS安裝，您可以參考指定的[YouTube連結](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t)或[FMPS安裝與組態](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
+對於FMPS安裝，您可以參考指定的[YouTube連結](https://www.youtube.com/watch?v=2deelyM5VA8&t)或[FMPS安裝與組態](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
 
 ## 必要的設定
 
@@ -95,6 +95,6 @@ FrameMaker Publishing Server (FMPS)可用來產生您的DITA內容。 FMPS支援
 
 [AEM Guides學習與支援](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-[FrameMaker和FMPS社群](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
+[FrameMaker和FMPS社群](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
 [AEM Guides社群](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

@@ -156,7 +156,7 @@ ht-degree: 0%
 
      **必備條件**
 
-      - 為Salesforce建立連線應用程式。 如需詳細資訊，請參閱[啟用API整合的OAuth設定](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5)。
+      - 為Salesforce建立連線應用程式。 如需詳細資訊，請參閱[啟用API整合的OAuth設定](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5)。
 
       - 設定連線應用程式時，請確定下列事項：
 
@@ -1145,7 +1145,7 @@ Favroties集合的&#x200B;**選項功能表**\
 
   >[!NOTE]
   >
-  >請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這不會當作現成支援的一部分啟用。 如需更多詳細資訊，請檢視《安裝與組態指南》中的[設定選項以在Oxyo ](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md)中編輯。
+  >請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這不會當作現成支援的一部分啟用。 如需更多詳細資訊，請檢視《安裝與組態指南》中的[設定選項以在Oxyo &#x200B;](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md)中編輯。
 
 
 - **在Assets UI中檢視**：使用此專案來顯示Assets UI中.dita/.xml檔案的預覽。 若是.ditamap/.bookmap檔案，對應中的所有主題檔案都會以單一統一的逐頁檢視顯示。

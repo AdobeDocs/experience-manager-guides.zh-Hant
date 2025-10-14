@@ -70,7 +70,7 @@ Adobe Experience Manager Guides \(後來稱為&#x200B;*AEM Guides*\)是功能強
 - [開始移轉至AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=zh-Hant)
 - [開始上線Experience Manageras a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=zh-Hanthttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [為 AEM as a Cloud Service 實作應用程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=zh-Hant)
-- [部署至 AEM as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=zh-Hant)
+- [部署至 AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=zh-Hant)
 - [Assetsas a Cloud Service指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=tw)
 
 ## 其他資源
