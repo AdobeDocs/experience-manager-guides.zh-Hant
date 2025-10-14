@@ -2,7 +2,8 @@
 title: 使用AI助理聰明地編寫檔案'
 description: 瞭解如何使用AI助理在網頁編輯器中以智慧效率撰寫檔案。
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: c7d37da8-e838-47a2-b469-287bcd841933
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -16,8 +17,8 @@ Experience Manager Guides提供AI Assistant工具，可幫助您更聰明、更�
 
 >[!NOTE]
 >
-> 若要在右側面板中新增AI助理功能，您的系統管理員必須選取&#x200B;**編輯器設定** ![編輯器設定圖示](./images/editor_settings_icon.svg)中&#x200B;**面板**&#x200B;索引標籤下的&#x200B;**AI助理**&#x200B;選項。
-> 此外，您必須出庫檔案才能檢視AI助理圖示。
+> 若要在右側面板中新增AI助理功能，您的系統管理員必須在&#x200B;**Workspace設定** **Workspace設定圖示**&#x200B;的&#x200B;**面板**&#x200B;索引標籤下選取![AI助理](./images/editor_settings_icon.svg)選項。
+> > 此外，您必須出庫檔案才能檢視AI助理圖示。
 
 此功能僅適用於DITA主題。 在主題中選取文字後，您可以選擇執行任何「AI輔助程式」動作：
 
@@ -44,7 +45,7 @@ Experience Manager Guides提供AI Assistant工具，可幫助您更聰明、更�
 
 
 1. 選取您要使用文字提示的文字。
-1. 從&#x200B;**AI助理**&#x200B;面板中選取&#x200B;**使用文字提示** ![ai使用文字提示圖示](./images/ai-use-text-prompt.svg)。
+1. 從&#x200B;**AI助理**&#x200B;面板中選取![使用文字提示](./images/ai-use-text-prompt.svg) **ai使用文字提示圖示**。
 1. 以下列其中一種方式發出提示：
 
    - 從建議的提示中選擇提示。
@@ -149,6 +150,6 @@ AI助理工具會聰明地將內容轉換為專案清單。
 1. 從下拉式清單中選取目標語言。 翻譯的內容會顯示在「AI助理」面板中。
 
 1. （選擇性）選取&#x200B;**展開**&#x200B;以開啟&#x200B;**翻譯內容**&#x200B;編輯器。
-1. 您也可以從下拉式選單中選取其他語言，並以所選語言重新產生內容。 例如，如果您選取[法文]，然後選取[重新產生] **&#x200B;**，內容就會轉譯成法文。
+1. 您也可以從下拉式選單中選取其他語言，並以所選語言重新產生內容。 例如，如果您選取[法文]，然後選取[重新產生] ****，內容就會轉譯成法文。
 
 ![ai助理翻譯內容](./images/ai-assisstant-translate-content.png)

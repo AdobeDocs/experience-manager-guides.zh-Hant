@@ -3,9 +3,10 @@ title: 編輯器中的索引標籤列
 description: 瞭解編輯器中的標籤列。 瞭解Adobe Experience Manager Guides中的編輯器介面和功能。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b3597cac602cf5a22aff9d8db108e3652591d662
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 身為管理員，您也可以選擇在索引標籤中依檔案名稱檢視檔案清單。 選取[使用者偏好設定](./intro-home-page.md#user-preferences)中&#x200B;**編輯器檔案顯示設定**&#x200B;區段的&#x200B;**檔案名稱**&#x200B;選項。
+> 身為管理員，您也可以選擇在索引標籤中依檔案名稱檢視檔案清單。 選取&#x200B;**使用者偏好設定**&#x200B;中&#x200B;**編輯器檔案顯示設定**&#x200B;區段的[檔案名稱](./intro-home-page.md#user-preferences)選項。
 
 選取檔案索引標籤會開啟內容功能表，其中包含「另存為新版本」、「複製」、「尋找位置」、「新增至」、「屬性」、「分割」、「下載為PDF」和「關閉」選項。
 
@@ -50,6 +51,10 @@ ht-degree: 0%
    - **雲端服務**：如果您正在使用雲端服務，選取&#x200B;**Assets**&#x200B;選項會帶您前往AEM導覽頁面。
 
    - **內部部署軟體**：如果您正在使用Adobe Experience Manager Guides （4.2.1和更新版本），選取&#x200B;**Assets**&#x200B;選項會帶您前往Assets UI中的目前檔案路徑。
-- **設定**：帶您前往[編輯器設定]對話方塊。 如需詳細資訊，請參閱[使用編輯器設定](./web-editor-settings.md)。
+- **Workspace設定**：帶您前往Workspace設定對話方塊。 如需詳細資料，請檢視[設定Workspace設定](../cs-install-guide/workspace-settings.md)。
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+>[!NOTE]
+>
+> 如果在內部部署設定中使用Adobe Experience Manager Guides，則Workspace設定選項會繼續顯示為「**設定**」（在「更多動作」功能表下）。
+
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

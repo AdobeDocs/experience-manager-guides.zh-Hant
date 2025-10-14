@@ -4,7 +4,7 @@ description: 瞭解如何在產品培訓和學習中建立問題庫
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 6f0643ca4b43f88ead42bbeade4e3e7252263f32
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -21,6 +21,8 @@ ht-degree: 0%
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
 執行以下步驟來建立問題庫：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469321)
 
 1. 在&#x200B;**課程管理員**&#x200B;中開啟課程，並從&#x200B;**選項功能表**&#x200B;中選取&#x200B;**新增**。
 1. 選取&#x200B;**問題庫**。

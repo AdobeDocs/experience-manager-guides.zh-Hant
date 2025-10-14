@@ -3,7 +3,8 @@ title: 以檢閱者身分完成檢閱任務
 description: 瞭解如何在AEM Guides中將任務標示為已完成檢閱者。
 feature: Reviewing
 role: User
-source-git-commit: 8e750fc6b20859ffd953c8c2b7a12cbe633ab02c
+exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Experience Manager Guides as a Cloud Service第2508發行版本預設會啟用本文所述的新功能。 移轉前建立的檢閱不會受到影響，並將繼續使用舊版工作流程。 如果您偏好繼續使用現有功能而不進行這些更新，請聯絡您的客戶成功團隊以停用新功能。
+> 本文所述的新功能預設會在2508年的Experience Manager Guides as a Cloud Service版本中啟用。 移轉前建立的檢閱不會受到影響，並將繼續使用舊版工作流程。 如果您偏好繼續使用現有功能而不進行這些更新，請聯絡您的客戶成功團隊以停用新功能。
 
 檢閱者可在檢閱完所有內容並想要通知作者後，將檢閱任務標示為完成。 您也可以在此階段留下任何最終註解。
 
@@ -66,4 +67,3 @@ ht-degree: 0%
 **工作註解**&#x200B;對話方塊可供所有參與稽核工作的使用者存取，包括稽核工作的作者或發起者以及其他稽核者。 因此，來自其他稽核者（如果涉及）的註解可能也會顯示在「工作註解」對話方塊中。 這有助於確保在整個稽核過程中進行清楚且可追蹤的溝通。
 
 在稽核任務層級的意見回饋後，作者可以請求重新稽核或關閉稽核任務。 在這兩種情況下，在檢閱程式期間擷取的所有註解仍可在&#x200B;**任務註解**&#x200B;對話方塊中參考使用。
-

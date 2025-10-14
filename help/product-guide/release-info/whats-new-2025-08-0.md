@@ -2,7 +2,8 @@
 title: 發行說明 | Adobe Experience Manager Guides 2025.08.0版的新增功能
 description: 瞭解2025.08.0版Adobe Experience Manager Guides中的新功能和增強功能
 role: Leader
-source-git-commit: d418ffb254b11430509609b91e0174690815cf73
+exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
+source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 2%
@@ -39,7 +40,7 @@ ht-degree: 2%
 
 啟用&#x200B;**AI小幫手**&#x200B;切換功能後，系統管理員可以選擇性地選擇可在&#x200B;**製作**&#x200B;標籤下看到哪些快速動作，以協助簡化作者互動。 這些可見度設定是每個資料夾設定檔專屬的。
 
-在Experience Manager Guides的編輯器設定[中進一步瞭解](../user-guide/web-editor-settings.md#general)AI助理。
+在Experience Manager Guides的編輯器設定[中進一步瞭解](../cs-install-guide/workspace-settings.md#general)AI助理。
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -93,9 +94,3 @@ Experience Manager Guides的最新發佈增強功能現在將新的`system_confi
 此外，在編輯器工具列中，啟用或停用追蹤變更、標籤和不中斷空間的一些快速存取切換現在會分組到功能表下拉式清單中的&#x200B;**顯示**&#x200B;選項下，以提升可用性。
 
 如需詳細資訊，請在編輯器中檢視[工具列](../user-guide/web-editor-toolbar.md#menu-dropdown)。
-
-
-
-
-
-

@@ -4,9 +4,9 @@ description: 瞭解Adobe Experience Manager Guides的首頁。
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
+source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Experience Manager Guides首頁分為下列區段：
   [AI助理](./ai-assistant.md)功能目前僅適用於Adobe Experience Manager as Cloud Service。
 - **自訂總覽區段**：可讓您隱藏或顯示Widget區段中的Widget。
 - **使用中的資料夾設定檔**：顯示目前正在使用的資料夾設定檔。
+- **其他動作**：提供其他選項的存取權。 選取此按鈕會開啟包含下列選項的功能表：
+
+   - **Assets**：根據您的設定，將您帶往目的地。
+      - **雲端服務**：如果您正在使用雲端服務，選取&#x200B;**Assets**&#x200B;選項會帶您前往AEM導覽頁面。
+
+      - **內部部署軟體**：如果您正在使用Adobe Experience Manager Guides （4.2.1和更新版本），選取&#x200B;**Assets**&#x200B;選項會帶您前往Assets UI中的目前檔案路徑。
+   - **Workspace設定**：帶您前往&#x200B;**Workspace設定**&#x200B;對話方塊。 如需詳細資料，請檢視[設定Workspace設定](../cs-install-guide/workspace-settings.md)。
+
+     >[!NOTE]
+     >
+     > 在首頁上，Workspace設定的選項僅適用於雲端服務設定。 在內部部署設定中，首頁沒有更多動作選項。 不過，您仍然可以透過編輯器介面和Map主控台，導覽至「更多選項>設定」來存取相關設定。
+
 - **展開檢視**：可讓您使用&#x200B;**展開**&#x200B;圖示展開頁面檢視。 在此檢視中，標題列會隱藏，最大化內容空間。 若要返回標準檢視，請使用&#x200B;**結束展開檢視**&#x200B;圖示。
 
 ## 左側面板
@@ -169,7 +181,7 @@ Experience Manager Guides可讓您使用名為&#x200B;**地圖集合**&#x200B;�
 
 - **外觀**：「外觀」標籤提供您選取應用程式主題和內容編輯區域來源檢視的選項。 使用此標籤來設定下列設定：
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **應用程式主題和Source檢視**：您可以從應用程式和來源檢視的淺色或深色主題中進行選擇。 在淺色主題的情況下，工具列和面板會使用淺灰色背景。 在深色佈景主題的情況下，工具列和面板會使用黑色背景。 選取&#x200B;**使用裝置**&#x200B;佈景主題，讓Experience Manager Guides根據裝置的佈景主題選取淺色和深色佈景主題。
 

@@ -5,9 +5,9 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8c992afc1cc56052e6c07ac3cea6e7d3412259b2
+source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '414'
 ht-degree: 5%
 
 ---
@@ -22,6 +22,9 @@ Adobe Experience Manager Guides公開用於執行任何後處理操作的`com/ad
 - 建立
 - 修改
 
+>[!NOTE]
+>
+> 啟用`fire.processing.events`旗標（即`fmdita config manager`中的組態引數）即可觸發後續處理事件。 設為true時，會觸發事件(com/adobe/guides/postprocess/complete)以追蹤後續處理完成。 預設會設為false （停用）。
 
 您需要建立Adobe Experience Manager事件處理常式，以讀取此事件中可用的屬性，並進行進一步處理。
 
@@ -35,7 +38,7 @@ com/adobe/guides/postprocess/complete
 
 **引數**：
 
-| 名稱 | 類型 | 描述 |
+| 名稱 | 類型 | 說明 |
 |----|----|-----------|
 | `path` | 字串 | 觸發此事件的檔案路徑。 通常，這是已對其執行操作的檔案。 |
 | `eventType` | 字串 | 事件型別，即CREATE或MODIFY。 |
@@ -104,7 +107,7 @@ com/adobe/fmdita/postprocess/complete
 
 **引數**：
 
-| 名稱 | 類型 | 描述 |
+| 名稱 | 類型 | 說明 |
 |----|----|-----------|
 | `path` | 字串 | 觸發此事件的檔案路徑。 通常，這是已對其執行操作的檔案。 |
 | `status` | 字串 | 已執行作業的傳回狀態。 可能的選項包括： - <br>- SUCCESS：已成功完成後續處理作業。 <br> — 已完成，但發生錯誤：後處理作業已完成，但發生一些錯誤。 <br> — 失敗：因為發生某些錯誤，後處理作業失敗。 |

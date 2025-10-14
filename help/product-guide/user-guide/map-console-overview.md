@@ -4,9 +4,9 @@ description: 瞭解地圖主控台以及可讓您在Adobe Experience Manager Gui
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,12 @@ Adobe Experience Manager Guides提供專用的主控台，稱為&#x200B;**地圖
 
    - **導覽切換器**：可順暢導覽至其他頁面 — 編輯器或首頁：
    - **選取的對應檔**：顯示目前選取的對應檔名稱。 您可以在編輯器中開啟該檔案，或為「對應」主控台選擇不同的對應檔案。
-   - **更多動作**：提供可瀏覽至&#x200B;**Assets UI**&#x200B;和&#x200B;**設定**&#x200B;的選項。 如需詳細資訊，請參閱[瞭解編輯器功能](./web-editor-features.md#tab-bar)檔案的&#x200B;**更多動作**&#x200B;區段。
+   - **更多動作**：提供可瀏覽至&#x200B;**Assets UI**&#x200B;和&#x200B;**Workspace設定**&#x200B;的選項。 如需詳細資訊，請檢視[索引標籤列](./web-editor-tab-bar.md)。
+
+  >[!NOTE]
+  >
+  > 如果在內部部署設定中使用Adobe Experience Manager Guides，則Workspace設定選項會繼續顯示為「**設定**」（在「更多動作」功能表下）。
+
    - **展開檢視**：可讓您使用&#x200B;**展開**&#x200B;圖示展開頁面檢視。 在此檢視中，標題列會隱藏，最大化內容空間。 若要返回標準檢視，請使用&#x200B;**結束展開檢視**&#x200B;圖示。
 
   >[!NOTE]
@@ -50,9 +55,9 @@ Adobe Experience Manager Guides提供專用的主控台，稱為&#x200B;**地圖
 
 **報告建立與管理**
 
-在組織設定中，您想要先驗證技術檔案的整體完整性，然後再開始處理或即時推送檔案。 在多使用者和大型環境中，這樣的需求變得更加重要。 透過地圖主控台，您可以存取Experience Manager Guides報表，這些報表可提供存放庫中內容整體健康狀況，以及說明檔案過程中如何使用內容的實用深入分析。
+在組織設定中，您想要先驗證技術檔案的整體完整性，然後再開始處理或即時推送檔案。 在多使用者和大型環境中，這樣的需求變得更加重要。 透過Map主控台，您可以存取Experience Manager Guides報表，這些報表可提供存放庫中內容整體健康狀況的實用insight，以及說明檔案過程中如何使用內容。
 
-如需更多詳細資料，請在Experience Manager Guides[&#128279;](./reports-intro.md)中檢視報告。
+如需更多詳細資料，請在Experience Manager Guides[中檢視](./reports-intro.md)報告。
 
 **基準線**
 
@@ -77,6 +82,6 @@ Experience Manager Guides隨附強大的功能，可讓您將內容翻譯成多�
 
 Map主控台也提供Workfront功能，可讓您直接從Experience Manager Guides處理Adobe Workfront工作。
 
-瞭解Experience Manager Guides[&#128279;](./workfront-integration.md)中的Adobe Workfront整合。
+瞭解Experience Manager Guides[中的](./workfront-integration.md)Adobe Workfront整合。
 
 只有管理員已在您的Experience Manager Guides執行個體中設定&#x200B;**Adobe Workfront**&#x200B;整合，您才能存取此功能。

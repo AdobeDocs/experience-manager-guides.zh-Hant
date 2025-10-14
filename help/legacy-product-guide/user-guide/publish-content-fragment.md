@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
    ![在資料夾屬性中新增雲端設定詳細資料](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
    *在資料夾屬性中新增雲端設定，以將其與片段模型連線。*
 
-1. 若要產生內容片段，請從主題&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段中，選取&#x200B;**新輸出** ![新輸出圖示](./images/Add_icon.svg)。
+1. 若要產生內容片段，請從主題&#x200B;**檔案屬性**&#x200B;的![輸出](./images/Add_icon.svg)區段中，選取&#x200B;**新輸出** **新輸出圖示**。
 1. 選取&#x200B;**內容片段**。\
    ![檔案屬性選項標籤](./images/file-properties-outputs-tab.png) {width="300" align="left"}
 
@@ -40,7 +40,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
 1. 在「**產生內容片段**」對話方塊中，在「**一般**」和「**對應**」標籤下填入下列詳細資料。
 
-   **一般**&#x200B;標籤
+   **一般**標籤
    ![在[以內容片段形式發佈]對話方塊中新增片段模型和對應詳細資料](images/generate-content-fragment.png)
    *新增路徑、名稱、標題和條件篩選，將主題或其元素發佈為內容片段。*
 
@@ -50,7 +50,6 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
    * **名稱**：輸入內容片段的名稱。 依預設，名稱會填入主題的標題，而空格會取代為「_」。 例如，*sample_content_fragment*。 您可以編輯它。  此名稱用於產生內容片段的URL。
 
    * 您可以選取不同條件來建立內容片段變體。 選取下列其中一個選項：
-
      >[!NOTE]
      > 
      > 只有在主題中定義了條件屬性時，才會啟用條件。
@@ -72,7 +71,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
    * **模式**：選取您要用來建立內容片段的內容片段模式。 模型會從您已在Experience Manager Guides伺服器上設定的資料夾中選取。
    * **對應**：您可以檢視已套用ID屬性的主題元素。 將主題元素拖曳至內容片段模式中顯示的欄位。
-若有現有內容片段，右側會填入已發佈的內容片段內容。 如有必要，可以用主題內容覆寫這些內容。 您也可以選取&#x200B;**復原**&#x200B;以還原對應變更。
+若有現有內容片段，右側會填入已發佈的內容片段內容。 如有必要，可以用主題內容覆寫這些內容。 您也可以選取**復原**&#x200B;以還原對應變更。
 
 
      >[!NOTE]
@@ -113,4 +112,4 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
 新的UUID內容移轉指令碼已大幅最佳化，讓內容從非UUID移轉至UUID的速度比先前的指令碼快30倍。 功能包括從查核點恢復、即時深入分析、預估完成時間和詳細報告，確保和諧的移轉程式。 特別要注意的是，移轉程式會保留資產中繼資料，不會做任何變更。 指令碼已在300萬資產的大型資料集上經過測試和驗證，證實其對於大規模移轉的效率和可靠性。
 
-深入瞭解[非UUID移轉至UUID內容轉換](/help/product-guide/install-guide/migrate-non-uuid-uuid.md)。
+深入瞭解[非UUID移轉至UUID內容轉換](/help/product-guide/install-guide/migrate-non-uuid-4-3.md)。

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
+source-git-commit: fc262885e33f7874dd4a9a09cf3c90d3e6b805d5
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2401'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - 雲端服務 {#cloud-release-notes}
          - [部署指示](./release-info/deploy-xml-on-aemaacs.md)
          - 2025版本 {#2025-releases}
+            - 2025.10.0版本 {#2510-release}
+               - [新增功能](./release-info/whats-new-2025-10-0.md)
+               - [已修正的問題](./release-info/fixed-issues-2025-10-0.md)
+               - [升級指示](./release-info/upgrade-instructions-2025-10-0.md)
             - 2025.08.0版本 {#2508-release}
                - [新增功能](./release-info/whats-new-2025-08-0.md)
                - [已修正的問題](./release-info/fixed-issues-2025-08-0.md)
@@ -151,8 +155,8 @@ ht-degree: 9%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -180,8 +184,7 @@ ht-degree: 9%
             - [左側面板](./user-guide/web-editor-left-panel.md)
             - [內容編輯區域](./user-guide/web-editor-content-editing-area.md)
             - [右側面板](./user-guide/web-editor-right-panel.md)
-         - [編輯器中的其他功能](./user-guide/web-editor-other-features.md)
-         - [使用編輯器設定](./user-guide/web-editor-settings.md)
+         - 編輯器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
          - [編輯器檢視](./user-guide/web-editor-views.md)
          - [支援Schematron檔案](./user-guide/support-schematron-file.md)
@@ -350,7 +353,7 @@ ht-degree: 9%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
@@ -369,8 +372,8 @@ ht-degree: 9%
       - 內容移轉 {#content-migration}
          - [非UUID移轉至UUID內容](./install-guide/migrate-uuid-non-uuid.md)
          - 移轉程式 {#migration-process}
-            - [使用版本移轉非UUID內容](./install-guide/migrate-non-uuid-uuid.md)
-            - [使用版本（舊版）移轉非UUID內容](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
+            - [從4.3.1非UUID移轉至4.3.2 UUID內容](./install-guide/migrate-non-uuid-4-3.md)
+            - [4.6.0非UUID移轉至4.6.1 UUID內容移轉](./install-guide/migrate-non-uuid-uuid-4-6.md)
          - [移轉現有內容](./install-guide/migrate-content.md)
          - [上傳現有DITA內容](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [移轉非DITA內容](./install-guide/migrate-content-non-dita.md)
@@ -475,6 +478,8 @@ ht-degree: 9%
          - [設定自訂DITA map範本](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - 使用檔案狀態 {#doc-state-cs}
          - [設定檔案狀態](./cs-install-guide/customize-doc-state.md)
+      - 配置Workspace設定 {#workspace-configs}
+         - [Workspace設定](./cs-install-guide/workspace-settings.md)
       - 使用網頁編輯器設定 {#web-editor-configs-cs}
          - [自訂Web編輯器](./cs-install-guide/conf-web-editor.md)
          - [自訂工具列](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -538,6 +543,7 @@ ht-degree: 9%
    - [使用資料夾設定檔的Java型API](./api-reference/folder-profile-java.md)
    - [用於建立和啟用套件的Java型API](./api-reference/create-activate-package-java.md)
    - [後續處理事件處理常式](./api-reference/post-process-event.md)
+   - [追蹤資料夾或資產後處理狀態的API](./api-reference/track-post-processing-status.md)
    - [大量啟用完成事件處理常式](./api-reference/bulk-activation-complete-event.md)
    - [轉換程式事件處理常式](./api-reference/conversion-complete-event.md)
 - 知識庫 {#knowledge-base}

@@ -4,9 +4,9 @@ description: 瞭解Adobe Experience Manager Guides中地圖編輯器的功能。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
+source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **插入在前/插入在後** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-顯示&#x200B;**在之前插入元素或**&#x200B;在之後插入元素」對話方塊。 選取您要插入對映中的元素。 視作業而定，新元素會插入到對映中目前元素之前或之後。
+顯示**在之前插入元素或**在之後插入元素」對話方塊。 選取您要插入對映中的元素。 視作業而定，新元素會插入到對映中目前元素之前或之後。
 
 **元素** - ![](images/Add_icon.svg)
 
@@ -343,12 +343,12 @@ Experience Manager Guides可讓作者在編輯器中開啟DITA map，並檢視�
 
 「內容」屬性面板包含目前地圖中所選主題型別、其連結URL及其屬性的相關資訊。 如需詳細資訊，請在編輯器中檢視[內容屬性](web-editor-features.md#right-panel)。
 
-- **其他屬性**&#x200B;如果管理員已建立屬性的設定檔，您將會取得這些屬性及其設定的值。 使用內容屬性面板，您可以選擇這些屬性，並將其指派給主題中的相關內容。 您也可以在編輯器設定中的&#x200B;**顯示屬性**&#x200B;標籤下，指派管理員設定的屬性。 為元素定義的屬性會顯示在「配置圖」和「大綱」檢視中。 這可協助您快速檢視地圖中定義特定屬性的所有主題。 例如，所有具有`audience`屬性的主題皆定義為`US`。
+- **其他屬性**&#x200B;如果管理員已建立屬性的設定檔，您將會取得這些屬性及其設定的值。 使用內容屬性面板，您可以選擇這些屬性，並將其指派給主題中的相關內容。 您也可以在&#x200B;**顯示屬性**&#x200B;下指派管理員設定的屬性。 為元素定義的屬性會顯示在「配置圖」和「大綱」檢視中。 這可協助您快速檢視地圖中定義特定屬性的所有主題。 例如，所有具有`audience`屬性的主題皆定義為`US`。
 
   ![配置檢視](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  如需詳細資訊，請在&#x200B;*編輯器*&#x200B;中檢視&#x200B;*設定*&#x200B;功能描述內的[顯示屬性](web-editor-features.md#main-toolbar)。
+  如需詳細資訊，請檢視[顯示屬性](../cs-install-guide/workspace-settings.md#display-attributes)。
 
 - **中繼資料**&#x200B;使用中繼資料，您可以設定中繼資料資訊。 您可以定義導覽標題、連結文字、簡短說明和關鍵字。
 
