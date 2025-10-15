@@ -42,5 +42,5 @@ ht-degree: 1%
 
 * [[!DNL Experience Manager Guides] 使用手冊（舊的UI）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 * [[!DNL AEM Guides] 學習與支援](https://helpx.adobe.com/tw/support/xml-documentation-for-experience-manager.html)
-* [Experience League — 探索AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
+* [Experience League — 探索AEM](https://business.adobe.com/tw/products/experience-manager/adobe-experience-manager.html)
 

@@ -64,7 +64,7 @@ Adobe Experience Manager Guides \(後來稱為&#x200B;*AEM Guides*\)是功能強
 
 ## Adobe Experience Manager概觀\(AEM\)
 
-[Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)是用於建置網站、行動應用程式和表單的全方位內容管理解決方案。 AEM可協助您管理行銷內容和資產。 AEM可as a Cloud Service使用。 AEM as a Cloud Service結合AEM內容管理系統的強大功能與AEM數位資產管理，協助您為客戶提供內容導向的個人化體驗。以下是一些可幫助您開始使用並部署至AEM as a Cloud Service的關鍵資源：
+[Adobe Experience Manager \(AEM\)](https://business.adobe.com/tw/products/experience-manager/adobe-experience-manager.html)是用於建置網站、行動應用程式和表單的全方位內容管理解決方案。 AEM可協助您管理行銷內容和資產。 AEM可as a Cloud Service使用。 AEM as a Cloud Service結合AEM內容管理系統的強大功能與AEM數位資產管理，協助您為客戶提供內容導向的個人化體驗。以下是一些可幫助您開始使用並部署至AEM as a Cloud Service的關鍵資源：
 
 - [Experience Manageras a Cloud Service概述](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=zh-Hant)
 - [開始移轉至AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=zh-Hant)
