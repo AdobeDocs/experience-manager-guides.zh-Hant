@@ -4,9 +4,9 @@ description: 介紹在產品培訓和學習中發佈課程的支援預設集
 feature: Authoring
 role: User
 exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 - **PDF：** PDF輸出預設集可讓您以專業且可供列印的格式發佈課程內容。 PDF格式非常適合用於共用內容以供檢閱或封存。
 
-如需有關如何建立、設定和產生預設集輸出的影片概觀，請檢視[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)。
+如需有關如何建立、設定和產生預設集輸出的影片概述，請檢視[支援的預設集](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) ![](assets/Smock_VideoCheckedOut_18_N.svg)。
