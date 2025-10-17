@@ -4,9 +4,9 @@ description: 瞭解Experience Manager Guides提供的各種功能，這些功能
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
+source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
    - **群組**：學習群組可協助將相關主題（例如章節、主題和其他模組）組織成邏輯順序，以建立清晰的階層，更易於管理和重複使用訓練教材。
 3. 選取「**建立**」。
 
-所選內容隨即建立並新增至課程。 如需影片概述，請檢視[新增內容至課程](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)。
+所選內容隨即建立並新增至課程。 如需影片簡介，請檢視[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)。
 
 ## 新增現有內容
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 >
 >您也可以使用&#x200B;**新增現有** > **檔案（僅限資源zip）**&#x200B;選項來包含解壓縮並整合至最終SCORM輸出的資料夾結構的zip檔案。 這有助於在課程發佈期間簡化資源封裝。
 
-如需影片概述，請檢視[新增現有內容至課程](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)。
+如需影片簡介，請檢視[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)。
 
 ## 移除內容
 
@@ -58,7 +58,8 @@ ht-degree: 1%
 
 ![](assets/remove-learning-content.png)
 
-如需影片概述，請檢視[從課程](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)移除內容。
+如需影片簡介，請檢視[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)。
+
 
 ## 建立課程版本
 
@@ -82,4 +83,4 @@ ht-degree: 1%
 
 ![](assets/course-display-settings.png)
 
-如需影片簡介，請檢視[顯示選項](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)。
+如需影片簡介，請檢視[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)。

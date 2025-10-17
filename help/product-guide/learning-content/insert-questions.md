@@ -4,9 +4,9 @@ description: 瞭解如何在產品訓練與學習測驗中插入問題庫的問�
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,5 @@ ht-degree: 0%
 
    ![](assets/inserted-question.png){width="650" align="left"}
 
-如需快速影片概述，請檢視[使用問題庫](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)。
+
+如需快速影片概述，[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)。
