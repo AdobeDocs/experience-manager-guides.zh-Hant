@@ -4,7 +4,7 @@ description: 在Experience Manager Guides中使用地圖編輯器建立地圖。
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -56,17 +56,17 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
    ![](images/new-map-file-in-editor.png){align="left"}
 
 
-   - **A** - \（*索引標籤列*\）：這與編輯器的索引標籤列類似。 在編輯器中檢視[索引標籤列](./web-editor-features.md#tab-bar)以取得詳細資料。
+   - **A** - \（*索引標籤列*\）：這與編輯器的索引標籤列類似。 在編輯器中檢視[索引標籤列](./web-editor-tab-bar.md)以取得詳細資料。
 
    - **B** - \(*Toolbar*\)這是可讓您使用對應檔案的工具列。 如需透過工具列可用的功能的詳細資訊，請檢視地圖編輯器工具列中的[可用功能](#features-available-in-the-map-editors-toolbar)。
 
    - **C** - \（*地圖檢視*\）：可讓您在版面配置、作者、Source和預覽之間切換地圖編輯器。 **配置**&#x200B;檢視可讓您在DITA map中組織主題。 這會提供地圖的樹狀結構或階層檢視。 **作者**&#x200B;檢視可讓您在地圖編輯器中編輯主題。 這也會提供地圖檔案的WYSIWYG檢視。 **Source**&#x200B;檢視可讓您使用對應檔的基礎XML。 「預覽」可為您提供地圖檔案中所有主題和子地圖的整合檢視。
 
-   - **D** - \（*左側面板*\）：提供左側面板的存取權，可讓您存取集合、存放庫、地圖、大綱和其他功能。 您可以選取「展開/摺疊」圖示來展開或摺疊它。 如需有關左側面板中可用功能的詳細資訊，請在編輯器中檢視[左側面板](./web-editor-features.md#left-panel)。
+   - **D** - \（*左側面板*\）：提供左側面板的存取權，可讓您存取集合、存放庫、地圖、大綱和其他功能。 您可以選取「展開/摺疊」圖示來展開或摺疊它。 如需有關左側面板中可用功能的詳細資訊，請在編輯器中檢視[左側面板](./web-editor-left-panel.md)。
 
    - **E** - \（*中間區域*\）：對應內容編輯區域。
 
-   - **F** - \（*右側面板*\）：提供屬性面板的存取權。 您可以檢視所選主題或地圖的內容屬性和地圖屬性。 如需此面板中可用功能的詳細資訊，請在編輯器中檢視[右側面板](web-editor-features.md#right-panel)。
+   - **F** - \（*右側面板*\）：提供屬性面板的存取權。 您可以檢視所選主題或地圖的內容屬性和地圖屬性。 如需此面板中可用功能的詳細資訊，請在編輯器中檢視[右側面板](web-editor-right-panel.md)。
 
 1. 在左側面板中，切換至&#x200B;**存放庫**&#x200B;檢視。
 

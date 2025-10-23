@@ -4,7 +4,7 @@ description: 瞭解如何在AEM Guides中建立稽核任務並傳送稽核主題
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 您可以透過以下方式建立稽核任務：
 
-- **編輯器**：可讓您傳送個別主題或DITA map以供檢閱。 請注意，建立稽核任務的工作流程在編輯器和Assets UI中很常見。 只有啟動稽核工作流程的方法不同。 如需有關從編輯器啟動稽核工作流程的資訊，請在編輯器中檢視[建立稽核工作](web-editor-features.md#id215OCJ00JXA)功能。
+- **編輯器**：可讓您傳送個別主題或DITA map以供檢閱。 請注意，建立稽核任務的工作流程在編輯器和Assets UI中很常見。 只有啟動稽核工作流程的方法不同。 如需有關從編輯器啟動稽核工作流程的資訊，請在編輯器中檢視[建立稽核工作](web-editor-left-panel.md#review)功能。
 
 - **Assets UI**：可讓您傳送一或多個主題和DITA map以供檢閱。 本主題涵蓋如何從Assets UI工作流程共用檔案以供檢閱。
 
@@ -250,7 +250,6 @@ Experience Manager Guides可讓您同時在DITA map中傳送一或多個主題�
    - **重新指派**：顯示[重新指派稽核者]對話方塊。 您可以鍵入要指派稽核任務的稽核者或使用者角色\（或群組\）的名稱。 這會從所選主題中移除所有現有的稽核者，並將新選取的稽核者指派給那些主題。
    - **匯出**：可讓您匯出CSV檔案的稽核任務詳細資料。 檔案包含主題的路徑和標題、檢閱者名稱以及傳送供檢閱之主題的版本等詳細資訊。
    - **編輯稽核者**：選取主題清單中的![](images/edit_pencil_icon.svg)圖示，會顯示[編輯稽核者]對話方塊。 您可以在此對話方塊中為選取的主題新增或移除稽核者。
-
    >[!IMPORTANT]
    >
    > 您必須至少指派一個稽核者才能建立稽核任務。
@@ -270,4 +269,4 @@ Experience Manager Guides可讓您同時在DITA map中傳送一或多個主題�
 
 會傳送電子郵件給所有稽核者，通知他們已被指派稽核主題。 電子郵件包含一個直接連結，他們可用來在瀏覽器視窗中存取主題。 主題以及DITA map會以檢閱模式開啟。
 
-**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)
+**父級主題：**[&#x200B;檢閱簡介](review.md)

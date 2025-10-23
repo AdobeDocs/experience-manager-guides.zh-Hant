@@ -4,7 +4,7 @@ description: 以作者、來源和預覽模式檢視主題。 瞭解如何根據
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Source檢視會顯示組成主題的基礎XML。 如果您習慣直接使用XML�
   在上述熒幕擷圖中，交叉反白顯示用於指出包含錯誤XML的行。
 
 * 「尋找和取代」功能可讓您在Source檢視中搜尋任何文字、元素或屬性。
-如需詳細資訊，請檢視[索引標籤列](web-editor-features.md#tab-bar)區段中的&#x200B;**尋找和取代**&#x200B;功能說明。
+如需詳細資訊，請檢視**索引標籤列**&#x200B;區段中的[尋找和取代](web-editor-tab-bar.md)功能說明。
 
 * Source檢視提供許多捷徑，幫助您快速導覽及處理檔案。 下表列出支援的動作及其快速鍵：
 
@@ -149,4 +149,4 @@ PDF是在檔案開發週期的每個可能階段中最常用的輸出格式之�
    PDF會在新標籤中產生並開啟，或是您看到一個對話方塊以在您的本機系統上儲存PDF。
 
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

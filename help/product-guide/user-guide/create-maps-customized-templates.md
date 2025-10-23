@@ -4,7 +4,7 @@ description: 瞭解如何建立自訂範本、使用範本建立新的地圖檔�
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Adobe Experience Manager Guides可讓您從dita-templates資料夾建立自訂�
 
 ### 從編輯器建立自訂範本
 
-**範本**&#x200B;功能存在於編輯器[&#128279;](./web-editor-features.md#left-panel)介面的左側面板中，僅供系統管理員使用。 使用此面板，管理員可輕鬆建立和管理範本，然後供作者使用。 依照預設，範本分類在&#x200B;*對應*&#x200B;和&#x200B;*主題*&#x200B;型別範本下。
+**範本**&#x200B;功能存在於編輯器[介面的](./web-editor-left-panel.md)左側面板中，僅供系統管理員使用。 使用此面板，管理員可輕鬆建立和管理範本，然後供作者使用。 依照預設，範本分類在&#x200B;*對應*&#x200B;和&#x200B;*主題*&#x200B;型別範本下。
 
 ![](images/templates-panel_cs.png){width="300" align="left"}
 
@@ -65,7 +65,7 @@ Adobe Experience Manager Guides可讓您從dita-templates資料夾建立自訂�
    若要先在&#x200B;**主題**&#x200B;或&#x200B;**對應**&#x200B;資料夾中建立資料夾，您也可以從下拉式清單中選取&#x200B;**資料夾**。
 
 1. 在&#x200B;**新主題範本**/**新地圖範本**&#x200B;對話方塊中，提供&#x200B;**標題**，它會顯示在&#x200B;**範本**&#x200B;面板中。 根據標題自動建議範本的&#x200B;**Name**，但您可以提供不同的檔案名稱。
-另外，從&#x200B;**範本**&#x200B;下拉式清單中選擇要建立的範本型別。
+另外，從**範本**&#x200B;下拉式清單中選擇要建立的範本型別。
 
    >[!NOTE]
    >
@@ -230,4 +230,4 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 
 - 如果在資料夾的相同層級建立另一個地圖或主題，則新建立的資產名稱會附加0、1、2等等。 您可以選擇開啟地圖進行編輯，或將地圖檔案儲存在存放庫中。
 
-**上層主題：**&#x200B;[&#x200B;地圖編輯器簡介](map-editor.md)
+**上層主題：**[&#x200B;地圖編輯器簡介](map-editor.md)
