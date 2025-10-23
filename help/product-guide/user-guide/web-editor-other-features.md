@@ -169,7 +169,7 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 ### 在MathML編輯器中驗證方程式
 
 當您儲存包含方程式的主題時，Experience Manager Guides會驗證MathML方程式。
-使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取**插入**，則會顯示警告。
+使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取&#x200B;**插入**，則會顯示警告。
 
 ![驗證mathml方程式](images/validate-mathml-equation.png){width="400" align="left"}
 
@@ -232,8 +232,8 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 - 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)圖示或&#x200B;**Alt** + **Space**&#x200B;捷徑鍵，在檔案中插入不間斷的空格。  在編輯器中編輯主題時，這些不斷行空格會顯示為指示器。 您可以從&#x200B;**使用者偏好設定**&#x200B;的&#x200B;**外觀**&#x200B;索引標籤中，使用[在作者模式](./intro-home-page.md#user-preferences)中顯示不斷行空格指示器選項關閉不斷行空格的顯示。
 
-- 如果您將任何外部來源中含不斷行間距的內容複製並貼到&#x200B;**作者**檢視中，則不斷行間距會轉換為間距。
-不過，如果您從**作者**&#x200B;檢視複製並貼上含有不斷行空格的內容，內容會保留。
+- 如果您將任何外部來源中含不斷行間距的內容複製並貼到&#x200B;**作者**&#x200B;檢視中，則不斷行間距會轉換為間距。
+不過，如果您從&#x200B;**作者**&#x200B;檢視複製並貼上含有不斷行空格的內容，內容會保留。
 
 
 ## 自動生成元素ID
@@ -279,4 +279,4 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 - 警報訊息僅適用於DITA檔案，且在所有檢視中皆可見：作者、Source和版面。
 
-**父級主題：**[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
