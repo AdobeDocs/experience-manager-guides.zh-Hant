@@ -4,7 +4,7 @@ description: 瞭解Adobe Experience Manager Guides中地圖編輯器的功能。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
+source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 地圖編輯器功能 {#id1942D0S0IHS}
 
-地圖編輯器中的工具列與主題編輯器類似。 切換左側面板、儲存對映、建立新版對映、還原/重做上次操作以及刪除選取的元素等基本操作在兩個編輯器中都很常見。 如需這些作業如何運作的詳細資訊，請檢視[瞭解編輯器功能](web-editor-features.md#)區段。
+地圖編輯器中的工具列與主題編輯器類似。 切換左側面板、儲存對映、建立新版對映、還原/重做上次操作以及刪除選取的元素等基本操作在兩個編輯器中都很常見。 如需這些作業如何運作的詳細資訊，請檢視編輯器[區段中的](web-editor-toolbar.md#)工具列。
 
 您在編輯器工具列中檢視的選項是根據「地圖編輯器」檢視。 地圖編輯器中提供四個檢視：
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **插入在前/插入在後** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-顯示&#x200B;**在之前插入元素或**&#x200B;在之後插入元素」對話方塊。 選取您要插入對映中的元素。 視作業而定，新元素會插入到對映中目前元素之前或之後。
+顯示**在之前插入元素或**在之後插入元素」對話方塊。 選取您要插入對映中的元素。 視作業而定，新元素會插入到對映中目前元素之前或之後。
 
 **元素** - ![](images/Add_icon.svg)
 
