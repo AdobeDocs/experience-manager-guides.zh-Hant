@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guides 2025.10.0版的新增功能
 description: 瞭解2025.10.0版Adobe Experience Manager Guides中的新功能和增強功能
 role: Leader
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: bf08a48cd00170bdbe8cde312aac9776f871dbf9
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -53,5 +53,10 @@ Experience Manager Guides現在於編輯器中包含了&#x200B;**重複ID**&#x20
 
 新API現在可用於追蹤個別資產和資料夾的後處理狀態。 這對使用自動化工作流程的團隊特別有用，因為團隊只需在完全處理內容後發佈內容。 API提供確認整備的可靠方式，降低因處理不完整而導致發佈失敗的風險。
 
-如需詳細資訊，請檢視[API以追蹤資料夾或資產的後續處理狀態](../api-reference/track-post-processing-status.md)。
+此外，隨著此API的推出，資產後處理事件不會自動引發。 管理員現在可以透過`fmdita config manager`中的設定啟用此事件。
+
+如需詳細資訊，請檢視：
+
+- [追蹤個別資產和資料夾後處理狀態的API](../api-reference/track-post-processing-status.md)
+- [fmdita設定管理員中的後處理事件處理常式設定](../api-reference/post-process-event.md)
 
