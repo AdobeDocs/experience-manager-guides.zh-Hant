@@ -117,4 +117,4 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 >
 >從2025.11.0版開始，設定&#x200B;**永遠尋找存放庫中的檔案**&#x200B;重新命名為&#x200B;**永遠尋找檔案總管**。 對於內部部署設定，在Experience Manager Guides 5.1版發行前，它仍可在存放庫中永遠尋找檔案中使用。
 
-**父級主題：**[&#x200B;使用編輯器](web-editor.md)
+**父級主題：**&#x200B;[&#x200B;使用編輯器](web-editor.md)
