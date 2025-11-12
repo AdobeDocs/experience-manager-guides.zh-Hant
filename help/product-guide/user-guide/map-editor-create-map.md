@@ -4,24 +4,28 @@ description: 在Experience Manager Guides中使用地圖編輯器建立地圖。
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 21c45ac9ad32d8590f6ed180816853c24a4fa3dc
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
 
 # 建立地圖 {#id176FEN0D05Z}
 
+>[!INFO]
+>
+>從2025.11.0版開始，**存放庫**&#x200B;已重新命名為&#x200B;**總管**。 對於內部部署設定，在Experience Manager Guides 5.1版發行前，它將持續作為存放庫提供。
+
 Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA map和Bookmap。 您也可以建立自己的地圖範本，並與作者共用這些範本，以建立地圖檔案。
 
 執行以下步驟來建立對應：
 
-1. 在「存放庫」面板中，選取&#x200B;**新增檔案**&#x200B;圖示，然後從下拉式功能表中選取&#x200B;**DITA Map**。
+1. 在[總管]面板中，選取&#x200B;**新增檔案**&#x200B;圖示，然後從下拉式功能表中選取&#x200B;**DITA Map**。
 
    ![](images/create-map-options.png){align="left"}
 
-   您也可以從[Experience Manager Guides首頁](./intro-home-page.md)以及存放庫檢視中資料夾的選項功能表存取此選項。
+   您也可以從[Experience Manager Guides首頁](./intro-home-page.md)以及檔案總管檢視中資料夾的「選項」功能表存取此選項。
 
 2. 顯示&#x200B;**新地圖**&#x200B;對話方塊。
 
@@ -29,7 +33,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
    - 地圖的標題。
    - \(Optional\)*對應的檔案名稱。 會根據主題「標題」自動建議檔案名稱。 如果您的管理員已根據UUID設定啟用自動檔案名稱，則您將不會檢視「名稱」欄位。
    - 主題將依據的範本。 對應檔案可用的選項為&#x200B;**Bookmap**、**Map**&#x200B;和&#x200B;**主體配置**。
-   - 您要儲存地圖檔案的路徑。 依預設，存放庫中目前所選資料夾的路徑會顯示在「路徑」欄位中。
+   - 您要儲存地圖檔案的路徑。 依預設，Explorer中目前選取資料夾的路徑會顯示在「路徑」欄位中。
 
    ![](images/new-map-dialog.png){width="300" align="left"}
 
@@ -46,7 +50,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
 執行以下步驟，從「對映」主控台將主題新增至對映檔案：
 
-1. 在「存放庫」檢視中，導覽至並開啟您要編輯的對映檔案。
+1. 在「總管」檢視中，瀏覽並開啟您要編輯的對映檔案。
 1. 選取&#x200B;**編輯**&#x200B;圖示。
 
    ![](images/edit-map-icon.png){width="450" align="left"}
@@ -62,17 +66,17 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
    - **C** - \（*地圖檢視*\）：可讓您在版面配置、作者、Source和預覽之間切換地圖編輯器。 **配置**&#x200B;檢視可讓您在DITA map中組織主題。 這會提供地圖的樹狀結構或階層檢視。 **作者**&#x200B;檢視可讓您在地圖編輯器中編輯主題。 這也會提供地圖檔案的WYSIWYG檢視。 **Source**&#x200B;檢視可讓您使用對應檔的基礎XML。 「預覽」可為您提供地圖檔案中所有主題和子地圖的整合檢視。
 
-   - **D** - \（*左側面板*\）：提供左側面板的存取權，可讓您存取集合、存放庫、地圖、大綱和其他功能。 您可以選取「展開/摺疊」圖示來展開或摺疊它。 如需有關左側面板中可用功能的詳細資訊，請在編輯器中檢視[左側面板](./web-editor-left-panel.md)。
+   - **D** - \（*左側面板*\）：提供左側面板的存取權，可讓您存取「集合」、「總管」、「地圖」、「大綱」及其他功能。 您可以選取「展開/摺疊」圖示來展開或摺疊它。 如需有關左側面板中可用功能的詳細資訊，請在編輯器中檢視[左側面板](./web-editor-left-panel.md)。
 
    - **E** - \（*中間區域*\）：對應內容編輯區域。
 
    - **F** - \（*右側面板*\）：提供屬性面板的存取權。 您可以檢視所選主題或地圖的內容屬性和地圖屬性。 如需此面板中可用功能的詳細資訊，請在編輯器中檢視[右側面板](web-editor-right-panel.md)。
 
-1. 在左側面板中，切換至&#x200B;**存放庫**&#x200B;檢視。
+1. 在左側面板中，切換至&#x200B;**Explorer**&#x200B;檢視。
 
-1. 在Adobe Experience Manager存放庫中，導覽至包含您要新增之主題或子地圖的資料夾。
+1. 在Adobe Experience Manager Explorer中，導覽至包含您要新增之主題或子地圖的資料夾。
 
-1. 在&#x200B;**存放庫**&#x200B;檢視中選取主題或地圖檔案，並將它拖放到\(middle\)地圖內容編輯區域中。
+1. 在&#x200B;**Explorer**&#x200B;檢視中選取主題或地圖檔案，並將它拖放到\(middle\)地圖內容編輯區域中。
 
    主題會新增至地圖中。
 
@@ -136,7 +140,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
    新建立的地圖的版本資訊顯示為&#x200B;*none*。 儲存新版本時，會為其指定版本編號1.0。如需有關儲存新版本的詳細資訊，請檢視[另存為新版本](web-editor-features.md#save-as-new-version)。
 
-   您可以選擇在設定的對應編輯器中開啟對應以進行編輯，或將對應檔案儲存在Adobe Experience Manager存放庫中。
+   您可以選擇在設定的對映編輯器中開啟對映以進行編輯，或在總管中儲存對映檔案。
 
    >[!NOTE]
    >

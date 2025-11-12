@@ -4,9 +4,10 @@ description: 瞭解如何在Prem Services上下載和安裝適用的AEM Sites範
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 20ba7f4582f1d155e555c9ff3ac58e1e3c400765
+exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ ht-degree: 0%
 ## 使用CRX Package Manager安裝套件
 
 1. **安裝元件封裝：**
-   1. 瀏覽至&#x200B;[**CRX封裝管理員**](http://&lt;your-aem-instance>/crx/packmgr)。
+   1. 瀏覽至&#x200B;[**CRX封裝管理員**](http://<your-aem-instance>/crx/packmgr)。
    2. 上傳並安裝on-prem-guides-components.all-1.x.0.zip套件。
 
 2. **安裝Sites封裝：**&#x200B;使用CRX封裝管理員上傳並安裝aemg-docs.all-1.x.0.zip封裝。
@@ -60,14 +61,14 @@ ht-degree: 0%
 
    1. 選取&#x200B;**網站**&#x200B;作為&#x200B;**AEMG檔案**。
    2. 確認&#x200B;**發佈路徑**&#x200B;和&#x200B;**主題頁面範本**&#x200B;已自動設定為：
-      - 發佈路徑： aemg-docs/en/docs/product1
+      - 發佈路徑： `aemg-docs/en/docs/product1`
       - 主題頁面範本：主題頁面。
 
       ![使用網站下拉式清單](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
 
    **選項2：使用網站路徑**
 
-   1. 手動將&#x200B;**網站路徑**&#x200B;設定為/content/aemg-docs/en/docs/product1。
+   1. 手動將&#x200B;**網站路徑**&#x200B;設定為`/content/aemg-docs/en/docs/product1`。
    2. 確認&#x200B;**主題頁面範本**&#x200B;已自動設定為主題頁面。
 
       ![使用網站路徑](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
@@ -78,7 +79,7 @@ ht-degree: 0%
 
 1. **產生網站：**
    1. 設定預設集後，您現在可以為對應的DITA map產生AEM網站。
-   2. 產生的網站將可在以下路徑取得： /content/aemg-docs/en/docs/product1。
+   2. 產生的網站將可在以下路徑使用： `/content/aemg-docs/en/docs/product1`。
 2. **變更預設產生路徑（選用）：**&#x200B;若要變更網站產生的預設路徑，請執行下列步驟：
 
    1. 導覽至&#x200B;**AEM Sites**。
@@ -93,4 +94,3 @@ ht-degree: 0%
 
    5. 輸入頁面的&#x200B;**標題**&#x200B;和&#x200B;**名稱**。
    6. 選取「**建立**」。
-

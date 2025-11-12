@@ -4,7 +4,7 @@ description: 從編輯器撰寫Markdown檔案。 瞭解如何在AEM Guides中建
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
+source-git-commit: 639cd235778f31b139889d615f93bde3334e4988
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Markdown是一種輕量型的標籤語言，可以協助您將格式元素新增
 執行以下步驟，從編輯器建立Markdown主題：
 
 1. 在「存放庫」面板中，選取![](images/Add_icon.svg)，然後從下拉式清單中選取&#x200B;**主題**。
-2. 在&#x200B;**新主題**&#x200B;對話方塊中，提供下列詳細資料：
+1. 在&#x200B;**新主題**&#x200B;對話方塊中，提供下列詳細資料：
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -32,7 +32,7 @@ Markdown是一種輕量型的標籤語言，可以協助您將格式元素新增
    >[!NOTE]
    >
    > 若進行升級，您需要將Markdown範本新增至目前使用的資料夾設定檔中。 您可以[從編輯器](./web-editor-features.md#templates)建立新的Markdown範本，或使用現有的Markdown範本進行編寫。 如需有關如何在Experience Manager Guides中新增編寫範本的詳細資訊，請檢視[設定全域或資料夾層級的設定檔](../cs-install-guide/conf-folder-level.md)。
-3. 選取「**建立**」。
+1. 選取「**建立**」。
 
    Markdown主題會在選取的路徑中建立，並開啟以進行編輯。
 
@@ -175,4 +175,4 @@ Features available in the tab bar are explained as follows:
 
 
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

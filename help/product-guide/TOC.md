@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: c0a75668d283458049d9b4a3bbc23335117ea660
+source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2428'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - 雲端服務 {#cloud-release-notes}
          - [部署指示](./release-info/deploy-xml-on-aemaacs.md)
          - 2025版本 {#2025-releases}
+            - 2025.11.0版本 {#2511-release}
+               - [新增功能](./release-info/whats-new-2025-11-0.md)
+               - [已修正的問題](./release-info/fixed-issues-2025-11-0.md)
+               - [升級指示](./release-info/upgrade-instructions-2025-11-0.md)
             - 2025.10.0版本 {#2510-release}
                - [新增功能](./release-info/whats-new-2025-10-0.md)
                - [已修正的問題](./release-info/fixed-issues-2025-10-0.md)
@@ -158,16 +162,17 @@ ht-degree: 9%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]個運作中及主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
          - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 首頁 {#home-page}
       - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
+      - [存放庫介面](./user-guide/home-page-repository-view.md)
    - 作者內容 {#author-content}
       - [製作概觀](./user-guide/authoring-content.md)
       - [使用AEM Guides創作內容的方法](./user-guide/authoring-content-xml-doc.md)
@@ -181,13 +186,15 @@ ht-degree: 9%
             - [預覽主題](./user-guide/web-editor-preview-topics.md)
          - [瞭解編輯器功能](./user-guide/web-editor-features.md)
          - 瞭解編輯器介面和功能 {#editor-interface-features}
+            - [概觀](./user-guide/intro-editor-interface.md)
             - [標題列](./user-guide/web-editor-header-bar.md)
             - [標籤列](./user-guide/web-editor-tab-bar.md)
             - [工具列](./user-guide/web-editor-toolbar.md)
             - [左側面板](./user-guide/web-editor-left-panel.md)
             - [內容編輯區域](./user-guide/web-editor-content-editing-area.md)
             - [右側面板](./user-guide/web-editor-right-panel.md)
-         - [編輯器中的其他功能](./user-guide/web-editor-other-features.md)
+            - [搜尋面板](./user-guide/search-panel-explorer.md)
+         - 編輯器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
          - [編輯器檢視](./user-guide/web-editor-views.md)
          - [支援Schematron檔案](./user-guide/support-schematron-file.md)
@@ -280,6 +287,7 @@ ht-degree: 9%
          - [管理輸出產生程式](./user-guide/generate-output-manage-process.md)
          - [使用發佈儀表板管理發布任務](./user-guide/generate-output-publish-dashboard.md)
          - [基本疑難排解](./user-guide/generate-output-basic-troubleshooting.md)
+         - [關於發佈工作流程與擴充性的常見問題集](./user-guide/publishing-scalability-faq.md)
       - 大量啟用內容 {#bulk-activation}
          - [大量啟用已發佈的內容](./user-guide/conf-bulk-activation.md)
          - [建立大量啟用地圖集合](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -352,11 +360,11 @@ ht-degree: 9%
          - [重要概念、角色和許可權及必要條件](./user-guide/authoring.md)
          - [上傳檔案](./user-guide/authoring-upload-existing-files.md)
          - [管理檔案和資料夾](./user-guide/authoring-file-management.md)
-         - [處理或重新處理資產](./user-guide/asset-processor.md)
+         - [處理資產](./user-guide/asset-processor.md)
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
@@ -451,6 +459,10 @@ ht-degree: 9%
          - [翻譯內容](./install-guide/translation.md)
       - 使用AEM Assets搜尋 {#aem-asset-search}
          - [設定AEM Assets UI搜尋](./install-guide/conf-dita-search.md)
+      - 使用資產處理 {#asset-processing-on-prem}
+         - [設定資產處理功能](./install-guide/configure-asset-processing.md)
+      - 使用B樹清理{#btree-cleanup}
+         - [設定B樹狀結構清理](./install-guide/configure-btree-clean-up-job.md)
       - [附錄](./install-guide/appendix.md)
    - 雲端服務 {#cs-ig}
       - [關於本指南](./cs-install-guide/introduction.md)
@@ -532,6 +544,10 @@ ht-degree: 9%
          - [翻譯內容](./cs-install-guide/translation.md)
       - 使用AEM Assets搜尋 {#aem-asset-search-cs}
          - [設定AEM Assets UI搜尋](./cs-install-guide/conf-dita-search.md)
+      - 使用資產處理 {#asset-processing-cloud}
+         - [設定資產處理功能](./cs-install-guide/configure-asset-processing-cs.md)
+      - 使用B樹清理{#btree-cleanup-cs}
+         - [設定B樹狀結構清理](./cs-install-guide/configure-btree-cleanup-cs.md)
       - [附錄](./cs-install-guide/appendix.md)
 - API 參考 {#api-reference}
    - [簡介](./api-reference/introduction.md)
@@ -541,14 +557,9 @@ ht-degree: 9%
    - [使用條件屬性的REST API](./api-reference/conditional-attribute.md)
    - [重設轉換工作流程的API](./api-reference/convert-to-dita.md)
    - [用於建立和啟用套件的REST API](./api-reference/create-activate-package.md)
-   - [使用以Java為基礎的API來產生輸出](./api-reference/generate-output.md)
-   - [使用DITA map的Java型API](./api-reference/dita-map-management-java.md)
-   - [用於轉換工作流程的Java型API](./api-reference/convert-to-dita-java.md)
-   - [使用基線和標籤的Java式API](./api-reference/create-baseline-label-java.md)
-   - [使用資料夾設定檔的Java型API](./api-reference/folder-profile-java.md)
-   - [用於建立和啟用套件的Java型API](./api-reference/create-activate-package-java.md)
    - [後續處理事件處理常式](./api-reference/post-process-event.md)
    - [追蹤資料夾或資產後處理狀態的API](./api-reference/track-post-processing-status.md)
+   - [開始大量處理資產的API](./api-reference/bulk-assets-processing.md)
    - [大量啟用完成事件處理常式](./api-reference/bulk-activation-complete-event.md)
    - [轉換程式事件處理常式](./api-reference/conversion-complete-event.md)
 - 知識庫 {#knowledge-base}

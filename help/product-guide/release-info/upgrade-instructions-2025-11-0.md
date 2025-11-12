@@ -1,37 +1,37 @@
 ---
-title: 發行說明 | 2025.10.0版Adobe Experience Manager Guides中的升級指示和修正問題
-description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides as a Cloud Service 2025.10.0版。
-source-git-commit: 25bfa20f469930b3b683e4753812227abdf36f24
+title: 發行說明 | 2025.11.0版Adobe Experience Manager Guides中的升級指示和修正問題
+description: 瞭解相容性矩陣，以及如何升級至2025.11.0版的Adobe Experience Manager Guides as a Cloud Service。
+source-git-commit: b33f9385cd0364009a70c1a5fddcc1a5c118b08b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1039'
 ht-degree: 3%
 
 ---
 
-# 2025.10.0版的升級指示
+# 2025.11.0版的升級指示
 
-本文介紹2025.10.0版Adobe Experience Manager Guides as a Cloud Service的升級指示和相容性矩陣。
+本文介紹2025.11.0版Adobe Experience Manager Guides as a Cloud Service的升級指示和相容性矩陣。
 
-如需新功能和增強功能的詳細資訊，請參閱 [2025.10.0 版本中的新增功能](whats-new-2025-10-0.md)。
+如需新功能和增強功能的詳細資訊，請參閱 [2025.11.0 版本中的新增功能](whats-new-2025-11-0.md)。
 
-有關此版本中的問題修正清單，請查看 [2025.10.0 版本中修正的問題](fixed-issues-2025-10-0.md)。
+有關此版本中的問題修正清單，請查看 [2025.11.0 版本中修正的問題](fixed-issues-2025-11-0.md)。
 
 ## 相容性矩陣
 
-本節說明2025.10.0版Experience Manager Guides as a Cloud Service所支援軟體應用程式的相容性矩陣。
+本節說明2025.11.0版Experience Manager Guides as a Cloud Service支援的軟體應用程式相容性矩陣。
 
 ### FrameMaker和FrameMaker Publishing Server
 
 | Experience Manager Guides雲端版 | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2025.10.0 | 不相容 | 2022或更高 |
+| 2025.11.0 | 不相容 | 2022或更高 |
 
 
 ### 氧氣聯結器
 
 | Experience Manager Guides雲端版 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- | --- | --- |
-| 2025.10.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2.3 | 2.3 |
+| 2025.11.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2.3 | 2.3 |
 
 
 ### 知識庫範本版本
@@ -48,13 +48,9 @@ ht-degree: 3%
 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 
-## 升級至2025.10.0版
+## 升級至2025.11.0版
 
 Experience Manager Guides在升級至最新版Experience Manager as a Cloud Service時自動升級。
-
->[!NOTE]
->
-> 此版本包含資料夾設定檔設定(ui_config.json)的更新。 如果您使用自訂設定，升級之前請務必備份這些設定。 更新後，請檢閱並調整您的設定，以符合最新版本中推出的變更。
 
 如果您尚未針對現有版本提前執行Experience Manager Guides as a Cloud Service，請針對其執行以下步驟：
 
@@ -177,7 +173,7 @@ http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1
 
 ### 在所有輸出預設集的DITAVAL檔案上套用搜尋篩選器的步驟
 
-若要確保DITAVAL檔案的搜尋篩選正常運作，請在`ui_config.json`非DITA檔案&#x200B;**區段的** browseFilters **欄位下套用下列更新，以修改**&#x200B;檔案：
+若要確保篩選器正常運作，請更新ui_config.json。 變更&#x200B;**browseFilters** > **非DITA檔案** > **Ditaval檔案**&#x200B;下列出的屬性，如下所示：
 
 ```
 {

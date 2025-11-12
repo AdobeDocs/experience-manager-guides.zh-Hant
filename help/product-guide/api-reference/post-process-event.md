@@ -5,7 +5,7 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 5%
@@ -42,7 +42,7 @@ com/adobe/guides/postprocess/complete
 |----|----|-----------|
 | `path` | 字串 | 觸發此事件的檔案路徑。 通常，這是已對其執行操作的檔案。 |
 | `eventType` | 字串 | 事件型別，即CREATE或MODIFY。 |
-| `status` | 字串 | 已執行作業的傳回狀態。 可能的選項包括： - <br>- SUCCESS：已成功完成後續處理作業。 <br> — 失敗：因為發生某些錯誤，後處理作業失敗。 |
+| `status` | 字串 | 已執行作業的傳回狀態。 可能的選項包括： <br>- SUCCESS：已成功完成後續處理作業。 <br> — 失敗：因為發生某些錯誤，後處理作業失敗。 |
 | `errorMsg` | 字串 | 發生後置處理作業失敗時的錯誤訊息。 |
 | `uuid` | 字串 | 觸發此事件的檔案UUID。 通常，這是已對其執行操作的檔案。 |
 
@@ -110,6 +110,6 @@ com/adobe/fmdita/postprocess/complete
 | 名稱 | 類型 | 說明 |
 |----|----|-----------|
 | `path` | 字串 | 觸發此事件的檔案路徑。 通常，這是已對其執行操作的檔案。 |
-| `status` | 字串 | 已執行作業的傳回狀態。 可能的選項包括： - <br>- SUCCESS：已成功完成後續處理作業。 <br> — 已完成，但發生錯誤：後處理作業已完成，但發生一些錯誤。 <br> — 失敗：因為發生某些錯誤，後處理作業失敗。 |
+| `status` | 字串 | 已執行作業的傳回狀態。 可能的選項包括： <br>- SUCCESS：已成功完成後續處理作業。 <br> — 已完成，但發生錯誤：後處理作業已完成，但發生一些錯誤。 <br> — 失敗：因為發生某些錯誤，後處理作業失敗。 |
 | `message` | 字串 | 如果狀態為COMPLETED WITH ERRORS或FAILED，此引數包含有關錯誤或失敗原因的詳細資訊。 |
 | `operation` | 字串 | 對檔案執行的後處理操作。 可能的選項包括：<br> — 新增<br> — 更新<br> — 刪除 |

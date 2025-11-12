@@ -4,9 +4,9 @@ description: 瞭解如何匯入及驗證DITA主題、使用判斷提示報表陳
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
+source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,19 @@ ht-degree: 0%
 
 1. 選取結構描述圖示()以開啟結構描述面板。
 1. 使用&#x200B;**新增Schematron檔案**&#x200B;來新增Schematron檔案。
+
+   >[!NOTE]
+   >
+   > 新增無效的Schematron檔案時，「驗證」面板中會顯示錯誤訊息。
+
+   ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. 如果Schematron檔案沒有錯誤，則會新增並列在「驗證」面板中。 對於包含錯誤的Schematron檔案，會顯示錯誤訊息。
+
    >[!NOTE]
    >
    >您可以使用Schematron檔案名稱附近的十字圖示來移除它。
+
 1. 選取&#x200B;**使用Schematron進行驗證**&#x200B;以驗證主題。
 
    * 如果主題未破壞任何規則，則會顯示檔案的驗證成功訊息。

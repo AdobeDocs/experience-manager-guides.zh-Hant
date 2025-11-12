@@ -4,9 +4,10 @@ description: 瞭解如何下載並安裝雲端服務的AEM Sites範本
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -45,7 +46,7 @@ ht-degree: 1%
    3. 使用提供的使用者名稱和密碼將存放庫複製到本機系統（必要時產生密碼）。
 2. **將套件新增至Maven套件組合：**
    1. 在您的本機複製存放庫中，建立新的Maven套件組合或新增到現有的套件組合中。
-   2. 確認Maven專案中存在/jcr_root/apps/fmdita/install結構。
+   2. 請確定Maven專案中存在結構`/jcr_root/apps/fmdita/`安裝。
 
       ![Maven專案中的結構](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
 
@@ -54,8 +55,8 @@ ht-degree: 1%
 
 3. **更新篩選器.xml：**
 
-   1. 開啟位於父內容目錄META-INF資料夾中的filters.xml檔案。
-   2. 新增下列篩選器：filter root=&quot;/apps/fmdita&quot; mode=&quot;merge&quot;/
+   1. 開啟位於上層內容目錄META-INF資料夾中的filters.xml檔案。
+   2. 新增下列篩選器：篩選器根=`/apps/fmdita` mode=`merge`/
 
 
       ![新增篩選器](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
@@ -98,14 +99,14 @@ ht-degree: 1%
 
    1. 選取&#x200B;**網站**&#x200B;作為上面建立的網站（例如AEMG檔案網站）。
    2. 驗證&#x200B;**發佈路徑**&#x200B;和&#x200B;**主題頁面**&#x200B;範本是否自動設定為：
-      - 發佈路徑： /content/AEMG-Docs-Site/en/docs/product
+      - 發佈路徑： `/content/AEMG-Docs-Site/en/docs/product`
       - 主題頁面範本：主題頁面
 
       ![使用網站下拉式清單來設定AEM網站](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
 
    **選項2：使用網站路徑**
 
-   1. 手動將&#x200B;**網站路徑**&#x200B;設定為/content/AEMG-Docs-Site/en/docs/product。
+   1. 手動將&#x200B;**網站路徑**&#x200B;設定為`/content/AEMG-Docs-Site/en/docs/product`。
    2. 確認&#x200B;**主題頁面**&#x200B;範本已自動設定為主題頁面。
 
       ![使用網站路徑設定AEM網站](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
@@ -116,7 +117,7 @@ ht-degree: 1%
 
 1. **產生網站：**
    1. 設定預設集後，為對應的DITA map產生AEM網站。
-   2. 產生的網站將可在以下路徑取得：/content/AEMG-Docs-Site/en/docs/product。
+   2. 產生的網站將可在以下路徑使用： `/content/AEMG-Docs-Site/en/docs/product`。
 2. **變更預設產生路徑（選用）：**&#x200B;若要變更網站產生的預設路徑，請執行下列步驟：
    1. 導覽至&#x200B;**AEM Sites**。
    2. 在OOTB網站結構下建立新產品頁面。
@@ -133,4 +134,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 在部署到生產環境之前，請確定所有設定都在非生產環境中進行測試。 <br><br>如需詳細資訊，請參閱正式[部署至AEM as a Cloud Service檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
+> 在部署到生產環境之前，請確定所有設定都在非生產環境中進行測試。 <br><br>如需詳細資訊，請參閱正式[部署至AEM as a Cloud Service檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。

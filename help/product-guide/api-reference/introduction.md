@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 00a926e82f7d848e0c8041de758f20e79758b01b
+source-git-commit: 67e844faece8b6bb8988bb0e67f357cda1db9a4d
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -18,222 +18,113 @@ Adobe Experience Manager Guides \(後來稱為&#x200B;*AEM Guides*\)是端對端
 
 ## AEM GUIDES API
 
-AEM Guides API有兩種格式：HTTP和Java。 這些API向應用程式開發人員公開AEM Guides的主要功能。 使用這些函式，開發人員可以建立自己的外掛程式，以擴充現成的工作流程。 API可用於管理DITA內容的輸出、使用DITA map、將條件屬性加入資料夾層級設定檔，以及將HTML和Words檔案轉換為DITA格式。
+AEM Guides API有兩種格式：
 
-## 在本機Apache Maven存放庫中安裝JAR {#install-jar-local}
+- [Java型API](#java-based-apis)
+- [REST型API](#rest-based-apis)
 
-為了能夠使用AEM Guides公開的JAR檔案，您需要將它們安裝在您的本機Apache Maven存放庫上。 執行以下步驟以在您的位置Maven存放庫中安裝JAR：
-
-1. 在您的本機系統上解壓縮AEM Guides套件\(.zip\)檔案的內容。
-
-2. 在命令提示字元中，導覽至擷取內容路徑中的下列資料夾：
-
-   ```
-   \jcr_root\libs\fmdita\osgi-bundles\install
-   ```
-
-3. 執行以下命令，將API套件組合安裝至本機Maven存放庫：
-
-   ```
-   mvn install:install-file -Dfile=api-X.x.jar -DgroupId=com.adobe.fmdita -DartifactId=api -Dversion=X.x -Dpackaging=jar**
-   ```
-
-   >[!NOTE]
-   >
-   > 在上述命令中，X.x應該以Dfile和Dversion引數中的實際版本編號取代。
-
-4. \（*選擇性*\）在本機Maven專案的存放庫中安裝相依性。 您可以在Maven專案中建立資料夾，然後使用下列其他引數執行上一步驟中指定的`mvn install`命令來達成此目的：
-
-   ```
-   -DlocalRepositoryPath=<path_to_project_repository>
-   ```
-
-   接下來，若要將專案的本機存放庫資料夾公開給Maven建置程式，請在父pom.xml檔案中新增`repository`元素，如下所示：
-
-   ```XML
-   <repositories>
-      <repository>
-         <id>project-repository</id>
-         <url>file://${project.basedir}/repository</url>
-      </repository>
-   </repositories>
-   ```
+這些API向應用程式開發人員公開AEM Guides的主要功能。 使用這些函式，開發人員可以建立自己的外掛程式，以擴充現成的工作流程。 API可用於管理DITA內容的輸出、使用DITA map、將條件屬性加入資料夾層級設定檔，以及將HTML和Words檔案轉換為DITA格式。
 
 
-此程式會將API JAR安裝在本機Maven存放庫中。
+### Java型API
 
-## 在Maven專案中使用服務API JAR
+您可以使用Experience Manager Guides中提供的Java式API來建立自訂外掛程式，並擴充現成可用的工作流程。
 
-在本機Maven存放庫中安裝API JAR後，執行以下步驟以在專案中使用JAR：
+**從AEM Guides as a Cloud Service的Maven中央存放庫設定SDK**
 
-1. 將JAR新增到您的程式碼基底，並將其提交到資料夾下的程式碼基底存放庫，例如「dependencies」。 請注意，資料夾名稱取決於您的程式碼基底階層。
+>[!INFO]
+>
+>檢視[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)，以取得有關使用Experience Manager Guides as a Cloud Service的Java式API的最新和詳細檔案。
 
-2. 依照以下方式設定專案pom.xml檔案：
+若要在專案中設定和使用Maven存放庫中的服務API JAR，請在專案的`pom.xml`檔案中新增API SDK作為專案相依性，如下所示。
 
-   父專案的pom.xml檔案：
+    ``XML
+    &lt;相依性>
+    &lt;groupId>com.adobe.aem&lt;/groupId>
+    &lt;artifactId>aem-dox-sdk-api&lt;/artifactId>
+    &lt;version>${RELEASE}&lt;/version>
+    &lt;/dependency>
+    
+    `&#39;
 
-   >[!IMPORTANT]
-   >
-   > 在以下程式碼片段中，應將X.x取代為實際版本號碼和API JAR的檔案名稱。 此資訊將與[安裝程式](#install-jar-local)的步驟3中所提供的資訊相同。
+>[!NOTE]
+>
+> 確保您使用與伺服器上安裝的AEM Guides套件相同版本的API JAR。
 
-   ```XML
-   <plugin>
-   
-       <groupId>org.apache.maven.plugins</groupId>
-   
-      <artifactId>maven-install-plugin</artifactId>
-   
-       <version>2.5.2</version>
-   
-       <configuration>
-   
-               <groupId>com.adobe.fmdita</groupId>
-   
-               <artifactId>api</artifactId>
-   
-               <version>X.x</version>
-   
-               <file>${basedir}/dependencies/fmdita/api-X.x.jar</file>
-   
-               <packaging>jar</packaging>
-   
-               <generatePom>true</generatePom>
-   
-       </configuration>
-   
-       <executions>
-   
-           <execution>
-   
-               <id>inst_fmdita</id>
-   
-                   <goals>
-   
-                       <goal>install-file</goal>
-   
-                   </goals>
-   
-                   <phase>clean</phase>
-   
-           </execution>
-   
-       </executions>
-   </plugin>
-   ```
+**從Maven中央存放庫（內部部署）設定及使用API JAR**
 
-   子模組的pom.xml檔案：
+>[!INFO]
+>
+>檢視[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html)，以取得有關使用適用於Experience Manager Guides內部部署設定的Java式API的最新和詳細檔案。
 
-   ```XML
-   <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-   
-      <artifactId>maven-install-plugin</artifactId>
-   
-      <configuration>
-   
-         <groupId>com.adobe.fmdita</groupId>
-   
-         <artifactId>api</artifactId>
-   
-         <version>3.6</version>
-   
-         <file>${basedir}/../dependencies/fmdita/api-3.6.jar</file>
-   
-         <packaging>jar</packaging>
-   
-         <generatePom>true</generatePom>
-   
-      </configuration>
-   
-      <executions>
-   
-         <execution>
-   
-            <id>inst_fmdita</id>
-   
-            <goals>
-   
-               <goal>install-file</goal>
-   
-            </goals>
-   
-            <phase>clean</phase>
-   
-         </execution>
-   
-      </executions>
-   
-   </plugin>
-   ```
+若要針對內部部署設定和使用服務API JAR，請在專案的`pom.xml`檔案中新增服務API JAR做為專案相依性，如下所示：
+
+    ``XML
+    &lt;相依性>
+    &lt;groupId>com.adobe.aem&lt;/groupId>
+    &lt;artifactId>aem-guides-sdk-api&lt;/artifactId>
+    &lt;version>${RELEASE}&lt;/version>
+    &lt;/dependency>
+    
+    `&#39;
+
+>[!NOTE]
+>
+> 確保您使用與伺服器上安裝的AEM Guides套件相同版本的API JAR。
 
 
-## 從公共Maven存放庫設定並使用服務API JAR
+**從AEM Guides公用Maven存放庫設定及使用API JAR （內部部署）**
 
-執行以下步驟，在您的專案中設定和使用公用Maven存放庫中的服務API JAR：
+>[!NOTE]
+>
+> 公用的AEM Guides Maven存放庫將在Experience Manager Guides 5.3.0版發行後淘汰。 此API JAR此後將只能在Maven中央存放庫中使用。
 
-1. 若要在專案中使用服務API JAR，請在pom.xml檔案中設定AEM Guides公用Maven存放庫。
-2. 依照以下步驟，在Maven的settings.xml檔案中設定公用Maven存放庫：
+執行以下步驟，使用公共Maven存放庫中的服務API JAR：
+
+1. 在您的`pom.xml`或`settings.xml`檔案中設定AEM Guides公用Maven存放庫，如下所示：
 
    ```XML
    <repository>
-      <id>fmdita-public</id>
-      <name>fmdita-public</name>
-      <url>https://repo.aem-guides.com/repository/fmdita-public</url>
-   </repository>
+       <id>fmdita-public</id>
+       <name>fmdita-public</name>
+       <url>https://repo.aem-guides.com/repository/fmdita-public</url>
+    </repository>
    ```
 
-3. 設定存放庫後，在專案的pom.xml檔案中新增服務API JAR作為專案相依性。
+1. 設定存放庫後，將服務API JAR新增為專案`pom.xml`檔案中的專案相依性。
+
+   ```XML
+   <dependency>
+       <groupId>com.adobe.fmdita</groupId>
+       <artifactId>api</artifactId>
+       <version>${RELEASE}</version>
+   </dependency>
+   ```
 
    >[!NOTE]
    >
    > 使用與您在伺服器上安裝的AEM Guides套件相同版本的API JAR。
 
-4. 設定Maven相依性，如下所示：
-
-   ```XML
-   <dependency>
-      <groupId>com.adobe.fmdita</groupId>
-      <artifactId>api</artifactId>
-      <version>4.0</version>
-   </dependency>
-   ```
+一旦在專案的`pom.xml`檔案中將服務API JAR新增為專案相依性，您就可以在專案中建置和使用AEM Guides Java API。
 
 
-一旦在專案的pom.xml檔案中將服務API JAR新增為專案相依性，您即可在專案中建立並使用AEM Guides Java API。
+### REST型API
 
-## 使用AEM Guides as a Cloud Service的Maven中央存放庫中的API JAR
+Experience Manager Guides提供了一組完整的REST型API，讓開發人員可透過HTTP存取核心功能並與之互動。
 
-對於AEM Guides as a Cloud Service，API JAR已部署到Maven Central。 您無需任何設定即可使用API JAR。
+這些API非常適合：
 
->[!NOTE]
->
-> 已根據雲端附加元件命名慣例更新API jar的命名慣例。
+- 將Experience Manager Guides與其他企業系統整合
+- 自動化發佈和稽核工作流程
+- 建置自訂應用程式和擴充功能
 
-若要使用API JAR，您必須將相依性新增到專案的pom.xml，如下所示：
-
-```XML
-<dependency>
-   <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-dox-sdk-api</artifactId>
-   <version>${RELEASE}</version>
-</dependency>
-```
-
->[!NOTE]
->
-> 由於API JAR內的套件仍然相同，因此不需要變更程式碼即可在現有雲端專案中使用此API JAR。
-
-### Java型API
-
-您可以使用Experience Manager Guides中提供的Java式API來建立自訂外掛程式，並擴充現成可用的工作流程。 檢視[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api)，以取得有關使用Java型API的最新和詳細檔案。
-
-
+如需API使用、引數和範例要求的詳細資訊，請檢視Experience Manager Guides檔案&#x200B;**API參考**&#x200B;章節中的相關主題。
 
 ## 其他資源
 
-以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/tw/support/xml-documentation-for-experience-manager.html)頁面上取得：
+以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)頁面上取得：
 
 - 使用手冊
 - 安裝及設定指南
 - 快速入門手冊
-- [說明封存頁面](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html) \（存取舊版檔案\）
+- [說明封存頁面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（存取舊版檔案\）

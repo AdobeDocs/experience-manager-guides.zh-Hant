@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guides 2025.10.0版的新增功能
 description: 瞭解2025.10.0版Adobe Experience Manager Guides中的新功能和增強功能
 role: Leader
-source-git-commit: bf08a48cd00170bdbe8cde312aac9776f871dbf9
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---

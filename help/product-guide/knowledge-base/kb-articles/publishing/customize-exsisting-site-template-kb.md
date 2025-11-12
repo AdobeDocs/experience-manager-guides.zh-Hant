@@ -4,9 +4,10 @@ description: 瞭解如何為AEM Guides自訂現有的AEM網站範本
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '919'
 ht-degree: 1%
 
 ---
@@ -32,9 +33,9 @@ ht-degree: 1%
 
 範本名稱會依專案設定而有所不同。 例如，在OOTB AEMG Docs設定中：
 
-- 檔案容器頁面： /conf/AEMG-Docs-Site/settings/wcm/templates/kb-content
+- 檔案容器頁面： `/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content`
 
-- 主題頁面： /conf/AEMG-Docs-Site/settings/wcm/templates/topic-content
+- 主題頁面： `/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content`
 
 **自訂：**&#x200B;自訂程式包含兩個主要步驟：
 
@@ -85,7 +86,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 請確定wcm/foundation/components底下使用sling:resourceType的元件已移轉至對應的核心/wcm/components。
+> 確定在:resourceType下使用sling`wcm/foundation/components`的元件已移轉至對應的`core/wcm/components`。
 
 在相同範本的結構中新增相同的（容器和文字元件）：
 
@@ -139,4 +140,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 請務必先在非生產環境中測試範本，然後再部署到生產環境。<br><br>如需詳細資訊，請參閱正式[AEM Guides](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/get-started/authoring)檔案。
+> 請務必先在非生產環境中測試範本，然後再部署到生產環境。<br><br>如需詳細資訊，請參閱正式[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring)檔案。

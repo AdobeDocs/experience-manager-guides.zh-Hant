@@ -3,10 +3,10 @@ title: Adobe Experience Manager Guides發行藍圖2024
 description: 取得關於Adobe Experience Manager Guides現場直播和即將發行和Adobe Experience Manager Guides as a Cloud Service的資訊
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: cadfb3401df5fb69a5682b5671b217fb4e93bc15
+source-git-commit: 9727fa4458fd4987905af5eb21756868a9545bb2
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 26%
+source-wordcount: '558'
+ht-degree: 27%
 
 ---
 
@@ -24,18 +24,21 @@ Experience Manager Guides as a Cloud Service預計發行版本如下：
 
 ### 計畫發行
 
-
 | 發行 | 事件 | 排程 | 新增功能 | 升級指示 | 已修正的問題 | 狀態 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.11.0 | 自動更新 | 2025 年 11 月 17 至 19 日 |  |  |  | 目標 |
+| Adobe Experience Manager Guides 2026.01.0 <br> | 自動更新 | 2026 年 1 月 26 至 28 日 | - | - | - | 目標 |
+| Adobe Experience Manager Guides 2026.03.0 <br> | 自動更新 | 2026年3月09-11日 | - | - | - | 目標 |
+| Adobe Experience Manager Guides 2026.04.0 <br> | 自動更新 | 2026年4月27至29日 | - | - | - | 目標 |
+| Adobe Experience Manager Guides 2026.06.0 <br> | 自動更新 | 2026年6月08至10日 | - | - | - | 目標 |
 
 ### 即時發行
 
 | 發行 | 事件 | 排程 | 新增功能 | 升級指示 | 已修正的問題 | 狀態 |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2025.11.0 <br> [(AEM版本 — 23320)](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2025 年 11 月 17 至 19 日 | [這裡](whats-new-2025-11-0.md) | [這裡](upgrade-instructions-2025-11-0.md) | [這裡](fixed-issues-2025-11-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2025.10.0 <br> [(AEM版本 — 22943)](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2025 年 10 月 20 至 22 日 | [這裡](whats-new-2025-10-0.md) | [這裡](upgrade-instructions-2025-10-0.md) | [這裡](fixed-issues-2025-10-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2025.08.0 <br> [(AEM版本 — 21994)](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2025 年 8 月 25 至 27 日 | [這裡](whats-new-2025-08-0.md) | [這裡](upgrade-instructions-2025-08-0.md) | [這裡](fixed-issues-2025-08-0.md) | 已更新 |
-| Adobe Experience Manager Guides 2025.07.0 <br> [(AEM版本 — 21570)](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-7-0?lang=en#21570) | 自動更新 | 2025 年 7 月 14 至 16 日 | [這裡](whats-new-2025-07-0.md) | [這裡](upgrade-instructions-2025-07-0.md) | [這裡](fixed-issues-2025-07-0.md) | 已更新 |
+| Adobe Experience Manager Guides 2025.07.0 <br> [(AEM版本 — 21570)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-7-0?lang=en#21570) | 自動更新 | 2025 年 7 月 14 至 16 日 | [這裡](whats-new-2025-07-0.md) | [這裡](upgrade-instructions-2025-07-0.md) | [這裡](fixed-issues-2025-07-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2025.6.0 | 自動更新 | 2025年6月02日至04日 | [這裡](whats-new-2025-06-0.md) | [這裡](upgrade-instructions-2025-06-0.md) | [這裡](fixed-issues-2025-06-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2025.4.0 | 自動更新 | 2025年5月05至07日 | [這裡](whats-new-2025-04-0.md) | [這裡](upgrade-instructions-2025-04-0.md) | [這裡](fixed-issues-2025-04-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2025.2.0 | 自動更新 | 2025 年 3 月 10 至 12 日 | [這裡](whats-new-2025-02-0.md) | [這裡](upgrade-instructions-2025-02-0.md) | [這裡](fixed-issues-2025-02-0.md) | 已更新 |

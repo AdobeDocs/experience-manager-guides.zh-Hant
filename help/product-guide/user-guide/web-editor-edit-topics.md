@@ -4,9 +4,9 @@ description: 瞭解如何在編輯器中編輯主題。 瞭解各種編輯功能
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
+source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 您也可以設定位於 — `/etc/designs/fmdita/clientlibs/xmleditor/`的`ui_config.json`檔案，選擇要顯示在工具列中的圖示。 如需自訂功能的詳細資訊，請連絡您的系統管理員。
+   > 您也可以設定位於 — `ui_config.json`的`/etc/designs/fmdita/clientlibs/xmleditor/`檔案，選擇要顯示在工具列中的圖示。 如需自訂功能的詳細資訊，請連絡您的系統管理員。
 
 1. 完成檔案編輯之後，請選取&#x200B;**全部儲存**。
 
@@ -48,12 +48,11 @@ Experience Manager Guides也可讓您跨元素選取內容。 選取內容後，
 
    - 選取元素中的內容。
    - 從頂端的工具列選取![新增](images/Add_icon.svg)圖示以檢視&#x200B;**插入專案**&#x200B;對話方塊。 此對話方塊會列出所選內容的有效元素。
-
      >[!NOTE]
      >
      > 您也可以選取所選內容的內容功能表，來檢視「插入元素」對話方塊。
 
-   - 從對話方塊中選取元素。 所選內容會包裝在該元素下。 例如，如果您選取段落中的內容，然後從&#x200B;**插入元素**&#x200B;對話方塊中選擇`<note>`元素，則選取的內容會顯示在附注下。
+   - 從對話方塊中選取元素。 所選內容會包裝在該元素下。 例如，如果您選取段落中的內容，然後從`<note>`插入元素&#x200B;**對話方塊中選擇**&#x200B;元素，則選取的內容會顯示在附注下。
 
      ![插入專案對話方塊](./images/insert-element-editor.png) {width="300" align="left"}
 
@@ -108,11 +107,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
-## 在「存放庫」檢視中找出開啟的檔案
+## 在檔案總管中找出開啟的檔案
 
-當您在編輯器中開啟檔案時，Experience Manager Guides會提供在「存放庫」檢視中尋找檔案的功能。 例如，在您編輯主題時，它會找到目前的主題。
+當您在編輯器中開啟檔案時，Experience Manager Guides會提供在Explorer中尋找檔案的功能。 例如，在您編輯主題時，它會找到目前的主題。
 
-您可以關閉此功能，以從&#x200B;**使用者偏好設定**&#x200B;的&#x200B;**外觀**&#x200B;索引標籤中使用&#x200B;**永遠尋找存放庫中的檔案**&#x200B;選項來尋找檔案。
+您可以關閉此功能，以便從&#x200B;**使用者偏好設定**&#x200B;的&#x200B;**外觀**&#x200B;索引標籤使用&#x200B;**永遠在檔案總管**&#x200B;中尋找檔案。
 
+>[!NOTE]
+>
+>從2025.11.0版開始，設定&#x200B;**永遠尋找存放庫中的檔案**&#x200B;重新命名為&#x200B;**永遠尋找檔案總管**。 對於內部部署設定，在Experience Manager Guides 5.1版發行前，它仍可在存放庫中永遠尋找檔案中使用。
 
-**父級主題：**&#x200B;[&#x200B;使用編輯器](web-editor.md)
+**父級主題：**[&#x200B;使用編輯器](web-editor.md)

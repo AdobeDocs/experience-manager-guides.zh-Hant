@@ -3,9 +3,9 @@ title: Experience Manager Guides中的Workspace設定
 description: 瞭解Experience Manager Guides編輯器介面中可用的各種設定。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2151'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 您也可以定義面板中特徵的顯示順序。 若要變更面板中可用功能的預設順序，請選取虛線以將功能標籤拖放到所需位置。 功能也可以從&#x200B;**更多**&#x200B;區段移至面板的主要區段，反之亦然。 重新排序後，功能會以相同的順序顯示在個別的右側和左側面板中。
 
-![](../user-guide/images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
 
 
 一次最多可以顯示8個面板。 對面板設定所做的任何變更都會立即套用。
@@ -188,13 +188,16 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > 選取的結構描述檔案將會在選取的資料夾設定檔中持續存在。
+  >- 選取的結構描述檔案將會在選取的資料夾設定檔中持續存在。
+  >- 新增無效的Schematron檔案時，會顯示錯誤訊息，如下所示。
 
-  ![在工作區設定中驗證](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![在工作區設定中驗證](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
   這可防止使用者儲存任何破壞所選Schematron檔案中定義規則的檔案。 如果未選取此專案，在儲存變更之前，將不會驗證檔案。
 
 - **允許所有使用者在驗證面板中新增Schematron檔案**：選取此選項可允許使用者在編輯器的驗證面板中新增任何Schematron檔案。 這可讓使用者新增Schematron檔案，然後針對Schematron檔案驗證主題。 如果未選取此專案，則編輯器&#x200B;**驗證面板**&#x200B;的使用者無法使用新增結構描述檔案&#x200B;**新增結構描述檔案**&#x200B;按鈕的選項。
+
+  ![在工作區設定中驗證](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
 
 ## 顯示屬性
@@ -252,11 +255,11 @@ ht-degree: 0%
 
 工作區設定中的![中繼資料索引標籤](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
-*設定&#x200B;**版本記錄**&#x200B;對話方塊的中繼資料。*
+*設定&#x200B;**版本記錄**對話方塊的中繼資料。*
 
 
 
 您也可以定義這些中繼資料標籤的顯示順序。 若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
-中繼資料標籤會以相同的順序顯示在編輯器的&#x200B;**版本記錄**&#x200B;對話方塊中。
+中繼資料標籤會以相同的順序顯示在編輯器的**版本記錄**&#x200B;對話方塊中。
 
 

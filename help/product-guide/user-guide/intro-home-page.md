@@ -4,9 +4,9 @@ description: 瞭解Adobe Experience Manager Guides的首頁。
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 首頁是您登入Experience Manager Guides時檢視的第一個畫面。 它為您提供統一且直覺的歡迎畫面體驗，包括您最近存取的檔案、集合等的快速檢視。
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page-new.png){align="left"}
 
 Experience Manager Guides首頁分為下列區段：
 
@@ -66,9 +66,13 @@ Experience Manager Guides首頁分為下列區段：
 
 ## 左側面板
 
-左側面板可讓您快速存取概述、對應集合、大量發佈、發佈佇列和使用者偏好設定功能。 您可以選取位於介面左下角的&#x200B;**展開**&#x200B;圖示來展開面板。 展開後，請使用&#x200B;**摺疊**&#x200B;圖示來摺疊面板。
+>[!NOTE]
+>
+> 左側面板中的存放庫僅適用於2025.11.0版以後的雲端服務設定。 對於內部部署設定，系統會繼續從編輯器介面存取存放庫。
 
-![](images/aem-home-left-panel.png){width="300" align="left"}
+左側面板可讓您快速存取概述、存放庫、對應集合、大量發佈、發佈佇列和使用者偏好設定功能。 您可以選取位於介面左下角的&#x200B;**展開**&#x200B;圖示來展開面板。 展開後，請使用&#x200B;**摺疊**&#x200B;圖示來摺疊面板。
+
+![](images/home-with-repository.png){width="300" align="left"}
 
 您在此面板上的檢視內容取決於您的使用者角色。 下表列出顯示在左側面板中的角色和個別區段。
 
@@ -80,6 +84,7 @@ Experience Manager Guides首頁分為下列區段：
 左側面板中可用的功能說明如下：
 
 - [概觀](#overview)
+- [存放庫](#repository)
 - [對應集合](#map-collections)
 - [大量發佈](#bulk-publish)
 - [發佈佇列](#publish-queue)
@@ -151,6 +156,10 @@ Widget也提供排序和調整欄大小的選項。 若要檢視這些選項，�
 >
 > 此外，如果您的管理員已在系統中設定Adobe Workfront整合，則&#x200B;**您的工作** Widget也會顯示在「Widget」區段中。 進一步瞭解Experience Manager Guides中的[Adobe Workfront整合](./workfront-integration.md#working-with-the-your-tasks-widget)。
 
+### 存放庫
+
+存放庫是輕鬆探索資料夾和檔案的集中樞紐。 它提供所有檔案和資料夾的完整表格清單檢視，及其內容詳細資訊。 透過此統一介面，您可以順暢地瀏覽檔案，並使用強大的篩選選項執行搜尋，確保效率和增強體驗。 深入瞭解[存放庫](./home-page-repository-view.md)。
+
 ### 對應集合
 
 Experience Manager Guides可讓您使用名為&#x200B;**地圖集合**&#x200B;的儀表板，組織內容以供發佈。 若要使用此功能，請從左側面板選取&#x200B;**對應集合**。 這會帶您進入&#x200B;**Assets UI**&#x200B;中的「對應集合」頁面，您可以[使用對應集合來產生輸出。](./generate-output-use-map-collection-output-generation.md)
@@ -189,4 +198,8 @@ Experience Manager Guides可讓您使用名為&#x200B;**地圖集合**&#x200B;�
 
    - **編輯器檔案顯示組態**：選取編輯器中檢視檔案的預設方式。 您可以在「作者」檢視中，依照各個面板的標題或檔案名稱來檢視檔案清單。 依預設，檔案會依編輯器的標題顯示。
 
-   - **永遠尋找存放庫中的檔案**：選取此選項，在編輯器中編輯檔案時，顯示檔案在存放庫中的位置。
+   - **永遠在檔案總管中尋找檔案**：選取此選項，以在編輯器中編輯檔案時，顯示檔案在存放庫中的位置。
+
+  >[!NOTE]
+  >
+  >從2025.11.0版開始，設定&#x200B;**永遠尋找存放庫中的檔案**&#x200B;重新命名為&#x200B;**永遠尋找檔案總管**。 對於內部部署設定，在Experience Manager Guides 5.1版發行前，它仍可在存放庫中永遠尋找檔案中使用。

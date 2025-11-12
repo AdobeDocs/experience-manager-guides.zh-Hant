@@ -4,9 +4,9 @@ description: 瞭解新的微服務如何在AEMaaCS上啟用可擴充的發佈。
 exl-id: 948fce3f-b989-48f0-9a85-e921717e2986
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: a860507b71f25a22aac7c09824f94c4e1a2b0f6b
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEM Guides中基於微服務的發佈支援PDF（原生和DITA-OT型）、HTML5、JSON和CUSTOM型別的輸出預設集。
+> AEM Guides中基於微服務的發佈支援PDF （原生和DITA-OT型）、AEM Site （使用複合元件對應）、HTML5、JSON和CUSTOM型別的輸出預設集。
 
 ## 雲端現有發佈工作流程的問題
 
@@ -26,6 +26,8 @@ DITA發佈是一項耗用大量資源的程式，主要取決於可用的系統�
 如果您未使用新服務，則所有發佈都會在同樣執行AEM雲端伺服器的相同Kubernetes(k8) Pod上進行。 典型的k8 pod會限制其可使用的記憶體和CPU數量。 如果AEM Guides使用者要發佈大型或平行的工作負載，此限制可能會很快突破。 K8會重新啟動Pod，而這些Pod嘗試使用的資源超過設定的限制，可能會對AEM雲端例項本身造成嚴重影響。
 
 這種資源限制是提出專屬服務的主要動機，可讓我們在雲端上執行多個並行和大型發佈工作負載。
+
+若要進一步瞭解如何在雲端上發佈工作流程，請檢視有關發佈工作流程與擴充能力的[常見問題集](/help/product-guide/user-guide/publishing-scalability-faq.md)。
 
 ## 新架構簡介
 
@@ -39,7 +41,7 @@ DITA發佈是一項耗用大量資源的程式，主要取決於可用的系統�
 
 >[!NOTE]
 >
-> 發佈程式會在AEM伺服器本身上執行要求的某些內容相依部分，例如相依性清單的產生。 不過，發行程式最詳盡的部分（例如執行DITA-OT或原生引擎）已解除安裝至新服務。
+> 發佈程式會在AEM伺服器本身執行請求的一些內容相依部分，例如相依性清單的產生。 不過，發行程式最詳盡的部分（例如執行DITA-OT或原生引擎）已解除安裝至新服務。
 
 
 ## 效能分析
@@ -58,7 +60,7 @@ DITA發佈是一項耗用大量資源的程式，主要取決於可用的系統�
 
 * 內部部署
 
-  單一發佈的結果在舊雲端架構或內部部署上較佳，因為完整發佈會發生在執行AEM的同一個Pod/電腦上。
+  單一發佈的結果較適用於舊版雲端架構或內部部署，因為完整發佈作業會發生在執行AEM的同一個Pod/電腦上。
 
   <img src="assets/onprem_single_publish.png" alt="專案索引標籤" width="600">
 
@@ -78,6 +80,6 @@ DITA發佈是一項耗用大量資源的程式，主要取決於可用的系統�
 
 ## 其他優點
 
-每個發佈請求的某些部分都必須在AEM執行個體上執行，以擷取要傳送至微服務的正確發佈內容。 新雲端架構使用AEM工作，取代了舊架構中的AEM工作流程。 此變更可讓AEM Guides管理員個別設定雲端發佈佇列設定，而不會影響其他AEM工作或工作流程設定。
+每個發佈請求的某些部分都必須在AEM執行個體上執行，以擷取要傳送至微服務的正確發佈內容。 新雲端架構使用AEM工作，取代了舊架構中的AEM工作流程。 這項變更可讓AEM Guides管理員個別設定雲端發佈佇列設定，而不會影響其他AEM工作或工作流程設定。
 
 如需如何設定新發佈微服務的詳細資訊，請前往此處： [設定微服務](configure-microservices.md)
