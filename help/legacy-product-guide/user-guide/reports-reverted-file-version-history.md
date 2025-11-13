@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: e5d02c6047c3ed74efa1777ce6585efc391af426
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -57,5 +57,6 @@ AEM Guides可讓您為個別檔案或資料夾中的所有檔案產生版本記�
 
    - **註解**：還原檔案的使用者所給予的任何註解。
 
+{{test}}
 
-**父級主題：**&#x200B;[&#x200B;報告](reports-intro.md)
+**父級主題：**[&#x200B;報告](reports-intro.md)
