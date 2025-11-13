@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
+source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 當您與多位作者一起同時發行多個版本時，您的內容將繫結有多個版本。 多個版本中可能會存在一些通用資訊，不同作者可在他們的專案中使用這些資訊。 為了處理這類工作指派，作者最終可能會有多個版本的檔案。 此類版本可能只是檔案的較新版本或還原為舊版本。 確認檔案何時還原及原因是一項複雜的工作。
 
 AEM Guides可讓您為個別檔案或資料夾中的所有檔案產生版本記錄報告。 此版本記錄為您提供已還原之檔案的所有版本、建立這些版本的人員，以及建立這些版本的原因的整合檢視。
+
+{{$include /help/_includes/overview.md}}
 
 您可以從下列位置存取此報告：
 
@@ -57,6 +59,6 @@ AEM Guides可讓您為個別檔案或資料夾中的所有檔案產生版本記�
 
    - **註解**：還原檔案的使用者所給予的任何註解。
 
-{{$include /help/_includes/overview.md}}
 
-**父級主題：**&#x200B;[&#x200B;報告](reports-intro.md)
+
+**父級主題：**[&#x200B;報告](reports-intro.md)

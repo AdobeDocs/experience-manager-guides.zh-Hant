@@ -4,10 +4,10 @@ description: 尋找Experience Manager Guides (先前稱為XML Documentation for 
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
+source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 1%
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +23,3 @@ ht-degree: 1%
 > 
 > Adobe Experience Manager Guides先前稱為Adobe Experience Manager的&#x200B;_XML Documentation_。 請注意，檔案中的某些參考資料可能仍會參考先前的品牌，但仍適用於目前的產品。
 
-## 其他資源
-
-* [[!DNL AEM Guides] 使用手冊（新UI）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides] 學習與支援](https://helpx.adobe.com/tw/support/xml-documentation-for-experience-manager.html)
-* [Experience League — 探索AEM](https://business.adobe.com/tw/products/experience-manager/adobe-experience-manager.html)
