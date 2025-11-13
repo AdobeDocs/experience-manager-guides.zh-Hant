@@ -3,7 +3,7 @@ title: 編輯器介面中的搜尋面板
 description: 瞭解如何在編輯器介面中使用搜尋面板。
 feature: Authoring
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
   ![](images/search-icon-editor.png){align="left"}
 
-- **首頁**：從首頁的存放庫介面導覽時，使用&#x200B;**在搜尋面板中顯示**&#x200B;選項。 如需詳細資料檢視，[從存放庫搜尋](#search-from-repository-interface-on-the-home-page)。
+- **首頁**：從首頁的存放庫介面導覽時，使用&#x200B;**在搜尋面板中顯示**&#x200B;選項。 如需詳細資料檢視，[從存放庫搜尋](#search-from-the-repository-interface-on-the-home-page)。
 
   ![](images/search-panel-repo.png){align="left"}
 
