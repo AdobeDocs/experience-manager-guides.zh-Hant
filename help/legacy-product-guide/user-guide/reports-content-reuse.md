@@ -5,31 +5,14 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 6f6bf3f7968837d3988b01e0ed0133d412577d57
+source-git-commit: 6261e1aa1966a81830fe8e5cf14337c8be4f81cb
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # 內容重複使用報表 {#id205BB900OQD}
-
-<table>
-  <tr>
-    <td style="width:100px;">適用於</th>
-    <td style="width:350px;">Experience Manager Guides Cloud Service、Experience Manager Guides On-Premise</th>
-
-</tr>
-  <tr>
-    <td style="width:125px;">支援的版本<br>(Cloud Service)</td>
-    <td style="width:100px;">2025.11.0、2025.12.0</td>
-    </tr>
-    <tr>
-    <td style="width:125px;">支援的版本<br> （內部部署）</td>
-    <td style="width:100px;">4.6.0、5.1.0</td>       
-  </tr>
-</table>
-
 
 另一個可以產生的有用報表是「內容重複使用報表」。 此報表會計算平均內容使用百分比，對於專案經理和業務擁有者檢視重複使用的內容量非常有用。
 
@@ -80,4 +63,4 @@ ht-degree: 0%
 >
 > 您也可以將「內容重複使用報表」匯出為CSV格式。 若要這麼做，請按一下畫面左上角的「匯出至CSV」連結，然後選擇儲存CSV檔案的位置。 然後您可以使用任何CSV編輯器開啟此CSV檔案。
 
-**父級主題：**&#x200B;[&#x200B;報告](reports-intro.md)
+**父級主題：**[&#x200B;報告](reports-intro.md)
