@@ -25,24 +25,24 @@ ht-degree: 1%
 
 ## 新增功能
 
-- **[[!DNL Experience Manager Guides] 入門課程](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
+- **[[!DNL Experience Manager Guides] 入門課程](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=zh-Hant){target="blank"}**
 
   _瞭解如何使用[!DNL Adobe Experience Manager Guides]建立、組織、製作及發佈內容。_
 
-- 在內建編輯器中&#x200B;**[[!DNL Experience Manager Guides] 製作](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+- 在內建編輯器中&#x200B;**[[!DNL Experience Manager Guides] 製作](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=zh-Hant){target="blank"}**
 
   _瞭解如何在[!DNL Adobe Experience Manager Guides]中使用原生網頁編輯器製作內容。 取得對使用者偏好設定、編輯器設定、設定、工具列等的完整瞭解。_
 
-- 產生&#x200B;**[輸出並顯示 [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
+- 產生&#x200B;**[輸出並顯示 [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=zh-Hant){target="blank"}**
 
   _瞭解如何使用[!DNL Adobe Experience Manager Guides]產生輸出。 瞭解輸出產生的各種可用功能 — 報告、基線、條件、疑難排解、大量發佈和啟用。_
 
 
 ## 其他資源
 
-- [[!DNL Experience Manager Guides] 使用手冊（舊的UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-- [[!DNL AEM Guides] 學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-- [Experience League — 探索AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
+- [[!DNL Experience Manager Guides] 使用手冊（舊的UI）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- [[!DNL AEM Guides] 學習與支援](https://helpx.adobe.com/tw/support/xml-documentation-for-experience-manager.html)
+- [Experience League — 探索AEM](https://business.adobe.com/tw/products/experience-manager/adobe-experience-manager.html)
 
 
 
