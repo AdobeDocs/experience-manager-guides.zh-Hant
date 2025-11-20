@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 下載並安裝 {#id1645E0O04MK}
 
-AEM Guides可透過Adobe軟體發佈入口網站取得。 您可以從Adobe軟體發佈入口網站帳戶下載AEM Guides，並將其安裝在安裝程式的所有Adobe Experience Manager \(AEM\)執行個體上。 通常您的編寫執行個體和AEM的生產執行個體會託管在不同伺服器上。 您必須在所有要使用的AEM執行個體上安裝AEM Guides。
+AEM Guides可透過Adobe軟體發佈入口網站取得。 您可以從您的Adobe軟體發佈入口網站帳戶下載AEM Guides，並將其安裝在安裝程式的所有Adobe Experience Manager \(AEM\)執行個體上。 一般而言，您的AEM製作執行個體和生產執行個體會託管於不同的伺服器。 您必須在您要使用的所有AEM執行個體上安裝AEM Guides。
 
 在開始下載和安裝之前，您必須確保您的系統符合安裝AEM Guides的技術要求。
 
@@ -32,4 +32,4 @@ AEM Guides可透過Adobe軟體發佈入口網站取得。 您可以從Adobe軟�
 
 - **[解除安裝AEM Guides](download-install-unistall-aemg.md)**
 
-- **[Recommendations效能最佳化](download-install-recommend-perf-optimiz.md)**
+- **[效能最佳化建議](download-install-recommend-perf-optimiz.md)**

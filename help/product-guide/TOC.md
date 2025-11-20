@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2418'
 ht-degree: 9%
 
 ---
@@ -162,13 +162,13 @@ ht-degree: 9%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]個運作中及主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
          - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 首頁 {#home-page}
       - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
@@ -194,7 +194,7 @@ ht-degree: 9%
             - [內容編輯區域](./user-guide/web-editor-content-editing-area.md)
             - [右側面板](./user-guide/web-editor-right-panel.md)
             - [搜尋面板](./user-guide/search-panel-explorer.md)
-         - [編輯器中的其他功能](./user-guide/web-editor-other-features.md)
+         - 編輯器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
          - [編輯器檢視](./user-guide/web-editor-views.md)
          - [支援Schematron檔案](./user-guide/support-schematron-file.md)
@@ -364,7 +364,7 @@ ht-degree: 9%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
@@ -390,7 +390,6 @@ ht-degree: 9%
          - [移轉非DITA內容](./install-guide/migrate-content-non-dita.md)
       - 使用自訂DITA-OT和專業化 {#custom-dita-ot-spec}
          - [使用自訂DITA-OT與DITA專業化](./install-guide/dita-ot-specialization.md)
-      - 設定UUID和非UUID型檔案名稱 {#conf-non-uuid-filename}
       - [設定資料夾的後處理](./install-guide/conf-folder-post-processing.md)
       - [設定檔案名稱](./install-guide/conf-file-names.md)
       - [根據UUID設定自動檔案名稱](./install-guide/conf-auto-uuid-filenames.md)
@@ -453,7 +452,6 @@ ht-degree: 9%
                - [套用樣式至註腳](./native-pdf/footnote-number-style.md)
          - [為原生PDF發佈設定JVM標幟](./native-pdf/configure-jvm-flags.md)
          - [設定基本輸出位置以發佈輸出](./native-pdf/configure-base-output-location.md)
-         - 使用自訂工作流程 {#custom-workflow}
          - [設定和自訂工作流程](./install-guide/customize-workflows.md)
       - 使用翻譯設定 {#translate-config}
          - [翻譯內容](./install-guide/translation.md)
