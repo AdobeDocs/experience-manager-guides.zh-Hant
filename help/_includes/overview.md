@@ -4,10 +4,10 @@ description: 尋找Experience Manager Guides (先前稱為XML Documentation for 
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
+source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 0%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -22,4 +22,27 @@ ht-degree: 0%
 >[!NOTE]
 > 
 > Adobe Experience Manager Guides先前稱為Adobe Experience Manager的&#x200B;_XML Documentation_。 請注意，檔案中的某些參考資料可能仍會參考先前的品牌，但仍適用於目前的產品。
+
+## 新增功能
+
+- **[[!DNL Experience Manager Guides] 入門課程](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
+
+  _瞭解如何使用[!DNL Adobe Experience Manager Guides]建立、組織、製作及發佈內容。_
+
+- 在內建編輯器中&#x200B;**[[!DNL Experience Manager Guides] 製作](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+
+  _瞭解如何在[!DNL Adobe Experience Manager Guides]中使用原生網頁編輯器製作內容。 取得對使用者偏好設定、編輯器設定、設定、工具列等的完整瞭解。_
+
+- 產生&#x200B;**[輸出並顯示 [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
+
+  _瞭解如何使用[!DNL Adobe Experience Manager Guides]產生輸出。 瞭解輸出產生的各種可用功能 — 報告、基線、條件、疑難排解、大量發佈和啟用。_
+
+
+## 其他資源
+
+- [[!DNL Experience Manager Guides] 使用手冊（舊的UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- [[!DNL AEM Guides] 學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+- [Experience League — 探索AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
+
+
 
