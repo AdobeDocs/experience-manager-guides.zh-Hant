@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 67e844faece8b6bb8988bb0e67f357cda1db9a4d
+source-git-commit: bf7838690d7632cd74fef0db3aaf7bdc48a50a2c
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -34,18 +34,18 @@ AEM Guides API有兩種格式：
 
 >[!INFO]
 >
->檢視[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)，以取得有關使用Experience Manager Guides as a Cloud Service的Java式API的最新和詳細檔案。
+>檢視[![javadoc](./images/javadoc-cs-icon.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)，以取得有關使用Experience Manager Guides as a Cloud Service的Java式API的最新和詳細檔案。
 
 若要在專案中設定和使用Maven存放庫中的服務API JAR，請在專案的`pom.xml`檔案中新增API SDK作為專案相依性，如下所示。
 
-    &grave;&grave;XML
+    ``XML
     &lt;相依性>
     &lt;groupId>com.adobe.aem&lt;/groupId>
     &lt;artifactId>aem-dox-sdk-api&lt;/artifactId>
     &lt;version>${RELEASE}&lt;/version>
     &lt;/dependency>
     
-    &grave;&#39;
+    `&#39;
 
 >[!NOTE]
 >
@@ -59,14 +59,14 @@ AEM Guides API有兩種格式：
 
 若要針對內部部署設定和使用服務API JAR，請在專案的`pom.xml`檔案中新增服務API JAR做為專案相依性，如下所示：
 
-    &grave;&grave;XML
+    ``XML
     &lt;相依性>
     &lt;groupId>com.adobe.aem&lt;/groupId>
     &lt;artifactId>aem-guides-sdk-api&lt;/artifactId>
     &lt;version>${RELEASE}&lt;/version>
     &lt;/dependency>
     
-    &grave;&#39;
+    `&#39;
 
 >[!NOTE]
 >
@@ -122,9 +122,9 @@ Experience Manager Guides提供了一組完整的REST型API，讓開發人員可
 
 ## 其他資源
 
-以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/tw/support/xml-documentation-for-experience-manager.html)頁面上取得：
+以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)頁面上取得：
 
 - 使用手冊
 - 安裝及設定指南
 - 快速入門手冊
-- [說明封存頁面](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html) \（存取舊版檔案\）
+- [說明封存頁面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（存取舊版檔案\）
