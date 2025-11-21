@@ -22,7 +22,7 @@ AEM中內容管理的一些主要概念如下：
 
 **資產管理**
 
-AEM Guides使用AEM的數位資產管理\(DAM\)來管理您的DITA檔案。 您上傳或簽入DAM的檔案會儲存為數位資產。 您可以在AEM Assets中管理和編輯資產。 如需資產管理的詳細資訊，請參閱[管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en)。
+AEM Guides使用AEM的數位資產管理\(DAM\)來管理您的DITA檔案。 您上傳或簽入DAM的檔案會儲存為數位資產。 您可以在AEM Assets中管理和編輯資產。 如需資產管理的詳細資訊，請參閱[管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=zh-Hant)。
 
 **連結管理**
 

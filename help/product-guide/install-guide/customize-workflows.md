@@ -18,20 +18,20 @@ ht-degree: 2%
 
 如需AEM工作流程的詳細資訊，請參閱：
 
-- [管理工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
+- [管理工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 套用及參與工作流程： [使用工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)。
+- 套用及參與工作流程： [使用工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/authoring/using/workflows.html)。
 
-- 正在建立工作流程模型並擴充工作流程功能： [開發和擴充工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)。
+- 正在建立工作流程模型並擴充工作流程功能： [開發和擴充工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/workflows.html)。
 
-- 改善使用重要伺服器資源的工作流程效能： [並行工作流程處理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
+- 改善使用重要伺服器資源的工作流程效能： [並行工作流程處理](https://helpx.adobe.com/tw/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
 
 
 本主題中的各節將逐步引導您瞭解在AEM Guides中提供的預設工作流程中可以進行的各種自訂。
 
 ## 自訂稽核工作流程 {#id176NE0C00HS}
 
-每個組織的內容製作團隊都會以特定方式運作，以符合其業務需求。 某些組織設有專屬的編輯者，而其他組織則可設有自動編輯稽核系統。 例如，在組織中，典型的撰寫和發佈工作流程可能包括這樣的任務 — 每當作者完成編寫內容時，它會自動轉給稽核者，當稽核完成時，它就會轉給發佈者用於產生最終輸出。 在AEM中，您對內容和資產執行的活動可以程式形式合併，並對應至AEM工作流程。 如需AEM工作流程的詳細資訊，請參閱AEM檔案中的[管理工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)。
+每個組織的內容製作團隊都會以特定方式運作，以符合其業務需求。 某些組織設有專屬的編輯者，而其他組織則可設有自動編輯稽核系統。 例如，在組織中，典型的撰寫和發佈工作流程可能包括這樣的任務 — 每當作者完成編寫內容時，它會自動轉給稽核者，當稽核完成時，它就會轉給發佈者用於產生最終輸出。 在AEM中，您對內容和資產執行的活動可以程式形式合併，並對應至AEM工作流程。 如需AEM工作流程的詳細資訊，請參閱AEM檔案中的[管理工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/workflows.html)。
 
 AEM Guides可讓您自訂預設的稽核工作流程。 您可以搭配其他撰寫或發佈工作流程，使用下列四個自訂檢閱相關流程。
 

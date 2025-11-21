@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## FMPS與AEM Guides的相容性
 
-- 與4.1 AEM Guides的相容性： [4.1相容性矩陣](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- 與4.1 AEM Guides的相容性： [4.1相容性矩陣](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=zh-Hant/#compatibility-matrix)
 - 與4.0 AEM Guides的相容性： [4.0相容性矩陣](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 最新版本： [最新版本資訊](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+- 最新版本： [最新版本資訊](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=zh-Hant)
 
 ## 安裝
 
@@ -93,7 +93,7 @@ FrameMaker Publishing Server (FMPS)可用來產生您的DITA內容。 FMPS支援
 
 ## 其他資源：
 
-[FMPS學習與支援](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[FMPS學習與支援](https://helpx.adobe.com/tw/support/framemaker-publishing-server.html)
 
 [AEM Guides學習與支援](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 

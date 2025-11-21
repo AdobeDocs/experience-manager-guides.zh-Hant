@@ -52,7 +52,7 @@ AEM Guides提供的預設DITA-OT套件附帶Apache FOP XSL-FO處理器，該處�
 
    >[!NOTE]
    >
-   > 建議不要覆寫預設的DITA-OT套件。 您應該上傳包含外掛程式/var/dxml/dita\_resources/dita-ot資料夾的自訂DITA-OT套件。 您也可以使用Cloud Manager管道來執行此操作。如需詳細資訊，請參閱AEM檔案中的[部署至AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html)。
+   > 建議不要覆寫預設的DITA-OT套件。 您應該上傳包含外掛程式/var/dxml/dita\_resources/dita-ot資料夾的自訂DITA-OT套件。 您也可以使用Cloud Manager管道來執行此操作。如需詳細資訊，請參閱AEM檔案中的[部署至AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=zh-Hant)。
 
 1. 您可以選擇編輯「預設設定檔」、建立新設定檔，或從「預設設定檔」複製設定以建立新設定檔。
 
