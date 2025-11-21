@@ -2,9 +2,10 @@
 title: 發行說明 | Adobe Experience Manager Guides 4.6.0版的升級指示
 description: 瞭解如何升級至Adobe Experience Manager Guides 4.6.0版
 role: Leader
-source-git-commit: 1880d889dc9063ef05c4f856d6082d1ea03b7946
+exl-id: 03d0d85b-7324-441f-9b35-66a63691d630
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '464'
 ht-degree: 5%
 
 ---
@@ -33,21 +34,21 @@ ht-degree: 5%
 
 ### FrameMaker和FrameMaker Publishing Server
 
-| 發行 | FMPS 2022 | FMPS 2020 | FM 2022 | FM 2020 |
+| 發行版本 | FMPS 2022 | FMPS 2020 | FM 2022 | FM 2020 |
 | --- | --- | --- | --- | --- |
 | 4.6.0 （非UUID） | 2022或更高 | 2020.2或更新版本* | 2022或更高 | 2020.3或更高版本 |
 | 4.6.0 (UUID) | 2022或更高 | 2020.2或更新版本* | 2022或更高 | 2020.4或更新版本 |
-| | | | |
+| | | | | |
 
 *從2020.2開始的FMPS版本支援AEM中建立的基準和條件。
 
 ### 氧氣聯結器
 
-| 發行 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
+| 發行版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- |--- |--- |
 | 4.6.0 （非UUID） | 2.8-regular-10 | 2.8-regular-10 | 1.6 | 1.6 |
 | 4.6.0 (UUID) | 3.6-uuid.9 | 3.6-uuid.9 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   | |  |
 
 ### 知識庫範本版本
 
@@ -70,10 +71,10 @@ ht-degree: 5%
 - 如果您是使用4.2、4.2.1 (Hotfix 4.2.1.3)、4.1或4.1.x版，則必須先升級至4.4版，才能升級至4.6.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用3.8.5之前的版本，請參閱[Experience Manager Guides說明PDF封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)上產品特定安裝指南中的「升級Adobe Experience Manager Guides」一節。
+- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
 
 >[!NOTE]
 >
->升級Experience Manager Guides版本前，您必須先安裝AEM Service Pack。
+>您必須先安裝AEM Service Pack，才能升級Experience Manager Guides版本。
 
-如需詳細資訊，請檢視Experience Manager Guides內部部署版本[&#128279;](../install-guide/upgrade-xml-documentation.md)的升級指示。
+如需詳細資訊，請檢視Experience Manager Guides內部部署版本[的](../install-guide/upgrade-xml-documentation.md)升級指示。

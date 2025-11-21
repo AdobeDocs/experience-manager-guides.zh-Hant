@@ -4,7 +4,7 @@ description: 在Webeditor中使用Schematron
 exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 「*Schematron*」是指用來定義XML檔案測試的規則型驗證語言。 您可以匯入Schematron檔案，也可以在Web編輯器中編輯它們。 使用「Schematron」檔案，您可以定義特定規則，然後針對DITA主題或地圖驗證這些規則。 Schematron規則可以強制實施定義為規則的限制，以確保XML結構的一致性。 這些限制是由擁有內容品質和一致性的SME所推動。
 
-    注意：網頁編輯器支援ISO結構描述。
+注意：網頁編輯器支援ISO架構。
 
 
 ## 瞭解「Schematron」在網頁編輯器中如何運作
@@ -41,7 +41,7 @@ Webeditor設定可讓超級使用者設定每次使用者更新內容時所執�
 
 可以，作為作者/使用者，在建立內容時，您可以使用Webeditor中的「方案」面板來上傳Schematron檔案，並在編輯器中開啟的檔案上執行驗證。
 
-    為了使其運作，資料夾設定檔管理員必須允許所有使用者在[驗證]面板中新增Schemtron檔案。 檢視編輯器設定（以上提供的熒幕擷圖）
+為了使其運作，資料夾設定檔管理員必須允許所有使用者在驗證面板中新增結構描述檔案。 請參閱編輯器設定（上方提供的熒幕擷圖）
 
 ![選擇結構描述檔案](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![執行驗證](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
@@ -102,5 +102,5 @@ Webeditor設定可讓超級使用者設定每次使用者更新內容時所執�
 #### 資源
 
 - 瞭解[結構描述基本概念](https://da2022.xatapult.com/#what-is-schematron)
-- 深入瞭解Schematron[&#128279;](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)中的宣告規則
+- 深入瞭解Schematron[中的](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)宣告規則
 - [Schematron檔案範例](../../../assets/authoring/sample_schematron.sch)

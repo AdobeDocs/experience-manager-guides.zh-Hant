@@ -4,7 +4,7 @@ description: 從地圖控制面板在AEM Guides中建立及設定AEM網站預設
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 下列選項適用於AEM Sites輸出：
 
-| AEM Sites選項 | 描述 |
+| AEM Sites選項 | 說明 |
 | --- | --- |
 | 輸出類型 | 您要產生的輸出型別。 若要產生回應式AEM Sites輸出，請選擇AEM Sites選項。 |
 | 設定名稱 | 為您正在建立的AEM Sites設定提供描述性名稱。 例如，您可以指定&#x200B;*內部客戶輸出*&#x200B;或&#x200B;*一般使用者輸出*。 |
@@ -114,4 +114,4 @@ AEM Guides支援在現有AEM網站中發佈DITA內容。 例如，如果您有�
 
 如需詳細資訊，請檢視「安裝與設定AEM」指南中的&#x200B;*設定Adobe Experience Manager Guides網站節點結構的平面化*&#x200B;區段。
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

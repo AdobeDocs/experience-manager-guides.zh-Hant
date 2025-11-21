@@ -5,7 +5,7 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 6%
@@ -18,10 +18,10 @@ ht-degree: 6%
 
 ## 在資料夾層級的設定檔中新增條件屬性
 
-將條件屬性新增至指定資料夾層級設定檔的POST方法。
+一種POST方法，可將條件屬性新增至指定的資料夾層級設定檔。
 
 **要求URL**：\
-http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/fmdita/folderprofiles
+http://*<aem-guides-server\>*： *<連線埠號碼\>*/bin/fmdita/folderprofiles
 
 **引數**：
 

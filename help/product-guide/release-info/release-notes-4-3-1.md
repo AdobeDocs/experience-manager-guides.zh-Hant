@@ -4,9 +4,9 @@ description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Gui
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1307'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->升級Experience Manager Guides版本前，您必須先安裝AEM Service Pack。
+>您必須先安裝AEM Service Pack，才能升級Experience Manager Guides版本。
 
 如需詳細資訊，請參閱[升級指示](../install-guide/upgrade-xml-documentation.md)。
 
@@ -53,21 +53,21 @@ ht-degree: 1%
 
 ### FrameMaker和FrameMaker Publishing Server
 
-| 發行 | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
+| 發行版本 | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
 | 4.3.1 （非UUID） | 2022或更高 | 2020.2或更新版本* | 2022或更高 | 2020.3或更高版本 |
 | 4.3.1 (UUID) | 2022或更高 | 2020.2或更新版本* | 2022或更高 | 2020.4或更新版本 |
-| | | | |
+| | | | | |
 
 *從2020.2開始的FMPS版本支援AEM中建立的基準和條件。
 
 ### 氧氣聯結器
 
-| 發行 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
+| 發行版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- |--- |--- |
 | 4.3.1 （非UUID） | 2.3-regular-5 | 2.3-regular-5 | 1.6 | 1.6 |
 | 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   | | |
 
 
 
@@ -107,25 +107,25 @@ ht-degree: 1%
 
 ### 發佈
 
-- 原生PDF | 產生PDF輸出時，主題的順序未固定。 (13157)
+- 原生PDF | 產生PDF輸出時，主題的順序無法固定。 (13157)
 - 原生PDF| `<p>`元素沒有可用的預設樣式標籤。 (12559)
 - 原生PDF | 套用至內容區域的內嵌樣式不會套用至前後關聯的主題。 (13510)
-- 產生AEM Site輸出時未傳播`DeliveryTarget`屬性。  (13132)
-- 針對發生特定錯誤的內容產生AEM網站輸出時，**Publish**&#x200B;工作流程卡住。 (12000)
+- 產生AEM網站輸出時未傳播`DeliveryTarget`屬性。  (13132)
+- 針對發生特定錯誤的內容產生AEM網站輸出時，**發佈**&#x200B;工作流程卡住。 (12000)
 
 - 原生PDF | 包含多個Xref會延伸文字超過欄寬。 (13004)
 - 原生PDF | 當主題和標題具有相同的ID時，會導致PDF輸出的產生格式錯誤。 (12644)
 - 原生PDF | 在DITA map中將outputclass新增至父`<topicref>`元素並將自訂樣式套用至outputclass時，該樣式會套用至主題內文中的元素，包括區段標題。 (12166)
 - 如果DITA map有多個ditavalref，則增量發佈無法運作。 (12117)
 - AEM網站 | 使用keydef將主題作為變數來建立對應，然後新增processing-role=resource-only會建立一些未預期的頁面。 (12099)
-- 如果來自AEM DAM的任何資產用於AEM網站以外的任何輸出，則中繼資料「jcr：createdBy」不會反映發佈者的名稱或上次修改DITA map或主題的使用者名稱。 (12090)
+- 如果AEM DAM的任何資產用於AEM網站以外的任何輸出，則中繼資料「jcr:createdBy」不會反映發佈者的名稱或上次修改DITA map或主題的使用者名稱。 (12090)
 - AEM Sites | DITA地圖的navtitle中帶有主題標題（包含不支援的字元）會導致頁面URL錯誤。 (11978)
 - 原生PDF | 在Frontmatter和Backmatter支援topichead / topicmeta / navtitle時發生問題。 (11969)
 - 原生PDF | 為大型檔案產生PDF非常耗時。 (11955)
 - 原生PDF | 重新命名預設集會在產生PDF輸出時擲回NullPointerException。 (11889)
-- PDF輸出中未顯示`<conref>`內容。 (11131)
+- `<conref>`內容未顯示在PDF輸出中。 (11131)
 - 在頁面配置編輯器的「作者」和「Source」檢視之間切換時，`<div>`元素內會新增一個額外空間。 (10750)
-- 在AEM Cloud Manager上復寫的內容在Publish執行個體上不可見。 (9564)
+- 在AEM Cloud Manager上復寫的內容在發佈執行個體上不可見。 (9564)
 
 
 ### 管理
@@ -139,12 +139,12 @@ ht-degree: 1%
 ### 檢閱
 
 - 有關主題的評論會顯示不正確的評論。 (13453)
-- Experience Manager Guides中「檢閱」頁面上的「關閉」按鈕會將使用者帶往AEM首頁。 (13535)
+- Experience Manager Guides中「檢閱」頁面上的「關閉」按鈕會將使用者前往AEM首頁。 (13535)
 - 對於稽核中主題，附件不會顯示在編輯器的右側面板上。 (13011)
 
 
 
-### 轉換
+### 翻譯
 
 - 從&#x200B;**Translation**&#x200B;儀表板匯出的基準線失敗，且未以目標語言開啟。 (13466)
 

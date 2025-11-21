@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 9%
@@ -22,7 +22,7 @@ AEM中內容管理的一些主要概念如下：
 
 **資產管理**
 
-AEM Guides使用AEM的數位資產管理\(DAM\)來管理您的DITA檔案。 您上傳或簽入DAM的檔案會儲存為數位資產。 您可以在AEM Assets中管理和編輯資產。 如需資產管理的詳細資訊，請參閱[管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=zh-Hant)。
+AEM Guides使用AEM的數位資產管理\(DAM\)來管理您的DITA檔案。 您上傳或簽入DAM的檔案會儲存為數位資產。 您可以在AEM Assets中管理和編輯資產。 如需資產管理的詳細資訊，請參閱[管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en)。
 
 **連結管理**
 
@@ -63,27 +63,27 @@ AEM Guides提供三個現成可用的群組。 這些群組是： *作者*、*�
 | 複製 | 是 |   | 是 |
 | 刪除 | 是 |   | 是 |
 | 共用 | 是 |   | 是 |
-| **檔案狀態** |
+| **檔案狀態** |  |  |  |
 | 建立/編輯檔案狀態設定檔 |   |   | 是 |
 | 變更檔案狀態[2](#fntarg_2) | 是 | 是 | 是 |
-| **DITA map主控台中可用的功能\（輸出預設集索引標籤\）** |
+| **DITA map主控台中可用的功能\（輸出預設集索引標籤\）** |  |  |  |
 | 產生 |   |   | 是 |
 | 編輯 |   |   | 是 |
 | 重複項目 |   |   | 是 |
 | 建立 |   |   | 是 |
 | 刪除預設集 |   |   | 是 |
-| **DITA map主控台中可用的功能\（輸出標籤\）** |
+| **DITA map主控台中可用的功能\（輸出標籤\）** |  |  |  |
 | 檢視產生的輸出 | 是 |   | 是 |
-| **DITA map主控台中可用的功能\（主題標籤\）** |
+| **DITA map主控台中可用的功能\（主題標籤\）** |  |  |  |
 | 建立評論任務 | 是 |   | 是 |
 | 編輯 | 是 |   | 是 |
-| **DITA map主控台中可用的功能\（基準線標籤\）** |
+| **DITA map主控台中可用的功能\（基準線標籤\）** |  |  |  |
 | 建立 |   |   | 是 |
 | 編輯 |   |   | 是 |
 | 重複項目 |   |   | 是 |
 | 移除 |   |   | 是 |
 | DITA map主控台\（報表標籤\） | 是 |   | 是 |
-| DITA map主控台中可用的&#x200B;**功能\（條件預設集\）** |
+| DITA map主控台中可用的&#x200B;**功能\（條件預設集\）** |  |  |  |
 | 建立/編輯條件預設集 |   |   | 是 |
 
 [1](#fnsrc_1)如果邀請&#x200B;*作者*&#x200B;與&#x200B;*發行者*&#x200B;檢閱。

@@ -4,7 +4,8 @@ description: 瞭解如何設定資料來源的自訂聯結器。
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: fdd19363c6768860ffa2f70c934b6f71c811c08b
+exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -63,7 +64,7 @@ Experience Manager Guides可讓您根據自己的需求自訂聯結器，然後�
 | getName | 是 | <ul><li>此方法可讓您擷取指派給聯結器的唯一名稱。 <li>傳回的名稱對於在使用者介面(UI)內容中識別聯結器至關重要，尤其是如果聯結器的組態設定未明確指定名稱。 <li>此名稱用於各種UI元件中，好記的方式顯示或管理聯結器。 |
 | getGroup | 是 | <ul> <li>此方法可讓您擷取與聯結器關聯的群組名稱。 <li>群組名稱通常用於根據聯結器的功能、用途或型別將聯結器組織或分類為邏輯群組。 <li> 如此可讓您在設定UI中更輕鬆地管理和呈現聯結器。 |
 | getDefaultTemplatePath |  | <ul><li> 此方法會傳回與此聯結器關聯的範本預設路徑。 <li> 依預設，它會傳回空字串，指出除非覆寫，否則不會設定預設路徑。 |
-| getLogoSv |  | <ul><li>使用此方法可傳回聯結器標誌的SVG表示法。 <li> 依預設，它會傳回空字串，表示除非覆寫，否則不會提供任何SVG資料。 |
+| getLogoSv |  | <ul><li>使用此方法可傳回聯結器標誌的SVG表示法。 <li> 依預設，它會傳回空字串，指出除非覆寫，否則不會提供任何的SVG資料。 |
 | getMaxNoRowsForPreviewQuery | | <ul><li>此方法會傳回UI預覽中查詢或顯示的最大列數。 <li> 依預設，它會傳回DEFAULT_LIMIT_PREVIEW的值，此常數代表預覽列的預設限制。 |
 | getconfigclass | 是 | <ul><li>此方法提供有關實作Config介面且受此聯結器支援的類別的資訊。 <li> 它可讓應用程式或架構動態地探索及使用與聯結器相容的設定。 |
 

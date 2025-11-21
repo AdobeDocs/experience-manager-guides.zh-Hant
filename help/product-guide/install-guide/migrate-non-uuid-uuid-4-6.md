@@ -4,7 +4,7 @@ description: 瞭解如何將非UUID移轉至UUID內容
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 1%
@@ -178,9 +178,9 @@ ht-degree: 1%
 
 | 處理完成後的摘要 | 如何解譯？ | 動作 |
 |---|---|---|
-| 檔案總數：288 | 至少1個基準線的DITA map數目。 |
-| 已成功移轉的檔案數： 13 | DITA map數目，已順利升級所有基準線。 |
-| 略過的檔案數： 275 | 沒有任何基準線的DITA map數目。 |
+| 檔案總數：288 | 至少1個基準線的DITA map數目。 |  |
+| 已成功移轉的檔案數： 13 | DITA map數目，已順利升級所有基準線。 |  |
+| 略過的檔案數： 275 | 沒有任何基準線的DITA map數目。 |  |
 | 升級失敗的檔案數： 0 | 無效的基準線物件數目（空白）會列在報表(Excel)中。 | 檢查是否有其他錯誤： `baselineObj not found on` |
 
 此外，可以在報告的摘要表格下存取在移轉程式期間升級的&#x200B;**個檔案清單**&#x200B;和&#x200B;**個失敗的檔案**。
@@ -219,5 +219,5 @@ ht-degree: 1%
    > 如果在移轉之前，屬性&#x200B;**在**&#x200B;內使用AEM網站頁面名稱的標題`com.adobe.fmdita.config.ConfigManager`，設定為&#x200B;*False*，則在移轉之後，需要更新此屬性。
 
 
-1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hant`）。
+1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。
 

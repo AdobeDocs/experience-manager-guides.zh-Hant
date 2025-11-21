@@ -4,7 +4,7 @@ description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Gui
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->升級AEM Guides版本前，您必須先安裝AEM Service Pack。
+>您必須先安裝AEM Service Pack，才能升級AEM Guides版本。
 
 如需詳細資訊，請參閱[升級指示](../install-guide/upgrade-xml-documentation.md)。
 
@@ -49,21 +49,21 @@ ht-degree: 1%
 
 ### FrameMaker和FrameMaker Publishing Server
 
-| 發行 | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
+| 發行版本 | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
 | 4.2.1 （非UUID） | 2022或更高 | 2020.2或更新版本* | 2022或更高 | 2020.3或更高版本 |
 | 4.2.1 (UUID) | 2022或更高 | 2020.2或更新版本* | 2022或更高 | 2020.4或更新版本 |
-| | | | |
+| | | | |  |
 
 *從2020.2開始的FMPS版本支援AEM中建立的基準和條件。
 
 ### 氧氣聯結器
 
-| 發行 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
+| 發行版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- |--- |--- |
 | 4.2.1 （非UUID） | 2.2-regular-3 | 2.2-regular-3 | 1.6 | 1.6 |
 | 4.2.1 (UUID) | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## 已修正的問題
 
@@ -98,16 +98,16 @@ ht-degree: 1%
 
 * 原生PDF | 如果發佈的內容具有包含brackets()的輸出類別，會導致發佈凍結。 (11936)
 * JSON輸出 | 屬性值為`"value in spaces and double quotes"`的對應中繼資料會導致發佈錯誤。 (11933)
-* 在AEM網站搜尋中發生問題（在2-3層節點之外無法運作）。 (11352)
+* AEM網站搜尋中發生問題（在2-3層節點之外無法運作）。 (11352)
 * 網頁編輯器 | 無法在AEM預設集中選取輸出路徑和範本。 (11530)
-* 從4.1.x升級至4.2版時，原生PDF引擎無法運作，且擲回NullPointerException，即使是支援的作業系統亦然。(11526)
+* 從4.1.x升級至4.2版時，原生PDF引擎無法運作，且會擲回NullPointerException，即使是支援的作業系統亦然。(11526)
 * 下載PDF程式在網頁編輯器中無法正常運作。 (11496)
 * 原生PDF | 預設會在產生的輸出中隱藏草稿註解。 (10560)
 * 原生PDF | navtitle不適用於topichead。 (10509)
-* 原生PDF | 將`xref`新增至影像不會轉譯產生PDF上的影像。 (11346)
-* 原生PDF | 表格標題中的註腳會在PDF輸出的對應頁尾中導向粗體與置中對齊文字。 (10610)
+* 原生PDF | 將`xref`新增至影像不會轉譯產生的PDF上的影像。 (11346)
+* 原生PDF | 表格標頭中的註腳會在PDF輸出的對應頁尾中導向粗體和置中對齊文字。 (10610)
 
-### 轉換
+### 翻譯
 
 * 透過4.2升級，所有翻譯內容都會顯示「不同步」或「缺少副本」。 (11834)
 

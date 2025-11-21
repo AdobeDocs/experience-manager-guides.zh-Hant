@@ -1,28 +1,28 @@
 ---
 title: ' [!DNL AEM Guides]的發行說明，2022年3月發行'
-description: 3月發行的 [!DNL Adobe Experience Manager Guides] as a Cloud Service
+description: 3月版的 [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
 
 ---
 
-# 三月版的[!DNL Adobe Experience Manager Guides]as a Cloud Service
+# 三月版的[!DNL Adobe Experience Manager Guides] as a Cloud Service
 
 ## 升級至3月發行
 
-執行下列步驟，升級您目前的[!DNL Adobe Experience Manager Guides]as a Cloud Service(稍後稱為&#x200B;*[!DNL AEM Guides]as a Cloud Service*)安裝程式：
-1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-1. 將Cloud Service Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2022.3.123。
-1. 認可變更並執行Cloud Service管道，以升級至[!DNL AEM Guides]的3月版本as a Cloud Service。
+請升級您目前的[!DNL Adobe Experience Manager Guides] as a Cloud Service (後來稱為&#x200B;*[!DNL AEM Guides]as a Cloud Service*)安裝程式，方法是執行下列步驟：
+1. 請檢視雲端服務的Git程式碼，並切換至雲端服務管道中設定且與您要升級的環境對應的分支。
+1. 將Cloud Services Git程式碼的`<dox.version>`檔案中的`/dox/dox.installer/pom.xml`屬性更新為2022.3.123。
+1. 認可變更並執行雲端服務管道，以升級至[!DNL AEM Guides] as a Cloud Service的3月版本。
 
 ## 相容性矩陣
 
-本節列出[!DNL AEM Guides] 2022年3月as a Cloud Service發行版本所支援之軟體應用程式的相容性矩陣。
+本節列出[!DNL AEM Guides] as a Cloud Service 2022年3月發行版本支援之軟體應用程式的相容性矩陣。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ### 建立基準線儀表板
 
-[!DNL AEM Guides]as a Cloud Service三月版本提供整合在網頁編輯器中的基準線功能。 您現在可以從網頁編輯器建立基準線，並使用它們來發佈或翻譯不同版本的主題。
+[!DNL AEM Guides] as a Cloud Service 3月發行版本提供整合在網頁編輯器中的基準線功能。 您現在可以從網頁編輯器建立基準線，並使用它們來發佈或翻譯不同版本的主題。
 
 注意：若為已升級的系統，請更新資料夾設定檔的最新&#x200B;**ui_config.json**。
 
@@ -75,9 +75,9 @@ ht-degree: 0%
 
 ### 發佈增強功能
 
-3月發行的[!DNL AEM Guides]as a Cloud Service進一步改善發佈程式：
+3月發行的[!DNL AEM Guides] as a Cloud Service進一步改善發佈程式：
 
-* 已對AEM網站輸出的中繼資料使用基準線。 您也可以將基準版本的特性當作中繼資料來處理。 如果未定義基準線，則會將最新版本的屬性當作中繼資料處理。
+* AEM網站輸出的中繼資料已遵循基準線。 您也可以將基準版本的特性當作中繼資料來處理。 如果未定義基準線，則會將最新版本的屬性當作中繼資料處理。
 
 * 已為HTML5、EPUB和自訂輸出預設集新增&#x200B;**檔案名稱**&#x200B;和&#x200B;**DITA-OT命令列引數**&#x200B;選項。 現在您可以指定要用來儲存輸出的檔案名稱。 您也可以指定在產生輸出時希望DITA-OT處理的其他引數。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 ## 已知問題
 
-Adobe已在[!DNL AEM Guides] as a Cloud Service三月版本中找出下列已知問題。
+Adobe已在[!DNL AEM Guides] as a Cloud Service 3月版本中找出下列已知問題。
 
 * 移除直接參照上的標籤也會從間接參照中移除標籤。
 

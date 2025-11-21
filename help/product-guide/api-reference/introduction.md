@@ -5,10 +5,10 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: bf7838690d7632cd74fef0db3aaf7bdc48a50a2c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 1%
 
 ---
 
@@ -38,14 +38,13 @@ AEM Guides API有兩種格式：
 
 若要在專案中設定和使用Maven存放庫中的服務API JAR，請在專案的`pom.xml`檔案中新增API SDK作為專案相依性，如下所示。
 
-    &grave;&grave;XML
-    &lt;相依性>
-    &lt;groupId>com.adobe.aem&lt;/groupId>
-    &lt;artifactId>aem-dox-sdk-api&lt;/artifactId>
-    &lt;version>${RELEASE}&lt;/version>
-    &lt;/dependency>
-    
-    &grave;&#39;
+```XML
+<dependency>
+<groupId>com.adobe.aem</groupId>
+<artifactId>aem-dox-sdk-api</artifactId>
+<version>${RELEASE}</version>
+</dependency>
+```
 
 >[!NOTE]
 >
@@ -59,14 +58,13 @@ AEM Guides API有兩種格式：
 
 若要針對內部部署設定和使用服務API JAR，請在專案的`pom.xml`檔案中新增服務API JAR做為專案相依性，如下所示：
 
-    &grave;&grave;XML
-    &lt;相依性>
-    &lt;groupId>com.adobe.aem&lt;/groupId>
-    &lt;artifactId>aem-guides-sdk-api&lt;/artifactId>
-    &lt;version>${RELEASE}&lt;/version>
-    &lt;/dependency>
-    
-    &grave;&#39;
+```XML
+<dependency>
+<groupId>com.adobe.aem</groupId>
+<artifactId>aem-guides-sdk-api</artifactId>
+<version>${RELEASE}</version>
+</dependency>
+```
 
 >[!NOTE]
 >
@@ -122,9 +120,9 @@ Experience Manager Guides提供了一組完整的REST型API，讓開發人員可
 
 ## 其他資源
 
-以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/tw/support/xml-documentation-for-experience-manager.html)頁面上取得：
+以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)頁面上取得：
 
 - 使用手冊
 - 安裝及設定指南
 - 快速入門手冊
-- [說明封存頁面](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html) \（存取舊版檔案\）
+- [說明封存頁面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（存取舊版檔案\）

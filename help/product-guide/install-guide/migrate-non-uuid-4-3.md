@@ -5,7 +5,7 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f53f4eef-5e99-4342-9919-508b90ee3571
-source-git-commit: dfac88a4a1ca0247a4b1f07982e178fd7126d2e2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 1%
@@ -179,10 +179,10 @@ ht-degree: 1%
 
 | 處理完成後的摘要 | 如何解譯？ | 動作 |
 |---|---|---|
-| 檔案總數：4833 | 至少1個基準線的DITA map數目。 |
-| 已成功升級的檔案數： 4705 | DITA map數目，已順利升級所有基準線。 |
-| 升級後發生錯誤的檔案數： 0 | 基準線未升級的DITA map數目。 |
-| 略過的檔案數： 1647 | 沒有任何基準線的DITA map數目。 |
+| 檔案總數：4833 | 至少1個基準線的DITA map數目。 |  |
+| 已成功升級的檔案數： 4705 | DITA map數目，已順利升級所有基準線。 |  |
+| 升級後發生錯誤的檔案數： 0 | 基準線未升級的DITA map數目。 |  |
+| 略過的檔案數： 1647 | 沒有任何基準線的DITA map數目。 |  |
 | 升級失敗的檔案數： 128 | 無效的基準線物件數目（空白）會列在報表(Excel)中。 | 檢查是否有其他錯誤： `baselineObj not found on` |
 
 
@@ -220,5 +220,5 @@ ht-degree: 1%
    > 如果在移轉之前，屬性&#x200B;**在**&#x200B;內使用AEM網站頁面名稱的標題`com.adobe.fmdita.config.ConfigManager`，設定為&#x200B;*False*，則在移轉之後，需要更新此屬性。
 
 
-1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hant`）。
+1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。
 

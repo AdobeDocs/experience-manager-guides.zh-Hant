@@ -1,7 +1,7 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides 5.0.0版的升級指示
 description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides 5.0.0版。
-source-git-commit: 410d7c059ff1219b73f2dc6199690c77d1ba0e48
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 6%
@@ -30,13 +30,13 @@ ht-degree: 6%
 
 ### FrameMaker和FrameMaker Publishing Server
 
-| 發行 | FMPS | FM |
+| 發行版本 | FMPS | FM |
 | --- | --- | --- |
 | 5.0.0 (UUID) | 支援 | 2022或更高 |
 
 ### 氧氣聯結器
 
-| 發行 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
+| 發行版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- |--- |--- |
 | 5.0.0 (UUID) | 3.7-uuid.2 | 3.7-uuid.2 | 2.3 | 2.3 |
 
@@ -62,10 +62,10 @@ ht-degree: 6%
 - 如果您是使用4.2、4.2.1 (Hotfix 4.2.1.3)、4.1或4.1.x版，則必須先升級至4.4版，才能升級至5.0.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
+- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
 
 >[!NOTE]
 >
 >您必須先安裝AEM Service Pack，才能升級Experience Manager Guides版本。
 
-如需詳細資訊，請檢視Experience Manager Guides內部部署版本[&#128279;](../install-guide/upgrade-xml-documentation.md)的升級指示。
+如需詳細資訊，請檢視Experience Manager Guides內部部署版本[的](../install-guide/upgrade-xml-documentation.md)升級指示。

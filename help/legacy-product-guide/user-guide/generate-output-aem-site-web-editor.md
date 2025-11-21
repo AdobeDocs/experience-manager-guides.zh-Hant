@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -42,8 +42,8 @@ Experience Manager Guides為建立AEM Sites提供預先定義的範本。 這些
 >[!NOTE]
 >
 >在為Experience Manager Guides設定AEM Sites預設集之前，您的管理員需要使用範本建立AEM Sites結構。
->- **內部部署軟體**：深入瞭解如何[下載並安裝內部部署軟體的AEM Sites範本](/help/product-guide/install-guide/download-install-aem-sites-templates.md)。
->- **Cloud Service**：進一步瞭解如何[下載並安裝適用於Cloud Service的AEM Sites範本](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)。
+- **內部部署軟體**：深入瞭解如何[下載並安裝內部部署軟體的AEM Sites範本](/help/product-guide/install-guide/download-install-aem-sites-templates.md)。
+- **Cloud Service**：進一步瞭解如何[下載並安裝適用於Cloud Service的AEM Sites範本](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)。
 
 
 
@@ -91,7 +91,7 @@ Experience Manager Guides為建立AEM Sites提供預先定義的範本。 這些
 - 使用基準線
 - 條件篩選
 - 其他DITA-OT命令列引數
-- 中繼資料
+- 後設資料
    - 檔案(Assets)屬性
    - 使用對應屬性作為遞補
 
@@ -119,12 +119,12 @@ Experience Manager Guides為建立AEM Sites提供預先定義的範本。 這些
 
 下列選項適用於AEM Sites輸出：
 
-| AEM Sites選項 | 描述 |
+| AEM Sites選項 | 說明 |
 | --- | --- |
 | 使用網站路徑 | 使用此選項將您的內容發佈至Experience Manager網站。 如果您知道您要發佈輸出的確切網站路徑，請選取此選項。 此外，在網站路徑欄位中提及完整路徑。 |
 | 網站路徑 | 如果您選取&#x200B;**使用網站路徑**&#x200B;選項，就會出現此選項。 瀏覽您要發佈輸出的確切Experience Manager網站路徑。 |
 | 網站 | 您要發佈內容的Experience Manager Sites名稱。 下拉式清單中的選項會根據AEM Sites中可用的網站清單填入。 <br>選取&#x200B;**重新整理** ![重新整理圖示](images/navtitle-refresh-icon.svg)以擷取新的選項清單，並反映更新的資料。 |
-| 發佈路徑 | AEM存放庫內儲存輸出的路徑。 「發佈路徑」會填入包含根據首頁範本建立之頁面的所有路徑。 DITA map的AEM Sites輸出會在此路徑下產生。  例如，如果您將網站指定為`AEMG-Docs`，並將發佈路徑指定為`aemg-docs-en/docs/product-abc.`，則會在`crx/de`中的`aemg-docs-en/docs/product-abc/`節點下產生AEM Sites輸出。 |
+| 發佈路徑 | AEM存放庫內儲存輸出的路徑。 「發佈路徑」會填入包含根據首頁範本建立之頁面的所有路徑。 DITA map的AEM Sites輸出會在此路徑下產生。  例如，如果您將網站指定為`AEMG-Docs`，並將發佈路徑指定為`aemg-docs-en/docs/product-abc.`，則會在`aemg-docs-en/docs/product-abc/`中的`crx/de`節點下產生AEM Sites輸出。 |
 | 主題頁面範本 | 可用於在多個檔案中一致地組織內容的結構元件。 這些範本已在Adobe Experience Manager網站範本中預先定義。 這些選項會填入所有可用於所選場地的主題頁面範本。 選取要套用至所有輸出主題的範本。 |
 | 根據以下條件產生頁面名稱： | **主題檔案名稱**：使用DITA主題的檔案名稱來建立網站URL。<br> **主題標題**：使用DITA主題的標題來建立Experience Manager網站名稱。 |
 | 清理先前產生的頁面 | - **刪除從對映中移除之主題先前產生的頁面**：如果DTIA對映的結構變更，您可以使用此選項來移除先前產生之主題頁面。 此功能僅適用於完整地圖發佈。<br><br>假設您已發佈DITA map，其中包含主題a.dita、b.dita和c.dita。 再次發佈對應之前，您已從對應移除b.dita主題。 現在，如果您已選取此選項，則會從AEM Sites輸出中移除與b.dita相關的所有內容，並且僅發佈a.dita和c.dita。<br><br>**注意**：有關已刪除頁面的資訊也會擷取到輸出產生記錄檔中。 如需有關存取記錄檔的詳細資訊，請[檢視並檢查記錄檔](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS)。 <br><br>**警告**：刪除主題時，已發佈網站的頁面會變成無法使用。 因此，在刪除主題之前，會顯示警告。 您必須確認以刪除它們。<br><br>- **刪除此路徑上其他來源建立的所有頁面**：如果您選取此選項，會刪除其他地圖、個別主題或任何其他來源在此路徑上發佈的所有頁面。 已發佈網站的頁面也會變得無法使用。 因此，在刪除主題之前，會顯示警告。 您必須確認以刪除它們。 |
@@ -208,7 +208,7 @@ Experience Manager Guides可讓您使用`peer @scope`建立主題參考，簡化
 
    ![交叉對應參考](images/aem-sites-cross-map-references.png)
 
-1. 如果要使用地圖中每個相依檔案最近發佈的輸出，請選取&#x200B;**對所有相依主題使用最近產生的**&#x200B;發佈內容。
+1. 如果要使用地圖中每個相依檔案最近發佈的輸出，請選取&#x200B;**對所有相依主題使用最近產生的**發佈內容。
 在發佈包含連結主題的地圖之前，您應該發佈選取為父對映的地圖。 如果含有已連結主題的地圖未發佈，則連結會在AEM Sites輸出中顯示為普通文字，而非超連結。
 您應該為連結的主題選取相同型別的AEM Sites預設集。 例如，如果目前的AEM Sites預設集使用舊版元件對應，則選取連結主題的類似AEM Sites預設集。
 1. 在「父對映」下拉式清單中，選取要與其輸出連結目前對映輸出的對映檔案。

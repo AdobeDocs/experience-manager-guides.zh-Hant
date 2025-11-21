@@ -5,9 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4702'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
    >
    >在命名頁面配置時，請避免使用任何特殊字元。 名稱中的空格會以底線「_」取代。
 
-1. 按一下&#x200B;**「完成」**。
+1. 按一下&#x200B;**完成**。
 
    新版面即建立並新增至「頁面版面」下。
 
@@ -104,7 +104,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
 
    <img src="assets/add-stylesheet.png" alt="新增樣式表" width="250">
 1. 指定新樣式表的名稱。
-1. 按一下&#x200B;**「完成」**。
+1. 按一下&#x200B;**完成**。
 
    隨即建立新樣式表並新增至「樣式表」區段下。
 
@@ -137,7 +137,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
 
    如需CSS標籤的詳細資訊，請檢視[參閱CSS樣式文法](https://www.w3.org/TR/CSS21/syndata.html#characters)。
 
-1. 按一下&#x200B;**「完成」**。
+1. 按一下&#x200B;**完成**。
 
    隨即建立新樣式並新增至樣式清單中。
 
@@ -198,7 +198,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
 使用「設定」區段可設定PDF頁面配置的進階設定(從奇數或偶數頁面開始PDF、互動參照格式)，以及啟用在產生的最終PDF中列印標籤
 使用範本。
 
->
+>[!NOTE]
 >
 > 從Experience Manager Guides 5.0/2025.02.0版開始，進階PDF設定中的&#x200B;**列印**&#x200B;區段已移至&#x200B;**輸出預設集**&#x200B;面板。 若要設定列印設定，請檢視[發佈PDF輸出](../web-editor/native-pdf-web-editor.md#print)。
 
@@ -236,7 +236,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
   >如果您是CSS開發人員，則也可以直接在CSS檔案中定義導線格式。
 
 * **使用資料表接續標籤**：選取此選項可定義跨多頁之長資料表的標籤。
-您可以定義要在分頁前後顯示的文字。 例如，表格在第5頁中斷，而您為&#x200B;**中斷前文字**&#x200B;定義`<Continued on page %page-num%>`。  文字在第5頁底部顯示「繼續於第6頁」。
+您可以定義要在分頁前後顯示的文字。 例如，表格在第5頁中斷，而您為`<Continued on page %page-num%>`中斷前文字&#x200B;**定義**。  文字在第5頁底部顯示「繼續於第6頁」。
 
   使用語言變數來定義分行前後連續標籤文字。 根據您選取的語言，系統會自動在PDF輸出中挑選當地語系化的值。 例如，您可以將`Continued on page %page-num%`以英文和德文的文字發佈。`Fortsetzung auf Seite %page-num%`
 
@@ -277,7 +277,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
 
   PDF輸出的字彙表中的辭彙一律按字母順序排序。
 
-  您也可以新增標籤`sort-as`，以定義字彙表辭彙的排序索引鍵。 Experience Manager Guides接著會使用排序索引鍵來排序字彙表辭彙，以取代字彙表辭彙。 如果您尚未定義排序索引鍵，則會使用字彙術語來排序。 例如，您可以將標籤`sort-as`新增至`glossterm`，並將字詞「USB」（例如`<glossterm>USB<sort-as>A</sort-as></glossterm>`）的值設為`A`。 同樣地，您可以新增`sort-as`標籤，並將字詞「Pen Drive」的值設為`B`。 當您排序這些字彙術語時，字彙術語「USB」的排序索引鍵`A`會出現在字彙術語「Pen Drive」的排序索引鍵`B`之前。 因此，在PDF輸出中，「USB」在字彙表頁面上位於「Pen Drive」之前。
+  您也可以新增標籤`sort-as`，以定義字彙表辭彙的排序索引鍵。 Experience Manager Guides接著會使用排序索引鍵來排序字彙表辭彙，以取代字彙表辭彙。 如果您尚未定義排序索引鍵，則會使用字彙術語來排序。 例如，您可以將標籤`sort-as`新增至`glossterm`，並將字詞「USB」（例如`A`）的值設為`<glossterm>USB<sort-as>A</sort-as></glossterm>`。 同樣地，您可以新增`sort-as`標籤，並將字詞「Pen Drive」的值設為`B`。 當您排序這些字彙術語時，字彙術語「USB」的排序索引鍵`A`會出現在字彙術語「Pen Drive」的排序索引鍵`B`之前。 因此，在PDF輸出中，「USB」在字彙表頁面上位於「Pen Drive」之前。
 
   使用樣式表，您可以在PDF輸出中設定不同辭彙表元素的樣式。 使用辭彙樣式`.glo-header`、`.glo-footer`、`.glo-body`、`.glo-title`、`.glo-unit`、`.glo-link`和`.glo-term`來自訂辭彙元素的樣式。
 
@@ -420,8 +420,8 @@ AEM Guides提供下列現成可用的變數：
 * {chapter}：新增章節編號的互動參照。 例如，請參閱第1章的。
 * {bookmarkText}：建立書籤文字的互動參照。 例如，請參閱第5頁的stop_words 。
 * {captionText}：建立主題中圖形或表格標題的互動參照。 例如，請參閱第2頁上的氣流。
-* {figure}：新增圖數的互動參照。 從您為圖形定義的自動編號樣式中挑選圖形編號。  例如，您可以在頁面{page}上使用「檢視{figure}」。 輸出中的互動參照包含自動產生的數字及其頁碼「請參見第5頁的圖1」。
-* {table}：新增資料表編號的互動參照。 從您為註解定義的自動編號樣式中挑選表格編號。 例如，您可以在頁面{page}上使用「檢視{table}」。 輸出中的互動參照包含自動產生的表格編號及其頁碼「請參閱第5頁的表1」。
+* {figure}：新增圖數的互動參照。 從您為圖形定義的自動編號樣式中挑選圖形編號。  例如，您可以在頁面{figure}上使用「檢視{page}」。 輸出中的互動參照包含自動產生的數字及其頁碼「請參見第5頁的圖1」。
+* {table}：新增資料表編號的互動參照。 從您為註解定義的自動編號樣式中挑選表格編號。 例如，您可以在頁面{table}上使用「檢視{page}」。 輸出中的互動參照包含自動產生的表格編號及其頁碼「請參閱第5頁的表1」。
 
 
 
@@ -459,11 +459,11 @@ AEM Guides提供下列現成可用的變數：
 當您將`${lng:<variable name>}`新增至「段落」區段時，輸出段落中的互動參照會包含當地語系化文字和頁碼。\
 例如，下列熒幕擷取畫面以英文顯示「View on page 1」互動參照，以德文顯示「Einzelheiten finden Sie auf der Seite 1」。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出" width ="800" border="2px">
 
 *以英文發佈時，段落中的互動參照。*
 
-<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出" width ="800" border="2px">
 
 
 *以德文發佈時，段落中的互動參照。*

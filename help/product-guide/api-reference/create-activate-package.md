@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: b95a64ca2e8ebffebec3d8ff8704f76f7faceca2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -46,15 +46,13 @@ Cloud Service的`preview`或`publish`，以及內部部署軟體的`publish`
 
 - 對於內部部署軟體，如果引數包含無效的值，則會記錄錯誤，並使用預設值`publish`完成發佈。
 
-如果您未定義選用引數`activationTarget`，它會使用Cloud Service和內部部署軟體的預設發佈代理程式來啟動。
+如果您未定義選用引數`activationTarget`，它會使用Cloud Service和On-premise Software的預設發佈代理程式來啟動。
 
 
 
 以下範例顯示使用具有選用引數的curl命令的API呼叫：
 
 
-    &grave;&grave;XML
-    
-    curl -u &lt;*username*>：&lt;*password*> -H &quot;Content-Type： application/json； charset=UTF-8&quot; -k -XPOST-d &quot;{[JSON規則字串](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>：&lt;*port-number*>/bin/fmdita/activate？activationTarget=&#39;&lt;validTarget&lt;validActivationTarget值>「
-    」「
-」
+```XML
+curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UTF-8"  -k -X POST -d "{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}" http://<*aem-guides-server*>:<*port-number*>/bin/fmdita/activate?activationTarget=`<validActivationTargetValue>`
+```

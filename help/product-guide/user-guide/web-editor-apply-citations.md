@@ -4,7 +4,7 @@ description: 在AEM Guides中新增和管理引文。 瞭解如何套用、匯�
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 0%
@@ -66,8 +66,8 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
    | **年** <br>新增出版書籍的年份。 | **更新日期** <br>新增更新網站內容的日期。 | **頁面** <br>新增找到文章的頁碼或頁面範圍。 |
    | **版本** <br>新增書冊的版本。 | **唯一識別碼** <br>為引文新增唯一識別碼。 唯一ID是該引文的唯一識別碼。 | **URL** <br>新增網頁連結至日誌。 |
    | **系列** <br>新增書籍系列。 |  | **唯一識別碼** <br>為引文新增唯一識別碼。唯一識別碼為該引文的唯一識別碼。 |
-   | **URL** <br>將網頁連結新增到書冊。 |
-   | **唯一識別碼** <br>為引文新增唯一識別碼。 唯一ID是該引文的唯一識別碼。 |
+   | **URL** <br>將網頁連結新增到書冊。 |  |  |
+   | **唯一識別碼** <br>為引文新增唯一識別碼。 唯一ID是該引文的唯一識別碼。 |  |  |
 
 1. 選取「**完成**」。
 
@@ -96,13 +96,13 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides只會匯入不重複且不存在的引用。
-   > &gt; <li> Experience Manager Guides可以從書籍、日誌或網站匯入引用。 目前不支援其他來源的引文。
+    &gt; <li> Experience Manager Guides可以從書籍、日誌或網站匯入引用。 目前不支援其他來源的引文。
 
 ## 管理引文
 
 引文在左側面板中按字母排序。 根據主題中使用的來源搜尋引文。
 
-### 篩選條件
+### 篩選器
 
 選取搜尋列旁的&#x200B;**篩選器** ![](images/filter-search-icon.svg)圖示，並從下拉式清單中選取來源選項以篩選引文清單。 它允許單一和多重選取。
 
@@ -125,7 +125,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 
 ### 變更引文樣式 {#change-citation-style}
 
-您的系統管理員可以從&#x200B;**設定**&#x200B;中&#x200B;**一般**&#x200B;索引標籤的&#x200B;**引文**&#x200B;下拉式清單中變更引文樣式。
+您的系統管理員可以從&#x200B;**設定**&#x200B;中&#x200B;**一般**&#x200B;索引標籤的&#x200B;**引文**下拉式清單中變更引文樣式。
 這些樣式決定引文在預覽窗格或原生PDF輸出中的顯示方式。
 
 下拉式清單中有以下選項：
@@ -187,7 +187,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 ### 從主工具列
 
 1. 選取主工具列中的&#x200B;**引文** ![引文圖示](images/citations-icon.svg)圖示。
-1. 在&#x200B;**引文**&#x200B;對話方塊中，選擇引文。 您也可以選取多個引文。
+1. 在&#x200B;**引文**對話方塊中，選擇引文。 您也可以選取多個引文。
    ![引文對話方塊](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. 您可以在&#x200B;**引文**&#x200B;對話方塊的搜尋面板中輸入前幾個字母來篩選引文。
 
@@ -204,7 +204,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 1. 在左側面板中選取&#x200B;**引文** ![引文圖示](images/citations-icon.svg)圖示。
 1. 從「**引文**」面板拖曳引文，並將其放置在主題中的適當位置。
 
-   您也可以從![](images/options.svg) **選項**&#x200B;中選取&#x200B;**插入**&#x200B;以插入引文。
+   您也可以從&#x200B;****&#x200B;選項![](images/options.svg)中選取&#x200B;**插入**&#x200B;以插入引文。
 
    ![插入引文](images/citation-panel-insert.png)
 1. 若要選取多個引文，請在主題中的引文上按一下滑鼠右鍵，然後從捷徑功能表中選取&#x200B;**修改引文**。

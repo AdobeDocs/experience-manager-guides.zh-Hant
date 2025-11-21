@@ -1,8 +1,8 @@
 ---
 title: 發行說明 | 2024.06.0版Adobe Experience Manager Guides中的升級指示和修正問題
-description: 瞭解相容性矩陣，以及如何升級至2024.06.0版的Adobe Experience Manager Guidesas a Cloud Service。
+description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides as a Cloud Service 2024.06.0版。
 exl-id: 6895357a-cfd1-4e6a-aec1-8870db8054fb
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 4%
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 ## 相容性矩陣
 
-本節列出2024.06.0版Experience Manager Guides as a Cloud Service支援之軟體應用程式的相容性矩陣。
+本節列出2024.06.0版Experience Manager Guides as a Cloud Service支援的軟體應用程式相容性矩陣。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 | Experience Manager Guides雲端版 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- | --- | --- |
 | 2024.06.0 | 3.5-uuid 1 | 3.5-uuid 1 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### 知識庫範本版本
@@ -45,7 +45,7 @@ ht-degree: 4%
 
 ## 升級至2024.06.0版
 
-Experience Manager Guides會在升級最新（最新）版本的Experience Manageras a Cloud Service時自動升級。
+Experience Manager Guides會在升級最新（最新）版本的Experience Manager as a Cloud Service時自動升級。
 
 >[!NOTE]
 >
@@ -53,15 +53,15 @@ Experience Manager Guides會在升級最新（最新）版本的Experience Manag
 >- ui_config.json （可能已在資料夾設定檔中設定）
 
 
-如果您尚未針對現有版本更早地執行Experience Manager Guidesas a Cloud Service，請針對其執行以下步驟：
+如果您尚未針對現有版本提前執行Experience Manager Guides as a Cloud Service，請針對其執行以下步驟：
 
 ### 透過servlet啟用指令碼觸發的步驟
 
-(僅限在2023年6月之前版本的Experience Manager Guidesas a Cloud Service上使用)
+(僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用)
 
 完成安裝後，您可以選擇點選觸發程式以開始翻譯工作：
 
-POST：
+張貼：
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -92,13 +92,13 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 後續處理現有內容以使用中斷連結報告的步驟
 
-(僅限在2023年6月之前版本的Experience Manager Guidesas a Cloud Service上使用)
+(僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用)
 
 執行以下步驟後續處理現有內容並使用新的中斷連結報表：
 
-1. （選擇性）如果系統中有超過100,000個DITA檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`和`queryLimitInMemory`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
+1. （選擇性）如果系統中有超過100,000個DITA檔案，請將`queryLimitReads`下的`queryLimitInMemory`和`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
 
-   - 使用安裝和設定Adobe Experience Manager Guidesas a Cloud Service中&#x200B;*設定覆寫*&#x200B;區段中提供的指示來建立設定檔。
+   - 使用安裝和設定Adobe Experience Manager Guides as a Cloud Service中&#x200B;*設定覆寫*&#x200B;區段提供的指示來建立設定檔。
    - 在設定檔中，提供下列（屬性）詳細資料以設定`queryLimitReads`和`queryLimitInMemory`選項：
 
      | PID | 屬性索引鍵 | 屬性值 |
@@ -117,7 +117,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 為現有內容建立索引，以使用「報表」標籤下新的尋找和取代與主題清單的步驟：
 
-(僅限在2023年6月之前版本的Experience Manager Guidesas a Cloud Service上使用)
+(僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用)
 
 執行以下步驟來索引現有內容，並在報表標籤底下的對應層級和主題清單中使用新的尋找和取代文字：
 
@@ -127,7 +127,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. 此API會傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`（例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. 工作完成後，先前的GET請求會以成功回應，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認成功編制索引的對應。
+1. 工作完成後，先前的GET請求會回應成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認成功編制索引的對應。
 
 ### 處理`'fmdita rewriter'`衝突的步驟
 
@@ -143,7 +143,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 如果未顯示內容片段的參考，您可以選取「點選」觸發程式以開始移轉工作：
 
-POST：
+張貼：
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-migration

@@ -4,9 +4,9 @@ description: 瞭解如何在編輯器工具列中新增自訂按鈕，並呼叫j
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -57,15 +57,15 @@ ht-degree: 0%
 }
 ```
 
-[使用此連結來進一步瞭解資料夾設定檔和設定ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=zh-Hant)
+[使用此連結來進一步瞭解資料夾設定檔和設定ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### 處理新按鈕的點按事件
 
-    注意：以下步驟可作為此貼文附加的套件使用
+注意：以下提及的步驟可作為此貼文附加的套件提供
 
 
-- 儲存資料夾設定檔後，請在專案目錄（可能位於&#x200B;*/apps*下）下建立「cq：ClientLibraryFolder」，並新增屬性，如下列熒幕擷取畫面所示：
+- 儲存資料夾設定檔後，在專案目錄（可能在:ClientLibraryFolder/apps *下）下建立「cq*」並新增屬性，如下列熒幕擷取所示：
   ![Webeditor的使用者端資料庫設定](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```

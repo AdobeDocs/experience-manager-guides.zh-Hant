@@ -1,24 +1,24 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides as a Cloud Service，2022年9月發行
-description: 9月發行的Adobe Experience Manager Guidesas a Cloud Service
+description: 9月發行的Adobe Experience Manager Guides as a Cloud Service
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
 
 ---
 
-# 9月發行的Adobe Experience Manager Guidesas a Cloud Service
+# 9月發行的Adobe Experience Manager Guides as a Cloud Service
 
 ## 升級至9月版
 
-若要升級您目前的Adobe Experience Manager Guidesas a Cloud Service(稍後稱為&#x200B;*AEM Guidesas a Cloud Service*)安裝程式，請執行下列步驟：
-1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-1. 將Cloud Service Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2022.9.178。
-1. 提交變更並執行Cloud Service管道，以升級至9月版的AEM Guidesas a Cloud Service。
+請升級您目前的Adobe Experience Manager Guides as a Cloud Service (稍後稱為&#x200B;*AEM Guides as a Cloud Service*)安裝程式，方法是執行下列步驟：
+1. 請檢視雲端服務的Git程式碼，並切換至雲端服務管道中設定且與您要升級的環境對應的分支。
+1. 將Cloud Services Git程式碼的`<dox.version>`檔案中的`/dox/dox.installer/pom.xml`屬性更新為2022.9.178。
+1. 確認變更並執行雲端服務管道，以升級至AEM Guides as a Cloud Service的9月版本。
 
 ## 索引現有內容的步驟
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 相容性矩陣
 
-本節列出AEM Guides as a Cloud Service 2022年9月發行版本支援之軟體應用程式的相容性矩陣。
+本節列出AEM Guides as a Cloud Service 2022年9月版本支援之軟體應用程式的相容性矩陣。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -48,12 +48,12 @@ ht-degree: 0%
 | AEM Guides雲端版 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- | --- | --- |
 | 2022.9.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## 新功能和增強功能
 
-AEM Guidesas a Cloud Service在9月版本中提供了許多增強功能和新功能：
+AEM Guides as a Cloud Service在9月發行版本中提供許多增強功能和新功能：
 
 
 ### 根據標籤建立動態基準線
@@ -66,7 +66,7 @@ AEM Guidesas a Cloud Service在9月版本中提供了許多增強功能和新功
 ### 在地圖層級尋找和取代文字
 
 您現在可以在地圖中搜尋包含特定文字的檔案。 搜尋的文字會在檔案中反白顯示。 您也可以將搜尋到的字詞或片語取代為檔案中的其他字詞或片語。
-選取&#x200B;**取代**&#x200B;圖示以取代目前的專案，選取&#x200B;**全部取代檔案**&#x200B;圖示以取代選取檔案中的所有專案。
+選取**取代**&#x200B;圖示以取代目前的專案，選取&#x200B;**全部取代檔案**&#x200B;圖示以取代選取檔案中的所有專案。
 
 ![在地圖中尋找取代](assets/map-find-replace.png)
 
@@ -82,9 +82,9 @@ AEM Guidesas a Cloud Service在9月版本中提供了許多增強功能和新功
 
 根據差異，您可以決定是否要翻譯主題。
 
-### 中繼資料UI可用於PDF預設集
+### PDF預設集可用的中繼資料UI
 
-您可以從DITA map的輸出預設集設定中繼資料。 您可以設定「標題」、「作者」、「主旨」和「關鍵字」中繼資料。 此中繼資料會對應至輸出PDF之檔案屬性中的中繼資料。
+您可以從DITA map的輸出預設集設定中繼資料。 您可以設定「標題」、「作者」、「主旨」和「關鍵字」中繼資料。 此中繼資料會對應至輸出PDF中「檔案屬性」的中繼資料。
 此中繼資料會覆寫在書籍層級定義的中繼資料。 您可以具體定義每個輸出預設集中的中繼資料，並將其傳遞給輸出PDF。
 
 預設集中的![中繼資料](assets/preset-metadata.png)
@@ -112,12 +112,12 @@ AEM Guidesas a Cloud Service在9月版本中提供了許多增強功能和新功
 * 尋找和取代 | 網頁編輯器中的搜尋結果無法讀取深色模式。 (9978)
 * 翻譯 | 中繼資料和標籤不會傳播至翻譯的副本。 (4696)
 * 複製貼上(ctrl+c/ctrl+v)內容會在製作模式中擲回錯誤。 (10304)
-* PDF範本 | 將背景影像新增至任何頁面版面時，絕對會顯示影像路徑，且影像不會顯示在輸出PDF中。 (10297)
+* PDF範本 | 將背景影像新增至任何頁面版面會顯示「影像路徑」絕對值，且影像不會顯示在輸出PDF中。 (10297)
 * 原生PDF | 章節標題和章節標題在PDF發佈中無法運作。 (9947)
 * 原生PDF | 未正確解析特定DITA主題概念的`xref`。 (10229)
 * 原生PDF | 無法在產生的PDF輸出中檢視表格的標題文字。 (9827)
-* 原生PDF | 附錄中的參照不會在PDF輸出中顯示為附錄。 (10182)
-* 原生PDF | 資料表的框架屬性不會傳播至暫時HTML（以類別形式）。 (10353)
+* 原生PDF | 附錄中的參照不會顯示為PDF輸出中的附錄。 (10182)
+* 原生PDF | 表格的框架屬性不會傳播至暫時HTML (as class)。 (10353)
 * 原生PDF | 臨時HTML檔案會將colsep和rowsep類別新增至td和th，即使它們在來源DITA中的值為0。 (10352)
 * 原生PDF |  頁面配置中新增之條件的中繼資料不會接受。 (10377)
 * 原生PDF |  特定內容的PDF產生失敗。 (9927)
@@ -127,12 +127,12 @@ AEM Guidesas a Cloud Service在9月版本中提供了許多增強功能和新功
 * 建立新基準線時，不會套用已選取的基準線篩選。 (9954)
 * 如果父資料夾名稱含有空格字元，基準線中會遺失視訊檔案。 10031)
 * 當使用者時區與伺服器時區不同時，建立基準線不會挑選最新版本。 (10190)
-* 在AEM 6.5.12上安裝AEM Guides 4.1後，Control + F捷徑沒有在Assets主控台上開啟瀏覽器搜尋強制回應視窗。 (10189)
+* 在Assets 6.5.12上安裝AEM Guides 4.1後，Control + F捷徑沒有在AEM主控台上開啟瀏覽器搜尋強制回應視窗。 (10189)
 
 
 ## 已知問題
 
-Adobe已確認AEM Guides 2022年9月as a Cloud Service版本的下列已知問題。
+Adobe已在2022年9月發行的AEM Guides as a Cloud Service中找出下列已知問題。
 
 
 * 動態基準線未與知識庫發佈整合。

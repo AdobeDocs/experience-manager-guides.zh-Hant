@@ -1,28 +1,28 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2022年10月發行
-description: 10月發行的Adobe Experience Manager Guidesas a Cloud Service
+title: 發行說明 | Adobe Experience Manager Guides as a Cloud Service，2022年10月發行版本
+description: 10月發行的Adobe Experience Manager Guides as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
 
 ---
 
-# 10月發行的Adobe Experience Manager Guidesas a Cloud Service
+# 10月發行的Adobe Experience Manager Guides as a Cloud Service
 
 ## 升級至10月版
 
-若要升級您目前的Adobe Experience Manager Guidesas a Cloud Service(稍後稱為&#x200B;*AEM Guidesas a Cloud Service*)安裝程式，請執行下列步驟：
-1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-1. 將Cloud Service Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2022.10.183。
-1. 提交變更並執行Cloud Service管道，以升級至10月版的AEM Guidesas a Cloud Service。
+請升級您目前的Adobe Experience Manager Guides as a Cloud Service (稍後稱為&#x200B;*AEM Guides as a Cloud Service*)安裝程式，方法是執行下列步驟：
+1. 請檢視雲端服務的Git程式碼，並切換至雲端服務管道中設定且與您要升級的環境對應的分支。
+1. 將Cloud Services Git程式碼的`<dox.version>`檔案中的`/dox/dox.installer/pom.xml`屬性更新為2022.10.183。
+1. 確認變更並執行雲端服務管道，以升級至10月版的AEM Guides as a Cloud Service。
 
 ## 相容性矩陣
 
-本節列出AEM Guides as a Cloud Service2022年10月發行版本支援之軟體應用程式的相容性矩陣。
+本節列出AEM Guides as a Cloud Service 2022年10月發行版本支援之軟體應用程式的相容性矩陣。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -38,12 +38,12 @@ ht-degree: 1%
 | AEM Guides雲端版 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- | --- | --- |
 | 2022.10.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## 新功能和增強功能
 
-AEM Guidesas a Cloud Service在10月版本中提供增強功能和新功能：
+AEM Guides as a Cloud Service在10月版本中提供增強功能和新功能：
 
 
 ### 快速產生面板
@@ -65,7 +65,7 @@ AEM Guidesas a Cloud Service在10月版本中提供增強功能和新功能：
 
 * 原生PDF | 從PDF輸出移除僅限資源的主題時發生錯誤。 (10554)
 * 原生PDF | PDF輸出中出現空白的Keyref。 (10553)
-* 原生PDF | 未接受`topichead`的`navtitle`。 (10509)
+* 原生PDF | 未接受`navtitle`的`topichead`。 (10509)
 * 原生PDF | amd64 JDK風格所需的支援。 (10465)
 * 原生PDF | 無法從目錄隱藏重要主題。 (10355)
 * 原生PDF | 重新啟動章節配置中的頁碼會從上一個章節的結尾開始隨機編號。 (10154)

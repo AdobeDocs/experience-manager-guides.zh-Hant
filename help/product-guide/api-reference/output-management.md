@@ -5,7 +5,7 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 45ae1471fe0f0586764ede9dd96530b7f75f69ee
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 6%
@@ -36,16 +36,16 @@ http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/publishlistener
 | 元素 | 說明 |
 |-------|-----------|
 | `outputName` | 輸出預設集的名稱。 輸出名稱在其定義的DITA map範圍內是唯一的。 |
-| `outputType` | 使用此預設集產生的輸出型別，例如AEM Site、PDF、EPUB或其他。 可用的選項包括：<br>-   AEMSITE <br>-   PDF<br>-   HTML5 <br>-   ePub<br>-   自訂 |
+| `outputType` | 使用此預設集產生的輸出型別，例如AEM Site、PDF、EPUB或其他。 可用的選項包括：<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   ePub <br>-   自訂 |
 | `outputTitle` | 輸出預設集設定的描述性名稱。 這可用來定義輸出預設集的「設定名稱」屬性值。 |
 | `ditaValPathList` | 要用來產生所要輸出的DITAVAL檔案路徑陣列。 |
 | `targetPath` | 發佈或儲存輸出的路徑。 |
-| `siteName` | *\(針對AEM網站輸出\)* AEM網站的名稱。 |
-| `templatePath` | *\(針對AEM網站輸出\)*&#x200B;範本節點的路徑，用來產生所要的輸出。 |
+| `siteName` | *\(用於AEM網站輸出\)* AEM網站的名稱。 |
+| `templatePath` | *\(針對AEM網站輸出\)*&#x200B;要用來產生所要輸出的範本節點路徑。 |
 | `searchScope` | 指定搜尋操作的範圍。 此引數的值必須設定為`local`。 |
 | `generateTOC` | *\(用於AEM網站輸出\)*&#x200B;指定是否產生\(true\)目錄\(false\)。 |
 | `generateBreadcrumbs` | *\(用於AEM網站輸出\)*&#x200B;指定是否產生階層連結\(true\) \(false\)。 |
-| `overwriteStrategy` | *\(用於AEM站台輸出\)*&#x200B;指定是否覆寫目的地的檔案\(true\)\(false\)。 |
+| `overwriteStrategy` | *\(用於AEM網站輸出\)*&#x200B;指定是否覆寫目的地的檔案\(true\)\(false\)。 |
 | `pdfGenerator` | 指定要使用的PDF產生引擎。 可能的值為： <br>-   DITAOT <br>-   FMPS |
 
 >[!NOTE]
@@ -54,7 +54,7 @@ http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/publishlistener
 
 ## 建立輸出預設集
 
-一種為DITA map建立新輸出預設集的POST方法。
+一種POST方法，可為DITA map建立新的輸出預設集。
 
 **要求URL**：
 http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/publishlistener
@@ -66,7 +66,7 @@ http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/publishlistener
 | `:operation` | 字串 | 是 | 要呼叫的作業名稱。 此引數的值為``createoutput``.<br> **注意：**&#x200B;值不區分大小寫。 |
 | `sourcePath` | 字串 | 是 | DITA map檔案的絕對路徑。 |
 | `outputTitle` | 字串 | 是 | 輸出預設集設定的描述性名稱。 這可用來定義輸出預設集之Setting Name屬性的值。<br> **注意：**&#x200B;建立新的輸出預設集時，後端系統從給定的標題為輸出預設集驅動唯一的名稱。 |
-| `outputType` | 字串 | 是 | 使用此預設集產生的輸出型別，例如AEM Site、PDF、EPUB或其他。 可用的選項包括：<br>-   AEMSITE <br>-   PDF<br>-   HTML5 <br>-   ePub<br>-   自訂 |
+| `outputType` | 字串 | 是 | 使用此預設集產生的輸出型別，例如AEM Site、PDF、EPUB或其他。 可用的選項包括：<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   ePub <br>-   自訂 |
 
 **回應值**：
 
@@ -87,14 +87,14 @@ http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/publishlistener
 |----|----|--------|-----------|
 | `:operation` | 字串 | 是 | 要呼叫的作業名稱。 此引數的值為``saveoutput``.<br> **注意：**&#x200B;值不區分大小寫。 |
 | `sourcePath` | 字串 | 是 | DITA map檔案的絕對路徑。 |
-| `outputObj` | 字串 | 是 | JSON物件，包含正在更新的輸出預設集屬性。 `outputObj.outputName`屬性包含要更新的輸出預設集名稱。 如需JSON物件的格式，請參閱[取得DITA map的所有輸出預設集](#get-output-presets-dita-map)中的&#x200B;**回應值**&#x200B;表格。 |
+| `outputObj` | 字串 | 是 | JSON物件，包含正在更新的輸出預設集屬性。 `outputObj.outputName`屬性包含要更新的輸出預設集名稱。 如需JSON物件的格式，請參閱&#x200B;**取得DITA map的所有輸出預設集**&#x200B;中的[回應值](#get-output-presets-dita-map)表格。 |
 
 **回應值**：
 傳回HTTP 200 \(Successful\)回應。
 
 ## 取得特定的輸出預設集
 
-一種POST方法，可擷取現有的輸出預設集。
+擷取現有輸出預設集的POST方法。
 
 **要求URL**：
 http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/publishlistener
@@ -112,13 +112,13 @@ http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/publishlistener
 | 元素 | 說明 |
 |-------|-----------|
 | `outputName` | 輸出預設集的名稱。 輸出名稱在其定義的DITA map範圍內是唯一的。 |
-| `outputType` | 使用此預設集產生的輸出型別，例如AEM Site、PDF、EPUB或其他。 可用的選項包括：<br>-   AEMSITE <br>-   PDF<br>-   HTML5 <br>-   ePub<br>-   自訂<br> |
+| `outputType` | 使用此預設集產生的輸出型別，例如AEM Site、PDF、EPUB或其他。 可用的選項包括：<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   ePub <br>-   自訂<br> |
 | `outputTitle` | 輸出預設集設定的描述性名稱。 這可用來定義輸出預設集的「設定名稱」屬性值。 |
 | `ditaValPathList` | 要用來產生所要輸出的DITAVAL檔案路徑陣列。 |
 | `targetPath` | 發佈或儲存輸出的路徑。 |
-| `siteName` | \(用於AEM網站輸出\) AEM網站的名稱。 |
+| `siteName` | \(用於AEM網站輸出\)AEM網站的名稱。 |
 | `siteTitle` | \(用於AEM網站輸出\) AEM網站的標題。 |
-| `templatePath` | \(針對AEM網站輸出\)用來產生所要輸出的範本節點路徑。 |
+| `templatePath` | \(用於AEM網站輸出\)用來產生所要輸出的範本節點路徑。 |
 | `searchScope` | 指定搜尋操作的範圍。 此引數的值必須設定為`local`。 |
 | `generateTOC` | \(用於AEM網站輸出\)指定是否產生\(true\)目錄\(false\)。 |
 | `generateBreadcrumbs` | \(用於AEM網站輸出\)指定是否產生階層連結\(true\) \(false\)。 |
@@ -142,14 +142,14 @@ http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/publishlistener
 |----|----|--------|-----------|
 | `operation` | 字串 | 是 | 要呼叫的作業名稱。 此引數的值為`GENERATEOUTPUT`.<br> **注意：**&#x200B;值區分大小寫。 |
 | `source` | 字串 | 是 | DITA map檔案的絕對路徑。 |
-| `outputName` | 字串 | 是 | 要用來產生輸出的輸出預設集名稱。 可以使用垂直號\(「\|」\)分隔符號（例如`aemsite|pdfoutput`）指定多個輸出預設集。 |
+| `outputName` | 字串 | 是 | 要用來產生輸出的輸出預設集名稱。 可以使用垂直號\(「\|」\)分隔符號（例如`aemsite\|pdfoutput`）指定多個輸出預設集。 |
 
 **回應值**：
 傳回HTTP 200 \(Successful\)回應。
 
 ## 產生增量輸出
 
-使用一或多個輸出預設集為AEM Site產生增量輸出的GET方法。
+一種GET方法，可使用一或多個輸出預設集為AEM Site產生增量輸出。
 
 **要求URL**：
 http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/publishlistener

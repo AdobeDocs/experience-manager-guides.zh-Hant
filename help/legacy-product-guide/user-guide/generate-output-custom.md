@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: b96e6599-f8f3-491a-8b8f-fcb1e0f58aae
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 1%
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱[自訂組態](#id231KJA00REJ)。
 
-從地圖儀表板&#x200B;**&#x200B;**
+從地圖儀表板&#x200B;****
 
 若要開啟PDF的輸出預設集，請從Assets UI按一下DITA map檔案，然後按一下輸出預設集，再按一下HTML5選項。 在Map儀表板中，按一下頂端的&#x200B;**編輯**&#x200B;以更新各種設定，然後按一下&#x200B;**儲存**。
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 下列選項適用於自訂輸出預設集：
 
-| 自訂輸出選項 | 描述 |
+| 自訂輸出選項 | 說明 |
 | --- | --- |
 | 輸出類型 | 您要產生的輸出型別。 若要使用自訂DITA-OT外掛程式產生輸出，請選擇自訂選項。 |
 | 設定名稱 | 為您正在建立的輸出設定提供描述性名稱。 例如，您可以指定&#x200B;_內部客戶輸出_&#x200B;或&#x200B;_一般使用者輸出_。 |
@@ -65,4 +65,4 @@ ht-degree: 1%
 | 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>如需詳細資訊，請參閱[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)。 |
 | 檔案屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會顯示在&#x200B;**檔案屬性**&#x200B;欄位下。 選取屬性旁的十字圖示以將其移除。 <br><br>**附註**：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資訊，請參閱[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞給輸出。 |
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

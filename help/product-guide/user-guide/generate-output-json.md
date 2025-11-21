@@ -4,7 +4,7 @@ description: 瞭解如何從Map主控台建立JSON預設集。 在Experience Man
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 47927187ec0d9eb4f2f78e3cf6062f1992ad0615
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -63,4 +63,4 @@ ht-degree: 0%
 | 要在輸出中傳播的屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會列在「屬性」欄位下方。<br><br>**附註**：您也可以定義自訂屬性，並使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資料檢視，[使用中繼資料](metadata-dita.md#id21BJ00QD0XA)。 |
 | 貼文產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。<br><br>**注意**：如需建立自訂輸出後產生工作流程的詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides as a Cloud Service」指南中的&#x200B;_自訂輸出後產生工作流程_。 |
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

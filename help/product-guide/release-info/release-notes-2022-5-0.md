@@ -1,24 +1,24 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides as a Cloud Service，2022年5月發行
-description: 5月發行的Adobe Experience Manager Guidesas a Cloud Service
+description: 5月發行的Adobe Experience Manager Guides as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
 
 ---
 
-# 5月發行的Adobe Experience Manager Guidesas a Cloud Service
+# 5月發行的Adobe Experience Manager Guides as a Cloud Service
 
 ## 升級至5月發行版本
 
-若要升級您目前的Adobe Experience Manager Guidesas a Cloud Service(稍後稱為&#x200B;*AEM Guidesas a Cloud Service*)安裝程式，請執行下列步驟：
-1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-1. 將Cloud Service Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2022.5.144。
-1. 提交變更並執行Cloud Service管道，以升級至AEM Guides的5月版本as a Cloud Service。
+請升級您目前的Adobe Experience Manager Guides as a Cloud Service (稍後稱為&#x200B;*AEM Guides as a Cloud Service*)安裝程式，方法是執行下列步驟：
+1. 請檢視雲端服務的Git程式碼，並切換至雲端服務管道中設定且與您要升級的環境對應的分支。
+1. 將Cloud Services Git程式碼的`<dox.version>`檔案中的`/dox/dox.installer/pom.xml`屬性更新為2022.5.144。
+1. 提交變更並執行雲端服務管道，以升級至AEM Guides as a Cloud Service的五月版本。
 
 ## 相容性矩陣
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 新功能和增強功能
 
-AEM Guidesas a Cloud Service在5月發行版本中提供許多增強功能和新功能：
+AEM Guides as a Cloud Service在5月發行版本中提供許多增強功能和新功能：
 
 ### 增強型網頁編輯器
 
@@ -74,7 +74,7 @@ AEM Guidesas a Cloud Service在5月發行版本中提供許多增強功能和新
 ### 翻譯流程改善
 
 * **能夠建立範圍設定翻譯專案**
-如果您只需要為要翻譯的專案建立範圍，可以選取&#x200B;**建立新的範圍設定翻譯專案**。 這不會傳送副本以供翻譯，並且會維護檔案的原始翻譯狀態。
+如果您只需要為要翻譯的專案建立範圍，可以選取**建立新的範圍設定翻譯專案**。 這不會傳送副本以供翻譯，並且會維護檔案的原始翻譯狀態。
 
 ![設定翻譯專案的範圍](assets/scoping-translation-project.png)
 
@@ -88,12 +88,12 @@ AEM Guidesas a Cloud Service在5月發行版本中提供許多增強功能和新
 
 * 載入語言資料夾以外的DITA map時，後端不會記錄任何例外狀況。
 
-如需翻譯的詳細資訊，請參閱使用Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*從網頁編輯器翻譯檔案*&#x200B;區段。
+如需翻譯的詳細資訊，請參閱使用Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*從網頁編輯器翻譯檔案*&#x200B;區段。
 
 
 ### 增強型發佈
 
-* 您也可以在從地圖儀表板產生輸出時，從「輸出」標籤存取&#x200B;**Publish儀表板**。 Publish Dashboard中提供所有作用中發佈任務的清單。
+* 您也可以在從地圖儀表板產生輸出時，從[輸出]索引標籤存取&#x200B;**發佈儀表板**。 發佈儀表板中提供所有作用中發佈任務的清單。
 
 ![佇列輸出](assets/queued-output.png)
 
@@ -104,7 +104,7 @@ AEM as a Cloud Service不再支援為FrameMaker檔案產生DITA輸出格式。 �
 
 ### 改善以文章為基礎的發佈
 
-XML編輯器提供在發佈到Salesforce設定檔時將多個產品類別對應到文章的功能。
+XML編輯器提供在發佈至Salesforce設定檔時，將多個產品類別對應至文章的功能。
 
 ### 其他功能增強功能
 
@@ -119,7 +119,7 @@ XML編輯器提供在發佈到Salesforce設定檔時將多個產品類別對應�
 * 透過「選項」功能表重新整理空白資料夾後，按一下空白資料夾時，應用程式會變空白。 (9639)
 * 我們&#x200B;**儲存並關閉**&#x200B;簽入的檔案時，正在建立新版本。 (9638)
 * 啟用&#x200B;**另存為新版本**&#x200B;核取方塊時，未顯示關閉按鈕。 (9637)
-* 如果正確的PDF首先透過每個章節的單獨PDF發佈，然後是單一PDF檔案(取消勾選「建立單獨的PDF檔案」)，則不會發佈。 (9632)
+* 如果首先透過每個章節的個別PDF發佈PDF，然後是單一PDF檔案(取消勾選建立個別PDF檔案)，則不會發佈正確的。 (9632)
 * 地圖儀表板對非管理員使用者造成中繼資料問題。 (9620)
 * 建立基準後，如果伺服器擁有超過10000個檔案，則會在UI上將狀態設定為失敗（取得狀態呼叫失敗）。 (9608)
 * 在屬性中儲存大型資料會導致發佈錯誤，因為分割發佈工作流程失敗。 (9586)
@@ -139,7 +139,7 @@ XML編輯器提供在發佈到Salesforce設定檔時將多個產品類別對應�
 * 在編輯器中開啟某些內容檔案時，編輯器會凍結。 (9443)
 * 在「存放庫」面板中搜尋，且topicref瀏覽對話方塊會在內容較大時凍結畫面。 (9432)
 * 傳遞至AEM網站輸出的中繼資料不會遵循內容的基準線。 (9416)
-* 在AEM中版本還原後，氧氣會簽出不正確版本的主題。 (9411)
+* 氧氣在AEM中的版本還原後會簽出不正確的主題版本。 (9411)
 * 基準線失敗會在地圖控制面板的「預設」標籤中停用編輯功能。 (9403)
 * 建立新內容時一律會記錄錯誤。 (9388)
 * 新建立的DITA資產一律會由其他使用者出庫。 (9387)
@@ -169,12 +169,12 @@ XML編輯器提供在發佈到Salesforce設定檔時將多個產品類別對應�
 * 文章式發佈輸出中未顯示不含文字的`xref`。 (8764)
 * 在檔案名稱中有空格的移動影像或多媒體檔案上，參照會中斷。 (8624)
 * 選擇`Select All`並將多媒體檔案或DITA內容移動到另一個資料夾時，參照中斷。 (8622)
-* Publish儀表板不會清理狀態為「等待」或「正在執行」的輸出作業。  (8569)
+* 發佈儀表板不會清理狀態為「等待」或「正在執行」的輸出工作。  (8569)
 * 如果存在大量剩餘的輸出歷史記錄節點，則輸出清除功能會失敗。 (8568)
 * DITA附加套件可防止DAM重複資產偵測。 (8417)
 * 啟用非DITA檔案的建立稽核工作按鈕。 (8401)
 * 使用UI將subjectref新增至地圖時，插入參照對話方塊會開啟。 (8212)
-* 將outputclass屬性新增到`tgroup`元素時，在每一個空白`entry`元素中找到未預期的空間。 (7532)
+* 將outputclass屬性新增到`entry`元素時，在每一個空白`tgroup`元素中找到未預期的空間。 (7532)
 * 動作一完成，「存放庫」面板就不會顯示已存回或已存回的檔案鎖定圖示。 (5817)
 * 即使從編輯器簽入檔案，儲存庫檢視中也會顯示鎖定圖示。  (5756)
 * 「輸出」標籤下方的AEM預設集中缺少網站。 (9567)
@@ -183,8 +183,8 @@ XML編輯器提供在發佈到Salesforce設定檔時將多個產品類別對應�
 * 如果內容移至其他資料夾，下載具有基準線的對應將無法運作。 (9331)
 * 當檔案已存在於AEM的相同位置時，在Oxyor中重新上傳失敗。 (9328)
 * 並排檢視中的反白位置不正確。 (9305)
-* 將檔案從Oxyor簽入至AEM後，檔案中的日文內容會取代為問號(???)。 (9276)
-* 從Oxyor上傳檔案到AEM失敗。 (9157)
+* 將檔案從氧氣簽入至AEM後，檔案中的日文內容會取代為問號(???)。 (9276)
+* 從Oxyor上傳檔案至AEM失敗。 (9157)
 * 在收件匣中重新指派稽核任務時，未傳送電子郵件通知。 (8376)
 
 ## 已知問題

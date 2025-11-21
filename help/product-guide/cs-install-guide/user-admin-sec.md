@@ -5,7 +5,7 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6aaa5c1eeb9b74ababc7ebf427babfff101acc70
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 9%
@@ -18,9 +18,9 @@ ht-degree: 9%
 
 AEM檔案中的下列主題將幫助您瞭解使用者管理與安全性相關的概念和功能：
 
-- [AEM使用者、群組和許可權](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hant)
+- [AEM使用者、群組和許可權](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
-- [使用者管理與安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=zh-Hant)
+- [使用者管理與安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
 
 
 ## AEM Guides建立的使用者群組 {#id181TF0K0MHT}
@@ -48,27 +48,27 @@ AEM Guides提供三個現成可用的群組。 這些群組是： *作者*、*�
 | 複製 | 是 |   | 是 |
 | 刪除 | 是 |   | 是 |
 | 共用 | 是 |   | 是 |
-| **檔案狀態** |
+| **檔案狀態** |  |  |  |
 | 建立/編輯檔案狀態設定檔 |   |   | 是 |
 | 變更檔案狀態[2](#fntarg_2) | 是 | 是 | 是 |
-| **DITA map主控台中可用的功能\（輸出預設集索引標籤\）** |
+| **DITA map主控台中可用的功能\（輸出預設集索引標籤\）** |  |  |  |
 | 產生 |   |   | 是 |
 | 編輯 |   |   | 是 |
 | 重複項目 |   |   | 是 |
 | 建立 |   |   | 是 |
 | 刪除預設集 |   |   | 是 |
-| **DITA map主控台中可用的功能\（輸出標籤\）** |
+| **DITA map主控台中可用的功能\（輸出標籤\）** |  |  |  |
 | 檢視產生的輸出 | 是 |   | 是 |
-| **DITA map主控台中可用的功能\（主題標籤\）** |
+| **DITA map主控台中可用的功能\（主題標籤\）** |  |  |  |
 | 建立評論任務 | 是 |   | 是 |
 | 編輯 | 是 |   | 是 |
-| **DITA map主控台中可用的功能\（基準線標籤\）** |
+| **DITA map主控台中可用的功能\（基準線標籤\）** |  |  |  |
 | 建立 |   |   | 是 |
 | 編輯 |   |   | 是 |
 | 重複項目 |   |   | 是 |
 | 移除 |   |   | 是 |
 | DITA map主控台\（報表標籤\） | 是 |   | 是 |
-| DITA map主控台中可用的&#x200B;**功能\（條件預設集\）** |
+| DITA map主控台中可用的&#x200B;**功能\（條件預設集\）** |  |  |  |
 | 建立/編輯條件預設集 |   |   | 是 |
 
 ## 使用者群組的其他附註

@@ -1,37 +1,37 @@
 ---
 title: 發行說明 | 2023年9月發行的Adobe Experience Manager Guides中的升級指示和修正問題
-description: 瞭解錯誤修正以及如何升級至2023年9月發行的Adobe Experience Manager Guidesas a Cloud Service
+description: 瞭解錯誤修正以及如何升級至2023年9月發行的Adobe Experience Manager Guides as a Cloud Service
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
 
-# 2023年9月發行的Adobe Experience Manager Guidesas a Cloud Service
+# 2023年9月發行的Adobe Experience Manager Guides as a Cloud Service
 
-此發行說明涵蓋升級指示、相容性矩陣，以及2023年9月版Adobe Experience Manager Guides (後來稱為&#x200B;*AEM Guidesas a Cloud Service*)中修正的問題。
+此發行說明涵蓋升級指示、相容性矩陣，以及2023年9月版Adobe Experience Manager Guides (後來稱為&#x200B;*AEM Guides as a Cloud Service*)中修正的問題。
 
-如需新功能和增強功能的詳細資訊，請參閱[AEM Guidesas a Cloud Service2023年9月版的新增功能](whats-new-2023-9-0.md)。
+如需新功能和增強功能的詳細資訊，請參閱[AEM Guides as a Cloud Service 2023年9月版的新增功能](whats-new-2023-9-0.md)。
 
 ## 升級至2023年9月發行
 
-請升級您目前的AEM Guidesas a Cloud Service設定，方法是執行下列步驟：
+請升級您目前的AEM Guides as a Cloud Service設定，方法是執行下列步驟：
 
-1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-2. 將Cloud Service Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2023.9.0.359。
-3. 提交變更並執行Cloud Service管道，以升級至2023年9月版本的AEM Guidesas a Cloud Service。
+1. 請檢視雲端服務的Git程式碼，並切換至雲端服務管道中設定且與您要升級的環境對應的分支。
+2. 將Cloud Services Git程式碼的`<dox.version>`檔案中的`/dox/dox.installer/pom.xml`屬性更新為2023.9.0.359。
+3. 提交變更並執行雲端服務管道，以升級至2023年9月版本的AEM Guides as a Cloud Service。
 
 ## 透過servlet啟用指令碼觸發的步驟
 
-(僅限使用2023年6月之前版本的AEM Guidesas a Cloud Service)
+(僅限您使用2023年6月之前版本的AEM Guides as a Cloud Service)
 
 完成安裝後，您可以選擇點選觸發程式以開始翻譯工作：
 
-POST：
+張貼：
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -62,14 +62,14 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## 後續處理現有內容以使用中斷連結報告的步驟
 
-(僅限使用2023年6月之前版本的AEM Guidesas a Cloud Service)
+(僅限您使用2023年6月之前版本的AEM Guides as a Cloud Service)
 
 執行以下步驟後續處理現有內容並使用新的中斷連結報表：
 
-1. （選擇性）如果系統中有超過100,000個dita檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
+1. （選擇性）如果系統中有超過100,000個dita檔案，請將`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
 
    - 使用安裝和設定Adobe Experience Manager Guides中&#x200B;*設定覆寫*區段中提供的指示
-as a Cloud Service，以建立組態檔。
+as a Cloud Service，以建立設定檔。
    - 在組態檔中，提供下列（屬性）詳細資訊，以設定queryLimitReads選項：
 
      | PID | 屬性索引鍵 | 屬性值 |
@@ -87,7 +87,7 @@ as a Cloud Service，以建立組態檔。
 
 ## 為現有內容建立索引，以使用「報表」標籤下新的尋找和取代與主題清單的步驟：
 
-(僅限使用2023年6月之前版本的AEM Guidesas a Cloud Service)
+(僅限您使用2023年6月之前版本的AEM Guides as a Cloud Service)
 
 執行以下步驟來索引現有內容，並在報表標籤底下的對應層級和主題清單中使用新的尋找和取代文字：
 
@@ -98,7 +98,7 @@ as a Cloud Service，以建立組態檔。
 1. 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
 
-1. 工作完成後，先前的GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
+1. 工作完成後，先前的GET請求會回應成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
 
 ## 相容性矩陣
 
@@ -117,7 +117,7 @@ as a Cloud Service，以建立組態檔。
 | AEM Guides雲端版 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- | --- | --- |
 | 2023.09.0 | 3.1-uuid 17 | 3.1-uuid 17 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### 知識庫範本版本
@@ -167,16 +167,16 @@ as a Cloud Service，以建立組態檔。
 - 原生PDF | 在DITA map中將outputclass新增至父`<topicref>`元素並將自訂樣式套用至outputclass時，該樣式會套用至主題內文中的元素，包括區段標題。(12166)
 - 如果DITA map有多個ditavalref，則增量發佈無法運作。 (12117)
 - AEM網站 | 使用keydef將主題作為變數來建立對應，然後新增processing-role=resource-only會建立一些未預期的頁面。 (12099)
-- 如果來自AEM DAM的任何資產用於AEM網站以外的任何輸出，則中繼資料「jcr：createdBy」不會反映發佈者的名稱或上次修改DITA map或主題的使用者名稱。 (12090)
+- 如果AEM DAM的任何資產用於AEM網站以外的任何輸出，則中繼資料「jcr:createdBy」不會反映發佈者的名稱或上次修改DITA map或主題的使用者名稱。 (12090)
 - AEM Sites | DITA地圖的navtitle中帶有主題標題（包含不支援的字元）會導致頁面URL錯誤。 (11978)
 - 原生PDF | 在Frontmatter和Backmatter支援topichead / topicmeta / navtitle時發生問題。 (11969)
 - 原生PDF | 為大型檔案產生PDF非常耗時。 (11955)
 - 原生PDF | 重新命名預設集會在產生PDF輸出時擲回NullPointerException。 (11889)
-- PDF輸出中未顯示`<conref>`內容。 (11131)
+- `<conref>`內容未顯示在PDF輸出中。 (11131)
 - 在頁面配置編輯器的「作者」和「Source」檢視之間切換時，`<div>`元素內會新增一個額外空間。 (10750)
-- 在AEM Cloud Manager上復寫的內容在Publish執行個體上不可見。 (9564)
+- 在AEM Cloud Manager上復寫的內容在發佈執行個體上不可見。 (9564)
 
-### 轉換
+### 翻譯
 
 - 匯出重新命名的翻譯基準線的程式會失敗。 (12993)
 - 已翻譯檔案的標題會取代來源檔案的標題而顯示。 (11630)

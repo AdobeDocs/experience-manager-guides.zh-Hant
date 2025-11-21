@@ -4,25 +4,25 @@ description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service的1月�
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides]as a Cloud Service的1月版本
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service的1月版本
 
 ## 升級至1月發行
 
-執行下列步驟，升級您目前的[!DNL Adobe Experience Manager Guides]as a Cloud Service(稍後稱為[!DNL AEM Guides]as a Cloud Service)安裝程式：
-1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-1. 將Cloud Service Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2022.1.78。
-1. 認可變更並執行Cloud Service管道，以升級至[!DNL AEM Guides]的1月版本as a Cloud Service。
+請升級您目前的[!DNL Adobe Experience Manager Guides] as a Cloud Service (後來稱為[!DNL AEM Guides] as a Cloud Service)安裝程式，方法是執行下列步驟：
+1. 請檢視雲端服務的Git程式碼，並切換至雲端服務管道中設定且與您要升級的環境對應的分支。
+1. 將Cloud Services Git程式碼的`<dox.version>`檔案中的`/dox/dox.installer/pom.xml`屬性更新為2022.1.78。
+1. 認可變更並執行雲端服務管道，以升級至[!DNL AEM Guides] as a Cloud Service的1月版本。
 
 ## 相容性矩陣
 
-本節列出[!DNL AEM Guides]as a Cloud Service2022年1月發行版本所支援之軟體應用程式的相容性矩陣。
+本節列出[!DNL AEM Guides] as a Cloud Service 2022年1月發行版本所支援之軟體應用程式的相容性矩陣。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!DNL AEM Guides]雲端版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2.2 | 2.2 |
-|  |  |  |  |  |
+|  |  |  |  |  |  |
 
 
 ## 新功能和增強功能
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ![以文章為基礎的發佈](assets/article-based-publishing.png)
 
-除了AEM之外，您也可以使用此獨特功能，將文章發佈至任何知識庫入口網站（例如Salesforce）。 此功能也隨附OOTB內容範本(以AEM核心元件為基礎)，讓您建立技術內容的知識型存放庫。 此範本的優點在於其可完全自訂，以符合您的組織需求，並且可支援企業內部網路入口網站等使用案例。
+除了AEM之外，您也可以使用此獨特功能，將文章發佈至任何知識庫入口網站，例如Salesforce。 此功能也隨附OOTB內容範本(以AEM核心元件為基礎)，讓您建立技術內容的知識型存放庫。 此範本的優點在於其可完全自訂，以符合您的組織需求，並且可支援企業內部網路入口網站等使用案例。
 您也可以根據文章的檔案狀態和修改時間來篩選文章。
 
 這種按需文章發佈功能不僅可讓您完全控制內容發佈，還可縮短發布更新內容的整體時間。
@@ -80,12 +80,12 @@ ht-degree: 0%
 
 * 您現在可以從網頁編輯器上傳.docx檔案。
 
-### 具有FrameMaker的作者
+### 使用FrameMaker作者
 
-現在您可以用FrameMaker製作和發佈檔案。 FrameMaker隨附Adobe Experience Manager的現成可用聯結器。 在FrameMaker中，您會獲得易於使用的介面，讓您在分散的合作環境中維護檔案的版本。
+現在您可以在FrameMaker中編寫和發佈檔案。 FrameMaker隨附Adobe Experience Manager的現成聯結器。 在FrameMaker中，您可獲得易用的介面，讓您在分散式合作環境中維護檔案的版本。
 
 建立內容後，FrameMaker可讓您以不同格式發佈檔案 — PDF、HTML5、EPUB和DITA。 您也可以執行各種檔案管理操作，例如出庫、具有相依項的出庫、入庫、重新整理等。
-若要使用[!DNL AEM Guides]as a Cloud Service中的FrameMaker進行撰寫，請使用FrameMaker版本2020.4及更高版本。
+若要在[!DNL AEM Guides] as a Cloud Service中使用FrameMaker進行撰寫，請使用FrameMaker 2020.4版及更新版本。
 
 ### 新增翻譯儀表板
 
@@ -101,11 +101,11 @@ ht-degree: 0%
 
 ### 增強型發佈
 
-* 作者現在可以將地圖和主題層級中繼資料傳遞至DITA-OT發佈。 當自訂PDF範本的設計使用檔案中繼資料屬性（如標籤、作者、檔案狀態等）時，這將很有幫助。
+* 作者現在可以將地圖和主題層級中繼資料傳遞至DITA-OT發佈。 當自訂PDF範本設計為使用檔案中繼資料屬性（如標籤、作者、檔案狀態等）時，這項功能會很有幫助。
 
 ![DITA-OT中繼資料](assets/custom-meta-data-output-preset.png)
 
-* 已新增設定，以讓使用者保留或刪除在AEM Site輸出產生中使用&#x200B;**刪除與建立**&#x200B;選項時要刪除的主題版本。
+* 已新增設定，以讓使用者保留或刪除在AEM網站輸出產生中使用&#x200B;**刪除與建立**&#x200B;選項時要刪除的主題版本。
 
 ### 改善檔案處理
 
@@ -123,13 +123,13 @@ ht-degree: 0%
 
 ### 新的報告匯出功能
 
-報告對於識別內容的健康情況非常有用。 [!DNL AEM Guides]as a Cloud Service提供各種報告來控制您的內容。 現在，您不僅可以檢視報表，還可以將報表資料匯出為CSV檔案，以便檢視並與更廣大的團隊分享。 報表資料可讓您快速瀏覽任何中斷的連結或遺失的影像。
+報告對於識別內容的健康情況非常有用。 [!DNL AEM Guides] as a Cloud Service提供各種報表，讓您控制內容。 現在，您不僅可以檢視報表，還可以將報表資料匯出為CSV檔案，以便檢視並與更廣大的團隊分享。 報表資料可讓您快速瀏覽任何中斷的連結或遺失的影像。
 
 ![報告匯出](assets/export-report.png)
 
 ### 改善氧氣DAM重新整理體驗
 
-當您從Oxyor中的AEM伺服器重新整理檔案時，如果您在目前的Oxyor工作階段中有未儲存的檔案，則會顯示警告訊息。 您可以選擇取消重新整理作業以儲存任何未儲存的檔案。 若沒有此功能，使用者會遺失其檔案中的任何未儲存資訊。
+當您從Oxyor中的AEM伺服器重新整理檔案時，如果您在目前的Oxyor工作階段中有未儲存的檔案，系統會顯示警告訊息。 您可以選擇取消重新整理作業以儲存任何未儲存的檔案。 若沒有此功能，使用者會遺失其檔案中的任何未儲存資訊。
 
 
 ### 其他功能增強功能
@@ -156,17 +156,17 @@ ht-degree: 0%
 * 在編輯器中不會解析本身為conref的元素的xref。 (7933)
 * 含有索引鍵的標題在編輯器預覽和存放庫面板中無法正確呈現。 (7909)
 * 含有特殊字元的程式碼片段無法正確儲存。 (7908)
-* 在格式化MathML方程式之後儲存主題會導致錯誤。 (7954)
+* 在格式化MathML方程式後儲存主題會導致錯誤。 (7954)
 * 在編輯器中無法正確轉譯(tm)的keydef，且AEM網站輸出包含重複的TM符號。 (7859)
 * 拖放程式碼片段無法依照DTD運作。 (7758)
 * HTML略過圖形的自訂已定義尺寸。 (7718)
 * 移動來源檔案時，conrefred屬性不會更新。 (7698)
 * 使用參考主題型別檔案會導致幾個UI問題。 (7656)
 * 當作者在對應中新增ditavalref時，DITAVAL檔案不會顯示。 (7594)
-* 將outputclass屬性新增到`<tgroup>`元素時，在每一個空白`<entry>`元素中找到未預期的空間。 (7532)
+* 將outputclass屬性新增到`<entry>`元素時，在每一個空白`<tgroup>`元素中找到未預期的空間。 (7532)
 * Source按鈕無法用於透過地圖儀表板開啟的主題。 (7465)
-* 美化列印會插入空白行與空格，當檔案以FrameMaker或氧氣開啟時，即可看到這些空白行與空格。 (7408)
-* 在任何主題中具有href=&quot;/&quot;的地圖都不會發佈在AEM網站上。 (7405)
+* 美化列印會插入空白行與空格，在FrameMaker或Oxygon中開啟檔案時即可看到這些行與空格。 (7408)
+* 任何主題中具有href=&quot;/&quot;的地圖都不會發佈在AEM網站上。 (7405)
 * 根對映包含大量索引鍵時，在編輯器中發現效能問題。 (7400)
 * 含有自訂範本之對應的檔案狀態不會從其對應的狀態設定檔繼承。 (7359)
 * `<tm>`元素未正確呈現為區塊元素。 (7286)
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 * 上層資料夾中含有特殊字元的檔案，在Oxyor中載入時會發生錯誤。 (8054)
 * 新建立的檔案在Oxyor中開啟時會擲回「找不到GUID」錯誤。 (7856)
-* 使用「在氧氣中編輯」從AEM取出檔案後，簽入選項會停用。 (7471)
+* 使用「在氧中編輯」從AEM中籤出檔案後，簽入選項會停用。 (7471)
 
 
 ### 檢閱
@@ -197,7 +197,7 @@ ht-degree: 0%
 ### 地圖儀表板
 
 * 在地圖控制面板的主題或報告標籤的主題標題中無法看到conref內容。 (8263)
-* AEM Sites輸出 | jcr：更新DITA主題標題時，生成的網站頁面的標題未更新。 (8131)
+* AEM Sites輸出 | 更新DITA主題標題時，產生的網站頁面的jcr:title未更新。 (8131)
 * 下載MAP不會下載主題內使用的視訊檔案。 (8070)
 * 透過下載bookmap API使用物件標籤時，不會下載媒體檔案。 (8057)
 * 如果任何主題的conref檔案的標題以conref開頭，則「報告」標籤中會顯示不正確的報告。 (4698)
@@ -206,7 +206,7 @@ ht-degree: 0%
 ### 發佈
 
 * 選取「啟用版本設定」時，PDF建立首次失敗。 (8053， 8294)
-* 在AEM網站輸出的&#39;tm；標籤後自動新增空白字元。 (7964)
+* AEM網站輸出中的&#39;tm；標籤後會自動新增空白字元。 (7964)
 * 無法在AEM網站輸出中檢視YouTube影片。 (7401)
 * 使用者按一下瀏覽地圖控制面板基線標籤中的所有主題後，參照內容的標籤篩選失敗。 (7388)
 * 含有屬性值SM或reg之元素`<tm>`的發佈主題在產生的輸出中顯示不正確。 (7239)
@@ -216,9 +216,9 @@ ht-degree: 0%
 * 即使已勾選該設定，頁面標題也不會用於產生輸出URL。 (8257)
 * 基準線發佈，挑選目前版本的影像，而非凍結節點。 如果影像的檔案名稱中有空格或特殊字元，也會顯示此訊息。 (8274， 8322)
 * DITA map的增量發佈失敗，其型別主旨配置具有mapref。 (8218)
-* 每當將對應新增至大量Publish儀表板時，就會新增Null。 (8695)
+* 每當將對應新增至大量發佈儀表板時，就會新增Null。 (8695)
 * 在主題中使用將影像做為conref的基準線發佈時，輸出中不會發佈影像。 (8564)
-* 如果刪除AEM網站發佈中使用的基準線，發佈會失敗並出現例外狀況。 (8572)
+* 如果刪除AEM網站發佈中使用的基準線，發佈會失敗，並出現例外狀況。 (8572)
 * 主題再生無法運作。 (8091)
 * 發佈表格中的註腳時發生問題。 (4709)
 
@@ -237,13 +237,13 @@ ht-degree: 0%
 ### 內容匯入
 
 * HTML至DITA轉換 | 含有空白「td」專案之「tr」的表格會在輸出中產生其他列。 (8132)
-* HTML至DITA轉換 | HTML具有包含多個表體的表格時會發生例外狀況，導致失敗。 (7940)
+* HTML至DITA轉換 | HTML有一個表格包含多個主體，但發生例外狀況時失敗。 (7940)
 * HTML至DITA轉換 | 如果來源HTML有註解，則會發生錯誤。 (7937)
 * 匯入DITA 1.3 DITA檔案會導致某些href轉換成格式錯誤的連結。 (8019)
 
 ## 已知問題
 
-Adobe已針對[!DNL AEM Guides] 2022年1月as a Cloud Service版本找出下列已知問題。
+Adobe已針對[!DNL AEM Guides] as a Cloud Service 2022年1月版本找出下列已知問題。
 
 
 ### 因應措施的已知問題

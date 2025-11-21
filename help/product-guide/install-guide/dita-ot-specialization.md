@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,7 @@ AEM Guides提供的預設DITA-OT套件附帶Apache FOP XSL-FO處理器，該處�
 
    - 在Mac/Linux作業系統上執行整合程式\（以安裝自訂外掛程式\），以避免檔案分隔符號發生問題，因為Windows和Linux作業系統有不同的檔案分隔符號，所以在Mac/Linux作業系統上整合的外掛程式會與Windows和Linux安裝程式相容。
    - 確定`DITA-OT.ZIP`檔案包含名為「DITA-OT」的資料夾，其中包含所有相關的外掛程式和檔案。
-   - 檢查您建立的`DITA-OT.ZIP`檔案是否為mimeType： &quot;nt：file&quot; \(這與上傳至AEM時的ZIP檔案主要型別相對應\)。 使用WebDAV工具或程式碼部署，將此ZIP檔案上傳至AEM中的所需路徑。 \(請勿使用AEM封裝管理員來部署此ZIP檔案，因為此ZIP不是AEM內容封裝，而只是封存檔案。\)
-
+   - 檢查您建立的`DITA-OT.ZIP`檔案是否為mimeType： &quot;nt:file&quot; \(這與上傳至AEM時的ZIP檔案主要型別相對應\)。 使用WebDAV工具或程式碼部署，將此ZIP檔案上傳至AEM中的所需路徑。 \(請勿使用AEM的封裝管理員來部署此ZIP檔案，因為此ZIP不是AEM內容封裝，而只是封存檔案。\)
    >[!NOTE]
    >
    > 建議不要覆寫預設的DITA-OT套件。 您應該將包含外掛程式的自訂DITA-OT套件上傳到`apps`資料夾下的其他位置。
@@ -101,23 +100,23 @@ AEM Guides提供的預設DITA-OT套件附帶Apache FOP XSL-FO處理器，該處�
 
    | 屬性名稱 | 說明 |
    |-------------|-----------|
-   | **設定檔屬性** |
+   | **設定檔屬性** |  |
    | 設定檔名稱 | 為此設定檔提供唯一名稱。 |
    | 重複使用輸出 | *\（選擇性\）*&#x200B;如果您的設定檔是以現有的設定檔為基礎，請選取此選項。 選取此選項可確保AEM Guides不會再次擷取DITA-OT套件的內容，並重複使用現有的DITA-OT套件。 |
    | 設定檔擷取路徑 | *\(Optional\)*&#x200B;指定DITA-OT保留在磁碟上的路徑。 依預設，AEM Guides會將DITA-OT套件組合在其存放庫中，並透過此路徑擷取到磁碟上。<br>**注意**&#x200B;您可以使用任何現有的系統變數或屬性來定義此路徑。 如需詳細資訊，請參閱[DITA-OT環境變數](#id181NH0YN0AX)屬性的描述。 |
    | 指派的路徑 | \（*選擇性*\）指定此設定檔適用的內容存放庫路徑。 您可以指定多個位置。 |
-   | **DITA-OT屬性** |
+   | **DITA-OT屬性** |  |
    | DITA-OT逾時 | \（*選擇性*\）指定AEM Guides等待DITA-OT外掛程式回應的時間\（以秒為單位）。 如果在指定時間內未收到任何回應，AEM Guides會終止發佈工作，且工作會標籤為失敗。 此外，輸出產生記錄檔中也有失敗記錄檔。 <br>預設值： 300秒\（5分鐘\） |
-   | dita-OTPDF引數 | 指定由自訂DITA-OT外掛程式處理以產生PDF輸出的命令列引數。 對於所有自訂DITA-OT設定檔，請指定下列命令列引數： `-lib plugins/org.dita.pdf2.fop/lib/` |
-   | DITA-OT AEM引數 | \（*選擇性*\）指定自訂DITA-OT外掛程式處理用來產生AEM Site輸出的自訂命令列引數。 |
+   | dita-OT PDF引數 | 指定由自訂DITA-OT外掛程式處理以產生PDF輸出的命令列引數。 對於所有自訂DITA-OT設定檔，請指定下列命令列引數： `-lib plugins/org.dita.pdf2.fop/lib/` |
+   | dita-OT AEM引數 | \（*選擇性*\）指定自訂DITA-OT外掛程式處理用來產生AEM網站輸出的自訂命令列引數。 |
    | DITA-OT程式庫路徑 | \（*選擇性*\）指定DITA-OT外掛程式的其他程式庫路徑。 |
    | DITA-OT建置XML | \（*選擇性*\）指定自訂DITA-OT外掛程式隨附的自訂Ant建置指令碼路徑。 此路徑相對於檔案系統上的DITA-OT目錄。 |
    | DITA-OT Ant指令碼資料夾 | \（可選\）指定DITA-OT Ant指令碼資料夾的路徑。 此路徑相對於檔案系統上的DITA-OT目錄。 |
    | dita-OT環境變數 | *\（選擇性\）*&#x200B;指定要傳遞至DITA-OT處理程式的環境變數。 依預設，AEM Guides新增四個變數 — `ANT_OPTS`、`ANT_HOME`、`PATH`和`CLASSPATH`。 <br>您可以重複使用任何現有的系統環境變數或屬性來建置新的環境變數。 例如，如果您在系統中定義了`JAVA_HOME`系統變數，並且想要定義名為`JAVA_BIN`的新環境變數（使用`JAVA_HOME`建置）。 然後，您可以將`JAVA_BIN`的定義新增為：<br> `JAVA_BIN= ${JAVA_HOME}/bin` <br> **注意**&#x200B;您也可以使用Java系統屬性來建置環境變數。 例如，如果AEM啟動指令碼將Java系統屬性`java.io.tmpdir`定義為暫存目錄，您可以使用此屬性將新變數定義為： `${java.io.tmpdir}/fmdita/dita_ot`。<br> **重要**&#x200B;若要重複使用任何現有的系統變數或屬性，必須將其括在`${}`內。 |
    | 覆寫DITA-OT輸出 | *\(Optional\)*&#x200B;如果選取此選項，您可以指定本機系統上可用的DITA-OT套件，以使用DITA-OT產生輸出。 此設定是在ConfigManager啟動時設定。 <br>如果要指定儲存在AEM伺服器上的DITA-OT封裝路徑，請取消選取此選項。 |
-   | AEM DITA-OT Zip路徑/本機DITA-OT目錄路徑 | 根據您在「覆寫DITA-OT輸出」中所做的選擇，指定儲存自訂DITA-OT.zip檔案的完整路徑。 這可能是您的AEM存放庫或本機系統中的路徑。 |
+   | AEM DITA-OT Zip路徑/本機DITA-OT目錄路徑 | 根據您在「覆寫DITA-OT輸出」中所做的選擇，指定儲存自訂DITA-OT.zip檔案的完整路徑。 這可能是您AEM存放庫或本機系統中的路徑。 |
    | DITA-OT外掛程式路徑 | 自訂外掛程式的路徑。 此外掛程式會自動與主要DITA-OT套件整合。 |
-   | 整合目錄 | \(*Optional*\) AEM儲存庫中自訂DTD和XSD catalog.xml檔案的路徑。 只有在DITA-OT套件中遺失目錄時，才應提供此專案。 這些目錄會作為外掛程式自動與主要DITA-OT整合。 |
+   | 整合目錄 | \(*Optional*\) AEM存放庫中自訂DTD和XSD catalog.xml檔案的路徑。 只有在DITA-OT套件中遺失目錄時，才應提供此專案。 這些目錄會作為外掛程式自動與主要DITA-OT整合。 |
    | 新增系統ID目錄 | \（*選擇性*\）只有在目錄中有遺失的公用ID專案，或DITA檔案僅使用相對於其上傳來源伺服器路徑的系統ID時，才選取此選項。 |
    | DITA-OT暫時路徑 | *\(Optional\)*&#x200B;指定複製DITA檔案以供處理的暫存位置。 在DITA-OT處理檔案之前，會先在此暫存位置複製檔案。 預設的暫存位置為： <br> **注意**&#x200B;您可以使用任何現有的系統變數或屬性來定義此路徑。 如需詳細資訊，請參閱[DITA-OT環境變數](#id181NH0YN0AX)屬性的描述。 |
 
@@ -184,7 +183,7 @@ DITA專業化是透過新增元素或移除現有元素來建立新DITA結構的
 
    >[!NOTE]
    >
-   > 如果您使用自訂結構描述，則必須在&#x200B;**整合目錄**&#x200B;選項中定義AEM儲存庫中自訂DTD和XSD catalog.xml檔案的路徑。
+   > 如果您使用自訂結構描述，您必須在&#x200B;**整合目錄**&#x200B;選項中，定義AEM儲存庫中自訂DTD和XSD catalog.xml檔案的路徑。
 
 
 
@@ -194,7 +193,7 @@ DITA專業化是透過新增元素或移除現有元素來建立新DITA結構的
    >
    > 僅當目錄中有遺失的公用ID專案，或DITA檔案僅使用相對於其上傳來源本機檔案路徑的系統ID時，才選取此選項。
 
-   如需「設定檔」頁面上其他屬性的詳細資訊，請參閱[使用自訂DITA-OT外掛程式](#id181NH1020L7)區段的[步驟6](#id17A9F0D075Z)中的屬性表格。
+   如需「設定檔」頁面上其他屬性的詳細資訊，請參閱[使用自訂DITA-OT外掛程式](#id17A9F0D075Z)區段的[步驟6](#id181NH1020L7)中的屬性表格。
 
 1. 按一下&#x200B;**完成**&#x200B;以儲存設定檔。
 

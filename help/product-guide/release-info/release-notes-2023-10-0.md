@@ -1,37 +1,37 @@
 ---
 title: 發行說明 | 2023年10月發行的Adobe Experience Manager Guides中的升級指示和修正問題
-description: 瞭解錯誤修正以及如何升級至2023年10月發行的Adobe Experience Manager Guidesas a Cloud Service
+description: 瞭解錯誤修正以及如何升級至2023年10月發行的Adobe Experience Manager Guides as a Cloud Service
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 1%
 
 ---
 
-# 2023年10月發行的Adobe Experience Manager Guidesas a Cloud Service
+# 2023年10月發行的Adobe Experience Manager Guides as a Cloud Service
 
-此發行說明涵蓋升級指示、相容性矩陣，以及2023年10月版Adobe Experience Manager Guides (後來稱為&#x200B;*AEM Guidesas a Cloud Service*)中修正的問題。
+此發行說明涵蓋升級指示、相容性矩陣，以及2023年10月版Adobe Experience Manager Guides (後來稱為&#x200B;*AEM Guides as a Cloud Service*)中修正的問題。
 
 如需新功能和增強功能的詳細資訊，請參閱[AEM Guides as a Cloud Service 2023年10月版本的新增功能](whats-new-2023-10-0.md)。
 
 ## 升級至2023年10月發行版本
 
-請升級您目前的AEM Guidesas a Cloud Service設定，方法是執行下列步驟：
+請升級您目前的AEM Guides as a Cloud Service設定，方法是執行下列步驟：
 
-1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-2. 將Cloud Service Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2023.10.0.373。
-3. 提交變更並執行Cloud Service管道，以升級至2023年10月版本的AEM Guidesas a Cloud Service。
+1. 請檢視雲端服務的Git程式碼，並切換至雲端服務管道中設定且與您要升級的環境對應的分支。
+2. 將雲端服務Git程式碼的`<dox.version>`檔案中的`/dox/dox.installer/pom.xml`屬性更新為2023.10.0.373。
+3. 提交變更並執行雲端服務管道，以升級至2023年10月版的AEM Guides as a Cloud Service。
 
 ## 透過servlet啟用指令碼觸發的步驟
 
-(僅限使用2023年6月發行之AEM Guidesas a Cloud Service之前的版本時)
+(僅限使用2023年6月發行的AEM Guides as a Cloud Service之前的版本時)
 
 完成安裝後，您可以選擇點選觸發程式以開始翻譯工作：
 
-POST：
+張貼：
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -62,13 +62,13 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## 後續處理現有內容以使用中斷連結報告的步驟
 
-(僅限使用2023年6月發行之AEM Guidesas a Cloud Service之前的版本時)
+(僅限使用2023年6月發行的AEM Guides as a Cloud Service之前的版本時)
 
 執行以下步驟後續處理現有內容並使用新的中斷連結報表：
 
-1. （選擇性）如果系統中有超過100,000個DITA檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
+1. （選擇性）如果系統中有超過100,000個DITA檔案，請將`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
 
-   - 使用安裝和設定Adobe Experience Manager Guidesas a Cloud Service中&#x200B;*設定覆寫*&#x200B;區段中提供的指示來建立設定檔。
+   - 使用安裝和設定Adobe Experience Manager Guides as a Cloud Service中&#x200B;*設定覆寫*&#x200B;區段提供的指示來建立設定檔。
    - 在組態檔中，提供下列（屬性）詳細資訊，以設定queryLimitReads選項：
 
      | PID | 屬性索引鍵 | 屬性值 |
@@ -86,7 +86,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## 為現有內容建立索引，以使用「報表」標籤下新的尋找和取代與主題清單的步驟：
 
-(僅限使用2023年6月發行之AEM Guidesas a Cloud Service之前的版本時)
+(僅限使用2023年6月發行的AEM Guides as a Cloud Service之前的版本時)
 
 執行以下步驟來索引現有內容，並在報表標籤底下的對應層級和主題清單中使用新的尋找和取代文字：
 
@@ -97,7 +97,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 1. 此API會傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
 
-1. 工作完成後，先前的GET請求會以成功回應，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
+1. 工作完成後，先前的GET請求會回應成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
 
 ## 相容性矩陣
 
@@ -116,7 +116,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 | AEM Guides雲端版 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- | --- | --- |
 | 2023.10.0 | 3.2-uuid 5 | 3.2-uuid 5 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### 知識庫範本版本
@@ -139,11 +139,11 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 發佈
 
-- 原生PDF | 產生PDF輸出時，主題的順序未固定。 (13157)
+- 原生PDF | 產生PDF輸出時，主題的順序無法固定。 (13157)
 - 原生PDF| `<p>`元素沒有可用的預設樣式標籤。 (12559)
 - 原生PDF | 套用至內容區域的內嵌樣式不會套用至前後關聯的主題。 (13510)
-- 產生AEM Site輸出時未傳播`DeliveryTarget`屬性。  (13132)
-- 針對發生特定錯誤的內容產生AEM網站輸出時，**Publish**&#x200B;工作流程卡住。 (12000)
+- 產生AEM網站輸出時未傳播`DeliveryTarget`屬性。  (13132)
+- 針對發生特定錯誤的內容產生AEM網站輸出時，**發佈**&#x200B;工作流程卡住。 (12000)
 
 ### 管理
 
@@ -156,7 +156,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 
 
-### 轉換
+### 翻譯
 
 - 從&#x200B;**Translation**&#x200B;儀表板匯出的基準線失敗，且未以目標語言開啟。 (13466)
 
@@ -164,6 +164,6 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## 已知問題
 
-Adobe已發現2023年10月版本的下列已知問題。
+Adobe已在2023年10月版本中找出下列已知問題。
 
 - 內容片段重新發佈失敗。

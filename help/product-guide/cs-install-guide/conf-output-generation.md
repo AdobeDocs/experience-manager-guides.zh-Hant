@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '5620'
+source-wordcount: '5615'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ AEM Guides提供許多設定選項，供您自訂輸出產生流程。 本主題
 
    >[!NOTE]
    >
-   > 請勿在`libs`節點中使用預設組態檔中的任何自訂專案。 您必須在`apps`節點中建立`libs`節點的覆蓋，並僅更新`apps`節點中的必要檔案。
+   > 請勿在`libs`節點中使用預設組態檔中的任何自訂專案。 您必須在`libs`節點中建立`apps`節點的覆蓋，並僅更新`apps`節點中的必要檔案。
 
 1. 新增下列屬性：
 
@@ -109,7 +109,7 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 
    | 屬性 | 說明 |
    |--------|-----------|
-   | `landingPageTemplate`，`searchPageTemplate`，`topicPageTemplate`，`shadowPageTemplate` | 為這些對應頁面指定`cq:Template`節點\（登陸、搜尋和主題\）。 依預設，這些頁面的`cq:Template`節點可以在`/libs/fmdita/templates/default/cqtemplates`節點中找到。 此節點會定義登陸、搜尋和主題頁面的結構和屬性。<br> `shadowPageTemplate`用於最佳化區塊內容。 您必須將此屬性的值設定為： `fmdita/templates/default/cqtemplates/shadowpage` <br> **注意：**&#x200B;您必須指定`topicPageTemplate`的值。 `landingPageTemplate`和`searchPageTemplate`為選擇性屬性。 如果您不想產生搜尋和登入頁面，請勿指定這些屬性。 |
+   | `landingPageTemplate`、`searchPageTemplate`、`topicPageTemplate`、`shadowPageTemplate` | 為這些對應頁面指定`cq:Template`節點\（登陸、搜尋和主題\）。 依預設，這些頁面的`cq:Template`節點可以在`/libs/fmdita/templates/default/cqtemplates`節點中找到。 此節點會定義登陸、搜尋和主題頁面的結構和屬性。<br> `shadowPageTemplate`用於最佳化區塊內容。 您必須將此屬性的值設定為： `fmdita/templates/default/cqtemplates/shadowpage` <br> **注意：**&#x200B;您必須指定`topicPageTemplate`的值。 `landingPageTemplate`和`searchPageTemplate`為選擇性屬性。 如果您不想產生搜尋和登入頁面，請勿指定這些屬性。 |
    | `title` | 設計範本的描述性名稱。 |
    | `topicContentNode` | 將在主題頁面中包含DITA內容的節點位置。 路徑是相對於主題頁面的路徑。 |
    | `topicHeadNode` | 節點的位置，此節點將包含衍生自DITA內容的head值\（或metadata\）。 路徑是相對於主題頁面的路徑。 |
@@ -128,7 +128,7 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 >
 > 建立自訂設計範本節點後，您必須更新AEM網站輸出預設集中的「設計」選項，才能使用自訂設計範本節點。
 
-如需詳細資訊，請參閱[建立您的第一個Adobe Experience Manager網站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)和[在AEM上開發您自己的網站的基本知識](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[建立您的第一個Adobe Experience Manager網站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en)和[在AEM上開發您自己的網站的基本知識](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)。
 
 ### 使用檔案標題來產生AEM網站輸出
 
@@ -158,7 +158,7 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 布林值(`true/false`)。 **預設值**： `false` |
 
-例如，如果`<topichead>`中的&#x200B;*@navtitle*&#x200B;具有所有特殊字元，而您將`aemsite.pagetitle`屬性設定為true，則預設會使用分隔符號。 如果您將`nodename.systemDefinedPageName`屬性設為true，它會顯示第一個子主題的名稱。
+例如，如果&#x200B;*中的*@navtitle`<topichead>`具有所有特殊字元，而您將`aemsite.pagetitle`屬性設定為true，則預設會使用分隔符號。 如果您將`nodename.systemDefinedPageName`屬性設為true，它會顯示第一個子主題的名稱。
 
 
 ### 設定檔案名稱清理規則，以AEM Sites和其他格式建立主題和發佈輸出 {#id2164D0KD0XA}
@@ -207,7 +207,7 @@ AEM Guides可讓您設定AEM網站輸出的節點結構在內部建立的方式�
 
 1. 識別您要平面化節點結構的元素：
 
-1. 覆蓋`apps`節點中的`libs`節點，並開啟elementmapping.xml檔案。
+1. 覆蓋`libs`節點中的`apps`節點，並開啟elementmapping.xml檔案。
 
 1. 在您要平面化節點結構的元素定義中新增`<flatten>true</flatten>`屬性。 例如，如果您想要平面化`p`元素的節點結構，請在`p`元素的定義中新增flatten屬性，如下所示：
 
@@ -261,7 +261,7 @@ AEM Guides可讓您設定AEM網站輸出的節點結構在內部建立的方式�
 
 **防止AEM網站節點結構平面化**
 
-與在AEM Site輸出中指定要平面化的節點類似，您也可以指定要從此設定中排除的元素。 例如，如果您想要在`body`專案處平面化節點，但您不希望`body`中的任何`table`專案平面化，則您可以在`table`專案的定義中新增排除屬性。
+與在AEM Site輸出中指定要平面化的節點類似，您也可以指定要從此設定中排除的元素。 例如，如果您想要在`body`專案處平面化節點，但您不希望`table`中的任何`body`專案平面化，則您可以在`table`專案的定義中新增排除屬性。
 
 若要將`table`元素從平面化中排除，請將下列屬性新增至`table`元素的定義：
 
@@ -269,7 +269,7 @@ AEM Guides可讓您設定AEM網站輸出的節點結構在內部建立的方式�
 
 ### 在AEM網站輸出中設定已刪除頁面的版本設定
 
-當您針對現有輸出頁面設定選取了&#x200B;**刪除和**&#x200B;建立&#x200B;**&#x200B;**&#x200B;選項來產生AEM網站輸出時，會為要刪除的頁面建立一個版本。 您可以設定系統在刪除前停止建立版本。
+當您針對現有輸出頁面設定選取了&#x200B;**刪除和**&#x200B;建立&#x200B;****選項來產生AEM網站輸出時，會為要刪除的頁面建立一個版本。 您可以設定系統在刪除前停止建立版本。
 
 執行以下步驟，停止建立要刪除之頁面的版本：
 
@@ -330,11 +330,11 @@ AEM Guides提供在使用DITA-OT發佈輸出時傳遞自訂中繼資料的方法
 
    3. 在&#x200B;**欄位標籤**&#x200B;中，輸入中繼資料名稱 — Audience。
 
-   4. 在&#x200B;**對應至屬性**&#x200B;設定中，指定。/jcr：content/metadata/&lt;中繼資料的名稱\>。 例如我們的範例，我們將其設為。/jcr：content/metadata/audience。
+   4. 在&#x200B;**對應至屬性**&#x200B;設定中，指定。/jcr:content/metadata/&lt;中繼資料的名稱\>。 例如我們的範例，我們將其設為。/jcr:content/metadata/audience。
 
    使用這些步驟，新增所有必要的中繼資料引數。
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 
 現在，所有DITA map的「屬性」頁面中都會顯示新引數。
@@ -349,7 +349,7 @@ AEM Guides提供在使用DITA-OT發佈輸出時傳遞自訂中繼資料的方法
 
    >[!NOTE]
    >
-   > metadataList檔案包含顯示在地圖儀表板中DITA map的&#x200B;**屬性**&#x200B;下拉式清單中的屬性清單。 依預設，此檔案中列出四個屬性：docstate、dc：language、dc：description和dc：title。
+   > metadataList檔案包含顯示在地圖儀表板中DITA map的&#x200B;**屬性**&#x200B;下拉式清單中的屬性清單。 依預設，此檔案中列出四個屬性：docstate、dc:language、dc:description和dc:title。
 
 1. 新增您在中繼資料結構Forms頁面中新增的自訂中繼資料。 例如，將對象引數新增至預設清單的結尾。
 
@@ -446,7 +446,7 @@ AEM Guides中的DITA元素對應至其對應的AEM元件。 AEM Guides在工作�
 
 >[!NOTE]
 >
-> 請勿在``libs``節點中使用預設組態檔中的任何自訂專案。 您必須在``apps``節點中建立``libs``節點的覆蓋，並僅更新``apps``節點中的必要檔案。
+> 請勿在``libs``節點中使用預設組態檔中的任何自訂專案。 您必須在``libs``節點中建立``apps``節點的覆蓋，並僅更新``apps``節點中的必要檔案。
 
 您可以使用預先定義的DITA元素對應，也可以將DITA元素對映至自訂AEM元件。 若要使用自訂AEM元件，您必須瞭解`elementmapping.xml`檔案的結構。
 
@@ -589,13 +589,13 @@ AEM Guides中的DITA元素對應至其對應的AEM元件。 AEM Guides在工作�
 
 下表說明DITA元素結構描述中的元素：
 
-| 元素 | 描述 |
+| 元素 | 說明 |
 |-------|-----------|
 | `<ditaelement>` | 每個對應元素的頂層節點。 |
 | `<class>` | 您正在寫入元件的目標DITA元素的類別屬性。<br>例如，DITA主題的類別屬性是： <br> `- topic/topic` |
 | `<componentpath>` | 對應AEM元件的CRXDE路徑。 |
 | `<type>` | 可能的值： <br> -   **複合**：處理子專案及<br> -   **STANDALONE**：略過處理子專案 |
-| `<attributeprop>` | 用於將序列化DITA屬性和值作為屬性對應至AEM節點。 例如，如果您有`<note type="Caution">`個元素，而對應至此元素的元件有`<attributeprop>attr_t</ attributeprop>`，則節點的屬性和值會序列化為對應AEM節點\( `attr_t->type="caution"`\)的`attr_t`屬性。 |
+| `<attributeprop>` | 用於將序列化DITA屬性和值作為屬性對應至AEM節點。 例如，如果您有`<note type="Caution">`個元素，而對應至此元素的元件有`<attributeprop>attr_t</ attributeprop>`，則節點的屬性和值會序列化為對應AEM節點\( `attr_t`\)的`attr_t->type="caution"`屬性。 |
 | `<textprop>propname_t</textprop>` | 將`getTextContent()`輸出儲存至`propname_t.` <br>所定義的屬性 **注意：**&#x200B;這是最佳化的屬性。 |
 | `<xmlprop>propname_x </xmlprop>` | 將此節點的序列化XML儲存到由&#x200B;`propname_x.<br> `**定義的屬性注意：**&#x200B;這是最佳化的屬性。 |
 | `<xpath>` | 如果在元素對應中提供了XPath元素，則應該連同元素名稱和類別一起滿足XPath條件，才能使用元件對應。 |
@@ -603,19 +603,19 @@ AEM Guides中的DITA元素對應至其對應的AEM元件。 AEM Guides在工作�
 | `<wrapelement>` | 要將內容包裝在其中的HTML元素。 |
 | `<wrapclass>` | 屬性`wrapclass.`的元素值 |
 | `<attributemap>` | 包含一或多個`<attribute>`節點的容器節點。 |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | 將DITA屬性對應至AEM屬性： <br> -   **`from`**： DITA屬性名稱<br> -   **`to`**： AEM元件屬性名稱<br> -   **`ispath`**：如果屬性是路徑值\（例如： *image*\） <br> -   **`rel`**：如果路徑是來源或目標<br> **注意：**&#x200B;如果`attrname`開頭為`%`，則將`attrname minus '%'`對應至Prop &#39; `propname`&#39;。 |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | 將DITA屬性對應至AEM屬性： <br> -   **`from`**： DITA屬性名稱<br> -   **`to`**： AEM元件屬性名稱<br> -   **`ispath`**：如果屬性是路徑值\（例如： *image*\） <br> -   **`rel`**：如果路徑是來源或目標<br> **注意：**&#x200B;如果`attrname`開頭為`%`，則將`attrname minus '%'`對應至Prop &#39; `propname`&#39;。 |
 
 **其他附註**
 
 - 如果您計畫覆寫預設元素對應，建議您不要在預設`elementmapping.xml`檔案中進行變更。 您應該建立新的對應XML檔案，並將檔案放置於其他位置，最好是放在您建立的自訂應用程式資料夾內。
 
-- 在`elementmapping.xml`檔案中，有許多參考fmdita/components/dita/wrapper元件的對應專案。 包裝函式是一種泛型元件，會使用其網站節點上的屬性來產生相關的HTML，以呈現相對簡單的DITA建構。 它使用`wrapelement`屬性來產生封閉標籤，並將子轉譯委派給對應的元件。 當您只想要容器元件時，這個用法就相當實用。 您可以搭配使用Wrapper元件與`wrapelement`和`wrapclass`屬性來達到相同的效果，而不需建立可轉譯特定容器標籤（如`div`或`p`）的新元件。
+- 在`elementmapping.xml`檔案中，有許多參考fmdita/components/dita/wrapper元件的對應專案。 包裝函式是一種泛型元件，會使用其網站節點上的屬性來產生相關的HTML，以呈現相對簡單的DITA建構。 它使用`wrapelement`屬性來產生封閉標籤，並將子轉譯委派給對應的元件。 當您只想要容器元件時，這個用法就相當實用。 您可以搭配使用Wrapper元件與`div`和`p`屬性來達到相同的效果，而不需建立可轉譯特定容器標籤（如`wrapelement`或`wrapclass`）的新元件。
 
 - 不建議在字串JCR屬性中儲存大量文字。 輸出產生中最佳化的屬性型別計算可確保大型文字內容不會儲存為字串型別。 反之，當需要儲存大於某個臨界值的內容時，屬性的型別會變更為二進位。 預設會將此臨界值設定為512個位元組，但可以在Configuration Manager \(*com.adobe.fmdita.config.ConfigManager*\)中變更，方法是變更&#x200B;**另存為二進位臨界值**&#x200B;設定。
 
 - 如果您計畫覆寫部分\（而非全部\）元素對應，則不需要復寫整個`elementmapping.xml`檔案。 您需要建立新的XML對應檔案，並只定義要覆寫的元素。
 
-- 在自訂位置中建立XML檔案之後，請更新`com.adobe.fmdita.config.ConfigManager`組合中的`Override Element Mapping`設定。
+- 在自訂位置中建立XML檔案之後，請更新`Override Element Mapping`組合中的`com.adobe.fmdita.config.ConfigManager`設定。
 
 
 ## 自訂DITA map主控台 {#id188HC08M0CZ}
@@ -630,17 +630,17 @@ AEM Guides提供用於自訂地圖主控台的`apps.fmdita.dashboard-extn`類別
 
 >[!NOTE]
 >
-> 如需建立AEM使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hant)。
+> 如需建立AEM使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)。
 
 ## 在產生輸出期間處理影像轉譯 {#id177BF0G0VY4}
 
-AEM隨附一組預設工作流程和媒體控制代碼以處理資產。 在AEM中，有預先定義的工作流程可處理最常見MIME型別的資產處理。 一般而言，AEM會針對您上傳的每個影像，以二進位格式建立相同的多個轉譯。 這些轉譯可能大小不同、解析度不同、加上浮水印或其他已變更的特性。 如需AEM如何處理資產的詳細資訊，請參閱AEM檔案中的[使用媒體處理常式和工作流程處理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=zh-Hant)。
+AEM隨附一組預設工作流程和媒體控制代碼以處理資產。 在AEM中，有預先定義的工作流程可處理最常見MIME型別的資產處理。 一般而言，AEM會針對您上傳的每個影像，以二進位格式建立相同的多個轉譯。 這些轉譯可能大小不同、解析度不同、加上浮水印或其他已變更的特性。 如需AEM如何處理資產的詳細資訊，請參閱AEM檔案中的[使用媒體處理常式和工作流程處理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)。
 
 AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 例如，您可以選擇其中一個預設影像轉譯，或建立並使用相同的影像轉譯來發佈檔案。 發行檔案的影像轉譯對應儲存在`/libs/fmdita/config/ **renditionmap.xml**`檔案中。 `renditionmap.xml`檔案的片段如下：
 
 >[!NOTE]
 >
-> 建議您在`apps`資料夾中為所有自訂專案建立`renditionmap.xml`檔案的復本。
+> 建議您在`renditionmap.xml`資料夾中為所有自訂專案建立`apps`檔案的復本。
 
 ```XML
 <renditionmap>
@@ -686,8 +686,8 @@ AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | 指定清除輸出歷史記錄以及輸出日誌的天數。 若要停用此功能，請將此屬性設為0。每天在指定的時間，針對此屬性指定天數之前產生的輸出執行清除程式。<br> **預設值**： 5 |
-| `output.history.purgetime` | 指定開始永久刪除處理的時間。<br> **預設值**： 0:00 \（或12:00午夜\） |
+| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | 指定清除輸出歷史記錄以及輸出日誌的天數。 若要停用此功能，請將此屬性設為0。每天在指定的時間，針對此屬性指定天數之前產生的輸出執行清除程式。 | **預設值**： 5 |
+| `output.history.purgetime` | 指定開始永久刪除處理的時間。 | **預設值**： 0:00 \（或12:00午夜\） |
 
 ## 變更最近產生的輸出清單限制 {#id1679JH0H0O2}
 

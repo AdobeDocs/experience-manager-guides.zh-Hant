@@ -4,17 +4,17 @@ description: 根據核心元件對應設定aem sites輸出的視訊和影像設�
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 8310ae8d2e2eeda0fcfba9ec50650c806263cd49
+exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-
 # 覆蓋AEM Sites輸出中的HTML標籤
 
-您可以在使用AEM Sites預設集產生的AEM Sites輸出中，根據網頁編輯器中的核心元件對應，新增和自訂HTML標籤。 若要自訂HTML標籤，您可以覆蓋`config.xml`檔案。 例如，您可以在AEM Sites輸出中設定視訊和影像地圖。
+您可以在使用HTML預設集產生的AEM Sites輸出中，根據網頁編輯器中的核心元件對應，新增和自訂AEM Sites標籤。 若要自訂HTML標籤，您可以覆蓋`config.xml`檔案。 例如，您可以在AEM Sites輸出中設定視訊和影像地圖。
 
 執行以下步驟以覆蓋和更新`config.xml`檔案：
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ```XML
     <tag name="video" action="validate">
-   	<attribute name="src">
+    <attribute name="src">
       <regexp-list>
         <regexp name="anything"/>
       </regexp-list>
@@ -84,63 +84,63 @@ ht-degree: 0%
 影像地圖：
 
 ```XML
-    	<tag name="map" action="validate">
-	<attribute    name="name">
-		<regexp-list>
-			<regexp name="anything"/>
-		</regexp-list>
-	</attribute>
+        <tag name="map" action="validate">
+    <attribute    name="name">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
     </tag>
     <!-- Image & image related tags -->
     <tag name="img" action="validate">
-	<attribute name="src" onInvalid="removeTag">
-		<regexp-list>
-			<regexp name="onsiteURL"/>
-			<regexp name="offsiteURL"/>
-		</regexp-list>
-	</attribute>
-	<attribute name="name"/>
-	<attribute name="alt"/>
-	<attribute name="height"/>
-	<attribute name="width"/>
-	<attribute name="border"/>
-	<attribute name="align"/>
-	<attribute name="usemap">
-		<regexp-list>
-			<regexp name="anything"/>
-		</regexp-list>
-	</attribute>
-	<attribute name="hspace">
-		<regexp-list>
-			<regexp name="number"/>
-		</regexp-list>
-	</attribute>
-	<attribute name="vspace">
-		<regexp-list>
-			<regexp name="number"/>
-		</regexp-list>
-	</attribute>
+    <attribute name="src" onInvalid="removeTag">
+        <regexp-list>
+            <regexp name="onsiteURL"/>
+            <regexp name="offsiteURL"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="name"/>
+    <attribute name="alt"/>
+    <attribute name="height"/>
+    <attribute name="width"/>
+    <attribute name="border"/>
+    <attribute name="align"/>
+    <attribute name="usemap">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="hspace">
+        <regexp-list>
+            <regexp name="number"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="vspace">
+        <regexp-list>
+            <regexp name="number"/>
+        </regexp-list>
+    </attribute>
     </tag>
     <tag name="area" action="validate">
-	<attribute name="shape">
-		<regexp-list>
-			<regexp name="anything"/>
-		</regexp-list>
-	</attribute>
-	<attribute name="coords">
-		<regexp-list>
-			<regexp name="anything"/>
-		</regexp-list>
-	</attribute>
-	<attribute name="href">
-		<regexp-list>
-			<regexp name="anything"/>
-		</regexp-list>
-	</attribute>
+    <attribute name="shape">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="coords">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="href">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
    </tag>
 ```
 
 
 
 
-深入瞭解[安全性](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/security)的最佳實務。
+深入瞭解[安全性](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security)的最佳實務。

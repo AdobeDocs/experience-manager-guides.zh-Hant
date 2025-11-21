@@ -4,25 +4,25 @@ description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service的2月�
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides]as a Cloud Service的2月版本
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service的2月版本
 
 ## 升級至2月發行
 
-執行下列步驟，升級您目前的[!DNL Adobe Experience Manager Guides]as a Cloud Service(稍後稱為[!DNL AEM Guides]as a Cloud Service)安裝程式：
-1. 檢視Cloud Service的Git程式碼，並切換到在Cloud Service管線中設定的分支，該分支與您要升級的環境相對應。
-1. 將Cloud Service Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2022.2.114。
-1. 認可變更並執行Cloud Service管道，以升級至[!DNL AEM Guides]的2月版本as a Cloud Service。
+請升級您目前的[!DNL Adobe Experience Manager Guides] as a Cloud Service (後來稱為[!DNL AEM Guides] as a Cloud Service)安裝程式，方法是執行下列步驟：
+1. 請檢視雲端服務的Git程式碼，並切換至雲端服務管道中設定且與您要升級的環境對應的分支。
+1. 將Cloud Services Git程式碼的`<dox.version>`檔案中的`/dox/dox.installer/pom.xml`屬性更新為2022.2.114。
+1. 認可變更並執行雲端服務管道，以升級至[!DNL AEM Guides] as a Cloud Service的2月版本。
 
 ## 相容性矩陣
 
-本節列出[!DNL AEM Guides] 2022年2月as a Cloud Service發行版本所支援之軟體應用程式的相容性矩陣。
+本節列出[!DNL AEM Guides] as a Cloud Service 2022年2月發行版本支援之軟體應用程式的相容性矩陣。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 ### 原生PDF發佈
 
-建立原生PDF的支援也已新增至2月發行的[!DNL AEM Guides]as a Cloud Service中。 推出新的發佈引擎，其功能如下：
+建立原生PDF的支援也已新增至2月發行的[!DNL AEM Guides] as a Cloud Service。 推出新的發佈引擎，其功能如下：
 * 建立CSS範本
 * 建立不同的頁面範本
 * 設計包含CSS和頁面範本的PDF範本
-* Publish地圖和PDF格式的主題內容
+* 以PDF格式發佈地圖和主題內容
 
 ### 在文章式發佈中支援知識庫網站路徑
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 * **已改善檔案關閉的對話方塊**
 
-當您嘗試關閉在網頁編輯器中開啟的檔案時，[!DNL AEM Guides]as a Cloud Service會提示您儲存變更並解除鎖定檔案。 提示會根據系統管理員設定的&#x200B;**關閉時要求籤入**&#x200B;和&#x200B;**關閉時要求新版本**&#x200B;設定顯示。
+當您嘗試關閉在網頁編輯器中開啟的檔案時，[!DNL AEM Guides] as a Cloud Service會提示您儲存變更並解除鎖定檔案。 提示會根據系統管理員設定的&#x200B;**關閉時要求籤入**&#x200B;和&#x200B;**關閉時要求新版本**&#x200B;設定顯示。
 
 根據組態，您可以選擇儲存變更並建立檔案的新版本。 或者，您也可以將檔案入庫並將變更儲存至目前版本。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱使用手冊中的&#x200B;*檔案關閉和儲存案例*。
 
-* 字元托盤已新增了連續空格。  **連續的**&#x200B;空格可防止HTML檔案中特定點出現自動分行符號。 網頁編輯器支援AEM Site和HTML5輸出的連續空格。
+* 字元托盤已新增了連續空格。  **不間斷的**&#x200B;空格可防止HTML檔案中特定點出現自動分行符號。 網頁編輯器支援AEM Site和HTML5輸出的連續空格。
 
 * 當您從網頁編輯器上傳影像時，如果已存在相同名稱的影像，則會顯示確認對話方塊。 您可以同時保留現有檔案和新檔案，或是覆寫現有檔案並只儲存新檔案。
 
@@ -92,8 +92,8 @@ ht-degree: 0%
 
 * 以文章為基礎的發佈不會根據選取的基準發佈文章。 (8771)
 * 以文章為基礎的發佈中不遵循DITAVAL檔案。 (8770)
-* 當記錄型別為常見問題集且文章欄位內容為「問題」時，無法為Salesforce設定檔進行文章式發佈。 (8448)
-* 當記錄型別為「手動」時，無法為Salesforce設定檔進行文章式發佈。 (8447)
+* 當記錄型別為常見問題集且文章欄位內容為問題時，無法為Salesforce設定檔進行文章式發佈。 (8448)
+* 記錄型別為「手動」時，無法對Salesforce設定檔進行文章式發佈。 (8447)
 
 ### 網頁編輯器
 

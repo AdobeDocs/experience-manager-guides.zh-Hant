@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: dbc082e9-e75e-414d-a1d1-41f919b345af
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 > 您也可以在網頁編輯器中編輯JSON檔案。
 
-| JSON選項 | 描述 |
+| JSON選項 | 說明 |
 | --- | --- |
 | 輸出路徑 | AEM存放庫內儲存JSON輸出的路徑。 |
 | 索引檔案 | 您可以為您為JSON輸出建立的索引檔案命名。 依預設，它會選取DITA map的檔案名稱並新增尾碼（如`map_filename_index.json`）。<br><br>您也可以在設定索引檔時使用變數。 如需有關使用變數的詳細資訊，請參閱[使用變數來設定目的地路徑、網站名稱或檔案名稱選項](generate-output-use-variables.md#id18BUG70K05Z)。 |
@@ -49,4 +49,4 @@ ht-degree: 0%
 | 要在輸出中傳播的屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會列在「屬性」欄位下方。<br><br>**附註**：您也可以定義自訂屬性，並使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資訊，請參閱[使用中繼資料](metadata-dita.md#id21BJ00QD0XA)。 |
 | 貼文產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。<br><br>**注意**：如需建立自訂輸出後產生工作流程的詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides as a Cloud Service」指南中的&#x200B;_自訂輸出後產生工作流程_。 |
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

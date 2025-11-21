@@ -4,9 +4,9 @@ description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Gui
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->升級AEM Guides版本前，您必須先安裝AEM Service Pack。
+>您必須先安裝AEM Service Pack，才能升級AEM Guides版本。
 
 如需詳細資訊，請參閱[升級指示](../install-guide/upgrade-xml-documentation.md)。
 
@@ -53,21 +53,21 @@ ht-degree: 1%
 
 ### FrameMaker和FrameMaker Publishing Server
 
-| 發行 | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
+| 發行版本 | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
 | 4.3.0 （非UUID） | 2022或更高 | 2020.2或更新版本* | 2022或更高 | 2020.3或更高版本 |
 | 4.3.0 (UUID) | 2022或更高 | 2020.2或更新版本* | 2022或更高 | 2020.4或更新版本 |
-| | | | |
+| | | | | |
 
 *從2020.2開始的FMPS版本支援AEM中建立的基準和條件。
 
 ### 氧氣聯結器
 
-| 發行 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
+| 發行版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
 | --- | --- | --- |--- |--- |
 | 4.3.0 （非UUID） | 2.3-regular-5 | 2.3-regular-5 | 1.6 | 1.6 |
 | 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## 已修正的問題
 
@@ -115,18 +115,18 @@ ht-degree: 1%
 - 複製原生PDF範本會複製到預設範本位置，而不是提供的自訂範本位置。 (12563)
 - 原生PDF | 無法在產生的PDF中設定語言中繼資料以符合WCAG 2.0。 (12407)
 - 從Pod讀取可能已重新整理或重新啟動的暫存檔時，發佈至AEM網站失敗。 (12113)
-- 原生PDF | 自訂屬性不會傳播至暫時HTML或PDF引擎。 (DXML-12005)
+- 原生PDF | 自訂屬性不會傳播至暫時的HTML或PDF引擎。 (DXML-12005)
 - 原生PDF |  發佈大型內容時發生Java OutOfMemoryError。 (11789)
 - 原生PDF | Xref正在列印href主題標題的內容而非Xref標籤。 (11322)
 - 原生PDF | 無法儲存PDF範本設定。 (10751)
 - 原生PDF | 文字延伸超過欄寬，包括多個xref。 (10876)
-- 原生PDF | `<note>` `</note>`元素沒有產生其型別的額外範圍標題。 (10549)
-- JSON輸出 | JSON的jcr：content節點上的`fmUuid`屬性與JSON內的「id」不同。 (11564)
+- 原生PDF | `<note>``</note>`元素沒有產生其型別的額外範圍標題。 (10549)
+- JSON輸出 | JSON的jcr`fmUuid`節點上的:content屬性與JSON內的「id」不同。 (11564)
 - JSON輸出 | 如果存在具有相同檔案名稱的對映和主題，則會移除該對映的JSON。 (11524)
 
 ## 已知問題
 
-Adobe已發現AEM Guides 4.3.0版的下列已知問題：
+Adobe已識別AEM Guides 4.3.0版的下列已知問題：
 
 - 基本範本中定義的通用頁面配置未套用為預設範本。
 
@@ -136,7 +136,7 @@ Adobe已發現AEM Guides 4.3.0版的下列已知問題：
 
   因應措施：
 
-   1. 在`crx/de`中開啟路徑為`/libs/foundation/components/search/search.jsp`的檔案
+   1. 在`/libs/foundation/components/search/search.jsp`中開啟路徑為`crx/de`的檔案
    1. 將行號234取代為下列代碼：
 
       ```
