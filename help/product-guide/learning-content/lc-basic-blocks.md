@@ -4,9 +4,9 @@ description: 瞭解在產品培訓和學習中可以新增到主題或學習內�
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 您可以使用編輯器工具列上可用的基本編輯功能，如下所述：
 
-- **介面工具集**：使用&#x200B;**插入**&#x200B;功能表，將摺疊式功能表、轉盤、熱點等介面工具集新增至您的主題或學習內容，如下所示。 如需互動介面工具集的詳細資訊，請檢視[使用互動介面工具集](./lc-widgets.md)。
+- **插入選項**：提供可新增[互動式介面工具集](./lc-widgets.md)的選項，例如Accordion、Carousel、HotSpot、Tab、Flip card和Click以顯示，以及[結構元素](./lc-other-insert-options.md)，例如Iframe、區塊引號、程式碼區塊等。 使用此功能表為您的學習內容新增功能和多樣性，使其吸引人且結構良好。
 
-  ![](assets/widgets-learning-content.png){width="650" align="left"}
+  ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
 - **文字元件**：為您的內容新增標題/標題、段落、內嵌引號、上標、下標和引文。
 
@@ -45,15 +45,33 @@ ht-degree: 0%
 
   ![](assets/image-learning-content.png){width="650" align="left"}
 
-- **多媒體**：從工具列上的&#x200B;**更多**&#x200B;功能表新增視訊和音訊至內容。 您可以使用&#x200B;**內容屬性**&#x200B;面板自訂其屬性。
+- **多媒體**：將視訊和音訊新增至內容。 您可以使用&#x200B;**內容屬性**&#x200B;面板自訂其屬性。
 
   ![](assets/video-learning-content.png){width="650" align="left"}
 
-- **符號**：將您選擇的符號從清單新增至內容，如下所示。 您可以從工具列上的&#x200B;**更多**&#x200B;功能表使用它。
+- **可重複使用的內容**：可讓您合併資產或存放庫中的現有內容，以便重複使用。 執行以下步驟來插入可重複使用的內容：
+
+   1. 從工具列選取&#x200B;**可重複使用的內容**。
+**重複使用內容**&#x200B;對話方塊開啟。
+   2. 瀏覽並選取想要的主題，以將其內容納入目前的課程。
+   3. 選取您要新增內容的ID；預覽將會與旁邊顯示以供參考。
+
+      ![](assets/reuse-content-dialog.png){width="650" align="left"}
+
+   4. 選擇&#x200B;**選取**。
+
+  內容會插入。 例如，有關車輛結構的區段是重複使用並新增至課程主題的內容片段。 型別顯示為&#x200B;**Reference**，其&#x200B;**ID**&#x200B;反映在&#x200B;**內容屬性**&#x200B;面板中。
+
+  ![](assets/reusable-content.png){width="650" align="left"}
+
+
+- **符號**：將您選擇的符號從清單新增至內容，如下所示。
 
   ![](assets/symbol-learning-content.png){width="350" align="left"}
 
 
-- **超連結**：將超連結新增至內容中的必要位置。 您可以從工具列上的&#x200B;**更多**&#x200B;功能表使用它。 它可以是檔案參考、網頁URL或電子郵件連結，如下所示。
+- **超連結**：將超連結新增至內容中的必要位置。 它可以是檔案參考、網頁URL或電子郵件連結，如下所示。
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+
+此外，**功能表**&#x200B;下拉式清單提供編輯動作（剪下、複製、刪除）、尋找和取代以及版本標籤的存取權。

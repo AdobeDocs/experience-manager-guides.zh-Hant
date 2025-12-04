@@ -4,9 +4,9 @@ description: 瞭解您可在學習內容中使用的互動式Widget。
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: d4fd08c70c590496fef7a047745d4403546664fe
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -28,33 +28,22 @@ ht-degree: 0%
 
   ![](assets/carousal-learning-content.png){width="650" align="left"}
 
-- **熱點：**&#x200B;新增熱點至選取的影像。 從選擇影像開始，然後導覽至&#x200B;**插入>熱點**。 這會開啟「熱點」對話方塊，您可以在其中設定各種選項，例如設定不同的熱點大小、新增對應連結，以及透過將區域向前或向後移動來調整分層。
+- **熱點：**&#x200B;新增熱點到選取的影像。 從選擇影像開始，然後導覽至&#x200B;**插入>熱點**。 這會開啟「熱點」對話方塊，您可以在其中設定各種選項，例如設定不同的熱點大小、新增對應連結，以及透過將區域向前或向後移動來調整分層。
 
   ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **區塊引號：**&#x200B;在您的內容中新增區塊引號與引號。
+- **標籤：**&#x200B;可讓您將內容組織成互動式區段。  每個標籤都可以代表不同的主題或類別；學習者可以按一下或點選標籤，以顯示對應的內容。 將游標放在您希望Tab Widget出現在內容中的位置，然後導覽至&#x200B;**插入> Widget >標籤**。 這會將索引標籤容器新增至您的內容。 現在，開始將內容新增到索引標籤，包括索引標籤標題及其對應內容。
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/insert-tab-lc.png)
 
-- **程式碼區塊：**&#x200B;新增程式碼區塊至您的內容。
+  若要新增、刪除和切換索引標籤配置（垂直索引標籤或水準索引標籤），請使用右側面板中的&#x200B;**內容屬性**&#x200B;區段。
+- **翻轉卡片：**&#x200B;新增互動卡片至您的內容，可翻轉以顯示其他資訊。 每張卡片都有兩面 — 正面和背面，讓學習者以吸引人的方式探索資訊。  若要插入Flip卡片，請將游標置於所需位置，並導覽至&#x200B;**插入> Widget >翻轉卡片**，這會將Flip卡片容器新增至您的內容。 然後，您可以在正面新增標題和選填的影像，並在背面輸入對應的內容。
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/insert-flip-card-lc.png)
 
-- **Iframe：**&#x200B;將iframe插入內容以內嵌外部網頁或互動式資源。 您可以使用&#x200B;**內容屬性**&#x200B;面板來設定iframe屬性，包括來源URL、寬度、高度、對齊方式及標題。 您可以切換至&#x200B;**預覽**&#x200B;模式，檢視iframe中新增的內容，如下所示。
+  若要新增或刪除卡片，或變更其版面，請使用右側面板中的&#x200B;**內容屬性**&#x200B;區段。
+- **按一下以顯示：**&#x200B;將互動式Widget插入您的內容中，隱藏內容，直到學習者按一下以顯示。 這有助於減少雜亂，並鼓勵探索。 將游標置於所需位置並選取&#x200B;**插入> Widget >按一下以顯示**，以插入Widget。 插入後，請為Widget標題提供標題，並定義學習者互動時顯示的隱藏內容。
 
-  **作者**&#x200B;檢視：
+  ![](assets/insert-click-to-reveal-lc.png)
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
-
-
-  **預覽**&#x200B;模式：
-
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
-
-- **輸入欄位：**&#x200B;將文字輸入欄位連同按鈕新增至您的內容。 您可以使用此組合來擷取使用者輸入並觸發特定動作。 播放按鈕已新增到內容中，如下所示。
-
-  ![](assets/button-learning-content.png){width="650" align="left"}
-
-- **更多選項：**&#x200B;您有其他選項可增強您的學習內容，包括插入水平線、分行符號、文字方塊、定位文字方塊和內嵌HTML。
-
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  若要新增或刪除Widget，或管理Widget方向，請使用右側面板中的&#x200B;**內容屬性**&#x200B;區段。

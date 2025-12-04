@@ -4,9 +4,9 @@ description: 瞭解如何在產品培訓和學習的測驗中插入問題，
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 40c12185223cdc35c069d44ceb66a38cecacf84f
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 執行以下步驟，將問題插入測驗：
 
-1. 從工具列的&#x200B;**問題**&#x200B;下拉式選單中選擇所需的問題型別。 您可以根據您的需求，使用下列三種可用格式中的任何一種來新增問題：真或假、單一正確和多重正確，如下所示。
+1. 從工具列的&#x200B;**問題**&#x200B;下拉式選單中選擇所需的問題型別。 您可以根據您的需求，使用四種可用格式中的任一種來新增問題：真或假、單一正確、多重正確並符合以下內容，如下所示。 如需詳細資訊，請檢視[問題型別](#question-types)。
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -48,3 +48,28 @@ ht-degree: 0%
 1. 在內容功能表中，選取&#x200B;**刪除問題** （以移除整個問題）或&#x200B;**刪除選項** （僅移除選取的選項）。
 
 ![](assets/delete-options-lc.png){width="650" align="left"}
+
+## 問題型別
+
+測驗支援下列問題型別：
+
+- **單一正確**：有多個選項的問題，只有一個答案正確。
+
+  ![](assets/single-correct.png){width="650" align="left"}
+
+- **True/False**：學習者選擇為True或False的陳述式問題。
+
+  ![](assets/true-false.png){width="650" align="left"}
+
+
+- **多個正確**：有多個選項的問題，多個答案可以正確。
+
+  ![](assets/multi-correct.png){width="650" align="left"}
+
+- **符合下列專案**：允許學習者比對兩個清單中的專案，以形成正確的配對。 您可以從&#x200B;**內容屬性**&#x200B;面板新增選項集。 若要增加複雜性，您可以從第一個清單中移除一個選項，並在「比對」欄中加入額外的相符項。 這會要求學習者慎重考慮哪個選項沒有直接的配對，造成困難。
+
+  ![](assets/match-the-following.png){width="650" align="left"}
+
+  在發佈的輸出中，**符合以下**&#x200B;個問題會隨每個專案的下拉式選單一起出現，可讓您從可用選項中選取正確的相符專案。
+
+  ![](assets/question-type-publishing.png){width="650" align="left"}

@@ -4,10 +4,10 @@ description: 瞭解Experience Manager Guides提供的各種功能，這些功能
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 17d71e65e2f4f79a764d822f6f1ada136a7379d7
+source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '708'
+ht-degree: 0%
 
 ---
 
@@ -84,3 +84,15 @@ ht-degree: 1%
 ![](assets/course-display-settings.png)
 
 如需影片簡介，請檢視[顯示設定](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg)。
+
+## 建立稽核任務
+
+身為學習課程的作者或管理員，您可以建立課程的稽核任務，並將其指派給稽核者以取得意見反應。 在&#x200B;**課程管理員**&#x200B;面板中開啟您的課程，然後從&#x200B;**選項**&#x200B;功能表選取&#x200B;**建立稽核工作**，如下所示：
+
+![](assets/create-review-task-lc.png)
+
+您被導向到&#x200B;**建立稽核任務**&#x200B;頁面，您需要在其中新增任務詳細資訊，例如稽核任務的標題、指定其所屬的DITA專案、定義任務時間表、指派稽核者等。 完成後，稽核者將收到此任務的通知。 選取的課程主題會在「稽核」UI中開啟，稽核者可在此加入註解並將主題傳回以取得更新。
+
+若要瞭解Experience Manager Guides中的稽核工作流程，請檢視，[傳送稽核主題](../user-guide/review-send-topics-for-review.md)。
+
+
