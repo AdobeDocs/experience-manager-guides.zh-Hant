@@ -3,9 +3,9 @@ title: 插入功能表中的其他選項
 description: 瞭解您可在學習內容中使用的插入功能表選項。
 feature: Authoring
 role: User
-source-git-commit: 1fe46636a82b87b65fb5b29e7282636e7dec2358
+source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ ht-degree: 0%
   > Adobe Experience Manager Guides不支援編輯或建立H5P內容。 在上傳之前，請先在外部準備H5P套件。
 
 
-- **數學方程式：**&#x200B;將MathML方程式插入您的內容。 您可以建立MathML方程式，並選取&#x200B;**插入**&#x200B;以將其新增至您的檔案。
+- **MathML方程式：**&#x200B;將MathML方程式插入您的內容。 您可以建立MathML方程式，並選取&#x200B;**插入**&#x200B;以將其新增至您的檔案。
 
   ![](./assets/insert-mathml.png){width="350" align="left"}
 
   方程式會以淺灰色背景插入。 您可以隨時更新方程式，只要在現有方程式上按一下滑鼠右鍵，然後從內容功能表選取&#x200B;**編輯數學方程式**。 如需在Experience Manager Guides中驗證MathML方程式的詳細資訊，請在MathML編輯器中檢視[方程式驗證](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor)。
 
-- **知識檢查：**&#x200B;可讓您新增可用格式的問題（單一正確、多重正確、True/False、符合以下內容，或從問題庫插入），以供檢閱和確認理解，而不需要評分或報告。 這些問題反映了標準格式並排除分數，因此非常適合自我評估，並適合作為課程內容或主題的一部分，之後可視需要於測驗或評估前進行。
+- **知識檢查：**&#x200B;可讓您新增可用格式的問題（單一正確、多重正確、True/False、符合以下內容，或從問題庫插入），以供檢閱和確認理解，而不需評分。 這些問題反映了標準格式並排除分數，因此非常適合自我評估，並適合作為課程內容或稍後測驗或評估之前的主題（如果有的話）。
 
   ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
