@@ -3,7 +3,7 @@ title: 發行說明 | 2025年12月產品培訓和學習內容版的新增功能
 description: 在2025年12月版本的產品培訓和學習內容中瞭解新的和增強功能
 role: Leader
 hidefromtoc: true
-source-git-commit: fe7e1605933f925530d7767af22770dcde90b6df
+source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
   如需詳細資訊，請檢視[插入]功能表中的[其他選項](../learning-content/lc-other-insert-options.md)。
 
-  ![](assets/knowledge-check-topic.png){width="350" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
 - **新的互動小工具**：您可以使用一些新的互動小工具與學習者互動，讓內容更引人入勝： **按一下以顯示**、**翻轉卡片**&#x200B;和&#x200B;**標籤**。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
   如需詳細資訊，請檢視[測驗問題型別](../learning-content/quiz-insert-questions.md#question-types)。
 
-  ![](assets/question-types.png){width="350" align="left"}
+  ![](assets/question-types.png){width="650" align="left"}
 
 ## 檢閱
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
   如需詳細資訊，請檢視[建立稽核工作](../learning-content/manage-course.md#create-review-task)。
 
-  ![](assets/create-review-task-lc.png){width="350" align="left"}
+  ![](assets/create-review-task-lc.png){width="650" align="left"}
 
 ## 內容管理
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
   如需詳細資訊，請檢視[新增基本建置區塊](../learning-content/lc-basic-blocks.md)。
 
-  ![](assets/reusable-content.png){width="350" align="left"}
+  ![](assets/reusable-content.png){width="650" align="left"}
 
 
 
