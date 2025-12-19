@@ -5,9 +5,9 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9769a196346117237f2f72b6c88f8ac14fece740
 workflow-type: tm+mt
-source-wordcount: '5756'
+source-wordcount: '5824'
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 >
 > 建立自訂設計範本節點後，您必須更新AEM網站輸出預設集中的「設計」選項，才能使用自訂設計範本節點。
 
-如需詳細資訊，請參閱[建立您的第一個Adobe Experience Manager 6.3網站](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html)和[在AEM上開發您自己的網站的基本知識](https://helpx.adobe.com/tw/experience-manager/6-3/sites/developing/using/the-basics.html)。
+如需詳細資訊，請參閱[建立您的第一個Adobe Experience Manager 6.3網站](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html)和[在AEM上開發您自己的網站的基本知識](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html)。
 
 ### 使用檔案標題來產生AEM網站輸出
 
@@ -332,7 +332,7 @@ AEM Guides可讓您設定AEM網站輸出的節點結構在內部建立的方式�
 
 ### 在AEM網站輸出中設定已刪除頁面的版本設定
 
-當您針對現有輸出頁面設定選取了&#x200B;**刪除和**&#x200B;建立&#x200B;**&#x200B;**&#x200B;選項來產生AEM網站輸出時，會為要刪除的頁面建立一個版本。 您可以設定系統在刪除前停止建立版本。
+當您針對現有輸出頁面設定選取了&#x200B;**刪除和**&#x200B;建立&#x200B;****選項來產生AEM網站輸出時，會為要刪除的頁面建立一個版本。 您可以設定系統在刪除前停止建立版本。
 
 執行以下步驟，停止建立要刪除之頁面的版本：
 
@@ -642,11 +642,11 @@ AEM Guides提供用於自訂地圖主控台的`apps.fmdita.dashboard-extn`類別
 
 >[!NOTE]
 >
-> 如需建立AEM使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/clientlibs.html)。
+> 如需建立AEM使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html)。
 
 ## 在產生輸出期間處理影像轉譯 {#id177BF0G0VY4}
 
-AEM隨附一組預設工作流程和媒體控制代碼以處理資產。 在AEM中，有預先定義的工作流程可處理最常見MIME型別的資產處理。 一般而言，AEM會針對您上傳的每個影像，以二進位格式建立相同的多個轉譯。 這些轉譯可能大小不同、解析度不同、加上浮水印或其他已變更的特性。 如需AEM如何處理資產的詳細資訊，請參閱AEM檔案中的[使用媒體處理常式和工作流程處理Assets](https://helpx.adobe.com/tw/experience-manager/6-5/assets/using/media-handlers.html)。
+AEM隨附一組預設工作流程和媒體控制代碼以處理資產。 在AEM中，有預先定義的工作流程可處理最常見MIME型別的資產處理。 一般而言，AEM會針對您上傳的每個影像，以二進位格式建立相同的多個轉譯。 這些轉譯可能大小不同、解析度不同、加上浮水印或其他已變更的特性。 如需AEM如何處理資產的詳細資訊，請參閱AEM檔案中的[使用媒體處理常式和工作流程處理Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html)。
 
 AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 例如，您可以選擇其中一個預設影像轉譯，或建立並使用相同的影像轉譯來發佈檔案。 發行檔案的影像轉譯對應儲存在`/libs/fmdita/config/ **renditionmap.xml**`檔案中。 `renditionmap.xml`檔案的片段如下：
 
@@ -661,6 +661,7 @@ AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 
       <rendition output="AEMSITE">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="PDF">original</rendition>
       <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
       <rendition output="EPUB">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="CUSTOM">cq5dam.web.1280.1280.jpeg</rendition>
    </mapelement>
@@ -669,6 +670,26 @@ AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 
 ```
 
 `mimetype`專案指定檔案格式的MIME型別。 `rendition output`專案指定輸出格式的型別以及應該用於發佈指定輸出的轉譯\（例如，`cq5dam.web.1280.1280.jpeg`\）的名稱。 您可以指定用於所有受支援輸出格式的影像轉譯 — AEMSITE、PDF、HTML5、EPUB和CUSTOM。
+
+如果您要為輸出預設集指定不同的影像轉譯，可以使用`outputName`屬性為相同輸出型別下的特定輸出預設集定義自訂轉譯。 當您因應不同發佈情境而需要不同的影像大小或格式時，此功能會很有用。
+
+例如：
+
+
+```XML
+<renditionmap>
+   <mapelement>
+      <mimetype>image/png</mimetype>
+      
+      <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
+      
+   </mapelement>
+...
+</renditionmap>
+```
+
+在上述轉譯中，透過轉譯中定義的`outputName`屬性，ditahtml5預設集使用`cq5dam.thumbnail.319.319.png`，而若沒有`outputName`，所有HTML5輸出都使用`cq5dam.web.1280.1280.jpeg`。
 
 如果指定的轉譯不存在，AEM Guides發佈程式會先尋找指定影像的Web轉譯。 如果找不到網頁轉譯，則會使用影像的原始轉譯。
 
