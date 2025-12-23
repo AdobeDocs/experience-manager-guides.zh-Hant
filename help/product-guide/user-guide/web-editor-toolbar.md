@@ -4,9 +4,9 @@ description: 瞭解編輯器中的工具列。 瞭解Adobe Experience Manager Gu
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
 workflow-type: tm+mt
-source-wordcount: '5962'
+source-wordcount: '6011'
 ht-degree: 0%
 
 ---
@@ -233,7 +233,7 @@ Experience Manager Guides可讓您以自由格式文字格式指定標籤，或�
 
 「顯示」選單包含下列功能：
 
-- **追蹤變更：**&#x200B;您可以啟用[追蹤]變更模式，以追蹤檔案上所做的所有更新。 啟用追蹤變更後，所有插入和刪除動作都會擷取到檔案中。 所有刪除的內容會使用「刪除線」反白顯示，而所有插入會以綠色文字反白顯示。 此外，您也會在主題頁面的邊緣取得變更列。 對於刪除的內容，再次顯示紅色列，對於新增的內容，則顯示綠色列。 如果同一行有新增和刪除，則會同時顯示綠色和紅色長條。
+- **追蹤變更：**您可以啟用[追蹤]變更模式，以追蹤檔案上所做的所有更新。 啟用追蹤變更後，所有插入和刪除動作都會擷取到檔案中。 所有刪除的內容會使用「刪除線」反白顯示，而所有插入會以綠色文字反白顯示。 此外，您也會在主題頁面的邊緣取得變更列。 對於刪除的內容，再次顯示紅色列，對於新增的內容，則顯示綠色列。 如果同一行有新增和刪除，則會同時顯示綠色和紅色長條。
 下列熒幕擷圖會醒目顯示刪除和插入的內容以及變更列：
   ![](images/track-changes-content.png){width="650" align="left"}
 
@@ -471,6 +471,10 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 
 如果您的管理員已啟用&#x200B;*XMLEditorConfig*&#x200B;中的UUID選項，則您將會在&#x200B;**Link**&#x200B;屬性中檢視參考內容的UUID。
 
+>[!IMPORTANT]
+>
+> 根據標準DITA行為，scope=`external`屬性不可套用至內部連結，因為它僅適用於外部資源的參考。 將此屬性套用至內部連結可能會中斷工作流程。 對於Experience Manager Guides中管理的內容，請改用預設範圍=`local`或索引鍵型參考。
+
 ![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
@@ -623,4 +627,4 @@ Source欄位會顯示所插入影像檔案的UUID。 您可以將滑鼠指標停
 身為管理員，您還能存取&#x200B;**強制解除鎖定**&#x200B;功能，讓您解除鎖定其他使用者鎖定的檔案。 使用此功能可存取其他使用者鎖定的檔案的編輯許可權。
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)
