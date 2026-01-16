@@ -2,9 +2,9 @@
 title: 發行說明 | 已修正Adobe Experience Manager Guides 5.1.0 Service Pack 3版本中的問題
 description: 瞭解Adobe Experience Manager Guides 5.1.0 Service Pack 3版的錯誤修正
 role: Leader
-source-git-commit: 64d7e4f8028ade36c4fee9bb3407e70b10da6869
+source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,12 @@ ht-degree: 1%
 ## Platform
 
 - 使用`scope="external"`作為主題或地圖中DAM內容的參照會導致資產的相對路徑被GUID取代。 (GUIDES-35605)
+
+## 已知問題
+
+Adobe已找出下列5.1.0 Service Pack 3版的已知問題：
+
+- 當您從任務詳細資訊頁面將稽核任務標籤為完成時，任務已完成並關閉；但是，其狀態在稽核儀表板上繼續顯示為&#x200B;**進行中**。 (GUIDES-39375)
 
 
 
