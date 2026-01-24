@@ -17,7 +17,7 @@ ht-degree: 0%
 
 在這些會議中，我們的專家將討論我們產品的深入功能、功能和優點，並分享可幫助您充分利用產品的實用提示和最佳實務。 無論您是新使用者或經驗豐富的專家，這些工作階段都能提供您所需的資訊，協助您充份運用AEM Guides。
 
-我們瞭解您的時間很寶貴，因此我們讓您輕鬆存取這些專家講座。 您可以造訪我們的[社群論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)，或透過寄給您的電子郵件來註冊即將舉行的會議。
+我們瞭解您的時間很寶貴，因此我們讓您輕鬆存取這些專家講座。 您可以造訪我們的[社群論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=zh-Hant)，或透過寄給您的電子郵件來註冊即將舉行的會議。
 
 如果您錯過了先前的任何一個作業，便可以存取此節中的錄製。
 

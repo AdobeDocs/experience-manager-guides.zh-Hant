@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ### 部署
 
-開發DITA-OT外掛程式之後，您就可以使用DITA-OT目錄下的&#x200B;_dita —install_&#x200B;命令，將此外掛程式整合到DITA-OT中，並將其部署到AEM伺服器[請參閱本文章以取得更多詳細資料](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+開發DITA-OT外掛程式之後，您就可以使用DITA-OT目錄下的&#x200B;_dita —install_&#x200B;命令，將此外掛程式整合到DITA-OT中，並將其部署到AEM伺服器[請參閱本文章以取得更多詳細資料](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=zh-Hant)
 
 
 ## 資源
