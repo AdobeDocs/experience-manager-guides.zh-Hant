@@ -28,7 +28,7 @@ ht-degree: 0%
 在此範例中，我們已將`Insert Element`、`Insert Paragraph`、`Insert Numbered List`、`Insert Bulleted List`按鈕取代為包含所有這些按鈕的單一`More Insert Options`按鈕。
 
 6. 中繼資料面板上的[管理按鈕](./examples/metadata_report_manage_button.ts)
-在此範例中，我們已自訂**管理**&#x200B;按鈕（位於「報表」頁面上的「中繼資料」面板中），以便在選取的檔案處於唯讀模式時將其停用。 這有助於防止意外編輯不打算編輯的檔案的中繼資料。
+在此範例中，我們已自訂&#x200B;**管理**&#x200B;按鈕（位於「報表」頁面上的「中繼資料」面板中），以便在選取的檔案處於唯讀模式時將其停用。 這有助於防止意外編輯不打算編輯的檔案的中繼資料。
 
 [檢閱應用程式範例]
 
