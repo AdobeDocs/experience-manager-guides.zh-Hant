@@ -4,9 +4,9 @@ description: 解決AEM Guides中基本疑難排解的問題。 瞭解如何在�
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
+source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,17 @@ ht-degree: 0%
    ![](images/log-file-new.png){align="left"}
 
 1. 套用下列篩選器以反白標示記錄檔中的文字：
-   - 嚴重：以深紅色反白記錄檔中的嚴重錯誤。
-   - 錯誤：以紅色反白記錄檔中的錯誤。 例外會被視為錯誤，並以類似的方式以紅色反白顯示。
-   - 警告：以琥珀色醒目提示記錄檔中的警告。
-   - 資訊：以綠色反白標示記錄檔中的資訊訊息。
+   - **致命**：以深紅色強調記錄檔中的嚴重錯誤。
+   - **錯誤**：以紅色標示記錄檔中的錯誤。 例外會被視為錯誤，並以類似的方式以紅色反白顯示。
+   - **警告**：以琥珀色醒目提示記錄檔中的警告。
+   - **資訊**：以綠色標示記錄檔中的資訊訊息。
 
-1. 使用向上和向下導覽按鈕跳至記錄檔案中反白顯示的文字。
+1. 使用向上和向下導覽按鈕跳至記錄檔案中反白顯示的文字。 或者，捲動記錄檔並檢查訊息。
 
-   或者，捲動記錄檔並檢查訊息。
+1. 您可以在記錄檔上執行下列動作：
 
+   - **下載記錄檔**：如果記錄檔清單很長，請選取&#x200B;**下載記錄檔**&#x200B;以將記錄檔下載到您的裝置，以方便存取和檢閱。
+   - **複製記錄檔**：將記錄檔清單複製到剪貼簿，讓您快速貼到某個文字編輯器。
 
 ## 在文字編輯器中複製並檢查記錄檔
 
@@ -82,6 +84,9 @@ ht-degree: 0%
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
+
+
+
 ## 解決JSP編譯錯誤
 
 如果您的DITA主題太大，則可以在瀏覽器中檢視JSP編譯錯誤\(`org.apache.sling.api.request.TooManyCallsException`\)。 當您開啟主題進行編輯、稽核或發佈時，可能會出現此錯誤。
@@ -99,4 +104,4 @@ ht-degree: 0%
 1. 根據您的需求，增加每個請求&#x200B;*引數的*&#x200B;呼叫數值。
 
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)

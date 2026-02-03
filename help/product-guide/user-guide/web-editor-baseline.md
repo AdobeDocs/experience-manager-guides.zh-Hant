@@ -4,7 +4,7 @@ description: 從Adobe Experience Manager Guides的地圖主控台建立和管理
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
+source-git-commit: eb68e4583083ff209fd717049c6e50b996cba8e8
 workflow-type: tm+mt
 source-wordcount: '1881'
 ht-degree: 0%
@@ -109,7 +109,7 @@ ht-degree: 0%
   >
   >當使用標籤在執行階段產生動態基準的參照時，動態基準的編輯作業可讓您編輯基準的屬性。
 
-  基準線![&#128279;](images/baseline-options.png){width="500" align="left"}的選項
+  基準線![的](images/baseline-options.png){align="left"}選項
 
 ### 現有基準的可用動作
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 ![複製基準線](images/baseline-duplicate.png){width="300" align="left"}
 *根據標籤複製基準線或建立精確副本。*
 
-1. 從基準線的[選項]功能表選取[複製] **&#x200B;**。 **重複的基準線**&#x200B;對話方塊開啟。
+1. 從基準線的[選項]功能表選取[複製] ****。 **重複的基準線**對話方塊開啟。
 >[!NOTE]
 >
 >基準線的預設名稱為`<selected baseline name>`_suffix （如sample-baseline_1）。 您可以根據自己的需求變更名稱。
@@ -168,5 +168,5 @@ ht-degree: 0%
 
 編輯基準線後，選取&#x200B;**儲存**&#x200B;以儲存基準線的變更。 如果您不想儲存變更並重設基準線，可以選取&#x200B;**重設**。 當您選取&#x200B;**重設**&#x200B;時，會顯示警告，指出您未儲存的變更將會遺失。
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)
 

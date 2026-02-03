@@ -4,9 +4,9 @@ description: 探索Adobe Experience Manager Guides中編輯器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,132 @@ Generate the output for the selected file. Output can be generated only for file
 >
 > 如果是影像、音訊或視訊檔案，檔案瀏覽對話方塊會預設為檔案的位置，而不是最後使用的位置。
 
+## 在Experience Manager Guides中瀏覽檔案和資料夾
+
+Experience Manager Guides提供直覺式對話方塊 — **選取檔案**&#x200B;和&#x200B;**選取路徑** — 協助您有效瀏覽及選擇內容存放庫中的檔案或資料夾。
+
+>[!NOTE]
+>
+> 檔案和資料夾路徑瀏覽器在Experience Manager Guides as a Cloud Service 2601年發行版本中透過改版的UI引入。 新介面預設為啟用。 如果您偏好在不進行這些更新的情況下繼續使用現有UI，請聯絡您的客戶成功團隊，以停用此新增強功能。
+
+### 在Experience Manager Guides中瀏覽檔案
+
+檔案路徑瀏覽器可讓您快速找到並選取內容存放庫中的特定檔案。 此功能可用於將主題新增至地圖、連結影像或交叉參照、建立可重複使用的內容等工作。
+
+![](images/select-file-dialog-new.png){width="350" align="left"}
+
+當您啟動檔案瀏覽器時，**選取檔案**&#x200B;對話方塊會開啟。 此對話方塊包含兩個標籤： **存放庫**&#x200B;和&#x200B;**集合**。 依預設，會選取「存放庫」標籤。
+
+![](images/select-file.png){width="650" align="left"}
+
+**存放庫索引標籤中可供檔案瀏覽的功能**
+
+**檔案和資料夾的表格檢視**
+
+「存放庫」標籤為您提供內容存放庫中的檔案和資料夾的表格檢視，讓您更容易找到正確的檔案路徑。 您也可以使用頂部的階層連結和左側的資料夾導覽面板，在資料夾中移動。
+
+![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+
+**單一和多重檔案選擇**
+
+若要使用檔案，只要選取檔案並選擇&#x200B;**選取**&#x200B;即可。
+
+![](images/select-file-single-file-selection.png){width="650" align="left"}
+
+在某些情況下，您還可以從此路徑瀏覽器對話方塊中選取多個檔案。 例如，在瀏覽可重複使用內容的檔案時，您可以選取多個檔案，並將其設為可重複使用內容的一部分。
+
+![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+
+目前可重複使用的內容、主題參照、結構描述、輸出預設集（使用DITAVAL）和Workfront可使用多個檔案選取範圍。
+
+>[!NOTE]
+>
+> 從路徑瀏覽器對話方塊中選取檔案時，某些資料夾可能會顯示為停用。 此行為會限制特定檔案型別的存取權，以確保選取有效。 例如，在建立可重複使用的內容時，只能使用主題和地圖檔案。 為了避免使用無效的檔案型別（例如影像），路徑瀏覽器中的對應檔案將不會顯示或維持停用選取狀態。
+
+**預覽選取的檔案**
+
+您可以使用&#x200B;**預覽**&#x200B;按鈕預覽您選取的檔案，如下所示：
+
+![](images/select-file-preview-button.png){width="650" align="left"}
+
+所選檔案的預覽會顯示在右側。
+
+![](images/select-file-dialog-preview.png){width="650" align="left"}
+
+對於多個選項，所有選取檔案的預覽會顯示在「預覽」面板中，以方便檢閱。
+
+![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+您也可以使用&#x200B;**移除**&#x200B;圖示，取消選取預覽中的部分檔案。
+
+![](images/resusable-content-remove-preview.png){width="650" align="left"}
+
+**搜尋和篩選體驗**
+
+瀏覽存放庫中的檔案時，您可以依名稱、標題或所選路徑中的內容來搜尋檔案。 您可以在搜尋中使用任何一個、兩個或全部三個條件。 如果未選取任何條件，則結果將包含所有這三個條件的共同部分。
+
+![](images/select-file-search.png){width="650" align="left"}
+
+選取&#x200B;**篩選搜尋** \（![搜尋篩選圖示](images/filter-search-icon.svg)\）圖示以開啟右側的「篩選」面板。
+
+![](images/select-file-filters.png){align="left"}
+
+您有以下選項可篩選檔案並縮小搜尋範圍：
+
+- **搜尋**：選取您要搜尋存放庫中檔案的路徑。
+
+- **檔案型別**：根據特定檔案型別篩選您的搜尋。 可用的選項包括：**Topic**、**Map**、**DITAVAL**、**Image**、**Multimedia**、**Document**&#x200B;和&#x200B;**Others**。
+
+  >[!NOTE]
+  >
+  > 在某些情況下，**檔案型別**&#x200B;篩選器會根據工作預先套用至特定檔案型別，且無法變更。 例如，在瀏覽影像時，濾鏡設定為只顯示影像檔案，而在建立可重複使用的內容時，則設定為只顯示主題和地圖檔案。 您仍然可以調整其他篩選器，例如檔案狀態、標籤或上次修改日期，以縮小您的搜尋結果。
+
+- **檔案狀態**：您可以根據檔案的目前檔案狀態來篩選搜尋。 可用的篩選值定義在`repositoryFilters`的`ui_config.json file`欄位中，且與您目前使用的資料夾設定檔相關聯。
+
+  這表示：
+
+   - 如果您使用「全域設定檔」，則會套用在「全域設定檔」中設定的篩選值。
+   - 如果您選取特定資料夾設定檔，則會擷取該設定檔中定義的篩選值。
+
+  檔案狀態可用的預設篩選值為：「草稿」、「編輯」、「稽核中」、「已核准」、「已稽核」和「完成」。 如需自訂檔案狀態篩選值的詳細資訊，請檢視[設定檔案狀態篩選](../cs-install-guide/config-doc-state-filters.md)。
+
+- **鎖定者**：顯示使用者清單。 清單會以非同步方式分頁並載入，一次顯示一組有限的使用者，並在捲動或導覽時擷取更多內容。 這可改善載入速度和整體效能，尤其是在處理大量使用者時。
+
+- **上次修改時間**：根據修改日期篩選內容。 從行事曆選取日期範圍，或選擇下列其中一個時間範圍選項：
+   - 在上週
+   - 在上個月
+   - 在去年
+
+- **標籤**：根據標籤篩選內容。
+
+- **DITA元素**：根據各種DITA元素篩選內容。
+
+套用所有必要的篩選器後，從「篩選器」面板的右下角選取&#x200B;**套用**。
+
+**在[集合]索引標籤中可用的檔案瀏覽功能**
+
+**集合**&#x200B;索引標籤提供集合中可用的檔案組織檢視，以供快速存取和重複使用。 與顯示完整資料夾階層的「存放庫」標籤不同，「系列」可讓您選取常用的主題、地圖和影像，而不需導覽多個資料夾。
+
+![](images/select-file-collections.png)
+
+在「系列」標籤中，您可以：
+
+- 使用頂部的階層連結和右側的資料夾導覽面板，可輕鬆導覽您的集合。
+
+  ![](images/collections-folder-navigation-panel.png)
+- 選取特定集合路徑中存在的檔案，並在右側面板中預覽。
+
+  ![](images/collections-file-preview.png)
+
+
+
+### 存放庫中的瀏覽器資料夾
+
+使用&#x200B;**選取資料夾**&#x200B;對話方塊瀏覽資料夾，著重於在存放庫中選取正確的資料夾路徑以進行工作，例如建立新主題或指定已發佈內容的輸出位置。 它提供清晰、樹狀結構的資料夾檢視，讓導覽更直覺化，並確保內容放置在正確的位置。
+
+![](images/select-path-dialog-new.png){width="300" align="left"}
+
+
 ## 支援文章式發佈
 
 從編輯器中，您可以產生一或多個主題或整個DITA map的輸出。 您需要為DITA map建立輸出預設集，然後可以輕鬆產生一或多個主題的輸出。 如果您更新了地圖中的幾個主題，也可以僅從編輯器為這些主題產生輸出。 如需詳細資訊，請檢視[以文章為基礎的發佈](web-editor-article-publishing.md#id218CK0U019I)。
@@ -172,7 +298,7 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 ### 在MathML編輯器中驗證方程式
 
 當您儲存包含方程式的主題時，Experience Manager Guides會驗證MathML方程式。
-使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取&#x200B;**插入**，則會顯示警告。
+使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取**插入**，則會顯示警告。
 
 ![驗證mathml方程式](images/validate-mathml-equation.png){width="400" align="left"}
 
@@ -235,8 +361,8 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 - 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)圖示或&#x200B;**Alt** + **Space**&#x200B;捷徑鍵，在檔案中插入不間斷的空格。  在編輯器中編輯主題時，這些不斷行空格會顯示為指示器。 您可以從&#x200B;**使用者偏好設定**&#x200B;的&#x200B;**外觀**&#x200B;索引標籤中，使用[在作者模式](./intro-home-page.md#user-preferences)中顯示不斷行空格指示器選項關閉不斷行空格的顯示。
 
-- 如果您將任何外部來源中含不斷行間距的內容複製並貼到&#x200B;**作者**&#x200B;檢視中，則不斷行間距會轉換為間距。
-不過，如果您從&#x200B;**作者**&#x200B;檢視複製並貼上含有不斷行空格的內容，內容會保留。
+- 如果您將任何外部來源中含不斷行間距的內容複製並貼到&#x200B;**作者**檢視中，則不斷行間距會轉換為間距。
+不過，如果您從**作者**&#x200B;檢視複製並貼上含有不斷行空格的內容，內容會保留。
 
 
 ## 自動生成元素ID
@@ -282,4 +408,4 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 - 警報訊息僅適用於DITA檔案，且在所有檢視中皆可見：作者、Source和版面。
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

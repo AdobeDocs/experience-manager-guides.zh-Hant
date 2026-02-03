@@ -4,9 +4,9 @@ description: 瞭解如何將Workfront與Adobe Experience Manager Guides整合，
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2482'
+source-wordcount: '2481'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ Adobe Workfront是雲端型工作管理解決方案，可協助團隊和組織�
 
 * 計畫、分配和追蹤個別任務和專案的進度，而不需依賴多個非整合工具。
 * 更有效率地管理所有Experience Manager Guides工作流程，包括撰寫、檢閱、發佈和翻譯內容。
-* 每當指派新任務時，接收來自Adobe Workfront的電子郵件通知。 如需詳細資訊，請檢視[通知總覽](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/use-notifications/wf-notifications)。
+* 每當指派新任務時，接收來自Adobe Workfront的電子郵件通知。 如需詳細資訊，請檢視[通知總覽](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications)。
 * 使用Adobe Workfront的直覺式儀表板監控專案狀況，提供專案績效的即時深入分析。
 
-  若要瞭解為Experience Manager Guides中的專案經理啟用的Adobe Workfront強大專案管理功能，請檢視[計畫專案概述](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-work/projects/plan-a-project/plan-project)。
+  若要瞭解為Experience Manager Guides中的專案經理啟用的Adobe Workfront強大專案管理功能，請檢視[計畫專案概述](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project)。
 
 ## 快速入門
 
@@ -45,7 +45,7 @@ Adobe Workfront是雲端型工作管理解決方案，可協助團隊和組織�
 3. 選取&#x200B;**登入**。
 
    系統會將您重新導向至Adobe Workfront登入頁面。
-4. 使用Experience Manager Guides中使用的相同電子郵件地址登入，然後選取[允許存取]，讓應用程式存取您的Adobe Workfront帳戶。**&#x200B;**
+4. 使用Experience Manager Guides中使用的相同電子郵件地址登入，然後選取[允許存取]，讓應用程式存取您的Adobe Workfront帳戶。****
 
    系統會自動將您重新導向至Experience Manager Guides上的&#x200B;**Workfront工作**&#x200B;頁面。
 
@@ -61,7 +61,7 @@ Workfront工作頁面提供下列功能：
 
 Workfront任務頁面也包含連結輸出圖示![](./images/Smock_LinkOut_18_N.svg)，選取此選項時會帶您前往Adobe Workfront專案頁面。 在這裡，您可以根據與您的Adobe Workfront帳戶對應的許可權，檢視任務詳細資訊、檢視註釋、新增註釋及存取其他功能。
 
-如需更多詳細資料，請檢視[Workfront中專案、任務和問題日期的概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/navigate/definitions-pti-dates)。
+如需更多詳細資料，請檢視[Workfront中專案、任務和問題日期的概觀](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates)。
 
 ### 建立Workfront任務
 
@@ -88,7 +88,7 @@ Workfront任務頁面也包含連結輸出圖示![](./images/Smock_LinkOut_18_N.
 
    顯示&#x200B;**選取路徑**&#x200B;對話方塊。 選取所需資產的路徑。 您可以在路徑瀏覽器中選取有效路徑，以新增多個資產。 您選取的路徑將會保留，讓您在重新開啟對話方塊時可輕鬆檢閱或修改它們。
 
-   * 對於製作、發佈和翻譯工作，系統會提示您在&#x200B;**選取路徑**&#x200B;對話方塊中選取所需檔案的位置。 選取&#x200B;**建立**&#x200B;按鈕後，選取的檔案（用於編寫的主題，以及發佈和翻譯的對應）會立即新增到任務中。
+   * 對於編寫、發佈和翻譯工作，系統會提示您在&#x200B;**選取檔案**&#x200B;對話方塊中選取所需檔案的位置。 選取&#x200B;**建立**&#x200B;按鈕後，選取的檔案（用於編寫的主題，以及發佈和翻譯的對應）會立即新增到任務中。
 
      ![](./images/attach-asset.png){align="left"}
 
@@ -122,7 +122,7 @@ Workfront任務頁面也包含連結輸出圖示![](./images/Smock_LinkOut_18_N.
 
 >[!NOTE]
 >
-> 身為專案經理，您可以在Adobe Workfront控制面板中檢視此新建立的任務以及其他關鍵任務詳細資訊。 如需詳細資訊，請檢視[瞭解儀表板](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards)。
+> 身為專案經理，您可以在Adobe Workfront控制面板中檢視此新建立的任務以及其他關鍵任務詳細資訊。 如需詳細資訊，請檢視[瞭解儀表板](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards)。
 
 ### 管理您建立的任務
 

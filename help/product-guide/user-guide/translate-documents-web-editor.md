@@ -4,9 +4,9 @@ description: 從網頁編輯器將您的內容翻譯成多種語言。 瞭解如
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2446'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,15 @@ Experience Manager Guides在編輯器中提供強大的功能，可讓您將內�
    - **檔案名稱**：來源檔案的名稱
    - **檔案型別**：來源檔案的型別。 可用的選項包括地圖、主題和影像。
    - **參考型別**：直接或間接參考
-   - **版本**：來源檔案的版本號碼
+   - **版本**：來源檔案的版本號碼。
+
+     如果檔案儲存了尚未建立版本的變更（亦即，未在地圖中儲存為新版本），檔案旁邊會出現一個資訊圖示，表示存在未建立版本的變更。
+
+     ![](images/unversioned-changes-translation.png){width="650" align="left"}
+
+     >
+     >
+     > 若要僅檢視含有非版本化變更的檔案，請在「篩選器」面板中啟用&#x200B;**只顯示含有非版本化變更的資產**&#x200B;設定。 此外，只有在根據檔案的最新版本翻譯檔案時，才會顯示不帶版本的指示器。
    - **版本標籤**：來源檔案所選版本的標籤
    - **目標版本**：目標檔案的版本號碼
    - **檔案狀態**：來源檔案的狀態。 可用的選項有「草稿」、「稽核中」和「已稽核」。
@@ -226,4 +234,4 @@ Experience Manager Guides提供的功能可檢查主題的所選版本與上次�
 您也可以停用翻譯專案，以便稍後使用。 刪除專案會刪除專案中存在的所有檔案和資料夾。 停用專案並不會刪除專案，而是將其保留在存放庫中。 但您無法更新或編輯已停用的專案。  刪除或停用專案不會影響任何參考的翻譯狀態。
 
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

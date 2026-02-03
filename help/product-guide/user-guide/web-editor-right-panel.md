@@ -4,9 +4,9 @@ description: 瞭解編輯器中的右側面板。 瞭解Adobe Experience Manager
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,20 @@ ht-degree: 0%
 
 - **檔案名稱**：顯示所選主題的檔案名稱。 檔案名稱會以超連結方式連結至選取檔案的屬性頁面。
 - **ID**：顯示所選主題的識別碼。
+- **字數**：顯示對應DITA主題中的字總數。 以空格分隔的字詞會計為個別字詞。 每次儲存主題變更時，計數都會重新整理。 如果是互動參照，計數中只會包含顯示文字，但會排除索引鍵。
+
+  >[!NOTE]
+  >
+  > **字數**&#x200B;功能已在2026.01.0版的Experience Manager Guides as a Cloud Service中推出。 升級至此發行版本後，您建立的任何新DITA主題都會在「右側」面板中自動顯示計算的字數。 現有主題需要[重新處理資產](./asset-processor.md)。
+
 - **標籤**：這些是主題的中繼資料標籤。 從屬性頁面的標籤欄位中設定。 您可以輸入或從下拉式清單中選取。  標籤會顯示在下拉式清單下方。 若要刪除標籤，請選取標籤旁的十字圖示。
-- **編輯更多屬性**：您可以從檔案屬性頁面編輯更多屬性。
+- **編輯更多屬性**：您可以從[檔案屬性]頁面編輯更多屬性（針對不在&#x200B;**唯讀**&#x200B;模式的檔案）。
+
+  >[!NOTE]
+  >
+  > 任何新增、刪除或修改中繼資料屬性（無論是預設或自訂）都會觸發檔案版本上的[工作復本指標](./web-editor-edit-topics.md#working-copy-indicator)。
+
+
 - **語言**：顯示主題的語言。 這是從屬性頁面中的語言欄位設定。
 - **建立於**：顯示建立主題的日期和時間。
 - **修改日期**：顯示修改主題的日期和時間。
@@ -88,7 +100,7 @@ ht-degree: 0%
 >
 > 您可以將「檔案」屬性中各個欄位的屬性值複製到剪貼簿。
 
-**個參考**
+**參照**
 
 「參照」區段可讓您存取下列功能：
 
@@ -141,4 +153,4 @@ ht-degree: 0%
 
 
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

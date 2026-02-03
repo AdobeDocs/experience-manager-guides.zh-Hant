@@ -1,13 +1,13 @@
 ---
 title: 範例
 description: 自訂範例清單
-source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
+exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
+source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # 範例
 
@@ -27,10 +27,13 @@ ht-degree: 0%
 5. [工具列](./examples/toolbar.ts)
 在此範例中，我們已將`Insert Element`、`Insert Paragraph`、`Insert Numbered List`、`Insert Bulleted List`按鈕取代為包含所有這些按鈕的單一`More Insert Options`按鈕。
 
+6. 中繼資料面板上的[管理按鈕](./examples/metadata_report_manage_button.ts)
+在此範例中，我們已自訂**管理**&#x200B;按鈕（位於「報表」頁面上的「中繼資料」面板中），以便在選取的檔案處於唯讀模式時將其停用。 這有助於防止意外編輯不打算編輯的檔案的中繼資料。
+
 [檢閱應用程式範例]
 
 1. [註解工具箱](./examples/review_app_examples/annotation_extension.ts)
-在此範例中，我們已將另一個按鈕新增到註釋工具箱，以在AEM中開啟目前的稽核主題。
+在此範例中，我們已將另一個按鈕新增至註解工具箱，以開啟AEM中的目前稽核主題。
 
 2. [檢閱評論](./examples/review_app_examples/review_comment.ts)
 在此範例中，我們已新增以使用者資訊（包含評論者的全名和標題）取代使用者名稱、新增唯一評論ID、mailTo圖示，以及新增用於提及評論嚴重性和理由的輸入欄位。

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: d56c5d92a05e8652e9ce1e8b5d508c1441daf012
+source-git-commit: 34a9fcb414831c3a6437ea39fa3541ef7994dd1c
 workflow-type: tm+mt
-source-wordcount: '2452'
+source-wordcount: '2492'
 ht-degree: 9%
 
 ---
@@ -19,6 +19,11 @@ ht-degree: 9%
    - 發行說明 {#release-notes}
       - 雲端服務 {#cloud-release-notes}
          - [部署指示](./release-info/deploy-xml-on-aemaacs.md)
+         - 2026版本 {#2026-releases}
+            - 2026.01.0版 {#2601-release}
+               - [新增功能](./release-info/whats-new-2026-01-0.md)
+               - [已修正的問題](./release-info/fixed-issues-2026-01-0.md)
+               - [升級指示](./release-info/upgrade-instructions-2026-01-0.md)
          - 2025版本 {#2025-releases}
             - 2025.11.0版本 {#2511-release}
                - [新增功能](./release-info/whats-new-2025-11-0.md)
@@ -169,13 +174,13 @@ ht-degree: 9%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]個運作中及主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
          - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 首頁 {#home-page}
       - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
@@ -201,7 +206,7 @@ ht-degree: 9%
             - [內容編輯區域](./user-guide/web-editor-content-editing-area.md)
             - [右側面板](./user-guide/web-editor-right-panel.md)
             - [搜尋面板](./user-guide/search-panel-explorer.md)
-         - [編輯器中的其他功能](./user-guide/web-editor-other-features.md)
+         - 編輯器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
          - [編輯器檢視](./user-guide/web-editor-views.md)
          - [支援Schematron檔案](./user-guide/support-schematron-file.md)
@@ -374,7 +379,7 @@ ht-degree: 9%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
@@ -471,6 +476,8 @@ ht-degree: 9%
          - [設定資產處理功能](./install-guide/configure-asset-processing.md)
       - 使用B樹清理{#btree-cleanup}
          - [設定B樹狀結構清理](./install-guide/configure-btree-clean-up-job.md)
+      - 自訂索引{#custom-indexing}
+         - [部署自訂索引以尋找和取代(Source檢視)](./install-guide/custom-indexing-prem.md)
       - [附錄](./install-guide/appendix.md)
    - 雲端服務 {#cs-ig}
       - [關於本指南](./cs-install-guide/introduction.md)
@@ -503,6 +510,7 @@ ht-degree: 9%
          - [設定自訂DITA map範本](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - 使用檔案狀態 {#doc-state-cs}
          - [設定檔案狀態](./cs-install-guide/customize-doc-state.md)
+         - [設定檔案狀態篩選器](./cs-install-guide/config-doc-state-filters.md)
       - 配置Workspace設定 {#workspace-configs}
          - [Workspace設定](./cs-install-guide/workspace-settings.md)
       - 使用網頁編輯器設定 {#web-editor-configs-cs}
@@ -540,7 +548,7 @@ ht-degree: 9%
          - [設定Workfront](./cs-install-guide/conf-workfront.md)
       - 使用輸出產生設定 {#output-gen-config-cs}
          - [設定輸出產生設定](./cs-install-guide/conf-output-generation.md)
-         - [下載及安裝aem sites範本](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+         - [下載並安裝AEM Sites範本](./cs-install-guide/download-install-aem-sites-templates-cs.md)
          - [原生PDF發佈](./cs-install-guide/native-pdf-publishing.md)
          - [設定原生PDF發佈的節點程式](./native-pdf/configure-node-options.md)
          - [建立主題與內容片段之間的對應](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -556,6 +564,8 @@ ht-degree: 9%
          - [設定資產處理功能](./cs-install-guide/configure-asset-processing-cs.md)
       - 使用B樹清理{#btree-cleanup-cs}
          - [設定B樹狀結構清理](./cs-install-guide/configure-btree-cleanup-cs.md)
+      - 自訂索引{#custom-indexing-cs}
+         - [部署自訂索引以尋找和取代(Source檢視)](./cs-install-guide/custom-indexing.md)
       - [附錄](./cs-install-guide/appendix.md)
 - API 參考 {#api-reference}
    - [簡介](./api-reference/introduction.md)
@@ -570,6 +580,7 @@ ht-degree: 9%
    - [開始大量處理資產的API](./api-reference/bulk-assets-processing.md)
    - [大量啟用完成事件處理常式](./api-reference/bulk-activation-complete-event.md)
    - [轉換程式事件處理常式](./api-reference/conversion-complete-event.md)
+   - [建立翻譯專案](./api-reference/translation-project.md)
 - 知識庫 {#knowledge-base}
    - 專家講座 {#expert-session}
       - [專家會議概述](./knowledge-base/expert-sessions/expert-session.md)

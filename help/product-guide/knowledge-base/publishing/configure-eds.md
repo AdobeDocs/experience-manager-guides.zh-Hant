@@ -4,7 +4,7 @@ description: 瞭解Edge Delivery Services (Beta)如何擴展Experience Manager G
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 5808d42c530e55e309f192c99a0e71334c888b57
+source-git-commit: 7ca2eeb0356f3c82a8d970f291006fc6d19aca23
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Adobe Experience Manager Guides可讓您透過專用的GitHub型發佈設定檔�
 2. [在Experience Manager Guides中為EDS (Beta)建立並設定發佈設定檔](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [使用EDS區塊自訂輸出](#customize-output-using-eds-blocks)
 
-如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
+如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
 
 
 
@@ -57,7 +57,7 @@ Adobe Experience Manager使用名為&#x200B;**AEM Code Sync**&#x200B;的GitHub�
 1. 瀏覽至[AEM程式碼同步](https://github.com/apps/aem-code-sync)頁面，並選取&#x200B;**安裝**。
 2. *AEM Code Sync*&#x200B;會監視存放庫變更，並確保將更新正確推送至GitHub。
 
-   >
+   >[!NOTE]
    >
    > 安裝應用程式時，請確定您使用擁有存放庫的相同GitHub帳戶。
 
@@ -128,7 +128,7 @@ EDS (Beta)會從&#x200B;*檔案中定義為*&#x200B;掛接點`fstab.yaml` URL的
    - `your-user-name`
    - `your-repo-name`
 
-   >
+   >[!NOTE]
    >
    > 在掛接點URL中，`main`表示您要發佈內容的分支，`docs`表示您正在使用的EDS (Beta)存放庫的根資料夾。 如果您偏好在GitHub上變更分支名稱，則必須在&#x200B;*掛接點* URL （在`fstab.yaml`檔案中）中更新相同的分支名稱，並在Experience Manager Guides中更新對應的EDS發佈設定檔。
 
@@ -148,7 +148,7 @@ EDS (Beta)會從&#x200B;*檔案中定義為*&#x200B;掛接點`fstab.yaml` URL的
 
 ### 建立EDS (Beta)發佈設定檔
 
-1. 移至&#x200B;**[Workspace設定]** **>** **發佈設定檔**。
+1. 移至&#x200B;**[Workspace設定](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **發佈設定檔**。
 2. 選取&#x200B;**+**&#x200B;圖示以建立新的發佈設定檔，並提供下列詳細資料：
    - **伺服器型別**：從下拉式清單中選取&#x200B;**GitHub Edge Delivery Services (Beta)**。
    - **名稱**：輸入此設定檔的名稱。
@@ -184,7 +184,7 @@ EDS (Beta)會從&#x200B;*檔案中定義為*&#x200B;掛接點`fstab.yaml` URL的
 
 6. 選取&#x200B;**儲存**，然後選取&#x200B;**產生輸出**。
 
->
+>[!NOTE]
 >
 > 產生的輸出儲存在EDS (Beta)存放庫的&#x200B;**檔案**&#x200B;資料夾中。
 

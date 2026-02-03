@@ -4,9 +4,9 @@ description: 瞭解如何在編輯器中編輯主題。 瞭解各種編輯功能
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,11 @@ Experience Manager Guides提供工作副本指標，可顯示檔案的目前\（
 
 Experience Manager Guides也會指出上次儲存的檔案\(working\)復本是否與儲存的版本同步。 如果您在工作副本和上次儲存的版本之間有某些未儲存的變更，則會出現\*標籤，與版本資訊一起顯示在主題的檔案標籤右上角。 此指標會提醒您儲存檔案，並從目前的檔案\(working\)復本建立版本。
 
-![版本更新指標](images/version-update-indicator.png){width="550" align="left"}
+>[!NOTE]
+>
+> 對[檔案屬性](./web-editor-right-panel.md#file-properties)下可用的中繼資料欄位所做的任何變更，也會在檔案版本上觸發工作復本指標。
 
+![版本更新指標](images/version-update-indicator.png){width="550" align="left"}
 
 ## 在作者和Source模式中存取鎖定的檔案
 
@@ -117,4 +120,4 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 >
 >從2025.11.0版開始，設定&#x200B;**永遠尋找存放庫中的檔案**&#x200B;重新命名為&#x200B;**永遠尋找檔案總管**。 對於內部部署設定，在Experience Manager Guides 5.1版發行前，它仍可在存放庫中永遠尋找檔案中使用。
 
-**父級主題：**&#x200B;[&#x200B;使用編輯器](web-editor.md)
+**父級主題：**[&#x200B;使用編輯器](web-editor.md)

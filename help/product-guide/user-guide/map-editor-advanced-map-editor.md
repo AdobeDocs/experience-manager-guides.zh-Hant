@@ -4,9 +4,9 @@ description: 瞭解Adobe Experience Manager Guides中地圖編輯器的功能。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2671'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 **主題參考** - ![](images/topic-reference.svg)
 
-顯示主題搜尋對話方塊。 瀏覽至您要插入的主題/地圖檔案，並選擇&#x200B;**選取**&#x200B;以將其新增到地圖。
+顯示「選取檔案」對話方塊。 瀏覽至您要插入的主題/地圖檔案，並選擇&#x200B;**選取**&#x200B;以將其新增到地圖。
 
 ![](images/insert-topic-reference-dialog.png){align="left"}
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **插入在前/插入在後** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-顯示&#x200B;**在之前插入元素或**&#x200B;在之後插入元素」對話方塊。 選取您要插入對映中的元素。 視作業而定，新元素會插入到對映中目前元素之前或之後。
+顯示**在之前插入元素或**在之後插入元素」對話方塊。 選取您要插入對映中的元素。 視作業而定，新元素會插入到對映中目前元素之前或之後。
 
 **元素** - ![](images/Add_icon.svg)
 
@@ -260,15 +260,31 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 您可以在預覽模式中執行下列其他工作：
 
+**開啟要編輯的主題**
+
 - 在主題上按一下滑鼠右鍵，然後選取&#x200B;**編輯**，開啟主題以在新的索引標籤中編輯。
 
   >[!NOTE]
   >
   > 如果您沒有編輯許可權，主題將以唯讀模式開啟。
 
+  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+
 - 在地圖樹狀結構中選取主題標題\（位於左側面板\），跳至所需主題。
 
 - 地圖預覽中的目前主題也會在地圖樹中反白顯示。
+
+**重新整理主題或地圖**
+
+當在預覽模式下開啟地圖，並且從編輯器中的另一個索引標籤切換回該地圖時，預覽未自動重新整理。 若要重新載入地圖預覽，需要手動重新整理。
+
+您可以使用兩種方式重新整理功能（在地圖的「預覽」模式中可用）：
+
+- **地圖層級重新整理**：選取&#x200B;**重新整理**按鈕會重新整理整個地圖的預覽（包括所有主題），並將您導向到第一個捲動位置以取得清晰的檢視。
+  ![](images/refresh-map.png){width="650" align="left"}
+
+- **主題層級重新整理**：從內容功能表選取&#x200B;**重新整理主題**會重新整理該特定主題，同時保持捲動位置不變。
+  ![](images/refresh-topic.png){width="650" align="left"}
 
 **預覽地圖檔案的其他方式**
 

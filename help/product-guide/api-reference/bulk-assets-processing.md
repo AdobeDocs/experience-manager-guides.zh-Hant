@@ -4,10 +4,10 @@ description: 瞭解API以開始資產的批次處理
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: e2eca63a5dd56e358aeea047b37f4b0f88dc720b
+source-git-commit: 8671a26bfee2d9e3b4e70a8f2615568c08c0a370
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 8%
+source-wordcount: '587'
+ht-degree: 9%
 
 ---
 
@@ -26,6 +26,15 @@ ht-degree: 8%
 | `path` | 字串 | 是 | 要處理的AEM存放庫中資料夾或資產的絕對路徑。 |
 | `excludedPaths` | 字串 | 否 | 要從處理中排除的路徑清單 |
 | `type` | 字串 | 是 | 要執行的處理型別。 例如：ASSET_PROCESSING。 |
+| `filter` | 物件 | 否 | 套用至所選資產的篩選器 |
+
+**篩選物件欄位**
+
+| 名稱 | 類型 | 說明 |
+|----|----|-----------|
+| 檔案型別 | 字串 | 要處理的資產型別。 允許的值： DITATOPIC、DITAMAP、MARKDOWN、HTML/CSS、DITAVAL、其他。 |
+| startTime | 整數 | 資產建立時間的下限 |
+| endTime | 整數 | 資產建立時間上限 |
 
 **要求範例**
 
@@ -35,7 +44,12 @@ ht-degree: 8%
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1764932039000
+    }
 }
 ```
 

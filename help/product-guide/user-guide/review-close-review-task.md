@@ -4,9 +4,9 @@ description: 瞭解在Experience Manager Guides中關閉稽核任務或重新請
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 您也可以在任務控制面板中開啟任務，以取得更完整的檢視。 若要這麼做，請從任何作用中稽核任務的[選項]功能表中選取[在任務儀表板中開啟]。 **&#x200B;**&#x200B;這會在專案主控台中開啟任務詳細資訊。
+   > 您可以存取&#x200B;**工作詳細資料**&#x200B;頁面來管理稽核工作。 若要這麼做，請從任何作用中稽核任務的[選項]功能表中選取&#x200B;**開啟任務詳細資料**。 這會在專案主控台中開啟任務詳細資訊。
 
-   ![](images/task-dashboard-selection-author-view.png)
+   ![](images/task-details-selection-author-view.png)
 3. 選取&#x200B;**工作註解**&#x200B;圖示以存取及檢閱檢閱者新增的工作層級註解。
 
    ![](images/task-comments-selection-author-view.png)。
