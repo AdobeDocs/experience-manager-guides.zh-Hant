@@ -213,5 +213,5 @@ guidesAssetLucene-1-custom-1
 
 - [AEM as a Cloud Service索引檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak Indexing指南](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [AEM Guides檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides)
 - [Cloud Manager 文件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

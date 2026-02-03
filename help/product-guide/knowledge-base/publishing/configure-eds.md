@@ -23,7 +23,7 @@ Adobe Experience Manager Guides可讓您透過專用的GitHub型發佈設定檔�
 2. [在Experience Manager Guides中為EDS (Beta)建立並設定發佈設定檔](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [使用EDS區塊自訂輸出](#customize-output-using-eds-blocks)
 
-如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
+如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
 
 
 

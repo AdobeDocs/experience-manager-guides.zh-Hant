@@ -186,7 +186,7 @@ ht-degree: 0%
 | **建立互動式PDF表單** | 如果您想要在產生的PDF輸出中包含互動式且可自訂的PDF表單欄位，以強化使用者輸入，請選取此選項。 |
 | **包含追蹤變更** | 如果您想要在產生的PDF中包含追蹤變更以方便檢閱和比較，請選取此選項。 |
 | **保留暫存檔案** | 如果您想要保留在產生原生HTML輸出時建立的臨時PDF檔案，請選取此選項。 您稍後可以在產生輸出後下載暫存檔案。 下載的檔案也會包含`system_config.xml`檔案，提供您有關作者URL、本機URL和發佈URL的資訊。 這些URL是在AEM外部化設定中設定，並反映在`system_config.xml`檔案中。 |
-| **PDF合規性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請檢視[關於PDF標準](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
+| **PDF合規性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請檢視[關於PDF標準](https://helpx.adobe.com/tw/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
 | **檔案屬性** | 選取您要傳遞至原生PDF發佈的中繼資料。 下拉式清單會同時列出自訂和預設屬性。 例如，`dc:description`、`dc:language`、`dc:title`和`docstate`為預設屬性，而您可以將`author`作為自訂屬性。 選取的中繼資料屬性會傳遞至使用原生PDF產生的PDF檔案。 <br>這些屬性是從下列位置可用的`metadataList`檔案中挑選的：`/libs/fmdita/config/metadataList`。 <br>此檔案可以覆蓋於： `/apps/fmdita/config/metadataList`。 |
 
 
