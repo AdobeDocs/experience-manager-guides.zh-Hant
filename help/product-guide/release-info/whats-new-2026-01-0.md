@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guides 2026.01.0版的新增功能
 description: 瞭解2026.01.0版Adobe Experience Manager Guides中的新功能和增強功能
 role: Leader
-source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
+source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,8 @@ Experience Manager Guides在編輯器介面的左側面板中，推出了數個�
 ### 支援新AEM Sites （使用複合元件對應）發佈中的元素層級元件對應
 
 Experience Manager Guides現在支援AEM Sites輸出中的元素層級元件對應（使用複合元件對應），可讓團隊精確控制DITA元素使用`componentmapping.json`的呈現方式。 將`topicref`、標題、影像、表格等對應至適當的AEM核心元件，可獲得更簡潔的結構，而非預設為文字元件的所有內容。 這可提供更優異的效能，並開啟更豐富、更現代的Sites體驗。
+
+如需更多詳細資料，請在AEM Sites[中檢視](../cs-install-guide/component-mapping.md)元件對應。
 
 ## 資產處理增強功能
 

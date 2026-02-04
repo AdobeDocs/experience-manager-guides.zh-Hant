@@ -5,7 +5,7 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: c790d5edd1ab799564aebfa96f4a41288c977a6c
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -134,3 +134,4 @@ Experience Manager Guides隨附&#x200B;**資料來源**&#x200B;工具，可協�
 
 
 設定資料來源後，聯結器會列在網頁編輯器的&#x200B;**資料來源面板**&#x200B;下。 然後，您可以連線至資料來源，並將內容片段插入主題中。 如需詳細資訊，請檢視[插入資料來源的內容片段](../user-guide/web-editor-content-snippet.md)。
+
