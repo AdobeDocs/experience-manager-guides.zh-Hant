@@ -4,7 +4,7 @@ description: 瞭解如何自訂索引內容
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 7d2d0c21001cd53244588f6b700db184a73ffa77
+source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 3%
@@ -52,9 +52,6 @@ guidesAssetLucene-1-custom-1
           compatVersion="{Long}2"
           evaluatePathRestrictions="{Boolean}true"
           includedPaths="[/content/dam]"
-          reindex="{Boolean}false"
-          reindexCount="{Long}1"
-          seed="{Long}958982603885135223"
           selectionPolicy="tag"
           tags="[ditaSearch]"
           type="lucene">
@@ -213,5 +210,5 @@ guidesAssetLucene-1-custom-1
 
 - [AEM as a Cloud Service索引檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak Indexing指南](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides)
+- [AEM Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Cloud Manager 文件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
