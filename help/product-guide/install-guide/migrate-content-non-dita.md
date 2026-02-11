@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 77756fe76c3d615683dcd62627adfcf18bcbb633
+source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2392'
 ht-degree: 0%
 
 ---
@@ -284,7 +284,9 @@ AEM Guides可讓您將現有的XHTML檔案轉換為DITA主題型別檔案。 您
 
 ## 移轉非結構化FrameMaker檔案 {#id1949B050VUI}
 
-AEM Guides支援將非結構化Adobe FrameMaker內容(.fm和.book)移轉至結構化DITA。 此程式著重於使用範本式方法評估現有內容，以及透過轉換表格將FrameMaker樣式對應至DITA。 轉換後，您可以編輯、驗證結構化內容，並將其發佈到PDF和適用於行動裝置的HTML5等格式，並支援輸出自訂。 如需詳細資訊，請檢視[在Adobe FrameMaker中將技術檔案從非結構化移轉至DITA](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/)。
+若要將非結構化Adobe FrameMaker內容(.fm和.book)轉換為結構化DITA，您可以使用FrameMaker的轉換表格機制。 此程式著重於使用範本式方法評估現有內容，以及透過轉換表格將FrameMaker樣式對應至DITA。 如需詳細資訊，請檢視[在Adobe FrameMaker中將技術檔案從非結構化移轉至DITA](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/)。
+
+轉換後，結構化內容可移轉至AEM Guides。  如需更多詳細資料，請檢視[上傳現有的DITA內容](./migrate-content-upload-existing-dita-content.md)。
 
 <!-- Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
@@ -395,4 +397,4 @@ AEM Guides可讓您將現有的結構化檔案轉換為有效的DITA檔案。 �
 
 使用`<config> </config>`區塊，您可以定義一或多個轉換組態區塊。 會執行轉換工作流程，並以DITA主題形式的最終輸出儲存在`outputDir`元素中指定的位置。
 
-**上層主題：**&#x200B;[&#x200B;移轉現有內容](migrate-content.md)
+**上層主題：**[&#x200B;移轉現有內容](migrate-content.md)
