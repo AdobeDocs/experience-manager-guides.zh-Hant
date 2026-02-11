@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 85ba88f5659e066f970583d745a56ec8c51aad7a
+source-git-commit: 77756fe76c3d615683dcd62627adfcf18bcbb633
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2522'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ AEM Guides可讓您轉換InDesign檔案。 與FrameMaker類似，InDesign也可�
 - 建立及驗證個別DITA主題與DITA map檔案。
 - 刪除暫存檔案。
 
-大致上，轉換程式需要您[準備InDesign檔案以進行轉換](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z)和[準備對應檔案以便InDesign移轉至DITA](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)，然後您需要遵循指定的程式來執行轉換程式。
+大致上，轉換程式需要您[準備InDesign檔案以進行轉換](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z)和[準備對應檔案以便InDesign移轉至DITA](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)，然後您需要遵循指定的程式來執行轉換程式。
 
 執行以下步驟，將您現有的InDesign檔案轉換為DITA主題型別檔案：
 
@@ -294,7 +294,7 @@ AEM Guides可讓您將現有的XHTML檔案轉換為DITA主題型別檔案。 您
 
 ## 移轉非結構化FrameMaker檔案 {#id1949B050VUI}
 
-AEM Guides可讓您將現有的非結構化FrameMaker \（`.fm`和`.book`\）檔案轉換為DITA檔案。 如需程式的完整詳細資訊，請檢視[在Adobe FrameMaker中將技術檔案從非結構化移轉至DITA](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/)。
+AEM Guides支援將非結構化Adobe FrameMaker內容(.fm和.book)移轉至結構化DITA。 此程式著重於使用範本式方法評估現有內容，以及透過轉換表格將FrameMaker樣式對應至DITA。 轉換後，您可以編輯、驗證結構化內容，並將其發佈到PDF和適用於行動裝置的HTML5等格式，並支援輸出自訂。 如需詳細資訊，請檢視[在Adobe FrameMaker中將技術檔案從非結構化移轉至DITA](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/)。
 
 <!-- Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
@@ -399,4 +399,4 @@ AEM Guides可讓您將現有的結構化檔案轉換為有效的DITA檔案。 �
 
 使用`<config> </config>`區塊，您可以定義一或多個轉換組態區塊。 會執行轉換工作流程，並以DITA主題形式的最終輸出儲存在`outputDir`元素中指定的位置。
 
-**上層主題：**&#x200B;[&#x200B;移轉現有內容](migrate-content.md)
+**上層主題：**[&#x200B;移轉現有內容](migrate-content.md)
