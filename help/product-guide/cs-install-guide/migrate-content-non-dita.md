@@ -128,7 +128,7 @@ AEM Guides可讓您轉換InDesign檔案。 與FrameMaker類似，InDesign也可�
 - 建立及驗證個別DITA主題與DITA map檔案。
 - 刪除暫存檔案。
 
-大致上，轉換程式需要您[準備InDesign檔案以進行轉換](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z)和[準備對應檔案以便InDesign移轉至DITA](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)，然後您需要遵循指定的程式來執行轉換程式。
+大致上，轉換程式需要您[準備InDesign檔案以進行轉換](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z)和[準備對應檔案以便InDesign移轉至DITA](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)，然後您需要遵循指定的程式來執行轉換程式。
 
 執行以下步驟，將您現有的InDesign檔案轉換為DITA主題型別檔案：
 
@@ -401,4 +401,4 @@ AEM Guides可讓您將現有的結構化檔案轉換為有效的DITA檔案。 �
 
 使用`<config> </config>`區塊，您可以定義一或多個轉換組態區塊。 會執行轉換工作流程，並以DITA主題形式的最終輸出儲存在`outputDir`元素中指定的位置。
 
-**上層主題：**[&#x200B;移轉現有內容](migrate-content.md)
+**上層主題：**&#x200B;[&#x200B;移轉現有內容](migrate-content.md)
