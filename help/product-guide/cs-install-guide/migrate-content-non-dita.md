@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: cddbd7a19d4dfaa3f6549ed1bd511eeeb02acbb2
+source-git-commit: 85ba88f5659e066f970583d745a56ec8c51aad7a
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2480'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ AEM Guides可讓您將現有的Word檔案\(`.docx`\)移轉至DITA主題型別檔
 
    `w2d_io.xml`檔案包含下列可設定的引數：
 
-   - 在`inputDir`元素中，指定可以使用來源Word檔案的輸入資料夾位置。 例如，如果您的Word檔案儲存在`projects`資料夾中名為`wordtodita`的資料夾中，則指定位置為： `/content/dam/projects/wordtodita/`
+   - 在`inputDir`元素中，指定可以使用來源Word檔案的輸入資料夾位置。 例如，如果您的Word檔案儲存在`wordtodita`資料夾中名為`projects`的資料夾中，則指定位置為： `/content/dam/projects/wordtodita/`
 
    - 在`outputDir`元素中，指定輸出資料夾的位置，或保留預設輸出位置以儲存轉換的DITA檔案。 如果DAM上不存在指定的輸出資料夾，則轉換工作流程會建立輸出資料夾。
 
@@ -84,9 +84,9 @@ AEM Guides可讓您將現有的Word檔案\(`.docx`\)移轉至DITA主題型別檔
 
      >[!NOTE]
      >
-     > 如需有關`word-builtin-styles-style2tagmap.xml`檔案的結構以及如何自訂的詳細資訊，請參閱&#x200B;*DITA For Publishers使用手冊*&#x200B;中的[樣式到標籤對應](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html)。
+     > 如需有關`word-builtin-styles-style2tagmap.xml`檔案的結構以及如何自訂的詳細資訊，請參閱[DITA For Publishers使用手冊](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html)中的&#x200B;*樣式到標籤對應*。
 
-   - 在props2Propagate元素中，指定應傳遞至DITA map的屬性。 若要將預設中繼資料（例如dc：title、dc：subject、dam：keywords、dam：category）從檔案中繼資料傳遞至轉換的DITA資產，需要此屬性。
+   - 在props2Propagate元素中，指定應傳遞至DITA map的屬性。 必須使用此屬性，才能將預設中繼資料（例如dc:title、dc:subject、dam:keywords、dam:category）從檔案中繼資料傳遞至轉換的DITA資產。
 
 1. 執行Cloud Manager管道以部署更新的設定。
 
@@ -101,7 +101,7 @@ AEM Guides可讓您將現有的Word檔案\(`.docx`\)移轉至DITA主題型別檔
 
 **現有使用者的自訂更新**
 
-如果您是AEM Guidesas a Cloud Service的現有使用者，並從2021年8月版本升級至2022年1月或以上版本，請更新指定的屬性，因為只有少數檔案已移動。
+如果您是AEM Guides as a Cloud Service的現有使用者，並從2021年8月版本升級至2022年1月或以上版本，請更新指定的屬性，因為只有少數檔案已移動。
 
 >[!NOTE]
 >
@@ -113,14 +113,14 @@ AEM Guides可讓您將現有的Word檔案\(`.docx`\)移轉至DITA主題型別檔
 
 ## 移轉Adobe InDesign檔案 {#id195AD0B0K5Z}
 
-AEM Guides可讓您轉換InDesign檔案。 與FrameMaker類似，InDesign也可讓您建立非結構化和結構化檔案。 非結構化檔案使用段落和字元樣式來格式化內容。 結構化檔案使用元素及其對應的屬性。
+AEM Guides可讓您轉換InDesign檔案。 與FrameMaker類似，InDesign也可讓您建立非結構化和結構化的檔案。 非結構化檔案使用段落和字元樣式來格式化內容。 結構化檔案使用元素及其對應的屬性。
 
 轉換程式需要將段落和字元樣式格式對應到相關的DITA元素。 同樣地，如果是結構化檔案，對應檔案將包含具有DITA元素和屬性的InDesign元素和屬性的一對一對應。
 
 轉換程式涉及後端中的下列動作：
 
 - *InDesign標籤語言* \(IDML\)檔案已解壓縮至工作目錄。
-- 會讀取designmap.xml檔案，以找出個別InDesign內文。
+- 會讀取designmap.xml檔案，以找出個別InDesign劇本。
 - 所有內文都會合併至單一XML例項，捨棄「空白」內文。
 - 所有內嵌圖形都會匯出。
 - 將標準結構（例如表格和圖形）預先轉換成DITA格式。
@@ -128,16 +128,16 @@ AEM Guides可讓您轉換InDesign檔案。 與FrameMaker類似，InDesign也可�
 - 建立及驗證個別DITA主題與DITA map檔案。
 - 刪除暫存檔案。
 
-大致上，轉換程式需要您[準備InDesign檔案以進行轉換](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z)和[準備對應檔案以便InDesign到DITA移轉](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)，然後您需要遵循指定的程式來執行轉換程式。
+大致上，轉換程式需要您[準備InDesign檔案以進行轉換](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z)和[準備對應檔案以便InDesign移轉至DITA](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)，然後您需要遵循指定的程式來執行轉換程式。
 
-執行下列步驟，將現有的InDesign檔案轉換為DITA主題型別檔案：
+執行以下步驟，將您現有的InDesign檔案轉換為DITA主題型別檔案：
 
 1. 登入AEM並開啟CRXDE Lite模式。
 
 1. 導覽至下列位置可用的預設組態檔：
 
    `/libs/fmdita/config/idml2dita_io.xml`
-1. 若要根據您的需求建立自訂設定，請在`apps`節點內建立`config`資料夾的覆蓋節點。
+1. 若要根據您的需求建立自訂設定，請在`config`節點內建立`apps`資料夾的覆蓋節點。
 
 1. 將下列檔案或資料夾從`libs`資料夾複製到apps資料夾：
 
@@ -149,7 +149,7 @@ AEM Guides可讓您轉換InDesign檔案。 與FrameMaker類似，InDesign也可�
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-1. 在`idml2dita_io.xml`檔案的`idml12dita`資料夾中，新增設定對應。
+1. 在`idml12dita`檔案的`idml2dita_io.xml`資料夾中，新增設定對應。
 1. 在`idml2dita_io.xml`檔案中新增下列屬性：
 
    ```
@@ -158,16 +158,16 @@ AEM Guides可讓您轉換InDesign檔案。 與FrameMaker類似，InDesign也可�
    <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
    ```
 
-1. 在`apps`節點內建立`config`資料夾的覆蓋節點。
+1. 在`config`節點內建立`apps`資料夾的覆蓋節點。
 
 
    在`idml2dita_io.xml`檔案中設定下列引數：
 
-   - 在`inputDir`元素中，指定可以使用來源InDesign檔案的輸入資料夾位置。 例如，如果您的InDesign檔案儲存在`projects`資料夾中名為`indesigntodita`的資料夾中，則指定位置為： `/content/dam/idmlfiles/indesigntodita/`
+   - 在`inputDir`元素中，指定可使用來源InDesign檔案的輸入資料夾位置。 例如，如果您的InDesign檔案儲存在`indesigntodita`資料夾中名為`projects`的資料夾中，則指定位置為： `/content/dam/idmlfiles/indesigntodita/`
 
    - 在`outputDir`元素中，指定輸出資料夾的位置，或保留預設輸出位置以儲存轉換的DITA檔案。 如果DAM上不存在指定的輸出資料夾，則轉換工作流程會建立輸出資料夾。
 
-   - 在`mapStyle`元素中，指定對應檔案的位置，該對應檔案包含InDesign檔案樣式至DITA元素的對應。 預設對應儲存在檔案中，檔案位於：
+   - 在`mapStyle`元素中，指定對應檔案的位置，該對應檔案包含InDesign檔案樣式到DITA元素的對應。 預設對應儲存在檔案中，檔案位於：
 
      ```
      /stmap.adobeidml.xml
@@ -193,7 +193,7 @@ AEM Guides可讓您將現有的XHTML檔案轉換為DITA主題型別檔案。 您
 - 將所有檔案上傳到輸入資料夾，或
 - 建立包含所有檔案及媒體檔案的ZIP檔，並將其上傳至輸入資料夾。 這種方法通常用於一組相互連結的HTML檔案，而且有一個目錄\(index.html\)。 index.html檔案包含集合中所有HTML檔案的連結。
 
-無論您是個別上傳所有檔案，還是以ZIP格式組合上傳所有檔案，轉換程式都會在HTML檔案與產生的DITA檔案之間建立一對一的對應。 這基本上表示會針對輸入資料夾中的每個.html檔案建立.dita檔案。
+無論您是個別上傳所有檔案，還是以ZIP壓縮包形式上傳所有檔案，轉換程式都會在HTML檔案與產生的DITA檔案之間建立一對一的對應。 這基本上表示會針對輸入資料夾中的每個.html檔案建立.dita檔案。
 
 在ZIP檔案中上傳檔案時，必須考量下列幾點：
 
@@ -255,7 +255,7 @@ AEM Guides可讓您將現有的XHTML檔案轉換為DITA主題型別檔案。 您
 
    `h2d_io.xml`檔案包含下列可設定的引數：
 
-   - 在`inputDir`元素中，指定可取得來源XHTML檔案的輸入資料夾位置。 例如，如果您的XHTML檔案儲存在`projects`資料夾中名為`xhtmltodita`的資料夾中，則指定位置為： `/content/dam/projects/xhtmltodita/`
+   - 在`inputDir`元素中，指定可取得來源XHTML檔案的輸入資料夾位置。 例如，如果您的XHTML檔案儲存在`xhtmltodita`資料夾中名為`projects`的資料夾中，則指定位置為： `/content/dam/projects/xhtmltodita/`
 
    - 在`outputDir`元素中，指定輸出資料夾的位置或保留預設輸出位置。 如果DAM上不存在指定的輸出資料夾，則轉換工作流程會建立輸出資料夾。
 
@@ -294,70 +294,73 @@ AEM Guides可讓您將現有的XHTML檔案轉換為DITA主題型別檔案。 您
 
 ## 移轉非結構化FrameMaker檔案 {#id1949B050VUI}
 
-AEM Guides可讓您將現有的非結構化FrameMaker\（`.fm`與`.book`\）檔案轉換為DITA檔案。 第一步是使用FrameMaker建立樣式對應，並將這些設定儲存在.sts檔案中。 接下來，如果您使用自訂DITA，則您可以在`ditaElems.xml`檔案中將自訂元素與來源FrameMaker格式對應。 例如，如果您已建立名為`impnote`的自訂元素來處理所有重要附註，則您可以在`ditaElems.xml`檔案中定義此自訂元素。 定義此自訂元素後，在轉換包含`impnote`元素的FrameMaker檔案時，AEM Guides將不會引發錯誤。
+AEM Guides可讓您將現有的非結構化FrameMaker \（`.fm`和`.book`\）檔案轉換為DITA檔案。 如需程式的完整詳細資訊，請檢視[在Adobe FrameMaker中將技術檔案從非結構化移轉至DITA](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/)。
 
-此外，如果您想要使用自訂或有效的DITA元素指定一些其他屬性，可以在style2attrMap.xml檔案中定義這些屬性。 例如，您可以指定要與`impnote`元素一起傳遞且值為`important`的`type`屬性。 您可以在style2attrMap.xml檔案中指定此額外資訊。
+<!-- Deprecated information -
+ //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
 
-除了指定
+Also, If you want to specify some additional attributes with your custom or valid DITA element, you can define those in the style2attrMap.xml file. For example, you can specify the `type` attribute with the value of `important` to be passed on with the `impnote` element. This additional information can be specified in the style2attrMap.xml file.
 
-若要將現有的非結構化FrameMaker檔案轉換為DITA格式，請執行下列步驟：
+In addition to specifying
 
-1. 以FrameMaker建立樣式對應，並將這些設定儲存在.sts檔案中。
+To convert your existing unstructured FrameMaker documents into DITA format, perform the following steps:
 
-1. 使用封裝管理員來下載/libs/fmdita/config/ditaElems.xml檔案。
+1.  Create style mappings in FrameMaker and save those settings in a .sts file.
 
-1. 如果您有自訂DITA元素，請在`ditaElems.xml`檔案中定義可在下列位置使用的元素：
+1.  Log into AEM and open the CRXDE Lite mode.
 
-   `/libs/fmdita/config/ditaElems.xml`
+1.  If you have custom DITA elements, define those in the `ditaElems.xml` file available at the following location:
 
-1. 在Cloud Manager的Git存放庫中的以下位置建立ditaElems.xml檔案的副本：
+    `/libs/fmdita/config/ditaElems.xml`
 
-   `/apps/fmdita/config/ditaElems.xml`
+1.  Create an overlay node of the `config` folder within the `apps` node.
 
-1. 導覽至`apps`節點中可用的組態檔：
+1.  Navigate to the configuration file available in the `apps` node:
 
-   `/apps/fmdita/config/ditaElems.xml`
+    `/apps/fmdita/config/ditaElems.xml`
 
-   `ditaElems.xml`檔案包含單一可設定引數：
+    The `ditaElems.xml` file contains a single configurable parameter:
 
-   - 在`elem`引數中，指定您要在轉換的DITA檔案中使用的自訂元素名稱。 此元素會像在產生的DITA檔案中一樣傳遞。
+    -   In the `elem` parameter, specify the name of the custom element that you want to use in your converted DITA documents. This element would be passed on as is in the generated DITA documents.
 
-1. 如果您想要指定其他屬性，請在下列位置可用的`style2attrMap.xml`檔案中定義這些屬性：
+1.  If you want to specify additional attributes, define those in the `style2attrMap.xml` file available at the following location:
 
-   `/libs/fmdita/config/style2attrMap.xml`
+    `/libs/fmdita/config/style2attrMap.xml`
 
-1. 在`apps`節點內建立`config`資料夾的覆蓋節點。
+1.  Create an overlay node of the `config` folder within the `apps` node.
 
-1. 導覽至`apps`節點中可用的組態檔：
+1.  Navigate to the configuration file available in the `apps` node:
 
-   `/apps/fmdita/config/style2attrMap.xml`
+    `/apps/fmdita/config/style2attrMap.xml`
 
-   `style2attrMap.xml`檔案包含下列可設定的引數：
+    The `style2attrMap.xml` file contains the following configurable parameters:
 
-   - 在`fmStyle`引數中，指定您要對應之FrameMaker檔案中使用的來源格式。
+    -   In the `fmStyle` parameter, specify the source format used in the FrameMaker document that you want to map.
 
-   - 在`ditaAttr`元素中，指定您要與來源格式對應的DITA屬性。
+    -   In the`ditaAttr` element, specify the DITA attribute that you want to map with the source format.
 
-   - 在`ditaVal`元素中，指定對應屬性的值。 如果您沒有任何值，可將此專案保留空白。
+    -   In the `ditaVal` element, specify the value for the mapped attribute. If you don't have any value, you can leave this entry blank.
 
-1. 儲存 `style2attrMap.xml` 檔案。
+1.  Save the `style2attrMap.xml` file.
 
-1. 在`style2attrMap.xml`檔案中設定必要的引數後，登入AEM並開啟Assets UI。
+1. After configuring the required parameters in the `style2attrMap.xml` file, log into AEM and open the Assets UI.
 
-1. 瀏覽至您要轉換的FrameMaker檔案，並按一下該檔案。
+1. Navigate to and click on the FrameMaker document that you want to convert.
 
-   DITA map主控台隨即出現，顯示可用於產生輸出的輸出預設集清單。
+    The DITA map console appears showing the list of Output Presets available to generate output.
 
-1. 選取DITA輸出格式並設定必要的引數。
+1. Select DITA output format and configure the required parameters.
 
-   >[!NOTE]
-   >
-   > 您必須使用您在FrameMaker中建立的相同設定檔案\(.sts\)。 此外，請指定設定名稱和目的地路徑。
+    >[!NOTE]
+    >
+    > You must use the same settings file \(.sts\) that you created in FrameMaker. Also, specify the Settings Name and Destination Path.
 
-1. 按一下&#x200B;**產生**&#x200B;圖示以啟動輸出產生程式。
+1. Click the **Generate** icon to start the output generation process.
 
 
-使用`<attrMap> </attrMap>`區塊，您可以定義一或多個轉換組態區塊。 根據內容的不同，您可能會有.dita檔案和.ditamap檔案作為轉換的檔案。
+Using the `<attrMap> </attrMap>` block, you can define one or multiple blocks of configurations for conversion. Depending on the content, you could have a .dita file and a .ditamap file as the converted files.
+
+-->
 
 ## 移轉任何其他結構化檔案 {#id1949B0590YK}
 
@@ -373,7 +376,7 @@ AEM Guides可讓您將現有的結構化檔案轉換為有效的DITA檔案。 �
 
    `XSLConfig.xml`檔案包含下列可設定的引數：
 
-   - 在`inputDir`元素中，指定可以使用來源結構化檔案的輸入資料夾位置。 例如，如果您的結構化檔案儲存在`projects`資料夾中名為`xsltodita`的資料夾中，則指定位置為： `/content/dam/projects/xsltodita/`
+   - 在`inputDir`元素中，指定可以使用來源結構化檔案的輸入資料夾位置。 例如，如果您的結構化檔案儲存在`xsltodita`資料夾中名為`projects`的資料夾中，則指定位置為： `/content/dam/projects/xsltodita/`
 
    - 在`outputDir`元素中，指定輸出資料夾的位置或保留預設輸出位置。 如果DAM上不存在指定的輸出資料夾，則轉換工作流程會建立輸出資料夾。
 
@@ -396,4 +399,4 @@ AEM Guides可讓您將現有的結構化檔案轉換為有效的DITA檔案。 �
 
 使用`<config> </config>`區塊，您可以定義一或多個轉換組態區塊。 會執行轉換工作流程，並以DITA主題形式的最終輸出儲存在`outputDir`元素中指定的位置。
 
-**上層主題：**&#x200B;[&#x200B;移轉現有內容](migrate-content.md)
+**上層主題：**[&#x200B;移轉現有內容](migrate-content.md)
