@@ -395,4 +395,4 @@ AEM Guides可讓您將現有的結構化檔案轉換為有效的DITA檔案。 �
 
 使用`<config> </config>`區塊，您可以定義一或多個轉換組態區塊。 會執行轉換工作流程，並以DITA主題形式的最終輸出儲存在`outputDir`元素中指定的位置。
 
-**上層主題：**[&#x200B;移轉現有內容](migrate-content.md)
+**上層主題：**&#x200B;[&#x200B;移轉現有內容](migrate-content.md)
