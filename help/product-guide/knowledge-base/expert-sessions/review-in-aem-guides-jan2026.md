@@ -38,11 +38,11 @@ AEM Guides檢閱工作流程可讓作者、SME和檢閱者在不離開AEM的情�
 
 ## 相關資源
 
-- [檢閱工作流程檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
+- [檢閱工作流程檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [AEM Guides與Workfront整合](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [AEM Guides與Workfront整合](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [自訂檢閱UI](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [自訂檢閱UI](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -55,7 +55,7 @@ AEM Guides檢閱工作流程可讓作者、SME和檢閱者在不離開AEM的情�
 
 ### 社群論壇
 
-- 如需Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
+- 如需Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hant)。
 
 
 ## 聯絡我們
