@@ -3,9 +3,9 @@ title: 發行說明 | 2026年2月產品培訓和學習內容的新增功能
 description: 瞭解產品培訓和學習內容在2026年2月版本中的新功能和增強功能
 role: Leader
 hidefromtoc: true
-source-git-commit: 5ba7ba00cbc9209aad9f17f0793d621f1f1838e2
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,14 @@ ht-degree: 0%
 
   ![](assets/negative-scores-lc.png)
 
-- **按一下滑鼠右鍵即可刪除Widget**：除了刪除測驗問題之外，您現在還可以使用&#x200B;**按一下滑鼠右鍵>刪除專案**&#x200B;來刪除Widget，例如收合式選單、翻轉卡片和標籤。 此增強功能將現有的&#x200B;*刪除問題*&#x200B;功能延伸至Widget，讓您只需較少的點按次數及最少量的導覽即可移除問題。
+- **按一下滑鼠右鍵即可刪除Widget**：除了刪除測驗問題之外，您現在還可以使用&#x200B;**按一下滑鼠右鍵>刪除專案**&#x200B;來刪除Accordions、Flip卡片等Widget。 此增強功能將現有的&#x200B;*刪除問題*&#x200B;功能延伸至Widget，讓您只需較少的點按次數及最少量的導覽即可移除問題。
 
   深入瞭解[使用互動式Widget](../learning-content/lc-widgets.md)。
 
   ![](assets/delete-widget-items.png)
 - **釘選答案選項**：您現在可以釘選特定的答案選項，即使在SCORM輸出產生期間隨機產生答案，其位置仍保持不變。 這尤其適合用於&#x200B;*以上所有*&#x200B;或&#x200B;*以上無*&#x200B;等選項。
+
+  深入瞭解[問題屬性](../learning-content/quiz-insert-questions.md#question-properties)。
 
   ![](assets/pin-question.png)
 - **簡短答案型別**：簡短答案問題型別可讓學習者使用簡短的描述性英數字元答案來回應，而不用選取預先定義的選項。 此問題型別鼓勵學習者主動用自己的詞匯回憶並表達其理解，讓評估對學習者更有吸引力。
@@ -64,5 +66,5 @@ ht-degree: 0%
 - 在Mozilla Firefox上使用Experience Manager Guides時，翻轉卡片會在翻轉後的背面以相反的方向顯示正面文字。 (GUIDES-39983)
 - 當您按一下課程左窗格中的目錄(TOC)時，即使測驗失敗，課程仍會繼續顯示完成狀態。 (GUIDES-40398)
 - 嘗試在ALM中錯誤比對測驗中的以下問題型別，會導致報告中未出現選定的選項。 (GUIDES-38640)
-- 產生PDF輸出時，不會保留套用的製作樣式，導致設計不一致。(GUIDES-38642)
+- 產生PDF輸出時，不會保留套用的製作樣式，導致設計不一致。 (GUIDES-38642)
 

@@ -4,7 +4,7 @@ description: 瞭解在產品培訓和學習中可以新增到主題或學習內�
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 338213dd1e6f093a82bbf7d3283f81c3fdb96431
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -94,8 +94,9 @@ ht-degree: 0%
    >[!NOTE]
    >
    > 如果您不想使用現有的標題做為標題，請先在編輯器工具列中使用[文字]元件插入標題，然後選取&#x200B;**新增標題**。 這會新增範例&#x200B;**Title**&#x200B;至內容，您可以視需要加以編輯。
+
 1. 在檔案屬性中，選取&#x200B;**新增字幕**。
-範例&#x200B;**Subtitle**&#x200B;已新增至內容。
+範例**Subtitle**&#x200B;已新增至內容。
 
    ![](assets/add-subtitles-lc.png)
 
