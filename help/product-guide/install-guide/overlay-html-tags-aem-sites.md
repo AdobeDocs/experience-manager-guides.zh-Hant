@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: e0b0df19b7ec691a894130eb42df827921b4890c
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 導覽至下列位置可用的組態檔：
 
-   `/libs/fmdita/cq/xssprotection/config.xml`
+   `/libs/cq/xssprotection/config.xml`
 
 1. 在Apps節點內建立`xssprotection`資料夾的覆蓋節點。
 
@@ -143,4 +143,4 @@ ht-degree: 0%
 
 
 
-深入瞭解[安全性](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/security)的最佳實務。
+深入瞭解[安全性](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security)的最佳實務。
