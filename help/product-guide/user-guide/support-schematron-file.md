@@ -4,9 +4,9 @@ description: 瞭解如何匯入及驗證DITA主題、使用判斷提示報表陳
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
+source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 
 執行以下步驟來匯入Schematron檔案：
 
-![](images/schematron-panel.png){width="300" align="left"}
-
 1. 瀏覽至&#x200B;*存放庫*&#x200B;中的必要資料夾（您要上傳檔案的位置）。
 1. 選取&#x200B;**選項**&#x200B;圖示以開啟內容功能表，然後選擇&#x200B;**上傳資產**。
 1. 在&#x200B;**上傳資產**&#x200B;對話方塊中，您可以在&#x200B;**選取資產資料夾**&#x200B;欄位中變更目的地資料夾。
@@ -41,16 +39,16 @@ ht-degree: 0%
 
 在編輯器中開啟主題時，「架構驗證」面板會顯示在右側。 執行以下步驟，使用Schematron檔案新增並驗證主題或地圖：
 
-![](images/schematron-panel-file-validated.png){width="500" align="left"}
+![](images/schematron-panel.png){width="350" align="left"}
 
-1. 選取結構描述圖示()以開啟結構描述面板。
+1. 選取結構描述圖示，開啟結構描述面板。
 1. 使用&#x200B;**新增Schematron檔案**&#x200B;來新增Schematron檔案。
 
    >[!NOTE]
    >
    > 新增無效的Schematron檔案時，「驗證」面板中會顯示錯誤訊息。
 
-   ![](images/schematron-panel-error.png){width="300" align="left"}
+   ![](images/schematron-panel-error.png){width="350" align="left"}
 
 1. 如果Schematron檔案沒有錯誤，則會新增並列在「驗證」面板中。 對於包含錯誤的Schematron檔案，會顯示錯誤訊息。
 
@@ -58,14 +56,42 @@ ht-degree: 0%
    >
    >您可以使用Schematron檔案名稱附近的十字圖示來移除它。
 
-1. 選取&#x200B;**使用Schematron進行驗證**&#x200B;以驗證主題。
+1. 選取&#x200B;**驗證**，以使用新增的Schematron檔案來驗證主題。
 
    * 如果主題未破壞任何規則，則會顯示檔案的驗證成功訊息。
    * 如果主題破壞規則，例如，如果它不包含標題並為上述給定結構描述驗證，它會顯示驗證錯誤。
 
+   >[!NOTE]
+   >
+   > 根據Schematron檔案中定義的角色屬性顯示驗證結果。 如需詳細資訊，請檢視[瞭解驗證結果和嚴重性層級](#understanding-validation-results-and-serverity-levels)。
+
 1. 選取錯誤訊息，在開啟的主題/地圖中反白顯示包含錯誤的元素。
 
 編輯器中的Schematron支援可協助您根據一組規則來驗證檔案，並維護主題間的一致性和正確性。
+
+## 瞭解驗證結果和嚴重性層級
+
+根據Schematron檔案中定義的角色屬性顯示驗證結果。 問題會分類為`Fatal`、`Error`、`Warn`或`Info`，而「驗證」面板中的每個類別都有可見的計數。
+
+![](images/schematron-validation-errors.png){width="350" align="left"}
+
+為了判斷問題的嚴重性，會評估在對應的Schematron檔案中定義的role屬性的&#x200B;_case-senstive_&#x200B;值。
+
+下列程式碼片段顯示Schematron規則中定義的支援角色屬性值：
+
+* `<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+* `<sch:report role="info" test="not(@alt)">Image should have an alt attribute.</sch:report>`
+* `<sch:assert role= "fatal" test="b"> Bold must be there in <sch:name/> element</sch:assert>`
+* `<sch:assert role= "warn" test="b"> Recommended formatting is missing in <sch:name/> element</sch:assert>`
+
+如果未指定role屬性，或使用了不支援的值，則問題會在「驗證」面板中分類為`Error`。 此行為也適用於未定義角色屬性的現有Schematron檔案；在這種情況下，所有問題都會分組到`Error`下。
+
+**檔案儲存情境**
+
+儲存檔案相依於&#x200B;**在** Workspace設定[中儲存檔案](../cs-install-guide/workspace-settings.md#validation)設定之前執行驗證檢查：
+
+* 啟用後，在未解決`Fatal`或`Error`層級的問題之前，不允許儲存檔案。
+* 停用時，即使出現`Fatal`或`Error`層級問題，也不會執行驗證檢查且可以儲存檔案。
 
 ## 使用判斷提示和報表陳述式來檢查規則{#schematron-assert-report}
 

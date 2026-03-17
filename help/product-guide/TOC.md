@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: c034a95570c4e580bd4811684daaefc191e5ca84
+source-git-commit: a4cb2e65813a0ee31d5f5a7a267be73dd0212534
 workflow-type: tm+mt
-source-wordcount: '2509'
+source-wordcount: '2559'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - 雲端服務 {#cloud-release-notes}
          - [部署指示](./release-info/deploy-xml-on-aemaacs.md)
          - 2026版本 {#2026-releases}
+            - 2026.03.0版 {#2603-release}
+               - [新增功能](./release-info/whats-new-2026-03-0.md)
+               - [已修正的問題](./release-info/fixed-issues-2026-03-0.md)
+               - [升級指示](./release-info/upgrade-instructions-2026-03-0.md)
             - 2026.01.0版 {#2601-release}
                - [新增功能](./release-info/whats-new-2026-01-0.md)
                - [已修正的問題](./release-info/fixed-issues-2026-01-0.md)
@@ -174,13 +178,13 @@ ht-degree: 9%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]個運作中及主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
          - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 首頁 {#home-page}
       - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
@@ -206,7 +210,7 @@ ht-degree: 9%
             - [內容編輯區域](./user-guide/web-editor-content-editing-area.md)
             - [右側面板](./user-guide/web-editor-right-panel.md)
             - [搜尋面板](./user-guide/search-panel-explorer.md)
-         - [編輯器中的其他功能](./user-guide/web-editor-other-features.md)
+         - 編輯器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
          - [編輯器檢視](./user-guide/web-editor-views.md)
          - [支援Schematron檔案](./user-guide/support-schematron-file.md)
@@ -284,6 +288,7 @@ ht-degree: 9%
          - 使用基準線 {#work-with-baseline}
             - [從Map主控台建立和管理基準線](./user-guide/web-editor-baseline.md)
             - [從「地圖」控制面板建立和管理基準線](./user-guide/generate-output-use-baseline-for-publishing.md)
+            - [從地圖主控台建立和管理新的基準線](./user-guide/web-editor-baseline-v2.md)
          - [管理全域和資料夾設定檔輸出預設集](./user-guide/web-editor-manage-output-presets.md)
          - [使用變數來設定目的地路徑、網站名稱或檔案名稱選項](./user-guide/generate-output-use-variables.md)
          - [使用DITA-OT將中繼資料傳遞至輸出](./user-guide/pass-metadata-dita-ot.md)
@@ -306,6 +311,7 @@ ht-degree: 9%
          - [啟動輸出](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [編輯大量啟用地圖集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [刪除大量啟用地圖集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
+         - [管理DITA來源資產的復寫](./user-guide/dita-assets-replication-aem-sites.md)
    - FrameMaker檔案的輸出產生 {#generate-fm-output}
       - [FrameMaker輸出產生基本需知](./user-guide/fm-output-generatation.md)
       - 支援的預設集 {#fm-docs-generating-presets}
@@ -380,7 +386,7 @@ ht-degree: 9%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - [內部部署基本需知](./install-guide/introduction.md)
@@ -479,7 +485,9 @@ ht-degree: 9%
       - 使用B樹清理{#btree-cleanup}
          - [設定B樹狀結構清理](./install-guide/configure-btree-clean-up-job.md)
       - 自訂索引{#custom-indexing}
-         - [部署自訂索引以尋找和取代(Source檢視)](./install-guide/custom-indexing-prem.md)
+         - [部署自訂索引以尋找和取代（Source檢視）](./install-guide/custom-indexing-prem.md)
+      - 使用DITA資產復寫{#dita-assets-replication}
+         - [設定DITA資產復寫](./install-guide/configure-dita-asset-replication.md)
       - [附錄](./install-guide/appendix.md)
    - 雲端服務 {#cs-ig}
       - [關於本指南](./cs-install-guide/introduction.md)
@@ -489,6 +497,7 @@ ht-degree: 9%
          - [設定 Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
          - [驗證AEM Guides安裝](./cs-install-guide/download-install-verify-dxml-installation.md)
          - [升級AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
+         - [升級AEM Guides as Cloud Service的其他設定](./cs-install-guide/additional-config-for-cloud-service.md)
          - [設定覆寫](./cs-install-guide/download-install-additional-config-override.md)
          - [效能最佳化建議](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       - 使用使用者群組及安全性 {#user-group-sec-cs}
@@ -568,7 +577,9 @@ ht-degree: 9%
       - 使用B樹清理{#btree-cleanup-cs}
          - [設定B樹狀結構清理](./cs-install-guide/configure-btree-cleanup-cs.md)
       - 自訂索引{#custom-indexing-cs}
-         - [部署自訂索引以尋找和取代(Source檢視)](./cs-install-guide/custom-indexing.md)
+         - [部署自訂索引以尋找和取代（Source檢視）](./cs-install-guide/custom-indexing.md)
+      - 使用DITA資產復寫{#dita-assets-replication-cs}
+         - [設定DITA資產復寫](./cs-install-guide/configure-dita-assets-replication.md)
       - [附錄](./cs-install-guide/appendix.md)
 - API 參考 {#api-reference}
    - [簡介](./api-reference/introduction.md)

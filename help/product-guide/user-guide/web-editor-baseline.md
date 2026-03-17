@@ -4,14 +4,18 @@ description: 從Adobe Experience Manager Guides的地圖主控台建立和管理
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: eb68e4583083ff209fd717049c6e50b996cba8e8
+source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
 
 # 從Map主控台建立和管理基準線 {#id223MB0ZF043}
+
+>[!NOTE]
+>
+> Experience Manager Guides 2026.03.0版提供新基準(Beta)，改善了效能和穩定性。 若要使用此基準線，請聯絡客戶成功團隊以啟用該功能。 深入瞭解[新基準線(Beta)](./web-editor-baseline-v2.md)。
 
 「基線」功能可讓您建立主題和資產的版本，然後將其用於發佈或翻譯。 例如，如果您的DITA map有`topicA`和`imageA`，您可以建立基準線以使用第3版`topicA`，但使用第4版`ImageA`。 設定好「基準線」後，您就可以在單一步驟中發佈或翻譯不同版本的主題。
 
@@ -122,7 +126,7 @@ ht-degree: 0%
 ![複製基準線](images/baseline-duplicate.png){width="300" align="left"}
 *根據標籤複製基準線或建立精確副本。*
 
-1. 從基準線的[選項]功能表選取[複製] **&#x200B;**。 **重複的基準線**&#x200B;對話方塊開啟。
+1. 從基準線的[選項]功能表選取[複製] ****。 **重複的基準線**對話方塊開啟。
 >[!NOTE]
 >
 >基準線的預設名稱為`<selected baseline name>`_suffix （如sample-baseline_1）。 您可以根據自己的需求變更名稱。
@@ -168,5 +172,5 @@ ht-degree: 0%
 
 編輯基準線後，選取&#x200B;**儲存**&#x200B;以儲存基準線的變更。 如果您不想儲存變更並重設基準線，可以選取&#x200B;**重設**。 當您選取&#x200B;**重設**&#x200B;時，會顯示警告，指出您未儲存的變更將會遺失。
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)
 

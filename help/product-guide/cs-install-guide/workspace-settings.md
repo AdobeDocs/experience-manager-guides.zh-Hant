@@ -3,9 +3,10 @@ title: Experience Manager Guides中的Workspace設定
 description: 瞭解Experience Manager Guides編輯器介面中可用的各種設定。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
+exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
@@ -33,9 +34,9 @@ ht-degree: 0%
 
 ## 一般
 
-一般設定可讓您設定使用編輯器的設定。 此索引標籤包含五個區段：**AI小幫手**、**製作**、**引文**、**條件**&#x200B;以及&#x200B;**拼字檢查**。
+一般設定可讓您設定使用編輯器的設定。 此索引標籤包含七個區段： **AI助理**、**製作**、**引用**、**條件**、**HTML編輯器**、**學習內容**&#x200B;和&#x200B;**拼字檢查**。
 
-![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
+![](assets/workspace-settings.png){width="350" align="left"}
 
 - **AI小幫手**
 選取此項以啟用Experience Manager Guides中的[AI小幫手](../user-guide/ai-assistant.md)功能。 取消選取以停用該功能。
@@ -77,6 +78,26 @@ ht-degree: 0%
 - **拼字檢查**
 有兩個選項 — **AEM拼字檢查**&#x200B;和&#x200B;**瀏覽器拼字檢查**。 依預設，編輯器會使用瀏覽器拼字檢查功能，其中拼字檢查是使用瀏覽器的內建字典執行。 您可以切換至AEM拼字檢查，以使用Adobe Experience Manager的字典，也可以自訂字典以新增自訂字詞清單。 如需自訂AEM字典的詳細資訊，請檢視安裝與設定AEM as a Cloud Service中的[自訂Adobe Experience Manager Guides的預設字典](../cs-install-guide/customize-aem-custom-dictionary.md)區段。
 
+- **學習內容**：此設定可讓您啟用或停用Experience Manager Guides執行個體的產品培訓和學習內容功能。 使用&#x200B;**啟用學習內容**&#x200B;切換功能，在資料夾設定檔層級啟用或停用此功能。 依預設，所有例證都會停用此功能。
+
+  深入瞭解[產品訓練與學習內容](../learning-content/intro.md)功能。
+
+  下列功能/選項只有在啟用「學習內容」設定時才可供使用：
+
+   - **課程製作**：啟用從編輯器和首頁建立和管理課程的選項。
+   - **SCORM範本**：啟用在編輯器中的&#x200B;*輸出範本*&#x200B;下建立SCORM範本的選項。
+   - **內容範本和輸出預設集**：啟用Workspace設定對話方塊中的內容範本和輸出預設集組態選項。
+
+學習內容停用時，上述所有選項在Experience Manager Guides介面中都將無法使用。
+
+如需詳細資訊，請檢視[設定資料夾設定檔](../lc-config-guide/lc-folder-profile.md)。
+
+- **HTML編輯器**：針對學習內容，此設定可讓您設定用於HTML式編寫的編輯器。 此設定中的主要組態選項如下：
+
+   - **隱藏內嵌樣式**：啟用此選項可防止作者將內嵌格式套用至課程內容。 啟用時，編輯器的右側面板中出現的所有內嵌樣式選項（例如「字型」、「邊框」、「版面」、「背景」和「欄」）對「作者」而言仍為隱藏狀態。 不過，作者仍可使用&#x200B;**樣式**&#x200B;面板中可用的全域類別型樣式選項。 這有助於維持與貴組織風格指引的一致性。
+   - **隱藏作者的Source檢視**：啟用此選項以限制對HTML原始碼的存取。 如果您想要簡化編輯體驗，或避免基礎程式碼意外變更，這個功能會很好用。
+
+  如需詳細資訊，請檢視[建立和自訂學習內容](../learning-content/lc-overview.md)。
 
 ## 面板
 
@@ -255,11 +276,9 @@ ht-degree: 0%
 
 工作區設定中的![中繼資料索引標籤](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
-*設定&#x200B;**版本記錄**&#x200B;對話方塊的中繼資料。*
+*設定&#x200B;**版本記錄**對話方塊的中繼資料。*
 
 
 
 您也可以定義這些中繼資料標籤的顯示順序。 若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
-中繼資料標籤會以相同的順序顯示在編輯器的&#x200B;**版本記錄**&#x200B;對話方塊中。
-
-
+中繼資料標籤會以相同的順序顯示在編輯器的**版本記錄**&#x200B;對話方塊中。

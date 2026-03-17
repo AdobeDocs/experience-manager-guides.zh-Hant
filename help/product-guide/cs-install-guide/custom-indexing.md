@@ -4,18 +4,19 @@ description: 瞭解如何自訂索引內容
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
+exl-id: 682d58df-7404-4e84-9b5f-ab40c46bef84
+source-git-commit: 1bffdade37658bd44128cac9226a349f828abd45
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 3%
 
 ---
 
-# 部署自訂索引以尋找和取代(Source檢視)功能
+# 部署自訂索引以尋找和取代（Source檢視）功能
 
 ## 概觀
 
-本指南提供在Adobe Experience Manager (AEM) as a Cloud Service上部署`guidesAssetLucene‑1‑custom‑1`自訂索引的逐步指示。 雖然「作者」檢視中的標準「尋找和取代」功能可無須此索引運作，但在Source檢視中啟用「尋找和取代」時，尤其需要自訂索引。 「尋找和取代」(Source檢視)不僅可讓您搜尋可見的編寫內容，也可搜尋基礎的XML結構；包括元素、標籤和屬性值。
+本指南提供在Adobe Experience Manager (AEM) as a Cloud Service上部署`guidesAssetLucene‑1‑custom‑1`自訂索引的逐步指示。 雖然「作者」檢視中的標準「尋找和取代」功能可無須此索引運作，但在Source檢視中啟用「尋找和取代」時，尤其需要自訂索引。 「尋找和取代」（Source檢視）不僅可讓您搜尋可見的編寫內容，也可搜尋基礎的XML結構；包括元素、標籤和屬性值。
 
 ## 先決條件
 
@@ -27,13 +28,17 @@ ht-degree: 3%
 
 ## 索引定義
 
-若要啟用尋找和取代(Source檢視)功能，您必須將名為&#x200B;**`guidesAssetLucene-1-custom-1`**&#x200B;的自訂索引部署至AEM Cloud Service環境。
+若要啟用尋找和取代（Source檢視）功能，您必須將名為&#x200B;**`guidesAssetLucene-1-custom-1`**&#x200B;的自訂索引部署至AEM Cloud Service環境。
 
 ### 索引名稱
 
 ```
 guidesAssetLucene-1-custom-1
 ```
+
+>[!NOTE]
+>
+> 如果具有相同名稱的自訂索引已存在，則增加索引編號。
 
 ### 索引定義(.content.xml)
 
@@ -153,6 +158,11 @@ guidesAssetLucene-1-custom-1
                         jcr:primaryType="nt:unstructured"
                         mappedType="text/markdown+source"/>
             </text>
+            <text jcr:primaryType="nt:unstructured">
+   <html
+        jcr:primaryType="nt:unstructured"
+        mappedType="text/html+source"/>
+</text>
         </mimeTypes>
     </tika>
 </jcr:root>
@@ -191,7 +201,7 @@ guidesAssetLucene-1-custom-1
 
 ### 驗證索引部署
 
-在您的開發環境中(如果有CRXDE Lite)：
+在您的開發環境中（如果有CRXDE Lite）：
 
 1. 導覽至 `/oak:index/guidesAssetLucene-1-custom-1`。
 2. 驗證具有預期設定的節點是否存在。
@@ -210,5 +220,5 @@ guidesAssetLucene-1-custom-1
 
 - [AEM as a Cloud Service索引檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak Indexing指南](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides)
+- [AEM Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Cloud Manager 文件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

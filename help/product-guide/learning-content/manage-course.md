@@ -4,7 +4,7 @@ description: 瞭解Experience Manager Guides提供的各種功能，這些功能
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
+source-git-commit: f758ef6f2d238cbb71dc395add12fc7e30172871
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. 選取&#x200B;**選項**&#x200B;功能表> **新增現有**。
 2. 選取您要建立的課程內容型別。
-3. 在&#x200B;**選取路徑**&#x200B;對話方塊中，導覽至內容位置並選取想要的學習內容。
+3. 在&#x200B;**選取檔案**&#x200B;對話方塊中，導覽至內容位置並選取想要的學習內容。
 
    ![](assets/add-existing-learning-content.png)
 4. 選擇&#x200B;**選取**。
