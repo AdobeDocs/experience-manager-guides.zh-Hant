@@ -96,7 +96,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides只會匯入不重複且不存在的引用。
-    &gt; <li> Experience Manager Guides可以從書籍、日誌或網站匯入引用。 目前不支援其他來源的引文。
+   > &gt; <li> Experience Manager Guides可以從書籍、日誌或網站匯入引用。 目前不支援其他來源的引文。
 
 ## 管理引文
 
@@ -125,7 +125,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 
 ### 變更引文樣式 {#change-citation-style}
 
-您的系統管理員可以從&#x200B;**設定**&#x200B;中&#x200B;**一般**&#x200B;索引標籤的&#x200B;**引文**下拉式清單中變更引文樣式。
+您的系統管理員可以從&#x200B;**設定**&#x200B;中&#x200B;**一般**&#x200B;索引標籤的&#x200B;**引文**&#x200B;下拉式清單中變更引文樣式。
 這些樣式決定引文在預覽窗格或原生PDF輸出中的顯示方式。
 
 下拉式清單中有以下選項：
@@ -187,7 +187,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 ### 從主工具列
 
 1. 選取主工具列中的&#x200B;**引文** ![引文圖示](images/citations-icon.svg)圖示。
-1. 在&#x200B;**引文**對話方塊中，選擇引文。 您也可以選取多個引文。
+1. 在&#x200B;**引文**&#x200B;對話方塊中，選擇引文。 您也可以選取多個引文。
    ![引文對話方塊](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. 您可以在&#x200B;**引文**&#x200B;對話方塊的搜尋面板中輸入前幾個字母來篩選引文。
 
@@ -204,7 +204,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 1. 在左側面板中選取&#x200B;**引文** ![引文圖示](images/citations-icon.svg)圖示。
 1. 從「**引文**」面板拖曳引文，並將其放置在主題中的適當位置。
 
-   您也可以從&#x200B;****&#x200B;選項![](images/options.svg)中選取&#x200B;**插入**&#x200B;以插入引文。
+   您也可以從&#x200B;**&#x200B;**&#x200B;選項![](images/options.svg)中選取&#x200B;**插入**&#x200B;以插入引文。
 
    ![插入引文](images/citation-panel-insert.png)
 1. 若要選取多個引文，請在主題中的引文上按一下滑鼠右鍵，然後從捷徑功能表中選取&#x200B;**修改引文**。
