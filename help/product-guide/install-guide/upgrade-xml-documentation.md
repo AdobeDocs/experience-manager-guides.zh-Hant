@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 479794862cec667baecbdb513e48a2979ef631a7
+source-git-commit: 98413b516865c77ad750bdf6f34874f5e37fb13a
 workflow-type: tm+mt
-source-wordcount: '9160'
+source-wordcount: '9148'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 - 如果您是使用4.3.x、4.2、4.2.1 (Hotfix 4.2.1.3)、4.1或4.1.x版，則必須先升級至4.4版，才能升級至5.0.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
+- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
 
 
 >[!NOTE]
@@ -59,11 +59,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升級程式僅適用於3.8.5版到4.0版。如需從3.4版或更新版本升級至3.8.5的程式，請參閱&#x200B;*Experience Manager Guides說明PDF封存*&#x200B;中提供的產品特定安裝指南中的[升級Adobe Experience Manager Guides](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)一節。
+> 此升級程式僅適用於3.8.5版到4.0版。如需從3.4版或更新版本升級至3.8.5的程式，請參閱&#x200B;*Experience Manager Guides說明PDF封存*&#x200B;中提供的產品特定安裝指南中的[升級Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)一節。
 
 
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides升級程式之前，請確定您擁有：
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 如果您是使用4.0、4.1或4.1.x版，則可以直接升級至4.2版。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.2升級程式之前，請確定您擁有：
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 1. 如果&#x200B;**DXML後續程式啟動器**&#x200B;元件存在，請確定自訂已同步。
 1. 如果&#x200B;**DXML後續處理啟動器**&#x200B;元件不存在，請執行下列步驟以插入它：
 
-1. 按一下「**插入元件**」\(負責Experience Manager Guides後續處理，作為程式的最後一個步驟\)。
+1. 按一下「**插入元件**」\（負責Experience Manager Guides後續處理，作為程式的最後一個步驟\）。
 1. 使用下列詳細資料設定&#x200B;**處理序步驟**：
 
    **一般標籤**
@@ -251,7 +251,7 @@ ht-degree: 0%
 
 執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 \(可選：您可以傳遞地圖的特定路徑來為其建立索引，預設情況下，所有地圖都會建立索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 \（可選：您可以傳遞地圖的特定路徑來索引它們，依預設所有地圖都會索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\）
 
 - 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點 — 
 
@@ -312,7 +312,7 @@ ht-degree: 0%
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.2.1升級程式之前，請確定您擁有：
 
@@ -409,7 +409,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 1. 如果&#x200B;**DXML後續程式啟動器**&#x200B;元件存在，請確定自訂已同步。
 1. 如果&#x200B;**DXML後續處理啟動器**&#x200B;元件不存在，請執行下列步驟以插入它：
 
-1. 按一下「**插入元件**」\(負責Experience Manager Guides後續處理，作為程式的最後一個步驟\)。
+1. 按一下「**插入元件**」\（負責Experience Manager Guides後續處理，作為程式的最後一個步驟\）。
 1. 使用下列詳細資料設定&#x200B;**處理序步驟**：
 
    **一般標籤**
@@ -471,7 +471,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 - 請確定`damAssetLucene`索引已完成。 視伺服器上呈現的資料量而定，最多可能需要幾個小時。 您可以透過檢查中重新索引欄位是否設定為false來確認重新索引已完成
   `http://<server:port>/oak:index/damAssetLucene`。  此外，如果您已在`damAssetLucene`中新增任何自訂，您可能需要再次套用它們。
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，依預設所有地圖都會編列索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 - 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
@@ -489,7 +489,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.3.0升級程式之前，請確定您擁有：
 
@@ -547,7 +547,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.3.1升級程式之前，請確定您擁有：
 
@@ -637,7 +637,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 1. 如果&#x200B;**DXML後續程式啟動器**&#x200B;元件存在，請確定自訂已同步。
 1. 如果&#x200B;**DXML後續處理啟動器**&#x200B;元件不存在，請執行下列步驟以插入它：
 
-1. 按一下「**插入元件**」\(負責Experience Manager Guides後續處理，作為程式的最後一個步驟\)。
+1. 按一下「**插入元件**」\（負責Experience Manager Guides後續處理，作為程式的最後一個步驟\）。
 1. 使用下列詳細資料設定&#x200B;**處理序步驟**：
 
    **一般標籤**
@@ -700,7 +700,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
 
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，依預設所有地圖都會編列索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 
 - 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
@@ -788,7 +788,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.4.0升級程式之前，請確定您擁有：
 
@@ -840,7 +840,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 1. 如果&#x200B;**DXML後續程式啟動器**&#x200B;元件存在，請確定自訂已同步。
 1. 如果&#x200B;**DXML後續處理啟動器**&#x200B;元件不存在，請執行下列步驟以插入它：
 
-1. 按一下「**插入元件**」\(負責Experience Manager Guides後續處理，作為程式的最後一個步驟\)。
+1. 按一下「**插入元件**」\（負責Experience Manager Guides後續處理，作為程式的最後一個步驟\）。
 1. 使用下列詳細資料設定&#x200B;**處理序步驟**：
 
    **一般標籤**
@@ -903,7 +903,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，依預設所有地圖都會編列索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 - 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
@@ -981,7 +981,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 在此升級期間，由於`'order'`值從1000變更為50，因此您必須將現有的自訂重寫程式（若有的話）與`'fmdita-rewriter'`合併。
 
 
-**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)
 
 
 ## 升級至4.6.0版
@@ -996,7 +996,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 >
 > 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.6.0升級程式之前，請確定您擁有：
 
@@ -1046,7 +1046,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 1. 如果&#x200B;**DXML後續程式啟動器**&#x200B;元件存在，請確定自訂已同步。
 1. 如果&#x200B;**DXML後續處理啟動器**&#x200B;元件不存在，請執行下列步驟以插入它：
 
-1. 按一下「**插入元件**」\(負責Experience Manager Guides後續處理，作為程式的最後一個步驟\)。
+1. 按一下「**插入元件**」\（負責Experience Manager Guides後續處理，作為程式的最後一個步驟\）。
 1. 使用下列詳細資料設定&#x200B;**處理序步驟**：
 
    **一般標籤**
@@ -1118,7 +1118,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 執行以下步驟來索引現有內容：
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 || 範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引||範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 - 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -1145,13 +1145,13 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 >[!TIP]
 >
-> 升級至5.0.0 Service Pack 3版須視目前Experience Manager Guides的版本而定。 如果您是使用5.0.0 Service Pack 2、5.0.0 Service Pack 1或5.0.0版，則可以直接升級至5.0.0 Service Pack 3版。
+> 升級至5.0.0版Service Pack 4須視目前Experience Manager Guides的版本而定。 如果您是使用5.0.x版，則可以直接升級至5.0.0 Service Pack 4版。
 
 >[!NOTE]
 >
 > 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 5.0.0升級程式之前，請確定您擁有：
 
@@ -1201,7 +1201,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 1. 如果&#x200B;**DXML後續程式啟動器**&#x200B;元件存在，請確定自訂已同步。
 1. 如果&#x200B;**DXML後續處理啟動器**&#x200B;元件不存在，請執行下列步驟以插入它：
 
-1. 按一下「**插入元件**」\(負責Experience Manager Guides後續處理，作為程式的最後一個步驟\)。
+1. 按一下「**插入元件**」\（負責Experience Manager Guides後續處理，作為程式的最後一個步驟\）。
 1. 使用下列詳細資料設定&#x200B;**處理序步驟**：
 
    **一般標籤**
@@ -1273,7 +1273,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 執行以下步驟來索引現有內容：
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 || 範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引||範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 - 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -1299,7 +1299,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 ## 重新索引damAssetLucene的步驟
 
-已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.0.0版後如何重新索引damAssetLucene。
+已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.0.0版後如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
@@ -1309,7 +1309,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 >[!IMPORTANT]
 >
-> 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.1.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.1.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 **先決條件**
 
@@ -1368,7 +1368,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 1. 如果&#x200B;**DXML後續程式啟動器**&#x200B;元件存在，請確定自訂已同步。
 1. 如果&#x200B;**DXML後續處理啟動器**&#x200B;元件不存在，請執行下列步驟以插入它：
 
-1. 選取&#x200B;**插入元件** \(負責Experience Manager Guides後續處理，作為程式的最後步驟\)。
+1. 選取&#x200B;**插入元件** \（負責Experience Manager Guides後續處理，作為程式的最後步驟\）。
 1. 使用下列詳細資料設定&#x200B;**處理序步驟**：
 
    **一般標籤**
@@ -1440,7 +1440,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 執行以下步驟來索引現有內容：
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 || 範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引||範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 - 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -1466,7 +1466,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 ## 重新索引damAssetLucene的步驟
 
-已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.1.0版後如何重新索引damAssetLucene。
+已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.1.0版後如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
