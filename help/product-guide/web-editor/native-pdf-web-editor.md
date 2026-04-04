@@ -82,7 +82,7 @@ ht-degree: 0%
 
 * **提供XMP檔案**
 
-  您也可以匯入[XMP](https://www.adobe.com/products/xmp.html) （可延伸中繼資料平台）檔案，直接填入中繼資料欄位。 您可以從這裡下載範例XMP檔案。
+  您也可以匯入[XMP](https://www.adobe.com/tw/products/xmp.html) （可延伸中繼資料平台）檔案，直接填入中繼資料欄位。 您可以從這裡下載範例XMP檔案。
 
 [下載](assets/SampleXMP.xmp)
 
