@@ -4,9 +4,9 @@ description: 從Adobe Experience Manager Guides的地圖主控台建立和管理
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 0%
 >
 > 本文適用於新基準線（目前作為&#x200B;*Beta*&#x200B;功能提供），其可提供Experience Manager Guides 2026.03.0版本中改善的效能和穩定性。 若要在設定中啟用新的基準線功能，請聯絡客戶成功團隊。
 
-新的基準線功能可解決與大型複雜地圖相關的可靠性和效能問題。 它隨附重新設計的基準架構，可提供更快速、更穩定且更一致的基準線體驗。
+新的基準線功能可解決與大型複雜地圖相關的可靠性和效能問題。 它隨附重新設計的基準架構，可提供更快速、更穩定且更一致的基準線體驗。 在我們深入瞭解詳細資訊之前，以下是一段簡短的逐步解說影片，重點說明新基準線功能的功能。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483154/aem-guides)
 
 新的基準線模型可解決常見的棘手問題，強化基準線處理能力：
 
@@ -117,7 +119,7 @@ ht-degree: 0%
 
 使用使用&#x200B;**新基準模型**&#x200B;建立的基準時，將會套用下列更新：
 
-- 針對使用[手動]和[自動]更新所建立的基準線，[選項]功能表中的[匯出基準線] **[匯出基準線]**&#x200B;選項已重新命名為[下載] **&#x200B;**。
+- 針對使用[手動]和[自動]更新所建立的基準線，[選項]功能表中的[匯出基準線] **[匯出基準線]**&#x200B;選項已重新命名為[下載] ****。
 
   ![](images/baseline-v2-options-menu.png)
 
