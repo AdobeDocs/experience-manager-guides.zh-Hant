@@ -1,7 +1,9 @@
 ---
 title: 發行說明|修正2026.03.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2026.03.0版中的錯誤修正。
-source-git-commit: 764f6cc0b061020b78cd2808e08a5d05bd183c81
+exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 3%
@@ -60,13 +62,3 @@ Adobe已找出下列2026.03.0版的已知問題：
 - 在Assets UI中，當選取超過2個檔案或資料夾時，在第一次嘗試時不會啟用&#x200B;**移動**&#x200B;按鈕。 (GUIDES-42721) <br> **因應措施**：選取兩個以上的檔案或資料夾後，請等候幾秒鐘再選取目的地資料夾。
 - 當您從編輯器導覽至&#x200B;**使用者偏好設定**，並在編輯器中開啟預覽模式時更新根地圖時，當您返回編輯器時，地圖預覽會以空白畫面載入。 (GUIDES-42412) <br> **因應措施**：使用預覽模式中可用的&#x200B;**重新整理**&#x200B;圖示重新整理預覽可解決問題。
 - 在手動重新整理頁面之前，重新命名現有範本不會更新&#x200B;**輸出範本**&#x200B;面板中的名稱。 (GUIDES-42528)<br> **因應措施**：重新整理瀏覽器以檢視[輸出範本]面板中更新的範本名稱。
-
-
-
-
-
-
-
-
-
-
