@@ -30,11 +30,11 @@ ht-degree: 0%
 
 1. 從&#x200B;**專案**&#x200B;畫面選取&#x200B;**新增API**。  **新增API**&#x200B;畫面會出現。 此畫面會顯示Adobe產品與技術的所有可用API、事件和服務，供您開發應用程式。
 
-1. 選取&#x200B;**I/O管理API**以將其新增至您的專案。
+1. 選取&#x200B;**I/O管理API**&#x200B;以將其新增至您的專案。
    ![IO管理API](assets/confi-ss-io-management.png)
    *新增I/O Management API至您的專案。*
 
-1. 建立新的&#x200B;**OAuth認證**並儲存。
+1. 建立新的&#x200B;**OAuth認證**&#x200B;並儲存。
    設定API中的![OAuth認證磚](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
    *將OAuth認證設定到您的API。*
 
@@ -106,5 +106,5 @@ ht-degree: 0%
 ```
 
 
-完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在網頁編輯器的右側面板中。 選取圖示以檢視&#x200B;**智慧說明**面板。
+完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在網頁編輯器的右側面板中。 選取圖示以檢視&#x200B;**智慧說明**&#x200B;面板。
 如需詳細資訊，請檢視Experience Manager使用手冊中的[AI支援Smart Help以搜尋內容](../user-guide/ai-based-smart-help.md)區段。
