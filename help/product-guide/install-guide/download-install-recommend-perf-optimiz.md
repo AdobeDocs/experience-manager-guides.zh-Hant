@@ -18,7 +18,7 @@ ht-degree: 0%
 ## 設定資料存放區\（必要\）
 
 **有什麼變更？**
-在設定`minRecordLength`下將`100`屬性設定為值`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`如需檔案日期存放區和S3資料存放區的詳細資訊，請參閱[在AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html)中設定節點存放區和資料存放區。
+在設定`minRecordLength`下將`100`屬性設定為值`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`如需檔案日期存放區和S3資料存放區的詳細資訊，請參閱[在AEM 6](https://helpx.adobe.com/tw/experience-manager/6-5/sites/deploying/using/data-store-config.html)中設定節點存放區和資料存放區。
 
 >[!NOTE]
 >

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本文提供將&#x200B;**Adobe Experience Manager Guides** 4.6.0 **之前的**&#x200B;版本(最高至（包括）**4.4.0**)升級的說明。
 
-如果您使用3.8.5 **之前的**&#x200B;版本，請參閱&#x200B;**Experience Manager Guides說明PDF封存**&#x200B;上產品特定安裝指南中的[升級Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)一節。
+如果您使用3.8.5 **之前的**&#x200B;版本，請參閱&#x200B;**Experience Manager Guides說明PDF封存**&#x200B;上產品特定安裝指南中的[升級Adobe Experience Manager Guides](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)一節。
 
 如需較新版本的升級指示，請參閱[升級Adobe Experience Manager Guides 4.6.0和更高版本](./upgrade-aemg-latest-version.md)。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升級程式只適用於&#x200B;**從** 3.8.5 **到** 4.0 **的**。 如需從&#x200B;**3.4或更新版本**&#x200B;升級至&#x200B;**3.8.5**，請參閱[Adobe Experience Manager Guides說明PDF封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南。
+> 此升級程式只適用於&#x200B;**從** 3.8.5 **到** 4.0 **的**。 如需從&#x200B;**3.4或更新版本**&#x200B;升級至&#x200B;**3.8.5**，請參閱[Adobe Experience Manager Guides說明PDF封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南。
 
 如果您使用Experience Manager Guides版本&#x200B;**3.8.5**，您可以升級至版本&#x200B;**4.0**，而不需要解除安裝先前的版本。
 

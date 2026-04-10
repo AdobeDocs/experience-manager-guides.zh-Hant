@@ -219,5 +219,5 @@ ht-degree: 1%
    > 如果在移轉之前，屬性&#x200B;**在**&#x200B;內使用AEM網站頁面名稱的標題`com.adobe.fmdita.config.ConfigManager`，設定為&#x200B;*False*，則在移轉之後，需要更新此屬性。
 
 
-1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。
+1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hant`）。
 

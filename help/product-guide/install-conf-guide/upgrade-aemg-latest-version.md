@@ -45,7 +45,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.1.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.1.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 **先決條件**
 
@@ -249,7 +249,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../install-con
 
 ### 重新索引damAssetLucene的步驟
 
-已使用AEM Guides更新damAssetLucene的索引定義。 升級至所需版本後，請參閱[本文章](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)以重新索引damAssetLucene。
+已使用AEM Guides更新damAssetLucene的索引定義。 升級至所需版本後，請參閱[本文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16460)以重新索引damAssetLucene。
 
 >[!NOTE]
 >
