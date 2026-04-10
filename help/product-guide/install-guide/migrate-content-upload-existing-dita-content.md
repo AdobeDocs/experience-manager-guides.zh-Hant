@@ -5,7 +5,8 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 0%
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 1. 在[登入]對話方塊中，選擇WebDAV作為&#x200B;**檔案通訊協定**&#x200B;並提供其他連線詳細資訊，以指定[新站台]設定，例如：
 
-   - AEM伺服器託管所在的URL、
+   - 託管AEM伺服器的URL、
 
    - 連線埠號碼\（預設為4502\），以及
 
@@ -55,7 +56,7 @@ Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆將現有DITA和其
 
 1. 輸入以下詳細資料以連線至AEM存放庫：
 
-   - **名稱**：輸入描述性名稱，以識別與您的AEM伺服器的連線。
+   - **名稱**：輸入描述性名稱，以識別與AEM伺服器的連線。
    - **伺服器**：輸入AEM伺服器的URL和連線埠號碼。
 
    - **使用者名稱**/**密碼**：輸入使用者名稱和密碼以存取AEM伺服器。
@@ -89,7 +90,7 @@ Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆將現有DITA和其
 
    如果檔案未遵循指定的模式，則會將UUID新增至檔案的屬性，而且所有對該檔案的參照都會以指派給該檔案的UUID更新。
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 
 ## 使用WebDav工具以UUID上傳內容 {#id201MI0I04Y4}
@@ -115,11 +116,11 @@ Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆將現有DITA和其
 - 沒有兩個檔案可以有相同的UUID。 會將唯一的UUID指派給所有新檔案。
 
 
-將內容從本機系統移動或複製到AEM存放庫時，必須考量以下幾點：
+將內容從本機系統移動或複製到AEM存放庫時，必須考量下列幾點：
 
 - 如果檔案由兩個不同的使用者同時上傳，則稍後處理的檔案會覆寫較早的檔案。 然而，這種做法十分罕見，應避免使用。
 
-- 當您從AEM存放庫簽出內容並在本機系統上變更時，請確保在上傳檔案時檔案名稱未變更。
+- 當您從AEM存放庫簽出內容並在本機系統上變更時，請確保檔案名稱在上傳檔案時未變更。
 
 
 ## 使用curl命令
@@ -140,12 +141,12 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 - `jcr:primaryType=sling:Folder`：指定此引數&#x200B;*為*，以建立資料夾型別資源。
 
-- `<server folder path>`：完整的資料夾路徑，包括您要在AEM存放庫中建立的新資料夾名稱。 例如，如果您將路徑指定為`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，則會在DAM的`projects`資料夾中建立資料夾`AEM-Guides`。
+- `<server folder path>`：完整的資料夾路徑，包括您要在AEM存放庫中建立的新資料夾名稱。 例如，如果您將路徑指定為`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，則會在DAM的`AEM-Guides`資料夾中建立資料夾`projects`。
 
 
 **上傳檔案**
 
-執行以下命令來上傳AEM存放庫中的檔案：
+執行以下命令，在AEM存放庫中上傳檔案：
 
 ```curl
 curl --user <username>:<password> -T "<local file path>" "<server folder path>"
@@ -177,4 +178,4 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 - `<metadata node path>`：完整的資料夾路徑，包括檔案名稱及其中繼資料節點。 例如，如果您將路徑指定為`http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`，則指定的中繼資料資訊會設定在`intro.xml`檔案上。
 
 
-**上層主題：**&#x200B;[&#x200B;移轉現有內容](migrate-content.md)
+**上層主題：**[&#x200B;移轉現有內容](migrate-content.md)

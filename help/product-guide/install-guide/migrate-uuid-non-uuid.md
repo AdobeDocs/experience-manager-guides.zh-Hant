@@ -5,7 +5,8 @@ exl-id: f8b723bf-84c0-4fe6-936e-63970fb3e417
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 56f1bd81e74ad9b479b2dcbcf04e1ee82e9a9041
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -56,7 +57,7 @@ ht-degree: 0%
 
 如需移轉內容的詳細步驟，請參閱下列文章：
 
-- [從&#x200B;**4.3.1非UUID移轉至4.3.2 UUID內容**](./migrate-non-uuid-4-3.md)
+- [從**4.3.1非UUID移轉至4.3.2 UUID內容**](./migrate-non-uuid-4-3.md)
 - [**4.6.0 Service Pack 4 （非UUID）至4.6.1 UUID內容移轉**](./migrate-non-uuid-uuid-4-6.md)
 
 

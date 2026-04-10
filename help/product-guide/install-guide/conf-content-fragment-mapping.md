@@ -5,7 +5,8 @@ exl-id: 21446bcb-e7df-4823-acc3-1fdc7473f0d1
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -94,4 +95,4 @@ AEM Guides提供在主題與內容片段模型之間建立JSON型對應的功能
 ]
 ```
 
-您可以使用預設對應來發佈整個主題。 從&#x200B;**Publish作為內容片段**&#x200B;對話方塊的下拉式清單中選取`Full Topic`對應，並在內容片段模型中具有「topicData」欄位。
+您可以使用預設對應來發佈整個主題。 從`Full Topic`發佈為內容片段&#x200B;**對話方塊的下拉式清單中選取**&#x200B;對應，並在內容片段模型中具有「topicData」欄位。

@@ -5,7 +5,8 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 從舊版UI移轉至新AEM Guides UI (適用於2502和5.0版的AEM Guides)時，`ui_config`的更新必須轉換為更靈活且模組化的UI設定。 此框架可協助您順暢地採用對editor_toolbar和其他目標Widget的變更（如適用）。 如需詳細資訊，請檢視[轉換UI組態](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)的總覽。
+> 從舊版UI移轉至新AEM Guides UI （適用於2502和5.0版的AEM Guides）時，`ui_config`的更新必須轉換為更靈活且模組化的UI設定。 此框架可協助您順暢地採用對editor_toolbar和其他目標Widget的變更（如適用）。 如需詳細資訊，請檢視[轉換UI組態](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)的總覽。
 
 自訂網頁編輯器的工具列有兩種方式：
 
@@ -45,15 +46,15 @@ ht-degree: 0%
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. 導覽至`apps`節點中的`ui_config.json`檔案，並開啟該檔案以進行編輯。
+1. 導覽至`ui_config.json`節點中的`apps`檔案，並開啟該檔案以進行編輯。
 
 1. 在`ui_config.json`檔案中，在工具列區段中新增新功能的定義。 通常，您可以建立新的工具列按鈕群組，並在其中新增一或多個工具列按鈕。 或者，您可以在現有的工具列群組中新增工具列按鈕。 建立新的工具列群組需要下列詳細資料：
 
-   - **type：**&#x200B;指定`blockGroup`為`type`值。 此值表示您正在建立包含一或多個工具列群組的區塊群組。
+   - **type：**指定`blockGroup`為`type`值。 此值表示您正在建立包含一或多個工具列群組的區塊群組。
 
    - **解壓縮類別：**&#x200B;以空格分隔的類別名稱。
 
-   - **專案：**&#x200B;指定工具列中所有群組的定義。 每個群組可以包含一或多個工具列圖示。 若要定義工具列群組中的圖示，您必須在`items`中重新定義`type`屬性，並將其值設為`buttonGroup`。 在`extraclass`屬性中指定一或多個類別名稱。 在`label`屬性中指定功能名稱。 `ui_config.json`檔案中的下列程式碼片段顯示主要工具列區塊的定義，後面接著`buttonGroup`定義：
+   - **專案：**&#x200B;指定工具列中所有群組的定義。 每個群組可以包含一或多個工具列圖示。 若要定義工具列群組中的圖示，您必須在`type`中重新定義`items`屬性，並將其值設為`buttonGroup`。 在`extraclass`屬性中指定一或多個類別名稱。 在`label`屬性中指定功能名稱。 `ui_config.json`檔案中的下列程式碼片段顯示主要工具列區塊的定義，後面接著`buttonGroup`定義：
 
      ```json
      "toolbar": {    
@@ -87,7 +88,7 @@ ht-degree: 0%
 
    - **顯示或隱藏：**&#x200B;如果您正在定義`show`屬性，請指定圖示的顯示模式。 可能的值為 — `@isAuthorMode`、`@isSourceMode`、`@isPreviewMode`、`true` \（在所有模式中顯示\）或`false` \（在所有模式中隱藏\）。
 
-   您也可以定義`hide`屬性，以取代`show`。 可能的值與`show`屬性中的值相同，唯一差異在於指定的模式不會顯示圖示。
+   您也可以定義`show`屬性，以取代`hide`。 可能的值與`show`屬性中的值相同，唯一差異在於指定的模式不會顯示圖示。
 
 1. 建立&#x200B;*clientlib*&#x200B;資料夾，並將您的JavaScript新增至此資料夾。
 
@@ -222,14 +223,14 @@ ht-degree: 0%
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. 導覽至`apps`節點中的`ui_config.json`檔案，並開啟該檔案以進行編輯。
+1. 導覽至`ui_config.json`節點中的`apps`檔案，並開啟該檔案以進行編輯。
 `ui_config.json`檔案有三個區段：
 
 - **工具列：**   本節包含編輯器工具列中所有可用功能的定義，例如「插入/移除編號清單」、「\(file\)關閉」、「儲存」、「註解」等。
 
 - **捷徑：**   本節包含指定給編輯器中特定功能的鍵盤快速鍵定義。
 
-- **範本：**   本節包含您可在檔案中使用的DITA元素的預先定義結構。 依照預設，「範本」區段包含段落、簡單表格、表格和正文元素的範本定義。 您可以為想要的元素新增有效的XML結構，以建立任何元素的範本定義。 例如，如果您想要新增包含清單中每個新`li`元素的`p`元素，您可以在範本區段的結尾新增下列程式碼，以達成此目的：
+- **範本：**   本節包含您可在檔案中使用的DITA元素的預先定義結構。 依照預設，「範本」區段包含段落、簡單表格、表格和正文元素的範本定義。 您可以為想要的元素新增有效的XML結構，以建立任何元素的範本定義。 例如，如果您想要新增包含清單中每個新`p`元素的`li`元素，您可以在範本區段的結尾新增下列程式碼，以達成此目的：
 
 ```HTML
 "li": "<li><p></p></li>"
@@ -240,4 +241,4 @@ ht-degree: 0%
 1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入網頁編輯器。
 
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

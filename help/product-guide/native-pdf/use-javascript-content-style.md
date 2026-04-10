@@ -1,11 +1,12 @@
 ---
-title: 原生PDFPublish功能 | 使用JavaScript來處理內容或樣式
+title: 原生PDF發佈功能|使用JavaScript處理內容或樣式
 description: 瞭解如何建立使用樣式表及內容的樣式。
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -14,8 +15,8 @@ ht-degree: 0%
 
 # 使用JavaScript來處理內容或樣式
 
-原生PDF發佈功能可讓您在產生最終PDF之前，執行JavaScript以操控內容上套用的內容或樣式。 此功能可讓您完全控制最終輸出的產生方式。 例如，您可能想要將法律宣告資訊新增至位於其他PDF中的PDF輸出。 使用JavaScript時，您可以在為基本內容建立PDF後，但在產生最終PDF之前，新增法律宣告資訊。\
-為了支援JavaScript執行，「原生PDF發佈」功能提供下列回呼功能：
+原生PDF發佈功能可讓您執行JavaScript，在產生最終PDF之前，操控套用至內容的內容或樣式。 此功能可讓您完全控制最終輸出的產生方式。 例如，您可能想要將法律宣告資訊新增至位在其他PDF中的PDF輸出。 使用JavaScript時，您可以在針對基本內容建立PDF後，但在產生最終PDF之前，新增法律宣告資訊。\
+為了支援JavaScript執行，原生PDF發佈功能提供下列回呼功能：
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`：此回呼函式在產生TOC之前執行。
 * `window.pdfLayout.onBeforePagination(callback)`：此回呼函式會在目錄產生之後、但在PDF中新增分頁符號之前執行。
@@ -65,7 +66,7 @@ window.addEventListener('DOMContentLoaded', function () {
 >
 >必須先呼叫`window.addEventListener('DOMContentLoaded', function ()`函式，才能使用回呼函式。
 
-接下來，必須從用來產生PDF輸出的範本檔案呼叫此指令碼。 例如，我們會將其新增到目錄範本中。 請確定`<script>`標籤已新增至`<body>`標籤內的預先定義`<div>`標籤內。 如果您將其新增至`<head>`標籤中或`<body>`標籤之外，指令碼將不會執行。
+接下來，必須從用來產生PDF輸出的範本檔案呼叫此指令碼。 例如，我們會將其新增到目錄範本中。 請確定`<script>`標籤已新增至`<div>`標籤內的預先定義`<body>`標籤內。 如果您將其新增至`<head>`標籤中或`<body>`標籤之外，指令碼將不會執行。
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
@@ -76,7 +77,7 @@ window.addEventListener('DOMContentLoaded', function () {
 ## 在草稿檔案的PDF輸出中新增浮水印 {#watermark-draft-document}
 
 您也可以使用JavaScript來新增條件式浮水印。 當定義的條件符合時，這些浮水印就會新增到檔案中。\
-例如，您可以使用以下程式碼建立JavaScript檔案，為尚未核准的檔案的PDF輸出建立浮水印。 如果您在「已核准」檔案狀態中產生檔案的PDF，此浮水印就不會出現。
+例如，您可以建立含有下列程式碼的JavaScript檔案，對尚未核准的檔案之PDF輸出建立浮水印。 如果您在「已核准」檔案狀態下產生檔案的PDF，此浮水印就不會出現。
 
 ```css
 ...

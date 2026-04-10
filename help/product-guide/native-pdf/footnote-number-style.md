@@ -1,11 +1,12 @@
 ---
-title: 原生PDFPublish功能 | 在註腳中使用自訂樣式
+title: 原生PDF發佈功能|在註腳中使用自訂樣式
 description: 瞭解如何在註腳中的數字上套用樣式。
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 ## 變更註腳呼叫和標籤的樣式
 
-您可以變更註腳呼叫和標籤的樣式，並管理它們在PDF輸出中的外觀。 這些樣式可協助您快速識別檔案中的註腳。
+您可以變更註腳呼叫和標籤的樣式，並在PDF輸出中管理其外觀。 這些樣式可協助您快速識別檔案中的註腳。
 
 
 **範例1**：
@@ -80,7 +81,7 @@ content: "(" counter(footnote, decimal) ")";
 
 ```css
 .fn[id]::footnote-call {
-		display: none;
+        display: none;
                         }
 ```
 
@@ -91,22 +92,22 @@ content: "(" counter(footnote, decimal) ")";
 
 ### 頁面配置
 
-您可以使用頁面配置圖中的頁面屬性，來設定PDF檔案中不同區段的註腳區域樣式。 例如，您可以指定章節中註腳區域的邊界和邊框間距屬性。 您也可以變更邊框側、樣式、顏色、寬度和半徑。
+您可以使用頁面配置的頁面屬性，在PDF檔案的不同區段中設定註腳區域的樣式。 例如，您可以指定章節中註腳區域的邊界和邊框間距屬性。 您也可以變更邊框側、樣式、顏色、寬度和半徑。
 
 瞭解如何[使用頁面配置](./design-page-layout.md#page-props-page-layout)的頁面屬性。
 
 ### CSS樣式
 
-您可以在PDF檔案中套用樣式並設定註腳區域格式。 例如，您可以變更邊框長度、樣式、顏色和寬度。
+您可以在PDF檔案中套用樣式並格式化註腳區域。 例如，您可以變更邊框長度、樣式、顏色和寬度。
 
 ```css
-	@page {
-	  @footnote {
-   		border-top-style: solid;
-   		border-top-color: #FF0000;
-   		border-top-width: 3px;
- 		        }
-	      }
+   @page {
+     @footnote {
+           border-top-style: solid;
+           border-top-color: #FF0000;
+           border-top-width: 3px;
+                 }
+         }
 ```
 
 ## 重新開始註腳的編號
@@ -120,7 +121,7 @@ content: "(" counter(footnote, decimal) ")";
 
 ### CSS樣式
 
-使用下列樣式重設PDF輸出每一頁的註腳編號：
+使用以下樣式重設PDF輸出每一頁的註腳編號：
 
 ```css
 @page
@@ -137,7 +138,7 @@ counter-reset: footnote
 
 ```css
 .fn{
-  	display: inline;
+      display: inline;
               }
 ```
 
@@ -145,7 +146,7 @@ counter-reset: footnote
 
 您也可以互動參照註腳，並在PDF輸出中多次參照相同的註腳。 這有助於您在檔案中多次參照同一引文或詳細附註，而不會再次建立註腳。
 
-例如，下列熒幕擷圖顯示相同註腳在PDF輸出中如何互動參照至所有城市。
+例如，下列熒幕擷圖顯示同一個註腳在PDF輸出中如何交叉參照至所有城市。
 <img width="550" alt="pdf中的註腳參照" src="./assets/link-footnotes.png" border="2px">
 
 *插入註腳的互動參照。*
@@ -158,8 +159,8 @@ counter-reset: footnote
 
 ```css
     .xref-fn{
-	background-color: red;
-	}
+    background-color: red;
+    }
 ```
 
 

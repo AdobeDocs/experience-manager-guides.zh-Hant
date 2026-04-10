@@ -5,7 +5,8 @@ exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 執行以下步驟來解除安裝AEM Guides：
 
-1. 登入您的AEM執行個體並導覽至CRX封裝管理員。 存取封裝管理器的預設URL為：
+1. 登入您的AEM執行個體，並導覽至CRX封裝管理員。 存取封裝管理器的預設URL為：
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
@@ -49,4 +50,4 @@ ht-degree: 0%
 1. 按一下&#x200B;**讓快取失效**。
 1. 清除瀏覽器的快取。
 
-**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)

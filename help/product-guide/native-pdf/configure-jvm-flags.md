@@ -1,20 +1,20 @@
 ---
-title: 原生PDF | 為原生PDF發佈設定JVM標幟
+title: 原生PDF |為原生PDF發佈設定JVM標幟
 description: 為原生PDF發佈設定JVM標幟
-exl-id: d5432913-4b5a-48e7-9467-7f6c6e0adbe4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
 
-# 為原生PDF發佈設定JVM標幟
+# 為內部部署的原生PDF發佈設定JVM標幟
 
-原生PDF發佈會啟動單獨的JVM流程來產生PDF。 您可能需要調整此JVM的設定，以支援不同情境。 例如，若要執行較大的工作負載，您應該增加衍生的JVM程式可用的棧積大小上限。
+原生PDF發佈會啟動個別的JVM程式，以產生PDF。 您可能需要調整此JVM的設定，以支援不同情境。 例如，若要執行較大的工作負載，您應該增加衍生的JVM程式可用的棧積大小上限。
 
 執行以下步驟來設定AEM Guides原生PDF發佈JVM標幟：
 
@@ -28,8 +28,8 @@ ht-degree: 1%
 
 1. 搜尋並選取&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;套件。
 
-1. 更新原生pdf **(*native.pdf.java.opts*)的屬性** Java命令列選項，以傳遞任何標準JVM標幟。
+1. 更新原生pdf **(** native.pdf.java.opts *)的屬性* Java命令列選項，以傳遞任何標準JVM標幟。
 
 
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。

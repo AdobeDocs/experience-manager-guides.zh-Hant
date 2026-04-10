@@ -5,7 +5,8 @@ exl-id: 5c25efc1-0976-4554-a186-2ffd5e62f500
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
@@ -58,4 +59,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

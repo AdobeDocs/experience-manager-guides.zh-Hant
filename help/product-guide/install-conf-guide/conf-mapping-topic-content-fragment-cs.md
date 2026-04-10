@@ -1,0 +1,102 @@
+---
+title: 設定主題與內容片段模型之間的JSON型對應。
+description: 瞭解如何設定主題與內容片段模型之間的JSON型對應。
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 0%
+
+---
+
+# 為Cloud Service建立主題與內容片段之間的對應
+
+Adobe Experience Manager Guides可讓您在主題與內容片段模型之間建立JSON型對應。 您可以使用JSON型對應，將主題內部分或所有元素中存在的內容發佈至內容片段。
+
+>[!NOTE]
+> 
+> 如果您使用4.6或更新版本，則不需要建立此對應，您可以將主題元素拖曳至內容片段模式中顯示的欄位。
+> 深入瞭解如何[發佈內容片段](../user-guide/publish-content-fragment.md)。
+
+
+1. 若要下載&#x200B;*contentFragmentMapping.json*，請以管理員身分登入Adobe Experience Manager。
+1. 選取頂端的Adobe Experience Manager連結，然後選擇&#x200B;**工具**。
+1. 從工具清單中選取[參考線]，然後選取&#x200B;**資料夾設定檔**。
+1. 選取&#x200B;**全域設定檔**&#x200B;拼貼。
+1. 選取&#x200B;**XML編輯器設定**&#x200B;索引標籤，並選取頂端的&#x200B;**編輯**&#x200B;圖示。
+1. 選取「**下載**」圖示，在本機系統上下載&#x200B;*contentFragmentMapping.json*&#x200B;檔案。 您可以接著對檔案進行變更，然後上傳相同的檔案。
+
+1. 您需要遵循下列驗證：
+
+   1. 應該是JSON檔案
+   2. 其中應包含至少包含一個物件的陣列，且每個物件應包含下列專案：
+
+
+      `"name": string `
+
+      `"mapping": array`
+
+      每個對應物件都必須包含下列專案：
+
+      `"modelField": string`
+
+      `"xpath": string`
+
+      `"outputType": string`
+1. 儲存檔案並上傳。
+
+範例檔案：
+
+```
+[
+  {
+    "mapping": [
+      {
+        "modelField": "title",
+        "xpath": "/topic[1]/title[1]",
+        "outputType": "textContent"
+      },
+      {
+        "modelField": "shortdesc",
+        "xpath": "/topic[1]/shortdesc[1]",
+        "outputType": "textContent"
+      },
+      {
+        "modelField": "topicData",
+        "xpath": "/topic[1]/body[1]",
+        "outputType": "outerHTML"
+      }
+    ],
+    "name": "Full Topic"
+  },
+  {
+    "mapping": [
+      {
+        "modelField": "title",
+        "xpath": "/topic[1]/title[1]",
+        "outputType": "textContent"
+      },
+      {
+        "modelField": "shortdesc",
+        "xpath": "/topic[1]/shortdesc[1]",
+        "outputType": "textContent"
+      },
+      {
+        "modelField": "heroImage",
+        "xpath": "/topic[1]/body[1]/p[1]/image[1]",
+        "outputType": "outerHTML"
+      },
+      {
+        "modelField": "dataTable",
+        "xpath": "/topic[1]/body[1]/table[1]",
+        "outputType": "outerHTML"
+      }
+    ],
+    "name": "Sample Example with XPath"
+  }
+]
+```
+
+您可以使用預設對應來發佈整個主題。 從下拉式清單`Full Topic`產生內容片段&#x200B;**對話方塊中選取**&#x200B;對應，並在內容片段模型中具有「topicData」欄位。

@@ -4,7 +4,9 @@ description: 瞭解如何設定On-Premise服務的Dita資產復寫
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 356ea6edd5e688fb1f77e737c705ed0bd4d2e7f0
+exl-id: 49fd9dfe-e1a5-4388-abbd-ec5d45669b45
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 2%

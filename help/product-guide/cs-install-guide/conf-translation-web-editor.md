@@ -5,7 +5,8 @@ exl-id: e25473c3-9a84-4658-87c9-6fd72bcaa2b6
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -48,4 +49,4 @@ ht-degree: 0%
 
 請注意，**管理**&#x200B;篩選器已無法使用。
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

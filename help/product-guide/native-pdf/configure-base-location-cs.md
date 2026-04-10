@@ -1,10 +1,12 @@
 ---
-title: 原生PDF | 設定用於發佈雲端服務PDF的基本輸出位置
+title: 原生PDF |設定用於發佈雲端服務PDF的基本輸出位置
 description: 設定用於發佈雲端服務PDF的基本輸出位置
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ab6f1f09de2ef758d7f05ba0a49194ac9f387dea
+exl-id: d79085d6-938a-4e80-84a2-03562e6b76e0
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 2%

@@ -3,7 +3,9 @@ title: 適用於內部部署的Experience Manager Guides中的編輯器設定
 description: 瞭解適用於On-premise的Experience Manager Guides編輯器介面中可用的各種設定
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: a7a9c23f752082115aacd0884193c3aec2d45ba5
+exl-id: c6767c75-0b53-4bde-9c7f-7ae1cd9b5076
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 0%
@@ -21,6 +23,3 @@ ht-degree: 0%
 
 
 若要瞭解可用的組態選項，請檢視[設定Workspace設定](../cs-install-guide/workspace-settings.md)。
-
-
-

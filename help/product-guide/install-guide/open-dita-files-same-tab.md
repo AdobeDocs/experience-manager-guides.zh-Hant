@@ -5,7 +5,8 @@ exl-id: 81ad2e18-3ea7-4cc1-8387-d703d1038a18
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 1. 選取&#x200B;**在相同索引標籤**&#x200B;中開啟DITA主題/地圖選項。
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 
 此設定會影響您存取主題或對應檔案的下列位置：
@@ -44,4 +45,4 @@ ht-degree: 0%
 - DITA map主控台中的「報表」索引標籤
 
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

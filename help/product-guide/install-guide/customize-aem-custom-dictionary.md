@@ -1,18 +1,19 @@
 ---
-title: 自訂AEM預設字典
-description: 瞭解如何自訂AEM預設字典
+title: 自訂AEM的預設字典
+description: 瞭解如何自訂AEM的預設字典
 exl-id: 8bfd3ea7-0be8-4e7a-b389-5face043200b
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 2%
 
 ---
 
-# 自訂AEM預設字典 {#id209SD8000WU}
+# 自訂AEM的預設字典 {#id209SD8000WU}
 
 網頁編輯器可設定為使用AEM的拼字檢查程式或瀏覽器的拼字檢查程式。 如果您選擇使用AEM的拼字檢查程式，您就可以彈性定義自訂字詞清單。 這些自訂字詞接著會新增至AEM的字典中，且這些字詞在網頁編輯器中不會標籤為\（不正確\）。
 
@@ -37,4 +38,4 @@ ht-degree: 2%
 
 作者需要重新啟動網頁編輯器工作階段，才能在AEM字典中更新自訂字詞清單。
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

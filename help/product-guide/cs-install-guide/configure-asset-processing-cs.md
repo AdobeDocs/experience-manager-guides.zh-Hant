@@ -4,7 +4,9 @@ description: 瞭解如何設定雲端服務的資產處理
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 5b29b2b5f725b5d9a2029fb232e62f387a5338fd
+exl-id: 219a096f-4087-489f-9b3b-104864817198
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 3%

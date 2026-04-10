@@ -3,15 +3,15 @@ title: 在網頁編輯器工具列中設定其他特殊字元
 description: 瞭解如何在AEM Guides的網頁編輯器中設定其他特殊字元。
 feature: Web Editor
 role: User
-exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# 如何在網頁編輯器工具列中設定其他特殊字元
+# 如何在內部部署的網頁編輯器工具列中設定其他特殊字元
 
 網頁編輯器工具列中有一個捷徑選項，可讓作者插入特殊字元。
 以下熒幕擷圖亦顯示相同內容：
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 + 登入AEM並開啟CRXDE Lite模式。
 
-+ 在下列位置建立symbols.json檔案： &#39;/apps/fmdita/xmleditor/&#39; (您可以從 — &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;位置複製預設值)
++ 在下列位置建立symbols.json檔案： &#39;/apps/fmdita/xmleditor/&#39; （您可以從 — &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;位置複製預設值）
 
 + 在symbols.json檔案中新增特殊字元定義，如下所示：
 

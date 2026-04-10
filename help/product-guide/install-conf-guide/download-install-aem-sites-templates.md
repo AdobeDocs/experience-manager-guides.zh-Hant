@@ -1,0 +1,181 @@
+---
+title: 下載並安裝雲端服務的AEM Sites範本
+description: 瞭解如何下載並安裝雲端服務的AEM Sites範本
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 0%
+
+---
+
+# 下載並安裝AEM Sites範本
+
+本指南提供逐步指示，說明如何設定並設定最新的AEM Guides範本，以在雲端環境中產生AEM Sites頁面。 請依照下列步驟安裝所需的套件、建立和設定預設集，以及產生AEM Sites。
+
+## 先決條件
+
+下列標籤會根據您的Experience Manager Guides設定提供必要必要條件：Cloud Service或內部部署。
+
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
+
+- **Adobe Experience Manager (AEM) Cloud**： **AEM as a Cloud Service**&#x200B;的執行中執行個體具有&#x200B;**AEM Guides 2502或更新版本**。
+
+- **必要的許可權**：您必須擁有下列許可權：
+
+   - 存取&#x200B;**Cloud Manager**&#x200B;以部署套件。
+   - 存取與您的環境相關聯的&#x200B;**Git存放庫**。
+   - 在AEM Guides中建立和修改預設集的許可權。
+
+- **下載套件**：從軟體發佈入口網站下載下列套件：
+
+   - 元件套件： guides-components.all-1.x.0.zip
+   - 網站範本： aemg-docs-1.x.0.zip
+
+>[!TAB 內部部署]
+
+- **Adobe Experience Manager (AEM)：**&#x200B;已安裝&#x200B;**Service Pack** 21、20和19及&#x200B;**AEM 4.6.0**&#x200B;或更新版本的&#x200B;**AEM Guides 6.5**&#x200B;的執行中執行個體。
+
+- **必要的許可權**：請確定擁有下列許可權：
+
+   - 存取&#x200B;**軟體發佈入口網站**&#x200B;以下載必要的封裝
+   - 存取&#x200B;**CRX封裝管理員**&#x200B;以在AEM中安裝封裝。
+   - 在AEM Guides中建立和修改預設集的許可權。
+
+- **下載封裝**：從&#x200B;**軟體發佈入口網站**&#x200B;下載下列封裝：
+
+   - 元件套件： on-prem-guides-components.all-1.x.0.zip
+   - Sites套件： aemg-docs.all-1.x.0.zip
+
+>[!ENDTABS]
+
+
+## 套件安裝
+
+下列標籤會根據您的Experience Manager Guides設定，提供套件安裝的指示： Cloud Service或內部部署。
+
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
+
+安裝&#x200B;**元件套件(guides-components.all-1.x.x.zip)**&#x200B;並執行下列步驟
+
+1. **複製Git存放庫：**
+   1. 導覽至Cloud Manager左側面板中的&#x200B;**存放庫**。
+   2. 選取&#x200B;**存取存放庫資訊**&#x200B;並複製Git Clone命令。
+
+      ![選取存取存放庫資訊](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+
+   3. 使用提供的使用者名稱和密碼將存放庫複製到本機系統（必要時產生密碼）。
+2. **將套件新增至Maven套件組合：**
+   1. 在您的本機複製存放庫中，建立新的Maven套件組合或新增到現有的套件組合中。
+   2. 請確定Maven專案中存在結構`/jcr_root/apps/fmdita/`安裝。
+
+      ![Maven專案中的結構](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+
+
+   3. 將下載的guides-components.all-1.x.x.zip檔案放入安裝資料夾中。
+
+3. **更新篩選器.xml：**
+
+   1. 開啟位於上層內容目錄META-INF資料夾中的filters.xml檔案。
+   2. 新增下列篩選器：篩選器根=`/apps/fmdita` mode=`merge`/
+
+
+      ![新增篩選器](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+
+
+4. **設定pom.xml：**&#x200B;根據您的環境需求更新pom.xml檔案。
+5. **推送變更並執行管道：**
+   1. 將變更推送至主要Git存放庫。
+   2. 導覽至Cloud Manager中的&#x200B;**管道**，然後針對所需的環境執行管道。
+6. **確認安裝：**&#x200B;部署完成後，元件套件將會安裝在AEM Cloud環境中。
+
+>[!TAB 內部部署]
+
+1. **安裝元件封裝：**
+   1. 瀏覽至&#x200B;[**CRX封裝管理員**](http://<your-aem-instance>/crx/packmgr)。
+   2. 上傳並安裝on-prem-guides-components.all-1.x.0.zip套件。
+
+2. **安裝Sites封裝：**&#x200B;使用CRX封裝管理員上傳並安裝aemg-docs.all-1.x.0.zip封裝。
+
+>[!ENDTABS]
+
+## 使用已安裝的範本建立網站（適用於Cloud Service）
+
+1. **匯入網站範本：**
+   1. 前往AEM Sites頁面(servername/sites.html/content)。
+   2. 從範本中選取&#x200B;**建立** > **網站**。
+   3. 使用&#x200B;**匯入**&#x200B;選項匯入網站範本aemg-docs-1.x.x.zip。
+2. **選取範本：**&#x200B;選取&#x200B;**AEMG Docs 1.x.x**，然後選取&#x200B;**下一步**。
+3. **輸入網站詳細資料：**&#x200B;輸入&#x200B;**網站標題**&#x200B;和&#x200B;**網站名稱**。
+
+   ![建立網站](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+
+4. 選取「**建立**」。
+
+## 建立AEM網站預設集
+
+1. **建立新的預設集：**
+   1. 在AEM Guides中開啟DITA map並導覽至&#x200B;**輸出**&#x200B;面板。
+   2. 選取&#x200B;**建立預設集**。
+   3. 選取型別為&#x200B;**AEM Sites**。
+   4. 輸入預設集名稱。
+   5. 取消勾選&#x200B;**使用舊版元件對應**&#x200B;設定。
+   6. 選取&#x200B;**新增**&#x200B;以建立預設集。
+
+      ![建立新的AEM網站預設集](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+
+
+2. **設定AEM網站預設集：**&#x200B;有兩個選項可設定現成可用的網站(OOTB)：
+
+   **選項1：使用網站下拉式清單**
+
+   1. 選取&#x200B;**網站**&#x200B;作為上面建立的網站（例如AEMG檔案網站）。
+   2. 驗證&#x200B;**發佈路徑**&#x200B;和&#x200B;**主題頁面**&#x200B;範本是否自動設定為：
+      - 發佈路徑： Cloud Service： `/content/AEMG-Docs-Site/en/docs/product`以及內部部署： `aemg-docs/en/docs/product1`
+      - 主題頁面範本：主題頁面
+
+      ![使用網站下拉式清單來設定AEM網站](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+
+   **選項2：使用網站路徑**
+
+   1. 手動將&#x200B;**網站路徑**&#x200B;設為Cloud Service的`/content/AEMG-Docs-Site/en/docs/product`和內部部署的`/content/aemg-docs/en/docs/product1`。
+   2. 確認&#x200B;**主題頁面**&#x200B;範本已自動設定為主題頁面。
+
+      若為Cloud Service：
+
+      ![使用網站路徑設定AEM網站](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+
+      針對內部部署：
+
+      ![使用網站路徑](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+
+3. **儲存預設集：**&#x200B;儲存對預設集所做的變更。
+
+## 產生AEM Sites
+
+1. **產生網站：**
+   1. 設定預設集後，為對應的DITA map產生AEM網站。
+   2. 產生的網站將可在以下路徑使用： `/content/AEMG-Docs-Site/en/docs/product` （適用於Cloud Service）和`/content/aemg-docs/en/docs/product1` （適用於On-Premise）。
+2. **變更預設產生路徑（選用）：**&#x200B;若要變更網站產生的預設路徑，請執行下列步驟：
+   1. 導覽至&#x200B;**AEM Sites**。
+   2. 在OOTB網站結構下建立新產品頁面。
+   3. 導覽至&#x200B;**AEMG檔案** > **英文** > **檔案**。
+
+      ![建立頁面](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+
+   4. 選取&#x200B;**首頁**&#x200B;圖磚，然後選取&#x200B;**下一步**。
+
+      ![選取主圖磚](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+
+   5. 輸入頁面的&#x200B;**標題**&#x200B;和&#x200B;**名稱**。
+   6. 選取「**建立**」。
+
+>[!NOTE]
+>
+> 針對Cloud Service設定，請確保所有設定在部署到生產環境之前都在非生產環境中測試。 <br><br>如需詳細資訊，請參閱正式[部署至AEM as a Cloud Service檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。

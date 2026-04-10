@@ -1,28 +1,29 @@
 ---
-title: 設定Dispatcher
+title: 設定 Dispatcher
 description: 瞭解如何設定Dispatcher
 exl-id: 525de1c3-5a79-4d65-89b4-ca05ae660c2c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# 設定Dispatcher {#id213BCM0M05U}
+# 設定 Dispatcher {#id213BCM0M05U}
 
-如果您打算在AEM Author執行個體上搭配使用Dispatcher以及AEM Guides，則您需要執行下列額外設定以完成設定：
+如果您打算在AEM Author例項上搭配使用Dispatcher以及AEM Guides，則您需要執行下列額外設定以完成設定：
 
 >[!NOTE]
 >
-> Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。如需有關使用Dispatcher的詳細資訊，請參閱[Dispatcher概觀](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=zh-Hant)。
+> Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。如需有關使用Dispatcher的詳細資訊，請參閱[Dispatcher概觀](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en)。
 
 ## 在URL中啟用AllowEncodedSlases
 
-AEM Dispatcher設定中預設不會啟用具有編碼斜線的URL，但在AEM Guides中運作時，您需要啟用此設定。 為此，您需要在Apache設定中將AllowEncodedSlashes引數設定為On ，如下列程式碼片段所示：
+在AEM Dispatcher設定中，預設不會啟用具有編碼斜線的URL，但是當您在AEM Guides中工作時，需要啟用此設定。 為此，您需要在Apache設定中將AllowEncodedSlashes引數設定為On ，如下列程式碼片段所示：
 
 ```XML
 <VirtualHost *:80>
@@ -60,13 +61,13 @@ AEM Dispatcher設定中預設不會啟用具有編碼斜線的URL，但在AEM Gu
 1. 儲存並關閉檔案。
 
 
-此設定更新可確保Dispatcher轉譯的DITA map和主題檔案在Assets UI中顯示為HTML。
+此設定更新會確保Dispatcher轉譯的DITA map和主題檔案在Assets UI中顯示為HTML。
 
 ## 允許使用者偏好設定請求URL
 
 將Dispatcher與AEM Guides搭配使用時，如果您的編寫執行個體前端有Dispatcher，則進行下列兩項變更：
 
-- 將POST請求URL加入白名單。 以下提供&quot; `/filters`&quot;規則的範例 — 將此規則新增到Dispatcher設定檔案：
+- 將POST要求URL加入白名單。 以下提供&quot; `/filters`&quot;規則的範例 — 將此規則新增到Dispatcher設定檔案：
 
 ```json
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}
@@ -81,4 +82,4 @@ AEM Dispatcher設定中預設不會啟用具有編碼斜線的URL，但在AEM Gu
                 }
 ```
 
-**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)

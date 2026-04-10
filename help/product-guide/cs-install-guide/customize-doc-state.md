@@ -5,7 +5,8 @@ exl-id: ab155879-4472-464d-ab25-6075088d718b
 feature: Document State
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
@@ -70,7 +71,7 @@ AEM Guides隨附一組預設檔案狀態。 這些狀態包括：
      >
      > 如果檔案仍處於`From`狀態，請勿刪除狀態轉換。 如果您刪除狀態轉換，除非您屬於&#x200B;*管理員*&#x200B;使用者群組，否則您將無法變更此類檔案的檔案狀態。
 
-1. 按一下&#x200B;**「完成」**。
+1. 按一下&#x200B;**完成**。
 
 ## 建立檔案狀態設定檔的復本
 
@@ -131,7 +132,7 @@ AEM Guides隨附一組預設檔案狀態。 這些狀態包括：
 
 1. 選取相關工作流程，例如「檢閱主題」。
 
-1. 按一下&#x200B;**編輯**。
+1. 按一下「**編輯**」。
 
    工作流程會在新標籤中開啟。
 

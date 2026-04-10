@@ -1,0 +1,102 @@
+---
+title: 設定自訂DITA主題範本
+description: 瞭解如何設定自訂DITA主題範本
+feature: Template Configuration
+role: Admin
+level: Experienced
+source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 2%
+
+---
+
+# 設定自訂DITA主題範本 {#id16A7G0O02TD}
+
+AEM Guides隨附下列DITA主題範本：
+
+- 主題
+
+- 任務
+
+- 概念
+
+- 參照
+
+- 字彙表
+
+- 疑難排解
+
+- 空白
+
+
+您可以使用任何這些範本，根據您的編寫需求來建立主題範本。 「空白DITA」範本不包含其他範本的任何結構或元素。 如果您的範本是高度自訂的，且不是以任何一般DITA主題範本為基礎，則可以使用「空白」範本作為基礎。
+
+若要自訂DITA主題範本並用於撰寫，您必須執行下列三個主要工作：
+
+1. *\（選擇性\）* [設定自訂DITA範本資料夾路徑](#id191LCF0095Z)
+
+1. [建立自訂編寫範本](conf-profiles.md#id1917D0EG0HJ)
+
+1. 將自訂範本新增至全域或資料夾層級的設定檔，如[設定編寫範本](conf-profiles.md#id1889D0IL0Y4)區段中所述
+
+
+## 設定自訂DITA範本資料夾路徑 {#id191LCF0095Z}
+
+AEM Guides可讓您設定資料夾以儲存自訂的DITA map和範本。 依預設，範本檔案儲存在DAM的以下資料夾中：
+
+`/content/dam/dita-templates/`
+
+為了管理主題和對應範本檔案，有專用的資料夾來儲存主題和對應範本。 依預設，所有主題範本都儲存在`/content/dam/dita-templates/topics`下
+
+資料夾。 所有對應範本都儲存在`/content/dam/dita-templates/maps`資料夾下。
+
+作為管理員，您可以選擇在預設資料夾中建立自訂地圖或主題範本，或建立您自己的資料夾以儲存自訂範本。 如果您計畫使用預設資料夾，則可以略過此程式。
+
+下列標籤提供根據您的Experience Manager Guides設定來設定自訂DITA範本資料夾路徑的說明： Cloud Service或內部部署。
+
+
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
+
+使用[組態覆寫](download-install-config-override.md#)中提供的指示來建立組態檔。 在組態檔案中，提供下列\(property\)詳細資訊，以設定自訂DITA主題範本的資料夾：
+
+>[!IMPORTANT]
+>
+> 如果您想要使用預設資料夾來儲存自訂範本，可以略過此程式。
+
+| PID | 屬性索引鍵 | 屬性值 |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | 指定儲存自訂範本的位置。<br>如果指定的位置存在於DAM中，則所有預設地圖和主題範本都會複製到該資料夾中。 如果該位置不存在，則會使用所有預設地圖和主題範本建立該資料夾。 |
+
+>[!TAB 內部部署]
+
+若要為自訂DITA主題範本設定資料夾，請執行下列步驟：
+
+>[!IMPORTANT]
+>
+> 如果您想要使用預設資料夾來儲存自訂範本，可以略過此程式。
+
+1. 開啟Adobe Experience Manager Web主控台設定頁面。
+
+   存取設定頁面的預設URL為：
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. 搜尋並按一下&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;套件。
+
+1. 在&#x200B;**範本位置**&#x200B;屬性中，指定儲存自訂範本的位置。
+
+1. 按一下&#x200B;**儲存**。
+
+
+如果DAM中存在指定的位置，則所有預設地圖和主題範本都會複製到該資料夾中。 如果該位置不存在，則會使用所有預設地圖和主題範本建立該資料夾。
+
+
+>[!ENDTABS]
+
+
+**父級主題：**[&#x200B;設定主題與對應範本](conf-template-tags.md)

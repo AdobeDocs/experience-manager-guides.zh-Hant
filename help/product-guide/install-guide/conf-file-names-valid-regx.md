@@ -5,7 +5,8 @@ exl-id: 876dfc77-078f-4341-b99d-02a453d2e065
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -40,11 +41,11 @@ ht-degree: 0%
    >
    > 此屬性僅適用於檔案名稱，不適用於資料夾名稱。
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 
 >[!NOTE]
 >
-> 與有效的檔案名稱字元清單類似，您也可以為AEM Site輸出指定有效的檔案名稱字元清單。 如需詳細資訊，請參閱[設定AEM站台輸出的有效檔案名稱](conf-file-names-valid-regx-aem-site-output.md#)。
+> 與有效檔案名稱字元清單類似，您也可以為AEM Site輸出指定有效檔案名稱字元清單。 如需詳細資訊，請參閱[為AEM網站輸出設定有效的檔案名稱](conf-file-names-valid-regx-aem-site-output.md#)。
 
-**父級主題：**&#x200B;[&#x200B;設定檔名](conf-file-names.md)
+**父級主題：**[&#x200B;設定檔名](conf-file-names.md)

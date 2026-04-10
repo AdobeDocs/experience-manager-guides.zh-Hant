@@ -4,16 +4,18 @@ description: 瞭解如何為內部部署設定自訂索引內容
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8a9a82e79c757e403141e853aafbc64e1618c30a
+exl-id: 5b9e4936-f674-41d3-a7b2-3d42a2523693
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
 
 ---
 
-# 重新索引以尋找和取代(Source檢視)功能
+# 重新索引以尋找和取代（Source檢視）功能
 
-需要重新索引才能啟用&#x200B;**尋找和取代(Source檢視)**&#x200B;功能，此功能可讓您掃描在作者檢視中顯示的整個內容，以及搜尋字串的基礎Source內容（XML結構，包括元素、標籤和屬性值）。
+需要重新索引才能啟用&#x200B;**尋找和取代（Source檢視）**&#x200B;功能，此功能可讓您掃描在作者檢視中顯示的整個內容，以及搜尋字串的基礎Source內容（XML結構，包括元素、標籤和屬性值）。
 
 ## 重新索引
 

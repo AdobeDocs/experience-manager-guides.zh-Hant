@@ -5,7 +5,8 @@ exl-id: 23fe404c-c76d-43ba-9b28-c49ab1e524de
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%
@@ -32,7 +33,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**自動儲存間隔**&#x200B;欄位中，指定觸發自動儲存功能的時間間隔（秒）。
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

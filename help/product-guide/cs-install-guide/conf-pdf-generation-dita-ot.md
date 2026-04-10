@@ -1,11 +1,12 @@
 ---
 title: 設定單一主題PDF產生
-description: 瞭解如何設定單一主題PDF的產生
+description: 瞭解如何設定產生單一主題PDF
 exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 # 設定單一主題PDF產生 {#id22ADC70M0XA}
 
-透過AEM Guides，您可以產生個別主題的PDF或整個地圖檔案。 您可以使用原生PDF或DITA-OT方法，以PDF格式發佈主題。 使用原生PDF方法，根據W3C CSS3和CSS分頁媒體標準產生功能豐富的PDF輸出。 您可以使用DITA-OT方法，從地圖圖示板為地圖產生PDF輸出。
+透過AEM Guides，您可以產生個別主題的PDF或整個地圖檔案。 您可以使用原生PDF或DITA-OT方法，以PDF格式發佈主題。 使用原生PDF方法，根據W3C CSS3和CSS分頁媒體標準產生功能豐富的PDF輸出。 您可以使用DITA-OT方法，從地圖儀表板為地圖產生PDF輸出。
 
 >[!NOTE]
 >
 > 原生PDF是在目前版本的AEM Guides中產生PDF的預設方法。
 
-若要在主題預覽模式中透過DITA-OT啟用舊PDF產生，請執行下列步驟：
+若要在主題預覽模式中透過DITA-OT啟用舊版PDF產生，請執行以下步驟：
 
 1. 以管理員身分登入Adobe Experience Manager並下載UI設定檔。
 
@@ -57,6 +58,6 @@ ht-degree: 0%
 
 1. 儲存檔案並上傳。
 
-執行上述指定步驟後，如果您從「網頁編輯器」的「使用者偏好設定」中選擇相同的資料夾設定檔，您會在主題的預覽模式中看到產生PDF的選項。
+執行上述指定步驟後，如果您從「網頁編輯器」的「使用者偏好設定」中選擇相同的資料夾設定檔，您便會在主題的預覽模式中看到PDF產生的選項。
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

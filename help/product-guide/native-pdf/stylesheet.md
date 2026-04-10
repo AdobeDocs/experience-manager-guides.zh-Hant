@@ -1,11 +1,12 @@
 ---
-title: 原生PDF發佈功能 | 使用常見的內容樣式
+title: 原生PDF發佈功能|使用常見的內容樣式
 description: 瞭解如何建立使用樣式表及內容的樣式。
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 0%
@@ -81,7 +82,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**樣式**&#x200B;清單中，展開&#x200B;**標題樣式**。
 
-1. 從清單中選取&#x200B;**h1**&#x200B;樣式。
+1. 從清單中選取&#x200B;**h1**樣式。
 h1樣式的屬性會連同其「預覽」一起顯示在「屬性」面板中。
 
    >[!NOTE]

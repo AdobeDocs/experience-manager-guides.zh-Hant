@@ -5,7 +5,8 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -47,8 +48,8 @@ Adobe Experience Manager Guides提供在主題和體驗片段範本之間建立J
 1. 儲存檔案並上傳。
 
 Experience Manager Guides會將完整主題轉換為HTML，接著可以對應至體驗片段中使用的核心元件。 例如，`<p>`標籤中的內容可對應，以在體驗片段中建立文字元件。
-* `name`：指定HTML專案。 例如，`<div>`， `<img>`
-* `class`：指定與HTML專案相對應的DITA專案標籤。 例如，`<p>` `<image>`
+* `name`：指定HTML元素。 例如，`<div>`， `<img>`
+* `class`：指定與HTML元素相對應的DITA元素標籤。 例如，`<p>` `<image>`
 * `resourceType`：指定適用於體驗片段中所使用元件的資源型別。 例如，`wcm/foundation/components/text`是wcm `text`元件的resourceType。
 * `attributeMap`：為元件提供其他資訊，例如文字元件應該呈現為`RichText`或包含影像元件的`fileReference`。
 
@@ -157,6 +158,6 @@ Experience Manager Guides會將完整主題轉換為HTML，接著可以對應至
 
 
 
-從Web編輯器發佈體驗片段時，請從&#x200B;**產生體驗片段**&#x200B;對話方塊的下拉式清單中選取`Template`，以檢視&#x200B;**對應**&#x200B;欄位中範本可用的對應。 如果範本不存在自訂對應，則會列出預設對應。 您可以使用預設對應，將整個主題發佈為體驗片段。
+從Web編輯器發佈體驗片段時，請從`Template`產生體驗片段&#x200B;**對話方塊的下拉式清單中選取**，以檢視&#x200B;**對應**&#x200B;欄位中範本可用的對應。 如果範本不存在自訂對應，則會列出預設對應。 您可以使用預設對應，將整個主題發佈為體驗片段。
 
-如需詳細資訊，請檢視[Publish體驗片段](../user-guide/publish-experience-fragment.md)。
+如需詳細資訊，請檢視[發佈體驗片段](../user-guide/publish-experience-fragment.md)。

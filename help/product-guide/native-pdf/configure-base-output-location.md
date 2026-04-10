@@ -4,7 +4,9 @@ description: 設定基本輸出位置，以發佈內部部署服務的輸出
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ab6f1f09de2ef758d7f05ba0a49194ac9f387dea
+exl-id: ae1d805a-7b79-4b76-8be2-a19c5552530c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 1%
@@ -27,6 +29,4 @@ ht-degree: 1%
 
 1. 更新屬性&#x200B;**基本輸出位置**&#x200B;以指定AEM存放庫中的預設路徑，在發佈後會在此儲存PDF。 此外，如果輸入了無效的路徑，則會自動還原為預設路徑： /content/dam/fmdita-outputs。
 
-1. 按一下「**儲存**」。
-
-
+1. 按一下&#x200B;**儲存**。

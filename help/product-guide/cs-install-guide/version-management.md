@@ -5,9 +5,10 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
 >
 > 此設定僅適用於上傳檔案。
 
-若要啟用&#x200B;**為上傳的檔案建立新版本**&#x200B;選項，請執行下列步驟：
+下列標籤提供根據您的Experience Manager Guides設定啟用&#x200B;**為上傳的檔案建立新版本**&#x200B;選項的說明： Cloud Service或內部部署。
 
 1. 使用[組態覆寫](download-install-additional-config-override.md#)中提供的指示來建立組態檔。
 1. 在組態檔中，提供下列\(property\)詳細資訊，以設定&#x200B;**為上傳的檔案建立新版本**&#x200B;選項：
@@ -142,7 +143,7 @@ AEM Guides網頁編輯器可讓您建立和更新DITA主題。 您可以設定We
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **從最新版本保留的版本數目**：輸入應保留且未清除的版本數目。 例如，如果輸入5，則會保留最後5個版本，而之前的版本則符合其他清除條件時，可以清除該版本。
 - **保留時間跨度內建立的版本\（以天為單位\）**：輸入版本的最長期限（以天為單位）。 如果符合其他清除條件，則符合清除指定天數之前的版本。 例如，如果輸入100，則符合其他永久刪除條件時，所有在100天之前建立的版本都符合永久刪除的條件。
 - **路徑**：選取您要清除其檔案的檔案或資料夾路徑。

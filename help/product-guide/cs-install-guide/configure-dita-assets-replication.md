@@ -4,7 +4,9 @@ description: 瞭解如何為雲端服務設定Dita資產復寫
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 356ea6edd5e688fb1f77e737c705ed0bd4d2e7f0
+exl-id: 1eafc6b2-2b85-486a-bb2c-0038fae1fef9
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 3%

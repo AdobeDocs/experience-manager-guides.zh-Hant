@@ -5,7 +5,8 @@ exl-id: 6579812b-caa7-420f-a6e4-36fef7d63d34
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 2e52beedb5b3ce13acfae1ecba3b67e8de8e6614
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -36,7 +37,7 @@ AEM Guides隨附強大的網頁編輯器，可讓您的作者建立和編輯DITA
 
 - [自動產生專案ID](auto-generate-ids.md)
 
-- [自訂AEM預設字典](customize-aem-custom-dictionary.md)
+- [自訂AEM的預設字典](customize-aem-custom-dictionary.md)
 
 - [設定文字篩選器](config-text-filters.md)
 

@@ -5,7 +5,8 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 682d58df-7404-4e84-9b5f-ab40c46bef84
-source-git-commit: 1bffdade37658bd44128cac9226a349f828abd45
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 3%
@@ -220,5 +221,5 @@ guidesAssetLucene-1-custom-1
 
 - [AEM as a Cloud Service索引檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak Indexing指南](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides)
+- [AEM Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Cloud Manager 文件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
