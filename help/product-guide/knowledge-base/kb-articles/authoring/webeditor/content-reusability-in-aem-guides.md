@@ -167,4 +167,4 @@ AEM Guides提供「可重複使用的內容」功能，只需按一下即可新�
 <br>
 
 
-在AEM Guides社群[論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上發佈任何查詢。
+在AEM Guides社群[論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=zh-Hant)上發佈任何查詢。
