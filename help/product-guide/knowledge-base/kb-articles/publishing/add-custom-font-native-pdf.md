@@ -1,17 +1,18 @@
 ---
-title: 將自訂字型新增至您的DITAPDF
-description: 實現自訂字型整合，以強化原生DITAPDF中所有內容的品牌識別與視覺一致性。
+title: 新增自訂字型至您的DITA PDF
+description: 實現自訂字型整合，以強化原生DITA PDF中所有內容的品牌識別與視覺一致性。
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 518bec870dc07e88a422d889a1c54be26c248799
+exl-id: 151e3b1c-6340-4ff2-84d4-246bc4b68065
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# 新增自訂字型至您的DITA原生PDF
+# 新增自訂字型至您的DITA Native PDF
 
 ## 本文涵蓋：
 
@@ -32,13 +33,13 @@ ht-degree: 0%
 
 ![PDF範本的樣式表](../assets/publishing/custom-font2.png)中的字型
 
-## 步驟3 （選用） ：將使用的字型內嵌在PDF中
+## 步驟3 （選用） ：將使用的字型內嵌於PDF
 
-![內嵌至DITAPDF](../assets/publishing/custom-font3.png)的自訂字型
+![內嵌至DITA PDF ](../assets/publishing/custom-font3.png)的自訂字型
 
-## 常見問題集
+## 常見問題
 
-- ### 我可以使用Adobe Fonts嗎？
+### 我可以使用Adobe Fonts嗎？
 
 > 是，請前往fonts.adobe.com並按一下[新增至Web專案]。
 > 
@@ -46,16 +47,16 @@ ht-degree: 0%
 >
 > 將內容CSS貼上，並在CSS檔案中進行所需的變更。
 
-![在DITAPDF中使用Adobe字型](../assets/publishing/custom-font4.png)
+![在DITA PDF中使用Adobe字型](../assets/publishing/custom-font4.png)
 
 
-- ### 我的字型未以PDF顯示
+### 我的字型未顯示在PDF中
 
 > 仔細檢查字型名稱拼字（最常見的錯誤）
 >
-> 如果PDF開啟的系統無法使用字型，請確定您正在內嵌字型
+> 如果開啟PDF的系統無法使用字型，請確定您正在內嵌字型
 
-- ## 如需任何其他查詢，請聯絡您個別的CSM
+## 如需任何其他查詢，請聯絡您個別的CSM
 
 
 ## 其他資源：

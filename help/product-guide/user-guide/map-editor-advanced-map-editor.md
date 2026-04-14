@@ -4,7 +4,7 @@ description: 瞭解Adobe Experience Manager Guides中地圖編輯器的功能。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2671'
 ht-degree: 0%
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **插入在前/插入在後** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-顯示&#x200B;**在之前插入元素或**&#x200B;在之後插入元素」對話方塊。 選取您要插入對映中的元素。 視作業而定，新元素會插入到對映中目前元素之前或之後。
+顯示**在之前插入元素或**在之後插入元素」對話方塊。 選取您要插入對映中的元素。 視作業而定，新元素會插入到對映中目前元素之前或之後。
 
 **元素** - ![](images/Add_icon.svg)
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 
 
-<!-----------------------------------------------------------
+<!--
 
 **Relationship table** - ![](images/relationship_table_icon.svg)
 
@@ -211,7 +211,7 @@ If you want to delete a topic from your table, click the cross icon next to the 
 **Delete the relationship table**
 
 If you want to delete the relationship table, click anywhere outside the relationship table and click Delete. For details, view [Work with relationship tables in the Map Editor](map-editor-basic-map-editor.md).
------>
+-->
 
 **可重複使用的內容** - ![](images/reusable-content.svg)
 
@@ -280,10 +280,10 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 您可以使用兩種方式重新整理功能（在地圖的「預覽」模式中可用）：
 
-- **地圖層級重新整理**：選取&#x200B;**重新整理**&#x200B;按鈕會重新整理整個地圖的預覽（包括所有主題），並將您導向到第一個捲動位置以取得清晰的檢視。
+- **地圖層級重新整理**：選取&#x200B;**重新整理**按鈕會重新整理整個地圖的預覽（包括所有主題），並將您導向到第一個捲動位置以取得清晰的檢視。
   ![](images/refresh-map.png){width="650" align="left"}
 
-- **主題層級重新整理**：從內容功能表選取&#x200B;**重新整理主題**&#x200B;會重新整理該特定主題，同時保持捲動位置不變。
+- **主題層級重新整理**：從內容功能表選取&#x200B;**重新整理主題**會重新整理該特定主題，同時保持捲動位置不變。
   ![](images/refresh-topic.png){width="650" align="left"}
 
 **預覽地圖檔案的其他方式**

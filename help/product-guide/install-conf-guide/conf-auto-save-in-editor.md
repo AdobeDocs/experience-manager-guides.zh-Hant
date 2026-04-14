@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
-source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | 布林值\(true/false\)。<br> **預設值**： false |
-| `xmleditor.autosaveinterval` | 指定觸發自動儲存功能的時間間隔（秒）。 |
+| `xmleditor.autosaveinterval` | 指定觸發自動儲存功能的時間間隔（秒）。 |  |
 
 >[!TAB 內部部署]
 
