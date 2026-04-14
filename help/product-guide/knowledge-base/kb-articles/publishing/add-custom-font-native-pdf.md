@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 步驟3 （選用） ：將使用的字型內嵌於PDF
 
-![內嵌至DITA PDF ](../assets/publishing/custom-font3.png)的自訂字型
+![內嵌至DITA PDF &#x200B;](../assets/publishing/custom-font3.png)的自訂字型
 
 ## 常見問題
 
