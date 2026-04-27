@@ -4,14 +4,15 @@ description: 瞭解如何為AEM Guides自訂現有的AEM網站範本
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '944'
 ht-degree: 1%
 
 ---
 
-# 自訂現有的AEM網站範本
+# 自訂新的AEM網站範本
 
 本指南提供逐步指示，讓您自訂現有的AEM網站範本，以便與AEM Guides搭配使用，從DITA map和主題產生AEM Sites。
 
@@ -85,7 +86,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 確定在:resourceType下使用sling`wcm/foundation/components`的元件已移轉至對應的`core/wcm/components`。
+> 確定在`wcm/foundation/components`下使用sling:resourceType的元件已移轉至對應的`core/wcm/components`。
 
 在相同範本的結構中新增相同的（容器和文字元件）：
 
@@ -139,4 +140,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 請務必先在非生產環境中測試範本，然後再部署到生產環境。<br><br>如需詳細資訊，請參閱正式[AEM Guides](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/get-started/authoring)檔案。
+> 請務必先在非生產環境中測試範本，然後再部署到生產環境。<br><br>如需詳細資訊，請參閱正式[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring)檔案。
