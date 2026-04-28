@@ -5,19 +5,18 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 9%
+source-wordcount: '877'
+ht-degree: 8%
 
 ---
 
 # 翻譯內容 {#id181GB0400UI}
 
-自動翻譯頁面內容、資產和使用者產生的內容，以建立和維護多語言網站。 若要自動化翻譯工作流程，您可以將翻譯服務提供商與 AEM 相整合，並建立用於將內容翻譯成多種語言的專案。AEM 支援人工和機器翻譯工作流程。
+自動翻譯頁面內容、資產和使用者產生的內容，以建立和維護多語言網站。 若要自動化翻譯工作流程，您可以將翻譯服務提供商與 AEM 相整合，並建立用於將內容翻譯成多種語言的專案。 AEM 支援人工和機器翻譯工作流程。
 
-- 人工翻譯：內容會傳送給您的翻譯提供者，並由專業翻譯人員進行翻譯。 完成後，翻譯後的內容將傳回並匯入到 AEM 中。當您的翻譯提供者與AEM整合時，內容會自動在AEM和翻譯提供者之間交換
+- 人工翻譯：內容會傳送給您的翻譯提供者，並由專業翻譯人員進行翻譯。 完成後，翻譯後的內容將傳回並匯入到 AEM 中。 當您的翻譯提供者與AEM整合時，內容會自動在AEM和翻譯提供者之間交換
 
 - 機器翻譯：機器翻譯服務會立即翻譯您的內容
 
@@ -67,7 +66,7 @@ ht-degree: 9%
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布林值： <br> -   如果您使用人工翻譯，請&#x200B;*停用* \( `false`\) **元件式翻譯工作流程**&#x200B;選項。 <br> -   如果您正在使用機器翻譯，則&#x200B;*啟用\( `true`\)* **元件式翻譯工作流程**&#x200B;選項。 |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布林值： <br> — 如果您使用人工翻譯，則&#x200B;*停用* \( `false`\) **元件式翻譯工作流程**&#x200B;選項。<br> — 如果您正在使用機器翻譯，請&#x200B;*啟用\( `true`\)* **元件式翻譯工作流程**&#x200B;選項。 |
 
 
 
@@ -82,7 +81,7 @@ ht-degree: 9%
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布林值： <br> — 如果您使用最新的翻譯工作流程，則&#x200B;*停用* \( `false`\) **執行舊版翻譯工作流程**&#x200B;選項。  <br> -   如果您使用舊版翻譯，則&#x200B;*啟用\( `true`\)* **執行舊版翻譯工作流程**&#x200B;選項。<br> **預設值**： false |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布林值： <br> — 如果您使用最新的翻譯工作流程，則&#x200B;*停用* \( `false`\) **執行舊版翻譯工作流程**&#x200B;選項。 <br> — 如果您使用舊版翻譯，則&#x200B;*啟用\( `true`\)* **執行舊版翻譯工作流程**&#x200B;選項。<br> **預設值**： false |
 
 
 
@@ -103,5 +102,5 @@ ht-degree: 9%
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布林值： <br> -   如果您不想對暫存檔執行後續處理作業，請&#x200B;*停用* \( false\) **後續處理語言復本**&#x200B;選項。<br> -   如果要在暫存檔上執行後續處理作業，請&#x200B;*啟用* \( true\) **後續處理語言副本**&#x200B;選項。<br> **預設值**： false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布林值： <br> — 如果您不想對暫存檔案執行後續處理作業，則&#x200B;*停用* \( false\) **後續處理語言副本**&#x200B;選項。<br>  — 如果要在暫存檔上執行後續處理作業，請&#x200B;*啟用* \( true\) **後續處理語言副本**&#x200B;選項。<br> **預設值**： false |
 

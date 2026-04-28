@@ -5,10 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ ht-degree: 0%
 *建立變數並定義其值。*
 
 
-1. 在編輯器中，導覽至左側面板並選取&#x200B;**變數** <img alt= "變數圖示" src="./assets/variables-icon.svg" width="25">。「更多」區段提供此選項。
+1. 在編輯器中，導覽至左側面板並選取&#x200B;**變數** <img alt= "變數圖示" src="./assets/variables-icon.svg" width="25">. 「更多」區段提供此選項。
 1. 選取&#x200B;**編輯** <img alt= "編輯鉛筆圖示" src="./assets/edit_pencil_icon.svg" width="25">以開啟&#x200B;**變數**&#x200B;編輯器。
 變數會依字母順序列出。
 1. 在&#x200B;**Name**&#x200B;資料行中輸入變數名稱，並在&#x200B;**Value**&#x200B;資料行中輸入其值。

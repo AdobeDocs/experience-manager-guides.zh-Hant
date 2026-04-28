@@ -5,11 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '1034'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +41,7 @@ Experience Manager as a Cloud Service為Experience Manager Guides、Assets、For
 1. 從清單中選取&#x200B;**內容轉移工具**&#x200B;並下載。
 
 ![下載內容轉移工具](./assets/content-transfer-tool-software-portal.png)
-然後透過&#x200B;**封裝管理員**&#x200B;在您的來源Adobe Experience Manager執行個體上安裝封裝。 請務必下載最新版本。
+然後透過&#x200B;**封裝管理員**&#x200B;在您的來源Adobe Experience Manager執行個體上安裝封裝。 確保下載最新版本。
 如需最新版本的詳細資訊，請檢視[發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=zh-Hant)。
 
 >[!NOTE]
@@ -96,7 +95,7 @@ Experience Manager as a Cloud Service為Experience Manager Guides、Assets、For
    >
    >  請確定您下載最新版本。
 
-1. 在內部部署執行個體的`content-transfer.all-3.0.10.zip`封裝管理員&#x200B;**中上傳並安裝封裝**。
+1. 在內部部署執行個體的&#x200B;**封裝管理員**&#x200B;中上傳並安裝封裝`content-transfer.all-3.0.10.zip`。
    ![下載內容轉移工具](./assets/content-transfer-tool-software-portal.png)
 
 
@@ -109,7 +108,7 @@ Experience Manager as a Cloud Service為Experience Manager Guides、Assets、For
    ![](./assets/migration-create-migration-set.png)
 
 1. 提供您要移轉的路徑，然後按一下[儲存]。**&#x200B;**
-例如，`/content/sites`
+例如，  `/content/sites`
 或
    `/content/dam/tech-docs`
    ![包含的路徑](./assets/migration-included-paths.png)

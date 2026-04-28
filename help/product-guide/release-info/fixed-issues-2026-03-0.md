@@ -1,12 +1,11 @@
 ---
-title: 發行說明|修正2026.03.0版Adobe Experience Manager Guides中的問題
+title: 發行說明 |修正2026.03.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2026.03.0版中的錯誤修正。
 exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
-hidefromtoc: true
-source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 3%
 
 本文介紹2026.03.0版Adobe Experience Manager Guides as a Cloud Service中不同區域修正的錯誤。
 
-如需新功能和增強功能的詳細資訊，請參閱 [2026.03.0 版本中的新增功能](whats-new-2026-03-0.md)。
+如需新功能和增強功能的詳細資訊，請檢視[2026.03.0版的新增功能](whats-new-2026-03-0.md)。
 
-瞭解2026.03.0版[的](upgrade-instructions-2026-03-0.md)升級指示。
+瞭解2026.03.0版[&#128279;](upgrade-instructions-2026-03-0.md)的升級指示。
 
 ## 製作
 
@@ -29,7 +28,7 @@ ht-degree: 3%
 - 當輸出路徑中有`map_title`變數時，為對應產生AEM網站輸出（使用複合元件對應）會失敗並導致錯誤。 (GUIDES-36968)
 - 當原生PDF輸出預設集中指定了帶有尾隨斜線的輸出路徑時，UI會自動附加額外的尾隨斜線，導致雙斜線路徑，進而導致PDF上傳在某些情況下失敗。 (GUIDES-34932)
 - 透過「快速發佈」或「管理發布」發佈從DITA內容產生的AEM Sites頁面，會無意中發佈相關聯的DITA資產。 (GUIDES-27967)
-- 將對應發佈至AEM Sites （使用舊版元件對應）時，具有`xrefs`的互動參照(`scope = peer`)若將目標設定為其他對應中的主題子元素（例如段落），則不會解析為特定元素ID，而只會解析為父級主題，導致頁面在主題開頭載入，而非捲動至預期的區段。 (GUIDES-21802)
+- 將對應發佈至AEM Sites （使用舊版元件對應）時，具有`scope = peer`的互動參照(`xrefs`)若將目標設定為其他對應中的主題子元素（例如段落），則不會解析為特定元素ID，而只會解析為父級主題，導致頁面在主題開頭載入，而非捲動至預期的區段。 (GUIDES-21802)
 
 
 ## 翻譯

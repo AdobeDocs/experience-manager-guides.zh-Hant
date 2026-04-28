@@ -1,14 +1,13 @@
 ---
-title: 原生PDF發佈功能|在目錄條目和主題內容上套用自訂樣式
+title: 原生PDF發佈功能 |在目錄專案和主題內容套用自訂樣式
 description: 瞭解如何建立使用樣式表及內容的樣式。
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 以您要傳送以供檢閱的新主題為例。 為方便識別更新的主題，您需要將`outputclass`屬性新增到DITA map中的`<topicref>`元素，然後在CSS中為相同專案定義自訂樣式。
 
-在下列範例中，*航班歷史記錄*&#x200B;主題已指派值為`outputclass`的`new-topic`屬性。
+在下列範例中，*航班歷史記錄*&#x200B;主題已指派值為`new-topic`的`outputclass`屬性。
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 

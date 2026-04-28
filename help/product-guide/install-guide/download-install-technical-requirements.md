@@ -5,10 +5,9 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -33,10 +32,10 @@ ht-degree: 0%
 | **AEM Guides 5.0.0** | **UUID 5.0.0** <ul><li> AEM 6.5 SP 22、SP21或SP20<br><br> <li>   Java： 11或8 <br><br>   <li>作業系統： <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |
 | **AEM Guides 4.6.0** | **非UUID與UUID 4.6.0** <ul><li> AEM 6.5 SP 21、SP20或SP19<br><br> <li>   Java： 11或8 <br><br>   <li>作業系統： <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |
 | **AEM Guides 4.4.0** | **非UUID與UUID 4.4.0** <ul><li> AEM 6.5 SP20、SP19、SP18或SP17 <br><br> <li>   Java： 11或8 <br><br>   <li>作業系統： <ul><li> Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |
-| **AEM Guides 4.2** | **非UUID與UUID 4.2.1**<br><br><ul> <li>AEM 6.5 SP15、SP14、SP13或SP12 <br><br><li>Java： 11或8   <br><br><li> 作業系統： <ul><li>Windows Server 2012 R2  <li>Red Hat Linux 7和6</ul></ul> <br>**非UUID與UUID 4.2**<br><br><ul> <li>AEM 6.5 SP15、SP14、SP13或SP12 <br><br><li>Java： 11或8<br><br> <li> 作業系統： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |
+| **AEM Guides 4.2** | **非UUID與UUID 4.2.1**<br><br><ul> <li>AEM 6.5 SP15、SP14、SP13或SP12 <br><br><li>Java： 11或8 <br><br><li> 作業系統： <ul><li>Windows Server 2012 R2  <li>Red Hat Linux 7和6</ul></ul> <br>**非UUID與UUID 4.2**<br><br><ul> <li>AEM 6.5 SP15、SP14、SP13或SP12 <br><br><li>Java： 11或8<br><br> <li> 作業系統： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |
 | **AEM Guides 4.1** | **非UUID與UUID 4.1.2**<br><br> <ul><li>AEM 6.5 SP13、SP12、SP11或SP10 <br><br> <li>Java： 11或8<br><br> <li>作業系統： <ul><li>Windows Server 2012 R2 <br><li> Red Hat Linux 7和6 </ul></ul><br><br> **非UUID與UUID 4.1**<br><br><ul> <li>AEM 6.5 SP13、SP12、SP11或SP10 <br><li>Java： 11或8<li>作業系統： <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7和6 |
 | **AEM Guides 4.0** | **非UUID與UUID 4.0.3**<br><br><ul><li> AEM 6.5 SP12、SP11、SP10或SP9 <br><li>Java： 11或8 <br><br> <li>作業系統： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6<br><br> </ul></ul>**非UUID與UUID 4.0.2** <br><br><ul><li> AEM 6.5 SP12、SP11、SP10或SP9 <br><li>Java： 11或8 <br><br> <li>作業系統： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6<br><br> </ul></ul>**非UUID與UUID 4.0**<br> <br> <ul><li>AEM 6.5 SP11、SP10或SP9 <br><li>Java： 11或8<br><br><li> 作業系統： <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7和6 |
-| **AEM Guides 3.8.5** <br><br> 3.8.5是3.8之上的SP版本。 <br> 3.8發行版本不可獨立安裝<br>，因為3.8.5 SP包含<br>重要修正。 <br>客戶必須先安裝3.8 <br>，然後安裝SP 3.8.5。 | **非UUID** <br> <ul><li>AEM 6.5 SP9或SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><br> <li>作業系統： <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7和6</ul><br> **UUID** <br><li> AEM 6.5 SP9或SP8 <br><br> <li> 作業系統： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6 |
+| **AEM Guides 3.8.5** <br><br> 3.8.5是3.8之上的SP版本。 <br> 3.8發行版本不可獨立安裝<br>，因為3.8.5 SP包含<br>重要修正。<br> 客戶必須先安裝3.8 <br>，然後再安裝SP 3.8.5。 | **非UUID** <br> <ul><li>AEM 6.5 SP9或SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3 <br><br> <li>作業系統： <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7和6</ul><br> **UUID** <br><li> AEM 6.5 SP9或SP8 <br><br> <li> 作業系統： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6 |
 
 
 **父級主題：** [下載並安裝](download-install.md)

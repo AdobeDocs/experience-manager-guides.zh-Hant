@@ -2,10 +2,9 @@
 title: 設定AI助理以提供智慧說明和編寫
 description: 瞭解如何在Experience Manager Guides中設定AI助理
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -80,7 +79,7 @@ ht-degree: 0%
 1. 切換至&#x200B;**環境**&#x200B;標籤。
 1. 選取您要設定的環境名稱。 這應該會將您導覽至&#x200B;**環境資訊**&#x200B;頁面。
 1. 切換至&#x200B;**組態**&#x200B;標籤。
-1. 將JSON服務詳細資料（在上一節中下載）貼到與&#x200B;**相對應的**&#x200B;值`SERVICE_ACCOUNT_DETAILS`欄位。 請確定您使用與下列熒幕擷取畫面相同的名稱和設定。
+1. 將JSON服務詳細資料（在上一節中下載）貼到與`SERVICE_ACCOUNT_DETAILS`相對應的&#x200B;**值**&#x200B;欄位。 請確定您使用與下列熒幕擷取畫面相同的名稱和設定。
 
    ![ims服務帳戶設定](assets/ims-service-account-config.png){width="800" align="left"}
 

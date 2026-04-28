@@ -2,11 +2,10 @@
 title: 升級雲端服務的其他設定
 description: 瞭解升級雲端服務的額外設定
 exl-id: 3d60d06b-ce50-4948-b50d-bd373051d055
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 0%
+source-wordcount: '863'
+ht-degree: 1%
 
 ---
 
@@ -85,7 +84,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來為其編制索引，依預設所有地圖都會編制索引||範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`）
 
-1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
+1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。 請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
 1. 此API會傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`（例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -96,7 +95,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 +++後續處理現有內容以使用中斷連結報告的步驟 
 執行以下步驟後續處理現有內容並使用新的中斷連結報表：
 
-1. （選擇性）如果系統中有超過100,000個DITA檔案，請將`queryLimitReads`下的`queryLimitInMemory`和`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
+1. （選擇性）如果系統中有超過100,000個DITA檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`和`queryLimitInMemory`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
 
    - 使用安裝和設定Adobe Experience Manager Guides as a Cloud Service中&#x200B;*設定覆寫*&#x200B;區段提供的指示來建立設定檔。
    - 在設定檔中，提供下列（屬性）詳細資料以設定`queryLimitReads`和`queryLimitInMemory`選項：
@@ -108,7 +107,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server>//bin/guides/reports/upgrade`。
 
-1. 此API會傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. 此API會傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點 —  `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
 1. 工作完成後，先前的GET請求會成功回應。 如果作業由於某個原因而失敗，則可以從伺服器記錄中看到失敗。

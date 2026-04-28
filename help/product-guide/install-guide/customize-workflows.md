@@ -5,11 +5,10 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 2%
+source-wordcount: '2228'
+ht-degree: 3%
 
 ---
 
@@ -102,7 +101,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `initiator` | 字串 | 起始稽核任務之使用者的使用者ID。 |
 | `operation` | 字串 | 設定為`AEM_REVIEW`的靜態值。 |
 | `orgTopics` | 字串 | 共用以供檢閱的主題路徑。 指定多個以逗號分隔的主題。 |
-| `payloadJson` | JSON 物件 | 指定下列值： <br> - `base`：包含要送出檢閱之主題的父資料夾路徑。<br>- `asset`：傳送供檢閱之主題的路徑。 <br>- `referrer`：請保留空白。 |
+| `payloadJson` | JSON 物件 | 指定下列值： <br> - `base`：包含要送出檢閱之主題的父資料夾路徑。<br>- `asset`：要送出檢閱之主題的路徑。 <br>- `referrer`：請保留空白。 |
 | `deadline` | 字串 | 以`yyyy-MM-dd'T'HH:mm:ss.SSSXXX`格式指定時間。 |
 | `title` | 字串 | 輸入稽核任務的標題。 |
 | `description` | 字串 | 輸入複查工作的說明。 |
@@ -117,7 +116,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `ditamap` | 字串 | 指定稽核任務的ditamap路徑 |
 | `allowAllReviewers` | 布林值 | false/true |
 | `notifyViaEmail` | 布林值 | false/true |
-| `reviewVersion` | 字串 | 指定稽核工作流程的目前版本。 預設值設為`3.0` 。<br>若要啟用[作者](../user-guide/review-close-review-task.md)和[檢閱者](../user-guide/review-complete-review-tasks.md)的新檢閱工作流程功能，請確定`reviewVersion`已設為`3.0`。 |
+| `reviewVersion` | 字串 | 指定稽核工作流程的目前版本。 預設值設為`3.0` .<br> 若要啟用[作者](../user-guide/review-close-review-task.md)和[檢閱者](../user-guide/review-complete-review-tasks.md)的新檢閱工作流程功能，請確定`reviewVersion`已設為`3.0`。 |
 
 
 建立指令碼後，請先呼叫它，然後再在工作流程中呼叫建立檢閱程式。 然後，根據您的需求，您可以呼叫其他稽核工作流程處理。
@@ -147,7 +146,7 @@ AEM Guides包含一組您可自訂的電子郵件和AEM通知。 執行以下步
 
    >[!NOTE]
    >
-   > 請勿在``libs``節點中使用預設組態檔中的任何自訂專案。 您必須在``libs``節點中建立``apps``節點的覆蓋，並僅更新``apps``節點中的必要檔案。
+   > 請勿在``libs``節點中使用預設組態檔中的任何自訂專案。 您必須在``apps``節點中建立``libs``節點的覆蓋，並僅更新``apps``節點中的必要檔案。
 
 1. `review`資料夾包含以下子資料夾：
 

@@ -5,10 +5,9 @@ exl-id: d83fc1a9-0822-47f0-8099-22a74b9ced2a
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -19,10 +18,10 @@ AEM Guides提供與Web編輯器整合的強大文章式發佈功能。 使用此
 
 若要建立AEM網站以發佈文章型輸出，請執行以下步驟：
 
-1. 從您的&#x200B;**XML Documentation軟體發佈入口網站**&#x200B;下載Cloud Service的[Adobe元件內容套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html)。
+1. 從您的[XML Documentation軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html)下載Cloud Service的&#x200B;**Adobe元件內容套件**。
 1. 開啟AEM Package Manager。 存取封裝管理程式的預設URL為： `https://<hostname>/crx/packmgr/index.jsp`
 1. 上傳適用於Cloud Service的XML Documentation元件內容套件並安裝。
-1. 從您的`Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip`Adobe軟體發佈入口網站[下載](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html)檔案。
+1. 從您的[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html)下載`Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip`檔案。
 1. 從全域導覽中選取&#x200B;**網站**。
 1. 在Sites UI內，按一下右上角的&#x200B;**建立**&#x200B;按鈕。
 1. 從&#x200B;**建立**&#x200B;下拉式清單中，從範本&#x200B;**選取**&#x200B;網站。

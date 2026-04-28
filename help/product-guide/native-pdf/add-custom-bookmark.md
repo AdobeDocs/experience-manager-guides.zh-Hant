@@ -1,14 +1,13 @@
 ---
-title: 原生PDF發佈功能|在PDF輸出中新增自訂書籤
+title: 原生PDF發佈功能 |在PDF輸出中新增自訂書籤
 description: 瞭解如何建立使用樣式表及內容的樣式。
 exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 0%
 
 `bookmark-level: 3`
 
-在此，`bookmark-level`是屬性，而數字`3`是指示書籤加入所在書籤階層中層級的值。 在下列範例中，第一層級主題「連絡人」有一個表格「連絡人清單」，我們已在其中新增值為`outputclass`的`custom-bookmark`屬性。
+在此，`bookmark-level`是屬性，而數字`3`是指示書籤加入所在書籤階層中層級的值。 在下列範例中，第一層級主題「連絡人」有一個表格「連絡人清單」，我們已在其中新增值為`custom-bookmark`的`outputclass`屬性。
 
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">

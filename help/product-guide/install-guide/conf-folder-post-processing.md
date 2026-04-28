@@ -5,10 +5,9 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -58,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 除了透過OSGi設定設定的已忽略和已啟用的路徑外，位於`/var/dxml/postprocess/ignoredPaths`的存放庫層級節點也會影響後續處理行為。 <br>如果資料夾意外地從後續處理中排除，而且未列在OSGi設定中，則建議檢查此存放庫節點。 如果路徑出現在那裡並且設定為`true`，則會忽略它。 若要重新啟用處理，您可以從節點手動移除對應的屬性。
+> 除了透過OSGi設定設定的已忽略和已啟用的路徑外，位於`/var/dxml/postprocess/ignoredPaths`的存放庫層級節點也會影響後續處理行為。<br> 如果資料夾意外地從後處理中排除，並且未列在OSGi設定中，則建議檢查此存放庫節點。 如果路徑出現在那裡並且設定為`true`，則會忽略它。 若要重新啟用處理，您可以從節點手動移除對應的屬性。
 
 ## 啟用或停用後處理的規則
 

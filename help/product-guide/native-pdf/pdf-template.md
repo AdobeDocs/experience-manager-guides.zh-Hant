@@ -5,10 +5,9 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -40,7 +39,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >  您也可以在建立和複製範本時預覽範本的縮圖。 建立範本後，使用&#x200B;[**選項**](#properties-option)&#x200B;功能表中的&#x200B;**屬性**&#x200B;編輯或刪除縮圖。
+   >  您也可以在建立和複製範本時預覽範本的縮圖。 建立範本後，使用&#x200B;**選項**&#x200B;功能表中的&#x200B;[**屬性**](#properties-option)&#x200B;編輯或刪除縮圖。
 
 1. 按一下「**建立**」。
 
@@ -164,6 +163,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您也可以使用&#x200B;[**選項**](#properties-option)&#x200B;功能表中的&#x200B;**屬性**，更新範本的縮圖和說明。
+   >您也可以使用&#x200B;**選項**&#x200B;功能表中的&#x200B;[**屬性**](#properties-option)，更新範本的縮圖和說明。
 
 1. 完成所需的變更後，請選取&#x200B;*儲存全部* （或`Ctrl+S`）。

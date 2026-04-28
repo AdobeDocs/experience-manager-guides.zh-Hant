@@ -5,17 +5,16 @@ exl-id: d3ce4d01-b0fd-4f02-977c-ab378c328071
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 19%
+source-wordcount: '117'
+ht-degree: 23%
 
 ---
 
 # 設定 Dispatcher {#id213BCM0M05U}
 
-Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。如需詳細資訊，請參閱[雲端中的Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=zh-Hant)。
+Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。 如需詳細資訊，請參閱[雲端中的Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=zh-Hant)。
 
 1. 若要將Dispatcher設定從AMS移轉至Cloud Service，請參閱[將Dispatcher設定從AMS移轉至AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=zh-Hant)。
 1. 如需有關如何設定Dispatcher的詳細資訊，請參閱[設定Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-Hant)。

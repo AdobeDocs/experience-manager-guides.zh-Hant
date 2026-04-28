@@ -5,10 +5,9 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -106,7 +105,7 @@ AEM Guides網頁編輯器可讓您建立和更新DITA主題。 您可以設定We
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | 可能的值為： <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **預設值**： `allow_unsafe_delete_for_delete_assets_group` <br>這些常數的詳細資訊如下。 |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | 可能的值為： <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **預設值**： `allow_unsafe_delete_for_delete_assets_group` <br>這些常數的詳細資訊如下。 |
 
 根據您想要授予刪除存取權的對象，請指定下列其中一個常數：
 

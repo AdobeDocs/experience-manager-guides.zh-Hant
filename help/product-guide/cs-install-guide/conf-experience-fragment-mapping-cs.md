@@ -5,10 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -158,6 +157,6 @@ Experience Manager Guides會將完整主題轉換為HTML，接著可以對應至
 
 
 
-從Web編輯器發佈體驗片段時，請從`Template`產生體驗片段&#x200B;**對話方塊的下拉式清單中選取**，以檢視&#x200B;**對應**&#x200B;欄位中範本可用的對應。 如果範本不存在自訂對應，則會列出預設對應。 您可以使用預設對應，將整個主題發佈為體驗片段。
+從Web編輯器發佈體驗片段時，請從&#x200B;**產生體驗片段**&#x200B;對話方塊的下拉式清單中選取`Template`，以檢視&#x200B;**對應**&#x200B;欄位中範本可用的對應。 如果範本不存在自訂對應，則會列出預設對應。 您可以使用預設對應，將整個主題發佈為體驗片段。
 
 如需詳細資訊，請檢視[發佈體驗片段](../user-guide/publish-experience-fragment.md)。

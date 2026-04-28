@@ -5,10 +5,9 @@ exl-id: 2b385eef-00a7-4c25-9e78-367a0c9e44ba
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | 指定UUID檔案名稱模式的規則運算式的字串。 <br>如果檔案未遵循指定的模式，則會將UUID新增至檔案的屬性，而且所有對該檔案的參照都會以指派給該檔案的UUID更新。<br> **預設值**： `"^GUID-(?<id>.*)"` |
+| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | 指定UUID檔案名稱模式的規則運算式的字串。<br> 如果檔案未遵循指定的模式，則會將UUID新增至檔案的屬性，而且所有對該檔案的參照都會以指派給該檔案的UUID更新。<br> **預設值**： `"^GUID-(?<id>.*)"` |
 
 ## 使用curl命令
 
@@ -45,7 +44,7 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 - `jcr:primaryType=sling:Folder`：指定此引數&#x200B;*為*，以建立資料夾型別資源。
 
-- `<server folder path>`：完整的資料夾路徑，包括您要在AEM存放庫中建立的新資料夾名稱。 例如，如果您將路徑指定為`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，則會在DAM的`AEM-Guides`資料夾中建立資料夾`projects`。
+- `<server folder path>`：完整的資料夾路徑，包括您要在AEM存放庫中建立的新資料夾名稱。 例如，如果您將路徑指定為`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，則會在DAM的`projects`資料夾中建立資料夾`AEM-Guides`。
 
 
 **上傳檔案**

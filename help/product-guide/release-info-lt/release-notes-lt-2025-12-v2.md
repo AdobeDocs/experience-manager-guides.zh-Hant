@@ -2,10 +2,10 @@
 title: 發行說明 | 2025年12月產品培訓和學習內容版的新增功能
 description: 在2025年12月版本的產品培訓和學習內容中瞭解新的和增強功能
 role: Leader
-hidefromtoc: true
-source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
+exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,3 @@ ht-degree: 0%
   如需詳細資訊，請檢視[新增基本建置區塊](../learning-content/lc-basic-blocks.md)。
 
   ![](assets/reusable-content.png){width="650" align="left"}
-
-
-
-

@@ -1,14 +1,13 @@
 ---
-title: 原生PDF發佈功能|設計頁面配置
+title: 原生PDF發佈功能 |設計頁面配置
 description: 瞭解如何設計您的版面配置，以在PDF輸出的不同區段中呈現資訊。
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5016'
+source-wordcount: '5060'
 ht-degree: 0%
 
 ---
@@ -193,7 +192,7 @@ PDF檔案通常包含下列章節：
 
    1. 展開&#x200B;**分頁**&#x200B;屬性。
 
-   1. 在`Landscape`頁面配置&#x200B;**屬性中輸入**。
+   1. 在&#x200B;**頁面配置**&#x200B;屬性中輸入`Landscape`。
 
       <img src="./assets/new-style-with-landscape-layout.png" width="500">
 
@@ -511,7 +510,7 @@ PDF檔案通常包含下列章節：
    >
    >最終發佈的PDF將只會根據您章節中的內容顯示目錄專案。 如果章節中沒有層級5標題，則不會在最終輸出中顯示。
 
-可使用樣式表自訂預設目錄的外觀和感覺。 以`chaptoc-level-#`開頭的樣式（例如`chaptoc-level-1`、`chaptoc-level-2`等）是用來自訂章節TOC的樣式。<!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->。
+可使用樣式表自訂預設目錄的外觀和感覺。 以`chaptoc-level-#`開頭的樣式（例如`chaptoc-level-1`、`chaptoc-level-2`等）是用來自訂章節目錄的樣式。 <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >
@@ -547,7 +546,7 @@ PDF檔案通常包含下列章節：
 
    * **資料行間隔** ：指定個別資料行之間的間距。
 
-   * **欄跨距** ：如果您想要頁面配置上的任何元素跨欄，則需要使用此屬性。 這是透過使用樣式表修改所需元素的樣式來實現的。<!--for more information see _Section explaining style customization_-->。
+   * **欄跨距** ：如果您想要頁面配置上的任何元素跨欄，則需要使用此屬性。 這是透過使用樣式表修改所需元素的樣式來實現的。 <!--for more information see _Section explaining style customization_-->.
 
    在版面配置中，如果您希望某個文字出現在所有章節版面的第一頁，則可以將其新增到章節版面配置的第一頁變體。
 
