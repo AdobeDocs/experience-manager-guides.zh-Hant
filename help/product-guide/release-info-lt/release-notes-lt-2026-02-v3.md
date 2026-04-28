@@ -1,11 +1,11 @@
 ---
-title: 發行說明 | 2026年2月產品培訓和學習內容的新增功能
+title: 發行說明 | 2026年2月產品培訓和學習內容版的新增功能
 description: 瞭解產品培訓和學習內容在2026年2月版本中的新功能和增強功能
 role: Leader
-hidefromtoc: true
-source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
+exl-id: aef24b0c-0cb8-4646-9d8b-92d3460a7faa
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -67,4 +67,3 @@ ht-degree: 0%
 - 當您按一下課程左窗格中的目錄(TOC)時，即使測驗失敗，課程仍會繼續顯示完成狀態。 (GUIDES-40398)
 - 嘗試在ALM中錯誤比對測驗中的以下問題型別，會導致報告中未出現選定的選項。 (GUIDES-38640)
 - 產生PDF輸出時，不會保留套用的製作樣式，導致設計不一致。 (GUIDES-38642)
-

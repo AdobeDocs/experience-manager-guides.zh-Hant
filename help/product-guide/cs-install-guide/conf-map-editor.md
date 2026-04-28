@@ -5,10 +5,9 @@ exl-id: 365264ab-f990-42c1-ab79-61a40ecea42f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -34,4 +33,4 @@ ht-degree: 0%
 >
 > 依預設，當作者建立對應檔案並選擇開啟它以進行編輯時，就會啟動「基本對應編輯器」。 從Assets UI選取地圖檔案的「編輯」選項時，基本地圖編輯器中也會開啟該選項。
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

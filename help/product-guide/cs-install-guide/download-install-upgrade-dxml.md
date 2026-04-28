@@ -5,11 +5,10 @@ exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 3%
+source-wordcount: '114'
+ht-degree: 2%
 
 ---
 
@@ -26,10 +25,10 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> 如需有關使用CI/CD管道的詳細資訊，請參閱[在Adobe Cloud Manager中使用CI/CD管道](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=zh-Hant)。
+> 如需有關使用CI/CD管道的詳細資訊，請參閱[在Adobe Cloud Manager中使用CI/CD管道](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html)。
 
 ## 清除瀏覽器快取
 
 完成升級程式後，所有使用者必須先清除瀏覽器快取，才能使用升級版的AEM Guides。
 
-**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)

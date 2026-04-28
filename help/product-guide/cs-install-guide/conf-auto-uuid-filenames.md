@@ -5,10 +5,9 @@ exl-id: bdbdf119-b928-4ed2-bab3-d99370da8aa9
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '197'
 ht-degree: 1%
 
 ---
@@ -27,4 +26,4 @@ ht-degree: 1%
 >
 > 開啟此選項後，作者在建立新主題或對應檔案時，看不到指定檔案名稱的選項。 您可以從Assets UI和Web編輯器建立新的主題或地圖檔案。
 
-**父級主題：**&#x200B;[&#x200B;設定檔名](conf-file-names.md)
+**父級主題：**[&#x200B;設定檔名](conf-file-names.md)

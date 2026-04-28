@@ -5,10 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 5b9e4936-f674-41d3-a7b2-3d42a2523693
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -21,6 +20,6 @@ ht-degree: 0%
 
 對於內部部署設定，索引定義會包含在套件中。 若要啟用此功能，您必須重新索引內容。
 
-在節點`reindex=true (Boolean)`上設定屬性` /oak:index/guidesAssetLucene`來開始重新索引，以重新索引先前擷取的內容。
+在節點` /oak:index/guidesAssetLucene`上設定屬性`reindex=true (Boolean)`來開始重新索引，以重新索引先前擷取的內容。
 
 重新索引過程將繼續，直到系統自動將此屬性變更回false。 您可以在系統記錄檔中監視重新索引操作的進度。

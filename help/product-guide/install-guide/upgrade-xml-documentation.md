@@ -5,11 +5,10 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '9148'
-ht-degree: 0%
+source-wordcount: '9267'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 0%
 - 如果您是使用4.3.x、4.2、4.2.1 (Hotfix 4.2.1.3)、4.1或4.1.x版，則必須先升級至4.4版，才能升級至5.0.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
+- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
 
 
 >[!NOTE]
@@ -60,11 +59,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升級程式僅適用於3.8.5版到4.0版。如需從3.4版或更新版本升級至3.8.5的程式，請參閱&#x200B;*Experience Manager Guides說明PDF封存*&#x200B;中提供的產品特定安裝指南中的[升級Adobe Experience Manager Guides](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)一節。
+> 此升級程式僅適用於3.8.5版到4.0版。 如需從3.4版或更新版本升級至3.8.5的程式，請參閱[Experience Manager Guides說明PDF封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的&#x200B;*升級Adobe Experience Manager Guides*&#x200B;一節。
 
 
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides升級程式之前，請確定您擁有：
 
@@ -89,7 +88,7 @@ ht-degree: 0%
 | 端點 | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | 請求型別 | **GET**&#x200B;您可以使用網頁瀏覽器，以管理員身分登入AEM執行個體。 |
-| 預期回應 | -   如果可以移動所有必要的節點，您將會獲得通過檢查。 <br>-   如果目標位置出現節點，您會看到相關錯誤。 清理存放庫\（刪除節點/var/dxml\）並重新安裝升級套件，然後再次觸發此端點。 <br>**注意：**&#x200B;這不是常見的錯誤，因為3.x Experience Manager Guides之前未使用目標位置。 <br> -   如果此指令碼失敗，請勿繼續並報告給您的客戶成功團隊。 |
+| 預期回應 |  — 如果可以移動所有必要的節點，您將會獲得通過檢查。 <br> — 如果目標位置有節點，您將會收到相關錯誤。 清理存放庫\（刪除節點/var/dxml\）並重新安裝升級套件，然後再次觸發此端點。 <br>**注意：**&#x200B;這不是常見的錯誤，因為3.x Experience Manager Guides之前未使用目標位置。<br> — 如果此指令碼失敗，請勿繼續並報告給您的客戶成功團隊。 |
 
 **系統資料移轉API**
 
@@ -101,7 +100,7 @@ ht-degree: 0%
 | 端點 | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman等代理程式執行。 |
-| 預期回應 | -   一旦移轉成功，您就可以安裝XML Documentation解決方案4.0版。<br>-   如果發生錯誤，請還原至最後一個查核點，並與您的客戶成功團隊共用錯誤記錄檔及API輸出。 |
+| 預期回應 |  — 成功移轉後，您可以安裝XML Documentation解決方案4.0版。<br> — 如果發生錯誤，請還原至最後一個查核點，並與您的客戶成功團隊共用錯誤記錄檔及API輸出。 |
 
 **移轉對應**：上述API會將來源位置下的所有資料移轉到目標位置。
 
@@ -137,13 +136,13 @@ ht-degree: 0%
 
 如果您是使用4.0、4.1或4.1.x版，則可以直接升級至4.2版。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.2升級程式之前，請確定您擁有：
 
 1. 已升級至Experience Manager Guides 4.0、4.1或4.1.x版。
 1. 已關閉所有翻譯任務。
-1. 已將&#x200B;**類別的記錄層級變更為** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log.`
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
@@ -224,14 +223,14 @@ ht-degree: 0%
 
    尋找下列兩個啟動器\（若有需要\）並進行變更\（應該為作用中\），其對應至&#x200B;**DAM更新資產工作流程**：
 
-1. 已針對&#x200B;*DAM更新資產工作流程*&#x200B;建立「**節點**」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
+1. 已針對&#x200B;**DAM更新資產工作流程**&#x200B;建立「*節點*」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39;應該有`"event-user-data:changedByWorkflowProcess"`。
-   - 已針對&#x200B;*DAM更新資產工作流程 —* （適用於條件&quot;**&quot;）修改**&#x200B;節點`jcr:content/jcr:mimeType!=video`的啟動器，
+   - 已針對&#x200B;**DAM更新資產工作流程 —** （適用於條件&quot;`jcr:content/jcr:mimeType!=video`&quot;）修改&#x200B;*節點*&#x200B;的啟動器，
    - 「萬用字元」值應為：
 
    ```json
@@ -313,13 +312,13 @@ ht-degree: 0%
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.2.1升級程式之前，請確定您擁有：
 
 1. 升級至Experience Manager Guides 4.1、4.1.x或4.2版。
 1. 已關閉所有翻譯任務。
-1. 已將&#x200B;**類別的記錄層級變更為** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log.`
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
@@ -441,14 +440,14 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    尋找下列兩個啟動器\（若有需要\）並進行變更\（應該為作用中\），其對應至&#x200B;**DAM更新資產工作流程**：
 
-1. 已針對&#x200B;*DAM更新資產工作流程*&#x200B;建立「**節點**」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
+1. 已針對&#x200B;**DAM更新資產工作流程**&#x200B;建立「*節點*」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39;應該有`"event-user-data:changedByWorkflowProcess"`。
-   - 針對&#x200B;*DAM更新資產工作流程 —*&#x200B;的「**節點已修改**」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
+   - 針對&#x200B;**DAM更新資產工作流程 —**&#x200B;的「*節點已修改*」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -470,11 +469,11 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
 
 - 請確定`damAssetLucene`索引已完成。 視伺服器上呈現的資料量而定，最多可能需要幾個小時。 您可以透過檢查中重新索引欄位是否設定為false來確認重新索引已完成
-  `http://<server:port>/oak:index/damAssetLucene`。  此外，如果您已在`damAssetLucene`中新增任何自訂，您可能需要再次套用它們。
+  `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在`damAssetLucene`中新增任何自訂，您可能需要再次套用它們。
 
 - 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，依預設所有地圖都會編列索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
-- 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
+- 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。 請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
 - 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
@@ -490,7 +489,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.3.0升級程式之前，請確定您擁有：
 
@@ -504,7 +503,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載4.3.0版本的套件。
 1. 安裝4.3.0版本的套件。
 1. 安裝套件後清除瀏覽器快取。
-1. 從資料夾設定檔中的`ui_config.json`XML編輯器組態&#x200B;**索引標籤升級**&#x200B;檔案。
+1. 從資料夾設定檔中的&#x200B;**XML編輯器組態**&#x200B;索引標籤升級`ui_config.json`檔案。
 
 
 ## 安裝4.3.0版之後
@@ -516,7 +515,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 執行以下步驟後續處理現有內容並使用新的中斷連結報表：
 
-1. （選擇性）如果系統中有超過100,000個dita檔案，請將`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
+1. （選擇性）如果系統中有超過100,000個dita檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
 
    | PID | 屬性索引鍵 | 屬性值 |
    |---|---|---|
@@ -527,13 +526,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
    | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman等代理程式執行。 |
-   | 預期回應 | 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點。<br>範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 預期回應 | 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作ID的GET要求傳送至相同的端點。<br> 範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
    | 請求型別 | **GET** |
    | 引數 | jobId：傳遞從上一個post請求收到的jobId。 |
-   | 預期回應 |  — 工作完成後，GET要求會成功回應。 <br> — 如果發生錯誤，請和您的客戶成功團隊共用錯誤記錄檔以及API輸出。  <br>範例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | 預期回應 |  — 工作完成後，GET要求會成功回應。<br> — 如果發生錯誤，請和您的客戶成功團隊共用錯誤記錄檔以及API輸出。  <br>範例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. 如果您在步驟1中變更了`queryLimitReads`的值，請恢復為預設值或先前的現有值。
@@ -548,13 +547,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.3.1升級程式之前，請確定您擁有：
 
 1. 已升級至Experience Manager Guides 4.3.0、4.2或4.2.1版，並完成各自的安裝步驟。
 1. （選用）已關閉所有翻譯工作。
-1. 已將&#x200B;**類別的記錄層級變更為** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
 
 
 ## 安裝4.3.1版
@@ -669,14 +668,14 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    尋找下列兩個啟動器\（若有需要\）並進行變更\（應該為作用中\），其對應至&#x200B;**DAM更新資產工作流程**：
 
-1. 已針對&#x200B;*DAM更新資產工作流程*&#x200B;建立「**節點**」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
+1. 已針對&#x200B;**DAM更新資產工作流程**&#x200B;建立「*節點*」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39;應該有`"event-user-data:changedByWorkflowProcess"`。
-   - 針對&#x200B;*DAM更新資產工作流程 —*&#x200B;的「**節點已修改**」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
+   - 針對&#x200B;**DAM更新資產工作流程 —**&#x200B;的「*節點已修改*」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -717,7 +716,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 執行以下步驟後續處理現有內容並使用新的中斷連結報表：
 
-1. （選擇性）如果系統中有超過100,000個dita檔案，請將`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
+1. （選擇性）如果系統中有超過100,000個dita檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
 
    | PID | 屬性索引鍵 | 屬性值 |
    |---|---|---|
@@ -728,13 +727,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
    | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman等代理程式執行。 |
-   | 預期回應 | 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點。<br>範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 預期回應 | 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作ID的GET要求傳送至相同的端點。<br> 範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
    | 請求型別 | **GET** |
    | 引數 | jobId：傳遞從上一個post請求收到的jobId。 |
-   | 預期回應 |  — 工作完成後，GET要求會成功回應。 <br> — 如果發生錯誤，請和您的客戶成功團隊共用錯誤記錄檔以及API輸出。  <br>範例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | 預期回應 |  — 工作完成後，GET要求會成功回應。<br> — 如果發生錯誤，請和您的客戶成功團隊共用錯誤記錄檔以及API輸出。  <br>範例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. 如果您在步驟1中變更了`queryLimitReads`的值，請恢復為預設值或先前的現有值。
@@ -749,7 +748,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 ## 安裝版本4.3.1.5
 
-1. 從4.3.1.5Adobe軟體發佈入口網站[下載](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)版本套件。
+1. 從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載4.3.1.5版本套件。
 1. 安裝版本4.3.1.5封裝。
 
 1. 請等候安裝程式順利完成。
@@ -789,13 +788,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.4.0升級程式之前，請確定您擁有：
 
 1. 已升級至Experience Manager Guides 4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，並已完成各自的安裝步驟。
 1. （選用）已關閉所有翻譯工作。
-1. 已將&#x200B;**類別的記錄層級變更為** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
 
 
 ## 安裝4.4.0版
@@ -872,14 +871,14 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    尋找下列兩個啟動器\（若有需要\）並進行變更\（應該為作用中\），其對應至&#x200B;**DAM更新資產工作流程**：
 
-1. 已針對&#x200B;*DAM更新資產工作流程*&#x200B;建立「**節點**」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
+1. 已針對&#x200B;**DAM更新資產工作流程**&#x200B;建立「*節點*」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39;應該有`"event-user-data:changedByWorkflowProcess"`。
-   - 針對&#x200B;*DAM更新資產工作流程 —*&#x200B;的「**節點已修改**」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
+   - 針對&#x200B;**DAM更新資產工作流程 —**&#x200B;的「*節點已修改*」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -918,7 +917,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 執行以下步驟後續處理現有內容並使用新的中斷連結報表：
 
-1. （選擇性）如果系統中有超過100,000個dita檔案，請將`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
+1. （選擇性）如果系統中有超過100,000個dita檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
 
    | PID | 屬性索引鍵 | 屬性值 |
    |---|---|---|
@@ -929,13 +928,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
    | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman等代理程式執行。 |
-   | 預期回應 | 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點。<br>範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 預期回應 | 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作ID的GET要求傳送至相同的端點。<br> 範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
    | 請求型別 | **GET** |
    | 引數 | jobId：傳遞從上一個post請求收到的jobId。 |
-   | 預期回應 |  — 工作完成後，GET要求會成功回應。 <br> — 如果發生錯誤，請和您的客戶成功團隊共用錯誤記錄檔以及API輸出。  <br>範例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | 預期回應 |  — 工作完成後，GET要求會成功回應。<br> — 如果發生錯誤，請和您的客戶成功團隊共用錯誤記錄檔以及API輸出。  <br>範例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 1. 如果您在步驟1中變更了`queryLimitReads`的值，請恢復為預設值或先前的現有值。
 
@@ -982,7 +981,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 在此升級期間，由於`'order'`值從1000變更為50，因此您必須將現有的自訂重寫程式（若有的話）與`'fmdita-rewriter'`合併。
 
 
-**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)
 
 
 ## 升級至4.6.0版
@@ -997,13 +996,13 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 >
 > 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.6.0升級程式之前，請確定您擁有：
 
 1. 已升級至Experience Manager Guides 4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，並已完成各自的安裝步驟。
 1. （選用）已關閉所有翻譯工作。
-1. 已將&#x200B;**類別的記錄層級變更為** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
 
 
 ## 安裝4.6.0版
@@ -1078,14 +1077,14 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
    尋找下列兩個啟動器\（若有需要\）並進行變更\（應該為作用中\），其對應至&#x200B;**DAM更新資產工作流程**：
 
-1. 已針對&#x200B;*DAM更新資產工作流程*&#x200B;建立「**節點**」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
+1. 已針對&#x200B;**DAM更新資產工作流程**&#x200B;建立「*節點*」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39;應該有`"event-user-data:changedByWorkflowProcess"`。
-   - 針對&#x200B;*DAM更新資產工作流程 —*&#x200B;的「**節點已修改**」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
+   - 針對&#x200B;**DAM更新資產工作流程 —**&#x200B;的「*節點已修改*」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -1119,7 +1118,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 執行以下步驟來索引現有內容：
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引||範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 ||範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -1152,13 +1151,13 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 >
 > 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 5.0.0升級程式之前，請確定您擁有：
 
 1. 已升級至Experience Manager Guides 4.6.3、4.6.1、4.6.0或4.4版，並完成各自的安裝步驟。
 1. （選用）已關閉所有翻譯工作。
-1. 已將&#x200B;**類別的記錄層級變更為** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
 
 
 ## 安裝5.0.0版
@@ -1233,14 +1232,14 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
    尋找下列兩個啟動器\（若有需要\）並進行變更\（應該為作用中\），其對應至&#x200B;**DAM更新資產工作流程**：
 
-1. 已針對&#x200B;*DAM更新資產工作流程*&#x200B;建立「**節點**」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
+1. 已針對&#x200B;**DAM更新資產工作流程**&#x200B;建立「*節點*」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39;應該有`"event-user-data:changedByWorkflowProcess"`。
-   - 針對&#x200B;*DAM更新資產工作流程 —*&#x200B;的「**節點已修改**」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
+   - 針對&#x200B;**DAM更新資產工作流程 —**&#x200B;的「*節點已修改*」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -1274,7 +1273,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 執行以下步驟來索引現有內容：
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引||範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 ||範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -1300,7 +1299,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 ## 重新索引damAssetLucene的步驟
 
-已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.0.0版後如何重新索引damAssetLucene。
+已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.0.0版後如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
@@ -1310,7 +1309,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 >[!IMPORTANT]
 >
-> 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.1.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.1.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 **先決條件**
 
@@ -1322,7 +1321,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 1. 已升級至Experience Manager Guides 4.6.3、4.6.4、5.0.0或5.0.0 Service Pack 1版，並完成各自的安裝步驟。
 1. （選用）已關閉所有翻譯工作。
-1. 已將&#x200B;**類別的記錄層級變更為** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
 
 >[!NOTE]
 >
@@ -1400,14 +1399,14 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
    尋找下列兩個啟動器\（若有需要\）並進行變更\（應該為作用中\），其對應至&#x200B;**DAM更新資產工作流程**：
 
-1. 已針對&#x200B;*DAM更新資產工作流程*&#x200B;建立「**節點**」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
+1. 已針對&#x200B;**DAM更新資產工作流程**&#x200B;建立「*節點*」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39;應該有`"event-user-data:changedByWorkflowProcess"`。
-   - 針對&#x200B;*DAM更新資產工作流程 —*&#x200B;的「**節點已修改**」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
+   - 針對&#x200B;**DAM更新資產工作流程 —**&#x200B;的「*節點已修改*」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -1441,7 +1440,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 執行以下步驟來索引現有內容：
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引||範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 ||範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -1467,7 +1466,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 ## 重新索引damAssetLucene的步驟
 
-已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.1.0版後如何重新索引damAssetLucene。
+已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.1.0版後如何重新索引damAssetLucene。
 
 >[!NOTE]
 >

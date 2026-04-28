@@ -1,10 +1,10 @@
 ---
-title: 發行說明 | 已修正Adobe Experience Manager Guides 5.0.0版本中的問題
+title: 發行說明 |已修正Adobe Experience Manager Guides 5.0.0版中的問題
 description: 瞭解Adobe Experience Manager Guides 5.0.0版的錯誤修正。
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 如需新功能和增強功能的詳細資訊，請參閱 [5.0.0 版本中的新增功能](/help/product-guide/release-info/whats-new-5-0-0.md)。
 
-瞭解5.0.0版[的](upgrade-instructions-5-0-0.md)升級指示。
+瞭解5.0.0版](upgrade-instructions-5-0-0.md)的[升級指示。
 
 
 ## 製作

@@ -5,10 +5,9 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -40,7 +39,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >  您也可以在建立和複製範本時預覽範本的縮圖。 建立範本後，使用&#x200B;[**選項**](#properties-option)&#x200B;功能表中的&#x200B;**屬性**&#x200B;編輯或刪除縮圖。
+   >  您也可以在建立和複製範本時預覽範本的縮圖。 建立範本後，使用&#x200B;**選項**&#x200B;功能表中的&#x200B;[**屬性**](#properties-option)&#x200B;編輯或刪除縮圖。
 
 1. 按一下「**建立**」。
 
@@ -60,7 +59,7 @@ ht-degree: 0%
 
    <img src="assets/duplicate-template.png" alt="複製PDF範本" width="350">
 
-   *在&#x200B;**複製PDF範本**&#x200B;對話方塊中選取要複製的範本、預覽縮圖，以及更新標題。*
+   *在&#x200B;**複製PDF範本**對話方塊中選取要複製的範本、預覽縮圖，以及更新標題。*
 
 1. 指定範本的標題。
 
@@ -82,7 +81,7 @@ ht-degree: 0%
 ### 刪除
 
 選取「刪除」選項，刪除選取的範本。 然後，在確認提示中選取「是」。
-預設集已從&#x200B;**範本**&#x200B;中移除。
+預設集已從**範本**&#x200B;中移除。
 
 ### 屬性{#properties-option}
 
@@ -94,7 +93,7 @@ ht-degree: 0%
 
 建立自訂範本後，您可以從PDF輸出預設集的「頁面配置」中選擇它。
 
-瞭解如何[發佈PDF輸出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=zh-Hant)。
+瞭解如何[發佈PDF輸出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en)。
 
 >[!NOTE]
 >
@@ -164,6 +163,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您也可以使用&#x200B;[**選項**](#properties-option)&#x200B;功能表中的&#x200B;**屬性**，更新範本的縮圖和說明。
+   >您也可以使用&#x200B;**選項**&#x200B;功能表中的&#x200B;[**屬性**](#properties-option)，更新範本的縮圖和說明。
 
 1. 完成所需的變更後，請選取&#x200B;*儲存全部* （或`Ctrl+S`）。

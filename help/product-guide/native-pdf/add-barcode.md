@@ -1,11 +1,10 @@
 ---
-title: 原生PDF發佈功能|新增條碼
+title: 原生PDF發佈功能 |新增條碼
 description: 瞭解如何新增條碼。
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -55,7 +54,7 @@ margin-top: 2mm;
 1. 選取版面配置。 例如，您可以選取「封底」頁面版面，其中包含頁首或頁尾。
 1. 將下列範圍新增至您要插入條碼的位置。
 
-   `<span class="barcode">Sample barcode</span></p>`。
+   `<span class="barcode">Sample barcode</span></p>`.
 
    >[!NOTE]
    >
@@ -71,7 +70,7 @@ margin-top: 2mm;
 
 **範例 2**
 
-修改`Common.plt`Basic **範本中的**&#x200B;檔案，在專案標題之後新增條碼。
+修改&#x200B;**Basic**&#x200B;範本中的`Common.plt`檔案，在專案標題之後新增條碼。
 
 若要建立ISBN號碼的條碼，請新增ISBN號碼。 然後使用ISBN編號來產生條碼。
 
@@ -90,7 +89,7 @@ margin-top: 2mm;
 
 若要使用地圖中繼資料建立條碼：
 
-使用DITA map的`<topicmeta>`元素中存在的任何中繼資料，以條碼顯示。 確定使用正確的XPath。 例如，您可以在DITA map `<resourceid>`中新增`<topicmeta>`。
+使用DITA map的`<topicmeta>`元素中存在的任何中繼資料，以條碼顯示。 確定使用正確的XPath。 例如，您可以在DITA map `<topicmeta>`中新增`<resourceid>`。
 
 在以下範例中，資源ID會作為產生條碼的主要輸入。
 

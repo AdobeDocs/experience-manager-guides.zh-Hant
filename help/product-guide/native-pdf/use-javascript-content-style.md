@@ -1,12 +1,11 @@
 ---
-title: 原生PDF發佈功能|使用JavaScript處理內容或樣式
+title: 原生PDF發佈功能 |使用JavaScript來處理內容或樣式
 description: 瞭解如何建立使用樣式表及內容的樣式。
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -66,7 +65,7 @@ window.addEventListener('DOMContentLoaded', function () {
 >
 >必須先呼叫`window.addEventListener('DOMContentLoaded', function ()`函式，才能使用回呼函式。
 
-接下來，必須從用來產生PDF輸出的範本檔案呼叫此指令碼。 例如，我們會將其新增到目錄範本中。 請確定`<script>`標籤已新增至`<div>`標籤內的預先定義`<body>`標籤內。 如果您將其新增至`<head>`標籤中或`<body>`標籤之外，指令碼將不會執行。
+接下來，必須從用來產生PDF輸出的範本檔案呼叫此指令碼。 例如，我們會將其新增到目錄範本中。 請確定`<script>`標籤已新增至`<body>`標籤內的預先定義`<div>`標籤內。 如果您將其新增至`<head>`標籤中或`<body>`標籤之外，指令碼將不會執行。
 
 <img src="./assets/js-added-resources-template.png" width="500">
 

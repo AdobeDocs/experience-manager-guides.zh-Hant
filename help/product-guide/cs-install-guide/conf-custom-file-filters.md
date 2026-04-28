@@ -5,10 +5,9 @@ exl-id: 1ef2cec8-2e77-40c1-9ed2-324048bf65fb
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -52,13 +51,13 @@ ht-degree: 0%
    在上述程式碼片段中，第一個篩選器是用於DITA檔案。 篩選定義會採用下列引數：
 
    標題
-：   篩選的顯示名稱。 此標題會以篩選選項的形式顯示在檔案瀏覽對話方塊中。
+：篩選的顯示名稱。 此標題會以篩選選項的形式顯示在檔案瀏覽對話方塊中。
 
    屬性
-：   要符合檔案中繼資料的屬性。 例如，若要僅允許屬性中具有`dita_class`中繼資料的檔案，屬性篩選器會將「`jcr:content/metadata/dita_class`」視為其值。
+：要符合檔案中繼資料的屬性。 例如，若要僅允許屬性中具有`dita_class`中繼資料的檔案，屬性篩選器會將「`jcr:content/metadata/dita_class`」視為其值。
 
    操作
-：   指定&quot; `exists`&quot;以符合屬性引數中指定的值是否存在。
+：指定&quot; `exists`&quot;以符合屬性引數中指定的值是否存在。
 
    第二個濾鏡是針對影像檔案。 除了`value`引數外，這些引數與第一個篩選器類似。 `value`引數以影像型別的陣列作為其值。 系統會搜尋在value引數中指定的所有檔案型別，並在檔案瀏覽對話方塊中顯示，而會忽略所有其他檔案型別。
 
@@ -69,4 +68,4 @@ ht-degree: 0%
    ![](assets/file-browse-custom-filters.png)
 
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

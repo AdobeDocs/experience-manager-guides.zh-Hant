@@ -5,10 +5,9 @@ exl-id: 69f408da-602d-4541-94fa-6f058773502f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -17,9 +16,9 @@ ht-degree: 0%
 
 AEM Guides提供與Web編輯器整合的強大文章式發佈功能。 使用此功能，您可以同時發佈一個或多個主題。 在地圖編輯器中開啟地圖後，您可以導覽至「輸出」標籤以建立預設集，然後選擇一個或多個主題以產生輸出。 您可以使用以文章為基礎的發佈功能，以遞增方式產生一或多個主題的輸出，或以逐篇文章的方式將您的內容發佈到知識庫平台。 如需更多詳細資料，請參閱使用手冊中的&#x200B;*網頁編輯器區段*&#x200B;的文章式發佈。
 
-若要啟用文章式發佈，請從Adobe軟體發佈入口網站下載並安裝下列套件。 安裝這些軟體以建立Tragopan網站。 \(Tragopan網站是範例知識庫AEM網站，包含類別、區段和文章頁面的範本。\)更新Tragopan網站，使用網頁編輯器的輸出預設集產生AEM網站輸出。
+若要啟用文章式發佈，請從Adobe軟體發佈入口網站下載並安裝下列套件。 安裝這些軟體以建立Tragopan網站。 \（Tragopan網站是一個範例知識庫AEM網站，包含類別、區段和文章頁面的範本。\）更新Tragopan網站，使用網頁編輯器的輸出預設集產生AEM網站輸出。
 
 - 文章式發佈的知識庫範本
 - 文章式發佈的元件套件
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

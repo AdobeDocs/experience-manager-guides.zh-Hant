@@ -5,10 +5,9 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: f59e3ad5-bf9c-468d-aab7-144c8c2335ac
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -195,7 +194,7 @@ ht-degree: 0%
 - 元件HTL和clientlibs： `ui.apps/src/main/content/jcr_root/apps/guides-components/components/table/`
    - `table.html` （HTL轉譯器）
    - `_cq_editConfig.xml` （重新整理接聽程式）
-   - 具有`clientlibs/`、`css.txt`、`js.txt`、`css/table.css`的`js/table.js`
+   - 具有`css.txt`、`js.txt`、`css/table.css`、`js/table.js`的`clientlibs/`
 - Sling模型： `core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - 影像演算服務： `core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 

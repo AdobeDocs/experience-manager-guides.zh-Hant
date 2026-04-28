@@ -5,10 +5,9 @@ exl-id: 268e8613-bb3b-4577-96fb-a588dabfd834
 feature: Publishing FrameMaker Documents
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;套件。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**套件。
    ![](assets/open-in-fm-config.png)
 
 1. 選取&#x200B;**在FrameMaker中顯示開啟按鈕**&#x200B;選項。
