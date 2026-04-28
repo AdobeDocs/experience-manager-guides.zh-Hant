@@ -5,9 +5,9 @@ feature: Authoring, Desktop Tools
 role: User
 hide: true
 exl-id: c6395d35-b8fd-446e-a17a-df7f5a432053
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ Oxygon XML Author提供使用者易記的編寫功能，並提供簡單易用的
 
 *請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這並非是現成支援的一部分。*
 
-**父級主題：**&#x200B;[&#x200B;使用案頭工具製作內容](author-desktop-tools.md)
+**父級主題：**[&#x200B;使用案頭工具製作內容](author-desktop-tools.md)

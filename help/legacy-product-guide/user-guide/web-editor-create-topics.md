@@ -5,9 +5,9 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ AEM Guides可讓您建立以下型別的DITA主題：主題、工作、概念、
 
    如果檔案命名選項可用，也會根據檔案的&#x200B;**標題**&#x200B;自動建議名稱。 如果您要手動指定檔名稱，請確定&#x200B;**名稱**&#x200B;不含任何空格、單引號或大括弧，且結尾為.xml或.dita。 依預設，AEM Guides會以連字型大小取代所有特殊字元。 如需命名DITA檔案的最佳作法，請參閱最佳作法指南中的檔案名稱一節。
 
-1. 按一下「**建立**」。「主題已建立」訊息便會顯示。
+1. 按一下「**建立**」。 「主題已建立」訊息便會顯示。
 
    您可以選擇在Web編輯器中開啟要編輯的主題，或將主題檔案儲存在AEM存放庫中。
 
@@ -50,7 +50,7 @@ AEM Guides可讓您建立以下型別的DITA主題：主題、工作、概念、
 
    ![](images/topic-version-none_cs.png){width="550" align="left"}
 
-   新建立之主題的版本資訊顯示為&#x200B;*none*。 儲存新版本時，會為其指定版本編號1.0。如需有關儲存新版本的詳細資訊，請參閱[另存為新版本](web-editor-features.md#save-as-new-version-id209ME400GXA)。
+   新建立之主題的版本資訊顯示為&#x200B;*none*。 儲存新版本時，會為其指定版本編號1.0。 如需有關儲存新版本的詳細資訊，請參閱[另存為新版本](web-editor-features.md#save-as-new-version-id209ME400GXA)。
 
 
 >[!NOTE]
@@ -61,4 +61,4 @@ AEM Guides可讓您建立以下型別的DITA主題：主題、工作、概念、
 >
 > 建立DITA主題後，請繼續儲存對工作副本所做的變更，並在完成主題更新後建立新版本。
 
-**父級主題：**&#x200B;[&#x200B;建立和預覽主題](create-preview-topics.md)
+**父級主題：**[&#x200B;建立和預覽主題](create-preview-topics.md)

@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
-1. 在[新增預設集]對話方塊中輸入預設集名稱，然後按一下[新增]。**&#x200B;**
+1. 在[新增預設集]對話方塊中輸入預設集名稱，然後按一下[新增]。****
 
 1. 輸入下列組態詳細資訊。
 
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**上層主題：**&#x200B;[&#x200B;網頁編輯器的文章式發佈](web-editor-article-publishing.md)
+**上層主題：**[&#x200B;網頁編輯器的文章式發佈](web-editor-article-publishing.md)

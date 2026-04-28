@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 284fafeb-cc0f-49c0-86a3-3aec7418a632
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 >
 > 若要開啟HTML5的輸出預設集，請按一下FrameMaker \（`.fm`或`.book`\）檔案，然後按一下「輸出預設集」，再按一下HTML5選項。
 
-| HTML5選項 | 描述 |
+| HTML5選項 | 說明 |
 |------------|-----------|
 | 輸出類型 | 您要產生的輸出型別。 若要產生HTML5輸出，請選擇HTML5選項。 |
 | 設定名稱 | 為您正在建立的HTML5輸出設定提供描述性名稱。 例如，您可以指定&#x200B;*內部客戶輸出*&#x200B;或&#x200B;*一般使用者輸出*。 |
@@ -28,4 +28,4 @@ ht-degree: 5%
 | 目的地路徑 | AEM存放庫內儲存HTML5輸出的路徑。 |
 | 執行後期產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。 |
 
-**父級主題：**&#x200B;[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)
+**父級主題：**[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)

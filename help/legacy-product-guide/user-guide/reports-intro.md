@@ -5,16 +5,16 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 377664ec-b7e5-48b9-ae47-ddae8968736b
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
 
 # 報告 {#id1645H9007MZ}
 
-在組織設定中，您想要先驗證技術檔案的整體完整性，然後再開始處理或即時推送檔案。 在多使用者和大規模環境中，這樣的需求變得更加重要。 AEM Guides提供了一些報表，為您存放庫內容的整體健康狀況，以及說明檔案流程中如何使用內容提供了有用的深入分析。
+在組織設定中，您想要先驗證技術檔案的整體完整性，然後再開始處理或即時推送檔案。 在多使用者和大規模環境中，這樣的需求變得更加重要。 AEM Guides提供一些報表，這些報表為存放庫中內容的整體健全狀況以及說明檔案過程中如何使用內容提供了有用的insight。
 
 您可以使用兩種方式建立DITA map報表：
 

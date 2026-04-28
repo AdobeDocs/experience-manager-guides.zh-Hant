@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2362'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 - 按一下註解會反白顯示檔案中的對應註解位置。
 - 您可以新增評論的回覆。
-- 您可以在[註解]面板中按一下註解文字，然後從[選項]功能表選取[編輯] **&#x200B;**，編輯您自己的註解。
+- 您可以在[註解]面板中按一下註解文字，然後從[選項]功能表選取[編輯] ****，編輯您自己的註解。
 - 您可以按一下「註解」面板中的註解，然後從「選項」功能表選取&#x200B;**刪除**&#x200B;選項，刪除自己的註解。
 
   ![](images/review-comment-options-menu.png){width="300" align="left"}
@@ -250,4 +250,4 @@ ht-degree: 0%
 
 若要移除篩選器並檢視所有註解，請從&#x200B;**篩選器型別**&#x200B;對話方塊中取消選取所有篩選器，然後按一下&#x200B;**套用**。
 
-**父級主題：**&#x200B;[&#x200B;檢閱主題或地圖](review.md)
+**父級主題：**[&#x200B;檢閱主題或地圖](review.md)

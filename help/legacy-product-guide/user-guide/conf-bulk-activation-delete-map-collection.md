@@ -5,9 +5,9 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: 374f8265-9aa0-4a08-8afa-ae9ce0cb33e6
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ ht-degree: 0%
    大量啟用地圖集合已從系統刪除。
 
 
-**父級主題：**&#x200B;[&#x200B;大量啟用已發佈的內容](conf-bulk-activation.md)
+**父級主題：**[&#x200B;大量啟用已發佈的內容](conf-bulk-activation.md)

@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**作者**&#x200B;索引標籤中，選取DITA map中您要發佈的主題。
 
-1. 從選取主題的[選項]功能表中選取[快速產生] **&#x200B;**。
+1. 從選取主題的[選項]功能表中選取[快速產生] ****。
    ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
 
 1. 若要發佈單一DITA map中所使用的主題，請選取您要用來發佈的輸出預設集，然後按一下&#x200B;**產生**。
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**作者**&#x200B;索引標籤中，選取您要發佈的主題。
 
-1. 從底部的[選項]功能表選取[產生輸出]。**&#x200B;**
+1. 從底部的[選項]功能表選取[產生輸出]。****
 
 1. 選取您要用來發佈的DITA map輸出預設集。
 
@@ -86,4 +86,4 @@ ht-degree: 0%
 1. 您將會看到輸出產生程式的狀態。若要檢視輸出，請將滑鼠指標停留在主題上，然後按一下「檢視輸出」。
 
 
-**上層主題：**&#x200B;[&#x200B;網頁編輯器的文章式發佈](web-editor-article-publishing.md)
+**上層主題：**[&#x200B;網頁編輯器的文章式發佈](web-editor-article-publishing.md)

@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -125,4 +125,4 @@ ht-degree: 0%
 - 在所有主題上發表的評論總數。 若有多個正在檢閱的主題，則會對主題名稱提及\（在方括弧中\）每個主題的註解數。
 - 檢閱者上次存取任何主題的日期。
 
-**父級主題：**&#x200B;[&#x200B;檢閱主題或地圖](review.md)
+**父級主題：**[&#x200B;檢閱主題或地圖](review.md)

@@ -5,9 +5,9 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: dd5b2648-37e1-4737-bd9d-8618f735d11f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -40,4 +40,4 @@ AEM Guides隨附新增智慧標籤的功能。 您可以使用XML關鍵字擷取
 
 *請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這並非是現成支援的一部分。*
 
-**父級主題：**&#x200B;[&#x200B;管理中繼資料](manage-metadata.md)
+**父級主題：**[&#x200B;管理中繼資料](manage-metadata.md)

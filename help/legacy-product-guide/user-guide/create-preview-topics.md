@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 71929e00-adda-4644-be4a-df9574cc8e46
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
@@ -21,4 +21,4 @@ AEM Guides提供強大的功能，可從Assets UI建立DITA主題。 接著，�
 - **[預覽主題](web-editor-preview-topics.md)**
 
 
-**父級主題：**&#x200B;[&#x200B;作者內容](authoring-content.md)
+**父級主題：**[&#x200B;作者內容](authoring-content.md)

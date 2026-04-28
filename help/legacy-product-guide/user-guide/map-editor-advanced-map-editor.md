@@ -1,76 +1,76 @@
 ---
-title: 使用進階地圖編輯器
-description: 瞭解如何使用AEM Guides中的進階地圖編輯器。 瞭解進階地圖編輯器的功能。 透過DITA map編輯主題，並使用版面檢視、作者檢視和預覽模式。
+title: Work with the Advanced Map Editor
+description: Learn how to work with the advanced map editor in AEM Guides. Know the features of the advanced Map Editor. Edit topics through a DITA map and use layout view, author view, and preview mode.
 feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3838'
 ht-degree: 0%
 
 ---
 
-# 使用進階地圖編輯器 {#id1942D0S0IHS}
+# Work with the Advanced Map Editor {#id1942D0S0IHS}
 
-進階地圖編輯器提供直覺式使用者介面，與網頁編輯器類似。 當您在Web編輯器中開啟對映檔案時，您會獲得使用「進階對映編輯器」介面編輯對映檔案的選項。 進階地圖編輯器可讓您新增主題參照、關鍵參照、內容結構等等。
+The Advanced Map Editor comes with intuitive user interface and it is similar to the Web Editor. When you open a map file in the Web Editor, you get an option to edit the map file using the Advanced Map Editor interface. The Advanced Map Editor allows you to add topic references, key references, structure your content and more.
 
-除了直接從Web編輯器編輯對映檔案外，您也可以在對映中開啟主題檔案以編輯Web編輯器。 本主題將逐步引導您瞭解「進階對映編輯器」中的功能，以及如何在Web編輯器的DITA map中開啟及編輯檔案。
+In addition to editing map files directly from the Web Editor, you can also open topic files in a map for editing the Web Editor. This topic walks you through the features in the Advanced Map Editor and how you can open and edit files in a DITA map in the Web Editor.
 
-## 將主題新增至地圖檔案
+## Add topics to a map file
 
-執行以下步驟，使用進階地圖編輯器建置地圖檔案：
+Perform the following steps to build your map file using the Advanced Map Editor:
 
 1. 在Assets UI中，導覽至您要編輯的地圖檔案。
 
    >[!NOTE]
    >
-   > 確認您尚未啟用資產選取模式。
+   > Ensure that you have not enabled the asset Select mode.
 
 1. 若要取得對映檔案的獨佔鎖定，請選取對映檔案，然後按一下&#x200B;**簽出**。
 
    >[!NOTE]
    >
-   > 一旦您擁有對應檔案的獨佔鎖定，其他使用者將無法編輯對應。 但是，他們能夠處理對應檔案中的主題。 如果您的管理員已將您的網頁編輯器設定為在編輯之前簽出檔案，則您將無法編輯檔案，直到您將其簽出為止。 同樣地，如果已設定，系統會在關閉檔案前，要求您簽入任何已簽出的檔案
+   > Once you have an exclusive lock on a map file, other users would not be able to edit the map. However, they would be able to work on the topics within the map file. If your administrator has configured your Web Editor to checkout files before editing, then you will not be able to edit a file until you check it out. Similarly, if configured, you will be asked to check-in any checked-out a file before closing it
 
-1. 選取地圖檔案後，按一下&#x200B;**編輯主題**。
+1. With the map file selected, click **Edit Topics**.
 
    ![](images/edit-map-main-menu.png){width="800" align="left"}
 
-   或者，您也可以從對應檔案的動作功能表中選取&#x200B;**編輯主題**&#x200B;選項：
+   Or, you can also select the **Edit Topics** option from the action menu on the map file:
 
    ![](images/edit-map-action-menu.png){width="800" align="left"}
 
-   會開啟對應檔案，以便在網頁編輯器的中進行編輯。
+   The map file is opened for editing in the in the Web Editor.
 
-1. 按一下&#x200B;**編輯**&#x200B;圖示。
+1. Click the **Edit** icon.
 
    ![](images/edit-map-icon.png){width="550" align="left"}
 
-   會在進階對應編輯器介面中開啟對應。 如果您已開啟新的地圖檔案，則編輯器中只會顯示地圖的標題。
+   The map is opened in the Advanced Map Editor interface. If you have opened a new map file, then only the title of the map is shown in the editor.
 
    ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
-   - **A** - \（*主工具列*\）：這類似於Web編輯器的主工具列。 如需詳細資訊，請參閱網頁編輯器中的[主工具列](web-editor-features.md#id2051EA0G05Z)。
+   - **A** - \(*Main toolbar*\): This is similar to the Web Editor&#39;s main toolbar. See [Main toolbar](web-editor-features.md#id2051EA0G05Z) in the Web Editor for more details.
 
-   - **B** - \（*次要工具列*\）這是可讓您使用對應檔案的次要工具列。 如需有關次要工具列可用功能的詳細資訊，請參閱「進階地圖編輯器」工具列中的[可用功能](#id205DEC0005Z)。
+   - **B** - \(*Secondary toolbar*\) This is the Secondary toolbar that allows you to work with map files. For more information about the functionalities available through Secondary toolbar, see [Features available in the Advanced Map Editor&#39;s toolbar](#id205DEC0005Z).
 
-   - **C** - \（*地圖檢視*\）：可讓您在版面配置、作者、Source和預覽之間切換地圖編輯器。 **配置**&#x200B;檢視可讓您在DITA map中組織主題。 這會提供地圖的樹狀結構或階層檢視。 **作者**&#x200B;檢視可讓您在地圖編輯器中編輯主題。 這也會提供地圖檔案的WYSIWYG檢視。 **Source**&#x200B;檢視可讓您使用對應檔的基礎XML。 「預覽」可為您提供地圖檔案中所有主題和子地圖的整合檢視。 **關閉**&#x200B;連結會關閉對應檔案。
+   - **C** - \(*Map views*\): Allows you to switch the Map Editor between the Layout, Author, Source and Preview. The **Layout** view allows you to organize the topics in a DITA map. This gives the tree or hierarchical view of the map. The **Author** view allows you to edit the topics in the Map Editor. This also gives the WYSIWYG view of the map file. The **Source** view allows you to work with the underlying XML of the map file. The Preview gives you a consolidated view of all topic and sub-maps within the map file. The **Close** link closes the map file.
 
-   - **D** - \（*左側面板*\）：提供左側面板的存取權，可讓您存取我的最愛、存放庫、地圖、大綱和其他功能。 您可以按一下「展開側欄」圖示\(![](images/sidebar-expand-icon.svg)\)來展開或收合它。 如需有關左側面板中可用功能的詳細資訊，請參閱網頁編輯器中的[左側面板](web-editor-features.md#id2051EA0M0HS)。
+   - **D** - \(*Left Panel*\): Gives access to the left panel which gives you access to the Favorites, Repository, Map, Outline and other features. 您可以按一下「展開側欄」圖示\(![](images/sidebar-expand-icon.svg)\)來展開或收合它。 For more details about the features available in the left panel, see [Left panel](web-editor-features.md#id2051EA0M0HS) in the Web Editor.
 
-   - **E** - \（*中間區域*\）：對應內容編輯區域。
+   - **E** - \(*Middle Area*\): Map content editing area.
 
-   - **F** - \（*右側面板*\）：提供屬性面板的存取權。 您可以檢視所選主題或地圖的內容屬性和地圖屬性。 如需此面板中可用功能的詳細資訊，請參閱網頁編輯器中的[右側面板](web-editor-features.md#id2051EB003YK)。
+   - **F** - \(*Right Panel*\): Gives access to the Properties panel. You can see the content properties and the map properties of the selected topic or map. For more details about the functionalities available in this panel, see [Right panel](web-editor-features.md#id2051EB003YK) in the Web Editor.
 
-1. 在左側面板中，切換至&#x200B;**存放庫檢視**。
+1. In the Left Panel, switch to the **Repository View**.
 
-1. 在AEM存放庫中，導覽至包含您要新增之主題或子地圖的資料夾。
+1. In the AEM repository, navigate to the folder that contains the topics or sub-maps that you want to add.
 
-1. 在&#x200B;**存放庫檢視**&#x200B;中選取主題或地圖檔案，並將其拖放到\(middle\)地圖內容編輯區域中。
+1. Select the topic or map file in the **Repository View** and drag-and-drop it into the \(middle\) map content editing area.
 
-   主題會新增至地圖中。
+   The topic is added in the map.
 
    ![地圖編輯器新增主題](images/map-editor-add-topic.png){width="800" align="left"}
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
    - 若要檢查地圖檔案的屬性，請在地圖編輯區域的任意位置按一下滑鼠右鍵，然後從內容功能表中選擇&#x200B;**屬性**。 根據您的AEM版本，您可以看到中繼資料、排程\(de\)啟動、參考、檔案狀態等屬性。
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 
 ## 進階地圖編輯器工具列中的可用功能 {#id205DEC0005Z}
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 **版本標籤** - ![](images/version-label-icon.svg)
 
-顯示版本標籤管理對話方塊。 從下拉式清單中選取版本。 選擇您要套用至所選版本的標籤，然後按一下[新增標籤] **&#x200B;**&#x200B;以新增標籤。
+顯示版本標籤管理對話方塊。 從下拉式清單中選取版本。 選擇您要套用至所選版本的標籤，然後按一下[新增標籤] ****&#x200B;以新增標籤。
 
 **檢視選項** - ![](images/view-options.svg)
 
@@ -207,7 +207,7 @@ ht-degree: 0%
 - **新增**：您可以選擇從地圖編輯器新增主題或空白參照：
    - **空白參考**：此選項可讓您在DITA map中新增空白參考。 您可以稍後連按兩下插入的空白參照，然後新增主題詳細資訊。 如需詳細資訊，請參閱[在網頁編輯器中建立主題](web-editor-features.md#id228ICI0105U)。
    - **新主題**：當您選擇從功能表建立新主題時，您會看到[建立新主題]對話方塊。 在建立新主題對話方塊中，提供所需的詳細資訊，然後按一下建立。 如需詳細資訊，請參閱[在網頁編輯器中建立主題](web-editor-features.md#id228ICI0105U)。
-- **移動**：您可以選擇在階層中上下左右移動主題。您也可以從存放庫面板將主題或地圖拖放至在地圖編輯器中開啟的地圖。
+- **移動**：您可以選擇在階層中上下左右移動主題。您也可以從存放庫面板將主題或地圖拖放至在「地圖編輯器」中開啟的地圖。
 - **還原**：還原配置檢視中的上一個作業。
 - **取消復原**：取消復原[配置]檢視中的最後一個作業。
 - **複製**：從對應檔複製選取的參考。
@@ -269,11 +269,11 @@ ht-degree: 0%
 
 **重新整理導覽標題屬性** - ![](images/navtitle-refresh-icon.svg)
 
-將對應中參考檔案的`title`元素與其`@navtitle`屬性中指定的值同步。 您可以在地圖中新增不同型別的參考檔案，例如主題、參考、任務、\(sub\)地圖等等。 這些檔案大多支援`@navtitle`屬性。 如果檔案包含`@navtitle`屬性，則會更新對應中相同檔案的`@navtitle`屬性。 如果`@navtitle`屬性不存在，則會將`@navtitle`屬性新增至該參考檔案，並且其`title`也會更新以顯示`@navtitle`。
+將對應中參考檔案的`title`元素與其`@navtitle`屬性中指定的值同步。 您可以在地圖中新增不同型別的參考檔案，例如主題、參考、任務、\(sub\)地圖等等。 這些檔案大多支援`@navtitle`屬性。 If a file contains the `@navtitle` attribute, then the `@navtitle` attribute for the same file in map is updated. 如果`@navtitle`屬性不存在，則會將`@navtitle`屬性新增至該參考檔案，並且其`title`也會更新以顯示`@navtitle`。
 
 >[!NOTE]
 >
-> 您的管理員可以設定自動新增`@navtitle`屬性至您新增到對應的每個參考檔案。 如需有關設定自動新增`@navtitle`屬性的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*預設包含@navtitle屬性*。
+> Your administrator can configure auto-adding `@navtitle` attribute to every reference file that you add to a map. 如需有關設定自動新增`@navtitle`屬性的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*預設包含@navtitle屬性*。
 
 按一下「重新整理導覽標題屬性」圖示，以同步`title`專案和`@navtitle`屬性的值。
 

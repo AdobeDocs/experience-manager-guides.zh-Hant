@@ -5,16 +5,16 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
 # 下載檔案 {#id216MC0H0BE8}
 
-您可以下載資產，包括DITA和非DITA檔案。 您可以透過多種方式下載資產，有些是AEM的原生方法，有些則受AEM Guides支援。 如需原生AEM資產下載資訊，請參閱AEM檔案中的[從Adobe Experience Manager下載資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=zh-Hant)。 下節將說明透過AEM Guides中的DITA map主控台下載檔案的機制。
+您可以下載資產，包括DITA和非DITA檔案。 您可以透過多種方式下載資產，有些是AEM的原生方法，有些則受AEM Guides支援。 如需原生AEM資產下載資訊，請參閱AEM檔案中的[從Adobe Experience Manager下載資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)。 下節將說明透過AEM Guides中的DITA map主控台下載檔案的機制。
 
 ## 匯出DITA map檔案
 
@@ -34,11 +34,10 @@ ht-degree: 0%
 
    ![](images/download-map.png){width="300" align="left"}
 
-1. 按一下&#x200B;**下載**。 在「下載對應」對話方塊中，您可以選擇下列選項：
+1. 按一下「**下載**」。 在「下載對應」對話方塊中，您可以選擇下列選項：
 
    - **使用基準線**：選取此選項可取得為DITA map建立的基準線清單。 如果您要根據特定的「基準線」下載對映檔案及其內容，請從下拉式清單中選取「基準線」。 如需使用基準線的詳細資訊，請參閱[使用基準線](generate-output-use-baseline-for-publishing.md#)。
    - **平面化檔案階層**：選取此選項可將所有參考的主題和媒體檔案儲存在單一資料夾中。
-
    >[!NOTE]
    >
    > 您也可以在不選取任何選項的情況下下載地圖檔案。 在這種情況下，會下載參照的主題和媒體檔案的最後一個儲存版本。
@@ -59,4 +58,4 @@ ht-degree: 0%
 
 下載地圖後，您可以選取地圖，並使用頂端的開啟圖示開啟選取的報表。
 
-**父級主題：**&#x200B;[&#x200B;管理內容](authoring.md)
+**父級主題：**[&#x200B;管理內容](authoring.md)

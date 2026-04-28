@@ -5,10 +5,10 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 9%
+source-wordcount: '741'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ AEM中內容管理的一些主要概念如下：
 
 **資產管理**
 
-AEM Guides使用AEM的數位資產管理\(DAM\)來管理您的DITA檔案。 您上傳或簽入DAM的檔案會儲存為數位資產。 您可以在AEM Assets中管理和編輯資產。 如需資產管理的詳細資訊，請參閱[管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=zh-Hant)。
+AEM Guides使用AEM的數位資產管理\(DAM\)來管理您的DITA檔案。 您上傳或簽入DAM的檔案會儲存為數位資產。 您可以在AEM Assets中管理和編輯資產。 如需資產管理的詳細資訊，請參閱[管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en)。
 
 **連結管理**
 

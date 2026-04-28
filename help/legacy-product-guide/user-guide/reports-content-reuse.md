@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 6050e2667698150df9f76068dce4ca9f9b56a443
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,11 @@ ht-degree: 0%
 
       - **重複使用的次數**：已重複使用對應主題的次數。 計算方式為「參考者」欄的專案總計減去1。
 
-      - **參考者**：已參考對應主題的主題。 在此，只會考慮直接\（第一級\）參照。 多個主題會以逗號分隔。 參考檔案的UUID也會在方括弧中提及。按一下主題標題連結會開啟主題預覽。
+      - **參考者**：已參考對應主題的主題。 在此，只會考慮直接\（第一級\）參照。 多個主題會以逗號分隔。 參考檔案的UUID也會在方括弧中提及。按一下主題的標題連結會開啟主題預覽。
 
 
 >[!NOTE]
 >
 > 您也可以將「內容重複使用報表」匯出為CSV格式。 若要這麼做，請按一下畫面左上角的「匯出至CSV」連結，然後選擇儲存CSV檔案的位置。 然後您可以使用任何CSV編輯器開啟此CSV檔案。
 
-**父級主題：**&#x200B;[&#x200B;報告](reports-intro.md)
+**父級主題：**[&#x200B;報告](reports-intro.md)

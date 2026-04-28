@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 1d914a5f-df1f-45eb-86ac-72485fdf07fe
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '840'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 若要開啟EPUB的輸出預設集，請按一下DITA map檔案、按一下輸出預設集，然後按一下EPUB選項。 下列選項適用於EPUB輸出：
 
-| ePub選項 | 描述 |
+| ePub選項 | 說明 |
 | --- | --- |
 | 輸出類型 | 您要產生的輸出型別。 若要產生EPUB輸出，請選擇EPUB選項。 |
 | 設定名稱 | 為您正在建立的EPUB輸出設定提供描述性名稱。 例如，您可以指定&#x200B;_內部客戶輸出_&#x200B;或&#x200B;_一般使用者輸出_。 |
@@ -33,8 +33,8 @@ ht-degree: 1%
 | 檔案名稱 | 指定您要用來儲存EPUB輸出的檔案名稱。<br><br>**注意**：如果您未提供檔案名稱，則會使用DITA map的標題來產生最終的EPUB輸出檔案名稱。 如果地圖沒有標題，則會使用DITA map的檔案名稱來命名最終EPUB輸出。 系統會使用系統中設定的規則來清除檔案名稱，以處理任何無效字元。 |
 | 轉換名稱 | 指定您要產生的輸出型別。 如果您想要使用自己的自訂外掛程式產生輸出（已整合在DITA-OT外掛程式中），則需要此專案。 例如，如果您要產生XHTML輸出，請指定`xhtml`。 如需DITA-OT中可用的轉換清單，請參閱OASIS DITA-OT使用手冊中的[DITA-OT轉換（輸出格式）](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.md)。 |
 | 清除DITA-OT暫存檔 | 選取此選項可清除DITA-OT產生的暫存檔案。 可以在輸出產生記錄中找到DITA-OT儲存暫存檔的位置。<br><br>如果您在透過DITA-OT產生輸出時發生錯誤，可以取消選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。 |
-| 執行後期產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。<br><br>**注意**：如需建立自訂輸出後產生工作流程的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;_自訂輸出後產生工作流程_。 |
+| 執行後期產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取在輸出產生工作流程完成後要執行的工作流程。<br><br>**注意**：如需建立自訂輸出後產生工作流程的詳細資訊，請參閱安裝和設定Adobe Experience Manager Guides as a Cloud Service中的&#x200B;_自訂輸出後產生工作流程_。 |
 | 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>如需詳細資訊，請參閱[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)。 |
-| 屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會列在「屬性」欄位下方，並從下拉式清單中移除。 設定後，這些屬性也會複製到對映中的主題中。<br><br>**附註**：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資訊，請參閱[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞給輸出。 |
+| 屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會列在「屬性」欄位下方，並從下拉式清單中移除。 設定之後，這些屬性也會複製到對映中的主題中。<br><br>**注意**：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資訊，請參閱[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞給輸出。 |
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

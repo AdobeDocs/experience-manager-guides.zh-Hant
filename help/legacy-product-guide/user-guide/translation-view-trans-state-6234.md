@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: 261c24f2-be9e-4a6b-9b1f-0850d960d49e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ ht-degree: 0%
    >
    > 您可以根據內容的翻譯狀態\（如不同步、缺少副本、進行中或同步\）、Source型別\（如全部、DITA、DITA map或資源\）、修改日期來進一步篩選內容。 您也可以輸入關鍵字來搜尋特定主題。
 
-**父級主題：**&#x200B;[&#x200B;翻譯內容](translation.md)
+**父級主題：**[&#x200B;翻譯內容](translation.md)

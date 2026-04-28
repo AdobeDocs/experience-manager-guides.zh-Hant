@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 1928364f-3ea9-4e53-9184-dad8fe40f58c
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ AEM Guides的「地圖編輯器」可讓您建立和編輯地圖檔案。 使用
 - 地圖編輯器中的&#x200B;**[其他功能](map-editor-other-features.md)**
 
 
-**父級主題：**&#x200B;[&#x200B;使用AEM Guides製作內容](authoring-content-xml-doc.md)
+**父級主題：**[&#x200B;使用AEM Guides製作內容](authoring-content-xml-doc.md)
