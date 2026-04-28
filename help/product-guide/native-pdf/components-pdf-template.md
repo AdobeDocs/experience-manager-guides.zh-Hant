@@ -236,7 +236,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
   >如果您是CSS開發人員，則也可以直接在CSS檔案中定義導線格式。
 
 * **使用資料表接續標籤**：選取此選項可定義跨多頁之長資料表的標籤。
-您可以定義要在分頁前後顯示的文字。 例如，表格在第5頁中斷，而您為**中斷前文字**&#x200B;定義`<Continued on page %page-num%>`。  文字在第5頁底部顯示「繼續於第6頁」。
+您可以定義要在分頁前後顯示的文字。 例如，表格在第5頁中斷，而您為&#x200B;**中斷前文字**&#x200B;定義`<Continued on page %page-num%>`。  文字在第5頁底部顯示「繼續於第6頁」。
 
   使用語言變數來定義分行前後連續標籤文字。 根據您選取的語言，系統會自動在PDF輸出中挑選當地語系化的值。 例如，您可以將`Continued on page %page-num%`以英文和德文的文字發佈。`Fortsetzung auf Seite %page-num%`
 
@@ -459,11 +459,11 @@ AEM Guides提供下列現成可用的變數：
 當您將`${lng:<variable name>}`新增至「段落」區段時，輸出段落中的互動參照會包含當地語系化文字和頁碼。\
 例如，下列熒幕擷取畫面以英文顯示「View on page 1」互動參照，以德文顯示「Einzelheiten finden Sie auf der Seite 1」。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出" width ="800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出&quot; width =&quot;800" border="2px">
 
 *以英文發佈時，段落中的互動參照。*
 
-<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出" width ="800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出&quot; width =&quot;800" border="2px">
 
 
 *以德文發佈時，段落中的互動參照。*

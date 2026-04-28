@@ -42,4 +42,4 @@ AEM Guides提供與Web編輯器整合的強大文章式發佈功能。 使用此
 
 您可以使用AEM網站，透過網頁編輯器的輸出預設集來發佈文章。
 
-**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)

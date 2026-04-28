@@ -22,4 +22,4 @@ ht-degree: 1%
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | 布林值\(true/false\)。 如果要顯示連結內容的相對路徑，則將此屬性設定為false。<br> **預設值**： true |
 
-**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)

@@ -21,4 +21,4 @@ AEM Guides提供與Web編輯器整合的強大文章式發佈功能。 使用此
 - 文章式發佈的知識庫範本
 - 文章式發佈的元件套件
 
-**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)

@@ -144,4 +144,4 @@ ht-degree: 0%
 1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入網頁編輯器。
 
 
-**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)

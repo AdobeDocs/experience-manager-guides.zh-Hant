@@ -49,4 +49,4 @@ ht-degree: 0%
 1. 按一下&#x200B;**讓快取失效**。
 1. 清除瀏覽器的快取。
 
-**上層主題：**[&#x200B;下載並安裝](download-install.md)
+**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)
