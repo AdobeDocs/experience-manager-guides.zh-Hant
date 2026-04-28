@@ -1,42 +1,42 @@
 ---
 title: 管理檔案和資料夾
-description: 瞭解如何在AEM Guides中管理檔案和資料夾。 複製並貼上、拖放、刪除、大量移動檔案和資料夾，以及搜尋DITA內容。
+description: Learn how to manage files and folders in AEM Guides. Copy and paste, drag and drop, delete, move files and folders in bulk, and search DITA content.
 feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3144'
 ht-degree: 0%
 
 ---
 
 # 管理檔案和資料夾 {#id2116G0L08XA}
 
-本節說明AEM Guides如何處理基本檔案操作，例如複製、貼上、拖放和刪除檔案。 可能會出現以下情況：
+This section explains how AEM Guides handles the basic file operations, such as copy, paste, drag-and-drop, and delete files. The following scenarios are possible:
 
-## 複製並貼上檔案
+## Copy and paste files
 
-**如果檔案有人類可讀的檔案名稱**
+**If the file has human readable filename**
 
-- *如果目的地資料夾中不存在相同名稱的檔案*：已建立檔案的新復本，且已為其指派UUID。 在這裡，檔案名稱與原始檔案名稱相同。
-- *如果目的地資料夾中已存在相同名稱的檔案*：已建立含有尾碼\（如filename0.extension\）的新檔案復本。 UUID也會指派給新建立的檔案。
-
-
-**如果檔案名稱是以UUID模式為基礎**
-
-- *如果目的地資料夾中不存在相同名稱的檔案*：已建立檔案的新復本，且已在新位置為其指派新的UUID。 在這裡，檔案名稱與UUID相同。
-- *如果目的地資料夾中已存在相同名稱的檔案*：已建立檔案的新復本，且已指派新的UUID。 檔案名稱與UUID相同。
+- *If the file with the same name does not exist in the destination folder*: A new copy of the file is created and a UUID is also assigned to it. Here, the file name is same as the original file name.
+- *If the file with the same name already exists in the destination folder*: A new copy of the file is created with a suffix \(like filename0.extension\). A UUID is also assigned to the newly created file.
 
 
-## 複製並貼上資料夾
+**If the filename is based on a UUID pattern**
 
-**在同一位置複製並貼上資料夾**
+- *If the file with the same name does not exist in the destination folder*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Here, the file name is same as the UUID.
+- *If the file with the same name already exists in the destination folder*: A new copy of the file is created and a new UUID is also assigned to it. The file name is same as the UUID.
 
-- *資料夾中有可讀取檔案名稱的檔案*：資料夾的新復本是以尾碼\（如foldername0\）建立。 新的UUID也會指派給資料夾內的檔案。 不過，檔案名稱沒有變更。
 
-- *資料夾中有檔案名稱是以UUID模式為基礎*：資料夾的新復本是以\（如foldername0\）尾碼建立的。 新的UUID也會指派給新資料夾中的所有檔案。 檔案名稱也會變更；檔案名稱會與新的UUID相同。
+## Copy and paste folders
+
+**Copy and paste folder at the same location**
+
+- *The folder has files with human readable filenames*: A new copy of the folder is created with a suffix \(like foldername0\). A new UUID is also assigned to the files within the folder. However, there is no change in the file names.
+
+- *The folder has files with filenames based on a UUID pattern*: A new copy of the folder is created with a suffix \(like foldername0\). A new UUID is also assigned to all files within the new folder. The file names are also changed; the file names are same as the new UUID.
 
 
 **在不同位置複製並貼上資料夾**

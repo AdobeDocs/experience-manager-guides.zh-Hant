@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2408'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,6 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
       - 如果您已選取Jira排序清單範本，則可檢視Jira問題的排序清單。
 
    1. 來源檢視會顯示DITA來源檢視中的資料。
-
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *新增內容片段產生器。 以來源或預覽模式檢視資料。*
 
@@ -232,7 +231,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
    >
    > 主題產生器會在與主題相同的輸出路徑上產生DITA map。
 
-   **中繼資料**
+   **後設資料**
 
    從下拉式清單中選取中繼資料屬性，以傳遞至主題。 **Name**&#x200B;下拉式清單同時列出自訂和預設屬性。
 

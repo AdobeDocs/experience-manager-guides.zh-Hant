@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ddd6da80-d179-4da3-bff2-915c17bb6e5a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 AEM Guides隨附整合在網頁編輯器中的文章式發佈功能，可讓使用者同時發佈一或多個主題。
 
-此引擎也隨附OOTB內容範本(以AEM核心元件為基礎)，可讓使用者建立技術內容的知識型存放庫。 此範本可自訂以符合客戶的需求。此引擎可讓使用者以累加方式建置DITA map，並在準備好時發佈主題。 您可以輕鬆地為在「對映檢視」面板中開啟的對映建立輸出預設集，並快速為相同對映的一個或多個主題產生輸出。
+此引擎也隨附OOTB內容範本（以AEM核心元件為基礎），可讓使用者建立技術內容的知識型存放庫。 此範本可自訂以符合客戶的需求。此引擎可讓使用者以累加方式建置DITA map，並在準備好時發佈主題。 您可以輕鬆地為在「對映檢視」面板中開啟的對映建立輸出預設集，並快速為相同對映的一個或多個主題產生輸出。
 
 如果您只更新了DITA map中幾個主題的內容，則不必每次都發佈整個對應。 您只能從網頁編輯器中選取和發佈更新的主題。
 

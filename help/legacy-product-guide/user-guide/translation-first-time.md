@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1315'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 - 確保負責啟動翻譯流程的使用者擁有來源和目標語言資料夾的讀取、修改、建立及刪除許可權。
 - 由於翻譯內容需要建立翻譯專案，因此使用者必須擁有在AEM中建立專案的存取權。
 - 如果要將條件預設集與地圖搭配使用，您必須在啟動翻譯程式之前建立它們。 由於「條件預設集」也隨附在翻譯版本的地圖中，因此在啟動翻譯程式之前建立預設集可確保它們在翻譯版本中可用。
-- 內容翻譯程式必須從DITA map主控台(而非AEM Assets UI)啟動。
+- 內容翻譯程式必須從DITA map主控台（而非AEM Assets UI）啟動。
 - 如果您透過人工翻譯來翻譯內容，則不得使用元件式DITA翻譯工作流程。 不過，此選項必須用於機器翻譯。
 - 全球使用的內容與媒體若不需要本地化，應避免使用語言副本。
 - 所有必須本地化的通用內容都應儲存在語言資料夾下的通用資料夾中。

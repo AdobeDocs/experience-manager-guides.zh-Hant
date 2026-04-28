@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ AEM Guides提供DITA專案範本，您可用來建立和管理稽核任務。
       >
       >您會在此下拉式清單中看到其他使用者型別，但對於DITA專案，您應該只從「作者」、「稽核者」或「發佈者」使用者型別中進行選擇。 即使您新增其他型別的使用者，該使用者將無法存取AEM Guides中提供的任何DITA特定功能。
 
-   1. 按一下&#x200B;**新增**。
+   1. 按一下&#x200B;**「新增」**。
 
       >[!NOTE]
       >
@@ -70,7 +70,7 @@ AEM Guides提供DITA專案範本，您可用來建立和管理稽核任務。
 
    - 輸入專案名稱。 此名稱用於建立此專案的URL。
 
-1. 按一下&#x200B;**建立**。
+1. 按一下「**建立**」。
 
    「建立的專案」對話方塊隨即顯示。
 

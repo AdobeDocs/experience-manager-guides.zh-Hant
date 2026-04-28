@@ -5,9 +5,9 @@ feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ AEM Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 D
    >
    > 系統會根據檔案的標題自動建議名稱。 如果您要手動指定檔案名稱，請確定「名稱」不含任何空格、單引號或大括弧，且結尾為.ditaval。
 
-1. 按一下「**建立**」。「主題已建立」訊息便會顯示。
+1. 按一下「**建立**」。 「主題已建立」訊息便會顯示。
 
    您可以選擇開啟DITAVAL檔案以在DITAVAL編輯器中編輯，或將主題檔案儲存在AEM存放庫中。
 
@@ -45,41 +45,41 @@ AEM Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 D
 
 1. 在Assets UI中，導覽至您要編輯的DITAVAL檔案。
 
-1. 若要取得檔案的獨佔鎖定，請選取該檔案，然後按一下&#x200B;**簽出**。
+1. To get an exclusive lock on the file, select the file and click **Check Out**.
 
-1. 選取檔案並按一下&#x200B;**編輯**&#x200B;以在AEM Guides DITAVAL編輯器中開啟檔案。
+1. Select the file and click **Edit** to open the file in AEM Guides DITAVAL editor.
 
-   DITAVAL編輯器可讓您執行下列工作：
+   The DITAVAL editor allows you to perform the following tasks:
 
-   A：切換左側面板
-切換左側面板檢視。 如果您已透過DITA map開啟DITAVAL檔案，則地圖和存放庫會顯示在此面板中。 如需有關透過DITA map開啟檔案的詳細資訊，請參閱[透過DITA map編輯主題](map-editor-advanced-map-editor.md#id17ACJ0F0FHS)。
+   A: Toggle Left Panel
+Toggle the left panel view. If you have opened the DITAVAL file through DITA map, the map and repository are shown in this panel. For more information about opening a file through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
-   B：儲存
-儲存您在檔案中所做的變更。 所有變更都會儲存在檔案的目前版本中。
+   B: Save
+Saves the changes you have made in the file. All your changes are saved in the current version of your file.
 
-   C：新增屬性
-在您的DITAVAL檔案中新增單一屬性。
+   C: Add Property
+Add a single property in your DITAVAL file.
 
    ![](images/ditaval-editor-props.png)
 
-   第一個下拉式清單列出可在DITAVAL檔案中使用的允許DITA屬性。 有五個支援的屬性 — `audience`、`platform`、`product`、`props`和`otherprops`。
+   The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
 
-   第二個下拉式清單會顯示為選取的屬性設定的值。 然後，下一個下拉式清單會顯示您可在選取的屬性上設定的動作。 動作下拉式清單中允許的值為 — `include`、`exclude`、`passthrough`和`flag`。 如需這些值的詳細資訊，請參閱OASIS DITA檔案中的[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)元素定義
+   The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, see the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentation
 
-   D：新增所有屬性
-如果您要按一下即可新增系統中定義的所有條件屬性或屬性，請使用「新增所有屬性」功能。
+   D: Add All Properties
+If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Properties feature.
 
    >[!NOTE]
    >
-   > 如果DITAVAL檔案中已存在所有已定義的條件屬性，則無法新增更多屬性。 在此案例中，您會收到一則錯誤訊息。
+   > If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
 
    ![](images/ditaval-all-props.png)
 
-1. 完成編輯DITAVAL檔案後，請按一下[儲存]。**&#x200B;**
+1. Once you have finished editing your DITAVAL file, click **Save**.
 
    >[!NOTE]
    >
-   > 如果您關閉檔案而不儲存，變更將會遺失。 如果您不想將變更提交至AEM存放庫，請按一下&#x200B;**關閉**，然後在&#x200B;**未儲存的變更**&#x200B;對話方塊中按一下&#x200B;**關閉而不儲存**。
+   > If you close the file without saving, the changes will be lost. If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the **Unsaved Changes** dialog.
 
 
 ## DITAVAL編輯器檢視

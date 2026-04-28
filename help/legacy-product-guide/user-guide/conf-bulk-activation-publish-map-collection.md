@@ -5,10 +5,10 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 1%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 執行下列任一項作業：
 
 * 若要啟動選取的地圖的輸出，請選取預先產生的地圖輸出，並選取&#x200B;**快速發佈**。
-* 若要啟動所有DITA map及其設定之預設集的輸出，請選取Map （欄）旁的核取方塊，然後選取&#x200B;**快速發佈。**
+* 若要啟動所有DITA map及其設定之預設集的輸出，請選取[對應] （欄）旁的核取方塊，然後選取[快速發佈]。**&#x200B;**
   ![大量集合 — 發佈](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]

@@ -1,20 +1,20 @@
 ---
 title: 使用發佈儀表板管理發布任務
-description: 使用AEM Guides中的發佈儀表板管理發布任務。 瞭解如何存取發佈儀表板並取消發佈任務。
+description: 使用AEM Guides中的發佈儀表板管理發布任務。 Know how to access the publishing dashboard and cancel a publish task.
 feature: Publishing
 role: User
 hide: true
 exl-id: 9d311979-a7d7-47f5-945c-520eda99798f
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
 # 使用發佈儀表板管理發布任務 {#id205CC08305Z}
 
-當您在系統上執行大量發佈作業時，幾乎不可能個別檢查每個DITA map以監視其發佈作業。 AEM Guides可讓管理員和發佈者統一檢視系統中執行的所有發佈任務。 發佈儀表板中提供所有作用中發佈任務的清單。
+當您在系統上執行大量發佈作業時，幾乎不可能個別檢查每個DITA map以監視其發佈作業。 AEM Guides gives the administrators and publishers one unified view of all publishing tasks running in the system. 發佈儀表板中提供所有作用中發佈任務的清單。
 
 「發佈」儀表板提供系統中目前執行的所有發佈任務的完整總覽。
 

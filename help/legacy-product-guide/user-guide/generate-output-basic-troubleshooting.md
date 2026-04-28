@@ -5,7 +5,7 @@ feature: Publishing, Troubleshooting
 role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -42,12 +42,12 @@ ht-degree: 0%
    - 例外：以黃色醒目提示記錄檔中的例外。
 1. 使用向上和向下導覽按鈕跳至記錄檔案中反白顯示的文字。
 
-   或者，捲動記錄檔並檢查訊息。
+   Alternatively, scroll through the log file and check the messages.
 
 
-## 在文字編輯器中複製並檢查記錄檔
+## Copy and check the log file in a text editor
 
-執行以下步驟，在文字編輯器中複製並檢查輸出產生記錄檔：
+Perform the following steps to copy and check the output generation log file in a text editor:
 
 1. 啟動輸出產生程式後，在DITA map主控台中按一下&#x200B;**輸出**。
 
@@ -55,37 +55,37 @@ ht-degree: 0%
 
    日誌檔案會在新標籤中開啟。
 
-1. 按一下&#x200B;**複製記錄檔**&#x200B;按鈕。 記錄檔會複製到剪貼簿。
-1. 開啟文字編輯器，並在編輯器中貼上記錄檔。
+1. Click **Copy Log** button. The log file is copied to the clipboard.
+1. Open a text editor and paste the log file in the editor.
 
-1. 捲動記錄檔並檢查訊息。
+1. Scroll through the log file and check for messages.
 
-   下列資訊可協助您判斷DITA檔案或AEM Guides處理序中是否有錯誤：
+   The following information will help you determine whether there is an error in the DITA file or AEM Guides process:
 
-   - *與DITA map檔案相關的錯誤*：如果在DITA map檔案或DITA map中包含的任何其他檔案中找到錯誤，記錄檔將包含字串「BUILD FAILED」。 您可以檢查記錄檔中提供的資訊，以找出錯誤的檔案並修正問題。
+   - *DITA map file related error*: In case there is an error found in the DITA map file or any other file contained in the DITA map, the log file will contain a string, &quot;BUILD FAILED&quot;. You can check the information given in the log file to locate the erroneous file and fix the issue.
 
-   在以下記錄檔片段範例中，您可以看到`BUILD FAILED`訊息以及錯誤的原因。
+   In the following sample log file snippet, you can see the `BUILD FAILED` message along with the reason for the error.
 
    ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-   - *AEM Guides相關錯誤*：您可以在記錄檔中識別的其他錯誤型別，與AEM Guides處理序本身相關。 在此情況下，會成功剖析DITA map檔案，但輸出產生程式會因AEM Guides中的某些內部錯誤而失敗。 對於這類錯誤，您必須尋求技術支援團隊的協助。
+   - *AEM Guides-related error*: The other type of error that you can identify in the log file is related to AEM Guides process itself. In this case, the DITA map file is parsed successfully, but the output generation process fails because of some internal error in AEM Guides. For such kind of errors, you have to seek help from the technical support team.
 
-   在下列記錄檔片段範例中，您可以看到`BUILD SUCCESSFUL`訊息，隨後是其他技術錯誤。
+   In the following sample log file snippet, you can see the `BUILD SUCCESSFUL` message, followed by other technical error.
 
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
-## 解決JSP編譯錯誤
+## Resolve JSP compilation error
 
-如果您的DITA主題太大，瀏覽器中可能會顯示JSP編譯錯誤\(`org.apache.sling.api.request.TooManyCallsException`\)。 當您開啟主題進行編輯、稽核或發佈時，可能會出現此錯誤。
+If your DITA topic is too large, then you might see the JSP compilation error \(`org.apache.sling.api.request.TooManyCallsException`\) in your browser. This error might appear when you open a topic for editing, reviewing, or publishing.
 
-執行以下步驟以解決此問題：
+Perform the following steps to resolve this issue:
 
-1. 在「全域導覽」中，選取「工具」，然後選擇「作業」\>「Web主控台」。
+1. From the Global Navigation, select Tools and choose Operations \> Web Console.
 
-   便會顯示「Adobe Experience Manager Web主控台組態」頁面。
+   The Adobe Experience Manager Web Console Configuration page appears.
 
-1. 搜尋並按一下&#x200B;*Apache Sling主要Servlet*&#x200B;元件。
+1. Search for and click on the *Apache Sling Main Servlet* component.
 
    隨即顯示Apache Sling主要Servlet的可設定選項。
 

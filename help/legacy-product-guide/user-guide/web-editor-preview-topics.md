@@ -1,53 +1,53 @@
 ---
 title: 預覽主題
-description: 瞭解如何在AEM Guides中預覽主題。 瞭解預覽模式中可用的功能。 在AEM指南中分支、還原及後續版本設定。
+description: Learn how to preview a topic in AEM Guides. Know about the features available in preview mode. Branch, revert, and subsequent versioning in AEM guides.
 feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
 
 # 預覽主題 {#id1696II000QR}
 
-建立主題後，AEM Guides會產生主題的預覽。 「預覽」模式提供您可用來處理檔案的各種功能。
+Once a topic is created, AEM Guides generates a preview of the topic. The Preview mode provides various features that you can use to work with your document.
 
-執行以下步驟來預覽主題：
+Perform the following steps to preview a topic:
 
-1. 在Assets UI中，導覽至您要檢視的主題。
-1. 按一下您要檢視的主題。
+1. In the Assets UI, navigate to the topic that you want to view.
+1. Click on the topic you want to view.
 
-   主題預覽會顯示在Assets UI中。
+   A preview of the topic is displayed in the Assets UI.
 
    >[!NOTE]
    >
-   > 您可以在主題之檔案標籤的右上角，看到使用中主題或DITA map的版本。
+   > You can see the version of the active topic or DITA map in the top right corner of the topic&#39;s file tab.
 
    >[!IMPORTANT]
    >
-   > 下列功能在預覽工具列中的位置可能會因AEM伺服器的設定而異。 主工具列中可能會提供某些功能，而「更多」功能表下可能會提供其他功能。
+   > The positioning of the following features in the Preview toolbar could differ based on your AEM server&#39;s setup. Some of the features might be available in the main toolbar, while other could be available under the More menu.
 
-## 預覽模式中可用的功能
+## Features available in preview mode
 
 ![](images/preview-screen.png){width="800" align="left"}
 
-您可以在預覽模式中從工具列執行下列操作：
+You can perform the following operations from the toolbar in the preview mode:
 
 **屬性**
 
-檢視所選主題的內容。 根據您的AEM版本，您可以看到中繼資料、排程\(de\)啟動、參考、檔案狀態等屬性。
+View the properties of the selected topic. 根據您的AEM版本，您可以看到中繼資料、排程\(de\)啟動、參考、檔案狀態等屬性。
 
 >[!NOTE]
 >
-> 主題的標題屬性是從DITA主題或地圖的`title`標籤中自動填入。 如果您使用屬性視窗在標題中進行任何變更，則變更會遺失。 如果您想要更新標題屬性，應使用網頁編輯器進行更新。
+> A topic&#39;s title property is auto-populated from the `title` tag of the DITA topic or map. If you make any change in the title using the properties window that change is lost. If you want to update the title property, you should do it using the Web editor.
 
-「屬性」頁面包含有關參照的有用資訊，例如使用地圖或主題的位置，或檔案中包含哪些參照。 屬性頁面列出檔案的兩種參考 — **用於**&#x200B;和&#x200B;**傳出參考**。
+The Properties page contains useful information about the references, such as where a map or topic is being used, or what references are contained in a document. The Properties page lists two types of references for a document - **Used In** and **Outgoing References**.
 
-**Used In**&#x200B;參考列出參照或使用目前檔案的檔案。 **傳出參考**&#x200B;列出目前檔案中參考的檔案。
+The **Used In** references list the documents where the current file is being referred or used. The **Outgoing References** lists the documents that are referred in current document.
 
 **用於**&#x200B;參考區段中的\(+\)圖示可讓您進一步向上導覽，以尋找該主題正在使用或參考的位置。
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
   ![](images/branching_illustration.png){width="550" align="center"}
 
-  對於任何新主題，第一個版本編號為1.0。此後，主題的每個新版本都會以增量數字（例如1.1、1.2等）儲存。 建立主題的分支後，會建立新分支，其版本編號來自建立分支的位置，並在版本結尾新增。0。 如圖所示，新分支是從主題的1.1版建立的。 新分支的版本設定為1.1.0。此後，每次您在此分支中儲存新版主題時，都會得到一個累加版本號碼，例如1.1.1、1.1.2等。
+  對於任何新主題，第一個版本編號為1.0。 此後，主題的每個新版本都會以增量數字（例如1.1、1.2等）儲存。 建立主題的分支後，會建立新分支，其版本編號來自建立分支的位置，並在版本結尾新增。0。 如圖所示，新分支是從主題的1.1版建立的。 新分支的版本設定為1.1.0。 此後，每次您在此分支中儲存新版主題時，都會得到一個累加版本號碼，例如1.1.1、1.1.2等。
 
   與分支類似，您也可以將作業中或目前版本還原為存放庫中存在的任何版本。 若要還原為版本，只要選取想要的主題版本，然後按一下&#x200B;**版本記錄**&#x200B;面板中的&#x200B;**還原為此版本**。
 
@@ -202,11 +202,11 @@ ht-degree: 0%
 
    1. *\(Optional\)*&#x200B;在訊息提示中，您會取得選擇&#x200B;**將目前的工作復本另存為新版本**&#x200B;的選項。 根據此選項的選取，可以執行下列兩個動作：
 
-      - 如果選取此選項，則會從1.1版建立分支。此外，也會從主題目前的工作復本建立新版本的主題，並儲存為下一個版本 — 1.4。
+      - 如果選取此選項，則會從1.1版建立分支。 此外，也會從主題目前的工作復本建立新版本的主題，並儲存為下一個版本 — 1.4。
 
         ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
 
-        版本1.2會成為您目前主題的工作副本。 在此之後儲存的任何版本都會建立在1.1的新分支下。例如，此分支中新主題的後續版本將儲存為1.2.0。
+        版本1.2會成為您目前主題的工作副本。 在此之後儲存的任何版本都會建立在1.1的新分支下。 例如，此分支中新主題的後續版本將儲存為1.2.0。
 
         ![](images/new_version_in_branch.png){width="300" align="left"}
 

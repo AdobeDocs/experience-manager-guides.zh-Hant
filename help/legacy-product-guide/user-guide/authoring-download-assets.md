@@ -5,9 +5,9 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,10 @@ ht-degree: 0%
 
    ![](images/download-map.png){width="300" align="left"}
 
-1. 按一下&#x200B;**下載**。 在「下載對應」對話方塊中，您可以選擇下列選項：
+1. 按一下「**下載**」。 在「下載對應」對話方塊中，您可以選擇下列選項：
 
    - **使用基準線**：選取此選項可取得為DITA map建立的基準線清單。 如果您要根據特定的「基準線」下載對映檔案及其內容，請從下拉式清單中選取「基準線」。 如需使用基準線的詳細資訊，請參閱[使用基準線](generate-output-use-baseline-for-publishing.md#)。
    - **平面化檔案階層**：選取此選項可將所有參考的主題和媒體檔案儲存在單一資料夾中。
-
    >[!NOTE]
    >
    > 您也可以在不選取任何選項的情況下下載地圖檔案。 在這種情況下，會下載參照的主題和媒體檔案的最後一個儲存版本。
