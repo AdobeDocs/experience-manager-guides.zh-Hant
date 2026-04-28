@@ -42,4 +42,4 @@ JSON輸出預設集。
 - **[刪除大量啟用地圖集合](conf-bulk-activation-delete-map-collection.md)**
 
 
-**父級主題：**[&#x200B;輸出產生](generate-output.md)
+**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)

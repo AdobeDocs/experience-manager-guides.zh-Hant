@@ -26,7 +26,7 @@ Markdown是一種輕量型的標籤語言，可以協助您將格式元素新增
 
    ![](images/create-markdown-dita-topic.png){width="550" align="left"}
 
-   1. 從選取資料夾的[選項]功能表中選取[建立]****，然後從下拉式清單中選取[Markdown主題]**。**
+   1. 從選取資料夾的[選項]功能表中選取[建立]&#x200B;**&#x200B;**，然後從下拉式清單中選取[Markdown主題]&#x200B;**。**
 
    ![](images/create-markdown-options-menu.png){width="550" align="left"}
 
@@ -62,4 +62,4 @@ Markdown主題會在選取的路徑中建立，並開啟以進行編輯。
 >
 > 如果您尚未儲存變更，則會顯示快顯視窗，並提示您先儲存主題，然後再關閉主題。
 
-**上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)
+**上層主題：**&#x200B;[&#x200B;使用網頁編輯器](web-editor.md)

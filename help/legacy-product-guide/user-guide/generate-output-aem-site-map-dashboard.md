@@ -115,4 +115,4 @@ You can search for a string in the AEM Sites output. By default, you can search 
 
 For more details see *Configure flattening of AEM Site node structure* section in the Install and configure Adobe Experience Manager Guides guide.
 
-**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

@@ -58,4 +58,4 @@ AEM Guides可讓您將標籤新增至檔案的不同版本。 您可以使用這
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)
+**上層主題：**&#x200B;[&#x200B;使用網頁編輯器](web-editor.md)

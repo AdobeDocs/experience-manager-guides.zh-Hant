@@ -47,7 +47,7 @@ HTML5輸出會在平面資料夾階層中產生。 這表示存放庫內容使�
 
 如需詳細資訊，請參閱[HTML5組態](#id231KJA00REJ)。
 
-從地圖儀表板&#x200B;****
+從地圖儀表板&#x200B;**&#x200B;**
 
 若要開啟PDF的輸出預設集，請從Assets UI按一下DITA map檔案，然後按一下輸出預設集，再按一下HTML5選項。 在Map儀表板中，按一下頂端的&#x200B;**編輯**&#x200B;以更新各種設定，然後按一下&#x200B;**儲存**。
 
@@ -71,4 +71,4 @@ HTML5輸出會在平面資料夾階層中產生。 這表示存放庫內容使�
 | 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>如需詳細資訊，請參閱[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)。 |
 | 檔案屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會顯示在&#x200B;**檔案屬性**&#x200B;欄位下。 選取屬性旁的十字圖示以將其移除。 <br><br>**附註**：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資訊，請參閱[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞給輸出。 |
 
-**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 按一下「**建立**」。
 
-1. 輸入大量啟用地圖集合的標題，然後按一下[建立]。****
+1. 輸入大量啟用地圖集合的標題，然後按一下[建立]。**&#x200B;**
 
    成功訊息會在建立大量啟用地圖集合時顯示。
 
@@ -85,9 +85,9 @@ The **Audit History** tab presents information about the activated map outputs i
 
 - **Modified**: Indicates if the DITA map was updated after the last publication. Based on this information, you can decide whether to activate the output for this DITA map.
 - **Published**: Shows the date and time of the last published (or activated) output. If you select the link, the Activation Results page is displayed, which contains the logs with information about the root path where the content is activated.
-  ![ created bulk activation collection audit history tab](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![&#x200B; created bulk activation collection audit history tab](images/bulk-collection-audit-history.png){width="800" align="left"}
 
-  *View the information about the activated map outputs in the **Audit History**tab.*
+  *View the information about the activated map outputs in the **Audit History**&#x200B;tab.*
 
 
   >[!NOTE]
@@ -106,4 +106,4 @@ The **Audit History** tab presents information about the activated map outputs i
 
 當您從&#x200B;**對應和預設集**&#x200B;標籤切換到&#x200B;**稽核歷史記錄**&#x200B;標籤時，篩選器會更新，反之亦然。
 
-**父級主題： **[大量啟用已發佈的內容](conf-bulk-activation.md)
+**父級主題： &#x200B;** [大量啟用已發佈的內容](conf-bulk-activation.md)

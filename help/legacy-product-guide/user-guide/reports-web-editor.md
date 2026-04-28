@@ -115,7 +115,7 @@ The **Multimedia** report provides detailed information about the multimedia use
 1. Double-click **Multimedia** on the left. The list of multimedia present in the DITA map is displayed.
 1. From the **Filters** panel you can order the list by multimedia or by the names of used in references.
 
-   - When you order by **Multimedia**, the****name of the multimedia is displayed in the first column and then the names of all references in which they have been used, are displayed in another column on the same row. For example, the following screenshot shows the multimedia WarmCoolForC.gif in the first column and three references in which it is used, are displayed in the third column on the same row.
+   - When you order by **Multimedia**, the&#x200B;**&#x200B;**&#x200B;name of the multimedia is displayed in the first column and then the names of all references in which they have been used, are displayed in another column on the same row. For example, the following screenshot shows the multimedia WarmCoolForC.gif in the first column and three references in which it is used, are displayed in the third column on the same row.
 
      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
@@ -175,7 +175,7 @@ You can view the report for broken links by performing the following steps:
    - **使用於** （預設為選取）使用中斷連結的參照。 您可以按一下該參照，以創作模式檢視它。
 
    - **檔案型別** （預設為選取）參照型別 — DITA Map或DITA主題。
-按一下**重新整理**&#x200B;以取得中斷連結的新清單，並檢視對映檔案中的任何變更，或檢視DITA map中的任何中斷連結是否已更新。
+按一下&#x200B;**重新整理**&#x200B;以取得中斷連結的新清單，並檢視對映檔案中的任何變更，或檢視DITA map中的任何中斷連結是否已更新。
 1. 您可以按一下&#x200B;**修正連結**&#x200B;圖示(![](images/fix-broken-link.svg))來修正中斷的連結。
 
    >[!NOTE]
@@ -194,4 +194,4 @@ You can view the report for broken links by performing the following steps:
 1. 按一下&#x200B;**下載CSV**，即可下載DITA map中中斷連結的目前快照。 CSV包含在「中斷連結」檢視中篩選的選取欄和中斷連結。 然後，您就可以在任何CSV編輯器中開啟及檢視此CSV檔案。
 
 
-**父級主題：**[&#x200B;報告](reports-intro.md)
+**父級主題：**&#x200B;[&#x200B;報告](reports-intro.md)

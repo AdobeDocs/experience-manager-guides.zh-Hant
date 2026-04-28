@@ -173,7 +173,7 @@ You may see the following options depending on whether the file is locked/unlock
 - **在MathML編輯器中驗證方程式**
 
   當您儲存包含方程式的主題時，Experience Manager Guides會驗證MathML方程式。
-使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取**插入**，則會顯示警告。
+使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取&#x200B;**插入**，則會顯示警告。
 
   ![驗證mathml方程式](images/validate-mathml-equation.png){width="400" align="left"}
 
@@ -236,7 +236,7 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 - 您可以使用&#x200B;**插入特殊字元** ![插入特殊字元圖示](images/insert-special-chars-icon.svg)圖示或&#x200B;**Alt** + **空格**&#x200B;捷徑鍵，在檔案中插入不間斷的空格。  These non-breaking spaces appear as an indicator while you edit a topic in the Web Editor. 您可以從&#x200B;**使用者偏好設定** ![使用者偏好設定圖示](images/user_preference_editor_icon.svg)的&#x200B;**外觀**&#x200B;索引標籤，使用&#x200B;**在作者模式中顯示連續空格指示器**&#x200B;選項關閉連續空格顯示。
 
-- 如果您將任何外部來源中含不斷行間距的內容複製並貼到&#x200B;**作者**檢視中，則不斷行間距會轉換為間距。
+- 如果您將任何外部來源中含不斷行間距的內容複製並貼到&#x200B;**作者**&#x200B;檢視中，則不斷行間距會轉換為間距。
 However, if you copy and paste content with a non-breaking space from the **Author** view, it&#39;s preserved.
 
 
@@ -253,4 +253,4 @@ However, if you copy and paste content with a non-breaking space from the **Auth
    或者，您可以在階層連結中按一下滑鼠右鍵，然後選取&#x200B;**產生ID**。
 
 
-**上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)
+**上層主題：**&#x200B;[&#x200B;使用網頁編輯器](web-editor.md)

@@ -169,4 +169,4 @@ Perform the following steps to cancel an output generation task from the DITA ma
    任務會從「產生的輸出」清單中刪除。
 
 
-**父級主題：**[&#x200B;輸出產生](generate-output.md)
+**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)

@@ -45,4 +45,4 @@ ht-degree: 0%
 
 選取的中繼資料屬性會傳遞至使用DITA-OT產生的輸出。
 
-**父級主題：**[&#x200B;輸出產生](generate-output.md)
+**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)

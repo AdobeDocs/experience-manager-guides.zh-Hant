@@ -54,4 +54,4 @@ You can also perform the following operations on the preset from the Options men
 >
 > When an output preset in Global and Folder Profiles is deleted, it will reflect in all related maps and will not appear under the **Output** tab.
 
-**上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)
+**上層主題：**&#x200B;[&#x200B;使用網頁編輯器](web-editor.md)

@@ -37,4 +37,4 @@ AEM Guides的「地圖編輯器」可讓您建立和編輯地圖檔案。 使用
 - 地圖編輯器中的&#x200B;**[其他功能](map-editor-other-features.md)**
 
 
-**父級主題：**[&#x200B;使用AEM Guides製作內容](authoring-content-xml-doc.md)
+**父級主題：**&#x200B;[&#x200B;使用AEM Guides製作內容](authoring-content-xml-doc.md)
