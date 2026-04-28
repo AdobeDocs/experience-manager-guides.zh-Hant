@@ -93,7 +93,7 @@ ht-degree: 0%
 
 建立自訂範本後，您可以從PDF輸出預設集的「頁面配置」中選擇它。
 
-瞭解如何[發佈PDF輸出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en)。
+瞭解如何[發佈PDF輸出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=zh-Hant)。
 
 >[!NOTE]
 >
