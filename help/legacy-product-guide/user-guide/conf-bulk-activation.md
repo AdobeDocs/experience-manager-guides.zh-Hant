@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如需有關如何在AEM中設定作者與發佈執行個體的詳細資訊，請參閱[作者與發佈架構概覽](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)。
+> 如需有關如何在AEM中設定作者與發佈執行個體的詳細資訊，請參閱[作者與發佈架構概覽](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=zh-Hant#prerequisites)。
 
 透過AEM Guides的大量啟動功能，您可以快速輕鬆地啟動從製作到發佈執行個體的內容。 大量啟動功能可讓您靈活地：
 

@@ -34,7 +34,7 @@ ht-degree: 0%
 
    此檔案可覆蓋於： `/apps/fmdita/config/metadataList`。
 
-   若要傳遞您已定義值的自訂屬性，請參閱[在DITA-OT PDF輸出中使用AEM中繼資料](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)。
+   若要傳遞您已定義值的自訂屬性，請參閱[在DITA-OT PDF輸出中使用AEM中繼資料](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=zh-Hant)。
 
 1. 從&#x200B;**屬性**&#x200B;下拉式清單中，選取必要的自訂和預設屬性。 例如，選取`author`、`dc:title`和`dc:description`。 這些是在我們建立檔案後建立的標準`metadata/properties`。 選取的屬性會列在下拉式方塊下方。
 
