@@ -4,9 +4,9 @@ description: 瞭解如何在AEM Guides中重新翻譯修改過的主題。
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    如果您選取箭頭來檢視進一步的詳細資訊，則可以檢視不同步的特定語言副本。
 
-   ![](images/out-of-sync-uuid-new.png){align="left"}
+   ![](images/out-of-sync-uuid-new.png)
 
 1. 選取核取方塊以選取您要傳送以供重新翻譯的主題。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 導覽至專案主控台中的翻譯專案。 新的翻譯工作卡片會建立在資料夾中。 選取省略符號即可檢視資料夾中的資產。
 
-   ![](images/incremental-job-new.png){width="300" align="left"}
+   ![](images/incremental-job-new.png){width="300"}
 
 1. 若要開始翻譯，請選取翻譯工作卡片上的箭頭，然後從清單中選取&#x200B;**開始**。 訊息會通知工作已開始。
 
@@ -78,4 +78,4 @@ ht-degree: 0%
 1. 在Assets UI中導覽回來源語言資料夾中的DITA map檔案。 重新翻譯的主題現在已同步。
 
 
-**上層主題：**&#x200B;[&#x200B;內容翻譯概觀](translation.md)
+**上層主題：**[&#x200B;內容翻譯概觀](translation.md)

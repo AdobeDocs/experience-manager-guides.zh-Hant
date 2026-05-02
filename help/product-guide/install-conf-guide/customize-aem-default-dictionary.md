@@ -4,9 +4,10 @@ description: 瞭解如何自訂AEM的預設字典
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 51099b42-706f-42b4-993e-7d9577b5a4f0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
@@ -52,7 +53,7 @@ ht-degree: 2%
 
    下列熒幕擷圖顯示新增至user\_dictionary.txt檔案中的自訂字詞清單：
 
-   ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
+   ![](assets/custom-words-list-dictionary.png){width="650"}
 
 1. 儲存並關閉檔案。
 
@@ -61,4 +62,4 @@ ht-degree: 2%
 
 >[!ENDTABS]
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**上層主題：**[&#x200B;自訂Web編輯器](customize-overview.md)

@@ -5,9 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 1. 在&#x200B;**工具**&#x200B;面板中選取&#x200B;**參考線**。
 1. 選取&#x200B;**大量處理器**&#x200B;圖磚。
 
-   ![流程資產處理器](images/flow-asset-processor.png){align="left"}
+   ![流程資產處理器](images/flow-asset-processor.png)
 
 1. 「指南大量處理器」視窗會開啟，其詳細資訊如下所示。 此外，此視窗上只會顯示最近五個移轉的相關資訊。
 
@@ -49,20 +49,20 @@ ht-degree: 0%
 
    - **狀態**：將處理狀態顯示為「進行中」、「已完成」或「已取消」。
 
-   ![指南 — 資產處理器](images/guides-asset-processor-new.png){align="left"}
+   ![指南 — 資產處理器](images/guides-asset-processor-new.png)
 
 1. 選取視窗右上角的&#x200B;**新處理序**&#x200B;索引標籤，以開始新的處理作業。
 
    **新處理序**&#x200B;對話方塊開啟。
 
-   ![New-process-asset-processor](images/new-asset-processor.png){width="350" align="left"}
+   ![New-process-asset-processor](images/new-asset-processor.png){width="350"}
 
 1. 在對話方塊中提供下列詳細資料：
 
    1. **功能型別**：從下拉式清單中選取&#x200B;**資產處理**。
    1. **選取資料夾和檔案**：瀏覽並選擇一或多個要處理的資料夾和檔案。
    1. **選取要忽略的資料夾**：選擇性地選取所選父資料夾中的子資料夾，以排除處理。
-   1. **資產型別**：從下拉式清單中，選取要處理的特定資產型別(例如DITA Topic、DITA Map、Markdown、HTML/CSS、DITAVAL或其他檔案)。 只有選取的資產型別會從您先前指定的資料夾中處理。
+   1. **資產型別**：從下拉式清單中，選取要處理的特定資產型別（例如DITA Topic、DITA Map、Markdown、HTML/CSS、DITAVAL或其他檔案）。 只有選取的資產型別會從您先前指定的資料夾中處理。
 範例：選取DITA主題只會處理選取資料夾內的DITA主題，並啟用目標篩選。
    1. **建立於**&#x200B;之後/之前：套用日期篩選器以處理在指定時間範圍內建立的資產。
 
@@ -70,9 +70,9 @@ ht-degree: 0%
    >
    > 如果某個資料夾已經在執行處理序，則您無法在目前工作完成之前，啟動相同資料夾的新處理序。
 
-1. 選擇 **建立**。您有快顯視窗顯示&#x200B;**成功，且處理程式已成功觸發**。 您可以在視窗中檢視處理作業的狀態。
+1. 選取「**建立**」。 您有快顯視窗顯示&#x200B;**成功，且處理程式已成功觸發**。 您可以在視窗中檢視處理作業的狀態。
 
-   ![Message-asset-processor](images/message-asset-processor.png){width="350" align="left"}
+   ![Message-asset-processor](images/message-asset-processor.png){width="350"}
 
 
 ## 資產處理任務的其他選項
@@ -81,16 +81,16 @@ ht-degree: 0%
 
 - **重新啟動** ：重新啟動先前成功的資產處理工作。
 
-  ![重新啟動asset-processor](images/restart-asset-processor.png){width="650" align="left"}
+  ![重新啟動asset-processor](images/restart-asset-processor.png){width="650"}
 
 - **繼續** ：繼續先前取消或失敗的資產處理工作。
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="650" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){width="650"}
 
 - **取消** ：取消目前進行中的資產處理工作。
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650"}
 
 - **檢視記錄**：顯示資產處理工作的記錄。 對於進行中的工作，記錄會顯示詳細的處理資訊，包括預估剩餘時間和資產狀態。 此記錄清單最多可顯示500個最新專案。 可以下載完整記錄。
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="650" align="left"}
+  ![logs-asset-processor](images/logs-asset-processor.png){width="650"}

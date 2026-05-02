@@ -4,9 +4,9 @@ description: 檢視FrameMaker檔案的輸出產生佇列。 瞭解如何檢視�
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 選取輸出。
 
-   ![](images/output-queued-fm.png){align="left"}
+   ![](images/output-queued-fm.png)
 
 1. 「輸出」頁面分為兩個部分：
 
@@ -36,4 +36,4 @@ ht-degree: 0%
      在此清單中，您可能會有成功執行或失敗的工作。 對於已成功完成的工作，發佈程式會建立記錄檔\(logs.txt\)，您可以透過在「產生時間」欄中選取連結來存取該記錄檔。
 
 
-**父級主題：**&#x200B;[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)
+**父級主題：**[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)

@@ -3,7 +3,7 @@ title: 發行說明 | 2025年12月產品培訓和學習內容版的新增功能
 description: 在2025年12月版本的產品培訓和學習內容中瞭解新的和增強功能
 role: Leader
 exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -24,19 +24,19 @@ ht-degree: 0%
 
   如需詳細資訊，請檢視[插入]功能表中的[其他選項](../learning-content/lc-other-insert-options.md)。
 
-  ![](assets/knowledge-check-topic.png){width="650" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650"}
 
 - **新的互動小工具**：您可以使用一些新的互動小工具與學習者互動，讓內容更引人入勝： **按一下以顯示**、**翻轉卡片**&#x200B;和&#x200B;**標籤**。
 
   如需詳細資訊，請檢視[使用互動式Widget](../learning-content/lc-widgets.md)。
 
-  ![](assets/new-widgets-options.png){width="350" align="left"}
+  ![](assets/new-widgets-options.png){width="350"}
 
 - **符合下列專案**：有新的問題型別&#x200B;**符合下列專案**&#x200B;可供測驗。 學習者可以比對兩個清單中的專案來連線相關想法，鼓勵批判性思考。
 
   如需詳細資訊，請檢視[測驗問題型別](../learning-content/quiz-insert-questions.md#question-types)。
 
-  ![](assets/question-types.png){width="650" align="left"}
+  ![](assets/question-types.png){width="650"}
 
 ## 檢閱
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
   如需詳細資訊，請檢視[建立稽核工作](../learning-content/manage-course.md#create-review-task)。
 
-  ![](assets/create-review-task-lc.png){width="650" align="left"}
+  ![](assets/create-review-task-lc.png){width="650"}
 
 ## 內容管理
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 
   如需詳細資訊，請檢視[新增基本建置區塊](../learning-content/lc-basic-blocks.md)。
 
-  ![](assets/reusable-content.png){width="650" align="left"}
+  ![](assets/reusable-content.png){width="650"}

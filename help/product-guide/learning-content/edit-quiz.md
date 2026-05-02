@@ -4,9 +4,9 @@ description: 瞭解如何在產品培訓和學習中編輯測驗
 feature: Authoring
 role: User
 exl-id: a8d967ce-9850-445f-b5fc-63ee14ee0dfa
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 連按兩下測驗以從「課程管理員」面板開啟它。
 1. 您必須使用切換功能&#x200B;**鎖定**&#x200B;測驗。 這可讓您編輯測驗，其他人無法對此測驗進行任何變更。
 
-   ![](assets/quiz-lock.png){width="650" align="left"}
+   ![](assets/quiz-lock.png){width="650"}
 
 1. 您可以[新增問題到測驗](./quiz-insert-questions.md)以及[插入問題庫](./insert-questions.md)的問題。
 1. 若要儲存您的工作，請使用&#x200B;**另存為新版本**&#x200B;以建立新版本，或按`Ctrl+S`覆寫現有的檔案。

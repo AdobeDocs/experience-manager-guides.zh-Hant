@@ -4,9 +4,9 @@ description: 從編輯器撰寫Markdown檔案。 瞭解如何在AEM Guides中建
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Markdown是一種輕量型的標籤語言，可以協助您將格式元素新增
 1. 在「存放庫」面板中，選取![](images/Add_icon.svg)，然後從下拉式清單中選取&#x200B;**主題**。
 1. 在&#x200B;**新主題**&#x200B;對話方塊中，提供下列詳細資料：
 
-   ![](images/create-markdown-dialog.png){width="300" align="left"}
+   ![](images/create-markdown-dialog.png){width="300"}
 
    * **標題**：提供主題的標題。
    * **名稱**：檔案名稱是根據主題「標題」自動建議的。 如果您的管理員已根據UUID設定啟用自動檔案名稱，則不會顯示「名稱」欄位。
@@ -36,7 +36,7 @@ Markdown是一種輕量型的標籤語言，可以協助您將格式元素新增
 
    Markdown主題會在選取的路徑中建立，並開啟以進行編輯。
 
-   ![](images/markdown-topic-author.png){width="650" align="left"}
+   ![](images/markdown-topic-author.png){width="650"}
 
 
 >[!NOTE]
@@ -60,7 +60,7 @@ The tab bar features the file tabs of the topics or maps that are currently open
 
 Features available in the tab bar are explained as follows:
 
- ![](images/markdown-header.png){width="550" align="left"}
+ ![](images/markdown-header.png){width="550"}
 
 
 
@@ -81,13 +81,13 @@ Features available in the tab bar are explained as follows:
 
 工具列位於標籤列的正下方。 工具列中的可用功能說明如下：
 
-![](images/markdown-main-toolbar.png){align="left"}
+![](images/markdown-main-toolbar.png)
 
 | 功能 | 說明 |
 |----------------|----------------|
-| 編輯動作 | 提供各種檔案編輯功能的存取權，包括&#x200B;**剪下**  ![](images/S_Cut_18_N.svg)，**復原**  ![](images/S_Undo_18_N.svg)，**取消復原**  ![](images/S_Redo_18_N.svg)，**副本**  ![](images/S_Copy_18_N.svg)，**刪除**  ![](images/S_Delete_18_N.svg)和&#x200B;**尋找和取代**  ![](images/S_FindAndReplace_18_N.svg)。 您可以從&#x200B;**功能表**&#x200B;下拉式清單存取可用的選項。 |
-| 文字格式選項 | 提供各種文字格式選項的存取權，包括&#x200B;**標題**  ![](images/S_DisplayHeading_18_N.svg)，**粗體**  ![](images/S_TextBold_18_N.svg)，**斜體**  ![](images/S_TextItalic_18_N.svg)，**刪除線**  ![](images/S_TextStrikethrough_18_N.svg)，**代碼**  ![](images/S_Code_18_N.svg)和&#x200B;**封鎖報價**  ![](images/S_BlockQuoteMultipleLines_18_N.svg)。 |
-| 內容插入選項 | 提供插入&#x200B;**編號清單**&#x200B;的選項  ![](images/S_TextNumbered_18_N.svg)，**排序清單**  ![](images/S_TextBulleted_18_N.svg)，**資料表**  ![](images/tableAdd.svg)，**影像** ![](images/S_ImageAdd_18_N.svg)，**交叉參考**  ![](images/S_LinkGlobe_18_N.svg)和&#x200B;**符號**  ![](images/S_SpecialCharacter_18_N.svg)放入檔案。<br><br> **注意**：您也可以將影像和其他檔案拖放到Markdown編輯器中。 檔案會新增為互動參照連結，而影像會顯示為標準影像元素。 |
+| 編輯動作 | 提供各種檔案編輯功能的存取權，包括&#x200B;**剪下** ![](images/S_Cut_18_N.svg)、**還原** ![](images/S_Undo_18_N.svg)、**取消復原** ![](images/S_Redo_18_N.svg)、**複製** ![](images/S_Copy_18_N.svg)、**刪除** ![](images/S_Delete_18_N.svg)以及&#x200B;**尋找和取代** ![](images/S_FindAndReplace_18_N.svg)。 您可以從&#x200B;**功能表**&#x200B;下拉式清單存取可用的選項。 |
+| 文字格式選項 | 提供各種文字格式選項的存取權，包括&#x200B;**標題** ![](images/S_DisplayHeading_18_N.svg)、**粗體** ![](images/S_TextBold_18_N.svg)、**斜體** ![](images/S_TextItalic_18_N.svg)、**刪除線** ![](images/S_TextStrikethrough_18_N.svg)、**代碼** ![](images/S_Code_18_N.svg)和&#x200B;**區塊引號** ![](images/S_BlockQuoteMultipleLines_18_N.svg)。 |
+| 內容插入選項 | 提供將&#x200B;**編號清單** ![](images/S_TextNumbered_18_N.svg)、**排序清單** ![](images/S_TextBulleted_18_N.svg)、**表格** ![](images/tableAdd.svg)、**影像** ![](images/S_ImageAdd_18_N.svg)、**交叉參照** ![](images/S_LinkGlobe_18_N.svg)和&#x200B;**符號** ![](images/S_SpecialCharacter_18_N.svg)插入檔案的選項。<br><br> **注意**：您也可以將影像和其他檔案拖放到Markdown編輯器中。 檔案會新增為互動參照連結，而影像會顯示為標準影像元素。 |
 | 版本歷史記錄 | 可讓您建立Markdown檔案的版本，並檢視變更記錄。 您可以比較不同的版本，並視需要還原成先前的版本。 版本記錄選項存在於&#x200B;**功能表**&#x200B;下拉式清單中。 |
 | 另存為新版本 | 儲存主題中所做的變更，並建立主題的新版本。 如果您處理的是新建立的主題，版本資訊會顯示為「無」。 |
 | 鎖定/解鎖 | 鎖定或解除鎖定目前的檔案。 鎖定檔案可讓您以獨佔方式寫入檔案。 這會限制其他使用者編輯檔案。 如果您希望其他人有編輯存取權，請解除鎖定檔案。 作為管理員，您還能存取&#x200B;**強制解除鎖定**&#x200B;功能，該功能可讓您解除鎖定被其他人鎖定的檔案。 |
@@ -104,7 +104,7 @@ Features available in the tab bar are explained as follows:
 
 對於Markdown製作，編輯器支援三種不同的檢視模式，以輔助內容建立和格式化：
 
-![](images/markdown-footer.png){align="left"}
+![](images/markdown-footer.png)
 
 * 來源
 * 並排
@@ -123,7 +123,7 @@ Features available in the tab bar are explained as follows:
 * 顯示您所編輯Markdown主題的Source面板。
 * 此預覽面板會即時顯示Markdown主題的演算輸出。
 
-![](images/markdown-topic-side-by-side.png){width="550" align="left"}
+![](images/markdown-topic-side-by-side.png){width="550"}
 
 如果您想要在編輯Markdown主題時即時檢視演算後的輸出，請使用此檢視。
 
@@ -175,4 +175,4 @@ Features available in the tab bar are explained as follows:
 
 
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

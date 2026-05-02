@@ -5,9 +5,9 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 ## 使用CRX Package Manager安裝套件
 
 1. **安裝元件封裝：**
-   1. 瀏覽至&#x200B;[**CRX封裝管理員**](http://&lt;your-aem-instance>/crx/packmgr)。
+   1. 瀏覽至&#x200B;[**CRX封裝管理員**](http://<your-aem-instance>/crx/packmgr)。
    2. 上傳並安裝on-prem-guides-components.all-1.x.0.zip套件。
 
 2. **安裝Sites封裝：**&#x200B;使用CRX封裝管理員上傳並安裝aemg-docs.all-1.x.0.zip封裝。
@@ -52,7 +52,7 @@ ht-degree: 0%
    5. 取消勾選&#x200B;**使用舊版元件對應**&#x200B;設定。
    6. 選取&#x200B;**新增**&#x200B;以建立預設集。
 
-      ![新的輸出預設集對話方塊](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![新的輸出預設集對話方塊](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **設定AEM網站預設集：**&#x200B;有兩個選項可設定現成可用的網站(OOTB)：
@@ -64,14 +64,14 @@ ht-degree: 0%
       - 發佈路徑： `aemg-docs/en/docs/product1`
       - 主題頁面範本：主題頁面。
 
-      ![使用網站下拉式清單](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+      ![使用網站下拉式清單](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
 
    **選項2：使用網站路徑**
 
    1. 手動將&#x200B;**網站路徑**&#x200B;設定為`/content/aemg-docs/en/docs/product1`。
    2. 確認&#x200B;**主題頁面範本**&#x200B;已自動設定為主題頁面。
 
-      ![使用網站路徑](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![使用網站路徑](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **儲存預設集：**&#x200B;儲存對預設集所做的變更。
 
@@ -86,11 +86,11 @@ ht-degree: 0%
    2. 在OOTB網站結構下建立新產品頁面。
    3. 導覽至&#x200B;**AEMG檔案** > **英文** > **檔案**。
 
-      ![在AEM網站結構](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}中建立頁面
+      ![在AEM網站結構](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}中建立頁面
 
    4. 選取&#x200B;**首頁**&#x200B;圖磚，然後選取&#x200B;**下一步**。
 
-      ![選取首頁拼貼](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+      ![選取首頁拼貼](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
 
    5. 輸入頁面的&#x200B;**標題**&#x200B;和&#x200B;**名稱**。
    6. 選取「**建立**」。

@@ -4,9 +4,9 @@ description: 使用AEM Guides中的範本建立DITA專案。 瞭解如何使用D
 exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe Experience Manager Guides提供DITA專案範本，您可用來建立和管
 
 1. 選取&#x200B;**建立** \> **專案**&#x200B;以啟動建立專案精靈。
 
-   ![](images/project-console-63.png){width="650" align="left"}
+   ![](images/project-console-63.png){width="650"}
 
 1. 在建立專案頁面上，選取&#x200B;**DITA專案**&#x200B;範本，然後選取&#x200B;**下一步**。
 
@@ -43,7 +43,7 @@ Adobe Experience Manager Guides提供DITA專案範本，您可用來建立和管
 
    **基本**&#x200B;索引標籤中的資訊：
 
-   ![](images/create-project.png){width="650" align="left"}
+   ![](images/create-project.png){width="650"}
 
    - 輸入專案的&#x200B;**標題**、**描述**&#x200B;和&#x200B;**到期日**。
 
@@ -76,4 +76,4 @@ Adobe Experience Manager Guides提供DITA專案範本，您可用來建立和管
 1. 選取&#x200B;**開啟**&#x200B;以開啟您的專案頁面。
 
 
-**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)
+**父級主題：**[&#x200B;檢閱簡介](review.md)

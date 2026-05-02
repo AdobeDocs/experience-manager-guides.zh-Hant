@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 下圖顯示當您全域使用內容和三個語言副本時，AEM中的資料夾結構範例。
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){width="800"}
 
 ## 設定翻譯服務
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 如需有關與協力廠商翻譯服務整合的詳細資訊，請參閱AEM檔案中的[設定翻譯整合架構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hant)。
+   > 如需有關與協力廠商翻譯服務整合的詳細資訊，請參閱AEM檔案中的[設定翻譯整合架構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)。
 
 1. 按一下&#x200B;**儲存並關閉**&#x200B;以儲存更新的資料夾屬性。
 
@@ -107,7 +107,7 @@ ht-degree: 1%
 
    新翻譯專案會以選取的主題版本建立。 此時，會顯示快顯訊息，確認已建立翻譯專案。 一旦所有目標語言副本在翻譯專案中可用，您會在收件匣中收到通知。 一旦翻譯專案中提供了目標語言副本區域，您就可以開始翻譯工作。
 
-   ![](images/status-translation-uuid.png){width="800" align="left"}
+   ![](images/status-translation-uuid.png){width="800"}
 
 
 「翻譯」標籤包含下列區段：
@@ -141,4 +141,4 @@ ht-degree: 1%
 >
 > 如果您拒絕翻譯工作中一個或多個主題的翻譯，則所有已拒絕主題的&#x200B;**進行中**&#x200B;翻譯狀態將恢復為原始狀態。 參照主題的狀態會根據最新翻譯狀態檢查並回覆。 此外，在目標專案中建立的翻譯檔案不會被刪除，即使它們被拒絕翻譯。
 
-**父級主題：**&#x200B;[&#x200B;翻譯內容](translation.md)
+**父級主題：**[&#x200B;翻譯內容](translation.md)

@@ -4,9 +4,10 @@ description: 瞭解如何使用WebDAV工具和FrameMaker在Experience Manager Gu
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 53eb863a-094f-4445-ab4b-d5fca2249c30
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -81,7 +82,7 @@ Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆將現有DITA和其
 
 1. 開啟&#x200B;**連線管理員**&#x200B;對話方塊。
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. 輸入以下詳細資料以連線至AEM存放庫：
 
@@ -94,7 +95,7 @@ Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆將現有DITA和其
 
    成功建立連線後，AEM存放庫中的Assets會顯示在「存放庫管理員」視窗中。
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    以滑鼠右鍵按一下任何檔案或資料夾，即可執行相關作業。 例如，如果以滑鼠右鍵按一下資料夾，您會獲得以下選項：上傳檔案、上傳具有相依性的檔案、上傳整個資料夾等。
 
@@ -103,4 +104,4 @@ Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆將現有DITA和其
 
 
 
-**上層主題：**&#x200B;[&#x200B;移轉現有內容](migrate-content.md)
+**上層主題：**[&#x200B;移轉現有內容](migrate-content.md)

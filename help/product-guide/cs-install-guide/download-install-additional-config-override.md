@@ -5,7 +5,7 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -59,10 +59,10 @@ ht-degree: 0%
 5. 選取&#x200B;**新增/更新**。
 6. 新增UI設定詳細資料。 確定您使用與下列熒幕擷取畫面相同的名稱和設定。
 
-   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+   ![](assets/enable-penultimate-ui.png){width="800"}
 
    將值設定為&#x200B;**true**&#x200B;會保留舊的UI，而&#x200B;**false**&#x200B;會啟用新的UI。
 
 
 
-**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)

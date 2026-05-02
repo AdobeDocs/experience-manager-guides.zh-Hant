@@ -1,10 +1,10 @@
 ---
 title: 發行說明 | 2024.2.0版Adobe Experience Manager Guides的新增功能
-description: 瞭解2024.2.0版Adobe Experience Manager Guidesas a Cloud Service中的新功能和增強功能。
+description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2024.2.0版中的新功能和增強功能。
 exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
-source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1063'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 有關此版本中的問題修正清單，請查看 [2024.2.0 版本中修正的問題](fixed-issues-2024-2-0.md)。
 
 
-瞭解2024.2.0版[&#128279;](upgrade-instructions-2024-2-0.md)的升級指示。
+瞭解2024.2.0版](upgrade-instructions-2024-2-0.md)的[升級指示。
 
 
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 為了確保您的內容正確且一致，搜尋和建議會限制在您組織擁有的內容，且與您搜尋的關鍵字非常相符。
 
-網頁編輯器中的![智慧型建議面板](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+網頁編輯器中的![智慧型建議面板](assets/web-editor-smart-suggestion.png) {width="800"}
 
 
 *檢視智慧型建議以從您的內容存放庫尋找及新增相符的內容參考。*
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 現在，Experience Manager Guides提供增強的版本記錄功能，可讓您比較檔案在一段時間內所做的變更。 在新的並排檢視中，您可以輕鬆將目前版本的內容和中繼資料與相同檔案的任何先前版本進行比較。 您也可以檢視比較版本的標籤和註解。 身為管理員，您可以控制主題版本中繼資料及其值顯示在&#x200B;**版本記錄**&#x200B;對話方塊中。
 
-![版本記錄對話方塊](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![版本記錄對話方塊](assets/version-history-dialog-web-editor.png){width="800"}
 *預覽不同版本主題中的變更。*
 
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 已改善&#x200B;**翻譯**&#x200B;面板。  您可以檢視&#x200B;**可用語言**&#x200B;清單，並快速選取您要翻譯專案的地區設定。 只要選取一項，您就可以選擇&#x200B;**全選**，將專案翻譯成所有可用的語言。
 
-![翻譯面板](assets/translation-languages-4.4.png){width="300" align="left"}
+![翻譯面板](assets/translation-languages-4.4.png){width="300"}
 
 *選取您要翻譯專案的地區設定。 選擇檔案的預設版本、基準版本或最新版本以進行翻譯。*
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 以&#39;t&#39;開頭的所有有效元素。
 
 
-![插入對話方塊](assets/insert-element.png){width="300" align="left"}
+![插入對話方塊](assets/insert-element.png){width="300"}
 
 *輸入字元以搜尋所有以字元開頭的有效元素。*
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 現在，您可以在網頁編輯器中輕鬆分割清單。 從清單專案的內容功能表中選取&#x200B;**分割清單**&#x200B;選項，以分割目前清單。 從您為分割選取的清單專案開始，會在相同層級建立新清單。
 
-![翻譯面板](assets/context-menu-split-list.png){width="300" align="left"}
+![翻譯面板](assets/context-menu-split-list.png){width="300"}
 
 *選取分割目前清單的選項。*
 
@@ -93,26 +93,26 @@ ht-degree: 1%
 
 ## 能夠使用動態基準並行發佈多個輸出預設集
 
-「Experience Manager」提供根據套用至主題的主題標籤自動挑選主題以建立基準的功能。 現在，您也可以使用相同DITA map的自動基準線，順暢地發佈多個輸出預設集。 您不需要一次只發佈一個預設集，但可以輕鬆地同時發佈多個輸出預設集。
+Experience Manager提供依據套用至主題的主題標籤自動挑選主題以建立基準的功能。 現在，您也可以使用相同DITA map的自動基準線，順暢地發佈多個輸出預設集。 您不需要一次只發佈一個預設集，但可以輕鬆地同時發佈多個輸出預設集。
 
 
 ## 原生PDF增強功能
 
-2024.2.0版已完成下列原生PDF增強功能：
+下列原生PDF增強功能已在2024.2.0版本中完成：
 
 ### 將資產中繼資料傳遞至PDF輸出
 
-Experience Manager現在提供將資產的中繼資料屬性從DITA map傳遞至PDF輸出的功能。
+Experience Manager現在提供從DITA map傳遞資產的中繼資料屬性至PDF輸出的功能。
 從原生PDF輸出預設集中，您可以選擇要傳遞至PDF發佈程式的中繼資料。 您可以同時選取自訂和預設屬性。  選取的中繼資料屬性會傳遞至使用原生PDF產生的PDF檔案。
 
 此功能相當實用，可協助您保持資產屬性（例如作者、建立日期或檔案標題）的一致性。 這可讓您更輕鬆地組織、搜尋和分類您的檔案。
 
-如需詳細資訊，請檢視[PublishPDF輸出](../web-editor/native-pdf-web-editor.md)中的&#x200B;**進階**&#x200B;設定。
+如需詳細資訊，請檢視[發佈PDF輸出](../web-editor/native-pdf-web-editor.md)中的&#x200B;**進階**&#x200B;設定。
 
 
-### 使用新增至`topicmeta`元素的中繼資料做為PDF輸出
+### 使用新增到PDF輸出之`topicmeta`元素中的中繼資料
 
-原生PDF發佈的中繼資料功能有助於內容管理，也有助於在網際網路上搜尋檔案。
+原生PDF發佈中的中繼資料功能有助於內容管理，且有助於在網際網路上搜尋檔案。
 <img src="assets/pdf-metadata-4-4.png" alt="中繼資料標籤" width="800">
 
 *選取選項以新增和自訂中繼資料選項。*
@@ -121,4 +121,4 @@ Experience Manager現在提供將資產的中繼資料屬性從DITA map傳遞至
 
 此功能有助於改善檔案管理、確保一致性，並讓您的檔案可供搜尋。
 
-若要瞭解更多資訊，請檢視[PublishPDF輸出](../web-editor/native-pdf-web-editor.md)中的&#x200B;**中繼資料**&#x200B;索引標籤。
+若要瞭解更多資訊，請檢視[發佈PDF輸出](../web-editor/native-pdf-web-editor.md)中的&#x200B;**中繼資料**&#x200B;索引標籤。

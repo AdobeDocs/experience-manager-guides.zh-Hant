@@ -3,9 +3,10 @@ title: 首頁上的存放庫
 description: 瞭解首頁中的存放庫。 在首頁上瞭解Adobe Experience Manager Guides中的存放庫介面和功能。
 feature: Authoring
 role: User
-source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
+exl-id: 1466c263-d24b-4653-8361-098831002f4e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 此統一介面簡化了多項功能，包括建立新檔案或資料夾、編輯檔案、上傳資產以及使用強大的篩選選項搜尋檔案，從而確保效率和易用性。
 
-![](images/repository-view-home.png){align="left"}
+![](images/repository-view-home.png)
 
 存放庫介面分為下列區段：
 
@@ -27,16 +28,16 @@ ht-degree: 0%
 
 存放庫導覽列位於存放庫介面的頂端，可讓您快速存取列出的基本動作。
 
-![](images/tab-bar-repository-view.png){align="left"}
+![](images/tab-bar-repository-view.png)
 
 
 - **資料夾導覽面板**：顯示存放庫內資料夾的樹狀階層檢視，以順暢導覽。 此面板僅顯示資料夾層級的資訊。 從此處選取資料夾時，其內容、檔案和子資料夾會顯示在「存放庫」檢視中。 您可以使用下面反白顯示的圖示來顯示或隱藏此面板。
 
-  ![](images/folder-navigation-panel.png){align="left"}
+  ![](images/folder-navigation-panel.png)
 
 - **階層連結**：表示存放庫中的目前路徑，顯示通往您目前資料夾的資料夾階層。 您可以選取它以返回階層內的特定資料夾。
 
-  ![](images/breadcrumbs.png){width="650" align="left"}
+  ![](images/breadcrumbs.png){width="650"}
 
 - **重新整理**：更新存放庫以反映最新的變更。
 - **上傳Assets**：允許將資產直接上傳到目前的資料夾，如階層連結中反白顯示的內容。
@@ -55,7 +56,7 @@ ht-degree: 0%
 
 - **自訂**：您可以使用存放庫檢視右上角的&#x200B;**自訂**&#x200B;選項來修改顯示的欄。 此選項可讓您顯示或隱藏任何欄，並且視需要重新排列欄。 **Name**&#x200B;或&#x200B;**Title**&#x200B;資料行是強制性的，無法同時停用。 其他欄位，例如&#x200B;**檔案型別**、**UUID**、**檔案狀態**、**鎖定者**、**建立於**，以及&#x200B;**修改於**，可視需要啟用或停用。 只要拖放即可重新排列它們。
 
-  ![](images/customize-repo-view.png){width="350" align="left"}
+  ![](images/customize-repo-view.png){width="350"}
 
 - **調整欄大小**：您可以從欄下拉式選單中選取選項，調整欄大小。
 
@@ -67,11 +68,11 @@ ht-degree: 0%
    - 使用核取方塊選取所要的檔案後，「存放庫」檢視的右上角會顯示&#x200B;**編輯**&#x200B;選項。
    - 選取&#x200B;**編輯**&#x200B;會在編輯器介面中開啟選取的檔案，您可以在此開始編輯檔案。
 
-     ![](images/edit-repo-view.png){align="left"}
+     ![](images/edit-repo-view.png)
 
 - 資料夾的&#x200B;**選項功能表**：您可以使用資料夾可用的&#x200B;**選項**&#x200B;功能表執行下列動作：
 
-  ![](images/options-folder-repo.png){width="350" align="left"}
+  ![](images/options-folder-repo.png){width="350"}
 
    - **新增**：建立新的DITA主題、DITA map或資料夾。
    - **上傳Assets**：將檔案從您的本機系統上傳至存放庫中選取的資料夾。
@@ -80,14 +81,14 @@ ht-degree: 0%
 
 - **檔案的選項功能表**：您可以使用檔案的&#x200B;**選項**&#x200B;功能表執行下列動作：
 
-  ![](images/options-file-repo-new.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350"}
 
    - **編輯**：開啟檔案以進行編輯。
    - **在氧氣中編輯**：選取此選項可編輯氧氣聯結器外掛程式中選取的檔案。
 
      >[!NOTE]
      >
-     >請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這不會當作現成支援的一部分啟用。 如需更多詳細資訊，請檢視《安裝與組態指南》中的[設定選項以在Oxyo &#x200B;](../cs-install-guide/conf-edit-in-oxygen.md)中編輯。
+     >請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這不會當作現成支援的一部分啟用。 如需更多詳細資訊，請檢視《安裝與組態指南》中的[設定選項以在Oxyo ](../cs-install-guide/conf-edit-in-oxygen.md)中編輯。
 
    - **在對應主控台中開啟**：如果選取的檔案是DITA map，則此選項會開啟對應主控台。
    - **在地圖儀表板中開啟**：如果選取的檔案是DITA map，則此選項會開啟地圖儀表板。
@@ -107,11 +108,11 @@ ht-degree: 0%
 
 **搜尋**&#x200B;選項主要依據&#x200B;**檔案標題**、**檔案名稱**&#x200B;和&#x200B;**內容**，協助從存放庫搜尋所需的檔案。 您可以在搜尋中使用任何一個、兩個或全部三個條件。 如果未選取任何條件，則結果將包含所有這三個條件的共同部分。
 
-![](images/search-in-repository.png){align="left"}
+![](images/search-in-repository.png)
 
 選取&#x200B;**篩選搜尋** \（![搜尋篩選圖示](images/filter-search-icon.svg)\）圖示以開啟右側的「篩選」面板。
 
-![](images/Search-filters-repo.png){align="left"}
+![](images/Search-filters-repo.png)
 
 您有以下選項可篩選檔案並縮小搜尋範圍：
 
@@ -119,7 +120,7 @@ ht-degree: 0%
 
 - **檔案型別**：根據特定檔案型別篩選您的搜尋。 可用的選項包括：**Topic**、**Map**、**DITAVAL**、**Image**、**Multimedia**、**Document**&#x200B;和&#x200B;**Others**。
 
-- **檔案狀態**：您可以根據檔案的目前檔案狀態來篩選搜尋。 可用的篩選值定義在`repositoryFilters`的`ui_config.json file`欄位中，且與您目前使用的資料夾設定檔相關聯。
+- **檔案狀態**：您可以根據檔案的目前檔案狀態來篩選搜尋。 可用的篩選值定義在`ui_config.json file`的`repositoryFilters`欄位中，且與您目前使用的資料夾設定檔相關聯。
 
   這表示：
 
@@ -143,15 +144,14 @@ ht-degree: 0%
 
 根據選取的篩選器自訂的搜尋結果只會以&#x200B;**表格檔案清單**&#x200B;顯示（未顯示資料夾）。 您可以同時移除任何個別或多個篩選器，結果會重新整理以反映更新的選取範圍。
 
-![](images/search-results-with-filters.png){align="left"}
+![](images/search-results-with-filters.png)
 
 搜尋結果出現後，您可以選取多個檔案並使用&#x200B;**編輯**&#x200B;圖示在編輯器中開啟它們，或是透過&#x200B;**在搜尋面板中顯示**&#x200B;選項將搜尋結果傳送給編輯者，以處理所有結果。
 
-![](images/post-search-operation.png){align="left"}
+![](images/post-search-operation.png)
 
 **顯示在搜尋面板中**
 
 在存放庫中執行搜尋後，**在搜尋面板中顯示**&#x200B;選項將變為可用。 此功能可讓您在編輯器的&#x200B;**搜尋面板**&#x200B;中顯示所有搜尋結果。 如需詳細資訊，請檢視[搜尋面板](./search-panel-explorer.md)。
 
-![](images/search-panel-repo.png){align="left"}
-
+![](images/search-panel-repo.png)

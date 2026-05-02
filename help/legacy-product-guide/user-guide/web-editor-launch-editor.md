@@ -5,7 +5,7 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 登入AEM時，畫面會顯示導覽頁面：
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800"}
 
 按一下&#x200B;**Guides**&#x200B;連結，即可直接前往網頁編輯器。
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){width="800"}
 
 當您未選取任何檔案就啟動網頁編輯器時，會顯示空白的網頁編輯器畫面。 您可以開啟檔案，以從AEM存放庫或「我的最愛」集合進行編輯。
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
    .
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){width="800"}
 
    >[!IMPORTANT]
    >
    > 確保您對包含要編輯之主題的資料夾具有讀取和寫入許可權。
 
-1. 若要取得該主題的獨佔鎖定，請選取該主題，然後按一下[出庫]。**&#x200B;**
+1. 若要取得該主題的獨佔鎖定，請選取該主題，然後按一下[出庫]。****
 
    >[!IMPORTANT]
    >
@@ -89,15 +89,15 @@ ht-degree: 0%
    >
    > 如果您想要開啟多個主題進行編輯，請從資產UI中選取所需的主題，然後按一下編輯。 請確認您的瀏覽器未啟用快顯封鎖程式，否則只會開啟所選清單中的第一個主題進行編輯。
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){width="800"}
 
    如果您不想預覽主題，並想直接在網頁編輯器中開啟主題，請從卡片檢視按一下快速動作功能表中的「編輯」圖示：
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){width="800"}
 
 1. 按一下&#x200B;**編輯**，在網頁編輯器中開啟主題。
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){width="800"}
 
 
 ## DITA map主控台 {#id2056BG090BF}
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**編輯主題**。
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){width="800"}
 
 1. 主題會在Web編輯器中開啟。
 
@@ -125,4 +125,4 @@ ht-degree: 0%
    > 如果您的管理員已設定&#x200B;**停用編輯而不簽出**&#x200B;選項，則您必須先簽出檔案才能進行編輯。 如果未出庫檔案，則檔案會在編輯器中以唯讀模式開啟。
 
 
-**上層主題：**&#x200B;[&#x200B;使用網頁編輯器](web-editor.md)
+**上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)

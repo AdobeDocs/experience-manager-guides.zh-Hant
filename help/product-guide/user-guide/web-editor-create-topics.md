@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe Experience Manager Guides中的自訂範本
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: c6709ffb8e415c88931e732456e2f2a5e6b63729
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Adobe Experience Manager Guides可讓您建立以下型別的DITA主題：主題
 
 1. 在「存放庫」面板中，選取&#x200B;**新檔案**&#x200B;圖示，然後從下拉式功能表中選取&#x200B;**主題**。
 
-   ![](images/create-topic-option.png){width="500" align="left"}
+   ![](images/create-topic-option.png){width="500"}
 
    您也可以從[Experience Manager Guides首頁](./intro-home-page.md)以及存放庫檢視中資料夾的「選項」功能表存取此選項。
 
@@ -43,13 +43,13 @@ Adobe Experience Manager Guides可讓您建立以下型別的DITA主題：主題
    - 主題將依據的範本。 例如，對於現成可用的設定，您可以從「空白」、「概念」、「DITAVAL」、「參考」、「任務」、「主題」、「Markdown」、「字彙表」和「疑難排解」範本中選擇。 如果您的資料夾上設定了「資料夾設定檔」，則您將只會檢視在「資料夾設定檔」上設定的主題範本。
    - 您要儲存主題檔案的路徑。 依預設，存放庫中目前所選資料夾的路徑會顯示在「路徑」欄位中。
 
-4. 選取「**建立**」。
+4. 選擇 **建立**。
 
-   ![](images/create-topic-dialog-new.png){width="300" align="left"}
+   ![](images/create-topic-dialog-new.png){width="300"}
 
 主題是在指定的路徑中建立。 此外，主題也會在編輯器中開啟以進行編輯。
 
-![](images/new-topic-editor.png){align="left"}
+![](images/new-topic-editor.png)
 
 ## 從Assets UI建立主題
 
@@ -61,7 +61,7 @@ Adobe Experience Manager Guides可讓您建立以下型別的DITA主題：主題
 
 1. 在Blueprint頁面上，選取您要建立的DITA檔案型別，然後選取&#x200B;**下一步**。
 
-   ![](images/create_dita_topic.png){align="left"}
+   ![](images/create_dita_topic.png)
 
    依預設，Experience Manager Guides提供最常用的DITA主題範本。 您可以根據組織需求設定更多主題範本，檢視「安裝」中的&#x200B;*設定撰寫範本*，並為您的設定設定Adobe Experience Manager Guides。
 
@@ -77,7 +77,7 @@ Adobe Experience Manager Guides可讓您建立以下型別的DITA主題：主題
 
    如果檔案命名選項可用，也會根據檔案的&#x200B;**標題**&#x200B;自動建議名稱。 如果您要手動指定檔名稱，請確定&#x200B;**名稱**&#x200B;不含任何空格、單引號或大括弧，且結尾為.xml或.dita。 依預設，Experience Manager Guides會以連字型大小取代所有特殊字元。 檢視最佳作法指南中的檔案名稱區段，以取得有關命名DITA檔案的最佳作法。
 
-1. 選擇 **建立**。「主題已建立」訊息便會顯示。
+1. 選取「**建立**」。 「主題已建立」訊息便會顯示。
 
    您可以選擇在編輯器中開啟要編輯的主題，或將主題檔案儲存在Adobe Experience Manager存放庫中。
 
@@ -85,7 +85,7 @@ Adobe Experience Manager Guides可讓您建立以下型別的DITA主題：主題
 
 1. 您從Assets UI **建立** \> **DITA主題**&#x200B;或編輯器建立的每個新主題都會指派唯一的主題ID。 此ID的值是檔案名稱本身。 此外，新檔案會儲存為DAM中主題的最新工作副本。 除非儲存新建立主題的修訂版本，否則不會在「版本記錄」中檢視任何版本號碼。 如果您開啟主題進行編輯，版本資訊會顯示在工具列的右上角：
 
-   ![](images/topic-version-none_cs.png){width="550" align="left"}
+   ![](images/topic-version-none_cs.png){width="550"}
 
 2. 新建立之主題的版本資訊顯示為&#x200B;*none*。 儲存新版本時，會為其指定版本編號1.0。
 
@@ -93,4 +93,4 @@ Adobe Experience Manager Guides可讓您建立以下型別的DITA主題：主題
 
 4. 建立DITA主題後，請繼續儲存對工作副本所做的變更，並在完成主題更新後建立新版本。
 
-**父級主題：**&#x200B;[&#x200B;建立和預覽主題](create-preview-topics.md)
+**父級主題：**[&#x200B;建立和預覽主題](create-preview-topics.md)

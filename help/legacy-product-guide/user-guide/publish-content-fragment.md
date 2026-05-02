@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 1%
@@ -29,18 +29,18 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 1. 建立一個資料夾，您想在其中儲存根據內容片段模式建立的內容片段。 例如，「stock-content-fragments」。
 1. 編輯資料夾的屬性（例如「stock-content-fragments」）並新增資料夾的路徑，其中包含雲端設定中的內容片段模式。
 例如，在雲端設定中新增`/conf/we-retail`。 此設定將所有內容片段模式與資料夾連線。\
-   ![在資料夾屬性中新增雲端設定詳細資料](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+   ![在資料夾屬性中新增雲端設定詳細資料](images/fragment-folder-cloud-configuration.png){width="650"}
    *在資料夾屬性中新增雲端設定，以將其與片段模型連線。*
 
 1. 若要產生內容片段，請從主題&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段中，選取&#x200B;**新輸出** ![新輸出圖示](./images/Add_icon.svg)。
 1. 選取&#x200B;**內容片段**。\
-   ![檔案屬性選項標籤](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   ![檔案屬性選項標籤](./images/file-properties-outputs-tab.png) {width="300"}
 
    *從主題*&#x200B;的檔案屬性加入新的內容片段。
 
 1. 在「**產生內容片段**」對話方塊中，在「**一般**」和「**對應**」標籤下填入下列詳細資料。
 
-   **一般**&#x200B;標籤
+   **一般**標籤
    ![在「發佈為內容片段」對話方塊中新增片段模型和對應詳細資訊](images/generate-content-fragment.png)
    *新增路徑、名稱、標題和條件篩選，將主題或其元素發佈為內容片段。*
 
@@ -71,7 +71,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
    * **模式**：選取您要用來建立內容片段的內容片段模式。 模型會從您已在Experience Manager Guides伺服器上設定的資料夾中選取。
    * **對應**：您可以檢視已套用ID屬性的主題元素。 將主題元素拖曳至內容片段模式中顯示的欄位。
-若有現有內容片段，右側會填入已發佈的內容片段內容。 如有必要，可以用主題內容覆寫這些內容。 您也可以選取&#x200B;**復原**&#x200B;以還原對應變更。
+若有現有內容片段，右側會填入已發佈的內容片段內容。 如有必要，可以用主題內容覆寫這些內容。 您也可以選取**復原**&#x200B;以還原對應變更。
 
 
      >[!NOTE]
@@ -82,7 +82,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
 1. 您可以在&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段下檢視主題的內容片段。
 
-   ![檢視主題](images/outputs-options-menu.png){width="300" align="left"}的內容片段
+   ![檢視主題](images/outputs-options-menu.png){width="300"}的內容片段
 
    *檢視主題的內容片段並重新發佈。*
 

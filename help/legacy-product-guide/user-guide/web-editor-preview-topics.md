@@ -1,11 +1,11 @@
 ---
 title: 預覽主題
-description: Learn how to preview a topic in AEM Guides. Know about the features available in preview mode. Branch, revert, and subsequent versioning in AEM guides.
+description: 瞭解如何在AEM Guides中預覽主題。 瞭解預覽模式中可用的功能。 在AEM指南中分支、還原及後續版本設定。
 feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -14,44 +14,44 @@ ht-degree: 0%
 
 # 預覽主題 {#id1696II000QR}
 
-Once a topic is created, AEM Guides generates a preview of the topic. The Preview mode provides various features that you can use to work with your document.
+建立主題後，AEM Guides會產生主題的預覽。 「預覽」模式提供您可用來處理檔案的各種功能。
 
-Perform the following steps to preview a topic:
+執行以下步驟來預覽主題：
 
-1. In the Assets UI, navigate to the topic that you want to view.
-1. Click on the topic you want to view.
+1. 在Assets UI中，導覽至您要檢視的主題。
+1. 按一下您要檢視的主題。
 
-   A preview of the topic is displayed in the Assets UI.
+   主題預覽會顯示在Assets UI中。
 
    >[!NOTE]
    >
-   > You can see the version of the active topic or DITA map in the top right corner of the topic&#39;s file tab.
+   > 您可以在主題之檔案標籤的右上角，看到使用中主題或DITA map的版本。
 
    >[!IMPORTANT]
    >
-   > The positioning of the following features in the Preview toolbar could differ based on your AEM server&#39;s setup. Some of the features might be available in the main toolbar, while other could be available under the More menu.
+   > 下列功能在預覽工具列中的位置可能會因AEM伺服器的設定而異。 主工具列中可能會提供某些功能，而「更多」功能表下可能會提供其他功能。
 
-## Features available in preview mode
+## 預覽模式中可用的功能
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){width="800"}
 
-You can perform the following operations from the toolbar in the preview mode:
+您可以在預覽模式中從工具列執行下列操作：
 
 **屬性**
 
-View the properties of the selected topic. 根據您的AEM版本，您可以看到中繼資料、排程\(de\)啟動、參考、檔案狀態等屬性。
+檢視所選主題的內容。 根據您的AEM版本，您可以看到中繼資料、排程\(de\)啟動、參考、檔案狀態等屬性。
 
 >[!NOTE]
 >
-> A topic&#39;s title property is auto-populated from the `title` tag of the DITA topic or map. If you make any change in the title using the properties window that change is lost. If you want to update the title property, you should do it using the Web editor.
+> 主題的標題屬性是從DITA主題或地圖的`title`標籤中自動填入。 如果您使用屬性視窗在標題中進行任何變更，則變更會遺失。 如果您想要更新標題屬性，應使用網頁編輯器進行更新。
 
-The Properties page contains useful information about the references, such as where a map or topic is being used, or what references are contained in a document. The Properties page lists two types of references for a document - **Used In** and **Outgoing References**.
+「屬性」頁面包含有關參照的有用資訊，例如使用地圖或主題的位置，或檔案中包含哪些參照。 屬性頁面列出檔案的兩種參考 — **用於**&#x200B;和&#x200B;**傳出參考**。
 
-The **Used In** references list the documents where the current file is being referred or used. The **Outgoing References** lists the documents that are referred in current document.
+**Used In**&#x200B;參考列出參照或使用目前檔案的檔案。 **傳出參考**&#x200B;列出目前檔案中參考的檔案。
 
 **用於**&#x200B;參考區段中的\(+\)圖示可讓您進一步向上導覽，以尋找該主題正在使用或參考的位置。
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){width="800"}
 
 按一下檔案旁的![](images/right-arrow-used-in-dialog.svg)圖示，會顯示該檔案被進一步參照的地圖或主題檔案。
 
@@ -63,7 +63,7 @@ The **Used In** references list the documents where the current file is being re
 >
 > 在Web編輯器中使用淺色背景顏色來反白顯示條件內容。
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **編輯**
 
@@ -81,7 +81,7 @@ The **Used In** references list the documents where the current file is being re
   >
   > 若要取得DITA map檔案的原始碼檢視，請在Assets UI中選取該檔案，然後按一下Source。
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800"}
 
 **共用UUID連結**
 
@@ -93,7 +93,7 @@ The **Used In** references list the documents where the current file is being re
 
 新選項&#x200B;**共用UUID連結**&#x200B;會顯示在上述區域的工具列中。 下列熒幕擷圖顯示主題預覽模式中的&#x200B;**共用UUID連結**&#x200B;選項：
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){width="800"}
 
 在資產UI中，選取檔案時可看見此選項。 在「預覽」模式中，此選項預設可在主工具列中使用。 在DITA map主控台中，此選項會顯示在「輸出預設集」區段中。
 
@@ -113,15 +113,15 @@ The **Used In** references list the documents where the current file is being re
 
 在卡片檢視中取出檔案：
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 在清單檢視中取出檔案：
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 如果[簽出]資料行不顯示，請在&#x200B;**清單檢視**&#x200B;下選取&#x200B;**檢視設定**，並在&#x200B;**設定資料行**&#x200B;對話方塊中選取&#x200B;**簽出**&#x200B;狀態。
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){width="800"}
 
 >[!TIP]
 >
@@ -139,17 +139,17 @@ The **Used In** references list the documents where the current file is being re
 
    1. 在左側邊欄中，按一下&#x200B;**版本記錄**&#x200B;並選取版本。
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){width="800"}
 
    1. 從列出的版本中，選取要做為基礎版本的版本，然後按一下&#x200B;**預覽版本**。 所選版本的預覽會顯示在「版本預覽」視窗中。
 
    1. 從&#x200B;**顯示差異**&#x200B;清單中，選取您要與基本版本比較的版本。
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){width="800"}
 
       變更的內容會在主題預覽中反白顯示。 以綠色反白顯示的內容表示新新增的內容，而以紅色顯示的內容則是刪除的內容。
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){width="800"}
 
 
 ### 分支、還原和後續版本設定 {#id193PG0Y051X}
@@ -190,7 +190,7 @@ The **Used In** references list the documents where the current file is being re
 
    1. 選取您要建立分支的版本。 在下列熒幕擷圖中，已選取1.2版來建立分支。
 
-      ![](images/branching.png){width="300" align="left"}
+      ![](images/branching.png){width="300"}
 
       >[!NOTE]
       >
@@ -204,19 +204,19 @@ The **Used In** references list the documents where the current file is being re
 
       - 如果選取此選項，則會從1.1版建立分支。 此外，也會從主題目前的工作復本建立新版本的主題，並儲存為下一個版本 — 1.4。
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
         版本1.2會成為您目前主題的工作副本。 在此之後儲存的任何版本都會建立在1.1的新分支下。 例如，此分支中新主題的後續版本將儲存為1.2.0。
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300"}
 
       - 如果未選取此選項，則不會從主題目前的工作副本建立新版本。 新分支是從主題的1.2版建立的。 主題的任何後續版本都會儲存在1.2分支下，如1.2.0、1.2.1等等。
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. 按一下&#x200B;**「確定」**。
 
 
   會從選取的主題版本建立新分支。 上述程式也適用於回覆至特定版本的主題。 技術上，回覆至特定版本表示您從選取的版本建立新分支，並將該版本設為主題的最新工作復本。 您也可以在「版本還原歷史記錄」報表中檢視已還原的檔案歷史記錄。 如需有關此報告的詳細資訊，請參閱[還原檔案版本記錄報告](reports-reverted-file-version-history.md#)。
 
-**父級主題：**&#x200B;[&#x200B;建立和預覽主題](create-preview-topics.md)
+**父級主題：**[&#x200B;建立和預覽主題](create-preview-topics.md)

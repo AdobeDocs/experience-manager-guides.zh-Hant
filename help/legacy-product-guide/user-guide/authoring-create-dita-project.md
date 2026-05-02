@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -36,7 +36,7 @@ AEM Guides提供DITA專案範本，您可用來建立和管理稽核任務。
 
 1. 按一下&#x200B;**建立** \> **專案**&#x200B;以啟動建立專案精靈。
 
-   ![](images/project-console-63.png){width="650" align="left"}
+   ![](images/project-console-63.png){width="650"}
 
 1. 在建立專案頁面上，選取&#x200B;**DITA專案**&#x200B;範本，然後按一下&#x200B;**下一步**。
 
@@ -44,7 +44,7 @@ AEM Guides提供DITA專案範本，您可用來建立和管理稽核任務。
 
    **基本**&#x200B;索引標籤中的資訊：
 
-   ![](images/create-project.png){width="650" align="left"}
+   ![](images/create-project.png){width="650"}
 
    - 輸入專案的&#x200B;**標題**、**描述**&#x200B;和&#x200B;**到期日**。
 
@@ -77,4 +77,4 @@ AEM Guides提供DITA專案範本，您可用來建立和管理稽核任務。
 1. 按一下&#x200B;**開啟**&#x200B;以開啟您的專案頁面。
 
 
-**父級主題：**&#x200B;[&#x200B;檢閱主題或地圖](review.md)
+**父級主題：**[&#x200B;檢閱主題或地圖](review.md)

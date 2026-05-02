@@ -4,7 +4,7 @@ description: 瞭解如何在產品培訓和學習中建立測驗。
 feature: Authoring
 role: User
 exl-id: 96c1d233-66d8-4f4e-b08a-d533d74fe0ff
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -17,12 +17,12 @@ ht-degree: 1%
 
 1. 在&#x200B;**課程管理員**&#x200B;中開啟課程，並從&#x200B;**選項**&#x200B;功能表選取&#x200B;**新增**。
 
-   ![](assets/workflow-quiz.png){width="650" align="left"}
+   ![](assets/workflow-quiz.png){width="650"}
 
 1. 選取&#x200B;**測驗**。\
    **新學習測驗**&#x200B;對話方塊開啟，以指定測驗的相關詳細資料。 您可以從下拉式選單中選取範本，並為該範本指定適當的標題。
 
-   ![](assets/new-learning-quiz.png){width="350" align="left"}
+   ![](assets/new-learning-quiz.png){width="350"}
 
 1. 選取「**建立**」。
 

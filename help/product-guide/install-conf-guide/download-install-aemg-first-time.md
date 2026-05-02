@@ -4,10 +4,11 @@ description: 首次瞭解如何下載和安裝AEM Guides
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 1c4a93c2-e477-4466-8390-3fda21ead9ff
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 3%
 
 ---
 
@@ -31,9 +32,9 @@ ht-degree: 0%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   套件管理器會管理本機AEM安裝上的套件。 如需使用封裝管理員的詳細資訊，請參閱AEM檔案中的[如何使用封裝](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/package-manager.html)。
+   套件管理器會管理本機AEM安裝上的套件。 如需使用封裝管理員的詳細資訊，請參閱AEM檔案中的[如何使用封裝](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. 若要上傳AEM Guides套件，請按一下&#x200B;**上傳套件**。
 
@@ -41,11 +42,11 @@ ht-degree: 0%
 
    套件會上傳至您的AEM執行個體。
 
-1. 若要安裝封裝，請按一下[安裝]。**&#x200B;**
+1. 若要安裝封裝，請按一下[安裝]。****
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
-1. 在[安裝封裝]對話方塊中，按一下[安裝]。**&#x200B;**
+1. 在[安裝封裝]對話方塊中，按一下[安裝]。****
 
 1. 若要開始使用AEM Guides，請按一下CRX封裝管理員左上角的「首頁」按鈕![](assets/home-button.png)。
 

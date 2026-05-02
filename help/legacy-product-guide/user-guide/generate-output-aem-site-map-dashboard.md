@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 41c0d4d5-5c46-4d2b-90b3-8c441fee8e99
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2421'
 ht-degree: 0%
@@ -48,13 +48,13 @@ ht-degree: 0%
 
 連結內容的另一種方式是使用`peer` `@scope`建立連結。 對於此類內容，在執行階段會透過從DITA map的發佈內容中選取檔案標題和連結主題的已設定內容來解析連結。 下列熒幕擷圖顯示具有`peer` `@scope`之連結的「屬性」面板：
 
-![](images/peer-link-scope-link.png){width="800" align="left"}
+![](images/peer-link-scope-link.png){width="800"}
 
 為簡化複雜地圖及連結至其他地圖中其他主題之主題的發佈作業，AEM Guides可讓您設定每個輸出預設集的發佈內容。
 
 發佈內容可讓您指定必須從哪個對應使用哪個主題來發佈特定輸出。 讓我們透過範例來瞭解這一點 — 假設您有四個資料夾：範例a、範例b、範例c和範例d。 每個資料夾都包含一個DITA map — DITA map A、DITA map B、DITA map C和DITA map D。當DITA map A中的主題連結到DITA map B、C或D中的主題時，就會發生交叉對映連結。在下列熒幕擷圖中，範例概念主題包含其他DITA map一部分檔案的連結\（或參照\）。
 
-![](images/sample-concept-link-to-other.png){width="350" align="left"}
+![](images/sample-concept-link-to-other.png){width="350"}
 
 現在，當您為包含此主題的對應檔案設定AEM Sites發佈設定時，可以選取在發佈時所使用的連結內容發佈內容。 發佈內容是DITA map及其輸出預設集的組合。 輸出預設集又包含特定版本的內容和條件預設集。 這個DITA map、輸出預設集、\(files\)版本和條件的完整組合定義了連結地圖的發佈內容。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    您可以取得「AEM預設集設定」和「發佈內容」標籤。
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){width="800"}
 
 1. 開啟&#x200B;**發佈內容**&#x200B;標籤。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
    依預設，所有連結的主題都會選取其最新的輸出預設集和地圖。
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){width="800"}
 
 1. 若要變更DITA map和預設集的預設選項，請按一下主工具列中的&#x200B;**編輯** \(Edit)。
 
@@ -90,29 +90,29 @@ ht-degree: 0%
 
 1. 在&#x200B;**父對映的預設集**&#x200B;下拉式清單中，選取您要連結目前對映的輸出的輸出預設集。
 
-1. Select the required map and its output preset for all dependent topics and click **Done**.
+1. 為所有相依主題選取必要的對映及其輸出預設集，然後按一下&#x200B;**完成**。
 
-   The context for the dependent topics is now set. You can generate the output for the current map. For more information about generating output, see [Generate output for a DITA map from the map console](generate-output-for-a-dita-map.md#).
+   相依主題的內容現已設定。 您可以產生目前對應的輸出。 如需有關產生輸出的詳細資訊，請參閱[從對應主控台產生DITA對應的輸出](generate-output-for-a-dita-map.md#)。
 
-### Blended publishing
+### 混合式發佈
 
-AEM Guides supports publishing DITA content within your existing AEM site. For example, if you have an existing site, you can use the AEM Sites output to publish only the DITA content on that site. In this process, the existing non-DITA content is not modified by the publishing process. For more information about setting up your site to publish only DITA content, contact your publishing administrator.
+AEM Guides支援在現有AEM網站中發佈DITA內容。 例如，如果您有現有網站，可以使用AEM Sites輸出僅在該網站上發佈DITA內容。 在此程式中，發佈程式不會修改現有的非DITA內容。 如需將網站設定為僅發佈DITA內容的詳細資訊，請連絡您的發佈管理員。
 
-### Publishing `conref`
+### 正在發佈`conref`
 
-If you are using `conref` in your content, then it is published as normal or embedded content along with the content in the source \(or referring\) topic. The `conref` content is rendered along with the main content and no separate site page is created for the same. When you search for the content that is referred in the `conref`, then only the main topic or page containing the `conref` content is shown in the search results.
+如果您在內容中使用`conref`，則它是以一般或內嵌內容發佈，連同來源\（或反向連結\）主題中的內容。 `conref`內容會與主要內容一起呈現，不會為相同內容建立個別網站頁面。 當您搜尋`conref`中參照的內容時，搜尋結果中只會顯示包含`conref`內容的主要主題或頁面。
 
 >[!NOTE]
 >
->If you have generated separate pages for the `conref` content using AEM Guides version 3.5 or earlier, then it is recommended to clean/delete those pages by using the [Delete Orphan Site Pages](#delete-orphan-page-aem-site) option.
+>如果您已使用AEM Guides 3.5版或更舊版本為`conref`內容產生個別頁面，則建議使用[刪除孤立的網站頁面](#delete-orphan-page-aem-site)選項來清除/刪除這些頁面。
 
 
-### Search a string within the content
+### 搜尋內容中的字串
 
-You can search for a string in the AEM Sites output. By default, you can search for the string in the titles only. To search for the string in the content or the body of the AEM Sites output, contact your system administrator to enable the flattening.enabled property.
+您可以在AEM Sites輸出中搜尋字串。 依預設，您只能在標題中搜尋字串。 若要搜尋內容中的字串或AEM Sites輸出的內文，請聯絡您的系統管理員以啟用flattening.enabled屬性。
 
-![Search AEM Sites output](images/aem-output-search.png){width="650" align="left"}
+![搜尋AEM Sites輸出](images/aem-output-search.png){width="650"}
 
-For more details see *Configure flattening of AEM Site node structure* section in the Install and configure Adobe Experience Manager Guides guide.
+如需詳細資訊，請參閱安裝與設定AEM指南中的&#x200B;*設定Adobe Experience Manager Guides網站節點結構的平面化*&#x200B;區段。
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

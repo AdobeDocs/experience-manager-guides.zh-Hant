@@ -4,9 +4,9 @@ description: 探索Adobe Experience Manager Guides中編輯器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3653'
+source-wordcount: '3690'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,20 @@ ht-degree: 0%
 
 在開啟的媒體檔案索引標籤的內容功能表中，您會取得下列功能：
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 
 **單一DITA檔案**
 
 在已開啟檔案之索引標籤的內容功能表中，您會取得下列功能：
 
-![](images/single-file-context-menu.png){width="400" align="left"}
+![](images/single-file-context-menu.png){width="400"}
 
 **多個檔案**
 
 當您開啟多個檔案時，您會在快顯功能表中取得更多選項：
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 內容選單中的各種選項說明如下：
 
@@ -69,9 +69,9 @@ ht-degree: 0%
 
 ***新增至***：您可以選擇下列選項：
 
-- **集合**：若要將選取的檔案新增至集合，請選取&#x200B;**新增至\>集合**。 如需詳細資訊，請在&#x200B;**左側面板**&#x200B;區段中檢視[集合](web-editor-left-panel.md)功能說明。
+- **集合**：若要將選取的檔案新增至集合，請選取&#x200B;**新增至\>集合**。 如需詳細資訊，請在[左側面板](web-editor-left-panel.md)區段中檢視&#x200B;**集合**&#x200B;功能說明。
 
-- **可重複使用的內容**：若要將選取的檔案複製到可重複使用的內容清單，請選取&#x200B;**新增到\>可重複使用的內容**。 如需更多詳細資料，請在&#x200B;**左側面板**&#x200B;區段中檢視[可重複使用的內容](web-editor-left-panel.md)功能說明。
+- **可重複使用的內容**：若要將選取的檔案複製到可重複使用的內容清單，請選取&#x200B;**新增到\>可重複使用的內容**。 如需更多詳細資料，請在[左側面板](web-editor-left-panel.md)區段中檢視&#x200B;**可重複使用的內容**&#x200B;功能說明。
 
 ***屬性***
 
@@ -127,7 +127,7 @@ Generate the output for the selected file. Output can be generated only for file
 
   例如，下列熒幕擷取畫面會顯示其中一項提示：
 
-  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400"}
 
 已損毀參考的&#x200B;**視覺提示**
 
@@ -157,11 +157,11 @@ Experience Manager Guides提供直覺式對話方塊 — **選取檔案**&#x200B
 
 檔案路徑瀏覽器可讓您快速找到並選取內容存放庫中的特定檔案。 此功能可用於將主題新增至地圖、連結影像或交叉參照、建立可重複使用的內容等工作。
 
-![](images/select-file-dialog-new.png){width="350" align="left"}
+![](images/select-file-dialog-new.png){width="350"}
 
 當您啟動檔案瀏覽器時，**選取檔案**&#x200B;對話方塊會開啟。 此對話方塊包含兩個標籤： **存放庫**&#x200B;和&#x200B;**集合**。 依預設，會選取「存放庫」標籤。
 
-![](images/select-file.png){width="650" align="left"}
+![](images/select-file.png){width="650"}
 
 **存放庫索引標籤中可供檔案瀏覽的功能**
 
@@ -169,17 +169,17 @@ Experience Manager Guides提供直覺式對話方塊 — **選取檔案**&#x200B
 
 「存放庫」標籤為您提供內容存放庫中的檔案和資料夾的表格檢視，讓您更容易找到正確的檔案路徑。 您也可以使用頂部的階層連結和左側的資料夾導覽面板，在資料夾中移動。
 
-![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+![](images/select-file-dialog-navigate-files.png){width="650"}
 
 **單一和多重檔案選擇**
 
 若要使用檔案，只要選取檔案並選擇&#x200B;**選取**&#x200B;即可。
 
-![](images/select-file-single-file-selection.png){width="650" align="left"}
+![](images/select-file-single-file-selection.png){width="650"}
 
 在某些情況下，您還可以從此路徑瀏覽器對話方塊中選取多個檔案。 例如，在瀏覽可重複使用內容的檔案時，您可以選取多個檔案，並將其設為可重複使用內容的一部分。
 
-![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+![](images/select-file-multiple-file-selection.png){width="650"}
 
 目前可重複使用的內容、主題參照、結構描述、輸出預設集（使用DITAVAL）和Workfront可使用多個檔案選取範圍。
 
@@ -191,29 +191,29 @@ Experience Manager Guides提供直覺式對話方塊 — **選取檔案**&#x200B
 
 您可以使用&#x200B;**預覽**&#x200B;按鈕預覽您選取的檔案，如下所示：
 
-![](images/select-file-preview-button.png){width="650" align="left"}
+![](images/select-file-preview-button.png){width="650"}
 
 所選檔案的預覽會顯示在右側。
 
-![](images/select-file-dialog-preview.png){width="650" align="left"}
+![](images/select-file-dialog-preview.png){width="650"}
 
 對於多個選項，所有選取檔案的預覽會顯示在「預覽」面板中，以方便檢閱。
 
-![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+![](images/reusable-content-selection-left-panel.png){width="650"}
 
 您也可以使用&#x200B;**移除**&#x200B;圖示，取消選取預覽中的部分檔案。
 
-![](images/resusable-content-remove-preview.png){width="650" align="left"}
+![](images/resusable-content-remove-preview.png){width="650"}
 
 **搜尋和篩選體驗**
 
 瀏覽存放庫中的檔案時，您可以依名稱、標題或所選路徑中的內容來搜尋檔案。 您可以在搜尋中使用任何一個、兩個或全部三個條件。 如果未選取任何條件，則結果將包含所有這三個條件的共同部分。
 
-![](images/select-file-search.png){width="650" align="left"}
+![](images/select-file-search.png){width="650"}
 
 選取&#x200B;**篩選搜尋** \（![搜尋篩選圖示](images/filter-search-icon.svg)\）圖示以開啟右側的「篩選」面板。
 
-![](images/select-file-filters.png){align="left"}
+![](images/select-file-filters.png)
 
 您有以下選項可篩選檔案並縮小搜尋範圍：
 
@@ -225,7 +225,7 @@ Experience Manager Guides提供直覺式對話方塊 — **選取檔案**&#x200B
   >
   > 在某些情況下，**檔案型別**&#x200B;篩選器會根據工作預先套用至特定檔案型別，且無法變更。 例如，在瀏覽影像時，濾鏡設定為只顯示影像檔案，而在建立可重複使用的內容時，則設定為只顯示主題和地圖檔案。 您仍然可以調整其他篩選器，例如檔案狀態、標籤或上次修改日期，以縮小您的搜尋結果。
 
-- **檔案狀態**：您可以根據檔案的目前檔案狀態來篩選搜尋。 可用的篩選值定義在`repositoryFilters`的`ui_config.json file`欄位中，且與您目前使用的資料夾設定檔相關聯。
+- **檔案狀態**：您可以根據檔案的目前檔案狀態來篩選搜尋。 可用的篩選值定義在`ui_config.json file`的`repositoryFilters`欄位中，且與您目前使用的資料夾設定檔相關聯。
 
   這表示：
 
@@ -268,7 +268,7 @@ Experience Manager Guides提供直覺式對話方塊 — **選取檔案**&#x200B
 
 使用&#x200B;**選取資料夾**&#x200B;對話方塊瀏覽資料夾，著重於在存放庫中選取正確的資料夾路徑以進行工作，例如建立新主題或指定已發佈內容的輸出位置。 它提供清晰、樹狀結構的資料夾檢視，讓導覽更直覺化，並確保內容放置在正確的位置。
 
-![](images/select-path-dialog-new.png){width="300" align="left"}
+![](images/select-path-dialog-new.png){width="300"}
 
 
 ## 支援文章式發佈
@@ -289,7 +289,7 @@ Experience Manager Guides提供直覺式對話方塊 — **選取檔案**&#x200B
 
 Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro)應用程式的整合，插入MathML方程式。 若要插入MathML方程式，請選取&#x200B;**元素**&#x200B;圖示並輸入mathml。 當您從清單中選取mathml元素時，會顯示&#x200B;**插入MathML**&#x200B;對話方塊：
 
-![在mathml編輯器中插入mathml方程式](images/insert-mathml-equation.png){width="550" align="left"}
+![在mathml編輯器中插入mathml方程式](images/insert-mathml-equation.png){width="550"}
 
 使用MathML方程式工具，建立您的方程式，並選取&#x200B;**插入**&#x200B;以將其加入您的檔案。 方程式會以淺灰色背景插入。
 
@@ -298,9 +298,9 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 ### 在MathML編輯器中驗證方程式
 
 當您儲存包含方程式的主題時，Experience Manager Guides會驗證MathML方程式。
-使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取&#x200B;**插入**，則會顯示警告。
+使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取**插入**，則會顯示警告。
 
-![驗證mathml方程式](images/validate-mathml-equation.png){width="400" align="left"}
+![驗證mathml方程式](images/validate-mathml-equation.png){width="400"}
 
 如果您插入包含語法錯誤的MathML方程式，則在嘗試儲存主題時會發生驗證錯誤。
 
@@ -314,7 +314,7 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 編輯器會在主題左下角顯示元素的階層連結。 如果要使用另一個元素交換或取代某個元素，則可以從階層連結的內容選單中進行此操作。 例如，您可以將`p`元素與內容中的`note`或任何其他有效元素交換。
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 在階層連結上，以滑鼠右鍵按一下要取代的元素名稱，然後從快顯選單中選取「重新命名元素」。 「重新命名元素」對話方塊會顯示目前位置允許的所有有效元素。 在「重新命名元素」對話方塊中，選取您要使用的元素。 原始元素會以新元素取代。
 
@@ -338,7 +338,7 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 ### 解除元素包裝
 
-展開元素可讓您從選取的文字中移除元素標籤，並將其與其父元素合併。 例如，如果您在`p`元素中有一個`note`元素，您可以解除`p`元素的包裝，直接在`note`元素中合併文字。 在主題階層連結的內容功能表中可以使用&#x200B;**Unwrap Element**&#x200B;選項。 若要解除專案包裝，請在專案上按一下滑鼠右鍵以開啟內容功能表，最後選取&#x200B;**解除專案包裝**&#x200B;以移除專案，並將專案的文字與其父專案合併。
+展開元素可讓您從選取的文字中移除元素標籤，並將其與其父元素合併。 例如，如果您在`note`元素中有一個`p`元素，您可以解除`p`元素的包裝，直接在`note`元素中合併文字。 在主題階層連結的內容功能表中可以使用&#x200B;**Unwrap Element**&#x200B;選項。 若要解除專案包裝，請在專案上按一下滑鼠右鍵以開啟內容功能表，最後選取&#x200B;**解除專案包裝**&#x200B;以移除專案，並將專案的文字與其父專案合併。
 
 ## DITA元素的空白處理
 
@@ -353,16 +353,16 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 根據在「作者」、「Source」或「預覽」模式中的定義，以及在最終發佈的輸出中的定義，支援並轉譯包含分行符號和空格的DITA元素。 下列熒幕擷圖顯示`msgblock`元素中的內容，其中分行符號和空格\(indentation\)已保留：
 
-![](images/new-line-support_cs.png){align="left"}
+![](images/new-line-support_cs.png)
 
 
 
 ## 在編輯器中處理不斷行空格
 
-- 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)圖示或&#x200B;**Alt** + **Space**&#x200B;捷徑鍵，在檔案中插入不間斷的空格。  在編輯器中編輯主題時，這些不斷行空格會顯示為指示器。 您可以從&#x200B;**使用者偏好設定**&#x200B;的&#x200B;**外觀**&#x200B;索引標籤中，使用[在作者模式](./intro-home-page.md#user-preferences)中顯示不斷行空格指示器選項關閉不斷行空格的顯示。
+- 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)圖示或&#x200B;**Alt** + **Space**&#x200B;捷徑鍵，在檔案中插入不間斷的空格。  在編輯器中編輯主題時，這些不斷行空格會顯示為指示器。 您可以從[使用者偏好設定](./intro-home-page.md#user-preferences)的&#x200B;**外觀**&#x200B;索引標籤中，使用&#x200B;**在作者模式**&#x200B;中顯示不斷行空格指示器選項關閉不斷行空格的顯示。
 
-- 如果您將任何外部來源中含不斷行間距的內容複製並貼到&#x200B;**作者**&#x200B;檢視中，則不斷行間距會轉換為間距。
-不過，如果您從&#x200B;**作者**&#x200B;檢視複製並貼上含有不斷行空格的內容，內容會保留。
+- 如果您將任何外部來源中含不斷行間距的內容複製並貼到&#x200B;**作者**檢視中，則不斷行間距會轉換為間距。
+不過，如果您從**作者**&#x200B;檢視複製並貼上含有不斷行空格的內容，內容會保留。
 
 
 ## 自動生成元素ID
@@ -381,7 +381,7 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 如果指定的主題或地圖包含具有重複ID的元素，則&#x200B;**重複ID**&#x200B;按鈕會出現在編輯器檢視旁邊的「內容」編輯區域的右下角。
 
-![](images/duplicate-element-IDs.png){width="350" align="left"}
+![](images/duplicate-element-IDs.png){width="350"}
 
 選取&#x200B;**重複識別碼**&#x200B;會開啟一個彈出視窗，其中列出所有重複識別碼。 您可以從彈出視窗中選取顯示的ID，以導覽至對應的元素，並使用唯一ID加以更新。
 
@@ -398,14 +398,14 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 - 大型檔案的頂端會顯示警示訊息，如下面的程式碼片段所示。 此警報會根據uiconfig.json檔案的&#x200B;**largeFileTagCount**&#x200B;引數中指定的值，反白標示元素數目。 根據預設，**largeFileTagCount**&#x200B;設為2500。
 
-![](images/add-toast-notification.png){width="600" align="left"}
+![](images/add-toast-notification.png){width="600"}
 
 
 - 此外，標籤計數會顯示在介面的底端列。 當您將滑鼠懸停在此標籤計數值上時，畫面會顯示工具提示。 選取&#x200B;**深入瞭解**&#x200B;索引標籤可提供處理大型檔案的詳細資訊。
 
-![](images/add-toast-tag-count.png){width="600" align="left"}
+![](images/add-toast-tag-count.png){width="600"}
 
 
 - 警報訊息僅適用於DITA檔案，且在所有檢視中皆可見：作者、Source和版面。
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

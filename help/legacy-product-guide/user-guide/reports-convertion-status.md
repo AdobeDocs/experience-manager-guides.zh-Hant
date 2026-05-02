@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -26,7 +26,7 @@ AEM Guides提供強大的轉換功能，可將各種格式的檔案轉換為DITA
 
    系統會針對系統上執行的所有轉換工作，顯示「轉換狀態報告」。
 
-   ![](images/conversion-status-report.png){width="800" align="left"}
+   ![](images/conversion-status-report.png){width="800"}
 
 1. 報告頁面分為兩個部分：
 
@@ -36,7 +36,7 @@ AEM Guides提供強大的轉換功能，可將各種格式的檔案轉換為DITA
 
      下列熒幕擷圖顯示處於「失敗」、「作用中」和「已排入佇列」狀態的轉換工作的報表資料。
 
-     ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued.png){width="800"}
 
    - **報表資料：**
 
@@ -57,4 +57,4 @@ AEM Guides提供強大的轉換功能，可將各種格式的檔案轉換為DITA
       - **輸出**：成功轉換檔案的路徑。 按一下「輸出」連結，即可前往儲存輸出的位置。
 
 
-**父級主題：**&#x200B;[&#x200B;報告](reports-intro.md)
+**父級主題：**[&#x200B;報告](reports-intro.md)

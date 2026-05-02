@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 > 處理稽核註解時\（針對使用中的稽核檔案\），請確定您 — 不要在啟用完整標籤檢視的多個標籤中開啟稽核中主題，也不要在「作者」和「Source」檢視模式之間切換。
 
-![](images/comments-page-web-editor_cs.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs.png){width="800"}
 
 在Web編輯器模式中，右側面板包含「檢閱」和「追蹤的變更」圖示。 「檢閱」面板會顯示檢閱者在您的檔案中所做的所有註解。 **追蹤的變更**&#x200B;面板會顯示檔案中所有插入和刪除的註解狀態。
 
@@ -55,11 +55,11 @@ ht-degree: 0%
 
   如果要一次合併一個建議的變更\（插入或刪除\），只需在內容中的註解上按一下滑鼠右鍵，然後選取「接受變更」或「拒絕變更」。 根據您的選擇，會接受或拒絕註解。 若為接受的評論，內容會新增至內容中；若為拒絕，則會從內容中移除。 此外，註解的狀態會在「稽核」面板中變更。
 
-  ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs.png){width="800"}
 
   您也可以使用右側面板中的稽核功能來接受或拒絕註解。 按一下任何註解會醒目顯示檔案中的註解。
 
-  ![](images/changes-tab_cs.png){width="800" align="left"}
+  ![](images/changes-tab_cs.png){width="800"}
 
   >[!IMPORTANT]
   >
@@ -74,4 +74,4 @@ ht-degree: 0%
 - **I**：在評論上套用篩選。 您可以根據「稽核型別」\（全部、反白顯示、刪除、插入或註解\）、「稽核狀態」\（全部、接受、拒絕或無\）、「稽核者」\(全部或特定稽核者\(s\)\)或「主題版本」來篩選以檢視註釋。
 
 
-**父級主題：**&#x200B;[&#x200B;檢閱主題或地圖](review.md)
+**父級主題：**[&#x200B;檢閱主題或地圖](review.md)

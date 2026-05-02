@@ -4,9 +4,9 @@ description: 從Adobe Experience Manager Guides的地圖主控台建立和管理
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1929'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. 導覽至&#x200B;**基準線**&#x200B;標籤，並選取右上方的+圖示以開始建立基準線。
 1. 在&#x200B;**新基準線**&#x200B;對話方塊中，提供下列詳細資料：
 
-   ![基線面板](images/baseline-manage.png){width="500" align="left"}
+   ![基線面板](images/baseline-manage.png){width="500"}
 
    - 在&#x200B;**名稱**&#x200B;欄位中輸入基準線的名稱。
    - 在&#x200B;**組態**&#x200B;中，選擇[手動更新](#configuring-baseline-for-manual-update)或[自動更新](#configuring-baseline-for-automatic-update)。
@@ -63,7 +63,7 @@ ht-degree: 0%
   >
   > 選擇標籤時，標籤載入器會保持可見，直到成功擷取並完整載入所有標籤為止。 載入後，標籤會以不區分大小寫的字母順序顯示。 它們會以20的批次擷取，並在下拉式選單中啟用無限捲動，以便在您捲動時載入其他批次。
 
-  對於靜態基準線中的直接參照，標籤會從最新儲存的地圖版本中提取。 例如，如果您已為主題A 1.0和1.1版建立標籤`Label Release 1.0`和`Label Release 1.1`，然後將主題A新增至儲存為1.0版的地圖。在此情況下，您可以在靜態基準線標籤的下拉式清單中檢視標籤`Label Release 1.0`和`Label Release 1.1`。
+  對於靜態基準線中的直接參照，標籤會從最新儲存的地圖版本中提取。 例如，如果您已為主題A 1.0和1.1版建立標籤`Label Release 1.0`和`Label Release 1.1`，然後將主題A新增至儲存為1.0版的地圖。 在此情況下，您可以在靜態基準線標籤的下拉式清單中檢視標籤`Label Release 1.0`和`Label Release 1.1`。
 
   當您選取&#x200B;**標籤，**&#x200B;時，您可以選擇直接和間接參照。
    - 對於DITA map中的直接參照，您可以選擇使用未套用指定標籤的最新版主題。
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 使用自動更新組態建立的基準會動態更新。 如果您產生基準線、下載基準線或使用基準線建立翻譯專案，系統會根據更新的標籤動態挑選檔案。 例如，如果您已將標籤版本為1.0的主題版本1.2用於基準線，並使用標籤版本為1.0更新版本1.5，則基準線將會動態更新，而版本1.5將會使用。
 
-![建立基準線](images/dynamic-baseline.png){width="300" align="left"}
+![建立基準線](images/dynamic-baseline.png){width="300"}
 
 - **標籤**：如果主題有為其指定的標籤，請使用&#x200B;**標籤**&#x200B;下拉式清單從[列出的標籤](#labels-list)中選擇。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
   >
   >提取標籤時，載入器會出現，且下拉式清單會停用。
 
-  對於動態基準線，標籤會從最新儲存的版本和地圖目前的工作副本中提取。 例如，如果您已建立標籤   主題A 1.0和1.1版的`Label Release A.1.0 `和`Label Release A.1.1`，以及主題B 1.0和1.1版的`Label Release B.1.0`和`Label Release B.1.1`。 然後，您可以新增主題A至1.0版中的「對應A」，新增主題B至1.0*版中的「對應A」（工作復本）。 在此情況下，您可以在動態基準線標籤的下拉式清單中檢視`Label Release A.1.0 `、`Label Release A.1.1`、`Label Release B.1.0`和`Label Release B.1.1`。
+  對於動態基準線，標籤會從最新儲存的版本和地圖目前的工作副本中提取。 例如，如果您已為主題A 1.0和1.1版建立標籤`Label Release A.1.0 `和`Label Release A.1.1`，並為主題B 1.0和1.1版建立標籤`Label Release B.1.0`和`Label Release B.1.1`。 然後，您可以新增主題A至1.0版中的「對應A」，新增主題B至1.0*版中的「對應A」（工作復本）。 在此情況下，您可以在動態基準線標籤的下拉式清單中檢視`Label Release A.1.0 `、`Label Release A.1.1`、`Label Release B.1.0`和`Label Release B.1.1`。
 - **間接參照**：對於DITA map中的間接參照，您會獲得下列選項：
 
    - **自動挑選**：您可以選擇&#x200B;**自動挑選參考內容**，系統會自動挑選與參考內容版本對應的參考內容版本。
@@ -113,7 +113,7 @@ ht-degree: 0%
   >
   >當使用標籤在執行階段產生動態基準的參照時，動態基準的編輯作業可讓您編輯基準的屬性。
 
-  基準線![的](images/baseline-options.png){align="left"}選項
+  基準線的![選項](images/baseline-options.png){}
 
 ### 現有基準的可用動作
 
@@ -123,10 +123,10 @@ ht-degree: 0%
 
 您可以複製基準線，並根據您的需求加以修改。
 
-![複製基準線](images/baseline-duplicate.png){width="300" align="left"}
+![複製基準線](images/baseline-duplicate.png){width="300"}
 *根據標籤複製基準線或建立精確副本。*
 
-1. 從基準線的[選項]功能表選取[複製] **&#x200B;**。 **重複的基準線**&#x200B;對話方塊開啟。
+1. 從基準線的[選項]功能表選取[複製] ****。 **重複的基準線**對話方塊開啟。
 >[!NOTE]
 >
 >基準線的預設名稱為`<selected baseline name>`_suffix （如sample-baseline_1）。 您可以根據自己的需求變更名稱。
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 使用&#x200B;**基線篩選**&#x200B;面板中的篩選圖示，您可以在基線編輯視窗中開啟的基線套用篩選：
 
-![基準線篩選器](images/baseline-filter.png){width="300" align="left"}
+![基準線篩選器](images/baseline-filter.png){width="300"}
 
 - 根據檔案名稱或檔案位置篩選檔案。
 - 根據不同欄的值（如「檔案型別」、「參照型別」等）篩選檔案。
@@ -172,5 +172,5 @@ ht-degree: 0%
 
 編輯基準線後，選取&#x200B;**儲存**&#x200B;以儲存基準線的變更。 如果您不想儲存變更並重設基準線，可以選取&#x200B;**重設**。 當您選取&#x200B;**重設**&#x200B;時，會顯示警告，指出您未儲存的變更將會遺失。
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)
 

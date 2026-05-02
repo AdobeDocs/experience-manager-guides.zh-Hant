@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
    >
    > 檢閱者必須擁有重新指派的許可權，且應屬於使用者 — 管理員群組。
 
-   ![](images/reassign-user-inbox.png){width="800" align="left"}
+   ![](images/reassign-user-inbox.png){width="800"}
 
 1. 選取&#x200B;**重新指派**。
 
@@ -39,4 +39,4 @@ ht-degree: 0%
 
 指派的稽核者會在「收件匣」中收到重新指派稽核任務的通知。
 
-**父級主題：**&#x200B;[&#x200B;檢閱主題或地圖](review.md)
+**父級主題：**[&#x200B;檢閱主題或地圖](review.md)

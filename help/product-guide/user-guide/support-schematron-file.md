@@ -4,9 +4,9 @@ description: 瞭解如何匯入及驗證DITA主題、使用判斷提示報表陳
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 在編輯器中開啟主題時，「架構驗證」面板會顯示在右側。 執行以下步驟，使用Schematron檔案新增並驗證主題或地圖：
 
-![](images/schematron-panel.png){width="350" align="left"}
+![](images/schematron-panel.png){width="350"}
 
 1. 選取結構描述圖示，開啟結構描述面板。
 1. 使用&#x200B;**新增Schematron檔案**&#x200B;來新增Schematron檔案。
@@ -48,7 +48,7 @@ ht-degree: 0%
    >
    > 新增無效的Schematron檔案時，「驗證」面板中會顯示錯誤訊息。
 
-   ![](images/schematron-panel-error.png){width="350" align="left"}
+   ![](images/schematron-panel-error.png){width="350"}
 
 1. 如果Schematron檔案沒有錯誤，則會新增並列在「驗證」面板中。 對於包含錯誤的Schematron檔案，會顯示錯誤訊息。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 根據Schematron檔案中定義的角色屬性顯示驗證結果。 問題會分類為`Fatal`、`Error`、`Warn`或`Info`，而「驗證」面板中的每個類別都有可見的計數。
 
-![](images/schematron-validation-errors.png){width="350" align="left"}
+![](images/schematron-validation-errors.png){width="350"}
 
 為了判斷問題的嚴重性，會評估在對應的Schematron檔案中定義的role屬性的&#x200B;_case-senstive_&#x200B;值。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 **檔案儲存情境**
 
-儲存檔案相依於&#x200B;**在** Workspace設定[中儲存檔案](../cs-install-guide/workspace-settings.md#validation)設定之前執行驗證檢查：
+儲存檔案相依於&#x200B;**在[Workspace設定](../cs-install-guide/workspace-settings.md#validation)中儲存檔案**&#x200B;設定之前執行驗證檢查：
 
 * 啟用後，在未解決`Fatal`或`Error`層級的問題之前，不允許儲存檔案。
 * 停用時，即使出現`Fatal`或`Error`層級問題，也不會執行驗證檢查且可以儲存檔案。

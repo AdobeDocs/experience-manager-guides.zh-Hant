@@ -1,9 +1,10 @@
 ---
 title: 關於在Adobe Experience Manager Guides中發佈效能和擴充性的常見問題集
 description: 瞭解在Adobe Experience Manager Guides中發佈效能和擴充性的常見問題。
-source-git-commit: d128860bdff78c100ba348b54a237b237171635f
+exl-id: d4cd7673-ba66-4e90-9908-b537217d7eb6
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -12,12 +13,12 @@ ht-degree: 0%
 
 以下是常見問題的解答清單，提供Adobe Experience Manager Guides如何管理發布工作流程、擴展行為和基礎架構效能的詳細深入分析。 適合使用Experience Manager Guides進行大規模發佈的企業使用者、管理員和檔案團隊使用。 此圖表說明Experience Manager Guides發佈架構的整體工作流程。
 
-![](images/IO_runtime.drawio.png){align="left"}
+![](images/IO_runtime.drawio.png)
 
 
 ## Experience Manager Guides每天可以執行多少個發佈請求？
 
-Experience Manager Guides每天可處理的發佈要求數目，取決於內容的大小和型別。 根據設定，系統允許每個處理器核心有一個發佈工作。 在目前的設定中，可同時執行20個發佈工作(每個2個Pod×10個核心)。
+Experience Manager Guides每天可處理的發佈要求數目，取決於內容的大小和型別。 根據設定，系統允許每個處理器核心有一個發佈工作。 在目前的設定中，可同時執行20個發佈工作（每個2個Pod×10個核心）。
 
 當生產環境自動擴展時，當pod擴展到4時，此數量可以增加到40個同時發佈的工作。
 
@@ -123,7 +124,3 @@ Experience Manager Guides發佈基礎結構支援根據負載自動縮放。 當
 - 讓DITA map階層易於管理且井然有序
 - 排程在非尖峰時段的大量發佈
 - 有效使用條件篩選器來減少處理負載
-
-
-
-

@@ -4,9 +4,9 @@ description: 瞭解如何在AEM Guides中將任務標示為已完成檢閱者。
 feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 開啟指派給您的稽核任務。
 2. 從頂端選取&#x200B;**標籤為完成**，如下所示：
 
-   ![](images/review-task-mark-as-done.png){width="350" align="left"}
+   ![](images/review-task-mark-as-done.png){width="350"}
 
    顯示&#x200B;**完成任務**&#x200B;對話方塊。
 3. 在&#x200B;**完成工作**&#x200B;對話方塊中，新增作者的最終註解，並選取&#x200B;**完成**。
@@ -35,20 +35,20 @@ ht-degree: 0%
 
    例如，身為檢閱者，您可以新增註解作為作者的後續動作：
 
-   ![](images/complete-task-dialog-followup.png){width="350" align="left"}
+   ![](images/complete-task-dialog-followup.png){width="350"}
 
    或者，新增註解以指出工作已完成，如下所示：
 
-   ![](images/complete-task-dialog.png){width="350" align="left"}
+   ![](images/complete-task-dialog.png){width="350"}
 
 
 您已成功將工作標示為已完成，其狀態現在已設為&#x200B;**已完成**。 一旦任務標示為完成，就不允許執行進一步的動作。 系統會傳送通知給稽核任務的作者或發起人，以立即引起他們的注意。 如需有關檢閱通知如何觸發的詳細資訊，請檢視[瞭解檢閱通知](./review-understanding-review-notifications.md)。
 
-![](images/task-completed-status.png){width="350" align="left"}
+![](images/task-completed-status.png){width="350"}
 
 根據意見回饋，如果任務的作者或發起者決定[關閉稽核任務](./review-close-review-task.md)，則稽核UI上的任務狀態將變更為&#x200B;**已關閉**。
 
-![](images/review-status-closed-review-ui.png){width="350" align="left"}
+![](images/review-status-closed-review-ui.png){width="350"}
 
 ## 檢視任務層級註解
 
@@ -56,11 +56,11 @@ ht-degree: 0%
 
 若要從檢閱UI存取任務層級註解，請導覽至左側面板，並選取&#x200B;**任務註解**&#x200B;圖示。
 
-![](images/task-comments-icon.png){width="350" align="left"}
+![](images/task-comments-icon.png){width="350"}
 
 **任務註解**&#x200B;對話方塊會顯示在右側。
 
-![](images/task-comments-reviewer.png){width="350" align="left"}
+![](images/task-comments-reviewer.png){width="350"}
 
 對話方塊中的註解會依時間順序顯示，最近的註解會顯示在最前，最舊的註解則會顯示在最後。 此順序可協助您隨著時間推移追蹤交談。
 

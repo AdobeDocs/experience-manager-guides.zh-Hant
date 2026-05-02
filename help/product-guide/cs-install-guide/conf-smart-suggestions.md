@@ -2,7 +2,7 @@
 title: 設定AI助理以提供智慧說明和編寫
 description: 瞭解如何在Experience Manager Guides中設定AI助理
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
@@ -34,12 +34,12 @@ ht-degree: 0%
 1. 啟動[Adobe Developer Console](https://developer.adobe.com/console)。
 1. 成功登入Developer Console後，您將檢視&#x200B;**首頁**&#x200B;畫面。 **首頁**&#x200B;畫面可讓您輕鬆找到資訊和快速連結，包括專案和下載的頂端導覽連結。
 1. 若要建立新的空白專案，請從&#x200B;**快速入門**&#x200B;連結中選取&#x200B;**建立新專案**。
-   ![快速入門連結](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![快速入門連結](assets/conf-ss-quick-start.png) {width="550"}
    *建立新專案。*
 
 1. 從&#x200B;**專案**&#x200B;畫面選取&#x200B;**新增API**。  **新增API**&#x200B;畫面會出現。 此畫面會顯示Adobe產品與技術的所有可用API、事件和服務，供您開發應用程式。
 
-1. 選取&#x200B;**I/O管理API**&#x200B;以將其新增至您的專案。
+1. 選取&#x200B;**I/O管理API**以將其新增至您的專案。
    ![IO管理API](assets/confi-ss-io-management.png)
    *新增I/O Management API至您的專案。*
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 選取&#x200B;**OAuth伺服器對伺服器**&#x200B;連結以檢視專案的認證詳細資料。
 
-   ![已連線的認證](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![已連線的認證](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *連線到專案以檢視認證詳細資料。*
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 1. 切換至&#x200B;**組態**&#x200B;標籤。
 1. 將JSON服務詳細資料（在上一節中下載）貼到與`SERVICE_ACCOUNT_DETAILS`相對應的&#x200B;**值**&#x200B;欄位。 請確定您使用與下列熒幕擷取畫面相同的名稱和設定。
 
-   ![ims服務帳戶設定](assets/ims-service-account-config.png){width="800" align="left"}
+   ![ims服務帳戶設定](assets/ims-service-account-config.png){width="800"}
 
 ## 在環境中啟用AI標幟
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 確定您使用與下列熒幕擷取畫面相同的名稱和設定。
 
-![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
+![](assets/conf-folder-ai-assistant-enable.png){width="800"}
 
 將標幟設定為&#x200B;**true**&#x200B;會啟用該功能，而將其設定為&#x200B;**false**&#x200B;則會停用該功能。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 確定您使用與下列熒幕擷取畫面相同的名稱和設定。
 
-![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+![](assets/conf-folder-guides-site-id.png){width="800"}
 
 ## 套用變更至環境
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 如需詳細資訊，請檢視[瞭解編輯器功能](../user-guide/web-editor-features.md)。
 
-![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300"}
 
 ## 在資料夾設定檔中設定智慧建議
 

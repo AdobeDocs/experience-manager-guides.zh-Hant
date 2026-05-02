@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 下載檔案 {#id216MC0H0BE8}
 
-您可以下載資產，包括DITA和非DITA檔案。 您可以透過多種方式下載資產，有些是AEM的原生方法，有些則受AEM Guides支援。 如需原生AEM資產下載資訊，請參閱AEM檔案中的[從Adobe Experience Manager下載資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=zh-Hant)。 下節將說明透過AEM Guides中的DITA map主控台下載檔案的機制。
+您可以下載資產，包括DITA和非DITA檔案。 您可以透過多種方式下載資產，有些是AEM的原生方法，有些則受AEM Guides支援。 如需原生AEM資產下載資訊，請參閱AEM檔案中的[從Adobe Experience Manager下載資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)。 下節將說明透過AEM Guides中的DITA map主控台下載檔案的機制。
 
 ## 匯出DITA map檔案
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    便會顯示「下載地圖」對話方塊。
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. 按一下「**下載**」。 在「下載對應」對話方塊中，您可以選擇下列選項：
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**下載**&#x200B;按鈕後，對應下載要求會排入佇列。 一旦地圖可供下載，您將會收到下列通知。
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - 按一下&#x200B;**下載**&#x200B;以.zip格式下載對應檔。
 
@@ -54,8 +54,8 @@ ht-degree: 0%
    >
    > 依預設，下載的地圖會在AEM通知收件匣中保留五天。
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 下載地圖後，您可以選取地圖，並使用頂端的開啟圖示開啟選取的報表。
 
-**父級主題：**&#x200B;[&#x200B;管理內容](authoring.md)
+**父級主題：**[&#x200B;管理內容](authoring.md)

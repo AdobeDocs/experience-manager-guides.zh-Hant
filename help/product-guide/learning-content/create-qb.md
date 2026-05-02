@@ -4,9 +4,9 @@ description: 瞭解如何在產品培訓和學習中建立問題庫
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 0%
 1. 選取&#x200B;**問題庫**。
 **新問題庫**&#x200B;對話方塊開啟。 您可以從下拉式清單中選取範本、指定問題庫的適當標題，以及指定要在存放庫中儲存此問題庫的路徑。
 
-   ![](assets/question-bank-create.png){width="350" align="left"}
+   ![](assets/question-bank-create.png){width="350"}
 
-1. 選取&#x200B;**建立**。
+1. 選取「**建立**」。
 「問題庫」會新增為課程的一部分，並顯示在「課程管理員」面板中。
 1. 您可以用與測驗相同的方式將問題新增到問題庫，同時還可以彈性地配置流程中每個問題的屬性。 如需詳細資訊，請檢視[將問題插入測驗](./quiz-insert-questions.md)。

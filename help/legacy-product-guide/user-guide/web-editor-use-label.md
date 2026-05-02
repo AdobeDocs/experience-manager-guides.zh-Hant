@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -36,7 +36,7 @@ AEM Guides可讓您將標籤新增至檔案的不同版本。 您可以使用這
 
    標籤會顯示在所選主題的「版本記錄」中。 下列熒幕擷圖顯示已新增至主題反白版本中的標籤&#x200B;*x.x版本*&#x200B;和&#x200B;*使用手冊*。
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -51,11 +51,11 @@ AEM Guides可讓您將標籤新增至檔案的不同版本。 您可以使用這
 
    在「版本記錄」中，您將會看到主題的所有版本以及附加至這些版本的標籤。 下圖顯示不同版本主題範例，其中一個版本新增了標籤。
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 1. 按一下刪除按鈕\(**X**\)以刪除標籤。
 
-   ![](images/delete-labels.png){width="300" align="left"}
+   ![](images/delete-labels.png){width="300"}
 
 
-**上層主題：**&#x200B;[&#x200B;使用網頁編輯器](web-editor.md)
+**上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)

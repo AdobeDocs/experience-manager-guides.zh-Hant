@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -31,17 +31,17 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
 
    * **標題**：檢視或編輯資料夾標題。
 
-   * **允許的範本**：包含可新增為Experiencefragment子頁面的範本清單。 若要新增允許的範本，請在&#x200B;**允許的範本**&#x200B;欄位中指定用於擷取所需範本的規則運算式。
+   * **允許的範本**：包含可新增為Experiencefragment子頁面的範本清單。 若要新增允許的範本，請在&#x200B;**允許的範本**欄位中指定用於擷取所需範本的規則運算式。
 例如：
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
      如果您沒有為資料夾定義允許的範本，則預設會從父資料夾或範本資料夾中挑選範本。
    * **可排序**：可讓您變更資料夾內資產的順序。
-     ![在資料夾屬性中新增雲端設定詳細資料](images/experience-fragment-folder-properties.png){width="650" align="left"}
+     ![在資料夾屬性中新增雲端設定詳細資料](images/experience-fragment-folder-properties.png){width="650"}
      *在資料夾屬性中新增雲端設定，以將其與片段範本連線。*
 1. 若要產生體驗片段，請從主題&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段中，選取&#x200B;**新輸出** ![新輸出圖示](./images/Add_icon.svg)。
 1. 選取&#x200B;**體驗片段**。\
-   ![檔案屬性選項標籤](./images/file-properties-outputs.png){width="300" align="left"}
+   ![檔案屬性選項標籤](./images/file-properties-outputs.png){width="300"}
 
    *從主題*&#x200B;的檔案屬性新增體驗片段。
 
@@ -49,8 +49,8 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
    >
    > 您也可以從&#x200B;**存放庫檢視**&#x200B;發佈體驗片段。 選取您要發佈為體驗片段的主題。 然後，從&#x200B;**選項**&#x200B;功能表選取&#x200B;**發佈為** > **體驗片段**。
 
-1. 在&#x200B;**產生體驗片段**&#x200B;對話方塊中，填入下列詳細資料：
-   ![在「以體驗片段形式發佈」對話方塊中新增片段模型和對應詳細資訊](images/experience-fragment-generate.png){width="500" align="left"}
+1. 在&#x200B;**產生體驗片段**對話方塊中，填入下列詳細資料：
+   ![在「以體驗片段形式發佈」對話方塊中新增片段模型和對應詳細資訊](images/experience-fragment-generate.png){width="500"}
 
    *新增路徑、範本和對映詳細資訊，將主題或其元素發佈為體驗片段。 您可以覆寫現有的體驗片段。*
 
@@ -80,7 +80,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
 1. 按一下&#x200B;**產生**&#x200B;以發佈體驗片段。
 1. 您可以在&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段下檢視主題的體驗片段。 體驗片段會根據其發佈的日期和時間顯示，最新的會顯示為第一個體驗片段。
 
-   ![檢視主題](images/experience-fragment-outputs.png){width=300 align="left"}的體驗片段
+   ![檢視主題](images/experience-fragment-outputs.png){width=300}的體驗片段
 
    *檢視主題存在的體驗片段並重新發佈。*
 

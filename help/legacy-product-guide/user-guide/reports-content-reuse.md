@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**產生報告**&#x200B;以取得內容重複使用報告。
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){width="800"}
 
    報告頁面分為兩個部分：
 
@@ -65,4 +65,4 @@ ht-degree: 0%
 >
 > 您也可以將「內容重複使用報表」匯出為CSV格式。 若要這麼做，請按一下畫面左上角的「匯出至CSV」連結，然後選擇儲存CSV檔案的位置。 然後您可以使用任何CSV編輯器開啟此CSV檔案。
 
-**父級主題：**&#x200B;[&#x200B;報告](reports-intro.md)
+**父級主題：**[&#x200B;報告](reports-intro.md)

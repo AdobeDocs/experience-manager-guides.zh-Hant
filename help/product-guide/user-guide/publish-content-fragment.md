@@ -4,10 +4,10 @@ description: 將主題或主題內的元素發佈至AEM Guides中的內容片段
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 0%
+source-wordcount: '955'
+ht-degree: 1%
 
 ---
 
@@ -28,19 +28,19 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 1. 建立一個資料夾，您想在其中儲存根據內容片段模式建立的內容片段。 例如，「stock-content-fragments」。
 1. 編輯資料夾的屬性（例如「stock-content-fragments」）並新增資料夾的路徑，其中包含雲端設定中的內容片段模式。
 例如，在雲端設定中新增`/conf/we-retail`。 此設定將所有內容片段模式與資料夾連線。\
-   ![在資料夾屬性中新增雲端設定詳細資料](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+   ![在資料夾屬性中新增雲端設定詳細資料](images/fragment-folder-cloud-configuration.png){width="650"}
    *在資料夾屬性中新增雲端設定，以將其與片段模型連線。*
 
 1. 若要產生內容片段，請從主題&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段中，選取&#x200B;**新輸出** ![新輸出圖示](./images/Add_icon.svg)。
 1. 選取&#x200B;**內容片段**。\
-   ![檔案屬性選項標籤](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
+   ![檔案屬性選項標籤](./images/file-properties-outputs-tab-new.png) {width="300"}
 
    *從主題*&#x200B;的檔案屬性加入新的內容片段。
 
 1. 在「**產生內容片段**」對話方塊中，在「**一般**」和「**對應**」標籤下填入下列詳細資料。
 
-   **一般**&#x200B;標籤
-   ![在[以內容片段形式發佈]對話方塊中新增片段模型和對應詳細資料](images/generate-content-fragment.png)
+   **一般**標籤
+   ![在「發佈為內容片段」對話方塊中新增片段模型和對應詳細資訊](images/generate-content-fragment.png)
    *新增路徑、名稱、標題和條件篩選，將主題或其元素發佈為內容片段。*
 
 
@@ -49,7 +49,6 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
    * **名稱**：輸入內容片段的名稱。 依預設，名稱會填入主題的標題，而空格會取代為「_」。 例如，*sample_content_fragment*。 您可以編輯它。  此名稱用於產生內容片段的URL。
 
    * 您可以選取不同條件來建立內容片段變體。 選取下列其中一個選項：
-
      >[!NOTE]
      > 
      > 只有在主題中定義了條件屬性時，才會啟用條件。
@@ -71,7 +70,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
    * **模式**：選取您要用來建立內容片段的內容片段模式。 模型會從您已在Experience Manager Guides伺服器上設定的資料夾中選取。
    * **對應**：您可以檢視已套用ID屬性的主題元素。 將主題元素拖曳至內容片段模式中顯示的欄位。
-若有現有內容片段，右側會填入已發佈的內容片段內容。 如有必要，可以用主題內容覆寫這些內容。 您也可以選取&#x200B;**復原**&#x200B;以還原對應變更。
+若有現有內容片段，右側會填入已發佈的內容片段內容。 如有必要，可以用主題內容覆寫這些內容。 您也可以選取**復原**&#x200B;以還原對應變更。
 
 
      >[!NOTE]
@@ -82,7 +81,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
 1. 您可以在&#x200B;**檔案屬性**&#x200B;的&#x200B;**輸出**&#x200B;區段下檢視主題的內容片段。
 
-   ![檢視主題](images/outputs-options-menu-new.png){width="300" align="left"}的內容片段
+   ![檢視主題](images/outputs-options-menu-new.png){width="300"}的內容片段
 
    *檢視主題的內容片段並重新發佈。*
 

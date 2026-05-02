@@ -4,9 +4,9 @@ description: 瞭解產品培訓和學習中的各種SCORM預設集設定
 feature: Authoring
 role: User
 exl-id: b3000708-6120-4725-bea1-0b8e58048948
-source-git-commit: 3fdedee6e07908632bcf1b804805fcac7925c4e0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 - **一般：**&#x200B;用於指定基本輸出設定，例如支援的版本、輸出路徑、ZIP檔案名稱、輸出範本，以及與學習者體驗相關的其他選項。
 
-  ![](assets/scorm-general-tab-v3.png){width="650" align="left"}
+  ![](assets/scorm-general-tab-v3.png){width="650"}
 
   **學習者的體驗**
 
@@ -30,10 +30,10 @@ ht-degree: 0%
 
 - **內容：**&#x200B;使用指定可用的條件篩選（使用DITAVAL或使用某些條件預設集）和變數集。
 
-  ![](assets/scorm-content-tab.png){width="650" align="left"}
+  ![](assets/scorm-content-tab.png){width="650"}
 
 - **發佈：**&#x200B;只有當您想要發佈輸出到SCORM雲端以直接存取時，才使用此設定。
 
-  ![](assets/scorm-publish-tab.png){width="650" align="left"}
+  ![](assets/scorm-publish-tab.png){width="650"}
 
 設定好所有變更後，請使用SCORM預設集頁面工具列右角的&#x200B;**儲存**，儲存SCORM預設集的變更。

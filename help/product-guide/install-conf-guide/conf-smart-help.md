@@ -1,9 +1,10 @@
 ---
 title: 設定Smart Help以搜尋內容
 description: 瞭解如何設定智慧說明以搜尋內容
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -23,24 +24,24 @@ ht-degree: 0%
 1. 啟動[Adobe Developer Console](https://developer.adobe.com/console)。
 1. 成功登入Developer Console後，您將檢視&#x200B;**首頁**&#x200B;畫面。 **首頁**&#x200B;畫面可讓您輕鬆找到資訊和快速連結，包括專案和下載的頂端導覽連結。
 1. 若要建立新的空白專案，請從&#x200B;**快速入門**&#x200B;連結中選取&#x200B;**建立新專案**。
-   ![快速入門連結](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![快速入門連結](assets/conf-ss-quick-start.png) {width="550"}
    *建立新專案。*
 
 1. 從&#x200B;**專案**&#x200B;畫面選取&#x200B;**新增API**。  **新增API**&#x200B;畫面會出現。 此畫面會顯示Adobe產品與技術的所有可用API、事件和服務，供您開發應用程式。
 
-1. 選取&#x200B;**I/O管理API**&#x200B;以將其新增至您的專案。
+1. 選取&#x200B;**I/O管理API**以將其新增至您的專案。
    ![IO管理API](assets/confi-ss-io-management.png)
    *新增I/O Management API至您的專案。*
 
-1. 建立新的&#x200B;**OAuth認證**&#x200B;並儲存。
-   設定API中的![OAuth認證磚](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+1. 建立新的&#x200B;**OAuth認證**並儲存。
+   設定API中的![OAuth認證磚](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *將OAuth認證設定到您的API。*
 
 1. 在&#x200B;**專案**&#x200B;索引標籤中，選擇&#x200B;**OAuth伺服器至伺服器**&#x200B;選項，然後選取新建立的認證。
 
 1. 選取&#x200B;**OAuth伺服器對伺服器**&#x200B;連結以檢視專案的認證詳細資料。
 
-   ![已連線的認證](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![已連線的認證](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *連線到專案以檢視認證詳細資料。*
 
@@ -68,7 +69,7 @@ ht-degree: 0%
 1. 切換至&#x200B;**組態**&#x200B;標籤。
 1. 更新SERVICE_ACCOUNT_DETAILS JSON欄位。 確定您使用與下列熒幕擷取畫面相同的名稱和設定。
 
-![ims服務帳戶設定](assets/ims-service-account-config.png){width="800" align="left"}
+![ims服務帳戶設定](assets/ims-service-account-config.png){width="800"}
 
 
 *新增環境組態詳細資料。*
@@ -104,5 +105,5 @@ ht-degree: 0%
 ```
 
 
-完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在網頁編輯器的右側面板中。 選取圖示以檢視&#x200B;**智慧說明**&#x200B;面板。
+完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在網頁編輯器的右側面板中。 選取圖示以檢視&#x200B;**智慧說明**面板。
 如需詳細資訊，請檢視Experience Manager使用手冊中的[AI支援Smart Help以搜尋內容](../user-guide/ai-based-smart-help.md)區段。

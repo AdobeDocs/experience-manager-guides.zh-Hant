@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 1. 選取您要發佈的集合，然後按一下&#x200B;**開啟**。
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){width="800"}
 
 1. \（*選擇性*\）從左側邊欄套用必要的篩選器，以根據其修改的\(status\)、輸出預設集或語言來篩選對映。
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 <details>
 <summary> 雲端服務 </summary>
 
-在雲端服務上![大量集合 — 發佈](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+在雲端服務上![大量集合 — 發佈](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 您可以啟動輸出至&#x200B;**預覽**&#x200B;或&#x200B;**發佈**&#x200B;執行個體。
 
@@ -74,8 +74,8 @@ ht-degree: 2%
 執行下列任一項作業：
 
 * 若要啟動選取的地圖的輸出，請選取預先產生的地圖輸出，並選取&#x200B;**快速發佈**。
-* 若要啟動所有DITA map及其設定之預設集的輸出，請選取[對應] （欄）旁的核取方塊，然後選取[快速發佈]。**&#x200B;**
-  ![大量集合 — 發佈](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+* 若要啟動所有DITA map及其設定之預設集的輸出，請選取[對應] （欄）旁的核取方塊，然後選取[快速發佈]。****
+  ![大量集合 — 發佈](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 
@@ -86,4 +86,4 @@ ht-degree: 2%
 
 一旦為所選對映檔案啟動輸出後，稽核歷史記錄標籤即會更新，並且最新啟動的輸出會顯示在最上方。 **已發佈**&#x200B;欄已更新為發佈日期和時間。
 
-**父級主題： &#x200B;** [大量啟用已發佈的內容](conf-bulk-activation.md)
+**父級主題： **[大量啟用已發佈的內容](conf-bulk-activation.md)

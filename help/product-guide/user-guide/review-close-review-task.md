@@ -4,9 +4,9 @@ description: 瞭解在Experience Manager Guides中關閉稽核任務或重新請
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    **任務註解**&#x200B;對話方塊會顯示在右側。
 
-   ![](images/task-comments-dialog-editor.png){width="350" align="left"}。
+   ![](images/task-comments-dialog-editor.png){width="350"}。
 4. 選取「**更新任務**」以針對選取的稽核任務採取進一步的動作。
 5. 在&#x200B;**更新工作**&#x200B;對話方塊中，選擇下列其中一個動作：
 
@@ -52,22 +52,22 @@ ht-degree: 0%
 
    如需有關檢閱通知如何觸發的詳細資訊，請檢視[瞭解檢閱通知](./review-understanding-review-notifications.md)。
 
-   ![](images/update-task-dialog.png){width="350" align="left"}
+   ![](images/update-task-dialog.png){width="350"}
 
-   您也可以[使用[更新工作]對話方塊中的](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task)檢查檢閱狀態&#x200B;**選項來檢查檢閱工作的狀態**。 選取此選項會帶您前往檢閱儀表板，其中顯示檢閱任務的狀態報告。
+   您也可以[使用[更新工作]對話方塊中的&#x200B;**檢查檢閱狀態**&#x200B;選項來檢查檢閱工作的狀態](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task)。 選取此選項會帶您前往檢閱儀表板，其中顯示檢閱任務的狀態報告。
 
-   ![](images/check-review-status-icon.png){width="650" align="left"}
+   ![](images/check-review-status-icon.png){width="650"}
 
 6. 選取&#x200B;**確認**。
 
 
 作為評論任務的作者或發起者，當您關閉任務時，出現在評論面板底部的&#x200B;**更新任務**&#x200B;按鈕將變更為&#x200B;**已關閉**，這表示任務不再有效。
 
-![](images/review-task-status-closed-review-panel.png){width="350" align="left"}
+![](images/review-task-status-closed-review-panel.png){width="350"}
 
 此外，檢閱面板中存在的&#x200B;**更新任務**&#x200B;按鈕對於檢閱任務的其他使用者仍為停用。 例如，作為稽核任務的稽核者之一，如果您在編輯器中開啟該任務，則「更新任務」按鈕將會停用，並出現訊息&#x200B;**您沒有許可權執行此任務**。 只有稽核任務的發起者才有權從編輯器更新任務。
 
-![](images/update-task-button-disabled.png){width="350" align="left"}
+![](images/update-task-button-disabled.png){width="350"}
 
 
 

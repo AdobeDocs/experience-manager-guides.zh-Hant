@@ -4,9 +4,10 @@ description: 瞭解如何下載並安裝雲端服務的AEM Sites範本
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 53a36126-2075-40c8-8882-f77ad6435715
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -68,14 +69,14 @@ ht-degree: 0%
    1. 導覽至Cloud Manager左側面板中的&#x200B;**存放庫**。
    2. 選取&#x200B;**存取存放庫資訊**&#x200B;並複製Git Clone命令。
 
-      ![選取存取存放庫資訊](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+      ![選取存取存放庫資訊](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. 使用提供的使用者名稱和密碼將存放庫複製到本機系統（必要時產生密碼）。
 2. **將套件新增至Maven套件組合：**
    1. 在您的本機複製存放庫中，建立新的Maven套件組合或新增到現有的套件組合中。
    2. 請確定Maven專案中存在結構`/jcr_root/apps/fmdita/`安裝。
 
-      ![Maven專案中的結構](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+      ![Maven專案中的結構](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
 
    3. 將下載的guides-components.all-1.x.x.zip檔案放入安裝資料夾中。
@@ -86,7 +87,7 @@ ht-degree: 0%
    2. 新增下列篩選器：篩選器根=`/apps/fmdita` mode=`merge`/
 
 
-      ![新增篩選器](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+      ![新增篩選器](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
 
 4. **設定pom.xml：**&#x200B;根據您的環境需求更新pom.xml檔案。
@@ -98,7 +99,7 @@ ht-degree: 0%
 >[!TAB 內部部署]
 
 1. **安裝元件封裝：**
-   1. 瀏覽至&#x200B;[**CRX封裝管理員**](http://&lt;your-aem-instance>/crx/packmgr)。
+   1. 瀏覽至&#x200B;[**CRX封裝管理員**](http://<your-aem-instance>/crx/packmgr)。
    2. 上傳並安裝on-prem-guides-components.all-1.x.0.zip套件。
 
 2. **安裝Sites封裝：**&#x200B;使用CRX封裝管理員上傳並安裝aemg-docs.all-1.x.0.zip封裝。
@@ -114,7 +115,7 @@ ht-degree: 0%
 2. **選取範本：**&#x200B;選取&#x200B;**AEMG Docs 1.x.x**，然後選取&#x200B;**下一步**。
 3. **輸入網站詳細資料：**&#x200B;輸入&#x200B;**網站標題**&#x200B;和&#x200B;**網站名稱**。
 
-   ![建立網站](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+   ![建立網站](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350"}
 
 4. 選取「**建立**」。
 
@@ -128,7 +129,7 @@ ht-degree: 0%
    5. 取消勾選&#x200B;**使用舊版元件對應**&#x200B;設定。
    6. 選取&#x200B;**新增**&#x200B;以建立預設集。
 
-      ![建立新的AEM網站預設集](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![建立新的AEM網站預設集](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **設定AEM網站預設集：**&#x200B;有兩個選項可設定現成可用的網站(OOTB)：
@@ -140,7 +141,7 @@ ht-degree: 0%
       - 發佈路徑： Cloud Service： `/content/AEMG-Docs-Site/en/docs/product`以及內部部署： `aemg-docs/en/docs/product1`
       - 主題頁面範本：主題頁面
 
-      ![使用網站下拉式清單來設定AEM網站](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+      ![使用網站下拉式清單來設定AEM網站](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
 
    **選項2：使用網站路徑**
 
@@ -149,11 +150,11 @@ ht-degree: 0%
 
       若為Cloud Service：
 
-      ![使用網站路徑設定AEM網站](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+      ![使用網站路徑設定AEM網站](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
 
       針對內部部署：
 
-      ![使用網站路徑](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![使用網站路徑](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **儲存預設集：**&#x200B;儲存對預設集所做的變更。
 
@@ -167,15 +168,15 @@ ht-degree: 0%
    2. 在OOTB網站結構下建立新產品頁面。
    3. 導覽至&#x200B;**AEMG檔案** > **英文** > **檔案**。
 
-      ![建立頁面](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+      ![建立頁面](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650"}
 
    4. 選取&#x200B;**首頁**&#x200B;圖磚，然後選取&#x200B;**下一步**。
 
-      ![選取主圖磚](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+      ![選取主圖磚](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
 
    5. 輸入頁面的&#x200B;**標題**&#x200B;和&#x200B;**名稱**。
    6. 選取「**建立**」。
 
 >[!NOTE]
 >
-> 針對Cloud Service設定，請確保所有設定在部署到生產環境之前都在非生產環境中測試。 <br><br>如需詳細資訊，請參閱正式[部署至AEM as a Cloud Service檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
+> 針對Cloud Service設定，請確保所有設定在部署到生產環境之前都在非生產環境中測試。<br><br> 如需詳細資訊，請參閱正式[部署至AEM as a Cloud Service檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。

@@ -4,9 +4,10 @@ description: 瞭解如何設定檔案瀏覽對話方塊的篩選器
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -54,13 +55,13 @@ ht-degree: 0%
    在上述程式碼片段中，第一個篩選器是用於DITA檔案。 篩選定義會採用下列引數：
 
    標題
-：   篩選的顯示名稱。 此標題會以篩選選項的形式顯示在檔案瀏覽對話方塊中。
+：篩選的顯示名稱。 此標題會以篩選選項的形式顯示在檔案瀏覽對話方塊中。
 
    屬性
-：   要符合檔案中繼資料的屬性。 例如，若要僅允許屬性中具有`dita_class`中繼資料的檔案，屬性篩選器會將「`jcr:content/metadata/dita_class`」視為其值。
+：要符合檔案中繼資料的屬性。 例如，若要僅允許屬性中具有`dita_class`中繼資料的檔案，屬性篩選器會將「`jcr:content/metadata/dita_class`」視為其值。
 
    操作
-：   指定&quot; `exists`&quot;以符合屬性引數中指定的值是否存在。
+：指定&quot; `exists`&quot;以符合屬性引數中指定的值是否存在。
 
    第二個濾鏡是針對影像檔案。 除了`value`引數外，這些引數與第一個篩選器類似。 `value`引數以影像型別的陣列作為其值。 系統會搜尋在value引數中指定的所有檔案型別，並在檔案瀏覽對話方塊中顯示，而會忽略所有其他檔案型別。
 
@@ -82,7 +83,7 @@ ht-degree: 0%
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. 導覽至`ui_config.json`節點中的`apps`檔案，並開啟該檔案以進行編輯。
+1. 導覽至`apps`節點中的`ui_config.json`檔案，並開啟該檔案以進行編輯。
 
 1. 在`ui_config.json`檔案中，新增您要新增之篩選器的定義。
 
@@ -109,11 +110,11 @@ ht-degree: 0%
 
    在上述程式碼片段中，第一個篩選器是用於DITA檔案。 篩選定義會採用下列引數：
 
-   - **標題：**   篩選的顯示名稱。 此標題會以篩選選項的形式顯示在檔案瀏覽對話方塊中。
+   - **標題：**&#x200B;篩選的顯示名稱。 此標題會以篩選選項的形式顯示在檔案瀏覽對話方塊中。
 
-   - **屬性：**   要符合檔案中繼資料的屬性。 例如，若要僅允許屬性中具有`dita_class`中繼資料的檔案，屬性篩選器會將&quot;`jcr:content/metadata/dita_class`&quot;視為其值。
+   - **屬性：**&#x200B;要符合檔案中繼資料的屬性。 例如，若要僅允許屬性中具有`dita_class`中繼資料的檔案，屬性篩選器會將&quot;`jcr:content/metadata/dita_class`&quot;視為其值。
 
-   - **作業：**   指定&quot;`exists`&quot;以符合屬性引數中指定的值是否存在。
+   - **作業：**&#x200B;指定&#39;&#39;`exists`&#39;&#39;以符合屬性引數中所指定值的存在。
 
    第二個濾鏡是針對影像檔案。 除了`value`引數外，這些引數與第一個篩選器類似。 `value`引數以影像型別的陣列作為其值。 系統會搜尋在value引數中指定的所有檔案型別，並在檔案瀏覽對話方塊中顯示，而會忽略所有其他檔案型別。
 
@@ -121,9 +122,9 @@ ht-degree: 0%
 
    當您啟動檔案瀏覽對話方塊時，會顯示在ui\_config.json檔案中設定的篩選選項。
 
-   ![](assets/file-browse-custom-filters.png){width="300" align="left"}
+   ![](assets/file-browse-custom-filters.png){width="300"}
 
 >[!ENDTABS]
 
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**上層主題：**[&#x200B;自訂Web編輯器](customize-overview.md)

@@ -4,9 +4,10 @@ description: 瞭解如何設定Dita資產復寫
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 8c551c37-2bfd-471b-bb72-514fabbc0bf2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '111'
 ht-degree: 3%
 
 ---
@@ -42,7 +43,7 @@ ht-degree: 3%
 1. 根據您的需求設定設定`Replicate DITA assets`。 預設會啟用此設定。
 
 
-   ![](assets/dita-assets-replication.png){width="350" align="left"}
+   ![](assets/dita-assets-replication.png){width="350"}
 
 
 1. 選取「**儲存**」。
