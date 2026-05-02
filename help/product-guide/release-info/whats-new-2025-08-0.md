@@ -16,7 +16,7 @@ ht-degree: 1%
 
 有關此版本中的問題修正清單，請查看 [2025.08.0 版本中修正的問題](fixed-issues-2025-08-0.md)。
 
-瞭解2025.08.0版](../release-info/upgrade-instructions-2025-08-0.md)的[升級指示。
+瞭解2025.08.0版[&#128279;](../release-info/upgrade-instructions-2025-08-0.md)的升級指示。
 
 
 ## 增強的稽核工作流程
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 啟用&#x200B;**AI小幫手**&#x200B;切換功能後，系統管理員可以選擇性地選擇可在&#x200B;**製作**&#x200B;標籤下看到哪些快速動作，以協助簡化作者互動。 這些可見度設定是每個資料夾設定檔專屬的。
 
-在Experience Manager Guides的編輯器設定](../cs-install-guide/workspace-settings.md#general)中進一步瞭解[AI助理。
+在Experience Manager Guides的編輯器設定[&#128279;](../cs-install-guide/workspace-settings.md#general)中進一步瞭解AI助理。
 
 ![](assets/authoring-quick-actions.png){width="350"}
 

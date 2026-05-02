@@ -38,7 +38,7 @@ ht-degree: 0%
 
   ![](assets/insert-h5p-lc.png)
 
-  如果您偏好使用您系統中的H5P內容，請先在DAM](../user-guide/authoring-upload-existing-files.md)中使用&#x200B;**上傳資產**&#x200B;選項[上傳檔案，然後將其加入存放庫檢視/Assets。
+  如果您偏好使用您系統中的H5P內容，請先在DAM[&#128279;](../user-guide/authoring-upload-existing-files.md)中使用&#x200B;**上傳資產**&#x200B;選項上傳檔案，然後將其加入存放庫檢視/Assets。
 
   ![](assets/upload-assets-option.png)
 

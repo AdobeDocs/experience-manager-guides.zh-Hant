@@ -45,7 +45,7 @@ Adobe Workfront是雲端型工作管理解決方案，可協助團隊和組織�
 3. 選取&#x200B;**登入**。
 
    系統會將您重新導向至Adobe Workfront登入頁面。
-4. 使用Experience Manager Guides中使用的相同電子郵件地址登入，然後選取[允許存取]，讓應用程式存取您的Adobe Workfront帳戶。****
+4. 使用Experience Manager Guides中使用的相同電子郵件地址登入，然後選取[允許存取]，讓應用程式存取您的Adobe Workfront帳戶。**&#x200B;**
 
    系統會自動將您重新導向至Experience Manager Guides上的&#x200B;**Workfront工作**&#x200B;頁面。
 

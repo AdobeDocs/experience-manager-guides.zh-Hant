@@ -14,9 +14,9 @@ ht-degree: 0%
 
 本文介紹5.1.0版Adobe Experience Manager Guides推出的新功能和增強功能。
 
-如需此版本中已修正的問題清單，請檢視5.1.0版本](fixed-issues-5-1-0.md)中的[已修正問題。
+如需此版本中已修正的問題清單，請檢視5.1.0版本[&#128279;](fixed-issues-5-1-0.md)中的已修正問題。
 
-瞭解5.1.0版](../release-info/upgrade-instructions-5-1-0.md)的[升級指示。
+瞭解5.1.0版[&#128279;](../release-info/upgrade-instructions-5-1-0.md)的升級指示。
 
 
 ## 增強的稽核工作流程

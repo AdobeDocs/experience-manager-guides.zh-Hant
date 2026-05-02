@@ -36,7 +36,7 @@ ht-degree: 0%
 ## 使用CRX Package Manager安裝套件
 
 1. **安裝元件封裝：**
-   1. 瀏覽至&#x200B;[**CRX封裝管理員**](http://<your-aem-instance>/crx/packmgr)。
+   1. 瀏覽至&#x200B;[**CRX封裝管理員**](http://&lt;your-aem-instance>/crx/packmgr)。
    2. 上傳並安裝on-prem-guides-components.all-1.x.0.zip套件。
 
 2. **安裝Sites封裝：**&#x200B;使用CRX封裝管理員上傳並安裝aemg-docs.all-1.x.0.zip封裝。

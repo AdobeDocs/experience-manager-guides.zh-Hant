@@ -16,7 +16,7 @@ ht-degree: 3%
 
 有關此版本中的問題修正清單，請查看 [2025.10.0 版本中修正的問題](fixed-issues-2025-10-0.md)。
 
-瞭解2025.10.0 ](../release-info/upgrade-instructions-2025-10-0.md)版的[升級指示。
+瞭解2025.10.0 [&#128279;](../release-info/upgrade-instructions-2025-10-0.md)版的升級指示。
 
 
 ## 編輯器設定現已重新命名為Workspace設定，並可從首頁存取

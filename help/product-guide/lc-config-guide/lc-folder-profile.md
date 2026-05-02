@@ -118,7 +118,7 @@ ht-degree: 0%
 >
 > 此設定只有在&#x200B;**Workspace設定** > **一般**&#x200B;中啟用學習內容功能時才能使用。
 
-此設定可讓您管理編輯器](../user-guide/web-editor-left-panel.md)中[左側面板的製作和發佈範本。 您可以新增、移除或重新排序製作和輸出範本，然後作者和發佈者即可存取這些範本。
+此設定可讓您管理編輯器[&#128279;](../user-guide/web-editor-left-panel.md)中左側面板的製作和發佈範本。 您可以新增、移除或重新排序製作和輸出範本，然後作者和發佈者即可存取這些範本。
 
 ![](assets/templates-settings.png){width="350"}
 

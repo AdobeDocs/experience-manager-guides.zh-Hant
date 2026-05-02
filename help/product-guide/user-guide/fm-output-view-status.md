@@ -36,4 +36,4 @@ ht-degree: 0%
      在此清單中，您可能會有成功執行或失敗的工作。 對於已成功完成的工作，發佈程式會建立記錄檔\(logs.txt\)，您可以透過在「產生時間」欄中選取連結來存取該記錄檔。
 
 
-**父級主題：**[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)
+**父級主題：**&#x200B;[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)
