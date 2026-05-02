@@ -4,7 +4,7 @@ description: 瞭解Experience Manager Guides編輯器介面中可用的各種設
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2470'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 一般設定可讓您設定使用編輯器的設定。 此索引標籤包含七個區段： **AI助理**、**製作**、**引用**、**條件**、**HTML編輯器**、**學習內容**&#x200B;和&#x200B;**拼字檢查**。
 
-![](assets/workspace-settings.png){width="350" align="left"}
+![](assets/workspace-settings.png){width="350"}
 
 - **AI助理**
 選取此項以啟用Experience Manager Guides中的[AI小幫手](../user-guide/ai-assistant.md)功能。 取消選取以停用該功能。
@@ -51,7 +51,7 @@ ht-degree: 0%
 
    - 變更選項的顯示順序，視需要拖放選項。
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
 
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    - **在主旨配置面板中顯示具有標題的金鑰**：選取此專案可顯示主旨配置中的金鑰與標題。 如果您未選取此選項，則只會顯示標題。 例如，這裡的索引鍵「os」、「audience」和「other」也會與標題一起顯示。
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
    - **在[條件]面板中顯示主旨配置**：選取此專案，在條件面板中檢視主旨配置。 如果取消選取此專案，定義的條件會顯示在「條件」面板中。
 
@@ -103,11 +103,11 @@ ht-degree: 0%
 
 此設定會控制「編輯器」和「地圖」主控台左右面板中顯示的面板。 您可以切換按鈕，以顯示或隱藏所需的面板。
 
-![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650"}
 
 您也可以定義面板中特徵的顯示順序。 若要變更面板中可用功能的預設順序，請選取虛線以將功能標籤拖放到所需位置。 功能也可以從&#x200B;**更多**&#x200B;區段移至面板的主要區段，反之亦然。 重新排序後，功能會以相同的順序顯示在個別的右側和左側面板中。
 
-![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650"}
 
 
 一次最多可以顯示8個面板。 對面板設定所做的任何變更都會立即套用。
@@ -121,23 +121,23 @@ ht-degree: 0%
 
 作為管理員，您可以控制作者可以插入檔案的元素清單，也可以定義元素的顯示名稱。 「元素」清單設定可讓您根據DITA規格來指定元素名稱，並指定您要使用的標籤，而不是DITA定義的元素名稱：
 
-![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650"}
 
 在上述熒幕擷圖中，`p`元素已被指定為Paragraph的標籤，而`codeblock`則被指定為Code Block的標籤以及其他一些元素。如果您選取&#x200B;**僅使用以上元素**&#x200B;選項，則只有此清單中的有效元素\（在目前的插入點\）會顯示在&#x200B;**插入元素**&#x200B;對話方塊中。
 
 在下列熒幕擷圖中，先前熒幕擷圖的4個已設定元素中只有3個會顯示在目前內容中：
 
-![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300"}
 
 ## 屬性清單
 
 與元素清單類似，您可以控制要在元素的屬性清單中顯示的屬性清單及其顯示名稱。 在下列熒幕擷圖中，只有3個屬性已設定為顯示在元素的屬性清單中：
 
-![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650"}
 
 透過此設定，當您嘗試將屬性新增至元素時，您只會檢視在清單中設定的屬性清單。
 
-![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300"}
 
 
 ## 顏色
@@ -169,7 +169,7 @@ ht-degree: 0%
 
    - 若要建立Salesforce設定檔，請從&#x200B;**伺服器型別**&#x200B;下拉式清單中選取&#x200B;**Salesforce**&#x200B;知識庫。 輸入設定檔名稱。 在&#x200B;**網站URL**&#x200B;中，輸入您要用來發佈輸出的消費者網站，然後新增Salesforce消費者網站提供的&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 然後，**驗證**&#x200B;並&#x200B;**儲存**&#x200B;新建立的設定檔。
 
-     ![工作區設定中的salesforce發佈設定檔](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
+     ![工作區設定中的salesforce發佈設定檔](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
      >[!NOTE]
      >
@@ -194,7 +194,7 @@ ht-degree: 0%
 
 - 若要建立設定檔，請從&#x200B;**伺服器型別**&#x200B;下拉式清單中選取ServiceNow知識庫。 輸入設定檔&#x200B;**名稱**。 在&#x200B;**ServiceNow URL**&#x200B;中，輸入您要用來發佈輸出的消費者網站，然後新增ServiceNow消費者網站所提供的&#x200B;**使用者名稱**&#x200B;和&#x200B;**密碼**。 然後，**驗證**&#x200B;並&#x200B;**儲存**&#x200B;新建立的設定檔。
 
-  ![ServiceNow發佈設定檔](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
+  ![ServiceNow發佈設定檔](../user-guide/images/service-now-publish-profile.png){width="550"}
 
   驗證之後，您可以在DITA Map的輸出預設集中選取發佈設定檔，並使用它產生輸出至您選擇的&#x200B;**Salesforce**&#x200B;或&#x200B;**ServiceNow**&#x200B;伺服器。
 
@@ -212,13 +212,13 @@ ht-degree: 0%
   >- 選取的結構描述檔案將會在選取的資料夾設定檔中持續存在。
   >- 新增無效的Schematron檔案時，會顯示錯誤訊息，如下所示。
 
-  ![在工作區設定中驗證](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
+  ![在工作區設定中驗證](../user-guide/images/editor-setting-validation-error.png){width="550"}
 
   這可防止使用者儲存任何破壞所選Schematron檔案中定義規則的檔案。 如果未選取此專案，在儲存變更之前，將不會驗證檔案。
 
 - **允許所有使用者在驗證面板中新增Schematron檔案**：選取此選項可允許使用者在編輯器的驗證面板中新增任何Schematron檔案。 這可讓使用者新增Schematron檔案，然後針對Schematron檔案驗證主題。 如果未選取此專案，則編輯器&#x200B;**驗證面板**&#x200B;的使用者無法使用新增結構描述檔案&#x200B;**新增結構描述檔案**&#x200B;按鈕的選項。
 
-  ![在工作區設定中驗證](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![在工作區設定中驗證](../user-guide/images/editor-setting-validation.png){width="550"}
 
 
 ## 顯示屬性
@@ -227,13 +227,13 @@ ht-degree: 0%
 
 為元素定義的屬性會顯示在「配置圖」和「大綱」檢視中。
 
-![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550"}
 
 ## 翻譯
 
 此索引標籤包含建立語言群組、將來源標籤傳播至目標版本，以及清除翻譯專案的選項。
 
-![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550"}
 
 - **語言群組**：身為管理員，您可以建立語言群組，並將它們當做一組來翻譯內容。
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 如果中繼資料路徑為空白，則會顯示錯誤。 如果您將標籤保留為空白，則會挑選最後一個元素作為標籤。
 
 
-工作區設定中的![中繼資料索引標籤](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
+工作區設定中的![中繼資料索引標籤](../user-guide/images/editor-setting-metadata.png){width="550"}
 
 *設定&#x200B;**版本記錄**&#x200B;對話方塊的中繼資料。*
 

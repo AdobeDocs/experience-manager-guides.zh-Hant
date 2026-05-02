@@ -5,7 +5,7 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 1%
@@ -45,13 +45,13 @@ ht-degree: 1%
 
 1. 將&#x200B;**DITA元素述詞**&#x200B;拖放到搜尋表單中的必要位置。
 
-   ![](assets/drag-search-predicate.png){width="650" align="left"}
+   ![](assets/drag-search-predicate.png){width="650"}
 
 1. 按一下&#x200B;**完成**&#x200B;以儲存變更。
 
    當您存取Assets UI中的篩選器選項時，將會取得DITA元素搜尋篩選選項。
 
-   ![](assets/search-filter-asset-console.png){width="350" align="left"}
+   ![](assets/search-filter-asset-console.png){width="350"}
 
 
 ## 在Assets UI中新增UUID型搜尋元件 {#id2034F04K05Z}
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 1. 搜尋您要授予存取權的使用者群組或個別使用者。 例如，若要將存取權授與作者群組中的所有使用者，請在&#x200B;**篩選查詢**&#x200B;欄位中輸入作者，然後按&#x200B;**Enter**。
 
-   ![](assets/authors-group-permission.png){width="350" align="left"}
+   ![](assets/authors-group-permission.png){width="350"}
 
 1. 選取&#x200B;**作者**&#x200B;群組。
 
@@ -102,7 +102,7 @@ ht-degree: 1%
 
 1. 授與搜尋資料夾的&#x200B;**讀取**&#x200B;許可權。
 
-   ![](assets/read-permission-authors.png){width="650" align="left"}
+   ![](assets/read-permission-authors.png){width="650"}
 
 1. 按一下&#x200B;**儲存**。
 

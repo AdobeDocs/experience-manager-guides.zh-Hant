@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 不過，您可以搜尋或篩選任何註解。 您也可以選擇顯示或隱藏條件，並據此顯示條件化內容。 您可以下載任何附件，但無法上載或刪除註釋的任何附件。
 
-![](images/complete-task-reviewer.png){width="800" align="left"}
+![](images/complete-task-reviewer.png){width="800"}
 
 
 ## 作為作者
@@ -31,6 +31,6 @@ ht-degree: 0%
 
 不過，您可以搜尋或篩選任何註解。 您可以下載任何附件，但無法上載或刪除註釋的任何附件。
 
-![](images/completed-task-author.png){width="800" align="left"}
+![](images/completed-task-author.png){width="800"}
 
 因此，無論是檢閱者還是作者，您都可以檢視檢閱內容以及註解，但您無法在已完成的檢閱任務中進行任何變更。

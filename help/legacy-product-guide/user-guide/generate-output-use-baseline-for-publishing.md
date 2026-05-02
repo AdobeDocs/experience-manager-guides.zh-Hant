@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1972'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 在[基準線]頁面上，按一下[建立]。**&#x200B;**
 1. 在&#x200B;**基準名稱**&#x200B;中輸入基準的名稱。
-   ![建立基準線](images/create-baseline.png){width="800" align="left"}
+   ![建立基準線](images/create-baseline.png){width="800"}
 1. 在&#x200B;**設定以**&#x200B;為基礎的版本中，選取下列其中一個選項：
 
    - **標籤**：選取此選項以根據套用至主題的主題標籤挑選主題。 輸入標籤，以根據輸入的字串篩選清單。 您可以從篩選掉的清單中選擇標籤，以選取具有指定標籤的主題和其他資產。
@@ -93,7 +93,7 @@ ht-degree: 0%
 1. 在基準中進行所需的變更。 您可以變更主題或參考內容的名稱和版本。
 1. 如果您想要針對一或多個主題使用不同的版本，您可以手動選取這些主題來執行此操作。 按一下&#x200B;**瀏覽主題**，選取您要使用不同版本的主題。 從選取主題的選取版本下拉式清單中，選取要用於基準線中的主題版本，然後按一下&#x200B;**確定**。
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){width="800"}
 
    主題及其選取版本的相關資訊會儲存在後端。 您可以重複此步驟來變更多個主題的所選版本。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**新增標籤**。
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){width="800"}
 
 1. 在&#x200B;**新增標籤**&#x200B;對話方塊中，指定要與此基準線關聯的唯一標籤。
 
@@ -151,7 +151,7 @@ ht-degree: 0%
    - 按一下&#x200B;**「新增」**。
 指定的標籤會新增至DITA map和參照的主題與內容。
 
-     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## 匯出已翻譯基準線 {#id196SE600GHS}
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**翻譯**&#x200B;索引標籤中，展開左側邊欄中可用的&#x200B;**基線**&#x200B;選項。
 
-   ![](images/export-baseline.png){width="800" align="left"}
+   ![](images/export-baseline.png){width="800"}
 
 1. 選取&#x200B;**使用基準線**&#x200B;選項，然後選擇您要匯出的基準線。
 

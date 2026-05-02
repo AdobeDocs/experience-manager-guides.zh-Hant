@@ -4,9 +4,9 @@ description: 瞭解您可在學習內容中使用的互動式Widget。
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 781c6b6632c857f2130ef27751f66bfe1527f334
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 - **收合式選單：**&#x200B;新增收合式選單至內容。 您可以在收合式選單標題及其內文中插入適當的文字。 可以使用&#x200B;**Content properties**&#x200B;面板管理其屬性，包括允許同時開啟單一或多個摺疊式功能表，以及新增或移除元素的選項。 若要刪除Widget的元素或專案，您也可以使用&#x200B;**按一下滑鼠右鍵>刪除專案**。
 
-  ![](assets/accordion-learning-content.png){width="650" align="left"}
+  ![](assets/accordion-learning-content.png){width="650"}
 
 - **輪播：**&#x200B;新增輪播至內容。 您可以在卡片標題和其內文中插入適當的文字。 可以使用&#x200B;**Content properties**&#x200B;面板管理其屬性，包括新增或移除元素的選項。 若要刪除Widget的元素或專案，您也可以使用&#x200B;**按一下滑鼠右鍵>刪除專案**。
 
-  ![](assets/carousal-learning-content.png){width="650" align="left"}
+  ![](assets/carousal-learning-content.png){width="650"}
 
 - **熱點：**&#x200B;新增熱點到選取的影像。 從選擇影像開始，然後導覽至&#x200B;**插入>熱點**。 這會開啟「熱點」對話方塊，您可以在其中設定各種選項，例如設定不同的熱點大小、新增對應連結，以及透過將區域向前或向後移動來調整分層。 若要刪除Widget的元素或專案，您也可以使用&#x200B;**按一下滑鼠右鍵>刪除專案**。
 
-  ![](assets/hotspot-learning-content.png){width="650" align="left"}
+  ![](assets/hotspot-learning-content.png){width="650"}
 
 - **標籤：**&#x200B;可讓您將內容組織成互動式區段。  每個標籤都可以代表不同的主題或類別；學習者可以按一下或點選標籤，以顯示對應的內容。 將游標放在您希望Tab Widget出現在內容中的位置，然後導覽至&#x200B;**插入> Widget >標籤**。 這會將索引標籤容器新增至您的內容。 現在，開始將內容新增到索引標籤，包括索引標籤標題及其對應內容。  若要刪除Widget的元素或專案，您也可以使用&#x200B;**按一下滑鼠右鍵>刪除專案**。
 

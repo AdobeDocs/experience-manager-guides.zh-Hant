@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    如果您按一下箭頭來檢視更多詳細資訊。 您可以看到已過期的特定語言副本。
 
-   ![](images/out-of-sync-uuid.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid.png){width="800"}
 
 1. 按一下核取方塊以選取您要傳送以供重新翻譯的主題。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 導覽至專案主控台中的翻譯專案。 新的翻譯工作卡片會建立在資料夾中。 按一下省略符號可檢視資料夾中的資產。
 
-   ![](images/incremental-job.PNG){width="300" align="left"}
+   ![](images/incremental-job.PNG){width="300"}
 
 1. 若要開始翻譯，請按一下翻譯工作卡片上的箭頭，然後從清單中選取&#x200B;**開始**。 訊息會通知工作已開始。
 

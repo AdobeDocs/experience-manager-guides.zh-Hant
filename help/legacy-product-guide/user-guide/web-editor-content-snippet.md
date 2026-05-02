@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -56,13 +56,13 @@ ht-degree: 0%
 
 ### 清單檢視![](images/data-sources-list-view-icon.svg)
 
-![](images/data-sources-list-view.png){width="300" align="left"}
+![](images/data-sources-list-view.png){width="300"}
 
 *連線的資料來源清單。*
 
-### 平鋪檢視   ![](images/data-sources-tile-view-icon.svg)
+### 平鋪檢視![](images/data-sources-tile-view-icon.svg)
 
-![](images/data-sources-tile-view.png){width="300" align="left"}
+![](images/data-sources-tile-view.png){width="300"}
 
 *以圖磚檢視連線的資料來源。*
 
@@ -78,11 +78,11 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
 執行以下步驟，使用內容片段產生器建立內容片段並插入您的主題中：
 
-1. 選取&#x200B;**資料來源** ![](images/data-source-icon.svg)   以檢視連線的資料來源。
+1. 在左側面板中選取&#x200B;**資料來源** ![](images/data-source-icon.svg)以檢視連線的資料來源。
 
 1. 選取資料來源，以檢視可用於所選資料來源的內容片段產生器。
 
-   ![](images/code-snippet-generator.png){width="300" align="left"}
+   ![](images/code-snippet-generator.png){width="300"}
 
    *「資料來源」面板會列出可用的內容片段產生器。*
 
@@ -125,7 +125,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
       - 如果您已選取Jira排序清單範本，則可檢視Jira問題的排序清單。
 
    1. 來源檢視會顯示DITA來源檢視中的資料。
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      ![](images/add-content-snippet-generator.png){width="800"}
       *新增內容片段產生器。 以來源或預覽模式檢視資料。*
 
 1. 若要儲存查詢的結果，請輸入產生器的名稱，然後按一下[新增]。**&#x200B;**   新的內容片段產生器已新增至清單中。
@@ -151,9 +151,9 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
 ### 插入查詢程式碼片段
 
-您也可以使用&#x200B;**插入查詢代碼片段** ![](images/data-source-icon.svg)   將資料片段插入主題。  您可以從下拉式清單中選取產生器、編輯查詢，或變更範本並將資料插入主題中。
+您也可以使用主工具列中的&#x200B;**插入查詢程式碼片段** ![](images/data-source-icon.svg)，將資料程式碼片段插入主題。  您可以從下拉式清單中選取產生器、編輯查詢，或變更範本並將資料插入主題中。
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/insert-content-snippet.png){width="800"}
 
 *編輯並插入資料片段。*
 
@@ -173,7 +173,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
 1. 選取資料來源以檢視所選資料來源可用的內容片段產生器和主題產生器。
 
-   ![](images/data-sources.png){width="300" align="left"}
+   ![](images/data-sources.png){width="300"}
 
    *為連線的資料來源新增主題產生器。*
 
@@ -185,7 +185,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
    **擷取組態**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-fetch-configuration.png){width="300"}
 
    *新增主題產生器的資料查詢、資料對應範本和根節點詳細資訊，並在「擷取設定」面板中為其指定唯一名稱。*
 
@@ -218,7 +218,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
    **輸出組態**
 
-   ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-output-configuration.png){width="300"}
 
    *在「輸出組態」面板中輸入輸出路徑和主題命名慣例詳細資料。 產生DITA map並命名它。*
 
@@ -237,7 +237,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
    例如，在下列熒幕擷圖中，`dc:description`、`dc:language`、`dc:title`和`docstate`是您可以定義值的預設屬性。 您可以建立自訂屬性（如author）並定義其值。
 
-   ![](images/topic-generator-metadata.png){width="300" align="left"}
+   ![](images/topic-generator-metadata.png){width="300"}
 
    *在中繼資料面板中新增中繼資料屬性，以傳遞至主題。*
 
@@ -247,7 +247,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/edit-topic-generator.png){width="650"}
 
    *從現有主題產生器產生新主題。*
 

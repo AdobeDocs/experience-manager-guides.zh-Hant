@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2362'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    使用DITA map啟動稽核工作流程時，會出現下列畫面：
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){width="800"}
 
    此畫面提供下列選項：
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
    地圖中的所有主題都會顯示為單一複合檔案。 允許檢閱者檢閱的主題會正常顯示。 不允許稽核的主題不顯示。
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){width="800"}
 
    在上述熒幕擷圖中，會共用「一般」說明主題以檢閱目前的檢閱者，該主題正常顯示。 不過，下一個主題「小眾測試版歷程記錄」內容不會共用以供檢閱，且會以唯讀模式顯示。 目前成為焦點的主題也會在目錄中反白顯示。
 
    選取並共用一個或多個主題以供稽核時，畫面如下：
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){width="800"}
 
    >[!NOTE]
    >
@@ -92,15 +92,15 @@ ht-degree: 0%
 
 當您檢視單一主題時，您會獲得另一個選項，可切換回檔案檢視。 在下列熒幕擷圖中，會開啟對應檔案中的特定主題以供檢閱。 反白顯示的選項 — **顯示檔案檢視**&#x200B;可讓使用者切換回對應檔案的檔案檢視。
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){width="800"}
 
 **使用不同型別的註解工具** — 您可以反白文字、以文字標示、插入文字或新增註解註解，以新增內嵌註解。 「註解」工具列中提供的不同型別的註解工具說明如下：
 
-![](images/comments-toolbar.png){width="350" align="left"}
+![](images/comments-toolbar.png){width="350"}
 
 - **醒目提示** \(![](images/review-highlight-icon.svg)\)：若要新增醒目提示，請選取文字並按一下「醒目提示」圖示。 或者，按一下「反白」圖示並選取所要的文字：
 
-  ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650"}
 
   「註解」面板中會出現一個快顯視窗，您可以在其中為反白的內容新增註解。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 1. 選取您要反白或刪除的文字。 內容工具列隨即顯示。
 
-   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
+   ![](images/review-quick-launch-toolbar.png){width="550"}
 
 1. 按一下&#x200B;**醒目提示**&#x200B;或&#x200B;**刪除線**&#x200B;圖示。
 1. 您可以在註解面板中為反白或刪除線動作新增註解。
@@ -135,7 +135,7 @@ ht-degree: 0%
 - 您可以在[註解]面板中按一下註解文字，然後從[選項]功能表選取[編輯] **&#x200B;**，編輯您自己的註解。
 - 您可以按一下「註解」面板中的註解，然後從「選項」功能表選取&#x200B;**刪除**&#x200B;選項，刪除自己的註解。
 
-  ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300"}
 
   >[!NOTE]
   >
@@ -149,17 +149,17 @@ ht-degree: 0%
 
 - 下列熒幕擷圖顯示&#x200B;*檢閱*&#x200B;模式中的內容：
 
-![](images/review-author-mode.png){width="550" align="left"}
+![](images/review-author-mode.png){width="550"}
 
 下列熒幕擷圖顯示&#x200B;*預覽*&#x200B;模式中的內容：
 
-![](images/review-preview-mode.png){width="550" align="left"}
+![](images/review-preview-mode.png){width="550"}
 
-**新增附件至註解** -   如果您想提供其他檔案中可用的其他資訊來補充您的註解，您可以附加註解來補充。 身為檢閱者，您可以輕鬆將一或多個檔案從本機系統新增至您的註解。 可以將檔案新增至所有支援的註解形式 — 反白顯示、刪除線、插入文字或註解。
+**將附件新增至註解** — 如果您要提供其他檔案中可用的其他資訊來補充註解，您可以附加註解來補充。 身為檢閱者，您可以輕鬆將一或多個檔案從本機系統新增至您的註解。 可以將檔案新增至所有支援的註解形式 — 反白顯示、刪除線、插入文字或註解。
 
 插入任何註解時，註解快顯視窗會出現。 在快顯視窗中提供其他註解或資訊後，按下Enter即可提交該註解或資訊。 新增註解後，您就可以選擇將附件新增至該註解。
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){width="800"}
 
 在上述熒幕擷圖中，檔案包含醒目提示註解的快顯視窗，註解也會新增至「註解」面板中。 兩個位置都有檔案附件圖示![](images/file-attach-review.svg)和註解可供使用。
 
@@ -184,30 +184,30 @@ ht-degree: 0%
 
 - 依預設，只會顯示兩個附加註解的檔案。 如果有更多檔案，右邊的&#x200B;**檢視附件**&#x200B;按鈕會顯示與註解相關聯的所有附件\（兩個以上\）數目。 您可以按一下編號來檢視所有附件。 例如，如果您有四個附件的註解，您會在按鈕上看到+2。
 
-![](images/review-view-attachment.png){width="550" align="left"}
+![](images/review-view-attachment.png){width="550"}
 
 - 將滑鼠指標停留在附件上可讓您選擇下載或移除附件。 移除附件僅適用於目前檢閱者已新增該註解時，如下列熒幕擷取所示：
 
-![](images/current-user-comment-options.png){width="550" align="left"}
+![](images/current-user-comment-options.png){width="550"}
 
 其他檢閱者或作者僅會取得下載附件選項。
 
-![](images/other-reviewer-download.png){width="550" align="left"}
+![](images/other-reviewer-download.png){width="550"}
 
 - 您可以從&#x200B;**檢視附件**&#x200B;對話方塊下載與註解相關的所有附件。 選取附件並按一下評論層級的&#x200B;**下載**&#x200B;圖示。
 
 - 您也可以從&#x200B;**檢視附件**&#x200B;對話方塊刪除與註解相關聯的附件。 選取附件並按一下&#x200B;**刪除**&#x200B;圖示。
 
-![](images/attach-files-comments-panel.png){width="550" align="left"}
+![](images/attach-files-comments-panel.png){width="550"}
 
 
-**條件面板** -   如果您的主題有條件式內容，您會在右側看到&#x200B;**條件** \(![](images/conditions-icon.svg)\)圖示。 按一下&#x200B;**條件**&#x200B;圖示會開啟「條件」面板，讓您根據主題中的可用條件反白顯示內容。
+**條件面板** — 如果您的主題有條件內容，您會在右側看到&#x200B;**條件** \(![](images/conditions-icon.svg)\)圖示。 按一下&#x200B;**條件**&#x200B;圖示會開啟「條件」面板，讓您根據主題中的可用條件反白顯示內容。
 
-：   依預設，**反白顯示所有條件**&#x200B;選項已啟用，所有條件皆已選取，顯示整個內容，且條件化內容在檢閱和預覽模式中都以反白顯示顯示。
+：依預設，**反白顯示所有條件**&#x200B;選項已啟用、選取所有條件、顯示整個內容，且條件化內容在檢閱和預覽模式中都會反白顯示。
 
-：   您可以停用&#x200B;**反白顯示所有條件**&#x200B;選項，並將主題中顯示的所有內容視為沒有反白顯示的一般文字。
+：您可以停用&#x200B;**反白顯示所有條件**&#x200B;選項，並將主題中顯示的所有內容視為不含任何反白顯示的一般文字。
 
-![](images/review-conditions-panel.png){width="350" align="left"}
+![](images/review-conditions-panel.png){width="350"}
 
 您可以選擇隱藏或顯示特定條件。
 
@@ -215,11 +215,11 @@ ht-degree: 0%
 - 如果您顯示條件化內容，則會在稽核模式中反白該內容。 例如，在下列熒幕擷圖中，只有內容使用兩個條件 — `win`和`mac`會反白顯示。
 
 
-![](images/review-condition-normal-mode.png){width="650" align="left"}
+![](images/review-condition-normal-mode.png){width="650"}
 
 在預覽模式中，會顯示非條件化內容和使用兩個顯示條件 — `win`和`mac`的條件化內容。 不會顯示隱藏條件的其餘條件化內容。
 
-**即時檢閱** -   「註解」面板會以註解以及作者對註解採取的意見反應或動作即時更新。
+**即時評論** — 「評論」面板會即時更新，其中包含評論以及作者對評論採取的意見或動作。
 
 - 多個檢閱者可以在同一檔案上同時留下註解或回覆註解。 您可以將滑鼠移至熒幕右上角的使用者圖示上，找出目前檢閱檔案的使用者。
 
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 - 按一下「過時的註解」圖示\(![](images/outdated-comment-icon.svg)\)會顯示檔案最新版本與註解版本之間的差異。 版本編號\（正在比較的版本\）會顯示在檔案頂端。
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){width="800"}
 
   >[!NOTE]
   >
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 - 按一下過時的註解會在左側面板中開啟該註解的版本。 先前版本會顯示在左側面板中，而目前版本會顯示在右側面板中。 過期版本上的所有註解都會在左側匯入。 您可以將先前版本與目前版本進行比較。
 
-**篩選註解** -   您可以篩選檔案中的註解，以視需要檢視特定註解。 若要篩選註解，請按一下「註解」面板中「搜尋註解」文字方塊右邊選單中的&#x200B;**篩選**&#x200B;圖示\(![](images/filter-search-icon.svg)\)。
+**篩選註解** — 您可以篩選檔案中的註解，以視需要檢視特定註解。 若要篩選註解，請按一下「註解」面板中「搜尋註解」文字方塊右邊選單中的&#x200B;**篩選**&#x200B;圖示\(![](images/filter-search-icon.svg)\)。
 
 從&#x200B;**篩選型別**&#x200B;對話方塊中選取下列一或多個篩選選項，然後按一下&#x200B;**套用**。
 

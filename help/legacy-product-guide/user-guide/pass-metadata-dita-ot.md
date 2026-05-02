@@ -5,7 +5,7 @@ feature: Publishing, Metadata Management
 role: User
 hide: true
 exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 1. 選取並編輯您要將中繼資料欄位傳遞到的輸出預設集。 例如，選取「PDF輸出預設集」。
 1. 在選取的輸出預設集的「產生&lt;output\>使用」選項下選取&#x200B;**DITA-OT**。
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){width="800"}
 
 1. 從屬性下拉式清單中選取您要傳遞至DITA-OT發佈的中繼資料。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 從&#x200B;**屬性**&#x200B;下拉式清單中，選取必要的自訂和預設屬性。 例如，選取`author`、`dc:title`和`dc:description`。 這些是在我們建立檔案後建立的標準`metadata/properties`。 選取的屬性會列在下拉式方塊下方。
 
-   ![](images/selected-metadata-properties.png){width="300" align="left"}
+   ![](images/selected-metadata-properties.png){width="300"}
 
 1. 按一下左上方的&#x200B;**完成**&#x200B;以儲存變更。
 1. 產生輸出。

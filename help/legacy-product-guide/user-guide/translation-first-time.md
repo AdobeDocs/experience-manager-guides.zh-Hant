@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 下圖顯示當您全域使用內容和三個語言副本時，AEM中的資料夾結構範例。
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){width="800"}
 
 ## 設定翻譯服務
 
@@ -107,7 +107,7 @@ ht-degree: 1%
 
    新翻譯專案會以選取的主題版本建立。 此時，會顯示快顯訊息，確認已建立翻譯專案。 一旦所有目標語言副本在翻譯專案中可用，您會在收件匣中收到通知。 一旦翻譯專案中提供了目標語言副本區域，您就可以開始翻譯工作。
 
-   ![](images/status-translation-uuid.png){width="800" align="left"}
+   ![](images/status-translation-uuid.png){width="800"}
 
 
 「翻譯」標籤包含下列區段：

@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 選取要用來產生輸出的一或多個輸出預設集。
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){width="800"}
 
    >[!NOTE]
    >
@@ -49,83 +49,83 @@ ht-degree: 0%
 
 可能有許多例項只更新DITA map中的幾個主題，並只即時推播這些更新的主題。 若要處理這類案例，AEM Guides可讓您建立增量輸出。 如果您已更新一些主題，則不需要重新產生整個DITA map。 您只能選取更新的主題並重新產生它們。
 
-If your map is chunked and you have updated a single topic in that map, then you need to regenerate the entire map for the updated topic or content to reflect in the output. You will not get the output regeneration option at a topic level, it is only available at the \(chunked\) map level. This is applicable to the parent map and all sub-maps.
+如果您的地圖是區塊化的，而且您已更新該地圖中的單一主題，則需要為更新的主題或內容重新產生整個地圖，以反映在輸出中。 您無法在主題層級取得輸出再生選項，只能在\(chunked\)對映層級使用。 這適用於父對映和所有子對映。
 
-Perform the following steps to regenerate output for a specific topic or a group of topics:
+執行以下步驟來重新產生特定主題或主題群組的輸出：
 
 >[!IMPORTANT]
 >
-> When you are regenerating the AEM Site output, then the output is created using the current version of the files and not the attached Baseline.
+> 當您重新產生「AEM場地」輸出時，會使用檔案的目前版本而非附加的「基準線」來建立輸出。
 
 1. 在Assets UI中，導覽至DITA map檔案並按一下。
 
    DITA map主控台會出現，其中列出可用於產生輸出的輸出預設集。
 
-1. Select the **Topics** tab.
+1. 選取&#x200B;**主題**&#x200B;索引標籤。
 
-   A list of topics available in the DITA map is displayed.
+   隨即顯示DITA map中可用的主題清單。
 
-1. Select the topics that you want to regenerate.
+1. 選取要重新產生的主題。
 
    >[!NOTE]
    >
-   > If you have added new topics to the DITA map, you will not be able to generate those new topics from here. You must first publish the newly added topics by using the DITA map publish function.
+   > 如果您已將新主題新增至DITA map，您將無法從此處產生這些新主題。 您必須先使用DITA map發佈函式發佈新加入的主題。
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){width="800"}
 
-1. Click **Regenerate**.
+1. 按一下&#x200B;**重新產生**。
 
-   The Regenerate Selected Topics page appears.
+   會顯示「重新產生所選主題」頁面。
 
-1. Select the output preset that you want to use to regenerate the selected topics.
+1. 選取要用來再生所選主題的輸出預設集。
 
-1. Click **Regenerate** to start the output generation process.
+1. 按一下&#x200B;**重新產生**&#x200B;以啟動輸出產生程式。
 
 
 >[!IMPORTANT]
 >
-> If you rename a topic title and regenerate the topic, the updated topic title does not reflect in the DITA map table of contents. To update the topic title in the TOC, you must generate the entire DITA map.
+> 如果您重新命名主題標題並重新產生主題，則更新的主題標題不會反映在DITA map目錄中。 若要更新目錄中的主題標題，您必須產生整個DITA map。
 
-您可以按一下「輸出」，檢視輸出產生請求的目前狀態。 For more information, see [View the status of the output generation task](#viewing_output_history).
+您可以按一下「輸出」，檢視輸出產生請求的目前狀態。 如需詳細資訊，請參閱[檢視輸出產生工作的狀態](#viewing_output_history)。
 
 ## 檢視輸出產生工作的狀態 {#viewing_output_history}
 
-Once you initiate the output generation task for a map or regenerate selected topics, AEM Guides sends this task to the output generation queue. This queue is updated in real time, showing the status of each output generation task in the queue.
+當您為地圖啟動輸出產生任務或重新產生所選主題後，AEM Guides會將此任務傳送到輸出產生佇列。 此佇列會即時更新，顯示佇列中每個輸出產生工作的狀態。
 
-Perform the following steps to view the output generation queue:
+執行以下步驟來檢視輸出產生佇列：
 
-1. In the Assets UI, navigate to and click on the map file for which you want to check the output generation status.
+1. 在Assets UI中，導覽至並按一下您要檢查輸出產生狀態的對應檔案。
 
-1. Click **Outputs**.
+1. 按一下&#x200B;**輸出**。
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){width="800"}
 
-   The Outputs page is divided into two parts:
+   「輸出」頁面分為兩個部分：
 
-   - **Queued Outputs:**
+   - **佇列輸出：**
 
-     Lists the outputs that are either waiting to be generated or are under generation process. The queued or in progress tasks are shown with a blue color icon before the preset name. You can also find the output generation setting or preset used for the queued task, the type, user who initiated the task, time since when the task is queued, and the current status.
+     列出等待產生或正在產生程式中的輸出。 已排入佇列或進行中的工作會在預設集名稱前顯示一個藍色圖示。 您也可以找到用於已排入佇列之任務的輸出產生設定或預設集、型別、啟動任務的使用者、任務已排入佇列後的時間以及目前狀態。
 
-     Click on the link to access the **Publish Dashboard** and view the current running status. A list of all active publishing tasks is available in the Publish Dashboard. The **Queued Outputs** and the **Publish Dashboard** link are displayed only when there are outputs that are either waiting to be generated or are under generation process. They don&#39;t appear when the output tasks have been completed.For more details on Publish Dashboard, see [Manage publish tasks using the Publish Dashboard](generate-output-publish-dashboard.md#).
+     按一下連結以存取&#x200B;**發佈儀表板**&#x200B;並檢視目前執行中的狀態。 發佈儀表板中提供所有作用中發佈任務的清單。 **佇列輸出**&#x200B;和&#x200B;**發佈儀表板**&#x200B;連結只有在輸出正在等待產生或正在產生過程中時才會顯示。 輸出工作完成後，它們不會出現。如需有關發佈儀表板的詳細資訊，請參閱[使用發佈儀表板管理發布工作](generate-output-publish-dashboard.md#)。
 
-   - **Generated Outputs**
+   - **產生的輸出**
 
-     Lists the output tasks that have been completed. Again, the information shown here is similar to the Queued Outputs section with a few differences. You have new set of information in the form of output result icon and the output generation time.
+     列出已完成的輸出工作。 同樣地，這裡顯示的資訊與佇列輸出區段類似，但有一些差異。 您有輸出結果圖示和輸出產生時間形式的新資訊集。
 
-     In this list, you could have tasks that have executed successfully, tasks that have executed with message, or failed tasks. The successful tasks are shown with green color icon, the tasks with a message have an orange color icon, and the failed tasks are shown with red color icon.
+     在此清單中，您可能會有已成功執行的任務、已使用訊息執行的任務或失敗的任務。 成功的工作會以綠色圖示顯示，包含訊息的工作會以橘色圖示顯示，而失敗的工作會以紅色圖示顯示。
 
-     For all the tasks, the publishing process creates a log file \(logs.txt\) that can be accessed by clicking the link in the Generated At column. For tasks that have failed or have messages, you can check the log file, which is explained in the section [View and check the log file](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     針對所有工作，發佈程式會建立記錄檔\(logs.txt\)，按一下「產生時間」欄中的連結即可存取該記錄檔。 對於失敗或有訊息的工作，您可以檢查記錄檔，如[檢視一節中所述，並檢查記錄檔](generate-output-basic-troubleshooting.md#id1822G0P0CHS)。
 
      >[!NOTE]
      >
-     > When you click on a link of the generated PDF output, you are asked to download the PDF. This is the default behavior in AEM 6.5 and 6.4.
+     > 當您按一下產生的PDF輸出的連結時，系統會要求您下載PDF。 這是AEM 6.5和6.4中的預設行為。
 
 
-## Cancel an output generation task {#id2061H100T5Z}
+## 取消輸出產生任務 {#id2061H100T5Z}
 
-AEM Guides gives publishers a simple and easy way to cancel any ongoing publishing task. As a publisher, you can cancel an ongoing publishing task from the DITA map console or the [Publish Dashboard](generate-output-publish-dashboard.md#).
+AEM Guides可讓發佈者簡單輕鬆地取消任何進行中的發佈工作。 身為發行者，您可以從DITA map主控台或[發佈儀表板](generate-output-publish-dashboard.md#)取消進行中的發佈工作。
 
-Perform the following steps to cancel an output generation task from the DITA map console:
+執行以下步驟，從DITA map主控台取消輸出產生工作：
 
 1. 在Assets UI中，導覽至並按一下您要取消進行中輸出產生任務的對應檔案。
 
@@ -135,17 +135,17 @@ Perform the following steps to cancel an output generation task from the DITA ma
 
 1. 按一下&#x200B;*取消此工作*&#x200B;圖示。
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){width="800"}
 
 1. 在確認取消訊息提示上按一下&#x200B;**是**。
 
-   ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-condole.png){width="800"}
 
    如果工作尚未開始，則會對工作執行取消命令。 對於正在取消的工作，「狀態」會設為「正在取消」。
 
    工作成功取消後，就會移至狀態為&#x200B;**已取消**&#x200B;的&#x200B;**產生的輸出**&#x200B;清單。 當您將滑鼠停留在已取消的任務上時，它會顯示已取消任務的使用者名稱。 在下列熒幕擷圖中，*HTML5*&#x200B;工作已取消。
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){width="800"}
 
 
 ## 從DITA map主控台刪除輸出工作
@@ -162,7 +162,7 @@ Perform the following steps to cancel an output generation task from the DITA ma
 
 1. 按一下刪除圖示。
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){width="800"}
 
 1. 在「確認刪除」訊息提示上按一下&#x200B;**是**。
 

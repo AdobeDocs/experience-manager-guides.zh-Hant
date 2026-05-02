@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -26,13 +26,13 @@ ht-degree: 0%
 
    隨即顯示具有任務圖磚的「專案」面板。
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){width="800"}
 
 1. 按一下&#x200B;**檢閱**&#x200B;圖磚中的三個點。
 
    此時會顯示「稽核儀表板」。 儀表板會列出您已建立的所有稽核任務。
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){width="800"}
 
    「稽核儀表板」顯示有關稽核任務的詳細資訊，例如任務名稱、開始稽核的人員、開始稽核的日期、到期日、狀態、尚未被作者接受或拒絕的新註釋數目以及稽核者名稱。 這些任務會按照新建任務到舊任務的順序列出。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## 任務標籤
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){width="800"}
 
 您可以在&#x200B;**工作**&#x200B;標籤下執行下列動作：
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 內容索引標籤
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){width="800"}
 
 您可以在&#x200B;**Content**&#x200B;標籤下執行下列動作：
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ## 檢閱者索引標籤 {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){width="800"}
 
 您可以在&#x200B;**檢閱者**&#x200B;標籤下執行下列動作：
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 在主「稽核儀表板」頁面中，如果您選取稽核任務並按一下「**狀態**」，則會顯示稽核任務的狀態報告：
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){width="800"}
 
 複查任務的狀態報告包含下列詳細資訊：
 

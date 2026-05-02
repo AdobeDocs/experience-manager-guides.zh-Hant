@@ -2,9 +2,10 @@
 title: 發行說明 | Adobe Experience Manager Guides 2025.11.0版的新增功能
 description: 瞭解2025.11.0版Adobe Experience Manager Guides中的新功能和增強功能
 role: Leader
-source-git-commit: a13fdb36efb5cfb548f8e128977469763836537a
+exl-id: 270a5faa-a16f-4939-900e-3c6c54660d2c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 3%
 
 ---
@@ -15,18 +16,18 @@ ht-degree: 3%
 
 有關此版本中的問題修正清單，請查看 [2025.11.0 版本中修正的問題](fixed-issues-2025-11-0.md)。
 
-瞭解2025.11.0版[的](../release-info/upgrade-instructions-2025-11-0.md)升級指示。
+瞭解2025.11.0版[&#128279;](../release-info/upgrade-instructions-2025-11-0.md)的升級指示。
 
 
 ## 首頁上推出新存放庫和增強型搜尋體驗
 
 存放庫現在可直接從首頁存取，可作為中央空間，以改善資料夾和檔案的探索能力。 它具有專用的&#x200B;**資料夾導覽面板**&#x200B;以及可自訂的&#x200B;**存放庫**&#x200B;的表格檢視。 改版的搜尋和篩選體驗大幅簡化尋找和尋找檔案的程式。 如需詳細資訊，請檢視[瞭解存放庫介面](../user-guide/home-page-repository-view.md)。
 
-![](assets/repository-view-home.png){align="left"}
+![](assets/repository-view-home.png)
 
 在編輯器中，檔案的搜尋和篩選體驗現在與首頁一致。 已引入位於編輯器介面底部的新[搜尋面板](../user-guide/search-panel-explorer.md)以顯示搜尋結果。 此外，存放庫現在在編輯器中重新命名為&#x200B;**Explorer**，可讓您像之前一樣瀏覽資料夾和檔案。
 
-![](assets/search-panel-explorer.png){align="left"}
+![](assets/search-panel-explorer.png)
 
 
 ## AI助理中智慧型建議的增強索引
@@ -56,7 +57,3 @@ ht-degree: 3%
 引入自動化程式，以使`/content/dam`中的資產保持最新。 系統每15分鐘觸發一次資產重新處理。 在每個週期中，系統都會挑選最近15分鐘間隔內新增或維持未處理的資產，並重新處理，進而改善內容存放庫的效率和一致性。
 
 如需詳細資訊，請檢視[處理資產](../user-guide/asset-processor.md)。
-
-
-
-

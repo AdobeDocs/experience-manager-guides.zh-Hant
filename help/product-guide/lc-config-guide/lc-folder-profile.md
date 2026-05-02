@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ ht-degree: 0%
 
    您可以從「存放庫」面板中建立新資料夾。
 
-   ![](assets/create-new-folder.png){width="350" align="left"}
+   ![](assets/create-new-folder.png){width="350"}
 2. **建立語言資料夾以管理翻譯**：如果您將內容翻譯成不同的語言，則必須建立與每種語言對應的資料夾。 每個語言資料夾都會包含對應於該語言的內容。
 
 3. **建立資料夾以管理Assets**：與資料夾類似，您也可以建立不同的Assets資料夾以符合不同部門的需求。 如此一來，您也能確保作者和發佈者有權存取範本、影像和其他資產中設定的正確CSS。
 
-   ![](assets/configure-assets-folder.png){width="350" align="left"}
+   ![](assets/configure-assets-folder.png){width="350"}
 4. [建立資料夾設定檔](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile)以對應不同的資料夾。
 5. **選取要設定的資料夾設定檔**：建立資料夾設定檔後，您必須在[使用者偏好設定](../user-guide/intro-home-page.md#user-preferences)頁面上選取資料夾設定檔，以確保作者和發佈者可以存取正確的範本。
 
-   ![](assets/folder-profile.png){width="650" align="left"}
+   ![](assets/folder-profile.png){width="650"}
 
 6. **設定資料夾設定檔設定**：對於學習與訓練內容，可以在資料夾層級設定下列設定：
    - [一般](#general)
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 在一般索引標籤中，您可以設定以下產品培訓和學習內容功能的特定設定：
 
-![](assets/lc-config-settings-general.png){width="350" align="left"}
+![](assets/lc-config-settings-general.png){width="350"}
 
 - **學習內容**：使用&#x200B;**啟用學習內容**&#x200B;切換功能，在資料夾設定檔層級啟用或停用此功能。
 - **HTML編輯器**：此設定可讓您設定HTML式編寫的編輯器。 此設定中的主要組態選項如下：
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 如需學習和訓練內容，請確定編輯器和地圖主控台僅啟用下列功能。
 
-![](assets/panels-settings.png){width="350" align="left"}
+![](assets/panels-settings.png){width="350"}
 
 
 ### 編輯器
@@ -118,13 +118,13 @@ ht-degree: 0%
 >
 > 此設定只有在&#x200B;**Workspace設定** > **一般**&#x200B;中啟用學習內容功能時才能使用。
 
-此設定可讓您管理編輯器[中](../user-guide/web-editor-left-panel.md)左側面板的製作和發佈範本。 您可以新增、移除或重新排序製作和輸出範本，然後作者和發佈者即可存取這些範本。
+此設定可讓您管理編輯器[&#128279;](../user-guide/web-editor-left-panel.md)中左側面板的製作和發佈範本。 您可以新增、移除或重新排序製作和輸出範本，然後作者和發佈者即可存取這些範本。
 
-![](assets/templates-settings.png){width="350" align="left"}
+![](assets/templates-settings.png){width="350"}
 
 「撰寫」範本分為四個類別：學習課程、學習內容、測驗和問題庫。 如果您的執行個體中設定了任何預先定義的範本，預設會顯示這些範本。
 
-![](assets/templates-list.png){width="350" align="left"}
+![](assets/templates-list.png){width="350"}
 
 ### 新增範本
 
@@ -134,13 +134,13 @@ ht-degree: 0%
 2. 在選取路徑對話方塊中，選取所需的範本。
 3. 選擇&#x200B;**選取**。
 
-   ![](assets/add-templates.png){width="350" align="left"}
+   ![](assets/add-templates.png){width="350"}
 
 範本會新增至「設定」面板的個別類別中。
 
 同樣地，您可以新增其他製作和輸出範本。 新增後，作者和發佈者可在各自的課程對話方塊中取得這些範本。 例如，管理員新增的學習課程範本可供作者建立新課程時使用。
 
-![](assets/templates-added-course.png){width="350" align="left"}
+![](assets/templates-added-course.png){width="350"}
 
 ### 使用新的撰寫和輸出範本
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 如需詳細資訊，請檢視[從編輯器建立自訂範本](../user-guide/create-maps-customized-templates.md)。
 
-![](assets/authoring-templates-editor.png){width="350" align="left"}
+![](assets/authoring-templates-editor.png){width="350"}
 
 **建立新的輸出範本**
 
@@ -162,17 +162,17 @@ ht-degree: 0%
 
    隨即顯示「輸出範本」面板。
 
-   ![](assets/output-templates-editor.png){width="350" height="" align="left"}
+   ![](assets/output-templates-editor.png){width="350" height=""}
 2. 在「輸出範本」面板中，選取(+)以建立新的輸出範本。
 
-   ![](assets/create-new-output-template.png){width="350" align="left"}
+   ![](assets/create-new-output-template.png){width="350"}
 3. 從下拉式選單中選取輸出範本。
 
 
-   ![](assets/output-template-types.png){width="650" align="left"}
+   ![](assets/output-template-types.png){width="650"}
 4. 根據所選的「輸出」範本型別，會顯示一個對話方塊，您可以在其中根據可用的範本建立新範本。
 
-   ![](assets/new-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/new-scorm-template-dialog.png){width="350"}
 
 5. 選取「**建立**」。
 
@@ -180,16 +180,16 @@ ht-degree: 0%
 
 6. 若要存取並新增發佈者的輸出範本，請瀏覽至&#x200B;**設定** > **範本** > **輸出範本**，然後選取&#x200B;**新增**。
 
-   ![](assets/add-output-template-settings-panel.png){width="350" align="left"}
+   ![](assets/add-output-template-settings-panel.png){width="350"}
 
    輸出範本會顯示在「選取路徑」對話方塊中。
 7. 選取範本並選擇&#x200B;**確認**。
 
-   ![](assets/select-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/select-scorm-template-dialog.png){width="350"}
 
    選取的輸出範本現在會新增至「設定」面板。
 
-   ![](assets/scorm-template-added.png){width="350" align="left"}
+   ![](assets/scorm-template-added.png){width="350"}
 
 ### 移除或重新排序範本
 
@@ -197,11 +197,11 @@ ht-degree: 0%
 
 若要移除範本，請選取範本旁邊的&#x200B;**移除**&#x200B;圖示。
 
-![](assets/remove-teamplates.png){width="350" align="left"}
+![](assets/remove-teamplates.png){width="350"}
 
 您也可以定義類別中範本的顯示順序。 若要變更範本的顯示順序，請選取虛線並將範本拖曳到所需位置。
 
-![](assets/reorder-templates.png){width="350" align="left"}
+![](assets/reorder-templates.png){width="350"}
 
 
 ## 設定輸出預設集
@@ -212,15 +212,15 @@ ht-degree: 0%
 
 「輸出預設集」標籤可讓您定義哪些輸出格式可用於發佈課程。 它包含兩個區段： **允許的輸出預設集型別**&#x200B;和&#x200B;**通用輸出預設集**。
 
-![](assets/configure-course-output-presets.png){width="350" align="left"}
+![](assets/configure-course-output-presets.png){width="350"}
 
 - **允許的輸出預設集型別**：此區段列出Experience Manager Guides執行個體支援的所有輸出預設集。 對於課程發佈，只有&#x200B;**SCORM**&#x200B;和&#x200B;**PDF**&#x200B;格式適用。 您可以選取一個或兩個選項。 產生課程輸出時，發佈者可使用選取的預設集。
 
-  ![](assets/allowed-output-presets.png){width="350" align="left"}
+  ![](assets/allowed-output-presets.png){width="350"}
 
 - **常見輸出預設集**：此區段顯示Publishers經常建立並新增至特定資料夾設定檔的輸出預設集。 您也可以移除任何不再需要的預設集。
 
-  ![](assets/common-output-presets.png){width="350" align="left"}
+  ![](assets/common-output-presets.png){width="350"}
 
 ## 管理發佈設定檔
 
@@ -230,4 +230,4 @@ ht-degree: 0%
 
 提供伺服器詳細資訊以及相關SCORM雲端應用程式的使用者端ID和使用者端密碼，以設定SCORM雲端的發佈設定檔。
 
-![](assets/configure-publish-profiles.png){width="350" align="left"}
+![](assets/configure-publish-profiles.png){width="350"}

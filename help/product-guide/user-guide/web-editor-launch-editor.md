@@ -4,9 +4,9 @@ description: 瞭解如何從Adobe Experience Manager Guides的AEM導覽頁面、
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -25,19 +25,19 @@ ht-degree: 0%
 
 登入Experience Manager時，畫面會顯示導覽頁面：
 
-![](images/web-editor-from-navigation-page.png){align="left"}
+![](images/web-editor-from-navigation-page.png)
 
 選取&#x200B;**指南**&#x200B;連結會帶您前往[Adobe Experience Manager Guides首頁](./intro-home-page.md)。
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page.png)
 
 若要啟動編輯器，請移至導覽列，然後從下拉式清單中選取&#x200B;**編輯器**。 預設會選取「首頁」。
 
-![](images/editor-home-page-dropdown.png){width="350" align="left"}
+![](images/editor-home-page-dropdown.png){width="350"}
 
 當您未選取任何檔案即啟動編輯器時，畫面會顯示空白的編輯器畫面。 您可以從Experience Manager **存放庫**&#x200B;或您的&#x200B;**集合**&#x200B;開啟檔案以進行編輯。
 
-![](images/web-editor-launch-page.png){align="left"}
+![](images/web-editor-launch-page.png)
 
 或者，您也可以開啟[Adobe Experience Manager Guides首頁體驗](./intro-home-page.md)的&#x200B;**最近使用的檔案** Widget和&#x200B;**集合** Widget中現有的檔案，以啟動編輯器。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
    >
    > 您也可以檢視主題的UUID。
 
-   ![](images/assets_ui_with_uuid_cs.png){align="left"}
+   ![](images/assets_ui_with_uuid_cs.png)
 
    >[!IMPORTANT]
    >
@@ -79,15 +79,15 @@ ht-degree: 0%
    >
    > 如果您想要開啟多個主題進行編輯，請從資產UI中選取所需的主題，然後選取&#x200B;**編輯**。 請確認您的瀏覽器未啟用快顯封鎖程式，否則只會開啟所選清單中的第一個主題進行編輯。
 
-   ![](images/edit-from-preview_cs.png){align="left"}
+   ![](images/edit-from-preview_cs.png)
 
    如果您不想預覽主題，並想直接在編輯器中開啟主題，請從卡片檢視選取快速動作功能表中的&#x200B;**編輯**&#x200B;圖示：
 
-   ![](images/edit-topic-from-quick-action_cs.png){align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png)
 
    主題會在編輯器中開啟。
 
-   ![](images/edit-mode.png){align="left"}
+   ![](images/edit-mode.png)
 
 您也可以在Assets UI中開啟對應檔案，並啟動編輯器以編輯對應檔案中的主題。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 1. 選取要編輯的主題檔案。
 1. 選取&#x200B;**編輯主題**。
 
-   ![](images/edit-topics-map-console_cs.png){align="left"}
+   ![](images/edit-topics-map-console_cs.png)
 
 1. 主題會在編輯器中開啟。
 
@@ -112,21 +112,21 @@ ht-degree: 0%
 
 1. 開啟「首頁」，然後啟動「地圖」主控台。
 
-   ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+   ![](images/editor-map-console-dropdown.png){width="350"}
 
    當您未選取任何對應檔案就啟動對應主控台時，畫面會顯示空白的對應主控台畫面。 您也可以從Experience Manager **存放庫**&#x200B;或您的&#x200B;**集合**&#x200B;開啟對應檔案。
 
-   ![](images/launch-map-console.png){width="500" align="left"}
+   ![](images/launch-map-console.png){width="500"}
 
 1. 選擇&#x200B;**選取對應**&#x200B;以開啟包含您要在編輯器中編輯之主題的對應檔案。
 1. 選取地圖檔案所在的路徑。 選取的對映檔案會新增至「對映」主控台。
 1. 導覽至地圖檔案，並從下拉式清單中選取&#x200B;**在編輯器中開啟**。
 
-   ![](images/map-console-open-in-editor.png){align="left"}
+   ![](images/map-console-open-in-editor.png)
 
    包含主題的對應檔案會在編輯器中開啟以進行編輯。
 
-   ![](images/map-console-edit-topics.png){align="left"}
+   ![](images/map-console-edit-topics.png)
 
 
 

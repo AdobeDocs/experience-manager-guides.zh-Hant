@@ -1,19 +1,19 @@
 ---
 title: 發行說明 | 2023年11月發行的Adobe Experience Manager Guides新增功能
-description: 在2023年11月發行的Adobe Experience Manager Guidesas a Cloud Service中瞭解新功能和增強功能。
+description: 在2023年11月發行的Adobe Experience Manager Guides as a Cloud Service中瞭解新功能和增強功能。
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
 
-# 2023年11月發行的Adobe Experience Manager Guides as a Cloud Service的新增功能
+# 2023年11月版Adobe Experience Manager Guides as a Cloud Service的新增功能
 
-本文介紹2023年11月Adobe Experience Manager Guides版本中的新功能和增強功能(後來稱為&#x200B;*Experience Manager Guidesas a Cloud Service*)。
+本文介紹2023年11月版Adobe Experience Manager Guides （以後稱為&#x200B;*Experience Manager Guides as a Cloud Service*）中的新功能和增強功能。
 
 如需有關升級指示、相容性矩陣以及此版本中修正問題的詳細資訊，請檢視[發行說明](release-notes-2023-11-0.md)。
 
@@ -21,21 +21,21 @@ ht-degree: 0%
 
 下列原生PDF增強功能已在2023年11月版本中完成：
 
-### 使用和複製現成可用的PDF範本
+### 使用和複製現成的PDF範本
 
-Experience Manager Guides提供現成可用或原廠可用的PDF範本。 複製工廠PDF範本以建立自訂PDF範本。
+Experience Manager Guides提供立即可用或原廠可用的PDF範本。 複製原廠PDF範本，以建立自訂PDF範本。
 
 現在，您也可以在建立和複製範本時，預覽範本的縮圖影像。 您也可以編輯或刪除此影像。 此功能對於品牌化或區分具有類似名稱的範本非常有用。
 深入瞭解[PDF範本](../native-pdf/pdf-template.md)。
 
-![重複PDF範本對話方塊](assets/duplicate-template.png){width="550" align="left"}
+![重複PDF範本對話方塊](assets/duplicate-template.png){width="550"}
 
 *複製現有的PDF範本。*
 
 
 ### 變更頁面順序並每張工作表發佈多個頁面
 
-除了根據來原始檔發佈頁面外，您也可以在發佈多頁檔案時，變更PDF的頁面順序。  這可讓您靈活地以各種順序發佈頁面，例如先發佈所有奇數或所有偶數頁面。 您也可以以小冊子的形式發佈，並像書籍一樣閱讀頁面。 您也可以決定要在單張紙上發佈的頁數。 如需詳細資訊，請檢視[頁面組織](../native-pdf/components-pdf-template.md#page-organization)區段。
+除了根據來原始檔發佈頁面外，您也可以在發佈多頁檔案時，變更PDF中的頁面順序。  這可讓您靈活地以各種順序發佈頁面，例如先發佈所有奇數或所有偶數頁面。 您也可以以小冊子的形式發佈，並像書籍一樣閱讀頁面。 您也可以決定要在單張紙上發佈的頁數。 如需詳細資訊，請檢視[頁面組織](../native-pdf/components-pdf-template.md#page-organization)區段。
 
 ### 根據排序索引鍵排序字彙表辭彙
 
@@ -45,7 +45,7 @@ Experience Manager Guides提供現成可用或原廠可用的PDF範本。 複製
 
 ### 改善原生PDF範本的資源管理
 
-Experience Manager Guides現在已改善原生PDF範本的資源管理。 您現在可以在多個原生PDF範本間共用及重複使用資源，例如影像、CSS檔案和字型檔案。 經過這項改善後，管理大量範本的資源就變得簡單多了。 您不需要為每個範本建立重複資源，您可以將它們儲存在共用資料夾中，並在所有原生PDF範本中使用它們。
+Experience Manager Guides現在已改善原生PDF範本的資源管理。 您現在可以在多個原生PDF範本間共用及重複使用資源，例如影像、CSS檔案和字型檔案。 經過這項改善後，管理大量範本的資源就變得簡單多了。 您不需要為每個範本建立重複資源，您可以將資源放在共用資料夾中，並在所有原生PDF範本中使用。
 如需詳細資訊，請檢視[PDF範本](../native-pdf/pdf-template.md)。
 
 ## Web Editor增強功能
@@ -57,7 +57,7 @@ Experience Manager Guides現在已改善原生PDF範本的資源管理。 您現
 
 您現在可以選擇在Web編輯器中檢視檔案的預設方式。 您可以從「作者」檢視中，依不同面板的標題或檔案名稱來檢視檔案清單。
 
-![使用者偏好設定對話方塊](assets/user-preferences-2311.png){width="550" align="left"}
+![使用者偏好設定對話方塊](assets/user-preferences-2311.png){width="550"}
 
 *從&#x200B;**使用者偏好設定**&#x200B;對話方塊變更檢視檔案的預設方式。*
 
@@ -66,7 +66,7 @@ Experience Manager Guides現在已改善原生PDF範本的資源管理。 您現
 
 您可以在DITA主題中定義條件屬性。 然後，使用條件預設集中的條件屬性，在DITA map中發佈內容。 Experience Manager Guides現在也可讓您從網頁編輯器建立和管理條件預設集。 您也可以輕鬆進行編輯、複製或刪除。
 
-來自網頁編輯器![&#128279;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}的[管理]索引標籤的條件預設集
+來自網頁編輯器![&#128279;](assets/web-editor-manage-condition-presets.png){width="550"}的[管理]索引標籤的條件預設集
 
 如需詳細資訊，請檢視[使用條件預設集](../user-guide/generate-output-use-condition-presets.md)。
 

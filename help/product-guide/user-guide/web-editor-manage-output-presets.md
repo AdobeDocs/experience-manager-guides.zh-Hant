@@ -4,9 +4,9 @@ description: 瞭解如何在AEM Guides中以管理使用者的身分建立、編
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 選取&#x200B;**在地圖主控台中開啟**&#x200B;圖示，以在地圖主控台中開啟地圖檔案。
 1. 在Map主控台中，導覽至&#x200B;**輸出預設集**&#x200B;標籤，然後選取+圖示以建立DITA map的輸出預設集。
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. 在&#x200B;**新增預設集**&#x200B;對話方塊中輸入下列詳細資料：
    - 類型

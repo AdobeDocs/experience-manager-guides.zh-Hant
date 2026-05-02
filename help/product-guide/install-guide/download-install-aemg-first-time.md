@@ -5,7 +5,7 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 3%
@@ -34,7 +34,7 @@ ht-degree: 3%
 
    套件管理器會管理本機AEM安裝上的套件。 如需使用封裝管理員的詳細資訊，請參閱AEM檔案中的[如何使用封裝](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/package-manager.html)。
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. 若要上傳AEM Guides套件，請按一下&#x200B;**上傳套件**。
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 1. 若要安裝封裝，請按一下[安裝]。**&#x200B;**
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
 1. 在[安裝封裝]對話方塊中，按一下[安裝]。**&#x200B;**
 

@@ -4,9 +4,9 @@ description: 瞭解如何在產品培訓和學習的測驗中插入問題，
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 1df47cf35590f10bdfe7fdbc3501d7c47137ed56
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. 從工具列的&#x200B;**問題**&#x200B;下拉式選單中選擇所需的問題型別。 您可以根據您的需求，使用四種可用格式中的任一種來新增問題：真或假、單一正確、多重正確、符合以下內容以及簡短答案，如下所示。 如需詳細資訊，請檢視[問題型別](#question-types)。
 
-   ![](assets/question-types.png){width="650" align="left"}
+   ![](assets/question-types.png){width="650"}
 
    插入問題時，如果游標位於問題區塊上，則新問題會依預設新增至其後面。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 您可以選取任何問題，並使用&#x200B;**內容屬性**&#x200B;面板來設定其屬性。
 
-   ![](assets/question-properties.png){width="650" align="left"}
+   ![](assets/question-properties.png){width="650"}
 
 1. 儲存您在測驗中所做的所有變更。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 您可以使用&#x200B;**內容屬性**&#x200B;面板中的下列問題屬性來設定問題：
 
-![](assets/question-properties-new.png){width="350" align="left"}
+![](assets/question-properties-new.png){width="350"}
 
 - **選項**：指定問題的正確答案
 - **問題識別碼**：指定每個問題的問題識別碼。 如果問題ID不存在，建議一律新增它。
@@ -46,13 +46,13 @@ ht-degree: 0%
 - **意見反應**：啟用以針對正確或不正確的答案提供意見反應。
 - 將&#x200B;**選項釘選至位置**：釘選問題的特定選項時，該選項會維持在選項清單中的指定位置，即使在SCORM預設集組態中啟用了&#x200B;**每次嘗試的隨機答案選擇**，否則會重新配置可用的選項。 您可以在「內容屬性」面板中，將滑鼠指標停留在問題的所需選項上，並加以釘選。
 
-  ![](assets/pin-question.png){width="350" align="left"}
+  ![](assets/pin-question.png){width="350"}
 
 ## 在測驗中插入段落
 
 當您將游標放在特定問題或兩個問題之間的空白處時，藍色水平線會以藍色箭頭顯示在畫面的最右角。 選取藍色箭頭，可在測驗編寫介面中插入段落。
 
-![](assets/insert-paragraph-here-arrow.png){width="650" align="left"}
+![](assets/insert-paragraph-here-arrow.png){width="650"}
 
 - 用於問題中時，它可讓您在問題中新增更多元素，例如影像、表格、文字元素等。
 - 在問題之間使用時，它可讓您插入另一個問題或新增上述的其他編寫元素。
@@ -64,7 +64,7 @@ ht-degree: 0%
 1. 以滑鼠右鍵按一下您要移除的問題或選項。
 1. 在內容功能表中，選取&#x200B;**刪除問題** （以移除整個問題）或&#x200B;**刪除選項** （僅移除選取的選項）。
 
-![](assets/delete-options-lc.png){width="650" align="left"}
+![](assets/delete-options-lc.png){width="650"}
 
 ## 問題型別
 
@@ -72,26 +72,26 @@ ht-degree: 0%
 
 - **單一正確**：有多個選項的問題，只有一個答案正確。
 
-  ![](assets/single-correct.png){width="650" align="left"}
+  ![](assets/single-correct.png){width="650"}
 
 - **True/False**：學習者選擇為True或False的陳述式問題。
 
-  ![](assets/true-false.png){width="650" align="left"}
+  ![](assets/true-false.png){width="650"}
 
 
 - **多個正確**：有多個選項的問題，多個答案可以正確。
 
-  ![](assets/multi-correct.png){width="650" align="left"}
+  ![](assets/multi-correct.png){width="650"}
 
 - **符合下列專案**：允許學習者比對兩個清單中的專案，以形成正確的配對。 您可以從&#x200B;**內容屬性**&#x200B;面板新增選項集。 若要增加複雜性，您可以從第一個清單中移除一個選項，並在「比對」欄中加入額外的相符項。 這會要求學習者慎重考慮哪個選項沒有直接的配對，造成困難。
 
-  ![](assets/match-the-following.png){width="650" align="left"}
+  ![](assets/match-the-following.png){width="650"}
 
   在發佈的輸出中，**符合以下**&#x200B;個問題會隨每個專案的下拉式選單一起出現，可讓您從可用選項中選取正確的相符專案。
 
-  ![](assets/question-type-publishing.png){width="650" align="left"}
+  ![](assets/question-type-publishing.png){width="650"}
 
 
 - **簡短答案**：允許學習者使用簡短文字輸入回應。 它接受英數字元回答，不區分大小寫比對回答，而且對於非常長的回答，它提供水準卷軸。
 
-  ![](assets/short-answer.png){width="650" align="left"}
+  ![](assets/short-answer.png){width="650"}

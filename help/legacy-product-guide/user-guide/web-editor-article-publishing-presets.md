@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**輸出**&#x200B;標籤中，選取+圖示以建立DITA map的輸出預設集。
 
-   ![](images/output-tab-preset_cs.png){width="350" align="left"}
+   ![](images/output-tab-preset_cs.png){width="350"}
 
 1. 在[新增預設集]對話方塊中輸入預設集名稱，然後按一下[新增]。**&#x200B;**
 
@@ -46,19 +46,19 @@ ht-degree: 0%
    1. 從&#x200B;**文章**&#x200B;索引標籤，選取您要產生輸出的主題。
 1. 選取頂端的&#x200B;**產生預設集**&#x200B;圖示以產生輸出。
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){width="800"}
 
 1. 您將會看到輸出產生程式的狀態。 **主題**&#x200B;欄會列出正在產生輸出的主題，而&#x200B;**狀態**&#x200B;欄會顯示每個主題的發佈狀態。
 
    若要檢視輸出，請將滑鼠指標停留在主題上，然後按一下「檢視輸出」。
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){width="800"}
 
 
 >[!NOTE]
 >
 > 您也可以從「選項」選單中編輯、重新命名、複製或刪除現有的輸出預設集。
 
-![](images/edit-preset_cs.png){width="550" align="left"}
+![](images/edit-preset_cs.png){width="550"}
 
 **上層主題：**&#x200B;[&#x200B;網頁編輯器的文章式發佈](web-editor-article-publishing.md)

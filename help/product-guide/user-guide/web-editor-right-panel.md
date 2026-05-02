@@ -4,9 +4,9 @@ description: 瞭解編輯器中的右側面板。 瞭解Adobe Experience Manager
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ ht-degree: 0%
 
 1. 選取「**新增**」。
 
-   內容屬性中的![屬性](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   內容屬性中的![屬性](images/properties-tab-attributes_cs.png){width="300"}
 
 1. 在&#x200B;**屬性**&#x200B;下拉式面板中，從下拉式清單中選取屬性並指定屬性的值。  然後選取&#x200B;**新增**。
 
-   具有多個屬性的![屬性面板](images/attributes-multiple-properties.png){width="300" align="left"}
+   具有多個屬性的![屬性面板](images/attributes-multiple-properties.png){width="300"}
 
 1. 若要編輯屬性，請將滑鼠停留在它上並選取&#x200B;**編輯** ![編輯圖示](images/edit_pencil_icon.svg)。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 「一般」段落可讓您存取下列功能：
 
-![file-properties](images/file-properties-general.png){width="300" align="left"}
+![file-properties](images/file-properties-general.png){width="300"}
 
 - **檔案名稱**：顯示所選主題的檔案名稱。 檔案名稱會以超連結方式連結至選取檔案的屬性頁面。
 - **ID**：顯示所選主題的識別碼。
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 「參照」區段可讓您存取下列功能：
 
-![](images/file-properties-references.png){width="300" align="left"}
+![](images/file-properties-references.png){width="300"}
 
 - **用於**： Used in references列出參照或使用目前檔案的檔案。
 - **傳出連結：**&#x200B;傳出連結列出目前檔案中參照的檔案。
@@ -129,11 +129,11 @@ ht-degree: 0%
 >
 > 在傳送資產以供翻譯時建立語言副本。 英文(`en`)做為來源語言，而且翻譯的復本會在各自的目標語言資料夾中產生（例如，`de`代表德文，`fr`代表法文）。 如果資產僅存在於`en`資料夾中，則在開始翻譯並完成目標語言的翻譯之前，不會顯示其他語言副本。 如果資產不存在任何語言資料夾中，則顯示&#x200B;**沒有可用的翻譯**。 如需詳細資訊，請檢視[內容翻譯的最佳實務](./translation-first-time.md)。
 
-![](images/translations-right-panel.png){width="300" align="left"}
+![](images/translations-right-panel.png){width="300"}
 
 對於每個語言副本，您可以將滑鼠停留在檔案上以找出其在存放庫中的路徑，或直接選取它以在編輯器中開啟。 除了開啟檔案之外，您也可以使用翻譯區段中的&#x200B;**選項**&#x200B;功能表執行許多動作。 您可以執行的部分動作包括編輯、預覽、複製UUID、複製路徑、新增至集合和屬性。
 
-![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+![](images/translations-right-panel-options-menu.png){width="300"}
 
 
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 選取「稽核」圖示會開啟稽核面板，您可以在其中為目前開啟的檔案選取稽核任務並檢視註解。
 
-![](images/review-panel-before-opening.png){width="300" align="left"}
+![](images/review-panel-before-opening.png){width="300"}
 
 如果您已建立多個「檢閱」專案，您可以從下拉式清單中選取一個專案，並存取檢閱註解。
 

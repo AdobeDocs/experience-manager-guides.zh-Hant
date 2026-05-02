@@ -4,9 +4,9 @@ description: 從Adobe Experience Manager Guides的地圖主控台建立和管理
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 1. 在&#x200B;**工具**&#x200B;面板中選取&#x200B;**參考線**。
 1. 選取&#x200B;**大量處理器**&#x200B;圖磚。
 
-   ![流程資產處理器](images/flow-asset-processor.png){align="left"}
+   ![流程資產處理器](images/flow-asset-processor.png)
 
    顯示&#x200B;**參考線大量處理器**&#x200B;頁面。
 
@@ -87,7 +87,7 @@ ht-degree: 0%
    1. **選取資料夾和檔案**：瀏覽並選擇一或多個要處理的資料夾和檔案。
    1. **選取要忽略的資料夾**：選擇性地選取所選父資料夾中的子資料夾，以排除移轉作業。
 
-   ![new-process-baseline](images/new-process-baseline.png){align="left"}
+   ![new-process-baseline](images/new-process-baseline.png)
 
 1. 選取「**建立**」。
 
@@ -95,11 +95,11 @@ ht-degree: 0%
 
 您也可以選取&#x200B;**檢視記錄**&#x200B;以檢查並下載移轉工作的記錄。
 
-![檢視記錄檔 — 基準線](images/view-logs-baseline.png){align="left"}
+![檢視記錄檔 — 基準線](images/view-logs-baseline.png)
 
 記錄報表提供移轉的詳細資訊，包括已移轉的地圖數目、已成功移轉的基準線及相關詳細資訊。
 
-![logs-detail-baseline](images/logs-detail-baseline.png){align="left"}
+![logs-detail-baseline](images/logs-detail-baseline.png)
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ ht-degree: 0%
    - **編輯屬性**：可讓您編輯現有基準線的屬性。
    - **重建**：可讓您在變更時重建動態基準線。
 
-     ![rebuild-baseline](images/rebuild-baseline.png){align="left"}
+     ![rebuild-baseline](images/rebuild-baseline.png)
 
 - **下載**&#x200B;動作支援分頁下載。 符合已套用篩選條件的所有基準內容都會包含在下載中，而不僅僅是目前頁面上顯示的內容。
 - 除了檔案名稱或檔案位置之外，還依GUID篩選檔案。 **篩選沒有標籤**&#x200B;的檔案的額外選項也可使用。
@@ -150,13 +150,13 @@ ht-degree: 0%
    - 導覽至您要編輯的檔案，並將滑鼠游標暫留在檔案上。
    - 選取&#x200B;**編輯**&#x200B;圖示。
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png){align="left"}
+     ![edit-baseline-icon](images/edit-baseline-icon.png)
 
      顯示&#x200B;**編輯版本**&#x200B;對話方塊。
    - 從&#x200B;**版本**&#x200B;下拉式清單中選取所需的版本（例如，從1.0版變更為1.1版）。
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png){align="left"}
+     ![edit-version-baseline](images/edit-version-baseline.png)
 
      新增和移除的相依性會進行評估並顯示為預覽。 在套用變更之前，請先檢閱變更。
 

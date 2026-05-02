@@ -4,7 +4,7 @@ description: 瞭解如何在產品培訓和學習中建立SCORM預設集
 feature: Authoring
 role: User
 exl-id: 4a433b9d-594d-42b5-8c59-f246eda7e631
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 1%
@@ -17,12 +17,12 @@ ht-degree: 1%
 
 1. 在&#x200B;**地圖主控台**&#x200B;中開啟課程。
 
-   ![](assets/open-in-map-console.png){width="350" align="left"}
+   ![](assets/open-in-map-console.png){width="350"}
 
 1. 在&#x200B;**輸出預設集**&#x200B;面板中，選取+圖示以建立輸出預設集。
 1. 從&#x200B;**新增輸出預設集**&#x200B;對話方塊中的&#x200B;**型別**&#x200B;下拉式清單中選取&#x200B;**SCORM**。
 
-   ![](assets/scorm-preset.png){width="350" align="left"}
+   ![](assets/scorm-preset.png){width="350"}
 
 1. 在&#x200B;**名稱**&#x200B;欄位中，提供此預設集的名稱。
 1. 選取&#x200B;**新增至目前的資料夾設定檔**&#x200B;選項，以在目前的資料夾設定檔中建立輸出預設集。
@@ -30,4 +30,4 @@ ht-degree: 1%
 
 會建立SCORM預設集。 SCORM預設集頁面隨即開啟，您可以在其中進行必要的設定。
 
-![](assets/scorm-output-preset.png){width="800" align="left"}
+![](assets/scorm-output-preset.png){width="800"}

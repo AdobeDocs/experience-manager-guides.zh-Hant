@@ -1,19 +1,19 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guides 2023年7月發行版本的新增功能
+title: 發行說明 | 2023年7月發行的Adobe Experience Manager Guides新增功能
 description: 在2023年7月發行的Adobe Experience Manager Guides as a Cloud Service中瞭解新功能和增強功能
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
 
 # 2023年7月發行的Adobe Experience Manager Guides as a Cloud Service的新增功能
 
-本文介紹2023年7月版Adobe Experience Manager Guides (後來稱為&#x200B;*AEM Guides as a Cloud Service*)中的新功能和增強功能。
+本文介紹2023年7月版Adobe Experience Manager Guides （後來稱為&#x200B;*AEM Guides as a Cloud Service*）中的新功能和增強功能。
 
 如需有關升級指示、相容性矩陣，以及此版本中修正問題的詳細資訊，請參閱[發行說明](release-notes-2023-7-0.md)。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 新增後，您可以在網頁編輯器的&#x200B;**資料來源**&#x200B;面板下檢視已設定的聯結器。
 
-![](assets/code-snippet-generator.png){width="300" align="left"}
+![](assets/code-snippet-generator.png){width="300"}
 
 您可以建立內容片段產生器，從連線的資料來源擷取資料。 然後，您可以將資料插入主題並進行編輯。
 
@@ -38,8 +38,8 @@ ht-degree: 0%
 現在，AEM Guides可讓您的評論更順暢。 它提供網頁編輯器中的評論面板。 檢閱面板會顯示您所屬的檢閱專案中的所有檢閱專案和作用中檢閱任務。
 
 身為作者，此功能可協助您輕鬆開啟稽核工作、檢視評論，並在集中式檢視中快速處理評論。
-![](assets/active-review-task-comments.png){width="800" align="left"}
-如需詳細資訊，請檢視&#x200B;**左側面板**&#x200B;區段中的[檢閱](../user-guide/web-editor-features.md#id2051EA0M0HS)功能說明。
+![](assets/active-review-task-comments.png){width="800"}
+如需詳細資訊，請檢視[左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS)區段中的&#x200B;**檢閱**&#x200B;功能說明。
 
 
 ## 地圖集合增強功能
@@ -49,7 +49,7 @@ ht-degree: 0%
 - 現在，您也可以將原生PDF輸出預設集新增至地圖集合，並使用它們來產生PDF輸出。
 - 您可以檢視管理員建立的全域和資料夾設定檔預設集，並使用它們來產生PDF輸出。
 - 現在，您不僅可以選取個別預設集，還可以一次為DITA map啟用所有資料夾設定檔預設集。
-  ![](assets/edit-map-collection.png){width="800" align="left"}
+  ![](assets/edit-map-collection.png){width="800"}
 
 如需詳細資訊，請檢視[輸出產生](../user-guide/generate-output-use-map-collection-output-generation.md)的[使用地圖集合]。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 此功能可讓您透過存取臨時樣式和版面來更深入分析產生流程，並協助您根據需求修正或變更CSS樣式。
 
-![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![](assets/native-pdf-advanced-settings.png){width="800"}
 
 如需詳細資訊，請檢視[建立PDF輸出預設集](../web-editor/native-pdf-web-editor.md#create-output-preset)。
 
@@ -73,4 +73,4 @@ ht-degree: 0%
 
 現在除了AEM **關於**&#x200B;資訊外，您還可以檢視AEM Guides版本詳細資料。 您可以在AEM導覽頁面上&#x200B;**說明**&#x200B;的&#x200B;**關於**&#x200B;選項中檢視目前的版本詳細資料。
 
-![](assets/about-aem-help.png){width="800" align="left"}
+![](assets/about-aem-help.png){width="800"}

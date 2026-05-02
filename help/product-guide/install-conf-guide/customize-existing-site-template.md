@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
-source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 1%
@@ -53,11 +53,11 @@ ht-degree: 1%
 - 它是特定檔案集（例如產品手冊或指南）的入口點或首頁。
 - 將id=&quot;category-page&quot;屬性新增至範本之初始節點的jcr:content。 這可確保AEM Guides會自動將從此範本建立的所有頁面視為檔案容器。
 
-  ![正在新增ID=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+  ![正在新增ID=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650"}
 
 - 新增具有強制屬性的文字元件： text=&quot;$category.html$&quot;。
 
-  ![正在新增文字元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![正在新增文字元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - 通常會包含導覽元素，例如檔案內章節或主題的連結。
 - 它可以自訂為包含品牌、頁首、頁尾和其他設計元素。
@@ -71,7 +71,7 @@ ht-degree: 1%
 - DITA map中的每個主題都會使用此範本呈現為個別頁面。
 - 包含具有必要屬性的&#x200B;**文字元件**： text=&quot;$topic.content$&quot;。
 
-  ![正在新增具有必要屬性的文字元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![正在新增具有必要屬性的文字元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - 在網站產生期間，此預留位置會取代為DITA主題的實際內容。
    - 文字元件通常置於&#x200B;**Container元件**&#x200B;內，以確保配置與樣式正確無誤。
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 **容器元件：**
 
-![正在新增容器元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![正在新增容器元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 在相同範本的結構中新增相同的（容器和文字元件）：
 
-![正在新增容器和文字元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![正在新增容器和文字元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## 自訂範本中的轉譯指南元件
 
@@ -124,7 +124,7 @@ ht-degree: 1%
    1. 以&#x200B;**編輯器模式**&#x200B;開啟&#x200B;**產品頁面**。
    2. 選取&#x200B;**編輯範本** （這將開啟conf/settings/wcm/templates/structure.html之類的URL）。
 
-      ![編輯範本](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
+      ![編輯範本](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
 
 2. **更新頁面原則：**
 
@@ -135,7 +135,7 @@ ht-degree: 1%
 
 3. **儲存變更：**&#x200B;新增必要的使用者端程式庫後儲存範本。
 
-   ![新增使用者端資料庫](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![新增使用者端資料庫](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]

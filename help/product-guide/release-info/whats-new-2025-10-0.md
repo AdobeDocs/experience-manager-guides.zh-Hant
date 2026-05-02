@@ -2,9 +2,10 @@
 title: 發行說明 | Adobe Experience Manager Guides 2025.10.0版的新增功能
 description: 瞭解2025.10.0版Adobe Experience Manager Guides中的新功能和增強功能
 role: Leader
-source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
+exl-id: 5bc6f1f6-225b-46c0-a05a-099583e402d8
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 有關此版本中的問題修正清單，請查看 [2025.10.0 版本中修正的問題](fixed-issues-2025-10-0.md)。
 
-瞭解2025.10.0 [版的](../release-info/upgrade-instructions-2025-10-0.md)升級指示。
+瞭解2025.10.0 [&#128279;](../release-info/upgrade-instructions-2025-10-0.md)版的升級指示。
 
 
 ## 編輯器設定現已重新命名為Workspace設定，並可從首頁存取
@@ -33,7 +34,7 @@ Experience Manager Guides現在於編輯器中包含了&#x200B;**重複ID**&#x20
 
 如需詳細資訊，請在編輯器中檢視[其他功能](../user-guide/web-editor-other-features.md)。
 
-![](assets/duplicate-element-IDs.png){width="350" align="left"}
+![](assets/duplicate-element-IDs.png){width="350"}
 
 ## 儲存庫和報告篩選器的增強功能
 
@@ -45,7 +46,7 @@ Experience Manager Guides現在於編輯器中包含了&#x200B;**重複ID**&#x20
 
 如需更多詳細資料，請檢視[要求重新檢閱或關閉檢閱工作作為作者](../user-guide/review-close-review-task.md)。
 
-![](assets/check-review-status-icon.png){width="350" align="left"}
+![](assets/check-review-status-icon.png){width="350"}
 
 
 
@@ -59,4 +60,3 @@ Experience Manager Guides現在於編輯器中包含了&#x200B;**重複ID**&#x20
 
 - [追蹤個別資產和資料夾後處理狀態的API](../api-reference/track-post-processing-status.md)
 - [fmdita設定管理員中的後處理事件處理常式設定](../api-reference/post-process-event.md)
-

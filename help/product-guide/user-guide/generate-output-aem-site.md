@@ -4,9 +4,9 @@ description: 瞭解AEM Sites的增量輸出產生如何在AEM Guides中運作。
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 執行以下步驟來重新產生特定主題或主題群組的輸出：
 
-## 從對應控制檯產生增量輸出(適用於使用複合元件對應的AEM網站)
+## 從對應控制檯產生增量輸出（適用於使用複合元件對應的AEM網站）
 
 執行以下步驟，使用Map主控台產生AEM Sites的增量輸出：
 
@@ -34,22 +34,22 @@ ht-degree: 0%
 
    - 沒有基準線
 
-     ![aem網站主題清單](images/aem-presets-topic-list.png) {align="left"}
+     ![aem網站主題清單](images/aem-presets-topic-list.png)
 
    - 使用基準線
 
-     ![aem sites主題清單，基準線](images/aem-presets-topic-list-new.png) {align="left"}
+     ![aem sites主題清單，基準線](images/aem-presets-topic-list-new.png)
 
    >[!NOTE]
    >
-   > 在&#x200B;**內容**&#x200B;索引標籤中選取基準線時，主題清單會顯示附加基準線中的主題及其版本。<br><br>
+   > 在&#x200B;**內容**&#x200B;標籤中選取基準線時，主題清單會顯示附加基準線中的主題及其版本。<br><br>
    > 只有在對映的結構沒有變更時，才應使用主題清單中的增量發佈。 如果地圖結構/目錄變更，則整個地圖應發佈一次以更新目錄。
 
 1. 選取&#x200B;**儲存**&#x200B;以儲存變更。
 1. 選取&#x200B;**產生輸出**&#x200B;以產生輸出。
 
 
-## 從對應控制面板產生增量輸出(適用於使用舊版元件對應的AEM網站)
+## 從對應控制面板產生增量輸出（適用於使用舊版元件對應的AEM網站）
 
 執行以下步驟，使用地圖儀表板產生AEM Sites的增量輸出：
 
@@ -67,7 +67,7 @@ ht-degree: 0%
    >
    > 如果您已將新主題新增至DITA map，您將無法從此處產生這些新主題。 您必須先使用DITA map發佈函式發佈新加入的主題。
 
-   ![](images/regenerate-topics.png){align="left"}
+   ![](images/regenerate-topics.png)
 
 1. 選取&#x200B;**重新產生**。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 選取要用來再生所選主題的輸出預設集。
 
-   對於使用舊版元件對映的AEM Sites輸出預設集，如果選取了基準線，則會使用所選基準線中包含的主題版本來產生輸出。 此外，只有當對映結構沒有變更時，才應使用主題清單中的增量發佈。 如果地圖結構/目錄變更，則整個地圖應發佈一次以更新目錄。 如需使用AEM網站預設集的詳細資訊，請在地圖儀表板[上檢視](./generate-output-aem-site-map-dashboard.md)AEM Sites預設集。
+   對於使用舊版元件對映的AEM Sites輸出預設集，如果選取了基準線，則會使用所選基準線中包含的主題版本來產生輸出。 此外，只有當對映結構沒有變更時，才應使用主題清單中的增量發佈。 如果地圖結構/目錄變更，則整個地圖應發佈一次以更新目錄。 如需使用AEM網站預設集的詳細資訊，請在地圖儀表板[&#128279;](./generate-output-aem-site-map-dashboard.md)上檢視AEM Sites預設集。
 
 
 1. 選取&#x200B;**重新產生**&#x200B;以啟動輸出產生程式。

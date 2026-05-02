@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -20,7 +20,7 @@ AEM Guides提供整合在網頁編輯器中的&#x200B;**快速產生**&#x200B;�
 >
 > 在[對映檢視]面板中開啟的DITA map會顯示&#x200B;**快速產生**&#x200B;面板。
 
-![](images/quick-generate-map-view.png){width="800" align="left"}
+![](images/quick-generate-map-view.png){width="800"}
 
 執行以下步驟，從&#x200B;**快速產生**&#x200B;面板產生輸出：
 

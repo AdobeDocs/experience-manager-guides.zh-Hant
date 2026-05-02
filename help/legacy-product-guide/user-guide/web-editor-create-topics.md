@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -26,7 +26,7 @@ AEM Guides可讓您建立以下型別的DITA主題：主題、工作、概念、
 
 1. 在Blueprint頁面上，選取您要建立的DITA檔案型別，然後按一下&#x200B;**下一步**。
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){width="800"}
 
    依預設，AEM Guides提供最常用的DITA主題範本。 您可以根據組織需求設定更多主題範本，請參閱安裝中的&#x200B;*設定撰寫範本*，並為您的設定設定Adobe Experience Manager Guides。
 
@@ -48,7 +48,7 @@ AEM Guides可讓您建立以下型別的DITA主題：主題、工作、概念、
 
    您從Assets UI **建立** \> **DITA主題**&#x200B;或Web編輯器建立的每個新主題都會指派唯一的主題ID。 此ID的值是檔案名稱本身。 此外，新檔案會儲存為DAM中主題的最新工作副本。 儲存新建立主題的修訂版本之前，您不會在「版本記錄」中看到任何版本號碼。 如果您開啟主題進行編輯，版本資訊會顯示在主題檔案之索引標籤的右上角：
 
-   ![](images/topic-version-none_cs.png){width="550" align="left"}
+   ![](images/topic-version-none_cs.png){width="550"}
 
    新建立之主題的版本資訊顯示為&#x200B;*none*。 儲存新版本時，會為其指定版本編號1.0。 如需有關儲存新版本的詳細資訊，請參閱[另存為新版本](web-editor-features.md#save-as-new-version-id209ME400GXA)。
 

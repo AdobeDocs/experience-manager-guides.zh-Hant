@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 49fd9dfe-e1a5-4388-abbd-ec5d45669b45
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 1. 根據您的需求設定設定`Replicate DITA assets`。 預設會啟用此設定。
 
 
-   ![](assets/dita-assets-replication.png){width="350" align="left"}
+   ![](assets/dita-assets-replication.png){width="350"}
 
 
 1. 選取「**儲存**」。

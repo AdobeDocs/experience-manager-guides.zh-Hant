@@ -1,9 +1,10 @@
 ---
 title: AEM Guides中的外部資料來源整合架構
 description: 瞭解AEM Guides中的外部資料來源整合架構。
-source-git-commit: b0cf652023770eda24ea27ff105ed6dc2cdd1f08
+exl-id: ce99033a-0ce1-4696-9d4c-89187273b0bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -53,7 +54,6 @@ ht-degree: 0%
 1. **設定資料來源聯結器**
    - 資料來源聯結器可作為介面，與外部資料來源建立連線。 您必須設定聯結器以建立連線並包含驗證方法，例如`Basic Auth`或`API key Auth`。 所有設定詳細資料（包括加密資訊）都會安全地儲存在Adobe Experience Manager中。
    - 聯結器層可擴充，可讓您建立實作，以連線至Experience Manager Guides未提供的現成可用的各種系統。
-
      ![聯結器層](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -99,11 +99,9 @@ ht-degree: 0%
         ```
 
       - 範本
-
-        ![範本化引擎](assets/data-source-TemplatingEngine.png){width="800" align="left"}
+        ![範本化引擎](assets/data-source-TemplatingEngine.png){width="800"}
       - 從相同資料來源但不同範本產生的資料
-
-        ![已產生資料](assets/data-source-templates-topics.png){width="800" align="left"}
+        ![已產生資料](assets/data-source-templates-topics.png){width="800"}
 
 1. **使用範本產生內容**
    - 您可以從已建立的範本產生內容。
@@ -113,8 +111,8 @@ ht-degree: 0%
       - DITA Topic + Map：您也可以使用主題產生完整的對應，然後直接使用資料進行發佈，或將其用做其他資料中的&#x200B;*可重複使用的元件*。
 
 
-1. **Publish整合的內容**
-   - 發佈是Experience Manager Guides的OOTB功能，您可以直接發佈從外部系統產生的所有資料作為PDF或AEM Site輸出。
+1. **發佈整合的內容**
+   - 發佈是Experience Manager Guides的OOTB功能，您可以直接從外部系統產生的所有資料發佈為PDF或AEM網站輸出。
 
 >[!MORELIKETHIS]
 >

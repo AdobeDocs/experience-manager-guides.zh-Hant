@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 執行以下步驟來匯入Schematron檔案：
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/scematron-panel-add.png){width="300"}
 
 1. 在&#x200B;*存放庫檢視*&#x200B;中導覽至所需的資料夾（您要上傳檔案的位置）。
 1. 按一下&#x200B;**選項**&#x200B;圖示以開啟內容功能表，然後選擇&#x200B;**上傳Assets**。
@@ -41,7 +41,7 @@ ht-degree: 0%
 * 地圖中應至少有一個topicref。
 
 當您在網頁編輯器中開啟主題時，右側會出現「架構驗證」面板。 執行以下步驟，使用Schematron檔案新增並驗證主題或地圖：
-![](images/schematron-validate.png){width="300" align="left"}
+![](images/schematron-validate.png){width="300"}
 
 1. 按一下「結構描述」圖示()以開啟「結構描述」面板。
 1. 使用「新增Schematron檔案」來新增Schematron檔案。

@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -24,15 +24,15 @@ Markdown是一種輕量型的標籤語言，可以協助您將格式元素新增
 1. 以下列其中一種方式建立&#x200B;**Markdown主題**：
    1. 按一下存放庫面板右上角的&#x200B;**建立DITA檔案**&#x200B;圖示，然後從下拉式清單中選取&#x200B;**Markdown主題**。
 
-   ![](images/create-markdown-dita-topic.png){width="550" align="left"}
+   ![](images/create-markdown-dita-topic.png){width="550"}
 
    1. 從選取資料夾的[選項]功能表中選取[建立]&#x200B;**&#x200B;**，然後從下拉式清單中選取[Markdown主題]&#x200B;**。**
 
-   ![](images/create-markdown-options-menu.png){width="550" align="left"}
+   ![](images/create-markdown-options-menu.png){width="550"}
 
 1. 在&#x200B;**建立新的Markdown主題**&#x200B;對話方塊中，輸入Markdown主題的名稱和路徑。
 
-![](images/create-markdown-dialog.png){width="350" align="left"}
+![](images/create-markdown-dialog.png){width="350"}
 
 1. 按一下「**建立**」。
 

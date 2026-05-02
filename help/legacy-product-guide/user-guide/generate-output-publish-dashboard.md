@@ -1,11 +1,11 @@
 ---
 title: 使用發佈儀表板管理發布任務
-description: 使用AEM Guides中的發佈儀表板管理發布任務。 Know how to access the publishing dashboard and cancel a publish task.
+description: 使用AEM Guides中的發佈儀表板管理發布任務。 瞭解如何存取發佈儀表板並取消發佈任務。
 feature: Publishing
 role: User
 hide: true
 exl-id: 9d311979-a7d7-47f5-945c-520eda99798f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # 使用發佈儀表板管理發布任務 {#id205CC08305Z}
 
-當您在系統上執行大量發佈作業時，幾乎不可能個別檢查每個DITA map以監視其發佈作業。 AEM Guides gives the administrators and publishers one unified view of all publishing tasks running in the system. 發佈儀表板中提供所有作用中發佈任務的清單。
+當您在系統上執行大量發佈作業時，幾乎不可能個別檢查每個DITA map以監視其發佈作業。 AEM Guides可讓管理員和發佈者統一檢視系統中執行的所有發佈任務。 發佈儀表板中提供所有作用中發佈任務的清單。
 
 「發佈」儀表板提供系統中目前執行的所有發佈任務的完整總覽。
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){width="800"}
 
 發佈儀表板包含下列詳細資訊：
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 - **輸出預設集** — 選取一或多個輸出預設集，以檢視目前作用中的發佈工作。 在下列熒幕擷圖中，發佈工作經篩選，僅顯示使用AEM網站輸出預設集的工作：
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){width="800"}
 
 - **起始者** — 從清單中選取使用者名稱，以顯示所選使用者起始的發佈工作。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
    如果按一下「檔案名稱」連結，則會顯示所選對映的DITA map主控台。
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){width="800"}
 
 
 >[!NOTE]
@@ -79,13 +79,13 @@ ht-degree: 0%
 
 1. 從作用中的發佈任務清單中，按一下您要取消之任務的刪除圖示。
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){width="800"}
 
 1. 在確認取消訊息提示上按一下&#x200B;**是**。
 
    只要工作保持作用中，就會接受取消指令，並嘗試取消。 工作一旦成功終止，就會從目前使用中的工作清單中移除工作。 在DITA map主控台中，任務的狀態也會更新為「已取消」。 在下列熒幕擷圖中，*HTML5*&#x200B;工作已從發佈儀表板取消，其狀態也會在DITA map主控台中變更。
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){width="800"}
 
 
 **父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)

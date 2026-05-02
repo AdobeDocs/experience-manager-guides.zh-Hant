@@ -5,7 +5,7 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    DITA map主控台隨即出現，顯示可用於產生輸出的輸出預設集清單。
 
-   ![](images/publish-fm-doc.png){width="800" align="left"}
+   ![](images/publish-fm-doc.png){width="800"}
 
 1. 選取要用來產生輸出的一或多個輸出預設集。
 

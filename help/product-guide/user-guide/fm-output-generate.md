@@ -4,9 +4,9 @@ description: 瞭解如何在AEM Guides中產生.book或.fm檔案的輸出。
 exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
    DITA map主控台隨即出現，顯示可用於產生輸出的輸出預設集清單。
 
-   ![](images/publish-fm-doc.png){align="left"}
+   ![](images/publish-fm-doc.png)
 
 1. 選取要用來產生輸出的一或多個輸出預設集。
 

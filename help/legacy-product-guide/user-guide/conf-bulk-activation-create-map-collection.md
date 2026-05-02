@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 DITA map檔案會新增至您的大量啟動對映集合中。
 
-![已建立大量啟動集合](images/bulk-activation-collection-created.png){width="800" align="left"}
+![已建立大量啟動集合](images/bulk-activation-collection-created.png){width="800"}
 
 ## 地圖和預設集索引標籤
 
@@ -58,36 +58,36 @@ DITA map檔案會新增至您的大量啟動對映集合中。
 - **UUID**：顯示與檔案相關聯的唯一識別碼。
 
 - **語言**：顯示DITA map的語言代碼。
-- **Preset**: Shows the title of the output preset configured on the map file. It also displays the icon based on the type of output preset.
+- **預設集**：顯示在地圖檔案上設定的輸出預設集標題。 也會根據輸出預設集的型別顯示圖示。
 
   >[!NOTE]
   >
   > 小型![](images/global-preset-icon.svg)圖示表示資料夾設定檔層級預設集。
 
-- **Modified**: Indicates if the DITA map is updated after last publication. Based on this information, you can decide if you want to activate the output for this DITA map or not.
-- **Generated**: Shows the date and time of the last generated output.
-- **Published**: Shows the date and time of the last published (or activated) output. If you select the link, the **Activation Results** page is displayed, which contains the logs with information about the root path where the content is activated.
+- **Modified**：指出是否在上次發佈後更新DITA map。 根據此資訊，您可以決定是否要啟動此DITA map的輸出。
+- **已產生**：顯示上次產生的輸出的日期和時間。
+- **已發佈**：顯示上次發佈（或已啟動）輸出的日期和時間。 如果您選取連結，會顯示&#x200B;**啟用結果**&#x200B;頁面，其中包含記錄檔，其中包含啟用內容的根路徑相關資訊。
 
-## Audit History tab
+## [Audit History]標籤
 
-The **Audit History** tab presents information about the activated map outputs in the following columns:
+**稽核歷史記錄**&#x200B;索引標籤在下列資料欄中顯示已啟動對應輸出的相關資訊：
 - **對應**：顯示DITA map檔案的標題。
 - **對應路徑**：顯示DITA map檔案的完整路徑。
-- **UUID** : Shows the unique identifier associated with the file.
+- **UUID** ：顯示與檔案相關聯的唯一識別碼。
 - **語言**：顯示DITA map的語言代碼。
-- **Preset**: Shows the title of the output preset configured on the map file. It also displays the icon based on the type of output preset.
-- **Status**: Shows the status of activation as successful or unsuccessful.
-- **Destination**: If you generate the output on Experience Manager Guides as a Cloud Service, you can view the output&#39;s destination as Publish or Preview.
+- **預設集**：顯示在地圖檔案上設定的輸出預設集標題。 也會根據輸出預設集的型別顯示圖示。
+- **狀態**：將啟動狀態顯示為成功或不成功。
+- **目的地**：如果您在Experience Manager Guides as a Cloud Service上產生輸出，可以以「發佈」或「預覽」檢視輸出的目的地。
 
   >[!NOTE]
   >
   > 小型![](images/global-preset-icon.svg)圖示表示資料夾設定檔層級預設集。
 
-- **Modified**: Indicates if the DITA map was updated after the last publication. Based on this information, you can decide whether to activate the output for this DITA map.
-- **Published**: Shows the date and time of the last published (or activated) output. If you select the link, the Activation Results page is displayed, which contains the logs with information about the root path where the content is activated.
-  ![&#x200B; created bulk activation collection audit history tab](images/bulk-collection-audit-history.png){width="800" align="left"}
+- **Modified**：指出是否在上次發行之後更新DITA map。 根據此資訊，您可以決定是否啟動此DITA map的輸出。
+- **已發佈**：顯示上次發佈（或已啟動）輸出的日期和時間。 如果您選取連結，會顯示「啟用結果」頁面，其中包含記錄檔，內含啟用內容的根路徑相關資訊。
+  ![已建立大量啟動集合稽核歷程記錄標籤](images/bulk-collection-audit-history.png){width="800"}
 
-  *View the information about the activated map outputs in the **Audit History**&#x200B;tab.*
+  *在&#x200B;**稽核歷史記錄**&#x200B;索引標籤中檢視已啟動地圖輸出的相關資訊。*
 
 
   >[!NOTE]

@@ -4,9 +4,10 @@ description: 瞭解如何管理版本
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -113,7 +114,7 @@ AEM Guides網頁編輯器可讓您建立和更新DITA主題。 您可以設定We
 
 1. 選取&#x200B;**停用[不簽出]的編輯**&#x200B;選項。
 
-   ![](assets/xml-editor-config.png){width="650" align="left"}
+   ![](assets/xml-editor-config.png){width="650"}
 
    使用此選項，使用者在簽出檔案之前，不會在工具列中看到「編輯」選項。
 
@@ -205,11 +206,11 @@ AEM Guides網頁編輯器可讓您建立和更新DITA主題。 您可以設定We
 1. 按一下&#x200B;**儲存**。
 
 
-若要支援此功能，已在`drivelock`中新增索引屬性`oak:index`：
+若要支援此功能，已在`oak:index`中新增索引屬性`drivelock`：
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 除了新的索引屬性之外，請確定已在`/oak:index/damAssetLucene`上設定下列屬性：
 
@@ -247,7 +248,7 @@ AEM Guides網頁編輯器可讓您建立和更新DITA主題。 您可以設定We
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | 可能的值為： <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **預設值**： `allow_unsafe_delete_for_delete_assets_group` <br>這些常數的詳細資訊如下。 |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | 可能的值為： <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **預設值**： `allow_unsafe_delete_for_delete_assets_group` <br>這些常數的詳細資訊如下。 |
 
 根據您想要授予刪除存取權的對象，請指定下列其中一個常數：
 
@@ -279,11 +280,11 @@ AEM Guides網頁編輯器可讓您建立和更新DITA主題。 您可以設定We
 
    - allow\_unsafe\_delete\_for\_all：授予所有使用者刪除檔案的許可權。 在這種情況下，如果檔案\(s\)包含參照或由其他檔案參照，則您也可以強制刪除此類檔案。 刪除檔案之前，您將會看到包含參照的提示，您可以取消刪除操作、移除參照，最後刪除檔案。 或者，您可以強制刪除檔案而不移除參照。
 
-     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group：屬於&#x200B;*delete-assets*&#x200B;群組的系統管理員或使用者可刪除檔案。 若有其他使用者嘗試刪除含有任何參照的檔案，則在移除所有參照之前，不允許使用者刪除這類檔案。 當沒有許可權的使用者嘗試刪除檔案時，會出現下列熒幕擷圖。
 
-     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
    - block\_unsafe\_delete\_for\_all：不允許所有使用者\（包括管理員\）刪除檔案，直到刪除對檔案的參照和從檔案的參照。
 

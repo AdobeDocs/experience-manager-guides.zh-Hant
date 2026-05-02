@@ -4,9 +4,10 @@ description: 設定雲端服務的B樹狀目錄清理工作
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 58f98313-fc91-43b3-9553-aa5ab4946925
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '248'
 ht-degree: 3%
 
 ---
@@ -47,7 +48,7 @@ ht-degree: 3%
 
 1. 如下所示設定B-tree清理排程器。
 
-   ![](assets/btree-cleanup-config.png){align="left"}
+   ![](assets/btree-cleanup-config.png)
 
 1. 選取「**儲存**」。
 
@@ -82,7 +83,7 @@ ht-degree: 3%
 1. 搜尋並選取&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;套件。
 1. 啟用設定`Guides btree deletion enabled`。
 
-   ![](assets/btree-cleanup-setting.png){align="left"}
+   ![](assets/btree-cleanup-setting.png)
 
 1. 選取「**儲存**」。
 
