@@ -49,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 檢視Adobe Experience Manager檔案中的[設定翻譯整合架構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)，以取得有關與協力廠商翻譯服務整合的詳細資訊。
+   > 檢視Adobe Experience Manager檔案中的[設定翻譯整合架構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hant)，以取得有關與協力廠商翻譯服務整合的詳細資訊。
 
 1. 選取&#x200B;**儲存並關閉**&#x200B;以儲存更新的資料夾屬性。
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 下載檔案 {#id216MC0H0BE8}
 
-您可以下載資產，包括DITA和非DITA檔案。 您可以透過多種方式下載資產，有些是AEM的原生方法，有些則受AEM Guides支援。 如需原生AEM資產下載資訊，請參閱AEM檔案中的[從Adobe Experience Manager下載資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)。 下節將說明透過AEM Guides中的DITA map主控台下載檔案的機制。
+您可以下載資產，包括DITA和非DITA檔案。 您可以透過多種方式下載資產，有些是AEM的原生方法，有些則受AEM Guides支援。 如需原生AEM資產下載資訊，請參閱AEM檔案中的[從Adobe Experience Manager下載資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=zh-Hant)。 下節將說明透過AEM Guides中的DITA map主控台下載檔案的機制。
 
 ## 匯出DITA map檔案
 
