@@ -39,4 +39,4 @@ ht-degree: 0%
 >
 > 如果您正在處理對應檔案，則內容編輯區域中會顯示不同的選項或檢視。 如需詳細資訊，請檢視[對應編輯器功能](./map-editor-advanced-map-editor.md)。
 
-**父級主題：**[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
