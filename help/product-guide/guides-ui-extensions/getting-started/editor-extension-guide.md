@@ -4,7 +4,7 @@ description: 瞭解關於Editor 2.0擴充功能框架的變更
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 670a7557746baf16cf9786ba61a19448315ed59b
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 3%

@@ -3,9 +3,9 @@ title: 編輯器設定
 description: 瞭解如何在AEM Guides中設定編輯器設定。
 feature: Web Editor
 role: User
-source-git-commit: b04438c1036248c40e002c1a56b6b68e654e7748
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
-> 本文僅供新編輯器使用。 若要啟用新編輯器，請聯絡AEM Guides客戶成功團隊。
+> 本文適用於新編輯器。 聯絡AEM Guides客戶成功團隊，為您的環境啟用新編輯器。
 
 編輯器設定提供集中式設定面板，可讓您在個別作者層級自訂編輯器行為。 在編寫過程中提供更大的彈性、一致性和控制能力。
 
