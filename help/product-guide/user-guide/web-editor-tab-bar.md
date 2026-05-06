@@ -4,18 +4,32 @@ description: 瞭解編輯器中的標籤列。 瞭解Adobe Experience Manager Gu
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 4d7daf0dc3c6c915701e60d6811822df9f6a64aa
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
 
 # 編輯器中的索引標籤列
 
-標籤列位於編輯器介面的頂端，可讓您存取下列功能：
+>[!INFO]
+>
+> 此主題適用於新編輯器和舊編輯器。 雖然核心功能保持一致，但內容會使用索引標籤和圖說文字（如適用）來指出使用者介面、術語和互動的差異。
+
+標籤列位於編輯器介面的頂端，提供對各種檔案層級功能的存取權。
+
+>[!BEGINTABS]
+
+>[!TAB 新編輯器]
+
+![](./images/web-editor-tab-bar-editor-2-0.png)
+
+>[!TAB 舊編輯器]
 
 ![](./images/web-editor-tab-bar.png)
+
+>[!ENDTABS]
 
 **索引標籤**
 
@@ -23,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 身為管理員，您也可以選擇在索引標籤中依檔案名稱檢視檔案清單。 選取&#x200B;**使用者偏好設定**&#x200B;中&#x200B;**編輯器檔案顯示設定**&#x200B;區段的[檔案名稱](./intro-home-page.md#user-preferences)選項。
+> 身為管理員，您也可以選擇在索引標籤中依檔案名稱檢視檔案清單。 在[使用者偏好設定](./intro-home-page.md#user-preferences)下的&#x200B;**編輯器檔案顯示設定**&#x200B;區段中，選取&#x200B;**檔案名稱**&#x200B;選項。
 
 選取檔案索引標籤會開啟內容功能表，其中包含「另存為新版本」、「複製」、「尋找位置」、「新增至」、「屬性」、「分割」、「下載為PDF」和「關閉」選項。
 
@@ -57,4 +71,6 @@ ht-degree: 0%
 >
 > 如果在內部部署設定中使用Adobe Experience Manager Guides，則Workspace設定選項會繼續顯示為「**設定**」（在「更多動作」功能表下）。
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+- **編輯器設定**：帶您進入「編輯器設定」對話方塊，您可以在其中自訂個別作者層級的編輯器行為。 它可讓您在編寫期間控制標籤、註解和其他編輯器層級設定的可見度和行為。 如需詳細資訊，請檢視[編輯器設定](./config-editor-settings.md)。
+
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

@@ -1,0 +1,47 @@
+---
+title: 設定中繼資料屬性的忽略清單
+description: 瞭解如何在AEM Guides中設定中繼資料屬性的忽略清單。
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: f74c71d6a4a293bfbae55e9e57c62b7478d0a88a
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 1%
+
+---
+
+# 設定中繼資料屬性的忽略清單
+
+編輯檔案時，對&#x200B;**檔案屬性**&#x200B;下可用的中繼資料欄位所做的任何變更，或套用在後端時，都會在檔案版本上觸發星號(*)。 為了防止系統產生的中繼資料更新影響此指標，管理員可以設定中繼資料屬性的忽略清單。
+
+使用[組態覆寫](download-install-config-override.md#)中提供的指示來建立組態檔。 在組態檔中，提供下列（屬性）詳細資訊，以設定已變更版本&#x200B;**的**&#x200B;忽略中繼資料屬性：
+
+
+| PID | 屬性索引鍵 | 屬性值 |
+|---|------------|--------------|
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.dirtychecker.ignoremetadata` | `<comma-separated list / array of metadata properties>` |
+
+## 忽略清單中的預設中繼資料屬性
+
+AEM Guides在忽略清單中包含一組預設的中繼資料屬性。 您可以視需要修改此清單，以新增或移除中繼資料屬性。
+
+* &quot;jcr:mixinTypes&quot;，
+* &quot;jcr:primaryType&quot;，
+* &quot;jcr:frozenMixinTypes&quot;，
+* &quot;jcr:frozenPrimaryType&quot;，
+* &quot;jcr:frozenUuid&quot;，
+* &quot;jcr:uuid&quot;，
+* &quot;dam:extracted&quot;，
+* &quot;jcr:lastModified&quot;，
+* &quot;jcr:lastModifiedBy&quot;，
+* &quot;dc:modified&quot;，
+* &quot;dam:sha1&quot;，
+* &quot;dam:size&quot;，
+* &quot;guides:wordCount&quot;，
+* &quot;dam:scene7UploadTimeStamp&quot;，
+* &quot;dam:scene7LastModified&quot;
+
+只有未包含在忽略清單中的中繼資料屬性才會被視為標籤檔案版本已變更。
+
+**上層主題：**[&#x200B;自訂Web編輯器](customize-overview.md)

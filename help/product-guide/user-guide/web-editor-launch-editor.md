@@ -4,14 +4,18 @@ description: 瞭解如何從Adobe Experience Manager Guides的AEM導覽頁面、
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
 # 啟動編輯器 {#id2056B0140HS}
+
+>[!INFO]
+>
+> 此主題適用於新編輯器和舊編輯器。 雖然核心功能保持一致，但內容會使用索引標籤和圖說文字（如適用）來指出使用者介面、術語和互動的差異。
 
 您可以從下列位置啟動編輯器：
 
@@ -85,9 +89,23 @@ ht-degree: 0%
 
    ![](images/edit-topic-from-quick-action_cs.png)
 
-   主題會在編輯器中開啟。
+主題會在編輯器中開啟。
 
-   ![](images/edit-mode.png)
+>[!BEGINTABS]
+
+>[!TAB 新編輯器]
+
+此檢視會顯示內容在新編輯器中呈現的方式
+
+![](images/edit-mode-editor-2-0.png)
+
+>[!TAB 舊編輯器]
+
+此檢視表會顯示內容在舊編輯器中呈現的方式
+
+![](images/edit-mode.png)
+
+>[!ENDTABS]
 
 您也可以在Assets UI中開啟對應檔案，並啟動編輯器以編輯對應檔案中的主題。
 
@@ -124,13 +142,25 @@ ht-degree: 0%
 
    ![](images/map-console-open-in-editor.png)
 
-   包含主題的對應檔案會在編輯器中開啟以進行編輯。
-
-   ![](images/map-console-edit-topics.png)
+包含主題的對應檔案會在編輯器中開啟以進行編輯。
 
 
+>[!BEGINTABS]
+
+>[!TAB 新編輯器]
+
+在新編輯器中對映編輯模式：
+
+![](images/map-console-edit-topics-editor-2-0.png)
+
+>[!TAB 舊編輯器]
+
+在舊編輯器中的地圖編輯模式：
+
+![](images/map-console-edit-topics.png)
 
 
+>[!ENDTABS]
 
 
 **父級主題**： [編輯器簡介](web-editor.md)

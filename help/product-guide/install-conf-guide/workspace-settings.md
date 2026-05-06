@@ -4,9 +4,9 @@ description: 瞭解Experience Manager Guides編輯器介面中可用的各種設
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在On-premise設定中，**設定**&#x200B;選項會出現在編輯器的索引標籤列中。 在Cloud Service設定中，此選項已重新命名為&#x200B;**Workspace設定**。 在&#x200B;**編輯器設定**&#x200B;下可用的所有現有設定選項維持不變。
+> 在On-premise設定中，**設定**&#x200B;選項會出現在編輯器的索引標籤列中。 在Cloud Service設定中，此選項已重新命名為&#x200B;**Workspace設定**。 在&#x200B;**編輯器設定**下可用的所有現有設定選項維持不變。
 > ![內部部署](assets/editor-settings-on-prem.png){width="650"}的編輯器設定
 
 
@@ -82,7 +82,17 @@ ht-degree: 0%
    - **在[條件]面板中顯示主旨配置**：選取此專案，在條件面板中檢視主旨配置。 如果取消選取此專案，定義的條件會顯示在「條件」面板中。
 
 - **拼字檢查**
-有兩個選項 — **AEM拼字檢查**&#x200B;和&#x200B;**瀏覽器拼字檢查**。 依預設，編輯器會使用瀏覽器拼字檢查功能，其中拼字檢查是使用瀏覽器的內建字典執行。 您可以切換至AEM拼字檢查，以使用Adobe Experience Manager的字典，也可以自訂字典以新增自訂字詞清單。 如需自訂AEM字典的詳細資訊，請檢視安裝與設定AEM as a Cloud Service中的[自訂Adobe Experience Manager Guides的預設字典](../install-conf-guide/customize-aem-default-dictionary.md)區段。
+
+  有兩個選項：AEM拼字檢查和瀏覽器拼字檢查。
+
+   - **瀏覽器拼字檢查**：依預設，編輯器會使用瀏覽器拼字檢查功能，其中使用瀏覽器內建的字典來執行拼字檢查。
+
+   - **AEM拼字檢查**：您可以切換至AEM拼字檢查，以使用Adobe Experience Manager的字典，也可以自訂字典以新增自訂字詞清單。 如需自訂AEM字典的詳細資訊，請檢視[自訂AEM的預設字典](../install-conf-guide/customize-aem-default-dictionary.md)。
+
+     >[!NOTE]
+     >
+     > AEM拼字檢查會使用在檔案的language屬性中選取的語言，如果沒有為檔案指定語言，拼字檢查會回覆成AEM伺服器語言。
+     >為了確保拼字檢查結果準確，在AEM中必須提供所選語言的字典。 如果設定語言所需的字典無法使用，拼字檢查會預設為`en_us`。
 
 
 ## 面板
@@ -262,9 +272,9 @@ ht-degree: 0%
 
 工作區設定中的![中繼資料索引標籤](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-*設定&#x200B;**版本記錄**&#x200B;對話方塊的中繼資料。*
+*設定&#x200B;**版本記錄**對話方塊的中繼資料。*
 
 
 
 您也可以定義這些中繼資料標籤的顯示順序。 若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
-中繼資料標籤會以相同的順序顯示在編輯器的&#x200B;**版本記錄**&#x200B;對話方塊中。
+中繼資料標籤會以相同的順序顯示在編輯器的**版本記錄**&#x200B;對話方塊中。
