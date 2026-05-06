@@ -4,9 +4,9 @@ description: 瞭解如何在AEM Guides中檢閱主題並將功能作為檢閱者
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -273,5 +273,16 @@ ht-degree: 0%
 
 
 若要移除篩選器並檢視所有註解，請從&#x200B;**篩選器型別**&#x200B;對話方塊中取消選取所有篩選器，然後選取&#x200B;**套用**。
+
+
+## 檢閱者的版本記錄
+
+「版本記錄」功能可讓稽核者將目前的稽核任務版本與稽核者工作過的先前已關閉稽核任務的版本進行比較。 這有助於檢閱者驗證自上次完成檢閱以來所做的變更，並維護跨檢閱週期的連續性。
+
+![](images/version-history-icon.png)
+
+主題的&#x200B;**版本記錄**&#x200B;圖示會在作者關閉稽核任務後顯示。 如果檢閱者關閉任務，它仍然只有在作者也關閉它之後才可用。 對於每個已完成的稽核任務版本，稽核者可以從「版本歷史記錄」對話方塊的下拉式清單中存取其版本歷史記錄。 檢閱者可從此處比較不同版本中追蹤的變更、標籤、註解及其他工作相關詳細資訊。
+
+![](images/version-history-dialog.png)
 
 **父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)

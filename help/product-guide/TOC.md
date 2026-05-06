@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 670a7557746baf16cf9786ba61a19448315ed59b
 workflow-type: tm+mt
-source-wordcount: '3316'
+source-wordcount: '3342'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 7%
       - 雲端服務 {#cloud-release-notes}
          - {hide-from-toc}[部署指示](./release-info/deploy-xml-on-aemaacs.md)
          - 2026版本 {#2026-releases}
+            - 2026.05.0版本 {#2605-release}
+               - [新增功能](./release-info/whats-new-2026-05-0.md)
+               - [已修正的問題](./release-info/fixed-issues-2026-05-0.md)
+               - [升級指示](./release-info/upgrade-instructions-2026-05-0.md)
             - 2026.04.0版本 {#2604-release}
                - [新增功能](./release-info/whats-new-2026-04-0.md)
                - [已修正的問題](./release-info/fixed-issues-2026-04-0.md)
@@ -229,6 +233,7 @@ ht-degree: 7%
          - [使用來自您的資料來源的資料](./user-guide/web-editor-content-snippet.md)
          - [檔案狀態](./user-guide/web-editor-document-states.md)
          - [使用標籤](./user-guide/web-editor-use-label.md)
+         - [編輯器設定](./user-guide/config-editor-settings.md)
       - 地圖編輯器 {#map-editor}
          - [地圖編輯器簡介](./user-guide/map-editor.md)
          - [建立地圖](./user-guide/map-editor-create-map.md)
@@ -664,6 +669,7 @@ ht-degree: 7%
          - [設定Cloud Service已貼上表格的顯示](./install-conf-guide/conf-pasted-tables.md)
          - [為Cloud Service設定單一主題PDF產生方式](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [在適用於Cloud Service的網頁編輯器中設定翻譯功能](./install-conf-guide/conf-translation-editor.md)
+         - [設定Cloud Service中繼資料屬性的忽略清單](./install-conf-guide/conf-metadata-prop.md)
       - On-Premise的編輯器設定 {#editor-on-prem-settings}
          - [為On-Premise設定其他特殊字元](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [設定On-Premise的簽入和簽出圖示標題](./install-conf-guide/conf-checkin-checkout-title.md)
@@ -778,6 +784,7 @@ ht-degree: 7%
             - Widget {#framework-widgets}
                - [轉譯Widget](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本Widget](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+            - [編輯器2.0的擴充框架變更](./guides-ui-extensions/getting-started/editor-extension-guide.md)
          - 快速入門 {#getting-started}
             - [簡介](./guides-ui-extensions/getting-started/introduction.md)
             - [安裝指南](./guides-ui-extensions/getting-started/integrating-customisations.md)

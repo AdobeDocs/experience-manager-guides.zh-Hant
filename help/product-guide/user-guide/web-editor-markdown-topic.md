@@ -4,7 +4,7 @@ description: 從編輯器撰寫Markdown檔案。 瞭解如何在AEM Guides中建
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 1%
@@ -32,6 +32,7 @@ Markdown是一種輕量型的標籤語言，可以協助您將格式元素新增
    >[!NOTE]
    >
    > 若進行升級，您需要將Markdown範本新增至目前使用的資料夾設定檔中。 您可以[從編輯器](./web-editor-features.md#templates)建立新的Markdown範本，或使用現有的Markdown範本進行編寫。 如需有關如何在Experience Manager Guides中新增編寫範本的詳細資訊，請檢視[設定全域或資料夾層級的設定檔](../cs-install-guide/conf-folder-level.md)。
+
 1. 選取「**建立**」。
 
    Markdown主題會在選取的路徑中建立，並開啟以進行編輯。

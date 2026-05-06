@@ -4,9 +4,9 @@ description: 探索Adobe Experience Manager Guides中編輯器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '3690'
+source-wordcount: '4271'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,34 @@ ht-degree: 0%
 
 在已開啟檔案之索引標籤的內容功能表中，您會取得下列功能：
 
+>[!BEGINTABS]
+
+>[!TAB 新編輯器]
+
+![](images/single-file-context-menu-editor-2-0.png){width="400"}
+
+>[!TAB 舊編輯器]
+
 ![](images/single-file-context-menu.png){width="400"}
+
+>[!ENDTABS]
 
 **多個檔案**
 
 當您開啟多個檔案時，您會在快顯功能表中取得更多選項：
 
+>[!BEGINTABS]
+
+>[!TAB 新編輯器]
+
+
+![](images/multiple-files-context-menu-editor-2-0.png){width="550"}
+
+>[!TAB 舊編輯器]
+
 ![](images/multiple-files-context-menu.png){width="550"}
+
+>[!ENDTABS]
 
 內容選單中的各種選項說明如下：
 
@@ -144,6 +165,90 @@ Generate the output for the selected file. Output can be generated only for file
 >[!NOTE]
 >
 > 如果是影像、音訊或視訊檔案，檔案瀏覽對話方塊會預設為檔案的位置，而不是最後使用的位置。
+
+## 在新編輯器中處理表格
+
+「新編輯器」可讓您使用各種關聯式動作，直接在內容中建立、格式化及組織表格。
+
+本節將逐步說明新編輯器中可用的各種表格製作功能。
+
+**使用內容功能表修改資料表**
+
+當您在表格儲存格內按一下滑鼠右鍵時，會顯示前後關聯功能表。 根據您使用的表格型別，可使用下列選項。
+
+![](images/table-context-menu.png){width="550"}
+
+- 插入列、欄或儲存格
+
+- 水平或垂直分割儲存格（不適用於簡單表格）
+
+- 向右或向下合併儲存格（不適用於簡單表格）
+
+- 刪除列或欄
+
+**使用內容工具列設定文字格式和對齊方式**
+
+當您選取表格內的內容或儲存格時，內容工具列會顯示出來。 工具列提供與您的選取專案相關的選項。
+
+- 選取儲存格內容以存取下列格式選項：
+
+  ![](images/text-formatting-options-table.png){width="550"}
+
+  使用「粗體」、「斜體」或「底線」選項來格式化文字。
+- 若要存取單一儲存格的內容工具列，請使用Windows的`Ctrl+click`和macOS的`Command+click`。
+
+  ![](images/cell-selection-contextual-toolbar.png){width="550"}
+
+- 同樣地，您也可以選取多個儲存格，並使用內容工具列來一次套用文字格式和對齊。
+
+  單列或多列選取的可用選項：
+
+  ![](images/set-alignment-rows.png){width="550"}
+
+   - 水準文字對齊方式（不適用於簡單表格）
+   - 垂直文字對齊方式（不適用於簡單表格）
+   - 在上方插入列
+   - 在下方插入列
+   - 移除列
+   - 合併儲存格（不適用於簡單表格）
+
+  單一或多重欄選取的可用選項：
+
+  ![](images/set-alignment-columns.png){width="550"}
+
+   - 水準文字對齊方式（不適用於簡單表格）
+   - 垂直文字對齊方式（不適用於簡單表格）
+   - 在上方插入列
+   - 在下方插入列
+   - 移除列
+   - 在上方插入欄
+   - 在下方插入欄
+   - 移除欄
+   - 合併儲存格（不適用於簡單表格）
+
+- 選取要套用文字格式和對齊整個表格的表格。
+
+  ![](images/text-alignment-table.png){width="550"}
+
+- 使用互動加號按鈕新增列或欄
+
+  若要在表格結尾新增一列，請將滑鼠指標停留在最後一列，並選取&#x200B;**+**&#x200B;按鈕。 表格底部會新增一列。
+
+  ![](images/add-row.png){width="550"}
+
+  同樣地，將滑鼠停留在最後一欄，並選取&#x200B;**+**&#x200B;按鈕，在表格的最右邊加入新的一欄。
+
+  ![](images/add-column.png){width="550"}
+
+- 使用「插入」(Insert)選項將多個列或欄新增至表格（不適用於簡單表格）
+
+  若要新增多個列或欄至表格，請先選取要新增的列或欄數，然後選取「插入列」（上方或下方）或「插入欄」（左側或右側）選項。 會根據您的選取專案將相同數量的列或欄新增至表格。
+
+- 拖放列和欄（不適用於簡單表格）
+
+  使用拖放功能，輕鬆移動表格內的列和欄。 當您拖曳列或欄時，它會顯示為半透明背景，以表示它正在移動。 藍線會反白在發行時將會放置列或欄的目標位置。
+
+  ![](images/drag-and-drop-table-rows.png){width="550"}
 
 ## 在Experience Manager Guides中瀏覽檔案和資料夾
 
@@ -314,7 +419,19 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 編輯器會在主題左下角顯示元素的階層連結。 如果要使用另一個元素交換或取代某個元素，則可以從階層連結的內容選單中進行此操作。 例如，您可以將`p`元素與內容中的`note`或任何其他有效元素交換。
 
+>[!BEGINTABS]
+
+>[!TAB 新編輯器]
+
+![](images/rename-element-editor-2-0.png){width="400"}
+
+>[!TAB 舊編輯器]
+
+
 ![](images/rename-element.png){width="400"}
+
+
+>[!ENDTABS]
 
 在階層連結上，以滑鼠右鍵按一下要取代的元素名稱，然後從快顯選單中選取「重新命名元素」。 「重新命名元素」對話方塊會顯示目前位置允許的所有有效元素。 在「重新命名元素」對話方塊中，選取您要使用的元素。 原始元素會以新元素取代。
 
@@ -392,11 +509,19 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 ## 在編輯器中處理大型檔案
 
+>[!NOTE]
+>
+> 本節僅適用於舊編輯器。 有了新編輯器，透過更快速的載入和更多回應式互動，以及支援復原/重做支援和已變更的標籤，大型和複雜主題的編輯體驗得以改善。
+
 旨在改善大型檔案處理方式的主要功能如下：
 
 - 為了增強效能，某些功能（如還原、重做、大綱面板和已變更的標籤）會停用。 建議將主題分成較小的主題，以獲得最佳體驗。
 
 - 大型檔案的頂端會顯示警示訊息，如下面的程式碼片段所示。 此警報會根據uiconfig.json檔案的&#x200B;**largeFileTagCount**&#x200B;引數中指定的值，反白標示元素數目。 根據預設，**largeFileTagCount**&#x200B;設為2500。
+
+  >[!NOTE]
+  >
+  > 此警示訊息僅適用於舊編輯器，該訊息會根據設定的`largeFileTagCount`引數顯示。 在新編輯器中，大型檔案會順暢地載入，而不會觸發任何警報。 此外，無法在舊編輯器中使用的相關功能，通常會在新編輯器中運作。
 
 ![](images/add-toast-notification.png){width="600"}
 
@@ -407,5 +532,6 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 
 
 - 警報訊息僅適用於DITA檔案，且在所有檢視中皆可見：作者、Source和版面。
+
 
 **父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)

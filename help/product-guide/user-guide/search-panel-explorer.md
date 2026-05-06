@@ -4,14 +4,18 @@ description: 瞭解如何在編輯器介面中使用搜尋面板。
 feature: Authoring
 role: User
 exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # 搜尋面板
+
+>[!INFO]
+>
+>此主題適用於新編輯器和舊編輯器。 雖然核心功能保持一致，但內容會使用索引標籤和圖說文字（如適用）來指出使用者介面、術語和互動的差異。
 
 編輯器中的「搜尋」面板可讓您快速存取檔案子集，在編輯內容時根據搜尋字詞或套用的篩選器顯示，藉此提高生產力。 它可協助您輕鬆開啟一或多個搜尋的檔案，或僅透過拖放至主題或地圖中，在現有檔案中使用這些檔案。 您可以在編輯器底部找到&#x200B;**搜尋面板**。
 
@@ -55,7 +59,17 @@ ht-degree: 0%
 
 在「搜尋」面板中顯示搜尋結果後，您可以直接從面板開啟並編輯一或多個檔案，或將選取的檔案拖放到現有主題或地圖中來新增參照，以使用這些搜尋結果。
 
+>[!BEGINTABS]
+
+>[!TAB 新編輯器]
+
+![](images/edit-search-panel-editor-2-0.png)
+
+>[!TAB 舊編輯器]
+
 ![](images/edit-search-panel.png)
+
+>[!ENDTABS]
 
 ## 從首頁的儲存區域介面搜尋
 

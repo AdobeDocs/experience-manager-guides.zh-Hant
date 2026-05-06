@@ -4,7 +4,7 @@ description: 在Experience Manager Guides中使用地圖編輯器建立地圖。
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA 
 
    - **A** - \（*索引標籤列*\）：這與編輯器的索引標籤列類似。 在編輯器中檢視[索引標籤列](./web-editor-tab-bar.md)以取得詳細資料。
 
-   - **B** - \(*Toolbar*\)這是可讓您使用對應檔案的工具列。 如需透過工具列可用的功能的詳細資訊，請檢視地圖編輯器工具列中的[可用功能](#features-available-in-the-map-editors-toolbar)。
+   - **B** - \(*Toolbar*\)這是可讓您使用對應檔案的工具列。 如需透過工具列可用的功能的詳細資訊，請檢視地圖編輯器工具列中的[可用功能](./map-editor-advanced-map-editor.md)。
 
    - **C** - \（*地圖檢視*\）：可讓您在版面配置、作者、Source和預覽之間切換地圖編輯器。 **配置**&#x200B;檢視可讓您在DITA map中組織主題。 這會提供地圖的樹狀結構或階層檢視。 **作者**&#x200B;檢視可讓您在地圖編輯器中編輯主題。 這也會提供地圖檔案的WYSIWYG檢視。 **Source**&#x200B;檢視可讓您使用對應檔的基礎XML。 「預覽」可為您提供地圖檔案中所有主題和子地圖的整合檢視。
 
