@@ -14,7 +14,7 @@ ht-degree: 20%
 
 此基準會評估新發佈API在不同輸出預設集中的效能，並增加AEM Guides as a Cloud Service中的地圖大小。 目標是瞭解擴充性行為並找出效能瓶頸。
 
-發佈服務使用[微服務架構](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance)，並具備自動縮放功能，可透過額外的Pod處理較大的工作負載。
+發佈服務使用[微服務架構](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance)，並具備自動縮放功能，可透過額外的Pod處理較大的工作負載。
 
 ## 執行環境
 
