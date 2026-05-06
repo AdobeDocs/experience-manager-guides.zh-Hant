@@ -4,7 +4,7 @@ description: 瞭解編輯器中的工具列。 瞭解Adobe Experience Manager Gu
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: d369972ced74b8a66280c018fc7ab29b174da36e
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
 source-wordcount: '6443'
 ht-degree: 0%

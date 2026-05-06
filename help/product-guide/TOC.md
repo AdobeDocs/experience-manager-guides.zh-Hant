@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 670a7557746baf16cf9786ba61a19448315ed59b
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
 source-wordcount: '3342'
 ht-degree: 7%
@@ -820,7 +820,7 @@ ht-degree: 7%
          - [使用JWT驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices.md)
          - [使用OAuth驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [設定Edge Delivery Services (Beta)](./knowledge-base/publishing/configure-eds.md)
-         - [在AEM雲端上發佈基準](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
+         - [在AEM雲端上發佈基準](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
       - 工作流程 {#workflows}
          - [貼文產生工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 翻譯 {#translation}
