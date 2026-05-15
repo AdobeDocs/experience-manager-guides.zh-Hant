@@ -4,11 +4,18 @@ description: 瞭解2025.06.0版Adobe Experience Manager Guides中的新功能和
 role: Leader
 exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
 TQID: https://experienceleague.adobe.com/Lu9Ebb7OEpxiRmjkho1KnXiry5Kz5kDwfAYbXJD8-uI
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 404
@@ -22,7 +29,7 @@ ht-degree: 3%
 
 有關此版本中的問題修正清單，請查看 [2025.06.0 版本中修正的問題](fixed-issues-2025-06-0.md)。
 
-瞭解2025.06.0版](../release-info/upgrade-instructions-2025-06-0.md)的[升級指示。
+瞭解2025.06.0版[&#128279;](../release-info/upgrade-instructions-2025-06-0.md)的升級指示。
 
 ## 防止意外內容遺失的工作階段逾時提示
 

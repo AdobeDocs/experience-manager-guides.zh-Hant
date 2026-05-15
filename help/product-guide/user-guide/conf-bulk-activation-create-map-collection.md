@@ -5,10 +5,15 @@ exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
 TQID: https://experienceleague.adobe.com/wsG3SOMPqESl5dtCXw0wERboSJ57RG2PIR9QKYow-5Q
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 758
@@ -94,7 +99,7 @@ DITA map檔案會新增至您的大量啟動對映集合中。
 - **已發佈**：顯示上次發佈（或已啟動）輸出的日期和時間。 如果您選取連結，會顯示「啟用結果」頁面，其中包含記錄檔，內含啟用內容的根路徑相關資訊。
   ![已建立大量啟動集合稽核歷程記錄標籤](images/bulk-collection-audit-history.png)
 
-  *在&#x200B;**稽核歷史記錄**索引標籤中檢視已啟動地圖輸出的相關資訊。*
+  *在&#x200B;**稽核歷史記錄**&#x200B;索引標籤中檢視已啟動地圖輸出的相關資訊。*
 
 
   >[!NOTE]
@@ -113,4 +118,4 @@ DITA map檔案會新增至您的大量啟動對映集合中。
 
 當您從&#x200B;**對應和預設集**&#x200B;標籤切換到&#x200B;**稽核歷史記錄**&#x200B;標籤時，篩選器會更新，反之亦然。
 
-**父級主題： **[大量啟用已發佈的內容](conf-bulk-activation.md)
+**父級主題： &#x200B;** [大量啟用已發佈的內容](conf-bulk-activation.md)

@@ -6,9 +6,13 @@ feature: Version Management
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/3QZCUFBs7RU75KkryDjfbVkckn0owPCd7auGX3uLv9Y
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1518
@@ -146,7 +150,7 @@ AEM Guides網頁編輯器可讓您建立和更新DITA主題。 您可以設定We
 
    ![](assets/preview-purge-report.png)
 
-1. 
+1. &#x200B;
    - **從最新版本保留的版本數目**：輸入應保留且未清除的版本數目。 例如，如果輸入5，則會保留最後5個版本，而之前的版本則符合其他清除條件時，可以清除該版本。
 - **保留時間跨度內建立的版本\（以天為單位\）**：輸入版本的最長期限（以天為單位）。 如果符合其他清除條件，則符合清除指定天數之前的版本。 例如，如果輸入100，則符合其他永久刪除條件時，所有在100天之前建立的版本都符合永久刪除的條件。
 - **路徑**：選取您要清除其檔案的檔案或資料夾路徑。

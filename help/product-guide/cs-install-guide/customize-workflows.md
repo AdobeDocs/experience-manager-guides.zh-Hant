@@ -6,11 +6,22 @@ feature: Workflow Configuration
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/g16Rjnn4M9yRvt0LBT2WieXj6nxejdPpNwgZaMoAHbA
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b455a250-64c4-4598-b015-7b6b6dc528b1id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e6ff21d3-dec6-4298-8590-7c749fffaf78
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b455a250-64c4-4598-b015-7b6b6dc528b1
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1833
@@ -69,7 +80,7 @@ workflowdata.getMetaDataMap().put("isDitamap","false");
 workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
-地圖的&#x200B;****
+地圖的&#x200B;**&#x200B;**
 
 ```javascript
 var workflowdata = workItem.getWorkflowData();
@@ -114,7 +125,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `reviewType` | 字串 | 靜態值「AEM」。 |
 | `versionJson` | JSON 物件 | versionJson是正在稽核的主題清單，其中每個主題物件都有以下結構[ { &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | 布林值 | false/true |
-| `ditamapHierarchy` | JSON 物件 | 若已傳送地圖以供檢閱，則值應如下：[ { &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： 「」，「items」： [] } ] ]。 |
+| `ditamapHierarchy` | JSON 物件 | 若已傳送地圖以供檢閱，則值應如下：[ &lbrace; &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： 「」，「items」： [] } ] ]。 |
 | `ditamap` | 字串 | 指定稽核任務的ditamap路徑 |
 | `allowAllReviewers` | 布林值 | false/true |
 | `notifyViaEmail` | 布林值 | false/true |

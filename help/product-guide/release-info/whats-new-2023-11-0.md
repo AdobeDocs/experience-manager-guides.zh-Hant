@@ -5,9 +5,13 @@ exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
 TQID: https://experienceleague.adobe.com/XAwjfiapDvgvcwAuWm943W36PsAEiBfJUkN37DJeSZ0
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 811
@@ -63,14 +67,14 @@ Experience Manager Guides現在已改善原生PDF範本的資源管理。 您現
 
 ![使用者偏好設定對話方塊](assets/user-preferences-2311.png){width="550"}
 
-*從&#x200B;**使用者偏好設定**對話方塊變更檢視檔案的預設方式。*
+*從&#x200B;**使用者偏好設定**&#x200B;對話方塊變更檢視檔案的預設方式。*
 
 
 ### 管理條件預設集
 
 您可以在DITA主題中定義條件屬性。 然後，使用條件預設集中的條件屬性，在DITA map中發佈內容。 Experience Manager Guides現在也可讓您從網頁編輯器建立和管理條件預設集。 您也可以輕鬆進行編輯、複製或刪除。
 
-來自網頁編輯器](assets/web-editor-manage-condition-presets.png){width="550"}的[管理]索引標籤的![條件預設集
+來自網頁編輯器![&#128279;](assets/web-editor-manage-condition-presets.png){width="550"}的[管理]索引標籤的條件預設集
 
 如需詳細資訊，請檢視[使用條件預設集](../user-guide/generate-output-use-condition-presets.md)。
 

@@ -6,11 +6,19 @@ role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
 TQID: https://experienceleague.adobe.com/SwYb9OfbAPrK0iSbyfvAAJdEQG0ks5Ig871KBMLu2Fc
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1315
@@ -147,4 +155,4 @@ ht-degree: 1%
 >
 > 如果您拒絕翻譯工作中一個或多個主題的翻譯，則所有已拒絕主題的&#x200B;**進行中**&#x200B;翻譯狀態將恢復為原始狀態。 參照主題的狀態會根據最新翻譯狀態檢查並回覆。 此外，在目標專案中建立的翻譯檔案不會被刪除，即使它們被拒絕翻譯。
 
-**父級主題：**[&#x200B;翻譯內容](translation.md)
+**父級主題：**&#x200B;[&#x200B;翻譯內容](translation.md)

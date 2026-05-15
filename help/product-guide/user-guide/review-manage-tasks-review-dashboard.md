@@ -5,8 +5,11 @@ exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1440
@@ -143,4 +146,4 @@ ht-degree: 0%
 - 在所有主題上發表的評論總數。 若有多個正在檢閱的主題，則會對主題名稱提及\（在方括弧中\）每個主題的註解數。
 - 檢閱者上次存取任何主題的日期。
 
-**父級主題：**[&#x200B;檢閱簡介](review.md)
+**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)

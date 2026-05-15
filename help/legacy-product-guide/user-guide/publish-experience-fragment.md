@@ -6,9 +6,16 @@ role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
 TQID: https://experienceleague.adobe.com/-criVtAp0Z8q4-Pw0fdJvqXxYgWBOXUSuH3ySkaMeNc
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 995
@@ -35,7 +42,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
 
    * **標題**：檢視或編輯資料夾標題。
 
-   * **允許的範本**：包含可新增為Experiencefragment子頁面的範本清單。 若要新增允許的範本，請在&#x200B;**允許的範本**欄位中指定用於擷取所需範本的規則運算式。
+   * **允許的範本**：包含可新增為Experiencefragment子頁面的範本清單。 若要新增允許的範本，請在&#x200B;**允許的範本**&#x200B;欄位中指定用於擷取所需範本的規則運算式。
 例如：
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
@@ -53,7 +60,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
    >
    > 您也可以從&#x200B;**存放庫檢視**&#x200B;發佈體驗片段。 選取您要發佈為體驗片段的主題。 然後，從&#x200B;**選項**&#x200B;功能表選取&#x200B;**發佈為** > **體驗片段**。
 
-1. 在&#x200B;**產生體驗片段**對話方塊中，填入下列詳細資料：
+1. 在&#x200B;**產生體驗片段**&#x200B;對話方塊中，填入下列詳細資料：
    ![在「以體驗片段形式發佈」對話方塊中新增片段模型和對應詳細資訊](images/experience-fragment-generate.png){width="500"}
 
    *新增路徑、範本和對映詳細資訊，將主題或其元素發佈為體驗片段。 您可以覆寫現有的體驗片段。*

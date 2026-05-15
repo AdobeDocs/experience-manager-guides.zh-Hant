@@ -5,11 +5,17 @@ exl-id: 3396c971-6332-45b5-b2ef-b07f0abf97f7
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/JiQKZ28KLI-TI5cqYdpKLyW79uOzlR2VV3zqZPFoVWc
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 399
@@ -36,4 +42,4 @@ ht-degree: 0%
 | `${system_time}` | 使用目前的伺服器時間建立目的地路徑。 | **DITA map檔案名稱：** <br>`SampleDita.ditamap` <br> <br> **DITA map檔案路徑：** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**目的地路徑**&#x200B;設定為： <br> `/content/output/sites/${system_time}`<br><br>**最終輸出位置：**<br>`/content/output/sites/055612/SampleDita.html` |
 
 此外，您也可以使用為DITA map或bookmap檔案定義的中繼資料作為變數。 中繼資料可以在DITA map或bookmap檔案的`/jcr:content/metadata`節點下找到。 例如，`/jcr:content/metadata`節點中定義的其中一個中繼資料屬性是`dc:title`。 您可以指定`${dc:title}`，且標題值會用於最終輸出。
-**父級主題：**[&#x200B;輸出產生](generate-output.md)
+**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)

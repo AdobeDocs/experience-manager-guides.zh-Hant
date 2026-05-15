@@ -5,10 +5,15 @@ exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
 TQID: https://experienceleague.adobe.com/ujkifru-aKa2oYvrE8EKUEE3Sai8NqQ9lx9BA2ZUw9U
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 469
@@ -78,7 +83,7 @@ ht-degree: 1%
 執行下列任一項作業：
 
 * 若要啟動選取的地圖的輸出，請選取預先產生的地圖輸出，並選取&#x200B;**快速發佈**。
-* 若要啟動所有DITA map及其設定之預設集的輸出，請選取[對應] （欄）旁的核取方塊，然後選取[快速發佈]。****
+* 若要啟動所有DITA map及其設定之預設集的輸出，請選取[對應] （欄）旁的核取方塊，然後選取[快速發佈]。**&#x200B;**
   ![大量集合 — 發佈](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
@@ -90,4 +95,4 @@ ht-degree: 1%
 
 一旦為所選對映檔案啟動輸出後，稽核歷史記錄標籤即會更新，並且最新啟動的輸出會顯示在最上方。 **已發佈**&#x200B;欄已更新為發佈日期和時間。
 
-**父級主題： **[大量啟用已發佈的內容](conf-bulk-activation.md)
+**父級主題： &#x200B;** [大量啟用已發佈的內容](conf-bulk-activation.md)

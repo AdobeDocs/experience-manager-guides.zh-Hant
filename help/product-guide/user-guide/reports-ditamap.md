@@ -5,11 +5,21 @@ exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
 TQID: https://experienceleague.adobe.com/NcQKAtcWCay9uHtXYJ5xOkvcyQ2tdQOYWKRDRv-NLBk
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: cdab8659-8d50-4417-b6fd-762f347c13eeid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 769
@@ -90,7 +100,7 @@ Adobe Experience Manager Guides提供管理員報告功能，可在檔案上線�
 
    ![](images/generate-DITA-map-report-new.png)
 
-1. 報告可供下載後，您將會收到通知。 選取「下載&#x200B;****」以下載產生報表的CSV。
+1. 報告可供下載後，您將會收到通知。 選取「下載&#x200B;**&#x200B;**」以下載產生報表的CSV。
 
    ![](images/download-report-dialog-new.png){width="550"}
 
@@ -103,4 +113,4 @@ Adobe Experience Manager Guides提供管理員報告功能，可在檔案上線�
 
 報告下載至收件匣後，您也可以選取報告，並使用頂端的開啟圖示開啟所選的報告。
 
-**父級主題：**[&#x200B;報告簡介](reports-intro.md)
+**父級主題：**&#x200B;[&#x200B;報告簡介](reports-intro.md)

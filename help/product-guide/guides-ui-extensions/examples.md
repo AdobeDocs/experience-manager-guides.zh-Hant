@@ -3,8 +3,11 @@ title: 範例
 description: 自訂範例清單
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
 TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 462
@@ -31,7 +34,7 @@ ht-degree: 0%
 在此範例中，我們已將`Insert Element`、`Insert Paragraph`、`Insert Numbered List`、`Insert Bulleted List`按鈕取代為包含所有這些按鈕的單一`More Insert Options`按鈕。
 
 6. 中繼資料面板上的[管理按鈕](./examples/metadata_report_manage_button.ts)
-在此範例中，我們已自訂**管理**&#x200B;按鈕（位於「報表」頁面上的「中繼資料」面板中），以便在選取的檔案處於唯讀模式時將其停用。 這有助於防止意外編輯不打算編輯的檔案的中繼資料。
+在此範例中，我們已自訂&#x200B;**管理**&#x200B;按鈕（位於「報表」頁面上的「中繼資料」面板中），以便在選取的檔案處於唯讀模式時將其停用。 這有助於防止意外編輯不打算編輯的檔案的中繼資料。
 
 [檢閱應用程式範例]
 

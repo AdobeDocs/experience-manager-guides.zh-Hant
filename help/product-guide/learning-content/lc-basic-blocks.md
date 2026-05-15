@@ -5,9 +5,13 @@ feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
 TQID: https://experienceleague.adobe.com/fIdzpub-IWWPZMqqRd4l6NrVGZlQAPCtAlsvuOnkCCQ
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 590
@@ -100,7 +104,7 @@ ht-degree: 0%
    > 如果您不想使用現有的標題做為標題，請先在編輯器工具列中使用[文字]元件插入標題，然後選取&#x200B;**新增標題**。 這會新增範例&#x200B;**Title**&#x200B;至內容，您可以視需要加以編輯。
 
 1. 在檔案屬性中，選取&#x200B;**新增字幕**。
-範例**Subtitle**&#x200B;已新增至內容。
+範例&#x200B;**Subtitle**&#x200B;已新增至內容。
 
    ![](assets/add-subtitles-lc.png)
 

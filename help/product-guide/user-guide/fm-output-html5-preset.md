@@ -5,10 +5,15 @@ exl-id: 0889e394-cfb1-4006-ae57-2dfa81123bc2
 feature: Publishing FrameMaker Documents
 role: User
 TQID: https://experienceleague.adobe.com/0D37JjQtoZhfeBFE2gHRTL7UG79K7F3QRiVcQwYCDcE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 173
@@ -32,4 +37,4 @@ ht-degree: 5%
 | 目的地路徑 | AEM存放庫內儲存HTML5輸出的路徑。 |
 | 執行後期產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。 |
 
-**父級主題：**[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)
+**父級主題：**&#x200B;[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)

@@ -6,11 +6,18 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 5060
@@ -172,7 +179,7 @@ PDF檔案通常包含下列章節：
    1. 從「檢視旋轉」下拉式清單中選取&#x200B;**順時針90°**。
    <img src="./assets/view-rotation-page-props.png" width="300">
 
-   1. 按一下[儲存全部]****&#x200B;儲存更新的頁面配置屬性。
+   1. 按一下[儲存全部]&#x200B;**&#x200B;**&#x200B;儲存更新的頁面配置屬性。
 
 1. 建立自訂樣式以使用新的頁面配置。
    1. 展開左側邊欄，然後按兩下您要建立樣式的範本。
@@ -218,7 +225,7 @@ PDF檔案通常包含下列章節：
 
       <img src="./assets/new-style-table-outputclass.png" width="300">
 
-1. 按一下「全部儲存」****&#x200B;儲存更新的檔案。
+1. 按一下「全部儲存」**&#x200B;**&#x200B;儲存更新的檔案。
 1. 產生PDF輸出。
 
 最後的PDF會將表格內容呈現為橫向模式，如範例開頭所示。
@@ -413,7 +420,7 @@ PDF檔案通常包含下列章節：
 
    「欄位」快顯視窗隨即出現。
 
-1. 從[欄位]清單中選取&#x200B;**頁碼**&#x200B;類別，從[格式]清單中選取&#x200B;**預設(1)**&#x200B;頁碼格式，然後按一下[插入]****。
+1. 從[欄位]清單中選取&#x200B;**頁碼**&#x200B;類別，從[格式]清單中選取&#x200B;**預設(1)**&#x200B;頁碼格式，然後按一下[插入]&#x200B;**&#x200B;**。
 
    <img src="./assets/insert-page-number-field.png" width="400">
 
@@ -429,7 +436,7 @@ PDF檔案通常包含下列章節：
 
 1. 在頁碼欄位後面輸入空白字元，然後按一下&#x200B;**插入欄位**&#x200B;圖示。
 
-1. 從[欄位]清單選取&#x200B;**章節標題**&#x200B;類別，從[格式]清單選取&#x200B;**章節標題**&#x200B;格式，然後按一下[插入]。****
+1. 從[欄位]清單選取&#x200B;**章節標題**&#x200B;類別，從[格式]清單選取&#x200B;**章節標題**&#x200B;格式，然後按一下[插入]。**&#x200B;**
 
    _章節標題_&#x200B;欄位（在發佈時以章節標題填入）會插入頁尾區域。 此時，頁碼和章節標題欄位會以空格分隔。
 

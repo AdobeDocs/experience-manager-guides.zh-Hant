@@ -5,9 +5,15 @@ exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/VcZKWpffZfB7KtquXVtIFWESim8paNCYmqGqboC1Kic
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 955
@@ -43,7 +49,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
 1. 在「**產生內容片段**」對話方塊中，在「**一般**」和「**對應**」標籤下填入下列詳細資料。
 
-   **一般**標籤
+   **一般**&#x200B;標籤
    ![在「發佈為內容片段」對話方塊中新增片段模型和對應詳細資訊](images/generate-content-fragment.png)
    *新增路徑、名稱、標題和條件篩選，將主題或其元素發佈為內容片段。*
 
@@ -74,7 +80,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至內容片段。
 
    * **模式**：選取您要用來建立內容片段的內容片段模式。 模型會從您已在Experience Manager Guides伺服器上設定的資料夾中選取。
    * **對應**：您可以檢視已套用ID屬性的主題元素。 將主題元素拖曳至內容片段模式中顯示的欄位。
-若有現有內容片段，右側會填入已發佈的內容片段內容。 如有必要，可以用主題內容覆寫這些內容。 您也可以選取**復原**&#x200B;以還原對應變更。
+若有現有內容片段，右側會填入已發佈的內容片段內容。 如有必要，可以用主題內容覆寫這些內容。 您也可以選取&#x200B;**復原**&#x200B;以還原對應變更。
 
 
      >[!NOTE]

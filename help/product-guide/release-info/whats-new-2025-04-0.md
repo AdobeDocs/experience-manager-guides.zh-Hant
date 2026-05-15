@@ -4,10 +4,15 @@ description: 瞭解2025.04.0版Adobe Experience Manager Guides中的新功能和
 role: Leader
 exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
 TQID: https://experienceleague.adobe.com/JeN8rlDFTT5gRCCH17zjFQeKiOJ-736hQ4V1ESST0hc
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 436
@@ -21,7 +26,7 @@ ht-degree: 3%
 
 有關此版本中的問題修正清單，請查看 [2025.04.0 版本中修正的問題](fixed-issues-2025-04-0.md)。
 
-瞭解2025.04.0版](../release-info/upgrade-instructions-2025-04-0.md)的[升級指示。
+瞭解2025.04.0版[&#128279;](../release-info/upgrade-instructions-2025-04-0.md)的升級指示。
 
 ## 已針對參考連結新增「Format」屬性
 

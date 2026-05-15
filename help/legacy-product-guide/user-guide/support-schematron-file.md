@@ -6,10 +6,16 @@ role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
 TQID: https://experienceleague.adobe.com/RTjruUSe-4ZbghbPl3au1OjZd3D5-7VN3R4GP8UqsRM
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 766
@@ -35,7 +41,7 @@ ht-degree: 0%
 1. 在&#x200B;*存放庫檢視*&#x200B;中導覽至所需的資料夾（您要上傳檔案的位置）。
 1. 按一下&#x200B;**選項**&#x200B;圖示以開啟內容功能表，然後選擇&#x200B;**上傳Assets**。
 1. 在&#x200B;**上傳Assets**&#x200B;對話方塊中，您可以在&#x200B;**選取資產資料夾**&#x200B;欄位中變更目的地資料夾。
-1. 按一下&#x200B;**選擇檔案**&#x200B;並瀏覽以選取Schematron檔案。 您可以選取一或多個Schematron檔案，然後按一下[上傳]。****
+1. 按一下&#x200B;**選擇檔案**&#x200B;並瀏覽以選取Schematron檔案。 您可以選取一或多個Schematron檔案，然後按一下[上傳]。**&#x200B;**
 
 ## 使用Schematron驗證DITA主題或地圖
 

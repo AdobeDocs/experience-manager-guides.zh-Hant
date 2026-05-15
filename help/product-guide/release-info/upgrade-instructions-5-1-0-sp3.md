@@ -3,10 +3,17 @@ title: 發行說明 | Adobe Experience Manager Guides 5.1.0 Service Pack 3版本
 description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides的5.1.0 Service Pack 3版本。
 exl-id: 2452da05-36f2-4df3-aee9-918072a67d9c
 TQID: https://experienceleague.adobe.com/qFrmvlpp7uxkLs2KXq3ItTVD6LxteJkMUuKdtmN9JY4
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 595
@@ -18,7 +25,7 @@ ht-degree: 4%
 
 本文介紹Adobe Experience Manager Guides 5.1.0 Service Pack 3版的升級指示和相容性矩陣。
 
-如需此版本中已修正的問題清單，請檢視5.1.0 Service Pack 3版本](../release-info/fixed-issues-5-1-0-sp3.md)中的[已修正問題。
+如需此版本中已修正的問題清單，請檢視5.1.0 Service Pack 3版本[&#128279;](../release-info/fixed-issues-5-1-0-sp3.md)中的已修正問題。
 
 ## 相容性矩陣
 
@@ -83,4 +90,4 @@ ht-degree: 4%
 >
 > 您必須先安裝AEM Service Pack，才能升級Experience Manager Guides版本。
 
-如需詳細資訊，請檢視Experience Manager Guides內部部署版本](../install-guide/upgrade-xml-documentation.md)的[升級指示。
+如需詳細資訊，請檢視Experience Manager Guides內部部署版本[&#128279;](../install-guide/upgrade-xml-documentation.md)的升級指示。
