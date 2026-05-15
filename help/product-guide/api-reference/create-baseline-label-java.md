@@ -5,9 +5,19 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
+TQID: https://experienceleague.adobe.com/3vpR2zCp5a6dBn6RkSKgBeU7cS3Me-HE0KQxc-duYCk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 944
 ht-degree: 2%
 
 ---
@@ -67,8 +77,8 @@ throws GuidesApiException
 | `sourcePath` | 字串 | AEM存放庫中DITA map檔案的絕對路徑。 |
 | `baselineTitle` | 字串 | 基準線的唯一標題。 |
 | `label` | 字串 | 選取已套用指定標籤的主題版本。 |
-| `directContext` | LinkedHashMap&lt;String， Object\> | 在設定中，會根據其選取直接參考的主題\(content\)，依照地圖中提及的順序來解析版本。 <br>如果對映的所有索引鍵執行反複專案後，找不到任何版本，則基準線建立程式會失敗。 <br>如果HashMap是空的\（傳送空白且預設值不是null的對應\），則預設會填入為： <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br>如果您希望基準線建立僅挑選指定標籤的版本，而且如果不存在此類版本，則會失敗，請放入`label`索引鍵和您要建立基準線的標籤。 |
-| `indirectContext` | LinkedHashMap&lt;String， Object\> | 在設定中，會選取間接參考的主題\（參考的內容\），依照對應中提及的順序來解析版本。 <br>如果對映的所有索引鍵執行反複專案後，找不到任何版本，則基準線建立程式會失敗。 <br>如果HashMap是空的\（傳送空白且預設值不是null對應\），則預設會填入為： <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br>如果您希望它是最新版本以取代自動擷取版本，則請取代： <br>`indirectContext.put("pickAutomatically", null);` <br> _具有：_ <br>`indirectContext.put("latest", true)` |
+| `directContext` | LinkedHashMap&lt;String， Object\> | 在設定中，會根據其選取直接參考的主題\(content\)，依照地圖中提及的順序來解析版本。<br> 如果在對映的所有索引鍵執行反複專案之後，找不到任何版本，則基準線建立程式會失敗。<br> 如果HashMap是空的\（傳送空白且預設值不是null的對應\），則預設會填入為： <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br>如果您希望基準線建立僅挑選指定標籤的版本，而且如果不存在此類版本，則會失敗，請放入`label`索引鍵和您要建立基準線的標籤。 |
+| `indirectContext` | LinkedHashMap&lt;String， Object\> | 在設定中，會選取間接參考的主題\（參考的內容\），依照對應中提及的順序來解析版本。<br> 如果在對映的所有索引鍵執行反複專案之後，找不到任何版本，則基準線建立程式會失敗。<br> 如果HashMap是空的\（傳送空白且預設值不是null對應\），則預設會填入為： <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br>如果您希望它是最新版本以取代自動擷取版本，則請取代： <br>`indirectContext.put("pickAutomatically", null);` <br> _with :_<br>`indirectContext.put("latest", true)` |
 
 **傳回**：
 基準線的名稱，是JCR儲存庫中基準線的節點名稱。 新建立之基準線的標題將顯示在DITA map的「基準線」頁面上。
@@ -122,7 +132,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | 有效的JCR工作階段。 |
 | `sourcePath` | 字串 | AEM存放庫中DITA map檔案的絕對路徑。 |
 | ``baselineName`` | 字串 | 必須套用標籤的基準節點名稱。 若要取得基準線節點的名稱，您可以使用[\#id185NFF0085Z](#id185NFF0085Z)方法，或檢查CRXDE中DITA對應的基準線節點。<br> **注意：**&#x200B;標籤已套用至從基線中的對應檔案直接參照的檔案版本。 |
-| `label` | 字串 | 套用至基線中檔案的標籤。 確保標籤不含下列字元： &amp;amp；sol； &amp;amp；逗號； &amp;amp；冒號； &amp;amp；逗號； &amp;amp；lbrack； &amp;amp；逗號； &amp;amp；逗號； &amp;amp；vert； &amp;amp；逗號； &amp;amp； &amp;amp；ast； <br>若您想要設定多個標籤，請以逗號分隔標籤；例如Label1， Label2。 |
+| `label` | 字串 | 套用至基線中檔案的標籤。 確保標籤不包含下列字元： &amp;sol； &amp;comma； &amp;colon； &amp;comma； &amp;lbrack； &amp;comma； &amp;rbrack； &amp;comma； &amp;vert； &amp;comma； &amp;ast； <br>如果要設定多個標籤，請以逗號分隔標籤；例如Label1， Label2。 |
 
 **例外狀況**：
 擲回`RepositoryException`。
@@ -148,10 +158,10 @@ String label) throws GuidesApiException
 | `session` | javax.jcr.Session | 有效的JCR工作階段。 |
 | `sourcePath` | 字串 | AEM存放庫中DITA map檔案的絕對路徑。 |
 | `baselineName` | 字串 | 必須從中刪除標籤的基準名稱。<br> **注意：**&#x200B;標籤會從從基線中的對應檔案直接參照的檔案版本中刪除。 |
-| `label` | 字串 | 要從基準線檔案中刪除的標籤。 <br>如果您想要刪除多個標籤，請以逗號分隔標籤；例如Label1、Label2。 |
+| `label` | 字串 | 要從基準線檔案中刪除的標籤。<br> 如果您想要刪除多個標籤，請以逗號分隔標籤；例如Label1、Label2。 |
 
 **傳回**：
-基準線中所有檔案的對映具有*key：value*&#x200B;對`path:deletedlabels`。
+基準線中所有檔案的對應具有*索引鍵:value*&#x200B;的`path:deletedlabels`配對。
 
 **例外狀況**：
 擲回``RepositoryException`, `VersionException`, `Exception``。

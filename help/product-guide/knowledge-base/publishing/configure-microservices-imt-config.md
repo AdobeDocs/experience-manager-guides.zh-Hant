@@ -1,12 +1,24 @@
 ---
-title: 使用AEM Guides的OAuth驗證設定微服務型發佈as a Cloud Service
+title: 使用AEM Guides as a Cloud Service的OAuth驗證設定微服務型發佈
 description: 瞭解如何使用AEM Guides的OAuth驗證來設定微服務型發佈。
 feature: Microservice in AEM Guides
 role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
+TQID: https://experienceleague.adobe.com/iAlQIB0z2bxI-BaOXp62M6YJjzS-RzGfJaJbl8BWNUc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -19,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Experience Manager Guides中基於微服務的發佈支援PDF（原生和DITA-OT型）、HTML5、JSON和CUSTOM型別的輸出預設集。
+> Experience Manager Guides中基於微服務的發佈支援PDF （原生和DITA-OT型）、HTML5、JSON和CUSTOM型別的輸出預設集。
 
 由於雲端發佈服務受到Adobe IMS OAuth型驗證的保護，請執行以下步驟來整合其環境與Adobe的安全權杖型驗證工作流程，並開始使用雲端型可擴充發佈解決方案。
 
@@ -86,7 +98,7 @@ ht-degree: 0%
 >
 >如果您已針對智慧建議建立OAuth專案，則您可以對微服務重複使用相同的專案，並跳過以下步驟以將IMS設定新增至環境。
 
-### 更新現有設定(JWT)   至OAuth Shift )
+### 更新現有設定（JWT至OAuth Shift ）
 
 如果您已使用微服務來使用JWT發佈（已棄用），請執行以下步驟來更新設定：
 

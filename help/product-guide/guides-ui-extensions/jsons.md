@@ -3,9 +3,18 @@ title: 公開的JSON
 description: 公開的JSON清單
 role: User, Admin
 exl-id: 7ad86795-d26b-464a-94f6-ffaf3376b252
-source-git-commit: 0af09be192bf3ead5e34c39c42282fa7556fbe9a
+TQID: https://experienceleague.adobe.com/Pj3XGB5Vj4jfDL-FyautZrebugbAcooLs29dMQ9-BXw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: 377
 ht-degree: 0%
 
 ---
@@ -14,7 +23,7 @@ ht-degree: 0%
 
 編輯者：
 
-- [&#39;other_attribute_list_item&#39;](./jsons/editor/other_attribute_list_item.json)
+- [`other_attribute_list_item`](./jsons/editor/other_attribute_list_item.json)
 
   自訂顯示在「內容屬性」右側面板中「屬性」子區段下方的屬性組態。
 
@@ -50,39 +59,39 @@ ht-degree: 0%
 
 檢閱應用程式：
 
-- [&#39;inline_review_panel&#39;](./jsons/review_app/inline_review_panel.json)
+- [`inline_review_panel`](./jsons/review_app/inline_review_panel.json)
 
   調整稽核頁面的右側面板和Guides UI以顯示評論。
 
-- [&#39;annotation_toolbox&#39;](./jsons/review_app/annotation_toolbox.json)
+- [`annotation_toolbox`](./jsons/review_app/annotation_toolbox.json)
 
   設定包含按鈕的工具箱，以在稽核頁面上新增註解。
 
-- [&#39;review_comment&#39;](./jsons/review_app/review_comment.json)
+- [`review_comment`](./jsons/review_app/review_comment.json)
 
   修改稽核頁面上註解方塊的外觀和功能。
 
-- [&#39;comment_reply&#39;](./jsons/review_app/comment_reply.json)
+- [`comment_reply`](./jsons/review_app/comment_reply.json)
 
   自訂評論UI中的回覆區段。
 
-- [&#39;comment_new_reply&#39;](./jsons/review_app/comment_new_reply.json)
+- [`comment_new_reply`](./jsons/review_app/comment_new_reply.json)
 
   個人化文字區域，以建立現有評論的新回覆。
 
-- [&#39;review_toolbar&#39;](./jsons/review_app/review_toolbar.json)
+- [`review_toolbar`](./jsons/review_app/review_toolbar.json)
 
   自訂檢閱頁面頂端顯示的工具列。
 
-- [&#39;review_left_panels_container&#39;](./jsons/review_app/review_left_panels_container.json)
+- [`review_left_panels_container`](./jsons/review_app/review_left_panels_container.json)
 
   修改稽核頁面的左側面板，包括新增或移除特定面板。
 
-- [&#39;review_left_panel_topics&#39;](./jsons/review_app/review_left_panel_topics.json)
+- [`review_left_panel_topics`](./jsons/review_app/review_left_panel_topics.json)
 
   自訂檢閱頁面和「參考線」編輯器左側面板上的主題階層或清單。
 
-- [&#39;review_left_panel_item&#39;](./jsons/review_app/review_left_panel_item.json)
+- [`review_left_panel_item`](./jsons/review_app/review_left_panel_item.json)
 
   個人化主題清單中的個別專案，以提升使用性。
 
@@ -90,7 +99,7 @@ ht-degree: 0%
 
 對話方塊：
 
-- [&#39;save_revision&#39;](./jsons/dialogs/save_revision.json)
+- [`save_revision`](./jsons/dialogs/save_revision.json)
 
   管理「儲存修訂版本」對話方塊，此對話方塊會顯示最後一個檔案版本，並允許在儲存時進行更新。
 
@@ -98,11 +107,11 @@ ht-degree: 0%
 
 Widget：
 
-- [&#39;save_as_new_version&#39;](./jsons/widgets/save_as_new_version.json)
+- [`save_as_new_version`](./jsons/widgets/save_as_new_version.json)
 
   自訂顯示版本詳細資料的Widget，並提供更新或開啟「另存為新版本」對話方塊的選項。
 
-- [&#39;file_lock&#39;](./jsons/widgets/file_lock.json)
+- [`file_lock`](./jsons/widgets/file_lock.json)
 
   在編輯器工具列上定義檔案的鎖定/解鎖按鈕功能。
 
@@ -110,26 +119,26 @@ Widget：
 
 工具列：
 
-- [&#39;editor_toolbar&#39;](./jsons/toolbars/editor_toolbar.json)
+- [`editor_toolbar`](./jsons/toolbars/editor_toolbar.json)
 
   針對在網頁編輯器中開啟的檔案，個人化編輯器工具列。
 
-- [&#39;editor_tab_bar&#39;](./jsons/toolbars/editor_tab_bar.json)
+- [`editor_tab_bar`](./jsons/toolbars/editor_tab_bar.json)
 
   修改編輯器工具列上方的索引標籤列按鈕，包括「儲存全部」和「設定」選項。
 
-- [&#39;map_console_action_bar&#39;](./jsons/toolbars/map_console_action_bar.json)
+- [`map_console_action_bar`](./jsons/toolbars/map_console_action_bar.json)
 
   設定地圖主控台動作列中的按鈕，顯示預設集名稱、報表名稱、記錄計數和相關按鈕等資訊。
 
-- [&#39;map_console_navigation_bar&#39;](./jsons/toolbars/map_console_navigation_bar.json)
+- [`map_console_navigation_bar`](./jsons/toolbars/map_console_navigation_bar.json)
 
   自訂地圖主控台導覽列以顯示地圖名稱、用於變更地圖的下拉式清單，以及導覽至編輯器。
 
-- [&#39;home_navigation_bar&#39;](./jsons/toolbars/home_navigation_bar.json)
+- [`home_navigation_bar`](./jsons/toolbars/home_navigation_bar.json)
 
   管理Guides UI首頁上的導覽列，包括資料夾設定檔和概觀區段按鈕。
 
-- [&#39;file_mode_switcher&#39;](./jsons/toolbars/file_mode_switcher.json)
+- [`file_mode_switcher`](./jsons/toolbars/file_mode_switcher.json)
 
-  個人化模式切換器，以在每個開啟的檔案底部選取應用程式模式(例如，作者、Source、預覽)。
+  個人化模式切換器，以在每個開啟的檔案底部選取應用程式模式（例如，作者、Source、預覽）。

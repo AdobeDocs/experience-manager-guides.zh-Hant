@@ -2,10 +2,25 @@
 title: 發行說明 | 2025.08.0版Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解相容性矩陣，以及如何升級至2025.08.0版的Adobe Experience Manager Guides as a Cloud Service。
 exl-id: 8f58962c-5f49-4b48-a161-4a34cd3366cb
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/Arqmblggs3SIADT9DQpI3Bk7wOhnfvs9hpdIJx8V1Wc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 3%
+source-wordcount: 1041
+ht-degree: 4%
 
 ---
 
@@ -63,7 +78,7 @@ Experience Manager Guides會在升級最新（最新）版本的Experience Manag
 
 ### 透過servlet啟用指令碼觸發的步驟
 
-(僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用)
+（僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用）
 
 完成安裝後，您可以選擇點選觸發程式以開始翻譯工作：
 
@@ -98,11 +113,11 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 後續處理現有內容以使用中斷連結報告的步驟
 
-(僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用)
+（僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用）
 
 執行以下步驟後續處理現有內容並使用新的中斷連結報表：
 
-1. （選擇性）如果系統中有超過100,000個DITA檔案，請將`queryLimitReads`下的`queryLimitInMemory`和`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
+1. （選擇性）如果系統中有超過100,000個DITA檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`和`queryLimitInMemory`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
 
    - 使用安裝和設定Adobe Experience Manager Guides as a Cloud Service中&#x200B;*設定覆寫*&#x200B;區段提供的指示來建立設定檔。
    - 在設定檔中，提供下列（屬性）詳細資料以設定`queryLimitReads`和`queryLimitInMemory`選項：
@@ -114,7 +129,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server>//bin/guides/reports/upgrade`。
 
-1. 此API會傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. 此API會傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點 —  `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
 1. 工作完成後，先前的GET請求會成功回應。 如果作業由於某個原因而失敗，則可以從伺服器記錄中看到失敗。
@@ -123,13 +138,13 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 為現有內容建立索引，以使用「報表」標籤下新的尋找和取代與主題清單的步驟：
 
-(僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用)
+（僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用）
 
 執行以下步驟來索引現有內容，並在報表標籤底下的對應層級和主題清單中使用新的尋找和取代文字：
 
-1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編制索引，預設情況下，所有地圖都會編制索引|| 範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來為其編制索引，依預設所有地圖都會編制索引||範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`）
 
-1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
+1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。 請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
 1. 此API會傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`（例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 

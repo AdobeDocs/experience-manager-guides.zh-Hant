@@ -4,9 +4,24 @@ description: 瞭解如何從地圖控制面板建立EPUB預設集。 在Experien
 exl-id: b6fb5483-064e-4552-84c7-b6723b79d8c5
 feature: Publishing
 role: User
-source-git-commit: a953de289530457b257259bda3d9af2b68790592
+TQID: https://experienceleague.adobe.com/6pWrfsvrU35VShUQcyNZcQDdNbXTYIVyJJE6bwVZmSQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: 927
 ht-degree: 1%
 
 ---
@@ -43,8 +58,8 @@ ht-degree: 1%
 | 檔案名稱 | 指定您要用來儲存EPUB輸出的檔案名稱。<br><br>**注意**：如果您未提供檔案名稱，則會使用DITA map的標題來產生最終的EPUB輸出檔案名稱。 如果地圖沒有標題，則會使用DITA map的檔案名稱來命名最終EPUB輸出。 系統會使用系統中設定的規則來清除檔案名稱，以處理任何無效字元。 |
 | 轉換名稱 | 指定您要產生的輸出型別。 如果您想要使用自己的自訂外掛程式產生輸出（已整合在DITA-OT外掛程式中），則需要此專案。 例如，如果您要產生XHTML輸出，請指定`xhtml`。 如需DITA-OT中可用的轉換清單，請在OASIS DITA-OT使用手冊中檢視[DITA-OT轉換（輸出格式）](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.md)。 |
 | 清除DITA-OT暫存檔 | 選取此選項可清除DITA-OT產生的暫存檔案。 可以在輸出產生記錄中找到DITA-OT儲存暫存檔的位置。<br><br>如果您在透過DITA-OT產生輸出時發生錯誤，可以取消選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。 |
-| 執行後期產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。<br><br>**注意**：如需建立自訂輸出後產生工作流程的詳細資訊，請檢視「安裝與設定Adobe Experience Manager Guides as a Cloud Service」中的&#x200B;_自訂輸出後產生工作流程_。 |
+| 執行後期產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取在輸出產生工作流程完成後要執行的工作流程。<br><br>**注意**：如需建立自訂輸出後產生工作流程的詳細資訊，請在[安裝與設定Adobe Experience Manager Guides as a Cloud Service]中檢視&#x200B;_自訂輸出後產生工作流程_。 |
 | 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得詳細資料。 |
-| 屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會列在「屬性」欄位下方，並從下拉式清單中移除。 設定後，這些屬性也會複製到對映中的主題中。<br><br>**附註**：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資料檢視，請[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞至輸出。 |
+| 屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會列在「屬性」欄位下方，並從下拉式清單中移除。 設定之後，這些屬性也會複製到對映中的主題中。<br><br>**注意**：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資料檢視，請[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞至輸出。 |
 
 **父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

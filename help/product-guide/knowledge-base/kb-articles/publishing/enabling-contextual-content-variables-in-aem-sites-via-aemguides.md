@@ -4,10 +4,20 @@ description: 在從AEM Guides產生的AEM Sites頁面中使用內容變數(CCVAR
 feature: Web Editor
 role: User, Admin
 exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
-source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
+TQID: https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 1%
+source-wordcount: 497
+ht-degree: 2%
 
 ---
 
@@ -23,7 +33,7 @@ CCVAR可讓作者將動態變數插入其內容，這些動態變數會在執行
 
 ## 如何在AEM Guides產生的AEM Sites頁面中啟用CCVAR？
 
-考慮到AEM Guides是作為所有內容(包括AEM Sites、PDF或HTML5)的來源，若要在從AEM Guides產生的頁面上啟用CCVAR，您需要使用關鍵字來定義CCVAR名稱。 若要在參考線中執行此動作，請使用`<keydef>`元素在您的DITA map中定義&#x200B;**關鍵字**。 這些關鍵字可對應至動態值（或CCVAR名稱），可讓您在DITA主題中參照它們。
+考慮到AEM Guides是作為所有內容（包括AEM Sites、PDF或HTML5）的來源，若要在從AEM Guides產生的頁面上啟用CCVAR，您需要使用關鍵字來定義CCVAR名稱。 若要在參考線中執行此動作，請使用`<keydef>`元素在您的DITA map中定義&#x200B;**關鍵字**。 這些關鍵字可對應至動態值（或CCVAR名稱），可讓您在DITA主題中參照它們。
 
 
 ## 必要條件
@@ -36,14 +46,14 @@ CCVAR可讓作者將動態變數插入其內容，這些動態變數會在執行
 2. **內容變數設定**：
    - 使用[正式檔案](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)在AEM中完成&#x200B;**內容變數**&#x200B;的設定。 其中包括：
       - 正在啟用&#x200B;**屬性彙總**。
-      - 正在設定&#x200B;**HTML重寫** (如果使用HTML輸出)。
+      - 正在設定&#x200B;**HTML重新寫入** （如果使用HTML輸出）。
       - 正在設定&#x200B;**JSON重新寫入** （若使用JSON輸出）。
 
 
 
 ## 在AEM Guides中啟用CCVAR的步驟
 
-### 1.在DITA Map中定義關鍵字
+### &#x200B;1. 在DITA Map中定義關鍵字
 
 - 在AEM Guides中，使用DITA map中的`<keydef>`元素定義關鍵字，以對應至CCVAR。
 - 例如：
@@ -61,7 +71,7 @@ CCVAR可讓作者將動態變數插入其內容，這些動態變數會在執行
 - `keys`屬性（在此範例中為`product`）將用於在DITA主題中參考此變數。
 
 
-## 2.在DITA主題中使用關鍵字
+## &#x200B;2. 在DITA主題中使用關鍵字
 
 - 在主題中，使用CCVar的任何位置都使用關鍵字。
 - 例如：
@@ -74,7 +84,7 @@ CCVAR可讓作者將動態變數插入其內容，這些動態變數會在執行
 - 在產生輸出期間，關鍵字將替換為對應的CCVar值。
 
 
-## 3.產生輸出
+## &#x200B;3. 產生輸出
 
 - 當您產生AEM Sites的輸出時，關鍵字參照將會解析為相應的動態值。
 - 例如：

@@ -1,10 +1,23 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides 5.1.0 Service Pack 3版本的升級指示
 description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides的5.1.0 Service Pack 3版本。
-source-git-commit: 7ffaa292f2323a9d4b166ab20d20c986752c1c1d
+exl-id: 2452da05-36f2-4df3-aee9-918072a67d9c
+TQID: https://experienceleague.adobe.com/qFrmvlpp7uxkLs2KXq3ItTVD6LxteJkMUuKdtmN9JY4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 3%
+source-wordcount: 595
+ht-degree: 4%
 
 ---
 
@@ -12,7 +25,7 @@ ht-degree: 3%
 
 本文介紹Adobe Experience Manager Guides 5.1.0 Service Pack 3版的升級指示和相容性矩陣。
 
-如需此版本中已修正的問題清單，請檢視5.1.0 Service Pack 3版本[中的](../release-info/fixed-issues-5-1-0-sp3.md)已修正問題。
+如需此版本中已修正的問題清單，請檢視5.1.0 Service Pack 3版本[&#128279;](../release-info/fixed-issues-5-1-0-sp3.md)中的已修正問題。
 
 ## 相容性矩陣
 
@@ -21,7 +34,7 @@ ht-degree: 3%
 | AEM Guides | AEM 版本 | Service Pack |
 | --- | --- | --- |
 | 5.1.0 Service Pack 3 (UUID) | 6.5 LTS | 1 |
-| 5.1.0 Service Pack 3 (UUID) | 6.5 | 23， 22， 21 |
+| 5.1.0 Service Pack 3 (UUID) | 6.5 | 23, 22, 21 |
 
 如需詳細資訊，請檢視On-Premise Installation and Configuration Guide中的[技術需求](../install-guide/download-install-technical-requirements.md)區段。
 
@@ -61,7 +74,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> 如果您目前使用AEM 6.5並計畫移至AEM 6.5 LTS，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您目前使用AEM 6.5並計畫移至AEM 6.5 LTS，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 在繼續升級至Experience Manager Guides 5.1.0 Service Pack 3版之前，您必須先考量下列幾點：
 
@@ -71,10 +84,10 @@ ht-degree: 3%
 - 如果您是使用4.3.x、4.2、4.2.1 (Hotfix 4.2.1.3)、4.1或4.1.x版，則必須先升級至4.4版，才能升級至5.0.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
+- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
 
 >[!NOTE]
 >
 > 您必須先安裝AEM Service Pack，才能升級Experience Manager Guides版本。
 
-如需詳細資訊，請檢視Experience Manager Guides內部部署版本[的](../install-guide/upgrade-xml-documentation.md)升級指示。
+如需詳細資訊，請檢視Experience Manager Guides內部部署版本[&#128279;](../install-guide/upgrade-xml-documentation.md)的升級指示。

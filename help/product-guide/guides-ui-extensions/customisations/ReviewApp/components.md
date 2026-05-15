@@ -3,9 +3,16 @@ title: 元件
 description: 檢閱應用程式元件
 role: User, Admin
 exl-id: 78d626f9-9f96-4748-a268-39fa57aef495
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/wyDhZj81cM5IPso-L08mb2ecyc6PcmaG-F802GMwX-k
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: 127
 ht-degree: 0%
 
 ---
@@ -35,15 +42,12 @@ ht-degree: 0%
 
 - 評論回覆： `id: comment_reply`
    - 每個評論回覆的Widget。
-
      ![檢閱評論回覆熒幕擷圖](./imgs/reply.png)
 
 - 新的評論回覆： `id: comment_new_reply`
    - 新評論回覆的Widget。
-
      ![新的評論回覆熒幕擷圖](./imgs/new_reply.png)
 
 - 註解工具箱： `id: annotation_toolbox`
    - 檢閱應用程式右上方的工具列。
-
      ![註解工具箱熒幕擷圖](./imgs/annotation_toolbox.png)

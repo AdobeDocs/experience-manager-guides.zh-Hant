@@ -4,10 +4,21 @@ description: 10月發行的Adobe Experience Manager Guides as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/w-fw81jYGDRDrmn98Dzn-hYIkOZzT0B3-4-y-bcxdz4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 1%
+source-wordcount: 489
+ht-degree: 3%
 
 ---
 
@@ -15,9 +26,9 @@ ht-degree: 1%
 
 ## 升級至10月版
 
-請升級您目前的Adobe Experience Manager Guides as a Cloud Service (稍後稱為&#x200B;*AEM Guides as a Cloud Service*)安裝程式，方法是執行下列步驟：
+請升級您目前的Adobe Experience Manager Guides as a Cloud Service （稍後稱為&#x200B;*AEM Guides as a Cloud Service*）安裝程式，方法是執行下列步驟：
 1. 請檢視雲端服務的Git程式碼，並切換至雲端服務管道中設定且與您要升級的環境對應的分支。
-1. 將Cloud Services Git程式碼的`<dox.version>`檔案中的`/dox/dox.installer/pom.xml`屬性更新為2022.10.183。
+1. 將Cloud Services Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2022.10.183。
 1. 確認變更並執行雲端服務管道，以升級至10月版的AEM Guides as a Cloud Service。
 
 ## 相容性矩陣
@@ -63,12 +74,12 @@ AEM Guides as a Cloud Service在10月版本中提供增強功能和新功能：
 
 以下列出各種區域中修正的錯誤：
 
-* 原生PDF | 從PDF輸出移除僅限資源的主題時發生錯誤。 (10554)
-* 原生PDF | PDF輸出中出現空白的Keyref。 (10553)
-* 原生PDF | 未接受`navtitle`的`topichead`。 (10509)
-* 原生PDF | amd64 JDK風格所需的支援。 (10465)
-* 原生PDF | 無法從目錄隱藏重要主題。 (10355)
-* 原生PDF | 重新啟動章節配置中的頁碼會從上一個章節的結尾開始隨機編號。 (10154)
-* Chrome瀏覽器 | 從UI拖放任何元素時，畫面會變成空白。 例如，從「條件」面板拖曳條件時。 (10524)
+* 原生PDF |從PDF輸出移除僅限資源的主題時發生錯誤。 (10554)
+* 原生PDF |PDF輸出中出現空白的Keyref。 (10553)
+* 原生PDF | `topichead`的`navtitle`未接受。 (10509)
+* 原生PDF |支援amd64 JDK風格。 (10465)
+* 原生PDF |無法從目錄隱藏重要主題。 (10355)
+* 原生PDF |重新啟動章節配置中的頁碼會從上一個章節的結尾開始隨機編號。 (10154)
+* Chrome瀏覽器 |從UI拖放任何元素時，畫面會變成空白。 例如，從「條件」面板拖曳條件時。 (10524)
 * 資產執行複製貼上操作後，節點屬性會被移除。 (10053)
 * 按一下&#x200B;**關閉**&#x200B;時，系統會將使用者重新導向至資產 — 已更正體驗，將使用者帶至AEM首頁。 (9654)

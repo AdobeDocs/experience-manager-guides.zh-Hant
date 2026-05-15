@@ -1,14 +1,36 @@
 ---
-title: 發行說明 | 已修正Adobe Experience Manager Guides 4.6.0版本中的問題
+title: 發行說明 |已修正Adobe Experience Manager Guides 4.6.0版本中的問題
 description: 瞭解Adobe Experience Manager Guides 4.6.0版的錯誤修正
 role: Leader
-source-git-commit: d51cc5ed621d5f533815c677e23bd4c1f4a52de3
+exl-id: fd12d627-5163-4edd-b28e-bef13267fcc9
+TQID: https://experienceleague.adobe.com/zaQd6UfebgClEP7JxSWRwsGqIziDkIN3QLLP-iGufhM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 0%
+source-wordcount: 2019
+ht-degree: 5%
 
 ---
-
 
 # 已修正4.6.0版（2024年9月）中的問題
 
@@ -37,7 +59,7 @@ ht-degree: 0%
 - 當範本透過程式碼安裝但保持未處理狀態時，由於重複的GUID會發生內容刪除。 (15858)
 - Experience Manager Guides無法在&#x200B;**預覽**&#x200B;模式中遵守&#x200B;**處理角色**&#x200B;屬性。 (15787)
 - 編輯器會斷斷續續地刪除所選區域以外的額外文字。 (15708)
-- 無法從Word檔案複製大型表格或將其HTML至Web編輯器。 (15369)
+- 無法從Word檔案或HTML複製大型表格並貼到網頁編輯器中。 (15369)
 - 缺少API或事件來擷取元素中新增的屬性或新元素的插入。 (15351)
 - 無法在Web編輯器的`<ol>`標籤中新增`<data>`標籤。 (15161)
 - **Element**&#x200B;預留位置元件導致UI凍結。 (14957)
@@ -50,7 +72,7 @@ ht-degree: 0%
 - 在來源檢視中，`</conbody>`偶爾會插入不正確的位置。 (11305)
 - 元件路徑`/libs/fmdita/components/versions`已硬式編碼，使用者無法覆蓋它。 (8779)
 - 在DITA map中參考之主題的`<conref>`未反映在編輯器內的預覽中。 (17794)
-- 使用自動縮排功能後，Experience ManagerDITA輔助線無法觸發「儲存」功能。 (16482)
+- 使用自動縮排功能後，Experience Manager DITA Guide無法觸發「儲存」功能。 (16482)
 - 工具提示功能無法更新XML編輯器中的Source欄位。 (15847)
 - **共用UUID連結**&#x200B;功能無法用於Adobe Experience Manager中的影像。 (15598)
 - 在&#x200B;**作者**&#x200B;檢視中，使用不斷行空格時會發生複製並貼上問題，導致文字溢位。 (15541)
@@ -62,14 +84,14 @@ ht-degree: 0%
 - 進行變更時，無法從&#x200B;**屬性**&#x200B;面板更新`<conref>`。 (15209)
 - 在表格儲存格內選取影像時，會選取整個儲存格。 (15188)
 - **屬性**&#x200B;面板未顯示在網頁編輯器的Source檢視中。 (14387)
-- 使用`<keyref>`新增的`<Topicref>`未以原生PDF顯示。 (11974)
+- 使用`<keyref>`新增的`<Topicref>`未顯示在原生PDF中。 (11974)
 - 在網頁編輯器中的標籤結尾編輯時，會新增不想要的不間斷空格。 (11786)
 - 修正DITA檔案中的拼字錯誤時會刪除內容。 (11610)
 - 在新的索引標籤中開啟DITA主題或地圖進行編輯，會凍結Assets UI中的選取範圍導覽。 (4992)
 - 刪除檢閱節點會中斷在Adobe Experience Manager Guides中開啟和檢視註解的能力。 (15366)
 - DITA版本在Assets UI中錯誤顯示使用者名稱。 (17580)
 - 將`<fig>`元素插入為程式碼片段時，會自動新增`<title>`元素。 (18562)
-- 將含有密集資料集的大量檔案上傳到Experience Manager Guides時發生問題。(17008)
+- 將大量具有密集資料集的檔案上傳到Experience Manager Guides時發生問題。(17008)
 - 依預設，Web編輯器無法顯示正確的關鍵字，尤其是在子對映中的關鍵字定義不同時。 (14748)
 - 從Web編輯器的[地圖]檢視大量編輯50個以上檔案的內容時，不會顯示&#x200B;**檔案狀態**。 (14574)
 - 使用「自動儲存」功能時，「關閉」按鈕的行為不一致。 (10996)
@@ -79,12 +101,12 @@ ht-degree: 0%
 
 ## 發佈
 
-- 原生PDF輸出中未解析索引鍵的互動參照。 (18087)
+- 在原生PDF輸出中，索引鍵的互動參照無法解析。 (18087)
 - 在Salesforce中重新發佈現有文章時，會間歇性地發生&#x200B;**duplicate_value**&#x200B;錯誤。 (17932)
 - Salesforce連線驗證因閃電URL而失敗。 (17797)
-- 選取topicmeta **中新增的**&#x200B;使用中繼資料選項時，中繼資料屬性不會傳播至原生PDF輸出的檔案屬性。(17283)
+- 選取&#x200B;**使用新增至topicmeta**&#x200B;的中繼資料選項時，中繼資料屬性不會傳播至原生PDF輸出的檔案屬性。(17283)
 - 與DITA-OT相比，原生PDF輸出中的條件篩選無法如預期運作。 (17095)
-- TOC未遵循原生PDF輸出中的`<sub>`或`<sup>`標籤。 (17028)
+- TOC沒有遵循原生PDF輸出中的`<sub>`或`<sup>`標籤。 (17028)
 - 互動對應連結無法針對具有`scope="peer"`的連結，在發佈內容設定中顯示所有父對應。 (16700)
 - AEM網站產生和增量發佈API無法如預期運作。 (16666)
 - 啟用&#x200B;**刪除孤立網站**&#x200B;選項時，AEM網站輸出產生失敗。 (15896)
@@ -97,17 +119,17 @@ ht-degree: 0%
 - 使用大型樣式表或版面配置範本時，原生PDF產生失敗。 (15344)
 - 如果`<conref>`與絕對路徑一起使用，則發佈輸出中的內容無法正確轉譯。 (15222)
 - 由於`fmdita rewriter`和`ResourceResolver`之間發生衝突，AEM Sites URL縮短無法運作。 (14793)
-- 原生PDF產生失敗，並出現與取得Node.js的相依性相關的錯誤。 (14445)
+- 原生PDF產生失敗，並出現與取得Node.js相依性相關的錯誤。 (14445)
 - **processing-role=&quot;resource-only&quot;**、**search=&quot;no&quot;**&#x200B;和&#x200B;**chunk=&quot;to-content&quot;**&#x200B;屬性在AEM Sites輸出中分別出現不正。 (14442)
 - 在Web編輯器和原生PDF輸出的`Preview`模式中，`<Conref>`未解析。 (17827)
 - 在原生PDF中，巢狀DITA主題在目錄(TOC)中無法正確顯示。 (16742)
 - 從&#x200B;**Dynamic Media**&#x200B;針對視訊檔案產生的縮圖無法保留在已發佈的輸出中。 (15656)
-- 在大量啟用已發佈內容期間，參考的PDF並未從&#x200B;**大量Publish儀表板**&#x200B;啟用。 (17793)
+- 在大量啟用已發佈內容期間，參考的PDF未從&#x200B;**大量發佈儀表板**&#x200B;啟用。 (17793)
 - 如果在任何資料夾設定檔內的資料夾路徑中設定了包含2k個地圖的資料夾，則套用至輸出預設集的變更會失敗。 (14852)
 - 由於OOTB重新產生主題或增量發佈API失敗，主題重新產生失敗。 (18452)
 - 升級Experience Manager Guides後，條件預設集沒有擷取更新的屬性。 (18174)
 - 如果包含索引鍵定義的檔案與DITA map不在相同的資料夾中，則無法正確解析原生PDF輸出的內容參照。 (15062)
-- 大量的Publish儀表板對於仍在翻譯過程中的地圖顯示為空白。 (19352)
+- 大量發佈儀表板對於仍在翻譯過程中的地圖顯示空白。 (19352)
 - 大量啟用已發佈內容的功能，無法用於當地語系化地圖。 (17638)
 
 
@@ -115,7 +137,7 @@ ht-degree: 0%
 ## 管理
 
 
-- DITA轉換的InDesign具有硬式編碼組態路徑，因此不會挑選自訂組態檔案。 (16891)
+- InDesign至DITA轉換有硬式編碼的設定路徑，因此不會挑選自訂設定檔案。 (16891)
 - 未關閉的&#x200B;**資源解析器**&#x200B;會導致工作階段計數增加，且Experience Manager Guides 4.3.1版本之後會出現`PathNotFoundException`個錯誤。 (15604)
 - 在大型存放庫中安裝Guides套件時發生錯誤。 (15160)
 - 使用Java API建立基準線不適用於Experience Manager Guides。 (14787)
@@ -127,7 +149,7 @@ ht-degree: 0%
 - 包含URL中具有%20的外部參照的主題會顯示損毀的檔案參照。 (15347)
 - fmditaMaprefs和fmditakeydefrefs屬性會顯示相對路徑，儘管已設定DITA map和主題的絕對路徑。 (18353)
 - 覆蓋功能的路徑以硬式編碼撰寫朝鮮文檔案，因此未正確選取。 (17089)
-- 在Web編輯器中，建立基準線的預設時間顯示為00:00，而不是目前時間。 (15215)
+- 在Web編輯器中，基準線建立的預設時間顯示為00:00，而不是目前時間。 (15215)
 
 ## 檢閱
 
@@ -141,7 +163,7 @@ ht-degree: 0%
 
 - 翻譯資產的參考資料不會更新。 (18086)
 - 無法使用人工翻譯建立XLIFF專案。 (16964)
-- 具有`<conref>`或`<conkeyref>`的標題不會在網頁編輯器的基準線和轉譯控制面板中解析。 (16961， 16879)
+- 具有`<conref>`或`<conkeyref>`的標題不會在網頁編輯器的基準線和轉譯控制面板中解析。 (16961, 16879)
 - 翻譯專案無法透過Experience Manager Guides 4.3.1版將新語言工作新增至Adobe Experience Manager 6.5 SP18。 (15398)
 - **接受翻譯**&#x200B;無法完成暫存檔的翻譯。 (14665)
 - 在作用中翻譯專案中新增更新主題會導致重複的主題，流程會失敗。 (7688)
@@ -163,8 +185,4 @@ Adobe已找出下列4.6.0版的已知問題：
 - 從DITA map的頂端工具列插入時，主題參照在使用者介面中顯示為已損毀。
 - 如果DITA map遺失參照，則原生PDF產生會失敗。
 - 一旦主題的檔案狀態更新為&#x200B;**完成**，**開始新的版本**&#x200B;圖示就只能用於主題的&#x200B;**預覽**&#x200B;模式。
-- 在資產UI中選取DITA檔案時，會出現&#x200B;**在FrameMaker**&#x200B;中開啟選項，即使它在組態設定中已停用。
-
-
-
-
+- 在資產UI中選取DITA檔案時，即使組態設定中停用選項&#x200B;**「在FrameMaker中開啟」**，也會出現。

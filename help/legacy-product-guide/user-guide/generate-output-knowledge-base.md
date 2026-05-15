@@ -5,9 +5,24 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/HJXph-LwnRky6LmJspO7ipWaeTAAuloZb5paG6HqZJQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: e2fdbf15-a7e4-4d2a-84cc-bd581e74b56d
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: 1166
 ht-degree: 2%
 
 ---
@@ -73,15 +88,15 @@ ht-degree: 2%
 | 文章路徑 | 如果您選取&#x200B;**使用文章路徑**&#x200B;選項，就會顯示此欄位。 瀏覽並選取Adobe Experience Manager存放庫內的知識庫網站，此知識庫網站會儲存輸出。 |
 | 網站 | 使用此欄位來選取必要的Adobe Experience Manager知識庫。 您可以在Adobe Experience Manager網站中設定知識庫，以根據許可權儲存內容。 此DITA map中的文章可發佈至這些知識庫。 |
 | 類別 | 從下拉式清單中選取類別，即可在Adobe Experience Manager網站上發佈該類別中目錄的主題。 |
-| Section Template and Article Template | 這些是用來組織輸出內容的結構元件。 These are predefined in the Adobe Experience Manager Site template. |
-| 貼文產生工作流程 | When you choose this option, a new Post Generation Workflow dropdown list containing all workflows configured in Adobe Experience Manager  is displayed . 您必須選取要在輸出產生工作流程完成後執行的工作流程。<br>Learn more about how to [customize post-output generation workflow](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) section in the Installation and Configuration Guide. |
+| 章節範本和文章範本 | 這些是用來組織輸出內容的結構元件。 這些範本已在Adobe Experience Manager網站範本中預先定義。 |
+| 貼文產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含Adobe Experience Manager中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。<br>進一步瞭解如何在安裝與設定指南中[自訂輸出後產生工作流程](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)區段。 |
 
 >[!TIP]
 > 
->Select **Refresh** ![refresh icon](images/navtitle-refresh-icon.svg) to populate the respective templates in the fields as per the Knowledge Base template that you have selected.
+>選取&#x200B;**重新整理** ![重新整理圖示](images/navtitle-refresh-icon.svg)，以依照您選取的知識庫範本填入欄位中的個別範本。
 
 ### 文章
 
-This tab displays the tree or hierarchical view of the map. Choose the topics you want to publish to a knowledge base. Expand a TOC node and choose the topics that you want to publish.
+此索引標籤會顯示對映的樹狀結構或階層檢視。 選擇您要發佈至知識庫的主題。 展開TOC節點並選擇要發佈的主題。
 
 **父級主題：** [瞭解輸出預設集](generate-output-understand-presets.md)

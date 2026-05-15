@@ -1,17 +1,33 @@
 ---
-title: 發行說明 | 已修正Adobe Experience Manager Guides 2024.4.0版本中的問題
+title: 發行說明 |修正2024.4.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2024.04.0版中的錯誤修正。
 exl-id: 35351d71-7739-4ad3-a063-67adf64906bf
-source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
+TQID: https://experienceleague.adobe.com/cHKuFCElWbjxik0EHgoTrtlq2t3I62LQ5zUArzBoMqk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 3%
+source-wordcount: 577
+ht-degree: 8%
 
 ---
 
 # 已修正2024.04.0版本中的問題
 
-本文介紹2024.04.0版Adobe Experience Manager Guides as a Cloud Service中多個區域修正的錯誤。
+本文介紹2024.04.0版Adobe Experience Manager Guides as a Cloud Service中不同區域修正的錯誤。
 
 如需新功能和增強功能的詳細資訊，請參閱 [2024.04.0 版本中的新增功能](whats-new-2024-04-0.md)。
 
@@ -51,9 +67,9 @@ ht-degree: 3%
 
 ## 管理
 
-- 未關閉的&#x200B;**資源解析器**&#x200B;會造成工作階段計數增加，且2023年10月發行的Experience Manager Guidesas a Cloud Service中出現PathNotFoundException錯誤。 (15604)
+- 2023年10月發行的Experience Manager Guides as a Cloud Service中，未關閉的&#x200B;**資源解析器**&#x200B;會導致工作階段計數增加，並出現PathNotFoundException錯誤。 (15604)
 - 功能標幟&#x200B;**fmdita.useapproval**&#x200B;未如預期運作。 (15310)
-- 使用Java API建立基準線在2023年6月版本的Experience Manager Guidesas a Cloud Service中無法運作。 (14787)
+- 使用Java API建立基準線在2023年6月發行的Experience Manager Guides as a Cloud Service中無法運作。 (14787)
 - 當上傳的資產超過500 MB時，`/bin/fmdita/import` API會無限期地停滯在待處理要求中。 (14743)
 
 ## 檢閱
@@ -61,6 +77,6 @@ ht-degree: 3%
 - 刪除檢閱節點會中斷在Adobe Experience Manager Guides中開啟和檢視註解的能力。 (15366)
 - 在Web編輯器中，「稽核」面板載入緩慢。 (14680)
 
-## 轉換
+## 翻譯
 
 - **接受翻譯**&#x200B;無法完成暫存檔的翻譯。 (14665)

@@ -2,9 +2,15 @@
 title: 範例
 description: 自訂範例清單
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
-source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
+TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -17,7 +23,7 @@ ht-degree: 0%
 在此範例中，我們已自訂`file_options`內容功能表，以移除`Delete`和`Edit`選項，並將`Duplicate`選項取代為`Download`選項。
 
 2. [左側面板](./examples/left_panel_container.ts)
-在此範例中，我們已自訂`left tab panel`，讓另一個`tab`名為「TEST EXTENSION」，以及對應的`tab panel`有標籤： `Test Tab Panel`
+在此範例中，我們已自訂`left tab panel`，讓另一個`tab`名為「TEST EXTENSION」，以及對應的`tab panel`，其標籤為： `Test Tab Panel`
 
 3. [右側面板](./examples/right_panel_container.ts)
 在此範例中，我們已自訂`right tab panel`，讓另一個`tab`名為「TEST EXTENSION」，以及對應的`tab panel`有標籤： `New Tab Panel`
@@ -35,14 +41,14 @@ ht-degree: 0%
 1. [註解工具箱](./examples/review_app_examples/annotation_extension.ts)
 在此範例中，我們已將另一個按鈕新增至註解工具箱，以開啟AEM中的目前稽核主題。
 
-2. [檢閱評論](./examples/review_app_examples/review_comment.ts)
+2. [評論內容](./examples/review_app_examples/review_comment.ts)
 在此範例中，我們已新增以使用者資訊（包含評論者的全名和標題）取代使用者名稱、新增唯一評論ID、mailTo圖示，以及新增用於提及評論嚴重性和理由的輸入欄位。
 我們也在開啟對話方塊的XMLEditor側之註解上新增了`accept with modification`按鈕。
 
-3. [註解回覆](./examples/review_app_examples/comment_reply.ts)
+3. [個註解回覆](./examples/review_app_examples/comment_reply.ts)
 在此範例中，我們已新增以使用者資訊取代使用者名稱（包含評論者的完整名稱和標題），並在評論標題中新增mailTo圖示。
 
-4. [內嵌稽核面板](./examples/review_app_examples/inline_review_panel.ts)
+4. [內嵌檢閱面板](./examples/review_app_examples/inline_review_panel.ts)
 在此檔案中，我們會計算並指派在`Review Comment`和`Comment Reply`範例中提及的唯一註解ID。
    - `setCommentId`方法會根據註解計數，為每個註解設定唯一的註解ID。
 

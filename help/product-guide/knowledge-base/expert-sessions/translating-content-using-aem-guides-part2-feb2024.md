@@ -2,9 +2,17 @@
 title: 在指南中翻譯內容 — 第2部分
 description: 瞭解如何將您的內容翻譯成多種語言。
 exl-id: b61d4432-62bf-4fb5-8264-ac50dc93215b
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/-YCZOrjFXDvZ7A3H7Eqf1nr6cC-g67CPNT0qYOGRVGA
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: 217
 ht-degree: 1%
 
 ---
@@ -37,7 +45,7 @@ AEM Guides隨附強大的功能，可讓您將內容翻譯成多種語言。 AEM
 
 ## 相關資源
 
-- **檔案** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=zh-Hant)
+- 在Experience League[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=zh-Hant)上&#x200B;**檔案** - 
 
 - **社群論壇** — 若為Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hant)。
 

@@ -4,9 +4,23 @@ description: 瞭解如何在編輯器工具列中新增自訂按鈕，並呼叫j
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
 feature: Web Editor
 role: User, Admin
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7NqswCerJdfej5j4XqnPhHzvvAkhlThHAUY3iQYL3t0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: 553
 ht-degree: 0%
 
 ---
@@ -57,7 +71,7 @@ ht-degree: 0%
 }
 ```
 
-[使用此連結來進一步瞭解資料夾設定檔和設定ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=zh-Hant)
+[使用此連結來進一步瞭解資料夾設定檔和設定ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### 處理新按鈕的點按事件
@@ -65,7 +79,7 @@ ht-degree: 0%
 注意：以下提及的步驟可作為此貼文附加的套件提供
 
 
-- 儲存資料夾設定檔後，在專案目錄（可能在:ClientLibraryFolder/apps *下）下建立「cq*」並新增屬性，如下列熒幕擷取所示：
+- 儲存資料夾設定檔後，在專案目錄（可能在&#x200B;*/apps*&#x200B;下）下建立「cq:ClientLibraryFolder」並新增屬性，如下列熒幕擷取所示：
   ![Webeditor的使用者端資料庫設定](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```

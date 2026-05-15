@@ -4,9 +4,28 @@ description: 瞭解編輯器中的左側面板。 瞭解Adobe Experience Manager
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: d369972ced74b8a66280c018fc7ab29b174da36e
+TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '11080'
+source-wordcount: 11080
 ht-degree: 0%
 
 ---
@@ -246,7 +265,7 @@ ht-degree: 0%
    - 主題將依據的範本。 例如，對於現成可用的設定，您可以從「空白」、「概念」、「DITAVAL」、「參考」、「任務」、「主題」、「Markdown」、「字彙表」和「疑難排解」範本中選擇。 如果您的資料夾上設定了「資料夾設定檔」，則您將只會檢視在「資料夾設定檔」上設定的主題範本。
 
    - 您要儲存主題檔案的路徑。 依預設，存放庫中目前所選資料夾的路徑會顯示在「路徑」欄位中。
-1. 選擇 **建立**。 主題是在指定的路徑中建立。 此外，主題也會在編輯器中開啟以進行編輯。
+1. 選取「**建立**」。 主題是在指定的路徑中建立。 此外，主題也會在編輯器中開啟以進行編輯。
 
 </details>
 
@@ -266,7 +285,7 @@ ht-degree: 0%
    - *\(Optional\)*&#x200B;對應的檔案名稱。 會根據地圖示題自動建議檔案名稱。 如果您的管理員已根據UUID設定啟用自動檔案名稱，則您將不會檢視「名稱」欄位。
    - 作為地圖基礎的範本。 例如，對於現成可用的設定，您可以從Bookmap或DITA map範本中選擇。
    - 您要儲存地圖檔案的路徑。 依預設，存放庫中目前所選資料夾的路徑會顯示在「路徑」欄位中。
-4. 選擇 **建立**。 會在路徑欄位中指定的資料夾中建立並新增對應。 此外，對應會在「對應」檢視中開啟。 您可以在地圖編輯器中開啟地圖檔案，並在其中新增主題。 如需新增主題至地圖檔案的詳細資訊，請檢視[建立地圖](map-editor-create-map.md#)。 或者，選取&#x200B;**在地圖主控台中開啟**，在地圖主控台中開啟地圖。
+4. 選取「**建立**」。 會在路徑欄位中指定的資料夾中建立並新增對應。 此外，對應會在「對應」檢視中開啟。 您可以在地圖編輯器中開啟地圖檔案，並在其中新增主題。 如需新增主題至地圖檔案的詳細資訊，請檢視[建立地圖](map-editor-create-map.md#)。 或者，選取&#x200B;**在地圖主控台中開啟**，在地圖主控台中開啟地圖。
 </details>
 
 <details>
@@ -282,7 +301,7 @@ ht-degree: 0%
 3. 在&#x200B;**新資料夾**&#x200B;對話方塊中，提供下列詳細資料：
    - 資料夾的標題，會自動轉換為資料夾名稱。
    - 您要儲存資料夾的路徑。 依預設，存放庫中目前所選資料夾的路徑會顯示在「路徑」欄位中。
-4. 選擇 **建立**。 會在執行「建立資料夾」選項的資料夾中建立並新增資料夾。
+4. 選取「**建立**」。 會在執行「建立資料夾」選項的資料夾中建立並新增資料夾。
 
 </details>
 

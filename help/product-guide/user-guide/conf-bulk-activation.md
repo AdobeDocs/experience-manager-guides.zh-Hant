@@ -4,9 +4,21 @@ description: 瞭解如何大量啟用已發佈的內容。 瞭解AEM指南中大
 exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+TQID: https://experienceleague.adobe.com/aej08Yf6y-FJSKLWfNcDfeqrn80yeY-YZLXRSdFY5Sg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 266
 ht-degree: 0%
 
 ---
@@ -17,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如需有關如何在Adobe Experience Manager中設定作者與發佈執行個體的詳細資訊，請檢視[作者與發佈架構概覽](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=zh-Hant#prerequisites)。
+> 如需有關如何在Adobe Experience Manager中設定作者與發佈執行個體的詳細資訊，請檢視[作者與發佈架構概覽](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)。
 
 透過Experience Manager Guides的大量啟動功能，您可以快速輕鬆地啟動從製作到發佈執行個體的內容。 大量啟動功能可讓您靈活地：
 

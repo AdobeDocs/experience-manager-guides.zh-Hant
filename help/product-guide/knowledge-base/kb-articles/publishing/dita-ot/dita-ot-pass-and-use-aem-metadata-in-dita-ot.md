@@ -1,13 +1,27 @@
 ---
 title: 將AEM Assets中繼資料傳播至DITA-OT外掛程式產生的輸出
 description: 在AEM中設定DITA-OT外掛程式和內容，以將中繼資料推送至產生的輸出
-source-git-commit: b48f5a342989d3be48bbc1e8af51a2ce477d0ac7
+exl-id: ba9db5a1-f499-48d9-976c-528fe56fd619
+TQID: https://experienceleague.adobe.com/tK5b6Z1zdJVa7ghEx4CEYELjpSO2D1ZJVdWKd3NNxvg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: 971
 ht-degree: 0%
 
 ---
-
 
 # 將AEM Assets中繼資料傳播至DITA-OT外掛程式產生的輸出
 
@@ -22,12 +36,12 @@ ht-degree: 0%
 ## 背景
 
 透過AEM Guides，您可以使用DITA-OT外掛程式，透過已設定的外掛程式，發佈至您選擇的輸出格式，並且
-您也可以將在AEM DAM中管理的資產的中繼資料傳遞至DITA-OT程式，以便在產生的輸出中使用它 — 請參閱有關[如何設定ditamap/主題以透過輸出預設集傳遞中繼資料的檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+您也可以將在AEM DAM中管理的資產中繼資料傳遞至DITA-OT程式，以便在產生的輸出中使用它 — 請參閱有關[如何設定ditamap/主題以透過輸出預設集傳遞中繼資料的檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## 假設
 
-您已使用AEM Guides版本4.4.0/2024.6或更高版本進行AEM設定
+您已使用AEM Guides版本4.4.0/2024.6或更新版本進行AEM設定
 您事先瞭解DITA-OT的運作方式及其目錄結構
 
 
@@ -35,7 +49,7 @@ ht-degree: 0%
 
 ### 在資產上設定中繼資料
 
-使用AEM Assets中繼資料結構，您可以在AEM中為Assets建立自訂屬性欄位，使用者可以將中繼資料指派給資產。 以&#x200B;_主題_&#x200B;資產為例，其中可設定名稱為&#x200B;_customprop_&#x200B;的中繼資料為範例，請參考下方的熒幕擷圖：
+透過AEM Assets中繼資料結構，您可以在AEM中為Assets建立自訂屬性欄位，使用者可以將中繼資料指派給資產。 以&#x200B;_主題_&#x200B;資產為例，其中可設定名稱為&#x200B;_customprop_&#x200B;的中繼資料為範例，請參考下方的熒幕擷圖：
 
 ![在中繼資料編輯器中設定資產的屬性](../../assets/publishing/assets-metadata-properties-ui-customprop.png)
 
@@ -47,7 +61,7 @@ ht-degree: 0%
 請參閱下方的熒幕擷圖，瞭解如何為地圖設定輸出預設集，以將中繼資料傳遞至DITA-OT外掛程式。
 1. 開啟地圖並瀏覽至此地圖的&#x200B;_輸出_&#x200B;標籤，然後開啟HTML5預設集，然後按一下&#x200B;_進階_&#x200B;標籤，在此上將轉換名稱設定為&#x200B;_adobe.html_ （這是我們將設定並用於範例的外掛程式，您也可以定義自訂外掛程式）
 2. 設定&#x200B;_保留暫存檔案_，以便能夠下載暫存檔案，並檢查metadata.xml的構成方式，您可以使用此檔案進行開發
-3. 選取您要透過metadata.xml傳遞至DITA-OT的中繼資料屬性。 在此範例中，假設我們想要傳遞&#x200B;_dc：title_&#x200B;和&#x200B;_customprop_
+3. 選取您要透過metadata.xml傳遞至DITA-OT的中繼資料屬性。 在此範例中，假設我們想要傳遞&#x200B;_dc:title_&#x200B;和&#x200B;_customprop_
 4. 儲存預設集並產生輸出
 5. 使用預設集上顯示的按鈕下載暫存檔
 
@@ -139,7 +153,7 @@ ht-degree: 0%
 
 ### 測試外掛程式實作
 
-您可以執行以下命令來測試外掛程式，使用從AEM下載的暫存檔案（具有對應內容及其metadata.xml）來測試外掛程式
+您可以執行下列命令來測試外掛程式，以使用從AEM下載的暫存檔案（具有對應內容及其metadata.xml）來測試外掛程式
 
 ```
 ./dita --input=docsrc/samples/HTML5/aem_forms_documentation.ditamap --format=adobe.html
@@ -166,7 +180,7 @@ ht-degree: 0%
 
 ### 部署
 
-開發DITA-OT外掛程式之後，您就可以使用DITA-OT目錄下的&#x200B;_dita —install_&#x200B;命令，將此外掛程式整合到DITA-OT中，並將其部署到AEM伺服器[請參閱本文章以取得更多詳細資料](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=zh-Hant)
+開發DITA-OT外掛程式之後，您就可以使用DITA-OT目錄下的&#x200B;_dita —install_&#x200B;命令將此整合到DITA-OT中，並將其部署到AEM伺服器[請參閱本文章以取得更多詳細資料](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=zh-Hant)
 
 
 ## 資源

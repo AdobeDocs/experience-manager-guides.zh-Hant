@@ -4,10 +4,22 @@ description: 3月版的 [!DNL Adobe Experience Manager Guides] as a Cloud Servic
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/--ZHijFEci8WcWunPdIVL67S0ipVDzifIIDl6VLK7dg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 0%
+source-wordcount: 774
+ht-degree: 1%
 
 ---
 
@@ -15,9 +27,9 @@ ht-degree: 0%
 
 ## 升級至3月發行
 
-請升級您目前的[!DNL Adobe Experience Manager Guides] as a Cloud Service (後來稱為&#x200B;*[!DNL AEM Guides]as a Cloud Service*)安裝程式，方法是執行下列步驟：
+請升級您目前的[!DNL Adobe Experience Manager Guides] as a Cloud Service （後來稱為&#x200B;*[!DNL AEM Guides]as a Cloud Service*）安裝程式，方法是執行下列步驟：
 1. 請檢視雲端服務的Git程式碼，並切換至雲端服務管道中設定且與您要升級的環境對應的分支。
-1. 將Cloud Services Git程式碼的`<dox.version>`檔案中的`/dox/dox.installer/pom.xml`屬性更新為2022.3.123。
+1. 將Cloud Services Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2022.3.123。
 1. 認可變更並執行雲端服務管道，以升級至[!DNL AEM Guides] as a Cloud Service的3月版本。
 
 ## 相容性矩陣

@@ -5,9 +5,21 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/gekOxsimiTMF2Ch3cRsMAkMMnI7tRKVKZmdTVU9cxTs
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: 1972
 ht-degree: 0%
 
 ---
@@ -53,7 +65,7 @@ ht-degree: 0%
 
    當您選取&#x200B;**標籤**&#x200B;時，您也會有額外的選項，可以使用未套用指定標籤的最新版主題。 如果您未選取此選項，而且有任何主題或媒體檔案沒有指定的標籤，則基準線建立程式將會失敗。 如需新增標籤的詳細資訊，請參閱[使用標籤](web-editor-use-label.md#)。
 
-   - **版本於** &lt;*時間戳記*\>：挑選在指定日期和時間的主題版本。 請注意，您在此處指定的時間會對應至AEM伺服器的時區。 如果您的伺服器在不同時區，則會根據您的伺服器時區而不是您的本機時區擷取主題。
+   - **版本於** &lt;*時間戳記*\>：挑選主題在指定日期和時間的版本。 請注意，您在此處指定的時間會對應至AEM伺服器的時區。 如果您的伺服器在不同時區，則會根據您的伺服器時區而不是您的本機時區擷取主題。
 
    一旦您選取標籤或版本為日期，就會相應地選取地圖中所有參照的主題和媒體檔案。 此主題選取範圍未顯示在使用者介面上，但會儲存在後端。
 

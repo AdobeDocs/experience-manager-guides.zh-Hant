@@ -1,26 +1,41 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guides 4.3.0版的升級指示和修正問題
+title: 發行說明 |在Adobe Experience Manager Guides 4.3.0版本中升級指示和修正的問題
 description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Guides 4.3.0版
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/tpIgdm6yEWAcTHYKOXC4d3xR6yTLpVF5M9BVxquyahw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 1%
+source-wordcount: 1075
+ht-degree: 4%
 
 ---
 
 # Adobe Experience Manager Guides 4.3.0版（2023年7月）
 
-此發行說明涵蓋升級指示、相容性矩陣，以及Adobe Experience Manager Guides 4.3.0版(後來稱為&#x200B;*AEM Guides*)中修正的問題。
+此發行說明涵蓋升級指示、相容性矩陣，以及Adobe Experience Manager Guides 4.3.0版（後來稱為&#x200B;*AEM Guides*）中修正的問題。
 
 如需新功能和增強功能的詳細資訊，請參閱[Adobe Experience Manager Guides 4.3.0版的新增功能](./whats-new-4-3-release.md)。
 
 ## 升級至AEM Guides 4.3.0版
 
 
-您可以輕鬆地將您目前的AEM Guides版本升級至4.3.0版。在繼續升級至AEM Guides 4.3.0版之前，您必須先考量下列幾點：
+您可以輕鬆地將您目前的AEM Guides版本升級至4.3.0版。 在繼續升級至AEM Guides 4.3.0版之前，您必須先考量下列幾點：
 您可以將目前的AEM Guides版本升級至4.3.0版
 
 - 如果您是使用4.2或4.2.x版，則可以直接升級至4.3.0版。
@@ -77,9 +92,9 @@ ht-degree: 1%
 
 - 雖然已選取「解除鎖定檔案」選項和「不儲存」選項，但不會在Web編輯器中解除鎖定主題檔案。 (12558)
 - 無法簽出網頁編輯器中的檔案，儘管選擇NO選項在簽入前捨棄變更。 (12557)
-- 在Web編輯器內的主工具列中，鎖定和解鎖檔案圖示的工具提示與「存放庫檢視」中顯示的圖示不一致。(12555)
+- 在Web編輯器內的主工具列中，鎖定和解鎖檔案圖示的工具提示與存放庫檢視中顯示的圖示不一致。(12555)
 - 「取消簽出」和「解除鎖定」選項會顯示在Web編輯器中尚未在「地圖檢視」中籤出的檔案。 (12556)
-- 無法在現有的「topicref」連結中選取PDF資產。 (12477)。
+- 無法在現有的「topicref」連結中選取PDF資產。 (12477).
 - 在表格中執行合併和分割時，AEM Guides 4.2會產生額外的表格儲存格。 (11793)
 - 在「存放庫檢視」中，使用搜尋/篩選功能後無法拖曳主題或影像。 (12396)
 - 開啟一個搜尋的檔案後，「尋找和取代」面板中的搜尋結果會停用。 (12142)
@@ -90,10 +105,10 @@ ht-degree: 1%
 - 安裝AEM Guides後無法編輯欄檢視中的內容片段。 (7342)
 - 當未包裝的xref位於子元素標籤下時，內容會遺失。 (12532)
 - 從右側面板的「檔案」屬性將dostate變更為「結束狀態」時，核准工作流程無法運作。 (11026)
-- 資產UI | 在「清單」檢視中，無法合併覆蓋的可用欄。 (11528)
+- 資產UI |在「清單」檢視中，無法合併覆蓋的可用欄。 (11528)
 - 地圖檢視中未解析Keyref。 (11490)
 - 透過XML編輯器導覽時，未顯示最上方選單。 (10868)
-- `conref`在ph標籤中 | 顯示的瀏覽對話方塊不正確。 (9481)
+- `conref`在ph標籤中 |顯示的瀏覽對話方塊不正確。 (9481)
 - 指向其他元素的本機連結不會在網頁編輯器中解析。 (8790)
 - Matches()函式在schematron功能中無法運作。 (11224)
 
@@ -107,22 +122,22 @@ ht-degree: 1%
 
 ### 檢閱
 
-- 新檢閱UI | 條件會醒目提示並顯示隱藏的運作方式，與它們在網頁編輯器中的運作方式不同。 (11628)
+- 新檢閱UI |條件會醒目提示，且顯示隱藏的工作方式與在Web編輯器中有所不同。 (11628)
 
 ### 發佈
 
 - 重新命名原生PDF預設集時發佈失敗。 (12564)
 - 複製原生PDF範本會複製到預設範本位置，而不是提供的自訂範本位置。 (12563)
-- 原生PDF | 無法在產生的PDF中設定語言中繼資料以符合WCAG 2.0。 (12407)
+- 原生PDF |語言中繼資料無法在產生的PDF中設定以符合WCAG 2.0。 (12407)
 - 從Pod讀取可能已重新整理或重新啟動的暫存檔時，發佈至AEM網站失敗。 (12113)
-- 原生PDF | 自訂屬性不會傳播至暫時的HTML或PDF引擎。 (DXML-12005)
-- 原生PDF |  發佈大型內容時發生Java OutOfMemoryError。 (11789)
+- 原生PDF |自訂屬性不會傳播至暫時的HTML或PDF引擎。 (DXML-12005)
+- 原生PDF |發佈大型內容時發生Java OutOfMemoryError。 (11789)
 - 原生PDF | Xref正在列印href主題標題的內容而非Xref標籤。 (11322)
-- 原生PDF | 無法儲存PDF範本設定。 (10751)
-- 原生PDF | 文字延伸超過欄寬，包括多個xref。 (10876)
+- 原生PDF |無法儲存PDF範本設定。 (10751)
+- 原生PDF |文字延伸超過欄寬，包含多個xref。 (10876)
 - 原生PDF | `<note>` `</note>`元素沒有產生其型別的額外範圍標題。 (10549)
-- JSON輸出 | JSON的jcr`fmUuid`節點上的:content屬性與JSON內的「id」不同。 (11564)
-- JSON輸出 | 如果存在具有相同檔案名稱的對映和主題，則會移除該對映的JSON。 (11524)
+- JSON輸出 | JSON的jcr:content節點上的`fmUuid`屬性與JSON內的「id」不同。 (11564)
+- JSON輸出 |如果存在具有相同檔案名稱的對映和主題，則會移除對映的JSON。 (11524)
 
 ## 已知問題
 
@@ -136,7 +151,7 @@ Adobe已識別AEM Guides 4.3.0版的下列已知問題：
 
   因應措施：
 
-   1. 在`/libs/foundation/components/search/search.jsp`中開啟路徑為`crx/de`的檔案
+   1. 在`crx/de`中開啟路徑為`/libs/foundation/components/search/search.jsp`的檔案
    1. 將行號234取代為下列代碼：
 
       ```

@@ -3,9 +3,22 @@ title: 發行說明 | Adobe Experience Manager Guides 4.4.0版的升級指示
 description: 瞭解如何升級至Adobe Experience Manager Guides 4.4.0版
 role: Leader
 exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/bich0n61TfwxRPQLCrM-HVSZ8cfjyv6s3SjUf2vIjnQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: 454
 ht-degree: 5%
 
 ---
@@ -67,14 +80,14 @@ ht-degree: 5%
 ## 升級至Experience Manager Guides 4.4.0版
 
 
-您可以輕鬆地將最新版本的Guides升級至4.4.0版。在繼續升級至Experience Manager Guides 4.4.0版之前，您必須先考量下列幾點：
+您可以輕鬆地將最新版本的Guides升級至4.4.0版。 在繼續升級至Experience Manager Guides 4.4.0版之前，您必須先考量下列幾點：
 
 
 - 如果您是使用4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，則可以直接升級至4.4.0版。
 - 如果您是使用4.2、4.1或4.1.x版，則必須先升級至4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)，才能升級至4.4.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
+- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
 
 
 
@@ -82,4 +95,4 @@ ht-degree: 5%
 >
 >您必須先安裝AEM Service Pack，才能升級Experience Manager Guides版本。
 
-如需詳細資訊，請檢視Experience Manager Guides內部部署版本[的](../install-guide/upgrade-xml-documentation.md)升級指示。
+如需詳細資訊，請檢視Experience Manager Guides內部部署版本[&#128279;](../install-guide/upgrade-xml-documentation.md)的升級指示。

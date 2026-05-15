@@ -4,16 +4,33 @@ description: 瞭解錯誤修正以及如何升級至2023年6月發行的Adobe Ex
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/LIY9wVDmvusGD-K-kyjK-lmzpyxJELj0mWzn9YoP0vw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 1%
+source-wordcount: 1169
+ht-degree: 3%
 
 ---
 
 # 2023年6月發行的Adobe Experience Manager Guides as a Cloud Service
 
-此發行說明涵蓋升級指示、相容性矩陣，以及2023年6月Adobe Experience Manager Guides版本(後來稱為&#x200B;*AEM Guides as a Cloud Service*)中修正的問題。
+此發行說明涵蓋升級指示、相容性矩陣，以及2023年6月Adobe Experience Manager Guides版本（後來稱為&#x200B;*AEM Guides as a Cloud Service*）中修正的問題。
 
 如需新功能和增強功能的詳細資訊，請參閱[AEM Guides as a Cloud Service 2023年6月版本的新增功能](whats-new-2023-6-0.md)。
 
@@ -22,7 +39,7 @@ ht-degree: 1%
 請升級您目前的AEM Guides as a Cloud Service設定，方法是執行下列步驟：
 
 1. 請檢視雲端服務的Git程式碼，並切換至雲端服務管道中設定且與您要升級的環境對應的分支。
-2. 將Cloud Services Git程式碼的`<dox.version>`檔案中的`/dox/dox.installer/pom.xml`屬性更新為2023.6.297。
+2. 將Cloud Services Git程式碼的`/dox/dox.installer/pom.xml`檔案中的`<dox.version>`屬性更新為2023.6.297。
 3. 提交變更並執行雲端服務管道，以升級至2023年6月版本的AEM Guides as a Cloud Service。
 
 ## 透過servlet啟用指令碼觸發的步驟
@@ -60,11 +77,11 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## 後續處理現有內容以使用中斷連結報告的步驟
 
-(僅限您使用2023年6月之前版本的AEM Guides as a Cloud Service)
+（僅限您使用2023年6月之前版本的AEM Guides as a Cloud Service）
 
 執行以下步驟後續處理現有內容並使用新的中斷連結報表：
 
-1. （選擇性）如果系統中有超過100,000個dita檔案，請將`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
+1. （選擇性）如果系統中有超過100,000個dita檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
 
    - 使用安裝和設定Adobe Experience Manager Guides中&#x200B;*設定覆寫*區段中提供的指示
 as a Cloud Service，以建立設定檔。
@@ -76,7 +93,7 @@ as a Cloud Service，以建立設定檔。
 
 1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>//bin/guides/reports/upgrade`。
 
-1. 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點 —  `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
 1. 工作完成後，先前的GET請求將會成功回應。 如果作業由於某個原因而失敗，則可以從伺服器記錄中看到失敗。
@@ -85,13 +102,13 @@ as a Cloud Service，以建立設定檔。
 
 ## 為現有內容建立索引，以使用「報表」標籤下新的尋找和取代與主題清單的步驟：
 
-(僅限您使用2022年9月之前版本的AEM Guides as a Cloud Service)
+（僅限您使用2022年9月之前版本的AEM Guides as a Cloud Service）
 
 執行以下步驟來索引現有內容，並在報表標籤底下的對應層級和主題清單中使用新的尋找和取代文字：
 
-1. 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，依預設所有地圖都會編列索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
-1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
+1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。 請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
 1. 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
@@ -126,11 +143,11 @@ as a Cloud Service，以建立設定檔。
 
 - 從版面檢視切換至作者或來源檢視時，Navtitle會從content33中移除。 (12174)
 - 按一下DITA map有時會發生應用程式錯誤。 (11842)
-- 網頁編輯器 | 編輯主題時，會在XML編輯器中新增不斷行空格。 (11786)
-- 資產UI | 在「清單」檢視中，無法合併覆蓋的可用欄。 (11528)
+- 網頁編輯器 |編輯主題時，在XML編輯器中新增不斷行空格。 (11786)
+- 資產UI |在「清單」檢視中，無法合併覆蓋的可用欄。 (11528)
 - 地圖檢視中未解析Keyref。 (11490)
 - 透過XML編輯器導覽時，未顯示最上方選單。 (10868)
-- `conref`在ph標籤中 | 顯示的瀏覽對話方塊不正確。 (9481)
+- `conref`在ph標籤中 |顯示的瀏覽對話方塊不正確。 (9481)
 - 指向其他元素的本機連結不會在網頁編輯器中解析。 (8790)
 - Matches()函式在schematron功能中無法運作。 (11224)
 
@@ -144,18 +161,18 @@ as a Cloud Service，以建立設定檔。
 ### 發佈
 
 - 從Pod讀取可能已重新整理或重新啟動的暫存檔時，發佈至AEM網站失敗。 (12113)
-- 原生PDF | 如果發佈的內容具有包含brackets()的輸出類別，會導致發佈凍結。 (11936)
-- JSON輸出 | 屬性值為`"value in spaces and double quotes"`的對應中繼資料會導致發佈錯誤。 (11933)
-- 網頁編輯器 | 無法在AEM預設集中選取輸出路徑和範本。 (11530)
-- 原生PDF | 自訂屬性不會傳播至暫時的HTML或PDF引擎。 (DXML-12005)
-- 原生PDF |  發佈大型內容時發生Java OutOfMemoryError。 (11789)
-- JSON輸出 | JSON的jcr`fmUuid`節點上的:content屬性與JSON內的「id」不同。 (11564)
-- JSON輸出 | 如果存在具有相同檔案名稱的對映和主題，則會移除該對映的JSON。 (11524)
+- 原生PDF |如果發佈的內容具有包含brackets()的輸出類別，會導致發佈凍結。 (11936)
+- JSON輸出 |屬性值為`"value in spaces and double quotes"`的對應中繼資料會導致發佈錯誤。 (11933)
+- 網頁編輯器 |無法在AEM預設集中選取輸出路徑和範本。 (11530)
+- 原生PDF |自訂屬性不會傳播至暫時的HTML或PDF引擎。 (DXML-12005)
+- 原生PDF |發佈大型內容時發生Java OutOfMemoryError。 (11789)
+- JSON輸出 | JSON的jcr:content節點上的`fmUuid`屬性與JSON內的「id」不同。 (11564)
+- JSON輸出 |如果存在具有相同檔案名稱的對映和主題，則會移除對映的JSON。 (11524)
 - 原生PDF | Xref正在列印href主題標題的內容而非Xref標籤。 (11322)
-- 原生PDF | 無法儲存PDF範本設定。 (10751)
-- 原生PDF | 文字延伸超過欄寬，包括多個xref。 (10876)
+- 原生PDF |無法儲存PDF範本設定。 (10751)
+- 原生PDF |文字延伸超過欄寬，包含多個xref。 (10876)
 - 原生PDF | `<note>` `</note>`元素沒有產生其型別的額外範圍標題。 (10549)
-- 原生PDF | 無法在產生的PDF中設定語言中繼資料以符合WCAG 2.0。 (12296)
+- 原生PDF |語言中繼資料無法在產生的PDF中設定以符合WCAG 2.0。 (12296)
 
 
 
@@ -165,4 +182,4 @@ as a Cloud Service，以建立設定檔。
 
 ### 檢閱
 
-- 新檢閱UI | 條件會醒目提示並顯示隱藏的運作方式，與它們在網頁編輯器中的運作方式不同。 (11628)
+- 新檢閱UI |條件會醒目提示，且顯示隱藏的工作方式與在Web編輯器中有所不同。 (11628)
