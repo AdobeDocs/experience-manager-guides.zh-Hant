@@ -61,14 +61,14 @@ ht-degree: 1%
 
 ### 文件
 
-- [移至AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [移至AEM Cloud](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides：將UUID內容從內部部署/AMS移至雲端](../../cs-install-guide/migrate-on-premise-content-cloud.md)
 - [內容轉移工具：常見問答](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
 - [AEM Guides：將非uuid內容移轉至雲端](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### 社群論壇
 
-- 如需Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
+- 如需Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hant)。
 
 
 >[!NOTE]

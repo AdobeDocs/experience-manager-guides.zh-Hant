@@ -110,7 +110,7 @@ Ditamap本身不會像書籤一樣直接擁有目錄(TOC)。 不過，Ditamap在
 <br>
 <br>
 
-在AEM Guides社群[論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上發佈任何查詢。
+在AEM Guides社群[論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=zh-Hant)上發佈任何查詢。
 
 
 
