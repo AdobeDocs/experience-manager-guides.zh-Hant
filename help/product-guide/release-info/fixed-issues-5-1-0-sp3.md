@@ -1,10 +1,15 @@
 ---
-title: 發行說明 | 已修正Adobe Experience Manager Guides 5.1.0 Service Pack 3版本中的問題
+title: 發行說明 |已修正Adobe Experience Manager Guides 5.1.0 Service Pack 3版本中的問題
 description: 瞭解Adobe Experience Manager Guides 5.1.0 Service Pack 3版的錯誤修正
 role: Leader
-source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
+exl-id: faa9a5d7-616f-4692-98d1-23abc78556b6
+TQID: https://experienceleague.adobe.com/qiVY-B-D3FcHq2PH7Go2AAFpnstCrPJ2MVLEalQCVn0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: 297
 ht-degree: 1%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 1%
 
 本文章說明5.1.0 Service Pack 3版本Adobe Experience Manager Guides中不同區域所修正的錯誤。
 
-瞭解5.1.0 Service Pack 3版本[的](upgrade-instructions-5-1-0-sp3.md)升級指示。
+瞭解5.1.0 Service Pack 3版本](upgrade-instructions-5-1-0-sp3.md)的[升級指示。
 
 
 ## 製作
@@ -46,7 +51,3 @@ ht-degree: 1%
 Adobe已找出下列5.1.0 Service Pack 3版的已知問題：
 
 - 當您從任務詳細資訊頁面將稽核任務標籤為完成時，任務已完成並關閉；但是，其狀態在稽核儀表板上繼續顯示為&#x200B;**進行中**。 (GUIDES-39375)
-
-
-
-

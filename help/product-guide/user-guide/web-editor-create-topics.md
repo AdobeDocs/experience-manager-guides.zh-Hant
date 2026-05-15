@@ -4,9 +4,15 @@ description: 瞭解如何使用Adobe Experience Manager Guides中的自訂範本
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
+TQID: https://experienceleague.adobe.com/QryowJ8U1PGwrEE5gyc33iVl8OIVQ9ubw60L1DyMvLU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: 917
 ht-degree: 0%
 
 ---
@@ -105,7 +111,7 @@ Adobe Experience Manager Guides可讓您建立以下型別的DITA主題：主題
 >
 > UI可能會依您使用的編輯器而有所不同。
 
-1. 您從Assets UI **建立** \> **DITA主題**&#x200B;或編輯器建立的每個新主題都會指派唯一的主題ID。 此ID的值是檔案名稱本身。 此外，新檔案會儲存為DAM中主題的最新工作副本。 除非儲存新建立主題的修訂版本，否則不會在「版本記錄」中檢視任何版本號碼。 如果您開啟主題進行編輯，版本資訊會顯示在工具列的右上角：
+1. 您從Assets UI **建立** \> **DITA主題**或編輯器建立的每個新主題都會指派唯一的主題ID。 此ID的值是檔案名稱本身。 此外，新檔案會儲存為DAM中主題的最新工作副本。 除非儲存新建立主題的修訂版本，否則不會在「版本記錄」中檢視任何版本號碼。 如果您開啟主題進行編輯，版本資訊會顯示在工具列的右上角：
 _
    ![](images/version-none.png){width="550"}
 
@@ -115,4 +121,4 @@ _
 
 4. 建立DITA主題後，請繼續儲存對工作副本所做的變更，並在完成主題更新後建立新版本。
 
-**父級主題：**&#x200B;[&#x200B;建立和預覽主題](create-preview-topics.md)
+**父級主題：**[&#x200B;建立和預覽主題](create-preview-topics.md)

@@ -1,10 +1,16 @@
 ---
-title: 發行說明 | 已修正2025.07.0版Adobe Experience Manager Guides中的問題
+title: 發行說明 |修正2025.07.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2025.07.0版中的錯誤修正。
 exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
-source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
+TQID: https://experienceleague.adobe.com/xzYzEvtyVvvIpq3tfLftkCDuiC08hahdNhr5ZXcQPo8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: 520
 ht-degree: 4%
 
 ---
@@ -15,13 +21,13 @@ ht-degree: 4%
 
 如需新功能和增強功能的詳細資訊，請參閱 [2025.07.0 版本中的新增功能](whats-new-2025-07-0.md)。
 
-瞭解2025.07.0版[的](upgrade-instructions-2025-07-0.md)升級指示。
+瞭解2025.07.0版](upgrade-instructions-2025-07-0.md)的[升級指示。
 
 ## 製作
 
 - 在Source檢視的元素中新增XML註解時，切換檢視時註解周圍的前導和尾隨空格會遺失。 (GUIDES-29781)
 - 當出現在工具列的省略符號圖示（**更多**&#x200B;功能表）中時，多媒體選項無法運作。 (GUIDES-29583)
-- 透過Assets UI或編輯器建立新主題時，如果`xmleditor.uniquefilenames`中的`XMLEditorConfig`設定設為true，則不會在編輯器中自動開啟主題。 (GUIDES-28171)
+- 透過Assets UI或編輯器建立新主題時，如果`XMLEditorConfig`中的`xmleditor.uniquefilenames`設定設為true，則不會在編輯器中自動開啟主題。 (GUIDES-28171)
 - 切換「編輯器」檢視時，不會保留Source檢視中MathML方程式內新增的空格。 (GUIDES-26111)
 
 ## 資產管理
@@ -44,7 +50,7 @@ ht-degree: 4%
 ## Platform
 
 - 處理大型集合時，會觀察到載入時間較長及間歇性逾時等效能問題。 (GUIDES-29065， GUIDES-28793)
-- 與在Experience Manager Guides上傳之AEM Guides元件中使用的已棄用Guava程式庫相關的漏洞。(GUIDES-27402)
+- 與在Experience Manager Guides上傳AEM Guides元件中所使用的已棄用Guava資料庫相關的漏洞。(GUIDES-27402)
 
 ## 已知問題
 

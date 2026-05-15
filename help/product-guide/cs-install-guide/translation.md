@@ -5,9 +5,15 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/WjrAoZplwWbFYxySm-faIIda81AWTYnqhvbdsRk8tjU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: 877
 ht-degree: 8%
 
 ---
@@ -23,17 +29,17 @@ ht-degree: 8%
 
 翻譯內容涉及以下步驟：
 
-1. 將AEM連線至您的[翻譯服務提供者](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hant)，並建立翻譯整合架構設定。
+1. 將AEM連線至您的[翻譯服務提供者](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)，並建立翻譯整合架構設定。
 
 1. 將語言主版的頁面與翻譯服務和框架設定建立關聯。
 
-1. 識別要翻譯的[內容型別](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=zh-Hant)。
+1. 識別要翻譯的[內容型別](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en)。
 
-1. 編寫語言主版並建立語言副本的根頁面，[以備妥內容進行翻譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=zh-Hant)。
+1. 編寫語言主版並建立語言副本的根頁面，[以備妥內容進行翻譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)。
 
-1. 建立[翻譯專案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=zh-Hant)以收集要翻譯的內容並準備翻譯程式。
+1. 建立[翻譯專案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)以收集要翻譯的內容並準備翻譯程式。
 
-1. 使用翻譯專案來[管理內容翻譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=zh-Hant)程式。
+1. 使用翻譯專案來[管理內容翻譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)程式。
 
 
 如果您的翻譯服務提供者未提供聯結器來與AEM整合，則AEM支援手動匯出和匯入XML格式的翻譯內容。
@@ -88,7 +94,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
-> 如果您使用翻譯聯結器，請確定您已依照Adobe Experience Manager檔案中&#x200B;*[設定翻譯整合架構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hant)*&#x200B;主題中的說明設定聯結器。
+> 如果您使用翻譯聯結器，請確定您已依照Adobe Experience Manager檔案中&#x200B;*[設定翻譯整合架構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)*&#x200B;主題中的說明設定聯結器。
 
 >[!IMPORTANT]
 >

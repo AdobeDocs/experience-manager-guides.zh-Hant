@@ -3,10 +3,14 @@ title: 安裝及設定
 description: 安裝和使用AEM Guides擴充功能套件
 role: User, Admin
 exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
-source-git-commit: b4d6c1c8c2d413bb4137e58391554abf2fb68b8c
+TQID: https://experienceleague.adobe.com/ngU5TVcI7yva051ZscfGCfBb6vEbtG4cvjoOgplqmoA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: 362
+ht-degree: 1%
 
 ---
 
@@ -52,7 +56,7 @@ npx @adobe/create-guides-extension
 ![資料夾結構](./../imgs/crxde_folder_structure.png)
 
 - 在節點的`properties`中，選取`Multi`新增下列屬性
-名稱： `categories`
+名稱: `categories`
 型別： `String []`
 值： `apps.fmdita.review_overrides`， `apps.fmdita.xml_editor.page_overrides`
 
@@ -83,5 +87,5 @@ tcx1.css
 
 檢查上述所有步驟是否正確執行。
 將程式碼新增至tcx.js後，請務必執行強制重新整理(shift+refresh)。
-現在開啟AEM，按一下滑鼠右鍵並按一下`Inspect`
+現在開啟AEM，按一下右鍵，然後按一下 `Inspect`
 移至[來源]並搜尋您的`[node_name].js` （例如： extensions.js）檔案。 執行Control / Cmd + D以搜尋您的檔案。 如果存在包含您從`dist/guides-extension.umd.cjs`或`dist/guides-extension.js`貼上之JS程式碼的`.js`檔案，表示您的設定已完成

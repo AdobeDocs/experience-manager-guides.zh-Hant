@@ -5,9 +5,15 @@ feature: Publishing
 role: User
 hide: true
 exl-id: dbc082e9-e75e-414d-a1d1-41f919b345af
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/7tnba7ZO-OnRaKWRFGQUMo3xULlBnmh1RL7LuUjPLQ8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 721
 ht-degree: 0%
 
 ---
@@ -49,4 +55,4 @@ ht-degree: 0%
 | 要在輸出中傳播的屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性列在「屬性」欄位下方。<br><br>**注意**：您也可以定義自訂屬性，並使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資訊，請參閱[使用中繼資料](metadata-dita.md#id21BJ00QD0XA)。 |
 | 貼文產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取在輸出產生工作流程完成後要執行的工作流程。<br><br>**注意**：如需建立自訂輸出後產生工作流程的詳細資訊，請參閱「安裝與設定Adobe Experience Manager Guides as a Cloud Service」指南中的&#x200B;_自訂輸出後產生工作流程_。 |
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

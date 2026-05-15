@@ -1,11 +1,17 @@
 ---
-title: 發行說明 | 已修正2025.04.0版Adobe Experience Manager Guides中的問題
+title: 發行說明 |修正2025.04.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2025.04.0版中的錯誤修正。
 exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
-source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
+TQID: https://experienceleague.adobe.com/v7tg4-eP4JVt9bR0S4Ld4lWb0YbdlT-uJc7PrXPT4Wg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 3%
+source-wordcount: 764
+ht-degree: 6%
 
 ---
 
@@ -15,9 +21,9 @@ ht-degree: 3%
 
 如需新功能和增強功能的詳細資訊，請參閱 [2025.04.0 版本中的新增功能](whats-new-2025-04-0.md)。
 
-瞭解2025.04.0版[&#128279;](upgrade-instructions-2025-04-0.md)的升級指示。
+瞭解2025.04.0版](upgrade-instructions-2025-04-0.md)的[升級指示。
 
-## 編寫
+## 製作
 
 - 無法針對德文地區設定載入編輯器中的特殊字元插入方塊。 (24537)
 - 儲存新版DITAVAL檔案時新增的註釋和標籤不會以新版本儲存在「版本記錄」中。 (24076)
@@ -61,10 +67,10 @@ Adobe已找出下列2025.04.0版的已知問題：
 - 將新內容貼入`codeblock`元素中的新行時，會自動插入空白行。(27842)
 - 在使用相同基準線的預設集之間切換時，會停用目前預設集的&#x200B;**儲存**&#x200B;按鈕。 (28025)
 - DITA map中的主題在其子地圖中同時用作`keydef`和`topicref`時，無法發佈到AEM Sites輸出中。 (22269)
-- 編輯地圖的多個主題，然後使用&#x200B;**全部關閉**&#x200B;選項關閉，並啟用&#x200B;**在關閉時詢問儲存版本**&#x200B;設定時，會發生應用程式錯誤。(27931)
+- 編輯地圖的多個主題，然後使用&#x200B;**全部關閉**&#x200B;選項關閉，並啟用&#x200B;**關閉時詢問儲存版本**&#x200B;設定時，會發生應用程式錯誤。(27931)
 
 Adobe已找出下列已知問題並提供因應措施：
 
-+++在AEM Sites輸出中，發佈時未套用基線時，影像會中斷。 (28043)
++++在AEM Sites輸出中，發佈時未套用基準線時，影像會中斷。 (28043)
 ***因應措施：***&#x200B;您可以從&#x200B;**Assets UI**&#x200B;發佈這類資產，連結隨即會變成可用連結。
 +++

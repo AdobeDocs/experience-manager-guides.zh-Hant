@@ -2,9 +2,14 @@
 title: 為自訂Dita型別設定圖示
 description: 瞭解如何為自訂Dita型別定義圖示，以便在AEM中的不同UI上顯示其圖示
 exl-id: 5a259ea0-3b5f-4c6e-b488-1586767aa991
-source-git-commit: 7355f48ba8ad0ac15c54be183d9aa91bb88724e8
+TQID: https://experienceleague.adobe.com/OFZePwGXAKS5XhsNcrCqOya-bgEHmtO4yl1IciNUxdQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: 496
 ht-degree: 0%
 
 ---
@@ -29,15 +34,15 @@ ht-degree: 0%
 
 ## 在網頁編輯器檢視中顯示自訂主題/對應的圖示
 
-_步驟1：_&#x200B;決定自訂dita主題/ap的dita型別
+步驟1 :_決定自訂dita主題/ap的dita型別(_S)
 - 在Web編輯器中開啟存放庫檢視>在瀏覽器上開啟開發人員主控台
-- Inspect所列出主題/地圖旁的圖示空間
+- 檢查列出的主題/地圖旁邊的圖示空間
 - 檢查指派給自訂主題的類別
 - 請參閱下面的熒幕擷圖以取得更多詳細資料![請參閱熒幕擷圖](../assets/authoring/custom-ditatype-icon-knowditatype.png)
 - 我們將使用此類別來指派圖示並寫入此專案的css
 
-_步驟2：_&#x200B;建立css並將圖示指派給此dita型別
-- 在/apps下建立使用者端程式庫，假設您在所需路徑下建立cq：ClientLibraryFolder
+步驟2 :_建立css並將圖示指派給此dita型別(_S)
+- 在/apps下建立使用者端程式庫，假設您在所需路徑下建立cq:ClientLibraryFolder
    - 將類別「apps.fmdita.xml_editor.page」新增至其中
 - 在此目錄下建立資料夾「資產」，並新增您要用於自訂dita型別的所有圖示
 - 在client library資料夾下新增css檔案，如&quot;tree-icons.css&quot;
@@ -66,11 +71,11 @@ _步驟2：_&#x200B;建立css並將圖示指派給此dita型別
 
 ## 顯示Assets UI中自訂主題/對應的圖示
 
-_步驟1：_&#x200B;決定自訂dita主題/map的dita型別
+決定自訂Dita主題/對映的Dita型別的步驟1 :_(_S)
 - 這已在先前方法的步驟1中說明
 
-_步驟2：_&#x200B;建立Javacscript以定義要針對自訂主題/地圖型別載入哪些圖示
-- 在/apps下建立使用者端程式庫，假設您在所需路徑下建立cq：ClientLibraryFolder
+步驟2 :_建立Javacscript以定義要針對自訂主題/地圖型別載入哪些圖示(_S)
+- 在/apps下建立使用者端程式庫，假設您在所需路徑下建立cq:ClientLibraryFolder
    - 新增下列屬性至其中：
       - &quot;categories&quot;（多值字串）值，為&quot;dam.gui.admin.coral&quot;
       - &quot;dependencies&quot;(multivalue string)值，如&quot;libs.fmdita.versioncontrol&quot;

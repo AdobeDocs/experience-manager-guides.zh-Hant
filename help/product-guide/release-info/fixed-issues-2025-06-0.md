@@ -1,10 +1,16 @@
 ---
-title: 發行說明 | 已修正2025.06.0版Adobe Experience Manager Guides中的問題
+title: 發行說明 |修正2025.06.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2025.06.0版中的錯誤修正。
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
+TQID: https://experienceleague.adobe.com/kfgmTuMdfq1c1IUcTKiPef9ijJ0tG-fPUuoJlaQEhQA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: 514
 ht-degree: 4%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 4%
 
 如需新功能和增強功能的詳細資訊，請參閱 [2025.06.0 版本中的新增功能](whats-new-2025-06-0.md)。
 
-瞭解2025.06.0版[&#128279;](upgrade-instructions-2025-06-0.md)的升級指示。
+瞭解2025.06.0版](upgrade-instructions-2025-06-0.md)的[升級指示。
 
 ## 製作
 
@@ -34,7 +40,7 @@ ht-degree: 4%
 - 產生標題含有多個以空格分隔的字詞的AEM網站頁面時，地圖示題會顯示連字型大小而非空格。 (GUIDES-27903)
 - 對於原生PDF，無效的中繼資料屬性名稱未解析，且在&#x200B;**檔案屬性**&#x200B;中顯示為`unresolved property name`。 (GUIDES-25680)
 - `codeblock`內的多行文字會在PDF產生期間造成文字溢位問題。 (GUIDES-15541)
-- 將地圖新增至地圖集合時，會顯示地圖以外的資產（例如主題等），且翻譯的地圖語言也不會正確排序。(GUIDES-25085)
+- 將地圖新增至地圖集合時，地圖以外的資產（喜歡的主題等） 都會顯示，且翻譯的地圖語言也未正確排序。(GUIDES-25085)
 
 
 ## 檢閱

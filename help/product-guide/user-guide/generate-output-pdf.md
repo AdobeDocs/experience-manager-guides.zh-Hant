@@ -4,9 +4,14 @@ description: 瞭解您可以使用Adobe Experience Manager Guides建立的PDF預
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+TQID: https://experienceleague.adobe.com/RN5CYho8TpklBivMgK6ifb--eTwlBQgD-1jNU8HvF7E
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: d6596f3f-92a7-43ec-b444-237db6adad05id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: 330
 ht-degree: 0%
 
 ---
@@ -41,4 +46,4 @@ ht-degree: 0%
 
 
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

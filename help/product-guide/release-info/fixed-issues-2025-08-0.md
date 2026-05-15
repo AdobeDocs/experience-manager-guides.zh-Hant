@@ -1,10 +1,16 @@
 ---
-title: 發行說明 | 已修正2025.08.0版Adobe Experience Manager Guides中的問題
+title: 發行說明 |修正2025.08.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2025.08.0版中的錯誤修正。
-source-git-commit: 5abe5c153d8cedc7b555d6ca82709557cc38d28f
+exl-id: 05fe0e2c-ec65-4aec-a543-9b9a75c82f2c
+TQID: https://experienceleague.adobe.com/7J25vfpTwwPyT3-qNF6-LLbPra8EePs5XaKqkAjEk5I
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 3%
+source-wordcount: 713
+ht-degree: 6%
 
 ---
 
@@ -14,7 +20,7 @@ ht-degree: 3%
 
 如需新功能和增強功能的詳細資訊，請參閱 [2025.08.0 版本中的新增功能](whats-new-2025-08-0.md)。
 
-瞭解2025.08.0版[的](upgrade-instructions-2025-08-0.md)升級指示。
+瞭解2025.08.0版](upgrade-instructions-2025-08-0.md)的[升級指示。
 
 ## 製作
 
@@ -29,7 +35,7 @@ ht-degree: 3%
 
 ## 資產管理
 
-- 從Assets UI複製具有大量資產的資料夾會導致API逾時。 操作會在後端繼續執行，並在一段時間後完成，但UI中未顯示成功或失敗訊息，或通知。 (GUIDES-30900)
+- 從Assets UI複製具有大量資產的資料夾會導致API逾時。 該操作會在後端持續執行並於稍後完成，但使用者介面中不會顯示成功或失敗的訊息，也沒有任何通知。 (GUIDES-30900)
 - 由於後處理錯誤，在Assets UI中對資料夾執行的複製貼上操作失敗。 (GUIDES-30840)
 - 在Assets UI中，包含複合資產（具有子資產的資產）的資料夾的複製 — 貼上作業失敗。 (28107)
 - 含有大量資產的資料夾無法在存放庫中正確載入。 (GUIDES-32500)
@@ -57,6 +63,3 @@ Adobe已找出下列2025.08.0版的已知問題：
 - 當在編輯器中開啟的檔案被重新命名或移動時，在模式（例如&#x200B;**作者**、**預覽**&#x200B;等）之間切換會更新編輯區域中的內容，但不會以視覺化方式反白顯示右下角的活動模式。 (GUIDES-32719) <br> **因應措施**：重新整理頁面以解決問題。
 - 使用條件屬性標幟時，檔案名稱中包含空格的影像無法顯示在輸出中。 (GUIDES-33858)
 - 在&#x200B;**內容屬性**&#x200B;面板中，當您嘗試從&#x200B;**更新連結**&#x200B;對話方塊更新參考時，屬性欄位會自動關閉，以防止連結更新。 (GUIDES-17767)
-
-
-

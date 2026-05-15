@@ -1,17 +1,23 @@
 ---
-title: 將企業品牌新增至DITAPDF的第一頁
+title: 將企業品牌新增至DITA PDF的第一頁
 description: 整合封面頁和章節頁，確保企業身分明確顯示在內容頂端，藉此建立公司品牌。
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: a9f8622dc5a2647bcff32c8895700d5c5933be4a
+exl-id: ab452529-3c7f-4057-a0f6-212b9f52a99d
+TQID: https://experienceleague.adobe.com/6CGRK2QWFZ6nIXmIAQZy3lX7t4KYP2-HeyqlVW2-7eE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: 422
 ht-degree: 0%
 
 ---
 
-# 將企業品牌新增至DITAPDF的第一頁
+# 將企業品牌新增至DITA PDF的第一頁
 
 ## 本文會涵蓋：
 
@@ -22,7 +28,7 @@ ht-degree: 0%
 
 **之前：**
 
-![修正品牌之前：熒幕擷圖顯示預先品牌化PDF版面](../assets/publishing/branding-image1.png)
+![修正品牌之前：熒幕擷圖顯示預先品牌的PDF版面](../assets/publishing/branding-image1.png)
 <br>
 <br>
 
@@ -88,14 +94,14 @@ ht-degree: 0%
 - 現在請根據您的內容遵循下列步驟。
 
 
-#### 如果您使用Ditamap來產生PDF：
+#### 如果您使用Ditamap來產生PDF ：
 
 發佈DITAMAP時，原生PDF提供自動產生FrontCover頁面的功能。 啟用或停用FrontCover頁面產生的選項可在原生PDF範本中設定。
 
 若要合併：
-- 移至原生PDF範本設定 — >頁面配置順序
+- 前往原生PDF範本設定 — >頁面配置順序
 - 現在合併FrontCover與下一頁，即章節和主題。
-  ![正在合併FrontCover與章節：熒幕擷圖顯示原生PDF範本設定](../assets/publishing/branding-image3.png)
+  ![合併FrontCover與章節：熒幕擷圖顯示原生PDF範本設定](../assets/publishing/branding-image3.png)
 - 儲存範本，為您的預設集選取此範本並發佈！
 
 
@@ -132,16 +138,15 @@ window.addEventListener('DOMContentLoaded', function () {
 - 從預設集選項啟用JavaScript
   ![啟用JavaScript預設集設定：熒幕擷圖顯示啟用JavaScript的預設集設定](../assets/publishing/branding-image5.png)
 
-- Publish！
+- 發佈！
 
 ## 附件：
 
 - [下載範例PDF範本套件以檢視套用的變更。](../assets/publishing/NativePDF_DemoTemplate.zip)
-- [下載範例PDF預設集套件以檢視套用的變更。](../assets/publishing/Preset_Package.zip)
+- [下載範例PDF Preset套件以檢視套用的變更。](../assets/publishing/Preset_Package.zip)
 
 
 ## 其他資源：
 
 - [如何在PDF中包含DITA Bookmap的目錄](./how-to-include-bookmap-toc-in-pdf-publishing.md)
 - [原生PDF專家會議影片](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
-

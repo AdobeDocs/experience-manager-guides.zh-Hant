@@ -1,19 +1,25 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guides 4.2.1版中的升級指示和修正問題
+title: 發行說明 |在Adobe Experience Manager Guides 4.2.1版中升級指示和修正的問題
 description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Guides 4.2.1版
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/nuIWAZRdaGgE-lpjfhk2ptAOeglH8cVhxKZMVPcncYY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: 874
+ht-degree: 5%
 
 ---
 
 # 4.2.1版Adobe Experience Manager Guides （2023年5月）
 
-此發行說明涵蓋升級指示、相容性矩陣，以及Adobe Experience Manager Guides 4.2.1版(後來稱為&#x200B;*AEM Guides*)中修正的問題。
+此發行說明涵蓋升級指示、相容性矩陣，以及Adobe Experience Manager Guides 4.2.1版（後來稱為&#x200B;*AEM Guides*）中修正的問題。
 
 如需新功能和增強功能的詳細資訊，請參閱[Adobe Experience Manager Guides 4.2.1版的新增功能](whats-new-4-2-1-release.md)。
 
@@ -81,11 +87,11 @@ ht-degree: 1%
 * 難以拖放清單專案，文字會移動來取代清單專案。 (11566)
 * 以綠色（追蹤變更）顯示的元素中進行製作時，即使追蹤變更已停用，新內容仍會顯示為追蹤變更。 (7021)
 * 使用自訂結構描述載入內容時，瀏覽器（網頁編輯器）會凍結。 (11211)
-* 原生PDF | 使用「新增至資料夾設定檔」選項建立輸出預設集時，PDF產生會因「Null指標」例外而失敗。 (10950)
-* 原生PDF | 影像標籤會將display-inline屬性新增至所有影像。 (10653)
+* 原生PDF |使用「新增至資料夾設定檔」選項建立輸出預設集時，PDF產生會因「Null指標」例外而失敗。 (10950)
+* 原生PDF |影像標籤會將display-inline屬性新增至所有影像。 (10653)
 * 在&#x200B;**插入多媒體**&#x200B;圖示下，無法以YouTube格式插入音訊和視訊多媒體檔案。 (11320)
 * 使用具有專門化標題元素的範本建立對應時，會發生驗證錯誤。 (11212)
-* 網頁編輯器 | 編輯主題時，會在XML編輯器中新增不斷行空格。 (11786)
+* 網頁編輯器 |編輯主題時，在XML編輯器中新增不斷行空格。 (11786)
 
 ### 管理
 
@@ -96,16 +102,16 @@ ht-degree: 1%
 
 ### 發佈
 
-* 原生PDF | 如果發佈的內容具有包含brackets()的輸出類別，會導致發佈凍結。 (11936)
-* JSON輸出 | 屬性值為`"value in spaces and double quotes"`的對應中繼資料會導致發佈錯誤。 (11933)
+* 原生PDF |如果發佈的內容具有包含brackets()的輸出類別，會導致發佈凍結。 (11936)
+* JSON輸出 |屬性值為`"value in spaces and double quotes"`的對應中繼資料會導致發佈錯誤。 (11933)
 * AEM網站搜尋中發生問題（在2-3層節點之外無法運作）。 (11352)
-* 網頁編輯器 | 無法在AEM預設集中選取輸出路徑和範本。 (11530)
-* 從4.1.x升級至4.2版時，原生PDF引擎無法運作，且會擲回NullPointerException，即使是支援的作業系統亦然。(11526)
+* 網頁編輯器 |無法在AEM預設集中選取輸出路徑和範本。 (11530)
+* 從4.1.x升級至4.2版時，原生PDF引擎無法運作，且即使是支援的作業系統也會擲回NullPointerException。(11526)
 * 下載PDF程式在網頁編輯器中無法正常運作。 (11496)
-* 原生PDF | 預設會在產生的輸出中隱藏草稿註解。 (10560)
-* 原生PDF | navtitle不適用於topichead。 (10509)
-* 原生PDF | 將`xref`新增至影像不會轉譯產生的PDF上的影像。 (11346)
-* 原生PDF | 表格標頭中的註腳會在PDF輸出的對應頁尾中導向粗體和置中對齊文字。 (10610)
+* 原生PDF |預設會在產生的輸出中隱藏草稿註解。 (10560)
+* 原生PDF |不會將navtitle授予topichead。 (10509)
+* 原生PDF |將`xref`新增至影像不會轉譯產生的PDF上的影像。 (11346)
+* 原生PDF |表格標題中的註腳會在PDF輸出的對應頁尾中導向粗體和置中對齊文字。 (10610)
 
 ### 翻譯
 

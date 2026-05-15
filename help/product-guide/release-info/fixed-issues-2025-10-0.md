@@ -1,10 +1,16 @@
 ---
-title: 發行說明 | 已修正2025.10.0版Adobe Experience Manager Guides中的問題
+title: 發行說明 |修正2025.10.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2025.10.0版中的錯誤修正。
-source-git-commit: ff3cf777bd348edded29d780031df59bbb03035d
+exl-id: e9a97d74-5061-42b4-b9d3-6c8dc386e6fb
+TQID: https://experienceleague.adobe.com/jaNCpM6p06stKTcuXlyMSaTgym-JWR9UP0RKFhkGFh0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 3%
+source-wordcount: 743
+ht-degree: 2%
 
 ---
 
@@ -14,7 +20,7 @@ ht-degree: 3%
 
 如需新功能和增強功能的詳細資訊，請參閱 [2025.10.0 版本中的新增功能](whats-new-2025-10-0.md)。
 
-瞭解2025.10.0 [版的](upgrade-instructions-2025-10-0.md)升級指示。
+瞭解2025.10.0 ](upgrade-instructions-2025-10-0.md)版的[升級指示。
 
 ## 製作
 
@@ -29,10 +35,10 @@ ht-degree: 3%
 ## 發佈
 
 - 產生PDF時，如果任何屬性名稱包含句點，則會忽略DITAVAL檔案中的篩選規則。 (GUIDES-33229)
-- 當具有相同名稱和URL的主題已存在時，Salesforce發佈會因應用程式錯誤而失敗。 (指南 — 32390)
+- 當具有相同名稱和URL的主題已存在時，Salesforce發佈會因應用程式錯誤而失敗。 （指南 — 32390）
 - 即使包含`topichead`元素的DITA map無法發佈其內的主題，Salesforce發佈仍會在UI上顯示成功狀態。 (GUIDES-32143)
 - 對於HTML5輸出預設集，搜尋篩選功能在AEM Assets中無法用於DITAVAL篩選，因為當選取DITAVAL篩選時，對應的檔案沒有顯示。 (GUIDES-28231)
-- 為具有多個主題的DITA map產生原生PDF時，如果任何主題在`fig`中包含`figgroup`元素以及`title`，則`figgroup`標題會不正確地呈現為目錄中的章節標題。 (GUIDES-23223)
+- 為具有多個主題的DITA map產生原生PDF時，如果任何主題在`figgroup`中包含`fig`元素以及`title`，則`figgroup`標題會不正確地呈現為目錄中的章節標題。 (GUIDES-23223)
 - 從UI複製PDF範本時，也會複製UUID，導致範本檔案遭到刪除並導致PDF輸出不正確。 (GUIDES-30456)
 - 產生DITA map的原生PDF時，`example`元素的標題會呈現為`h1`標題層級，因此導致視覺上不一致和TOC結構不正確。 (GUIDES-19958)
 
@@ -53,12 +59,6 @@ Adobe已找出下列2025.10.0版的已知問題：
 
 - 在已開啟多個檔案的作者檢視中建立新檔案時，如果游標置於不同檔案中的元素標籤上，右側面板將無法重新整理並顯示不正確的資料。 (GUIDES-35450)<br>**因應措施**：切換索引標籤或重新整理頁面以解決問題。
 
-- 針對新開啟的主題(最初以Source模式開啟)，從Source檢視切換至作者檢視時，主題內容會變為空白。 (GUIDES-35000)<br>**因應措施**：重新整理頁面或重新開啟主題以解決問題。
+- 針對新開啟的主題（最初以Source模式開啟），從Source檢視切換至作者檢視時，主題內容會變為空白。 (GUIDES-35000)<br>**因應措施**：重新整理頁面或重新開啟主題以解決問題。
 
 - **重新整理導覽**&#x200B;按鈕正在顯示給DITA主題檔案，不過它應該只適用於DITA map、book map和主旨配置。 (GUIDES-35452)
-
-
-
-
-
-

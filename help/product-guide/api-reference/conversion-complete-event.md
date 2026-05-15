@@ -5,9 +5,12 @@ exl-id: 8033935d-2113-4e39-ab74-b7431b89f948
 feature: Conversion Process Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
+TQID: https://experienceleague.adobe.com/VhlUaVSMTZpfyh5MiJI0WHFpc46s41xjLbuLMUnKH58
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: 191
 ht-degree: 3%
 
 ---
@@ -30,7 +33,7 @@ com/adobe/fmdita/conversion/complete
 
 | 名稱 | 類型 | 說明 |
 |----|----|-----------|
-| `status` | 字串 | 已執行作業的傳回狀態。 可能的選項包括： -   成功：轉換程式已成功完成。 <br> -   已完成但有錯誤：轉換程式已完成，但有一些錯誤。 <br>-   失敗：轉換程式因為發生嚴重錯誤而失敗。 |
+| `status` | 字串 | 已執行作業的傳回狀態。 可能的選項包括： — 成功：轉換程式已成功完成。<br> — 已完成，但發生錯誤：轉換程式已完成，但發生一些錯誤。 <br> — 失敗：轉換程式因某些嚴重錯誤而失敗。 |
 | `filePath` | 字串 | AEM存放庫中來源檔案\（待轉換\）的絕對路徑。 |
 | `outputPath` | 字串 | 儲存轉換之DITA檔案的目的地位置的絕對路徑。 |
 | `logPath` | 字串 | 將儲存轉換記錄之節點的絕對路徑。 |

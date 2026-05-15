@@ -1,26 +1,32 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guides 4.3.1版中的升級指示和修正問題
+title: 發行說明 |在Adobe Experience Manager Guides 4.3.1版中升級指示和修正的問題
 description: 瞭解錯誤修正以及如何升級至Adobe Experience Manager Guides 4.3.1版
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/4JTSMRLeqxbaz3rBMzz43V76o1HtTfTMtjpdT6wW1LM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: 1302
+ht-degree: 4%
 
 ---
 
 # 4.3.1版Adobe Experience Manager Guides （2023年10月）
 
-此發行說明涵蓋升級指示、相容性矩陣，以及Adobe Experience Manager Guides 4.3.1版(後來稱為&#x200B;*Experience Manager Guides*)中修正的問題。
+此發行說明涵蓋升級指示、相容性矩陣，以及Adobe Experience Manager Guides 4.3.1版（後來稱為&#x200B;*Experience Manager Guides*）中修正的問題。
 
 如需新功能和增強功能的詳細資訊，請參閱[Adobe Experience Manager Guides 4.3.1版的新增功能](./whats-new-4-3-1-release.md)。
 
 ## 升級至Experience Manager Guides的4.3.1版
 
 
-您可以輕鬆地將您目前的Experience Manager Guides版本升級至4.3.1版。在繼續升級至Experience Manager Guides 4.3.1版之前，您必須先考量下列幾點：
+您可以輕鬆地將您目前的Experience Manager Guides版本升級至4.3.1版。 在繼續升級至Experience Manager Guides 4.3.1版之前，您必須先考量下列幾點：
 您可以將目前的Experience Manager Guides版本升級至4.3.1版
 
 
@@ -100,29 +106,29 @@ ht-degree: 1%
 
 - 如果主題的標題包含斜線「/」，編輯器中的索引標籤只會顯示在該斜線後面的字母。 (13455)
 - 在編輯器中顯示預覽後，影像預覽並未消失。 (13454)
-- 升級至4.x後，部分現有版本或其標籤不會顯示在「版本記錄」中。(13247)
+- 升級至4.x後，部分現有版本或其標籤不會顯示在「版本記錄」中。 (13247)
 - Assets UI中的「版本記錄」面板顯示&#x200B;**目前**&#x200B;欄位的不正確時間戳記。 (12624)
 - 「存放庫檢視」或「地圖檢視」中未解析具有conref標題的主題。(13304)
 
 
 ### 發佈
 
-- 原生PDF | 產生PDF輸出時，主題的順序無法固定。 (13157)
+- 原生PDF |產生PDF輸出時，主題的順序未固定。 (13157)
 - 原生PDF| `<p>`元素沒有可用的預設樣式標籤。 (12559)
-- 原生PDF | 套用至內容區域的內嵌樣式不會套用至前後關聯的主題。 (13510)
+- 原生PDF |套用至內容區域的內嵌樣式不會套用至前後關聯的主題。 (13510)
 - 產生AEM網站輸出時未傳播`DeliveryTarget`屬性。  (13132)
 - 針對發生特定錯誤的內容產生AEM網站輸出時，**發佈**&#x200B;工作流程卡住。 (12000)
 
-- 原生PDF | 包含多個Xref會延伸文字超過欄寬。 (13004)
-- 原生PDF | 當主題和標題具有相同的ID時，會導致PDF輸出的產生格式錯誤。 (12644)
-- 原生PDF | 在DITA map中將outputclass新增至父`<topicref>`元素並將自訂樣式套用至outputclass時，該樣式會套用至主題內文中的元素，包括區段標題。 (12166)
+- 原生PDF |包含多個Xref會使文字延伸超過欄寬。 (13004)
+- 原生PDF |當主題和標題具有相同的ID時，會導致PDF輸出的產生格式錯誤。 (12644)
+- 原生PDF |在DITA map中將outputclass新增至父`<topicref>`元素並將自訂樣式套用至outputclass時，該樣式會套用至主題內文中的元素，包括區段標題。 (12166)
 - 如果DITA map有多個ditavalref，則增量發佈無法運作。 (12117)
-- AEM網站 | 使用keydef將主題作為變數來建立對應，然後新增processing-role=resource-only會建立一些未預期的頁面。 (12099)
+- AEM網站 |使用keydef將指向某個主題做為變數來建立對應，然後新增processing-role=resource-only會建立一些未預期的頁面。 (12099)
 - 如果AEM DAM的任何資產用於AEM網站以外的任何輸出，則中繼資料「jcr:createdBy」不會反映發佈者的名稱或上次修改DITA map或主題的使用者名稱。 (12090)
-- AEM Sites | DITA地圖的navtitle中帶有主題標題（包含不支援的字元）會導致頁面URL錯誤。 (11978)
-- 原生PDF | 在Frontmatter和Backmatter支援topichead / topicmeta / navtitle時發生問題。 (11969)
-- 原生PDF | 為大型檔案產生PDF非常耗時。 (11955)
-- 原生PDF | 重新命名預設集會在產生PDF輸出時擲回NullPointerException。 (11889)
+- AEM Sites | DITA map的navtitle中帶有topichead （包含不支援的字元）會導致頁面URL錯誤。 (11978)
+- 原生PDF |在Frontmatter和Backmatter支援topichead / topicmeta / navtitle時發生問題。 (11969)
+- 原生PDF |為大型檔案產生PDF非常耗時。 (11955)
+- 原生PDF |重新命名預設集會在產生PDF輸出時擲回NullPointerException。 (11889)
 - `<conref>`內容未顯示在PDF輸出中。 (11131)
 - 在頁面配置編輯器的「作者」和「Source」檢視之間切換時，`<div>`元素內會新增一個額外空間。 (10750)
 - 在AEM Cloud Manager上復寫的內容在發佈執行個體上不可見。 (9564)

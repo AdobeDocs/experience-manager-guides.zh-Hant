@@ -5,10 +5,14 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: ed0b0e6124a8656e711a8e64b290b805569fbd48
+TQID: https://experienceleague.adobe.com/g5Mp7tMM9JaAYwNmMyPmaFEcI0fx66vrX8ry97lIUF8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 1%
+source-wordcount: 618
+ht-degree: 0%
 
 ---
 
@@ -43,7 +47,7 @@ ht-degree: 1%
 
 ## 建立及啟用封裝
 
-`activate`方法會在製作執行個體上建立CRX套件，並視需要在發佈執行個體上復寫它。 我們假設已在編寫執行個體上設定AEM復寫引數。 此方法會根據JSON字串中提供作為輸入引數的規則清單，建立CRX套件。
+`activate`方法會在製作執行個體上建立CRX套件，並視需要在發佈執行個體上復寫它。 我們假設已在製作執行個體上設定AEM復寫引數。 此方法會根據JSON字串中提供作為輸入引數的規則清單，建立CRX套件。
 >[!NOTE]
 >
 > 在建立或啟動程式期間遇到的錯誤會寫入`outputstream`。
@@ -80,17 +84,17 @@ throws GuidesApiException
 
 | 名稱 | 類型 | 說明 |
 |----|----|-----------|
-| `json` | 字串 | 決定要建置CRX套件的JSON字串。 使用以下格式建立JSON字串： <br>- `activate`：屬於布林型別\(`true`/`false`\)。 判斷是否將在製作執行個體中建立的CRX套件復寫至發佈執行個體。 <br> - `rules`：屬於JSON陣列型別。 一系列JSON規則，系統會依序處理以建置CRX套件。 <br> - `rootPath`：屬於字串型別。 執行節點/屬性查詢的基底路徑。 如果不存在節點/屬性查詢，根路徑以及根路徑下存在的所有節點都會包含在CRX套件中。 <br> - `nodeQueries`：屬於型別Regex陣列。 規則運算式的陣列，用來包含根路徑下的特定檔案。 <br> - `propertyQueries`：屬於JSON陣列型別。 JSON物件陣列，其中每個JSON物件包含要在根路徑上執行的XPath查詢，以及執行查詢後每個JCR節點中存在的屬性名稱。 每個JCR節點中屬性的值應為路徑或路徑陣列。 此屬性中存在的路徑已新增至CRX套件。 |
+| `json` | 字串 | 決定要建置CRX套件的JSON字串。 使用以下格式建立JSON字串： <br>- `activate`：屬於布林型別\(`true`/`false`\)。 判斷是否將在製作執行個體中建立的CRX套件復寫至發佈執行個體。<br> - `rules`：屬於JSON陣列型別。 一系列JSON規則，系統會依序處理以建置CRX套件。<br> - `rootPath`：屬於字串型別。 執行節點/屬性查詢的基底路徑。 如果不存在節點/屬性查詢，根路徑以及根路徑下存在的所有節點都會包含在CRX套件中。<br> - `nodeQueries`：屬於型別Regex陣列。 規則運算式的陣列，用來包含根路徑下的特定檔案。<br> - `propertyQueries`：屬於JSON陣列型別。 JSON物件陣列，其中每個JSON物件包含要在根路徑上執行的XPath查詢，以及執行查詢後每個JCR節點中存在的屬性名稱。 每個JCR節點中屬性的值應為路徑或路徑陣列。 此屬性中存在的路徑已新增至CRX套件。 |
 | `outputstream` | java.io.OutputStream | 這可用來寫入不同階段的結果，例如查詢執行、檔案包含、CRX套件建立或啟動。 在建立或啟動程式期間遇到的任何錯誤都會寫入`outputstream`。 這對於偵錯很有用。 |
 | `session` | 字串 | 具有啟用許可權的有效JCR工作階段。 |
-| `activationTarget` | 字串 | (*Optional*) `preview`或`publish` (適用於Cloud Service)以及`publish` （適用於On-premise軟體<br>） — 若是Cloud Service，如果引數包含無效值，則封裝啟用會失敗。 <br> — 針對On-Premise軟體，如果引數包含無效值，則會記錄錯誤，並使用預設值`publish`完成發佈。 |
+| `activationTarget` | 字串 | (*Optional*) `preview`或`publish` （適用於Cloud Service），以及`publish` （適用於內部部署軟體<br>） — 對於Cloud Service，如果引數包含無效值，則封裝啟用會失敗。<br> — 針對On-Premise軟體，如果引數包含無效值，則會記錄錯誤，並使用預設值`publish`完成發佈。 |
 
 **例外狀況**：
 
 擲回`java.io.IOException`和`java.io.IllegalArgumentException`
 
 
-如果您未定義選用引數`activationTarget`，它會使用Cloud Service和內部部署軟體的預設發佈代理程式來啟動。
+如果您未定義選用引數`activationTarget`，它會使用Cloud Service和On-premise Software的預設發佈代理程式來啟動。
 
 
 **範例**：

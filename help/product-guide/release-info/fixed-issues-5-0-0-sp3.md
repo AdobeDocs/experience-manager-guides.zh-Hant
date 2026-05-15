@@ -1,10 +1,14 @@
 ---
-title: 發行說明 | 已修正Adobe Experience Manager Guides 5.0.0 Service Pack 3版本中的問題
+title: 發行說明 |已修正Adobe Experience Manager Guides 5.0.0 Service Pack 3版本中的問題
 description: 瞭解Adobe Experience Manager Guides 5.0.0 Service Pack 3版的錯誤修正
 role: Leader
-source-git-commit: e72bf237352f6007242901c0e409037129459101
+exl-id: ba915d58-4de8-4c4f-b338-29b64451d60d
+TQID: https://experienceleague.adobe.com/qENxN8e84lkLpfHhXwIDcAGINdcqqs4eOZhpiV3DKxA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: 128
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 本文章說明5.0.0 Service Pack 3版本Adobe Experience Manager Guides中不同區域所修正的錯誤。
 
-瞭解5.0.0 Service Pack 3版本[的](upgrade-instructions-5-0-0-sp3.md)升級指示。
+瞭解5.0.0 Service Pack 3版本](upgrade-instructions-5-0-0-sp3.md)的[升級指示。
 
 ## 翻譯
 

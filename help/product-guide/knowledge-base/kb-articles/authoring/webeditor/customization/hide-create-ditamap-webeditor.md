@@ -2,9 +2,15 @@
 title: 針對特定使用者或群組，在資料夾快顯功能表選項中隱藏建立DitaMap選項。
 description: 瞭解如何透過隱藏特定使用者/群組的資料夾快顯選單中的「DitaMap」選項來自訂編輯器
 exl-id: 796bfe3a-3950-4ade-9215-c33534791055
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/fAMBEOKlPA4KHsE81zfI-6EJ6zwaQOgRfx0w-cx-mmw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 571
 ht-degree: 0%
 
 ---
@@ -27,7 +33,7 @@ ht-degree: 0%
 
 現在來看看如何使用Guides擴充功能框架隱藏此選項。
 
-## 實作步驟
+## 實施步驟
 
 實作分為下列部分：
 
@@ -65,7 +71,7 @@ const folderOptions = {
   需要建立新的Widget (customoptions.ts)來寫入邏輯，以僅針對非編寫使用者隱藏此選項。 為此，我們使用了「show」鍵，作為JSON結構中的切換。
 
   您可以編寫自己的外部servlet來檢查群組詳細資訊。 如此一來，您也可以自訂自訂群組的資料夾功能表選項。
-在此範例中，我們已運用OOTB AEM &#39;rolesapi&#39;呼叫來擷取使用者詳細資訊，並在&#39;isAuthor&#39;中設定回應，如上述程式碼片段所示。
+在此範例中，我們已運用OOTB AEM「rolesapi」呼叫來擷取使用者詳細資訊，並在「isAuthor」中設定回應，如上述程式碼片段所示。
 
 ```typescript
 const folderOptions = {
@@ -128,11 +134,11 @@ controller: {
 
 - **擴充框架基本存放庫** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **檔案** - [Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- 在Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)上&#x200B;**檔案** - [
 
-- **在Experience League[&#128279;](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)上記錄常見的使用案例** - 
+- **在Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)上記錄常見使用案例** - [
 
-- 在GIT[&#128279;](https://github.com/adobe/guides-extension/tree/sc-expert-session)上有&#x200B;**公開存放庫（含樣本）** - 。 請參閱分支sc-expert-session
+- 在GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)上有&#x200B;**公開存放庫（含樣本）** - [。 請參閱分支sc-expert-session
 
 ```
 

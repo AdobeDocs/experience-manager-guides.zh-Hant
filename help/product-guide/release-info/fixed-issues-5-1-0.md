@@ -1,10 +1,17 @@
 ---
-title: 發行說明 | 已修正Adobe Experience Manager Guides 5.1.0版本中的問題
+title: 發行說明 |修正Adobe Experience Manager Guides 5.1.0版本中的問題
 description: 瞭解Adobe Experience Manager Guides 5.1.0版的錯誤修正。
-source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
+exl-id: 08c35e97-10ca-4b75-892b-d95b79432158
+TQID: https://experienceleague.adobe.com/NPJCIq5JuyFf0E-Uf3GMxXmW6zxehES4f-iL9xeqEow
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 1%
+source-wordcount: 1790
+ht-degree: 2%
 
 ---
 
@@ -15,7 +22,7 @@ ht-degree: 1%
 
 如需新功能和增強功能的詳細資訊，請參閱 [5.1.0 版本中的新增功能](whats-new-5-1-0.md)。
 
-瞭解5.1.0版[的](upgrade-instructions-5-1-0.md)升級指示。
+瞭解5.1.0版](upgrade-instructions-5-1-0.md)的[升級指示。
 
 
 ## 製作
@@ -29,7 +36,7 @@ ht-degree: 1%
 - 無法使用擴充功能架構自訂Editor工具列的&#x200B;**功能表下拉式清單**。 因此，您無法隱藏或顯示任何現有按鈕，或在[功能表]下拉式清單中新增按鈕。 (GUIDES-28748)
 - 在Source檢視的元素中新增XML註解時，切換檢視時註解周圍的前導和尾隨空格會遺失。 (GUIDES-29781)
 - 當出現在工具列的省略符號圖示（**更多**&#x200B;功能表）中時，多媒體選項無法運作。 (GUIDES-29583)
-- 透過Assets UI或編輯器建立新主題時，如果`xmleditor.uniquefilenames`中的`XMLEditorConfig`設定設為true，則不會在編輯器中自動開啟主題。 (GUIDES-28171)
+- 透過Assets UI或編輯器建立新主題時，如果`XMLEditorConfig`中的`xmleditor.uniquefilenames`設定設為true，則不會在編輯器中自動開啟主題。 (GUIDES-28171)
 - 切換「編輯器」檢視時，不會保留Source檢視中MathML方程式內新增的空格。 (GUIDES-26111)
 - 在更新或建立主題時若無法關閉JCR工作階段連線，會導致記憶體洩漏和服務停機時間。 (GUIDES-26282)
 - 拖曳欄會將欄寬從百分比變更為畫素值，導致表格扭曲或錯位。(GUIDES-23128)
@@ -41,15 +48,15 @@ ht-degree: 1%
 - 在對應檔案之間切換時，右側面板中&#x200B;**檔案屬性**&#x200B;下的傳出和傳入參考未正確重新整理。 當對應檔案包含大量參考時，會發生此問題。 (GUIDES-23344)
 - 存放庫篩選器沒有保留`ui_config.json`中定義的自訂篩選器順序。 (GUIDES-21193)
 - 刪除`codeblock`元素中的多行文字會建立無法從Author檢視中移除的空白空間。 (GUIDES-20672)
-- 透過片段新增這類元素，或透過範本建立這類元素時，即使&#x200B;**中啟用了**&#x200B;自動產生ID`XMLEditorConfig`選項，也無法為元素產生新ID。 (GUIDES-21734)
+- 透過片段新增這類元素，或透過範本建立這類元素時，即使`XMLEditorConfig`中啟用了&#x200B;**自動產生ID**&#x200B;選項，也無法為元素產生新ID。 (GUIDES-21734)
 - 從DITA範本建立新的DITA資產，會從對應的DITA範本複製複製屬性。 (GUIDES-25145)
 - 如果父資料夾名稱包含「&amp;」字元，則無法從存放庫面板存取檔案屬性。 (GUIDES-25762)
-- 關閉主題檔案可將其儲存為新版本，即使主題已鎖定亦然。 在&#x200B;**中啟用** Ask for new version on close`XMLEditorConfig`選項時，會發生此問題。 (GUIDES-23875)
+- 關閉主題檔案可將其儲存為新版本，即使主題已鎖定亦然。 在`XMLEditorConfig`中啟用&#x200B;**Ask for new version on close**&#x200B;選項時，會發生此問題。 (GUIDES-23875)
 - 當內容階層深度巢狀時，存放庫面板目前的寬度上限會隱藏主題和地圖示題。 (GUIDES-27751)
 
 ## 資產管理
 
-- 從Assets UI複製具有大量資產的資料夾會導致API逾時。 操作會在後端繼續執行，並在一段時間後完成，但UI中未顯示成功或失敗訊息，或通知。 (GUIDES-30900)
+- 從Assets UI複製具有大量資產的資料夾會導致API逾時。 該操作會在後端持續執行並於稍後完成，但使用者介面中不會顯示成功或失敗的訊息，也沒有任何通知。 (GUIDES-30900)
 - 由於後處理錯誤，在Assets UI中對資料夾執行的複製貼上操作失敗。 (GUIDES-30840)
 - 在Assets UI中，包含複合資產（具有子資產的資產）的資料夾的複製 — 貼上作業失敗。 (GUIDES-28107)
 - 含有大量資產的資料夾無法在存放庫中正確載入。 (GUIDES-32500)
@@ -80,9 +87,9 @@ ht-degree: 1%
 - 如果DITA內容具有網路連結，但範圍不是`external`，原生PDF會無限期地繼續發佈。 (GUIDES-26434)
 - 當內容發生錯誤時，原生PDF和AEM網站的發佈會停止並排入佇列。 (GUIDES-26516)
 - 產生標題含有多個以空格分隔的字詞的AEM網站頁面時，地圖示題會顯示連字型大小而非空格。 (GUIDES-27903)
-- 對於原生PDF，無效的中繼資料屬性名稱未解析，且在`unresolved property name`檔案屬性&#x200B;**中顯示為**。 (GUIDES-25680)
+- 對於原生PDF，無效的中繼資料屬性名稱未解析，且在&#x200B;**檔案屬性**&#x200B;中顯示為`unresolved property name`。 (GUIDES-25680)
 - `codeblock`內的多行文字會在PDF產生期間造成文字溢位問題。 (GUIDES-15541)
-- 將地圖新增至地圖集合時，會顯示地圖以外的資產（例如主題等），且翻譯的地圖語言也不會正確排序。(GUIDES-25085)
+- 將地圖新增至地圖集合時，地圖以外的資產（喜歡的主題等） 都會顯示，且翻譯的地圖語言也未正確排序。(GUIDES-25085)
 - 在舊版AEM Sites輸出中，在Source模式下手動設定或從外部來源匯入內容時，地圖巢狀主題內的區段連結無法正確解析。 註解會重新導向至包含巢狀主題的主要主題，而非導覽至預期的區段。 (GUIDES-26103)
 - 如果DITA主題中的外部連結缺少`scope=external`屬性，HTML5發佈會失敗，而不會在錯誤記錄中指出缺少此屬性的檔案。 (GUIDES-25969)
 - 即使在PDF預設集中啟用了&#x200B;**內嵌多媒體檔案**&#x200B;選項，仍無法在原生PDF中內嵌視訊連結。 (GUIDES-9989)
@@ -100,7 +107,7 @@ ht-degree: 1%
 ## Platform
 
 - 處理大型集合時，會觀察到載入時間較長及間歇性逾時等效能問題。 (GUIDES-29065， GUIDES-28793)
-- 與在Experience Manager Guides上傳之AEM Guides元件中使用的已棄用Guava程式庫相關的漏洞。(GUIDES-27402)
+- 與在Experience Manager Guides上傳AEM Guides元件中所使用的已棄用Guava資料庫相關的漏洞。(GUIDES-27402)
 
 ## 已知問題
 

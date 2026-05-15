@@ -4,9 +4,12 @@ description: 如何建立要在組織內容中使用的金鑰
 role: Admin
 exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 feature: Use Keys in AEM Guides
-source-git-commit: 47e6c57b8a61f02dc4f03594d91ee842bdccef90
+TQID: https://experienceleague.adobe.com/uWvlGyjI4b0Y6rFwhKNK4egq7p6-N4dql-AHnuwiDDo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: 179
 ht-degree: 0%
 
 ---
@@ -37,7 +40,7 @@ ht-degree: 0%
 </map>
 ```
 
-您在此處定義了兩個定義，如上所示，為&#x200B;_Adobe Experience Manager_&#x200B;文字提供[!UICONTROL keyref]為&#x200B;_AEM_。
+您已在此定義兩個定義，如上所示，針對&#x200B;_Adobe Experience Manager_&#x200B;文字提供[!UICONTROL keyref]為&#x200B;_AEM_。
 
 ## 步驟2：將此地圖新增至您的出版物地圖
 

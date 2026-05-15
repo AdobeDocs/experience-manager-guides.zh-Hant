@@ -5,9 +5,14 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/O-rew8ysArVVeDpj3T7oEi-hEg-phDWzb85gD2l-9gQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: 592
 ht-degree: 0%
 
 ---
@@ -73,7 +78,7 @@ ht-degree: 0%
    >
    > 確保您對包含要編輯之主題的資料夾具有讀取和寫入許可權。
 
-1. 若要取得該主題的獨佔鎖定，請選取該主題，然後按一下[出庫]。**&#x200B;**
+1. 若要取得該主題的獨佔鎖定，請選取該主題，然後按一下[出庫]。****
 
    >[!IMPORTANT]
    >
@@ -125,4 +130,4 @@ ht-degree: 0%
    > 如果您的管理員已設定&#x200B;**停用編輯而不簽出**&#x200B;選項，則您必須先簽出檔案才能進行編輯。 如果未出庫檔案，則檔案會在編輯器中以唯讀模式開啟。
 
 
-**上層主題：**&#x200B;[&#x200B;使用網頁編輯器](web-editor.md)
+**上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)

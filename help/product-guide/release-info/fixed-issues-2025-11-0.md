@@ -1,9 +1,15 @@
 ---
-title: 發行說明 | 已修正2025.11.0版Adobe Experience Manager Guides中的問題
+title: 發行說明 |修正2025.11.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2025.11.0版中的錯誤修正。
-source-git-commit: d9a46a009477b1110208a509d4ad8c0616139661
+exl-id: a86621c3-c4e1-4538-8700-dd9c22be440f
+TQID: https://experienceleague.adobe.com/VSfdJPL26DZFuIyfEcTk2eGjCSbJ5JY4f5B-W63lkjI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: 699
 ht-degree: 3%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 3%
 
 如需新功能和增強功能的詳細資訊，請參閱 [2025.11.0 版本中的新增功能](whats-new-2025-11-0.md)。
 
-瞭解2025.11.0版[的](upgrade-instructions-2025-11-0.md)升級指示。
+瞭解2025.11.0版](upgrade-instructions-2025-11-0.md)的[升級指示。
 
 ## 製作
 
@@ -54,14 +60,3 @@ ht-degree: 3%
 Adobe已找出下列2025.11.0版的已知問題：
 
 - 使用`copy-to`屬性建立重複主題並使用`scope=peer`屬性參考該主題，會導致AEM Sites輸出中的重新導向問題，其中連結會從AEM Sites （使用複合元件對應）重新導向至AEM Sites （使用舊版元件對應），反之亦然。 (GUIDES-37656)
-
-
-
-
-
-
-
-
-
-
-

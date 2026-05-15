@@ -5,9 +5,15 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/JTfQ4wbTh1b3qZYT6I3L--AW2ZGkWIBKW2YOORW9zHE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: 2408
 ht-degree: 0%
 
 ---
@@ -100,7 +106,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
    >
    > 如果您使用檔案聯結器，您將檢視上傳或瀏覽檔案以取代資料查詢的選項。
 
-1. 從&#x200B;**資料對應範本**&#x200B;下拉式清單中選取與您的資料來源對應的範本。
+1. 從&#x200B;**資料對應範本**下拉式清單中選取與您的資料來源對應的範本。
 所選資料來源的現成範本會顯示在下拉式清單中。 例如，您可以檢視名為「PostgreSQL」資料來源的「sql-table」範本。
 
    >[!NOTE]
@@ -128,7 +134,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
       ![](images/add-content-snippet-generator.png){width="800"}
       *新增內容片段產生器。 以來源或預覽模式檢視資料。*
 
-1. 若要儲存查詢的結果，請輸入產生器的名稱，然後按一下[新增]。**&#x200B;**   新的內容片段產生器已新增至清單中。
+1. 若要儲存查詢的結果，請輸入產生器的名稱，然後按一下[新增]。****   新的內容片段產生器已新增至清單中。
 
    >[!NOTE]
    >
@@ -241,7 +247,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 
    *在中繼資料面板中新增中繼資料屬性，以傳遞至主題。*
 
-1. 輸入產生器的名稱，然後按一下[儲存] **&#x200B;**&#x200B;以儲存查詢結果。 新的主題產生器已新增至清單中。
+1. 輸入產生器的名稱，然後按一下[儲存] ****&#x200B;以儲存查詢結果。 新的主題產生器已新增至清單中。
 
 1. 按一下&#x200B;**儲存並產生**&#x200B;以儲存主題產生器，並從主題產生器產生新主題。
 

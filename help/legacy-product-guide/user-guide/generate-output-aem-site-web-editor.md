@@ -5,9 +5,15 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: 2755
 ht-degree: 0%
 
 ---
@@ -42,8 +48,8 @@ Experience Manager Guides為建立AEM Sites提供預先定義的範本。 這些
 >[!NOTE]
 >
 >在為Experience Manager Guides設定AEM Sites預設集之前，您的管理員需要使用範本建立AEM Sites結構。
->- **內部部署軟體**：深入瞭解如何[下載並安裝內部部署軟體的AEM Sites範本](/help/product-guide/install-guide/download-install-aem-sites-templates.md)。
->- **Cloud Service**：進一步瞭解如何[下載並安裝適用於Cloud Service的AEM Sites範本](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)。
+- **內部部署軟體**：深入瞭解如何[下載並安裝內部部署軟體的AEM Sites範本](/help/product-guide/install-guide/download-install-aem-sites-templates.md)。
+- **Cloud Service**：進一步瞭解如何[下載並安裝適用於Cloud Service的AEM Sites範本](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)。
 
 
 
@@ -132,21 +138,21 @@ Experience Manager Guides為建立AEM Sites提供預先定義的範本。 這些
 | 使用基準線 | 如果您已針對選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>**重要**：當您產生AEM網站的增量輸出時，會使用目前版本的檔案而非附加的基準線來建立輸出。<br><br>檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得詳細資訊。 |
 | 條件式篩選 | 選取下列其中一個選項：<br><br>**無**：如果您不想在發佈的輸出上套用任何條件，請選取此選項。<br>**使用DITAVAL**：選取DITAVal檔案以產生條件式內容。 您可以使用瀏覽對話方塊或輸入檔案路徑來選取多個DITAVal檔案。 使用檔案名稱附近的十字圖示可將其移除。 DITAVal檔案會依指定的順序計算，因此第一個檔案中指定的條件優先於後續檔案中指定的相符條件。 您可以透過新增或刪除檔案來維持檔案順序。 如果DITAVal檔案被移動到其他位置或被刪除，它不會自動從對映圖示板中刪除。 您必須更新位置，才能移動或刪除檔案。 您可以將滑鼠停留在檔案名稱上，檢視檔案儲存所在的AEM存放庫中的路徑。 您只能選取DITAVal檔案，如果您選取任何其他檔案型別，則會顯示錯誤。<br>**條件預設集**：從下拉式清單中選取條件預設集，以在發佈輸出時套用條件。 如果您已為DITA map檔案新增條件，則會顯示此選項。 條件設定可在DITA map主控台的「條件預設集」標籤中使用。 若要進一步瞭解條件預設集，請檢視[使用條件預設集](generate-output-use-condition-presets.md#id1825FL004PN)。 |
 | 其他DITA-OT命令列引數 | 指定在產生輸出時要DITA-OT處理的其他引數。 如需有關DITA-OT支援的命令列引數的詳細資訊，請檢視[DITA-OT檔案](https://www.dita-ot.org/)。 |
-| 中繼資料<br> <br>File (Assets) Properties | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會顯示在&#x200B;**檔案屬性**&#x200B;欄位下。 選取屬性旁的十字圖示以將其移除。 <br><br>**Note**: The metadata properties are case-sensitive.<br><br>*If you have selected a Baseline, then the values for the properties are based on the version of the selected Baseline.<br>* If you have not selected a Baseline, then the values for the properties are based on the latest version.<br><br>You can also pass on the metadata to the output using DITA-OT publishing. For more details view, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Note**: If you have not defined the `cq:tags` in the Properties option, then the values for `cq:tags` are picked from the current working copy even if you have selected a Baseline for publishing. |
-| 中繼資料<br> <br>Use map properties as fallback | If selected, the properties defined for the map file are also copied into the topics where such properties are not defined. Consider the following points while using this option:<br><br>*Only String, Date, or Long (singe and multi-valued) properties can be passed on to the AEM Site pages.<br>* The metadata values for a String type property does not support any special characters (such as `@, #, " "`).<br>* This option should be used along with the `Properties` option. |
-| 保留暫存檔 | 選取此選項可保留DITA-OT產生的暫存檔案。 如果您在透過DITA-OT產生輸出時發生錯誤，請選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。<br> <br>產生輸出後，請選取&#x200B;**下載暫存檔** ![下載暫存檔圖示](images/download-temp-files-icon.png)圖示來下載包含暫存檔的ZIP資料夾。<br><br> **Note**: If file properties are added during generation, the output temporary files also include a *metadata.xml* file containing those properties. |
+| 中繼資料<br> <br>檔案(Assets)屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會顯示在&#x200B;**檔案屬性**&#x200B;欄位下。 選取屬性旁的十字圖示以將其移除。 <br><br>**注意**：中繼資料屬性區分大小寫。<br><br>*如果您選取了「基準線」，則屬性的值會以所選取之「基準線」的版本為基礎。<br>* 如果您尚未選取「基準線」，則屬性的值會根據最新版本。<br><br>您也可以使用DITA-OT發行將中繼資料傳遞至輸出。 如需詳細資料檢視，[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞給輸出。<br><br>**注意**：如果您尚未在「屬性」選項中定義`cq:tags`，則即使您已選取要發佈的基準線，`cq:tags`的值也會從目前的工作復本中挑選出來。 |
+| 中繼資料<br> <br>使用地圖屬性作為遞補 | 如果選取，為對映檔案定義的屬性也會複製到未定義此類屬性的主題中。 使用此選項時，請考量下列幾點：<br><br>*只能將字串、日期或長（單一和多值）屬性傳遞至AEM網站頁面。<br>* 字串型別屬性的中繼資料值不支援任何特殊字元（例如`@, #, " "`）。<br>*此選項應與`Properties`選項一起使用。 |
+| 保留暫存檔 | 選取此選項可保留DITA-OT產生的暫存檔案。 如果您在透過DITA-OT產生輸出時發生錯誤，請選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。<br> <br>產生輸出後，請選取&#x200B;**下載暫存檔** ![下載暫存檔圖示](images/download-temp-files-icon.png)圖示來下載包含暫存檔的ZIP資料夾。<br><br> **注意**：如果在產生期間新增檔案屬性，輸出暫存檔也會包含包含包含這些屬性的&#x200B;*metadata.xml*&#x200B;檔案。 |
 
 
-### Generate the AEM Sites output using the templates
+### 使用範本產生AEM Sites輸出
 
-Experience Manager Guides allows you to use the out of the box templates or add your own AEM Sites templates.
+Experience Manager Guides可讓您使用立即可用的範本，或新增您自己的AEM Sites範本。
 
-Before configuring the AEM Sites presets, ensure to create an AEM Sites structure using the templates.\
-For more details, view [Download and install AEM Sites templates](/help/product-guide/install-guide/download-install-aem-sites-templates.md).
+在設定AEM Sites預設集之前，請務必使用範本建立AEM Sites結構。\
+如需詳細資訊，請檢視[下載並安裝AEM Sites範本](/help/product-guide/install-guide/download-install-aem-sites-templates.md)。
 
 
 
-Perform the following steps to create and configure an AEM Sites preset:
+執行以下步驟來建立和設定AEM Sites預設集：
 1. 開啟您要發佈的DITA map的&#x200B;**輸出預設集**&#x200B;標籤。
 1. 選取&#x200B;**AEM Sites**&#x200B;輸出預設集。
 1. （選用）取消勾選&#x200B;**使用舊版元件對應**&#x200B;選項，以建立非舊版AEM Sites預設集。
@@ -208,7 +214,7 @@ Experience Manager Guides可讓您使用`peer @scope`建立主題參考，簡化
 
    ![交叉對應參考](images/aem-sites-cross-map-references.png)
 
-1. 如果要使用地圖中每個相依檔案最近發佈的輸出，請選取&#x200B;**對所有相依主題使用最近產生的**&#x200B;發佈內容。
+1. 如果要使用地圖中每個相依檔案最近發佈的輸出，請選取&#x200B;**對所有相依主題使用最近產生的**發佈內容。
 在發佈包含連結主題的地圖之前，您應該發佈選取為父對映的地圖。 如果含有已連結主題的地圖未發佈，則連結會在AEM Sites輸出中顯示為普通文字，而非超連結。
 您應該為連結的主題選取相同型別的AEM Sites預設集。 例如，如果目前的AEM Sites預設集使用舊版元件對應，則選取連結主題的類似AEM Sites預設集。
 1. 在「父對映」下拉式清單中，選取要與其輸出連結目前對映輸出的對映檔案。
