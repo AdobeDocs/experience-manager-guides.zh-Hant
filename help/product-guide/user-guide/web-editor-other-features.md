@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: 4271
+source-wordcount: 4286
 ht-degree: 0%
 
 ---
@@ -181,9 +181,11 @@ Generate the output for the selected file. Output can be generated only for file
 
 ## 在新編輯器中處理表格
 
-「新編輯器」可讓您使用各種關聯式動作，直接在內容中建立、格式化及組織表格。
+「新編輯器」可讓您使用各種關聯式動作，直接在內容中建立、格式化及組織表格。 以下是有關如何使用新編輯器中提供的各種表格編輯功能的簡短影片。
 
-本節將逐步說明新編輯器中可用的各種表格製作功能。
+>[!VIDEO](https://video.tv.adobe.com/v/3491344)
+
+下表為「新增編輯器」中的可用編輯功能：
 
 **使用內容功能表修改資料表**
 

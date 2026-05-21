@@ -3,9 +3,9 @@ title: 編輯器設定
 description: 瞭解如何在AEM Guides中設定編輯器設定。
 feature: Web Editor
 role: User
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
 
   您可以搜尋元素並將其新增至您的最愛，移除任何先前新增的元素，以及使用簡單的拖放方式來重新排列元素。 我的最愛包含您最常用的元素，當您從編輯器存取時，您在此設定的順序會反映在「快速插入」功能表中。
 
+  以下是有關如何在新編輯器中使用快速插入功能表的短片。
 
+  >[!VIDEO](https://video.tv.adobe.com/v/3491343)
 
 
