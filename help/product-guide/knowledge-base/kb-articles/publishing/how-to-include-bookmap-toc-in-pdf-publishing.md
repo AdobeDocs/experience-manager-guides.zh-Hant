@@ -104,8 +104,8 @@ Ditamap本身不會像書籤一樣直接擁有目錄(TOC)。 不過，Ditamap在
 
 ## 其他資源：
 
-- [原生PDF設計頁面配置檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [原生PDF Essentials預先錄製的專家講座](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [原生PDF設計頁面配置檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [原生PDF Essentials預先錄製的專家講座](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
