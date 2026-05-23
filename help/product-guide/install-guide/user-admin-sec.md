@@ -40,13 +40,13 @@ ht-degree: 10%
 
 AEM檔案中的下列主題將幫助您瞭解使用者管理與安全性相關的概念和功能：
 
-- [AEM中的使用者和群組](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [AEM中的使用者和群組](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [AEM中的許可權](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [AEM中的許可權](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [管理使用者和群組](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [管理使用者和群組](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [管理許可權](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [管理許可權](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## AEM Guides建立的使用者群組 {#id181TF0K0MHT}

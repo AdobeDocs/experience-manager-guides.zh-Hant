@@ -57,9 +57,9 @@ ht-degree: 0%
 
 ## 相關資源
 
-- [輸出產生基本知識](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
+- [輸出產生基本知識](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
 
-- [安裝新的AEM Sites範本](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
+- [安裝新的AEM Sites範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
 
 - [單一主題發佈](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output/single-topic-publishing/publish-content-fragment.html)
 
