@@ -8,12 +8,13 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18a1e586774da61e19055f8e4eb68a507192205c
+source-git-commit: 82d95464acaa3d4d2c43a35197e40a606cd2cc49
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 533
 ht-degree: 0%
 
 ---
+
 
 # 範例
 
@@ -493,7 +494,7 @@ export default {
 ```
 
 1. **檢閱評論**：在此範例中，我們已新增以使用者資訊取代使用者名稱（包含評論者的全名和標題）、新增唯一的評論ID、mailTo圖示，以及新增輸入欄位以提及評論嚴重性和理由。
-我們也在開啟對話方塊的XMLEditor側之註解上新增了`accept with modification`按鈕。 下載[檢閱註解](./examples/review_app_examples/review_comment.ts)的程式碼範例。
+我們也在開啟對話方塊的XMLEditor側之註解上新增了`accept with modification`按鈕。下載[檢閱評論](./examples/review_app_examples/review_comment.ts)的程式碼範例。
 
 ```typescript
 export enum VIEW_STATE {
