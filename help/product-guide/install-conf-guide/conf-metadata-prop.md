@@ -70,4 +70,4 @@ AEM Guides在忽略清單中包含一組預設的中繼資料屬性。 您可以
 
 只有未包含在忽略清單中的中繼資料屬性才會被視為標籤檔案版本已變更。
 
-**上層主題：**[&#x200B;自訂Web編輯器](customize-overview.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)

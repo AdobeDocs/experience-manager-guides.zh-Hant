@@ -12,9 +12,9 @@ ht-degree: 0%
 
 本文章說明5.2.0版Adobe Experience Manager Guides中不同區域所修正的錯誤。
 
-如需新功能和增強功能的詳細資訊，請檢視[ 5.2.0版的新功能](whats-new-5-2-0.md)。
+如需新功能和增強功能的詳細資訊，請檢視[&#x200B; 5.2.0版的新功能](whats-new-5-2-0.md)。
 
-瞭解5.2.0版](upgrade-instructions-5-2-0.md)的[升級指示。
+瞭解5.2.0版[&#128279;](upgrade-instructions-5-2-0.md)的升級指示。
 
 
 ## 製作
