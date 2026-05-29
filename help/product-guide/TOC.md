@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: ffe43716d6f922cf6da9bd94244fc80a80d99b2f
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
-source-wordcount: '3384'
+source-wordcount: '3391'
 ht-degree: 7%
 
 ---
@@ -621,6 +621,7 @@ ht-degree: 7%
       - 內部部署 {#on-prem}
          - [升級AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
          - [升級AEM Guides On-Premise舊版](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [Experience Manager Guides發行版本的設定更新](./install-conf-guide/configuration-on-prem.md)
    - 效能最佳化建議 {#performance-optimization-aemg}
       - [Cloud Service的效能最佳化](./install-conf-guide/perf-optimization-cs.md)
       - [內部部署的效能最佳化](./install-conf-guide/perf-optimization-on-prem.md)
