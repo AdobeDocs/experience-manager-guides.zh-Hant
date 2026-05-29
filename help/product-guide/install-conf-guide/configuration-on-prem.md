@@ -4,7 +4,7 @@ description: 瞭解特定版本的設定
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5e594eb9c811b34ed12f41e465639bf39f9cfb09
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
