@@ -1,7 +1,7 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides 5.2.0版的升級指示
 description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides 5.2.0版。
-source-git-commit: 1dc529ba8913c30fba876f101c3b52474e8a71dd
+source-git-commit: a2d4731af4f4996c87dd177a6e45f1d8ebabd6cf
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 4%
