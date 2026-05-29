@@ -5,22 +5,13 @@ feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
 TQID: https://experienceleague.adobe.com/7WV8Ey5ufs-tSPVc9sI-DMTLY9t31QASpv3pwDO8UcA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1333
+source-wordcount: 1343
 ht-degree: 1%
 
 ---
@@ -100,7 +91,7 @@ ht-degree: 1%
 
 | ServiceNow選項 | 說明 |
 | --- | --- |
-| 發佈設定檔 | 使用下拉式清單，從管理員設定的ServiceNow連線設定檔中選取。 若要深入瞭解管理員如何建立發佈設定檔，請在[左側面板](./web-editor-features.md#id2051EA0M0HS)區段中檢視&#x200B;**Workspace設定** （顯示為&#x200B;**內部部署**&#x200B;的&#x200B;**設定**）功能說明。 |
+| 發佈設定檔 | 使用下拉式清單，從管理員設定的ServiceNow連線設定檔中選取。 若要深入瞭解管理員如何建立發佈設定檔，請在[左側面板](./web-editor-features.md#id2051EA0M0HS)區段中檢視&#x200B;**Workspace設定** （顯示為5.2 **之前之**&#x200B;內部部署設定的&#x200B;**設定**）功能說明。 |
 | 知識庫 | 使用此欄位來選取必要的ServiceNow知識庫。 您可以在ServiceNow網站中設定知識庫，以根據許可權儲存內容。 此DITA map中的文章可發佈至這些知識庫。 |
 | 類別和子類別 | 類別就像用來尋找及分類ServiceNow知識庫文章的階層樹狀結構。 新增類別和子類別，將目錄的主題和子主題發佈到ServiceNow網站上的該類別和子類別。 |
 
@@ -110,7 +101,7 @@ ht-degree: 1%
 
 | Salesforce選項 | 說明 |
 | --- | --- |
-| 發佈設定檔 | 使用下拉式清單，從管理員設定的Salesforce連線設定檔中選取。 若要深入瞭解管理員如何建立發佈設定檔，請在[索引標籤列](./web-editor-tab-bar.md)中檢視&#x200B;**Workspace設定** （顯示為&#x200B;**內部部署**&#x200B;的&#x200B;**設定**）功能說明。 |
+| 發佈設定檔 | 使用下拉式清單，從管理員設定的Salesforce連線設定檔中選取。 若要深入瞭解管理員如何建立發佈設定檔，請在[索引標籤列](./web-editor-tab-bar.md)中檢視&#x200B;**Workspace設定** （顯示為5.2 **之前之**&#x200B;內部部署設定的&#x200B;**設定**）功能說明。 |
 | 記錄型別 | 根據您的使用者設定檔的可見度設定，使用下拉式清單從Salesforce中設定的記錄型別中進行選取。 「Salesforce記錄型別」是將物件多個記錄分為一種型別的方式。 它們定義出版物的組織方式。 例如，您可以選取常見問題集記錄型別，並根據常見問題集頁面版面配置和欄位進行發佈。 |
 | 文章內容欄位 | 您可以擁有不同的欄位，並為每個記錄型別範本設定唯一的版面。 使用這些欄位來根據文章型別輸入特定資訊。 例如，您可以檢視常見問題集文章的標題、答案和方程式。 |
 | 類別 | 從下拉式清單中選取類別，即可在Salesforce網站上發佈該類別中目錄的主題。 |

@@ -5,21 +5,14 @@ exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
 TQID: https://experienceleague.adobe.com/hd0LxXHbISW1ppu4pE8Z1RzAhO8s6NGUV-0aYPfK5zQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1606
 ht-degree: 0%
 
 ---
@@ -28,7 +21,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->從2025.11.0版開始，**存放庫**&#x200B;已重新命名為&#x200B;**總管**。 對於內部部署設定，在Experience Manager Guides 5.1版發行前，它將持續作為存放庫提供。
+>從2025.11.0版的Cloud Servicea和從5.2版的On-Premise，**存放庫**&#x200B;重新命名為&#x200B;**Explorer**。 若為5.2版之前的內部部署設定，則仍會作為存放庫提供。
 
 Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA map和Bookmap。 您也可以建立自己的地圖範本，並與作者共用這些範本，以建立地圖檔案。
 

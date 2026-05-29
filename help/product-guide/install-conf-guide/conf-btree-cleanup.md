@@ -1,24 +1,24 @@
 ---
-title: 設定雲端服務的B樹狀目錄清理工作
-description: 設定雲端服務的B樹狀目錄清理工作
+title: 設定參考存放區清理工作
+description: 設定參考存放區清理工作
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 58f98313-fc91-43b3-9553-aa5ab4946925
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 370a28a06a37b632873a79c9b83b8660a0221dd8
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 3%
 
 ---
 
-# 設定B樹狀結構清理
+# 設定參考存放區清理
 
-設定B-tree清理工作並管理`Guides BTree deletion`設定，讓您的系統最佳化並維持儲存空間整潔。
+設定參考存放區清理工作並管理`Guides BTree deletion`設定，讓您的系統保持最佳化和存放區整潔。
 
-## 設定B-tree清理工作
+## 設定參考存放區清理工作
 
-下列標籤提供根據Experience Manager Guides設定來設定B樹狀目錄清理工作的指示： Cloud Service或內部部署。
+下列標籤提供根據Experience Manager Guides設定來設定參考存放區清理工作的指示： Cloud Service或內部部署。
 
 >[!BEGINTABS]
 
@@ -44,9 +44,9 @@ ht-degree: 3%
 
 1. 搜尋並選取&#x200B;*com.adobe.guides.utils.schedulers.GuidesBTreesCleanupSchedulerJob*&#x200B;套件組合。
 
-1. 更新cron運算式以設定B樹狀目錄清理排程器工作執行頻率。
+1. 更新cron運算式以設定參考存放區清理排程器工作執行頻率。
 
-1. 如下所示設定B-tree清理排程器。
+1. 設定參考存放區清理排程器，如下所示。
 
    ![](assets/btree-cleanup-config.png)
 
@@ -81,7 +81,7 @@ ht-degree: 3%
    ```
 
 1. 搜尋並選取&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;套件。
-1. 啟用設定`Guides btree deletion enabled`。
+1. 啟用設定&#x200B;**Guides btree刪除已啟用** (btree.deletion.enabled)。
 
    ![](assets/btree-cleanup-setting.png)
 

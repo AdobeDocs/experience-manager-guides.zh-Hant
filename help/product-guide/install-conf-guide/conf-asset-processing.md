@@ -4,9 +4,10 @@ description: 瞭解如何設定雲端服務的資產處理
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0b66a515-d8f1-4ea6-913f-e152ae114698
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
@@ -39,7 +40,7 @@ ht-degree: 3%
 
 1. 搜尋並選取&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;套件。
 
-1. 根據您的需求設定設定`Enable Guides asset processing scheduled job`。 預設會啟用此設定。
+1. 根據您的需求，設定設定&#x200B;**啟用Guides資產處理排程工作** (`enable.asset.processing.scheduler`)。 預設會啟用此設定。
 
 1. 選取「**儲存**」。
 

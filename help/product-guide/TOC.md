@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: e1c94e180a89b8d68ea6e0812a2c576b272ffdf5
+source-git-commit: ffe43716d6f922cf6da9bd94244fc80a80d99b2f
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3384'
 ht-degree: 7%
 
 ---
@@ -129,6 +129,10 @@ ht-degree: 7%
             - [1月發行說明](./release-info/release-notes-2022-1-0.md)
       - 內部部署/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
+         - 5.2.0版 {#520-release}
+            - [新增功能](./release-info/whats-new-5-2-0.md)
+            - [已修正的問題](./release-info/fixed-issues-5-2-0.md)
+            - [升級指示](./release-info/upgrade-instructions-5-2-0.md)
          - 5.1.0 SP4版本 {#510-sp4-release}
             - [已修正的問題](./release-info/fixed-issues-5-1-0-sp4.md)
             - [升級指示](./release-info/upgrade-instructions-5-1-0-sp4.md)
@@ -194,13 +198,13 @@ ht-degree: 7%
                - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
                - [4.2發行說明](./release-info/release-notes-4-2.md)
          - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x發行說明](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 使用手冊（新UI） {#user-guide}
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]個運作中及主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
          - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 首頁 {#home-page}
       - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
@@ -226,7 +230,7 @@ ht-degree: 7%
             - [內容編輯區域](./user-guide/web-editor-content-editing-area.md)
             - [右側面板](./user-guide/web-editor-right-panel.md)
             - [搜尋面板](./user-guide/search-panel-explorer.md)
-         - [編輯器中的其他功能](./user-guide/web-editor-other-features.md)
+         - 編輯器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
          - [編輯器檢視](./user-guide/web-editor-views.md)
          - [支援Schematron檔案](./user-guide/support-schematron-file.md)
@@ -403,7 +407,7 @@ ht-degree: 7%
       - 疑難排解 {#troubleshooting}
          - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-guide}
    - 內部部署 {#on-prem-ig}
       - {hide-from-toc}[內部部署基本知識](./install-guide/introduction.md)
@@ -474,13 +478,13 @@ ht-degree: 7%
       - 使用輸出產生設定 {#output-gen-config}
          - {hide-from-toc}[設定輸出產生設定](./install-guide/conf-output-generation.md)
          - {hide-from-toc}[下載並安裝AEM Sites範本](./install-guide/download-install-aem-sites-templates.md)
-         - {hide-from-toc}[AEM Sites的元件對應](./install-guide/component-mapping.md)
+         - AEM Sites的{hide-from-toc}[元件對應](./install-guide/component-mapping.md)
          - {hide-from-toc}[覆蓋AEM Sites輸出中的HTML標籤](./install-guide/overlay-html-tags-aem-sites.md)
          - 原生PDF發佈 {#config-native-pdf-publish}
             - {hide-from-toc}[PDF範本](./native-pdf/pdf-template.md)
             - {hide-from-toc}[個PDF範本元件](./native-pdf/components-pdf-template.md)
             - {hide-from-toc}[設計頁面配置](./native-pdf/design-page-layout.md)
-            - {hide-from-toc}[PDF輸出中的變數](./native-pdf/native-pdf-variables.md)
+            - PDF輸出中的{hide-from-toc}[變數](./native-pdf/native-pdf-variables.md)
             - {hide-from-toc}[支援語言變數](./native-pdf/native-pdf-language-variables.md)
             - {hide-from-toc}[將條碼新增至PDF輸出](./native-pdf/add-barcode.md)
             - 常見內容樣式 {#content-styles}
@@ -577,7 +581,7 @@ ht-degree: 7%
       - 使用輸出產生設定 {#output-gen-config-cs}
          - {hide-from-toc}[設定輸出產生設定](./cs-install-guide/conf-output-generation.md)
          - {hide-from-toc}[下載並安裝AEM Sites範本](./cs-install-guide/download-install-aem-sites-templates-cs.md)
-         - {hide-from-toc}[AEM Sites的元件對應](./cs-install-guide/component-mapping.md)
+         - AEM Sites的{hide-from-toc}[元件對應](./cs-install-guide/component-mapping.md)
          - {hide-from-toc}[原生PDF發佈](./cs-install-guide/native-pdf-publishing.md)
          - {hide-from-toc}[設定原生PDF發佈的節點程式](./native-pdf/configure-node-options.md)
          - {hide-from-toc}[建立主題與內容片段之間的對應](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -664,15 +668,16 @@ ht-degree: 7%
       - [設定文字篩選](./install-conf-guide/conf-text-filters.md)
       - [設定檔案瀏覽對話方塊的篩選器](./install-conf-guide/conf-custom-file-filters.md)
       - [安裝文章式發佈的套件](./install-conf-guide/conf-article-based-publishing.md)
+      - [設定中繼資料屬性的忽略清單](./install-conf-guide/conf-metadata-prop.md)
       - 適用於Cloud Service的編輯器設定 {#editor-cloud-settings}
          - [設定AI支援的智慧型建議，以編寫Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
          - [設定AI支援的Smart Help以搜尋Cloud Service的內容](./install-conf-guide/conf-smart-help.md)
          - [設定在Cloud Service的Oxygon中編輯的選項](./install-conf-guide/conf-edit-in-oxygen.md)
          - [設定Cloud Service已貼上表格的顯示](./install-conf-guide/conf-pasted-tables.md)
          - [為Cloud Service設定單一主題PDF產生方式](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [在適用於Cloud Service的網頁編輯器中設定翻譯功能](./install-conf-guide/conf-translation-editor.md)
-         - [設定Cloud Service中繼資料屬性的忽略清單](./install-conf-guide/conf-metadata-prop.md)
+         - [在Cloud Service的網頁編輯器中設定翻譯功能](./install-conf-guide/conf-translation-editor.md)
       - On-Premise的編輯器設定 {#editor-on-prem-settings}
+         - [設定新編輯器](./install-conf-guide/conf-new-editor-on-prem.md)
          - [為On-Premise設定其他特殊字元](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [設定On-Premise的簽入和簽出圖示標題](./install-conf-guide/conf-checkin-checkout-title.md)
          - [設定On-Premise查詢的LimitReads數目](./install-conf-guide/conf-query-limitreads.md)
@@ -714,9 +719,13 @@ ht-degree: 7%
       - [整合案頭式XML編輯器](./install-conf-guide/integrate-desktop-editors.md)
       - [設定適用於Cloud Service的Workfront](./install-conf-guide/conf-workfront.md)
       - [設定翻譯](./install-conf-guide/conf-translation.md)
+      - [設定On-Premise的目的地副本初始化](./install-conf-guide/conf-translation-copies-on-prem.md)
+      - [為內部部署設定新基準線](./install-conf-guide/conf-new-baseline-on-prem.md)
+      - [設定On-Premise略過對等連結](./install-conf-guide/conf-skip-peer-links-on-prem.md)
    - 擴充功能 {#aemg-customization}
       - [為Cloud Service部署尋找和取代功能的自訂索引](./install-conf-guide/custom-indexing-cs.md)
       - [為內部部署的尋找和取代功能重新編列索引](./install-conf-guide/custom-indexing-on-prem.md)
+      - [為內部部署設定尋找和取代功能](./install-conf-guide/conf-find-replace-on-prem.md)
       - [AEM Sites的元件對應](./install-conf-guide/component-mapping.md)
    - 附錄 {#appendix}
       - [附錄](./install-conf-guide/aemg-appendix.md)
@@ -786,7 +795,7 @@ ht-degree: 7%
             - Widget {#framework-widgets}
                - [轉譯Widget](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本Widget](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-            - [編輯器2.0的擴充框架變更](./guides-ui-extensions/getting-started/editor-extension-guide.md)
+            - 編輯器2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)的[擴充框架變更
          - 快速入門 {#getting-started}
             - [簡介](./guides-ui-extensions/getting-started/introduction.md)
             - [安裝指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
