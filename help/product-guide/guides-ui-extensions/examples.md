@@ -3,17 +3,15 @@ title: 範例
 description: 自訂範例清單
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
 TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18a1e586774da61e19055f8e4eb68a507192205c
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 82d95464acaa3d4d2c43a35197e40a606cd2cc49
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 533
 ht-degree: 0%
 
 ---
+
 
 # 範例
 
@@ -379,7 +377,7 @@ const topbarExtend = {
 export default topbarExtend
 ```
 
-1. 中繼資料面板上的&#x200B;**管理**&#x200B;按鈕：在此範例中，我們已自訂&#x200B;**管理**&#x200B;按鈕（位於「報表」頁面上的「中繼資料」面板），以便在選取的檔案處於唯讀模式時停用該按鈕。 這有助於防止意外編輯不打算編輯的檔案的中繼資料。 下載中繼資料面板[&#128279;](./examples/metadata_report_manage_button.ts)上管理按鈕的程式碼範例。
+1. 中繼資料面板上的&#x200B;**管理**&#x200B;按鈕：在此範例中，我們已自訂&#x200B;**管理**&#x200B;按鈕（位於「報表」頁面上的「中繼資料」面板），以便在選取的檔案處於唯讀模式時停用該按鈕。 這有助於防止意外編輯不打算編輯的檔案的中繼資料。 下載中繼資料面板](./examples/metadata_report_manage_button.ts)上[管理按鈕的程式碼範例。
 
 ```typescript
 const mapConsoleActionBar = {
@@ -493,7 +491,7 @@ export default {
 ```
 
 1. **檢閱評論**：在此範例中，我們已新增以使用者資訊取代使用者名稱（包含評論者的全名和標題）、新增唯一的評論ID、mailTo圖示，以及新增輸入欄位以提及評論嚴重性和理由。
-我們也在開啟對話方塊的XMLEditor側之註解上新增了`accept with modification`按鈕。 下載[檢閱註解](./examples/review_app_examples/review_comment.ts)的程式碼範例。
+我們也在開啟對話方塊的XMLEditor側之註解上新增了`accept with modification`按鈕。下載[檢閱評論](./examples/review_app_examples/review_comment.ts)的程式碼範例。
 
 ```typescript
 export enum VIEW_STATE {
