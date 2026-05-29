@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 8c551c37-2bfd-471b-bb72-514fabbc0bf2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 3%
 
 1. 搜尋並選取&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;套件。
 
-1. 根據您的需求設定設定`Replicate DITA assets`。 預設會啟用此設定。
+1. 依照您的需求設定設定&#x200B;**復寫DITA資產** (`publish.replicate`)。 預設會啟用此設定。
 
 
    ![](assets/dita-assets-replication.png){width="350"}

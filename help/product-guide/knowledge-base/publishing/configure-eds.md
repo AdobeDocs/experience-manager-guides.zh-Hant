@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 18a4473776955700003c2381494dd5325120ea89
+source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 1%
@@ -99,7 +99,7 @@ Adobe Experience Manager使用名為&#x200B;**AEM Code Sync**&#x200B;的GitHub�
 
 您的應用程式現已準備就緒。 系統會將您重新導向至GitHub應用程式的&#x200B;**設定**&#x200B;頁面。
 
-![](assets/eds-github-app-registered-page.png){}
+![](assets/eds-github-app-registered-page.png)
 
 ### 建立新的OAuth應用程式
 

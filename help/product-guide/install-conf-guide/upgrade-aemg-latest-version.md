@@ -4,10 +4,11 @@ description: 瞭解如何升級Adobe Experience Manager Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
+source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 0%
+source-wordcount: '1884'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +20,9 @@ ht-degree: 0%
 >
 > 請依照產品的授權版本專屬的升級指示操作。
 
-您可以將目前的Experience Manager Guides版本升級至5.1.0 Service Pack 3版：
+您可以將目前的Experience Manager Guides版本升級至5.2.0版：
 
-- 如果您是使用5.1.0版或5.1.x版，則可以直接升級至5.1.0 Service Pack 3版。
+- 如果您是使用5.0.0、5.0.3、5.1.0或5.1.3版，則可直接升級至5.2.0版。
 - 如果您使用的是4.6.0、4.6.x、5.0.0或5.0.x版，則需要升級至5.1.0版。
 - 如果您使用4.6.0之前的版本，請參閱[升級Adobe Experience Manager Guides 4.4.0和更早版本](./upgrade-aemg-prev-versions.md)的詳細升級指示。
 
@@ -31,6 +32,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱下列程式：
 
+- [升級至5.2.0版](#upgrade-to-version-510)
 - [升級至5.1.0版](#upgrade-to-version-510)
 - [升級至5.0.0版](#upgrade-to-version-500)
 - [升級至4.6.0版](#upgrade-to-version-460)
@@ -38,6 +40,33 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 > 在開始升級之前，請先進行完整的系統備份，以避免任何資料遺失。
+
+
+## 升級至5.2.0版
+
+>[!IMPORTANT]
+>
+> 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.2.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+
+**先決條件**
+
+>[!NOTE]
+>
+>如果您要升級至5.2.0，則需使用5.0.0、5.0.3、5.1.0或5.1.3版的Experience Manager Guides。 5.2.0版的升級程式遵循與5.1.0版相同的步驟。
+
+在開始Experience Manager Guides 5.2.0升級程式之前，請確定您擁有：
+
+1. 已升級至Experience Manager Guides 5.0.0、5.0.3、5.1.0或5.1.3版。
+1. （選用）已關閉所有翻譯工作。
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
+
+>[!NOTE]
+>
+> 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
+
+**安裝5.2.0**&#x200B;版
+
+從[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載5.2.0版套件，並按照[安裝與後續安裝升級工作流程](#installation-and-post-installation-upgrade-workflow)中提供的指示完成升級程式。
 
 
 ## 升級至5.1.0版
@@ -57,7 +86,7 @@ ht-degree: 0%
 
 1. 已升級至Experience Manager Guides 4.6.3、4.6.4、5.0.0或5.0.0 Service Pack 1版。
 1. （選用）已關閉所有翻譯工作。
-1. 已將&#x200B;**類別的記錄層級變更為** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
 
 >[!NOTE]
 >
@@ -84,7 +113,7 @@ ht-degree: 0%
 
 1. 升級至Experience Manager Guides 4.6.3、4.6.1、4.6.0或4.4版。
 1. （選用）已關閉所有翻譯工作。
-1. 已將&#x200B;**類別的記錄層級變更為** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
 
 
 **安裝5.0.0**&#x200B;版
@@ -109,7 +138,7 @@ ht-degree: 0%
 
 1. 已升級至Experience Manager Guides 4.3.1、4.3.0或4.2.1版(Hotfix 4.2.1.3)。
 1. （選用）已關閉所有翻譯工作。
-1. 已將&#x200B;**類別的記錄層級變更為** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
+1. 已將`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`類別的記錄層級變更為&#x200B;**INFO**，並將這些記錄附加至新的記錄檔，例如`logs/translation_upgrade.log`。
 
 **安裝4.6.0**&#x200B;版
 
@@ -188,14 +217,14 @@ ht-degree: 0%
 
    尋找下列兩個啟動器\（若有需要\）並進行變更\（應該為作用中\），其對應至&#x200B;**DAM更新資產工作流程**：
 
-1. 已針對&#x200B;*DAM更新資產工作流程*&#x200B;建立「**節點**」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
+1. 已針對&#x200B;**DAM更新資產工作流程**&#x200B;建立「*節點*」的啟動器 — 對於條件`"jcr:content/jcr:mimeType!=video"`，「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39;應該有`"event-user-data:changedByWorkflowProcess"`。
-   - 針對&#x200B;*DAM更新資產工作流程 —*&#x200B;的「**節點已修改**」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
+   - 針對&#x200B;**DAM更新資產工作流程 —**&#x200B;的「*節點已修改*」的啟動器（條件「`jcr:content/jcr:mimeType!=video`」），「萬用字元」值應為：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -227,7 +256,7 @@ ht-degree: 0%
 
 執行以下步驟來索引現有內容：
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引||範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
+- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編列索引，預設情況下，所有地圖都會編列索引 ||範例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - API將傳回`jobId`。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -253,5 +282,4 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../install-con
 
 >[!NOTE]
 >
-> 在依照檔案操作時，請確定透過儲存作業同時更新兩個屬性（`reindex=true`的`reindex-async=true`和`/oak:index/damAssetLucene`）。
-
+> 在依照檔案操作時，請確定透過儲存作業同時更新兩個屬性（`/oak:index/damAssetLucene`的`reindex=true`和`reindex-async=true`）。

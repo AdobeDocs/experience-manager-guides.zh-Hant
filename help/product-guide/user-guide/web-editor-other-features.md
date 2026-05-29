@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 4286
+source-wordcount: 4232
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >從2025.11.0版開始，**存放庫**&#x200B;已重新命名為&#x200B;**總管**。 對於內部部署設定，在Experience Manager Guides 5.1版發行前，它將持續作為存放庫提供。
+  >從2025.11.0版的Cloud Service和從5.2版的On-Premise，**存放庫**&#x200B;重新命名為&#x200B;**Explorer**。 若為5.2版之前的內部部署設定，則仍會作為存放庫提供。
 
 ***新增至***：您可以選擇下列選項：
 
@@ -418,7 +418,7 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 ### 在MathML編輯器中驗證方程式
 
 當您儲存包含方程式的主題時，Experience Manager Guides會驗證MathML方程式。
-使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取&#x200B;**插入**，則會顯示警告。
+使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。您可以在插入之前進行修正。如果您未進行任何變更，但選取&#x200B;**插入**，則會顯示警告。
 
 ![驗證mathml方程式](images/validate-mathml-equation.png){width="400"}
 

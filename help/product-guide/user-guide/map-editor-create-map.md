@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1606
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->從2025.11.0版開始，**存放庫**&#x200B;已重新命名為&#x200B;**總管**。 對於內部部署設定，在Experience Manager Guides 5.1版發行前，它將持續作為存放庫提供。
+>從2025.11.0版的Cloud Servicea和從5.2版的On-Premise，**存放庫**&#x200B;重新命名為&#x200B;**Explorer**。 若為5.2版之前的內部部署設定，則仍會作為存放庫提供。
 
 Adobe Experience Manager Guides提供兩個現成可用的地圖範本 — DITA map和Bookmap。 您也可以建立自己的地圖範本，並與作者共用這些範本，以建立地圖檔案。
 

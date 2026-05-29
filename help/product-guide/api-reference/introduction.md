@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0047d3917ffcc8b83a319be5b7c12780c0f2ef55
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: 686
 ht-degree: 0%
 
 ---
@@ -131,6 +131,11 @@ Experience Manager Guides提供了一組完整的REST型API，讓開發人員可
 - 建置自訂應用程式和擴充功能
 
 如需API使用、引數和範例要求的詳細資訊，請檢視Experience Manager Guides檔案&#x200B;**API參考**&#x200B;章節中的相關主題。
+
+>[!NOTE]
+>
+> 您也可以參閱&#x200B;**Swagger檔案**，以取得位於`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`的公開可用REST API。 目前，Swagger檔案中僅提供與Assets、基線和報表相關的API。
+
 
 ## 其他資源
 
