@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
+source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 984
 ht-degree: 0%
 
 ---
@@ -28,8 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 編輯器支援ISO架構。
-
+>編輯器支援ISO架構。
 
 ## 匯入Schematron檔案
 
@@ -57,7 +56,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 新增無效的Schematron檔案時，「驗證」面板中會顯示錯誤訊息。
+   >新增無效的Schematron檔案時，「驗證」面板中會顯示錯誤訊息：
 
    ![](images/schematron-panel-error.png){width="350"}
 
@@ -122,9 +121,9 @@ Experience Manager Guides也支援Schematron中的判斷提示和報表陳述式
 
 ### 報表陳述式
 
-當測試陳述式評估為true時，報表陳述式會產生訊息。例如，如果您希望簡短說明少於或等於150個字元，可以定義報表陳述式，以檢查簡短說明超過150個字元的主題。
-使用結構描述驗證DITA主題時，您會獲得規則完整的報告，其中報告陳述式的評估為true。因此，您會收到一則主題訊息，其中簡短說明超過150個字元。
+當測試陳述式評估為true時，報表陳述式會產生訊息。 例如，如果您希望簡短說明少於或等於150個字元，可以定義報表陳述式，以檢查簡短說明超過150個字元的主題。
 
+使用結構描述驗證DITA主題時，您會獲得規則完整的報告，其中報告陳述式的評估為true。 因此，您會收到一則主題訊息，其中簡短說明超過150個字元。
 
 ```XML
 <sch:rule context="shortdesc"> 
@@ -137,7 +136,7 @@ Experience Manager Guides也支援Schematron中的判斷提示和報表陳述式
 
 >[!NOTE]
 >
-> 寫入Schematron規則時只使用Xpath 2.0運算式。
+>寫入Schematron規則時只使用Xpath 2.0運算式。
 
 ## 使用規則運算式{#schematron-regex-espressions}
 
@@ -155,9 +154,7 @@ No one word titles.
 
 Experience Manager Guides也支援Schematron中的抽象模式。 您可以定義一般抽象模式，重複使用這些抽象模式。  您可以建立指定實際模式的預留位置引數。
 
-
 使用抽象模式可減少規則的重複，並更容易管理和更新驗證邏輯，藉此簡化您的Schematron方案。 它也能讓您的結構描述更易於理解，因為您可以在可在整個結構描述中重複使用的單一抽象模式中定義複雜的驗證邏輯。
-
 
 例如，下列XML程式碼會建立抽象模式，然後實際模式會使用id來參照它。
 
