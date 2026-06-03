@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
 workflow-type: tm+mt
-source-wordcount: 984
+source-wordcount: 907
 ht-degree: 0%
 
 ---
@@ -122,8 +122,8 @@ Experience Manager Guides也支援Schematron中的判斷提示和報表陳述式
 
 ### 報表陳述式
 
-當測試陳述式評估為true時，報表陳述式會產生訊息。 例如，如果您希望簡短說明少於或等於150個字元，可以定義報表陳述式，以檢查簡短說明超過150個字元的主題。
-使用結構描述驗證DITA主題時，您會獲得規則完整的報告，其中報告陳述式的評估為true。 因此，您會收到一則主題訊息，其中簡短說明超過150個字元。
+當測試陳述式評估為true時，報表陳述式會產生訊息。例如，如果您希望簡短說明少於或等於150個字元，可以定義報表陳述式，以檢查簡短說明超過150個字元的主題。
+使用結構描述驗證DITA主題時，您會獲得規則完整的報告，其中報告陳述式的評估為true。因此，您會收到一則主題訊息，其中簡短說明超過150個字元。
 
 
 ```XML
@@ -148,9 +148,8 @@ Experience Manager Guides也支援Schematron中的判斷提示和報表陳述式
 ```XML
 <assert test="not(matches(.,'^\w+$'))"> 
 No one word titles.
-</assert>  
+</assert>
 ```
-
 
 ## 定義抽象模式{#schematron-abstract-patterns}
 
