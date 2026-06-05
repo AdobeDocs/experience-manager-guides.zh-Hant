@@ -14,10 +14,10 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
 workflow-type: tm+mt
-source-wordcount: 705
-ht-degree: 0%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 0%
       ![選取存取存放庫資訊](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. 使用提供的使用者名稱和密碼將存放庫複製到本機系統（必要時產生密碼）。
-2. **將套件新增至Maven套件組合：**
-   1. 在您的本機複製存放庫中，建立新的Maven套件組合或新增到現有的套件組合中。
-   2. 請確定Maven專案中存在結構`/jcr_root/apps/fmdita/`安裝。
+2. **新增封裝至專案模組：**
+   1. 在本機複製的存放庫中，建立新的專案模組或新增至現有的專案模組。
+   2. 請確認結構`/jcr_root/apps/fmdita/`安裝存在。
 
       ![Maven專案中的結構](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
@@ -65,8 +65,7 @@ ht-degree: 0%
 3. **更新篩選器.xml：**
 
    1. 開啟位於上層內容目錄META-INF資料夾中的filters.xml檔案。
-   2. 新增下列篩選器：篩選器根=`/apps/fmdita` mode=`merge`/
-
+   2. 新增下列篩選器： `<filter root=/apps/fmdita  mode=merge/>`。
 
       ![新增篩選器](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 

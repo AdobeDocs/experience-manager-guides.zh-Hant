@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: 951
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 1%
 >
 > 確定在`wcm/foundation/components`下使用sling:resourceType的元件已移轉至對應的`core/wcm/components`。
 
-在相同範本的結構中新增相同的（容器和文字元件）：
+在相同範本的結構中新增相同的容器元件：
 
 ![正在新增容器和文字元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 
 | 功能 | 元件名稱 | 說明 | 建議的範本 |
 |---|---|---|---|
-| 目錄 | guidessidenavigation | 從DITA map轉譯完整的TOC | 檔案容器 |
+| 目錄 | guidessidenavigation | 從DITA map轉譯完整的TOC | 主題頁面 |
 | 頁面重新導向 | childredirect | 重新導向地圖中的第一個主題頁面 | 檔案容器 |
 | 迷你目錄 | minitoc | 顯示目前主題的目錄 | 主題頁面 |
 | 最近更新 | pageproperty | 顯示上次修改日期 | 主題頁面 |
@@ -135,7 +135,7 @@ ht-degree: 1%
 
 1. **編輯範本：**
 
-   1. 以&#x200B;**編輯器模式**&#x200B;開啟&#x200B;**產品頁面**。
+   1. 在編輯器模式中開啟&#x200B;**容器頁面範本**&#x200B;和&#x200B;**主題頁面範本**。
    2. 選取&#x200B;**編輯範本** （這將開啟conf/settings/wcm/templates/structure.html之類的URL）。
 
       ![編輯範本](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
