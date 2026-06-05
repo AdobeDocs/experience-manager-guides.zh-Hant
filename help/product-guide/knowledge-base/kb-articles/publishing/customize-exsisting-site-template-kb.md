@@ -6,22 +6,14 @@ role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
 TQID: https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: 951
 ht-degree: 1%
 
 ---
@@ -102,7 +94,7 @@ ht-degree: 1%
 >
 > 確定在`wcm/foundation/components`下使用sling:resourceType的元件已移轉至對應的`core/wcm/components`。
 
-在相同範本的結構中新增相同的（容器和文字元件）：
+在相同範本的結構中新增相同的容器元件：
 
 ![正在新增容器和文字元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
@@ -114,7 +106,7 @@ ht-degree: 1%
 
 | 功能 | 元件名稱 | 說明 | 建議的範本 |
 |---|---|---|---|
-| 目錄 | guidessidenavigation | 從DITA map轉譯完整的TOC | 檔案容器 |
+| 目錄 | guidessidenavigation | 從DITA map轉譯完整的TOC | 主題頁面 |
 | 頁面重新導向 | childredirect | 重新導向地圖中的第一個主題頁面 | 檔案容器 |
 | 迷你目錄 | minitoc | 顯示目前主題的目錄 | 主題頁面 |
 | 最近更新 | pageproperty | 顯示上次修改日期 | 主題頁面 |
@@ -135,7 +127,7 @@ ht-degree: 1%
 
 1. **編輯範本：**
 
-   1. 以&#x200B;**編輯器模式**&#x200B;開啟&#x200B;**產品頁面**。
+   1. 在編輯器模式中開啟&#x200B;**容器頁面範本**&#x200B;和&#x200B;**主題頁面範本**。
    2. 選取&#x200B;**編輯範本** （這將開啟conf/settings/wcm/templates/structure.html之類的URL）。
 
       ![編輯範本](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
@@ -154,4 +146,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 請務必先在非生產環境中測試範本，然後再部署到生產環境。<br><br>如需詳細資訊，請參閱正式[AEM Guides](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/get-started/authoring)檔案。
+> 請務必先在非生產環境中測試範本，然後再部署到生產環境。<br><br>如需詳細資訊，請參閱正式[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring)檔案。

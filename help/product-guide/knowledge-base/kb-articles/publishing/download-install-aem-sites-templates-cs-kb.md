@@ -6,18 +6,13 @@ role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
 TQID: https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
 workflow-type: tm+mt
-source-wordcount: 705
-ht-degree: 0%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -53,9 +48,9 @@ ht-degree: 0%
       ![選取存取存放庫資訊](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. 使用提供的使用者名稱和密碼將存放庫複製到本機系統（必要時產生密碼）。
-2. **將套件新增至Maven套件組合：**
-   1. 在您的本機複製存放庫中，建立新的Maven套件組合或新增到現有的套件組合中。
-   2. 請確定Maven專案中存在結構`/jcr_root/apps/fmdita/`安裝。
+2. **新增封裝至專案模組：**
+   1. 在本機複製的存放庫中，建立新的專案模組或新增至現有的專案模組。
+   2. 請確認結構`/jcr_root/apps/fmdita/`安裝存在。
 
       ![Maven專案中的結構](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
@@ -65,8 +60,7 @@ ht-degree: 0%
 3. **更新篩選器.xml：**
 
    1. 開啟位於上層內容目錄META-INF資料夾中的filters.xml檔案。
-   2. 新增下列篩選器：篩選器根=`/apps/fmdita` mode=`merge`/
-
+   2. 新增下列篩選器： `<filter root=/apps/fmdita  mode=merge/>`。
 
       ![新增篩選器](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
@@ -143,4 +137,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在部署到生產環境之前，請確定所有設定都在非生產環境中進行測試。<br><br> 如需詳細資訊，請參閱正式[部署至AEM as a Cloud Service檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
+> 在部署到生產環境之前，請確定所有設定都在非生產環境中進行測試。<br><br> 如需詳細資訊，請參閱正式[部署至AEM as a Cloud Service檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
