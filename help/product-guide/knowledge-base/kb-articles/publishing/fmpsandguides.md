@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### FMPS
 
-對於FMPS安裝，您可以參考指定的[YouTube連結](https://www.youtube.com/watch?v=2deelyM5VA8&t)或[FMPS安裝與組態](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)
+對於FMPS安裝，您可以參考指定的[YouTube連結](https://www.youtube.com/watch?v=2deelyM5VA8&t)或[FMPS安裝與組態](https://help.adobe.com/zh_TW/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)
 
 ## 必要的設定
 
