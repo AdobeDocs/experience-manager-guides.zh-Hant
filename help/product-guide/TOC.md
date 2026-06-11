@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
 workflow-type: tm+mt
-source-wordcount: '3391'
+source-wordcount: '3406'
 ht-degree: 7%
 
 ---
@@ -237,6 +237,7 @@ ht-degree: 7%
          - [從編輯器編寫Markdown檔案](./user-guide/web-editor-markdown-topic.md)
          - [將引文新增至您的內容](./user-guide/web-editor-apply-citations.md)
          - [使用來自您的資料來源的資料](./user-guide/web-editor-content-snippet.md)
+         - {hide-from-toc}[使用Git Connector (Beta)匯入內容](./user-guide/web-editor-git-connector.md)
          - [檔案狀態](./user-guide/web-editor-document-states.md)
          - [使用標籤](./user-guide/web-editor-use-label.md)
          - [編輯器設定](./user-guide/config-editor-settings.md)
@@ -685,6 +686,7 @@ ht-degree: 7%
       - 資料來源聯結器 {#data-source}
          - [從使用者介面設定資料來源聯結器](./install-conf-guide/conf-data-source-connector-tools.md)
          - [設定Cloud Service的資料來源聯結器](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[從使用者介面建立並設定Git聯結器](./install-conf-guide/conf-git-connector.md)
    - 全域和資料夾層級設定檔 {#global-folder-profiles}
       - [設定全域或資料夾層級的設定檔](./install-conf-guide/conf-profiles.md)
    - 主題與地圖範本 {#topic-map-template}
