@@ -6,29 +6,22 @@ role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
 TQID: https://experienceleague.adobe.com/lvzQA2ECfl6LYSVAbFmg12oFkKCiUjZgv4X3K1TCwkM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ed9d83c9-e55d-4a67-9667-8e31871715a7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ed9d83c9-e55d-4a67-9667-8e31871715a7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1034
-ht-degree: 2%
+source-wordcount: 844
+ht-degree: 0%
 
 ---
 
 # 將內容從內部部署移轉至Cloud Service
 
-Experience Manager as a Cloud Service為Experience Manager Guides、Assets、Forms和Screens提供可擴充、安全且敏捷的技術基礎。 這可讓行銷人員和IT專業人士專注於大規模提供具影響力的體驗。
-有了Experience Manager as a Cloud Service，您的團隊便能專注於創新而非規劃產品升級。 新產品功能會經過徹底測試，並持續傳送給您的團隊，讓團隊可以隨時存取最新版Adobe Experience Manager。
+Experience Manager as a Cloud Service為Experience Manager Guides、Assets、Forms和Screens提供可擴充、安全且敏捷的技術基礎。這可讓行銷人員和IT專業人士專注於大規模提供具影響力的體驗。
+有了Experience Manager as a Cloud Service，您的團隊便能專注於創新而非規劃產品升級。新產品功能會經過徹底測試，並持續傳送給您的團隊，讓團隊可以隨時存取最新版Adobe Experience Manager。
 
 本文提供詳細的逐步程式，說明將內部部署或Managed Services Experience Manager Guides內容移轉至Cloud Service，確保順利轉換至雲端型平台。
 
@@ -44,8 +37,8 @@ Experience Manager as a Cloud Service為Experience Manager Guides、Assets、For
 
 ## 移轉程式
 
-**內容轉移工具**&#x200B;是由Adobe開發的工具，可用來啟動將現有內容從來源Adobe Experience Manager內部部署或Managed Services執行個體移轉至目標Experience Manager Cloud Service執行個體的作業。
-此工具也會自動轉移主體 (使用者或群組)。
+**內容轉移工具**是由Adobe開發的工具，可用來啟動將現有內容從來源Adobe Experience Manager內部部署或Managed Services執行個體移轉至目標Experience Manager Cloud Service執行個體的作業。
+此工具也會自動轉移主體（使用者或群組）。
 
 您可以從&#x200B;**軟體發佈**&#x200B;入口網站下載&#x200B;**內容轉移工具**&#x200B;的ZIP檔：
 
@@ -54,8 +47,8 @@ Experience Manager as a Cloud Service為Experience Manager Guides、Assets、For
 1. 從清單中選取&#x200B;**內容轉移工具**&#x200B;並下載。
 
 ![下載內容轉移工具](./assets/content-transfer-tool-software-portal.png)
-然後透過&#x200B;**封裝管理員**&#x200B;在您的來源Adobe Experience Manager執行個體上安裝封裝。 確保下載最新版本。
-如需最新版本的詳細資訊，請檢視[發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=zh-Hant)。
+然後透過**封裝管理員**在您的來源Adobe Experience Manager執行個體上安裝封裝。請務必下載最新版本。
+如需最新版本的詳細資訊，請檢視[發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en)。
 
 >[!NOTE]
 > 
@@ -78,7 +71,7 @@ Experience Manager as a Cloud Service為Experience Manager Guides、Assets、For
 1. 建立您的第一個專案。
    ![建立專案](./assets/migration-cloud-create-project.png)
 
-1. 新增名稱和描述，然後按一下[建立]。**&#x200B;** 您的專案已建立。
+1. 新增名稱和描述，然後按一下[建立]。**** 您的專案已建立。
 1. 選取已建立的專案，並開啟專案畫面。
 1. 在&#x200B;**內容轉移**&#x200B;圖磚上按一下&#x200B;**檢閱**。
 
@@ -95,7 +88,7 @@ Experience Manager as a Cloud Service為Experience Manager Guides、Assets、For
 1. 建立之後，請選取三個點，然後選取&#x200B;**複製擷取金鑰**。
 
 
-1. 按一下&#x200B;**複製到剪貼簿**。 建立您的第一個專案。
+1. 按一下&#x200B;**複製到剪貼簿**。建立您的第一個專案。
    ![擷取金鑰](./assets/migration-copy-to-clipboard.png)
 
 1. 在上方選取「**Adobe Experience Manager**」，然後選取「**軟體發佈**」圖磚。
@@ -117,11 +110,11 @@ Experience Manager as a Cloud Service為Experience Manager Guides、Assets、For
 
 1. 選取&#x200B;**內容轉移**、建立移轉集，並貼上從Cloud Acceleration Manager複製的擷取金鑰。 這會在來源和目標之間建立連線。 然後它會驗證金鑰，並在輸入值後顯示有效性。
 
-1. 啟用&#x200B;**包含版本**&#x200B;選項以包含檔案版本。
+1. 啟用&#x200B;**包含版本**選項以包含檔案版本。
    ![](./assets/migration-create-migration-set.png)
 
-1. 提供您要移轉的路徑，然後按一下[儲存]。**&#x200B;**
-例如，  `/content/sites`
+1. 提供您要移轉的路徑，然後按一下[儲存]。****
+例如，`/content/sites`
 或
    `/content/dam/tech-docs`
    ![包含的路徑](./assets/migration-included-paths.png)
@@ -145,29 +138,29 @@ Experience Manager as a Cloud Service為Experience Manager Guides、Assets、For
 1. 選取&#x200B;**移轉集**，然後在頂端選取&#x200B;**擷取**。
    ![移轉集擷取](./assets/migration-extract.png)
 
-1. 在&#x200B;**移轉集擷取**&#x200B;快顯視窗中驗證您所選取的路徑和設定的詳細資料，然後按一下&#x200B;**擷取**。 擷取需要幾分鐘的時間，而您將檢視更新狀態。
+1. 在&#x200B;**移轉集擷取**&#x200B;快顯視窗中驗證您所選取的路徑和設定的詳細資料，然後按一下&#x200B;**擷取**。擷取需要幾分鐘的時間，而您將檢視更新狀態。
    ![移轉集擷取](./assets/migration-set-extraction.png)
 
 1. 擷取完成後，以狀態`finished`表示後，請前往Cloud Acceleration Manager並選取您在步驟18建立的專案。
-如需詳細資訊，請選取三個點，然後選取&#x200B;**檢視詳細資料**。
+如需詳細資訊，請選取三個點，然後選取**檢視詳細資料**。
 
 
-1. 在移轉集詳細資訊快顯視窗中，驗證移轉集設定並關閉快顯視窗。 您可以檢視路徑和其他設定，如下列熒幕擷圖所示：
+1. 在移轉集詳細資訊快顯視窗中，驗證移轉集設定並關閉快顯視窗。您可以檢視路徑和其他設定，如下列熒幕擷圖所示：
    ![移轉詳細資料](./assets/migration-details.png)
 
 
 1. 按一下&#x200B;**內嵌工作** > **新增內嵌**。
-1. 認可必要的核取記號值，然後按一下[建立]。**&#x200B;**
+1. 認可必要的核取記號值，然後按一下[建立]。****
    ![認可移轉檢查](./assets/migration-new-ingestion-acknowledge.png)
 
-1. 挑選移轉集，選取環境所需的伺服器，然後按一下[內嵌]。**&#x200B;**
+1. 挑選移轉集，選取環境所需的伺服器，然後按一下[內嵌]。****
 
    ![新內嵌](./assets/migration-new-ingestion.png)
 
 ## 在發佈執行個體上執行內容轉移工具
 
 在來源發佈執行個體上安裝內容轉移工具，以將內容移動到目標發佈執行個體。
-將內容擷取至發佈環境時，「內容轉移工具」不會區分已發佈和未發佈的內容。 移轉集中指定的內容會擷取到所選的目標執行個體。 使用者可將移轉集內嵌至「作者」例項、「發佈」例項，或兩者。
+將內容擷取至發佈環境時，「內容轉移工具」不會區分已發佈和未發佈的內容。移轉集中指定的內容會擷取到所選的目標執行個體。使用者可將移轉集內嵌至「作者」例項、「發佈」例項，或兩者。
 
 ### 建議做法
 

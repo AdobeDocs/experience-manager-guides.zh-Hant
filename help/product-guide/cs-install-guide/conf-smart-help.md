@@ -3,22 +3,13 @@ title: 設定Smart Help以搜尋內容
 description: 瞭解如何設定智慧說明以搜尋內容
 exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
 TQID: https://experienceleague.adobe.com/CVY-v5lrpyLwIjmcxA6-p-4E0OuKZM14cvJomBqADz4
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: 591
 ht-degree: 0%
 
 ---
@@ -43,11 +34,11 @@ ht-degree: 0%
 
 1. 從&#x200B;**專案**&#x200B;畫面選取&#x200B;**新增API**。  **新增API**&#x200B;畫面會出現。 此畫面會顯示Adobe產品與技術的所有可用API、事件和服務，供您開發應用程式。
 
-1. 選取&#x200B;**I/O管理API**&#x200B;以將其新增至您的專案。
+1. 選取&#x200B;**I/O管理API**以將其新增至您的專案。
    ![IO管理API](assets/confi-ss-io-management.png)
    *新增I/O Management API至您的專案。*
 
-1. 建立新的&#x200B;**OAuth認證**&#x200B;並儲存。
+1. 建立新的&#x200B;**OAuth認證**並儲存。
    設定API中的![OAuth認證磚](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *將OAuth認證設定到您的API。*
 
@@ -119,5 +110,5 @@ ht-degree: 0%
 ```
 
 
-完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在網頁編輯器的右側面板中。 選取圖示以檢視&#x200B;**智慧說明**&#x200B;面板。
+完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在網頁編輯器的右側面板中。選取圖示以檢視&#x200B;**智慧說明**面板。
 如需詳細資訊，請檢視Experience Manager使用手冊中的[AI支援Smart Help以搜尋內容](../user-guide/ai-based-smart-help.md)區段。

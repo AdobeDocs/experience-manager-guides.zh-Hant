@@ -6,17 +6,10 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/ZX3-rirhXTcufDkFQOF12vj3uh28gSfIpxFwlOQF-Yk
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 374
@@ -54,4 +47,4 @@ AEM Guides提供與Web編輯器整合的強大文章式發佈功能。 使用此
 
 您可以使用AEM網站，透過網頁編輯器的輸出預設集來發佈文章。
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

@@ -4,9 +4,10 @@ description: 瞭解如何設定簽入和簽出圖示的標題
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 3032b49e-73d1-44d0-88b4-7e6e9444cac6
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
