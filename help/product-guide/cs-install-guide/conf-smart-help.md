@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: 591
 ht-degree: 0%
 
 ---
@@ -119,5 +119,5 @@ ht-degree: 0%
 ```
 
 
-完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在網頁編輯器的右側面板中。 選取圖示以檢視&#x200B;**智慧說明**&#x200B;面板。
+完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在網頁編輯器的右側面板中。選取圖示以檢視&#x200B;**智慧說明**&#x200B;面板。
 如需詳細資訊，請檢視Experience Manager使用手冊中的[AI支援Smart Help以搜尋內容](../user-guide/ai-based-smart-help.md)區段。

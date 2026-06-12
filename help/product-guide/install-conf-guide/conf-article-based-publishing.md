@@ -4,9 +4,10 @@ description: 瞭解如何安裝套件以供文章式發佈之用
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 24e47af6-8d81-4994-8d97-474f5029392b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -21,10 +22,10 @@ AEM Guides提供與Web編輯器整合的強大文章式發佈功能。 使用此
 
 >[!TAB Cloud Service]
 
-1. 從您的&#x200B;**XML Documentation軟體發佈入口網站**&#x200B;下載Cloud Service的[Adobe元件內容套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html)。
+1. 從您的[XML Documentation軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html)下載Cloud Service的&#x200B;**Adobe元件內容套件**。
 1. 開啟AEM Package Manager。 存取封裝管理程式的預設URL為： `https://<hostname>/crx/packmgr/index.jsp`
 1. 上傳適用於Cloud Service的XML Documentation元件內容套件並安裝。
-1. 從您的`Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip`Adobe軟體發佈入口網站[下載](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html)檔案。
+1. 從您的[Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html)下載`Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip`檔案。
 1. 從全域導覽中選取&#x200B;**網站**。
 1. 在Sites UI內，按一下右上角的&#x200B;**建立**&#x200B;按鈕。
 1. 從&#x200B;**建立**&#x200B;下拉式清單中，從範本&#x200B;**選取**&#x200B;網站。
@@ -47,7 +48,7 @@ AEM Guides提供與Web編輯器整合的強大文章式發佈功能。 使用此
 
 >[!TAB 內部部署]
 
-若要啟用文章式發佈，請從Adobe軟體發佈入口網站下載並安裝下列套件。 安裝這些軟體以建立Tragopan網站。 \(Tragopan網站是範例知識庫AEM網站，包含類別、區段和文章頁面的範本。\)更新Tragopan網站，使用網頁編輯器的輸出預設集產生AEM網站輸出。
+若要啟用文章式發佈，請從Adobe軟體發佈入口網站下載並安裝下列套件。 安裝這些軟體以建立Tragopan網站。 \（Tragopan網站是一個範例知識庫AEM網站，包含類別、區段和文章頁面的範本。\）更新Tragopan網站，使用網頁編輯器的輸出預設集產生AEM網站輸出。
 
 - 文章式發佈的知識庫範本
 - 文章式發佈的元件套件
