@@ -16,7 +16,7 @@ ht-degree: 0%
 
 如需此版本中修正的問題清單，請檢視[2026.04.0版本](fixed-issues-2026-04-0.md)中的已修正問題。
 
-瞭解2026.04.0版[&#128279;](../release-info/upgrade-instructions-2026-04-0.md)的升級指示。
+瞭解2026.04.0版](../release-info/upgrade-instructions-2026-04-0.md)的[升級指示。
 
 ## 介紹Experience Manager Guides中的產品培訓和學習內容
 
