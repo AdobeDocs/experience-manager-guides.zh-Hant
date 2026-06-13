@@ -5,10 +5,16 @@ exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
 feature: Release Notes
 role: Leader
 TQID: https://experienceleague.adobe.com/8alpUFz4njJtpUZrGcZ5wdrbmqSGOjSVqaHX1T4YeJ4
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1382
@@ -27,7 +33,7 @@ ht-degree: 0%
 
 AEM Guides在網頁編輯器中隨附一項功能，可讓您檢查技術檔案的整體完整性，並為它們產生報表。
 您可以從以下位置檢視主題清單、管理中繼資料，以及檢視目前地圖的所有參照中所使用的多媒體：
-網頁編輯器中的**報表**&#x200B;索引標籤。
+網頁編輯器中的&#x200B;**報表**&#x200B;索引標籤。
 
 **產生主題清單檢視**
 
@@ -106,7 +112,7 @@ AEM Guides可讓您在地圖中搜尋包含特定文字的檔案。 搜尋的文
 
 ## 從存放庫面板刪除和複製檔案
 
-現在您可以從存放庫面板中選取檔案的&#x200B;**選項**功能表，輕鬆建立檔案的重複或復本。 依預設，檔案建立時會使用
+現在您可以從存放庫面板中選取檔案的&#x200B;**選項**&#x200B;功能表，輕鬆建立檔案的重複或復本。 依預設，檔案建立時會使用
 尾碼（如`filename_1.extension`）。
 
 <img src="assets/options-menu-repo-view-file-level.png" alt="檔案選項功能表 " width="500">
