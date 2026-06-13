@@ -6,21 +6,13 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: 1102
 ht-degree: 0%
 
 ---
@@ -72,7 +64,7 @@ ht-degree: 0%
 
    <img src="assets/duplicate-template.png" alt="複製PDF範本" width="350">
 
-   *在&#x200B;**複製PDF範本**&#x200B;對話方塊中選取要複製的範本、預覽縮圖，以及更新標題。*
+   *在&#x200B;**複製PDF範本**對話方塊中選取要複製的範本、預覽縮圖，以及更新標題。*
 
 1. 指定範本的標題。
 
@@ -93,8 +85,8 @@ ht-degree: 0%
 
 ### 刪除
 
-選取「刪除」選項，刪除選取的範本。 然後，在確認提示中選取「是」。
-預設集已從&#x200B;**範本**&#x200B;中移除。
+選取「刪除」選項，刪除選取的範本。然後，在確認提示中選取「是」。
+預設集已從**範本**&#x200B;中移除。
 
 ### 屬性{#properties-option}
 
@@ -106,7 +98,7 @@ ht-degree: 0%
 
 建立自訂範本後，您可以從PDF輸出預設集的「頁面配置」中選擇它。
 
-瞭解如何[發佈PDF輸出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=zh-Hant)。
+瞭解如何[發佈PDF輸出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en)。
 
 >[!NOTE]
 >
@@ -159,8 +151,8 @@ ht-degree: 0%
      除了外觀之外，您還可以定義頁面元素（例如頁首、頁尾和頁面上的內容區域）的排列。 若要進一步瞭解自訂頁面的版面，請參閱[建立及自訂頁面版面](components-pdf-template.md#create-customize-page-layout)。
 
    * 樣式表：「樣式表」區段中的設定可讓您自訂頁面配置元件如目錄、索引、字彙表、引文等的外觀和風格。 此外，您也可以自訂DITA內容的樣式，例如標題、段落、清單等。 若要進一步瞭解如何使用樣式表，請參閱[使用樣式表來自訂PDF](components-pdf-template.md#stylesheet-customization)。
-   * 資源：儲存自訂或設計PDF範本所需的資產檔案。 Assets （例如，標誌、自訂字型、背景影像等）會儲存在「資源」中。
-您也可以使用存在於存放庫中任何其他位置的資源。 您不需要為每個範本建立重複資源，您可以將資源放在共用資料夾中，並在所有原生PDF範本中使用。
+   * 資源：儲存自訂或設計PDF範本所需的資產檔案。Assets （例如，標誌、自訂字型、背景影像等）會儲存在「資源」中。
+您也可以使用存在於存放庫中任何其他位置的資源。您不需要為每個範本建立重複資源，您可以將資源放在共用資料夾中，並在所有原生PDF範本中使用。
 
      若要進一步瞭解如何利用資源，請參閱[使用資源](components-pdf-template.md#work-with-resources)。
 
