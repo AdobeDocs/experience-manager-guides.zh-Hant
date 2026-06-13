@@ -27,7 +27,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 3366
+source-wordcount: 3311
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
    1. 輸入中繼資料的值，並選取「+」圖示。
 中繼資料會新增至PDF的中繼資料清單中。
 
-您也可以使用變數來定義中繼資料值。  您可以使用為DITA map或bookmap檔案定義的中繼資料作為變數。 中繼資料可以在DITA map或bookmap檔案的`/jcr:content/metadata`節點下找到。
+您也可以使用變數來定義中繼資料值。 您可以使用為DITA map或bookmap檔案定義的中繼資料作為變數。中繼資料可以在DITA map或bookmap檔案的`/jcr:content/metadata`節點下找到。
 使用變數時，會從中繼資料屬性中挑選變數值。
 
 若要使用變數，您必須以`${<variable>}`格式定義它。

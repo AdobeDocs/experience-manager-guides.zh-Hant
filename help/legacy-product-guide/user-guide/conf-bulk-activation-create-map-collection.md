@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 709
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ DITA map檔案會新增至您的大量啟動對映集合中。
   > 小型![](images/global-preset-icon.svg)圖示表示資料夾設定檔層級預設集。
 
 - **Modified**：指出是否在上次發行之後更新DITA map。 根據此資訊，您可以決定是否啟動此DITA map的輸出。
-- **已發佈**：顯示上次發佈（或已啟動）輸出的日期和時間。 如果您選取連結，會顯示「啟用結果」頁面，其中包含記錄檔，內含啟用內容的根路徑相關資訊。
+- **已發佈**：顯示上次發佈（或已啟動）輸出的日期和時間。如果您選取連結，會顯示「啟用結果」頁面，其中包含記錄檔，內含啟用內容的根路徑相關資訊。
   ![已建立大量啟動集合稽核歷程記錄標籤](images/bulk-collection-audit-history.png){width="800"}
 
   *在&#x200B;**稽核歷史記錄**&#x200B;索引標籤中檢視已啟動地圖輸出的相關資訊。*

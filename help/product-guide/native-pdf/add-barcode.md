@@ -65,7 +65,7 @@ margin-top: 2mm;
 1. 選取版面配置。 例如，您可以選取「封底」頁面版面，其中包含頁首或頁尾。
 1. 將下列範圍新增至您要插入條碼的位置。
 
-   `<span class="barcode">Sample barcode</span></p>`.
+   `<span class="barcode">Sample barcode</span></p>`。
 
    >[!NOTE]
    >
