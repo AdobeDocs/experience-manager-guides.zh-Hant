@@ -22,7 +22,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 3838
+source-wordcount: 3818
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 **插入主題參考** - ![](images/insert-topic-reference.png)
 
-顯示主題搜尋對話方塊。 導覽至您要插入的主題/地圖檔案，然後按一下選取以將其新增到地圖。
+顯示主題搜尋對話方塊。導覽至您要插入的主題/地圖檔案，然後按一下選取以將其新增到地圖。
 ![](images/insert-topic-reference-dialog.png){width="800"}
 
 
