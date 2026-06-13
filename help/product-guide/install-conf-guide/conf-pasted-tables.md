@@ -4,7 +4,8 @@ description: 瞭解如何在編輯器中自訂貼上表格的顯示
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: e66c13e4-6dc0-41a0-8582-32bacec9ae6c
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
