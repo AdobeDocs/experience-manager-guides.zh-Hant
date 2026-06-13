@@ -5,24 +5,14 @@ exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
-  - id: c8841798-1a28-4264-a46a-984860f8e6f6
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12id: c8841798-1a28-4264-a46a-984860f8e6f6id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2787
+source-wordcount: 2753
 ht-degree: 0%
 
 ---
@@ -97,7 +87,7 @@ ht-degree: 0%
 1. 選取工具列右上角的&#x200B;**註解**&#x200B;圖示，開啟「註解」面板。
 
    從工具列選取適當的註解型別，然後按下Enter鍵以提交您的註解，以提供評論註解。
-註解方塊支援多行專案，可讓使用者視需要展開該方塊以提供詳細的意見反應。 您可以在撰寫評論時使用&#x200B;**Shift** + **Enter**&#x200B;移至下一行。
+註解方塊支援多行專案，可讓使用者視需要展開該方塊以提供詳細的意見反應。您可以在撰寫評論時使用**Shift** + **Enter**&#x200B;移至下一行。
 
    >[!NOTE]
    >
@@ -157,7 +147,7 @@ ht-degree: 0%
 
 - 選取註解會反白顯示檔案中的對應註解位置。
 - 您可以新增評論的回覆。
-- 您可以在[註解]面板中選取註解文字，然後從[選項]功能表選擇[編輯] **&#x200B;**，編輯您自己的註解。
+- 您可以在[註解]面板中選取註解文字，然後從[選項]功能表選擇[編輯] ****，編輯您自己的註解。
 - 您可以在「註解」面板中選取註解，然後從「選項」功能表中選擇「**刪除**」選項，刪除您自己的註解。
 
   ![](images/review-comment-options-menu.png){width="300"}
@@ -301,4 +291,4 @@ ht-degree: 0%
 
 ![](images/version-history-dialog.png)
 
-**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)
+**父級主題：**[&#x200B;檢閱簡介](review.md)
