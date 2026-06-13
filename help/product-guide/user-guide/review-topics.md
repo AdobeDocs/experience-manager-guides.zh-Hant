@@ -22,7 +22,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2787
+source-wordcount: 2753
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 0%
 1. 選取工具列右上角的&#x200B;**註解**&#x200B;圖示，開啟「註解」面板。
 
    從工具列選取適當的註解型別，然後按下Enter鍵以提交您的註解，以提供評論註解。
-註解方塊支援多行專案，可讓使用者視需要展開該方塊以提供詳細的意見反應。 您可以在撰寫評論時使用&#x200B;**Shift** + **Enter**&#x200B;移至下一行。
+註解方塊支援多行專案，可讓使用者視需要展開該方塊以提供詳細的意見反應。您可以在撰寫評論時使用&#x200B;**Shift** + **Enter**&#x200B;移至下一行。
 
    >[!NOTE]
    >

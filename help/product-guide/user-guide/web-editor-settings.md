@@ -29,7 +29,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2138
+source-wordcount: 2099
 ht-degree: 0%
 
 ---
@@ -279,7 +279,7 @@ ht-degree: 0%
 
 
 
-您也可以定義這些中繼資料標籤的顯示順序。 若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
+您也可以定義這些中繼資料標籤的顯示順序。若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
 中繼資料標籤會以相同的順序顯示在編輯器的&#x200B;**版本記錄**&#x200B;對話方塊中。
 
 **父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)

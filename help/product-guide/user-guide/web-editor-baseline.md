@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
-source-wordcount: 1929
+source-wordcount: 1903
 ht-degree: 0%
 
 ---
@@ -141,10 +141,10 @@ ht-degree: 0%
 ![複製基準線](images/baseline-duplicate.png){width="300"}
 *根據標籤複製基準線或建立精確副本。*
 
-1. 從基準線的[選項]功能表選取[複製] **&#x200B;**。 **重複的基準線**&#x200B;對話方塊開啟。
+1. 從基準線的[選項]功能表選取[複製] **&#x200B;**。**重複的基準線**&#x200B;對話方塊開啟。
 >[!NOTE]
 >
->基準線的預設名稱為`<selected baseline name>`_suffix （如sample-baseline_1）。 您可以根據自己的需求變更名稱。
+>基準線的預設名稱為`<selected baseline name>`_suffix （如sample-baseline_1）。您可以根據自己的需求變更名稱。
 
    在&#x200B;**選取以**&#x200B;為基礎的版本中，您可以選擇&#x200B;**完全複製**&#x200B;選項或&#x200B;**標籤**&#x200B;選項：
 

@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: 975
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
 
    * **標題**：檢視或編輯資料夾標題。
 
-   * **允許的範本**：包含可新增為體驗片段子頁面的範本清單。 若要新增允許的範本，請在&#x200B;**允許的範本**&#x200B;欄位中指定用於擷取所需範本的規則運算式。
+   * **允許的範本**：包含可新增為體驗片段子頁面的範本清單。若要新增允許的範本，請在&#x200B;**允許的範本**&#x200B;欄位中指定用於擷取所需範本的規則運算式。
 例如：
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
