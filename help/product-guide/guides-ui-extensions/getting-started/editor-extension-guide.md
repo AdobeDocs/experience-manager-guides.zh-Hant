@@ -952,7 +952,7 @@ const myMarkupContextMenu = {
 
 ## 完整API參考
 
-| API | 說明 |
+| API | 描述 |
 |---|---|
 | `filePath` | 取得使用中檔案的檔案路徑 |
 | `version` | 取得載入的編輯器版本字串 |

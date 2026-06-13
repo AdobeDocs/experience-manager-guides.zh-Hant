@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: 1102
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ### 刪除
 
-選取「刪除」選項，刪除選取的範本。 然後，在確認提示中選取「是」。
+選取「刪除」選項，刪除選取的範本。然後，在確認提示中選取「是」。
 預設集已從&#x200B;**範本**&#x200B;中移除。
 
 ### 屬性{#properties-option}
@@ -159,8 +159,8 @@ ht-degree: 0%
      除了外觀之外，您還可以定義頁面元素（例如頁首、頁尾和頁面上的內容區域）的排列。 若要進一步瞭解自訂頁面的版面，請參閱[建立及自訂頁面版面](components-pdf-template.md#create-customize-page-layout)。
 
    * 樣式表：「樣式表」區段中的設定可讓您自訂頁面配置元件如目錄、索引、字彙表、引文等的外觀和風格。 此外，您也可以自訂DITA內容的樣式，例如標題、段落、清單等。 若要進一步瞭解如何使用樣式表，請參閱[使用樣式表來自訂PDF](components-pdf-template.md#stylesheet-customization)。
-   * 資源：儲存自訂或設計PDF範本所需的資產檔案。 Assets （例如，標誌、自訂字型、背景影像等）會儲存在「資源」中。
-您也可以使用存在於存放庫中任何其他位置的資源。 您不需要為每個範本建立重複資源，您可以將資源放在共用資料夾中，並在所有原生PDF範本中使用。
+   * 資源：儲存自訂或設計PDF範本所需的資產檔案。Assets （例如，標誌、自訂字型、背景影像等）會儲存在「資源」中。
+您也可以使用存在於存放庫中任何其他位置的資源。您不需要為每個範本建立重複資源，您可以將資源放在共用資料夾中，並在所有原生PDF範本中使用。
 
      若要進一步瞭解如何利用資源，請參閱[使用資源](components-pdf-template.md#work-with-resources)。
 

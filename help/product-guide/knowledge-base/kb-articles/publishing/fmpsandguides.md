@@ -21,7 +21,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 779
+source-wordcount: 757
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ FrameMaker Publishing Server (FMPS)可用來產生您的DITA內容。 FMPS支援
 ### 未從FMPS發佈基準線
 
 >FMPS2020.0.2或更新版本與基準線發佈相容。
->請確定基準線已正確建立；若要檢查，請前往「地圖儀表板 — 主題 — 下載地圖」，然後選擇「使用基準線」。
+>請確定基準線已正確建立；若要檢查，請前往[對映儀表板]— [主題]— [下載對映]並選擇[使用基準線]。
 
 ### 從FMPS發佈任務所花的時間比其他引擎多
 

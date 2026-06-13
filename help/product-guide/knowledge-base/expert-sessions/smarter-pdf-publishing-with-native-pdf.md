@@ -2,10 +2,11 @@
 title: 使用原生PDF更智慧型PDF發佈
 description: 此專家會議涵蓋如何使用原生PDF建立DITA就緒的PDF，而不需使用進階CSS或XSLT專業知識，而是使用低程式碼技術產生PDF
 keywords: DITA PDF發佈， AEM Guides，原生PDF， DITA to PDF， DITA發佈工作流程， PDF自動化，中繼資料導向發佈， DITA範本
-source-git-commit: 1ae89da4d2638e375f684c187ef68389baa5a5bc
+exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
+source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 1%
+source-wordcount: '266'
+ht-degree: 2%
 
 ---
 

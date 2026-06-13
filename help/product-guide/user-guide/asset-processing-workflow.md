@@ -3,7 +3,7 @@ title: 關於在Adobe Experience Manager Guides中發佈效能和擴充性的常
 description: 瞭解在Adobe Experience Manager Guides中發佈效能和擴充性的常見問題。
 source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1654'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ Experience Manager Guides可為AEM雲端環境啟用簡化的資料庫設定。 
 
 1. 儲存變更：進行組態變更後，請確定您在Cloud Manager介面中&#x200B;**儲存**&#x200B;變更。
 
-1. 系統可用性：完全套用組態後，請開啟GET `http://host/bin/guides/v1/system/status`並檢查以下屬性：
+1. 系統可用性：完全套用組態後，請開啟GET `http://host/bin/guides/v1/system/status`並檢查下列屬性：
    - `<isDatabase>`：必須為true
    - `<databaseConnectionCheck>`：必須通過
 
