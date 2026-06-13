@@ -5,11 +5,20 @@ exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
 TQID: https://experienceleague.adobe.com/EPnCDG2eSljhIm-DrPk9uMBrTyK9-mT1J8N8bAQVrQ8
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2918
@@ -23,7 +32,7 @@ ht-degree: 0%
 >
 > 此主題適用於新編輯器和舊編輯器。 雖然核心功能保持一致，但內容會使用索引標籤和圖說文字（如適用）來指出使用者介面、術語和互動的差異。
 
-地圖編輯器中的工具列與主題編輯器類似。 切換左側面板、儲存對映、建立新版對映、還原/重做上次操作以及刪除選取的元素等基本操作在兩個編輯器中都很常見。 如需這些作業如何運作的詳細資訊，請檢視編輯器](web-editor-toolbar.md#)區段中的[工具列。
+地圖編輯器中的工具列與主題編輯器類似。 切換左側面板、儲存對映、建立新版對映、還原/重做上次操作以及刪除選取的元素等基本操作在兩個編輯器中都很常見。 如需這些作業如何運作的詳細資訊，請檢視編輯器[&#128279;](web-editor-toolbar.md#)區段中的工具列。
 
 您在編輯器工具列中檢視的選項是根據「地圖編輯器」檢視。 地圖編輯器中提供五個檢視：
 
@@ -319,10 +328,10 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 您可以使用兩種方式重新整理功能（在地圖的「預覽」模式中可用）：
 
-- **地圖層級重新整理**：選取&#x200B;**重新整理**按鈕會重新整理整個地圖的預覽（包括所有主題），並將您導向到第一個捲動位置以取得清晰的檢視。
+- **地圖層級重新整理**：選取&#x200B;**重新整理**&#x200B;按鈕會重新整理整個地圖的預覽（包括所有主題），並將您導向到第一個捲動位置以取得清晰的檢視。
   ![](images/refresh-map.png){width="650"}
 
-- **主題層級重新整理**：從內容功能表選取&#x200B;**重新整理主題**會重新整理該特定主題，同時保持捲動位置不變。
+- **主題層級重新整理**：從內容功能表選取&#x200B;**重新整理主題**&#x200B;會重新整理該特定主題，同時保持捲動位置不變。
   ![](images/refresh-topic.png){width="650"}
 
 **預覽地圖檔案的其他方式**
