@@ -4,7 +4,7 @@ description: 瞭解如何設定智慧說明以搜尋內容
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
 source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -105,5 +105,5 @@ ht-degree: 0%
 ```
 
 
-完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在網頁編輯器的右側面板中。 選取圖示以檢視&#x200B;**智慧說明**&#x200B;面板。
+完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在網頁編輯器的右側面板中。選取圖示以檢視&#x200B;**智慧說明**&#x200B;面板。
 如需詳細資訊，請檢視Experience Manager使用手冊中的[AI支援Smart Help以搜尋內容](../user-guide/ai-based-smart-help.md)區段。

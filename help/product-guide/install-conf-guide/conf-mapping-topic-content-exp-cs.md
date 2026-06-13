@@ -4,9 +4,10 @@ description: 瞭解如何設定主題與體驗片段範本之間的JSON型對應
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: f37cd341-aa8b-4af0-9a40-1d034eea3be6
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -156,6 +157,6 @@ Experience Manager Guides會將完整主題轉換為HTML，接著可以對應至
 
 
 
-從Web編輯器發佈體驗片段時，請從`Template`產生體驗片段&#x200B;**對話方塊的下拉式清單中選取**，以檢視&#x200B;**對應**&#x200B;欄位中範本可用的對應。 如果範本不存在自訂對應，則會列出預設對應。 您可以使用預設對應，將整個主題發佈為體驗片段。
+從Web編輯器發佈體驗片段時，請從&#x200B;**產生體驗片段**&#x200B;對話方塊的下拉式清單中選取`Template`，以檢視&#x200B;**對應**&#x200B;欄位中範本可用的對應。 如果範本不存在自訂對應，則會列出預設對應。 您可以使用預設對應，將整個主題發佈為體驗片段。
 
 如需詳細資訊，請檢視[發佈體驗片段](../user-guide/publish-experience-fragment.md)。

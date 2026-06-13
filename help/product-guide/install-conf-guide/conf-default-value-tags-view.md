@@ -4,7 +4,8 @@ description: 瞭解如何設定標籤檢視的預設值
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d54e3a3c-9f61-43cf-a925-12e4ce948a55
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # 設定標籤檢視的預設值 {#id223GN0M0NDC}
 
-AEM Guides可讓您在Web編輯器中設定「標籤檢視」的預設狀態，協助您為新使用者的工作階段將「標籤檢視」預設保持開啟或關閉。執行以下步驟來設定「標籤檢視」的預設值：
+AEM Guides可讓您設定網頁編輯器中「標籤檢視」的預設狀態，這可幫助您在新使用者的工作階段中將「標籤檢視」預設保持開啟或關閉。執行以下步驟來設定「標籤檢視」的預設值：
 
 1. 以管理員身分登入Adobe Experience Manager以下載UI設定檔。
 1. 按一下頂端的Adobe Experience Manager連結，然後選擇&#x200B;**工具**。
