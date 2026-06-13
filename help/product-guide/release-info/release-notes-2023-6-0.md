@@ -93,10 +93,10 @@ as a Cloud Service，以建立設定檔。
 
 1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>//bin/guides/reports/upgrade`。
 
-1. 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點 —  `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 —  `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. 工作完成後，先前的GET請求將會成功回應。 如果作業由於某個原因而失敗，則可以從伺服器記錄中看到失敗。
+1. 工作完成後，先前的GET要求會成功回應。 如果作業由於某個原因而失敗，則可以從伺服器記錄中看到失敗。
 
 1. 如果您在步驟1中變更了`queryLimitReads`的值，請恢復為預設值或先前的現有值。
 
@@ -113,7 +113,7 @@ as a Cloud Service，以建立設定檔。
 1. 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
 
-1. 工作完成後，先前的GET請求會回應成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
+1. 工作完成後，先前的GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
 
 ## 相容性矩陣
 
@@ -171,7 +171,7 @@ as a Cloud Service，以建立設定檔。
 - 原生PDF | Xref正在列印href主題標題的內容而非Xref標籤。 (11322)
 - 原生PDF |無法儲存PDF範本設定。 (10751)
 - 原生PDF |文字延伸超過欄寬，包含多個xref。 (10876)
-- 原生PDF | `<note>` `</note>`元素沒有產生其型別的額外範圍標題。 (10549)
+- 原生PDF | `<note>`&#x200B;`</note>`元素沒有產生其型別的額外範圍標題。 (10549)
 - 原生PDF |語言中繼資料無法在產生的PDF中設定以符合WCAG 2.0。 (12296)
 
 

@@ -24,7 +24,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 9267
+source-wordcount: 9214
 ht-degree: 1%
 
 ---
@@ -270,7 +270,7 @@ ht-degree: 1%
 
 - 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 \（可選：您可以傳遞地圖的特定路徑來索引它們，依預設所有地圖都會索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\）
 
-- 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點 — 
+- 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 — 
 
 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
@@ -485,7 +485,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
 
-- 請確定`damAssetLucene`索引已完成。 視伺服器上呈現的資料量而定，最多可能需要幾個小時。 您可以透過檢查中重新索引欄位是否設定為false來確認重新索引已完成
+- 請確定`damAssetLucene`索引已完成。視伺服器上呈現的資料量而定，最多可能需要幾個小時。您可以透過檢查中重新索引欄位是否設定為false來確認重新索引已完成
   `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在`damAssetLucene`中新增任何自訂，您可能需要再次套用它們。
 
 - 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，依預設所有地圖都會編列索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
@@ -543,7 +543,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
    | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman等代理程式執行。 |
-   | 預期回應 | 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作ID的GET要求傳送至相同的端點。<br> 範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 預期回應 | 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點。<br> 範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
@@ -744,7 +744,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
    | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman等代理程式執行。 |
-   | 預期回應 | 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作ID的GET要求傳送至相同的端點。<br> 範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 預期回應 | 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點。<br> 範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
@@ -945,7 +945,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
    | 請求型別 | **POST**&#x200B;此指令碼為POST要求，因此應透過Postman等代理程式執行。 |
-   | 預期回應 | 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作ID的GET要求傳送至相同的端點。<br> 範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 預期回應 | 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點。<br> 範例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 端點 | /bin/guides/reports/upgrade |
    |---|---|
