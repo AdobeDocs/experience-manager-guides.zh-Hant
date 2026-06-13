@@ -24,7 +24,7 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2463
+source-wordcount: 2326
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 ![以文章為基礎的發佈](assets/article-based-publishing.png)
 
-除了AEM之外，您也可以使用此獨特功能，將文章發佈至任何知識庫入口網站，例如Salesforce。 此功能也隨附OOTB內容範本（以AEM核心元件為基礎），讓您建立技術內容的知識型存放庫。 此範本的優點在於其可完全自訂，以符合您的組織需求，並且可支援企業內部網路入口網站等使用案例。
+除了AEM之外，您也可以使用此獨特功能，將文章發佈至任何知識庫入口網站，例如Salesforce。此功能也隨附OOTB內容範本（以AEM核心元件為基礎），讓您建立技術內容的知識型存放庫。此範本的優點在於其可完全自訂，以符合您的組織需求，並且可支援企業內部網路入口網站等使用案例。
 您也可以根據文章的檔案狀態和修改時間來篩選文章。
 
 這種按需文章發佈功能不僅可讓您完全控制內容發佈，還可縮短發布更新內容的整體時間。
@@ -100,7 +100,7 @@ ht-degree: 3%
 
 現在您可以在FrameMaker中編寫和發佈檔案。 FrameMaker隨附Adobe Experience Manager的現成聯結器。 在FrameMaker中，您可獲得易用的介面，讓您在分散式合作環境中維護檔案的版本。
 
-建立內容後，FrameMaker可讓您以不同格式發佈檔案 — PDF、HTML5、EPUB和DITA。 您也可以執行各種檔案管理操作，例如出庫、具有相依項的出庫、入庫、重新整理等。
+建立內容後，FrameMaker可讓您以不同格式發佈檔案 — PDF、HTML5、EPUB和DITA。您也可以執行各種檔案管理操作，例如出庫、具有相依項的出庫、入庫、重新整理等。
 若要在[!DNL AEM Guides] as a Cloud Service中使用FrameMaker進行撰寫，請使用FrameMaker 2020.4版及更新版本。
 
 ### 新增翻譯儀表板

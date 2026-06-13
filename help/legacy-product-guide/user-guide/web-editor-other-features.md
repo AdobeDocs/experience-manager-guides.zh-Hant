@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2564
+source-wordcount: 2503
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Web編輯器中有其他一些有用的功能可供您使用：
 - **在MathML編輯器中驗證方程式**
 
   當您儲存包含方程式的主題時，Experience Manager Guides會驗證MathML方程式。
-使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取&#x200B;**插入**，則會顯示警告。
+使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。您可以在插入之前進行修正。如果您未進行任何變更，但選取&#x200B;**插入**，則會顯示警告。
 
   ![驗證mathml方程式](images/validate-mathml-equation.png){width="400"}
 
