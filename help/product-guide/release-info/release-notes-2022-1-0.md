@@ -5,26 +5,14 @@ exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
 TQID: https://experienceleague.adobe.com/-ddCfI97I7XJ-OuoritVp7KRCRst5veYuu3oSQWZw9Y
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2463
+source-wordcount: 2326
 ht-degree: 3%
 
 ---
@@ -66,7 +54,7 @@ ht-degree: 3%
 
 ![以文章為基礎的發佈](assets/article-based-publishing.png)
 
-除了AEM之外，您也可以使用此獨特功能，將文章發佈至任何知識庫入口網站，例如Salesforce。 此功能也隨附OOTB內容範本（以AEM核心元件為基礎），讓您建立技術內容的知識型存放庫。 此範本的優點在於其可完全自訂，以符合您的組織需求，並且可支援企業內部網路入口網站等使用案例。
+除了AEM之外，您也可以使用此獨特功能，將文章發佈至任何知識庫入口網站，例如Salesforce。此功能也隨附OOTB內容範本（以AEM核心元件為基礎），讓您建立技術內容的知識型存放庫。此範本的優點在於其可完全自訂，以符合您的組織需求，並且可支援企業內部網路入口網站等使用案例。
 您也可以根據文章的檔案狀態和修改時間來篩選文章。
 
 這種按需文章發佈功能不僅可讓您完全控制內容發佈，還可縮短發布更新內容的整體時間。
@@ -100,7 +88,7 @@ ht-degree: 3%
 
 現在您可以在FrameMaker中編寫和發佈檔案。 FrameMaker隨附Adobe Experience Manager的現成聯結器。 在FrameMaker中，您可獲得易用的介面，讓您在分散式合作環境中維護檔案的版本。
 
-建立內容後，FrameMaker可讓您以不同格式發佈檔案 — PDF、HTML5、EPUB和DITA。 您也可以執行各種檔案管理操作，例如出庫、具有相依項的出庫、入庫、重新整理等。
+建立內容後，FrameMaker可讓您以不同格式發佈檔案 — PDF、HTML5、EPUB和DITA。您也可以執行各種檔案管理操作，例如出庫、具有相依項的出庫、入庫、重新整理等。
 若要在[!DNL AEM Guides] as a Cloud Service中使用FrameMaker進行撰寫，請使用FrameMaker 2020.4版及更新版本。
 
 ### 新增翻譯儀表板

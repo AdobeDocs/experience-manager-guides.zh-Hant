@@ -6,21 +6,13 @@ role: User
 hide: true
 exl-id: 7639fa76-b319-44b5-9ff8-2b8c1a716b7b
 TQID: https://experienceleague.adobe.com/c6I1qLQ6FZW-3Ddm11NRSxgwuDpIB2u8cFEHd2UcXGQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2564
+source-wordcount: 2503
 ht-degree: 0%
 
 ---
@@ -186,7 +178,7 @@ Web編輯器中有其他一些有用的功能可供您使用：
 - **在MathML編輯器中驗證方程式**
 
   當您儲存包含方程式的主題時，Experience Manager Guides會驗證MathML方程式。
-使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。 您可以在插入之前進行修正。 如果您未進行任何變更，但選取&#x200B;**插入**，則會顯示警告。
+使用MathML編輯器插入方程式時，如果有任何語法問題，Experience Manager Guides會以紅色反白顯示方程式。您可以在插入之前進行修正。如果您未進行任何變更，但選取**插入**，則會顯示警告。
 
   ![驗證mathml方程式](images/validate-mathml-equation.png){width="400"}
 
@@ -249,8 +241,8 @@ Web編輯器中有其他一些有用的功能可供您使用：
 
 - 您可以使用&#x200B;**插入特殊字元** ![插入特殊字元圖示](images/insert-special-chars-icon.svg)圖示或&#x200B;**Alt** + **空格**&#x200B;捷徑鍵，在檔案中插入不間斷的空格。  在網頁編輯器中編輯主題時，這些不間斷的空格會顯示為指示器。 您可以從&#x200B;**使用者偏好設定** ![使用者偏好設定圖示](images/user_preference_editor_icon.svg)的&#x200B;**外觀**&#x200B;索引標籤，使用&#x200B;**在作者模式中顯示連續空格指示器**&#x200B;選項關閉連續空格顯示。
 
-- 如果您將任何外部來源中含不斷行間距的內容複製並貼到&#x200B;**作者**&#x200B;檢視中，則不斷行間距會轉換為間距。
-不過，如果您從&#x200B;**作者**&#x200B;檢視複製並貼上含有不斷行空格的內容，內容會保留。
+- 如果您將任何外部來源中含不斷行間距的內容複製並貼到&#x200B;**作者**檢視中，則不斷行間距會轉換為間距。
+不過，如果您從**作者**&#x200B;檢視複製並貼上含有不斷行空格的內容，內容會保留。
 
 
 **自動產生專案識別碼**
@@ -266,4 +258,4 @@ Web編輯器中有其他一些有用的功能可供您使用：
    或者，您可以在階層連結中按一下滑鼠右鍵，然後選取&#x200B;**產生ID**。
 
 
-**上層主題：**&#x200B;[&#x200B;使用網頁編輯器](web-editor.md)
+**上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)

@@ -5,27 +5,14 @@ exl-id: d185d27f-0cbb-4ec6-ac65-cb69f7572c3f
 feature: What's New
 role: Leader
 TQID: https://experienceleague.adobe.com/mwi2Z0-3bixo5z1oi7tIk0yYwd2thaP0JV-k8swfCk0
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388bid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1691
+source-wordcount: 1516
 ht-degree: 0%
 
 ---
@@ -87,8 +74,8 @@ AEM Guides現在提供改良的檢閱功能，包括以下功能：
 
 ### 搜尋稽核主題
 
-審查是AEM Guides的重要功能。 它有助於稽核者稽核指派給他們的檔案。
-現在，您可以在檢閱面板的主題檢視的搜尋列中，輸入標題或檔案路徑的部分文字，以搜尋主題。 您也可以選擇檢視所有主題或檢視含有註解的主題。 依預設，您可以檢視稽核任務中存在的所有主題。 如需詳細資訊，請檢視[檢閱主題](../user-guide/review-topics.md)。
+審查是AEM Guides的重要功能。它有助於稽核者稽核指派給他們的檔案。
+現在，您可以在檢閱面板的主題檢視的搜尋列中，輸入標題或檔案路徑的部分文字，以搜尋主題。您也可以選擇檢視所有主題或檢視含有註解的主題。依預設，您可以檢視稽核任務中存在的所有主題。如需詳細資訊，請檢視[檢閱主題](../user-guide/review-topics.md)。
 
 ![在評論主題面板中搜尋](assets/review-search-topic.png){width="800"}
 
@@ -151,7 +138,7 @@ AEM Guides現在提供改良的檢閱功能，包括以下功能：
 您可以使用變數來定義互動參照。 使用變數時，系統會從屬性中挑選變數值。
 
 現在您也可以使用{figure}和{table}。
-使用{figure}新增圖數的互動參照。 它會從您為圖形定義的自動編號樣式中挑選圖形編號。
+使用{figure}新增圖數的互動參照。它會從您為圖形定義的自動編號樣式中挑選圖形編號。
 
 使用{table}新增資料表編號的互動參照。 它會從您為註解定義的自動編號樣式中挑選表格編號。
 
@@ -200,13 +187,13 @@ AEM Guides現在提供改良的檢閱功能，包括以下功能：
 ## 大量發佈儀表板中的原生PDF支援
 
 
-透過AEM Guides的大量啟動功能，您可以快速輕鬆地啟動從製作到發佈執行個體的內容。 在「大量啟用」對應中，您可以包含原生PDF輸出預設集、AEM網站、PDF、HTML5、自訂和JSON輸出。
+透過AEM Guides的大量啟動功能，您可以快速輕鬆地啟動從製作到發佈執行個體的內容。在「大量啟用」對應中，您可以包含原生PDF輸出預設集、AEM網站、PDF、HTML5、自訂和JSON輸出。
 如需詳細資訊，請檢視[大量啟用已發佈的內容](../user-guide/conf-bulk-activation.md)。
 
 ## 改進的大量移動工具
 
 現在，作為管理員，您可以使用改良的「大量移動工具」，將包含許多檔案的資料夾從一個位置移動到另一個位置。
-您可以使用瀏覽檔案對話方塊來選取您要移動的來源資料夾。 您也可以瀏覽以選取要移動來源資料夾的目的地位置。 選取欄位附近的![資訊圖示](assets/info-icon.svg) {width="25"}以檢視更多相關資訊。
+您可以使用瀏覽檔案對話方塊來選取您要移動的來源資料夾。您也可以瀏覽以選取要移動來源資料夾的目的地位置。選取欄位附近的![資訊圖示](assets/info-icon.svg) {width="25"}以檢視更多相關資訊。
 
 如需詳細資訊，請檢視[大量移動檔案](../user-guide/authoring-file-management.md#move-files-bulk)。
 
