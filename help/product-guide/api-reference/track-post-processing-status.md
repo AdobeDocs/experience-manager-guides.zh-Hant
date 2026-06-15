@@ -6,23 +6,16 @@ role: Developer
 level: Experienced
 exl-id: f902fac1-2717-4696-a835-c4b0bb8add3d
 TQID: https://experienceleague.adobe.com/Lyv-S5o-Z40bMqqIHhbxKrsmn9CCqHRnqnpiq91EjGU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 1d80ca88a3a6637a118657367b86b499675f6d0e
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 7%
+source-wordcount: 150
+ht-degree: 9%
 
 ---
 
 # 追蹤資料夾或資產後處理狀態的API
-
->[!NOTE]
->
-> 如需最新的REST API端點定義和相關詳細資訊，請在`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`檢視Swagger檔案（將`<aem-author-url>`取代為AEM伺服器URL）。 由於本文排程在2026年10月封存，我們建議您使用Swagger檔案來取得最新的API資訊。
 
 以下是POST方法，會啟動非同步工作來取得資產的狀態。
 
