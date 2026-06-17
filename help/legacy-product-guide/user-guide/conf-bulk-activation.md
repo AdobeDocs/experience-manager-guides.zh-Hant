@@ -6,17 +6,10 @@ role: User
 hide: true
 exl-id: 4b60bf50-f6c2-4e87-8af6-fd1c26d4898f
 TQID: https://experienceleague.adobe.com/sUQxJ30NYLT37GPY6j0XvY7-2vWPomapr9nuhFG6wH8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388bid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 257
@@ -30,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如需有關如何在AEM中設定作者與發佈執行個體的詳細資訊，請參閱[作者與發佈架構概覽](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=zh-Hant#prerequisites)。
+> 如需有關如何在AEM中設定作者與發佈執行個體的詳細資訊，請參閱[作者與發佈架構概覽](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)。
 
 透過AEM Guides的大量啟動功能，您可以快速輕鬆地啟動從製作到發佈執行個體的內容。 大量啟動功能可讓您靈活地：
 
@@ -54,4 +47,4 @@ JSON輸出預設集。
 - **[刪除大量啟用地圖集合](conf-bulk-activation-delete-map-collection.md)**
 
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)

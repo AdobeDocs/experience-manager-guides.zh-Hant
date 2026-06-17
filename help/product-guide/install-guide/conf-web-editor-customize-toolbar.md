@@ -6,22 +6,13 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/eZq4BTrrbSDDDuYas-D4iCw4WS6Pvzas2AhBPl67LKo
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b0521e56-a0b2-40b6-bf47-ebc98751f9baid: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 967
+source-wordcount: 950
 ht-degree: 0%
 
 ---
@@ -32,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 從舊版UI移轉至新AEM Guides UI （適用於2502和5.0版的AEM Guides）時，`ui_config`的更新必須轉換為更靈活且模組化的UI設定。 此框架可協助您順暢地採用對editor_toolbar和其他目標Widget的變更（如適用）。 如需詳細資訊，請檢視[轉換UI組態](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)的總覽。
+> 從舊版UI移轉至新AEM Guides UI （適用於2502和5.0版的AEM Guides）時，`ui_config`的更新必須轉換為更靈活且模組化的UI設定。 此框架可協助您順暢地採用對editor_toolbar和其他目標Widget的變更（如適用）。 如需詳細資訊，請檢視[轉換UI組態](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)的總覽。
 
 自訂網頁編輯器的工具列有兩種方式：
 
@@ -63,7 +54,7 @@ ht-degree: 0%
 
 1. 在`ui_config.json`檔案中，在工具列區段中新增新功能的定義。 通常，您可以建立新的工具列按鈕群組，並在其中新增一或多個工具列按鈕。 或者，您可以在現有的工具列群組中新增工具列按鈕。 建立新的工具列群組需要下列詳細資料：
 
-   - **type：**&#x200B;指定`blockGroup`為`type`值。 此值表示您正在建立包含一或多個工具列群組的區塊群組。
+   - **type：**指定`blockGroup`為`type`值。 此值表示您正在建立包含一或多個工具列群組的區塊群組。
 
    - **解壓縮類別：**&#x200B;以空格分隔的類別名稱。
 
@@ -254,4 +245,4 @@ ht-degree: 0%
 1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入網頁編輯器。
 
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

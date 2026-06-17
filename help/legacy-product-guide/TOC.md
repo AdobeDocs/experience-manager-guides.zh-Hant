@@ -21,7 +21,7 @@ ht-degree: 6%
    - 簡介 {#about-aem-guide}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]個運作中及主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
          - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 管理內容 {#manage-content}
       - [重要概念、角色和許可權及必要條件](./user-guide/authoring.md)
@@ -142,5 +142,5 @@ ht-degree: 6%
       - [內容重複使用報表](./user-guide/reports-content-reuse.md)
       - [轉換狀態報表](./user-guide/reports-convertion-status.md)
       - [還原檔案版本記錄報告](./user-guide/reports-reverted-file-version-history.md)
-- [使用手冊（新UI）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [使用手冊（新UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 
