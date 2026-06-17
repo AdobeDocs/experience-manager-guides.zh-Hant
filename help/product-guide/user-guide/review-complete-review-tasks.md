@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -57,6 +57,17 @@ ht-degree: 0%
 根據意見回饋，如果任務的作者或發起者決定[關閉稽核任務](./review-close-review-task.md)，則稽核UI上的任務狀態將變更為&#x200B;**已關閉**。
 
 ![](images/review-status-closed-review-ui.png){width="350"}
+
+>[!NOTE]
+>
+>根據預設，當稽核者將稽核任務標籤為&#x200B;**完成**&#x200B;時，任務會保留在稽核者的AEM收件匣中，直到作者或任務發起者稽核意見並關閉稽核任務為止。
+>
+>不過，您可以選擇在「稽核UI」和「AEM收件匣」之間啟用任務同步化。 啟用此功能後，在稽核UI中將稽核任務標籤為&#x200B;**完成**&#x200B;會自動完成對應的任務，並將其從稽核者的AEM收件匣中移除。 同樣地，從AEM收件匣完成任務會在「稽核UI」中自動將其標示為完成。
+>
+>作者或任務發起人仍然可以稽核意見反應，並在需要額外稽核時重新指派任務。 重新指派任務時，系統會為檢閱者產生新的AEM收件匣通知，以便再次檢閱任務。
+>
+>若要在您的環境中啟用此功能，請聯絡您的客戶成功團隊。
+
 
 ## 檢視任務層級註解
 

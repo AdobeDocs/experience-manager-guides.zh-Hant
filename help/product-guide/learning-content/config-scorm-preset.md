@@ -13,9 +13,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 331
 ht-degree: 0%
 
 ---
@@ -41,8 +41,13 @@ ht-degree: 0%
 
   ![](assets/scorm-content-tab.png){width="650"}
 
-- **發佈：**&#x200B;只有當您想要發佈輸出到SCORM雲端以直接存取時，才使用此設定。
 
-  ![](assets/scorm-publish-tab.png){width="650"}
+- **發佈至LMS：**&#x200B;使用此設定直接將您的內容發佈至Adobe Learning Manager (ALM)。 從&#x200B;**發佈伺服器**&#x200B;下拉式清單中，選取&#x200B;**Adobe Learning Manager**，然後選擇先前在Workspace設定中設定的必要&#x200B;**發佈設定檔**。 選取的設定檔可用來建立連線，並將產生的內容上傳至ALM。
+
+  >[!NOTE]
+  >
+  > 將內容發佈至ALM之前，您必須先設定Adobe Learning Manager發佈設定檔。 如需詳細資訊，請檢視[發佈設定檔](../lc-config-guide/lc-folder-profile.md)。
+
+  ![](assets/scorm-publish-lms.png){width="650"}
 
 設定好所有變更後，請使用SCORM預設集頁面工具列右角的&#x200B;**儲存**，儲存SCORM預設集的變更。

@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
 workflow-type: tm+mt
-source-wordcount: 4232
+source-wordcount: 4258
 ht-degree: 0%
 
 ---
@@ -414,6 +414,10 @@ Experience Manager Guides提供開箱即用的支援，可讓您透過與[MathTy
 使用MathML方程式工具，建立您的方程式，並選取&#x200B;**插入**&#x200B;以將其加入您的檔案。 方程式會以淺灰色背景插入。
 
 您可以隨時更新方程式，方法是以滑鼠右鍵按一下現有方程式，然後從內容功能表選取&#x200B;**編輯MathML**。
+
+>[!NOTE]
+>
+> MathML產生會傳播與MathML方程式關聯的`output-class`，讓已設定的樣式（例如字型、顏色、背景和其他格式）反映在產生的輸出中。
 
 ### 在MathML編輯器中驗證方程式
 
