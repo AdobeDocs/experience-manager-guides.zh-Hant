@@ -18,7 +18,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 696
+source-wordcount: 638
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ## 微服務式發佈以產生HTML5和自訂輸出
 
-新的發佈微服務可讓您在AEM Guides as a Cloud Service上同時執行大型發佈工作負載，並利用業界領先的Adobe I/O Runtime無伺服器平台。 現在使用微服務，您還可以產生HTML5和自訂輸出。
+新的發佈微服務可讓您在AEM Guides as a Cloud Service上同時執行大型發佈工作負載，並利用業界領先的Adobe I/O Runtime無伺服器平台。現在使用微服務，您還可以產生HTML5和自訂輸出。
 您可以執行多個發佈請求，並獲得更好的效能來產生這些輸出格式。
 如需詳細資訊，請檢視[設定AEM Guides as a Cloud Service的微服務式發佈](../knowledge-base/publishing/configure-microservices.md)。
 

@@ -3,9 +3,10 @@ title: 在網頁編輯器工具列中設定其他特殊字元
 description: 瞭解如何在AEM Guides的網頁編輯器中設定其他特殊字元。
 feature: Web Editor
 role: User
-source-git-commit: 2198b9c77a0dfa888edbce5994da4721cb6127e6
+exl-id: 4007eb03-c100-4892-b293-f22b3f0082e2
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
