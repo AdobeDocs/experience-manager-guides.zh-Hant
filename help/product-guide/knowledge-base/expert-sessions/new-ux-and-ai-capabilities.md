@@ -55,11 +55,11 @@ ht-degree: 0%
 
 ## 相關資源
 
-- [新的首頁體驗](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [新的首頁體驗](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [AEM Guides中的AI功能](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [AEM Guides中的AI功能](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [設定AI助理](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [設定AI助理](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ### 社群論壇
 
-- 如需Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
+- 如需Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hant)。
 
 
 ## 聯絡我們
