@@ -6,11 +6,25 @@ role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
 TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: b89a36a9-95de-429b-adde-f901256d8f24id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: b89a36a9-95de-429b-adde-f901256d8f24
+  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
 workflow-type: tm+mt
 source-wordcount: 1960
@@ -124,7 +138,7 @@ ht-degree: 0%
 >
 > 此設定只有在&#x200B;**Workspace設定** > **一般**&#x200B;中啟用學習內容功能時才能使用。
 
-此設定可讓您管理編輯器](../user-guide/web-editor-left-panel.md)中[左側面板的製作和發佈範本。 您可以新增、移除或重新排序製作和輸出範本，然後作者和發佈者即可存取這些範本。
+此設定可讓您管理編輯器[&#128279;](../user-guide/web-editor-left-panel.md)中左側面板的製作和發佈範本。 您可以新增、移除或重新排序製作和輸出範本，然後作者和發佈者即可存取這些範本。
 
 ![](assets/templates-settings.png){width="350"}
 
@@ -203,7 +217,7 @@ SCORM輸出範本可讓您將不同的版面配置指派給課程中的不同主
 
 例如，課程頁面可使用包含頁首、內容區域和頁尾的版面，而測驗頁面可使用不含頁尾的簡化版面。 您也可以為概觀頁面或任何其他主題型別建立專用版面，並相應地加以對應。
 
-配置指派是在&#x200B;**輸出範本**層級設定。任何使用已設定輸出範本的SCORM預設集，將在產生課程時套用選取的版面配置對應。
+配置指派是在&#x200B;**輸出範本**&#x200B;層級設定。任何使用已設定輸出範本的SCORM預設集，將在產生課程時套用選取的版面配置對應。
 請依照下列步驟，設定範本的頁面配置：
 
 1. 瀏覽至&#x200B;**輸出範本**&#x200B;並開啟必要的&#x200B;**SCORM輸出範本**。

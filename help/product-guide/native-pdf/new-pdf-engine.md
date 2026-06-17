@@ -4,11 +4,26 @@ description: 瞭解如何使用全新的發佈引擎進行原生PDF發佈
 feature: Publishing, Native PDF Output
 role: User
 TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 010a11e20d518064549ce7d66648586f49f572ec
 workflow-type: tm+mt
 source-wordcount: 913
@@ -34,37 +49,44 @@ ht-degree: 0%
 |-------------|------------------------------------------------|
 | 縮放的影像可能會因為影像演算行為中的變更而呈現不同的外觀。 | 若要還原影像演算行為，請新增： <br><br><pre><code>&quot;&#39;css
 影像演算：畫素化；
+
 ```</code></pre> |
 | 目錄導線(TOC)對齊方式可能會因為導線的演算行為發生變更而顯示稍有不同。 | 若要恢復目錄導線對齊，請調整自訂樣式表中目錄導線元素的樣式。 所需的CSS變更可能會因您的目錄版面配置和格式而異。 |
 | 由於字型演算和字元版面配置處理的變更，文字間距和繞線可能會有所不同。 | 如果您的樣式表使用`sans-serif`字型系列或顯示間距差異的字型，請新增：<br><br><pre><code>&quot;&#39;css
 內文{ -ro-glyph-layout-mode： quality； }
 ```</code></pre> |
+
 | 由於預設註腳樣式的變更，註腳參照可能不會再顯示為上標標籤。 | 若要還原上標樣式的註腳標籤，請新增：<br><br><pre><code>&quot;&#39;css
-.fn：：footnote-marker {
+.fn：：footnote-marker &lbrace;
   內容：計數器（註腳） &quot; &quot;；
   vertical-align： super；
   font-size： 65%；
-}
+&rbrace;
+
 ```</code></pre> |
 | 由於底線位置的變更，底線文字與底線之間的間距可能會增加。 | 若要還原底線位置，請使用`text-underline-offset`屬性，並視需要調整位移值。 例如：<br><br><pre><code>&quot;&#39;css
 文字裝飾：加底線；
 text-underline-offset： -0.1em；
 ```</code></pre> |
+
 | 清單標籤和清單專案文字之間的間距可能會因為清單演算行為的變更而有所不同。 | 若要恢復間距，請增加清單專案的左內距。 例如：<br><br><pre><code>&quot;&#39;css
-.step {
+.step &lbrace;
   頂端邊界： 0.3rem；
   下邊界：0.5rem；
   左內邊距： calc(1.5rem + 1ch)；
-}
+&rbrace;
+
 ```</code></pre> |
 | 標題前的間距可能會因為邊界收合行為的變更而有所不同。 | 若要恢復間距，請檢閱相鄰元素的邊界，並視需要減少或移除重疊的上邊界和下邊界。 例如：<br><br><pre><code>&quot;&#39;css
 h1.chapter { margin-top： 0； }
 .chaptoc-body { margin-bottom： 0； }
 ```</code></pre> |
+
 | 由CSS產生的核取記號標籤可能會以不同的大小或樣式出現，因為它們會使用不同的遞補字型來呈現。 | 若要一致地呈現標籤，請使用包含兩個字元的字型系列。 例如：<br><br><pre><code>&quot;&#39;css
-：：marker {
+：：marker &lbrace;
   font-family： -ro-symbols ！important；
-}
+&rbrace;
+
 ```</code></pre> |
 | CSS產生的圓形清單標籤可能會因為標籤定位行為的變更而出現部分裁剪或截斷。 | 若要恢復圓形清單標籤的外觀，請避免使用標籤的絕對定位。 如果需要絕對定位，請明確指定適當的`top`值，以正確定位標籤。 |
 | 當清單專案使用`position: relative`等定位樣式時，PDF/UA輸出中的清單專案讀取順序可能會有所不同。 | 若要讓閱讀順序更密切地遵循來原始檔結構，請套用下列CSS屬性至清單專案： <br><br><pre><code>&quot;&#39;css
