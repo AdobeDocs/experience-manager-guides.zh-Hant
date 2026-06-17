@@ -5,42 +5,31 @@ exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
 workflow-type: tm+mt
-source-wordcount: 1962
+source-wordcount: 1890
 ht-degree: 0%
 
 ---
 
 # 新增和管理內容中的引文
 
->[!NOTE]
->
-> 僅舊編輯器支援引用，目前新編輯器不提供引用。 本文資訊僅適用於使用舊編輯器。
-
 引文是新增至內容之資訊來源的參考。 使用引文，您可以為來源資訊的作者評分，並幫助讀者追蹤來源資訊。 新增引文可讓您的內容更可靠，並防止剽竊。 它們也可讓您顯示經過充分研究的內容。
 
 在Adobe Experience Manager Guides中，您可以新增和匯入引文，並將其套用至您的內容。 您可以從任何書籍、網站和分錄來源新增這些引文。
 
-
 Experience Manager Guides可協助您編輯、預覽和排序您的引用。 將引文新增至內容後，您可以使用原生PDF產生輸出。 您也可以在原生PDF輸出中新增目錄或參考頁面。
 
-Experience Manager Guides支援多種型別的引用，例如現代語言協會(MLA)、美國心理協會(APA)、芝加哥、電氣和電子工程師協會(IEEE)和美國心臟協會(AHA)。 建議清晰且一致地使用這些量度。
+Experience Manager Guides支援多種型別的引用，例如現代語言協會(MLA)、美國心理協會(APA)、芝加哥、電氣和電子工程師協會(IEEE)、美國心臟協會(AHA)和美國醫學協會(AMA)。 建議清晰且一致地使用這些量度。
 
 
 >[!NOTE]
 >
->目前Experience Manager Guides僅支援原生PDF的引文功能。
+>發佈至原生PDF時，Experience Manager Guides支援所有引文樣式。 針對AEM Sites輸出，目前僅支援AMA樣式引文。
 
 
 ## 新增引文
@@ -71,7 +60,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
    | 書冊 | 網站 | 日誌 |
    | --- | ---|---|
    | **Source** <br>從下拉式清單中，選取引文來源作為「書冊」。 | **Source**<br>&#x200B;從下拉式清單中，選取網站引文的來源。 | **Source** <br>從下拉式清單中，選取引文來源作為日誌。 |
-   | **搜尋依據** <br>從下拉式清單中選取&#x200B;**ISBN**&#x200B;或&#x200B;**DOI**，以搜尋連結至引文的數位識別碼。 <br> DOI：數位物件識別碼<br> ISBN：唯一數值報表簿識別碼 | **搜尋依據** <br>從下拉式清單中選取&#x200B;**DOI**&#x200B;以搜尋連結至引文的數位識別碼。 | **搜尋依據** <ul><li>從下拉式清單中選取&#x200B;**DOI**&#x200B;或&#x200B;**PubMed ID**，以搜尋連結至引文的數位識別碼。</li><li>從下拉式清單中選取&#x200B;**任何欄位**&#x200B;以搜尋所有日誌欄位，例如&#x200B;*標題*、*日誌標題*、*作者*、*年*、*卷*、*數字*&#x200B;和&#x200B;*頁面*。<br> 搜尋會根據輸入的文字傳回最接近的相符引號。</li> |
+   | **搜尋依據** <br>從下拉式清單中選取&#x200B;**ISBN**&#x200B;或&#x200B;**DOI**，以搜尋連結至引文的數位識別碼。 <br> DOI：數位物件識別碼<br> ISBN：唯一數值報表簿識別碼 | **搜尋依據** <br>從下拉式清單中選取&#x200B;**DOI**&#x200B;以搜尋連結至引文的數位識別碼。 | **搜尋依據** <ul><li>從下拉式清單中選取&#x200B;**DOI**&#x200B;或&#x200B;**PubMed ID**，以搜尋連結至引文的數位識別碼。</li><li>從下拉式清單中選取&#x200B;**任何欄位**&#x200B;以搜尋所有日誌欄位，例如&#x200B;*標題*、*日誌標題*、*作者*、*年*、*卷*、*數字*&#x200B;和&#x200B;*頁面*。<br> 搜尋會根據輸入的文字傳回最接近的相符引號。</li><li> 從下拉式清單中選取&#x200B;**剖析引文**，以剖析支援的AMA引文並自動填入引文欄位。 |
    | **作者** <br>新增引文作者的名字和姓氏。 選取![](images/Add_icon.svg)以新增更多名稱。 | **作者** <br>新增引文作者的名字和姓氏。 選取![](images/Add_icon.svg)以新增更多名稱。 | **作者** <br>新增引文作者的名字和姓氏。 選取![](images/Add_icon.svg)以新增更多名稱。 |
    | **標題** <br>新增書名。 | **標題** <br>新增網頁的標題。 | **標題** <br>新增文章標題。 |
    | **編輯者** <br>新增書籍的編輯者。 | **網站名稱** <br>新增網站名稱。 | **日誌標題** <br>新增找到文章的工作標題。 |
@@ -111,7 +100,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides只會匯入不重複且不存在的引用。
-   > &gt; <li> Experience Manager Guides可以從書籍、日誌或網站匯入引用。 目前不支援其他來源的引文。
+    &gt; <li> Experience Manager Guides可以從書籍、日誌或網站匯入引用。 目前不支援其他來源的引文。
 
 ## 管理引文
 
@@ -140,7 +129,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 
 ### 變更引文樣式 {#change-citation-style}
 
-您的系統管理員可以從&#x200B;**設定**&#x200B;中&#x200B;**一般**&#x200B;索引標籤的&#x200B;**引文**&#x200B;下拉式清單中變更引文樣式。
+您的系統管理員可以從&#x200B;**設定**&#x200B;中&#x200B;**一般**&#x200B;索引標籤的&#x200B;**引文**下拉式清單中變更引文樣式。
 這些樣式決定引文在預覽窗格或原生PDF輸出中的顯示方式。
 
 下拉式清單中有以下選項：
@@ -161,7 +150,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 
 **編輯引文**&#x200B;對話方塊開啟。
 
-1. 進行必要的變更。 選取「**完成**」。
+1. 進行必要的變更。選取&#x200B;**完成**。
 所選引文即會編輯。
 
 >[!NOTE]
@@ -202,11 +191,11 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 ### 從主工具列
 
 1. 選取主工具列中的&#x200B;**引文** ![引文圖示](images/citations-icon.svg)圖示。
-1. 在&#x200B;**引文**&#x200B;對話方塊中，選擇引文。 您也可以選取多個引文。
+1. 在&#x200B;**引文**對話方塊中，選擇引文。您也可以選取多個引文。
    ![引文對話方塊](images/citation-dialog-main-toolbar.png){width="300"}
 1. 您可以在&#x200B;**引文**&#x200B;對話方塊的搜尋面板中輸入前幾個字母來篩選引文。
 
-1. 選取「**完成**」。
+1. 選取&#x200B;**完成**。
 所選引文會新增至主題中的游標位置。
 
 
@@ -253,7 +242,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 
 在主題中，將游標放在引文的結尾。
 
-1. 在主題中的引文上按一下滑鼠右鍵，然後從捷徑功能表中選取&#x200B;**修改引文**。 「引文」對話方塊開啟。
+1. 在主題中的引文上按一下滑鼠右鍵，然後從捷徑功能表中選取&#x200B;**修改引文**。「引文」對話方塊開啟。
    ![引文的捷徑功能表](./images/modify-citation.png)
 
 1. 您可以選擇要插入檔案的引文。

@@ -6,28 +6,14 @@ role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
 TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: b89a36a9-95de-429b-adde-f901256d8f24
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: b89a36a9-95de-429b-adde-f901256d8f24id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
 workflow-type: tm+mt
-source-wordcount: 1666
+source-wordcount: 1960
 ht-degree: 0%
 
 ---
@@ -138,7 +124,7 @@ ht-degree: 0%
 >
 > 此設定只有在&#x200B;**Workspace設定** > **一般**&#x200B;中啟用學習內容功能時才能使用。
 
-此設定可讓您管理編輯器[&#128279;](../user-guide/web-editor-left-panel.md)中左側面板的製作和發佈範本。 您可以新增、移除或重新排序製作和輸出範本，然後作者和發佈者即可存取這些範本。
+此設定可讓您管理編輯器](../user-guide/web-editor-left-panel.md)中[左側面板的製作和發佈範本。 您可以新增、移除或重新排序製作和輸出範本，然後作者和發佈者即可存取這些範本。
 
 ![](assets/templates-settings.png){width="350"}
 
@@ -211,6 +197,41 @@ ht-degree: 0%
 
    ![](assets/scorm-template-added.png){width="350"}
 
+### 設定SCORM輸出範本的頁面配置
+
+SCORM輸出範本可讓您將不同的版面配置指派給課程中的不同主題型別。 這可讓您自訂在產生的SCORM套件中課程、測驗、概觀頁面和其他內容型別的呈現方式。
+
+例如，課程頁面可使用包含頁首、內容區域和頁尾的版面，而測驗頁面可使用不含頁尾的簡化版面。 您也可以為概觀頁面或任何其他主題型別建立專用版面，並相應地加以對應。
+
+配置指派是在&#x200B;**輸出範本**層級設定。任何使用已設定輸出範本的SCORM預設集，將在產生課程時套用選取的版面配置對應。
+請依照下列步驟，設定範本的頁面配置：
+
+1. 瀏覽至&#x200B;**輸出範本**&#x200B;並開啟必要的&#x200B;**SCORM輸出範本**。
+
+2. 選取&#x200B;**設定**&#x200B;標籤。
+
+3. 在&#x200B;**頁面配置**&#x200B;視窗中，找出可用的主題型別。
+
+   ![](assets/page-layout-scorm.png){width="650"}
+
+4. 針對每個主題型別，選取課程產生期間要使用的版面配置。
+
+   **範例：**
+   - **預設頁面配置**：課程
+   - **測試**：測試
+   - **概述**：課程
+
+5. 若要使用新版面，請使用&#x200B;**輸出範本**&#x200B;面板的內容功能表中的&#x200B;**新版面**&#x200B;選項，在輸出範本中建立所需的版面。
+
+   ![](assets/new-page-layout-scorm.png){width="650"}
+
+6. 返回&#x200B;**設定**&#x200B;標籤，並將新建立的版面配置指派給適當的主題型別。
+
+7. 使用索引標籤列右角的「儲存」圖示，儲存用於輸出範本的「頁面配置」 。
+
+
+使用使用已設定輸出範本的SCORM預設集產生課程時，會使用指派給其主題型別的版面配置呈現每個主題。 如此一來，同一課程中不同的內容型別就能自訂頁面結構和視覺化簡報。
+
 ### 移除或重新排序範本
 
 新增後，您可以從「設定」面板中移除或重新排序範本。
@@ -244,10 +265,10 @@ ht-degree: 0%
 
 ## 管理發佈設定檔
 
-本節可讓您檢視、建立及管理用於發佈課程至SCORM Cloud的發佈設定檔。 每個設定檔會定義將學習課程發佈至特定SCORM雲端環境所需的連線設定和設定詳細資訊。
+本節可讓您檢視、建立及管理用於發佈課程至SCORM Cloud或Adobe Learning Manager (ALM)的發佈設定檔。 每個設定檔會定義將學習課程發佈至選定發佈伺服器所需的連線設定和設定詳細資料。
 
-如果您需要發佈至不同的SCORM Cloud帳戶，可以建立多個設定檔，以確保靈活控制發佈程式。
+您可以建立多個設定檔以將內容發佈至不同的SCORM Cloud帳戶或ALM執行個體，讓您靈活控制發佈工作流程。
 
-提供伺服器詳細資訊以及相關SCORM雲端應用程式的使用者端ID和使用者端密碼，以設定SCORM雲端的發佈設定檔。
+若要設定發佈設定檔，請選取所需的發佈伺服器（SCORM Cloud或Adobe Learning Manager），並提供必要的連線詳細資料。 針對SCORM Cloud，請輸入伺服器資訊以及相關SCORM Cloud應用程式的使用者端ID和使用者端密碼。 針對Adobe Learning Manager，提供您ALM環境所需的對應伺服器和驗證詳細資訊。
 
 ![](assets/configure-publish-profiles.png){width="350"}

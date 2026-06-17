@@ -5,18 +5,13 @@ feature: Authoring
 role: User
 exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -48,7 +43,7 @@ ht-degree: 0%
 
   ![](assets/insert-h5p-lc.png)
 
-  如果您偏好使用您系統中的H5P內容，請先在DAM[&#128279;](../user-guide/authoring-upload-existing-files.md)中使用&#x200B;**上傳資產**&#x200B;選項上傳檔案，然後將其加入存放庫檢視/Assets。
+  如果您偏好使用您系統中的H5P內容，請先在DAM](../user-guide/authoring-upload-existing-files.md)中使用&#x200B;**上傳資產**&#x200B;選項[上傳檔案，然後將其加入存放庫檢視/Assets。
 
   ![](assets/upload-assets-option.png)
 
@@ -72,11 +67,13 @@ ht-degree: 0%
 
   您可以透過&#x200B;**內容屬性**&#x200B;面板來設定正確答案和其他必要欄位。 如需詳細資訊，請檢視[問題型別](./quiz-insert-questions.md)。 您可以使用如下所示的知識檢查選項來新增各種問題型別。
 
+  此外，您可以啟用&#x200B;**需要知識檢查以繼續**&#x200B;選項，以確保學習者在前進到後續課程內容之前嘗試指定的知識檢查。 此功能可防止學習者略過關鍵評估查核點，有助於強化關鍵學習目標。 設定SCORM預設集輸出時，**學習者必須依循序進行內容**&#x200B;設定已啟用時，才能支援此功能，確保課程進度遵循預期的學習路徑。
+
   ![](assets/knowledge-check-content-properties.png){width="650"}
 
-- **輸入欄位：**&#x200B;新增文字輸入欄位以及按鈕至您的內容。 您可以使用此組合來擷取使用者輸入並觸發特定動作。 播放按鈕已新增到內容中，如下所示。
+- **輸入欄位：**&#x200B;新增文字輸入欄位以及按鈕至您的內容。 您可以使用此組合來擷取使用者輸入並觸發特定動作。 您現在也可以新增多行文字區域以取得較長的回應，例如說明或開放式意見反應。 多行文字區域支援分行和文字繞排。
 
-  ![](assets/button-learning-content.png){width="650"}
+  ![](assets/input-field-lc.png){width="650"}
 
 - **更多選項：**&#x200B;您有其他選項可增強您的學習內容，包括插入水平線、分行符號、文字方塊、定位文字方塊和內嵌HTML。
 
