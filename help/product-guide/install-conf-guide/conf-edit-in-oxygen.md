@@ -28,4 +28,4 @@ AEM Guides也可讓使用者在氧氣聯結器外掛程式中編輯其DITA主題
 >
 > 此設定預設為停用，且編輯器中沒有可用選項。
 
-**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)

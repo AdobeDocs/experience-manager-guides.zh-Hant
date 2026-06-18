@@ -58,4 +58,4 @@ ht-degree: 1%
 
 - DITA map主控台中的「報表」索引標籤
 
-**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)

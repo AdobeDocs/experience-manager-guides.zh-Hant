@@ -33,4 +33,4 @@ ht-degree: 2%
 
 當您增加這個屬性值時，它有助於您為較大的DITA map產生報表。
 
-**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)

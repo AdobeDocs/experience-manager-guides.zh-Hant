@@ -56,4 +56,4 @@ AEM Guides提供與編輯器整合的強大文章式發佈功能。 使用此功
 >[!ENDTABS]
 
 
-**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)

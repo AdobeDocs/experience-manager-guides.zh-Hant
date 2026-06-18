@@ -54,16 +54,16 @@ ht-degree: 0%
 
    **專案**：指定工具列中所有群組的定義。 每個群組可以包含一或多個工具列圖示。 若要定義工具列群組中的圖示，您必須在`items`中重新定義`type`屬性，並將其值設為`buttonGroup`。 在`extraclass`屬性中指定一或多個類別名稱。 在`label`屬性中指定功能名稱。 `ui_config.json`檔案中的下列程式碼片段顯示主要工具列區塊的定義，後面接著`buttonGroup`定義：
 
-       ``
-     `toolbar`： {
-     `type`： &quot;blockGroup`，
+       &grave;&grave;
+     `toolbar`： &lbrace;
+     `type`： &quot;blockGroup&grave;，
      `extraclass`：
      `toolbar operations`，
-     `items`： [
-     {
-     ``type`： &quot;buttonGroup`，
-     ``extraclass`： &quot;left-controls`，
-     `label`： [
+     `items`： &lbrack;
+     &lbrace;
+     &grave;&grave;type`： &quot;buttonGroup`，
+     &grave;&grave;extraclass`： &quot;left-controls`，
+     `label`： &lbrack;
      &quot;&#39;
    
     
@@ -81,9 +81,9 @@ ht-degree: 0%
 
    **按一下**：指定在JavaScript檔案中為功能定義的命令名稱。 如果您的命令需要輸入引數，則指定命令名稱為：
 
-       ``Javascript
-     ``按一下`： {`name`： &quot;AUTHOR_INSERT_ELEMENT&quot;， &quot;args&quot;： &quot;simpletable&quot;}
-     ``
+       &grave;&grave;Javascript
+     &grave;&grave;按一下`： {`name&grave;： &quot;AUTHOR_INSERT_ELEMENT&quot;， &quot;args&quot;： &quot;simpletable&quot;&rbrace;
+     &grave;&grave;
    
    **顯示或隱藏**：如果您正在定義`show`屬性，請指定圖示的顯示模式。 可能的值為 — `@isAuthorMode`、`@isSourceMode`、`@isPreviewMode`、`true` \（在所有模式中顯示\）或`false` \（在所有模式中隱藏\）。
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 1. 在`ui_config.json`檔案中，在工具列區段中新增新功能的定義。 通常，您可以建立新的工具列按鈕群組，並在其中新增一或多個工具列按鈕。 或者，您可以在現有的工具列群組中新增工具列按鈕。 建立新的工具列群組需要下列詳細資料：
 
-   - **type：**指定`blockGroup`為`type`值。 此值表示您正在建立包含一或多個工具列群組的區塊群組。
+   - **type：**&#x200B;指定`blockGroup`為`type`值。 此值表示您正在建立包含一或多個工具列群組的區塊群組。
 
    - **解壓縮類別：**&#x200B;以空格分隔的類別名稱。
 
