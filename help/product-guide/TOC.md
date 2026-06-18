@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: c748a4cef0848b35c2e1bee6c5fec4e4de91ba22
+source-git-commit: a1c07d0f60b7c37248bcf7ce72ce25d537e3fd57
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 10%
@@ -522,7 +522,7 @@ ht-degree: 10%
          - [覆蓋內部部署的AEM Sites輸出中的HTML標籤](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [設定AEM網站輸出的有效檔案名稱](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
       - 原生PDF發佈 {#config-native-pdf-publish}
-         - {hide-from-toc}[原生PDF發佈範本和內容樣式](./install-conf-guide/template-content-styles.md)
+         - [原生PDF發佈範本和內容樣式](./install-conf-guide/template-content-styles.md)
          - [PDF範本](./native-pdf/pdf-template.md)
          - [PDF範本的元件](./native-pdf/components-pdf-template.md)
          - [設計頁面配置](./native-pdf/design-page-layout.md)
