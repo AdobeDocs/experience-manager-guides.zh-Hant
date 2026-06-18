@@ -5,9 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: a456027a-56a4-48c0-a79b-2f423692abc2
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,6 @@ ht-degree: 0%
 
 1. 儲存檔案並上傳。
 
-執行上述指定步驟後，如果您從「網頁編輯器」的「使用者偏好設定」中選擇相同的資料夾設定檔，您便會在主題的預覽模式中看到PDF產生的選項。
+執行上述指定步驟後，如果您從編輯器的「使用者偏好設定」中選擇相同的資料夾設定檔，您將在主題的預覽模式中看到PDF產生的選項。
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)

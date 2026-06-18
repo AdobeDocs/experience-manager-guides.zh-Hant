@@ -5,22 +5,22 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
 
 # 自訂工具列 {#id172FB00L0V6}
 
-依預設，Web編輯器會隨附任何DITA編輯器所需的最常見編輯功能。 編輯器中有插入型別清單\（編號或專案符號\）、互動參照、內容參照、表格、段落和字元格式等元素的功能。 除了這些基本元素之外，您還可以自訂Web編輯器來插入在編寫環境中使用的元素。
+依預設，編輯器會隨附任何DITA編輯器所需的最常見編輯功能。 編輯器中有插入型別清單\（編號或專案符號\）、互動參照、內容參照、表格、段落和字元格式等元素的功能。 除了這些基本元素之外，您還可以自訂編輯器以插入在編寫環境中使用的元素。
 
 >[!NOTE]
 >
-> 從舊版UI移轉至新AEM Guides UI （適用於2502和5.0版的AEM Guides）時，`ui_config`的更新必須轉換為更靈活且模組化的UI設定。 此框架可協助您順暢地採用對editor_toolbar和其他目標Widget的變更（如適用）。 如需詳細資訊，請檢視[轉換UI組態](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)的總覽。
+> 從舊版UI移轉至新AEM Guides UI （適用於2502和5.0版的AEM Guides）時，`ui_config`的更新必須轉換為更靈活且模組化的UI設定。 此框架可協助您順暢地採用對editor_toolbar和其他目標Widget的變更（如適用）。 如需詳細資訊，請檢視[轉換UI組態](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)的總覽。
 
-自訂網頁編輯器的工具列有兩種方式：
+自訂編輯器工具列的方式有兩種：
 
 - 將新功能新增至工具列
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 在工具列中新增功能
 
-將功能新增至網頁編輯器涉及兩個主要工作 — 在&#x200B;*ui\_config.json*&#x200B;檔案中新增該功能的圖示，以及在JavaScript中新增背景功能。
+將功能新增至編輯器涉及兩個主要工作 — 在&#x200B;*ui\_config.json*&#x200B;檔案中新增功能的圖示，以及在JavaScript中新增背景功能。
 
 下列標籤會根據您的Experience Manager Guides設定提供指示： Cloud Service或內部部署。
 
@@ -54,16 +54,16 @@ ht-degree: 0%
 
    **專案**：指定工具列中所有群組的定義。 每個群組可以包含一或多個工具列圖示。 若要定義工具列群組中的圖示，您必須在`items`中重新定義`type`屬性，並將其值設為`buttonGroup`。 在`extraclass`屬性中指定一或多個類別名稱。 在`label`屬性中指定功能名稱。 `ui_config.json`檔案中的下列程式碼片段顯示主要工具列區塊的定義，後面接著`buttonGroup`定義：
 
-       &grave;&grave;
-     `toolbar`： &lbrace;
-     `type`： &quot;blockGroup&grave;，
+       ``
+     `toolbar`： {
+     `type`： &quot;blockGroup`，
      `extraclass`：
      `toolbar operations`，
-     `items`： &lbrack;
-     &lbrace;
-     &grave;&grave;type`： &quot;buttonGroup`，
-     &grave;&grave;extraclass`： &quot;left-controls`，
-     `label`： &lbrack;
+     `items`： [
+     {
+     ``type`： &quot;buttonGroup`，
+     ``extraclass`： &quot;left-controls`，
+     `label`： [
      &quot;&#39;
    
     
@@ -81,9 +81,9 @@ ht-degree: 0%
 
    **按一下**：指定在JavaScript檔案中為功能定義的命令名稱。 如果您的命令需要輸入引數，則指定命令名稱為：
 
-       &grave;&grave;Javascript
-     &grave;&grave;按一下`： {`name&grave;： &quot;AUTHOR_INSERT_ELEMENT&quot;， &quot;args&quot;： &quot;simpletable&quot;&rbrace;
-     &grave;&grave;
+       ``Javascript
+     ``按一下`： {`name`： &quot;AUTHOR_INSERT_ELEMENT&quot;， &quot;args&quot;： &quot;simpletable&quot;}
+     ``
    
    **顯示或隱藏**：如果您正在定義`show`屬性，請指定圖示的顯示模式。 可能的值為 — `@isAuthorMode`、`@isSourceMode`、`@isPreviewMode`、`true` \（在所有模式中顯示\）或`false` \（在所有模式中隱藏\）。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. 透過將&#x200B;*apps.fmdita.xml\_editor.page\_overrides*&#x200B;的值指派給&#x200B;*clientlib*&#x200B;資料夾來更新categories屬性。
 
-1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入網頁編輯器。
+1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入編輯器。
 
 >[!TAB 內部部署]
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 1. 在`ui_config.json`檔案中，在工具列區段中新增新功能的定義。 通常，您可以建立新的工具列按鈕群組，並在其中新增一或多個工具列按鈕。 或者，您可以在現有的工具列群組中新增工具列按鈕。 建立新的工具列群組需要下列詳細資料：
 
-   - **type：**&#x200B;指定`blockGroup`為`type`值。 此值表示您正在建立包含一或多個工具列群組的區塊群組。
+   - **type：**指定`blockGroup`為`type`值。 此值表示您正在建立包含一或多個工具列群組的區塊群組。
 
    - **解壓縮類別：**&#x200B;以空格分隔的類別名稱。
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 1. 透過將&#x200B;*apps.fmdita.xml\_editor.page\_overrides*&#x200B;的值指派給&#x200B;*clientlib*&#x200B;資料夾來更新categories屬性。
 
-1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入網頁編輯器。
+1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入編輯器。
 
 
 **JavaScript程式碼範例**
@@ -193,7 +193,7 @@ ht-degree: 0%
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -234,7 +234,7 @@ ht-degree: 0%
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -295,7 +295,7 @@ ht-degree: 0%
 
 ## 從工具列移除功能
 
-有時您可能不想提供網頁編輯器中目前可用的所有功能，在這種情況下，您可以從網頁編輯器的工具列移除不需要的功能。
+有時您可能不想提供編輯器目前可用的所有功能，在這種情況下，您可以從編輯器工具列移除不需要的功能。
 
 下列標籤會根據您的Experience Manager Guides設定，提供從工具列移除任何不想要之功能的指示： Cloud Service或內部部署。
 
@@ -325,7 +325,7 @@ ht-degree: 0%
 
 1. 從工具列區段中，移除您不想向使用者公開的功能專案。
 
-1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入網頁編輯器。
+1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入編輯器。
 
 >[!TAB 內部部署]
 
@@ -354,6 +354,6 @@ ht-degree: 0%
 
 1. 從工具列區段中，移除您不想向使用者公開的功能專案。
 
-1. 儲存`*ui\_config.json*`檔案並重新載入網頁編輯器。
+1. 儲存`*ui\_config.json*`檔案並重新載入編輯器。
 
 >[!ENDTABS]

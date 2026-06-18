@@ -6,18 +6,18 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # 設定資料來源聯結器
 
-AEM Guides為JIRA和SQL (MySQL、PostgreSQL、SQL Server、SQLite)資料庫提供現成的聯結器。 您也可以擴充預設介面來新增其他聯結器。 以下設定可協助您輕鬆新增各種資料來源。 新增後，您可以在網頁編輯器中檢視資料來源。
+AEM Guides為JIRA和SQL (MySQL、PostgreSQL、SQL Server、SQLite)資料庫提供現成的聯結器。 您也可以擴充預設介面來新增其他聯結器。 以下設定可協助您輕鬆新增各種資料來源。 新增後，您可以在編輯器中檢視資料來源。
 
-執行以下步驟來設定資料來源聯結器，然後從Web編輯器使用它：
+執行以下步驟來設定資料來源聯結器，然後從編輯器使用它：
 
 ## 設定聯結器
 

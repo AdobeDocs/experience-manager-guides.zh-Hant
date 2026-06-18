@@ -4,16 +4,17 @@ description: 瞭解如何設定顯示UUID型連結
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d2383230-ff8f-4e9b-a529-9b9d167ebf90
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
 
 # 設定UUID型連結的顯示方式 {#id2035G20M0QN}
 
-根據預設，當您在編輯器中使用「插入參照」或「插入」「重複使用內容」選項建立連結時，會使用參照內容的UUID來建立連結。 參考內容的&#x200B;**連結**&#x200B;屬性\（在「屬性」面板中\）可設定為顯示參考內容或UUID的相對檔案路徑。 就Cloud Service而言，參照內容的UUID預設會顯示在「屬性」面板中。 針對On-Premise，這個顯示是由&#x200B;**中的**&#x200B;啟用UUID`configMgr`選項所控制。 預設會開啟，這表示參考內容的UUID會顯示在「屬性」面板中。
+根據預設，當您在編輯器中使用「插入參照」或「插入」「重複使用內容」選項建立連結時，會使用參照內容的UUID來建立連結。 參考內容的&#x200B;**連結**&#x200B;屬性\（在「屬性」面板中\）可設定為顯示參考內容或UUID的相對檔案路徑。 就Cloud Service而言，參照內容的UUID預設會顯示在「屬性」面板中。 針對On-Premise，這個顯示是由`configMgr`中的&#x200B;**啟用UUID**&#x200B;選項所控制。 預設會開啟，這表示參考內容的UUID會顯示在「屬性」面板中。
 
 下列標籤會提供指示，以根據您的Experience Manager Guides設定，在編輯器中顯示參照內容的相對路徑或UUID： Cloud Service或On-Premise。
 
@@ -48,4 +49,4 @@ ht-degree: 1%
 
 >[!ENDTABS]
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)

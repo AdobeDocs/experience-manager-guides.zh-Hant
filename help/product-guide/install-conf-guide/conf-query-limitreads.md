@@ -4,10 +4,11 @@ description: 瞭解如何設定查詢的LimitReads數目
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 53748636-f3d1-4b3b-a772-2730b78741cb
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
@@ -32,4 +33,4 @@ ht-degree: 1%
 
 當您增加這個屬性值時，它有助於您為較大的DITA map產生報表。
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)

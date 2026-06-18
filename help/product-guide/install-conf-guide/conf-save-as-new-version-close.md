@@ -4,16 +4,17 @@ description: 瞭解如何設定關閉時儲存為新版本的提示
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: da41044a-bab0-456b-9543-effc88d1a2ae
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
 
 # 設定關閉時儲存為新版本的提示 {#id222HBI00XXA}
 
-當使用者嘗試使用檔案索引標籤上的&#x200B;**關閉**&#x200B;按鈕或[選項]功能表中的&#x200B;**關閉**&#x200B;選項關閉在Web編輯器中開啟的檔案時，如果檔案有未儲存的資料或未儲存的版本，就會出現一個對話方塊。 如果未儲存版本，則會提示使用者將檔案另存為新版本。
+當使用者嘗試使用檔案索引標籤上的&#x200B;**關閉**&#x200B;按鈕或「選項」選單中的&#x200B;**關閉**&#x200B;選項關閉在編輯器中開啟的檔案時，如果檔案有未儲存的資料或未儲存的版本，則會出現一個對話方塊。 如果未儲存版本，則會提示使用者將檔案另存為新版本。
 
 下列標籤會根據您的Experience Manager Guides設定提供指示： Cloud Service或內部部署。
 

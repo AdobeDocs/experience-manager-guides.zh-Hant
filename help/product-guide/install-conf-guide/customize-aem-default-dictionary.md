@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 51099b42-706f-42b4-993e-7d9577b5a4f0
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 2%
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
 # 自訂AEM的預設字典 {#id209SD8000WU}
 
-網頁編輯器可設定為使用AEM的拼字檢查程式或瀏覽器的拼字檢查程式。 如果您選擇使用AEM的拼字檢查程式，您就可以彈性定義自訂字詞清單。 這些自訂字詞接著會新增至AEM的字典中，且這些字詞在網頁編輯器中不會標籤為\（不正確\）。
+編輯器可設定為使用AEM的拼字檢查程式或瀏覽器的拼字檢查程式。 如果您選擇使用AEM的拼字檢查程式，您就可以彈性定義自訂字詞清單。 這些自訂字詞接著會新增至AEM的字典中，且這些字詞在編輯器中不會標籤為\（不正確\）。
 
 下列標籤提供建立自訂字詞清單的指示，這些清單會根據您的Experience Manager Guides設定新增到AEM的字典中： Cloud Service或內部部署。
 
@@ -37,7 +37,7 @@ ht-degree: 2%
    提交變更並執行Cloud Manager \(CI/CD\)管道以部署設定變更。
 
 
-作者需要重新啟動網頁編輯器工作階段，才能在AEM字典中更新自訂字詞清單。
+作者需要重新啟動編輯器工作階段，才能在AEM字典中更新自訂字詞清單。
 
 >[!TAB 內部部署]
 
@@ -58,8 +58,8 @@ ht-degree: 2%
 1. 儲存並關閉檔案。
 
 
-作者需要重新啟動網頁編輯器工作階段，才能在AEM字典中更新自訂字詞清單。
+作者需要重新啟動編輯器工作階段，才能在AEM字典中更新自訂字詞清單。
 
 >[!ENDTABS]
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)

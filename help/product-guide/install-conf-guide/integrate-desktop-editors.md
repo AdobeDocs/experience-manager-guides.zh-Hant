@@ -4,18 +4,19 @@ description: 瞭解如何整合案頭式XML編輯器
 feature: Publishing FrameMaker Documents
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d63a6b8d-263b-4524-b24c-1127aa69ccb9
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
 
 # 整合案頭式XML編輯器
 
-市面上有許多XML編輯器，您也可能已經使用了一個。 Adobe FrameMaker是最強大的XML編輯器之一，它附帶AEM聯結器。 使用FrameMaker中的AEM聯結器，您可以輕鬆與AEM存放庫連線、取出和簽入檔案，以及直接在FrameMaker中編輯檔案。 您也可以設定Experience Manager Guides以從網頁編輯器啟動FrameMaker。 在FrameMaker中開啟檔案後，您可以編輯該檔案並將其簽回AEM存放庫。
+市面上有許多XML編輯器，您也可能已經使用了一個。 Adobe FrameMaker是最強大的XML編輯器之一，它附帶AEM聯結器。 使用FrameMaker中的AEM聯結器，您可以輕鬆與AEM存放庫連線、取出和簽入檔案，以及直接在FrameMaker中編輯檔案。 您也可以設定Experience Manager Guides以從編輯器啟動FrameMaker。 在FrameMaker中開啟檔案後，您可以編輯該檔案並將其簽回AEM存放庫。
 
-## 從網頁編輯器在FrameMaker中啟用檔案編輯
+## 從編輯器在FrameMaker中啟用檔案編輯
 
 您可以使用FrameMaker或任何其他DITA編輯器來建立和更新DITA內容。 但是，如果您的組織使用FrameMaker作為DITA編輯器，則您可以為使用者提供直接從AEM在FrameMaker中開啟DITA檔案的選項。
 
@@ -58,7 +59,7 @@ ht-degree: 1%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;套件。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**套件。
    ![](assets/open-in-fm-config.png)
 
 1. 選取&#x200B;**在FrameMaker中顯示開啟按鈕**&#x200B;選項。

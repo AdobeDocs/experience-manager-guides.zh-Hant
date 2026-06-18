@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: e3747a18-b6a1-46fd-a4d1-28a9c087e924
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 # 設定允許的特殊字元 {#id20CIL600035}
 
-網頁編輯器可讓您插入一些現成可用的特殊字元。 不過，您可以自訂作者可在檔案中插入的特殊字元清單。 如果您自訂特殊字元清單，則會覆寫預設的特殊字元集。 作者只能使用您在設定中新增的特殊字元。
+編輯器可讓您插入一些現成可用的特殊字元。 不過，您可以自訂作者可在檔案中插入的特殊字元清單。 如果您自訂特殊字元清單，則會覆寫預設的特殊字元集。 作者只能使用您在設定中新增的特殊字元。
 
 下列標籤會根據您的Experience Manager Guides設定，提供覆寫預設特殊字元清單的指示： Cloud Service或內部部署。
 
@@ -82,4 +82,4 @@ ht-degree: 0%
 
 >[!ENDTABS]
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)

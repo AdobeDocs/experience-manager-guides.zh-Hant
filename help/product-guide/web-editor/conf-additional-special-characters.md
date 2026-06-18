@@ -1,17 +1,17 @@
 ---
-title: 在網頁編輯器工具列中設定其他特殊字元
-description: 瞭解如何在AEM Guides的網頁編輯器中設定其他特殊字元。
+title: 在編輯器工具列中設定其他特殊字元
+description: 瞭解如何在AEM Guides的編輯器中設定其他特殊字元。
 feature: Web Editor
 role: User
 exl-id: 4007eb03-c100-4892-b293-f22b3f0082e2
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# 如何在內部部署的網頁編輯器工具列中設定其他特殊字元
+# 如何在內部部署的編輯器工具列中設定其他特殊字元
 
 網頁編輯器工具列中有一個捷徑選項，可讓作者插入特殊字元。
 以下熒幕擷圖亦顯示相同內容：

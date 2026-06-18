@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 3032b49e-73d1-44d0-88b4-7e6e9444cac6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # 設定On-Premise的簽入和簽出圖示標題
 
-AEM Guides可讓您在網頁編輯器中設定簽入和簽出圖示的標題。 執行以下步驟來設定「入庫」和「出庫」圖示的標題：
+AEM Guides可讓您在編輯器中設定簽入和簽出圖示的標題。 執行以下步驟來設定「入庫」和「出庫」圖示的標題：
 
 1. 以管理員身分登入Adobe Experience Manager以下載UI設定檔。
 1. 按一下頂端的Adobe Experience Manager連結，然後選擇&#x200B;**工具**。
