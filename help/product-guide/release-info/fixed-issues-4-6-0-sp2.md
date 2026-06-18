@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: 370
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 4%
 - 當內容包含不斷行空格時，發佈至Salesforce會失敗。 (23664)
 - 對於具有錯誤的主題（例如中斷的連結），Salesforce發佈將失敗，並且進度條會無限期顯示。 (22985)
 - 對於連結中斷的地圖，Salesforce發佈會失敗，而進度列會無限期顯示。 (24963)
-- 如果外部連結包含UUID，它會進行後續處理，並將外部連結轉換為UUID連結，從而破壞網頁編輯器和發佈網站上的連結。 (22574)
+- 如果外部連結包含UUID，它會進行後續處理，並將外部連結轉換為UUID連結，從而破壞編輯器和發佈網站上的連結。 (22574)
 - 即使連結的&#x200B;**範圍**&#x200B;設定為&#x200B;**外部**，`xref`也會轉換成相對連結。 (23059)
 - 產生&#x200B;**區塊**&#x200B;屬性設為&#x200B;**to-content**&#x200B;之內容的原生PDF失敗。 (21772)
 - 基準線的&#x200B;**編輯屬性**&#x200B;對話方塊不會顯示先前儲存的動態基準線條件。 (23964)

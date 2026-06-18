@@ -4,9 +4,10 @@ description: 瞭解如何將進階地圖編輯器設為預設值
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 60205ca4-518f-49fa-b63b-f1a56d70fc01
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -15,10 +16,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Basic Map Editor （先前在Experience Manager Guides中提供）已從4.3版和2307版開始淘汰。 您無法存取「基本對映編輯器」來建立和管理DITA map。
->建議您使用進階地圖編輯器。 進階地圖編輯器提供增強功能和更好的自訂選項。 深入瞭解如何使用[進階地圖編輯器](../user-guide/map-editor-advanced-map-editor.md)。
+> Basic Map Editor （先前在Experience Manager Guides中提供）已從4.3版和2307版開始淘汰。您無法存取「基本對映編輯器」來建立和管理DITA map。
+>建議您使用進階地圖編輯器。進階地圖編輯器提供增強功能和更好的自訂選項。深入瞭解如何使用[進階地圖編輯器](../user-guide/map-editor-advanced-map-editor.md)。
 
-對於4.3和2307之前的版本，Experience Manager Guides隨附基本地圖編輯器和進階地圖編輯器。 基本地圖編輯器提供您建立地圖檔案所需的所有功能。 進階地圖編輯器功能更豐富，並整合在網頁編輯器中。 「進階對映編輯器」可讓作者使用易用的介面來建立和編輯DITA map檔案。
+對於4.3和2307之前的版本，Experience Manager Guides隨附基本地圖編輯器和進階地圖編輯器。 基本地圖編輯器提供您建立地圖檔案所需的所有功能。 進階地圖編輯器功能更豐富，並整合在編輯器中。 「進階對映編輯器」可讓作者使用易用的介面來建立和編輯DITA map檔案。
 
 根據預設，每當建立新的對映檔案時，它都會在「基本對映編輯器」中開啟。 您可以讓設定預設為開啟「進階地圖編輯器」來變更此行為。
 
@@ -57,4 +58,4 @@ ht-degree: 0%
 
 >[!ENDTABS]
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)

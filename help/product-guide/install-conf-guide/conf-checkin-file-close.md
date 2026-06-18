@@ -4,18 +4,19 @@ description: 瞭解如何設定關閉時簽入檔案的提示
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 6b1b5894-0d55-4230-83cf-6b219e969116
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
 
 # 設定關閉時簽入檔案的提示 {#id222HC040PE8}
 
-當使用者嘗試使用檔案索引標籤上的&#x200B;**關閉**&#x200B;按鈕或[選項]功能表中的&#x200B;**關閉**&#x200B;選項關閉在Web編輯器中開啟的檔案時，如果檔案有未儲存的資料或未儲存的版本，就會出現一個對話方塊。 如果檔案已鎖定，系統會提示使用者解除鎖定。
+當使用者嘗試使用檔案索引標籤上的&#x200B;**關閉**&#x200B;按鈕或「選項」選單中的&#x200B;**關閉**&#x200B;選項關閉在編輯器中開啟的檔案時，如果檔案有未儲存的資料或未儲存的版本，則會出現一個對話方塊。 如果檔案已鎖定，系統會提示使用者解除鎖定。
 
-下列標籤會提供相關指示，說明如何根據您的Experience Manager Guides設定，設定在網頁編輯器中提示在關閉時簽入檔案選項： Cloud Service或內部部署。
+下列標籤會根據您的Experience Manager Guides設定，提供在編輯器中設定提示以在關閉時簽入檔案選項的說明： Cloud Service或內部部署。
 
 >[!BEGINTABS]
 
@@ -35,7 +36,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->預設不會啟用&#x200B;**解除鎖定檔案**&#x200B;核取方塊，您必須從configMgr啟用此核取方塊。 執行以下步驟，在Web編輯器中啟用預設選項：
+>預設不會啟用&#x200B;**解除鎖定檔案**&#x200B;核取方塊，您必須從configMgr啟用此核取方塊。 執行以下步驟，在編輯器中啟用預設選項：
 
 1. 開啟Adobe Experience Manager Web主控台設定頁面。
 
@@ -58,4 +59,4 @@ ht-degree: 1%
 
 >[!ENDTABS]
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)

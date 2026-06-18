@@ -15,16 +15,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 240
 ht-degree: 0%
 
 ---
 
 # 移除Webeditor中檔案內容功能表的[刪除]選項
 
-在本文中，我們將瞭解如何在AEM Guides Web Editor的檔案快顯選單中，為特定使用者或群組隱藏「刪除」選項。 如需檔案快顯功能表選項的其他自訂內容，請檢查Guides擴充功能框架。 在[這裡](https://github.com/adobe/guides-extension/tree/main)可找到更多詳細資料。
+在本文中，我們將瞭解如何在AEM Guides編輯器的檔案快顯選單中，為特定使用者或群組隱藏「刪除」選項。 如需檔案快顯功能表選項的其他自訂內容，請檢查Guides擴充功能框架。 在[這裡](https://github.com/adobe/guides-extension/tree/main)可找到更多詳細資料。
 
 如以下程式碼片段所示，檔案快顯功能表具有「刪除」選項可供此特定使用者使用。
 
@@ -58,5 +58,5 @@ ht-degree: 0%
 ![不含Delete的File contextmenu](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
-Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.
+Please note that these steps would also remove 'move' and 'rename' options from the Editor as they are also tied to delete process at the backend.
 ```

@@ -18,9 +18,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1099
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 若要建立新的PDF範本，請執行以下步驟：
 
-1. 在Web編輯器中，移至&#x200B;**輸出**&#x200B;標籤。
+1. 在編輯器中，移至&#x200B;**輸出**&#x200B;標籤。
 1. 選取&#x200B;**範本** 左側面板中的<img src="./assets/template.png" alt= "範本圖示" width="25">。
 
    <img src="assets/create-pdf-template.png" alt="建立PDF範本" width="400">
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 若要複製現有PDF範本，請遵循下列步驟：
 
-1. 在Web編輯器中，移至&#x200B;**輸出**&#x200B;標籤。
+1. 在編輯器中，移至&#x200B;**輸出**&#x200B;標籤。
 1. 選取&#x200B;**範本** 左側面板中的<img src="./assets/template.svg" alt= "範本圖示" width="25">。 這會開啟&#x200B;**範本**&#x200B;視窗。
 1. 將滑鼠停留在您要複製的範本上，並選取&#x200B;**...** *選項*&#x200B;圖示，然後從內容功能表中選擇&#x200B;**複製**。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 若要自訂PDF範本，請執行以下步驟：
 
-1. 在Web編輯器中，移至&#x200B;**輸出**&#x200B;標籤。
+1. 在編輯器中，移至&#x200B;**輸出**&#x200B;標籤。
 1. 展開左側邊欄並選取&#x200B;**範本**。
 
    這會開啟&#x200B;**範本**&#x200B;面板。

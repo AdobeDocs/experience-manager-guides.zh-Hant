@@ -4,16 +4,16 @@ description: 尋找 Experience Manager Guides (以前稱為適用於 Adobe Exper
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 9%
 
 ---
 
 # 測試概覽
 
-[!DNL Experience Manager Guides] （以下稱為&#x200B;_[!DNL AEM Guides]_）是功能強大、企業級元件內容管理解決方案(CCMS)。 如此可啟用Experience Manager中的原生DITA支援，使AEM能夠處理以DITA為主的內容建立和傳遞。 它可讓作者使用任何離線DITA編寫工具（例如Adobe FrameMaker或易於使用的內建Web編輯器）來建立內容。
+[!DNL Experience Manager Guides] （以下稱為&#x200B;_[!DNL AEM Guides]_）是功能強大、企業級元件內容管理解決方案(CCMS)。 如此可啟用Experience Manager中的原生DITA支援，使AEM能夠處理以DITA為主的內容建立和傳遞。 它可讓作者使用任何離線DITA編寫工具（例如Adobe FrameMaker或易於使用的內建編輯器）來建立內容。
 
 [!DNL AEM Guides]解決方案提供所有核心CCMS功能，例如共同作業、檢閱、翻譯、搜尋及DITA內容報告，讓作者透過有效率的內容重複使用和強大的工作流程，以更少的時間完成更多工作。 此外，使用者可善用其同級最佳的單鍵發佈功能，針對最熱門的格式（Experience Manager Sites、PDF、HTML5、EPUB和透過DITA-OT的自訂輸出）產生DITA型輸出。
 
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 - 在內建編輯器中&#x200B;**[[!DNL Experience Manager Guides] 製作](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=zh-Hant){target="blank"}**
 
-  _瞭解如何在[!DNL Adobe Experience Manager Guides]中使用原生網頁編輯器製作內容。 取得對使用者偏好設定、編輯器設定、設定、工具列等的完整瞭解。_
+  _瞭解如何在[!DNL Adobe Experience Manager Guides]中使用原生編輯器製作內容。 取得對使用者偏好設定、編輯器設定、設定、工具列等的完整瞭解。_
 
 - 產生&#x200B;**[輸出並顯示 [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=zh-Hant){target="blank"}**
 

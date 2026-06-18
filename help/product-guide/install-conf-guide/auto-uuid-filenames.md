@@ -4,9 +4,10 @@ description: 瞭解如何根據UUID設定自動檔案名稱
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 2b591ddc-173b-484a-995f-1b3322babbbd
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 開啟此選項後，作者在建立新主題或對應檔案時，看不到指定檔案名稱的選項。 您可以從Assets UI和Web編輯器建立新的主題或地圖檔案。
+> 開啟此選項後，作者在建立新主題或對應檔案時，看不到指定檔案名稱的選項。 您可以從Assets UI及編輯器建立新的主題或地圖檔案。
 
 >[!TAB 內部部署]
 
@@ -53,7 +54,6 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 依預設，此選項是關閉的。 開啟此選項後，作者在建立新主題或對應檔案時，看不到指定檔案名稱的選項。 您可以從Assets UI和Web編輯器建立新的主題或地圖檔案。
+> 依預設，此選項是關閉的。 開啟此選項後，作者在建立新主題或對應檔案時，看不到指定檔案名稱的選項。 您可以從Assets UI及編輯器建立新的主題或地圖檔案。
 
 >[!ENDTABS]
-

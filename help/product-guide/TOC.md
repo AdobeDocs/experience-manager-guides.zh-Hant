@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: a1c07d0f60b7c37248bcf7ce72ce25d537e3fd57
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2528'
 ht-degree: 10%
 
 ---
@@ -474,7 +474,7 @@ ht-degree: 10%
       - [設定UUID型連結的顯示方式](./install-conf-guide/conf-uuid-based-links.md)
       - [在同一個索引標籤中開啟DITA主題或對應檔案](./install-conf-guide/open-dita-files-same-tab.md)
       - [將進階地圖編輯器設定為預設值](./install-conf-guide/conf-default-map-editor.md)
-      - [在網頁編輯器中設定檔案自動儲存](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [在編輯器中設定檔案自動儲存](./install-conf-guide/conf-auto-save-in-editor.md)
       - [設定關閉時儲存為新版本的提示](./install-conf-guide/conf-save-as-new-version-close.md)
       - [設定關閉時簽入檔案的提示](./install-conf-guide/conf-checkin-file-close.md)
       - [設定允許的特殊字元](./install-conf-guide/conf-special-chars.md)
@@ -489,7 +489,7 @@ ht-degree: 10%
          - [設定在Cloud Service的Oxygon中編輯的選項](./install-conf-guide/conf-edit-in-oxygen.md)
          - [設定Cloud Service已貼上表格的顯示](./install-conf-guide/conf-pasted-tables.md)
          - [為Cloud Service設定單一主題PDF產生方式](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [在Cloud Service的網頁編輯器中設定翻譯功能](./install-conf-guide/conf-translation-editor.md)
+         - [在編輯器中設定Cloud Service的翻譯功能](./install-conf-guide/conf-translation-editor.md)
       - On-Premise的編輯器設定 {#editor-on-prem-settings}
          - [設定新編輯器](./install-conf-guide/conf-new-editor-on-prem.md)
          - [為On-Premise設定其他特殊字元](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -600,12 +600,12 @@ ht-degree: 10%
       - [AEM Guides中的內容檢閱](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - 文章 {#kb-articles}
       - 製作 {#authoring}
-         - 網頁編輯器 {#webeditor}
+         - 編輯器 {#webeditor}
             - [AEM Guides中的內容重複使用性](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [在AEM Guides中使用Markdown](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
             - 自訂 {#customizing}
                - [新增自訂按鈕到工具列](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               - [新增自訂樣式至網頁編輯器](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+               - [將自訂樣式新增至編輯器](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [自訂資料夾內容功能表](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
                - [自訂檔案內容功能表](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - 結構描述 {#schematron}

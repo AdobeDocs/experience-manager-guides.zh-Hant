@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 931
+source-wordcount: 911
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ AEM Guides內含原生PDF發佈引擎，可讓使用者設計、開發及發佈P
 10. 在環境變數對話方塊中再次按一下「確定」。
 11. 在[系統屬性]對話方塊中再次按一下[確定]。
 12. 現在，請啟動AEM伺服器。
-13. 從網頁編輯器中的預設集產生原生PDF。
+13. 在編輯器中從預設集產生原生PDF。
 
 ## 針對Linux伺服器的設定步驟(RHEL7/centOS 7)
 
@@ -124,7 +124,7 @@ AEM Guides內含原生PDF發佈引擎，可讓使用者設計、開發及發佈P
 
 11. 安裝fontconfig套件。
 命令： yum install fontconfig
-12. 從網頁編輯器中的預設集產生原生PDF。
+12. 在編輯器中從預設集產生原生PDF。
 
 **注意** ：可在[這裡](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3)下載node_modules.zip套件。
 
@@ -172,7 +172,7 @@ iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —p
 9. 安裝fontconfig套件。
 命令： apt install fontconfig
 
-10. 從網頁編輯器中的預設集產生原生PDF。
+10. 在編輯器中從預設集產生原生PDF。
 
 ## 疑難排解
 

@@ -4,7 +4,8 @@ description: 瞭解如何在相同標籤中開啟DITA主題或對應檔案
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 13f7eab1-2235-4537-9520-69d1df04e921
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%
@@ -57,4 +58,4 @@ ht-degree: 1%
 
 - DITA map主控台中的「報表」索引標籤
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)

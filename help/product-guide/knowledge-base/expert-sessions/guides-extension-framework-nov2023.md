@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 - 瞭解使用此擴充功能框架可擴充的所有介面
 - 瞭解現有內容，讓您輕鬆開始建立自己的自訂功能
 - 透過範例學習自訂：
-   - 在網頁編輯器中新增說明和支援區段
+   - 在編輯器中新增說明和支援區段
    - 新增另一個左側面板 — 例如，檢視目前使用者的任務
    - 使用此架構新增主題/對應的另一個工具列按鈕
    - 延伸在Webeditor的「內容屬性」面板中顯示的資訊 — 新增後置處理資訊，以指示後置處理是否針對指定檔案完成

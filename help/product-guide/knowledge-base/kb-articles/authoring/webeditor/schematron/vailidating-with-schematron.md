@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 399
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 0%
 # 在網頁編輯器中控制內容品質
 
 本文概述AEM Guides Web編輯器中的驗證可能性。
-透過設計Web編輯器，會利用系統中的DITA架構設定來強制使用者建立符合DITA規範的內容。 如此一來，儲存在系統中的所有內容都會結構化、可重複使用且有效的DITA內容。
+透過設計Web編輯器，會利用系統中的DITA架構設定來強制使用者建立符合DITA規範的內容。如此一來，儲存在系統中的所有內容都會結構化、可重複使用且有效的DITA內容。
 
 除了支援DITA規則之外，網頁編輯器也支援根據&quot;*Schematron*&quot;規則驗證內容。
 
-「*Schematron*」是指用來定義XML檔案測試的規則型驗證語言。 您可以匯入Schematron檔案，也可以在Web編輯器中編輯它們。 使用「Schematron」檔案，您可以定義特定規則，然後針對DITA主題或地圖驗證這些規則。 Schematron規則可以強制實施定義為規則的限制，以確保XML結構的一致性。 這些限制是由擁有內容品質和一致性的SME所推動。
+「*Schematron*」是指用來定義XML檔案測試的規則型驗證語言。 您可以匯入Schematron檔案，也可以在編輯器中編輯它們。 使用「Schematron」檔案，您可以定義特定規則，然後針對DITA主題或地圖驗證這些規則。 Schematron規則可以強制實施定義為規則的限制，以確保XML結構的一致性。 這些限制是由擁有內容品質和一致性的SME所推動。
 
-注意：網頁編輯器支援ISO架構。
+注意：編輯器支援ISO架構。
 
 
 ## 瞭解「Schematron」在網頁編輯器中如何運作

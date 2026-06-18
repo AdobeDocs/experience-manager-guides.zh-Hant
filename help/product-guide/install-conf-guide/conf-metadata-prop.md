@@ -4,9 +4,9 @@ description: 瞭解如何在AEM Guides中設定中繼資料屬性的忽略清單
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8e8b24bea8504ad9fcca1117bd9e7b400e757dff
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -70,4 +70,4 @@ AEM Guides在忽略清單中包含一組預設的中繼資料屬性。 您可以
 
 只有未包含在忽略清單中的中繼資料屬性才會被視為標籤檔案版本已變更。
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)

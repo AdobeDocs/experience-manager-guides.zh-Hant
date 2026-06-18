@@ -2,16 +2,16 @@
 title: 設定Smart Help以搜尋內容
 description: 瞭解如何設定智慧說明以搜尋內容
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
 # 設定AI支援的Smart Help以搜尋Cloud Service的內容
 
-身為管理員，您可以為作者設定「智慧型說明」功能。 智慧型說明服務受到Adobe IMS驗證型驗證的保護。 將您的環境與Adobe的安全權杖型驗證工作流程整合，並開始使用新的智慧說明功能。 下列設定可協助您將&#x200B;**AI設定**&#x200B;索引標籤新增至資料夾設定檔。 新增後，您便可以在網頁編輯器中使用智慧型說明功能。
+身為管理員，您可以為作者設定「智慧型說明」功能。 智慧型說明服務受到Adobe IMS驗證型驗證的保護。 將您的環境與Adobe的安全權杖型驗證工作流程整合，並開始使用新的智慧說明功能。 下列設定可協助您將&#x200B;**AI設定**&#x200B;索引標籤新增至資料夾設定檔。 新增後，您可以在編輯器中使用智慧型說明功能。
 
 ## 在Adobe Developer Console中建立IMS設定
 
@@ -105,5 +105,5 @@ ht-degree: 0%
 ```
 
 
-完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在網頁編輯器的右側面板中。選取圖示以檢視&#x200B;**智慧說明**&#x200B;面板。
+完成設定後，**智慧型說明** ![智慧型說明](assets/smart-help-icon.svg)圖示就會顯示在編輯器的右側面板中。選取圖示以檢視&#x200B;**智慧說明**&#x200B;面板。
 如需詳細資訊，請檢視Experience Manager使用手冊中的[AI支援Smart Help以搜尋內容](../user-guide/ai-based-smart-help.md)區段。

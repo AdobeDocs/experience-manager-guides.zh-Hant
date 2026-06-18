@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 0%
+source-wordcount: 444
+ht-degree: 1%
 
 ---
 
 # 在編輯器中從資料夾內容選單顯示/隱藏「建立DitaMAP」
 
-在本文中，我們將瞭解如何根據使用者/群組許可權，自訂Guides網頁編輯器，以隱藏或顯示檔案夾快顯選單中的「建立DitaMap」選項。
+在本文中，我們將瞭解如何根據使用者/群組許可權，自訂「參考線編輯器」以在資料夾快顯選單中隱藏或顯示「建立DitaMap」選項。
 在此使用案例中，我們將為所有非作者使用者隱藏此選項。
 
 ## 必要條件
@@ -78,7 +78,7 @@ const folderOptions = {
 
   需要建立新的Widget (customoptions.ts)來寫入邏輯，以僅針對非編寫使用者隱藏此選項。 為此，我們使用了「show」鍵，作為JSON結構中的切換。
 
-  您可以編寫自己的外部servlet來檢查群組詳細資訊。 如此一來，您也可以自訂自訂群組的資料夾功能表選項。
+  您可以編寫自己的外部servlet來檢查群組詳細資訊。如此一來，您也可以自訂自訂群組的資料夾功能表選項。
 在此範例中，我們已運用OOTB AEM「rolesapi」呼叫來擷取使用者詳細資訊，並在「isAuthor」中設定回應，如上述程式碼片段所示。
 
 ```typescript
@@ -133,7 +133,7 @@ controller: {
 
 ## 測試
 
-- 以不屬於作者群組的使用者登入AEM。 建立DitaMap選項會隱藏在任何資料夾的內容功能表中，如下所示。
+- 以不屬於作者群組的使用者登入AEM。建立DitaMap選項會隱藏在任何資料夾的內容功能表中，如下所示。
 此使用案例已新增至GIT，請尋找以下相關資源。
 
 ![隱藏建立DitaMap選項](../../../assets/authoring/ditamap-hide-non-author.png)

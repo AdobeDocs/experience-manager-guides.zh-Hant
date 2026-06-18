@@ -5,9 +5,9 @@ feature: DITA-OT Configuration
 role: Admin
 level: Experienced
 exl-id: 4a5ba148-da31-4751-943d-624165c66429
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '3729'
+source-wordcount: '3728'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ DITA專業化是透過新增元素或移除現有元素來建立新DITA結構的
 
 >[!NOTE]
 >
-> AEM Guides Web Editor不支援XSD。
+> AEM Guides編輯器不支援XSD。
 
 下列標籤提供根據您的Experience Manager Guides設定整合DITA專業化的指示：Cloud Service或內部部署。
 

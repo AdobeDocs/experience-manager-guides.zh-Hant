@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 設定允許編輯已取出檔案的設定
 
-AEM Guides網頁編輯器可讓您建立和更新DITA主題。 您可以設定Web編輯器，僅允許編輯已從存放庫出庫的檔案。 這樣可確保其他寫入器不會意外覆寫由其他寫入器開啟以進行編輯的主題。 一旦開啟主題進行編輯後，作者就可以在關閉檔案時簽入檔案。
+AEM Guides編輯器可讓您建立和更新DITA主題。 您可以將編輯器設定為僅允許編輯已從存放庫出庫的檔案。 這樣可確保其他寫入器不會意外覆寫由其他寫入器開啟以進行編輯的主題。 一旦開啟主題進行編輯後，作者就可以在關閉檔案時簽入檔案。
 
 另一個重要規則是確保已出庫的檔案會入庫回系統。 這可防止使用者不小心關閉檔案而不將其簽回。
 

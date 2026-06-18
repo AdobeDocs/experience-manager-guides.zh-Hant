@@ -16,16 +16,16 @@ subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: 165
 ht-degree: 0%
 
 ---
 
 # 設定簽入和簽出圖示的標題
 
-AEM Guides可讓您在網頁編輯器中設定簽入和簽出圖示的標題。 執行以下步驟來設定「入庫」和「出庫」圖示的標題：
+AEM Guides可讓您在編輯器中設定簽入和簽出圖示的標題。 執行以下步驟來設定「入庫」和「出庫」圖示的標題：
 
 1. 以管理員身分登入Adobe Experience Manager以下載UI設定檔。
 1. 按一下頂端的Adobe Experience Manager連結，然後選擇&#x200B;**工具**。

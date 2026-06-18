@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
 # 設定檔案瀏覽對話方塊的篩選器
 
-在Web編輯器中工作時，您需要使用檔案瀏覽對話方塊來插入影像、參照或關鍵參照等元素。 預設的檔案瀏覽對話方塊不提供任何檔案篩選選項。 您可以新增自己的篩選器，讓您輕鬆快速地存取所需檔案。
+在編輯器中工作時，您需要使用檔案瀏覽對話方塊來插入影像、參照或關鍵參照等元素。 預設的檔案瀏覽對話方塊不提供任何檔案篩選選項。 您可以新增自己的篩選器，讓您輕鬆快速地存取所需檔案。
 
 下列標籤會提供指示，讓您根據您的Experience Manager Guides設定，將自訂檔案篩選選項新增至檔案瀏覽對話方塊： Cloud Service或內部部署。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    第二個濾鏡是針對影像檔案。 除了`value`引數外，這些引數與第一個篩選器類似。 `value`引數以影像型別的陣列作為其值。 系統會搜尋在value引數中指定的所有檔案型別，並在檔案瀏覽對話方塊中顯示，而會忽略所有其他檔案型別。
 
-1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並上傳相同的檔案。 然後，重新載入網頁編輯器。
+1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並上傳相同的檔案。 然後，重新載入編輯器。
 
    當您啟動檔案瀏覽對話方塊時，會顯示在ui\_config.json檔案中設定的篩選選項。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    第二個濾鏡是針對影像檔案。 除了`value`引數外，這些引數與第一個篩選器類似。 `value`引數以影像型別的陣列作為其值。 系統會搜尋在value引數中指定的所有檔案型別，並在檔案瀏覽對話方塊中顯示，而會忽略所有其他檔案型別。
 
-1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入網頁編輯器。
+1. 儲存&#x200B;*ui\_config.json*&#x200B;檔案並重新載入編輯器。
 
    當您啟動檔案瀏覽對話方塊時，會顯示在ui\_config.json檔案中設定的篩選選項。
 
@@ -127,4 +127,4 @@ ht-degree: 0%
 >[!ENDTABS]
 
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](customize-overview.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)

@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 依預設，此選項是關閉的。 開啟此選項後，作者在建立新主題或對應檔案時，看不到指定檔案名稱的選項。 您可以從Assets UI和Web編輯器建立新的主題或地圖檔案。
+> 依預設，此選項是關閉的。 開啟此選項後，作者在建立新主題或對應檔案時，看不到指定檔案名稱的選項。 您可以從Assets UI及編輯器建立新的主題或地圖檔案。
 
 **父級主題：**&#x200B;[&#x200B;設定檔名](conf-file-names.md)
