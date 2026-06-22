@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guides 5.2.0版的新增功能
 description: 瞭解Adobe Experience Manager Guides 5.2.0版中的新功能和增強功能
 role: Leader
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
 workflow-type: tm+mt
-source-wordcount: '4132'
+source-wordcount: '4052'
 ht-degree: 0%
 
 ---
@@ -345,13 +345,6 @@ Experience Manager Guides現在於編輯器中包含了&#x200B;**重複ID**&#x20
 您現在可以使用Regex來啟用或停用資料夾的後處理。 此增強功能可讓管理員使用單一設定，定義套用至多個資料夾或整個資料夾階層的後處理規則，而非指定個別資料夾路徑。
 
 如需詳細資訊，請檢視[使用Regex啟用或停用後處理](../install-conf-guide/conf-folder-post-processing.md)。
-
-- 在資料夾和個別檔案層級執行資產處理
-- 選擇特定資產型別（例如，主題、地圖、Markdown、HTML/CSS、DITAVAL或其他支援的檔案）以僅處理您需要的檔案，藉此篩選資產。
-- 套用以日期為基礎的篩選器，以限制指定時間範圍的處理範圍。
-- 使用存放庫檢視和檔案總管面板中檔案和資料夾內容功能表中可用的新選項（**重新處理資產**），直接重新處理資產。
-
-如需有關處理資產的詳細資訊，請檢視[處理資產](../user-guide/asset-processor.md)。
 
 ### 自動化B樹狀結構清理以獲得最佳效能
 
