@@ -154,7 +154,7 @@ EDS會從`fstab.yaml`檔案中定義為&#x200B;*掛接點* URL的GitHub存放庫
 
    ![](assets/eds-install-eds-app.png){width="650"}
 
-5. 透過AEM程式碼同步](#connect-github-to-adobe-via-aem-code-sync)區段從[連線GitHub至Adobe重複步驟2和3，以授權存放庫。
+5. 透過AEM程式碼同步[&#128279;](#connect-github-to-adobe-via-aem-code-sync)區段從連線GitHub至Adobe重複步驟2和3，以授權存放庫。
 
 ## 在Experience Manager中為EDS建立並設定發佈設定檔
 
