@@ -5,26 +5,26 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 7a207bd17946baaf1489a8aa5ca7caa07199be31
+source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1585'
 ht-degree: 1%
 
 ---
 
 # Experience Manager Guides和Edge Delivery Services
 
-Adobe Experience Manager Guides可讓您透過專用的GitHub型發佈設定檔，直接將DITA內容發佈至Edge Delivery Services (EDS) （目前可在&#x200B;*Beta*&#x200B;中使用）。 此功能可讓組織提供高效能、回應式檔案體驗，同時在Experience Manager Guides中維護DITA型撰寫工作流程。
+Adobe Experience Manager Guides可讓您透過專用的GitHub型發佈設定檔，直接將DITA內容發佈至Edge Delivery Services (EDS)。 此功能可讓組織提供高效能、回應式檔案體驗，同時在Experience Manager Guides中維護DITA型撰寫工作流程。
 
 如需在Adobe Experience Manager中使用EDS的詳細資訊，請檢視[Edge Delivery Services概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/edge-delivery/overview)。
 
 若要啟用從Experience Manager Guides發佈至EDS的功能，您必須完成GitHub和Experience Manager Guides的一系列設定步驟。 以下各節將依序概述每個步驟，並解釋它們在整體發佈工作流程中如何搭配運作。
 
-1. [為EDS設定並設定GitHub](#set-up-and-configure-github-for-eds-beta)
-2. [在Experience Manager Guides中為EDS建立並設定發佈設定檔](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
+1. [為EDS設定並設定GitHub](#set-up-and-configure-github-for-eds)
+2. [在Experience Manager Guides中為EDS建立並設定發佈設定檔](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [使用EDS區塊自訂輸出](#customize-output-using-eds-blocks)
 
-如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
+如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
 
 
 
@@ -154,7 +154,7 @@ EDS會從`fstab.yaml`檔案中定義為&#x200B;*掛接點* URL的GitHub存放庫
 
    ![](assets/eds-install-eds-app.png){width="650"}
 
-5. 透過AEM程式碼同步[&#128279;](#connect-github-to-adobe-via-aem-code-sync)區段從連線GitHub至Adobe重複步驟2和3，以授權存放庫。
+5. 透過AEM程式碼同步](#connect-github-to-adobe-via-aem-code-sync)區段從[連線GitHub至Adobe重複步驟2和3，以授權存放庫。
 
 ## 在Experience Manager中為EDS建立並設定發佈設定檔
 
