@@ -6,10 +6,17 @@ role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
 TQID: https://experienceleague.adobe.com/FP5RxNtyWcdS-xpw2Atttt3x6DHx73Ljv-Ym91IxY5s
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 7ba2ad081f90fcbd38c7b34524a9ed1378e64f0d
 workflow-type: tm+mt
 source-wordcount: 544
@@ -46,7 +53,7 @@ ht-degree: 0%
 > 您可以在儲存格、列或欄層級定義屬性
 >
 > <details>
-&gt; <summary>顯示步驟</summary>
+>&gt; <summary>顯示步驟</summary>
 >
 > 您也可以在表格的多個儲存格、整列或欄上定義屬性。 例如，若要對齊表格儲存格，請拖曳並選取所需的儲存格。 在「內容屬性」面板（右側）中，屬性&#x200B;**Type**&#x200B;變更為&#x200B;**entry**。
 >
@@ -86,7 +93,7 @@ ht-degree: 0%
 > 您可以在儲存格、列或欄層級定義屬性。
 >
 > <details>
-&gt; <summary>顯示步驟</summary>
+>&gt; <summary>顯示步驟</summary>
 >
 > 您也可以在多個儲存格、整列或表格的一欄上定義屬性。 例如，若要對齊表格儲存格，請拖曳並選取所需的儲存格。 在「內容屬性」面板（右側）中，**Type**&#x200B;屬性變更為&#x200B;**entry**。
 >
@@ -104,5 +111,5 @@ ht-degree: 0%
 
 
 
-**父級主題：**[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)
+**父級主題：**&#x200B;[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)
 
