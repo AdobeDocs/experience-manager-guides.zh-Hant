@@ -211,7 +211,7 @@ ht-degree: 10%
    - 簡介 {#about-aemg}
       - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]個運作中及主要功能 {#aemg-works-features}
-         - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
+         - [&#x200B; [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
          - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 首頁 {#home-page}
       - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
@@ -237,7 +237,7 @@ ht-degree: 10%
             - [內容編輯區域](./user-guide/web-editor-content-editing-area.md)
             - [右側面板](./user-guide/web-editor-right-panel.md)
             - [搜尋面板](./user-guide/search-panel-explorer.md)
-         - 編輯器中的[其他功能](./user-guide/web-editor-other-features.md)
+         - [編輯器中的其他功能](./user-guide/web-editor-other-features.md)
          - [編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
          - [編輯器檢視](./user-guide/web-editor-views.md)
          - [支援Schematron檔案](./user-guide/support-schematron-file.md)
@@ -437,7 +437,7 @@ ht-degree: 10%
       - 內部部署 {#on-prem}
          - [升級AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
          - [升級AEM Guides On-Premise舊版](./install-conf-guide/upgrade-aemg-prev-versions.md)
-         - Experience Manager Guides發行版本的[設定更新](./install-conf-guide/configuration-on-prem.md)
+         - [Experience Manager Guides發行版本的設定更新](./install-conf-guide/configuration-on-prem.md)
    - 效能最佳化建議 {#performance-optimization-aemg}
       - [Cloud Service的效能最佳化](./install-conf-guide/perf-optimization-cs.md)
       - [內部部署的效能最佳化](./install-conf-guide/perf-optimization-on-prem.md)
@@ -629,7 +629,7 @@ ht-degree: 10%
             - Widget {#framework-widgets}
                - [轉譯Widget](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本Widget](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-            - 編輯器2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)的[擴充框架變更
+            - [編輯器2.0的擴充框架變更](./guides-ui-extensions/getting-started/editor-extension-guide.md)
          - 快速入門 {#getting-started}
             - [簡介](./guides-ui-extensions/getting-started/introduction.md)
             - [安裝指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
