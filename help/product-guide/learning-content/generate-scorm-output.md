@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6c69cc5da7eadbcbfe499ca7b54c2ddaa1064db7
+source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: 125
 ht-degree: 0%
 
 ---
@@ -33,10 +33,6 @@ ht-degree: 0%
    ![](assets/scorm-success-message.png){width="350"}
 
 1. 您可以分別選取&#x200B;**下載輸出**&#x200B;或&#x200B;**預覽輸出**，來下載或預覽輸出。
-
-   >[!NOTE]
-   >
-   > 產生SCORM輸出時，可使用SCORM預覽。 如果您的課程依賴外部網域提供字型、樣式表或內嵌內容，請在[設定SCORM預覽](../lc-config-guide/conf-scorm-preview-filters.md)中設定允許的網域。
 
    ![](assets/scorm-view-output-new.png){width="650"}
 

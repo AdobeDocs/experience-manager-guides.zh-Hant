@@ -1,9 +1,9 @@
 ---
 title: 發行說明 |修正2026.06.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2026.06.0版中的錯誤修正。
-source-git-commit: 010a11e20d518064549ce7d66648586f49f572ec
+source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Adobe已找出下列2026.06.0版的已知問題：
 
 - 在Source和作者模式之間切換會導致內容不一致，主題的部分消失或不會跨模式反映。 (GUIDES-47432)
 
-- 使用啟用&#x200B;**追蹤變更**&#x200B;的大綱檢視時，拒絕變更會移除標籤內的整個內容，而非僅拒絕特定的修改內容。 (GUIDES-48319)
+- 處理追蹤變更時，拒絕匯入的文字插入會移除標籤內的所有內容，而非僅拒絕特定的插入內容。 (GUIDES-48319)
 
 - 使用資料夾設定檔中的`editor_toolbar.json`自訂編輯器工具列時，預覽模式中的&#x200B;**匯出為PDF**&#x200B;按鈕不會執行任何動作。 (GUIDES-47525)
 
