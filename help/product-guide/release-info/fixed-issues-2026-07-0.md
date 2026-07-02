@@ -12,7 +12,7 @@ ht-degree: 0%
 
 本文介紹2026.07.0版Adobe Experience Manager Guides as a Cloud Service中多個區域修正的錯誤。
 
-瞭解2026.07.0版](upgrade-instructions-2026-06-0.md)的[升級指示。
+瞭解2026.07.0版[&#128279;](upgrade-instructions-2026-06-0.md)的升級指示。
 
 ## 編輯器2.0
 
