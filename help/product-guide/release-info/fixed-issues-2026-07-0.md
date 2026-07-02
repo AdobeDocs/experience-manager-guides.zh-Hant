@@ -1,7 +1,7 @@
 ---
 title: 發行說明 |修正2026.07.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2026.07.0版中的錯誤修正。
-source-git-commit: bd3aac7886cbcbc181a59a574b9a3ed17e2c74d7
+source-git-commit: 774d47fd3ac379ba1185b45f58ea0c0154c6fc98
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 # 2026.07.0版中的已修正問題
 
-本文介紹2026.07.0版Adobe Experience Manager Guides as a Cloud Service中多個區域修正的錯誤。
+本文章說明2026.07.0版Adobe Experience Manager Guides as a Cloud Service中多個領域修正的錯誤。
 
-瞭解2026.07.0版[&#128279;](upgrade-instructions-2026-06-0.md)的升級指示。
+瞭解2026.07.0版](upgrade-instructions-2026-07-0.md)的[升級指示。
 
 ## 編輯器2.0
 
