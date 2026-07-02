@@ -12,10 +12,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
+source-git-commit: fb2dc7f7a0341924f86f024c31d3cc7f46092f4f
 workflow-type: tm+mt
-source-wordcount: 831
-ht-degree: 32%
+source-wordcount: 852
+ht-degree: 33%
 
 ---
 
@@ -35,7 +35,6 @@ Experience Manager Guides as a Cloud Service預計發行版本如下：
 
 | 發行 | 事件 | 排程 | 新增功能 | 升級指示 | 已修正的問題 | 狀態 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.07.0 <br> | 自動更新 | ~ 2026年7月 | - | - | - | 目標 |
 | Adobe Experience Manager Guides 2026.08.0 <br> | 自動更新 | 2026年8月03日至05日 | - | - | - | 目標 |
 
 
@@ -43,6 +42,7 @@ Experience Manager Guides as a Cloud Service預計發行版本如下：
 
 | 發行 | 事件 | 排程 | 新增功能 | 升級指示 | 已修正的問題 | 狀態 |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2026.07.0 <br> [（AEM版本 — 26908）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年7月的第一週 | - | [這裡](upgrade-instructions-2026-07-0.md) | [這裡](fixed-issues-2026-07-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.06.0 <br> [（AEM版本 — 26773）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年6月22至24日 | [這裡](whats-new-2026-06-0.md) | [這裡](upgrade-instructions-2026-06-0.md) | [這裡](fixed-issues-2026-06-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.05.0 <br> [（AEM版本 — 25898）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Service Pack 1 | 2026年5月21至22日 | - | - | [這裡](fixed-issues-2026-05-0-sp1.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.05.0 <br> [（AEM版本 — 25892）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026 年 5 月 11 至 13 日 | [這裡](whats-new-2026-05-0.md) | [這裡](upgrade-instructions-2026-05-0.md) | [這裡](fixed-issues-2026-05-0.md) | 已更新 |
