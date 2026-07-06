@@ -56,7 +56,7 @@ UUID和非UUID組建之間的主要差異如下：
 
 當您從較舊版本升級至較新版本的[!DNL AEM Guides]時，您可能需要執行移轉指令碼。 如需升級指示，請參閱版本注意事項和版本特定檔案。
 
-並非所有升級路徑都直接受支援。 例如，只有從3.8版才能直接升級至4.0版。如果您使用的是3.8之前的版本，請參閱版本專屬檔案以取得升級指示[說明封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)。請洽詢您的客戶成功案例經理以驗證升級路徑。
+並非所有升級路徑都直接受支援。 例如，只有從3.8版才能直接升級至4.0版。如果您使用的是3.8之前的版本，請參閱版本專屬檔案以取得升級指示[說明封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)。請洽詢您的客戶成功案例經理以驗證升級路徑。
 
 **[!DNL AEM Guides]組建**
 
