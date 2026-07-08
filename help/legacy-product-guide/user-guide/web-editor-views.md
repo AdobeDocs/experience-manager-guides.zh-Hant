@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 83f5a8409e8bb9c8a6ccc33ffadf64e6c7875f6f
+source-git-commit: b9ab219dd067047e2c9f00ead6d0538df450eb66
 workflow-type: tm+mt
-source-wordcount: 1478
+source-wordcount: 1465
 ht-degree: 0%
 
 ---
@@ -162,10 +162,5 @@ PDF是在檔案開發週期的每個可能階段中最常用的輸出格式之�
 
    PDF會在新標籤中產生並開啟，或是您看到一個對話方塊以在您的本機系統上儲存PDF。
 
-   如需詳細資訊，[檢視PDF](./images/best-practices-guide.pdf)
-
-
-
-   如需詳細資訊，[檢視PDF](./images/best-practices-guide.pdf) ![PDF圖示](./images/pdf_icon.png "PDF檔案")
 
 **上層主題：**&#x200B;[&#x200B;使用網頁編輯器](web-editor.md)
