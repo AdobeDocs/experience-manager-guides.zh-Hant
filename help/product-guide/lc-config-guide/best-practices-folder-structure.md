@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ff832d30f88c5810017e1a1ee41d644619f7331f
 workflow-type: tm+mt
 source-wordcount: 625
 ht-degree: 0%
@@ -96,3 +96,4 @@ ht-degree: 0%
 這些許可權可確保使用者只能在其指定的資料夾中建立或修改內容。
 
 如需更多詳細資料，請在AEM[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/security/security#permissions-in-aem)中檢視許可權。
+
