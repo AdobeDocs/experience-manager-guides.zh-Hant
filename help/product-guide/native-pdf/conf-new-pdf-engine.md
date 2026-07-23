@@ -4,7 +4,7 @@ description: 瞭解如何在Experience Manager Guides中啟用新的PDF引擎
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: f3f30400f776f746427e257e2c937ff3413aa9ac
+source-git-commit: 7f2b24b0ffbedaa3542de9d75d10aa155f6c3c0e
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 2%
