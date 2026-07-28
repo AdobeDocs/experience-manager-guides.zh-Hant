@@ -5,11 +5,24 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
 source-wordcount: 11073
@@ -106,8 +119,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> - 若要從我的最愛清單移除專案，請選取[我的最愛]集合中專案旁的[選項]圖示，然後選擇[從集合移除]****。
-> - 若要預覽檔案而不開啟檔案，請選取檔案，然後從[選項]功能表選取[預覽]。****
+> - 若要從我的最愛清單移除專案，請選取[我的最愛]集合中專案旁的[選項]圖示，然後選擇[從集合移除]&#x200B;**&#x200B;**。
+> - 若要預覽檔案而不開啟檔案，請選取檔案，然後從[選項]功能表選取[預覽]。**&#x200B;**
 
 </details>
 
@@ -375,7 +388,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這不會當作現成支援的一部分啟用。 如需更多詳細資訊，請檢視《安裝與組態指南》中的[設定選項以在Oxyo ](../cs-install-guide/conf-edit-in-oxygen.md)中編輯。
+  >請聯絡您的客戶成功團隊，讓此功能在環境中啟用。 這不會當作現成支援的一部分啟用。 如需更多詳細資訊，請檢視《安裝與組態指南》中的[設定選項以在Oxyo &#x200B;](../cs-install-guide/conf-edit-in-oxygen.md)中編輯。
 
 - **在地圖儀表板中開啟**：如果選取的檔案是DITA map，則此選項會開啟地圖儀表板。
 
@@ -837,7 +850,7 @@ Experience Manager Guides可讓您輕鬆建立和使用字彙表型別的檔案�
 以巢狀階層方式組織的![條件](images/conditions-nested-hierarchy.png){width="300"}
 
 
-若要編輯條件，請從[選項]功能表選擇[編輯]。**** 此時會顯示「編輯條件」對話方塊：
+若要編輯條件，請從[選項]功能表選擇[編輯]。**&#x200B;** 此時會顯示「編輯條件」對話方塊：
 
 ![](images/conditional-panel-edit-cond.png){width="400"}
 
@@ -1213,7 +1226,7 @@ Experience Manager Guides可讓您建立和管理原生PDF發佈的變數。 如
 
    ![](images/replace-occurrence.png){width="350"}
 
-1. 選取「全部取代」****，以指定的取代字串取代所有搜尋檔案中搜尋字串的所有專案。 取代所有專案後，您將會看到通知。
+1. 選取「全部取代」**&#x200B;**，以指定的取代字串取代所有搜尋檔案中搜尋字串的所有專案。 取代所有專案後，您將會看到通知。
 
    ![](images/replace-all.png){width="350"}
 
@@ -1371,11 +1384,11 @@ Experience Manager Guides提供可在您的專案中顯示所有稽核任務的�
 
    >[!NOTE]
    > 
-   > **檢閱**&#x200B;面板與&#x200B;**註解**面板始終同步。在「註解」面板中，註解會根據「審閱」面板中載入的稽核任務載入。
+   > **檢閱**&#x200B;面板與&#x200B;**註解**&#x200B;面板始終同步。在「註解」面板中，註解會根據「審閱」面板中載入的稽核任務載入。
    >您可以在檢閱面板的左側邊欄中檢視已關閉的檢閱任務，以及作用中的檢閱任務。
-   >此外，對於已關閉的稽核任務，您可以在右側的「註解」面板中檢視稽核註解，但&#x200B;**匯入註解**&#x200B;和&#x200B;**回覆版本**按鈕已停用。
+   >此外，對於已關閉的稽核任務，您可以在右側的「註解」面板中檢視稽核註解，但&#x200B;**匯入註解**&#x200B;和&#x200B;**回覆版本**&#x200B;按鈕已停用。
    >如需如何處理評論的詳細資訊，請檢視[處理評論評論](review-address-review-comments.md#)。
 
 </details>
 
-**父級主題：**[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)

@@ -5,10 +5,16 @@ exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
 TQID: https://experienceleague.adobe.com/Af2mFR-OG-QTbQU7HBQb-kfvuCcw5fd89CA4-mSroNE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
 source-wordcount: 1281
@@ -89,7 +95,7 @@ DITA內容索引鍵參照，或`conkeyref`是將部分內容從一個主題插�
 執行以下步驟以對映執行健康狀態檢查：
 
 1. 在編輯器中開啟對應。
-1. 在[選項]功能表中，選取&#x200B;**執行健康狀態檢查**選項。
+1. 在[選項]功能表中，選取&#x200B;**執行健康狀態檢查**&#x200B;選項。
    ![](./images/run-health-check-option.png)
 1. 隨即顯示「執行狀況檢查」對話方塊。 選取您要執行的健康狀態檢查預設集。 只有針對資料夾設定檔設定的預設集可供選取。
 
@@ -161,4 +167,4 @@ DITA內容索引鍵參照，或`conkeyref`是將部分內容從一個主題插�
 選取&#x200B;**下載報告**，以XLS格式下載報告，其中包含每個結果的詳細資訊。
 
 
-**上層主題：**[&#x200B;地圖編輯器簡介](map-editor.md)
+**上層主題：**&#x200B;[&#x200B;地圖編輯器簡介](map-editor.md)

@@ -5,11 +5,21 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 TQID: https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 550ca219c5664b33e5a4a3db74ff3cade05e0c68
 workflow-type: tm+mt
 source-wordcount: 6454
@@ -259,7 +269,7 @@ Experience Manager Guides可讓您以自由格式文字格式指定標籤，或�
 
 舊編輯器中的「顯示」功能表包含下列功能：
 
-- **追蹤變更：**您可以啟用[追蹤]變更模式，以追蹤檔案上所做的所有更新。啟用追蹤變更後，所有插入和刪除動作都會擷取到檔案中。所有刪除的內容會使用「刪除線」反白顯示，而所有插入會以綠色文字反白顯示。此外，您也會在主題頁面的邊緣取得變更列。對於刪除的內容，再次顯示紅色列，對於新增的內容，則顯示綠色列。如果同一行有新增和刪除，則會同時顯示綠色和紅色長條。
+- **追蹤變更：**&#x200B;您可以啟用[追蹤]變更模式，以追蹤檔案上所做的所有更新。啟用追蹤變更後，所有插入和刪除動作都會擷取到檔案中。所有刪除的內容會使用「刪除線」反白顯示，而所有插入會以綠色文字反白顯示。此外，您也會在主題頁面的邊緣取得變更列。對於刪除的內容，再次顯示紅色列，對於新增的內容，則顯示綠色列。如果同一行有新增和刪除，則會同時顯示綠色和紅色長條。
 下列熒幕擷圖會醒目顯示刪除和插入的內容以及變更列：
   ![](images/track-changes-content.png){width="650"}
 
@@ -764,4 +774,4 @@ Experience Manager Guides可讓您以自由格式文字格式指定標籤，或�
 身為管理員，您還能存取&#x200B;**強制解除鎖定**&#x200B;功能，讓您解除鎖定其他使用者鎖定的檔案。 使用此功能可存取其他使用者鎖定的檔案的編輯許可權。
 
 ![](images/web-editor-force-unlock-new.png){width="350"}
-**父級主題：**[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)

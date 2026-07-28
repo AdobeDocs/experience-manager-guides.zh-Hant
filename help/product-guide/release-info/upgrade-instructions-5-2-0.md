@@ -12,9 +12,9 @@ ht-degree: 4%
 
 本文介紹Adobe Experience Manager Guides 5.2.0版的升級指示和相容性矩陣。
 
-如需新功能和增強功能的詳細資訊，請檢視[ 5.2.0版的新功能](../release-info/whats-new-5-2-0.md)。
+如需新功能和增強功能的詳細資訊，請檢視[&#x200B; 5.2.0版的新功能](../release-info/whats-new-5-2-0.md)。
 
-如需此版本中已修正的問題清單，請檢視5.2.0版本](../release-info/fixed-issues-5-2-0.md)中的[已修正問題。
+如需此版本中已修正的問題清單，請檢視5.2.0版本[&#128279;](../release-info/fixed-issues-5-2-0.md)中的已修正問題。
 
 ## 相容性矩陣
 

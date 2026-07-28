@@ -5,10 +5,16 @@ exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/SZs-Hc4QAGj6Mfdm-Rsaio-UEaIRpLQArxVP2FUydok
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
 workflow-type: tm+mt
 source-wordcount: 453
@@ -54,4 +60,4 @@ Experience Manager Guides隨附易於使用的編輯器，用於建立和編輯�
 Experience Manager Guides中的舊編輯器為結構化內容提供簡單而可靠的編寫體驗，抽象DITA的複雜性，同時確保遵循支援的標準，例如DITA 1.2、1.3、輕量型DITA和專門的DITA。 它提供使用通用區塊和內嵌元素的基本工具，因此非常適合在結構化架構中建立一致且受控制的內容。
 
 
-**父級主題：**[&#x200B;使用Experience Manager Guides製作內容](authoring-content-xml-doc.md)
+**父級主題：**&#x200B;[&#x200B;使用Experience Manager Guides製作內容](authoring-content-xml-doc.md)
