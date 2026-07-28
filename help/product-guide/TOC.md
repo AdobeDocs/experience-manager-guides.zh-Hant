@@ -424,7 +424,7 @@ ht-degree: 10%
     - 疑難排解 {#troubleshooting}
       - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-  - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-conf-guide}
   - [下載、安裝和升級](./install-conf-guide/introduction.md)
   - Cloud Service的安裝程式 {#deploy-conf-aemg-cs}
