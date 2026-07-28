@@ -5,20 +5,13 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 671
 ht-degree: 0%
 
 ---
@@ -69,14 +62,22 @@ ht-degree: 0%
 >
 > AI助理功能目前可供Adobe Experience Manager Guides as a Cloud Service使用。
 
+**指南AI**
+
+將Adobe CX Enterprise Co-worker的智慧型、代理式智慧標籤技能帶入編輯器，啟用自然的對話式內容標籤。 它會分析您的內容、建議相關標籤，並幫助您以最省力的方式套用一致且準確的中繼資料。 您可以檢閱建議的標籤，並在確認選擇之前選擇套用或拒絕這些標籤，以改善內容組織和可發現性。
+
+>[!NOTE]
+>
+> 若要在環境中使用Guides AI功能，請聯絡客戶成功團隊。 啟用此功能後，管理員可以從Workspace設定中將其開啟或關閉。 一次只能啟用一個AI體驗；可選擇Guides AI或AI Assistant。
+
 **展開檢視**：可讓您使用&#x200B;**展開**&#x200B;圖示展開頁面檢視。 在此檢視中，包含Adobe Experience Manager標誌的標題列會隱藏。 如此可最大化內容空間以供編輯。 若要返回標準檢視，請使用&#x200B;**結束展開檢視**&#x200B;圖示。
 
 **其他動作**：提供其他選項的存取權。 選取此按鈕會開啟包含下列選項的功能表：
 
 - **Assets**：根據您的設定，將您帶往目的地。
-   - **雲端服務**：如果您正在使用雲端服務，選取&#x200B;**Assets**&#x200B;選項會帶您前往AEM導覽頁面。
+  - **雲端服務**：如果您正在使用雲端服務，選取&#x200B;**Assets**&#x200B;選項會帶您前往AEM導覽頁面。
 
-   - **內部部署軟體**：如果您正在使用Adobe Experience Manager Guides （4.2.1和更新版本），選取&#x200B;**Assets**&#x200B;選項會帶您前往Assets UI中的目前檔案路徑。
+  - **內部部署軟體**：如果您正在使用Adobe Experience Manager Guides （4.2.1和更新版本），選取&#x200B;**Assets**&#x200B;選項會帶您前往Assets UI中的目前檔案路徑。
 - **Workspace設定**：帶您前往Workspace設定對話方塊。 如需詳細資料，請檢視[設定Workspace設定](../install-conf-guide/workspace-settings.md)。
 
 >[!NOTE]
@@ -85,4 +86,4 @@ ht-degree: 0%
 
 - **編輯器設定**：帶您進入「編輯器設定」對話方塊，您可以在其中自訂個別作者層級的編輯器行為。 它可讓您在編寫期間控制標籤、註解和其他編輯器層級設定的可見度和行為。 如需詳細資訊，請檢視[編輯器設定](../install-conf-guide/workspace-settings.md)。
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

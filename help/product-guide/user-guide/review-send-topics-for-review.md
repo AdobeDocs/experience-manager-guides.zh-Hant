@@ -5,19 +5,13 @@ exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
 workflow-type: tm+mt
-source-wordcount: 3343
+source-wordcount: 3663
 ht-degree: 0%
 
 ---
@@ -81,7 +75,9 @@ ht-degree: 0%
 
 1. 輸入任務的&#x200B;**描述**。
 
-   此說明會用作傳送給稽核者之通知電子郵件的內文。
+   說明會用作傳送給稽核者之通知電子郵件的內文。 它也顯示在&#x200B;**檢閱詳細資料**&#x200B;對話方塊中，可透過檢閱UI和編輯器介面中&#x200B;**註解**&#x200B;標題旁的&#x200B;*資訊*&#x200B;圖示存取。
+
+   ![](images/review-details.png)
 
 1. 選取&#x200B;**到期日**&#x200B;和時間，以標示檢閱的截止日期。
 
@@ -108,6 +104,35 @@ ht-degree: 0%
    >[!NOTE]
    >
    > 選取的根對映解析關鍵參照的優先順序最高。 如需詳細資訊，請檢視[解析金鑰參考](map-editor-other-features.md#id176GD01H05Z)。
+
+1. 附加DITAVAL檔案（僅在為您的環境啟用時可用）
+
+   >[!NOTE]
+   >
+   > 依預設，會啟用將DITAVAL檔案附加至稽核工作的功能。 如果您不想在環境中使用此功能，請聯絡您的客戶成功團隊。
+
+   如果您要傳送給稽核的主題使用條件，則可以將一或多個DITAVAL檔案附加至稽核任務。
+
+   ![](./images/attach-ditaval-review-task.png)
+
+   >[!NOTE]
+   >
+   > 檔案選取器只接受DITAVAL檔案。 如果您選取任何其他檔案型別，例如主題或地圖，則會出現錯誤訊息，提示您改為選取DITAVAL檔案。
+
+   附加的DITAVAL檔案中定義的條件用於預先選取稽核者「條件」面板中的切換，因此稽核者可存取您作為發起者想要用於此稽核的相同條件集。
+
+   您也有&#x200B;**允許檢閱者條件變更**&#x200B;核取方塊，此核取方塊控制檢閱者是否可以變更預先設定的切換：
+
+   ![](./images/reviewer-conditions.png)
+
+   - 如果選取，檢閱者可以在檢閱期間開啟或關閉任何條件的切換，覆寫DITAVAL檔案設定的值。
+   - 如果清除，則切換對檢閱者保持停用，而且他們只能檢閱由附加的DITAVAL檔案篩選的內容。
+
+   **其他附註**：
+
+   - 您可以將多個DITAVAL檔案附加至單一稽核任務。 如果兩個或多個附加檔案定義了相同條件的衝突值，則先新增的檔案（依插入順序）優先。
+   - 任何附加的DITAVAL檔案未涵蓋的條件不受影響；這些條件會在檢閱UI中保留預設（未篩選）行為。
+   - 建立稽核工作後，您可以從[工作詳細資料]頁面更新稽核工作，以新增、移除或取代附加的DITAVAL檔案，以及變更&#x200B;**允許稽核者條件變更**&#x200B;設定。
 
 1. 由於您可以將不同的稽核者指派給不同的主題，因此&#x200B;**允許受指派者稽核任何主題**&#x200B;選項會控制稽核者是否可以稽核稽核稽核任務中的所有主題，或僅稽核他們被指派稽核的主題。
 
@@ -334,4 +359,4 @@ Experience Manager Guides可讓您同時在DITA map中傳送一或多個主題�
 如需更多詳細資料，請檢視[瞭解檢閱通知](./review-understanding-review-notifications.md)。
 
 
-**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)
+**父級主題：**[&#x200B;檢閱簡介](review.md)

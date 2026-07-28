@@ -5,18 +5,13 @@ feature: Authoring
 role: User
 exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 577
 ht-degree: 0%
 
 ---
@@ -48,7 +43,7 @@ ht-degree: 0%
 
   ![](assets/insert-h5p-lc.png)
 
-  如果您偏好使用您系統中的H5P內容，請先在DAM[&#128279;](../user-guide/authoring-upload-existing-files.md)中使用&#x200B;**上傳資產**&#x200B;選項上傳檔案，然後將其加入存放庫檢視/Assets。
+  如果您偏好使用您系統中的H5P內容，請先在DAM](../user-guide/authoring-upload-existing-files.md)中使用&#x200B;**上傳資產**&#x200B;選項[上傳檔案，然後將其加入存放庫檢視/Assets。
 
   ![](assets/upload-assets-option.png)
 
@@ -65,12 +60,14 @@ ht-degree: 0%
 
   方程式會以淺灰色背景插入。 您可以隨時更新方程式，只要在現有方程式上按一下滑鼠右鍵，然後從內容功能表選取&#x200B;**編輯數學方程式**。 如需在Experience Manager Guides中驗證MathML方程式的詳細資訊，請在MathML編輯器中檢視[方程式驗證](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor)。
 
-- **知識檢查：**&#x200B;可讓您新增可用格式的問題（單一正確、多重正確、True/False、符合以下內容，或從問題庫插入），以供檢閱和確認理解，而不需評分。 這些問題反映了標準格式並排除分數，因此非常適合自我評估，並適合作為課程內容或稍後測驗或評估之前的主題（如果有的話）。
+- **知識檢查：**&#x200B;可讓您新增可用格式的問題（單一正確、多重正確、True/False、符合以下內容，或從問題庫插入），以供檢閱和確認理解，而不需評分。 這些問題反映了標準格式並排除分數，因此非常適合自我評估，並適合作為課程內容或稍後測驗或評估之前的主題（如果有的話）。 您可以透過&#x200B;**內容屬性**&#x200B;面板來設定正確答案和其他必要欄位。 如需詳細資訊，請檢視[問題型別](./quiz-insert-questions.md)。
 
   ![](assets/knowledge-check-topic.png){width="650"}
 
 
-  您可以透過&#x200B;**內容屬性**&#x200B;面板來設定正確答案和其他必要欄位。 如需詳細資訊，請檢視[問題型別](./quiz-insert-questions.md)。 您可以使用如下所示的知識檢查選項來新增各種問題型別。
+  如果學習者對知識檢查問題提交不正確的回應，則回應欄位會與錯誤訊息一起反白顯示，引導學習者選取&#x200B;**再試一次**&#x200B;以重試相同的問題。
+
+  ![](assets/knowledge-check-try-again.png){width="650"}
 
   此外，您可以啟用&#x200B;**需要知識檢查以繼續**&#x200B;選項，以確保學習者在前進到後續課程內容之前嘗試指定的知識檢查。 此功能可防止學習者略過關鍵評估查核點，有助於強化關鍵學習目標。 設定SCORM預設集輸出時，**學習者必須依循序進行內容**&#x200B;設定已啟用時，才能支援此功能，確保課程進度遵循預期的學習路徑。
 

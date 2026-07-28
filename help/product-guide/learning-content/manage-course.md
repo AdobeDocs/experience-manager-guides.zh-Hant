@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -47,11 +42,16 @@ ht-degree: 0%
 您可以將內容存放庫中的現有內容新增到課程中。 執行以下步驟來新增現有內容：
 
 1. 選取&#x200B;**選項**&#x200B;功能表> **新增現有**。
-2. 選取您要建立的課程內容型別。
-3. 在&#x200B;**選取檔案**&#x200B;對話方塊中，導覽至內容位置並選取想要的學習內容。
+1. 選取您要建立的課程內容型別。
+1. 在&#x200B;**選取檔案**&#x200B;對話方塊中，導覽至內容位置並選取想要的學習內容。
 
-   ![](assets/add-existing-learning-content.png)
-4. 選擇&#x200B;**選取**。
+>[!NOTE]
+>
+> 當您將HTML主題新增至學習群組地圖時，`format="html"`屬性會自動新增至地圖中的對應`topicref`。 這可確保主題受到正確處理和發佈。
+
+![](assets/add-existing-learning-content.png)
+
+1. 選擇&#x200B;**選取**。
 
 選取的課程內容會從存放庫新增至課程。
 

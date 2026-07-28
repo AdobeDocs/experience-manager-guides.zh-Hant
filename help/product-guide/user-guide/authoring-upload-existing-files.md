@@ -5,17 +5,12 @@ exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
 TQID: https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 695
 ht-degree: 0%
 
 ---
@@ -26,21 +21,34 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 檢視[將數位資產新增至Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hant)，以瞭解Adobe Experience Manager中支援的內容上傳方法的詳細資訊。
+> 檢視[將數位資產新增至Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)，以瞭解Adobe Experience Manager中支援的內容上傳方法的詳細資訊。
 
 ## Assets Console使用者介面
 
 若要使用Adobe Experience Manager as a Cloud Service Console使用者介面[新增數位資產至Assets Assets](#upload-assets)，請在您的案頭上選取所需的資產，並在Adobe Experience Manager使用者介面\（網頁瀏覽器\）上拖曳至目的地資料夾。 上傳資產時，請確定檔案名稱不包含任何不支援或禁止使用的字元。
 
-如需詳細資訊，請檢視Adobe Experience Manager檔案中的[檔案名稱處理與禁止使用的字元](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hant#filename-handling)區段。
+如需詳細資訊，請檢視Adobe Experience Manager檔案中的[檔案名稱處理與禁止使用的字元](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling)區段。
+
+### 使用Assets UI介面上傳檔案
+
+當您使用&#x200B;**建立** > **檔案**&#x200B;上傳檔案，並從系統中選取檔案時，會出現&#x200B;**上傳Assets**。 此對話方塊可讓您在起始上載之前，檢閱及選擇性地重新命名檔案。 您可以保留原始檔案名稱，或根據您的需求提供新名稱。
+
+![](images/upload-file.png){width="350"}
+
+開始上傳後，狀態會顯示在&#x200B;**上傳Assets**&#x200B;對話方塊中，顯示每個要上傳檔案的上傳進度。 如果您需要在作業完成之前停止作業，可以隨時選取&#x200B;**取消**&#x200B;選項或選取[取消]圖示來取消上傳。 取消操作會終止上傳，且檔案不會新增至存放庫。
+
+![](images/upload-status.png){width="350"}
+
+上傳成功完成後，系統會顯示一則確認訊息，指出檔案已成功上傳。 此訊息會確認檔案現在可在Assets存放庫內的所選位置中使用。
+
 
 ## Adobe Experience manager 桌面應用程式
 
-如果您是創意專業人員，且想要管理本機案頭上的資產，請使用Adobe Experience Manager案頭應用程式。 您可以使用案頭應用程式開啟及編輯這些資產。 您也可以維護版本，並與其他使用者共用檔案。 如需詳細資訊，請檢視[Adobe Experience Manager案頭應用程式](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=zh-Hant)。
+如果您是創意專業人員，且想要管理本機案頭上的資產，請使用Adobe Experience Manager案頭應用程式。 您可以使用案頭應用程式開啟及編輯這些資產。 您也可以維護版本，並與其他使用者共用檔案。 如需詳細資訊，請檢視[Adobe Experience Manager案頭應用程式](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)。
 
 ## 資產大量擷取器
 
-如果您有大規模移轉和偶爾的大量擷取，請使用資產大量擷取器來上傳您的內容。 使用此工具，您可以從支援的資料存放區（例如Azure或S3）上傳大量內容。 如需詳細資訊，請檢視[資產大量擷取](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hant#asset-bulk-ingestor)。
+如果您有大規模移轉和偶爾的大量擷取，請使用資產大量擷取器來上傳您的內容。 使用此工具，您可以從支援的資料存放區（例如Azure或S3）上傳大量內容。 如需詳細資訊，請檢視[資產大量擷取](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)。
 
 ## 使用FrameMaker進行大量上傳
 
@@ -58,4 +66,7 @@ Adobe FrameMaker隨附強大的Adobe Experience Manager聯結器，可讓您輕�
 
 如果您使用Adobe Experience Manager案頭應用程式或資產大量擷取器等工具，則對重複檔案執行的動作會由Adobe Experience Manager伺服器中的設定控制。 請連絡您的系統管理員以瞭解此設定。
 
-**父級主題：**&#x200B;[&#x200B;管理內容](authoring.md)
+
+
+
+**父級主題：**[&#x200B;管理內容](authoring.md)

@@ -6,22 +6,13 @@ feature: API Introduction
 role: Developer
 level: Experienced
 TQID: https://experienceleague.adobe.com/dNO8nZusaPCor506Q-2drrcJGf68mx-Hxo4uaT-cDtM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: b0e39e78724e6d47e47648cd8c3a36aef307caf8
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 0%
 
 ---
@@ -134,14 +125,13 @@ Experience Manager Guides提供了一組完整的REST型API，讓開發人員可
 
 >[!NOTE]
 >
-> 您也可以參閱&#x200B;**Swagger檔案**，以取得位於`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`的公開可用REST API。 目前，Swagger檔案中僅提供與Assets、基線和報表相關的API。
-
+> 您也可以參閱&#x200B;**Swagger檔案**，以取得位於`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`的公開REST API，或透過AEM介面存取，方法是瀏覽至&#x200B;**工具** > **指南** > **API Swagger**。 目前，Swagger檔案中僅提供與Assets、基線、報告、翻譯和發佈相關的API。
 
 ## 其他資源
 
-以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/tw/support/xml-documentation-for-experience-manager.html)頁面上取得：
+以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)頁面上取得：
 
 - 使用手冊
 - 安裝及設定指南
 - 快速入門手冊
-- [說明封存頁面](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html) \（存取舊版檔案\）
+- [說明封存頁面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（存取舊版檔案\）

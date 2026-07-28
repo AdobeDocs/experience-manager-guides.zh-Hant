@@ -5,26 +5,14 @@ exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
-  - id: c8841798-1a28-4264-a46a-984860f8e6f6
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12id: c8841798-1a28-4264-a46a-984860f8e6f6id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1526
 ht-degree: 0%
 
 ---
@@ -51,9 +39,9 @@ ht-degree: 0%
 
 - **B：**&#x200B;在&#x200B;**註解**&#x200B;面板中選取&#x200B;**檢閱詳細資料** ![](images/active-review-info-icon.svg)以檢視檢閱工作的詳細資訊：
 
-   - **名稱**：稽核工作的名稱。
-   - **檢閱版本**：顯示與所選檢閱工作相關的版本。 這可協助您追蹤您共用以供檢閱的版本
-   - **狀態**：稽核工作的目前狀態。
+  - **名稱**：稽核工作的名稱。
+  - **檢閱版本**：顯示與所選檢閱工作相關的版本。 這可協助您追蹤您共用以供檢閱的版本
+  - **狀態**：稽核工作的目前狀態。
 
   >[!NOTE]
   >
@@ -90,7 +78,8 @@ ht-degree: 0%
 - **I**：在評論上套用篩選。 您可以根據「稽核型別」\（全部、反白顯示、刪除、插入或註解\）、「稽核狀態」\（全部、接受、拒絕或無\）、「稽核者」\(全部或特定稽核者\(s\)\)或「主題版本」來篩選以檢視註解。 依預設，不會選取任何篩選器。
 
   ![](images/review-comments-author-filter.png){width="350"}
-  **藉由標籤其他使用者來回覆註解**
+
+**藉由標籤其他使用者來回覆註解**
 
 身為稽核工作的作者與發起人，您可以回複稽核意見，並標籤參與相同稽核工作的其他使用者，以引導其注意或指派後續追蹤。 此功能僅適用於進行中的檢閱工作。
 
@@ -109,4 +98,27 @@ ht-degree: 0%
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
 
-**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)
+## 檢視主題的所有稽核任務
+
+>[!NOTE]
+>
+> 此功能預設為啟用。 如果您不想在環境中使用此功能，請聯絡您的客戶成功團隊。
+
+此功能可讓您從「註解」面板中選取與目前開啟的主題相關聯的稽核任務（開啟或已關閉）。 啟用時，「稽核UI」中的「註釋」面板會包含下拉式清單，列出主題所屬的每個稽核任務，以及每個任務的狀態（「進行中」或「已關閉」）及其所屬的專案。 依預設，您目前處理的任務標示為&#x200B;**目前**&#x200B;標籤。
+
+![](./images/review-task-selection-dropdpwn.png){width="350"}
+
+使用稽核任務下拉式清單，您可以選取任何任務並瀏覽其註解，而無需切換稽核專案。 您也可以在下拉式清單中選取工作旁的&#x200B;**(i)**&#x200B;圖示，以檢視工作詳細資訊。
+
+>[!NOTE]
+>
+> 如果您預期要檢視的稽核任務未出現在下拉式清單中，可能是因為任務是在您的執行個體上啟用此功能之前建立的。 請連絡您的系統管理員，以解決問題，方法是[執行索引，將主題的所有稽核工作加入註解面板](../install-conf-guide/index-review-tasks.md)。
+
+使用此功能時，請注意：
+
+- 切換至編輯器中的不同主題，會將面板重設回「註解」中的「目前」任務
+- 選取「目前」以外的任何任務會以唯讀模式開啟該任務的主題版本及其註解。 您可以檢視註解，但無法編輯、接受或拒絕註解，而且&#x200B;**匯入**&#x200B;選項已停用。 只能將「目前」任務的註解匯入工作復本。
+- 篩選和搜尋只套用至您選取之任務的註解；來自其他未選取任務的註解則不受影響。
+
+
+**父級主題：**[&#x200B;檢閱簡介](review.md)

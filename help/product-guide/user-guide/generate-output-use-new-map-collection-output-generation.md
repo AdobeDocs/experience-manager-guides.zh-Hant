@@ -4,47 +4,40 @@ description: 瞭解如何建立及刪除新的地圖集合，以及新增或刪�
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 56c9710820f790ed64e58521dd0d0f9ac343825f
 workflow-type: tm+mt
-source-wordcount: 1447
+source-wordcount: 1548
 ht-degree: 0%
 
 ---
 
-# 使用新的對應集合來產生輸出(Beta)
+# 使用新的對應集合來產生輸出
 
 >[!IMPORTANT]
 >
-> Experience Manager Guides as a Cloud Service自2026.06.0版開始提供新的地圖集合。 請聯絡您的客戶成功團隊以啟用此功能。
+> Experience Manager Guides as a Cloud Service自2026.08.0版開始提供新的地圖集合。 請聯絡您的客戶成功團隊以啟用此功能。
 
 Adobe Experience Manager Guides中的地圖集合可讓發佈專家將多個檔案整理到單一集合中、控制為每個檔案產生的輸出，以及從集中式儀表板有效率地批次產生和發佈輸出。 它還提供輸出產生進度的可見度，醒目提示自地圖上次發佈輸出以來所做的變更，並允許您在需要時重新發佈內容。
 
-新的地圖集合合併了先前在舊地圖集合中散佈的功能，以及大量發佈到單一統一介面中的功能。 啟用後，您可以從一個位置管理地圖、預設集、層代歷史記錄、發佈歷史記錄、中繼資料和系列成員資格。
+新的地圖集合合併了先前在舊地圖集合中分散的功能，以及大量發佈到單一統一介面中的功能。 啟用後，您可以從一個位置管理地圖、預設集、層代歷史記錄、發佈歷史記錄、中繼資料和系列成員資格。
 
 ## 建立地圖集合併新增DITA地圖
 
 若要建立地圖集合併將地圖新增至其中，請執行下列步驟：
 
-1. 開啟Experience Manager Guides首頁並選取&#x200B;**新的地圖集合**。
+1. 開啟Experience Manager Guides首頁並選取&#x200B;**對應集合**。
 
    **對應集合**&#x200B;頁面隨即開啟。
 
    ![](images/new-maps-collection.png){width="650"}
 
 
-1. 在&#x200B;**地圖集合**&#x200B;頁面上，選取右上方的&#x200B;**建立**，並為您的新地圖集合提供&#x200B;**名稱**。
+1. 在&#x200B;**地圖集合**&#x200B;頁面上，選取右上方的&#x200B;**建立**，並為您的地圖集合提供&#x200B;**名稱**。
 
    ![](images/create-new-map-collection.png){width="350"}
 
@@ -90,6 +83,10 @@ Adobe Experience Manager Guides中的地圖集合可讓發佈專家將多個檔�
 
 您會取得所有所需地圖的清單，其中包括地圖示題、對應的檔案名稱、可用語言，以及已設定的預設集。
 
+>[!NOTE]
+>
+> 當將大量地圖新增到地圖集合時，地圖和預設集索引標籤一次最多會顯示四個地圖，以及關聯的預設集。 畫面底部提供分頁檢視，讓使用者可在頁面之間導覽，並存取其他地圖和預設集。 如果您選取地圖或預設集，則會在瀏覽不同頁面上的其餘地圖和預設集時保留選取範圍。
+
 ![地圖和預設集標籤](./images/maps-presets-tab.png)
 
 **地圖與預設集**&#x200B;索引標籤會根據下列欄位中特定語言的選定地圖顯示資訊：
@@ -107,7 +104,7 @@ Adobe Experience Manager Guides中的地圖集合可讓發佈專家將多個檔�
 
 - **自產生**&#x200B;後已修改：您可以選取[是]、[否]或[尚未產生]。 如果您選取「是」，則只有產生後修改過的對映才會顯示在「對映和預設集」標籤中。
 - **發佈後已修改**：您可以選取[是]、[否]或[尚未產生]。 如果選取「是」，則只有發佈後修改過的地圖才會顯示在「地圖和預設集」標籤中。
-- **預設集**：選取您要篩選掉對應檔案的預設集。 例如，如果您選擇&#x200B;*AEM網站*&#x200B;預設集，則只會顯示設定了&#x200B;*AEM網站*&#x200B;輸出預設集的地圖。
+- **預設集型別**：選取您要篩選掉對應檔案的預設集。 例如，如果您選擇&#x200B;*AEM網站*&#x200B;預設集，則只會顯示設定了&#x200B;*AEM網站*&#x200B;輸出預設集的地圖。
 - **語言**：您可以選取任何可用的語言代碼，並在[地圖和預設集]索引標籤中僅顯示選取的語言。
 
   地圖和預設集索引標籤中的![篩選器](./images/filters-maps-presets.png)
@@ -136,6 +133,9 @@ Adobe Experience Manager Guides中的地圖集合可讓發佈專家將多個檔�
    - **已完成（綠色）**：已成功完成產生。
    - **已完成（紅色）**：產生已完成但發生錯誤。 您可以在記錄檔中檢視錯誤詳細資料。
    - **正在執行（藍色）**：產生目前正在進行中。
+   - **失敗（紅色）**：產生失敗。
+   - **正在等候（藍色）**：產生在佇列中。
+
 
    ![狀態型別](./images/status-types.png)
 
@@ -150,6 +150,10 @@ Adobe Experience Manager Guides中的地圖集合可讓發佈專家將多個檔�
 
 
 ## 使用對應集合發佈輸出
+
+>[!NOTE]
+>
+> 從「層代記錄」發佈時，一律會發佈預設集的最新輸出，而非所選層代。
 
 若要使用Map Collection發佈（如果已設定）輸出，請執行下列步驟：
 
@@ -192,4 +196,4 @@ Adobe Experience Manager Guides中的地圖集合可讓發佈專家將多個檔�
 中繼資料屬性與檔案屬性同步。 更新後，您就可以從編輯器的&#x200B;**檔案屬性**&#x200B;面板中檢視這些檔案。
 
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)

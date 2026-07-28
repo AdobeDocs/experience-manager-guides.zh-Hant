@@ -5,24 +5,14 @@ exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/dROF3A00CUBtjf-J6c7U9Bp7i1XbZh3Nhu3HNGCx-B0
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 1560
+source-wordcount: 1653
 ht-degree: 0%
 
 ---
@@ -67,6 +57,10 @@ ht-degree: 0%
 - 條件式篩選\（如果條件已定義對應\）
 - 使用基準線\（如果為地圖建立了基準線\）
 - 貼文產生工作流程
+
+>[!NOTE]
+>
+>如果您的資料夾設定檔已設定[健康狀態檢查功能](../install-conf-guide/conf-health-check-preset.md)，則[一般]索引標籤中會顯示額外的&#x200B;**在產生輸出前執行健康狀態檢查**&#x200B;切換。 使用此預設集，您每次使用此預設集產生輸出時，就會自動執行健康情況檢查，因此您不必從對應手動觸發。 報表會附加至發佈記錄檔，且僅供參考。 即使檢查發現未解決的錯誤或警告，它也不會封鎖或延遲您的輸出。 深入瞭解[在Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map)中使用健康狀態檢查功能。
 
 **進階**
 
@@ -124,4 +118,4 @@ ht-degree: 0%
 
 
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

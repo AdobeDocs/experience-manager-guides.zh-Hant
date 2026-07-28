@@ -5,25 +5,17 @@ feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
 TQID: https://experienceleague.adobe.com/uuaP85TjYQvFzKfFRLfYj8xkOiIzpIVB-6Vj34wipHI
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
 # 以作者身分要求重新檢閱或關閉檢閱任務
-
->[!IMPORTANT]
->
-> 本文所述的新功能預設會在2508年的Experience Manager Guides as a Cloud Service版本中啟用。 移轉前建立的檢閱不會受到影響，並將繼續使用舊版工作流程。 如果您偏好繼續使用現有功能而不進行這些更新，請聯絡您的客戶成功團隊以停用新功能。
 
 當稽核任務被稽核者標籤為完成時，會觸發通知給任務發起者，讓他們能夠存取及稽核任務和相關任務層級的註解。
 
@@ -31,6 +23,10 @@ ht-degree: 0%
 
 - 要求重新檢閱
 - 關閉稽核任務
+
+>[!NOTE]
+>
+> 如果您的環境已啟用委派功能，稽核者也可以要求[將另一個稽核者新增至稽核任務](./review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)。 這類請求會以通知的形式顯示在您的AEM收件匣中。 如果建議的稽核者不是相關專案的一部分，您可以選擇先將他們新增至專案。 否則，您將被導向到&#x200B;**工作詳細資料**&#x200B;頁面的&#x200B;**檢閱者**&#x200B;索引標籤，以將建議的檢閱者新增至檢閱工作。 加入建議稽核者的決定一律由您作為稽核任務的發起者來決定。
 
 ## 要求重新檢閱或關閉檢閱任務
 

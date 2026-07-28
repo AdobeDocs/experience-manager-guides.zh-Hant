@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
+source-wordcount: '3264'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 >
 > 建立自訂設計範本節點後，您必須更新AEM網站輸出預設集中的「設計」選項，才能使用自訂設計範本節點。
 
-如需詳細資訊，請參閱[建立您的第一個Adobe Experience Manager網站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)和[在AEM上開發您自己的網站的基本知識](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[建立您的第一個Adobe Experience Manager網站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en)和[在AEM上開發您自己的網站的基本知識](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)。
 
 ## 使用檔案標題來產生AEM網站輸出
 
@@ -122,6 +122,9 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | 布林值\(true/false\)。 如果您想使用頁面標題產生輸出，則將此屬性設定為true。 預設會設定為使用檔案名稱。<br> **預設值**： false |
 
+>[!NOTE]
+>
+> `aemsite.pagetitle`屬性會定義AEM網站頁面標題的預設資料夾層級行為。 如果環境的AEM Sites預設集中提供選取`Topic filename`或`Topic title`的選項，預設層級選取會優先並覆寫該輸出的`aemsite.pagetitle`資料夾層級組態。 例如，如果`aemsite.pagetitle=true`但使用者在輸出預設集中選取&#x200B;*主題檔案名稱*，則會使用主題檔案名稱。 如果`aemsite.pagetitle=false`但使用者選取&#x200B;*主題標題*，則會使用主題標題。
 
 >[!TAB 內部部署]
 
@@ -210,7 +213,7 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 
 1. 搜尋並按一下&#x200B;*com.adobe.fmdita.common.SanizeNodeNameImpl*&#x200B;套件。
 
-1. 在&#x200B;**不允許發佈至AEM Sites**&#x200B;屬性的字元集中，確定屬性已設為`<>`&#x200B;`@$`。 您可以在此清單中新增更多特殊字元，但是它必須包含這些必要的特殊字元。
+1. 在&#x200B;**不允許發佈至AEM Sites**&#x200B;屬性的字元集中，確定屬性已設為`<>``@$`。 您可以在此清單中新增更多特殊字元，但是它必須包含這些必要的特殊字元。
 
    >[!NOTE]
    >
@@ -363,7 +366,7 @@ AEM Guides可讓您設定AEM網站輸出的節點結構在內部建立的方式�
 
 ## 在AEM網站輸出中設定已刪除頁面的版本設定
 
-當您針對現有輸出頁面設定選取了&#x200B;**刪除和**&#x200B;建立&#x200B;**&#x200B;**&#x200B;選項來產生AEM網站輸出時，會為要刪除的頁面建立一個版本。 您可以設定系統在刪除前停止建立版本。
+當您針對現有輸出頁面設定選取了&#x200B;**刪除和**&#x200B;建立&#x200B;****選項來產生AEM網站輸出時，會為要刪除的頁面建立一個版本。 您可以設定系統在刪除前停止建立版本。
 
 下列標籤會提供指示，讓您根據您的Experience Manager Guides設定，停止為正在刪除的頁面建立版本： Cloud Service或內部部署。
 

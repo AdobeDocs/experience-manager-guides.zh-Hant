@@ -5,29 +5,14 @@ exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
 TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-  - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9ab219dd067047e2c9f00ead6d0538df450eb66
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 3455
+source-wordcount: 3561
 ht-degree: 0%
 
 ---
@@ -73,6 +58,10 @@ ht-degree: 0%
 
 用於指定基本輸出設定，例如指定輸出路徑、PDF檔案名稱等。
 
+>[!NOTE]
+>
+>如果您的資料夾設定檔已設定[健康狀態檢查功能](../install-conf-guide/conf-health-check-preset.md)，則[一般]索引標籤中會顯示額外的&#x200B;**在產生輸出前執行健康狀態檢查**&#x200B;切換。 使用此預設集，您每次使用此預設集產生輸出時，就會自動執行健康情況檢查，因此您不必從對應手動觸發。 報表會附加至發佈記錄檔，且僅供參考。 即使檢查發現未解決的錯誤或警告，它也不會封鎖或延遲您的輸出。 深入瞭解[在Experience Manager Guides](../user-guide/map-editor-other-features.md#run-health-check-on-a-map)中使用健康狀態檢查功能。
+
 | 設定 | 說明 |
 | --- | --- |
 | **輸出路徑** | AEM存放庫內儲存PDF輸出的路徑。 確定輸出路徑不在專案資料夾內。 透過管理員設定的變數`${base_output_path}`設定輸出路徑。 若要設定輸出路徑，請檢視[設定雲端服務的基底輸出位置](../native-pdf/configure-base-location-cs.md)或[根據您使用的服務設定內部部署服務的基底輸出位置](../native-pdf/configure-base-output-location.md)。 <br>您也可以使用下列現成的變數來定義輸出路徑。 您可以使用單一變數或變陣列合來定義此選項。<br> `${map_filename}`：使用DITA map檔案名稱來建立目的地路徑。<br> `${map_title}`：使用DITA map標題來建立目的地路徑。 <br>`${preset_name}`：使用輸出預設集名稱來建立目的地路徑。<br> `${language_code}`：使用對應檔案所在的語言代碼來建立目的地路徑。<br> `${map_parentpath}`：使用對應檔案的完整路徑來建立目的地路徑。 <br>`${path_after_langfolder}`：使用語言資料夾之後的對應檔路徑來建立目的地路徑。 |
@@ -81,8 +70,13 @@ ht-degree: 0%
 | **使用基準線** | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。 檢視[使用基準線](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)以取得詳細資料。 |
 | **使用已發佈版本之間的變更列建立PDF** | 使用下列選項來建立PDF，使用變更列顯示兩個版本之間的內容差異： <br><ul><li> **先前版本的基準**&#x200B;選擇您要與目前版本或其他基準比較的基準版本。 PDF中會出現變更列，指出修改的內容。 變更列是垂直線，以視覺化方式識別新內容或修訂的內容。 變更列會顯示在已插入、變更或刪除的內容左側。<br> **注意**：如果您選取&#x200B;**使用基準線**&#x200B;並選擇要發佈的基準線，將會比較兩個選取的基準線版本。 例如，如果您在&#x200B;**使用基準線**&#x200B;下選擇基準線1.3版，而在先前版本&#x200B;**的**&#x200B;基準線下選擇基準線1.1版，則比較基準線1.1版和基準線1.3版。<br><li> **顯示新增的文字**&#x200B;選取以綠色和底線顯示插入的文字。 依預設，會選取此選項。<br> <li> **顯示已刪除的文字**&#x200B;選取此選項可讓刪除的文字以紅色顯示，並標示為刪除線。 依預設，會選取此選項。 <br>**附註**&#x200B;您也可以使用樣式表自訂變更列、插入內容或刪除內容的樣式。<br></ul> |
 | **語言** | 選取您要翻譯輸出的語言。<br> **附註**：互動參照文字（例如「請參見章節」或「請參見頁面」）是由語言變數所控制。 變數透過`xml:lang`屬性使用主題中定義的語言。 如果未在該處指定語言，則會使用預設語言。 如果兩者皆遺失，則預設為英文(en_US)。 |
-| **DITA-OT命令列引數** | 當您啟用&#x200B;**啟用DITA-OT預先處理**&#x200B;時，**DITA-OT命令列引數**&#x200B;欄位會變為可用。 在這裡，您可以指定在產生輸出時希望DITA-OT處理的其他引數。 如需DITA-OT支援的命令列引數詳細資訊，請檢視[DITA-OT檔案](https://www.dita-ot.org/)。<br>**注意：**&#x200B;預設不會將定義於DITA關聯性表格(`<reltable>`)的相關連結包含在原生PDF輸出中。 使用`-Dargs.rellinks=nofamily` DITA-OT引數將這類相關連結納入原生PDF輸出中。 |
+| **DITA-OT命令列引數** | 當您啟用&#x200B;**啟用DITA-OT預先處理**&#x200B;時，**DITA-OT命令列引數**&#x200B;欄位會變為可用。 在這裡，您可以指定在產生輸出時希望DITA-OT處理的其他引數。 如需DITA-OT支援之命令列引數的詳細資訊，請檢視[DITA-OT檔案](https://www.dita-ot.org/)。<br>**注意：** <br>預設不會將定義於DITA關聯性表格(`<reltable>`)的相關連結包含在原生PDF輸出中。 使用`-Dargs.rellinks=nofamily` DITA-OT引數將這類相關連結納入原生PDF輸出中。<br> 對於巢狀對映，預設情況下，對映參考上設定的`toc="no"`屬性不會從目錄排除其子主題。 使用`-Dpreprocess.move-meta-entries.skip=false` DITA-OT引數，確保子主題會從此類對映的TOC中排除。 |
 | **產生貼文工作流程** | 選取以顯示包含AEM中已設定所有工作流程的下拉式清單。 您可以選取在PDF產生工作流程完成後要執行的工作流程。 |
+
+>[!NOTE]
+>
+>- 根據預設，在DITA關聯性表格(`<reltable>`)中定義的相關連結不會包含在原生PDF輸出中。 使用此欄位傳遞`-Dargs.rellinks=nofamily` DITA-OT引數，並在輸出中包含這類相關連結。
+>
 
 **後設資料**
 
@@ -104,24 +98,26 @@ ht-degree: 0%
 
 * **提供XMP檔案**
 
-  您也可以匯入[XMP](https://www.adobe.com/tw/products/xmp.html) （可延伸中繼資料平台）檔案，直接填入中繼資料欄位。 您可以從這裡下載範例XMP檔案。
+  您也可以匯入[XMP](https://www.adobe.com/products/xmp.html) （可延伸中繼資料平台）檔案，直接填入中繼資料欄位。 您可以從這裡下載範例XMP檔案。
 
   [下載](assets/SampleXMP.xmp)
 
   或者，您可以使用Adobe Acrobat產生XMP檔案。
-   1. 在Acrobat中選取&#x200B;**檔案** > **屬性**。
-   1. 在&#x200B;**描述**&#x200B;下，選取&#x200B;**其他中繼資料**。
-   1. 從左側面板中選取&#x200B;**進階**。
-   1. 選取「**儲存**」。
+  1. 在Acrobat中選取&#x200B;**檔案** > **屬性**。
+  1. 在&#x200B;**描述**&#x200B;下，選取&#x200B;**其他中繼資料**。
+  1. 從左側面板中選取&#x200B;**進階**。
+  1. 選取「**儲存**」。
 
   XMP檔案會儲存在裝置上。
 
 * **提供中繼資料名稱和值**
 
-   1. 從下拉式清單中選取以新增名稱，或直接在名稱欄位中輸入以新增自訂中繼資料。
-   1. 輸入中繼資料的值，並選取「+」圖示。中繼資料會新增至PDF的中繼資料清單中。
+  1. 從下拉式清單中選取以新增名稱，或直接在名稱欄位中輸入以新增自訂中繼資料。
+  1. 輸入中繼資料的值，並選取「+」圖示。
+     中繼資料會新增至PDF的中繼資料清單中。
 
-您也可以使用變數來定義中繼資料值。  您可以使用為DITA map或bookmap檔案定義的中繼資料作為變數。 中繼資料可以在DITA map或bookmap檔案的`/jcr:content/metadata`節點下找到。使用變數時，會從中繼資料屬性中挑選變數值。
+您也可以使用變數來定義中繼資料值。 您可以使用為DITA map或bookmap檔案定義的中繼資料作為變數。中繼資料可以在DITA map或bookmap檔案的`/jcr:content/metadata`節點下找到。
+使用變數時，會從中繼資料屬性中挑選變數值。
 
 若要使用變數，您必須以`${<variable>}`格式定義它。
 
@@ -165,10 +161,10 @@ ht-degree: 0%
 設定列印成品設定以指派印表機標籤、選取色彩模式，以及指定與列印PDF輸出相關的屬性。
 
 * **印表機標籤**：當您準備檔案以進行列印生產時，印表機標籤會新增至頁面邊界，以協助在列印期間正確對齊、裁剪及色彩選擇。 透過選取印表機標籤，頁面邊界會延伸以容納在列印期間裁剪的標籤。 您可以選擇在PDF輸出中顯示下列印表機標籤：
-   * **裁剪標籤**：選取選項以在裁剪區域的每個角落處放置標籤，以指示列印後需要裁剪紙張的位置。
-   * **出血標籤**：選取此選項可在出血方塊的每個角落處放置標籤，以指示延伸影像的裁剪區域。
-   * **對齊標籤**：選取此選項可將標籤置於裁切區域之外，以對齊彩色檔案中的不同分色。
-   * **色條**：選取此選項可在剪裁區域外加入色條，以維持色彩一致並調整列印時的油墨密度。
+  * **裁剪標籤**：選取選項以在裁剪區域的每個角落處放置標籤，以指示列印後需要裁剪紙張的位置。
+  * **出血標籤**：選取此選項可在出血方塊的每個角落處放置標籤，以指示延伸影像的裁剪區域。
+  * **對齊標籤**：選取此選項可將標籤置於裁切區域之外，以對齊彩色檔案中的不同分色。
+  * **色條**：選取此選項可在剪裁區域外加入色條，以維持色彩一致並調整列印時的油墨密度。
 
   使用&#x200B;**線條寬度**、**線條色彩**&#x200B;和&#x200B;**出血方塊寬度**&#x200B;選項，設定所選印表機標籤的尺寸。
 
@@ -206,7 +202,7 @@ ht-degree: 0%
 | **建立互動式PDF表單** | 如果您想要在產生的PDF輸出中包含互動式且可自訂的PDF表單欄位，以強化使用者輸入，請選取此選項。 |
 | **包含追蹤變更** | 如果您想要在產生的PDF中包含追蹤變更以方便檢閱和比較，請選取此選項。 |
 | **保留暫存檔案** | 如果您想要保留在產生原生HTML輸出時建立的臨時PDF檔案，請選取此選項。 您稍後可以在產生輸出後下載暫存檔案。 下載的檔案也會包含`system_config.xml`檔案，提供您有關作者URL、本機URL和發佈URL的資訊。 這些URL是在AEM外部化設定中設定，並反映在`system_config.xml`檔案中。 |
-| **PDF合規性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請檢視[關於PDF標準](https://helpx.adobe.com/tw/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
+| **PDF合規性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請檢視[關於PDF標準](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
 | **檔案屬性** | 選取您要傳遞至原生PDF發佈的中繼資料。 下拉式清單會同時列出自訂和預設屬性。 例如，`dc:description`、`dc:language`、`dc:title`和`docstate`為預設屬性，而您可以將`author`作為自訂屬性。 選取的中繼資料屬性會傳遞至使用原生PDF產生的PDF檔案。<br> 這些屬性是從下列位置可用的`metadataList`檔案中挑選的： `/libs/fmdita/config/metadataList`。 <br>此檔案可以覆蓋於： `/apps/fmdita/config/metadataList`。 |
 
 
