@@ -1,7 +1,7 @@
 ---
 title: Guides AI的智慧標籤功能
 description: 瞭解如何透過單一操作，使用Guides AI為主題和地圖提供智慧型標籤功能。
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Guides AI的下列元件可協助您新增檔案、設定標籤建議及管理�
 
 1. Guides AI會分析主題內容並產生標籤建議。
 
-   ![&#x200B; Guides AI面板的介面，同時進行分析和思考](images/guides-ai-analysis.png){width="650"}
+   ![ Guides AI面板的介面，同時進行分析和思考](images/guides-ai-analysis.png){width="650"}
 
 1. 檢閱建議的標籤，如下所示：
 
@@ -114,7 +114,7 @@ Guides AI的下列元件可協助您新增檔案、設定標籤建議及管理�
      ![Guides AI大量標籤](images/ai-map-selection.png){width="650"}
 
 1. 選取&#x200B;**傳送**。
-訊息會指出選取的地圖包含多個主題。選取&#x200B;**選取主題**&#x200B;以選擇要標籤建議的主題。
+訊息會指出選取的地圖包含多個主題。選取**選取主題**&#x200B;以選擇要標籤建議的主題。
 
    ![選取主題時進行Guides AI大量標籤](images/ai-select-topics.png){width="650"}
 
