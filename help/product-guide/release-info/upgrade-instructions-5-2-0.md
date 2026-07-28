@@ -37,7 +37,7 @@ Use the following resources when developing custom Java plugins or integrations 
 |---|---|---|----|
 | 5.2.0 (UUID) | 5.2.1 | [AEM Guides SDK API 5.2.1 ](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overviewhttps://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overview) | [Javadoc 5.2.1](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/5.2.1/index.html) |
 
-For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/api-reference/introduction).
 
  -->
 
@@ -83,7 +83,7 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 >
 > - **對於AEM 6.5 LTS**：只有Experience Manager Guides 6.5 LTS Service Pack 2才支援AEM 5.2.0。
 > - **適用於AEM 6.5**： Experience Manager Guides 5.2.0僅支援AEM 6.5 Service Pack 24、23和22。
-> - 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.2.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> - 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.2.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 在繼續升級至5.2.0版的Experience Manager Guides之前，您必須先考量下列幾點：
 

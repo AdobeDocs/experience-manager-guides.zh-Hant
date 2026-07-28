@@ -79,7 +79,7 @@ Experience Manager Guides MCP伺服器是&#x200B;**遠端**&#x200B;伺服器。 
 
 ### 合唱團克勞德
 
-按照官方逐步說明： [為AEM MCP設定Claude](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 新增自訂聯結器時，請使用Experience Manager Guides端點：
+按照官方逐步說明： [為AEM MCP設定Claude](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 新增自訂聯結器時，請使用Experience Manager Guides端點：
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides

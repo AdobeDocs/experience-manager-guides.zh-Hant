@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # 為何資料夾的中繼資料匯出會失敗並出現「字串太長」例外狀況？
 
-當您從Assets UI [匯出資料夾的中繼資料](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata)時，匯出工作可能會失敗，並出現`String is too long`例外狀況。 當資料夾包含儲存非字串值（例如`baselineObj`）的Experience Manager Guides特定屬性時，通常會發生這種情況。
+當您從Assets UI [匯出資料夾的中繼資料](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/using/metadata#export-metadata)時，匯出工作可能會失敗，並出現`String is too long`例外狀況。 當資料夾包含儲存非字串值（例如`baselineObj`）的Experience Manager Guides特定屬性時，通常會發生這種情況。
 
 **為什麼會發生這個情況？**
 
