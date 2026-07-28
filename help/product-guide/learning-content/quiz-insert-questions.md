@@ -13,9 +13,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ff08b63bf8668fddc89c43391b3264a733a824e7
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -53,6 +53,13 @@ ht-degree: 0%
 - **錯誤答案的懲罰**：指定錯誤答案要扣除的點數。
 - **問題標籤**：啟用以新增問題標籤。
 - **意見反應**：啟用以針對正確或不正確的答案提供意見反應。
+
+  >[!NOTE]
+  >
+  > 在已發佈的課程輸出中，嘗試測驗中的所有問題後，學習者可以使用&#x200B;**檢閱答案**&#x200B;選項來重新造訪他們提交的回覆，並檢視哪些答案正確或不正確。 這不需要額外的設定或組態。
+
+  ![](assets/review-answer-quiz.png){width="350"}
+
 - 將&#x200B;**選項釘選至位置**：釘選問題的特定選項時，該選項會維持在選項清單中的指定位置，即使在SCORM預設集組態中啟用了&#x200B;**每次嘗試的隨機答案選擇**，否則會重新配置可用的選項。 您可以在「內容屬性」面板中，將滑鼠指標停留在問題的所需選項上，並加以釘選。
 
   ![](assets/pin-question.png){width="350"}

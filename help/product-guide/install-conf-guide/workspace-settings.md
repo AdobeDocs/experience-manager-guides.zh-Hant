@@ -4,9 +4,9 @@ description: 瞭解Experience Manager Guides編輯器介面中可用的各種設
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
+source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2304'
 ht-degree: 0%
 
 ---
@@ -53,17 +53,27 @@ ht-degree: 0%
 
   從&#x200B;**編寫快速動作**&#x200B;功能表，您可以：
 
-   - 使用切換可啟用或停用作者在使用AI助理時可存取的特定選項。
+  - 使用切換可啟用或停用作者在使用AI助理時可存取的特定選項。
 
-   - 變更選項的顯示順序，視需要拖放選項。
+  - 變更選項的顯示順序，視需要拖放選項。
 
   ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
+- **指南AI**
 
+  >[!NOTE]
+  >
+  > 若要在環境中使用Guides AI功能，請聯絡客戶成功團隊。 一次只能啟用一個AI體驗；可選擇Guides AI或AI Assistant。
+
+  選取&#x200B;**指南AI**&#x200B;切換以在Experience Manager Guides中啟用此功能。取消選取以停用此功能。
+
+  啟用此選項後，您將可以從首頁的導覽列和編輯器介面的索引標籤列存取Guides AI功能。 如需有關如何產生主題AI建議標籤的詳細資訊，請檢視[開始使用Guides AI](../user-guide/guides-ai.md)。
+
+  ![](assets/guides-ai-workspace.png){width="350"}
 
 - **編寫**
 
-   - **啟用「全部取代」**：選取此項以檢視「**尋找和取代**」面板中的「**全部取代**」圖示。
+  - **啟用「全部取代」**：選取此項以檢視「**尋找和取代**」面板中的「**全部取代**」圖示。
 
 - **引文**
 
@@ -71,28 +81,28 @@ ht-degree: 0%
 
 - **狀況**
 
-   - **在作者檢視中反白條件文字**：選取此選項以在作者檢視中反白條件文字。 條件內容會使用為條件定義的顏色反白顯示。
+  - **在作者檢視中反白條件文字**：選取此選項以在作者檢視中反白條件文字。 條件內容會使用為條件定義的顏色反白顯示。
 
-   - **使用條件屬性進行驗證**：選取此選項可允許驗證為屬性定義的值。 這可防止您新增任何不正確的值。
+  - **使用條件屬性進行驗證**：選取此選項可允許驗證為屬性定義的值。 這可防止您新增任何不正確的值。
 
-   - **在主旨配置面板中顯示具有標題的金鑰**：選取此專案可顯示主旨配置中的金鑰與標題。 如果您未選取此選項，則只會顯示標題。 例如，這裡的索引鍵「os」、「audience」和「other」也會與標題一起顯示。
+  - **在主旨配置面板中顯示具有標題的金鑰**：選取此專案可顯示主旨配置中的金鑰與標題。 如果您未選取此選項，則只會顯示標題。 例如，這裡的索引鍵「os」、「audience」和「other」也會與標題一起顯示。
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550"}
+    ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
-   - **在[條件]面板中顯示主旨配置**：選取此專案，在條件面板中檢視主旨配置。 如果取消選取此專案，定義的條件會顯示在「條件」面板中。
+  - **在[條件]面板中顯示主旨配置**：選取此專案，在條件面板中檢視主旨配置。 如果取消選取此專案，定義的條件會顯示在「條件」面板中。
 
 - **拼字檢查**
 
   有兩個選項：AEM拼字檢查和瀏覽器拼字檢查。
 
-   - **瀏覽器拼字檢查**：依預設，編輯器會使用瀏覽器拼字檢查功能，其中使用瀏覽器內建的字典來執行拼字檢查。
+  - **瀏覽器拼字檢查**：依預設，編輯器會使用瀏覽器拼字檢查功能，其中使用瀏覽器內建的字典來執行拼字檢查。
 
-   - **AEM拼字檢查**：您可以切換至AEM拼字檢查，以使用Adobe Experience Manager的字典，也可以自訂字典以新增自訂字詞清單。 如需自訂AEM字典的詳細資訊，請檢視[自訂AEM的預設字典](../install-conf-guide/customize-aem-default-dictionary.md)。
+  - **AEM拼字檢查**：您可以切換至AEM拼字檢查，以使用Adobe Experience Manager的字典，也可以自訂字典以新增自訂字詞清單。 如需自訂AEM字典的詳細資訊，請檢視[自訂AEM的預設字典](../install-conf-guide/customize-aem-default-dictionary.md)。
 
-     >[!NOTE]
-     >
-     > AEM拼字檢查會使用在檔案的language屬性中選取的語言，如果沒有為檔案指定語言，拼字檢查會回覆成AEM伺服器語言。
-     >為了確保拼字檢查結果準確，在AEM中必須提供所選語言的字典。 如果設定語言所需的字典無法使用，拼字檢查會預設為`en_us`。
+    >[!NOTE]
+    >
+    > AEM拼字檢查會使用在檔案的language屬性中選取的語言，如果沒有為檔案指定語言，拼字檢查會回覆成AEM伺服器語言。
+    >為了確保拼字檢查結果準確，在AEM中必須提供所選語言的字典。 如果設定語言所需的字典無法使用，拼字檢查會預設為`en_us`。
 
 
 ## 面板
@@ -152,24 +162,24 @@ ht-degree: 0%
 
 - 設定連線應用程式時，請確定下列事項：
 
-   - 指定回呼。
+  - 指定回呼。
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - 選取下列OAuth範圍：
-      - 完整存取權（完整）
-      - 選取「透過API管理使用者資料(API)」
+  - 選取下列OAuth範圍：
+    - 完整存取權（完整）
+    - 選取「透過API管理使用者資料(API)」
 
-     設定應用程式後，Salesforce會提供&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 這些可用來建立Salesforce設定檔。
+    設定應用程式後，Salesforce會提供&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 這些可用來建立Salesforce設定檔。
 
 
-   - 若要建立Salesforce設定檔，請從&#x200B;**伺服器型別**&#x200B;下拉式清單中選取&#x200B;**Salesforce**&#x200B;知識庫。 輸入設定檔名稱。 在&#x200B;**網站URL**&#x200B;中，輸入您要用來發佈輸出的消費者網站，然後新增Salesforce消費者網站提供的&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 然後，**驗證**&#x200B;並&#x200B;**儲存**&#x200B;新建立的設定檔。
+  - 若要建立Salesforce設定檔，請從&#x200B;**伺服器型別**&#x200B;下拉式清單中選取&#x200B;**Salesforce**&#x200B;知識庫。 輸入設定檔名稱。 在&#x200B;**網站URL**&#x200B;中，輸入您要用來發佈輸出的消費者網站，然後新增Salesforce消費者網站提供的&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 然後，**驗證**&#x200B;並&#x200B;**儲存**&#x200B;新建立的設定檔。
 
-     ![工作區設定中的salesforce發佈設定檔](../user-guide/images/salesforce-publish-profile.png){width="550"}
+    ![工作區設定中的salesforce發佈設定檔](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >若要在Experience Manager Guides中設定Salesforce的Proxy，請使用AEM中的Apache HTTP元件Proxy設定。 瞭解如何[設定AEM連結檢查器的Proxy](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)。
+    >[!NOTE]
+    >
+    >若要在Experience Manager Guides中設定Salesforce的Proxy，請使用AEM中的Apache HTTP元件Proxy設定。 瞭解如何[設定AEM連結檢查器的Proxy](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)。
 
 
 **建立ServiceNow設定檔**
@@ -235,24 +245,24 @@ ht-degree: 0%
 
   執行以下步驟來建立新的語言群組：
 
-   1. 選取「**新增**」。
-   1. 輸入語言群組名稱。 每種語言都應該有唯一的名稱。 如果名稱欄位空白或名稱不是唯一的，您可以檢視錯誤。
-   1. 從下拉式清單中選取語言。 您可以選取多種語言。
+  1. 選取「**新增**」。
+  1. 輸入語言群組名稱。 每種語言都應該有唯一的名稱。 如果名稱欄位空白或名稱不是唯一的，您可以檢視錯誤。
+  1. 從下拉式清單中選取語言。 您可以選取多種語言。
 
-      輸入語言的前幾個字元，或輸入語言代碼以篩選所需的語言。 例如，輸入&#39;en&#39;以篩選名稱或程式碼開頭包含&#39;en&#39;的所有語言。
+     輸入語言的前幾個字元，或輸入語言代碼以篩選所需的語言。 例如，輸入&#39;en&#39;以篩選名稱或程式碼開頭包含&#39;en&#39;的所有語言。
 
-   1. 選取「完成」圖示，將選取的語言新增至群組。 隨即顯示語言。 新增三種或更多語言時，會顯示&#x200B;**顯示更多**&#x200B;選項。 您可以選取&#x200B;**顯示更多**&#x200B;來檢視群組中存在的所有語言。
+  1. 選取「完成」圖示，將選取的語言新增至群組。 隨即顯示語言。 新增三種或更多語言時，會顯示&#x200B;**顯示更多**&#x200B;選項。 您可以選取&#x200B;**顯示更多**&#x200B;來檢視群組中存在的所有語言。
 
-      >[!TIP]
-      >
-      > 將&#x200B;**顯示更多**&#x200B;切換為&#x200B;**顯示更少**&#x200B;並只檢視幾種語言。
+     >[!TIP]
+     >
+     > 將&#x200B;**顯示更多**&#x200B;切換為&#x200B;**顯示更少**&#x200B;並只檢視幾種語言。
 
-   1. 將滑鼠停留在群組中的語言上以編輯![編輯圖示](../user-guide/images/edit_pencil_icon.svg)或刪除![刪除](../user-guide/images/Delete_icon.svg)語言群組。
-   1. 儲存&#x200B;**設定**。
+  1. 將滑鼠停留在群組中的語言上以編輯![編輯圖示](../user-guide/images/edit_pencil_icon.svg)或刪除![刪除](../user-guide/images/Delete_icon.svg)語言群組。
+  1. 儲存&#x200B;**設定**。
 
-      >[!NOTE]
-      >
-      >身為使用者，您可以檢視設定至資料夾設定檔的語言群組。
+     >[!NOTE]
+     >
+     >身為使用者，您可以檢視設定至資料夾設定檔的語言群組。
 
 - **將來源版本標籤傳播到目標版本**：選取此選項可將來源檔案版本的標籤傳遞到轉譯的檔案。 預設為停用。
 - **翻譯專案完成後的清理**：選取此選項可設定在翻譯後自動停用或刪除翻譯專案。 依預設，會選取&#x200B;**無**，這樣專案在翻譯後就會存在。

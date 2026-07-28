@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c003b524d168d0c1826f6af44278223e2fa4bf0b
+source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ Experience Manager Guides隨附易於使用的編輯器，用於建立和編輯�
 新編輯器目前不支援下列功能。 這些功能預計將在即將發行的版本中推出。
 
 - 在啟用追蹤變更的情況下製作（任何現有的追蹤變更都會保留，並視為一般內容）
-- 「作者」檢視中的影像大小調整器
 
 
 >[!NOTE]

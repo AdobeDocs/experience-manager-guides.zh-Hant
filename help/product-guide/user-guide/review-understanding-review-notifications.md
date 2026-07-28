@@ -13,18 +13,14 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 675
 ht-degree: 0%
 
 ---
 
 # 瞭解稽核通知
-
->[!IMPORTANT]
->
-> Experience Manager Guides as a Cloud Service第2508發行版本預設會啟用本文所述的新功能。 移轉前建立的檢閱不會受到影響，並將繼續使用舊版工作流程。 如果您偏好繼續使用現有功能而不進行這些更新，請聯絡您的客戶成功團隊以停用新功能。
 
 Experience Manager Guides透過結構化的稽核工作流程，簡化作者與稽核者之間的共同作業。 作為此工作流程的一部分，通知在讓稽核任務的所有參與者瞭解情況並回應變更方面發揮著關鍵作用。
 

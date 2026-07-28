@@ -13,9 +13,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 695
 ht-degree: 0%
 
 ---
@@ -33,6 +33,19 @@ ht-degree: 0%
 若要使用Adobe Experience Manager as a Cloud Service Console使用者介面[新增數位資產至Assets Assets](#upload-assets)，請在您的案頭上選取所需的資產，並在Adobe Experience Manager使用者介面\（網頁瀏覽器\）上拖曳至目的地資料夾。 上傳資產時，請確定檔案名稱不包含任何不支援或禁止使用的字元。
 
 如需詳細資訊，請檢視Adobe Experience Manager檔案中的[檔案名稱處理與禁止使用的字元](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hant#filename-handling)區段。
+
+### 使用Assets UI介面上傳檔案
+
+當您使用&#x200B;**建立** > **檔案**&#x200B;上傳檔案，並從系統中選取檔案時，會出現&#x200B;**上傳Assets**。 此對話方塊可讓您在起始上載之前，檢閱及選擇性地重新命名檔案。 您可以保留原始檔案名稱，或根據您的需求提供新名稱。
+
+![](images/upload-file.png){width="350"}
+
+開始上傳後，狀態會顯示在&#x200B;**上傳Assets**&#x200B;對話方塊中，顯示每個要上傳檔案的上傳進度。 如果您需要在作業完成之前停止作業，可以隨時選取&#x200B;**取消**&#x200B;選項或選取[取消]圖示來取消上傳。 取消操作會終止上傳，且檔案不會新增至存放庫。
+
+![](images/upload-status.png){width="350"}
+
+上傳成功完成後，系統會顯示一則確認訊息，指出檔案已成功上傳。 此訊息會確認檔案現在可在Assets存放庫內的所選位置中使用。
+
 
 ## Adobe Experience manager 桌面應用程式
 
@@ -57,5 +70,8 @@ Adobe FrameMaker隨附強大的Adobe Experience Manager聯結器，可讓您輕�
 如需各種檔案上傳案例如何運作的詳細資訊，請檢視[管理檔案和資料夾](authoring-file-management.md#)。
 
 如果您使用Adobe Experience Manager案頭應用程式或資產大量擷取器等工具，則對重複檔案執行的動作會由Adobe Experience Manager伺服器中的設定控制。 請連絡您的系統管理員以瞭解此設定。
+
+
+
 
 **父級主題：**&#x200B;[&#x200B;管理內容](authoring.md)

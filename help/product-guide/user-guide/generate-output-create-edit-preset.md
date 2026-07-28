@@ -15,9 +15,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a99aa6be404fb5f4675f50aad8c4f282520d605f
 workflow-type: tm+mt
-source-wordcount: 129
+source-wordcount: 153
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 0%
 您可以直接將必要欄位變更為所需的預設集設定，以編輯所選的輸出預設集。
 
 此外，您可以使用&#x200B;**選項**&#x200B;下拉式選單來複製或刪除輸出預設集，如下所示。
+
+>[!NOTE]
+>
+>您無法編輯、複製或刪除範本預設集。 這些動作僅限管理員執行。 若要深入瞭解範本預設集，請參閱[範本預設集](../install-conf-guide/template-presets-output-generation.md)。
 
 
 ![](images/delete-preset-map-console.png)

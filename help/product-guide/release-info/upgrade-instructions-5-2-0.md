@@ -1,7 +1,7 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides 5.2.0版的升級指示
 description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides 5.2.0版。
-source-git-commit: a2d4731af4f4996c87dd177a6e45f1d8ebabd6cf
+source-git-commit: 575e8452f02626dab3d2bc6a040767a592588205
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 4%
@@ -26,6 +26,20 @@ ht-degree: 4%
 | 5.2.0 (UUID) | 6.5 | 24, 23, 22 |
 
 如需詳細資訊，請檢視On-Premise Installation and Configuration Guide中的[技術需求](../install-guide/download-install-technical-requirements.md)區段。
+
+<!--
+
+### Java SDK resources
+
+Use the following resources when developing custom Java plugins or integrations with Experience Manager Guides. Ensure that the SDK version matches your installed Experience Manager Guides release. 
+
+| Release | Java SDK version| Maven Central| Java API reference | 
+|---|---|---|----|
+| 5.2.0 (UUID) | 5.2.1 | [AEM Guides SDK API 5.2.1 ](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overviewhttps://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overview) | [Javadoc 5.2.1](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/5.2.1/index.html) |
+
+For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/api-reference/introduction).
+
+ -->
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -79,7 +93,7 @@ ht-degree: 4%
 - 如果您是使用4.3.x、4.2、4.2.1 (Hotfix 4.2.1.3)、4.1或4.1.x版，則必須先升級至4.4版，才能升級至5.1.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
+- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
 
 ## Experience Manager Guides 5.2.0的升級程式
 

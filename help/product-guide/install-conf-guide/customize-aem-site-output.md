@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
+source-wordcount: '3264'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,9 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | 布林值\(true/false\)。 如果您想使用頁面標題產生輸出，則將此屬性設定為true。 預設會設定為使用檔案名稱。<br> **預設值**： false |
 
+>[!NOTE]
+>
+> `aemsite.pagetitle`屬性會定義AEM網站頁面標題的預設資料夾層級行為。 如果環境的AEM Sites預設集中提供選取`Topic filename`或`Topic title`的選項，預設層級選取會優先並覆寫該輸出的`aemsite.pagetitle`資料夾層級組態。 例如，如果`aemsite.pagetitle=true`但使用者在輸出預設集中選取&#x200B;*主題檔案名稱*，則會使用主題檔案名稱。 如果`aemsite.pagetitle=false`但使用者選取&#x200B;*主題標題*，則會使用主題標題。
 
 >[!TAB 內部部署]
 

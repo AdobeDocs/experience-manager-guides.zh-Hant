@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2277'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,6 @@ ht-degree: 0%
    選取此選項時，就會發生新版本管理機制，並覆寫適用於任何後續上傳的預設上傳行為，這會將上傳檔案的內容儲存為新版本。 如果取消選取選項，AEM Guides會使用AEM的預設版本管理機制。
 
 1. 按一下&#x200B;**儲存**。
-
-
->[!NOTE]
->
-> 如果您啟用屬性&#x200B;**為已上傳的檔案建立新版本** \(create.ver.new.content\)，並使用&#x200B;**Assets UI**&#x200B;大量上傳資產，則可以以70個或以下的批次上傳檔案。
 
 >[!ENDTABS]
 
