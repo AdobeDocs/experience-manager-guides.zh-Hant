@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: d24dd017dcedb08e71cfbcf6c4f0aabdc8f20d85
+source-git-commit: 2108fea9ba6d35a9439f672b66e5d25aeb19f0ca
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2548'
 ht-degree: 10%
 
 ---
@@ -15,666 +15,676 @@ ht-degree: 10%
 - [[!DNL AEM Guides] 概觀](overview.md)
 - [免責聲明](./user-guide/rebranding-disclaimer.md)
 - 發行資訊 {#release-info}
-   - [AEM Guides發行藍圖](./release-info/aem-guides-releases-roadmap.md)
-   - 發行說明 {#release-notes}
-      - 雲端服務 {#cloud-release-notes}
-         - {hide-from-toc}[部署指示](./release-info/deploy-xml-on-aemaacs.md)
-         - {hide-from-toc}[雲端發行版本](./release-info/latest-release-info-cs.md)
-         - 2026版本 {#2026-releases}
-            - 2026.07.0版 {#2607-release}
-               - [已修正的問題](./release-info/fixed-issues-2026-07-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2026-07-0.md)
-            - 2026.06.0版本 {#2606-release}
-               - [新增功能](./release-info/whats-new-2026-06-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2026-06-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2026-06-0.md)
-            - 2026.05.0 SP1版本 {#2605-sp1-release}
-               - [已修正的問題](./release-info/fixed-issues-2026-05-0-sp1.md)
-            - 2026.05.0版本 {#2605-release}
-               - [新增功能](./release-info/whats-new-2026-05-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2026-05-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2026-05-0.md)
-            - 2026.04.0版本 {#2604-release}
-               - [新增功能](./release-info/whats-new-2026-04-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2026-04-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2026-04-0.md)
-            - 2026.03.0版 {#2603-release}
-               - {hide-from-toc}[新功能](./release-info/whats-new-2026-03-0.md)
-               - {hide-from-toc}[已修正的問題](./release-info/fixed-issues-2026-03-0.md)
-               - {hide-from-toc}[升級指示](./release-info/upgrade-instructions-2026-03-0.md)
-            - 2026.01.0版 {#2601-release}
-               - [新增功能](./release-info/whats-new-2026-01-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2026-01-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2026-01-0.md)
-         - 2025版本 {#2025-releases}
-            - 2025.11.0版本 {#2511-release}
-               - [新增功能](./release-info/whats-new-2025-11-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2025-11-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2025-11-0.md)
-            - 2025.10.0版本 {#2510-release}
-               - [新增功能](./release-info/whats-new-2025-10-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2025-10-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2025-10-0.md)
-            - 2025.08.0版本 {#2508-release}
-               - [新增功能](./release-info/whats-new-2025-08-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2025-08-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2025-08-0.md)
-            - 2025.07.0版本 {#2507-release}
-               - [新增功能](./release-info/whats-new-2025-07-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2025-07-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2025-07-0.md)
-            - 2025.06.0版本 {#2506-release}
-               - [新增功能](./release-info/whats-new-2025-06-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2025-06-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2025-06-0.md)
-            - 2025.04.0版本 {#2504-release}
-               - [新增功能](./release-info/whats-new-2025-04-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2025-04-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2025-04-0.md)
-            - 2025.02.0版本 {#2502-release}
-               - [新增功能](./release-info/whats-new-2025-02-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2025-02-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2025-02-0.md)
-         - 2024版本 {#2024-releases}
-            - 2024.12.0版 {#2412-release}
-               - [已修正的問題](./release-info/fixed-issues-2024-12-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2024-12-0.md)
-            - 2024.10.0 SP1版本 {#2410-0-sp1-release}
-               - [已修正的問題](./release-info/fixed-issues-2024-10-0-sp1.md)
-            - 2024.10.0版本 {#2410-0-release}
-               - [新增功能](./release-info/whats-new-2024-10-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2024-10-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2024-10-0.md)
-            - 2024.6.0版本 {#2406-release}
-               - [新增功能](./release-info/whats-new-2024-06-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2024-06-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2024-06-0.md)
-            - 2024.4.0版本 {#2404-release}
-               - [新增功能](./release-info/whats-new-2024-04-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2024-04-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2024-04-0.md)
-            - 2024.2.0版本 {#2402-release}
-               - [新增功能](./release-info/whats-new-2024-2-0.md)
-               - [已修正的問題](./release-info/fixed-issues-2024-2-0.md)
-               - [升級指示](./release-info/upgrade-instructions-2024-2-0.md)
-         - 2023版本 {#2023-releases}
-            - 12月發行 {#2312-release}
-               - [新增功能](./release-info/whats-new-2023-12-0.md)
-               - [發行說明](./release-info/release-notes-2023-12-0.md)
-            - 11月發行 {#2311-release}
-               - [新增功能](./release-info/whats-new-2023-11-0.md)
-               - [發行說明](./release-info/release-notes-2023-11-0.md)
-            - 10月發行 {#2310-release}
-               - [新增功能](./release-info/whats-new-2023-10-0.md)
-               - [發行說明](./release-info/release-notes-2023-10-0.md)
-            - 9月發行 {#2309-release}
-               - [新增功能](./release-info/whats-new-2023-9-0.md)
-               - [發行說明](./release-info/release-notes-2023-9-0.md)
-            - 7月發行 {#2307-release}
-               - [新增功能](./release-info/whats-new-2023-7-0.md)
-               - [發行說明](./release-info/release-notes-2023-7-0.md)
-            - 6月發行版本 {#2306-release}
-               - [新增功能](./release-info/whats-new-2023-6-0.md)
-               - [發行說明](./release-info/release-notes-2023-6-0.md)
-            - 4月發行 {#2304-release}
-               - [新增功能](./release-info/whats-new-2023-4-0.md)
-               - [發行說明](./release-info/release-notes-2023-4-0.md)
-            - 3月發行 {#2303-release}
-               - [新增功能](./release-info/whats-new-2023-3-0.md)
-               - [發行說明](./release-info/release-notes-2023-3-0.md)
-            - 2月發行 {#2302-release}
-               - [新增功能](./release-info/whats-new-2023-2-0.md)
-               - [發行說明](./release-info/release-notes-2023-2-0.md)
-         - 2022版本 {#2022-releases}
-            - [11月發行說明](./release-info/release-notes-2022-11-0.md)
-            - [10月發行說明](./release-info/release-notes-2022-10-0.md)
-            - [9月發行說明](./release-info/release-notes-2022-9-0.md)
-            - [8月發行說明](./release-info/release-notes-2022-8-0.md)
-            - [5月發行說明](./release-info/release-notes-2022-5-0.md)
-            - [4月發行說明](./release-info/release-notes-2022-4-0.md)
-            - [3月發行說明](./release-info/release-notes-2022-3-0.md)
-            - [2月發行說明](./release-info/release-notes-2022-2-0.md)
-            - [1月發行說明](./release-info/release-notes-2022-1-0.md)
-      - 內部部署/Managed Services {#on-prem-release-notes}
-         - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
-         - 5.2.0版 {#520-release}
-            - [新增功能](./release-info/whats-new-5-2-0.md)
-            - [已修正的問題](./release-info/fixed-issues-5-2-0.md)
-            - [升級指示](./release-info/upgrade-instructions-5-2-0.md)
-         - 5.1.0 SP4版本 {#510-sp4-release}
-            - [已修正的問題](./release-info/fixed-issues-5-1-0-sp4.md)
-            - [升級指示](./release-info/upgrade-instructions-5-1-0-sp4.md)
-         - 5.1.0 SP3版本 {#510-sp3-release}
-            - [新增功能](./release-info/whats-new-5-1-3.md)
-            - [已修正的問題](./release-info/fixed-issues-5-1-0-sp3.md)
-            - [升級指示](./release-info/upgrade-instructions-5-1-0-sp3.md)
-         - 5.1.0 SP1版本 {#510-sp1-release}
-            - [已修正的問題](./release-info/fixed-issues-5-1-0-sp1.md)
-            - [升級指示](./release-info/upgrade-instructions-5-1-0-sp1.md)
-         - 5.1.0版 {#510-release}
-            - [新增功能](./release-info/whats-new-5-1-0.md)
-            - [已修正的問題](./release-info/fixed-issues-5-1-0.md)
-            - [升級指示](./release-info/upgrade-instructions-5-1-0.md)
-         - 5.0.0 SP4版本 {#500-sp4-release}
-            - [已修正的問題](./release-info/fixed-issues-5-0-0-sp4.md)
-            - [升級指示](./release-info/upgrade-instructions-5-0-0-sp4.md)
-         - 5.0.0 SP3版本 {#500-sp3-release}
-            - [已修正的問題](./release-info/fixed-issues-5-0-0-sp3.md)
-            - [升級指示](./release-info/upgrade-instructions-5-0-0-sp3.md)
-         - 5.0.0 SP2版本 {#500-sp2-release}
-            - [已修正的問題](./release-info/fixed-issues-5-0-0-sp2.md)
-            - [升級指示](./release-info/upgrade-instructions-5-0-0-sp2.md)
-         - 5.0.0 SP1版本 {#500-sp1-release}
-            - [已修正的問題](./release-info/fixed-issues-5-0-0-sp1.md)
-            - [升級指示](./release-info/upgrade-instructions-5-0-0-sp1.md)
-         - 5.0.0版 {#500-release}
-            - [新增功能](./release-info/whats-new-5-0-0.md)
-            - [已修正的問題](./release-info/fixed-issues-5-0-0.md)
-            - [升級指示](./release-info/upgrade-instructions-5-0-0.md)
-         - 4.6.0 SP4版本 {#460-sp4-release}
-            - [已修正的問題](./release-info/fixed-issues-4-6-0-sp4.md)
-            - [升級指示](./release-info/upgrade-instructions-4-6-0-sp4.md)
-         - 4.6.0 SP3版本 {#460-sp3-release}
-            - [已修正的問題](./release-info/fixed-issues-4-6-0-sp2.md)
-            - [升級指示](./release-info/upgrade-instructions-4-6-0-sp2.md)
-         - 4.6.0 SP1版本 {#460-sp1-release}
-            - [已修正的問題](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [升級指示](./release-info/upgrade-instructions-4-6-0-sp1.md)
-         - 4.6.0版 {#460-release}
-            - [新增功能](./release-info/whats-new-4-6.md)
-            - [已修正的問題](./release-info/fixed-issues-4-6-0.md)
-            - [升級指示](./release-info/upgrade-instructions-4-6-0.md)
-         - 4.4.0版 {#440-release}
-            - [新增功能](./release-info/whats-new-4-4.md)
-            - [已修正的問題](./release-info/fixed-issues-4-4.md)
-            - [升級指示](./release-info/upgrade-instructions-4-4.md)
-         - 4.3.1.5版本 {#4315-release}
-            - [已修正的問題](./release-info/fixed-issues-4-3-1-5.md)
-            - [升級指示](./release-info/upgrade-instructions-4-3-1-5.md)
-         - 4.3.0版 {#43-release}
-            - 新增功能 {#43-whats-new}
-               - [4.3.1新增功能](./release-info/whats-new-4-3-1-release.md)
-               - [4.3.0新增功能](./release-info/whats-new-4-3-release.md)
-            - 發行說明 {#43-release-notes}
-               - [4.3.1 發行說明](./release-info/release-notes-4-3-1.md)
-               - [4.3.0 發行說明](./release-info/release-notes-4-3.md)
-         - 4.2版 {#42-release}
-            - 新增功能 {#42-whats-new}
-               - [4.2.1新增功能](./release-info/whats-new-4-2-1-release.md)
-               - [4.2新增功能](./release-info/whats-new-4-2-release.md)
-            - 發行說明 {#42-release-notes}
-               - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
-               - [4.2發行說明](./release-info/release-notes-4-2.md)
-         - [4.1.x發行說明](./release-info/release-notes-4-1.md)
-         - [4.0.x發行說明](./release-info/release-notes-4-0.md)
-         - [3.8.x發行說明](./release-info/release-notes-3-8.md)
+  - [AEM Guides發行藍圖](./release-info/aem-guides-releases-roadmap.md)
+  - 發行說明 {#release-notes}
+    - 雲端服務 {#cloud-release-notes}
+      - {hide-from-toc}[部署指示](./release-info/deploy-xml-on-aemaacs.md)
+      - {hide-from-toc}[雲端發行版本](./release-info/latest-release-info-cs.md)
+      - 2026版本 {#2026-releases}
+        - 2026.08.0版本 {#2608-release}
+          - [新增功能](./release-info/whats-new-2026-08-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2026-08-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2026-08-0.md)
+        - 2026.07.0版 {#2607-release}
+          - [已修正的問題](./release-info/fixed-issues-2026-07-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2026-07-0.md)
+        - 2026.06.0版本 {#2606-release}
+          - [新增功能](./release-info/whats-new-2026-06-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2026-06-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2026-06-0.md)
+        - 2026.05.0 SP1版本 {#2605-sp1-release}
+          - [已修正的問題](./release-info/fixed-issues-2026-05-0-sp1.md)
+        - 2026.05.0版本 {#2605-release}
+          - [新增功能](./release-info/whats-new-2026-05-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2026-05-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2026-05-0.md)
+        - 2026.04.0版本 {#2604-release}
+          - [新增功能](./release-info/whats-new-2026-04-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2026-04-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2026-04-0.md)
+        - 2026.03.0版 {#2603-release}
+          - {hide-from-toc}[新功能](./release-info/whats-new-2026-03-0.md)
+          - {hide-from-toc}[已修正的問題](./release-info/fixed-issues-2026-03-0.md)
+          - {hide-from-toc}[升級指示](./release-info/upgrade-instructions-2026-03-0.md)
+        - 2026.01.0版 {#2601-release}
+          - [新增功能](./release-info/whats-new-2026-01-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2026-01-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2026-01-0.md)
+      - 2025版本 {#2025-releases}
+        - 2025.11.0版本 {#2511-release}
+          - [新增功能](./release-info/whats-new-2025-11-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2025-11-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2025-11-0.md)
+        - 2025.10.0版本 {#2510-release}
+          - [新增功能](./release-info/whats-new-2025-10-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2025-10-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2025-10-0.md)
+        - 2025.08.0版本 {#2508-release}
+          - [新增功能](./release-info/whats-new-2025-08-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2025-08-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2025-08-0.md)
+        - 2025.07.0版本 {#2507-release}
+          - [新增功能](./release-info/whats-new-2025-07-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2025-07-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2025-07-0.md)
+        - 2025.06.0版本 {#2506-release}
+          - [新增功能](./release-info/whats-new-2025-06-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2025-06-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2025-06-0.md)
+        - 2025.04.0版本 {#2504-release}
+          - [新增功能](./release-info/whats-new-2025-04-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2025-04-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2025-04-0.md)
+        - 2025.02.0版本 {#2502-release}
+          - [新增功能](./release-info/whats-new-2025-02-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2025-02-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2025-02-0.md)
+      - 2024版本 {#2024-releases}
+        - 2024.12.0版 {#2412-release}
+          - [已修正的問題](./release-info/fixed-issues-2024-12-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2024-12-0.md)
+        - 2024.10.0 SP1版本 {#2410-0-sp1-release}
+          - [已修正的問題](./release-info/fixed-issues-2024-10-0-sp1.md)
+        - 2024.10.0版本 {#2410-0-release}
+          - [新增功能](./release-info/whats-new-2024-10-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2024-10-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2024-10-0.md)
+        - 2024.6.0版本 {#2406-release}
+          - [新增功能](./release-info/whats-new-2024-06-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2024-06-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2024-06-0.md)
+        - 2024.4.0版本 {#2404-release}
+          - [新增功能](./release-info/whats-new-2024-04-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2024-04-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2024-04-0.md)
+        - 2024.2.0版本 {#2402-release}
+          - [新增功能](./release-info/whats-new-2024-2-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2024-2-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2024-2-0.md)
+      - 2023版本 {#2023-releases}
+        - 12月發行 {#2312-release}
+          - [新增功能](./release-info/whats-new-2023-12-0.md)
+          - [發行說明](./release-info/release-notes-2023-12-0.md)
+        - 11月發行 {#2311-release}
+          - [新增功能](./release-info/whats-new-2023-11-0.md)
+          - [發行說明](./release-info/release-notes-2023-11-0.md)
+        - 10月發行 {#2310-release}
+          - [新增功能](./release-info/whats-new-2023-10-0.md)
+          - [發行說明](./release-info/release-notes-2023-10-0.md)
+        - 9月發行 {#2309-release}
+          - [新增功能](./release-info/whats-new-2023-9-0.md)
+          - [發行說明](./release-info/release-notes-2023-9-0.md)
+        - 7月發行 {#2307-release}
+          - [新增功能](./release-info/whats-new-2023-7-0.md)
+          - [發行說明](./release-info/release-notes-2023-7-0.md)
+        - 6月發行版本 {#2306-release}
+          - [新增功能](./release-info/whats-new-2023-6-0.md)
+          - [發行說明](./release-info/release-notes-2023-6-0.md)
+        - 4月發行 {#2304-release}
+          - [新增功能](./release-info/whats-new-2023-4-0.md)
+          - [發行說明](./release-info/release-notes-2023-4-0.md)
+        - 3月發行 {#2303-release}
+          - [新增功能](./release-info/whats-new-2023-3-0.md)
+          - [發行說明](./release-info/release-notes-2023-3-0.md)
+        - 2月發行 {#2302-release}
+          - [新增功能](./release-info/whats-new-2023-2-0.md)
+          - [發行說明](./release-info/release-notes-2023-2-0.md)
+      - 2022版本 {#2022-releases}
+        - [11月發行說明](./release-info/release-notes-2022-11-0.md)
+        - [10月發行說明](./release-info/release-notes-2022-10-0.md)
+        - [9月發行說明](./release-info/release-notes-2022-9-0.md)
+        - [8月發行說明](./release-info/release-notes-2022-8-0.md)
+        - [5月發行說明](./release-info/release-notes-2022-5-0.md)
+        - [4月發行說明](./release-info/release-notes-2022-4-0.md)
+        - [3月發行說明](./release-info/release-notes-2022-3-0.md)
+        - [2月發行說明](./release-info/release-notes-2022-2-0.md)
+        - [1月發行說明](./release-info/release-notes-2022-1-0.md)
+    - 內部部署/Managed Services {#on-prem-release-notes}
+      - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
+      - 5.2.0版 {#520-release}
+        - [新增功能](./release-info/whats-new-5-2-0.md)
+        - [已修正的問題](./release-info/fixed-issues-5-2-0.md)
+        - [升級指示](./release-info/upgrade-instructions-5-2-0.md)
+      - 5.1.0 SP4版本 {#510-sp4-release}
+        - [已修正的問題](./release-info/fixed-issues-5-1-0-sp4.md)
+        - [升級指示](./release-info/upgrade-instructions-5-1-0-sp4.md)
+      - 5.1.0 SP3版本 {#510-sp3-release}
+        - [新增功能](./release-info/whats-new-5-1-3.md)
+        - [已修正的問題](./release-info/fixed-issues-5-1-0-sp3.md)
+        - [升級指示](./release-info/upgrade-instructions-5-1-0-sp3.md)
+      - 5.1.0 SP1版本 {#510-sp1-release}
+        - [已修正的問題](./release-info/fixed-issues-5-1-0-sp1.md)
+        - [升級指示](./release-info/upgrade-instructions-5-1-0-sp1.md)
+      - 5.1.0版 {#510-release}
+        - [新增功能](./release-info/whats-new-5-1-0.md)
+        - [已修正的問題](./release-info/fixed-issues-5-1-0.md)
+        - [升級指示](./release-info/upgrade-instructions-5-1-0.md)
+      - 5.0.0 SP4版本 {#500-sp4-release}
+        - [已修正的問題](./release-info/fixed-issues-5-0-0-sp4.md)
+        - [升級指示](./release-info/upgrade-instructions-5-0-0-sp4.md)
+      - 5.0.0 SP3版本 {#500-sp3-release}
+        - [已修正的問題](./release-info/fixed-issues-5-0-0-sp3.md)
+        - [升級指示](./release-info/upgrade-instructions-5-0-0-sp3.md)
+      - 5.0.0 SP2版本 {#500-sp2-release}
+        - [已修正的問題](./release-info/fixed-issues-5-0-0-sp2.md)
+        - [升級指示](./release-info/upgrade-instructions-5-0-0-sp2.md)
+      - 5.0.0 SP1版本 {#500-sp1-release}
+        - [已修正的問題](./release-info/fixed-issues-5-0-0-sp1.md)
+        - [升級指示](./release-info/upgrade-instructions-5-0-0-sp1.md)
+      - 5.0.0版 {#500-release}
+        - [新增功能](./release-info/whats-new-5-0-0.md)
+        - [已修正的問題](./release-info/fixed-issues-5-0-0.md)
+        - [升級指示](./release-info/upgrade-instructions-5-0-0.md)
+      - 4.6.0 SP4版本 {#460-sp4-release}
+        - [已修正的問題](./release-info/fixed-issues-4-6-0-sp4.md)
+        - [升級指示](./release-info/upgrade-instructions-4-6-0-sp4.md)
+      - 4.6.0 SP3版本 {#460-sp3-release}
+        - [已修正的問題](./release-info/fixed-issues-4-6-0-sp2.md)
+        - [升級指示](./release-info/upgrade-instructions-4-6-0-sp2.md)
+      - 4.6.0 SP1版本 {#460-sp1-release}
+        - [已修正的問題](./release-info/fixed-issues-4-6-0-sp1.md)
+        - [升級指示](./release-info/upgrade-instructions-4-6-0-sp1.md)
+      - 4.6.0版 {#460-release}
+        - [新增功能](./release-info/whats-new-4-6.md)
+        - [已修正的問題](./release-info/fixed-issues-4-6-0.md)
+        - [升級指示](./release-info/upgrade-instructions-4-6-0.md)
+      - 4.4.0版 {#440-release}
+        - [新增功能](./release-info/whats-new-4-4.md)
+        - [已修正的問題](./release-info/fixed-issues-4-4.md)
+        - [升級指示](./release-info/upgrade-instructions-4-4.md)
+      - 4.3.1.5版本 {#4315-release}
+        - [已修正的問題](./release-info/fixed-issues-4-3-1-5.md)
+        - [升級指示](./release-info/upgrade-instructions-4-3-1-5.md)
+      - 4.3.0版 {#43-release}
+        - 新增功能 {#43-whats-new}
+          - [4.3.1新增功能](./release-info/whats-new-4-3-1-release.md)
+          - [4.3.0新增功能](./release-info/whats-new-4-3-release.md)
+        - 發行說明 {#43-release-notes}
+          - [4.3.1 發行說明](./release-info/release-notes-4-3-1.md)
+          - [4.3.0 發行說明](./release-info/release-notes-4-3.md)
+      - 4.2版 {#42-release}
+        - 新增功能 {#42-whats-new}
+          - [4.2.1新增功能](./release-info/whats-new-4-2-1-release.md)
+          - [4.2新增功能](./release-info/whats-new-4-2-release.md)
+        - 發行說明 {#42-release-notes}
+          - [4.2.1 發行說明](./release-info/release-notes-4-2-1.md)
+          - [4.2發行說明](./release-info/release-notes-4-2.md)
+      - [4.1.x發行說明](./release-info/release-notes-4-1.md)
+      - [4.0.x發行說明](./release-info/release-notes-4-0.md)
+      - [3.8.x發行說明](./release-info/release-notes-3-8.md)
 - 使用手冊（新UI） {#user-guide}
-   - 簡介 {#about-aemg}
-      - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides]個運作中及主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
-         - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
-   - 首頁 {#home-page}
-      - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
-      - [存放庫介面](./user-guide/home-page-repository-view.md)
-   - 作者內容 {#author-content}
-      - [製作概觀](./user-guide/authoring-content.md)
-      - [使用AEM Guides創作內容的方法](./user-guide/authoring-content-xml-doc.md)
-      - 編輯器 {#work-with-editor}
-         - [編輯器簡介](./user-guide/web-editor.md)
-         - [啟動編輯器](./user-guide/web-editor-launch-editor.md)
-         - [在編輯器中編輯主題](./user-guide/web-editor-edit-topics.md)
-         - 主題建立和預覽 {#create-preview-topics}
-            - [建立和預覽主題](./user-guide/create-preview-topics.md)
-            - [建立主題](./user-guide/web-editor-create-topics.md)
-            - [預覽主題](./user-guide/web-editor-preview-topics.md)
-         - {hide-from-toc}[瞭解編輯器功能](./user-guide/web-editor-features.md)
-         - 瞭解編輯器介面和功能 {#editor-interface-features}
-            - [概觀](./user-guide/intro-editor-interface.md)
-            - [標題列](./user-guide/web-editor-header-bar.md)
-            - [標籤列](./user-guide/web-editor-tab-bar.md)
-            - [工具列](./user-guide/web-editor-toolbar.md)
-            - [左側面板](./user-guide/web-editor-left-panel.md)
-            - [內容編輯區域](./user-guide/web-editor-content-editing-area.md)
-            - [右側面板](./user-guide/web-editor-right-panel.md)
-            - [搜尋面板](./user-guide/search-panel-explorer.md)
-         - [編輯器中的其他功能](./user-guide/web-editor-other-features.md)
-         - [編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
-         - [編輯器檢視](./user-guide/web-editor-views.md)
-         - [支援Schematron檔案](./user-guide/support-schematron-file.md)
-         - [從編輯器編寫Markdown檔案](./user-guide/web-editor-markdown-topic.md)
-         - [將引文新增至您的內容](./user-guide/web-editor-apply-citations.md)
-         - [使用來自您的資料來源的資料](./user-guide/web-editor-content-snippet.md)
-         - {hide-from-toc}[使用Git Connector (Beta)匯入內容](./user-guide/web-editor-git-connector.md)
-         - [檔案狀態](./user-guide/web-editor-document-states.md)
-         - [使用標籤](./user-guide/web-editor-use-label.md)
-         - [編輯器設定](./user-guide/config-editor-settings.md)
-      - 地圖編輯器 {#map-editor}
-         - [地圖編輯器簡介](./user-guide/map-editor.md)
-         - [建立地圖](./user-guide/map-editor-create-map.md)
-         - [根據自訂範本建立地圖](./user-guide/create-maps-customized-templates.md)
-         - [地圖編輯器功能](./user-guide/map-editor-advanced-map-editor.md)
-         - [下載檔案](./user-guide/authoring-download-assets.md)
-         - [地圖編輯器中的其他功能](./user-guide/map-editor-other-features.md)
-      - DITAVAL編輯器 {#ditaval-editor}
-         - [使用DITAVAL編輯器](./user-guide/ditaval-editor.md)
-      - 製作內容的案頭工具 {#author-using-desktop-tools}
-         - [使用案頭工具製作內容](./user-guide/author-desktop-tools.md)
-   - 檢閱內容 {#review}
-      - [評論簡介](./user-guide/review.md)
-      - [建立DITA專案](./user-guide/authoring-create-dita-project.md)
-      - [傳送主題以供檢閱](./user-guide/review-send-topics-for-review.md)
-      - [檢閱主題](./user-guide/review-topics.md)
-      - [使用通知重新指派稽核任務](./user-guide/reassign-review-using-notification.md)
-      - [以檢閱者身分完成檢閱任務](./user-guide/review-complete-review-tasks.md)
-      - [處理稽核意見](./user-guide/review-address-review-comments.md)
-      - [關閉或請求重新稽核稽核任務](./user-guide/review-close-review-task.md)
-      - [使用「稽核儀表板」管理稽核任務](./user-guide/review-manage-tasks-review-dashboard.md)
-      - [檢視完成的稽核任務](./user-guide/review-view-completed-task.md)
-      - [瞭解稽核通知](./user-guide/review-understanding-review-notifications.md)
-   - 使用Adobe Workfront共同作業 {#workfront-integration}
-      - [Workfront與Experience Manager Guides整合](./user-guide/workfront-integration.md)
-   - 中繼資料和標籤 {#manage-metadata}
-      - [管理中繼資料](./user-guide/manage-metadata.md)
-      - [在AEM中使用中繼資料](./user-guide/metadata-dita.md)
-      - [智慧標籤](./user-guide/web-editor-smart-tagging.md)
-      - [大量標籤DITA內容](./user-guide/map-editor-bulk-tagging.md)
-   - 地圖管理與發佈 {#map-management-publishing}
-      - [地圖主控台概觀](./user-guide/map-console-overview.md)
-      - [在地圖控制檯中開啟檔案](./user-guide/open-files-map-console.md)
-      - 報告 {#reports-aem-guide}
-         - [報表簡介](./user-guide/reports-intro.md)
-         - [Map主控台的DITA map報表](./user-guide/reports-web-editor.md)
-         - [Map儀表板的DITA map報表](./user-guide/reports-ditamap.md)
-         - [內容重複使用報表](./user-guide/reports-content-reuse.md)
-         - [轉換狀態報表](./user-guide/reports-convertion-status.md)
-         - [還原的檔案版本記錄報告](./user-guide/reports-reverted-file-version-history.md)
-      - 內容翻譯 {#translate-content}
-         - [內容翻譯概觀](./user-guide/translation.md)
-         - [內容翻譯的最佳實務](./user-guide/translation-first-time.md)
-         - [從地圖主控台翻譯檔案](./user-guide/translate-documents-web-editor.md)
-         - [檢視翻譯狀態](./user-guide/translation-view-trans-state-6234.md)
-         - [翻譯修改的主題](./user-guide/translation-modified-topics-6234.md)
-      - 產生輸出 {#output-gen}
-         - [輸出產生基本概念](./user-guide/generate-output.md)
-         - AEM Guides中的輸出預設集 {#output-presets-aemg}
-            - [輸出預設集簡介](./user-guide/generate-output-understand-presets.md)
-            - AEM Sites {#aem-sites}
-               - [地圖主控台中的AEM Sites預設集](./user-guide/generate-output-aem-site-web-editor.md)
-               - [地圖儀表板中的AEM Sites預設集](./user-guide/generate-output-aem-site-map-dashboard.md)
-            - PDF {#pdf-preset}
-               - [PDF輸出預設集概述](./user-guide/generate-output-pdf.md)
-               - [DITA-OT PDF輸出預設集](./user-guide/generate-output-pdf-dita-ot.md)
-               - [原生PDF輸出預設集](./web-editor/native-pdf-web-editor.md)
-            - [知識庫](./user-guide/generate-output-knowledge-base.md)
-            - [HTML5](./user-guide/generate-output-html5.md)
-            - [ePub](./user-guide/generate-output-epub.md)
-            - [自訂](./user-guide/generate-output-custom.md)
-            - [JSON](./user-guide/generate-output-json.md)
-         - [編輯、複製或刪除輸出預設集](./user-guide/generate-output-create-edit-preset.md)
-         - 條件化內容 {#conditional-content}
-            - [使用條件預設集](./user-guide/generate-output-use-condition-presets.md)
-            - [條件屬性分析](./user-guide/generate-output-conditional-attribute-profiling.md)
-         - 使用基準線 {#work-with-baseline}
-            - [從Map主控台建立和管理基準線](./user-guide/web-editor-baseline.md)
-            - [從「地圖」控制面板建立和管理基準線](./user-guide/generate-output-use-baseline-for-publishing.md)
-            - [從Map主控台建立和管理新基準線](./user-guide/web-editor-baseline-v2.md)
-            - [新基準線移轉常見問題集](./user-guide/new-baseline-migration-faq.md)
-         - [管理全域和資料夾設定檔輸出預設集](./user-guide/web-editor-manage-output-presets.md)
-         - [使用變數來設定目的地路徑、網站名稱或檔案名稱選項](./user-guide/generate-output-use-variables.md)
-         - [使用DITA-OT將中繼資料傳遞至輸出](./user-guide/pass-metadata-dita-ot.md)
-         - 產生輸出 {#generate-output}
-            - [產生DITA map的輸出](./user-guide/generate-output-for-a-dita-map.md)
-            - [產生知識庫輸出](./user-guide/web-editor-article-publishing.md)
-            - 單一主題發佈 {#single-topic-publishing}
-               - [發佈內容片段](./user-guide/publish-content-fragment.md)
-               - [發佈體驗片段](./user-guide/publish-experience-fragment.md)
-               - [發佈AEM Sites頁面](./user-guide/publish-aem-sites.md)
-               - [增量輸出產生](./user-guide/generate-output-aem-site.md)
-         - [使用地圖集合產生輸出](./user-guide/generate-output-use-map-collection-output-generation.md)
-         - [使用新的對應集合來產生輸出](./user-guide/generate-output-use-new-map-collection-output-generation.md)
-         - [管理輸出產生程式](./user-guide/generate-output-manage-process.md)
-         - [使用發佈儀表板管理發布任務](./user-guide/generate-output-publish-dashboard.md)
-         - [基本疑難排解](./user-guide/generate-output-basic-troubleshooting.md)
-         - [關於發佈工作流程與擴充性的常見問題集](./user-guide/publishing-scalability-faq.md)
-      - 大量啟用內容 {#bulk-activation}
-         - [大量啟用已發佈的內容](./user-guide/conf-bulk-activation.md)
-         - [建立大量啟用地圖集合](./user-guide/conf-bulk-activation-create-map-collection.md)
-         - [啟動輸出](./user-guide/conf-bulk-activation-publish-map-collection.md)
-         - [編輯大量啟用地圖集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
-         - [刪除大量啟用地圖集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
-         - [管理DITA來源資產的復寫](./user-guide/dita-assets-replication-aem-sites.md)
-   - FrameMaker檔案的輸出產生 {#generate-fm-output}
-      - [FrameMaker輸出產生基本需知](./user-guide/fm-output-generatation.md)
-      - 支援的預設集 {#fm-docs-generating-presets}
-         - [用來產生FrameMaker檔案的預設集](./user-guide/fm-output-understand-presets.md)
-         - [PDF](./user-guide/fm-output-pdf-preset.md)
-         - [HTML5](./user-guide/fm-output-html5-preset.md)
-         - [ePub](./user-guide/fm-output-epub-preset.md)
-      - [產生.book或.fm檔案的輸出](./user-guide/fm-output-generate.md)
-      - [檢視輸出產生工作的狀態](./user-guide/fm-output-view-status.md)
-   - AEM Guides中的AI助理 {#ai-assistant-aem}
-      - [Adobe Generative AI使用者披露](./user-guide/adobe-generative-ai-disclosures.md)
-      - [AI 助理概觀](./user-guide/ai-assistant.md)
-      - [AI支援的智慧型協助以搜尋內容](./user-guide/ai-based-smart-help.md)
-      - [AI助理撰寫以聰明地撰寫檔案](./user-guide/ai-assistant-right-panel.md)
-      - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
-      - [常見問題](./user-guide/ai-assistant-faq.md)
-   - 管理學習內容 {#learning-training-content}
-      - 快速入門手冊 {#get-started}
-         - 簡介 {#intro-lc}
-            - {hide-from-toc}[發行說明](./release-info-lt/release-notes-lt-2025-12-v2.md)
-            - {hide-from-toc}[發行說明](./release-info-lt/release-notes-lt-2026-02-v3.md)
-            - [學習與訓練內容概觀](./learning-content/intro.md)
-         - 設定您的課程 {#setup-course}
-            - [課程總覽](./learning-content/course-overview.md)
-            - [探索介面和先決條件](./learning-content/access-lc-interface-preq.md)
-            - [建立您的第一個課程](./learning-content/create-first-course.md)
-            - [瞭解課程經理基本知識](./learning-content/course-manager-basics.md)
-            - [管理您的課程](./learning-content/manage-course.md)
-         - 建立及自訂學習內容 {#customize-lc}
-            - [概觀](./learning-content/lc-overview.md)
-            - [建立主題](./learning-content/create-content.md)
-            - [編輯主題](./learning-content/edit-content.md)
-            - [新增基本建置區塊](./learning-content/lc-basic-blocks.md)
-            - [使用互動式Widget](./learning-content/lc-widgets.md)
-            - [插入功能表中的其他選項](./learning-content/lc-other-insert-options.md)
-            - [使用內嵌樣式](./learning-content/lc-inline-styles.md)
-         - 建立及管理測驗 {#quiz}
-            - [測驗概觀](./learning-content/quiz-overview.md)
-            - [建立測驗](./learning-content/create-quiz.md)
-            - [編輯測驗](./learning-content/edit-quiz.md)
-            - [在測驗中插入問題](./learning-content/quiz-insert-questions.md)
-            - [測驗屬性](./learning-content/quiz-properties.md)
-            - 問題庫 {#question-bank}
-               - [建立問題庫](./learning-content/create-qb.md)
-               - [插入來自問題庫的問題](./learning-content/insert-questions.md)
-         - 發佈您的課程 {#publish-course}
-            - [關於課程發佈](./learning-content/publish-overview.md)
-            - [支援的預設集](./learning-content/course-presets.md)
-            - 以SCORM格式發佈課程 {#scorm-output}
-               - [建立SCORM輸出預設集](./learning-content/create-scorm-preset.md)
-               - [設定SCORM輸出預設集](./learning-content/config-scorm-preset.md)
-               - [產生SCORM輸出](./learning-content/generate-scorm-output.md)
-            - 以PDF格式發佈課程 {#pdf-output}
-               - [建立PDF輸出預設集](./learning-content/create-course-pdf-preset.md)
-               - [設定PDF輸出預設集](./learning-content/config-course-pdf-preset.md)
-               - [產生 PDF](./learning-content/generate-course-pdf.md)
-      - 設定指南 {#config-lc}
-         - [關於本指南](./lc-config-guide/introduction.md)
-         - [設定資料夾設定檔](./lc-config-guide/lc-folder-profile.md)
-         - [設定檔案夾結構的最佳實務](./lc-config-guide/best-practices-folder-structure.md)
-         - [設定其他設定](./lc-config-guide/lc-other-settings.md)
-         - [SCORM關鍵量度](./lc-config-guide/learning-course-parameters.md)
-      - 教學影片 {#lc-video}
-         - [作者工作流程](./lc-video-tutorials/author-workflow.md)
-         - [管理員工作流程](./lc-video-tutorials/admin-workflow.md)
-   - 附錄 {#appendix}
-      - 管理內容 {#manage-content}
-         - [重要概念、角色和許可權及必要條件](./user-guide/authoring.md)
-         - [上傳檔案](./user-guide/authoring-upload-existing-files.md)
-         - [管理檔案和資料夾](./user-guide/authoring-file-management.md)
-         - [處理資產](./user-guide/asset-processor.md)
-      - 疑難排解 {#troubleshooting}
-         - [工作階段逾時](./user-guide/session-timeout-prompt.md)
+  - 簡介 {#about-aemg}
+    - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
+    - [!DNL AEM Guides]個運作中及主要功能 {#aemg-works-features}
+      - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
+      - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
+  - 首頁 {#home-page}
+    - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
+    - [存放庫介面](./user-guide/home-page-repository-view.md)
+  - 作者內容 {#author-content}
+    - [製作概觀](./user-guide/authoring-content.md)
+    - [使用AEM Guides創作內容的方法](./user-guide/authoring-content-xml-doc.md)
+    - 編輯器 {#work-with-editor}
+      - [編輯器簡介](./user-guide/web-editor.md)
+      - [啟動編輯器](./user-guide/web-editor-launch-editor.md)
+      - [在編輯器中編輯主題](./user-guide/web-editor-edit-topics.md)
+      - 主題建立和預覽 {#create-preview-topics}
+        - [建立和預覽主題](./user-guide/create-preview-topics.md)
+        - [建立主題](./user-guide/web-editor-create-topics.md)
+        - [預覽主題](./user-guide/web-editor-preview-topics.md)
+      - {hide-from-toc}[瞭解編輯器功能](./user-guide/web-editor-features.md)
+      - 瞭解編輯器介面和功能 {#editor-interface-features}
+        - [概觀](./user-guide/intro-editor-interface.md)
+        - [標題列](./user-guide/web-editor-header-bar.md)
+        - [標籤列](./user-guide/web-editor-tab-bar.md)
+        - [工具列](./user-guide/web-editor-toolbar.md)
+        - [左側面板](./user-guide/web-editor-left-panel.md)
+        - [內容編輯區域](./user-guide/web-editor-content-editing-area.md)
+        - [右側面板](./user-guide/web-editor-right-panel.md)
+        - [搜尋面板](./user-guide/search-panel-explorer.md)
+      - 編輯器中的[其他功能](./user-guide/web-editor-other-features.md)
+      - [編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
+      - [編輯器檢視](./user-guide/web-editor-views.md)
+      - [支援Schematron檔案](./user-guide/support-schematron-file.md)
+      - [從編輯器編寫Markdown檔案](./user-guide/web-editor-markdown-topic.md)
+      - [將引文新增至您的內容](./user-guide/web-editor-apply-citations.md)
+      - [使用來自您的資料來源的資料](./user-guide/web-editor-content-snippet.md)
+      - [使用Git聯結器匯入內容](./user-guide/web-editor-git-connector.md)
+      - [檔案狀態](./user-guide/web-editor-document-states.md)
+      - [使用標籤](./user-guide/web-editor-use-label.md)
+      - [編輯器設定](./user-guide/config-editor-settings.md)
+    - 地圖編輯器 {#map-editor}
+      - [地圖編輯器簡介](./user-guide/map-editor.md)
+      - [建立地圖](./user-guide/map-editor-create-map.md)
+      - [根據自訂範本建立地圖](./user-guide/create-maps-customized-templates.md)
+      - [地圖編輯器功能](./user-guide/map-editor-advanced-map-editor.md)
+      - [下載檔案](./user-guide/authoring-download-assets.md)
+      - [地圖編輯器中的其他功能](./user-guide/map-editor-other-features.md)
+    - DITAVAL編輯器 {#ditaval-editor}
+      - [使用DITAVAL編輯器](./user-guide/ditaval-editor.md)
+    - 製作內容的案頭工具 {#author-using-desktop-tools}
+      - [使用案頭工具製作內容](./user-guide/author-desktop-tools.md)
+  - 檢閱內容 {#review}
+    - [評論簡介](./user-guide/review.md)
+    - [建立DITA專案](./user-guide/authoring-create-dita-project.md)
+    - [傳送主題以供檢閱](./user-guide/review-send-topics-for-review.md)
+    - [檢閱主題](./user-guide/review-topics.md)
+    - [使用通知重新指派稽核任務](./user-guide/reassign-review-using-notification.md)
+    - [以檢閱者身分完成檢閱任務](./user-guide/review-complete-review-tasks.md)
+    - [處理稽核意見](./user-guide/review-address-review-comments.md)
+    - [關閉或請求重新稽核稽核任務](./user-guide/review-close-review-task.md)
+    - [使用「稽核儀表板」管理稽核任務](./user-guide/review-manage-tasks-review-dashboard.md)
+    - [檢視完成的稽核任務](./user-guide/review-view-completed-task.md)
+    - [瞭解稽核通知](./user-guide/review-understanding-review-notifications.md)
+  - 使用Adobe Workfront共同作業 {#workfront-integration}
+    - [Workfront與Experience Manager Guides整合](./user-guide/workfront-integration.md)
+  - 中繼資料和標籤 {#manage-metadata}
+    - [管理中繼資料](./user-guide/manage-metadata.md)
+    - [在AEM中使用中繼資料](./user-guide/metadata-dita.md)
+    - [智慧標籤](./user-guide/web-editor-smart-tagging.md)
+    - [大量標籤DITA內容](./user-guide/map-editor-bulk-tagging.md)
+  - 地圖管理與發佈 {#map-management-publishing}
+    - [地圖主控台概觀](./user-guide/map-console-overview.md)
+    - [在地圖控制檯中開啟檔案](./user-guide/open-files-map-console.md)
+    - 報告 {#reports-aem-guide}
+      - [報表簡介](./user-guide/reports-intro.md)
+      - [Map主控台的DITA map報表](./user-guide/reports-web-editor.md)
+      - [Map儀表板的DITA map報表](./user-guide/reports-ditamap.md)
+      - [內容重複使用報表](./user-guide/reports-content-reuse.md)
+      - [轉換狀態報表](./user-guide/reports-convertion-status.md)
+      - [還原的檔案版本記錄報告](./user-guide/reports-reverted-file-version-history.md)
+    - 內容翻譯 {#translate-content}
+      - [內容翻譯概觀](./user-guide/translation.md)
+      - [內容翻譯的最佳實務](./user-guide/translation-first-time.md)
+      - [從地圖主控台翻譯檔案](./user-guide/translate-documents-web-editor.md)
+      - [檢視翻譯狀態](./user-guide/translation-view-trans-state-6234.md)
+      - [翻譯修改的主題](./user-guide/translation-modified-topics-6234.md)
+    - 產生輸出 {#output-gen}
+      - [輸出產生基本概念](./user-guide/generate-output.md)
+      - AEM Guides中的輸出預設集 {#output-presets-aemg}
+        - [輸出預設集簡介](./user-guide/generate-output-understand-presets.md)
+        - AEM Sites {#aem-sites}
+          - [地圖主控台中的AEM Sites預設集](./user-guide/generate-output-aem-site-web-editor.md)
+          - [地圖儀表板中的AEM Sites預設集](./user-guide/generate-output-aem-site-map-dashboard.md)
+        - PDF {#pdf-preset}
+          - [PDF輸出預設集概述](./user-guide/generate-output-pdf.md)
+          - [DITA-OT PDF輸出預設集](./user-guide/generate-output-pdf-dita-ot.md)
+          - [原生PDF輸出預設集](./web-editor/native-pdf-web-editor.md)
+        - [知識庫](./user-guide/generate-output-knowledge-base.md)
+        - [HTML5](./user-guide/generate-output-html5.md)
+        - [ePub](./user-guide/generate-output-epub.md)
+        - [自訂](./user-guide/generate-output-custom.md)
+        - [JSON](./user-guide/generate-output-json.md)
+      - [編輯、複製或刪除輸出預設集](./user-guide/generate-output-create-edit-preset.md)
+      - 條件化內容 {#conditional-content}
+        - [使用條件預設集](./user-guide/generate-output-use-condition-presets.md)
+        - [條件屬性分析](./user-guide/generate-output-conditional-attribute-profiling.md)
+      - 使用基準線 {#work-with-baseline}
+        - [從Map主控台建立和管理基準線](./user-guide/web-editor-baseline.md)
+        - [從「地圖」控制面板建立和管理基準線](./user-guide/generate-output-use-baseline-for-publishing.md)
+        - [從Map主控台建立和管理新基準線](./user-guide/web-editor-baseline-v2.md)
+        - [新基準線移轉常見問題集](./user-guide/new-baseline-migration-faq.md)
+      - [管理全域和資料夾設定檔輸出預設集](./user-guide/web-editor-manage-output-presets.md)
+      - [使用變數來設定目的地路徑、網站名稱或檔案名稱選項](./user-guide/generate-output-use-variables.md)
+      - [使用DITA-OT將中繼資料傳遞至輸出](./user-guide/pass-metadata-dita-ot.md)
+      - 產生輸出 {#generate-output}
+        - [產生DITA map的輸出](./user-guide/generate-output-for-a-dita-map.md)
+        - [產生知識庫輸出](./user-guide/web-editor-article-publishing.md)
+        - 單一主題發佈 {#single-topic-publishing}
+          - [發佈內容片段](./user-guide/publish-content-fragment.md)
+          - [發佈體驗片段](./user-guide/publish-experience-fragment.md)
+          - [發佈AEM Sites頁面](./user-guide/publish-aem-sites.md)
+          - [增量輸出產生](./user-guide/generate-output-aem-site.md)
+      - [使用地圖集合產生輸出](./user-guide/generate-output-use-map-collection-output-generation.md)
+      - [使用新的對應集合來產生輸出](./user-guide/generate-output-use-new-map-collection-output-generation.md)
+      - [將舊的對應集合移轉至新的對應集合](./user-guide/map-collection-migration.md)
+      - [管理輸出產生程式](./user-guide/generate-output-manage-process.md)
+      - [使用發佈儀表板管理發布任務](./user-guide/generate-output-publish-dashboard.md)
+      - [基本疑難排解](./user-guide/generate-output-basic-troubleshooting.md)
+      - [關於發佈工作流程與擴充性的常見問題集](./user-guide/publishing-scalability-faq.md)
+    - 大量啟用內容 {#bulk-activation}
+      - [大量啟用已發佈的內容](./user-guide/conf-bulk-activation.md)
+      - [建立大量啟用地圖集合](./user-guide/conf-bulk-activation-create-map-collection.md)
+      - [啟動輸出](./user-guide/conf-bulk-activation-publish-map-collection.md)
+      - [編輯大量啟用地圖集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
+      - [刪除大量啟用地圖集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - [管理DITA來源資產的復寫](./user-guide/dita-assets-replication-aem-sites.md)
+  - FrameMaker檔案的輸出產生 {#generate-fm-output}
+    - [FrameMaker輸出產生基本需知](./user-guide/fm-output-generatation.md)
+    - 支援的預設集 {#fm-docs-generating-presets}
+      - [用來產生FrameMaker檔案的預設集](./user-guide/fm-output-understand-presets.md)
+      - [PDF](./user-guide/fm-output-pdf-preset.md)
+      - [HTML5](./user-guide/fm-output-html5-preset.md)
+      - [ePub](./user-guide/fm-output-epub-preset.md)
+    - [產生.book或.fm檔案的輸出](./user-guide/fm-output-generate.md)
+    - [檢視輸出產生工作的狀態](./user-guide/fm-output-view-status.md)
+  - AEM Guides中的AI助理 {#ai-assistant-aem}
+    - [Adobe Generative AI使用者披露](./user-guide/adobe-generative-ai-disclosures.md)
+    - [AI 助理概觀](./user-guide/ai-assistant.md)
+    - [AI支援的智慧型協助以搜尋內容](./user-guide/ai-based-smart-help.md)
+    - [AI助理撰寫以聰明地撰寫檔案](./user-guide/ai-assistant-right-panel.md)
+    - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
+    - [常見問題](./user-guide/ai-assistant-faq.md)
+  - [開始使用Guides AI](./user-guide/guides-ai.md)
+  - 管理學習內容 {#learning-training-content}
+    - 快速入門手冊 {#get-started}
+      - 簡介 {#intro-lc}
+        - {hide-from-toc}[發行說明](./release-info-lt/release-notes-lt-2025-12-v2.md)
+        - {hide-from-toc}[發行說明](./release-info-lt/release-notes-lt-2026-02-v3.md)
+        - [學習與訓練內容概觀](./learning-content/intro.md)
+      - 設定您的課程 {#setup-course}
+        - [課程總覽](./learning-content/course-overview.md)
+        - [探索介面和先決條件](./learning-content/access-lc-interface-preq.md)
+        - [建立您的第一個課程](./learning-content/create-first-course.md)
+        - [瞭解課程經理基本知識](./learning-content/course-manager-basics.md)
+        - [管理您的課程](./learning-content/manage-course.md)
+      - 建立及自訂學習內容 {#customize-lc}
+        - [概觀](./learning-content/lc-overview.md)
+        - [建立主題](./learning-content/create-content.md)
+        - [編輯主題](./learning-content/edit-content.md)
+        - [新增基本建置區塊](./learning-content/lc-basic-blocks.md)
+        - [使用互動式Widget](./learning-content/lc-widgets.md)
+        - [插入功能表中的其他選項](./learning-content/lc-other-insert-options.md)
+        - [使用內嵌樣式](./learning-content/lc-inline-styles.md)
+      - 建立及管理測驗 {#quiz}
+        - [測驗概觀](./learning-content/quiz-overview.md)
+        - [建立測驗](./learning-content/create-quiz.md)
+        - [編輯測驗](./learning-content/edit-quiz.md)
+        - [在測驗中插入問題](./learning-content/quiz-insert-questions.md)
+        - [測驗屬性](./learning-content/quiz-properties.md)
+        - 問題庫 {#question-bank}
+          - [建立問題庫](./learning-content/create-qb.md)
+          - [插入來自問題庫的問題](./learning-content/insert-questions.md)
+      - 發佈您的課程 {#publish-course}
+        - [關於課程發佈](./learning-content/publish-overview.md)
+        - [支援的預設集](./learning-content/course-presets.md)
+        - 以SCORM格式發佈課程 {#scorm-output}
+          - [建立SCORM輸出預設集](./learning-content/create-scorm-preset.md)
+          - [設定SCORM輸出預設集](./learning-content/config-scorm-preset.md)
+          - [產生SCORM輸出](./learning-content/generate-scorm-output.md)
+        - 以PDF格式發佈課程 {#pdf-output}
+          - [建立PDF輸出預設集](./learning-content/create-course-pdf-preset.md)
+          - [設定PDF輸出預設集](./learning-content/config-course-pdf-preset.md)
+          - [產生 PDF](./learning-content/generate-course-pdf.md)
+    - 設定指南 {#config-lc}
+      - [關於本指南](./lc-config-guide/introduction.md)
+      - [設定資料夾設定檔](./lc-config-guide/lc-folder-profile.md)
+      - [設定檔案夾結構的最佳實務](./lc-config-guide/best-practices-folder-structure.md)
+      - [設定其他設定](./lc-config-guide/lc-other-settings.md)
+      - [SCORM關鍵量度](./lc-config-guide/learning-course-parameters.md)
+    - 教學影片 {#lc-video}
+      - [作者工作流程](./lc-video-tutorials/author-workflow.md)
+      - [管理員工作流程](./lc-video-tutorials/admin-workflow.md)
+  - 附錄 {#appendix}
+    - 管理內容 {#manage-content}
+      - [重要概念、角色和許可權及必要條件](./user-guide/authoring.md)
+      - [上傳檔案](./user-guide/authoring-upload-existing-files.md)
+      - [管理檔案和資料夾](./user-guide/authoring-file-management.md)
+      - [處理資產](./user-guide/asset-processor.md)
+    - 疑難排解 {#troubleshooting}
+      - [工作階段逾時](./user-guide/session-timeout-prompt.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-conf-guide}
-   - [下載、安裝和升級](./install-conf-guide/introduction.md)
-   - Cloud Service的安裝程式 {#deploy-conf-aemg-cs}
-      - [部署和Dispatcher設定](./install-conf-guide/conf-deployment-dispatcher-cs.md)
-   - 內部部署的安裝程式 {#deploy-conf-aemg-on-prem}
-      - [技術需求](./install-conf-guide/aemg-technical-requirements.md)
-      - [安裝Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
-      - [首次下載並安裝AEM Guides](./install-conf-guide/download-install-aemg-first-time.md)
-      - [設定 Dispatcher](./install-conf-guide/conf-dispatcher.md)
-      - [解除安裝AEM Guides](./install-conf-guide/uninstall-aemg.md)
-   - [驗證AEM Guides安裝](./install-conf-guide/verify-aemg-installation.md)
-   - 升級AEM Guides {#upgrade-aemg}
-      - Cloud Service {#cloud-service}
-         - [升級AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
-         - [升級AEM Guides as Cloud Service的其他設定](./install-conf-guide/additional-config-for-upgrade.md)
-         - [Cloud Service的設定覆寫](./install-conf-guide/download-install-config-override.md)
-      - 內部部署 {#on-prem}
-         - [升級AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
-         - [升級AEM Guides On-Premise舊版](./install-conf-guide/upgrade-aemg-prev-versions.md)
-         - [Experience Manager Guides發行版本的設定更新](./install-conf-guide/configuration-on-prem.md)
-   - 效能最佳化建議 {#performance-optimization-aemg}
-      - [Cloud Service的效能最佳化](./install-conf-guide/perf-optimization-cs.md)
-      - [內部部署的效能最佳化](./install-conf-guide/perf-optimization-on-prem.md)
-   - 內容移轉 {#migrate-content-cs}
-      - [移轉現有內容](./install-conf-guide/migrate-content.md)
-      - [使用內部部署的Framemaker和WebDav工具上傳現有DITA內容](./install-conf-guide/upload-dita-content.md)
-      - [使用Curl命令上傳DITA內容](./install-conf-guide/use-curl-command.md)
-      - [設定UUID檔案模式](./install-conf-guide/conf-uuid-filename-pattern.md)
-      - [移轉非DITA內容](./install-conf-guide/non-dita-content.md)
-      - [將內容從內部部署移轉至Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)
-      - 內部部署的移轉程式 {#migration-process-on-prem}
-         - [非UUID移轉至UUID內容](./install-conf-guide/uuid-non-uuid.md)
-         - [從4.3.1非UUID移轉至4.3.2 UUID內容](./install-conf-guide/non-uuid-4-3.md)
-         - [4.6.0非UUID移轉至4.6.1 UUID內容移轉](./install-conf-guide/non-uuid-uuid-4-6.md)
-   - 自訂DITA-OT和專業化 {#custom-dita-ot-cs}
-      - [使用自訂DITA-OT與DITA專業化](./install-conf-guide/dita-ot-specialization.md)
-   - 使用者群組與安全性 {#user-group-sec-cs}
-      - [使用者管理](./install-conf-guide/user-admin-sec.md)
-   - 系統設定 {#aemg-system-settings}
-      - 設定UUID和非UUID型檔案名稱 {#conf-filename}
-         - [設定檔案名稱](./install-conf-guide/conf-file-names-overview.md)
-         - [根據UUID設定自動檔案名稱](./install-conf-guide/auto-uuid-filenames.md)
-         - [設定有效檔案名稱字元的Regx](./install-conf-guide/file-names-valid-regx.md)
-      - 資產處理 {#asset-processing}
-         - [設定資產處理功能](./install-conf-guide/conf-asset-processing.md)
-         - [設定資料夾的後處理](./install-conf-guide/conf-folder-post-processing.md)
-      - [版本管理](./install-conf-guide/version-management.md)
-      - [設定B樹狀結構清理](./install-conf-guide/conf-btree-cleanup.md)
-      - [設定DITA資產復寫](./install-conf-guide/conf-dita-asset-replication.md)
-   - 編輯器設定 {#editor-configs}
-      - [自訂編輯器](./install-conf-guide/customize-overview.md)
-      - [自訂工具列](./install-conf-guide/customize-toolbar.md)
-      - [在左側面板中設定自訂面板](./install-conf-guide/conf-custom-panel.md)
-      - [設定標籤檢視的預設值](./install-conf-guide/conf-default-value-tags-view.md)
-      - [自動生成元素ID](./install-conf-guide/auto-generate-element-ids.md)
-      - [預設包含@navtitle屬性](./install-conf-guide/auto-add-navtitle.md)
-      - [設定UUID型連結的顯示方式](./install-conf-guide/conf-uuid-based-links.md)
-      - [在同一個索引標籤中開啟DITA主題或對應檔案](./install-conf-guide/open-dita-files-same-tab.md)
-      - [將進階地圖編輯器設定為預設值](./install-conf-guide/conf-default-map-editor.md)
-      - [在編輯器中設定檔案自動儲存](./install-conf-guide/conf-auto-save-in-editor.md)
-      - [設定關閉時儲存為新版本的提示](./install-conf-guide/conf-save-as-new-version-close.md)
-      - [設定關閉時簽入檔案的提示](./install-conf-guide/conf-checkin-file-close.md)
-      - [設定允許的特殊字元](./install-conf-guide/conf-special-chars.md)
-      - [自訂AEM的預設字典](./install-conf-guide/customize-aem-default-dictionary.md)
-      - [設定文字篩選](./install-conf-guide/conf-text-filters.md)
-      - [設定檔案瀏覽對話方塊的篩選器](./install-conf-guide/conf-custom-file-filters.md)
-      - [安裝文章式發佈的套件](./install-conf-guide/conf-article-based-publishing.md)
-      - [設定中繼資料屬性的忽略清單](./install-conf-guide/conf-metadata-prop.md)
-      - 適用於Cloud Service的編輯器設定 {#editor-cloud-settings}
-         - [設定AI支援的智慧型建議，以編寫Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
-         - [設定AI支援的Smart Help以搜尋Cloud Service的內容](./install-conf-guide/conf-smart-help.md)
-         - [設定在Cloud Service的Oxygon中編輯的選項](./install-conf-guide/conf-edit-in-oxygen.md)
-         - [設定Cloud Service已貼上表格的顯示](./install-conf-guide/conf-pasted-tables.md)
-         - [為Cloud Service設定單一主題PDF產生方式](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [在編輯器中設定Cloud Service的翻譯功能](./install-conf-guide/conf-translation-editor.md)
-      - On-Premise的編輯器設定 {#editor-on-prem-settings}
-         - [設定新編輯器](./install-conf-guide/conf-new-editor-on-prem.md)
-         - [為On-Premise設定其他特殊字元](/help/product-guide/web-editor/conf-additional-special-characters.md)
-         - [設定On-Premise的簽入和簽出圖示標題](./install-conf-guide/conf-checkin-checkout-title.md)
-         - [設定On-Premise查詢的LimitReads數目](./install-conf-guide/conf-query-limitreads.md)
-      - 資料來源聯結器 {#data-source}
-         - [從使用者介面設定資料來源聯結器](./install-conf-guide/conf-data-source-connector-tools.md)
-         - {hide-from-toc}[設定Cloud Service的資料來源聯結器](./install-conf-guide/conf-data-source-connector-cs.md)
-         - {hide-from-toc}[從使用者介面建立並設定Git聯結器](./install-conf-guide/conf-git-connector.md)
-   - 全域和資料夾層級設定檔 {#global-folder-profiles}
-      - [設定全域或資料夾層級的設定檔](./install-conf-guide/conf-profiles.md)
-   - 主題與地圖範本 {#topic-map-template}
-      - [設定主題和對應範本](./install-conf-guide/conf-template-tags.md)
-      - [設定自訂DITA主題範本](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
-      - [設定自訂DITA map範本](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
-   - 檔案狀態 {#doc-state}
-      - [設定檔案狀態](./install-conf-guide/customize-doc-state.md)
-      - [設定Cloud Service的檔案狀態篩選器](./install-conf-guide/conf-doc-state-filters.md)
-   - 配置Workspace設定 {#workspace-configs}
-      - [Workspace設定](./install-conf-guide/workspace-settings.md)
-   - AEM Assets搜尋 {#aem-asset-search}
-      - [設定AEM Assets UI的搜尋](./install-conf-guide/conf-dita-search.md)
-   - 輸出產生設定 {#output-gen-config}
-      - [設定輸出產生設定](./install-conf-guide/conf-output-generation.md)
-      - 配置AEM網站輸出設定 {#conf-aem-sites-output}
-         - [下載並安裝AEM Sites範本](./install-conf-guide/download-install-aem-sites-templates.md)
-         - [自訂新AEM網站範本的一般指示](./install-conf-guide/customize-existing-site-template.md)
-         - [自訂現有的AEM網站輸出](./install-conf-guide/customize-aem-site-output.md)
-         - [使用舊版AEM網站輸出的AEM元件自訂DITA元素對應](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
-         - [覆蓋內部部署的AEM Sites輸出中的HTML標籤](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
-         - [設定AEM網站輸出的有效檔案名稱](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - 原生PDF發佈 {#config-native-pdf-publish}
-         - [原生PDF發佈範本和內容樣式](./install-conf-guide/template-content-styles.md)
-         - [PDF範本](./native-pdf/pdf-template.md)
-         - [PDF範本的元件](./native-pdf/components-pdf-template.md)
-         - [設計頁面配置](./native-pdf/design-page-layout.md)
-         - [PDF輸出中的變數](./native-pdf/native-pdf-variables.md)
-         - [支援語言變數](./native-pdf/native-pdf-language-variables.md)
-         - [將條碼新增至PDF輸出](./native-pdf/add-barcode.md)
-         - 常見內容樣式 {#content-styles}
-            - [使用常見的內容樣式](./native-pdf/stylesheet.md)
-            - [使用自訂變更列樣式](./native-pdf/change-bar-style.md)
-            - [在目錄專案和主題內容套用自訂樣式](./native-pdf/custom-style-toc.md)
-            - [在PDF輸出中新增自訂書籤](./native-pdf/add-custom-bookmark.md)
-            - [使用JavaScript來處理內容或樣式](./native-pdf/use-javascript-content-style.md)
-            - [套用樣式至註腳](./native-pdf/footnote-number-style.md)
-         - [設定原生PDF的新發佈引擎](./native-pdf/conf-new-pdf-engine.md)
-         - [使用原生PDF引擎v2](./native-pdf/new-pdf-engine.md)
-         - [為Cloud Service的原生PDF發佈設定節點程式](./native-pdf/conf-node-options-cs.md)
-         - [為內部部署的原生PDF發佈設定JVM標幟](./native-pdf/conf-jvm-flags-on-prem.md)
-      - 設定Cloud Service的內容和體驗片段 {#conf-content-exp-fragment}
-         - [建立主題與內容片段之間的對應](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
-         - [建立主題和體驗片段之間的對應](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
-   - 工作流程自訂 {#workflow}
-      - [設定和自訂工作流程](./install-conf-guide/conf-customize-workflows.md)
-   - 整合 {#aemg-integrations}
-      - [整合案頭式XML編輯器](./install-conf-guide/integrate-desktop-editors.md)
-      - [設定適用於Cloud Service的Workfront](./install-conf-guide/conf-workfront.md)
-      - [設定翻譯](./install-conf-guide/conf-translation.md)
-      - [設定On-Premise的目的地副本初始化](./install-conf-guide/conf-translation-copies-on-prem.md)
-      - [為內部部署設定新基準線](./install-conf-guide/conf-new-baseline-on-prem.md)
-      - [設定On-Premise略過對等連結](./install-conf-guide/conf-skip-peer-links-on-prem.md)
-      - {hide-from-toc}[設定輸出產生的新對應集合](./install-conf-guide/conf-new-map-collection-on-prem.md)
-   - 擴充功能 {#aemg-customization}
-      - [為Cloud Service部署尋找和取代功能的自訂索引](./install-conf-guide/custom-indexing-cs.md)
-      - [為內部部署的尋找和取代功能重新編列索引](./install-conf-guide/custom-indexing-on-prem.md)
-      - [為內部部署設定尋找和取代功能](./install-conf-guide/conf-find-replace-on-prem.md)
-      - [AEM Sites的元件對應](./install-conf-guide/component-mapping.md)
-   - 附錄 {#appendix}
-      - [附錄](./install-conf-guide/aemg-appendix.md)
+  - [下載、安裝和升級](./install-conf-guide/introduction.md)
+  - Cloud Service的安裝程式 {#deploy-conf-aemg-cs}
+    - [部署和Dispatcher設定](./install-conf-guide/conf-deployment-dispatcher-cs.md)
+  - 內部部署的安裝程式 {#deploy-conf-aemg-on-prem}
+    - [技術需求](./install-conf-guide/aemg-technical-requirements.md)
+    - [安裝Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
+    - [首次下載並安裝AEM Guides](./install-conf-guide/download-install-aemg-first-time.md)
+    - [設定 Dispatcher](./install-conf-guide/conf-dispatcher.md)
+    - [解除安裝AEM Guides](./install-conf-guide/uninstall-aemg.md)
+  - [驗證AEM Guides安裝](./install-conf-guide/verify-aemg-installation.md)
+  - 升級AEM Guides {#upgrade-aemg}
+    - Cloud Service {#cloud-service}
+      - [升級AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
+      - [升級AEM Guides as Cloud Service的其他設定](./install-conf-guide/additional-config-for-upgrade.md)
+      - [Cloud Service的設定覆寫](./install-conf-guide/download-install-config-override.md)
+    - 內部部署 {#on-prem}
+      - [升級AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
+      - [升級AEM Guides On-Premise舊版](./install-conf-guide/upgrade-aemg-prev-versions.md)
+      - Experience Manager Guides發行版本的[設定更新](./install-conf-guide/configuration-on-prem.md)
+  - 效能最佳化建議 {#performance-optimization-aemg}
+    - [Cloud Service的效能最佳化](./install-conf-guide/perf-optimization-cs.md)
+    - [內部部署的效能最佳化](./install-conf-guide/perf-optimization-on-prem.md)
+  - 內容移轉 {#migrate-content-cs}
+    - [移轉現有內容](./install-conf-guide/migrate-content.md)
+    - [使用內部部署的Framemaker和WebDav工具上傳現有DITA內容](./install-conf-guide/upload-dita-content.md)
+    - [使用Curl命令上傳DITA內容](./install-conf-guide/use-curl-command.md)
+    - [設定UUID檔案模式](./install-conf-guide/conf-uuid-filename-pattern.md)
+    - [移轉非DITA內容](./install-conf-guide/non-dita-content.md)
+    - [將內容從內部部署移轉至Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)
+    - 內部部署的移轉程式 {#migration-process-on-prem}
+      - [非UUID移轉至UUID內容](./install-conf-guide/uuid-non-uuid.md)
+      - [從4.3.1非UUID移轉至4.3.2 UUID內容](./install-conf-guide/non-uuid-4-3.md)
+      - [4.6.0非UUID移轉至4.6.1 UUID內容移轉](./install-conf-guide/non-uuid-uuid-4-6.md)
+  - 自訂DITA-OT和專業化 {#custom-dita-ot-cs}
+    - [使用自訂DITA-OT與DITA專業化](./install-conf-guide/dita-ot-specialization.md)
+  - 使用者群組與安全性 {#user-group-sec-cs}
+    - [使用者管理](./install-conf-guide/user-admin-sec.md)
+  - 系統設定 {#aemg-system-settings}
+    - 設定UUID和非UUID型檔案名稱 {#conf-filename}
+      - [設定檔案名稱](./install-conf-guide/conf-file-names-overview.md)
+      - [根據UUID設定自動檔案名稱](./install-conf-guide/auto-uuid-filenames.md)
+      - [設定有效檔案名稱字元的Regx](./install-conf-guide/file-names-valid-regx.md)
+    - 資產處理 {#asset-processing}
+      - [設定資產處理功能](./install-conf-guide/conf-asset-processing.md)
+      - [設定資料夾的後處理](./install-conf-guide/conf-folder-post-processing.md)
+    - [版本管理](./install-conf-guide/version-management.md)
+    - [設定B樹狀結構清理](./install-conf-guide/conf-btree-cleanup.md)
+    - [設定DITA資產復寫](./install-conf-guide/conf-dita-asset-replication.md)
+  - 編輯器設定 {#editor-configs}
+    - [自訂編輯器](./install-conf-guide/customize-overview.md)
+    - [自訂工具列](./install-conf-guide/customize-toolbar.md)
+    - [在左側面板中設定自訂面板](./install-conf-guide/conf-custom-panel.md)
+    - [設定標籤檢視的預設值](./install-conf-guide/conf-default-value-tags-view.md)
+    - [自動生成元素ID](./install-conf-guide/auto-generate-element-ids.md)
+    - [預設包含@navtitle屬性](./install-conf-guide/auto-add-navtitle.md)
+    - [設定UUID型連結的顯示方式](./install-conf-guide/conf-uuid-based-links.md)
+    - [在同一個索引標籤中開啟DITA主題或對應檔案](./install-conf-guide/open-dita-files-same-tab.md)
+    - [將進階地圖編輯器設定為預設值](./install-conf-guide/conf-default-map-editor.md)
+    - [在編輯器中設定檔案自動儲存](./install-conf-guide/conf-auto-save-in-editor.md)
+    - [設定關閉時儲存為新版本的提示](./install-conf-guide/conf-save-as-new-version-close.md)
+    - [設定關閉時簽入檔案的提示](./install-conf-guide/conf-checkin-file-close.md)
+    - [設定允許的特殊字元](./install-conf-guide/conf-special-chars.md)
+    - [自訂AEM的預設字典](./install-conf-guide/customize-aem-default-dictionary.md)
+    - [設定文字篩選](./install-conf-guide/conf-text-filters.md)
+    - [設定檔案瀏覽對話方塊的篩選器](./install-conf-guide/conf-custom-file-filters.md)
+    - [安裝文章式發佈的套件](./install-conf-guide/conf-article-based-publishing.md)
+    - [設定中繼資料屬性的忽略清單](./install-conf-guide/conf-metadata-prop.md)
+    - 適用於Cloud Service的編輯器設定 {#editor-cloud-settings}
+      - [設定AI支援的智慧型建議，以編寫Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
+      - [設定AI支援的Smart Help以搜尋Cloud Service的內容](./install-conf-guide/conf-smart-help.md)
+      - [設定在Cloud Service的Oxygon中編輯的選項](./install-conf-guide/conf-edit-in-oxygen.md)
+      - [設定Cloud Service已貼上表格的顯示](./install-conf-guide/conf-pasted-tables.md)
+      - [為Cloud Service設定單一主題PDF產生方式](./install-conf-guide/conf-pdf-generation-dita-ot.md)
+      - [在編輯器中設定Cloud Service的翻譯功能](./install-conf-guide/conf-translation-editor.md)
+    - On-Premise的編輯器設定 {#editor-on-prem-settings}
+      - [設定新編輯器](./install-conf-guide/conf-new-editor-on-prem.md)
+      - [為On-Premise設定其他特殊字元](/help/product-guide/web-editor/conf-additional-special-characters.md)
+      - [設定On-Premise的簽入和簽出圖示標題](./install-conf-guide/conf-checkin-checkout-title.md)
+      - [設定On-Premise查詢的LimitReads數目](./install-conf-guide/conf-query-limitreads.md)
+    - 資料來源聯結器 {#data-source}
+      - [從使用者介面設定資料來源聯結器](./install-conf-guide/conf-data-source-connector-tools.md)
+      - {hide-from-toc}[設定Cloud Service的資料來源聯結器](./install-conf-guide/conf-data-source-connector-cs.md)
+      - {hide-from-toc}[從使用者介面建立並設定Git聯結器](./install-conf-guide/conf-git-connector.md)
+  - 全域和資料夾層級設定檔 {#global-folder-profiles}
+    - [設定全域或資料夾層級的設定檔](./install-conf-guide/conf-profiles.md)
+  - 主題與地圖範本 {#topic-map-template}
+    - [設定主題和對應範本](./install-conf-guide/conf-template-tags.md)
+    - [設定自訂DITA主題範本](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
+    - [設定自訂DITA map範本](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
+  - 檔案狀態 {#doc-state}
+    - [設定檔案狀態](./install-conf-guide/customize-doc-state.md)
+    - [設定Cloud Service的檔案狀態篩選器](./install-conf-guide/conf-doc-state-filters.md)
+  - 配置Workspace設定 {#workspace-configs}
+    - [Workspace設定](./install-conf-guide/workspace-settings.md)
+  - AEM Assets搜尋 {#aem-asset-search}
+    - [設定AEM Assets UI的搜尋](./install-conf-guide/conf-dita-search.md)
+  - 輸出產生設定 {#output-gen-config}
+    - [設定輸出產生設定](./install-conf-guide/conf-output-generation.md)
+    - 配置AEM網站輸出設定 {#conf-aem-sites-output}
+      - [下載並安裝AEM Sites範本](./install-conf-guide/download-install-aem-sites-templates.md)
+      - [自訂新AEM網站範本的一般指示](./install-conf-guide/customize-existing-site-template.md)
+      - [自訂現有的AEM網站輸出](./install-conf-guide/customize-aem-site-output.md)
+      - [使用舊版AEM網站輸出的AEM元件自訂DITA元素對應](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
+      - [覆蓋內部部署的AEM Sites輸出中的HTML標籤](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
+      - [設定AEM網站輸出的有效檔案名稱](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
+    - 原生PDF發佈 {#config-native-pdf-publish}
+      - [原生PDF發佈範本和內容樣式](./install-conf-guide/template-content-styles.md)
+      - [PDF範本](./native-pdf/pdf-template.md)
+      - [PDF範本的元件](./native-pdf/components-pdf-template.md)
+      - [設計頁面配置](./native-pdf/design-page-layout.md)
+      - [PDF輸出中的變數](./native-pdf/native-pdf-variables.md)
+      - [支援語言變數](./native-pdf/native-pdf-language-variables.md)
+      - [將條碼新增至PDF輸出](./native-pdf/add-barcode.md)
+      - 常見內容樣式 {#content-styles}
+        - [使用常見的內容樣式](./native-pdf/stylesheet.md)
+        - [使用自訂變更列樣式](./native-pdf/change-bar-style.md)
+        - [在目錄專案和主題內容套用自訂樣式](./native-pdf/custom-style-toc.md)
+        - [在PDF輸出中新增自訂書籤](./native-pdf/add-custom-bookmark.md)
+        - [使用JavaScript來處理內容或樣式](./native-pdf/use-javascript-content-style.md)
+        - [套用樣式至註腳](./native-pdf/footnote-number-style.md)
+      - [設定原生PDF的新發佈引擎](./native-pdf/conf-new-pdf-engine.md)
+      - [使用原生PDF引擎v2](./native-pdf/new-pdf-engine.md)
+      - [為Cloud Service的原生PDF發佈設定節點程式](./native-pdf/conf-node-options-cs.md)
+      - [為內部部署的原生PDF發佈設定JVM標幟](./native-pdf/conf-jvm-flags-on-prem.md)
+    - 設定Cloud Service的內容和體驗片段 {#conf-content-exp-fragment}
+      - [建立主題與內容片段之間的對應](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
+      - [建立主題和體驗片段之間的對應](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+  - 工作流程自訂 {#workflow}
+    - [設定和自訂工作流程](./install-conf-guide/conf-customize-workflows.md)
+  - 整合 {#aemg-integrations}
+    - [整合案頭式XML編輯器](./install-conf-guide/integrate-desktop-editors.md)
+    - [設定適用於Cloud Service的Workfront](./install-conf-guide/conf-workfront.md)
+    - [設定翻譯](./install-conf-guide/conf-translation.md)
+    - [設定On-Premise的目的地副本初始化](./install-conf-guide/conf-translation-copies-on-prem.md)
+    - [為內部部署設定新基準線](./install-conf-guide/conf-new-baseline-on-prem.md)
+    - [設定On-Premise略過對等連結](./install-conf-guide/conf-skip-peer-links-on-prem.md)
+    - {hide-from-toc}[設定輸出產生的新對應集合](./install-conf-guide/conf-new-map-collection-on-prem.md)
+    - [使用Experience Manager Guides MCP伺服器](./install-conf-guide/conf-aem-guides-mcp.md)
+  - 擴充功能 {#aemg-customization}
+    - [為Cloud Service部署尋找和取代功能的自訂索引](./install-conf-guide/custom-indexing-cs.md)
+    - [為內部部署的尋找和取代功能重新編列索引](./install-conf-guide/custom-indexing-on-prem.md)
+    - [為內部部署設定尋找和取代功能](./install-conf-guide/conf-find-replace-on-prem.md)
+    - [AEM Sites的元件對應](./install-conf-guide/component-mapping.md)
+    - [設定用於產生輸出的範本預設集](./install-conf-guide/template-presets-output-generation.md)
+  - 附錄 {#appendix}
+    - [附錄](./install-conf-guide/aemg-appendix.md)
 
 - API 參考 {#api-reference}
-   - [簡介](./api-reference/introduction.md)
-   - [用於輸出管理的REST API](./api-reference/output-management.md)
-   - [使用DITA map的REST API](./api-reference/dita-map-management.md)
-   - [REST API可註冊資料來源聯結器](./api-reference/data-source-connector.md)
-   - [使用條件屬性的REST API](./api-reference/conditional-attribute.md)
-   - [重設轉換工作流程的API](./api-reference/convert-to-dita.md)
-   - [用於建立和啟用套件的REST API](./api-reference/create-activate-package.md)
-   - [後續處理事件處理常式](./api-reference/post-process-event.md)
-   - [追蹤資料夾或資產後處理狀態的API](./api-reference/track-post-processing-status.md)
-   - [開始大量處理資產的API](./api-reference/bulk-assets-processing.md)
-   - [大量啟用完成事件處理常式](./api-reference/bulk-activation-complete-event.md)
-   - [轉換程式事件處理常式](./api-reference/conversion-complete-event.md)
-   - [建立翻譯專案](./api-reference/translation-project.md)
+  - [簡介](./api-reference/introduction.md)
+  - [Experience Manager Guides版本的API更新](./api-reference/api-update-swagger.md)
+  - [用於輸出管理的REST API](./api-reference/output-management.md)
+  - [使用DITA map的REST API](./api-reference/dita-map-management.md)
+  - [REST API可註冊資料來源聯結器](./api-reference/data-source-connector.md)
+  - [使用條件屬性的REST API](./api-reference/conditional-attribute.md)
+  - [重設轉換工作流程的API](./api-reference/convert-to-dita.md)
+  - [用於建立和啟用套件的REST API](./api-reference/create-activate-package.md)
+  - [後續處理事件處理常式](./api-reference/post-process-event.md)
+  - [追蹤資料夾或資產後處理狀態的API](./api-reference/track-post-processing-status.md)
+  - [開始大量處理資產的API](./api-reference/bulk-assets-processing.md)
+  - [大量啟用完成事件處理常式](./api-reference/bulk-activation-complete-event.md)
+  - [轉換程式事件處理常式](./api-reference/conversion-complete-event.md)
+  - [建立翻譯專案](./api-reference/translation-project.md)
 - 知識庫 {#knowledge-base}
-   - 專家講座 {#expert-session}
-      - [專家會議概述](./knowledge-base/expert-sessions/expert-session.md)
-      - [翻譯內容](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
-      - [使用基準管理內容](./knowledge-base/expert-sessions/baselines-dec22.md)
-      - [撰寫網頁型內容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
-      - [原生PDF發佈要點](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-      - [AEM Guides中的報表](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
-      - [內容和範本設定](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
-      - [學習原生PDF發佈 — 第1部分](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
-      - [學習原生PDF發佈 — 實驗操作 — BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
-      - [AEM Guides的擴充功能框架](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
-      - [外部資料來源整合](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
-      - [在指南中翻譯內容 — 第2部分](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
-      - [定義、管理和利用中繼資料](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-      - [AEM Sites輸出變數](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
-      - [部署選項和移轉至雲端](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
-      - [將內容從非UUID移轉至UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
-      - [差異內容移轉](./knowledge-base/expert-sessions/migration-delta-content.md)
-      - [使用原生PDF更智慧型PDF發佈](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
-      - [AEM Guides中的新UX和AI功能](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
-      - [AEM Guides中的發佈](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
-      - [AEM Guides中的內容檢閱](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
-   - 文章 {#kb-articles}
-      - [概觀](./knowledge-base/kb-articles/introduction.md)
-      - 製作 {#authoring}
-         - 編輯器 {#webeditor}
-            - [AEM Guides中的內容重複使用性](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-            - [在AEM Guides中使用Markdown](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
-            - 自訂 {#customizing}
-               - [新增自訂按鈕到工具列](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               - [將自訂樣式新增至編輯器](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
-               - [自訂資料夾內容功能表](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
-               - [自訂檔案內容功能表](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
-            - 結構描述 {#schematron}
-               - [結構描述驗證](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
-         - 報告 {#reports}
-            - [管理DITA內容的中繼資料](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-         - [定義自訂Dita型別的圖示](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-      - 指南擴充功能框架 {#extention-framework}
-         - Aem Guides框架 {#aem-guides-framework}
-            - [基本自訂](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
-            - [JUI框架](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
-            - 元件 {#framework-components}
-               - [按鈕](./guides-ui-extensions/aem_guides_framework/components/button.md)
-               - [圖示](./guides-ui-extensions/aem_guides_framework/components/icon.md)
-               - [標籤](./guides-ui-extensions/aem_guides_framework/components/label.md)
-               - [清單](./guides-ui-extensions/aem_guides_framework/components/list.md)
-               - [文字區域](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
-            - Widget {#framework-widgets}
-               - [轉譯Widget](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
-               - [基本Widget](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-            - [編輯器2.0的擴充框架變更](./guides-ui-extensions/getting-started/editor-extension-guide.md)
-         - 快速入門 {#getting-started}
-            - [簡介](./guides-ui-extensions/getting-started/introduction.md)
-            - [安裝指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
-            - [擴充功能存放庫介紹](./guides-ui-extensions/getting-started/extension-repo-intro.md)
-         - 自訂 {#customisations}
-            - [簡單的自訂](./guides-ui-extensions/customisations/add-button.md)
-            - [自訂內容功能表](./guides-ui-extensions/customisations/context-menus.md)
-            - [自訂工具列和標題列](./guides-ui-extensions/customisations/toolbar-topbar.md)
-            - [範例](./guides-ui-extensions/examples.md)
-            - [可自訂的Json](./guides-ui-extensions/jsons.md)
-            - 檢閱{#review-app-customisations}
-               - [元件](./guides-ui-extensions/customisations/ReviewApp/components.md)
-               - [自訂](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
-               - [自訂對話方塊](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
-      - 外部資料來源 {#external-data-source}
-         - [整合資料來源](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-         - [設定資料來源聯結器](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
-      - 發佈 {#publishing}
-         - 原生PDF {#native-pdf}
-            - [新增自訂字型至您的DITA Native PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-            - [為原生AEM發佈設定PDF環境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-            - [將企業品牌新增至PDF的第一頁](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-            - [在原生PDF發佈中產生Bookmap的目錄](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-         - DITA-OT {#dita-ot}
-            - [在外掛程式中使用AEM中繼資料](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
-            - [設定自訂DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
-         - AEM Sites範本 {#aem-site-templates}
-            - [下載並安裝雲端服務的AEM Sites範本](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
-            - [下載並安裝適用於內部部署服務的AEM Sites範本](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
-            - [自訂現有的AEM Sites範本](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
-         - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-         - [微服務架構與效能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-         - [使用JWT驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices.md)
-         - [使用OAuth驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices-imt-config.md)
-         - [設定Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
-         - [在AEM雲端上發佈基準](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
-      - 工作流程 {#workflows}
-         - [貼文產生工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
-      - 翻譯 {#translation}
-         - [提升翻譯效能的最佳作法](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
-         - [從翻譯中排除段落](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-      - 使用案例 {#use-cases}
-         - [使用條件式內容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
-         - [使用索引鍵](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-         - [在從AEM Guides產生的AEM Sites頁面中啟用內容變數(CCVAR)](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
-   - {hide-from-toc}[使用氧氣聯結器](./oxygen-connector/use-aem-connector.md)
+  - 專家講座 {#expert-session}
+    - [專家會議概述](./knowledge-base/expert-sessions/expert-session.md)
+    - [翻譯內容](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
+    - [使用基準管理內容](./knowledge-base/expert-sessions/baselines-dec22.md)
+    - [撰寫網頁型內容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+    - [原生PDF發佈要點](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+    - [AEM Guides中的報表](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+    - [內容和範本設定](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
+    - [學習原生PDF發佈 — 第1部分](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
+    - [學習原生PDF發佈 — 實驗操作 — BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
+    - [AEM Guides的擴充功能框架](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
+    - [外部資料來源整合](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
+    - [在指南中翻譯內容 — 第2部分](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
+    - [定義、管理和利用中繼資料](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
+    - [AEM Sites輸出變數](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+    - [部署選項和移轉至雲端](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
+    - [將內容從非UUID移轉至UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
+    - [差異內容移轉](./knowledge-base/expert-sessions/migration-delta-content.md)
+    - [使用原生PDF更智慧型PDF發佈](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
+    - [AEM Guides中的新UX和AI功能](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
+    - [AEM Guides中的發佈](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
+    - [AEM Guides中的內容檢閱](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
+  - 文章 {#kb-articles}
+    - [概觀](./knowledge-base/kb-articles/introduction.md)
+    - 製作 {#authoring}
+      - 編輯器 {#webeditor}
+        - [AEM Guides中的內容重複使用性](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
+        - [在AEM Guides中使用Markdown](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
+        - 自訂 {#customizing}
+          - [新增自訂按鈕到工具列](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+          - [將自訂樣式新增至編輯器](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+          - [自訂資料夾內容功能表](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
+          - [自訂檔案內容功能表](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
+        - 結構描述 {#schematron}
+          - [結構描述驗證](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+      - 報告 {#reports}
+        - [管理DITA內容的中繼資料](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
+      - [定義自訂Dita型別的圖示](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
+    - 指南擴充功能框架 {#extention-framework}
+      - Aem Guides框架 {#aem-guides-framework}
+        - [基本自訂](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+        - [JUI框架](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
+        - 元件 {#framework-components}
+          - [按鈕](./guides-ui-extensions/aem_guides_framework/components/button.md)
+          - [圖示](./guides-ui-extensions/aem_guides_framework/components/icon.md)
+          - [標籤](./guides-ui-extensions/aem_guides_framework/components/label.md)
+          - [清單](./guides-ui-extensions/aem_guides_framework/components/list.md)
+          - [文字區域](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
+        - Widget {#framework-widgets}
+          - [轉譯Widget](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+          - [基本Widget](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+        - 編輯器2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)的[擴充框架變更
+        - [將擴充功能框架移轉至Editor 2.0](./guides-ui-extensions/getting-started/migrating-extensions-new-editor.md)
+      - 快速入門 {#getting-started}
+        - [簡介](./guides-ui-extensions/getting-started/introduction.md)
+        - [安裝指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
+        - [擴充功能存放庫介紹](./guides-ui-extensions/getting-started/extension-repo-intro.md)
+      - 自訂 {#customisations}
+        - [簡單的自訂](./guides-ui-extensions/customisations/add-button.md)
+        - [自訂內容功能表](./guides-ui-extensions/customisations/context-menus.md)
+        - [自訂工具列和標題列](./guides-ui-extensions/customisations/toolbar-topbar.md)
+        - [範例](./guides-ui-extensions/examples.md)
+        - [可自訂的Json](./guides-ui-extensions/jsons.md)
+        - 檢閱{#review-app-customisations}
+          - [元件](./guides-ui-extensions/customisations/ReviewApp/components.md)
+          - [自訂](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+          - [自訂對話方塊](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
+    - 外部資料來源 {#external-data-source}
+      - [整合資料來源](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
+      - [設定資料來源聯結器](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+    - 發佈 {#publishing}
+      - 原生PDF {#native-pdf}
+        - [新增自訂字型至您的DITA Native PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+        - [為原生AEM發佈設定PDF環境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+        - [將企業品牌新增至PDF的第一頁](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
+        - [在原生PDF發佈中產生Bookmap的目錄](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+      - DITA-OT {#dita-ot}
+        - [在外掛程式中使用AEM中繼資料](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
+        - [設定自訂DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+      - AEM Sites範本 {#aem-site-templates}
+        - [下載並安裝雲端服務的AEM Sites範本](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
+        - [下載並安裝適用於內部部署服務的AEM Sites範本](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
+        - [自訂現有的AEM Sites範本](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
+      - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+      - [微服務架構與效能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
+      - [使用JWT驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices.md)
+      - [使用OAuth驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices-imt-config.md)
+      - [設定Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
+      - [在AEM雲端上發佈基準](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
+    - 工作流程 {#workflows}
+      - [貼文產生工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+    - 翻譯 {#translation}
+      - [提升翻譯效能的最佳作法](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
+      - [從翻譯中排除段落](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+    - 使用案例 {#use-cases}
+      - [使用條件式內容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+      - [使用索引鍵](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
+      - [在從AEM Guides產生的AEM Sites頁面中啟用內容變數(CCVAR)](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
+  - {hide-from-toc}[使用氧氣聯結器](./oxygen-connector/use-aem-connector.md)
