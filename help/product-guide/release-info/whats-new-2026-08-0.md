@@ -15,7 +15,7 @@ ht-degree: 0%
 
 如需此版本中修正的問題清單，請檢視[2026.08.0版本](fixed-issues-2026-08-0.md)中的已修正問題。
 
-瞭解2026.08.0版](../release-info/upgrade-instructions-2026-08-0.md)的[升級指示。
+瞭解2026.08.0版[&#128279;](../release-info/upgrade-instructions-2026-08-0.md)的升級指示。
 
 
 ## 管理地圖和發佈輸出的新地圖集合
@@ -65,7 +65,7 @@ Experience Manager Guides現在支援模型內容通訊協定(MCP)。 您可以�
 
 在評論或回覆中標籤使用者時，標籤下拉式清單現在會顯示每個使用者的電子郵件地址及其使用者ID。 這可以讓您更容易識別和選取正確的檢閱者，尤其是在顯示名稱可能模稜兩可的大型組織中。
 
-如果電子郵件地址無法使用，則會改為顯示使用者ID。 如需使用檢閱UI的詳細資訊，請在註解](../user-guide/review-topics.md#tag-task-users-in-a-comment)中檢視[標籤任務使用者。
+如果電子郵件地址無法使用，則會改為顯示使用者ID。 如需使用檢閱UI的詳細資訊，請在註解[&#128279;](../user-guide/review-topics.md#tag-task-users-in-a-comment)中檢視標籤任務使用者。
 
 
 ### 檢視主題的所有稽核任務
@@ -119,7 +119,7 @@ Experience Manager Guides現在支援模型內容通訊協定(MCP)。 您可以�
 
   ![](assets/pdf-icon.png){width="650"}
 
-- 在已發佈的課程輸出中，學習者現在可在完成測驗嘗試後使用&#x200B;**檢閱答案**&#x200B;選項，以重新造訪他們提交的回覆，並檢視哪些答案正確或不正確。 進一步瞭解測驗](../learning-content/quiz-insert-questions.md#question-properties)中的[問題屬性。
+- 在已發佈的課程輸出中，學習者現在可在完成測驗嘗試後使用&#x200B;**檢閱答案**&#x200B;選項，以重新造訪他們提交的回覆，並檢視哪些答案正確或不正確。 進一步瞭解測驗[&#128279;](../learning-content/quiz-insert-questions.md#question-properties)中的問題屬性。
 
   ![](assets/review-answer-quiz.png){width="650"}
 
@@ -129,5 +129,5 @@ Experience Manager Guides現在支援模型內容通訊協定(MCP)。 您可以�
 
 ## API增強
 
-此發行版本引進了適用於資產管理、翻譯和發佈的新Swagger API，讓您更輕鬆地將這些工作流程與現有的工具和系統連結。 如需詳細資訊，請檢視Experience Manager Guides版本](../api-reference/api-update-swagger.md)中的[API更新。
+此發行版本引進了適用於資產管理、翻譯和發佈的新Swagger API，讓您更輕鬆地將這些工作流程與現有的工具和系統連結。 如需詳細資訊，請檢視Experience Manager Guides版本[&#128279;](../api-reference/api-update-swagger.md)中的API更新。
 
