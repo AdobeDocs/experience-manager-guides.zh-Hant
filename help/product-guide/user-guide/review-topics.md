@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -158,6 +158,10 @@ ht-degree: 0%
 註解會以檔案中註解文字的順序顯示。 例如，在第一句有反白標示的註解，並在第一段中的第二句插入文字註解，則反白標示的文字註解會顯示在插入的文字註解之前。
 
 您可以使用「註解」面板執行的工作說明如下：
+
+- 使用資訊圖示![](./images/info-icon.svg)來檢視稽核任務的詳細資訊，包括稽核任務名稱、稽核版本、狀態和任務描述。
+
+  ![](./images/review-details-review-ui.png)
 
 - 選取註解會反白顯示檔案中的對應註解位置。
 - 您可以新增評論的回覆。
