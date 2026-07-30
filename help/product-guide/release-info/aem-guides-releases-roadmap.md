@@ -12,10 +12,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0d64b07a3e5230b84acf451ea7a8f784bcd804f6
+source-git-commit: b6a6c38581af1ba6e953071184473dadd4f57e8e
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 34%
+source-wordcount: 903
+ht-degree: 33%
 
 ---
 
@@ -74,7 +74,9 @@ Experience Manager Guides as a Cloud Service預計發行版本如下：
 
 | 發行 | 事件 | 排程 | 新增功能 | 升級指示 | 狀態 |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.3.0 | 發行版本 | 2026年10月的第二週 | - | - | 目標 |
+| Adobe Experience Manager Guides 5.2.0 | Service Pack 1 | 2026年9月1日 | - | - | 目標 |
+| Adobe Experience Manager Guides 5.2.0 | Service Pack 3 | 2026年11月17 | - | - | 目標 |
+| Adobe Experience Manager Guides 5.3.0 | 發行版本 | 2027年1月20日 | - | - | 目標 |
 
 
 ### 即時發行
