@@ -68,7 +68,7 @@ Experience Manager Guides SCORM預覽可透過專用環境變數來管理，該�
 2. 導覽至環境的&#x200B;**組態**&#x200B;標籤。
 3. 選取&#x200B;**新增/更新**&#x200B;以新增環境變數。
 
-   ![正在新增變數至Cloud Manager ](assets/add-new-variable.png){width="650"}
+   ![正在新增變數至Cloud Manager &#x200B;](assets/add-new-variable.png){width="650"}
 
 4. 在&#x200B;**名稱**&#x200B;欄位中輸入變數(`GUIDES_SCORM_PREVIEW_CONFIG`)的名稱。
 
