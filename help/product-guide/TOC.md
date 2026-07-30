@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 5a4aae4385951abb8c0a577d4b7f5542c8b1dde6
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2578'
 ht-degree: 10%
 
 ---
@@ -412,6 +412,7 @@ ht-degree: 10%
       - [設定資料夾設定檔](./lc-config-guide/lc-folder-profile.md)
       - [設定檔案夾結構的最佳實務](./lc-config-guide/best-practices-folder-structure.md)
       - [設定其他設定](./lc-config-guide/lc-other-settings.md)
+      - [設定CSP以進行SCORM預覽](./lc-config-guide/guides-scorm-preview-config.md)
       - [SCORM關鍵量度](./lc-config-guide/learning-course-parameters.md)
     - 教學影片 {#lc-video}
       - [作者工作流程](./lc-video-tutorials/author-workflow.md)
@@ -591,7 +592,7 @@ ht-degree: 10%
   - [開始大量處理資產的API](./api-reference/bulk-assets-processing.md)
   - [大量啟用完成事件處理常式](./api-reference/bulk-activation-complete-event.md)
   - [轉換程式事件處理常式](./api-reference/conversion-complete-event.md)
-  - [建立翻譯專案](./api-reference/translation-project.md)
+  - [建立翻譯專案](./api-reference/create-translation-project.md)
 - 知識庫 {#knowledge-base}
   - 專家講座 {#expert-session}
     - [專家會議概述](./knowledge-base/expert-sessions/expert-session.md)

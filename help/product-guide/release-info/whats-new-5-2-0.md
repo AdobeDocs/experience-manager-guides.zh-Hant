@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guides 5.2.0版的新增功能
 description: 瞭解Adobe Experience Manager Guides 5.2.0版中的新功能和增強功能
 role: Leader
-source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4043'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,10 @@ Editor 2.0 （亦稱為New Editor）提供簡化的撰寫功能，讓您透過�
 
 - **整合的使用者層級編輯器設定**：新的集中式設定面板，可讓作者更好地控制編輯器行為，讓使用者更輕鬆地從單一位置管理偏好設定。 設定選項包括啟用/停用的功能：
 
-   - 在作者模式中不間斷的空格
-   - 標籤可見度設定有屬性或沒有屬性
-   - 作者模式中的XML註解
-   - 在編輯器中插入元素的快速插入功能表
+  - 在作者模式中不間斷的空格
+  - 標籤可見度設定有屬性或沒有屬性
+  - 作者模式中的XML註解
+  - 在編輯器中插入元素的快速插入功能表
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -78,9 +78,9 @@ Editor 2.0 （亦稱為New Editor）提供簡化的撰寫功能，讓您透過�
 
 - **改善表格製作**：透過更直覺且有效率的互動來建立和管理表格，強化整體的表格製作體驗。
 
-   - 流暢且直覺的互動：輕鬆插入列和欄，並支援拖放功能，可重新排序列和欄。
-   - 內容工具列：直接在表格中存取表格專用動作，例如格式設定、對齊、合併和其他額外動作。
-   - 設定表格：在單一動作中新增多個列或欄，減少重複步驟並提高效率。
+  - 流暢且直覺的互動：輕鬆插入列和欄，並支援拖放功能，可重新排序列和欄。
+  - 內容工具列：直接在表格中存取表格專用動作，例如格式設定、對齊、合併和其他額外動作。
+  - 設定表格：在單一動作中新增多個列或欄，減少重複步驟並提高效率。
 
   ![](assets/config-table.png){width="650"}
 
@@ -415,7 +415,7 @@ Experience Manager Guides現在支援AEM Sites輸出中的元素層級元件對�
 
 此版本已進行下列API增強：
 
-- 我們引進了新的API來建立新的翻譯專案並追蹤其狀態。 這些API有助於自動化翻譯流程，減少手動工作並提高效率。 如需詳細資訊，請檢視[建立翻譯專案](../api-reference/translation-project.md)
+- 我們引進了新的API來建立新的翻譯專案並追蹤其狀態。 這些API有助於自動化翻譯流程，減少手動工作並提高效率。 如需詳細資訊，請檢視[建立翻譯專案](../api-reference/create-translation-project.md)。
 - 增強資產處理API，並改善檔案和資料夾的篩選功能。 如需詳細資訊，請檢視[處理資產](../api-reference/bulk-assets-processing.md)。
 - 新API可用於追蹤個別資產和資料夾的後處理狀態。這對使用自動化工作流程的團隊特別有用，因為團隊只需在完全處理內容後發佈內容。API提供確認整備的可靠方式，降低因處理不完整而導致發佈失敗的風險。此外，隨著此API的推出，資產後處理事件不會自動引發。管理員現在可以透過`fmdita config manager`中的設定啟用此事件。
 如需詳細資訊，請檢視[API以追蹤個別資產和資料夾的後處理狀態](../api-reference/track-post-processing-status.md)以及fmdita設定管理員中的[後處理事件處理常式設定](../api-reference/post-process-event.md)

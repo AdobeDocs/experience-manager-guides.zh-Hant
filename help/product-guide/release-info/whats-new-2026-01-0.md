@@ -3,7 +3,7 @@ title: 發行說明 | Adobe Experience Manager Guides 2026.01.0版的新增功�
 description: 瞭解2026.01.0版Adobe Experience Manager Guides中的新功能和增強功能
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -184,5 +184,5 @@ Experience Manager Guides現在支援AEM Sites輸出中的元素層級元件對�
 
 此版本已進行下列API增強：
 
-- 我們引進了新的API來建立新的翻譯專案並追蹤其狀態。 這些API有助於自動化翻譯流程，減少手動工作並提高效率。 如需詳細資訊，請檢視[建立翻譯專案](../api-reference/translation-project.md)
+- 我們引進了新的API來建立新的翻譯專案並追蹤其狀態。 這些API有助於自動化翻譯流程，減少手動工作並提高效率。 如需詳細資訊，請檢視[建立翻譯專案](../api-reference/create-translation-project.md)。
 - 增強資產處理API，並改善檔案和資料夾的篩選功能。 如需詳細資訊，請檢視[處理資產](../api-reference/bulk-assets-processing.md)。
