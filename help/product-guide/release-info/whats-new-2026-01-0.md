@@ -3,7 +3,7 @@ title: 發行說明 | Adobe Experience Manager Guides 2026.01.0版的新增功�
 description: 瞭解2026.01.0版Adobe Experience Manager Guides中的新功能和增強功能
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 如需此版本中修正的問題清單，請檢視[2026.01.0版本](fixed-issues-2026-01-0.md)中的已修正問題。
 
-瞭解2026.01.0版[&#128279;](../release-info/upgrade-instructions-2026-01-0.md)的升級指示。
+瞭解2026.01.0版](../release-info/upgrade-instructions-2026-01-0.md)的[升級指示。
 
 
 ## 在「尋找和取代」中介紹Source模式搜尋
@@ -105,7 +105,7 @@ Experience Manager Guides在編輯器介面的左側面板中，推出了數個�
 
 ![](assets/file-properties-new.png){width="350"}
 
-如需詳細資訊，請在編輯器[&#128279;](../user-guide/web-editor-right-panel.md#file-properties)中檢視右側面板。
+如需詳細資訊，請在編輯器](../user-guide/web-editor-right-panel.md#file-properties)中檢視[右側面板。
 
 ### 唯讀檔案的中繼資料屬性無法再編輯
 
@@ -167,7 +167,7 @@ Experience Manager Guides在編輯器介面的左側面板中，推出了數個�
 
 Experience Manager Guides現在支援AEM Sites輸出中的元素層級元件對應（使用複合元件對應），可讓團隊精確控制DITA元素使用`componentmapping.json`的呈現方式。 將`topicref`、標題、影像、表格等對應至適當的AEM核心元件，可獲得更簡潔的結構，而非預設為文字元件的所有內容。 這可提供更優異的效能，並開啟更豐富、更現代的Sites體驗。
 
-如需更多詳細資料，請在AEM Sites[&#128279;](../cs-install-guide/component-mapping.md)中檢視元件對應。
+如需更多詳細資料，請在AEM Sites](../cs-install-guide/component-mapping.md)中檢視[元件對應。
 
 ## 資產處理增強功能
 
@@ -184,5 +184,5 @@ Experience Manager Guides現在支援AEM Sites輸出中的元素層級元件對�
 
 此版本已進行下列API增強：
 
-- 我們引進了新的API來建立新的翻譯專案並追蹤其狀態。 這些API有助於自動化翻譯流程，減少手動工作並提高效率。 如需詳細資訊，請檢視[建立翻譯專案](../api-reference/api-update-swagger.md)。
+- 我們引進了新的API來建立新的翻譯專案並追蹤其狀態。 這些API有助於自動化翻譯流程，減少手動工作並提高效率。 如需詳細資訊，請檢視[建立翻譯專案](../api-reference/create-translation-project.md)。
 - 增強資產處理API，並改善檔案和資料夾的篩選功能。 如需詳細資訊，請檢視[處理資產](../api-reference/bulk-assets-processing.md)。

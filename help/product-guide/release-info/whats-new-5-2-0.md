@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guides 5.2.0版的新增功能
 description: 瞭解Adobe Experience Manager Guides 5.2.0版中的新功能和增強功能
 role: Leader
-source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4043'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 本文介紹5.2.0版Adobe Experience Manager Guides as a Cloud Service所推出的新功能和增強功能。
 
-如需此版本中修正的問題清單，請檢視[&#x200B; 5.2.0版本](../release-info/fixed-issues-5-2-0.md)中的已修正問題。
+如需此版本中修正的問題清單，請檢視[ 5.2.0版本](../release-info/fixed-issues-5-2-0.md)中的已修正問題。
 
-瞭解5.2.0版[&#128279;](../release-info/upgrade-instructions-5-2-0.md)的升級指示。
+瞭解5.2.0版](../release-info/upgrade-instructions-5-2-0.md)的[升級指示。
 
 
 ## Editor 2.0簡介
@@ -224,7 +224,7 @@ Schematron使用者介面已進行下列增強功能，以更清楚明瞭、可�
 
 ![](assets/file-properties-new.png){width="350"}
 
-如需詳細資訊，請在編輯器[&#128279;](../user-guide/web-editor-right-panel.md#file-properties)中檢視右側面板。
+如需詳細資訊，請在編輯器](../user-guide/web-editor-right-panel.md#file-properties)中檢視[右側面板。
 
 ### 在作者檢視中輕鬆識別和修正主題和地圖中的重複ID
 
@@ -397,7 +397,7 @@ Experience Manager Guides現在於編輯器中包含了&#x200B;**重複ID**&#x20
 
 Experience Manager Guides現在支援AEM Sites輸出中的元素層級元件對應（使用複合元件對應），可讓團隊精確控制DITA元素使用`componentmapping.json`的呈現方式。 將`topicref`、標題、影像、表格等對應至適當的AEM核心元件，可獲得更簡潔的結構，而非預設為文字元件的所有內容。 這可提供更優異的效能，並開啟更豐富、更現代的Sites體驗。
 
-如需詳細資訊，請檢視AEM Sites [&#128279;](../install-conf-guide/component-mapping.md)的元件對應。
+如需詳細資訊，請檢視AEM Sites ](../install-conf-guide/component-mapping.md)的[元件對應。
 
 ## Experience Manager Guides中推出的新基線體驗
 
@@ -409,13 +409,13 @@ Experience Manager Guides現在支援AEM Sites輸出中的元素層級元件對�
 - 更強大的UI和後端一致性
 - 展開的篩選、導覽和相依性可見度
 
-如需詳細資訊，請在Experience Manager Guides[&#128279;](../user-guide/web-editor-baseline-v2.md)中檢視新的基準線體驗(Beta)。
+如需詳細資訊，請在Experience Manager Guides](../user-guide/web-editor-baseline-v2.md)中檢視[新的基準線體驗(Beta)。
 
 ## API增強功能
 
 此版本已進行下列API增強：
 
-- 我們引進了新的API來建立新的翻譯專案並追蹤其狀態。 這些API有助於自動化翻譯流程，減少手動工作並提高效率。 如需詳細資訊，請檢視[建立翻譯專案](../api-reference/api-update-swagger.md)。
+- 我們引進了新的API來建立新的翻譯專案並追蹤其狀態。 這些API有助於自動化翻譯流程，減少手動工作並提高效率。 如需詳細資訊，請檢視[建立翻譯專案](../api-reference/create-translation-project.md)。
 - 增強資產處理API，並改善檔案和資料夾的篩選功能。 如需詳細資訊，請檢視[處理資產](../api-reference/bulk-assets-processing.md)。
 - 新API可用於追蹤個別資產和資料夾的後處理狀態。這對使用自動化工作流程的團隊特別有用，因為團隊只需在完全處理內容後發佈內容。API提供確認整備的可靠方式，降低因處理不完整而導致發佈失敗的風險。此外，隨著此API的推出，資產後處理事件不會自動引發。管理員現在可以透過`fmdita config manager`中的設定啟用此事件。
 如需詳細資訊，請檢視[API以追蹤個別資產和資料夾的後處理狀態](../api-reference/track-post-processing-status.md)以及fmdita設定管理員中的[後處理事件處理常式設定](../api-reference/post-process-event.md)
