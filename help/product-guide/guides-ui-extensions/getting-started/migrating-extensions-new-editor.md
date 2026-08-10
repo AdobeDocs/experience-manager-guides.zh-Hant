@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 0%
+source-wordcount: '2006'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 ## 概觀
 
 - **您的註冊不會變更**：繼續使用`window.extension` / `tcx.extension.register`。
-- **編輯器畫布是新的表面。**&#x200B;內容功能表專案必須宣告新的Widget ID
+- **編輯器畫布是新的表面。** 內容功能表專案必須宣告新的Widget ID
   `markup_editor_menu`；編輯器中的行為必須停止接觸DOM。
 - **停止讀取/寫入DOM**：將`tcx.curEditor.*` DOM存取取代為
   `guides.editor` API： [使用`runUtil(...)`](#migrate-reads-dom-runutil)讀取、[使用`runCommand(...)`](#migrate-writes-dom-mutation-runcommand)寫入、[樣式使用裝飾](#migrate-rendering-only-logic-dom-paint-decorations)以及[透過應用程式事件執行全域動作（儲存）](#migrate-global-actions-savefocus-app-events) 。
@@ -68,7 +68,7 @@ guides.ready(cb) // fires once at app load (view system ready) — before any fi
 
 ### 外掛程式註冊和執行階段閘道
 
-- **註冊** （`registerPlugin`，一次性設定）：在`guides.ready`中無條件執行&#x200B;**&#x200B;**。 在舊版編輯器上，這是無害的無操作式：舊版編輯器從不讀取外掛程式登入，而且您的工廠只會在實際建構MarkupEditor時執行。 它&#x200B;**不**&#x200B;擲回。
+- **註冊** （`registerPlugin`，一次性設定）：在`guides.ready`中無條件執行&#x200B;****。 在舊版編輯器上，這是無害的無操作式：舊版編輯器從不讀取外掛程式登入，而且您的工廠只會在實際建構MarkupEditor時執行。 它&#x200B;**不**&#x200B;擲回。
 
 - **執行階段呼叫** (`runCommand`， `runUtil`， `addDecoration`， ...)：Gate by version存在，且呼叫時不等於「1.0.0」。 它們不會擲回舊版編輯器（它們安全地傳回`false`/`undefined`），但閘道會避免無操作警告，並讓您保留舊版遞補。
 
@@ -91,7 +91,7 @@ function onMenuClick() {
 
 ### Hello world：僅限CSS的醒目提示外掛程式
 
-最小的實用擴充功能只提供&#x200B;**CSS**&#x200B;無操作的ProseMirror外掛程式加上樣式。 這個
+最小的實用擴充功能只提供&#x200B;**CSS**無操作的ProseMirror外掛程式加上樣式。 這個
 反白編輯器內具有黃色背景的每個`<note>`元素：
 
 ```js
@@ -105,7 +105,7 @@ guides.ready(() => {
 
 - 每個元素都會呈現為`data-xml-element="<tag>"`，因此您可以以此方式鎖定任何DITA元素
 (`note`， `codeblock`， `section`， `table`， ...)。
-- CSS **必須**&#x200B;透過registerPlugin出貨：編輯器位於影子DOM中，因此page/clientlib CSS無法
+- CSS **必須**透過registerPlugin出貨：編輯器位於影子DOM中，因此page/clientlib CSS無法
 觸及。
 - 開啟包含`<note>`的DITA主題以檢視其套用。 註冊為無條件(§2.1)，
 因此即使`version`在`guides.ready`時間仍為`1.0.0`，這是安全的。
@@ -320,7 +320,7 @@ tcx.eventHandler.next(tcx.eventHandler.KEYS.AUTHOR_SAVE_KEY);
 ## 移轉僅限轉譯的邏輯（DOM paint：裝飾）
 
 任何藉由變更DOM而新增CSS類別、`data-*`屬性或「顯示文字」的內容，都必須
-成為&#x200B;**裝飾**，或它在重新呈現時消失。 以下是簡單的宣告式案例：
+成為**裝飾**，或它在重新呈現時消失。 以下是簡單的宣告式案例：
 
 ```js
 guides.editor.addDecoration('important-sections', 'section', {
@@ -355,9 +355,9 @@ const createXrefPlugin = () => {
 guides.ready(() => guides.editor.registerPlugin(createXrefPlugin));
 ```
 
-在應用程式載入時註冊外掛程式（一次），不會在對話方塊內或重複註冊，登入不會進行重複資料刪除。`registerPlugin`只接受&#x200B;**factory函式**，不接受外掛程式執行個體。
-`guides.editor.prosemirror`公開： `state`、`model`、`view`、`transform`、`commands`、`keymap`、
-`history`、`tables`、`dropcursor`、`collab`、`markdown`。
+在應用程式載入時註冊外掛程式（一次），不會在對話方塊內或重複註冊，登入不會進行重複資料刪除。 `registerPlugin`只接受&#x200B;**factory函式**，不接受外掛程式執行個體。
+`guides.editor.prosemirror`公開： `state`、`model`、`view`、`transform`、`commands`、`keymap`，
+`history`, `tables`, `dropcursor`, `collab`, `markdown`.
 
 
 ## 移轉CSS （頁面clientlib→陰影DOM）
@@ -424,7 +424,7 @@ guides.ready(() => guides.editor.registerPlugin(createMyPlugin));
 （樣式）。
 - **CSS沒有效果**：它的頁面層級；編輯器在陰影DOM中。 使用`registerPlugin({ css })`。
 - **不安全的衛兵擲回**：類似`if (!tcx.curEditor && !tcx.curEditor.editor)`的模式評估
-  `.editor`在假物件上。改為警衛`guides.editor`功能：
+  `.editor`在假物件上。 改為警衛`guides.editor`功能：
   `if (!guides?.editor) return;`.
 - **嘗試移轉app-shell功能表**：儲存庫/對應/檔案功能表不是編輯器畫布；
 保留其舊版widget id。
