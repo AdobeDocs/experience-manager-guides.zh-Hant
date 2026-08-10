@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 0%
+source-wordcount: '2006'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 ## 概觀
 
 - **您的註冊不會變更**：繼續使用`window.extension` / `tcx.extension.register`。
-- **編輯器畫布是新的表面。**&#x200B;內容功能表專案必須宣告新的Widget ID
+- **編輯器畫布是新的表面。** 內容功能表專案必須宣告新的Widget ID
   `markup_editor_menu`；編輯器中的行為必須停止接觸DOM。
 - **停止讀取/寫入DOM**：將`tcx.curEditor.*` DOM存取取代為
   `guides.editor` API： [使用`runUtil(...)`](#migrate-reads-dom-runutil)讀取、[使用`runCommand(...)`](#migrate-writes-dom-mutation-runcommand)寫入、[樣式使用裝飾](#migrate-rendering-only-logic-dom-paint-decorations)以及[透過應用程式事件執行全域動作（儲存）](#migrate-global-actions-savefocus-app-events) 。
@@ -355,9 +355,9 @@ const createXrefPlugin = () => {
 guides.ready(() => guides.editor.registerPlugin(createXrefPlugin));
 ```
 
-在應用程式載入時註冊外掛程式（一次），不會在對話方塊內或重複註冊，登入不會進行重複資料刪除。`registerPlugin`只接受&#x200B;**factory函式**，不接受外掛程式執行個體。
-`guides.editor.prosemirror`公開： `state`、`model`、`view`、`transform`、`commands`、`keymap`、
-`history`、`tables`、`dropcursor`、`collab`、`markdown`。
+在應用程式載入時註冊外掛程式（一次），不會在對話方塊內或重複註冊，登入不會進行重複資料刪除。 `registerPlugin`只接受&#x200B;**factory函式**，不接受外掛程式執行個體。
+`guides.editor.prosemirror`公開： `state`、`model`、`view`、`transform`、`commands`、`keymap`，
+`history`, `tables`, `dropcursor`, `collab`, `markdown`.
 
 
 ## 移轉CSS （頁面clientlib→陰影DOM）
@@ -424,7 +424,7 @@ guides.ready(() => guides.editor.registerPlugin(createMyPlugin));
 （樣式）。
 - **CSS沒有效果**：它的頁面層級；編輯器在陰影DOM中。 使用`registerPlugin({ css })`。
 - **不安全的衛兵擲回**：類似`if (!tcx.curEditor && !tcx.curEditor.editor)`的模式評估
-  `.editor`在假物件上。改為警衛`guides.editor`功能：
+  `.editor`在假物件上。 改為警衛`guides.editor`功能：
   `if (!guides?.editor) return;`.
 - **嘗試移轉app-shell功能表**：儲存庫/對應/檔案功能表不是編輯器畫布；
 保留其舊版widget id。
