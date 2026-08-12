@@ -1,9 +1,9 @@
 ---
 title: 發行說明 |修正2026.08.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2026.08.0版中的錯誤修正。
-source-git-commit: 11d5db19cc352a3750754099a11290e4c0da0846
+source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1218'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 如需新功能和增強功能的詳細資訊，請檢視[2026.08.0版的新增功能](whats-new-2026-08-0.md)。
 
-瞭解2026.08.0版[&#128279;](upgrade-instructions-2026-08-0.md)的升級指示。
+瞭解2026.08.0版](upgrade-instructions-2026-08-0.md)的[升級指示。
 
 ## 製作
 
@@ -95,6 +95,7 @@ Adobe已找出下列2026.08.0版的已知問題：
 - 包在`foreign`和`equation`區塊內的MathML方程式會導致不必要的間距，且在方程式內輸入會導致即使在調整縮排後出現問題。 (GUIDES-46606)
 - 啟用&#x200B;**顯示標籤**&#x200B;選項且編輯器設定中停用&#x200B;**顯示屬性**&#x200B;選項時，無法將游標置於`reltable`內的`topicref`內。 (GUIDES-46565)
 - 將參考拖放至空白`keydef`會新增`topicref`專案，而非更新參考。 (GUIDES-45068)
+- 刪除資料表儲存格`<entry>`內緊鄰內嵌標籤之前輸入的空白字元。 (GUIDES-49144)
 
 ## 發佈
 
