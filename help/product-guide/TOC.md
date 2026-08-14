@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+source-git-commit: 40ec0c4ba2bb7fae03dfae32c555f03311f1de64
 workflow-type: tm+mt
 source-wordcount: '2578'
 ht-degree: 10%
@@ -550,7 +550,7 @@ ht-degree: 10%
         - [在PDF輸出中新增自訂書籤](./native-pdf/add-custom-bookmark.md)
         - [使用JavaScript來處理內容或樣式](./native-pdf/use-javascript-content-style.md)
         - [套用樣式至註腳](./native-pdf/footnote-number-style.md)
-      - [設定原生PDF的新發佈引擎](./native-pdf/conf-new-pdf-engine.md)
+        - [設定原生PDF的新發佈引擎](./native-pdf/conf-new-pdf-engine.md)
       - [使用原生PDF引擎v2](./native-pdf/new-pdf-engine.md)
       - [為Cloud Service的原生PDF發佈設定節點程式](./native-pdf/conf-node-options-cs.md)
       - [為內部部署的原生PDF發佈設定JVM標幟](./native-pdf/conf-jvm-flags-on-prem.md)
