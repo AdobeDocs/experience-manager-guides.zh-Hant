@@ -1,10 +1,10 @@
 ---
 title: 發行說明 |修正2026.08.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2026.08.0版中的錯誤修正。
-source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
+source-git-commit: 6872e4298df8e51a3c46845793d4dad23f92eddb
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 0%
+source-wordcount: '1200'
+ht-degree: 1%
 
 ---
 
@@ -85,16 +85,16 @@ Adobe已找出下列2026.08.0版的已知問題：
 ## 製作
 
 - 關閉已移至其他位置的DITAVAL檔案會產生`ERROR IN FETCHING VERSION DETAILS`錯誤訊息。 (GUIDES-51420)
+- 當存放庫資料夾路徑以正斜線結尾時，衝突API會失敗並導致應用程式錯誤。 (GUIDES-51006)
 
 ## 編輯器2.0
 
 
-- 當存放庫資料夾路徑以正斜線結尾時，衝突API會失敗並導致應用程式錯誤。 (GUIDES-51006)
 - 在「大綱」檢視中選取處理指示元素會醒目顯示整個父標籤，而非選取的元素。 (GUIDES-48318)
 - 在來源檢視中編輯`keyref`內的關鍵字，會在檢視切換至任何其他檢視時中斷該關鍵字。 (GUIDES-49998)
 - 包在`foreign`和`equation`區塊內的MathML方程式會導致不必要的間距，且在方程式內輸入會導致即使在調整縮排後出現問題。 (GUIDES-46606)
 - 啟用&#x200B;**顯示標籤**&#x200B;選項且編輯器設定中停用&#x200B;**顯示屬性**&#x200B;選項時，無法將游標置於`reltable`內的`topicref`內。 (GUIDES-46565)
-- 將參考拖放至空白`keydef`會新增`topicref`專案，而非更新參考。 (GUIDES-45068)
+
 - 刪除資料表儲存格`<entry>`內緊鄰內嵌標籤之前輸入的空白字元。 (GUIDES-49144)
 
 ## 發佈

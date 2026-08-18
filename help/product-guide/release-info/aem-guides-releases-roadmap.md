@@ -12,9 +12,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: b6a6c38581af1ba6e953071184473dadd4f57e8e
+source-git-commit: cd3d36fcd2da9af45520c8221411003b88269ac8
 workflow-type: tm+mt
-source-wordcount: 903
+source-wordcount: 905
 ht-degree: 33%
 
 ---
@@ -35,14 +35,14 @@ Experience Manager Guides as a Cloud Service預計發行版本如下：
 
 | 發行 | 事件 | 排程 | 新增功能 | 升級指示 | 已修正的問題 | 狀態 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.09.0 | 自動更新 | ~2026年9月 | - | - | - | 目標 |
+| Adobe Experience Manager Guides 2026.09.0 | 自動更新 | 2026年9月14至16日 | - | - | - | 目標 |
 
 
 ### 即時發行
 
 | 發行 | 事件 | 排程 | 新增功能 | 升級指示 | 已修正的問題 | 狀態 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.08.0 <br> [（AEM版本 — 27293）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年8月03日至05日 | [這裡](./whats-new-2026-08-0.md) | [這裡](./upgrade-instructions-2026-08-0.md) | [這裡](./fixed-issues-2026-08-0.md) | 已更新 |
+| Adobe Experience Manager Guides 2026.08.0 <br> [（AEM版本 — 27293）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年8月03至05日 | [這裡](./whats-new-2026-08-0.md) | [這裡](./upgrade-instructions-2026-08-0.md) | [這裡](./fixed-issues-2026-08-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.07.0 <br> [（AEM版本 — 26908）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年7月的第一週 | - | [這裡](upgrade-instructions-2026-07-0.md) | [這裡](fixed-issues-2026-07-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.06.0 <br> [（AEM版本 — 26773）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年6月22至24日 | [這裡](whats-new-2026-06-0.md) | [這裡](upgrade-instructions-2026-06-0.md) | [這裡](fixed-issues-2026-06-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.05.0 <br> [（AEM版本 — 25898）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Service Pack 1 | 2026年5月21至22日 | - | - | [這裡](fixed-issues-2026-05-0-sp1.md) | 已更新 |
