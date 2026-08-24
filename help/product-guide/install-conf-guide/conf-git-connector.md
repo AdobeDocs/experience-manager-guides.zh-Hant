@@ -4,9 +4,9 @@ description: 瞭解如何在Experience Manager Guides中設定Git。
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 選取頂端的&#x200B;**Adobe Experience Manager**&#x200B;連結，然後選擇&#x200B;**工具**。
 1. 從工具清單中選取&#x200B;**指南**。
 1. 選取&#x200B;**資料來源**&#x200B;圖磚。 顯示&#x200B;**資料來源**&#x200B;頁面。
-1. 選擇 **建立**。
+1. 選取「**建立**」。
 1. 從資料來源聯結器清單中，選取&#x200B;**GitHub**。
 
    ![](assets/github-connector-tile.png){width="600"}
@@ -40,19 +40,19 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 暫留在 <img src="./assets/info-details.svg" alt= "資訊圖示" width="25">在欄位附近以檢視更多相關詳細資訊。
-   >* 包含*的欄位為必填欄位。 例如，您可以為Elasticsearch聯結器輸入下列詳細資訊。
+   >* 包含*的欄位為必填欄位。 例如，您可以為Git聯結器輸入下列詳細資訊。
 
-   &#x200B;- **名稱**：輸入資料來源的名稱。
-   &#x200B;- **目標AEM根路徑**：輸入應儲存從Git匯入之內容的AEM存放庫路徑。
-   &#x200B;- **檔案型別篩選（包含）**：指定匯入時要包含的檔案型別。
-   &#x200B;- **排除的路徑（規則運算式）**：指定要從匯入排除的路徑模式。
-   &#x200B;- **驗證型別**：從下拉式清單中選取驗證型別。 目前，**個人存取權杖(PAT)**&#x200B;是唯一支援的驗證方法。 在聯結器設定期間輸入PAT以驗證和存取Git存放庫。
+   - **名稱**：輸入資料來源的名稱。
+   - **目標AEM根路徑**：輸入應儲存從Git匯入之內容的AEM存放庫路徑。
+   - **檔案型別篩選（包含）**：指定匯入時要包含的檔案型別。
+   - **排除的路徑（規則運算式）**：指定要從匯入排除的路徑模式。
+   - **驗證型別**：從下拉式清單中選取驗證型別。 目前，**個人存取權杖(PAT)**&#x200B;是唯一支援的驗證方法。 在聯結器設定期間輸入PAT以驗證和存取Git存放庫。
 
      瞭解如何[產生GitHub個人存取權杖](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)。
 
      在GitHub產生PAT期間選取範圍時，請務必啟用下列範圍：
-     &#x200B;- **repo**：選取最上層核取方塊。 會自動選取所有子範圍，授與存放庫內容、認可狀態和部署的存取權。
-     &#x200B;- **管理員:org**：僅選取&#x200B;**讀取:org**。 這是解析組織和團隊成員資格所必需的。
+     - **repo**：選取最上層核取方塊。 會自動選取所有子範圍，授與存放庫內容、認可狀態和部署的存取權。
+     - **管理員:org**：僅選取&#x200B;**讀取:org**。 這是解析組織和團隊成員資格所必需的。
    * **存放庫URL**：輸入應從中匯入內容的Git存放庫URL。
    * **分支**：輸入用於內容匯入的分支。
 
@@ -70,13 +70,17 @@ ht-degree: 0%
 
 Git Connector必須先內嵌在AEM專案中，才能從&#x200B;**資料來源**&#x200B;頁面設定。 執行以下步驟來新增相依性：
 
+>[!NOTE]
+>
+> 若要檢視可用的Git聯結器版本，請檢視[Maven中央存放庫](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github)。
+
 1. 在您的AEM專案的`all/pom.xml`中，將Git Connector新增為`<dependencies>`下的相依性：
 
    ```xml
    <dependency>
        <groupId>com.adobe.aem.addon.guides</groupId>
        <artifactId>konnect-github</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
    ```
 

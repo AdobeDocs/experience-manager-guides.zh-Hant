@@ -4,23 +4,14 @@ description: 瞭解Experience Manager Guides中的Git Connector有何作用、�
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/DDAXW8cUFjvHUeJIbtL6FaHYSU7NW5fkzTai-7n90ms
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f8123b54fae2aa209efda73abb333e63cf722708
 workflow-type: tm+mt
-source-wordcount: 1352
+source-wordcount: 1409
 ht-degree: 0%
 
 ---
@@ -115,7 +106,9 @@ Git Connector會分四個階段將內容從Git存放庫移至Experience Manager 
 
    >[!NOTE]
    >
-   > 您可以啟用&#x200B;**自動同步**，以自動同步和匯入Git存放庫中的內容至Experience Manager Guides。 如果偵測到任何錯誤，則不會觸發自動同步處理，而且作者必須選取&#x200B;**全部匯入**，以手動方式匯入內容。 啟用後，匯入工具將無法停用自動同步處理。
+   > 如果您使用1.0.1之前的Git Connector版本，在擷取作業期間，匯入包含Git子模組的存放庫可能會失敗。 請升級至Git Connector 1.0.1版或更新版本，以避免此問題。 從1.0.1版開始，複製和匯入期間會跳過Git子模組，而且只會匯入來自主要存放庫的內容。
+
+1. *（選擇性）*&#x200B;您可以啟用&#x200B;**自動同步**，以自動同步化並將內容從您的Git存放庫匯入Experience Manager Guides。 如果偵測到任何錯誤，則不會觸發自動同步處理，而且作者必須選取&#x200B;**全部匯入**，以手動方式匯入內容。 啟用後，匯入工具將無法停用自動同步處理。
 
 匯入內容後，在設定Git聯結器時，內容會儲存在已設定的&#x200B;**目標AEM根路徑**&#x200B;下。
 
