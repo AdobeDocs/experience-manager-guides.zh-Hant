@@ -4,9 +4,9 @@ description: 瞭解如何在Experience Manager Guides中設定Git。
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 選取頂端的&#x200B;**Adobe Experience Manager**&#x200B;連結，然後選擇&#x200B;**工具**。
 1. 從工具清單中選取&#x200B;**指南**。
 1. 選取&#x200B;**資料來源**&#x200B;圖磚。 顯示&#x200B;**資料來源**&#x200B;頁面。
-1. 選擇 **建立**。
+1. 選取「**建立**」。
 1. 從資料來源聯結器清單中，選取&#x200B;**GitHub**。
 
    ![](assets/github-connector-tile.png){width="600"}
@@ -40,7 +40,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 暫留在 <img src="./assets/info-details.svg" alt= "資訊圖示" width="25">在欄位附近以檢視更多相關詳細資訊。
-   >* 包含*的欄位為必填欄位。 例如，您可以為Elasticsearch聯結器輸入下列詳細資訊。
+   >* 包含*的欄位為必填欄位。 例如，您可以為Git聯結器輸入下列詳細資訊。
 
    &#x200B;- **名稱**：輸入資料來源的名稱。
    &#x200B;- **目標AEM根路徑**：輸入應儲存從Git匯入之內容的AEM存放庫路徑。
@@ -70,13 +70,17 @@ ht-degree: 0%
 
 Git Connector必須先內嵌在AEM專案中，才能從&#x200B;**資料來源**&#x200B;頁面設定。 執行以下步驟來新增相依性：
 
+>[!NOTE]
+>
+> 若要檢視可用的Git聯結器版本，請檢視[Maven中央存放庫](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github)。
+
 1. 在您的AEM專案的`all/pom.xml`中，將Git Connector新增為`<dependencies>`下的相依性：
 
    ```xml
    <dependency>
        <groupId>com.adobe.aem.addon.guides</groupId>
        <artifactId>konnect-github</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
    ```
 
