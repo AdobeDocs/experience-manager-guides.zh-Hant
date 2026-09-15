@@ -7,18 +7,20 @@ role: Leader
 TQID: https://experienceleague.adobe.com/RROF3KWnqtnbbHGyW1McC9uvdA7x27fI-Rp4nCZOTHo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 1a08469a4bd12f8b6dd9d83196463432b331f239
+    internal-label: Customer experience
+source-git-commit: 244642e60f489789379feeba34f0d5fc80e18ce1
 workflow-type: tm+mt
-source-wordcount: 2473
+source-wordcount: '2473'
 ht-degree: 0%
-
 ---
-
 # [!DNL AEM Guides]版本
 
 [!DNL Adobe Experience Manager Guides]是部署至AEM的應用程式。 這是一個功能強大、企業級元件內容管理解決方案(CCMS)；此解決方案啟用Adobe Experience Manager的原生DITA支援、使AEM能夠處理以DITA為主的內容建立和傳遞。
@@ -37,8 +39,8 @@ UUID和非UUID組建之間的主要差異如下：
 ### UUID建置的優點
 
 * UUID安裝的效能較高：
-   * 參照與路徑無關：參照管理系統會察覺到連結，因為參照是根據UUID而不是路徑建立的。
-   * 移動/更新作業相當有效率：即使資產移至存放庫中的其他路徑，UUID仍會維持不變。 因此，在移動/更新作業中，不需要處理即可修補資產之間的引用。
+  * 參照與路徑無關：參照管理系統會察覺到連結，因為參照是根據UUID而不是路徑建立的。
+  * 移動/更新作業相當有效率：即使資產移至存放庫中的其他路徑，UUID仍會維持不變。 因此，在移動/更新作業中，不需要處理即可修補資產之間的引用。
 * UUID組建具有前瞻性，因為我們也將此框架用於AEM Guides的雲端設定。
 
 
@@ -56,7 +58,9 @@ UUID和非UUID組建之間的主要差異如下：
 
 當您從較舊版本升級至較新版本的[!DNL AEM Guides]時，您可能需要執行移轉指令碼。 如需升級指示，請參閱版本注意事項和版本特定檔案。
 
-並非所有升級路徑都直接受支援。 例如，只有從3.8版才能直接升級至4.0版。如果您使用的是3.8之前的版本，請參閱版本專屬檔案以取得升級指示[說明封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)。請洽詢您的客戶成功案例經理以驗證升級路徑。
+並非所有升級路徑都直接受支援。 例如，只有從3.8版才能直接升級至4.0版。
+如果您使用的是3.8之前的版本，請參閱版本專屬檔案以取得升級指示[說明封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)。
+請洽詢您的客戶成功案例經理以驗證升級路徑。
 
 **[!DNL AEM Guides]組建**
 
@@ -64,7 +68,7 @@ UUID和非UUID組建之間的主要差異如下：
 >
 >請聯絡您的客戶成功案例經理，以存取AEM as a Cloud Service的[!DNL AEM Guides]組建。
 
-下列清單包含可在AMS或內部部署安裝的最新[!DNL AEM Guides]套件、套件的下載連結以及其他實用資訊。 在安裝Experience Manager Guides之前，請確認您的系統符合[技術需求](../install-guide/download-install-technical-requirements.md)。 此外，建議僅使用[!DNL AEM Guides]的最新組建。 如果由於某些原因，您需要存取較舊的組建，請聯絡您帳戶的客戶成功經理。
+下列清單包含可在AMS或內部部署安裝的最新[!DNL AEM Guides]套件、套件的下載連結以及其他實用資訊。 在安裝Experience Manager Guides之前，請確認您的系統符合[技術需求](../install-conf-guide/aemg-technical-requirements.md)。 此外，建議僅使用[!DNL AEM Guides]的最新組建。 如果由於某些原因，您需要存取較舊的組建，請聯絡您帳戶的客戶成功經理。
 
 >[!NOTE]
 >

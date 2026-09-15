@@ -6,19 +6,23 @@ exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
 TQID: https://experienceleague.adobe.com/wlMdLsi-ssGu3iOQjq64vwgPg3c-kEfG6-W6hawzQE4
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 64a36067e35da78972ae275b49f536a910ad8644
+    internal-label: Developer
+source-git-commit: 244642e60f489789379feeba34f0d5fc80e18ce1
 workflow-type: tm+mt
-source-wordcount: 929
+source-wordcount: '929'
 ht-degree: 33%
-
 ---
-
 # [!DNL Experience Manager Guides]發行資訊 {#aem-guides-releases-roadmap}
 
 [!DNL Adobe Experience Manager Guides]持續為使用產品之[!DNL Cloud Service]和內部部署（或Managed Services）產品的使用者提供新功能、現有功能的增強功能，以及錯誤修正。 本文列出 [!DNL Experience Manager Guides] 即將發行的版本。
@@ -35,8 +39,8 @@ Experience Manager Guides as a Cloud Service預計發行版本如下：
 
 | 發行 | 事件 | 排程 | 新增功能 | 升級指示 | 已修正的問題 | 狀態 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.09.0 | 自動更新 | 2026 年 9 月 14 至 16 日 | - | - | - | 目標 |
-| Adobe Experience Manager Guides 2026.10.0 | 自動更新 | 2026年10月26至28日 | - | - | - | 目標 |
+| Adobe Experience Manager Guides 2026.09.0 | 自動更新 | 2026 年 9 月 28 至 30 日 | - | - | - | 目標 |
+| Adobe Experience Manager Guides 2026.11.0 | 自動更新 | 2026年11月8至10日 | - | - | - | 目標 |
 | Adobe Experience Manager Guides 2026.12.0 | 自動更新 | 2026年12月07至09日 | - | - | - | 目標 |
 
 
