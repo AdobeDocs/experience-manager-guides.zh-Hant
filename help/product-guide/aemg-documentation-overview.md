@@ -195,7 +195,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 * [Cloud Service發行說明](./release-info/latest-release-info-cs.md)
 * [On-Premise版本注意事項](./release-info/latest-release-info.md)
-* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
-* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [支援](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [教學影片](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hant){target="_blank"}
+* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.zh-Hant){target="_blank"}
+* [支援](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hant){target="_blank"}
+* [教學影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
