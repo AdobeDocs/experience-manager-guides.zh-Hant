@@ -2,17 +2,16 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 40ec0c4ba2bb7fae03dfae32c555f03311f1de64
+source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2582'
 ht-degree: 10%
-
 ---
-
 
 # [!DNL Adobe Experience Manager Guides] {#using}
 
 - [[!DNL AEM Guides] 概觀](overview.md)
+- {hide-from-toc}[AEM Guides登陸頁面](aemg-documentation-overview.md)
 - [免責聲明](./user-guide/rebranding-disclaimer.md)
 - 發行資訊 {#release-info}
   - [AEM Guides發行藍圖](./release-info/aem-guides-releases-roadmap.md)
@@ -216,7 +215,7 @@ ht-degree: 10%
   - 簡介 {#about-aemg}
     - [關於 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides]個運作中及主要功能 {#aemg-works-features}
-      - [&#x200B; [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
+      - [ [!DNL AEM Guides] 的運作方式](./user-guide/intro-how-dxml-works.md)
       - [索引鍵 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
   - 首頁 {#home-page}
     - [[!DNL AEM Guides]首頁體驗](./user-guide/intro-home-page.md)
@@ -242,7 +241,7 @@ ht-degree: 10%
         - [內容編輯區域](./user-guide/web-editor-content-editing-area.md)
         - [右側面板](./user-guide/web-editor-right-panel.md)
         - [搜尋面板](./user-guide/search-panel-explorer.md)
-      - [編輯器中的其他功能](./user-guide/web-editor-other-features.md)
+      - 編輯器中的[其他功能](./user-guide/web-editor-other-features.md)
       - [編輯器中的鍵盤快速鍵](./user-guide/web-editor-keyboard-shortcuts.md)
       - [編輯器檢視](./user-guide/web-editor-views.md)
       - [支援Schematron檔案](./user-guide/support-schematron-file.md)
@@ -427,7 +426,7 @@ ht-degree: 10%
       - [工作階段逾時](./user-guide/session-timeout-prompt.md)
       - [中繼資料匯出中的字串太長例外狀況](./user-guide/metadata-export-failure.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-  - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-conf-guide}
   - [下載、安裝和升級](./install-conf-guide/introduction.md)
   - Cloud Service的安裝程式 {#deploy-conf-aemg-cs}
@@ -447,7 +446,7 @@ ht-degree: 10%
     - 內部部署 {#on-prem}
       - [升級AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
       - [升級AEM Guides On-Premise舊版](./install-conf-guide/upgrade-aemg-prev-versions.md)
-      - [Experience Manager Guides發行版本的設定更新](./install-conf-guide/configuration-on-prem.md)
+      - Experience Manager Guides發行版本的[設定更新](./install-conf-guide/configuration-on-prem.md)
   - 效能最佳化建議 {#performance-optimization-aemg}
     - [Cloud Service的效能最佳化](./install-conf-guide/perf-optimization-cs.md)
     - [內部部署的效能最佳化](./install-conf-guide/perf-optimization-on-prem.md)
@@ -645,7 +644,7 @@ ht-degree: 10%
         - Widget {#framework-widgets}
           - [轉譯Widget](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [基本Widget](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-        - [編輯器2.0的擴充框架變更](./guides-ui-extensions/getting-started/editor-extension-guide.md)
+        - 編輯器2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)的[擴充框架變更
         - [將擴充功能框架移轉至Editor 2.0](./guides-ui-extensions/getting-started/migrating-extensions-new-editor.md)
       - 快速入門 {#getting-started}
         - [簡介](./guides-ui-extensions/getting-started/introduction.md)
