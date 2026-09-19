@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 411756129e6ce756f8674d6d3feb27a1cd9a2f19
+source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '289'
 ht-degree: 5%
 ---
 # Experience Manager Guides檔案
@@ -54,7 +54,7 @@ Experience Manager Guides是一款企業級CCMS，具備適用於結構化撰寫
 
 ::::landing-cards-container
 :::card
-![管理員圖示](./user-guide/images/admin.png)
+![管理員圖示](../assets/admin.png)
 
 管理員
 
@@ -64,7 +64,7 @@ Experience Manager Guides是一款企業級CCMS，具備適用於結構化撰寫
 :::
 
 :::card
-![作者圖示](./user-guide/images/author.png)
+![作者圖示](../assets/author.png)
 
 作者
 
@@ -74,7 +74,7 @@ Experience Manager Guides是一款企業級CCMS，具備適用於結構化撰寫
 :::
 
 :::card
-![發佈者圖示](./user-guide/images/publish.png)
+![發佈者圖示](../assets/publisher.png)
 
 發佈者
 
@@ -84,7 +84,6 @@ Experience Manager Guides是一款企業級CCMS，具備適用於結構化撰寫
 :::
 
 ::::
-
 
 <!--
 :::card
@@ -102,12 +101,12 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 ## 依功能區域瀏覽
 
-<!-- Author note: Six cards will wrap to two rows of three in production. Same beta caveat as the role cards above applies here. -->
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
 
 ::::landing-cards-container
 
 :::card
-![製作圖示](./user-guide/images/author.svg)
+![製作圖示](../assets/authoring.png)
 
 製作
 
@@ -117,7 +116,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 :::
 
 :::card
-![檢閱圖示](./user-guide/images/review.svg)
+![檢閱圖示](../assets/review.png)
 
 檢閱
 
@@ -127,7 +126,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 :::
 
 :::card
-![發佈圖示](./user-guide/images/publish.svg)
+![發佈圖示](../assets/publishing.png)
 
 發佈
 
@@ -137,7 +136,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 :::
 
 :::card
-![翻譯圖示](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![翻譯圖示](../assets/translation.png)
 
 翻譯
 
@@ -147,7 +146,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 :::
 
 :::card
-![報告圖示](./user-guide/images/Smock_Report_18_N.svg)
+![報告圖示](../assets/reports.png)
 
 報告
 
@@ -157,7 +156,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 :::
 
 :::card
-![設定圖示](./user-guide/images/config.svg)
+![設定圖示](../assets/configure.png)
 
 設定
 
@@ -170,63 +169,43 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 ## 新增功能
 
-<!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
-::::landing-cards-container
+<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
 
-:::card
-![系統管理員圖示](https://cdn.experienceleague.adobe.com/icons/admin.svg)
+>[!BEGINSHADEBOX]
 
-Git聯結器
+<table>
+<tr style="border: 0;">
+<td>
+
+![Git聯結器](../assets/whats-new-git-connector.svg)
+
+**[使用Git Connector匯入內容](./user-guide/web-editor-git-connector.md)**
 
 直接從Git存放庫將內容匯入指南中。
 
-[使用Git聯結器匯入內容](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![疑難排解圖示](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+![對應集合](../assets/whats-new-map-collection.svg)
 
-新地圖集合
+**[新地圖集合](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
 
 用於管理地圖和發佈輸出的統一介面。
 
-[新地圖集合](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![書本圖示](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![委派檢閱](../assets/whats-new-delegate-review.svg)
 
-委派稽核任務
+**[委派稽核任務](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
 
 稽核者可以將稽核任務委派給其他稽核者。
-
-[委派稽核任務](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
-:::
-
-::::
-
-<!--
-<table>
-<tr>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
-
-</td>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
-
-</td>
-<td>
-
-[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
 </table>
--->
 
+>[!ENDSHADEBOX]
 
 ## 其他資源
 
