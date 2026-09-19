@@ -4,13 +4,12 @@ description: 瞭解如何將非UUID移轉至UUID內容
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 0ce73a2a-e1a4-43b6-a918-75d1c537a87c
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1753'
 ht-degree: 1%
-
 ---
-
 # 4.6.0 Service Pack 4 （非UUID）至4.6.1 UUID內容移轉
 
 執行這些步驟，將您的內容從非UUID版本4.6.0 Service Pack 4移轉至UUID版本4.6.1。
@@ -113,7 +112,7 @@ ht-degree: 1%
    * `com.adobe.guides.uuid`。
 
 
-1. （若未更早完成）如果系統中有超過100,000個DITA檔案，請將`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新為較大的值（任何大於現有資產數的值，例如200,000）。
+1. （若未更早完成）如果系統中有超過100,000個DITA檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新為較大的值（任何大於現有資產數的值，例如200,000）。
 
    | PID | 屬性索引鍵 | 屬性值 |
    |---|---|---|
@@ -216,7 +215,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 如果在移轉之前，屬性&#x200B;**在**&#x200B;內使用AEM網站頁面名稱的標題`com.adobe.fmdita.config.ConfigManager`，設定為&#x200B;*False*，則在移轉之後，需要更新此屬性。
+   > 如果在移轉之前，屬性&#x200B;**在`com.adobe.fmdita.config.ConfigManager`內使用AEM網站頁面名稱的標題**，設定為&#x200B;*False*，則在移轉之後，需要更新此屬性。
 
 
-1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hant`）。
+1. 完成驗證後，可執行壓縮以回收大部分的磁碟空間（請參閱`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。

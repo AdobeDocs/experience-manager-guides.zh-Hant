@@ -1,13 +1,12 @@
 ---
 title: AEM Guides中的內容檢閱
 description: 專家諮詢 — AEM Guides稽核工作流程內部。 功能與真實使用案例
-source-git-commit: a05fb3e28481648b7cceca970dc9d9a617dce3a2
+exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
+source-git-commit: 0d214aca4b5f12d5401ed174d20259627bf94469
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '234'
 ht-degree: 1%
-
 ---
-
 # AEM Guides中的內容檢閱
 
 AEM Guides檢閱工作流程可讓作者、SME和檢閱者在不離開AEM的情況下就DITA主題和地圖共同作業。 它支援註解、版本設定、任務管理和多階段核准。
@@ -38,11 +37,11 @@ AEM Guides檢閱工作流程可讓作者、SME和檢閱者在不離開AEM的情�
 
 ## 相關資源
 
-- [檢閱工作流程檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/review/review)
+- [檢閱工作流程檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [AEM Guides與Workfront整合](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [AEM Guides與Workfront整合](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [自訂檢閱UI](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [自訂檢閱UI](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -55,7 +54,7 @@ AEM Guides檢閱工作流程可讓作者、SME和檢閱者在不離開AEM的情�
 
 ### 社群論壇
 
-- 如需Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hant)。
+- 如需Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 
 ## 聯絡我們

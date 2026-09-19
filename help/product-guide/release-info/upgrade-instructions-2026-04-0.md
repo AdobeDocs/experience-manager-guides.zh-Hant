@@ -1,20 +1,19 @@
 ---
-title: 發行說明| 2026.04.0版Adobe Experience Manager Guides中的升級指示和修正問題
+title: 發行說明 | 2026.04.0版Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides as a Cloud Service 2026.04.0版。
-source-git-commit: ce2c9da0d9beb05a15f7cefcf9483e0c93abbf37
+exl-id: 897d70d4-7f35-41e3-95ff-6cabeeacb1ac
+source-git-commit: 97512e5459540f57703bc99ec9a29a9d35786f01
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 11%
-
+source-wordcount: '325'
+ht-degree: 1%
 ---
-
 # 2026.04.0版的升級指示
 
 本文介紹2026.04.0版Adobe Experience Manager Guides as a Cloud Service的升級指示和相容性矩陣。
 
-如需新功能和增強功能的詳細資訊，請參閱 [2026.04.0 版本中的新增功能](whats-new-2026-04-0.md)。
+如需新功能和增強功能的詳細資訊，請檢視[2026.04.0版的新增功能](whats-new-2026-04-0.md)。
 
-有關此版本中的問題修正清單，請查看 [2026.04.0 版本中修正的問題](fixed-issues-2026-04-0.md)。
+如需此版本中修正的問題清單，請檢視[2026.04.0版本](fixed-issues-2026-04-0.md)中的已修正問題。
 
 ## 相容性矩陣
 

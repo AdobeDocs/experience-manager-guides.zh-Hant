@@ -4,13 +4,12 @@ description: 瞭解如何設定自訂DITA主題範本
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: aaf24a83-3a94-4f77-aa37-7b0398f6ae71
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 2%
-
 ---
-
 # 設定自訂DITA主題範本 {#id16A7G0O02TD}
 
 AEM Guides隨附下列DITA主題範本：
@@ -68,7 +67,7 @@ AEM Guides可讓您設定資料夾以儲存自訂的DITA map和範本。 依預�
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | 指定儲存自訂範本的位置。<br>如果指定的位置存在於DAM中，則所有預設地圖和主題範本都會複製到該資料夾中。 如果該位置不存在，則會使用所有預設地圖和主題範本建立該資料夾。 |
+| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | 指定儲存自訂範本的位置。<br> 如果DAM中存在指定的位置，則所有預設地圖和主題範本都會複製到該資料夾中。 如果該位置不存在，則會使用所有預設地圖和主題範本建立該資料夾。 |
 
 >[!TAB 內部部署]
 
@@ -99,4 +98,4 @@ AEM Guides可讓您設定資料夾以儲存自訂的DITA map和範本。 依預�
 >[!ENDTABS]
 
 
-**父級主題：**&#x200B;[&#x200B;設定主題與對應範本](conf-template-tags.md)
+**父級主題：**[&#x200B;設定主題與對應範本](conf-template-tags.md)

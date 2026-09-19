@@ -4,13 +4,12 @@ description: 瞭解如何驗證AEM Guides安裝
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 19cded6f-6545-42af-8511-7c32cf4ddf2d
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # 驗證AEM Guides安裝 {#id213BD030FBE}
 
 安裝AEM Guides後，您需要確認安裝是否成功。
@@ -25,11 +24,11 @@ ht-degree: 0%
 
 1. 存取Cloud Service的Developer Console。
 
-   如需存取Developer Console的詳細資訊，請參閱AEM檔案中的[Developer Console存取](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=zh-Hant)。
+   如需存取Developer Console的詳細資訊，請參閱AEM檔案中的[Developer Console存取](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html)。
 
 1. 存取AEM中的OSGi套件組合清單。
 
-   如需存取套裝的詳細資訊，請參閱AEM檔案中的[套裝](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=zh-Hant#bundles)。
+   如需存取套裝的詳細資訊，請參閱AEM檔案中的[套裝](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles)。
 
 1. 在套件組合清單中搜尋fmdita並檢查其狀態。
 
@@ -59,5 +58,3 @@ ht-degree: 0%
 > 您可以考慮許多效能最佳化建議，以提升系統效能。 如需詳細資訊，請參閱[效能最佳化建議](perf-optimization-on-prem.md#)。
 
 >[!ENDTABS]
-
-

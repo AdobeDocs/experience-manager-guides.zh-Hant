@@ -4,20 +4,19 @@ description: 瞭解如何設定Dispatcher
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 4b7b4e9b-0a5c-4b61-87d9-a6bd6494c030
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 7%
-
+source-wordcount: '293'
+ht-degree: 6%
 ---
-
 # 設定 Dispatcher {#id213BCM0M05U}
 
 如果您打算在AEM Author例項上搭配使用Dispatcher以及AEM Guides，則您需要執行下列額外設定以完成設定：
 
 >[!NOTE]
 >
-> Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。如需有關使用Dispatcher的詳細資訊，請參閱[Dispatcher概觀](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=zh-Hant)。
+> Dispatcher 是 Adobe Experience Manager 的快取和/或負載平衡工具。 如需有關使用Dispatcher的詳細資訊，請參閱[Dispatcher概觀](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en)。
 
 ## 在URL中啟用AllowEncodedSlases
 
@@ -71,7 +70,7 @@ ht-degree: 7%
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}
 ```
 
-- 確定未在Author Dispatcher上快取URL模式`/libs/cq/security/userinfo.json`，因此請在`\(like below\)`中新增規則`author\_dispatcher.any`
+- 確定未在Author Dispatcher上快取URL模式`/libs/cq/security/userinfo.json`，因此請在`author\_dispatcher.any`中新增規則`\(like below\)`
 
 ```json
 /xxxx {
@@ -79,4 +78,3 @@ ht-degree: 7%
                 /type "deny"
                 }
 ```
-
