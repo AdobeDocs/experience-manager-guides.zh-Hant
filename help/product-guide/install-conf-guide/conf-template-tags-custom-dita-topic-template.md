@@ -98,4 +98,4 @@ AEM Guides可讓您設定資料夾以儲存自訂的DITA map和範本。 依預�
 >[!ENDTABS]
 
 
-**父級主題：**[&#x200B;設定主題與對應範本](conf-template-tags.md)
+**父級主題：**&#x200B;[&#x200B;設定主題與對應範本](conf-template-tags.md)
