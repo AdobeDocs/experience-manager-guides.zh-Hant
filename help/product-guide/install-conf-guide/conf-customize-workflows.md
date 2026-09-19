@@ -4,13 +4,12 @@ description: 瞭解如何設定和自訂工作流程
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2280'
 ht-degree: 2%
-
 ---
-
 # 設定和自訂工作流程 {#id181AI0OJ0RO}
 
 工作流程可讓您自動化Adobe Experience Manager \(AEM\)活動。 工作流程包含一系列以特定順序執行的步驟。 您可以定義要在每個步驟上執行的不同活動。 例如，您可以在建立主題稽核時，傳送電子郵件通知給群組中的所有稽核者。 或者，當輸出產生工作完成時，傳送通知給發佈者。
@@ -95,7 +94,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `initiator` | 字串 | 起始稽核任務之使用者的使用者ID。 |
 | `operation` | 字串 | 設定為`AEM_REVIEW`的靜態值。 |
 | `orgTopics` | 字串 | 共用以供檢閱的主題路徑。 指定多個以逗號分隔的主題。 |
-| `payloadJson` | JSON 物件 | 指定下列值： -   `base`：包含已傳送供檢閱之主題的父資料夾路徑。 <br> -   `asset`：傳送供檢閱之主題的路徑。 <br> -   `referrer`：留空。 |
+| `payloadJson` | JSON 物件 | 指定下列值： - `base`：包含已傳送供檢閱之主題的父資料夾路徑。<br> - `asset`：傳送供檢閱之主題的路徑。<br> - `referrer`：請保留空白。 |
 | `deadline` | 字串 | 以`yyyy-MM-dd'T'HH:mm:ss.SSSXXX`格式指定時間。 |
 | `title` | 字串 | 輸入稽核任務的標題。 |
 | `description` | 字串 | 輸入複查工作的說明。 |
@@ -110,7 +109,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `ditamap` | 字串 | 指定稽核任務的ditamap路徑 |
 | `allowAllReviewers` | 布林值 | false/true |
 | `notifyViaEmail` | 布林值 | false/true |
-| `reviewVersion` | 字串 | 指定稽核工作流程的目前版本。 預設值設為`3.0` 。<br>若要啟用[作者](../user-guide/review-close-review-task.md)和[檢閱者](../user-guide/review-complete-review-tasks.md)的新檢閱工作流程功能，請確定`reviewVersion`已設為`3.0`。 |
+| `reviewVersion` | 字串 | 指定稽核工作流程的目前版本。 預設值設為`3.0` .<br> 若要啟用[作者](../user-guide/review-close-review-task.md)和[檢閱者](../user-guide/review-complete-review-tasks.md)的新檢閱工作流程功能，請確定`reviewVersion`已設為`3.0`。 |
 
 
 建立指令碼後，請先呼叫它，然後再在工作流程中呼叫建立檢閱程式。 然後，根據您的需求，您可以呼叫其他稽核工作流程處理。
@@ -140,7 +139,7 @@ AEM Guides包含一組您在稽核工作流程中使用的電子郵件和AEM通�
 
    >[!NOTE]
    >
-   > 請勿在``libs``節點中使用預設組態檔中的任何自訂專案。 您必須在``libs``節點中建立``apps``節點的覆蓋，並僅更新``apps``節點中的必要檔案。
+   > 請勿在``libs``節點中使用預設組態檔中的任何自訂專案。 您必須在``apps``節點中建立``libs``節點的覆蓋，並僅更新``apps``節點中的必要檔案。
 
 1. `review`資料夾包含以下子資料夾：
 

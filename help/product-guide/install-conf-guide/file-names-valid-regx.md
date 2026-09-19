@@ -4,13 +4,12 @@ description: 瞭解如何設定有效檔案名稱字元的Regx
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0eacc712-1179-4c11-b8f9-9eb2706e6295
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # 設定Regx以取得有效的檔案名稱字元 {#id214BD0550E8}
 
 從AEM Guides 3.8版開始，管理員可以定義檔案名稱允許的有效特殊字元清單。 在舊版中，使用者可定義包含特殊字元的檔案名稱，例如`@`、`$`、`>`等。 這些特殊字元在從DITA map儀表板開啟主題或按一下TOC中的主題連結時會導致問題，這通常會導致頁面因URL中的特殊字元而無法開啟。

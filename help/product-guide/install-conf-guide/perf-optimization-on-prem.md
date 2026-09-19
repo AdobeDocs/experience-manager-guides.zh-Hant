@@ -4,19 +4,18 @@ description: 瞭解效能最佳化的建議
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 0f289f7c-8300-427a-a4d9-9c2f31608240
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # 內部部署的效能最佳化建議 {#id213BD0JG0XA}
 
 ## 設定資料存放區\（必要\）
 
 **有什麼變更？**
-在設定`minRecordLength`下將`100`屬性設定為值`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`如需檔案日期存放區和S3資料存放區的詳細資訊，請參閱[在AEM 6](https://helpx.adobe.com/tw/experience-manager/6-5/sites/deploying/using/data-store-config.html)中設定節點存放區和資料存放區。
+在設定`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`下將`minRecordLength`屬性設定為值`100`如需檔案日期存放區和S3資料存放區的詳細資訊，請參閱[在AEM 6](https://helpx.adobe.com/tw/experience-manager/6-5/sites/deploying/using/data-store-config.html)中設定節點存放區和資料存放區。
 
 >[!NOTE]
 >
@@ -50,7 +49,7 @@ JVM啟動引數應根據基礎架構和磁碟大小仔細調整。 建議您洽�
 
  — 將JVM棧積大小設定為最小總可用記憶體的1/4。 使用引數`-Xmx<size>`設定棧積記憶體大小。 設定 — `Xms`的值等於`-Xmx`。
 
- — 啟用`-XX:+HeapDumpOnOutOfMemoryError`並設定`-XX:HeapDumpPath=</path/to/folder` `>`的路徑。
+ — 啟用`-XX:+HeapDumpOnOutOfMemoryError`並設定`-XX:HeapDumpPath=</path/to/folder`&#x200B;`>`的路徑。
 
  — 啟用Java GC記錄為：
 
@@ -92,7 +91,7 @@ JVM啟動引數應根據基礎架構和磁碟大小仔細調整。 建議您洽�
 **有什麼變更？**
 如果您使用DITA-OT來發佈輸出，且已定義多個並行發佈執行緒，則需要此變更。
 
-根據預設，AEM Guides會將發佈執行緒設定為CPU+1數量。 不過，建議將此值設定為CPU總數的一半\(1/2\)或三分之一\(1/3\)。 若要這麼做，請根據建議在設定&#x200B;**下設定**&#x200B;產生集區大小`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`屬性。
+根據預設，AEM Guides會將發佈執行緒設定為CPU+1數量。 不過，建議將此值設定為CPU總數的一半\(1/2\)或三分之一\(1/3\)。 若要這麼做，請根據建議在設定`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`下設定&#x200B;**產生集區大小**&#x200B;屬性。
 
 **何時設定？**
 您可以透過Felix主控台或程式碼部署，在執行階段完成此操作。
@@ -105,11 +104,10 @@ JVM啟動引數應根據基礎架構和磁碟大小仔細調整。 建議您洽�
 **變更內容？**
 如果您產生AEM Sites輸出，則必須進行此變更。
 
-根據您的系統組態，將&#x200B;**下棧積中**&#x200B;屬性的`com.adobe.fmdita.config.ConfigManager`Limit AEM網站頁面設定為數字。 此屬性會定義產生網站頁面時要認可的節點批次大小。 例如，在具有較大數量CPU和棧積大小的系統上，您可以將預設值從`500`增加到較大的數量。 您必須使用變更的值來測試回合，才能達到此屬性的最佳值。
+根據您的系統組態，將`com.adobe.fmdita.config.ConfigManager`下棧積中&#x200B;**屬性的** Limit AEM網站頁面設定為數字。 此屬性會定義產生網站頁面時要認可的節點批次大小。 例如，在具有較大數量CPU和棧積大小的系統上，您可以將預設值從`500`增加到較大的數量。 您必須使用變更的值來測試回合，才能達到此屬性的最佳值。
 
 **何時設定？**
 您可以透過Felix主控台或程式碼部署，在執行階段完成此操作。
 
 **此變更的結果**
-棧積&#x200B;**屬性中** Limit AEM Site Pages的增加數目會最佳化AEM Site輸出產生程式。
-
+棧積&#x200B;**屬性中** Limit AEM Site Pages的增加數目會最佳化AEM網站輸出產生程式。

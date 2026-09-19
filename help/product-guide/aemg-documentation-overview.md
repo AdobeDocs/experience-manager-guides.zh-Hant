@@ -39,22 +39,29 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
+source-git-commit: 411756129e6ce756f8674d6d3feb27a1cd9a2f19
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '311'
 ht-degree: 5%
 ---
 # Experience Manager Guides檔案
 
 Experience Manager Guides是一款企業級CCMS，具備適用於結構化撰寫、多頻道發佈及內容生命週期管理的原生DITA支援。
 
-**部署：** [!BADGE Cloud Service]{type=Informative} [!BADGE 內部部署]{type=Informative} [!BADGE 管理服務]{type=Informative}
+**部署：** [!BADGE Cloud Service]{type=Positive} [!BADGE 內部部署]{type=Informative}
 
 ## 由您的角色開始
 
-<!-- Author note: The landing-cards-container component is in beta with known display issues in preview and review environments. Verify rendering in production before publishing. Update icon paths below once confirmed against the ExL CDN icon library. Role card links point to the first topic in each role's section of the left nav — update paths to match the actual repo structure. -->
-
 ::::landing-cards-container
+:::card
+![管理員圖示](./user-guide/images/admin.png)
+
+管理員
+
+設定檔案夾設定檔、許可權、工作流程設定和輸出範本。
+
+[管理指南](./install-conf-guide/introduction.md)
+:::
 
 :::card
 ![作者圖示](./user-guide/images/author.png)
@@ -67,16 +74,6 @@ Experience Manager Guides是一款企業級CCMS，具備適用於結構化撰寫
 :::
 
 :::card
-![管理員圖示](./user-guide/images/admin.png)
-
-管理員
-
-設定檔案夾設定檔、許可權、工作流程設定和輸出範本。
-
-[管理指南](./install-conf-guide/introduction.md)
-:::
-
-:::card
 ![發佈者圖示](./user-guide/images/publish.png)
 
 發佈者
@@ -85,6 +82,9 @@ Experience Manager Guides是一款企業級CCMS，具備適用於結構化撰寫
 
 [地圖管理與發佈](./user-guide/map-console-overview.md)
 :::
+
+::::
+
 
 <!--
 :::card
@@ -96,8 +96,9 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 [DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
--->
+
 ::::
+-->
 
 ## 依功能區域瀏覽
 
@@ -170,27 +171,62 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 ## 新增功能
 
 <!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
+::::landing-cards-container
 
+:::card
+![系統管理員圖示](https://cdn.experienceleague.adobe.com/icons/admin.svg)
 
+Git聯結器
+
+直接從Git存放庫將內容匯入指南中。
+
+[使用Git聯結器匯入內容](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![疑難排解圖示](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+
+新地圖集合
+
+用於管理地圖和發佈輸出的統一介面。
+
+[新地圖集合](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![書本圖示](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+
+委派稽核任務
+
+稽核者可以將稽核任務委派給其他稽核者。
+
+[委派稽核任務](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
+:::
+
+::::
+
+<!--
 <table>
 <tr>
 <td>
 
-[!BADGE 功能]{type=Neutral} <br> [**使用Git Connector匯入內容**](./user-guide/web-editor-git-connector.md)<br>&#x200B;直接從Git存放庫將內容匯入指南。
+[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
 
 </td>
 <td>
 
-[!BADGE 功能]{type=Neutral} <br> [**新的地圖集合**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br>&#x200B;管理地圖和發佈輸出的統一介面
+[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
 
 </td>
 <td>
 
-[!BADGE 增強功能]{type=Neutral} <br> [**委派稽核任務**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br>稽核者可以將稽核任務委派給其他稽核者
+[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
 </table>
+-->
+
 
 ## 其他資源
 

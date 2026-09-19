@@ -4,13 +4,12 @@ description: 瞭解如何升級AEM Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: 9d48a7c4-384d-4ad4-a1d3-4c50d97e5d5b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '120'
 ht-degree: 2%
-
 ---
-
 # 升級適用於Cloud Service的AEM Guides {#id213BD050YPH}
 
 升級AEM Guides時，請執行以下步驟：

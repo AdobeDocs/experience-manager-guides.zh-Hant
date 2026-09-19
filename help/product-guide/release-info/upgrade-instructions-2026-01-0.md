@@ -1,20 +1,19 @@
 ---
 title: 發行說明 | 2026.01.0版Adobe Experience Manager Guides中的升級指示和修正問題
 description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides as a Cloud Service 2026.01.0版。
-source-git-commit: e6dab21263731b42567729649a11e9d0a74f1dfd
+exl-id: 25513149-c852-4dd4-8a44-f03969af3bd6
+source-git-commit: 100b115fcc6bd5522e88a3e236f3771d13ce389c
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 3%
-
+source-wordcount: '1147'
+ht-degree: 1%
 ---
-
 # 2026.01.0版的升級指示
 
 本文介紹2026.01.0版Adobe Experience Manager Guides as a Cloud Service的升級指示和相容性矩陣。
 
-如需新功能和增強功能的詳細資訊，請參閱 [2026.01.0 版本中的新增功能](whats-new-2026-01-0.md)。
+如需新功能和增強功能的詳細資訊，請檢視[2026.01.0版的新增功能](whats-new-2026-01-0.md)。
 
-有關此版本中的問題修正清單，請查看 [2026.01.0 版本中修正的問題](fixed-issues-2026-01-0.md)。
+如需此版本中修正的問題清單，請檢視[2026.01.0版本](fixed-issues-2026-01-0.md)中的已修正問題。
 
 ## 相容性矩陣
 
@@ -63,7 +62,7 @@ Experience Manager Guides在升級至最新版Experience Manager as a Cloud Serv
 
 ### 透過servlet啟用指令碼觸發的步驟
 
-(僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用)
+（僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用）
 
 完成安裝後，您可以選擇點選觸發程式以開始翻譯工作：
 
@@ -98,11 +97,11 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 後續處理現有內容以使用中斷連結報告的步驟
 
-(僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用)
+（僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用）
 
 執行以下步驟後續處理現有內容並使用新的中斷連結報表：
 
-1. （選擇性）如果系統中有超過100,000個DITA檔案，請將`queryLimitReads`下的`queryLimitInMemory`和`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
+1. （選擇性）如果系統中有超過100,000個DITA檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`和`queryLimitInMemory`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
 
    - 使用安裝和設定Adobe Experience Manager Guides as a Cloud Service中&#x200B;*設定覆寫*&#x200B;區段提供的指示來建立設定檔。
    - 在設定檔中，提供下列（屬性）詳細資料以設定`queryLimitReads`和`queryLimitInMemory`選項：
@@ -114,26 +113,26 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server>//bin/guides/reports/upgrade`。
 
-1. 此API會傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. 此API會傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 —  `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. 工作完成後，先前的GET請求會成功回應。 如果作業由於某個原因而失敗，則可以從伺服器記錄中看到失敗。
+1. 工作完成後，先前的GET要求會以成功回應。 如果作業由於某個原因而失敗，則可以從伺服器記錄中看到失敗。
 
 1. 如果您在步驟1中變更了`queryLimitReads`的值，請恢復為預設值或先前的現有值。
 
 ### 為現有內容建立索引，以使用「報表」標籤下新的尋找和取代與主題清單的步驟：
 
-(僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用)
+（僅限在2023年6月之前版本的Experience Manager Guides as a Cloud Service上使用）
 
 執行以下步驟來索引現有內容，並在報表標籤底下的對應層級和主題清單中使用新的尋找和取代文字：
 
-1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`。 (選用：您可以傳遞地圖的特定路徑來編制索引，預設情況下，所有地圖都會編制索引|| 範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來為其編制索引，依預設所有地圖都會編制索引||範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`）
 
-1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
+1. 您也可以傳遞根資料夾，為特定資料夾（及其子資料夾）的DITA map建立索引。 例如 `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。 請注意，如果同時傳遞路徑引數和根引數，則只會考慮路徑引數。
 
 1. 此API會傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`（例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. 工作完成後，先前的GET請求會回應成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認成功編制索引的對應。
+1. 工作完成後，先前的GET要求會以成功回應，並提及是否有任何對應失敗。 可以從伺服器記錄檔確認成功編制索引的對應。
 
 ### 處理`'fmdita rewriter'`衝突的步驟
 
@@ -172,7 +171,7 @@ http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-m
 >
 >您應該檢查節點是否仍然存在，以及工作的狀態。
 
-GET：
+取得：
 
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json

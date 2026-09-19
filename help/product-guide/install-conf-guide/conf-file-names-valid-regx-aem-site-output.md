@@ -4,13 +4,12 @@ description: 瞭解如何為AEM網站輸出設定有效的檔案名稱
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: b2bc5159-2144-4683-970d-738949ac9662
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # 設定AEM網站輸出的有效檔案名稱 {#id214GK0X0KXA}
 
 與DITA主題允許的有效檔案名稱字元清單類似，您也可以為AEM網站輸出設定有效檔案名稱字元清單。 URL中不允許使用的部分已知字元為： ``'<>`@$``。 這些字元已設定為在產生AEM Site輸出檔案名稱時找到時自動轉換為底線&quot;`_`&quot;。

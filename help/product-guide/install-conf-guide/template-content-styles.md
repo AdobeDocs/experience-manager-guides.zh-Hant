@@ -4,13 +4,12 @@ description: 瞭解如何自訂和設定原生PDF功能的各種元件。
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 2198b9c77a0dfa888edbce5994da4721cb6127e6
+exl-id: f1ee4b53-9fdc-4227-903f-082fcf67818b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # 原生PDF發佈
 
 透過AEM Guides，您可以使用原生PDF輸出產生功能來產生個別主題的PDF或地圖檔案。 產生PDF輸出時，您可以自訂和使用PDF範本。 您可以建立並設計頁面配置，以根據您的需求在PDF輸出中顯示各種區段。
@@ -26,9 +25,9 @@ ht-degree: 0%
 * [PDF輸出中的變數](../native-pdf/native-pdf-variables.md)
 * [將條碼新增至PDF輸出](../native-pdf/add-barcode.md)
 * 常見內容樣式 {#content-styles}
-   * [使用常見的內容樣式](../native-pdf/stylesheet.md)
-   * [使用自訂變更列樣式](../native-pdf/change-bar-style.md)
-   * [在目錄專案和主題內容套用自訂樣式](../native-pdf/custom-style-toc.md)
-   * [在PDF輸出中新增自訂書籤](../native-pdf/add-custom-bookmark.md)
-   * [使用JavaScript來處理內容或樣式](../native-pdf/use-javascript-content-style.md)
-   * [在註腳中使用自訂樣式](../native-pdf/footnote-number-style.md)
+  * [使用常見的內容樣式](../native-pdf/stylesheet.md)
+  * [使用自訂變更列樣式](../native-pdf/change-bar-style.md)
+  * [在目錄專案和主題內容套用自訂樣式](../native-pdf/custom-style-toc.md)
+  * [在PDF輸出中新增自訂書籤](../native-pdf/add-custom-bookmark.md)
+  * [使用JavaScript來處理內容或樣式](../native-pdf/use-javascript-content-style.md)
+  * [在註腳中使用自訂樣式](../native-pdf/footnote-number-style.md)

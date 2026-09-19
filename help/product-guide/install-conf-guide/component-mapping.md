@@ -4,13 +4,12 @@ description: 瞭解如何為AEM Sites執行元件對應
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
-
 ---
-
 # AEM Sites的元件對應
 
 本文會介紹AEM網站的元件對應（使用複合元件對應）的各個層面。
@@ -191,9 +190,9 @@ ht-degree: 0%
 ### 資料夾結構和金鑰檔案（在此存放庫中）
 
 - 元件HTL和clientlibs： `ui.apps/src/main/content/jcr_root/apps/guides-components/components/table/`
-   - `table.html` （HTL轉譯器）
-   - `_cq_editConfig.xml` （重新整理接聽程式）
-   - 具有`clientlibs/`、`css.txt`、`js.txt`、`css/table.css`的`js/table.js`
+  - `table.html` （HTL轉譯器）
+  - `_cq_editConfig.xml` （重新整理接聽程式）
+  - 具有`css.txt`、`js.txt`、`css/table.css`、`js/table.js`的`clientlibs/`
 - Sling模型： `core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - 影像演算服務： `core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 
@@ -315,7 +314,7 @@ clientlibs/js.txt
 - **啟用回應式**： `./enableResponsive` （核取方塊）；切換回應式包裝函式類別。
 - **資料表樣式**： `./tableStyle` （選取）；套用樣式修飾元類別。
 
-這些將1:1對應到Sling模型的屬性和控制項轉譯。
+這些將1:1對應至Sling模型的屬性和控制項轉譯。
 
 **允許範本上的元件**
 

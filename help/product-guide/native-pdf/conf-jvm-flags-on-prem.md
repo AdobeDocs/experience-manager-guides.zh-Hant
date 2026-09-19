@@ -4,13 +4,12 @@ description: 為原生PDF發佈設定JVM標幟
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: a2a9f44c-cb17-4423-a66e-499bce921398
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 1%
-
 ---
-
 # 為內部部署的原生PDF發佈設定JVM標幟
 
 原生PDF發佈會啟動個別的JVM程式，以產生PDF。 您可能需要調整此JVM的設定，以支援不同情境。 例如，若要執行較大的工作負載，您應該增加衍生的JVM程式可用的棧積大小上限。
@@ -27,7 +26,7 @@ ht-degree: 1%
 
 1. 搜尋並選取&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;套件。
 
-1. 更新原生pdf **(** native.pdf.java.opts *)的屬性* Java命令列選項，以傳遞任何標準JVM標幟。
+1. 更新原生pdf **(*native.pdf.java.opts*)的屬性** Java命令列選項，以傳遞任何標準JVM標幟。
 
 
 
