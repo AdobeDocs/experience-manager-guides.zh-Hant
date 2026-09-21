@@ -1,15 +1,13 @@
 ---
 title: 搭配Adobe Experience Manager Guides使用MCP
 description: 瞭解如何將模型上下文通訊協定(MCP)與AEM Guides搭配使用，以透過AI助理使用主題、地圖、基線和報告
-feature: Authoring, Publishing
+feature: Authoring
 role: User
-source-git-commit: c724946a3426e28a1270ba01cdf2646bbf5f2a0d
+source-git-commit: 20e5b1099b3d9a7230a40415495ba8e77f438b2a
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '790'
 ht-degree: 0%
-
 ---
-
 
 # 使用Adobe Experience Manager Guides MCP伺服器
 
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 Adobe Experience Manager Guides MCP伺服器可將此連線至Experience Manager Guides。 它可讓啟用MCP的AI助理（例如Anthropic Claude）連線至您的Experience Manager Guides環境，並在您自己的AEM許可權下代表您行事。 連線後，您就可以在Experience Manager Guides as a Cloud Service上使用純自然語言的地圖、主題、基線和報表。
 
-本文說明為什麼MCP對Experience Manager Guides很有用、MCP伺服器涵蓋什麼、它使用哪些應用程式、如何設定以及如何使用。
+本文說明為什麼MCP對Experience Manager Guides有用、MCP伺服器涵蓋的範圍、使用中的應用程式以及如何使用。
 
 ## Experience Manager Guides的MCP為何有用
 
@@ -31,93 +29,22 @@ Adobe Experience Manager Guides MCP伺服器可將此連線至Experience Manager
 
 ## Experience Manager Guides提供的MCP伺服器
 
-Experience Manager Guides透過單一HTTP端點公開其MCP功能。
+Experience Manager Guides公開使用Experience Manager Guides內容和相關工作流程的MCP功能。 視您的AEM許可權而定，MCP伺服器會提供對下列功能的存取：
 
-| MCP伺服器 | 端點 | 說明 |
-| --- | --- | --- |
-| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | 在Experience Manager Guides中使用主題與地圖、基準線與報表。 |
+* **主題與對映**：在整個內容生命週期中處理主題與對映，從建立和檢視內容到更新、版本設定、鎖定和刪除內容。
+* **基準線**：透過建立、列出、匯出、複製、重建及標示基準線來使用基準線。
+  >[!NOTE]
+  >
+  > 對於Cloud Service和內部部署環境，基準線功能僅在啟用[新基準線](../user-guide/web-editor-baseline-v2.md)時可用。
+* **報表**：存取主題清單和中繼資料、識別中斷的連結，以及檢閱多媒體使用方式，以深入瞭解您的內容。
+* **系統**：透過檢查封裝版本、套件健康狀態和環境診斷，瞭解您的系統狀態。
 
-這個端點涵蓋四個區域：
+如果您沒有在AEM中執行動作的許可權，則無法透過MCP執行相同的動作。
 
-- **主題與地圖** — 建立、讀取、更新、刪除、版本及鎖定主題與地圖。
-- **基準線** — 建立、列出、匯出、複製、重新建置和標籤基準線。
-- **報表** — 主題清單、中繼資料、中斷的連結及多媒體使用。
-- **系統** — 封裝版本、套件組合健康狀態和環境診斷。
-
-確切的可用工具可能會隨著時間而改變。 請要求您的助理顯示可用的專案，而非依賴固定清單：
-
-```
-List all Experience Manager Guides tools available from the author https://author-pXXXX-eXXXX.adobeaemcloud.com and describe what they do.
-```
-
-## 為您的組織要求存取權
-
-存取Experience Manager Guides MCP伺服器的許可權是每個組織&#x200B;**選擇加入**。 在您組織中的任何人能夠連線之前：
-
-- 必須在您的AEM as a Cloud Service環境中啟用Experience Manager Guides 。
-- 貴組織的IMS組織ID （組織ID）必須由Adobe Guides團隊加入允許清單。
-
-若要請求存取權，請聯絡您的Adobe客戶成功團隊。
 
 ## 支援的應用程式
 
-Experience Manager Guides MCP伺服器是&#x200B;**遠端**&#x200B;伺服器。 它可與任何支援遠端伺服器的MCP使用者端搭配使用，包括：
-
-### 聊天應用程式
-
-- Anthropic Claude （網頁與案頭）
-
-### 開發人員工具
-
-- 游標
-- Visual Studio Code
-- 其他支援MCP的IDE
-
-## 設定
-
-您不會在本機安裝任何專案。 您將使用者端指向伺服器URL，並透過Adobe IMS登入流程進行驗證。
-
-### 合唱團克勞德
-
-按照官方逐步說明： [為AEM MCP設定Claude](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 新增自訂聯結器時，請使用Experience Manager Guides端點：
-
-```
-https://mcp.adobeaemcloud.com/adobe/mcp/guides
-```
-
-### Cursor / Visual Studio Code
-
-將伺服器新增至您的MCP設定。 針對游標，將其新增至`.cursor/mcp.json`：
-
-```json
-{
-  "mcpServers": {
-    "aem-guides": {
-      "url": "https://mcp.adobeaemcloud.com/adobe/mcp/guides"
-    }
-  }
-}
-```
-
-對於只支援本機(stdio)伺服器的使用者端，使用[`mcp-remote`](https://www.npmjs.com/package/mcp-remote)橋接至遠端端點：
-
-```json
-{
-  "mcpServers": {
-    "aem-guides": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote", "https://mcp.adobeaemcloud.com/adobe/mcp/guides"]
-    }
-  }
-}
-```
-
-## 驗證
-
-Experience Manager Guides MCP伺服器使用&#x200B;**Adobe IMS**&#x200B;進行驗證。
-
-- 初次連線時，您的使用者端會開啟瀏覽器登入視窗。 使用您的Adobe ID登入以完成連線。
-- 登入後，每個動作都會在現有的AEM許可權下執行。 如果您沒有AEM中動作的許可權，則相同的動作會透過MCP失敗。
+Experience Manager Guides MCP伺服器是遠端MCP伺服器，可與相容的MCP使用者端連線。 根據您的環境，連線您的MCP使用者端並向Experience Manager Guides MCP伺服器驗證。 如需詳細資料，請檢視[設定Experience Manager Guides MCP伺服器](./configure-aem-guides-mcp.md)。
 
 ## 使用Experience Manager Guides MCP伺服器
 
@@ -125,7 +52,7 @@ Experience Manager Guides MCP伺服器使用&#x200B;**Adobe IMS**&#x200B;進行�
 
 >[!IMPORTANT]
 >
->涉及多個步驟或需要一些時間才能完成的請求（例如匯出、基準線建置和大量更新），最適合用於思考模型。 這些會在背景執行：助理員會啟動工作，然後檢查其狀態，直到結果或下載連結準備就緒為止。
+> 涉及多個步驟或需要一些時間才能完成的請求（例如匯出、基準線建置和大量更新），最適合用於思考模型。 這些會在背景執行：助理員會啟動工作，然後檢查其狀態，直到結果或下載連結準備就緒為止。
 
 ### 提示範例
 

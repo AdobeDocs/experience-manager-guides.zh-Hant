@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2610'
 ht-degree: 10%
 ---
 
@@ -140,6 +140,10 @@ ht-degree: 10%
         - [1月發行說明](./release-info/release-notes-2022-1-0.md)
     - 內部部署/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
+      - 5.2.0 SP1版本 {#520-sp1-release}
+        - [新增功能](./release-info/whats-new-5-2-1.md)
+        - [已修正的問題](./release-info/fixed-issues-5-2-0-sp1.md)
+        - [升級指示](./release-info/upgrade-instructions-5-2-0-sp1.md)
       - 5.2.0版 {#520-release}
         - [新增功能](./release-info/whats-new-5-2-0.md)
         - [已修正的問題](./release-info/fixed-issues-5-2-0.md)
@@ -566,7 +570,10 @@ ht-degree: 10%
     - [為內部部署設定新基準線](./install-conf-guide/conf-new-baseline-on-prem.md)
     - [設定On-Premise略過對等連結](./install-conf-guide/conf-skip-peer-links-on-prem.md)
     - {hide-from-toc}[設定輸出產生的新對應集合](./install-conf-guide/conf-new-map-collection-on-prem.md)
-    - [使用Experience Manager Guides MCP伺服器](./install-conf-guide/conf-aem-guides-mcp.md)
+    - AEM Guides MCP整合 {#mcp}
+      - [使用AEM Guides MCP伺服器](./install-conf-guide/conf-aem-guides-mcp.md)
+      - [設定AEM Guides MCP伺服器](./install-conf-guide/configure-aem-guides-mcp.md)
+      - [設定AEM Guides On-Premise的MCP連線設定](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
   - 擴充功能 {#aemg-customization}
     - [為Cloud Service部署尋找和取代功能的自訂索引](./install-conf-guide/custom-indexing-cs.md)
     - [為內部部署的尋找和取代功能重新編列索引](./install-conf-guide/custom-indexing-on-prem.md)
