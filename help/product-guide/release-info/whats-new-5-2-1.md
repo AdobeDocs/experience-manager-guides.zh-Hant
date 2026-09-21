@@ -26,9 +26,9 @@ ht-degree: 0%
 
 本文介紹5.2.0 Service Pack 1版Adobe Experience Manager Guides推出的新功能和增強功能。
 
-如需此版本中已修正的問題清單，請檢視5.2.0 Service Pack 1版本](fixed-issues-5-2-0-sp1.md)中的[已修正問題。
+如需此版本中已修正的問題清單，請檢視5.2.0 Service Pack 1版本[&#128279;](fixed-issues-5-2-0-sp1.md)中的已修正問題。
 
-瞭解5.2.0 Service Pack 1版本](../release-info/upgrade-instructions-5-2-0-sp1.md)的[升級指示。
+瞭解5.2.0 Service Pack 1版本[&#128279;](../release-info/upgrade-instructions-5-2-0-sp1.md)的升級指示。
 
 
 ## Experience Manager Guides新增MCP支援
