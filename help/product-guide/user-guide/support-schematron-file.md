@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/8heDTU9viOxhsg-Epvu6OZMrRyHoWRJ-584O6u9lut8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
+    internal-label: User
+source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
 workflow-type: tm+mt
-source-wordcount: 984
+source-wordcount: '1098'
 ht-degree: 0%
-
 ---
-
 # 支援Schematron檔案
 
 「Schematron」是指用於定義XML檔案測試的規則型驗證語言。 編輯器支援Schematron檔案。 您可以匯入Schematron檔案，也可以在編輯器中編輯它們。 使用Schematron檔案，您可以定義某些規則，然後針對DITA主題或地圖驗證這些規則。
@@ -191,3 +195,21 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
+
+## 使用文位元組點內容定義規則
+
+您可以定義具有文位元組點內容的Schematron規則，例如`context="//text()"`，讓規則直接根據文位元組點評估，而不是要求您列舉可以包含該文字的每個可能的DITA元素。
+
+例如，下列規則會在主題文字中的任何位置標示直引號：
+
+```XML
+<sch:pattern id="quotation-marks-straight-v2">
+  <sch:rule context="//text()">
+    <sch:report role="info" test="contains(., '&quot;')">Please use typographic quotes instead of straight quotes.</sch:report>
+  </sch:rule>
+</sch:pattern>
+```
+
+當此規則符合時，驗證結果會指向觸發它的確切文位元組點，而不是僅指向結尾的元素。
+
+使用明確元素內容（例如`context="//p"`）的規則會繼續如前一樣運作，而且您仍然可以使用任一方法，這取決於您想要的比對精確度和錯誤位置。

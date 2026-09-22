@@ -7,20 +7,23 @@ exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
+    internal-label: User
+source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # 插入功能表中的其他選項
 
 在編輯器工具列的「插入」選單中可用的其他選項包括：
@@ -48,15 +51,21 @@ ht-degree: 0%
 
   ![](assets/insert-h5p-lc.png)
 
-  如果您偏好使用您系統中的H5P內容，請先在DAM[&#128279;](../user-guide/authoring-upload-existing-files.md)中使用&#x200B;**上傳資產**&#x200B;選項上傳檔案，然後將其加入存放庫檢視/Assets。
+  如果您偏好使用您系統中的H5P內容，請先在DAM](../user-guide/authoring-upload-existing-files.md)中使用&#x200B;**上傳資產**&#x200B;選項[上傳檔案，然後將其加入存放庫檢視/Assets。
 
   ![](assets/upload-assets-option.png)
 
-  完成後，在預覽模式下檢閱H5P內容並發佈輸出。
+  完成後，在預覽模式下檢閱H5P內容並發佈輸出。 H5P內容也支援全熒幕顯示選項。 您可以透過「內容屬性」面板中的專用切換按鈕，啟用或停用每個內嵌H5P元素的全熒幕模式。 啟用時，學習者可以將內容展開至全熒幕；停用時，內容仍內嵌在標準檢視中。 此設定會一致地套用至預覽模式和發佈的輸出。
 
   >[!NOTE]
   >
   > Adobe Experience Manager Guides不支援編輯或建立H5P內容。 在上傳之前，請先在外部準備H5P套件。
+
+  ![](assets/h5p-fullscreen.png)
+
+  **預覽模式**
+
+  ![](assets/h5p-preview.png)
 
 
 - **MathML方程式：**&#x200B;將MathML方程式插入您的內容。 您可以建立MathML方程式，並選取&#x200B;**插入**&#x200B;以將其新增至您的檔案。

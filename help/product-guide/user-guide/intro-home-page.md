@@ -4,13 +4,11 @@ description: 瞭解Adobe Experience Manager Guides的首頁。
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2331'
 ht-degree: 0%
-
 ---
-
 # Experience Manager Guides首頁體驗
 
 首頁是您登入Experience Manager Guides時檢視的第一個畫面。 它為您提供統一且直覺的歡迎畫面體驗，包括您最近存取的檔案、集合等的快速檢視。
@@ -45,16 +43,17 @@ Experience Manager Guides首頁分為下列區段：
   - **首頁**：您登入Experience Manager Guides時檢視的預設頁面。
   - **編輯器**：簡單易用的網頁式編輯器，可讓您在Experience Manager Guides中建立和管理結構化檔案。 [瞭解編輯器介面](./web-editor.md)。
   - **地圖主控台**：為您提供專屬的工作區，以處理地圖管理與發佈的各個層面。 [瞭解地圖主控台介面](./map-console-overview.md)。
-- **AI Assistant**：功能強大的AI導向工具，可透過智慧說明功能提升您的生產力。 此外，在編輯器介面中工作時，您可以利用AI Assistant的智慧型撰寫功能，透過對內容重複使用和最佳化的智慧型建議，讓您的撰寫流程更聰明、更快。
-
-  [AI助理](./ai-assistant.md)功能目前僅適用於Adobe Experience Manager as Cloud Service。
-
-- **Guides AI**：將Adobe CX Enterprise Co-worker的智慧型、代理式智慧標籤技能帶入編輯器，啟用自然的對話式內容標籤。 它會分析您的內容、建議相關標籤，並幫助您以最省力的方式套用一致且準確的中繼資料。 您可以檢閱建議的標籤，並選擇在確認選取之前套用或拒絕這些標籤。 [Guides AI](../user-guide/guides-ai.md)簡化標籤程式，改善內容組織和可發現性。
-
+- **AI小幫手**： AI小幫手有兩種模式可用： **Agentic**&#x200B;和&#x200B;**Standard**。
 
   >[!NOTE]
   >
-  > 若要在環境中使用Guides AI功能，請聯絡客戶成功團隊。 啟用此功能後，管理員可以從Workspace設定中將其開啟或關閉。 一次只能啟用一個AI體驗；可選擇Guides AI或AI Assistant。
+  > 若要在您的環境中使用AI助理功能的代理模式，請聯絡客戶成功團隊。 啟用此功能後，管理員可以從Workspace設定中將其開啟或關閉。 一次只能啟用一個AI助理模式；Agentic或Standard。
+
+  - **全能**：將Adobe CX Enterprise Coworker的智慧型、全能型智慧型標籤技能帶入編輯器，啟用自然的對話式內容標籤。 它會分析您的內容、建議相關標籤，並幫助您以最省力的方式套用一致且準確的中繼資料。 您可以檢閱建議的標籤，並選擇在確認選取之前套用或拒絕這些標籤。 [在代理模式中使用AI小幫手](../user-guide/ai-assistant-agentic.md)可簡化標籤程式，改善內容組織和可發現性。
+
+  - **Standard**：功能強大、AI導向的工具，可透過智慧說明功能提升生產力。 此外，在編輯器介面中工作時，您可以利用AI Assistant的智慧型撰寫功能，透過對內容重複使用和最佳化的智慧型建議，讓您的撰寫流程更聰明、更快。
+
+  [AI助理](./ai-assistant.md)功能目前僅適用於Adobe Experience Manager as Cloud Service。
 
 - **自訂總覽區段**：可讓您隱藏或顯示Widget區段中的Widget。
 - **使用中的資料夾設定檔**：顯示目前正在使用的資料夾設定檔。
@@ -180,7 +179,7 @@ Experience Manager Guides可讓您使用名為&#x200B;**地圖集合**&#x200B;�
 
 當您在系統上執行大量發佈作業時，幾乎不可能個別檢查每個DITA map以監視其發佈作業。 Experience Manager Guides可讓管理員和發佈者統一檢視系統中執行的所有發佈任務。
 
-若要使用此功能，請從左側面板選取&#x200B;**發佈佇列**。 這會帶您進入Assets UI中的「發佈」儀表板頁面，您可在其中使用發佈儀表板[&#128279;](./generate-output-publish-dashboard.md)管理發佈任務。
+若要使用此功能，請從左側面板選取&#x200B;**發佈佇列**。 這會帶您進入Assets UI中的「發佈」儀表板頁面，您可在其中使用發佈儀表板](./generate-output-publish-dashboard.md)管理[發佈任務。
 
 ### 使用者偏好設定
 
@@ -208,6 +207,7 @@ Experience Manager Guides可讓您使用名為&#x200B;**地圖集合**&#x200B;�
 
   - **永遠在檔案總管中尋找檔案**：選取此選項，以在編輯器中編輯檔案時，顯示檔案在存放庫中的位置。
 
-  >[!NOTE]
-  >
-  >從2025.11.0版的Cloud Service和從5.2.0版的On-premise，設定&#x200B;**永遠尋找存放庫中的檔案**&#x200B;重新命名為&#x200B;**永遠尋找檔案在檔案總管**。 若是5.2版之前的內部部署設定，則只要永遠找出存放庫中的檔案，即可繼續使用此功能。
+    >[!NOTE]
+    >
+    >- 從2025.11.0版的Cloud Service和從5.2.0版的On-premise，設定&#x200B;**永遠尋找存放庫中的檔案**&#x200B;重新命名為&#x200B;**永遠尋找檔案在檔案總管**。 若是5.2版之前的內部部署設定，則只要永遠找出存放庫中的檔案，即可繼續使用此功能。
+    >- 從2026.09.0版開始，預設會啟用&#x200B;**檔案和資料夾**&#x200B;的分頁式載入。 啟用此功能時，**永遠尋找檔案總管**&#x200B;中的檔案在使用者偏好設定中無法使用。 若要讓「永遠尋找檔案總管」偏好設定可供使用，請聯絡您的客戶成功團隊以停用檔案和資料夾的分頁載入設定。 如需詳細資訊，請參閱[檔案和資料夾的分頁載入](./web-editor-other-features.md#paginated-loading-of-files-and-folders)。

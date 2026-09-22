@@ -7,27 +7,37 @@ role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
+    internal-label: User
+source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
 workflow-type: tm+mt
-source-wordcount: 2562
+source-wordcount: '2794'
 ht-degree: 0%
-
 ---
-
 # 從地圖主控台翻譯檔案 {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -66,7 +76,8 @@ Experience Manager Guides在編輯器中提供強大的功能，可讓您將內�
 
    >[!IMPORTANT]
    >
-   > 您只能選取並翻譯成您為其建立目標資料夾的語言，且平行於來源語言。 在任何其他層級建立的語言資料夾（例如從來源語言資料夾往下一個層級）也不會顯示。 請確定您建立的所有目標語言資料夾都與來源語言資料夾處於同一層級。
+   > * 您只能選取並翻譯成您為其建立目標資料夾的語言，且平行於來源語言。 在任何其他層級建立的語言資料夾（例如從來源語言資料夾往下一個層級）也不會顯示。 請確定您建立的所有目標語言資料夾都與來源語言資料夾處於同一層級。
+   > * 如果您在建立語言群組之後建立語言的目標資料夾，請重新整理瀏覽器以啟用語言群組中的語言。
 
 
 
@@ -80,7 +91,9 @@ Experience Manager Guides在編輯器中提供強大的功能，可讓您將內�
 
    >[!NOTE]
    >
-   > 如果您在建立語言群組之後建立語言的目標資料夾，請重新整理瀏覽器以啟用語言群組中的語言。
+   > 如果個別來源或目的地語言副本（檔案）從原始語言資料夾移至其他資料夾，則「翻譯」面板會依照以下方式反映此變更：
+   > - 目的地語言副本：如果目的地（目標）語言副本從原始目的地語言資料夾移至不同資料夾，則對應的資產會在「翻譯」面板中顯示為停用。
+   > - Source語言副本：如果來源語言副本從原始來源語言資料夾移至其他語言資料夾，則對應的資產會顯示為「翻譯」面板中的已啟用狀態，讓翻譯可如預期繼續進行。
 
 1. 如果您選擇特定語言，該語言會在您選取的所有語言群組下顯示為已選取。 因此，當您翻譯成任何語言時，所有語言群組都會一次性翻譯。 例如，如果德文同時存在於G1和G2語言群組中，則會同時選取德文。
 
@@ -133,8 +146,8 @@ Experience Manager Guides在編輯器中提供強大的功能，可讓您將內�
    除了新的翻譯專案外，您也可以選取下列選項：
 
    - 您可以選擇只為翻譯專案&#x200B;**建立結構**。
-   - 您可以選擇&#x200B;**建立新的XLIFF翻譯專案**，將XML內容轉換成XML本地化交換檔案格式(XLIFF)。XLIFF是一種開放的XML型格式，用來標準化內容翻譯過程中使用的各種工具之間的資料傳輸。Experience Manager Guides支援XLIFF 1.2版。
-     在XLIFF專案中，內容會匯出為產業標準XLIFF格式，並提供給翻譯廠商。XLIFF格式可讓您重複使用已在翻譯階段翻譯的區段。\
+   - 您可以選擇&#x200B;**建立新的XLIFF翻譯專案**，將XML內容轉換成XML本地化交換檔案格式(XLIFF)。 XLIFF是一種開放的XML型格式，用來標準化內容翻譯過程中使用的各種工具之間的資料傳輸。 Experience Manager Guides支援XLIFF 1.2版。
+     在XLIFF專案中，內容會匯出為產業標準XLIFF格式，並提供給翻譯廠商。 XLIFF格式可讓您重複使用已在翻譯階段翻譯的區段。\
      翻譯XLIFF內容後，可將其匯入Experience Manager Guides，建立原始DITA專案的翻譯版本。
 
    >[!NOTE]
@@ -143,6 +156,10 @@ Experience Manager Guides在編輯器中提供強大的功能，可讓您將內�
 
    - 您可以選取&#x200B;**建立新的多語言翻譯專案**，其中包含您已選取要翻譯的所有語言的翻譯工作。 例如，如果您已選取法文、德文和西班牙文，則會建立一個專案，其中包含所有三種語言的翻譯工作。
    - 如果您已經有翻譯專案，您可以新增主題至該專案。 從「專案」清單中選取&#x200B;**新增至現有翻譯專案**&#x200B;選項，然後從「現有翻譯專案」清單中選擇專案。 您可以依照最近、升序或降序來排序這些專案。
+
+     >[!NOTE]
+     >
+     > 使用&#x200B;**新增至現有翻譯專案**&#x200B;以傳送其他資產以供翻譯時，如果相同專案的前一個要求（專案建立或新增至現有專案）仍在進行中，作業會失敗。 顯示下列訊息： *此專案的先前要求仍在處理中。 請稍候幾分鐘再重試*。
 
    - 如果您選取「**新增至現有翻譯專案**」，如果資產已經新增，且相關的翻譯工作狀態為「*草稿*」狀態，此操作會更新專案中的現有資產專案。
      - 如果專案中不存在目的地語言，則會為單一語言翻譯專案建立新專案，並為多語言翻譯專案建立新工作。
@@ -163,6 +180,7 @@ Experience Manager Guides在編輯器中提供強大的功能，可讓您將內�
    - 如果您要新增至現有的翻譯專案，請選取該專案已存在的路徑。 然後，從&#x200B;**現有翻譯專案**&#x200B;清單中，選取您要新增目前翻譯任務的專案。 您也可以使用可用的&#x200B;**篩選器**&#x200B;來縮小清單。
 
      ![輸入現有的專案路徑](images/existing-project-path.png){width="650"}
+
 
 1. 在「專 **案標題** 」欄位中，輸入專案標題。
 1. 選取&#x200B;**提交**&#x200B;以建立新的翻譯專案。
@@ -266,4 +284,4 @@ Experience Manager Guides提供的功能可檢查主題的所選版本與上次�
 您也可以停用翻譯專案，以便稍後使用。 刪除專案會刪除專案中存在的所有檔案和資料夾。 停用專案並不會刪除專案，而是將其保留在存放庫中。 但您無法更新或編輯已停用的專案。  刪除或停用專案不會影響任何參考的翻譯狀態。
 
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

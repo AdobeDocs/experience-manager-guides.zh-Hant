@@ -7,22 +7,27 @@ role: User
 TQID: https://experienceleague.adobe.com/hdEk3etzBCch3Ejdl5SnIC37pSK6a-WERkTMqu-jlGM
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
 workflow-type: tm+mt
-source-wordcount: 1578
+source-wordcount: '1824'
 ht-degree: 0%
-
 ---
-
 # 主題的編輯器檢視 {#id204GK0D0V5Z}
 
 >[!INFO]
@@ -122,15 +127,33 @@ Source檢視會顯示組成主題的基礎XML。 如果您習慣直接使用XML�
 
 「預覽」模式提供下列功能：
 
+* [使用基線預覽內容](#preview-content-using-baseline)
 * [根據條件篩選器檢視內容](#id2114BI00VXA)
 * [檢視追蹤變更標示](#id2114BJ00CE8)
 * [將主題匯出為PDF](#id2114BL00B5U)
+
+
+### 使用基線預覽內容（僅適用於DITA map）
+
+>[!NOTE]
+>
+>請聯絡您的客戶成功團隊，以在您的環境中啟用此功能。
+
+依預設，預覽模式會顯示主題或地圖的目前工作復本。 如果對應有一或多個靜態基準線，您可以使用&#x200B;**使用基準線預覽**&#x200B;切換來預覽對應，因為它存在於特定基準線版本中。 此功能僅支援靜態基準線；動態基準線不適用於預覽。
+
+![](images/preview-baseline.png){width="650"}
+
+當您從下拉式清單中選取基準線時，預覽會根據選取的基準線而不是目前的工作副本，解析所有關聯的主題、資產、影像和參照。 這樣可精確表示建立基準線時的對應內容。
+
+例如，如果在建立基準線之後取代影像，預覽該基準線會顯示與基準線關聯的影像版本，而不是目前工作復本的影像。
+
+預覽模式在呈現初始主題集時顯示載入中的預覽指示器。 在您編輯主題或切換版本後，它不會自動更新。 若要檢視最新內容，請手動重新整理預覽，或關閉並重新開啟主題或地圖。 此外，預覽基線的地圖時，無法使用「追蹤」選項（「無標示」、「原始」和「顯示標示」）。
 
 ### 根據條件篩選器檢視內容 {#id2114BI00VXA}
 
 如果您在主題或地圖中使用了條件，這些條件會顯示在「篩選器」面板中。 依預設，會選取所有條件並顯示整個內容。 如果您取消選取條件，則具有該條件的內容會從檢視中移除。 您也可以選擇反白條件式內容。
 
-下圖顯示使用兩個條件的主題： `Audience`和`Platfor`。 條件化內容會以黃色背景反白。
+下圖顯示使用兩個條件的主題： `Audience`和`Platform`。 條件化內容會以黃色背景反白。
 
 >[!BEGINTABS]
 
@@ -153,7 +176,7 @@ Source檢視會顯示組成主題的基礎XML。 如果您習慣直接使用XML�
 有三個&#x200B;**追蹤**&#x200B;選項可供您選擇：
 
 * **沒有標籤**：在此檢視中，接受所有插入和刪除，並顯示檔案的簡單檢視。 在此檢視中，您不會檢視任何追蹤變更標示。
-* **原始**：在此檢視中，會拒絕所有插入並還原所有刪除，然後顯示預覽。 在啟用追蹤變更模式之前，您只需要取得檔案的原始表單。
+* **原始**：在此檢視中，會拒絕所有插入並還原所有刪除，然後顯示預覽。 在啟用追蹤變更模式之前，請先取得檔案的原始表單。
 * **顯示標籤**：在此檢視中，您會取得插入和刪除內容的所有標籤。
 
   下圖顯示含有標示的對應檔案預覽：
@@ -186,5 +209,4 @@ PDF是在檔案開發週期的每個可能階段中最常用的輸出格式之�
 
    PDF會在新標籤中產生並開啟，或是您看到一個對話方塊以在您的本機系統上儲存PDF。
 
-
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

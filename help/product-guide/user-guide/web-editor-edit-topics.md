@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+    internal-label: User
+source-git-commit: 44b50108aa453052c1c9b429eaeb254cad746166
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1497'
 ht-degree: 0%
-
 ---
-
 # 在編輯器中編輯主題 {#id2056B040VUI}
 
 >[!INFO]
@@ -91,16 +95,16 @@ Experience Manager Guides也可讓您跨元素選取內容。 選取內容後，
 
 - 以有效元素包住內容：執行下列步驟，以有效元素包住內容：
 
-   - 選取元素中的內容。
-   - 從頂端的工具列選取![新增](images/Add_icon.svg)圖示以檢視&#x200B;**插入專案**&#x200B;對話方塊。 此對話方塊會列出所選內容的有效元素。
+  - 選取元素中的內容。
+  - 從頂端的工具列選取![新增](images/Add_icon.svg)圖示以檢視&#x200B;**插入專案**&#x200B;對話方塊。 此對話方塊會列出所選內容的有效元素。
 
-     >[!NOTE]
-     >
-     > 您也可以選取所選內容的內容功能表，來檢視「插入元素」對話方塊。
+    >[!NOTE]
+    >
+    > 您也可以選取所選內容的內容功能表，來檢視「插入元素」對話方塊。
 
-   - 從對話方塊中選取元素。 所選內容會包裝在該元素下。 例如，如果您選取段落中的內容，然後從&#x200B;**插入元素**&#x200B;對話方塊中選擇`<note>`元素，則選取的內容會顯示在附注下。
+  - 從對話方塊中選取元素。 所選內容會包裝在該元素下。 例如，如果您選取段落中的內容，然後從&#x200B;**插入元素**&#x200B;對話方塊中選擇`<note>`元素，則選取的內容會顯示在附注下。
 
-     ![插入專案對話方塊](./images/insert-element-editor.png) {width="300"}
+    ![插入專案對話方塊](./images/insert-element-editor.png) {width="300"}
 
 ## 編輯檔案時重新整理瀏覽器
 
@@ -181,6 +185,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
+## 防止在同時編輯期間覆寫內容
+
+>[!NOTE]
+>
+> 啟用&#x200B;**停用編輯，但不從ConfigMgr鎖定檔案**&#x200B;設定。
+
+當兩個作者同時處理同一DITA主題時，在過時的副本上所作的編輯可能會無意中覆寫其他作者的變更。 為避免此問題，在主題上選取「**鎖定**」會自動重新整理編輯器，在您開始編輯之前從伺服器載入最新內容，確保您的變更始終基於最新版本，而不是過時的復本。
+
 ## 在檔案總管中找出開啟的檔案
 
 當您在編輯器中開啟檔案時，Experience Manager Guides會提供在Explorer中尋找檔案的功能。 例如，在您編輯主題時，它會找到目前的主題。
@@ -191,4 +203,4 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 >
 >從2025.11.0版開始，設定&#x200B;**永遠尋找存放庫中的檔案**&#x200B;重新命名為&#x200B;**永遠尋找檔案總管**。 對於內部部署設定，在Experience Manager Guides 5.1版發行前，它仍可在存放庫中永遠尋找檔案中使用。
 
-**父級主題：**&#x200B;[&#x200B;使用編輯器](web-editor.md)
+**父級主題：**[&#x200B;使用編輯器](web-editor.md)
