@@ -437,7 +437,7 @@ ht-degree: 10%
     - 效能管理 {#performance-management}
       - [檔案和資料夾的分頁載入](./user-guide/paginated-loading-assets.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
-  - [AEM Guides概觀](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-conf-guide}
   - [下載、安裝和升級](./install-conf-guide/introduction.md)
   - Cloud Service的安裝程式 {#deploy-conf-aemg-cs}
