@@ -400,4 +400,4 @@ Experience Manager Guides可讓您同時在DITA map中傳送一或多個主題�
 如需更多詳細資料，請檢視[瞭解檢閱通知](./review-understanding-review-notifications.md)。
 
 
-**父級主題：**[&#x200B;檢閱簡介](review.md)
+**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)

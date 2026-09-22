@@ -112,7 +112,7 @@ ht-degree: 0%
      ![Agentic AI Assistant大量標籤](images/ai-map-selection.png){width="650"}
 
 1. 選取&#x200B;**傳送**。
-訊息會指出選取的地圖包含多個主題。 選取**選取主題**&#x200B;以選擇要標籤建議的主題。
+訊息會指出選取的地圖包含多個主題。 選取&#x200B;**選取主題**&#x200B;以選擇要標籤建議的主題。
 
    ![選取主題時，使用Agentic AI Assistant大量標籤](images/ai-select-topics.png){width="650"}
 

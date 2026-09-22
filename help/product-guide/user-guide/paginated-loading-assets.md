@@ -39,7 +39,7 @@ Experience Manager Guides使用分頁API來載入檔案和資料夾。 資料夾
 - 新增檔案會將其插入資料夾頂端，而不重新整理資料夾。
 - 開啟資料夾會載入第一批資產，並為後續的批次附加&#x200B;**載入更多**&#x200B;選項。
 
-  集合](images/collections-paginated.png){width="650"}的![分頁
+  集合![&#128279;](images/collections-paginated.png){width="650"}的分頁
 
 
 ### 總管
@@ -47,7 +47,7 @@ Experience Manager Guides使用分頁API來載入檔案和資料夾。 資料夾
 - **根資料夾**：無限捲動。 資產的第一批最初載入；後續批次會在您捲動時自動附加。
 - **子資料夾**：展開資料夾會載入第一批資產，並為後續的批次附加&#x200B;**載入更多**&#x200B;選項。
 
-  總管](images/explorer-pagination.png){width="650"}的![頁面
+  總管![&#128279;](images/explorer-pagination.png){width="650"}的頁面
 
 - **重新命名**：不重新整理資料夾，就位進行。
 - **刪除**：根資料夾會重新整理以顯示第一批資產。

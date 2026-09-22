@@ -13,7 +13,7 @@ ht-degree: 0%
 
 如需此版本中修正的問題清單，請檢視[2026.09.0版本](fixed-issues-2026-09-0.md)中的已修正問題。
 
-瞭解2026.09.0版](../release-info/upgrade-instructions-2026-09-0.md)的[升級指示。
+瞭解2026.09.0版[&#128279;](../release-info/upgrade-instructions-2026-09-0.md)的升級指示。
 
 ## 在AI Assistant中引入AI支援的智慧標籤
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 當對映有一或多個靜態基準線時，您現在可以根據選取的基準線來預覽對映，而不是在編輯器中根據目前的工作復本。
 
-與所選基準線相關的所有主題、資產、影像和參照版本都會顯示在「預覽」中，在建立基準線時提供地圖內容的精確檢視。 如需詳細資訊，請檢視主題](../user-guide/web-editor-views.md#preview-content-using-baseline)的[編輯器檢視。
+與所選基準線相關的所有主題、資產、影像和參照版本都會顯示在「預覽」中，在建立基準線時提供地圖內容的精確檢視。 如需詳細資訊，請檢視主題[&#128279;](../user-guide/web-editor-views.md#preview-content-using-baseline)的編輯器檢視。
 
 ## 檢閱增強功能
 
@@ -87,7 +87,7 @@ Experience Manager Guides為稽核者引進了主題層級進度追蹤，讓您�
 
 作者現在可以為學習課程中使用的每個H5P元素啟用或停用全熒幕顯示。 使用&#x200B;**內容屬性**&#x200B;面板中的&#x200B;**啟用全熒幕**&#x200B;切換可控制此設定。 啟用後，學習者可以將H5P內容展開至全熒幕。 停用時，內容會內嵌在標準檢視中。 此設定會一致地套用至預覽模式和發佈的輸出。
 
-深入瞭解產品訓練與學習內容的[插入]功能表](../learning-content/lc-other-insert-options.md)中的[其他選項。
+深入瞭解產品訓練與學習內容的[插入]功能表[&#128279;](../learning-content/lc-other-insert-options.md)中的其他選項。
 
 ![](./assets/h5p-fullscreen.png)
 
