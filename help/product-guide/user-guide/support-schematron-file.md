@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 根據Schematron檔案中定義的角色屬性顯示驗證結果。 如需詳細資訊，請檢視[瞭解驗證結果和嚴重性層級](#understanding-validation-results-and-serverity-levels)。
+   > 根據Schematron檔案中定義的角色屬性顯示驗證結果。 如需詳細資訊，請檢視[瞭解驗證結果和嚴重性層級](#understanding-validation-results-and-severity-levels)。
 
 1. 選取錯誤訊息，在開啟的主題/地圖中反白顯示包含錯誤的元素。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ![](images/schematron-validation-errors.png){width="350"}
 
-為了判斷問題的嚴重性，會評估在對應的Schematron檔案中定義的role屬性的&#x200B;_case-senstive_&#x200B;值。
+為了判斷問題的嚴重性，會評估在對應的Schematron檔案中定義的角色屬性的&#x200B;_區分大小寫_&#x200B;值。
 
 下列程式碼片段顯示Schematron規則中定義的支援角色屬性值：
 

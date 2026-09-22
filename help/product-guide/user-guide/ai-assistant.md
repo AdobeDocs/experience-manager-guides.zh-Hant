@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -79,14 +79,14 @@ AI助理有兩種模式可用： **Agentic**&#x200B;和&#x200B;**Standard**。 �
 
 ## 開始使用標準模式的AI助理
 
-第一次在標準模式中使用&#x200B;**AI Assistant**&#x200B;時，系統會提示您先提交同意，然後再使用Experience Manager Guides Generative AI功能。
+第一次在標準模式中使用&#x200B;**AI助理**&#x200B;時，系統會提示您先提交同意，然後再使用Experience Manager Guides Generative AI功能。
 
 執行以下步驟以啟動AI小幫手：
 
 1. 登入Experience Manager Guides。
 1. 在首頁上，從頂端選取&#x200B;**AI助理**。 確保您的管理員已在所需模式下啟用AI助理功能。
 
-AI助理會顯示重要功能、使用者指南連結和&#x200B;**開始使用**&#x200B;按鈕。
+AI助理顯示主要功能、使用者指南連結和&#x200B;**開始使用**&#x200B;按鈕。
 
 ![智慧型說明面板](images/get-started-ai.png)
 
