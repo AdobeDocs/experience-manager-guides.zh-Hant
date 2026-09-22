@@ -7,25 +7,32 @@ role: User
 TQID: https://experienceleague.adobe.com/EPnCDG2eSljhIm-DrPk9uMBrTyK9-mT1J8N8bAQVrQ8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 47ad7c824c35735c82b51390acd1404ba6274c9a
 workflow-type: tm+mt
-source-wordcount: 2918
+source-wordcount: '2987'
 ht-degree: 0%
-
 ---
-
 # 地圖編輯器功能 {#id1942D0S0IHS}
 
 >[!INFO]
@@ -54,7 +61,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 「配置圖」檢視只會顯示存在於對映中的參照。 如果任何參照被破斷，則在參照的左側會顯示一個小型十字元號
+> 「配置圖」檢視只會顯示存在於對映中的參照。 如果有任何參照被破斷，則會在參照左側顯示一個小型十字元號。
 
 「版面」檢視的工具列中提供下列選項：
 
@@ -97,7 +104,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 您也可以拖放參照，在地圖中移動參照。
+>您也可以拖放參照，在地圖中移動參照。 拖放後如何處理參考取決於您使用的編輯器。 在Editor 2.0中，將參照（例如主題、子對映或索引鍵定義）拖放至對映中的現有參照上，會將其新增為子元素，而非取代現有參照。 在舊編輯器中，相同的動作會更新參照的URL，而非將其新增為子元素。
 
 **鎖定/解除鎖定**
 
@@ -138,8 +145,8 @@ ht-degree: 0%
 ![](images/map-editor-options-menu.png){width="650"}
 
 - **新增**：您可以選擇從地圖編輯器新增主題或空白參照：
-   - **空白參考**：此選項可讓您在DITA map中新增空白參考。 您可以稍後連按兩下插入的空白參照，然後新增主題詳細資訊。
-   - **新主題**：當您選擇從功能表建立新主題時，您會看到&#x200B;**新主題**&#x200B;對話方塊。 在&#x200B;**新主題**&#x200B;對話方塊中，提供所需的詳細資訊，並選取&#x200B;**建立**。
+  - **空白參考**：此選項可讓您在DITA map中新增空白參考。 您可以稍後連按兩下插入的空白參照，然後新增主題詳細資訊。
+  - **新主題**：當您選擇從功能表建立新主題時，您會看到&#x200B;**新主題**&#x200B;對話方塊。 在&#x200B;**新主題**&#x200B;對話方塊中，提供所需的詳細資訊，並選取&#x200B;**建立**。
 - **移動**：您可以選擇在階層中上下左右移動主題。 您也可以從存放庫面板將主題或地圖拖放至在「地圖編輯器」中開啟的地圖。
 - **還原**：還原配置檢視中的上一個作業。
 - **取消復原**：取消復原[配置]檢視中的最後一個作業。

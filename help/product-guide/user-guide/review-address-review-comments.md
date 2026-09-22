@@ -7,28 +7,38 @@ role: User
 TQID: https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
+    internal-label: Administration
+source-git-commit: 912b7583cbbbb4beff08423d360a9a06f3c365cf
 workflow-type: tm+mt
-source-wordcount: 1526
+source-wordcount: '1618'
 ht-degree: 0%
-
 ---
-
 # 處理稽核意見 {#id2056B0X0KBI}
 
 身為作者，您可以使用編輯器在主題中處理註解。 註解會根據在「稽核」面板中選取的稽核任務載入。 如需更多詳細資料，請在[左側面板](../user-guide/web-editor-left-panel.md)區段中檢視&#x200B;**檢閱**&#x200B;面板![](images/active-review-tasklist-icon.svg)功能說明。
@@ -101,6 +111,18 @@ ht-degree: 0%
 
 ![](images/tag-users-review.png){width="350"}
 *註解:Tag使用者，作為發起人/作者*
+
+若要標籤使用者，請在註解或回覆中輸入`@`，然後從與此專案相關聯的使用者清單中選取使用者。 此清單會顯示使用者的名稱以及其他詳細資訊，以幫助您識別正確的使用者。
+
+使用者詳細資訊會以下列順序顯示：
+
+`<Role>` | `<User name>` | `<Email address>`
+
+如果電子郵件地址不可用，則只會顯示使用者的角色和名稱。
+
+您也可以將滑鼠移至清單中的使用者上，在工具提示中檢視其使用者名稱、角色和電子郵件地址。
+
+![](images/tag-users-author-ui.png){width="350"}
 
 標籤的使用者會收到電子郵件和AEM通知，以確保他們及時獲得通知。 如需有關檢閱通知如何觸發的詳細資訊，請檢視[瞭解檢閱通知](./review-understanding-review-notifications.md)。
 

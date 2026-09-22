@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
+    internal-label: User
+source-git-commit: 279cf0605427042290a7bbf179636f022d4bfd46
 workflow-type: tm+mt
-source-wordcount: 3663
+source-wordcount: '4036'
 ht-degree: 0%
-
 ---
-
 # 傳送主題以供檢閱 {#id199RD0S035Z}
 
 稽核工作流程會建立多個稽核者環境，其中發起者會指定要稽核的主題清單、新增多個稽核者，以及指派稽核任務的時間表。 Adobe Experience Manager Guides可讓屬於Author和Publishers群組的使用者啟動稽核。
@@ -275,6 +279,10 @@ Experience Manager Guides可讓您同時在DITA map中傳送一或多個主題�
 
    ![](images/content-page-map-review.png)
 
+   >[!NOTE]
+   >
+   > 此頁面上內容的組織方式取決於為您的環境啟用地圖階層功能。 啟用時，地圖及其子地圖會以階層式檢視顯示，而非平面式主題清單。 如需詳細資訊，請檢視[選取檢閱主題時檢視地圖階層](#view-the-map-hierarchy-while-selecting-topics-for-review)。
+
 1. 在「內容」頁面上，選取您要共用以供檢閱的主題版本。
 
    您可以使用下列其中一種方法來選取版本：
@@ -327,6 +335,33 @@ Experience Manager Guides可讓您同時在DITA map中傳送一或多個主題�
 
 
 會傳送電子郵件給所有稽核者，通知他們已被指派稽核主題。 電子郵件包含一個直接連結，他們可用來在瀏覽器視窗中存取主題。 主題以及DITA map會以檢閱模式開啟。
+
+### 選取要檢閱的主題時，檢視地圖階層
+
+>[!NOTE]
+>
+> 此功能預設為停用。 若要在您的環境中啟用它，請聯絡您的客戶成功團隊。
+
+透過此功能，地圖內容的現有結構或階層會顯示在&#x200B;**內容**&#x200B;頁面上。 不是將地圖中的所有主題顯示為平面清單，而是將地圖及其子地圖顯示在實際階層中，以便在選取內容以供檢閱時更好地參考。
+
+![](./images/review-map-hierarchy.png)
+
+>[!NOTE]
+>
+> - 如果地圖只包含主題而沒有子地圖，則會如常顯示一般主題清單。
+> - 只有可包含在稽核中的內容型別才會顯示在階層中。 這些主題包括「概念」、「工作」、「參考」和「一般」主題，以及「DITA Map」、「BookMap」和「學習內容對應」型別。 不可檢視的專案，例如字彙參考、索引鍵定義和字彙清單，不會顯示在對應階層中。
+
+依預設，會選取階層中的所有對映、子對映和主題。 作為審閱任務的作者或發起者，您可以根據要傳送以供審閱的內容來選取或取消選取個別主題或完成子地圖。 取消選取子地圖也會取消選取子地圖中的所有主題。
+
+當僅選取子地圖中的某些主題時，子地圖的核取方塊會變更為不確定的狀態，以指示部分選取。 此選取狀態會反映在&#x200B;**內容**&#x200B;和&#x200B;**稽核者**&#x200B;頁面中，確保選取的內容在整個稽核工作流程中保持一致。
+
+![](./images/review-partial-selection-submap.png)
+
+選取或取消選取子地圖內的所有主題時，子地圖的選取狀態會自動相應調整。
+
+如果同一個主題在地圖階層中參照多次，則第一個主題之後的每次出現都會標示&#x200B;**Duplicate**&#x200B;標籤，以方便識別。 會停用選取、取消選取或變更這些重複主題版本的選項。 任何選取範圍或版本變更都必須從第一次出現該主題開始。
+
+![](./images/review-duplicate-topics-in-map.png)
 
 ## 從進行中的稽核任務新增或移除主題
 

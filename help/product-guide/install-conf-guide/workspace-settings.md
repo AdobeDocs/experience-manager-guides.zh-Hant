@@ -4,19 +4,17 @@ description: 瞭解Experience Manager Guides編輯器介面中可用的各種設
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2378'
 ht-degree: 0%
-
 ---
-
 # Workspace設定
 
 >[!NOTE]
 >
-> 在5.2版之前的內部部署設定中，**設定**&#x200B;選項會出現在編輯器的索引標籤列中。對於5.2版及更新版本的Cloud Service和內部部署設定，此選項已重新命名為&#x200B;**Workspace設定**。在&#x200B;**編輯器設定**&#x200B;下可用的所有現有設定選項維持不變。
->內部部署的> ![編輯器設定](assets/editor-settings-on-prem.png){width="650"}
+> 在5.2版之前的內部部署設定中，**設定**&#x200B;選項會出現在編輯器的索引標籤列中。 對於5.2版及更新版本的Cloud Service及內部部署設定，此選項已重新命名為&#x200B;**Workspace設定**。 在&#x200B;**編輯器設定**&#x200B;下可用的所有現有設定選項維持不變。
+> ![內部部署](assets/editor-settings-on-prem.png){width="650"}的編輯器設定
 
 
 編輯器[索引標籤列](../user-guide/web-editor-tab-bar.md)中的&#x200B;**Workspace設定**&#x200B;選項僅供管理員和資料夾設定檔管理員使用，可設定下列設定：
@@ -42,14 +40,27 @@ ht-degree: 0%
 
 一般設定可讓您設定使用編輯器的設定。 此索引標籤包含五個區段：**AI小幫手**、**製作**、**引文**、**條件**&#x200B;以及&#x200B;**拼字檢查**。
 
-![](../user-guide/images/editor-setting-general.png){width="350"}
+![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **AI助理**
-選取此項以啟用Experience Manager Guides中的[AI小幫手](../user-guide/ai-assistant.md)功能。 取消選取以停用該功能。
+- **AI小幫手**
 
-  啟用&#x200B;**AI小幫手**&#x200B;切換功能後，您就可以使用&#x200B;**製作快速動作**&#x200B;功能表，為作者設定&#x200B;**製作標籤**&#x200B;下顯示的選項，如下所示。\
-  這些變更會套用至您使用的特定資料夾設定檔。 如果您建立新的資料夾設定檔，預設情況下，它將繼承&#x200B;**全域**&#x200B;資料夾設定檔中定義的Workspace設定。 您可以視需要使用&#x200B;**Workspace設定**&#x200B;修改這些設定，並儲存更新的設定。\
-  如需使用AI助理撰寫之可用選項的詳細概觀，請檢視[使用AI助理聰明地撰寫檔案](../user-guide/ai-assistant-right-panel.md)。
+  >[!NOTE]
+  >
+  > 若要在您的環境中使用AI助理功能的代理模式，請聯絡客戶成功團隊。
+
+  選取此項以啟用Experience Manager Guides中的[AI小幫手](../user-guide/ai-assistant.md)功能。 取消選取以停用該功能。
+
+  AI助理有兩種模式可用： **Agentic**&#x200B;和&#x200B;**Standard**。 您可以透過啟用各自的切換來在這兩種模式之間進行選擇。
+
+  - **代理程式**：啟用此選項後，您將能夠從[首頁]上的[導覽列]和[編輯器]介面上的[索引標籤]列存取Agentic AI助理程式功能。 如需有關如何產生主題之AI建議標籤的詳細資訊，請檢視[在代理模式中使用AI助理](../user-guide/ai-assistant-agentic.md)。
+
+  ![](assets/agentic-ai-workspace.png){width="350"}
+
+  - **Standard**：啟用&#x200B;**Standard**&#x200B;切換功能後，您就可以使用&#x200B;**編寫快速動作**&#x200B;功能表，為作者設定在&#x200B;**編寫索引標籤**&#x200B;下顯示的選項，如下所示。
+
+    這些變更會套用至您使用的特定資料夾設定檔。 如果您建立新的資料夾設定檔，預設情況下，它將繼承&#x200B;**全域**&#x200B;資料夾設定檔中定義的Workspace設定。 您可以視需要使用&#x200B;**Workspace設定**&#x200B;修改這些設定，並儲存更新的設定。
+
+    如需使用AI助理撰寫之可用選項的詳細概觀，請檢視[使用AI助理聰明地撰寫檔案](../user-guide/ai-assistant-right-panel.md)。
 
   從&#x200B;**編寫快速動作**&#x200B;功能表，您可以：
 
@@ -57,19 +68,7 @@ ht-degree: 0%
 
   - 變更選項的顯示順序，視需要拖放選項。
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
-
-- **指南AI**
-
-  >[!NOTE]
-  >
-  > 若要在環境中使用Guides AI功能，請聯絡客戶成功團隊。 一次只能啟用一個AI體驗；可選擇Guides AI或AI Assistant。
-
-  選取&#x200B;**指南AI**&#x200B;切換以在Experience Manager Guides中啟用此功能。取消選取以停用此功能。
-
-  啟用此選項後，您將可以從首頁的導覽列和編輯器介面的索引標籤列存取Guides AI功能。 如需有關如何產生主題AI建議標籤的詳細資訊，請檢視[開始使用Guides AI](../user-guide/guides-ai.md)。
-
-  ![](assets/guides-ai-workspace.png){width="350"}
+  ![](assets/authoring-quick-actions-standard.png){width="350"}
 
 - **編寫**
 
@@ -286,5 +285,5 @@ ht-degree: 0%
 
 
 
-您也可以定義這些中繼資料標籤的顯示順序。若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
+您也可以定義這些中繼資料標籤的顯示順序。 若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
 中繼資料標籤會以相同的順序顯示在編輯器的&#x200B;**版本記錄**&#x200B;對話方塊中。

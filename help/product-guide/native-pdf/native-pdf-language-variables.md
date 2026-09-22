@@ -8,18 +8,20 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 1417
+source-wordcount: '1891'
 ht-degree: 0%
-
 ---
-
 # 支援語言變數
 
 Adobe Experience Manager Guides提供使用語言變數的功能。 您可以使用語言變數來定義PDF輸出中的當地語系化字串，或將輸出範本中的任何靜態文字當地語系化。 您可以使用CSS樣式將來自CSS的字串當地語系化。
@@ -101,8 +103,8 @@ Experience Manager Guides支援匯出和匯入以所選語言呈現的語言變�
 
 ### 匯出語言變數
 
-若要匯出語言的語言變數，請從下拉式清單中選取語言，然後選取&#x200B;**匯出** <img src="./assets/language-variable-export-icon.svg" alt="匯出圖示" width="25">。
-它會建立格式為`language_variable_<ln>`的XML檔案，其中`<ln>`是所選語言的程式碼。例如，`language_variable_en.xml`代表英文，`language_variable_fr.xml`代表法文。
+若要匯出語言的語言變數，請從下拉式清單中選取語言，然後選取&#x200B;**匯出** <img src="./assets/language-variable-export-icon.svg" alt="匯出圖示" width="25">.
+它會建立格式為`language_variable_<ln>`的XML檔案，其中`<ln>`是所選語言的程式碼。 例如，`language_variable_en.xml`代表英文，`language_variable_fr.xml`代表法文。
 
 >[!NOTE]
 > 
@@ -113,7 +115,7 @@ Experience Manager Guides支援匯出和匯入以所選語言呈現的語言變�
 若要匯入語言變數：
 
 1. 從下拉式清單中選取語言，然後選取&#x200B;**匯入** <img src="./assets/language-variable-import-icon.svg" width="25">。
-2. 瀏覽並選取包含語言變數的XML。例如，language_variable_en.xml。
+2. 瀏覽並選取包含語言變數的XML。 例如，language_variable_en.xml。
 您可以匯入下列格式的XML檔案：
 
 ```
@@ -140,8 +142,8 @@ Experience Manager Guides支援匯出和匯入以所選語言呈現的語言變�
 
 *使用&#x200B;**選項**&#x200B;功能表來刪除、預覽或複製語言變數。*
 
-您可以預覽應用程式和使用者變數。若要檢視變數值在輸出中的顯示方式，請從所選變數的&#x200B;**選項**&#x200B;選單中選取&#x200B;**預覽**。
-您也可以選擇&#x200B;**刪除**&#x200B;或&#x200B;**複製**&#x200B;使用者變數。從一種語言刪除變數會自動從所有語言刪除它。
+您可以預覽應用程式和使用者變數。 若要檢視變數值在輸出中的顯示方式，請從所選變數的&#x200B;**選項**&#x200B;選單中選取&#x200B;**預覽**。
+您也可以選擇&#x200B;**刪除**&#x200B;或&#x200B;**複製**&#x200B;使用者變數。 從一種語言刪除變數會自動從所有語言刪除它。
 
 ### 編輯或還原應用程式變數
 
@@ -150,8 +152,6 @@ Experience Manager Guides支援匯出和匯入以所選語言呈現的語言變�
 ## 在輸出範本中使用語言變數
 
 您應在當地語系化檔案中新增語言變數。 您可以在出現於本地化檔案中不同頁面的版面配置中插入這些語言變數。 例如，您可以為出現在頁面配置頁首區域（或任何其他部分，如頁尾或內文）中的`author-name`新增語言變數。
-
-
 
 <img alt="pdf的頁面配置" src="./assets/language-variable-page-layout.png" width="550">
 
@@ -172,7 +172,7 @@ Experience Manager Guides支援匯出和匯入以所選語言呈現的語言變�
 
    >[!NOTE]
    >
-   > 您也可以在文字方塊中輸入搜尋字串。包含指定字串的變數名稱會經過篩選，並顯示在清單中。
+   > 您也可以在文字方塊中輸入搜尋字串。 包含指定字串的變數名稱會經過篩選，並顯示在清單中。
    > 選取的語言變數會插入頁首區域中。
 
 
@@ -180,6 +180,21 @@ Experience Manager Guides支援匯出和匯入以所選語言呈現的語言變�
 <img alt="在標題區域中插入變數" src="./assets/language-variable-header.png" width="550">
 
 *已在標頭區域中新增`copyright-label`。*
+
+插入後，所產生輸出中的語言變數值會根據輸出預設集中設定的語言而定。 如果您的地圖已使用`xml:lang`屬性定義語言，並且您想要範本使用相同的語言，請確定已在輸出預設集中選取&#x200B;**使用地圖語言**&#x200B;選項，而不是明確地選取語言。 檢視DITA內容與輸出範本變數的[語言解析度](#language-resolution-for-dita-content-vs-output-template-variables)，瞭解語言如何根據其內容型別進行解析。
+
+### DITA內容與輸出範本變數的語言解析
+
+您的檔案可以包含兩種需要翻譯的內容：DITA內容（例如交叉參照和表格連續標籤）以及輸出範本內容（例如使用語言變數插入的前置內容、後置內容、頁首和頁尾）。
+
+使用下表來瞭解每種型別的內容如何解析其語言。
+
+| 內容類型 | 範例 | 語言解析順序 |
+|---|---|---|
+| DITA內容 | 互動參照（例如「參閱章節」或「參閱頁面」）、表格連續標籤 | &#x200B;1. 最接近主題或地圖<br> 2上的`xml:lang`屬性。 如果未設定`xml:lang`，則輸出預設集語言 |
+| 輸出範本語言變數 | 正面內容、背面內容、頁首、頁尾、執行頁首和產生的標籤（注意、警告、警告） | &#x200B;1. 在輸出預設集<br> 2中選取的語言。 如果選取&#x200B;**使用對應語言**，則為根對映的`xml:lang` <br> 3。 英文(en_US)，如果兩者均不可用 |
+
+如果您希望您的DITA內容遵循特定語言，請設定主題上的`xml:lang`屬性，或最接近該內容的對應。 語言變數的運作方式不同；由於它們不是DITA來源的一部分，因此沒有`xml:lang`可繼承，因此您可以改為透過輸出預設集控制其語言。
 
 ### 將內容樣式套用至語言變數
 
@@ -201,9 +216,9 @@ Experience Manager Guides支援匯出和匯入以所選語言呈現的語言變�
 
 ## 使用CSS樣式本地化字串
 
-使用CSS樣式，您也可以本地化Autonumber中使用的字串，例如Chapter、Section、Figure和Table。由於這些字串來自CSS檔案，因此您無法使用語言變數將其當地語系化。若要將這些字串當地語系化，您可以針對您想要當地語系化的每種語言建立CSS樣式。
+使用CSS樣式，您也可以本地化Autonumber中使用的字串，例如Chapter、Section、Figure和Table。 由於這些字串來自CSS檔案，因此您無法使用語言變數將其當地語系化。 若要將這些字串當地語系化，您可以針對您想要當地語系化的每種語言建立CSS樣式。
 例如，您可以使用以下CSS以各種語言顯示章節首碼和對應的數字格式。
-例如，您可以使用以下CSS將章節以德文顯示為Hoofdstuk，將章節編號以小數格式顯示。如果是日文，您可以使用日文數字格式，在目錄中顯示章節編號。
+例如，您可以使用以下CSS將章節以德文顯示為Hoofdstuk，將章節編號以小數格式顯示。 如果是日文，您可以使用日文數字格式，在目錄中顯示章節編號。
 
 ```
 // for English

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
+source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2647'
 ht-degree: 10%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 10%
       - {hide-from-toc}[部署指示](./release-info/deploy-xml-on-aemaacs.md)
       - [Cloud版本](./release-info/latest-release-info-cs.md)
       - 2026版本 {#2026-releases}
+        - 2026.09.0版 {#2609-release}
+          - [新增功能](./release-info/whats-new-2026-09-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2026-09-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2026-09-0.md)
         - 2026.08.0版本 {#2608-release}
           - [新增功能](./release-info/whats-new-2026-08-0.md)
           - [已修正的問題](./release-info/fixed-issues-2026-08-0.md)
@@ -364,12 +368,13 @@ ht-degree: 10%
   - AEM Guides中的AI助理 {#ai-assistant-aem}
     - [Adobe Generative AI使用者披露](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI 助理概觀](./user-guide/ai-assistant.md)
-    - [AI支援的智慧型協助以搜尋內容](./user-guide/ai-based-smart-help.md)
-    - [AI助理撰寫以聰明地撰寫檔案](./user-guide/ai-assistant-right-panel.md)
-    - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
-    - [常見問題](./user-guide/ai-assistant-faq.md)
-  - AEM Guides中的Guides AI {#guides-ai-aem}
-    - [開始使用Guides AI](./user-guide/guides-ai.md)
+    - 代理模式中的AI助理 {#ai-assistant-agentic}
+      - [以代理模式使用AI助理](./user-guide/ai-assistant-agentic.md)
+    - 標準模式中的AI助理 {#ai-assistant-standard}
+      - [AI支援的智慧型協助以搜尋內容](./user-guide/ai-based-smart-help.md)
+      - [AI助理撰寫以聰明地撰寫檔案](./user-guide/ai-assistant-right-panel.md)
+      - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
+      - [常見問題](./user-guide/ai-assistant-faq.md)
   - 管理學習內容 {#learning-training-content}
     - 快速入門手冊 {#get-started}
       - 簡介 {#intro-lc}
@@ -429,6 +434,8 @@ ht-degree: 10%
     - 疑難排解 {#troubleshooting}
       - [工作階段逾時](./user-guide/session-timeout-prompt.md)
       - [中繼資料匯出中的字串太長例外狀況](./user-guide/metadata-export-failure.md)
+    - 效能管理 {#performance-management}
+      - [檔案和資料夾的分頁載入](./user-guide/paginated-loading-assets.md)
 - 使用手冊（舊版UI） {#user-guide-old-ui}
   - [AEM Guides概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安裝和設定 {#install-conf-guide}
@@ -500,6 +507,7 @@ ht-degree: 10%
     - [安裝文章式發佈的套件](./install-conf-guide/conf-article-based-publishing.md)
     - [設定中繼資料屬性的忽略清單](./install-conf-guide/conf-metadata-prop.md)
     - 適用於Cloud Service的編輯器設定 {#editor-cloud-settings}
+      - [為Cloud Service以代理模式設定AI助理](./install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)
       - [設定AI支援的智慧型建議，以編寫Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
       - [設定AI支援的Smart Help以搜尋Cloud Service的內容](./install-conf-guide/conf-smart-help.md)
       - [設定在Cloud Service的Oxygon中編輯的選項](./install-conf-guide/conf-edit-in-oxygen.md)
@@ -556,10 +564,11 @@ ht-degree: 10%
         - [設定原生PDF的新發佈引擎](./native-pdf/conf-new-pdf-engine.md)
       - [使用原生PDF引擎v2](./native-pdf/new-pdf-engine.md)
       - [為Cloud Service的原生PDF發佈設定節點程式](./native-pdf/conf-node-options-cs.md)
-      - [為內部部署的原生PDF發佈設定JVM標幟](./native-pdf/conf-jvm-flags-on-prem.md)
+      - [為內部部署的原生PDF發佈設定JVM旗標](./native-pdf/conf-jvm-flags-on-prem.md)
     - 設定Cloud Service的內容和體驗片段 {#conf-content-exp-fragment}
       - [建立主題與內容片段之間的對應](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
       - [建立主題和體驗片段之間的對應](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+    - [設定XML剖析器實體大小限制](./install-conf-guide/conf-xml-parsing.md)
   - 工作流程自訂 {#workflow}
     - [設定和自訂工作流程](./install-conf-guide/conf-customize-workflows.md)
   - 整合 {#aemg-integrations}
