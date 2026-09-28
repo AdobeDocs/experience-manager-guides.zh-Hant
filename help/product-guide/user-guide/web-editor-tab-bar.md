@@ -7,22 +7,27 @@ exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+    internal-label: User
+source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # 編輯器中的索引標籤列
 
 >[!INFO]
@@ -61,21 +66,17 @@ ht-degree: 0%
 >
 > 「**儲存全部**」作業不會建立您主題的新版本。 若要建立新版本，請使用&#x200B;**另存為新版本**&#x200B;選項。
 
-**AI小幫手**
-
-強大的AI驅動工具，可透過智慧說明和撰寫功能提升生產力。 它將兩個強大的AI功能 — **製作**&#x200B;和&#x200B;**說明** — 整合到Experience Manager Guides介面中，讓您更快更有效率地編寫內容並存取Experience Manager Guides檔案中的資訊。
+**AI小幫手**： AI小幫手有兩種模式可用： **Agentic**&#x200B;和&#x200B;**Standard**。
 
 >[!NOTE]
 >
-> AI助理功能目前可供Adobe Experience Manager Guides as a Cloud Service使用。
+> 若要在您的環境中使用AI助理功能的代理模式，請聯絡客戶成功團隊。 啟用此功能後，管理員可以從Workspace設定中將其開啟或關閉。 一次只能啟用一個AI助理模式；Agentic或Standard。
 
-**指南AI**
+- **全能**：將Adobe CX Enterprise Coworker的智慧型、全能型智慧型標籤技能帶入編輯器，啟用自然的對話式內容標籤。 它會分析您的內容、建議相關標籤，並幫助您以最省力的方式套用一致且準確的中繼資料。 您可以檢閱建議的標籤，並選擇在確認選取之前套用或拒絕這些標籤。 [在代理模式中使用AI小幫手](../user-guide/ai-assistant-agentic.md)可簡化標籤程式，改善內容組織和可發現性。
 
-將Adobe CX Enterprise Co-worker的智慧型、代理式智慧標籤技能帶入編輯器，啟用自然的對話式內容標籤。 它會分析您的內容、建議相關標籤，並幫助您以最省力的方式套用一致且準確的中繼資料。 您可以檢閱建議的標籤，並在確認選擇之前選擇套用或拒絕這些標籤，以改善內容組織和可發現性。
+- **Standard**：功能強大、AI導向的工具，可透過智慧說明功能提升生產力。 此外，在編輯器介面中工作時，您可以利用AI Assistant的智慧型撰寫功能，透過對內容重複使用和最佳化的智慧型建議，讓您的撰寫流程更聰明、更快。
 
->[!NOTE]
->
-> 若要在環境中使用Guides AI功能，請聯絡客戶成功團隊。 啟用此功能後，管理員可以從Workspace設定中將其開啟或關閉。 一次只能啟用一個AI體驗；可選擇Guides AI或AI Assistant。
+[AI助理](./ai-assistant.md)功能目前僅適用於Adobe Experience Manager as Cloud Service。
 
 **展開檢視**：可讓您使用&#x200B;**展開**&#x200B;圖示展開頁面檢視。 在此檢視中，包含Adobe Experience Manager標誌的標題列會隱藏。 如此可最大化內容空間以供編輯。 若要返回標準檢視，請使用&#x200B;**結束展開檢視**&#x200B;圖示。
 
@@ -91,6 +92,6 @@ ht-degree: 0%
 >
 >如果在5.2版之前的內部部署設定中使用Adobe Experience Manager Guides，則Workspace設定選項會繼續顯示為「**設定**」（在「更多動作」功能表下）。
 
-- **編輯器設定**：帶您進入「編輯器設定」對話方塊，您可以在其中自訂個別作者層級的編輯器行為。 它可讓您在編寫期間控制標籤、註解和其他編輯器層級設定的可見度和行為。 如需詳細資訊，請檢視[編輯器設定](../install-conf-guide/workspace-settings.md)。
+- **編輯器設定**：帶您進入「編輯器設定」對話方塊，您可以在其中自訂個別作者層級的編輯器行為。 它可讓您在編寫期間控制標籤、註解和其他編輯器層級設定的可見度和行為。 如需詳細資訊，請檢視[編輯器設定](../user-guide/config-editor-settings.md)。
 
 **父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
