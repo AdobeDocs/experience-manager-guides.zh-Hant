@@ -7,25 +7,33 @@ role: User
 TQID: https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 1903
+source-wordcount: '1929'
 ht-degree: 0%
-
 ---
-
 # 從Map主控台建立和管理基準線 {#id223MB0ZF043}
 
 >[!NOTE]
@@ -41,7 +49,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 建議從Map主控台使用此基線功能。 不過，您也可以[使用地圖儀表板來建立和管理基準線](./generate-output-use-baseline-for-publishing.md)。
+>建議從Map主控台使用此基線功能。 不過，您也可以[使用地圖儀表板來建立和管理基準線](./generate-output-use-baseline-for-publishing.md)。
 
 在&#x200B;**基準線**&#x200B;索引標籤中，您可以執行下列動作：
 
@@ -81,13 +89,13 @@ ht-degree: 0%
   對於靜態基準線中的直接參照，標籤會從最新儲存的地圖版本中提取。 例如，如果您已為主題A 1.0和1.1版建立標籤`Label Release 1.0`和`Label Release 1.1`，然後將主題A新增至儲存為1.0版的地圖。 在此情況下，您可以在靜態基準線標籤的下拉式清單中檢視標籤`Label Release 1.0`和`Label Release 1.1`。
 
   當您選取&#x200B;**標籤，**&#x200B;時，您可以選擇直接和間接參照。
-   - 對於DITA map中的直接參照，您可以選擇使用未套用指定標籤的最新版主題。
+  - 對於DITA map中的直接參照，您可以選擇使用未套用指定標籤的最新版主題。
 
-     >[!NOTE]
-     >
-     > 如果您輸入不存在的標籤，並選取選項&#x200B;**不要建立基準線**，則基準線建立會失敗，並在「基準線」面板的基準線名稱附近出現錯誤訊息。
+    >[!NOTE]
+    >
+    > 如果您輸入不存在的標籤，並選取選項&#x200B;**不要建立基準線**，則基準線建立會失敗，並在「基準線」面板的基準線名稱附近出現錯誤訊息。
 
-   - 對於DITA map中的間接參照，您會獲得一個額外選項，可以使用未套用指定標籤的最新版主題。 您也可以選擇&#x200B;**自動挑選參考內容的**，系統會自動挑選與參考內容版本對應的參考內容版本。
+  - 對於DITA map中的間接參照，您會獲得一個額外選項，可以使用未套用指定標籤的最新版主題。 您也可以選擇&#x200B;**自動挑選參考內容的**，系統會自動挑選與參考內容版本對應的參考內容版本。
 
 一旦您選取標籤或版本為日期，就會相應地選取地圖中所有參照的主題和媒體檔案。 此主題選取範圍未顯示在使用者介面上，但會儲存在後端。
 
@@ -108,11 +116,12 @@ ht-degree: 0%
   >提取標籤時，載入器會出現，且下拉式清單會停用。
 
   對於動態基準線，標籤會從最新儲存的版本和地圖目前的工作副本中提取。 例如，如果您已為主題A 1.0和1.1版建立標籤`Label Release A.1.0 `和`Label Release A.1.1`，並為主題B 1.0和1.1版建立標籤`Label Release B.1.0`和`Label Release B.1.1`。 然後，您可以新增主題A至1.0版中的「對應A」，新增主題B至1.0*版中的「對應A」（工作復本）。 在此情況下，您可以在動態基準線標籤的下拉式清單中檢視`Label Release A.1.0 `、`Label Release A.1.1`、`Label Release B.1.0`和`Label Release B.1.1`。
+
 - **間接參照**：對於DITA map中的間接參照，您會獲得下列選項：
 
-   - **自動挑選**：您可以選擇&#x200B;**自動挑選參考內容**，系統會自動挑選與參考內容版本對應的參考內容版本。
-   - **使用選取的標籤**：您可以使用為某個版本的主題定義的選取標籤，來建立基準線。
-   - **使用最新版本或工作復本**：使用未套用指定標籤之主題的最新版本，或如果尚未建立任何版本，則使用主題的工作復本來建立基準線。
+  - **自動挑選**：您可以選擇&#x200B;**自動挑選參考內容**，系統會自動挑選與參考內容版本對應的參考內容版本。
+  - **使用選取的標籤**：您可以使用為某個版本的主題定義的選取標籤，來建立基準線。
+  - **使用最新版本或工作復本**：使用未套用指定標籤之主題的最新版本，或如果尚未建立任何版本，則使用主題的工作復本來建立基準線。
 
 ## 管理基準線
 
@@ -122,13 +131,13 @@ ht-degree: 0%
 - 使用「基準線」面板中的&#x200B;**重新整理**&#x200B;圖示可重新檢查所有基準線，並顯示在「對映檢視」中開啟之DITA map的新的基準線清單。
 - 選取基準線以檢視或編輯&#x200B;**基準線**&#x200B;面板中現有靜態基準線的內容。 基準線編輯視窗會顯示DITA map檔案、map的內容或主題以及參照的內容。
 
-  >[!NOTE]
-  >
-  >只建議對少量的參考變更執行靜態基準線的編輯操作。 不建議使用編輯操作來變更主要DITA map的版本，因為它必須重新計算所有參照。 這可能會造成大型DITA map的基準線更新失敗。 對於較大的DITA map，您可以建立新基準線或編輯基準線的屬性。
-  >
-  >當使用標籤在執行階段產生動態基準的參照時，動態基準的編輯作業可讓您編輯基準的屬性。
+>[!NOTE]
+>
+>只建議對少量的參考變更執行靜態基準線的編輯操作。 不建議使用編輯操作來變更主要DITA map的版本，因為它必須重新計算所有參照。 這可能會造成大型DITA map的基準線更新失敗。 對於較大的DITA map，您可以建立新基準線或編輯基準線的屬性。
+>
+>當使用標籤在執行階段產生動態基準的參照時，動態基準的編輯作業可讓您編輯基準的屬性。
 
-  基準線![&#128279;](images/baseline-options.png)的選項
+基準線](images/baseline-options.png)的![選項
 
 ### 現有基準的可用動作
 
@@ -141,15 +150,17 @@ ht-degree: 0%
 ![複製基準線](images/baseline-duplicate.png){width="300"}
 *根據標籤複製基準線或建立精確副本。*
 
-1. 從基準線的[選項]功能表選取[複製] **&#x200B;**。**重複的基準線**&#x200B;對話方塊開啟。
->[!NOTE]
->
->基準線的預設名稱為`<selected baseline name>`_suffix （如sample-baseline_1）。您可以根據自己的需求變更名稱。
+1. 從基準線的[選項]功能表選取[複製] ****。 **重複的基準線**&#x200B;對話方塊開啟。
+
+   >[!NOTE]
+   > 
+   >基準線的預設名稱是`<selected baseline name>`_suffix （如sample-baseline_1）。 您可以根據自己的需求變更名稱。
 
    在&#x200B;**選取以**&#x200B;為基礎的版本中，您可以選擇&#x200B;**完全複製**&#x200B;選項或&#x200B;**標籤**&#x200B;選項：
 
    - **精確副本**： Experience Manager Guides會挑選相同版本的所有主題，並建立重複基準線的精確副本。
    - **標籤**：您可以使用下拉式清單，選擇[列出的標籤](#labels-list)之一。 Experience Manager Guides會挑選有為其定義所選標籤的主題版本，至於其餘主題，則會從複製的基準線中挑選版本。 例如，您從下拉式清單中選取標籤`Release 1.0`，然後它會挑選您已定義此標籤的主題版本。 對於所有其他主題，它會從複製的基準線中挑選版本。
+
 1. 選取&#x200B;**複製**。
 
 - **重新命名**，或&#x200B;**刪除**&#x200B;現有的基準線**。
@@ -166,6 +177,7 @@ ht-degree: 0%
 ### 標籤清單 {#labels-list}
 
 下拉式清單中列出的標籤依據以下准則：
+
 - 標籤應新增至DITA map （在其上建立基準線）中主題的其中一個版本。
 - 而且只考慮DITA map的第一層級參照（主題或子對映）來挑選標籤。
 
@@ -187,5 +199,5 @@ ht-degree: 0%
 
 編輯基準線後，選取&#x200B;**儲存**&#x200B;以儲存基準線的變更。 如果您不想儲存變更並重設基準線，可以選取&#x200B;**重設**。 當您選取&#x200B;**重設**&#x200B;時，會顯示警告，指出您未儲存的變更將會遺失。
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)
 

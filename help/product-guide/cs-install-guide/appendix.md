@@ -8,21 +8,25 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/etvy4eVDOfc8wWTt4LDk-XtEbAvQxESduB3-N114X-0
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: d5800bf2b6aa807975b6c12c20bfb340a015b830
 workflow-type: tm+mt
-source-wordcount: 2866
+source-wordcount: '2866'
 ht-degree: 0%
-
 ---
-
 # 附錄 {#id195AD0L60Y4}
 
 ## 疑難排解AEM Guides
@@ -45,10 +49,10 @@ ht-degree: 0%
 1. 執行驗證指令碼\[`/bin/fmdita/validatebtree?operation=validate`\]以檢查是否有任何新的中斷參考。
 1. 如果驗證指令碼報告任何錯誤，您可以使用修補程式指令碼來修補。
 1. 紀錄以下提供的詳細資訊，並在必要時與客戶成功團隊分享：
-1. &#x200B;
+
    - 驗證指令碼列印的記錄
-- 「`/content/fmdita/references`」的封裝
-- 根據所報告案例的任何其他必要細節
+   - 「`/content/fmdita/references`」的封裝
+   - 根據所報告案例的任何其他必要細節
 
 **修補程式指令碼**
 
@@ -56,13 +60,13 @@ ht-degree: 0%
 
 1. 執行修補程式指令碼`[/bin/fmdita/validatebtree?operation=patch]`以修正中斷的參照。 指令碼執行需要幾分鐘的時間，並會隨著進度列印記錄。 執行完成後，它會在結尾列印「`Done`」。
 
->[!NOTE]
->
-> 建議您複製並儲存記錄檔以供參考。
+   >[!NOTE]
+   >
+   > 建議您複製並儲存記錄檔以供參考。
 
 1. 一旦修正程式指令碼執行成功，您就可以執行下列檢查：
-1. &#x200B;
-   - 檢查已在`/content/fmdita`下建立新節點&#39;&#39;`references_backup_<timestamp>"`&#39;
+
+- 檢查已在`/content/fmdita`下建立新節點&#39;&#39;`references_backup_<timestamp>"`&#39;
 - 檢查參考是否已修正
 
 **記錄器**
@@ -355,7 +359,7 @@ InDesign表格樣式允許欄和儲存格的格線遵循交替模式。 雖然�
 
 `paragraphStyleRule`元素說明如下：
 
-新&#x200B;**`paraRule`元素**
+新**`paraRule`元素**
 
 `paraRule`專案為必要專案。 這會指定所有段落樣式的對應規則。 在InDesign檔案中，所有文字都包含在段落樣式的子結構內，即使是沒有任何樣式的段落也命名為`\[No paragraph style\]`。 方括弧，表示內建的InDesign樣式名稱。
 
@@ -370,8 +374,9 @@ InDesign表格樣式允許欄和儲存格的格線遵循交替模式。 雖然�
 - `@mapTo`： DITA目標專案的名稱。
 
 - `@context`：有多個包裝函式選擇可供使用時，此屬性可用來連結至特定的&#x200B;**換行**&#x200B;規則。 範例： `li`專案可能會包裝在`ol`或`ul`專案中。 若要識別不同的清單型別，您可以使用特定的樣式名稱或可顯示下列內容的`@local`屬性：
-   - `local="p[-|-|-|-|-|b|-|-]"`其中欄位6中的&#39;`b`&#39;表示專案符號清單專案。 在此案例中，將`@context`設定為&#39;`bullet`&#39;。
-   - `local="p[-|-|-|-|-|n|-|-]"`其中欄位6中的&#39;`n`&#39;表示編號清單專案。 在此案例中，將`@context`設定為&#39;`number`&#39;。
+
+  - `local="p[-|-|-|-|-|b|-|-]"`其中欄位6中的&#39;`b`&#39;表示專案符號清單專案。 在此案例中，將`@context`設定為&#39;`bullet`&#39;。
+  - `local="p[-|-|-|-|-|n|-|-]"`其中欄位6中的&#39;`n`&#39;表示編號清單專案。 在此案例中，將`@context`設定為&#39;`number`&#39;。
 
 - `@commentOut`：此屬性可啟用目標專案在XML註解中的換行，因此資訊不會遺失，但使用者可以手動處理。 如果來源內容無法強制符合DITA結構規則，則此功能會很有用。
 
@@ -402,9 +407,8 @@ InDesign表格樣式允許欄和儲存格的格線遵循交替模式。 雖然�
 - `@local`：請參閱[\#id194CG0V005Z](#id194CG0V005Z)。
 - `@mapTo`： DITA目標專案的名稱。
 - `@refactor`：此選擇性屬性有兩個值的選擇：
-   - `unwrap`：移除相符的元素，同時保留其內容。
-
-   - `drop`：已移除相符的元素及其所有內容。
+  - `unwrap`：移除相符的元素，同時保留其內容。
+  - `drop`：已移除相符的元素及其所有內容。
 
 
 **屬性規則**
@@ -434,11 +438,11 @@ InDesign表格樣式允許欄和儲存格的格線遵循交替模式。 雖然�
 > 此元素可包含多個子元素。
 
 - `addNew`：將新屬性新增至相符的元素。 可用於所有內容。 它有兩個屬性：
-   - `@name`：必須是合法的XML名稱，最好對DITA內容有效。
-   - `@value`：可以是常值文字或簡單的XPath運算式。
+  - `@name`：必須是合法的XML名稱，最好對DITA內容有效。
+  - `@value`：可以是常值文字或簡單的XPath運算式。
 - `copyAtt`：將單一屬性複製到目標，同時可選擇在程式中重新命名該屬性。 值不會變更。 適用於內容`mapDoctypeParaRule`、`mapDoctypeElemRule`、`doctypeElemRule`和`elementRule`。 當此專案出現時，`@copyAllAtts`值會假設為`false`。 它有兩個屬性：
-   - `@name`：必須是存在於來源XML專案上的屬性名稱。
-   - `@mapTo`：必須是合法的XML名稱，最好對DITA內容有效。
+  - `@name`：必須是存在於來源XML專案上的屬性名稱。
+  - `@mapTo`：必須是合法的XML名稱，最好對DITA內容有效。
 
 **本機格式碼**
 
@@ -492,9 +496,9 @@ InDesign表格樣式允許欄和儲存格的格線遵循交替模式。 雖然�
 
 - `@refactor`：此選擇性屬性有兩個值的選擇：
 
-   - `unwrap`：移除相符的元素，同時保留其內容。
+  - `unwrap`：移除相符的元素，同時保留其內容。
 
-   - `drop`：已移除相符的元素及其所有內容。
+  - `drop`：已移除相符的元素及其所有內容。
 
 - `@context`：有多個包裝函式選擇可供使用時，此屬性可用來連結至特定的包裝規則。 範例： `li`專案可能會包裝在`ol`或`ul`專案中。
 

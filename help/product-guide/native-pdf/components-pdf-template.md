@@ -19,9 +19,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '5053'
+source-wordcount: '5049'
 ht-degree: 0%
 ---
 # PDF範本的元件 {#components-pdf-template}
@@ -61,6 +61,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
      <img src="assets/add-layout-2.png" alt="新增配置對話方塊" width="250">
 
 1. 指定新頁面配置的名稱。
+
    >[!NOTE]
    >
    >在命名頁面配置時，請避免使用任何特殊字元。 名稱中的空格會以底線「_」取代。
@@ -196,6 +197,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
    <img src="assets/resources-import-assets.png" alt="上傳資產" width="300">
 
    上傳資產檔案的路徑會顯示在&#x200B;**選取資產資料夾**&#x200B;欄位中。
+
    >[!NOTE]
    >
    >您無法變更上傳資產的路徑。 依預設，所有資產都儲存在`/content/dam/dita-templates/pdf/<PDF-template-name>`資料夾下。
@@ -270,7 +272,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
   >如果您是CSS開發人員，則也可以直接在CSS檔案中定義導線格式。
 
 * **使用資料表接續標籤**：選取此選項可定義跨多頁之長資料表的標籤。
-您可以定義要在分頁前後顯示的文字。 例如，表格在第5頁中斷，而您為&#x200B;**中斷前文字**&#x200B;定義`<Continued on page %page-num%>`。  文字在第5頁底部顯示「繼續於第6頁」。
+您可以定義要在分頁前後顯示的文字。 例如，表格在第5頁中斷，而您為**中斷前文字**&#x200B;定義`<Continued on page %page-num%>`。  文字在第5頁底部顯示「繼續於第6頁」。
 
   使用語言變數來定義分行前後連續標籤文字。 根據您選取的語言，系統會自動在PDF輸出中挑選當地語系化的值。 例如，您可以將`Continued on page %page-num%`以英文和德文的文字發佈。`Fortsetzung auf Seite %page-num%`
 
@@ -339,8 +341,6 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
 
 您可以在PDF中顯示或隱藏下列區段，以及安排這些區段在最終PDF輸出中的顯示順序：
 
-
-
 * 目錄
 * 章節與主題
 * 圖表清單
@@ -349,18 +349,16 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
 * 字彙表
 * 引用
 
-  <img src="assets/page-order-advance-settings.png" alt="頁面配置順序" width="550">
+<img src="assets/page-order-advance-settings.png" alt="頁面配置順序" width="550">
 
-  如果您不想在PDF輸出中顯示特定區段，可以關閉切換開關來隱藏該區段。
+如果您不想在PDF輸出中顯示特定區段，可以關閉切換開關來隱藏該區段。
 
-  您也可以定義這些區段在PDF中的產生順序。 若要變更這些區段的預設順序，請選取虛線以將區段拖放到所需位置。
+您也可以定義這些區段在PDF中的產生順序。 若要變更這些區段的預設順序，請選取虛線以將區段拖放到所需位置。
 
-  >[!NOTE]
-  >
-  > 順序和包含設定僅適用於DITA map。 對於書籤，這些設定不適用。 書籤中的頁面會依書籤區段的順序顯示。
+>[!NOTE]
+>
+> 順序和包含設定僅適用於DITA map。 對於書籤，這些設定不適用。 書籤中的頁面會依書籤區段的順序顯示。
 
-
-.
 **章節與主題**&#x200B;配置一律預設為啟用。 您無法將其切換。
 
 **合併頁面**
@@ -479,6 +477,7 @@ AEM Guides提供下列現成可用的變數：
 * **資料表**： `{captionText}`
 
 互動參照的優先順序為：
+
 * 交叉引用中新增的連結文字
 * 原生PDF範本中定義的互動參照格式
 * 預設互動參照格式
@@ -497,12 +496,11 @@ AEM Guides提供下列現成可用的變數：
 當您將`${lng:<variable name>}`新增至「段落」區段時，輸出段落中的互動參照會包含當地語系化文字和頁碼。\
 例如，下列熒幕擷取畫面以英文顯示「View on page 1」互動參照，以德文顯示「Einzelheiten finden Sie auf der Seite 1」。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出" width ="800" border="2px">
 
 *以英文發佈時，段落中的互動參照。*
 
-<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出&quot; width =&quot;800" border="2px">
-
+<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出" width ="800" border="2px">
 
 *以德文發佈時，段落中的互動參照。*
 

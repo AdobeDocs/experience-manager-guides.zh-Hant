@@ -6,31 +6,37 @@ exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
 TQID: https://experienceleague.adobe.com/PFM-i4fVsgpBUJy4BeOpvyY4GWxGS8F24jEGb0Y2oiI
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1021'
 ht-degree: 1%
-
 ---
-
 # 2024.10.0版（2024年10月）的新增功能
 
 本文介紹2024.10.0版Adobe Experience Manager Guides as a Cloud Service所推出的新功能和增強功能。
 
 有關此版本中的問題修正清單，請查看 [2024.10.0 版本中修正的問題](fixed-issues-2024-10-0.md)。
 
-瞭解2024.10.0 [&#128279;](../release-info/upgrade-instructions-2024-10-0.md)版的升級指示。
+瞭解2024.10.0 ](../release-info/upgrade-instructions-2024-10-0.md)版的[升級指示。
 
 
 ## 發佈增強功能
@@ -70,7 +76,7 @@ Experience Manager Guides可讓您將主題或其元素發佈至體驗片段。 
 ### 重新組織AEM Sites預設集以方便使用
 
 設定已重新整理，以幫助您快速設定輸出預設集並產生AEM Sites輸出。
-您可以在&#x200B;**新的輸出預設集**&#x200B;對話方塊中選取&#x200B;**使用舊版元件對應**&#x200B;選項，以建立現有的AEM Sites預設集。
+您可以在**新的輸出預設集**&#x200B;對話方塊中選取&#x200B;**使用舊版元件對應**&#x200B;選項，以建立現有的AEM Sites預設集。
 
 檢視AEM Sites預設集中的&#x200B;**一般**、**內容**&#x200B;和&#x200B;**交叉對應參考**&#x200B;標籤：
 - **一般**：包含產生輸出的一般組態。 您可以指定網站和輸出路徑、刪除或覆寫現有的輸出頁面、刪除先前為移除的主題產生的頁面、選取設計範本、保留暫存檔案，以及指定產生後的工作流程。
@@ -91,7 +97,7 @@ Experience Manager Guides中的跨地圖參照有助於改善內容導覽、增�
 
 ![舊版AEM Sites預設集](assets/aem-sites-legacy.png)
 
-*從&#x200B;**AEM Sites**&#x200B;預設集的&#x200B;**交叉對應參考**&#x200B;索引標籤，指定連結主題的發佈內容。*
+*從&#x200B;**AEM Sites**預設集的&#x200B;**交叉對應參考**索引標籤，指定連結主題的發佈內容。*
 
 深入瞭解[AEM Sites預設集](../user-guide/generate-output-aem-site.md)。
 
@@ -111,9 +117,10 @@ Experience Manager Guides中的跨地圖參照有助於改善內容導覽、增�
 ### 對鎖定檔案的作者和Source模式的唯讀存取權
 
 如果DITA或Markdown檔案已由其他使用者鎖定或出庫，則您無法編輯或變更內容。 除了「預覽」以外，您也可以在「作者」或「Source」模式中以唯讀檔案的形式檢視它。
-在唯讀模式中，您可以在&#x200B;**作者**&#x200B;或&#x200B;**Source**&#x200B;模式中檢視內容以及標籤和屬性，並編輯檔案屬性。
+在唯讀模式中，您可以在**作者**&#x200B;或&#x200B;**Source**&#x200B;模式中檢視內容以及標籤和屬性，並編輯檔案屬性。
 
 您也可以存取唯讀DITA map的&#x200B;**配置**&#x200B;檢視。
+
 >[!NOTE]
 >
 > 您的資料夾設定檔管理員必須更新&#x200B;*ui_config.json*，以便您可以在「作者」、「Source」和「版面」模式中和諧地存取唯讀檔案。

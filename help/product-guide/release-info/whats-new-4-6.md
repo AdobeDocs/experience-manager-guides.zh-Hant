@@ -6,34 +6,43 @@ exl-id: 3e73d595-a574-4104-af46-6994685a2f4c
 TQID: https://experienceleague.adobe.com/SuUfplm5WDGOjPlkNjMiWXoWzpFeM8RQsTHNL36iLn8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 2738
-ht-degree: 19%
-
+source-wordcount: '3089'
+ht-degree: 17%
 ---
-
 # 4.6.0版的新增功能（2024年9月）
 
 本文介紹4.6.0版Adobe Experience Manager Guides推出的新功能和增強功能。
 
 如需此版本中已修正的問題清單，請檢視[4.6.0版本](../release-info/fixed-issues-4-6-0.md)中已修正的問題。
 
-瞭解4.6.0版[&#128279;](../release-info/upgrade-instructions-4-6-0.md)的升級指示。
+瞭解4.6.0版](../release-info/upgrade-instructions-4-6-0.md)的[升級指示。
 
 
 ## 發佈增強功能
@@ -78,7 +87,7 @@ Experience Manager Guides也在內容片段中提供一些實用的增強功能�
 ### 重新組織AEM Sites預設集以方便使用
 
 設定已重新整理，以幫助您快速設定輸出預設集並產生AEM Sites輸出。
-您可以在&#x200B;**新的輸出預設集**&#x200B;對話方塊中選取&#x200B;**使用舊版元件對應**&#x200B;選項，以建立現有的AEM Sites預設集。
+您可以在**新的輸出預設集**&#x200B;對話方塊中選取&#x200B;**使用舊版元件對應**&#x200B;選項，以建立現有的AEM Sites預設集。
 
 檢視AEM Sites預設集中的&#x200B;**一般**、**內容**&#x200B;和&#x200B;**交叉對應參考**&#x200B;標籤：
 - **一般**：包含產生輸出的一般組態。 您可以指定網站和輸出路徑、刪除或覆寫現有的輸出頁面、刪除先前為移除的主題產生的頁面、選取設計範本、保留暫存檔案，以及指定產生後的工作流程。
@@ -99,7 +108,7 @@ Experience Manager Guides中的跨地圖參照有助於改善內容導覽、增�
 
 ![舊版AEM Sites預設集](assets/aem-sites-legacy.png)
 
-*從&#x200B;**AEM Sites**&#x200B;預設集的&#x200B;**交叉對應參考**&#x200B;索引標籤，指定連結主題的發佈內容。*
+*從&#x200B;**AEM Sites**預設集的&#x200B;**交叉對應參考**索引標籤，指定連結主題的發佈內容。*
 
 
 
@@ -129,7 +138,7 @@ Experience Manager Guides也支援原生PDF發佈中的Markdown檔案。 此功�
 
 ### 透過DITA-OT產生輸出時下載暫存檔案
 
-您也可以下載當您透過DITA-OT發佈AEM Sites、HTML、自訂、JSON或PDF輸出時產生的暫存檔案。此功能可協助您分析輸出產生過程中可能發生的任何問題，並有效進行疑難排解。  
+您也可以下載當您透過DITA-OT發佈AEM Sites、HTML、自訂、JSON或PDF輸出時產生的暫存檔案。 此功能可協助您分析輸出產生過程中可能發生的任何問題，並有效進行疑難排解。  
 如果您已選取任何已傳遞給使用DITA-OT產生的輸出的中繼資料屬性，也可以下載metadata.xml檔案。 
 
 如需預設集的詳細資訊，請檢視[瞭解輸出預設集](../user-guide/generate-output-understand-presets.md)。
@@ -138,7 +147,7 @@ Experience Manager Guides也支援原生PDF發佈中的Markdown檔案。 此功�
 ### 為HTML5輸出選擇平面或巢狀檔案階層的選項
 
 現在，Experience Manager Guides可讓您保留暫存檔的平面資料夾階層，其中整個內容會以HTML5輸出格式發佈，並儲存在單一資料夾中。
-如果您不選擇平面化檔案階層，HTML5輸出會在巢狀資料夾階層中產生。這表示內容的原始資料夾結構（其檔案會整理到子資料夾中）會在輸出中進行復寫。此巢狀資料夾階層可以讓檔案的組織和分類更複雜，更易於管理和導覽大量資料。
+如果您不選擇平面化檔案階層，HTML5輸出會在巢狀資料夾階層中產生。 這表示內容的原始資料夾結構（其檔案會整理到子資料夾中）會在輸出中進行復寫。 此巢狀資料夾階層可以讓檔案的組織和分類更複雜，更易於管理和導覽大量資料。
 
 
 深入瞭解如何[產生HTML5輸出](../user-guide/generate-output-html5.md)
@@ -150,10 +159,11 @@ Experience Manager Guides也支援原生PDF發佈中的Markdown檔案。 此功�
 
 ### 對鎖定檔案的作者和Source模式的唯讀存取權
 
-如果DITA或Markdown檔案已由其他使用者鎖定或出庫，則您無法編輯或變更內容。除了「預覽」以外，您也可以在「作者」或「Source」模式中以唯讀檔案的形式檢視它。
-在唯讀模式中，您可以在&#x200B;**作者**&#x200B;或&#x200B;**Source**&#x200B;模式中檢視內容以及標籤和屬性，並編輯檔案屬性。
+如果DITA或Markdown檔案已由其他使用者鎖定或出庫，則您無法編輯或變更內容。 除了「預覽」以外，您也可以在「作者」或「Source」模式中以唯讀檔案的形式檢視它。
+在唯讀模式中，您可以在**作者**&#x200B;或&#x200B;**Source**&#x200B;模式中檢視內容以及標籤和屬性，並編輯檔案屬性。
 
 您也可以存取唯讀DITA map的&#x200B;**配置**&#x200B;檢視。
+
 >[!NOTE]
 >
 > 您的資料夾設定檔管理員必須更新&#x200B;*ui_config.json*，以便您可以在「作者」、「Source」和「版面」模式中和諧地存取唯讀檔案。
@@ -196,7 +206,7 @@ Experience Manager Guides可增強您在網頁編輯器中跨元素選取內容�
 
 ### 在存放庫檢視中搜尋和篩選檔案的改版體驗
 
-現在，您有增強的篩選檔案體驗。 改進的檔案篩選功能讓使用者更能輕鬆地搜尋和瀏覽檔案。
+現在，您在篩選檔案時會有更佳的體驗。 改進的檔案篩選功能讓使用者更能輕鬆地搜尋和瀏覽檔案。
 
 
 ![在存放庫視圖中搜尋檔案](assets/repository-filter-search-2404.png){width="300"}
@@ -247,8 +257,8 @@ Experience Manager Guides現在可讓您將條件分組，並以巢狀階層顯�
 
 ### 改善網頁編輯器中不間斷空格的處理方式
 
-Experience Manager Guides可讓您在網頁編輯器中編輯檔案時顯示不斷行空格指示器。它也能改善不中斷空格的處理方式。
-它會將多個連續的空格轉換為單一空格，以保留檔案在網頁編輯器中的WYSIWYG檢視。此功能也有助於改善檔案的整體外觀和專業性。
+Experience Manager Guides可讓您在網頁編輯器中編輯檔案時顯示不斷行空格指示器。 它也能改善不中斷空格的處理方式。
+它會將多個連續的空格轉換為單一空格，以保留檔案在網頁編輯器中的WYSIWYG檢視。 此功能也有助於改善檔案的整體外觀和專業性。
 
 
 如需詳細資訊，請檢視網頁編輯器的[其他功能](../user-guide/web-editor-other-features.md)。
@@ -271,8 +281,8 @@ Experience Manager Guides可讓您在網頁編輯器中編輯檔案時顯示不�
 
 ### 改善從地圖編輯器大量簽入檔案時的效能
 
-Experience Manager Guides改善了從地圖編輯器簽入大量檔案功能的效能和體驗。此項改善可協助您更快地簽入大量檔案。
-您也可以從&#x200B;**另存為新版本和解除鎖定**&#x200B;對話方塊檢視檔案的簽入作業進度。最後，成功訊息會在作業完成且所有選取的已出庫檔案都已入庫後出現。
+Experience Manager Guides改善了從地圖編輯器簽入大量檔案功能的效能和體驗。 此項改善可協助您更快地簽入大量檔案。
+您也可以從**另存為新版本和解除鎖定**&#x200B;對話方塊檢視檔案的簽入作業進度。 最後，成功訊息會在作業完成且所有選取的已出庫檔案都已入庫後出現。
 
 ![另存為新版本並解除鎖定對話方塊](./assets/save-version-lock.png){width="300"}
 
@@ -304,7 +314,7 @@ Experience Manager Guides 現在允許您建立語言群組並輕鬆將您的內
 >
 >如果某種語言的目標資料夾遺失或目標語言與原始語言相同，則會變成灰色並顯示警告標誌。
 
-作為管理員，您可以建立語言群組並將其設定到多個資料夾設定檔中。 作為作者，您可以查看資料夾設定檔中設定的語言群組。
+作為管理員，您可以建立語言群組並將其設定到多個資料夾設定檔。 作為作者，您可以查看資料夾設定檔中設定的語言群組。
 
 
 整體而言，建立語言群組可以提高翻譯專案的效率和生產力，最終改善跨多種語言的本地化流程。
@@ -341,7 +351,7 @@ Experience Manager Guides 現在允許您建立語言群組並輕鬆將您的內
 ### 在Adobe Experience Manager Assets上停用選擇性資料夾的後處理
 
 
-身為管理員，您現在可以在Experience Manager Assets上停用選擇性資料夾的UUID後處理與產生。此設定可能有所幫助，尤其是在處理許多資產或複雜的資料夾結構時。它還有助於多位使用者同時快速上傳資產，而不會互相干擾。  
+身為管理員，您現在可以在Experience Manager Assets上停用選擇性資料夾的UUID後處理與產生。 此設定可能有所幫助，尤其是在處理許多資產或複雜的資料夾結構時。 它還有助於多位使用者同時快速上傳資產，而不會互相干擾。  
 
 停用資料夾的後處理也會影響其所有子資料夾。 不過，Experience Manager Guides現在提供選擇性地為已忽略資料夾內的個別子資料夾啟用後處理的功能。
 
