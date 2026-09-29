@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
+source-git-commit: bd500b169cc39e5d179bb2ba36e70f9a7c64958f
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '325'
 ht-degree: 5%
 ---
 # Experience Manager Guides檔案
@@ -207,11 +207,20 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 >[!ENDSHADEBOX]
 
+## 新增功能
+
+[!BADGE 2026.09.0版本]{type=Informative}
+
+2026.09.0版的Adobe Experience Manager Guides在AI Assistant中引入AI支援的智慧標籤，並在編寫、內容管理、發佈和整體使用者體驗方面提供增強功能。
+
+[探索新增功能](./release-info/whats-new-2026-09-0.md)
+
+
 ## 其他資源
 
 * [Cloud Service發行說明](./release-info/latest-release-info-cs.md)
 * [On-Premise版本注意事項](./release-info/latest-release-info.md)
-* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hant){target="_blank"}
-* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.zh-Hant){target="_blank"}
-* [支援](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hant){target="_blank"}
-* [教學影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支援](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [教學影片](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
