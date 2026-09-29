@@ -359,7 +359,7 @@ InDesign表格樣式允許欄和儲存格的格線遵循交替模式。 雖然�
 
 `paragraphStyleRule`元素說明如下：
 
-新**`paraRule`元素**
+新&#x200B;**`paraRule`元素**
 
 `paraRule`專案為必要專案。 這會指定所有段落樣式的對應規則。 在InDesign檔案中，所有文字都包含在段落樣式的子結構內，即使是沒有任何樣式的段落也命名為`\[No paragraph style\]`。 方括弧，表示內建的InDesign樣式名稱。
 
