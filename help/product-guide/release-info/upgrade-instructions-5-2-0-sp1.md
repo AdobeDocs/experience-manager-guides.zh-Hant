@@ -34,7 +34,7 @@ ht-degree: 3%
 |---|---|---|----|
 | 5.2.0 Service Pack 1 (UUID) | 5.2.2 | [AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-如需更多詳細資料，請檢視[從Maven中央存放庫設定及使用API JAR](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)。
+如需更多詳細資料，請檢視[從Maven中央存放庫設定及使用API JAR](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/api-reference/introduction)。
 
 
 ### FrameMaker和FrameMaker Publishing Server
@@ -79,7 +79,7 @@ ht-degree: 3%
 >
 > - **適用於AEM 6.5 LTS**： Experience Manager Guides 5.2.0 Service Pack 1僅支援AEM 6.5 LTS Service Pack 2。
 > - **適用於AEM 6.5**： Experience Manager Guides 5.2.0 Service Pack 1僅支援AEM 6.5 Service Pack 24、23和22。
-> - 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.2.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> - 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.2.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 > - 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 Service Pack 24或更新版本，請務必先完成AEM升級。 完成後，請重新安裝Experience Manager Guides 5.2.0。 安裝Experience Manager Guides 5.2.1之前。
 
 在繼續升級至Experience Manager Guides 5.2.0 Service Pack 1版之前，您必須先考量下列幾點：
