@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
+source-git-commit: 82b02a0c27b9caeedc59f6508c5a36821ab1666e
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 5%
+source-wordcount: '441'
+ht-degree: 6%
 ---
 # Experience Manager Guides檔案
 
@@ -215,12 +215,65 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 [探索新增功能](./release-info/whats-new-2026-09-0.md)
 
+## 快速連結
+
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![新功能](../assets/whats-new-git-connector.svg)
+
+**AEM Guides的新功能**
+
+瞭解Experience Manager Guides最新版本的新增功能。
+
+[了解更多](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![發行說明](../assets/whats-new-map-collection.svg)
+
+**發行說明**
+
+探索雲端和內部部署的最新發行說明和產品更新。
+
+- AEM Guides Cloud發行版本 | [檢視發行說明](./release-info/latest-release-info-cs.md)
+- AEM Guides On-Premise版本 | [檢視發行說明](./release-info/latest-release-info.md)
+
+[檢視發行藍圖](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![學習與支援](../assets/whats-new-delegate-review.svg)
+
+**學習與支援**
+
+存取實用資源、檔案和支援，以充份運用該平台。
+
+* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支援](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [教學影片](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+[在社群上互動](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
+
 
 ## 其他資源
 
 * [Cloud Service發行說明](./release-info/latest-release-info-cs.md)
 * [On-Premise版本注意事項](./release-info/latest-release-info.md)
-* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hant){target="_blank"}
-* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.zh-Hant){target="_blank"}
-* [支援](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hant){target="_blank"}
-* [教學影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支援](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [教學影片](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
