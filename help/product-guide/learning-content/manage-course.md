@@ -7,19 +7,22 @@ exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: '740'
 ht-degree: 0%
-
 ---
-
 # 管理您的課程
 
 建立課程後，課程會在「課程管理員」面板中開啟。 您可以鎖定課程並在課程層級進行所有必要的變更。 以下各節將說明編輯課程的可用選項。
@@ -50,11 +53,11 @@ ht-degree: 0%
 1. 選取您要建立的課程內容型別。
 1. 在&#x200B;**選取檔案**&#x200B;對話方塊中，導覽至內容位置並選取想要的學習內容。
 
->[!NOTE]
->
-> 當您將HTML主題新增至學習群組地圖時，`format="html"`屬性會自動新增至地圖中的對應`topicref`。 這可確保主題受到正確處理和發佈。
+   >[!NOTE]
+   >
+   > 當您將HTML主題新增至學習群組地圖時，`format="html"`屬性會自動新增至地圖中的對應`topicref`。 這可確保主題受到正確處理和發佈。
 
-![](assets/add-existing-learning-content.png)
+   ![](assets/add-existing-learning-content.png)
 
 1. 選擇&#x200B;**選取**。
 

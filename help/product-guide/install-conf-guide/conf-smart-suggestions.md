@@ -2,13 +2,11 @@
 title: 設定AI助理以提供智慧說明和編寫
 description: 瞭解如何在Experience Manager Guides中設定AI助理
 exl-id: 59da626d-8433-44c6-ba69-654c7796a264
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
-
 ---
-
 # 設定Cloud Service的AI助理
 
 作為管理員，您可以在Experience Manager Guides中設定AI助理功能。 AI小幫手由Adobe IMS驗證型驗證保護。 將您的環境與Adobe的安全權杖型驗證工作流程整合，並開始使用AI助理功能。 下列組態可協助您將&#x200B;**AI組態**&#x200B;索引標籤新增至資料夾設定檔。 新增後，您就可以在Experience Manager Guides中使用AI助理功能。

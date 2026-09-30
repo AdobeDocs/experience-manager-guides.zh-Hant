@@ -7,20 +7,23 @@ role: User
 TQID: https://experienceleague.adobe.com/ujkifru-aKa2oYvrE8EKUEE3Sai8NqQ9lx9BA2ZUw9U
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 1%
-
 ---
-
 # 啟動輸出 {#id214GGF00V5U}
 
 當您建立了大量啟動的地圖集合後，下一步是在發佈執行個體上啟動您的內容。 若要啟用內容，請執行下列步驟：
@@ -62,13 +65,11 @@ ht-degree: 1%
 **發佈**
 
 * 若要啟用選取的地圖的輸出，請選取預先產生的地圖輸出，然後選取&#x200B;**發佈至** > **發佈**。
-
 * 若要啟動所有DITA map及其設定之預設集的輸出，請選取Map （欄）旁的核取方塊，然後選取&#x200B;**發佈至** > **發佈**。
-
 
 >[!NOTE]
 > 
-> 只有在您為地圖產生輸出時，才會啟用地圖輸出的核取方塊。
+>只有在您為地圖產生輸出時，才會啟用地圖輸出的核取方塊。
 
 將地圖輸出排入發佈佇列時，會顯示成功訊息。
 
@@ -84,6 +85,7 @@ ht-degree: 1%
 
 * 若要啟動選取的地圖的輸出，請選取預先產生的地圖輸出，並選取&#x200B;**快速發佈**。
 * 若要啟動所有DITA map及其設定之預設集的輸出，請選取Map （欄）旁的核取方塊，然後選取&#x200B;**快速發佈。**
+
   ![大量集合 — 發佈](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]

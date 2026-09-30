@@ -7,23 +7,29 @@ exl-id: 52bc8f90-e4ae-4e83-bb1c-9d152fa9bb65
 TQID: https://experienceleague.adobe.com/NX3LuUjSmQKtirXc1iaJVZziVIvuDqANXwqPTi-1LIo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+    internal-label: Security
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 3002
+source-wordcount: '3060'
 ht-degree: 0%
-
 ---
-
 # 設定PDF輸出預設集
 
 建立預設集後，請設定PDF預設集設定。 預設集組態選項會整理在「一般」、「中繼資料」、「版面」、「安全性」、「列印」和「進階」標籤下。
@@ -64,20 +70,20 @@ ht-degree: 0%
   [下載](assets/SampleXMP.xmp)
 
   或者，您可以使用Adobe Acrobat產生XMP檔案。
-   1. 在Acrobat中選取&#x200B;**檔案** > **屬性**。
-   1. 在&#x200B;**描述**&#x200B;下，選取&#x200B;**其他中繼資料**。
-   1. 從左側面板中選取&#x200B;**進階**。
-   1. 選取「**儲存**」。
+  1. 在Acrobat中選取&#x200B;**檔案** > **屬性**。
+  1. 在&#x200B;**描述**&#x200B;下，選取&#x200B;**其他中繼資料**。
+  1. 從左側面板中選取&#x200B;**進階**。
+  1. 選取「**儲存**」。
 
   XMP檔案會儲存在裝置上。
 
 * **提供中繼資料名稱和值**
 
-   1. 從下拉式清單中選取以新增名稱，或直接在名稱欄位中輸入以新增自訂中繼資料。
-   1. 輸入中繼資料的值，並選取「+」圖示。
-中繼資料會新增至PDF的中繼資料清單中。
+  1. 從下拉式清單中選取以新增名稱，或直接在名稱欄位中輸入以新增自訂中繼資料。
+  1. 輸入中繼資料的值，並選取「+」圖示。
+     中繼資料會新增至PDF的中繼資料清單中。
 
-您也可以使用變數來定義中繼資料值。 您可以使用為DITA map或bookmap檔案定義的中繼資料作為變數。中繼資料可以在DITA map或bookmap檔案的`/jcr:content/metadata`節點下找到。
+您也可以使用變數來定義中繼資料值。  您可以使用為DITA map或bookmap檔案定義的中繼資料作為變數。 中繼資料可以在DITA map或bookmap檔案的`/jcr:content/metadata`節點下找到。
 使用變數時，會從中繼資料屬性中挑選變數值。
 
 若要使用變數，您必須以`${<variable>}`格式定義它。
@@ -115,10 +121,10 @@ ht-degree: 0%
 設定列印成品設定以指派印表機標籤、選取色彩模式，以及指定與列印PDF輸出相關的屬性。
 
 * **印表機標籤**：當您準備檔案以進行列印生產時，印表機標籤會新增至頁面邊界，以協助在列印期間正確對齊、裁剪及色彩選擇。 透過選取印表機標籤，頁面邊界會延伸以容納在列印期間裁剪的標籤。 您可以選擇在PDF輸出中顯示下列印表機標籤：
-   * **裁剪標籤**：選取選項以在裁剪區域的每個角落處放置標籤，以指示列印後需要裁剪紙張的位置。
-   * **出血標籤**：選取此選項可在出血方塊的每個角落處放置標籤，以指示延伸影像的裁剪區域。
-   * **對齊標籤**：選取此選項可將標籤置於裁切區域之外，以對齊彩色檔案中的不同分色。
-   * **色條**：選取此選項可在剪裁區域外加入色條，以維持色彩一致並調整列印時的油墨密度。
+  * **裁剪標籤**：選取選項以在裁剪區域的每個角落處放置標籤，以指示列印後需要裁剪紙張的位置。
+  * **出血標籤**：選取此選項可在出血方塊的每個角落處放置標籤，以指示延伸影像的裁剪區域。
+  * **對齊標籤**：選取此選項可將標籤置於裁切區域之外，以對齊彩色檔案中的不同分色。
+  * **色條**：選取此選項可在剪裁區域外加入色條，以維持色彩一致並調整列印時的油墨密度。
 
   使用&#x200B;**線條寬度**、**線條色彩**&#x200B;和&#x200B;**出血方塊寬度**&#x200B;選項，設定所選印表機標籤的尺寸。
 

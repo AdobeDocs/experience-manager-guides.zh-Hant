@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -91,9 +91,9 @@ AEM Guides提供一組預先定義或現成可用的應用程式變數。 您可
 
 1. 選取&#x200B;**新增語言變數** <img src="./assets/add-language-variable.svg" width="25">以新增語言變數至選取的語言。 將變數新增至一種語言會自動將其新增至所有語言。 您無法建立與現有變數同名的變數。 顯示錯誤。
 
->[!NOTE]
->
-> 如果您未選取&#x200B;**新增語言變數**，則不會建立變數並將其新增至清單
+   >[!NOTE]
+   >
+   > 如果您未選取&#x200B;**新增語言變數**，則不會建立變數並將其新增至清單
 
 ## 匯出和匯入語言變數
 
