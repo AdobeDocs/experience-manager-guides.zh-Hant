@@ -1,20 +1,18 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides 5.2.0版的升級指示
 description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides 5.2.0版。
-source-git-commit: 575e8452f02626dab3d2bc6a040767a592588205
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 4%
-
+source-wordcount: '872'
+ht-degree: 3%
 ---
-
 # 5.2.0版（2026年5月）的升級指示
 
 本文介紹Adobe Experience Manager Guides 5.2.0版的升級指示和相容性矩陣。
 
-如需新功能和增強功能的詳細資訊，請檢視[&#x200B; 5.2.0版的新功能](../release-info/whats-new-5-2-0.md)。
+如需新功能和增強功能的詳細資訊，請檢視[ 5.2.0版的新功能](../release-info/whats-new-5-2-0.md)。
 
-如需此版本中已修正的問題清單，請檢視5.2.0版本[&#128279;](../release-info/fixed-issues-5-2-0.md)中的已修正問題。
+如需此版本中已修正的問題清單，請檢視5.2.0版本](../release-info/fixed-issues-5-2-0.md)中的[已修正問題。
 
 ## 相容性矩陣
 
@@ -37,7 +35,7 @@ Use the following resources when developing custom Java plugins or integrations 
 |---|---|---|----|
 | 5.2.0 (UUID) | 5.2.1 | [AEM Guides SDK API 5.2.1 ](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overviewhttps://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overview) | [Javadoc 5.2.1](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/5.2.1/index.html) |
 
-For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/api-reference/introduction).
+For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
  -->
 
@@ -64,7 +62,7 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 
 | AEM Guides | AEM 版本 | 元件版本 | 網站版本 |
 |---|---|---| ---|
-| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | 不適用 |
+| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
 | 5.2.0 UUID | 6.5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 ## 先決條件
@@ -83,7 +81,7 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 >
 > - **對於AEM 6.5 LTS**：只有Experience Manager Guides 6.5 LTS Service Pack 2才支援AEM 5.2.0。
 > - **適用於AEM 6.5**： Experience Manager Guides 5.2.0僅支援AEM 6.5 Service Pack 24、23和22。
-> - 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.2.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> - 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.2.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 在繼續升級至5.2.0版的Experience Manager Guides之前，您必須先考量下列幾點：
 
@@ -116,7 +114,7 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 | 忽略將版本標示為已變更的中繼資料屬性 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | 忽略已變更版本的中繼資料屬性 | `xmleditor.dirtychecker.ignoremetadata` |
 | Source檢視中的尋找和取代功能 | `com.adobe.fmdita.config.ConfigManager` | 啟用標籤尋找和取代 | `enable.markup.findreplace` |
 | 啟用或停用略過舊基準的對等連結 | `com.adobe.fmdita.config.ConfigManager` | 略過基準V1的對等連結 | `guides.baseline.v1.skip.peer.links` |
-| 啟用或停用翻譯工作流程中目標復本與來源內容的初始化。這僅適用於停用舊版翻譯工作流程時。  | `com.adobe.fmdita.config.ConfigManager` | 使用來源內容初始化目的地語言副本 | `translation.workflow.propagate.source.content` |
+| 啟用或停用翻譯工作流程中目標復本與來源內容的初始化。 這僅適用於停用舊版翻譯工作流程時。  | `com.adobe.fmdita.config.ConfigManager` | 使用來源內容初始化目的地語言副本 | `translation.workflow.propagate.source.content` |
 | 引用存放區清理 | `com.adobe.fmdita.config.ConfigManager` | 已啟用指南樹狀結構刪除 | `btree.deletion.enabled` |
 | DITA資產復寫 | `com.adobe.fmdita.config.ConfigManager` | 復寫DITA資產 | `publish.replicate` |
 | 資產處理 | `com.adobe.fmdita.config.ConfigManager` | 啟用Guides資產處理排程工作 | `enable.asset.processing.scheduler` |
