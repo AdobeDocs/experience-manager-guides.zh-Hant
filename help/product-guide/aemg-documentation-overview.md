@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 82b02a0c27b9caeedc59f6508c5a36821ab1666e
+source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '459'
 ht-degree: 6%
 ---
 # Experience Manager Guides檔案
@@ -227,9 +227,13 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 **AEM Guides的新功能**
 
-瞭解Experience Manager Guides最新版本的新增功能。
+探索最新版Experience Manager Guides中推出的全新及增強功能。
 
-[了解更多](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+- AI Assistant中的AI支援智慧標籤
+- 在稽核任務中將主題標示為已完成
+- 學習內容增強功能
+
+[全部探索](../../help/product-guide/release-info/whats-new-2026-09-0.md)
 
 </td>
 <td>
@@ -240,8 +244,8 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 探索雲端和內部部署的最新發行說明和產品更新。
 
-- AEM Guides Cloud發行版本 | [檢視發行說明](./release-info/latest-release-info-cs.md)
-- AEM Guides On-Premise版本 | [檢視發行說明](./release-info/latest-release-info.md)
+- Cloud版本 | [檢視發行說明](./release-info/latest-release-info-cs.md)
+- 內部部署版本 | [檢視發行說明](./release-info/latest-release-info.md)
 
 [檢視發行藍圖](./release-info/aem-guides-releases-roadmap.md)
 
@@ -254,11 +258,11 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 存取實用資源、檔案和支援，以充份運用該平台。
 
-* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.zh-Hant){target="_blank"}
-* [支援](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hant){target="_blank"}
-* [教學影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支援](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [教學影片](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[在社群上互動](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hant)
+[在社群上互動](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
 
 </td>
 </tr>
@@ -273,7 +277,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 * [Cloud Service發行說明](./release-info/latest-release-info-cs.md)
 * [On-Premise版本注意事項](./release-info/latest-release-info.md)
-* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hant){target="_blank"}
-* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.zh-Hant){target="_blank"}
-* [支援](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hant){target="_blank"}
-* [教學影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支援](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [教學影片](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
