@@ -4,24 +4,32 @@ description: 瞭解AEM Guides中條件預設集的使用。 瞭解如何在AEM�
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU
+TQID: 'https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 2%
-
 ---
-
 # 使用條件預設集 {#id1825FL004PN}
 
 您可以在DITA主題中定義屬性，並使用條件預設集來指定在最終輸出中屬性會發生什麼情況。 例如，您可以在內容中新增屬性為1.0版和2.0版，並使用條件預設集來包含1.0版的1.0版並排除2.0版。 同樣地，您可以將屬性新增為OS Windows和OS Linux至您的內容，然後根據作業系統包含或排除最終輸出的相關內容。
@@ -70,7 +78,7 @@ Experience Manager Guides可讓您從Map主控台建立和管理條件預設集�
 1. （選擇性）必要時，您可以覆寫套用至屬性的動作。
 
    執行下列任一項作業：
-針對任何屬性，從「動作」下拉式清單或工具列選取下列動作之一。
+   針對任何屬性，從「動作」下拉式清單或工具列選取下列動作之一。
 
    - 包含
    - 排除
@@ -134,7 +142,7 @@ Experience Manager Guides可讓您從Map主控台建立和管理條件預設集�
    - 排除
    - 通過
    - 標幟
-不論屬性是否加入條件預設集，該動作都會設定為所有屬性的預設動作。
+     不論屬性是否加入條件預設集，該動作都會設定為所有屬性的預設動作。
 
    例如，您的檔案中有15個條件屬性，而且您已將其中四個包含在條件預設集中。 如果您選取&#x200B;**排除**&#x200B;作為預設動作，則會將其套用至所有15個屬性。
 

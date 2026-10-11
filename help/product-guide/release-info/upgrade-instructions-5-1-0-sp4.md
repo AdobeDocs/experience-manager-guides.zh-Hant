@@ -2,7 +2,15 @@
 title: 發行說明 | Adobe Experience Manager Guides 5.1.0 Service Pack 4版本的升級指示
 description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides的5.1.0 Service Pack 4版本。
 exl-id: 4970ee05-2644-43d6-976b-bfaa91b41146
-source-git-commit: d11f910bde58b36a8db27d74be6799eb7891f3b5
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 4%

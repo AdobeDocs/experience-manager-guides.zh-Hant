@@ -5,30 +5,40 @@ exl-id: 4e566c57-a522-4605-bc70-47155f20b429
 feature: Installation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/WDiYcOCdCuaJCrGYCupOS0TEk5TV-1q6Zi5z-S7KWLA
+TQID: 'https://experienceleague.adobe.com/WDiYcOCdCuaJCrGYCupOS0TEk5TV-1q6Zi5z-S7KWLA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 162
+source-wordcount: '162'
 ht-degree: 0%
-
 ---
-
 # 驗證AEM Guides安裝 {#id213BD030FBE}
 
 安裝AEM Guides後，您需要確認安裝是否成功。 執行以下步驟來驗證安裝：
 
 1. 存取Cloud Service的Developer Console。
 
-   如需存取Developer Console的詳細資訊，請參閱AEM檔案中的[Developer Console存取](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=zh-Hant)。
+   如需存取Developer Console的詳細資訊，請參閱AEM檔案中的[Developer Console存取](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html)。
 
 1. 存取AEM中的OSGi套件組合清單。
 
-   如需存取套裝的詳細資訊，請參閱AEM檔案中的[套裝](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=zh-Hant#bundles)。
+   如需存取套裝的詳細資訊，請參閱AEM檔案中的[套裝](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles)。
 
 1. 在套件組合清單中搜尋fmdita並檢查其狀態。
 

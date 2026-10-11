@@ -5,26 +5,39 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM
+TQID: 'https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1099
+source-wordcount: '1170'
 ht-degree: 0%
-
 ---
-
 # PDF範本 {#PDF-template}
 
 使用範本可確保內容版面配置與結構的一致性。 由於範本是預先定義的，您可以避免重新處理每個新專案或更新中出現的格式問題。 範本可讓您設計頁面配置、樣式內容，以及套用各種設定來自訂PDF。
@@ -93,7 +106,7 @@ ht-degree: 0%
 
 ### 刪除
 
-選取「刪除」選項，刪除選取的範本。然後，在確認提示中選取「是」。
+選取「刪除」選項，刪除選取的範本。 然後，在確認提示中選取「是」。
 預設集已從&#x200B;**範本**&#x200B;中移除。
 
 ### 屬性{#properties-option}
@@ -159,15 +172,15 @@ ht-degree: 0%
      除了外觀之外，您還可以定義頁面元素（例如頁首、頁尾和頁面上的內容區域）的排列。 若要進一步瞭解自訂頁面的版面，請參閱[建立及自訂頁面版面](components-pdf-template.md#create-customize-page-layout)。
 
    * 樣式表：「樣式表」區段中的設定可讓您自訂頁面配置元件如目錄、索引、字彙表、引文等的外觀和風格。 此外，您也可以自訂DITA內容的樣式，例如標題、段落、清單等。 若要進一步瞭解如何使用樣式表，請參閱[使用樣式表來自訂PDF](components-pdf-template.md#stylesheet-customization)。
-   * 資源：儲存自訂或設計PDF範本所需的資產檔案。Assets （例如，標誌、自訂字型、背景影像等）會儲存在「資源」中。
-您也可以使用存在於存放庫中任何其他位置的資源。您不需要為每個範本建立重複資源，您可以將資源放在共用資料夾中，並在所有原生PDF範本中使用。
+   * 資源：儲存自訂或設計PDF範本所需的資產檔案。 Assets （例如，標誌、自訂字型、背景影像等）會儲存在「資源」中。
+     您也可以使用存在於存放庫中任何其他位置的資源。 您不需要為每個範本建立重複資源，您可以將資源放在共用資料夾中，並在所有原生PDF範本中使用。
 
      若要進一步瞭解如何利用資源，請參閱[使用資源](components-pdf-template.md#work-with-resources)。
 
    * 設定：設定輸出設定，以使用範本產生PDF。 本節可讓您為PDF中的各種頁面、章節開始頁面、列印標籤、引文等定義範本對應。
 
    您也可以安排其顯示在最終PDF輸出中的順序。
-如需套用設定的詳細資訊，請參閱[進階PDF設定](components-pdf-template.md#advanced-pdf-settings)。
+   如需套用設定的詳細資訊，請參閱[進階PDF設定](components-pdf-template.md#advanced-pdf-settings)。
 
 
 1. 若要自訂範本元件，請連按兩下範本元件或選取其前的>圖示。

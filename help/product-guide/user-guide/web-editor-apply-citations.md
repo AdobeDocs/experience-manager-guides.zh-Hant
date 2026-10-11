@@ -4,24 +4,30 @@ description: 在AEM Guides中新增和管理引文。 瞭解如何套用、匯�
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
+TQID: 'https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1890
+source-wordcount: '1968'
 ht-degree: 0%
-
 ---
-
 # 新增和管理內容中的引文
 
 引文是新增至內容之資訊來源的參考。 使用引文，您可以為來源資訊的作者評分，並幫助讀者追蹤來源資訊。 新增引文可讓您的內容更可靠，並防止剽竊。 它們也可讓您顯示經過充分研究的內容。
@@ -156,7 +162,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 
 **編輯引文**&#x200B;對話方塊開啟。
 
-1. 進行必要的變更。選取&#x200B;**完成**。
+1. 進行必要的變更。 選取「**完成**」。
 所選引文即會編輯。
 
 >[!NOTE]
@@ -197,11 +203,11 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 ### 從主工具列
 
 1. 選取主工具列中的&#x200B;**引文** ![引文圖示](images/citations-icon.svg)圖示。
-1. 在&#x200B;**引文**&#x200B;對話方塊中，選擇引文。您也可以選取多個引文。
+1. 在&#x200B;**引文**&#x200B;對話方塊中，選擇引文。 您也可以選取多個引文。
    ![引文對話方塊](images/citation-dialog-main-toolbar.png){width="300"}
 1. 您可以在&#x200B;**引文**&#x200B;對話方塊的搜尋面板中輸入前幾個字母來篩選引文。
 
-1. 選取&#x200B;**完成**。
+1. 選取「**完成**」。
 所選引文會新增至主題中的游標位置。
 
 
@@ -248,7 +254,7 @@ Experience Manager Guides支援多種型別的引用，例如現代語言協會(
 
 在主題中，將游標放在引文的結尾。
 
-1. 在主題中的引文上按一下滑鼠右鍵，然後從捷徑功能表中選取&#x200B;**修改引文**。「引文」對話方塊開啟。
+1. 在主題中的引文上按一下滑鼠右鍵，然後從捷徑功能表中選取&#x200B;**修改引文**。 「引文」對話方塊開啟。
    ![引文的捷徑功能表](./images/modify-citation.png)
 
 1. 您可以選擇要插入檔案的引文。

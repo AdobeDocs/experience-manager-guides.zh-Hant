@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 376aea7a-7850-44d4-a620-6b1a798a0801
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1053'
 ht-degree: 0%
-
 ---
-
 # AEM Sites的元件對應
 
 本文會介紹AEM網站的元件對應（使用複合元件對應）的各個層面。
@@ -192,9 +207,9 @@ ht-degree: 0%
 ### 資料夾結構和金鑰檔案（在此存放庫中）
 
 - 元件HTL和clientlibs： `ui.apps/src/main/content/jcr_root/apps/guides-components/components/table/`
-   - `table.html` （HTL轉譯器）
-   - `_cq_editConfig.xml` （重新整理接聽程式）
-   - 具有`css.txt`、`js.txt`、`css/table.css`、`js/table.js`的`clientlibs/`
+  - `table.html` （HTL轉譯器）
+  - `_cq_editConfig.xml` （重新整理接聽程式）
+  - 具有`css.txt`、`js.txt`、`css/table.css`、`js/table.js`的`clientlibs/`
 - Sling模型： `core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - 影像演算服務： `core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 
@@ -316,7 +331,7 @@ clientlibs/js.txt
 - **啟用回應式**： `./enableResponsive` （核取方塊）；切換回應式包裝函式類別。
 - **資料表樣式**： `./tableStyle` （選取）；套用樣式修飾元類別。
 
-這些將1:1對應到Sling模型的屬性和控制項轉譯。
+這些將1:1對應至Sling模型的屬性和控制項轉譯。
 
 **允許範本上的元件**
 

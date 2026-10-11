@@ -1,13 +1,19 @@
 ---
 title: Adobe Experience Manager Guides 3.8和3.8.5的發行說明
 description: Adobe Experience Manager Guides 3.8和3.8.5版本中的熱門新功能和增強功能（先前稱為XML Documentation解決方案）。
-source-git-commit: ff3d35832b80f6221f1261498934ab74261b282b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
-
 ---
-
 
 # 發行說明 |Adobe Experience Manager Guides 3.8
 
@@ -66,8 +72,8 @@ ht-degree: 0%
   ![版本提示](assets/old-version-icon.avif)
 
 - 此發行版本已引入新的版本記錄功能。 使用「版本記錄」功能可以：
-   - 檢視目前作用中主題所有版本的清單，以及為每個版本新增的標籤。
-   - 回覆成主題先前的版本。
+  - 檢視目前作用中主題所有版本的清單，以及為每個版本新增的標籤。
+  - 回覆成主題先前的版本。
 
   ![版本記錄](assets/version-history.avif)
 
@@ -98,9 +104,9 @@ ht-degree: 0%
 #### 發佈
 
 - **允許設定已產生網站頁面的清理規則**：身為管理員，您可以為已產生AEM網站或DITA-OT輸出的檔案名稱定義清理規則。 每當您使用DITA-OT產生AEM Site輸出或輸出時，都可以設定以下規則來清理輸出產生的URL或檔案名稱：
-   - 將所有字元轉換為小寫。
-   - 以分隔符號取代特殊字元。
-   - 將檔案名稱長度限製為預先定義的字元數。
+  - 將所有字元轉換為小寫。
+  - 以分隔符號取代特殊字元。
+  - 將檔案名稱長度限製為預先定義的字元數。
 
 - 使用大量啟動控制面板，輕鬆地將輸出從製作執行個體推送到發佈執行個體。 您可以處理單一地圖或地圖集合，並選擇您要用於發佈的輸出預設集。
 

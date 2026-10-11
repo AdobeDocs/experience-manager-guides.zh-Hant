@@ -4,28 +4,39 @@ description: 使用複合元件對應和舊版元件對應，在「對應」主�
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-TQID: https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8
+TQID: 'https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3727
+source-wordcount: '3873'
 ht-degree: 0%
-
 ---
-
 # 地圖主控台中的AEM Sites預設集
 
 您可以從「地圖」控制檯建立AEM Sites預設集，並將其設定為產生AEM Sites輸出。 建立AEM Sites輸出的方式有兩種：
@@ -241,10 +252,10 @@ Experience Manager Guides可讓您使用`peer @scope`建立主題參考。 然�
    ![交叉對應參考](images/aem-sites-preset-cross-map-references.png)
 
 1. 如果要使用地圖中每個相依檔案最近發佈的輸出，請選取&#x200B;**對所有相依主題使用最近產生的**&#x200B;發佈內容。
-在發佈包含連結主題的地圖之前，您應該發佈選取為父對映的地圖。如果含有已連結主題的地圖未發佈，則連結會在AEM Sites輸出中顯示為普通文字，而非超連結。
-您應該為連結的主題選取相同型別的AEM Sites預設集。例如，如果目前的AEM Sites預設集使用舊版元件對應，則選取連結主題的類似AEM Sites預設集。
+在發佈包含連結主題的地圖之前，您應該發佈選取為父對映的地圖。 如果含有已連結主題的地圖未發佈，則連結會在AEM Sites輸出中顯示為普通文字，而非超連結。
+您應該為連結的主題選取相同型別的AEM Sites預設集。 例如，如果目前的AEM Sites預設集使用舊版元件對應，則選取連結主題的類似AEM Sites預設集。
 1. 在「父對映」下拉式清單中，選取要與其輸出連結目前對映輸出的對映檔案。
-選取對應檔案會在「父系對應UUID」欄中顯示對應的UUID。與所選地圖相關的輸出預設集會列在「父地圖」的「預設集」清單中。例如，地圖A中的主題1包含對主題2的參照。主題2可以出現在單一或多個地圖中。您可以選取上層地圖和特定的預設集，或每個連結最近發佈的輸出。
+選取對應檔案會在「父系對應UUID」欄中顯示對應的UUID。 與所選地圖相關的輸出預設集會列在「父地圖」的「預設集」清單中。 例如，地圖A中的主題1包含對主題2的參照。 主題2可以出現在單一或多個地圖中。 您可以選取上層地圖和特定的預設集，或每個連結最近發佈的輸出。
 
 1. 如果同一主題在檔案中被參照多次，則您可以為每個執行個體新增不同的發佈內容。 這可提供更大的彈性並控制其內容。 例如，主題3同時存在於對映B和對映C中。主題1包含兩個對主題3的參照。 您可以選擇對應B作為第一個連結的父對應，選擇對應C作為第二個連結的父對應。
 

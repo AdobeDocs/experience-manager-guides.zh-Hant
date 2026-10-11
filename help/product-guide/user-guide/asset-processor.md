@@ -5,24 +5,33 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-TQID: https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE
+TQID: 'https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 # 處理資產
 
 在發佈等資料密集的工作流程中，有效率的資產管理對於維持效能和可靠性至關重要。 資產處理工作流程的設計目的，是為了管理需要密集資料作業的使用者特定資產。 它主要處理兩種情況：因錯誤導致初始處理失敗，或因未起始任何資產處理觸發程式而使檔案保持未處理狀態。 透過啟用目標明確的資料夾層級處理，使用者可以隔離並僅處理必要的資產，從而避免不必要的計算開銷。 此選擇性方法可大幅提升效能，縮短發布和產生報表等重要作業所需的時間。 整體而言，它有助於在處理複雜資料任務時提高效率和速度。
@@ -73,8 +82,8 @@ ht-degree: 0%
    1. **功能型別**：從下拉式清單中選取&#x200B;**資產處理**。
    1. **選取資料夾和檔案**：瀏覽並選擇一或多個要處理的資料夾和檔案。
    1. **選取要忽略的資料夾**：選擇性地選取所選父資料夾中的子資料夾，以排除處理。
-   1. **資產型別**：從下拉式清單中，選取要處理的特定資產型別（例如DITA Topic、DITA Map、Markdown、HTML/CSS、DITAVAL或其他檔案）。只有選取的資產型別會從您先前指定的資料夾中處理。
-範例：選取DITA主題只會處理選取資料夾內的DITA主題，並啟用目標篩選。
+   1. **資產型別**：從下拉式清單中，選取要處理的特定資產型別（例如DITA Topic、DITA Map、Markdown、HTML/CSS、DITAVAL或其他檔案）。 只有選取的資產型別會從您先前指定的資料夾中處理。
+      範例：選取DITA主題只會處理選取資料夾內的DITA主題，並啟用目標篩選。
    1. **建立於**&#x200B;之後/之前：套用日期篩選器以處理在指定時間範圍內建立的資產。
 
    >[!NOTE]

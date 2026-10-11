@@ -5,29 +5,35 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/tigE3HdrbQXr37-Xl7ueyoWlnycTKFz02SP-koF5XAY
+TQID: 'https://experienceleague.adobe.com/tigE3HdrbQXr37-Xl7ueyoWlnycTKFz02SP-koF5XAY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 843
+source-wordcount: '912'
 ht-degree: 0%
-
 ---
-
 # 從使用者介面設定資料來源聯結器
 
 Experience Manager Guides隨附&#x200B;**資料來源**&#x200B;工具，可協助您設定資料來源的現成聯結器。 您可以設定JIRA、SQL (MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce、Elasticsearch和一般REST使用者端聯結器。
 
 
-除了這些現成可用的聯結器外，Experience Manager Guides還提供Salsify、Akeneo和Microsoft Azure DevOps Boards (ADO)資料來源的聯結器。您可以從[Maven中央存放庫](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)下載並安裝這些開放原始碼聯結器。接著，使用者即可設定這些聯結器。
+除了這些現成可用的聯結器外，Experience Manager Guides還提供Salsify、Akeneo和Microsoft Azure DevOps Boards (ADO)資料來源的聯結器。 您可以從[Maven中央存放庫](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)下載並安裝這些開放原始碼聯結器。 接著，使用者即可設定這些聯結器。
 瞭解如何[安裝開放原始碼聯結器](#install-open-source-connector)。
 
 
@@ -137,7 +143,7 @@ Experience Manager Guides隨附&#x200B;**資料來源**&#x200B;工具，可協�
 
 * **重新連線**：重新連線到中斷連線的聯結器。
 
-* **重複**：使用目前的聯結器做為基底來建立新的重複聯結器。根據預設，會以尾碼（如connectorname_1）建立重複的聯結器。例如，sample-elastic-search_1。
+* **重複**：使用目前的聯結器做為基底來建立新的重複聯結器。 根據預設，會以尾碼（如connectorname_1）建立重複的聯結器。 例如，sample-elastic-search_1。
 如果同名的聯結器存在，則會檢視錯誤。
 
 * **刪除**：刪除選取的聯結器。

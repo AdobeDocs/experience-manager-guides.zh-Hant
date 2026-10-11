@@ -2,13 +2,19 @@
 title: 發行說明 | Adobe Experience Manager Guides 2026.05.0版的新增功能
 description: 瞭解2026.05.0版Adobe Experience Manager Guides中的新功能和增強功能
 role: Leader
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
-
 ---
-
 # 2026.05.0版（2026年5月）的新增功能
 
 本文介紹2026.05.0版Adobe Experience Manager Guides as a Cloud Service所推出的新功能和增強功能。
@@ -46,10 +52,10 @@ Editor 2.0 （亦稱為New Editor）提供簡化的撰寫功能，讓您透過�
 
 - **整合的使用者層級編輯器設定**：新的集中式設定面板，可讓作者更好地控制編輯器行為，讓使用者更輕鬆地從單一位置管理偏好設定。 設定選項包括啟用/停用的功能：
 
-   - 在作者模式中不間斷的空格
-   - 標籤可見度設定有屬性或沒有屬性
-   - 作者模式中的XML註解
-   - 在編輯器中插入元素的快速插入功能表
+  - 在作者模式中不間斷的空格
+  - 標籤可見度設定有屬性或沒有屬性
+  - 作者模式中的XML註解
+  - 在編輯器中插入元素的快速插入功能表
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -82,9 +88,9 @@ Editor 2.0 （亦稱為New Editor）提供簡化的撰寫功能，讓您透過�
 
 - **改善表格製作**：透過更直覺且有效率的互動來建立和管理表格，強化整體的表格製作體驗。
 
-   - 流暢且直覺的互動：輕鬆插入列和欄，並支援拖放功能，可重新排序列和欄。
-   - 內容工具列：直接在表格中存取表格專用動作，例如格式設定、對齊、合併和其他額外動作。
-   - 設定表格：在單一動作中新增多個列或欄，減少重複步驟並提高效率。
+  - 流暢且直覺的互動：輕鬆插入列和欄，並支援拖放功能，可重新排序列和欄。
+  - 內容工具列：直接在表格中存取表格專用動作，例如格式設定、對齊、合併和其他額外動作。
+  - 設定表格：在單一動作中新增多個列或欄，減少重複步驟並提高效率。
 
   ![](assets/config-table.png){width="650"}
 

@@ -4,36 +4,53 @@ description: 瞭解Experience Manager Guides編輯器介面中可用的各種設
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-TQID: https://experienceleague.adobe.com/v6e1b8NAZuEpNNuV4h-xDpsCbFpt7RNplwar-z4L4zY
+TQID: 'https://experienceleague.adobe.com/v6e1b8NAZuEpNNuV4h-xDpsCbFpt7RNplwar-z4L4zY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2431
+source-wordcount: '2470'
 ht-degree: 0%
-
 ---
-
 # Workspace設定
 
 編輯器[索引標籤列](../user-guide/web-editor-tab-bar.md)中的&#x200B;**Workspace設定**&#x200B;選項僅供管理員和資料夾設定檔管理員使用，可設定下列設定：
@@ -70,9 +87,9 @@ ht-degree: 0%
 
   從&#x200B;**編寫快速動作**&#x200B;功能表，您可以：
 
-   - 使用切換可啟用或停用作者在使用AI助理時可存取的特定選項。
+  - 使用切換可啟用或停用作者在使用AI助理時可存取的特定選項。
 
-   - 變更選項的顯示順序，視需要拖放選項。
+  - 變更選項的顯示順序，視需要拖放選項。
 
   ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
@@ -80,7 +97,7 @@ ht-degree: 0%
 
 - **編寫**
 
-   - **啟用「全部取代」**：選取此項以檢視「**尋找和取代**」面板中的「**全部取代**」圖示。
+  - **啟用「全部取代」**：選取此項以檢視「**尋找和取代**」面板中的「**全部取代**」圖示。
 
 - **引文**
 
@@ -88,15 +105,15 @@ ht-degree: 0%
 
 - **狀況**
 
-   - **在作者檢視中反白條件文字**：選取此選項以在作者檢視中反白條件文字。 條件內容會使用為條件定義的顏色反白顯示。
+  - **在作者檢視中反白條件文字**：選取此選項以在作者檢視中反白條件文字。 條件內容會使用為條件定義的顏色反白顯示。
 
-   - **使用條件屬性進行驗證**：選取此選項可允許驗證為屬性定義的值。 這可防止您新增任何不正確的值。
+  - **使用條件屬性進行驗證**：選取此選項可允許驗證為屬性定義的值。 這可防止您新增任何不正確的值。
 
-   - **在主旨配置面板中顯示具有標題的金鑰**：選取此專案可顯示主旨配置中的金鑰與標題。 如果您未選取此選項，則只會顯示標題。 例如，這裡的索引鍵「os」、「audience」和「other」也會與標題一起顯示。
+  - **在主旨配置面板中顯示具有標題的金鑰**：選取此專案可顯示主旨配置中的金鑰與標題。 如果您未選取此選項，則只會顯示標題。 例如，這裡的索引鍵「os」、「audience」和「other」也會與標題一起顯示。
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550"}
+    ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
-   - **在[條件]面板中顯示主旨配置**：選取此專案，在條件面板中檢視主旨配置。 如果取消選取此專案，定義的條件會顯示在「條件」面板中。
+  - **在[條件]面板中顯示主旨配置**：選取此專案，在條件面板中檢視主旨配置。 如果取消選取此專案，定義的條件會顯示在「條件」面板中。
 
 - **拼字檢查**
 有兩個選項 — **AEM拼字檢查**&#x200B;和&#x200B;**瀏覽器拼字檢查**。 依預設，編輯器會使用瀏覽器拼字檢查功能，其中拼字檢查是使用瀏覽器的內建字典執行。 您可以切換至AEM拼字檢查，以使用Adobe Experience Manager的字典，也可以自訂字典以新增自訂字詞清單。 如需自訂AEM字典的詳細資訊，請檢視安裝與設定AEM as a Cloud Service中的[自訂Adobe Experience Manager Guides的預設字典](../cs-install-guide/customize-aem-custom-dictionary.md)區段。
@@ -107,9 +124,9 @@ ht-degree: 0%
 
   下列功能/選項只有在啟用「學習內容」設定時才可供使用：
 
-   - **課程製作**：啟用從編輯器和首頁建立和管理課程的選項。
-   - **SCORM範本**：啟用在編輯器中的&#x200B;*輸出範本*&#x200B;下建立SCORM範本的選項。
-   - **內容範本和輸出預設集**：啟用Workspace設定對話方塊中的內容範本和輸出預設集組態選項。
+  - **課程製作**：啟用從編輯器和首頁建立和管理課程的選項。
+  - **SCORM範本**：啟用在編輯器中的&#x200B;*輸出範本*&#x200B;下建立SCORM範本的選項。
+  - **內容範本和輸出預設集**：啟用Workspace設定對話方塊中的內容範本和輸出預設集組態選項。
 
 學習內容停用時，上述所有選項在Experience Manager Guides介面中都將無法使用。
 
@@ -117,8 +134,8 @@ ht-degree: 0%
 
 - **HTML編輯器**：針對學習內容，此設定可讓您設定用於HTML式編寫的編輯器。 此設定中的主要組態選項如下：
 
-   - **隱藏內嵌樣式**：啟用此選項可防止作者將內嵌格式套用至課程內容。 啟用時，編輯器的右側面板中出現的所有內嵌樣式選項（例如「字型」、「邊框」、「版面」、「背景」和「欄」）對「作者」而言仍為隱藏狀態。 不過，作者仍可使用&#x200B;**樣式**&#x200B;面板中可用的全域類別型樣式選項。 這有助於維持與貴組織風格指引的一致性。
-   - **隱藏作者的Source檢視**：啟用此選項以限制對HTML原始碼的存取。 如果您想要簡化編輯體驗，或避免基礎程式碼意外變更，這個功能會很好用。
+  - **隱藏內嵌樣式**：啟用此選項可防止作者將內嵌格式套用至課程內容。 啟用時，編輯器的右側面板中出現的所有內嵌樣式選項（例如「字型」、「邊框」、「版面」、「背景」和「欄」）對「作者」而言仍為隱藏狀態。 不過，作者仍可使用&#x200B;**樣式**&#x200B;面板中可用的全域類別型樣式選項。 這有助於維持與貴組織風格指引的一致性。
+  - **隱藏作者的Source檢視**：啟用此選項以限制對HTML原始碼的存取。 如果您想要簡化編輯體驗，或避免基礎程式碼意外變更，這個功能會很好用。
 
   如需詳細資訊，請檢視[建立和自訂學習內容](../learning-content/lc-overview.md)。
 
@@ -179,24 +196,24 @@ ht-degree: 0%
 
 - 設定連線應用程式時，請確定下列事項：
 
-   - 指定回呼。
+  - 指定回呼。
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - 選取下列OAuth範圍：
-      - 完整存取權（完整）
-      - 選取「透過API管理使用者資料(API)」
+  - 選取下列OAuth範圍：
+    - 完整存取權（完整）
+    - 選取「透過API管理使用者資料(API)」
 
-     設定應用程式後，Salesforce會提供&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 這些可用來建立Salesforce設定檔。
+    設定應用程式後，Salesforce會提供&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 這些可用來建立Salesforce設定檔。
 
 
-   - 若要建立Salesforce設定檔，請從&#x200B;**伺服器型別**&#x200B;下拉式清單中選取&#x200B;**Salesforce**&#x200B;知識庫。 輸入設定檔名稱。 在&#x200B;**網站URL**&#x200B;中，輸入您要用來發佈輸出的消費者網站，然後新增Salesforce消費者網站提供的&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 然後，**驗證**&#x200B;並&#x200B;**儲存**&#x200B;新建立的設定檔。
+  - 若要建立Salesforce設定檔，請從&#x200B;**伺服器型別**&#x200B;下拉式清單中選取&#x200B;**Salesforce**&#x200B;知識庫。 輸入設定檔名稱。 在&#x200B;**網站URL**&#x200B;中，輸入您要用來發佈輸出的消費者網站，然後新增Salesforce消費者網站提供的&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 然後，**驗證**&#x200B;並&#x200B;**儲存**&#x200B;新建立的設定檔。
 
-     ![工作區設定中的salesforce發佈設定檔](../user-guide/images/salesforce-publish-profile.png){width="550"}
+    ![工作區設定中的salesforce發佈設定檔](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >若要在Experience Manager Guides中設定Salesforce的Proxy，請使用AEM中的Apache HTTP元件Proxy設定。 瞭解如何[設定AEM連結檢查器的Proxy](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)。
+    >[!NOTE]
+    >
+    >若要在Experience Manager Guides中設定Salesforce的Proxy，請使用AEM中的Apache HTTP元件Proxy設定。 瞭解如何[設定AEM連結檢查器的Proxy](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)。
 
 
 **建立ServiceNow設定檔**
@@ -262,24 +279,24 @@ ht-degree: 0%
 
   執行以下步驟來建立新的語言群組：
 
-   1. 選取「**新增**」。
-   1. 輸入語言群組名稱。 每種語言都應該有唯一的名稱。 如果名稱欄位空白或名稱不是唯一的，您可以檢視錯誤。
-   1. 從下拉式清單中選取語言。 您可以選取多種語言。
+  1. 選取「**新增**」。
+  1. 輸入語言群組名稱。 每種語言都應該有唯一的名稱。 如果名稱欄位空白或名稱不是唯一的，您可以檢視錯誤。
+  1. 從下拉式清單中選取語言。 您可以選取多種語言。
 
-      輸入語言的前幾個字元，或輸入語言代碼以篩選所需的語言。 例如，輸入&#39;en&#39;以篩選名稱或程式碼開頭包含&#39;en&#39;的所有語言。
+     輸入語言的前幾個字元，或輸入語言代碼以篩選所需的語言。 例如，輸入&#39;en&#39;以篩選名稱或程式碼開頭包含&#39;en&#39;的所有語言。
 
-   1. 選取「完成」圖示，將選取的語言新增至群組。 隨即顯示語言。 新增三種或更多語言時，會顯示&#x200B;**顯示更多**&#x200B;選項。 您可以選取&#x200B;**顯示更多**&#x200B;來檢視群組中存在的所有語言。
+  1. 選取「完成」圖示，將選取的語言新增至群組。 隨即顯示語言。 新增三種或更多語言時，會顯示&#x200B;**顯示更多**&#x200B;選項。 您可以選取&#x200B;**顯示更多**&#x200B;來檢視群組中存在的所有語言。
 
-      >[!TIP]
-      >
-      > 將&#x200B;**顯示更多**&#x200B;切換為&#x200B;**顯示更少**&#x200B;並只檢視幾種語言。
+     >[!TIP]
+     >
+     > 將&#x200B;**顯示更多**&#x200B;切換為&#x200B;**顯示更少**&#x200B;並只檢視幾種語言。
 
-   1. 將滑鼠停留在群組中的語言上以編輯![編輯圖示](../user-guide/images/edit_pencil_icon.svg)或刪除![刪除](../user-guide/images/Delete_icon.svg)語言群組。
-   1. 儲存&#x200B;**設定**。
+  1. 將滑鼠停留在群組中的語言上以編輯![編輯圖示](../user-guide/images/edit_pencil_icon.svg)或刪除![刪除](../user-guide/images/Delete_icon.svg)語言群組。
+  1. 儲存&#x200B;**設定**。
 
-      >[!NOTE]
-      >
-      >身為使用者，您可以檢視設定至資料夾設定檔的語言群組。
+     >[!NOTE]
+     >
+     >身為使用者，您可以檢視設定至資料夾設定檔的語言群組。
 
 - **將來源版本標籤傳播到目標版本**：選取此選項可將來源檔案版本的標籤傳遞到轉譯的檔案。 預設為停用。
 - **翻譯專案完成後的清理**：選取此選項可設定在翻譯後自動停用或刪除翻譯專案。 依預設，會選取&#x200B;**無**，這樣專案在翻譯後就會存在。
@@ -303,5 +320,5 @@ ht-degree: 0%
 
 
 
-您也可以定義這些中繼資料標籤的顯示順序。若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
+您也可以定義這些中繼資料標籤的顯示順序。 若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
 中繼資料標籤會以相同的順序顯示在編輯器的&#x200B;**版本記錄**&#x200B;對話方塊中。

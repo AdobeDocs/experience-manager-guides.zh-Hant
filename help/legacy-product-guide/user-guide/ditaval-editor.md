@@ -5,24 +5,30 @@ feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-TQID: https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c
+TQID: 'https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: ca593223-d11a-4a52-b369-a8e081e71737
+    internal-label: Desktop tools
+  - id: ec789d92-5632-44b6-abc6-bc29bbd44cb6
+    internal-label: DITAVAL editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '792'
 ht-degree: 0%
-
 ---
-
 # DITAVAL編輯器 {#ditaval-editor}
 
 DITAVAL檔案用於產生條件輸出。 在單一主題中，您可以使用元素屬性來新增條件，以條件化內容。 然後，您會建立DITAVAL檔案，在其中指定應擷取以產生內容的條件，以及應從最終輸出中排除哪些條件。
@@ -63,13 +69,13 @@ AEM Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 D
    DITAVAL編輯器可讓您執行下列工作：
 
    A：切換左側面板
-切換左側面板檢視。 如果您已透過DITA map開啟DITAVAL檔案，則地圖和存放庫會顯示在此面板中。 如需有關透過DITA map開啟檔案的詳細資訊，請參閱[透過DITA map編輯主題](map-editor-advanced-map-editor.md#id17ACJ0F0FHS)。
+   切換左側面板檢視。 如果您已透過DITA map開啟DITAVAL檔案，則地圖和存放庫會顯示在此面板中。 如需有關透過DITA map開啟檔案的詳細資訊，請參閱[透過DITA map編輯主題](map-editor-advanced-map-editor.md#id17ACJ0F0FHS)。
 
    B：儲存
-儲存您在檔案中所做的變更。 所有變更都會儲存在檔案的目前版本中。
+   儲存您在檔案中所做的變更。 所有變更都會儲存在檔案的目前版本中。
 
    C：新增屬性
-在您的DITAVAL檔案中新增單一屬性。
+   在您的DITAVAL檔案中新增單一屬性。
 
    ![](images/ditaval-editor-props.png)
 
@@ -78,7 +84,7 @@ AEM Guides可讓您使用DITAVAL編輯器輕鬆建立及編輯DITAVAL檔案。 D
    第二個下拉式清單會顯示為選取的屬性設定的值。 然後，下一個下拉式清單會顯示您可在選取的屬性上設定的動作。 動作下拉式清單中允許的值為 — `include`、`exclude`、`passthrough`和`flag`。 如需這些值的詳細資訊，請參閱OASIS DITA檔案中的[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)元素定義
 
    D：新增所有屬性
-如果您要按一下即可新增系統中定義的所有條件屬性或屬性，請使用「新增所有屬性」功能。
+   如果您要按一下即可新增系統中定義的所有條件屬性或屬性，請使用「新增所有屬性」功能。
 
    >[!NOTE]
    >

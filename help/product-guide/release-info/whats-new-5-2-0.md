@@ -2,13 +2,19 @@
 title: 發行說明 | Adobe Experience Manager Guides 5.2.0版的新增功能
 description: 瞭解Adobe Experience Manager Guides 5.2.0版中的新功能和增強功能
 role: Leader
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '4043'
+source-wordcount: '4152'
 ht-degree: 0%
-
 ---
-
 # 5.2.0版的新增功能（2026年5月）
 
 本文介紹5.2.0版Adobe Experience Manager Guides as a Cloud Service所推出的新功能和增強功能。
@@ -417,7 +423,7 @@ Experience Manager Guides現在支援AEM Sites輸出中的元素層級元件對�
 
 - 我們引進了新的API來建立新的翻譯專案並追蹤其狀態。 這些API有助於自動化翻譯流程，減少手動工作並提高效率。 如需詳細資訊，請檢視[建立翻譯專案](../api-reference/create-translation-project.md)。
 - 增強資產處理API，並改善檔案和資料夾的篩選功能。 如需詳細資訊，請檢視[處理資產](../api-reference/bulk-assets-processing.md)。
-- 新API可用於追蹤個別資產和資料夾的後處理狀態。這對使用自動化工作流程的團隊特別有用，因為團隊只需在完全處理內容後發佈內容。API提供確認整備的可靠方式，降低因處理不完整而導致發佈失敗的風險。此外，隨著此API的推出，資產後處理事件不會自動引發。管理員現在可以透過`fmdita config manager`中的設定啟用此事件。
+- 新API可用於追蹤個別資產和資料夾的後處理狀態。 這對使用自動化工作流程的團隊特別有用，因為團隊只需在完全處理內容後發佈內容。 API提供確認整備的可靠方式，降低因處理不完整而導致發佈失敗的風險。 此外，隨著此API的推出，資產後處理事件不會自動引發。 管理員現在可以透過`fmdita config manager`中的設定啟用此事件。
 如需詳細資訊，請檢視[API以追蹤個別資產和資料夾的後處理狀態](../api-reference/track-post-processing-status.md)以及fmdita設定管理員中的[後處理事件處理常式設定](../api-reference/post-process-event.md)
 
 ## 介紹Experience Manager Guides中的產品培訓和學習內容

@@ -5,19 +5,23 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-TQID: https://experienceleague.adobe.com/xRXpKCXKrklbhlb0UEf8gVuKrQOyVcEMgZ20XxrtsUw
+TQID: 'https://experienceleague.adobe.com/xRXpKCXKrklbhlb0UEf8gVuKrQOyVcEMgZ20XxrtsUw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 # 翻譯修改的主題 {#id16A5A0B6072}
 
 如果您對某些主題進行了更改，則需要重新翻譯這些主題。 您可以從DITA map追蹤修改的主題。 從來源語言副本資料夾中，按一下DITA map檔案，然後按一下「翻譯」標籤。 您可以檢視每個主題的狀態，無論是否需要重新翻譯。

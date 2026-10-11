@@ -4,25 +4,33 @@ description: 在2023年7月發行的Adobe Experience Manager Guides as a Cloud S
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/VGWNfTts-QaQHbjvujlY7ooKoD4kk9QaGn2HiuuX9M0
+TQID: 'https://experienceleague.adobe.com/VGWNfTts-QaQHbjvujlY7ooKoD4kk9QaGn2HiuuX9M0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Insights
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 638
+source-wordcount: '710'
 ht-degree: 0%
-
 ---
-
 # 2023年7月發行的Adobe Experience Manager Guides as a Cloud Service的新增功能
 
 本文介紹2023年7月版Adobe Experience Manager Guides （後來稱為&#x200B;*AEM Guides as a Cloud Service*）中的新功能和增強功能。
@@ -77,7 +85,7 @@ ht-degree: 0%
 
 ## 微服務式發佈以產生HTML5和自訂輸出
 
-新的發佈微服務可讓您在AEM Guides as a Cloud Service上同時執行大型發佈工作負載，並利用業界領先的Adobe I/O Runtime無伺服器平台。現在使用微服務，您還可以產生HTML5和自訂輸出。
+新的發佈微服務可讓您在AEM Guides as a Cloud Service上同時執行大型發佈工作負載，並利用業界領先的Adobe I/O Runtime無伺服器平台。 現在使用微服務，您還可以產生HTML5和自訂輸出。
 您可以執行多個發佈請求，並獲得更好的效能來產生這些輸出格式。
 如需詳細資訊，請檢視[設定AEM Guides as a Cloud Service的微服務式發佈](../knowledge-base/publishing/configure-microservices.md)。
 

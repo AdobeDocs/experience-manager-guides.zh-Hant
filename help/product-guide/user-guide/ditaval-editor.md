@@ -4,24 +4,30 @@ description: 瞭解如何使用Adobe Experience Manager Guides中的DIVATAL Edit
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-TQID: https://experienceleague.adobe.com/VkX-SA8LgL-O3Gws5pGoj9RIFgrcn7NADVIDzBagxeg
+TQID: 'https://experienceleague.adobe.com/VkX-SA8LgL-O3Gws5pGoj9RIFgrcn7NADVIDzBagxeg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: ca593223-d11a-4a52-b369-a8e081e71737
+    internal-label: Desktop tools
+  - id: ec789d92-5632-44b6-abc6-bc29bbd44cb6
+    internal-label: DITAVAL editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1537
+source-wordcount: '1556'
 ht-degree: 0%
-
 ---
-
 # DITAVAL編輯器 {#ditaval-editor}
 
 DITAVAL檔案用於產生條件輸出。 在單一主題中，您可以使用元素屬性來新增條件，以條件化內容。 然後，您會建立DITAVAL檔案，在其中指定應擷取以產生內容的條件，以及應從最終輸出中排除哪些條件。
@@ -56,7 +62,7 @@ Adobe Experience Manager Guides可讓您使用DITAVAL編輯器輕鬆建立及編
    ![](images/new-topic-dialog-ditaval.png){width="350"}
 
 
-4. 選取「**建立**」。
+4. 選擇 **建立**。
 
 主題是在指定的路徑中建立。 此外，主題也會在編輯器中開啟以進行編輯。
 

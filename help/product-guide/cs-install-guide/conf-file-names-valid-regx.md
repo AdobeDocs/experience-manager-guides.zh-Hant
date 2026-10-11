@@ -5,23 +5,29 @@ exl-id: 05e9ca3c-28ff-4f82-8061-3d20307890ff
 feature: Filename Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/fFZPer93bwekrR2a9mqGwLNm6CIpvGkuNn48xtExUv4
+TQID: 'https://experienceleague.adobe.com/fFZPer93bwekrR2a9mqGwLNm6CIpvGkuNn48xtExUv4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # 設定Regx以取得有效的檔案名稱字元 {#id214BD0550E8}
 
 從AEM Guides 3.8版開始，管理員可以定義檔案名稱允許的有效特殊字元清單。 在舊版中，使用者可定義包含特殊字元的檔案名稱，例如`@`、`$`、`>`等。 這些特殊字元在從DITA map儀表板開啟主題或按一下TOC中的主題連結時會導致問題，這通常會導致頁面因URL中的特殊字元而無法開啟。

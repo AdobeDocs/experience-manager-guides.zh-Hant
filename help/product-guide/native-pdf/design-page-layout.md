@@ -5,26 +5,36 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs
+TQID: 'https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5060
+source-wordcount: '5089'
 ht-degree: 0%
-
 ---
-
 # 設計頁面配置 {#design-page-layout}
 
 建立PDF檔案時，您會有不同的區段來呈現不同型別的資訊。 例如，PDF檔案會從封面或封面開始，其中包含您公司的標誌、書籍標題或版本資訊。 然後會有章節、附錄或字彙頁面。 PDF檔案中的每個區段看起來都不一樣，而這可以透過建立和自訂頁面版面配置來達成。
@@ -113,9 +123,9 @@ PDF檔案通常包含下列章節：
 * **檢視旋轉** ：指定旋轉後顯示原始頂邊的邊或方向。 您可以選擇「順時針90」、「逆時針90」或「逆時針180度」。 當您想要在輸出中使用直向和橫向配置組合時，這會非常有用。 例如，您可以使用直向作為一般頁面配置，也可以設定橫向頁面配置以呈現寬表格。 在此情況下，您可以設定為以90度順時針顯示表格內容。 如此一來，頁面會以橫向定向，內容會旋轉90度以維持檢視的連續性。 我們將在本節稍後的範例中看到此功能的實現方式。
 
 * **頁碼** :The在PDF中，預設為連續頁碼。 例如，一個100頁的PDF可以有從1到100的連續頁碼。 您也可以從所有不同區段中的特定編號或區段的第一次出現重新開始編號。
-   * **從**&#x200B;重新啟動：指定此版面配置開始編號的頁碼。 例如，您可以將每個章節的頁碼設定為重新啟動。 在這種情況下，您需要在章節頁面配置的第一個頁面配置變體上，將重新啟動從屬性設定為1。 依預設，頁面編號會從上一頁繼續。
+  * **從**&#x200B;重新啟動：指定此版面配置開始編號的頁碼。 例如，您可以將每個章節的頁碼設定為重新啟動。 在這種情況下，您需要在章節頁面配置的第一個頁面配置變體上，將重新啟動從屬性設定為1。 依預設，頁面編號會從上一頁繼續。
 
-   * **僅套用至第一次發生次數**：您也可以僅從特定數字開始處理第一次發生的區段。 例如，您只能從1開始第一個章節，然後繼續其他章節的頁碼。
+  * **僅套用至第一次發生次數**：您也可以僅從特定數字開始處理第一次發生的區段。 例如，您只能從1開始第一個章節，然後繼續其他章節的頁碼。
 
 * **版面配置** ：指定頁面邊界以及上、下、左、右邊框間距。 下圖說明如何在內容周圍呈現邊界、邊框間距和邊框。 請注意，頁面頂端和底部的邊界包含頁首和頁尾。
 
@@ -370,7 +380,7 @@ PDF檔案通常包含下列章節：
 * 地圖示題
 * 頁碼
 * 章節編號
-* 總頁數
+* 頁面總數
 * 日期
 * 時間
 

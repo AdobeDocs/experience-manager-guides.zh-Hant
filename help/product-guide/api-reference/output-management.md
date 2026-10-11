@@ -5,24 +5,31 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-TQID: https://experienceleague.adobe.com/7vLVD99129fILw0haQUZFlUn5y7pqMcTxakT6OeW3Uo
+TQID: 'https://experienceleague.adobe.com/7vLVD99129fILw0haQUZFlUn5y7pqMcTxakT6OeW3Uo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
 subfeature_v2:
   - id: ac94cb1b-ba77-439b-aa1f-2d8a6bec3dc3
+    internal-label: REST API Output Management
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1204
+source-wordcount: '1204'
 ht-degree: 6%
-
 ---
-
 # 用於輸出管理的REST API {#id175UB30E05Z}
 
 下列REST API可用於管理AEM Guides中的輸出。
@@ -160,7 +167,7 @@ http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/publishlistener
 
 ## 產生增量輸出
 
-一種GET方法，可使用一或多個輸出預設集為AEM Site產生增量輸出。
+使用一或多個輸出預設集為AEM網站產生增量輸出的GET方法。
 
 **要求URL**：
 http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/publishlistener

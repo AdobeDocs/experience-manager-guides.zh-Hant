@@ -5,27 +5,35 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-TQID: https://experienceleague.adobe.com/JTfQ4wbTh1b3qZYT6I3L--AW2ZGkWIBKW2YOORW9zHE
+TQID: 'https://experienceleague.adobe.com/JTfQ4wbTh1b3qZYT6I3L--AW2ZGkWIBKW2YOORW9zHE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2408
+source-wordcount: '2412'
 ht-degree: 0%
-
 ---
-
 # 使用來自您的資料來源的資料
 
 **資料來源**&#x200B;是您儲存和管理組織資料的系統。 這些是您的記錄系統，例如JIRA、SQL資料庫、PIM或PLM。 AEM Guides提供連線至您的資料來源的功能，並使用來自這些來源的資料。
@@ -134,7 +142,7 @@ AEM Guides提供與您的資料來源連線的功能。 您可以擷取資料、
 1. 您可以在預覽或DITA來源檢視中檢視資料。
 
    1. 預覽會顯示資料插入內容時的顯示方式。 預覽會以所選範本的格式顯示資料的一小部分。
-例如：
+      例如：
       - 如果您已選取sql表格範本，則可以使用表格格式檢視SQL資料。
       - 如果您已選取Jira排序清單範本，則可檢視Jira問題的排序清單。
 

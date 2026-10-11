@@ -5,19 +5,29 @@ exl-id: 8033935d-2113-4e39-ab74-b7431b89f948
 feature: Conversion Process Event Handler
 role: Developer
 level: Experienced
-TQID: https://experienceleague.adobe.com/VhlUaVSMTZpfyh5MiJI0WHFpc46s41xjLbuLMUnKH58
+TQID: 'https://experienceleague.adobe.com/VhlUaVSMTZpfyh5MiJI0WHFpc46s41xjLbuLMUnKH58'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
+subfeature_v2:
+  - id: bb416568-e09c-46e3-b3e9-fa7154401215
+    internal-label: Conversion process event handler
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: '191'
 ht-degree: 3%
-
 ---
-
 # 轉換程式事件處理常式 {#id175UB30E05Z}
 
 AEM Guides會公開com/adobe/fmdita/conversion/complete事件，以用於完成檔案轉換程式後執行任何後處理操作。 只要將非DITA檔案移轉至DITA檔案格式，就會觸發此事件。 例如，如果您執行Word至DITA轉換或InDesign至DITA轉換程式，則會在轉換程式結束後呼叫此事件。

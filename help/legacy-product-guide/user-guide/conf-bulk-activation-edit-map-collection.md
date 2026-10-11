@@ -5,23 +5,30 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a15ee164-ec60-483e-8760-b1c290625415
-TQID: https://experienceleague.adobe.com/V56tqStd7l6hZ-CPHjEvaCjSSztt9kdv8DSNkYaLomQ
+TQID: 'https://experienceleague.adobe.com/V56tqStd7l6hZ-CPHjEvaCjSSztt9kdv8DSNkYaLomQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 2%
-
+source-wordcount: '255'
+ht-degree: 12%
 ---
-
 # 編輯大量啟用地圖集合 {#id214GI40B0XA}
 
 您可以透過在集合中新增或移除對應檔案或預設集來編輯大量啟動對應集合。 若要編輯大量啟動對映集合，請執行以下步驟：
@@ -39,8 +46,8 @@ ht-degree: 2%
 1. 按一下「**編輯**」。
 
    大量啟動地圖集合頁面隨即出現，您可在其中顯示地圖，以及每個可用地區設定的預先設定預設集。
-您可以檢視各種型別的輸出預設集及其圖示，例如AEM Site、PDF、原生PDF、HTML5、自訂和JSON輸出
-.
+   您可以檢視各種型別的輸出預設集及其圖示，例如AEM Site、PDF、原生PDF、HTML5、自訂和JSON輸出
+   .
 
    >[!NOTE]
    >

@@ -4,22 +4,27 @@ description: 瞭解如何將檔案上傳至AEM存放庫並處理錯誤。 瞭解
 exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
-TQID: https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE
+TQID: 'https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: '695'
 ht-degree: 0%
-
 ---
-
 # 上傳檔案 {#id176FF000JUI}
 
 您很可能擁有要與Adobe Experience Manager Guides搭配使用的現有DITA內容存放庫。 對於這類現有內容，您可以使用下列任何一種方法，將內容大量上傳至Adobe Experience Manager存放庫。
@@ -47,7 +52,7 @@ ht-degree: 0%
 上傳成功完成後，系統會顯示一則確認訊息，指出檔案已成功上傳。 此訊息會確認檔案現在可在Assets存放庫內的所選位置中使用。
 
 
-## Adobe Experience manager 桌面應用程式
+## Adobe Experience Manager 桌面應用程式
 
 如果您是創意專業人員，且想要管理本機案頭上的資產，請使用Adobe Experience Manager案頭應用程式。 您可以使用案頭應用程式開啟及編輯這些資產。 您也可以維護版本，並與其他使用者共用檔案。 如需詳細資訊，請檢視[Adobe Experience Manager案頭應用程式](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=zh-Hant)。
 

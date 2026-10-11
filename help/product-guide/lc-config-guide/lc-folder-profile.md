@@ -5,33 +5,48 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
+TQID: 'https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: b89a36a9-95de-429b-adde-f901256d8f24
+    internal-label: Variables
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1960
+source-wordcount: '1990'
 ht-degree: 0%
-
 ---
-
 # 設定資料夾設定檔
 
 需要資料夾設定檔來分隔企業中不同部門或產品的組態。 針對學習和訓練內容，您可以建立並設定檔案夾層級的設定檔，以管理撰寫範本、輸出範本、輸出預設集和其他檔案夾層級的設定。
@@ -76,8 +91,8 @@ ht-degree: 0%
 - **學習內容**：使用&#x200B;**啟用學習內容**&#x200B;切換功能，在資料夾設定檔層級啟用或停用此功能。
 - **HTML編輯器**：此設定可讓您設定HTML式編寫的編輯器。 此設定中的主要組態選項如下：
 
-   - **隱藏內嵌樣式**：啟用此選項可防止作者將內嵌格式套用至課程內容。 啟用時，編輯器的右側面板中出現的所有內嵌樣式選項（例如「字型」、「邊框」、「版面」、「背景」和「欄」）對「作者」而言仍為隱藏狀態。 不過，作者仍可使用&#x200B;**樣式**&#x200B;面板中可用的全域類別型樣式選項。 這有助於維持與貴組織風格指引的一致性。
-   - **隱藏作者的Source檢視**：啟用此選項以限制對HTML原始碼的存取。 如果您想要簡化編輯體驗，或避免基礎程式碼意外變更，這個功能會很好用。
+  - **隱藏內嵌樣式**：啟用此選項可防止作者將內嵌格式套用至課程內容。 啟用時，編輯器的右側面板中出現的所有內嵌樣式選項（例如「字型」、「邊框」、「版面」、「背景」和「欄」）對「作者」而言仍為隱藏狀態。 不過，作者仍可使用&#x200B;**樣式**&#x200B;面板中可用的全域類別型樣式選項。 這有助於維持與貴組織風格指引的一致性。
+  - **隱藏作者的Source檢視**：啟用此選項以限制對HTML原始碼的存取。 如果您想要簡化編輯體驗，或避免基礎程式碼意外變更，這個功能會很好用。
 
 ## 設定面板
 
@@ -217,7 +232,7 @@ SCORM輸出範本可讓您將不同的版面配置指派給課程中的不同主
 
 例如，課程頁面可使用包含頁首、內容區域和頁尾的版面，而測驗頁面可使用不含頁尾的簡化版面。 您也可以為概觀頁面或任何其他主題型別建立專用版面，並相應地加以對應。
 
-配置指派是在&#x200B;**輸出範本**&#x200B;層級設定。任何使用已設定輸出範本的SCORM預設集，將在產生課程時套用選取的版面配置對應。
+配置指派是在&#x200B;**輸出範本**&#x200B;層級設定。 任何使用已設定輸出範本的SCORM預設集，將在產生課程時套用選取的版面配置對應。
 請依照下列步驟，設定範本的頁面配置：
 
 1. 瀏覽至&#x200B;**輸出範本**&#x200B;並開啟必要的&#x200B;**SCORM輸出範本**。

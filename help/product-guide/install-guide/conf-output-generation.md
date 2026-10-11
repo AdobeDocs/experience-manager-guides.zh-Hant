@@ -5,33 +5,48 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/IkHZuSR5DLwAFy2ll9n0MN2syoqjScq7oUh7pRiQyjA
+TQID: 'https://experienceleague.adobe.com/IkHZuSR5DLwAFy2ll9n0MN2syoqjScq7oUh7pRiQyjA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 subfeature_v2:
   - id: baa3aa24-d162-4a57-b73a-d27341145083
+    internal-label: Performance optimization
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+    internal-label: Template configuration
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+    internal-label: Optimization
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5886
+source-wordcount: '5893'
 ht-degree: 1%
-
 ---
-
 # 設定輸出產生設定 {#id181AI0B0E30}
 
 AEM Guides提供許多設定選項，供您自訂輸出產生流程。 本主題涵蓋可協助您設定輸出產生程式的所有設定和自訂。
@@ -77,8 +92,8 @@ AEM Guides提供許多設定選項，供您自訂輸出產生流程。 本主題
 
 | 屬性 | 說明 |
 |--------|-----------|
-| FrameMaker Publishing Server登入網域 | 指定託管FrameMaker Publishing Server的網域名稱或工作群組名稱。 根據FMPS版本，提供網域名稱為:- **FMPS 2020**：IP位址為192.168.1.101 <br>- **FMPS 2019和更早版本**：IP位址或網域名稱 |
-| FRAMEMAKER PUBLISHING SERVER URL | 指定FrameMaker Publishing Server的URL 根據FMPS版本，提供FMPS URL為：<br>- **FMPS 2020**： `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019及舊版**： `http://<fmps_ip>:<port>/fmserver/v1/` |
+| FrameMaker Publishing Server登入網域 | 指定託管FrameMaker Publishing Server的網域名稱或工作群組名稱。 根據FMPS版本，提供網域名稱為：- **FMPS 2020**：IP位址為192.168.1.101 <br>- **FMPS 2019和更早版本**：IP位址或網域名稱 |
+| FRAMEMAKER PUBLISHING SERVER URL | 指定FrameMaker Publishing Server的URL 根據FMPS版本，提供FMPS URL為：<br>- **FMPS 2020**： `http://<fmps_ip>:<port>` \(http://192.168.1.101：7000\) <br> - **FMPS 2019和較舊版本**： `http://<fmps_ip>:<port>/fmserver/v1/` |
 | FMPS版本 | 指定FrameMaker Publishing Server的版本號碼。 根據FMPS版本，提供下列版本資訊： <br>- **FMPS 2020**： 2020 <br> - **FMPS 2019和較舊版本**： 2019或2017 |
 | FrameMaker Publishing Server使用者名稱和密碼 | 指定存取FrameMaker Publishing Server的使用者名稱和密碼。 |
 | fmps逾時 | \（*選擇性*\）指定AEM Guides等待FrameMaker Publishing Server回應的時間\（以秒為單位）。 如果在指定時間內未收到任何回應，AEM Guides會終止發佈工作，且工作會標籤為失敗。<br> 預設值： 300秒\（5分鐘\） |
@@ -749,7 +764,7 @@ AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 
 
 1. 在&#x200B;**輸出歷程記錄清除期間**&#x200B;屬性中，指定輸出歷程記錄以及輸出記錄清除的天數。 預設會設為5天。 如果您要停用此功能，則將此屬性設定為0。
 
-1. 在&#x200B;**輸出歷程記錄清除時間**&#x200B;屬性中，指定清除程式的起始時間。 預設為0:00 \（或12:00午夜\）。 每天這個時間，清除程式都會在&#x200B;**輸出歷程記錄清除期間**&#x200B;屬性中指定的天數之前產生的輸出上執行。
+1. 在&#x200B;**輸出歷程記錄清除時間**&#x200B;屬性中，指定清除程式的起始時間。 預設會設為0:00 \（或12:00午夜\）。 每天這個時間，清除程式都會在&#x200B;**輸出歷程記錄清除期間**&#x200B;屬性中指定的天數之前產生的輸出上執行。
 
    >[!NOTE]
    >

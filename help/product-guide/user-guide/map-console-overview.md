@@ -4,29 +4,41 @@ description: 瞭解地圖主控台以及可讓您在Adobe Experience Manager Gui
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-TQID: https://experienceleague.adobe.com/RFlLBJ4tFUBVo2FyGFur21uIResNd0qFWpKszJbnBIk
+TQID: 'https://experienceleague.adobe.com/RFlLBJ4tFUBVo2FyGFur21uIResNd0qFWpKszJbnBIk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 # 地圖主控台概觀
 
 Adobe Experience Manager Guides提供專用的主控台，稱為&#x200B;**地圖主控台**，可簡化所有地圖管理和發佈工作。 此集中式介面可讓您選擇在單一位置產生輸出、翻譯內容、存取報表等，藉此提升地圖相關活動的生產力和正確性。
@@ -41,15 +53,15 @@ Adobe Experience Manager Guides提供專用的主控台，稱為&#x200B;**地圖
 
   導覽列中可用的功能說明如下：
 
-   - **導覽切換器**：可順暢導覽至其他頁面 — 編輯器或首頁：
-   - **選取的對應檔**：顯示目前選取的對應檔名稱。 您可以在編輯器中開啟該檔案，或為「對應」主控台選擇不同的對應檔案。
-   - **更多動作**：提供可瀏覽至&#x200B;**Assets UI**&#x200B;和&#x200B;**Workspace設定**&#x200B;的選項。 如需詳細資訊，請檢視[索引標籤列](./web-editor-tab-bar.md)。
+  - **導覽切換器**：可順暢導覽至其他頁面 — 編輯器或首頁：
+  - **選取的對應檔**：顯示目前選取的對應檔名稱。 您可以在編輯器中開啟該檔案，或為「對應」主控台選擇不同的對應檔案。
+  - **更多動作**：提供可瀏覽至&#x200B;**Assets UI**&#x200B;和&#x200B;**Workspace設定**&#x200B;的選項。 如需詳細資訊，請檢視[索引標籤列](./web-editor-tab-bar.md)。
 
   >[!NOTE]
   >
   > 如果在5.2版之前的內部部署設定中使用Adobe Experience Manager Guides，則Workspace設定選項會繼續顯示為「**設定**」（在「更多動作」功能表下）。
 
-   - **展開檢視**：可讓您使用&#x200B;**展開**&#x200B;圖示展開頁面檢視。 在此檢視中，標題列會隱藏，最大化內容空間。 若要返回標準檢視，請使用&#x200B;**結束展開檢視**&#x200B;圖示。
+  - **展開檢視**：可讓您使用&#x200B;**展開**&#x200B;圖示展開頁面檢視。 在此檢視中，標題列會隱藏，最大化內容空間。 若要返回標準檢視，請使用&#x200B;**結束展開檢視**&#x200B;圖示。
 
   >[!NOTE]
   >

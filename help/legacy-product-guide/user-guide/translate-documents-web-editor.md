@@ -5,29 +5,42 @@ feature: Authoring, Features of Web Editor, Translation
 role: User
 hide: true
 exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
-TQID: https://experienceleague.adobe.com/PXjRYkh69-gjZ5PFKWxh2LwUd1b8l0R7GNdKMq8jrrw
+TQID: 'https://experienceleague.adobe.com/PXjRYkh69-gjZ5PFKWxh2LwUd1b8l0R7GNdKMq8jrrw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2291
+source-wordcount: '2363'
 ht-degree: 0%
-
 ---
-
 # 從網頁編輯器翻譯檔案 {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -118,8 +131,8 @@ AEM Guides在網頁編輯器中提供強大的功能，可讓您將內容翻譯�
    除了新的翻譯專案外，您也可以選取下列選項：
 
    - 您可以選擇&#x200B;**只為翻譯專案**&#x200B;建立結構。
-   - 您可以選擇&#x200B;**建立新的XLIFF翻譯專案**，將XML內容轉換成XML本地化交換檔案格式(XLIFF)。XLIFF是一種開放的XML型格式，用來標準化內容翻譯過程中使用的各種工具之間的資料傳輸。AEM Guides支援XLIFF 1.2版。
-在XLIFF專案中，內容會匯出為產業標準XLIFF格式，並提供給翻譯廠商。XLIFF格式可讓您重複使用已在翻譯階段翻譯的區段。\
+   - 您可以選擇&#x200B;**建立新的XLIFF翻譯專案**，將XML內容轉換成XML本地化交換檔案格式(XLIFF)。 XLIFF是一種開放的XML型格式，用來標準化內容翻譯過程中使用的各種工具之間的資料傳輸。 AEM Guides支援XLIFF 1.2版。
+     在XLIFF專案中，內容會匯出為產業標準XLIFF格式，並提供給翻譯廠商。 XLIFF格式可讓您重複使用已在翻譯階段翻譯的區段。\
      翻譯XLIFF內容後，可將其匯入AEM Guides，建立原始DITA專案的翻譯版本。
 
      >[!NOTE]
@@ -130,8 +143,8 @@ AEM Guides在網頁編輯器中提供強大的功能，可讓您將內容翻譯�
    - 如果您已經有翻譯專案，您可以新增主題至該專案。 從「專案」清單中選取「新增至&#x200B;**現有翻譯專案**」選項，然後從「現有翻譯專案」清單中選擇專案。 您可以依照最近、升序或降序來排序這些專案。
 
 - 如果您選取&#x200B;**現有翻譯專案**，如果已新增資產，且相關的翻譯工作狀態為&#x200B;*草稿*&#x200B;狀態，此操作會更新專案中的現有資產專案。
-   - 如果專案中不存在目的地語言，則會為單一語言翻譯專案建立新專案，並為多語言翻譯專案建立新工作。
-   - 如果目的地語言的工作已存在，且工作狀態不是&#x200B;*草稿*&#x200B;狀態，則會在相同專案中建立新工作，以新增要翻譯的資產。
+  - 如果專案中不存在目的地語言，則會為單一語言翻譯專案建立新專案，並為多語言翻譯專案建立新工作。
+  - 如果目的地語言的工作已存在，且工作狀態不是&#x200B;*草稿*&#x200B;狀態，則會在相同專案中建立新工作，以新增要翻譯的資產。
 
   >[!NOTE]
   >

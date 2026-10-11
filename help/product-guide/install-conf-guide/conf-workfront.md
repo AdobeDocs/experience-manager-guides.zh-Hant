@@ -5,13 +5,25 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 694e9eeb-59a7-43e3-89b0-510b86be1f42
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 2%
-
 ---
-
 # 設定適用於Cloud Service的Adobe Workfront
 
 Adobe Workfront是雲端型工作管理解決方案，可協助團隊和組織有效規劃、追蹤及管理其工作。 Experience Manager Guides與Adobe Workfront的整合可讓您在Experience Manager Guides核心CCMS功能之上存取強大的專案管理功能，讓您有效率地規劃、分配和追蹤工作。
@@ -25,7 +37,7 @@ Adobe Workfront是雲端型工作管理解決方案，可協助團隊和組織�
 1. 您擁有Adobe Workfront的標準存取權和Experience Manager Guides的管理員存取權。
 2. 您[在Adobe Workfront中建立新的自訂表單](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form)，此自訂表單是Experience Manager Guides所需，請特別使用以下欄位：
 
-   | 欄位型別 | 標籤 | 名稱 | 選擇（啟用顯示值） |
+   | 欄位類型 | 標籤 | 名稱 | 選擇（啟用顯示值） |
    |------------|------|------|-------------------------------|
    | 單選下拉式清單 | 任務類型 | task-type | 製作（值= AUTHOR）、發佈（值= PUBLISH）、翻譯（值= TRANSLATION）、評論（值= REVIEW） |
    | 單選下拉式清單 | 任務狀態 | task-state | 製作（值= AUTHOR）、發佈（值= PUBLISH）、翻譯（值= TRANSLATION）、評論（值= REVIEW） |

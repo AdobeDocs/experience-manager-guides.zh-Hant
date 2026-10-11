@@ -5,23 +5,29 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+TQID: 'https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: '3144'
 ht-degree: 0%
-
 ---
-
 # 管理檔案和資料夾 {#id2116G0L08XA}
 
 本節說明AEM Guides如何處理基本檔案操作，例如複製、貼上、拖放和刪除檔案。 可能會出現以下情況：
@@ -157,18 +163,18 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
    - **Source路徑\(s\)**：指定您要移動的資料夾位置。
 
-      - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動的資料夾，然後按一下&#x200B;**選取**&#x200B;以完成程式。
+     - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動的資料夾，然後按一下&#x200B;**選取**&#x200B;以完成程式。
 
-      - 您也可以鍵入或複製並貼上來源位置。 按Enter將資料夾新增至清單。
+     - 您也可以鍵入或複製並貼上來源位置。 按Enter將資料夾新增至清單。
 
-        選取的資料夾會與其路徑一起列出。 將游標停留在資料夾標籤上可檢視完整路徑。
-      - 您也可以按一下&#x200B;**[移除]**&#x200B;來移除任何資料夾 資料夾附近的<img src="images/remove-folder.svg" width="25">。
+       選取的資料夾會與其路徑一起列出。 將游標停留在資料夾標籤上可檢視完整路徑。
+     - 您也可以按一下&#x200B;**[移除]**&#x200B;來移除任何資料夾 資料夾附近的<img src="images/remove-folder.svg" width="25">。
 
 
    - **目的地路徑**：指定您要移動來源資料夾的位置。
 
-      - 選取&#x200B;**瀏覽資料夾** <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動來源資料夾的位置。 並按一下「選取」以完成該程式。
-      - 您也可以輸入或複製並貼上目的地路徑。
+     - 選取&#x200B;**瀏覽資料夾** <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動來源資料夾的位置。 並按一下「選取」以完成該程式。
+     - 您也可以輸入或複製並貼上目的地路徑。
 
      選取的資料夾會與其路徑一起顯示在文字方塊中。
 
@@ -206,24 +212,24 @@ AEM Guides隨附大量移動工具，可協助管理員將具有大量檔案的�
 
    - **Source路徑\(s\)**：指定您要移動的資料夾位置。
 
-      - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動的資料夾，然後按一下&#x200B;**選取**&#x200B;以完成程式。
+     - 選取&#x200B;**瀏覽資料夾**  <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動的資料夾，然後按一下&#x200B;**選取**&#x200B;以完成程式。
 
-      - 您也可以鍵入或複製並貼上來源位置。 按Enter將資料夾新增至清單。
+     - 您也可以鍵入或複製並貼上來源位置。 按Enter將資料夾新增至清單。
 
-        選取的資料夾會與其路徑一起列出。 將游標停留在資料夾標籤上可檢視完整路徑。
-      - 您也可以按一下&#x200B;**[移除]**&#x200B;來移除任何資料夾 資料夾附近的<img src="images/remove-folder.svg" width="25">。
+       選取的資料夾會與其路徑一起列出。 將游標停留在資料夾標籤上可檢視完整路徑。
+     - 您也可以按一下&#x200B;**[移除]**&#x200B;來移除任何資料夾 資料夾附近的<img src="images/remove-folder.svg" width="25">。
 
 
    - **目的地路徑**：指定您要移動來源資料夾的位置。
 
-      - 選取&#x200B;**瀏覽資料夾** <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動來源資料夾的位置。 並按一下「選取」以完成該程式。
-      - 您也可以輸入或複製並貼上目的地路徑。
+     - 選取&#x200B;**瀏覽資料夾** <img src="images/browse-folder-icon.svg" width="25">以開啟瀏覽檔案對話方塊。 選取您要移動來源資料夾的位置。 並按一下「選取」以完成該程式。
+     - 您也可以輸入或複製並貼上目的地路徑。
 
-        選取的資料夾會與其路徑一起顯示在文字方塊中。
+       選取的資料夾會與其路徑一起顯示在文字方塊中。
 
    - 按一下&#x200B;**大量移動**。
 
-     系統開始將檔案從來源移動到目的地位置。程式完成後，頁面右側會顯示移動程式的摘要。
+     系統開始將檔案從來源移動到目的地位置。 程式完成後，頁面右側會顯示移動程式的摘要。
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
 </details>
 
