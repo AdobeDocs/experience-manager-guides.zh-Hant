@@ -123,4 +123,4 @@ AEM Guides提供在AEM存放庫的所選路徑中存在的檔案中搜尋文字�
 
 篩選器面板中提供已設定的篩選器。
 
-**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)

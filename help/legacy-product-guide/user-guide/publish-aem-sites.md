@@ -49,7 +49,7 @@ Experience Manager Sites頁面是指在Adobe Experience Manager網站上發佈�
 1. 選取&#x200B;**網站頁面**。
 
 
-1. 在&#x200B;**產生網站頁面**對話方塊中，填入下列詳細資料：
+1. 在&#x200B;**產生網站頁面**&#x200B;對話方塊中，填入下列詳細資料：
    ![在[產生網站]頁面中新增路徑與範本詳細資料](images/aem-sites-page-generate.png){width="500"}
 
    *新增路徑、標題、名稱和範本詳細資訊，將主題或其元素發佈為Sites頁面。 *

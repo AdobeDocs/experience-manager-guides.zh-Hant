@@ -171,4 +171,4 @@ Adobe Experience Manager Guides可讓您使用名為「地圖集合」的控制�
 
 ![](images/cancel-publish-task-map-collection.png)
 
-**父級主題：**[&#x200B;輸出產生](generate-output.md)
+**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)

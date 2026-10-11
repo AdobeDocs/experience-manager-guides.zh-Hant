@@ -36,4 +36,4 @@ Adobe Experience Manager Assets提供您建立資產以及向資產新增中繼�
 
 如需AEM中中繼資料管理的詳細資訊，請參閱[管理數位資產的中繼資料](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=en)。
 
-**父級主題：**[&#x200B;管理中繼資料](manage-metadata.md)
+**父級主題：**&#x200B;[&#x200B;管理中繼資料](manage-metadata.md)

@@ -53,4 +53,4 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱「使用Adobe Experience Manager Guides as a Cloud Service」指南中的&#x200B;*檔案關閉和儲存案例*&#x200B;一節。
 
-**父級主題：**[&#x200B;自訂編輯器](conf-web-editor.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](conf-web-editor.md)

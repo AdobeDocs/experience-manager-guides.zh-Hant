@@ -64,7 +64,7 @@ Experience Manager Guides現在提供&#x200B;**資料來源**&#x200B;工具，�
 
 ### 在目錄中檢視沒有自動編號的章節
 
-Experience Manager Guides會在目錄(TOC)中顯示章節編號以及章節名稱。 現在您可以選擇只發佈章節名稱，而不發佈章節編號。 檢視有關如何設定範本](../native-pdf/components-pdf-template.md#advanced-pdf-settings)的[進階PDF設定的詳細資訊。
+Experience Manager Guides會在目錄(TOC)中顯示章節編號以及章節名稱。 現在您可以選擇只發佈章節名稱，而不發佈章節編號。 檢視有關如何設定範本[&#128279;](../native-pdf/components-pdf-template.md#advanced-pdf-settings)的進階PDF設定的詳細資訊。
 
 ## 從網頁編輯器下載地圖
 

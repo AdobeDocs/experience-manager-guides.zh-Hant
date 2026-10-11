@@ -212,4 +212,4 @@ Adobe Experience Manager Guides中的地圖集合可讓發佈專家將多個檔�
 中繼資料屬性與檔案屬性同步。 更新後，您就可以從編輯器的&#x200B;**檔案屬性**&#x200B;面板中檢視這些檔案。
 
 
-**父級主題：**[&#x200B;輸出產生](generate-output.md)
+**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)

@@ -192,4 +192,4 @@ Experience Manager Guides提供基準線功能，可讓使用者建立基準線�
 1. \(Optional\)若要匯出已匯出的基準，請選取&#x200B;**覆寫現有的基準**，然後選取&#x200B;**匯出基準**。
 
 
-**父級主題：**[&#x200B;輸出產生](generate-output.md)
+**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)

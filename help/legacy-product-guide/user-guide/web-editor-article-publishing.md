@@ -56,4 +56,4 @@ AEM Guides隨附整合在網頁編輯器中的文章式發佈功能，可讓使�
 - **[從存放庫面板或地圖檢視面板產生輸出](web-editor-article-publishing-output.md)**
 
 
-**上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)
+**上層主題：**&#x200B;[&#x200B;使用網頁編輯器](web-editor.md)

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 如需此版本中修正的問題清單，請檢視[2026.01.0版本](fixed-issues-2026-01-0.md)中的已修正問題。
 
-瞭解2026.01.0版](../release-info/upgrade-instructions-2026-01-0.md)的[升級指示。
+瞭解2026.01.0版[&#128279;](../release-info/upgrade-instructions-2026-01-0.md)的升級指示。
 
 
 ## 在「尋找和取代」中介紹Source模式搜尋
@@ -111,7 +111,7 @@ Experience Manager Guides在編輯器介面的左側面板中，推出了數個�
 
 ![](assets/file-properties-new.png){width="350"}
 
-如需詳細資訊，請在編輯器](../user-guide/web-editor-right-panel.md#file-properties)中檢視[右側面板。
+如需詳細資訊，請在編輯器[&#128279;](../user-guide/web-editor-right-panel.md#file-properties)中檢視右側面板。
 
 ### 唯讀檔案的中繼資料屬性無法再編輯
 
@@ -173,7 +173,7 @@ Experience Manager Guides在編輯器介面的左側面板中，推出了數個�
 
 Experience Manager Guides現在支援AEM Sites輸出中的元素層級元件對應（使用複合元件對應），可讓團隊精確控制DITA元素使用`componentmapping.json`的呈現方式。 將`topicref`、標題、影像、表格等對應至適當的AEM核心元件，可獲得更簡潔的結構，而非預設為文字元件的所有內容。 這可提供更優異的效能，並開啟更豐富、更現代的Sites體驗。
 
-如需更多詳細資料，請在AEM Sites](../cs-install-guide/component-mapping.md)中檢視[元件對應。
+如需更多詳細資料，請在AEM Sites[&#128279;](../cs-install-guide/component-mapping.md)中檢視元件對應。
 
 ## 資產處理增強功能
 

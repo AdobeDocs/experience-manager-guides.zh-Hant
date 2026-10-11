@@ -74,4 +74,4 @@ ht-degree: 5%
 >
 >您必須先安裝AEM Service Pack，才能升級Experience Manager Guides版本。
 
-如需詳細資訊，請檢視Experience Manager Guides內部部署版本](/help/product-guide/install-guide/upgrade-xml-documentation.md)的[升級指示。
+如需詳細資訊，請檢視Experience Manager Guides內部部署版本[&#128279;](/help/product-guide/install-guide/upgrade-xml-documentation.md)的升級指示。

@@ -104,4 +104,4 @@ Adobe Experience Manager隨附內建聯結器，適合領先翻譯供應商使�
 * 快速入門手冊
 * [說明*封存頁面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) （存取舊版檔案）
 
-**上層主題：**[&#x200B;關於Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)
+**上層主題：**&#x200B;[&#x200B;關於Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

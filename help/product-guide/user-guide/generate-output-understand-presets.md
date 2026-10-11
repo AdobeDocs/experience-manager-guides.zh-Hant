@@ -63,4 +63,4 @@ Experience Manager Guides支援透過DITA-OT、原生PDF和FMPS以最熱門的�
 
 身為管理員，Experience Manager Guides可讓您建立並管理全域和資料夾設定檔的輸出預設集。 如需詳細資訊，請檢視[管理全域和資料夾設定檔輸出預設集](./web-editor-manage-output-presets.md)。
 
-**父級主題：**[&#x200B;輸出產生](generate-output.md)
+**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)

@@ -89,7 +89,7 @@ DITAVAL編輯器可讓您使用編輯器工具列中的選項，執行下列多�
 
 第一個下拉式清單列出可在DITAVAL檔案中使用的允許DITA屬性。
 
-第二個下拉式清單會顯示為選取的屬性設定的值。 然後，下一個下拉式清單會顯示您可在選取的屬性上設定的動作。 動作下拉式清單中允許的值為 — `include`、`exclude`、`passthrough`和`flag`。 如需這些值的詳細資訊，請檢視OASIS DITA檔案中[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)元素的定義。 如需屬性中新增之屬性的動作詳細資訊，請檢視屬性](#actions-for-property)的[動作。
+第二個下拉式清單會顯示為選取的屬性設定的值。 然後，下一個下拉式清單會顯示您可在選取的屬性上設定的動作。 動作下拉式清單中允許的值為 — `include`、`exclude`、`passthrough`和`flag`。 如需這些值的詳細資訊，請檢視OASIS DITA檔案中[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)元素的定義。 如需屬性中新增之屬性的動作詳細資訊，請檢視屬性[&#128279;](#actions-for-property)的動作。
 
 #### 新增收入屬性
 

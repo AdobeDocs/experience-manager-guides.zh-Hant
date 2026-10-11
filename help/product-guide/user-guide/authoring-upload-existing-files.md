@@ -79,4 +79,4 @@ Adobe FrameMaker隨附強大的Adobe Experience Manager聯結器，可讓您輕�
 
 
 
-**父級主題：**[&#x200B;管理內容](authoring.md)
+**父級主題：**&#x200B;[&#x200B;管理內容](authoring.md)

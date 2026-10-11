@@ -85,7 +85,7 @@ Adobe Experience Manager Guides提供專用的主控台，稱為&#x200B;**地圖
 
 在組織設定中，您想要先驗證技術檔案的整體完整性，然後再開始處理或即時推送檔案。 在多使用者和大型環境中，這樣的需求變得更加重要。 透過Map主控台，您可以存取Experience Manager Guides報表，這些報表可提供存放庫中內容整體健康狀況的實用insight，以及說明檔案過程中如何使用內容。
 
-如需更多詳細資料，請在Experience Manager Guides](./reports-intro.md)中檢視[報告。
+如需更多詳細資料，請在Experience Manager Guides[&#128279;](./reports-intro.md)中檢視報告。
 
 **基準線**
 
@@ -110,6 +110,6 @@ Experience Manager Guides隨附強大的功能，可讓您將內容翻譯成多�
 
 Map主控台也提供Workfront功能，可讓您直接從Experience Manager Guides處理Adobe Workfront工作。
 
-瞭解Experience Manager Guides](./workfront-integration.md)中的[Adobe Workfront整合。
+瞭解Experience Manager Guides[&#128279;](./workfront-integration.md)中的Adobe Workfront整合。
 
 只有管理員已在您的Experience Manager Guides執行個體中設定&#x200B;**Adobe Workfront**&#x200B;整合，您才能存取此功能。

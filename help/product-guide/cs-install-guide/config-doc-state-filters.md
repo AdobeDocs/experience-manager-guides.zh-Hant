@@ -43,36 +43,36 @@ Adobe Experience Manager Guides提供依據檔案目前檔案狀態來搜尋檔�
 在下載的`ui\_config.json`檔案中，請參閱下列章節：
 
        &quot;
-     &quot;repositoryFilters&quot;： [
-     {
+     &quot;repositoryFilters&quot;： &lbrack;
+     &lbrace;
      &quot;title&quot;： &quot;Document state&quot;，
      &quot;property&quot;： &quot;jcr：content/metadata/dostate&quot;，
-     &quot;children&quot;： [
-     {
+     &quot;children&quot;： &lbrack;
+     &lbrace;
      &quot;title&quot;： &quot;Draft&quot;，
      &quot;value&quot;： &quot;Draft&quot;
-     }，    {
+     &rbrace;，    &lbrace;
      &quot;title&quot;： &quot;Edit&quot;，
      &quot;value&quot;： &quot;Edit&quot;
-     }，
-     {
+     &rbrace;，
+     &lbrace;
      &quot;title&quot;： &quot;In-Review&quot;，
      &quot;value&quot;： &quot;In-Review&quot;
-     }，
-     {
+     &rbrace;，
+     &lbrace;
      &quot;title&quot;： &quot;Approved&quot;，
-     &quot;value&quot;： &quot;Approved&quot;     }，
-     {
+     &quot;value&quot;： &quot;Approved&quot;     &rbrace;，
+     &lbrace;
      &quot;title&quot;： &quot;Reviewed&quot;，
      &quot;value&quot;： &quot;Reviewed&quot;
-     }，
-     {
+     &rbrace;，
+     &lbrace;
      &quot;title&quot;： &quot;Done&quot;，
      &quot;value&quot;： &quot;Done&quot;
-     }
-     ]
+     &rbrace;
+     &rbrack;
      
-     ]
+     &rbrack;
      &quot;&#39;
    
 
@@ -91,4 +91,4 @@ Adobe Experience Manager Guides提供依據檔案目前檔案狀態來搜尋檔�
 
 設定的篩選器會顯示在首頁儲存庫的&#x200B;**篩選器**&#x200B;面板中。
 
-**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)

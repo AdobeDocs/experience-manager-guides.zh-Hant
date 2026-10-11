@@ -79,4 +79,4 @@ AEM Guides提供簡易的組態設定，您需要在其中定義ID自動產生�
 
 >[!ENDTABS]
 
-**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)

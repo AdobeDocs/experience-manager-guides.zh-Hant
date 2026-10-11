@@ -184,7 +184,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - 原生PDF | Xref正在列印href主題標題的內容而非Xref標籤。 (11322)
 - 原生PDF |無法儲存PDF範本設定。 (10751)
 - 原生PDF |文字延伸超過欄寬，包含多個xref。 (10876)
-- 原生PDF | `<note>``</note>`元素沒有產生其型別的額外範圍標題。 (10549)
+- 原生PDF | `<note>`&#x200B;`</note>`元素沒有產生其型別的額外範圍標題。 (10549)
 - 原生PDF |語言中繼資料無法在產生的PDF中設定以符合WCAG 2.0。 (12296)
 
 

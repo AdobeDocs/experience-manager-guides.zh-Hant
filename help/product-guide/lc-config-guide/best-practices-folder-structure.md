@@ -96,7 +96,7 @@ ht-degree: 0%
 
 若要建立新使用者並將其新增至群組，請瀏覽至&#x200B;**工具** > **安全性** > **使用者**。
 
-在[使用者管理]頁面上，選取[建立] ****&#x200B;以建立新使用者。 新增使用者詳細資料並將它們指派給群組。
+在[使用者管理]頁面上，選取[建立] **&#x200B;**&#x200B;以建立新使用者。 新增使用者詳細資料並將它們指派給群組。
 
 ![](assets/create-users-page.png)
 
@@ -111,5 +111,5 @@ ht-degree: 0%
 
 這些許可權可確保使用者只能在其指定的資料夾中建立或修改內容。
 
-如需更多詳細資料，請在AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem)中檢視[許可權。
+如需更多詳細資料，請在AEM[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem)中檢視許可權。
 

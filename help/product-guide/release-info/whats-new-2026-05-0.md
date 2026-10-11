@@ -21,7 +21,7 @@ ht-degree: 0%
 
 如需此版本中修正的問題清單，請檢視[2026.05.0版本](fixed-issues-2026-05-0.md)中的已修正問題。
 
-瞭解2026.05.0版](../release-info/upgrade-instructions-2026-05-0.md)的[升級指示。
+瞭解2026.05.0版[&#128279;](../release-info/upgrade-instructions-2026-05-0.md)的升級指示。
 
 ## Editor 2.0簡介
 
@@ -128,7 +128,7 @@ Editor 2.0 （亦稱為New Editor）提供簡化的撰寫功能，讓您透過�
 - 更強大的UI和後端一致性
 - 展開的篩選、導覽和相依性可見度
 
-如需詳細資訊，請在Experience Manager Guides](../user-guide/web-editor-baseline-v2.md)中檢視[新的基準線體驗(Beta)。
+如需詳細資訊，請在Experience Manager Guides[&#128279;](../user-guide/web-editor-baseline-v2.md)中檢視新的基準線體驗(Beta)。
 
 
 

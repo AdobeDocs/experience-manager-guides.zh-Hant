@@ -92,4 +92,4 @@ Adobe Experience Manager Guides提供依據檔案目前檔案狀態來搜尋檔�
 
 設定的篩選器會顯示在首頁儲存庫的&#x200B;**篩選器**&#x200B;面板中。
 
-**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)
+**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)

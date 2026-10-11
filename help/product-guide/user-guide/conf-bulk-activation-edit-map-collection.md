@@ -66,4 +66,4 @@ ht-degree: 11%
 1. 選取「**完成**」。
 
 
-**父級主題：**[&#x200B;大量啟用已發佈的內容](conf-bulk-activation.md)
+**父級主題：**&#x200B;[&#x200B;大量啟用已發佈的內容](conf-bulk-activation.md)
