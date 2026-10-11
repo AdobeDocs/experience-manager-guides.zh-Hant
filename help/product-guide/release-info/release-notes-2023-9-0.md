@@ -4,32 +4,47 @@ description: 瞭解錯誤修正以及如何升級至2023年9月發行的Adobe Ex
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/CoWG1c1gE-wPrI90-qp0QJu-oOE4pDLcY6bIEN2QQpE
+TQID: 'https://experienceleague.adobe.com/CoWG1c1gE-wPrI90-qp0QJu-oOE4pDLcY6bIEN2QQpE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1492
+source-wordcount: '1492'
 ht-degree: 3%
-
 ---
-
 # 2023年9月發行的Adobe Experience Manager Guides as a Cloud Service
 
 此發行說明涵蓋升級指示、相容性矩陣，以及2023年9月版Adobe Experience Manager Guides （後來稱為&#x200B;*AEM Guides as a Cloud Service*）中修正的問題。
@@ -88,7 +103,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 1. （選擇性）如果系統中有超過100,000個dita檔案，請將`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新為較大的值（任何大於現有資產數的值，例如200,000），然後重新部署。
 
    - 使用安裝和設定Adobe Experience Manager Guides中&#x200B;*設定覆寫*區段中提供的指示
-as a Cloud Service，以建立設定檔。
+     as a Cloud Service，以建立設定檔。
    - 在組態檔中，提供下列（屬性）詳細資訊，以設定queryLimitReads選項：
 
      | PID | 屬性索引鍵 | 屬性值 |
@@ -97,10 +112,10 @@ as a Cloud Service，以建立設定檔。
 
 1. 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>//bin/guides/reports/upgrade`。
 
-1. 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET請求傳送至相同的端點 —  `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 —  `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. 工作完成後，先前的GET請求將會成功回應。 如果作業由於某個原因而失敗，則可以從伺服器記錄中看到失敗。
+1. 工作完成後，先前的GET要求會成功回應。 如果作業由於某個原因而失敗，則可以從伺服器記錄中看到失敗。
 
 1. 如果您在步驟1中變更了`queryLimitReads`的值，請恢復為預設值或先前的現有值。
 
@@ -117,7 +132,7 @@ as a Cloud Service，以建立設定檔。
 1. 此API將傳回jobId。 若要檢查工作的狀態，您可以將具有工作識別碼的GET要求傳送至相同的端點 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
 
-1. 工作完成後，先前的GET請求會回應成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
+1. 工作完成後，先前的GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功編制索引的對應。
 
 ## 相容性矩陣
 

@@ -5,18 +5,33 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 61a6a623-2f29-43b5-a053-7f1f925de6d6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '3168'
+source-wordcount: '3216'
 ht-degree: 2%
-
 ---
-
 # 升級Adobe Experience Manager Guides On Premise （4.4.0版及舊版）
 
 本文提供將&#x200B;**Adobe Experience Manager Guides** 4.6.0 **之前的**&#x200B;版本(最高至（包括）**4.4.0**)升級的說明。
 
-如果您使用3.8.5 **之前的**&#x200B;版本，請參閱[Experience Manager Guides說明PDF封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)上產品特定安裝指南中的&#x200B;**升級Adobe Experience Manager Guides**&#x200B;一節。
+如果您使用3.8.5 **之前的**&#x200B;版本，請參閱[Experience Manager Guides說明PDF封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上產品特定安裝指南中的&#x200B;**升級Adobe Experience Manager Guides**&#x200B;一節。
 
 如需較新版本的升級指示，請參閱[升級Adobe Experience Manager Guides 4.6.0和更高版本](./upgrade-aemg-latest-version.md)。
 
@@ -58,7 +73,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 此升級程式只適用於&#x200B;**從** 3.8.5 **到** 4.0 **的**。 如需從&#x200B;**3.4或更新版本**&#x200B;升級至&#x200B;**3.8.5**，請參閱[Adobe Experience Manager Guides說明PDF封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南。
+> 此升級程式只適用於&#x200B;**從** 3.8.5 **到** 4.0 **的**。 如需從&#x200B;**3.4或更新版本**&#x200B;升級至&#x200B;**3.8.5**，請參閱[Adobe Experience Manager Guides說明PDF封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南。
 
 如果您使用Experience Manager Guides版本&#x200B;**3.8.5**，您可以升級至版本&#x200B;**4.0**，而不需要解除安裝先前的版本。
 
@@ -108,7 +123,7 @@ ht-degree: 2%
 
    - 如果您使用UUID版本的軟體，請搜尋「適用於AEM 6.5的XML Documentation解決方案的4.0 UUID版本」。
    - 如果您使用非UUID版本的軟體，請搜尋「適用於AEM 6.5的XML Documentation解決方案非UUID版本4.0」。
-使用AEM封裝管理員將封裝上傳到現有的CRX伺服器執行個體並進行安裝。
+     使用AEM封裝管理員將封裝上傳到現有的CRX伺服器執行個體並進行安裝。
 
      >[!NOTE]
      >
@@ -367,13 +382,13 @@ ht-degree: 2%
 5. 如果元件不存在，請插入它：
    1. 按一下&#x200B;**插入元件** （負責指南後續處理作為最後步驟）。
    2. 設定&#x200B;**處理序步驟**：
-      **一般標籤**
+      **公用標籤**
  — 標題： `DXML Post Process Initiator`
- — 描述： `DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset`
+ — 說明： `DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset`
       **處理程式標籤**
- — 程式：選取 `DXML Post Process Initiator`
- — 選取 `Handler Advance`
- — 選取`Done`
+       — 程式：選取 `DXML Post Process Initiator`
+       — 選取 `Handler Advance`
+       — 選取`Done`
    3. 完成變更後，請按一下右上角的&#x200B;**同步**。 您將會收到成功通知。
 
 >[!NOTE]

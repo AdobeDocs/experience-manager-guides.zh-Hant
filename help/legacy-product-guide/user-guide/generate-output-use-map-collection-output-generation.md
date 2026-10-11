@@ -5,26 +5,35 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-TQID: https://experienceleague.adobe.com/8iPLO5J6Xuh1eHb3SXAdFN2Vg-MgJqnHpHZyW-tDE-8
+TQID: 'https://experienceleague.adobe.com/8iPLO5J6Xuh1eHb3SXAdFN2Vg-MgJqnHpHZyW-tDE-8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: '1211'
 ht-degree: 1%
-
 ---
-
 # 使用地圖集合產生輸出 {#id1723F20G0HS}
 
 在任何組織中，一個產品都可以有多種型別的檔案。 身為出版專家，您想要控制要為哪個檔案產生什麼輸出。 此外，應該有按一下即可批次發佈多份檔案的方法。
@@ -68,17 +77,17 @@ AEM Guides可讓您使用名為「地圖集合」的控制面板，組織內容�
 收集頁面上會顯示下列篩選選項和地圖詳細資訊：
 
 - **篩選器：**&#x200B;最新的邊欄會顯示下列篩選器：
-   - **已修改**：您可以選取「是」或「否」。 如果您選取「是」，則只有修改過的DITA map會顯示在「對映與預設集」表格中。
-   - **預設集**：選取您要篩選掉地圖檔案的預設集。 例如，如果您選擇&#x200B;*AEM網站*&#x200B;預設集，則只會顯示設定了&#x200B;*AEM網站*&#x200B;輸出預設集的地圖。
-   - **語言**：您可以選取任何可用的語言代碼，並在「地圖」和「預設集」表格中僅顯示選取的語言。
+  - **已修改**：您可以選取「是」或「否」。 如果您選取「是」，則只有修改過的DITA map會顯示在「對映與預設集」表格中。
+  - **預設集**：選取您要篩選掉地圖檔案的預設集。 例如，如果您選擇&#x200B;*AEM網站*&#x200B;預設集，則只會顯示設定了&#x200B;*AEM網站*&#x200B;輸出預設集的地圖。
+  - **語言**：您可以選取任何可用的語言代碼，並在「地圖」和「預設集」表格中僅顯示選取的語言。
 - **對應和預設集**&#x200B;表格：「對應」和「預設集」表格會顯示下列欄位中的資訊：
-   - **對應**：顯示DITA map檔案的標題。
-   - **檔案名稱**：顯示DITA對應的檔案名稱。
-   - **語言**：顯示DITA對應的語言。
-   - **預設集**：顯示在地圖檔案上設定的輸出預設集型別。
-   - **基準**：顯示輸出預設集所使用的基準。  如果未使用基準線，則會顯示連字型大小「 — 」
-   - **Modified**：指出是否在上次發佈後更新DITA map。 根據此資訊，您可以決定是否要重新發佈此DITA map的輸出。
-   - **上次產生**：顯示上次產生輸出的日期和時間。
+  - **對應**：顯示DITA map檔案的標題。
+  - **檔案名稱**：顯示DITA對應的檔案名稱。
+  - **語言**：顯示DITA對應的語言。
+  - **預設集**：顯示在地圖檔案上設定的輸出預設集型別。
+  - **基準**：顯示輸出預設集所使用的基準。  如果未使用基準線，則會顯示連字型大小「 — 」
+  - **Modified**：指出是否在上次發佈後更新DITA map。 根據此資訊，您可以決定是否要重新發佈此DITA map的輸出。
+  - **上次產生**：顯示上次產生輸出的日期和時間。
 
 ## 使用地圖集合設定並產生輸出
 
@@ -101,7 +110,7 @@ AEM Guides可讓您使用名為「地圖集合」的控制面板，組織內容�
 
    - 啟用任何個別的預設集。
    - 啟用DITA map的&#x200B;**所有預設集**，一次選取所有預設集。 此選項預設為停用。
-   - 啟用DITA map的&#x200B;**資料夾設定檔預設集**，以選取其所有資料夾設定檔預設集。此選項預設為停用。
+   - 啟用DITA map的&#x200B;**資料夾設定檔預設集**，以選取其所有資料夾設定檔預設集。 此選項預設為停用。
      ![在雲端服務上編輯地圖集合](images/edit-map-collection-cs.png){width="800"}
 
 
@@ -144,7 +153,7 @@ AEM Guides可讓您使用名為「地圖集合」的控制面板，組織內容�
 
 ## 從地圖集合中刪除地圖集合或DITA地圖
 
-- 若要刪除地圖集合，請在[地圖集合]頁面中選取集合，然後按一下[刪除]。**&#x200B;**
+- 若要刪除地圖集合，請在[地圖集合]頁面中選取集合，然後按一下[刪除]。****
 - 若要從對應集合中刪除DITA map，請在編輯模式中開啟對應集合，選取DITA map檔案，然後按一下&#x200B;**從集合移除**。
 
 這也會從Map集合中移除與DITA map相關聯的任何預設集或區域設定。
@@ -156,4 +165,4 @@ AEM Guides可讓您使用名為「地圖集合」的控制面板，組織內容�
 
 ![](images/cancel-publish-task-map-collection.png){width="800"}
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)

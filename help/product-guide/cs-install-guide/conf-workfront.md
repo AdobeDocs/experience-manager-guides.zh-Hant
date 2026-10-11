@@ -5,30 +5,42 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
-TQID: https://experienceleague.adobe.com/Yua4Y6xsnec3O-hpTNhSmK4HvsCwaGYbLTxUxEeQAKY
+TQID: 'https://experienceleague.adobe.com/Yua4Y6xsnec3O-hpTNhSmK4HvsCwaGYbLTxUxEeQAKY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 600
-ht-degree: 2%
-
+source-wordcount: '600'
+ht-degree: 3%
 ---
-
 # 設定Adobe Workfront
 
 Adobe Workfront是雲端型工作管理解決方案，可協助團隊和組織有效規劃、追蹤及管理其工作。 Experience Manager Guides與Adobe Workfront的整合可讓您在Experience Manager Guides核心CCMS功能之上存取強大的專案管理功能，讓您有效率地規劃、分配和追蹤工作。
@@ -40,9 +52,9 @@ Adobe Workfront是雲端型工作管理解決方案，可協助團隊和組織�
 開始之前，請確定：
 
 1. 您擁有Adobe Workfront的標準存取權和Experience Manager Guides的管理員存取權。
-2. 您[在Adobe Workfront中建立新的自訂表單](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form)，此自訂表單是Experience Manager Guides所需，請特別使用以下欄位：
+2. 您[在Adobe Workfront中建立新的自訂表單](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form)，此自訂表單是Experience Manager Guides所需，請特別使用以下欄位：
 
-   | 欄位型別 | 標籤 | 名稱 | 選擇（啟用顯示值） |
+   | 欄位類型 | 標籤 | 名稱 | 選擇（啟用顯示值） |
    |------------|------|------|-------------------------------|
    | 單選下拉式清單 | 任務類型 | task-type | 製作（值= AUTHOR）、發佈（值= PUBLISH）、翻譯（值= TRANSLATION）、評論（值= REVIEW） |
    | 單選下拉式清單 | 任務狀態 | task-state | 製作（值= AUTHOR）、發佈（值= PUBLISH）、翻譯（值= TRANSLATION）、評論（值= REVIEW） |
@@ -74,7 +86,7 @@ Adobe Workfront是雲端型工作管理解決方案，可協助團隊和組織�
 
    若要存取在您的Adobe Workfront設定中設定的&#x200B;**使用者端識別碼**&#x200B;和&#x200B;**使用者端密碼**&#x200B;金鑰，請瀏覽至`Setup >> Systems>> oAuth2 Applications`。
 
-   如需有關設定Adobe Workfront網域的詳細資訊，請在[為Workfront整合建立OAuth2應用程式](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow)中檢視「授權代碼流程」區段。
+   如需有關設定Adobe Workfront網域的詳細資訊，請在[為Workfront整合建立OAuth2應用程式](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow)中檢視「授權代碼流程」區段。
 
 4. 選取&#x200B;**登入並驗證**。
 
@@ -86,4 +98,4 @@ Adobe Workfront是雲端型工作管理解決方案，可協助團隊和組織�
 6. 在自訂表單下拉式清單中，選取您為Experience Manager Guides建立的Adobe Workfront自訂表單。 檢視[必要條件](#prerequisites)。
 7. 選取&#x200B;**儲存並關閉**&#x200B;以套用並儲存Workfront組態變更。
 
-設定之後，[使用使用者在Experience Manager Guides中擁有的相同電子郵件地址，將使用者新增至Adobe Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users)。
+設定之後，[使用使用者在Experience Manager Guides中擁有的相同電子郵件地址，將使用者新增至Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users)。

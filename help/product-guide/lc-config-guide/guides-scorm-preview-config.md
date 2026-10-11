@@ -3,13 +3,22 @@ title: 設定SCORM預覽的內容安全性原則
 description: 瞭解如何使用Cloud Manager中的環境變數設定SCORM預覽的內容安全性原則
 feature: Authoring
 role: User
-source-git-commit: 730fe6021aa20aa2b57801807da0f471f84a7718
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
-
 ---
-
 
 # 設定SCORM預覽的內容安全性原則(CSP)
 
@@ -68,7 +77,7 @@ Experience Manager Guides SCORM預覽可透過專用環境變數來管理，該�
 2. 導覽至環境的&#x200B;**組態**&#x200B;標籤。
 3. 選取&#x200B;**新增/更新**&#x200B;以新增環境變數。
 
-   ![正在新增變數至Cloud Manager &#x200B;](assets/add-new-variable.png){width="650"}
+   ![正在新增變數至Cloud Manager ](assets/add-new-variable.png){width="650"}
 
 4. 在&#x200B;**名稱**&#x200B;欄位中輸入變數(`GUIDES_SCORM_PREVIEW_CONFIG`)的名稱。
 

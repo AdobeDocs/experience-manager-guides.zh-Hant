@@ -5,31 +5,44 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/z-5JBbQXNm-3Vv-wSiaY17xDzlqEfjLUCy9-V5jKkaA
+TQID: 'https://experienceleague.adobe.com/z-5JBbQXNm-3Vv-wSiaY17xDzlqEfjLUCy9-V5jKkaA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
   - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+    internal-label: Template configuration
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5820
+source-wordcount: '5834'
 ht-degree: 1%
-
 ---
-
 # 設定輸出產生設定 {#id181AI0B0E30}
 
 AEM Guides提供許多設定選項，供您自訂輸出產生流程。 本主題涵蓋可協助您設定輸出產生程式的所有設定和自訂。
@@ -146,7 +159,7 @@ AEM Guides隨附的預設設計範本可讓您自訂登入、主題和搜尋頁�
 >
 > 建立自訂設計範本節點後，您必須更新AEM網站輸出預設集中的「設計」選項，才能使用自訂設計範本節點。
 
-如需詳細資訊，請參閱[建立您的第一個Adobe Experience Manager網站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)和[在AEM上開發您自己的網站的基本知識](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[建立您的第一個Adobe Experience Manager網站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en)和[在AEM上開發您自己的網站的基本知識](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)。
 
 ### 使用檔案標題來產生AEM網站輸出
 
@@ -287,7 +300,7 @@ AEM Guides可讓您設定AEM網站輸出的節點結構在內部建立的方式�
 
 ### 在AEM網站輸出中設定已刪除頁面的版本設定
 
-當您針對現有輸出頁面設定選取了&#x200B;**刪除和**&#x200B;建立&#x200B;**&#x200B;**&#x200B;選項來產生AEM網站輸出時，會為要刪除的頁面建立一個版本。 您可以設定系統在刪除前停止建立版本。
+當您針對現有輸出頁面設定選取了&#x200B;**刪除和**&#x200B;建立&#x200B;****選項來產生AEM網站輸出時，會為要刪除的頁面建立一個版本。 您可以設定系統在刪除前停止建立版本。
 
 執行以下步驟，停止建立要刪除之頁面的版本：
 
@@ -408,8 +421,8 @@ AEM Guides提供在使用DITA-OT發佈輸出時傳遞自訂中繼資料的方法
 
   若要存取metadata.xml：
 
-   - 登入執行AEM執行個體的伺服器位置。
-   - 移轉至crx-quickstart/profiles/ditamaps/&lt;new-created-directory-name\>/metadata.xml。
+  - 登入執行AEM執行個體的伺服器位置。
+  - 移轉至crx-quickstart/profiles/ditamaps/&lt;new-created-directory-name\>/metadata.xml。
 - 範例檔案格式：
 
   **metadata.xml**
@@ -648,11 +661,11 @@ AEM Guides提供用於自訂地圖主控台的`apps.fmdita.dashboard-extn`類別
 
 >[!NOTE]
 >
-> 如需建立AEM使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hant)。
+> 如需建立AEM使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)。
 
 ## 在產生輸出期間處理影像轉譯 {#id177BF0G0VY4}
 
-AEM隨附一組預設工作流程和媒體控制代碼以處理資產。 在AEM中，有預先定義的工作流程可處理最常見MIME型別的資產處理。 一般而言，AEM會針對您上傳的每個影像，以二進位格式建立相同的多個轉譯。 這些轉譯可能大小不同、解析度不同、加上浮水印或其他已變更的特性。 如需AEM如何處理資產的詳細資訊，請參閱AEM檔案中的[使用媒體處理常式和工作流程處理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=zh-Hant)。
+AEM隨附一組預設工作流程和媒體控制代碼以處理資產。 在AEM中，有預先定義的工作流程可處理最常見MIME型別的資產處理。 一般而言，AEM會針對您上傳的每個影像，以二進位格式建立相同的多個轉譯。 這些轉譯可能大小不同、解析度不同、加上浮水印或其他已變更的特性。 如需AEM如何處理資產的詳細資訊，請參閱AEM檔案中的[使用媒體處理常式和工作流程處理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)。
 
 AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 例如，您可以選擇其中一個預設影像轉譯，或建立並使用相同的影像轉譯來發佈檔案。 發行檔案的影像轉譯對應儲存在`/libs/fmdita/config/ **renditionmap.xml**`檔案中。 `renditionmap.xml`檔案的片段如下：
 

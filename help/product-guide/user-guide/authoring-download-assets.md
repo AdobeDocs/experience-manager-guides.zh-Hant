@@ -4,29 +4,37 @@ description: 瞭解如何從AEM Guides的DITA map主控台下載檔案，以及�
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-TQID: https://experienceleague.adobe.com/xwz0wuugvwPsmIX78kuwv5te2NGcNTik-qoJvijRzzg
+TQID: 'https://experienceleague.adobe.com/xwz0wuugvwPsmIX78kuwv5te2NGcNTik-qoJvijRzzg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: '864'
 ht-degree: 0%
-
 ---
-
 # 下載檔案 {#id216MC0H0BE8}
 
-您可以下載資產，包括DITA和非DITA檔案。 您可以透過多種方式下載資產，有些是Adobe Experience Manager的原生方法，有些則受Adobe Experience Manager Guides支援。 如需原生Adobe Experience Manager資產下載資訊，請在Adobe Experience Manager檔案中檢視[從Adobe Experience Manager下載資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=zh-Hant)。 下節將說明在Experience Manager Guides中下載檔案的機制。
+您可以下載資產，包括DITA和非DITA檔案。 您可以透過多種方式下載資產，有些是Adobe Experience Manager的原生方法，有些則受Adobe Experience Manager Guides支援。 如需原生Adobe Experience Manager資產下載資訊，請在Adobe Experience Manager檔案中檢視[從Adobe Experience Manager下載資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)。 下節將說明在Experience Manager Guides中下載檔案的機制。
 
 ## 從編輯器下載DITA map檔案
 
@@ -49,13 +57,13 @@ ht-degree: 0%
 
    - **檔案階層選項**：您也可以使用檔案階層下拉式清單，選擇如何處理您下載之對應檔案的資料夾結構。 可使用的選項包括：
 
-      - **保留檔案階層**：從下拉式清單中選取此選項，以保留已下載檔案的現有資料夾結構。
-      - **平面化檔案階層**：從下拉式清單中選取此選項，可將所有參考的主題和媒體檔案下載到單一資料夾中。
+     - **保留檔案階層**：從下拉式清單中選取此選項，以保留已下載檔案的現有資料夾結構。
+     - **平面化檔案階層**：從下拉式清單中選取此選項，可將所有參考的主題和媒體檔案下載到單一資料夾中。
 
      對於每個選項，您可以進一步指定如何處理已下載檔案的檔案名稱。 下列檔案名稱選項可供使用：
 
-      - **使用GUID檔案名稱**：下載具有GUID的對應檔案做為檔案名稱。
-      - **使用實際的檔案名稱**：下載具有原始檔案名稱的對映檔案。 當此選項與「平面化」檔案階層一起使用時，地圖中的任何重複檔案名稱都會透過附加數字尾碼（_2、_3等）來自動解析，以確保檔案名稱是唯一的。
+     - **使用GUID檔案名稱**：下載具有GUID的對應檔案做為檔案名稱。
+     - **使用實際的檔案名稱**：下載具有原始檔案名稱的對映檔案。 當此選項與「平面化」檔案階層一起使用時，地圖中的任何重複檔案名稱都會透過附加數字尾碼（_2、_3等）來自動解析，以確保檔案名稱是唯一的。
 
    >[!NOTE]
    >
@@ -125,4 +133,4 @@ ht-degree: 0%
 
 下載地圖後，您可以選取地圖，並使用上方的「開啟」圖示來開啟下載的內容。
 
-**父級主題：**&#x200B;[&#x200B;管理內容](authoring.md)
+**父級主題：**[&#x200B;管理內容](authoring.md)

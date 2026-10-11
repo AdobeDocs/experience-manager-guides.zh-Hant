@@ -4,13 +4,28 @@ description: 瞭解如何在Experience Manager Guides中設定Git。
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
-
 ---
-
 # 從使用者介面建立及設定Git聯結器
 
 >[!NOTE]
@@ -42,17 +57,17 @@ ht-degree: 0%
    >* 暫留在 <img src="./assets/info-details.svg" alt= "資訊圖示" width="25">在欄位附近以檢視更多相關詳細資訊。
    >* 包含*的欄位為必填欄位。 例如，您可以為Git聯結器輸入下列詳細資訊。
 
-   &#x200B;- **名稱**：輸入資料來源的名稱。
-   &#x200B;- **目標AEM根路徑**：輸入應儲存從Git匯入之內容的AEM存放庫路徑。
-   &#x200B;- **檔案型別篩選（包含）**：指定匯入時要包含的檔案型別。
-   &#x200B;- **排除的路徑（規則運算式）**：指定要從匯入排除的路徑模式。
-   &#x200B;- **驗證型別**：從下拉式清單中選取驗證型別。 目前，**個人存取權杖(PAT)**&#x200B;是唯一支援的驗證方法。 在聯結器設定期間輸入PAT以驗證和存取Git存放庫。
+   - **名稱**：輸入資料來源的名稱。
+   - **目標AEM根路徑**：輸入應儲存從Git匯入之內容的AEM存放庫路徑。
+   - **檔案型別篩選（包含）**：指定匯入時要包含的檔案型別。
+   - **排除的路徑（規則運算式）**：指定要從匯入排除的路徑模式。
+   - **驗證型別**：從下拉式清單中選取驗證型別。 目前，**個人存取權杖(PAT)**&#x200B;是唯一支援的驗證方法。 在聯結器設定期間輸入PAT以驗證和存取Git存放庫。
 
      瞭解如何[產生GitHub個人存取權杖](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)。
 
      在GitHub產生PAT期間選取範圍時，請務必啟用下列範圍：
-     &#x200B;- **repo**：選取最上層核取方塊。 會自動選取所有子範圍，授與存放庫內容、認可狀態和部署的存取權。
-     &#x200B;- **管理員:org**：僅選取&#x200B;**讀取:org**。 這是解析組織和團隊成員資格所必需的。
+     - **repo**：選取最上層核取方塊。 會自動選取所有子範圍，授與存放庫內容、認可狀態和部署的存取權。
+     - **管理員:org**：僅選取&#x200B;**讀取:org**。 這是解析組織和團隊成員資格所必需的。
    * **存放庫URL**：輸入應從中匯入內容的Git存放庫URL。
    * **分支**：輸入用於內容匯入的分支。
 

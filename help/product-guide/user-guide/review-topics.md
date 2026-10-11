@@ -4,7 +4,7 @@ description: 瞭解如何在AEM Guides中檢閱主題並將功能作為檢閱者
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
+TQID: 'https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
     internal-label: Administration
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 subfeature_v2:
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
     internal-label: Introduction
@@ -30,7 +32,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3753'
 ht-degree: 0%
@@ -105,7 +107,7 @@ ht-degree: 0%
 1. 選取工具列右上角的&#x200B;**註解**&#x200B;圖示，開啟「註解」面板。
 
    從工具列選取適當的註解型別，然後按下Enter鍵以提交您的註解，以提供評論註解。
-   註解方塊支援多行專案，可讓使用者視需要展開該方塊以提供詳細的意見反應。 您可以在撰寫評論時使用&#x200B;**Shift** + **Enter**&#x200B;移至下一行。
+   註解方塊支援多行專案，可讓使用者視需要展開該方塊以提供詳細的意見反應。 您可以在撰寫評論時使用**Shift** + **Enter**&#x200B;移至下一行。
 
    >[!NOTE]
    >
@@ -243,7 +245,7 @@ ht-degree: 0%
 
 - 選取註解會反白顯示檔案中的對應註解位置。
 - 您可以新增評論的回覆。
-- 您可以在[註解]面板中選取註解文字，然後從[選項]功能表選擇[編輯] **&#x200B;**，編輯您自己的註解。
+- 您可以在[註解]面板中選取註解文字，然後從[選項]功能表選擇[編輯] ****，編輯您自己的註解。
 - 您可以在「註解」面板中選取註解，然後從「選項」功能表中選擇「**刪除**」選項，刪除您自己的註解。
 
   ![](images/review-comment-options-menu.png){width="300"}
@@ -441,4 +443,4 @@ ht-degree: 0%
 
 ![](images/version-history-dialog.png)
 
-**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)
+**父級主題：**[&#x200B;檢閱簡介](review.md)

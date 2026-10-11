@@ -2,20 +2,26 @@
 title: 發行說明 |修正2024.10.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2024.10.0版中的錯誤修正。
 exl-id: d23552a1-8f15-4a05-9317-f383dea3253d
-source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 6%
-
 ---
-
 # 2024.10.0版本中的已修正問題
 
 本文介紹2024.10.0版Adobe Experience Manager Guides as a Cloud Service中不同區域修正的錯誤。
 
 如需新功能和增強功能的詳細資訊，請參閱 [2024.10.0 版本中的新增功能](whats-new-2024-10-0.md)。
 
-瞭解2024.10.0 [&#128279;](upgrade-instructions-2024-10-0.md)版的升級指示。
+瞭解2024.10.0 ](upgrade-instructions-2024-10-0.md)版的[升級指示。
 
 
 ## 製作

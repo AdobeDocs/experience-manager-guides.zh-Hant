@@ -5,18 +5,33 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1240'
 ht-degree: 0%
-
 ---
-
 # 從使用者介面設定資料來源聯結器
 
 Experience Manager Guides隨附&#x200B;**資料來源**&#x200B;工具，可協助您設定資料來源的現成聯結器。 您可以設定JIRA、SQL (MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce、Elasticsearch和一般REST使用者端聯結器。
 
-除了這些現成可用的聯結器外，Experience Manager Guides僅適用於Cloud Service設定，還提供Salsify、Akeneo和Microsoft Azure DevOps Boards (ADO)資料來源的聯結器。您可以從[Maven中央存放庫](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)下載並安裝這些開放原始碼聯結器。接著，使用者即可設定這些聯結器。
+除了這些現成可用的聯結器外，Experience Manager Guides僅適用於Cloud Service設定，還提供Salsify、Akeneo和Microsoft Azure DevOps Boards (ADO)資料來源的聯結器。 您可以從[Maven中央存放庫](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)下載並安裝這些開放原始碼聯結器。 接著，使用者即可設定這些聯結器。
 瞭解如何[安裝開放原始碼聯結器](#install-open-source-connector)。
 
 您也可以使用檔案聯結器來連線至JSON資料檔案。 從您的電腦上傳JSON檔案，或從Adobe Experience Manager資產瀏覽該檔案。 然後，使用產生器建立內容片段或主題。
@@ -162,11 +177,11 @@ Experience Manager Guides隨附&#x200B;**資料來源**&#x200B;工具，可協�
 
 * **重新連線**：重新連線到中斷連線的聯結器。
 
-* **重複**：使用目前的聯結器做為基底來建立新的重複聯結器。根據預設，會以尾碼（如connectorname_1）建立重複的聯結器。例如，sample-elastic-search_1。
+* **重複**：使用目前的聯結器做為基底來建立新的重複聯結器。 根據預設，會以尾碼（如connectorname_1）建立重複的聯結器。 例如，sample-elastic-search_1。
 如果同名的聯結器存在，則會檢視錯誤。
 
 * **刪除**：刪除選取的聯結器。
 
 設定資料來源後，聯結器會列在編輯器的&#x200B;**資料來源面板**&#x200B;下。 然後，您可以連線至資料來源，並將內容片段插入主題中。 如需詳細資訊，請檢視[插入資料來源的內容片段](../user-guide/web-editor-content-snippet.md)。
 
-僅適用於On-Premise設定，您也可以建立自訂聯結器，並將其用於不同的資料來源。 瞭解如何[設定自訂聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)。
+僅適用於On-Premise設定，您也可以建立自訂聯結器，並將其用於不同的資料來源。 瞭解如何[設定自訂聯結器](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)。

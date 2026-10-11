@@ -5,29 +5,41 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-TQID: https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ
+TQID: 'https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2755
+source-wordcount: '2766'
 ht-degree: 0%
-
 ---
-
 # 網頁編輯器中的AEM Sites預設集
 
 
@@ -58,8 +70,8 @@ Experience Manager Guides為建立AEM Sites提供預先定義的範本。 這些
 >[!NOTE]
 >
 >在為Experience Manager Guides設定AEM Sites預設集之前，您的管理員需要使用範本建立AEM Sites結構。
->- **內部部署軟體**：深入瞭解如何[下載並安裝內部部署軟體的AEM Sites範本](/help/product-guide/install-guide/download-install-aem-sites-templates.md)。
->- **Cloud Service**：進一步瞭解如何[下載並安裝適用於Cloud Service的AEM Sites範本](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)。
+- **內部部署軟體**：深入瞭解如何[下載並安裝內部部署軟體的AEM Sites範本](/help/product-guide/install-guide/download-install-aem-sites-templates.md)。
+- **Cloud Service**：進一步瞭解如何[下載並安裝適用於Cloud Service的AEM Sites範本](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)。
 
 
 
@@ -91,11 +103,11 @@ Experience Manager Guides為建立AEM Sites提供預先定義的範本。 這些
 - 發佈路徑
 - 主題頁面範本
 - 根據以下條件產生頁面名稱：
-   - 主題檔案名稱
-   - 主題標題
+  - 主題檔案名稱
+  - 主題標題
 - 清理先前產生的頁面
-   - 為從地圖中移除的主題刪除先前產生的頁面
-   - 刪除此路徑下其他來源建立的所有頁面：
+  - 為從地圖中移除的主題刪除先前產生的頁面
+  - 刪除此路徑下其他來源建立的所有頁面：
 - 貼文產生工作流程
 
 
@@ -108,8 +120,8 @@ Experience Manager Guides為建立AEM Sites提供預先定義的範本。 這些
 - 條件篩選
 - 其他DITA-OT命令列引數
 - 後設資料
-   - 檔案(Assets)屬性
-   - 使用對應屬性作為遞補
+  - 檔案(Assets)屬性
+  - 使用對應屬性作為遞補
 
 
 如需詳細資訊，請參閱[AEM Sites設定](#aem_sites_config)。
@@ -208,7 +220,7 @@ Experience Manager Guides可讓您使用`peer @scope`建立主題參考，簡化
    - 適用於從地圖儀表板建立的預設集。 請參閱出現的「對應」控制面板工具提示。
    - 如需OOTB預設集的相關資訊，請參閱地圖控制面板工具提示出現。
    - 對於全域預設集，請建立此全域預設集的本機副本，以設定交叉對映參照。
-如果您想要從網頁編輯器使用AEM Sites預設集，請建立新預設集或複製現有預設集。
+     如果您想要從網頁編輯器使用AEM Sites預設集，請建立新預設集或複製現有預設集。
 
 1. 開啟&#x200B;**交叉對應參考**&#x200B;標籤。
 
@@ -224,7 +236,7 @@ Experience Manager Guides可讓您使用`peer @scope`建立主題參考，簡化
 
    ![交叉對應參考](images/aem-sites-cross-map-references.png)
 
-1. 如果要使用地圖中每個相依檔案最近發佈的輸出，請選取&#x200B;**對所有相依主題使用最近產生的**&#x200B;發佈內容。
+1. 如果要使用地圖中每個相依檔案最近發佈的輸出，請選取&#x200B;**對所有相依主題使用最近產生的**發佈內容。
 在發佈包含連結主題的地圖之前，您應該發佈選取為父對映的地圖。 如果含有已連結主題的地圖未發佈，則連結會在AEM Sites輸出中顯示為普通文字，而非超連結。
 您應該為連結的主題選取相同型別的AEM Sites預設集。 例如，如果目前的AEM Sites預設集使用舊版元件對應，則選取連結主題的類似AEM Sites預設集。
 1. 在「父對映」下拉式清單中，選取要與其輸出連結目前對映輸出的對映檔案。

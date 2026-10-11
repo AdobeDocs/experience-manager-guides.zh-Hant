@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: a456027a-56a4-48c0-a79b-2f423692abc2
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
-
 ---
-
 # 為Cloud Service設定單一主題PDF產生方式
 
 透過AEM Guides，您可以產生個別主題的PDF或整個地圖檔案。 您可以使用原生PDF或DITA-OT方法，以PDF格式發佈主題。 使用原生PDF方法，根據W3C CSS3和CSS分頁媒體標準產生功能豐富的PDF輸出。 您可以使用DITA-OT方法，從地圖儀表板為地圖產生PDF輸出。
@@ -59,4 +74,4 @@ ht-degree: 0%
 
 執行上述指定步驟後，如果您從編輯器的「使用者偏好設定」中選擇相同的資料夾設定檔，您將在主題的預覽模式中看到PDF產生的選項。
 
-**父級主題：**&#x200B;[&#x200B;自訂編輯器](customize-overview.md)
+**父級主題：**[&#x200B;自訂編輯器](customize-overview.md)

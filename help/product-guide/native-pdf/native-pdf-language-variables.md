@@ -5,19 +5,28 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
+TQID: 'https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -132,7 +141,7 @@ Experience Manager Guides支援匯出和匯入以所選語言呈現的語言變�
 >[!NOTE]
 > 
 ><ul><li>如果檔案不是XML檔案，或如果檔案包含不正確的格式，且未與語言變數對應，您會檢視錯誤，指出XML檔案有問題。 
->&gt;<li>如果檔案未包含具有相同ID的變數，您會檢視警告，指出匯入的檔案中找不到相符的語言變數。
+&gt;<li>如果檔案未包含具有相同ID的變數，您會檢視警告，指出匯入的檔案中找不到相符的語言變數。
 
 ### 語言變數的選項
 
@@ -140,10 +149,10 @@ Experience Manager Guides支援匯出和匯入以所選語言呈現的語言變�
 
 <img width="550" alt="語言變數的選項選單" src="./assets/language-variable-user-options.png">
 
-*使用&#x200B;**選項**&#x200B;功能表來刪除、預覽或複製語言變數。*
+*使用&#x200B;**選項**功能表來刪除、預覽或複製語言變數。*
 
 您可以預覽應用程式和使用者變數。 若要檢視變數值在輸出中的顯示方式，請從所選變數的&#x200B;**選項**&#x200B;選單中選取&#x200B;**預覽**。
-您也可以選擇&#x200B;**刪除**&#x200B;或&#x200B;**複製**&#x200B;使用者變數。 從一種語言刪除變數會自動從所有語言刪除它。
+您也可以選擇**刪除**&#x200B;或&#x200B;**複製**&#x200B;使用者變數。 從一種語言刪除變數會自動從所有語言刪除它。
 
 ### 編輯或還原應用程式變數
 

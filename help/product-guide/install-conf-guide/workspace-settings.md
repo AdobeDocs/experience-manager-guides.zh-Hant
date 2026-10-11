@@ -4,7 +4,20 @@ description: 瞭解Experience Manager Guides編輯器介面中可用的各種設
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 0%
@@ -13,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在5.2版之前的內部部署設定中，**設定**&#x200B;選項會出現在編輯器的索引標籤列中。 對於5.2版及更新版本的Cloud Service及內部部署設定，此選項已重新命名為&#x200B;**Workspace設定**。 在&#x200B;**編輯器設定**&#x200B;下可用的所有現有設定選項維持不變。
+> 在5.2版之前的內部部署設定中，**設定**&#x200B;選項會出現在編輯器的索引標籤列中。 對於5.2版及更新版本的Cloud Service及內部部署設定，此選項已重新命名為&#x200B;**Workspace設定**。 在&#x200B;**編輯器設定**下可用的所有現有設定選項維持不變。
 > ![內部部署](assets/editor-settings-on-prem.png){width="650"}的編輯器設定
 
 
@@ -281,9 +294,9 @@ ht-degree: 0%
 
 工作區設定中的![中繼資料索引標籤](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-*設定&#x200B;**版本記錄**&#x200B;對話方塊的中繼資料。*
+*設定&#x200B;**版本記錄**對話方塊的中繼資料。*
 
 
 
 您也可以定義這些中繼資料標籤的顯示順序。 若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
-中繼資料標籤會以相同的順序顯示在編輯器的&#x200B;**版本記錄**&#x200B;對話方塊中。
+中繼資料標籤會以相同的順序顯示在編輯器的**版本記錄**&#x200B;對話方塊中。

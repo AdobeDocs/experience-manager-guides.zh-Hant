@@ -5,27 +5,40 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
-TQID: https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ
+TQID: 'https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 951
+source-wordcount: '951'
 ht-degree: 1%
-
 ---
-
 # 為AEM Guides自訂現有的AEM網站範本
 
 本指南提供逐步指示，讓您自訂現有的AEM網站範本，以便與AEM Guides搭配使用，從DITA map和主題產生AEM Sites。
@@ -40,8 +53,8 @@ ht-degree: 1%
 - 您已有使用可編輯範本建立的現有網站階層。
 - 您現有專案中至少有兩個範本：
 
-   - **檔案容器頁面範本**&#x200B;用於將DITA map呈現為檔案根。
-   - **主題頁面範本**&#x200B;用於呈現個別DITA主題頁面。
+  - **檔案容器頁面範本**&#x200B;用於將DITA map呈現為檔案根。
+  - **主題頁面範本**&#x200B;用於呈現個別DITA主題頁面。
 
 ## 範本命名考量事項
 
@@ -88,8 +101,8 @@ ht-degree: 1%
   ![正在新增具有必要屬性的文字元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - 在網站產生期間，此預留位置會取代為DITA主題的實際內容。
-   - 文字元件通常置於&#x200B;**Container元件**&#x200B;內，以確保配置與樣式正確無誤。
-   - 可以自訂以包含所有主題頁面一致的頁首、頁尾和導覽元素。
+  - 文字元件通常置於&#x200B;**Container元件**&#x200B;內，以確保配置與樣式正確無誤。
+  - 可以自訂以包含所有主題頁面一致的頁首、頁尾和導覽元素。
 
 **範例使用案例：**
 如果您有有關「安裝指示」的DITA主題，主題頁面範本將會產生顯示該主題內容的頁面。
@@ -154,4 +167,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 請務必先在非生產環境中測試範本，然後再部署到生產環境。<br><br>如需詳細資訊，請參閱正式[AEM Guides](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/get-started/authoring)檔案。
+> 請務必先在非生產環境中測試範本，然後再部署到生產環境。<br><br>如需詳細資訊，請參閱正式[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring)檔案。

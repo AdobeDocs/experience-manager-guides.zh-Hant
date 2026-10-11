@@ -5,21 +5,31 @@ exl-id: d7603b4e-aae4-48ca-be84-8edb51626405
 feature: Document State
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/sDWJCeqSE4fG9FmwahbMjSRFD5ElM7UNlY-BR3hhzfk
+TQID: 'https://experienceleague.adobe.com/sDWJCeqSE4fG9FmwahbMjSRFD5ElM7UNlY-BR3hhzfk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1139
+source-wordcount: '1139'
 ht-degree: 0%
-
 ---
-
 # 設定檔案狀態 {#id181GB0400UI}
 
 AEM Guides可讓您根據組織的需求定義DITA主題的檔案狀態。 您可以從頭到尾定義檔案的不同狀態。 例如，第一個狀態可以是「草稿」，可以移至「稽核」、「已核准」、「已翻譯」，最後移至「已發佈」。
@@ -58,7 +68,7 @@ AEM Guides隨附一組預設檔案狀態。 這些狀態包括：
 
      按一下&#x200B;**新增**&#x200B;按鈕以新增檔案狀態。
 
-      - 按一下「刪除」圖示可刪除檔案狀態。
+     - 按一下「刪除」圖示可刪除檔案狀態。
 
      >[!NOTE]
      >
@@ -68,11 +78,11 @@ AEM Guides隨附一組預設檔案狀態。 這些狀態包括：
    - 在&#x200B;**結束狀態**&#x200B;中指定檔案的結束狀態。
    - 在&#x200B;**狀態轉換**&#x200B;下的&#x200B;**從**&#x200B;到&#x200B;**到**&#x200B;中指定檔案的狀態轉換。
 
-      - 指定可以在&#x200B;**群組**&#x200B;中變更檔案狀態的使用者和使用者群組。
+     - 指定可以在&#x200B;**群組**&#x200B;中變更檔案狀態的使用者和使用者群組。
 
-      - 按一下&#x200B;**新增**&#x200B;按鈕以新增狀態轉換。
+     - 按一下&#x200B;**新增**&#x200B;按鈕以新增狀態轉換。
 
-      - 按一下「刪除」圖示以刪除狀態轉換。
+     - 按一下「刪除」圖示以刪除狀態轉換。
 
      >[!NOTE]
      >

@@ -5,13 +5,28 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 1%
-
 ---
-
 # Experience Manager Guides和Edge Delivery Services
 
 Adobe Experience Manager Guides可讓您透過專用的GitHub型發佈設定檔，直接將DITA內容發佈至Edge Delivery Services (EDS)。 此功能可讓組織提供高效能、回應式檔案體驗，同時在Experience Manager Guides中維護DITA型撰寫工作流程。
@@ -24,7 +39,7 @@ Adobe Experience Manager Guides可讓您透過專用的GitHub型發佈設定檔�
 2. [在Experience Manager Guides中為EDS建立並設定發佈設定檔](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [使用EDS區塊自訂輸出](#customize-output-using-eds-blocks)
 
-如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
+如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
 
 
 
@@ -154,7 +169,7 @@ EDS會從`fstab.yaml`檔案中定義為&#x200B;*掛接點* URL的GitHub存放庫
 
    ![](assets/eds-install-eds-app.png){width="650"}
 
-5. 透過AEM程式碼同步[&#128279;](#connect-github-to-adobe-via-aem-code-sync)區段從連線GitHub至Adobe重複步驟2和3，以授權存放庫。
+5. 透過AEM程式碼同步](#connect-github-to-adobe-via-aem-code-sync)區段從[連線GitHub至Adobe重複步驟2和3，以授權存放庫。
 
 ## 在Experience Manager中為EDS建立並設定發佈設定檔
 

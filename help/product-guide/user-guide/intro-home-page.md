@@ -4,7 +4,18 @@ description: 瞭解Adobe Experience Manager Guides的首頁。
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2331'
 ht-degree: 0%
@@ -179,7 +190,7 @@ Experience Manager Guides可讓您使用名為&#x200B;**地圖集合**&#x200B;�
 
 當您在系統上執行大量發佈作業時，幾乎不可能個別檢查每個DITA map以監視其發佈作業。 Experience Manager Guides可讓管理員和發佈者統一檢視系統中執行的所有發佈任務。
 
-若要使用此功能，請從左側面板選取&#x200B;**發佈佇列**。 這會帶您進入Assets UI中的「發佈」儀表板頁面，您可在其中使用發佈儀表板[&#128279;](./generate-output-publish-dashboard.md)管理發佈任務。
+若要使用此功能，請從左側面板選取&#x200B;**發佈佇列**。 這會帶您進入Assets UI中的「發佈」儀表板頁面，您可在其中使用發佈儀表板](./generate-output-publish-dashboard.md)管理[發佈任務。
 
 ### 使用者偏好設定
 

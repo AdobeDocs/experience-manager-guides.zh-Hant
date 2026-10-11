@@ -1,7 +1,15 @@
 ---
 title: 發行說明 | Adobe Experience Manager Guides 5.2.0 Service Pack 1版本的升級指示
 description: 瞭解相容性矩陣，以及如何升級至Adobe Experience Manager Guides的5.2.0 Service Pack 1版本。
-source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 3%
@@ -10,9 +18,9 @@ ht-degree: 3%
 
 本文介紹Adobe Experience Manager Guides 5.2.0 Service Pack 1版的升級指示和相容性矩陣。
 
-如需新功能和增強功能的詳細資訊，請檢視[&#x200B; 5.2.0 Service Pack 1版本的新增功能](../release-info/whats-new-5-2-1.md)。
+如需新功能和增強功能的詳細資訊，請檢視[ 5.2.0 Service Pack 1版本的新增功能](../release-info/whats-new-5-2-1.md)。
 
-如需此版本中已修正的問題清單，請檢視5.2.0 Service Pack 1版本[&#128279;](../release-info/fixed-issues-5-2-0-sp1.md)中的已修正問題。
+如需此版本中已修正的問題清單，請檢視5.2.0 Service Pack 1版本](../release-info/fixed-issues-5-2-0-sp1.md)中的[已修正問題。
 
 ## 相容性矩陣
 
@@ -34,7 +42,7 @@ ht-degree: 3%
 |---|---|---|----|
 | 5.2.0 Service Pack 1 (UUID) | 5.2.2 | [AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-如需更多詳細資料，請檢視[從Maven中央存放庫設定及使用API JAR](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/api-reference/introduction)。
+如需更多詳細資料，請檢視[從Maven中央存放庫設定及使用API JAR](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)。
 
 
 ### FrameMaker和FrameMaker Publishing Server
@@ -79,7 +87,7 @@ ht-degree: 3%
 >
 > - **適用於AEM 6.5 LTS**： Experience Manager Guides 5.2.0 Service Pack 1僅支援AEM 6.5 LTS Service Pack 2。
 > - **適用於AEM 6.5**： Experience Manager Guides 5.2.0 Service Pack 1僅支援AEM 6.5 Service Pack 24、23和22。
-> - 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.2.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> - 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.2.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 > - 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 Service Pack 24或更新版本，請務必先完成AEM升級。 完成後，請重新安裝Experience Manager Guides 5.2.0。 安裝Experience Manager Guides 5.2.1之前。
 
 在繼續升級至Experience Manager Guides 5.2.0 Service Pack 1版之前，您必須先考量下列幾點：

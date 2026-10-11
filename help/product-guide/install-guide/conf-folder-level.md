@@ -5,36 +5,54 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/YhhyPK2yQ7uarXyRP1OVfYtbAjYtcA0j6rb2YQ-CTKc
+TQID: 'https://experienceleague.adobe.com/YhhyPK2yQ7uarXyRP1OVfYtbAjYtcA0j6rb2YQ-CTKc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
   - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3974
+source-wordcount: '3974'
 ht-degree: 0%
-
 ---
-
 # 設定全域或資料夾層級設定檔 {#id181AH2003PF}
 
 在企業中，不同的群組或產品可能會使用不同的編寫範本、輸出範本、條件屬性設定檔\（或主旨配置\）和網頁編輯器設定。 僅在企業層級\（或全域\）設定這些專案，可能會讓作者體驗困難，因為他們會看到與他們無關的範本或設定檔。
@@ -53,21 +71,21 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
 
 - **製作範本**：使用此標籤來設定您的作者用來建立DITA內容的範本。 下列主題範本為現成可用：
 
-   - 字彙表
+  - 字彙表
 
-   - 參照
+  - 參照
 
-   - 主題
+  - 主題
 
-   - 概念
+  - 概念
 
-   - 任務
+  - 任務
 
-   - 疑難排解
+  - 疑難排解
 
-   - 空白
+  - 空白
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -75,31 +93,31 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
 
   除了主題範本以外，您也可以定義作者可用的對映範本。 下列地圖範本為現成可用：
 
-   - 地圖
+  - 地圖
 
-   - 書籤
+  - 書籤
 
 - **輸出預設集**：與製作範本類似，有五個預先設定的輸出預設集：
 
-   - AEM網站
+  - AEM網站
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - ePub
+  - ePub
 
-   - 自訂
+  - 自訂
 
   發佈者可以使用這些立即可用的輸出預設集來發佈內容。 這些預設集可由全域或資料夾層級設定檔的管理員設定。 設定之後，發佈預設集將可供發佈者用於新建立的DITA map。 您也可以將發佈預設集套用至現有的DITA map，請參閱[套用預設集變更](#id18AGD0K0OHS)以取得詳細資料。
 
 - **XML編輯器設定**：使用此標籤來自訂Web編輯器的外觀和各種功能。 Web編輯器可使用下列可配置的設定：
 
-   - XML編輯器UI設定
-   - CSS範本佈局
-   - XML編輯器代碼片段
-   - XML內容版本標籤
-   - Rootmap \（僅在資料夾層級\）
+  - XML編輯器UI設定
+  - CSS範本佈局
+  - XML編輯器代碼片段
+  - XML內容版本標籤
+  - Rootmap \（僅在資料夾層級\）
 
 您可以同時設定 — 全域設定檔和資料夾層級的設定檔。 在資料夾層級設定檔中，您可以定義將套用設定的資料夾。 這些設定包括條件屬性、製作範本、輸出預設集和XML編輯器設定。 條件預設集、編寫範本和XML編輯器設定隨後可供在設定的資料夾中工作的作者使用。 同樣地，發佈者將可存取在已設定資料夾中定義的已設定輸出預設集。
 
@@ -225,7 +243,7 @@ AEM Guides可讓您在企業\（全域\）層級和檔案夾層級設定編寫\�
 
 1. 如果您想要為相同屬性新增更多值，請按一下&#x200B;**+**&#x200B;圖示並輸入其他值和標籤。
 
-1. 若要新增更多屬性，請按一下[新增]。**&#x200B;**
+1. 若要新增更多屬性，請按一下[新增]。****
 
 1. 按一下&#x200B;**儲存**。
 
@@ -390,7 +408,7 @@ AEM Guides可讓管理員使用特定設定建立輸出預設集，然後供所�
 
 1. 執行下列任一項作業，以建立或編輯輸出預設集：
 
-   - 按一下[建立&#x200B;**&#x200B;**]從頭開始建立新的輸出預設集。
+   - 按一下[建立&#x200B;****]從頭開始建立新的輸出預設集。
    - 按一下「複製」以建立所選輸出預設集的副本。 您可以變更並儲存重複的預設集。
 
    - 按一下&#x200B;**編輯**，開啟選取的預設集組態以進行編輯。

@@ -5,23 +5,30 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
-TQID: https://experienceleague.adobe.com/UT48gVRQ-ncVRjqx-b7Td-b8EddTqyKy3rLm7Vd3Ftk
+TQID: 'https://experienceleague.adobe.com/UT48gVRQ-ncVRjqx-b7Td-b8EddTqyKy3rLm7Vd3Ftk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: '634'
 ht-degree: 0%
-
 ---
-
 # 發佈Adobe Experience Manager Sites頁面
 
 
@@ -42,7 +49,7 @@ Experience Manager Sites頁面是指在Adobe Experience Manager網站上發佈�
 1. 選取&#x200B;**網站頁面**。
 
 
-1. 在&#x200B;**產生網站頁面**&#x200B;對話方塊中，填入下列詳細資料：
+1. 在&#x200B;**產生網站頁面**對話方塊中，填入下列詳細資料：
    ![在[產生網站]頁面中新增路徑與範本詳細資料](images/aem-sites-page-generate.png){width="500"}
 
    *新增路徑、標題、名稱和範本詳細資訊，將主題或其元素發佈為Sites頁面。 *
@@ -56,9 +63,9 @@ Experience Manager Sites頁面是指在Adobe Experience Manager網站上發佈�
    * 您也可以選取不同的條件來發佈內容。  選取下列其中一個選項：
 
 
-      * **無**：如果您不想在發佈的輸出上套用任何條件，請選取此選項。
-      * **使用DITAVAL**：選取DITAVAL檔案以產生個人化內容。 您可以使用瀏覽對話方塊或輸入檔案路徑來選取DITAVAL檔案。
-      * **使用屬性**：您可以在DITA主題中定義條件屬性。 然後，選取條件屬性以發佈相關內容。
+     * **無**：如果您不想在發佈的輸出上套用任何條件，請選取此選項。
+     * **使用DITAVAL**：選取DITAVAL檔案以產生個人化內容。 您可以使用瀏覽對話方塊或輸入檔案路徑來選取DITAVAL檔案。
+     * **使用屬性**：您可以在DITA主題中定義條件屬性。 然後，選取條件屬性以發佈相關內容。
 
      >[!NOTE]
      > 

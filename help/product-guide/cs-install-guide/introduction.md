@@ -5,42 +5,66 @@ exl-id: cdd40267-3f0c-40d2-acbc-2ebe43633c2f
 feature: Introduction
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/AVKmd4mTg5Td4or3-8LB1hXxpv9G89430Et8ZATtTsw
+TQID: 'https://experienceleague.adobe.com/AVKmd4mTg5Td4or3-8LB1hXxpv9G89430Et8ZATtTsw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: a7a242db-c88c-4e44-818b-bfb4ef92efdf
+    internal-label: Permissions
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: b88be3fe-792c-484d-8262-9f667de75c8d
+    internal-label: Version management
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f551224f-631f-46f8-b8fc-67744f995ba0
+    internal-label: Onboarding
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+    internal-label: Content and assets
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 767
+source-wordcount: '767'
 ht-degree: 6%
-
 ---
-
 # 關於本指南 {#id175MC0P0S5Z}
 
 Adobe Experience Manager Guides \（後來稱為&#x200B;*AEM Guides*\）是功能強大、以雲端為基礎的企業級元件內容管理解決方案\(CCMS\)。 如此可啟用Adobe Experience Manager中的原生DITA支援，使AEM能夠處理以DITA為主的內容建立和傳遞。 它可讓作者使用簡單易用的內建網頁編輯器建立內容，並發佈成各種輸出格式。
@@ -93,18 +117,18 @@ Adobe Experience Manager Guides \（後來稱為&#x200B;*AEM Guides*\）是功�
 
 ## Adobe Experience Manager概觀\(AEM\)
 
-[Adobe Experience Manager \(AEM\)](https://business.adobe.com/tw/products/experience-manager/adobe-experience-manager.html)是用於建置網站、行動應用程式和表單的全方位內容管理解決方案。 AEM可協助您管理行銷內容和資產。 AEM適用於as a Cloud Service。 AEM as a Cloud Service結合AEM內容管理系統的強大功能與AEM數位資產管理，協助您為客戶提供內容導向的個人化體驗。以下是一些可幫助您開始使用並部署至AEM as a Cloud Service的關鍵資源：
+[Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)是用於建置網站、行動應用程式和表單的全方位內容管理解決方案。 AEM可協助您管理行銷內容和資產。 AEM適用於as a Cloud Service。 AEM as a Cloud Service結合AEM內容管理系統的強大功能與AEM數位資產管理，協助您為客戶提供內容導向的個人化體驗。以下是一些可幫助您開始使用並部署至AEM as a Cloud Service的關鍵資源：
 
-- [Experience Manager as a Cloud Service概觀](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=zh-Hant)
-- [開始遷移至 AEM as a Cloud Service 的歷程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=zh-Hant)
-- [開始使用Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=zh-Hanthttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
-- [為 AEM as a Cloud Service 實作應用程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=zh-Hant)
-- [部署至 AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=zh-Hant)
+- [Experience Manager as a Cloud Service概觀](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
+- [開始遷移至 AEM as a Cloud Service 的歷程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
+- [開始使用Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [為 AEM as a Cloud Service 實作應用程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=en)
+- [部署至 AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en)
 - [Assets as a Cloud Service指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=tw)
 
 ## 其他資源
 
-以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/tw/support/xml-documentation-for-experience-manager.html)頁面上取得：
+以下是AEM Guides其他實用資源的清單，這些資源可在[學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)頁面上取得：
 
 - 使用手冊
 - API參考指南

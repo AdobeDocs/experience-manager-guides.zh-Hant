@@ -4,34 +4,51 @@ description: 瞭解Adobe Experience Manager Guides 4.3.0版中的新功能和增
 exl-id: 36decbf0-ec9d-43e2-99b7-85b0f9a87bc1
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/N-4hVzb2vN6fLLIFtyftHhzK94G7Q14Knj1-1Y9nGHE
+TQID: 'https://experienceleague.adobe.com/N-4hVzb2vN6fLLIFtyftHhzK94G7Q14Knj1-1Y9nGHE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Insights
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2242
+source-wordcount: '2705'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides 4.3.0版的新增功能（2023年7月）
 
 本文介紹Adobe Experience Manager Guides 4.3.0版（後來稱為&#x200B;*AEM Guides*）中的新功能和增強功能。
@@ -43,7 +60,7 @@ ht-degree: 0%
 
 現在您可以使用AEM Guides的現成可用聯結器快速連線至資料來源。 連線至資料來源可讓您將資訊與來源保持同步，且資料的任何更新都會自動反映在網站上，讓AEM Guides成為真正的內容中心。 此功能可協助您節省手動新增或複製資料的時間和精力。
 
-AEM Guides可讓您的管理員為JIRA和SQL (MySQL、PostgreSQL、SQL Server、SQLite)資料庫設定現成的聯結器。它們也可以藉由擴充預設介面來新增其他聯結器。
+AEM Guides可讓您的管理員為JIRA和SQL (MySQL、PostgreSQL、SQL Server、SQLite)資料庫設定現成的聯結器。 它們也可以藉由擴充預設介面來新增其他聯結器。
 新增後，您可以在網頁編輯器的「資料來源」面板下檢視已設定的聯結器。
 
 <img src="assets/data-sources.png" alt="面板中的資料來源清單" width="300">
@@ -92,8 +109,8 @@ AEM Guides現在提供改良的檢閱功能，包括以下功能：
 
 ### 搜尋稽核主題
 
-審查是AEM Guides的重要功能。它有助於稽核者稽核指派給他們的檔案。
-現在，您可以在檢閱面板的主題檢視的搜尋列中，輸入標題或檔案路徑的部分文字，以搜尋主題。您也可以選擇檢視所有主題或檢視含有註解的主題。依預設，您可以檢視稽核任務中存在的所有主題。
+審查是AEM Guides的重要功能。 它有助於稽核者稽核指派給他們的檔案。
+現在，您可以在檢閱面板的主題檢視的搜尋列中，輸入標題或檔案路徑的部分文字，以搜尋主題。 您也可以選擇檢視所有主題或檢視含有註解的主題。 依預設，您可以檢視稽核任務中存在的所有主題。
 
 
 ![在評論主題面板中搜尋](assets/review-search-topic.png){width="800"}
@@ -112,12 +129,12 @@ AEM Guides現在提供改良的檢閱功能，包括以下功能：
 
 ### 支援語言變數
 
-AEM Guides支援語言變數。您可以使用語言變數來定義PDF輸出中的現成可用標籤（例如「注意」、「警告」和「警告」或靜態文字）本地化版本。
+AEM Guides支援語言變數。 您可以使用語言變數來定義PDF輸出中的現成可用標籤（例如「注意」、「警告」和「警告」或靜態文字）本地化版本。
 您可以將語言變數或當地語系化的標籤版本新增至PDF輸出和輸出範本中的適當區段。
 
 #### PDF輸出中的語言變數
 
-您可以使用語言變數來定義「注意」、「警告」等元素的本地化標籤。您可以更新一或多個語言中這些變數的值，然後系統會自動在PDF輸出中挑選當地語系化的值。
+您可以使用語言變數來定義「注意」、「警告」等元素的本地化標籤。 您可以更新一或多個語言中這些變數的值，然後系統會自動在PDF輸出中挑選當地語系化的值。
 例如，您可以在PDF輸出中以下列方式呈現標籤「附註」：
 
 * 英文：備註
@@ -126,8 +143,8 @@ AEM Guides支援語言變數。您可以使用語言變數來定義PDF輸出中�
 
 #### 輸出範本中的語言變數
 
-如果您想要以各種語言建立PDF輸出，則必須建立不同的PDF範本，其中包含每種語言的本地化文字。現在有了語言變數功能，您只需要建立範本一次。然後針對您需要當地語系化的任何靜態文字，您可以建立對應的語言變數，並在範本中使用這些變數。
-您可以為較長的文字建立語言變數，例如整個句子或甚至段落。您也可以套用樣式，並使用HTML標籤來格式化這些語言變數。
+如果您想要以各種語言建立PDF輸出，則必須建立不同的PDF範本，其中包含每種語言的本地化文字。 現在有了語言變數功能，您只需要建立範本一次。 然後針對您需要當地語系化的任何靜態文字，您可以建立對應的語言變數，並在範本中使用這些變數。
+您可以為較長的文字建立語言變數，例如整個句子或甚至段落。 您也可以套用樣式，並使用HTML標籤來格式化這些語言變數。
 
 如需詳細資訊，請檢視[語言變數的支援](../native-pdf/native-pdf-language-variables.md)。
 
@@ -188,7 +205,7 @@ AEM Guides支援語言變數。您可以使用語言變數來定義PDF輸出中�
 您可以使用變數來定義互動參照。 使用變數時，系統會從屬性中挑選變數值。
 
 現在您也可以使用{figure}和{table}。
-使用{figure}新增圖數的互動參照。它會從您為圖形定義的自動編號樣式中挑選圖形編號。
+使用{figure}新增圖數的互動參照。 它會從您為圖形定義的自動編號樣式中挑選圖形編號。
 
 使用{table}新增資料表編號的互動參照。 它會從您為註解定義的自動編號樣式中挑選表格編號。
 
@@ -237,7 +254,7 @@ AEM Guides支援語言變數。您可以使用語言變數來定義PDF輸出中�
 
 ## 網頁編輯器中的中斷連結報表
 
-AEM Guides可讓您檢查技術檔案的整體完整性，以及從網頁編輯器產生報告。現在於2023年6月發行AEM Guides，提供您檢視及修正失效連結的功能。此報表可協助您管理中斷的連結。您可以輕鬆地檢視DITA map中存在的中斷連結並加以修正。
+AEM Guides可讓您檢查技術檔案的整體完整性，以及從網頁編輯器產生報告。 現在於2023年6月發行AEM Guides，提供您檢視及修正失效連結的功能。 此報表可協助您管理中斷的連結。 您可以輕鬆地檢視DITA map中存在的中斷連結並加以修正。
 ![中斷連結報告](assets/broken-link-report.png){width="800"}
 
 修正連結後，該連結不會顯示在失效連結清單下。
@@ -289,13 +306,13 @@ AEM Guides也支援翻譯中的XML本地化交換檔案格式(XLIFF)格式。 �
 ## 大量發佈儀表板中的原生PDF支援
 
 
-透過AEM Guides的大量啟動功能，您可以快速輕鬆地啟動從製作到發佈執行個體的內容。在「大量啟用」對應中，您可以包含原生PDF輸出預設集、AEM網站、PDF、HTML5、自訂和JSON輸出。
+透過AEM Guides的大量啟動功能，您可以快速輕鬆地啟動從製作到發佈執行個體的內容。 在「大量啟用」對應中，您可以包含原生PDF輸出預設集、AEM網站、PDF、HTML5、自訂和JSON輸出。
 如需詳細資訊，請檢視[大量啟用已發佈的內容](../user-guide/conf-bulk-activation.md)。
 
 ## 改進的大量移動工具
 
 現在，作為管理員，您可以使用改良的「大量移動工具」，將包含許多檔案的資料夾從一個位置移動到另一個位置。
-您可以使用瀏覽檔案對話方塊來選取您要移動的來源資料夾。您也可以瀏覽以選取要移動來源資料夾的目的地位置。選取欄位附近的![資訊圖示](assets/info-icon.svg) {width="25"}以檢視更多相關資訊。
+您可以使用瀏覽檔案對話方塊來選取您要移動的來源資料夾。 您也可以瀏覽以選取要移動來源資料夾的目的地位置。 選取欄位附近的![資訊圖示](assets/info-icon.svg) {width="25"}以檢視更多相關資訊。
 
 如需詳細資訊，請檢視[大量移動檔案](../user-guide/authoring-file-management.md#move-files-bulk)。
 

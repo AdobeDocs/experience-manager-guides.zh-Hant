@@ -5,25 +5,32 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
-TQID: https://experienceleague.adobe.com/lkdspw-tp-2yG1e00tAsgIS-TJQFZLHrqQGxxPDgVYQ
+TQID: 'https://experienceleague.adobe.com/lkdspw-tp-2yG1e00tAsgIS-TJQFZLHrqQGxxPDgVYQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2775
+source-wordcount: '2775'
 ht-degree: 0%
-
 ---
-
 # 傳送主題以供檢閱 {#id199RD0S035Z}
 
 稽核工作流程會建立多個稽核者環境，其中發起者會指定要稽核的主題清單、新增多個稽核者，以及指派稽核任務的時間表。 AEM Guides可讓屬於Author和Publishers群組的使用者啟動稽核。
@@ -115,7 +122,7 @@ ht-degree: 0%
    - *\（預設\）*&#x200B;選擇選項&#x200B;**他們的最新版本**&#x200B;以選取上次儲存的主題修訂版本。
    - 選擇&#x200B;**版本為**&#x200B;選項，並指定在指定的日期和時間選取版本的日期和時間。 如果在指定的日期沒有可用的主題版本，則會選取在指定的日期和時間之後立即可用的版本。
    - 選擇&#x200B;**選取標籤**&#x200B;選項，然後從下拉式清單中選取標籤。
-1. 選擇好版本後，按一下[套用]。**&#x200B;**
+1. 選擇好版本後，按一下[套用]。****
 
    根據所選選項為主題選擇版本。
 
@@ -233,7 +240,7 @@ AEM Guides可讓您同時在DITA map中傳送一或多個主題以供檢閱。 �
    - 選擇&#x200B;**版本為**&#x200B;選項，並指定日期和時間，以根據日期和時間選取版本。 如果在指定的日期沒有可用的主題版本，則會選取在指定的日期和時間之後立即可用的版本。
    - 選擇&#x200B;**選取標籤**&#x200B;選項，然後從下拉式清單中選取標籤。 在&#x200B;**版本**&#x200B;下拉式清單中選取了包含所選標籤的所有主題。
    - 選擇&#x200B;**選取基準線**&#x200B;選項，然後從下拉式清單中選取基準線。 屬於選取之基準線的所有主題版本，都會在&#x200B;**版本**&#x200B;下拉式清單中選取。
-1. 選擇好版本後，按一下[套用]。**&#x200B;**
+1. 選擇好版本後，按一下[套用]。****
 
    根據所選選項為主題選擇版本。
 
@@ -278,4 +285,4 @@ AEM Guides可讓您同時在DITA map中傳送一或多個主題以供檢閱。 �
 
 會傳送電子郵件給所有稽核者，通知他們已被指派稽核主題。 電子郵件包含直接連結，使用者可按一下該連結並在瀏覽器視窗中存取主題。 主題以及DITA map會以檢閱模式開啟。
 
-**父級主題：**&#x200B;[&#x200B;檢閱主題或地圖](review.md)
+**父級主題：**[&#x200B;檢閱主題或地圖](review.md)

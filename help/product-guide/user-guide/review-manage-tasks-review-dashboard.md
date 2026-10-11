@@ -4,19 +4,23 @@ description: 從AEM Guides的「稽核儀表板」管理稽核任務。 瞭解�
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
+TQID: 'https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1440
+source-wordcount: '1440'
 ht-degree: 0%
-
 ---
-
 # 使用「稽核儀表板」管理稽核任務 {#id2056B0Y70X4}
 
 稽核管理工作流程可包含各種任務。 例如，您可能想要為特定主題新增稽核者或延長稽核的截止日期。 如果您認為所有利害關係人都已提供其意見反應，您可能也想要將稽核任務標示為完成。 這些工作可以使用「稽核儀表板」來管理。
@@ -139,11 +143,11 @@ ht-degree: 0%
 
 - 稽核任務指派給其的稽核者名稱。
 - 「狀態」欄指示複查狀態。 「狀態」可能是下列其中一項：
-   - **未啟動**：檢閱者尚未開啟檢閱工作。
-   - **進行中**：檢閱者已開啟檢閱工作，且正在檢閱主題。
-   - **完成**：檢閱者已完成檢閱，並在檢閱UI中將工作標示為完成。 稽核任務位於每個稽核者的AEM通知收件匣中。
+  - **未啟動**：檢閱者尚未開啟檢閱工作。
+  - **進行中**：檢閱者已開啟檢閱工作，且正在檢閱主題。
+  - **完成**：檢閱者已完成檢閱，並在檢閱UI中將工作標示為完成。 稽核任務位於每個稽核者的AEM通知收件匣中。
 - 當稽核者開啟稽核連結並導覽至特定主題時，該主題會新增到「已稽核主題」清單中。 這有助於作者判斷稽核者是否已開啟其個別章節。 如果提供註解，註解會顯示在方括弧中。
 - 在所有主題上發表的評論總數。 若有多個正在檢閱的主題，則會對主題名稱提及\（在方括弧中\）每個主題的註解數。
 - 檢閱者上次存取任何主題的日期。
 
-**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)
+**父級主題：**[&#x200B;檢閱簡介](review.md)

@@ -5,25 +5,33 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
-TQID: https://experienceleague.adobe.com/ZnmDICfuJvf66QBUIwCE5NA6iVlXl2XIzfJed2E6GiE
+TQID: 'https://experienceleague.adobe.com/ZnmDICfuJvf66QBUIwCE5NA6iVlXl2XIzfJed2E6GiE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: '481'
 ht-degree: 1%
-
 ---
-
 # 條件屬性分析 {#id1843I0HN0Y4}
 
 在企業層級，確保您擁有標準的標籤系統極為重要。 標籤或條件屬性可以與存放庫中的數位資產相關聯，這有助於根據所選條件發佈輸出。 例如，您可以為Windows和Mac內容建立條件屬性。 然後，將這些屬性新增到主題中的相關內容。 發佈內容時，您可以選擇是要發佈Windows內容，還是隻發佈Mac內容。
@@ -62,7 +70,7 @@ AEM Guides可讓您使用相關DITA屬性輕鬆建立及關聯條件屬性。 �
 
 1. 如果您想要為相同屬性新增更多值，請按一下&#x200B;**+**&#x200B;圖示並輸入其他值和標籤。
 
-1. 若要新增更多屬性，請按一下[新增]。**&#x200B;**
+1. 若要新增更多屬性，請按一下[新增]。****
 
 1. 按一下「**儲存**」以儲存變更。
 
@@ -71,4 +79,4 @@ AEM Guides可讓您使用相關DITA屬性輕鬆建立及關聯條件屬性。 �
 
 ![](images/properties-tab.png){width="350"}
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)

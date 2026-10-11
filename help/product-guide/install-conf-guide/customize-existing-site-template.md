@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 1%
-
 ---
-
 # 自訂新的AEM網站範本
 
 本指南提供逐步指示，讓您自訂現有的AEM網站範本，以便與AEM Guides搭配使用，從DITA map和主題產生AEM Sites。
@@ -26,8 +41,8 @@ ht-degree: 1%
 - 您已有使用可編輯範本建立的現有網站階層。
 - 您現有專案中至少有兩個範本：
 
-   - **檔案容器頁面範本**&#x200B;用於將DITA map呈現為檔案根。
-   - **主題頁面範本**&#x200B;用於呈現個別DITA主題頁面。
+  - **檔案容器頁面範本**&#x200B;用於將DITA map呈現為檔案根。
+  - **主題頁面範本**&#x200B;用於呈現個別DITA主題頁面。
 
 ## 範本命名考量事項
 
@@ -74,8 +89,8 @@ ht-degree: 1%
   ![正在新增具有必要屬性的文字元件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - 在網站產生期間，此預留位置會取代為DITA主題的實際內容。
-   - 文字元件通常置於&#x200B;**Container元件**&#x200B;內，以確保配置與樣式正確無誤。
-   - 可以自訂以包含所有主題頁面一致的頁首、頁尾和導覽元素。
+  - 文字元件通常置於&#x200B;**Container元件**&#x200B;內，以確保配置與樣式正確無誤。
+  - 可以自訂以包含所有主題頁面一致的頁首、頁尾和導覽元素。
 
 **範例使用案例：**
 如果您有有關「安裝指示」的DITA主題，主題頁面範本將會產生顯示該主題內容的頁面。
@@ -140,4 +155,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 請務必先在非生產環境中測試範本，然後再部署到生產環境。<br><br>如需詳細資訊，請參閱正式[AEM Guides](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/get-started/authoring)檔案。
+> 請務必先在非生產環境中測試範本，然後再部署到生產環境。<br><br>如需詳細資訊，請參閱正式[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring)檔案。

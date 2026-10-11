@@ -4,26 +4,35 @@ description: 瞭解Adobe Experience Manager Guides 4.2版中的新功能和增�
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4
+TQID: 'https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2435
+source-wordcount: '2438'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides 4.2版的新增功能（2023年2月）
 
 本文介紹Adobe Experience Manager Guides 4.2版（後來稱為&#x200B;*AEM Guides*）中的新功能和增強功能。
@@ -34,7 +43,7 @@ ht-degree: 0%
 
 AEM Guides在網頁編輯器中隨附一項功能，可讓您檢查技術檔案的整體完整性，並為它們產生報表。
 您可以檢視主題清單，並管理目前地圖所有參照的中繼資料，其來源為
-網頁編輯器中的&#x200B;**報表**&#x200B;索引標籤。
+網頁編輯器中的**報表**&#x200B;索引標籤。
 
 **產生主題清單檢視**
 
@@ -141,7 +150,7 @@ AEM Guides提供您為全域和資料夾設定檔建立和管理輸出預設集�
 您可以在地圖中插入主題參照、主題群組、索引鍵定義。 您可以透過向上移動、向下移動、向左移動或向右移動來重新組織地圖中顯示的主題。 您也可以拖放主題，在地圖中移動主題。 「對應編輯器」也提供圖示來鎖定或解除鎖定檔案、檢查版本記錄以及執行版本標籤管理。
 
 
-配置檢視也提供&#x200B;**檢視選項**&#x200B;來顯示或隱藏行號、顯示或隱藏核取方塊，或顯示地圖中主題的檔案名稱或標題。
+配置檢視也提供&#x200B;**檢視選項**來顯示或隱藏行號、顯示或隱藏核取方塊，或顯示地圖中主題的檔案名稱或標題。
 您也可以根據主題上套用的條件篩選器來檢視主題。
 
 除了在地圖檔案中組織主題外，您還可以使用「版面」檢視中元素可用的&#x200B;**選項**&#x200B;選單來新增、移動、複製、貼上或刪除參照。

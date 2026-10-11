@@ -5,24 +5,30 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-TQID: https://experienceleague.adobe.com/3xNOR02eoj4FGibPTf4IMtqHf2O-M4DHaf5-MZy87uU
+TQID: 'https://experienceleague.adobe.com/3xNOR02eoj4FGibPTf4IMtqHf2O-M4DHaf5-MZy87uU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1896
+source-wordcount: '1896'
 ht-degree: 1%
-
 ---
-
 # 新增和管理內容中的引文
 
 引文是新增至內容之資訊來源的參考。 使用引文，您可以為來源資訊的作者評分，並幫助讀者追蹤來源資訊。 新增引文可讓您的內容更可靠，並防止剽竊。 它們也可讓您顯示經過充分研究的內容。
@@ -51,7 +57,7 @@ AEM Guides支援多種型別的引用，例如現代語言協會(MLA)、美國�
 
 1. 在&#x200B;**引文**&#x200B;面板中，選取![新增圖示](images/Add_icon.svg)。 從下拉式清單中，您可以選擇新增引文或匯入引文。
 
-1. 選取&#x200B;**新增引文**&#x200B;以新增引文。
+1. 選取&#x200B;**新增引文**以新增引文。
 **新增引文**&#x200B;對話方塊開啟。
 
    網頁編輯器中的![引文面板](images/citation-add.png) {width="300"}
@@ -110,7 +116,7 @@ AEM Guides支援多種型別的引用，例如現代語言協會(MLA)、美國�
 
    >[!NOTE]
    > <ol><li> AEM Guides只會匯入不重複且不存在的引用。
-   > &gt; <li> AEM Guides可以從書籍、日誌或網站匯入引用。 目前不支援其他來源的引文。
+    &gt; <li> AEM Guides可以從書籍、日誌或網站匯入引用。 目前不支援其他來源的引文。
 
 ## 管理引文
 
@@ -139,7 +145,7 @@ AEM Guides支援多種型別的引用，例如現代語言協會(MLA)、美國�
 
 ### 變更引文樣式 {#change-citation-style}
 
-您的系統管理員可以從&#x200B;**編輯器設定**&#x200B;中&#x200B;**一般設定**&#x200B;索引標籤的&#x200B;**引文**&#x200B;下拉式清單中變更引文樣式。
+您的系統管理員可以從&#x200B;**編輯器設定**&#x200B;中&#x200B;**一般設定**&#x200B;索引標籤的&#x200B;**引文**下拉式清單中變更引文樣式。
 這些樣式決定引文在預覽窗格或原生PDF輸出中的顯示方式。
 
 下拉式清單中有以下選項：
@@ -201,7 +207,7 @@ AEM Guides支援多種型別的引用，例如現代語言協會(MLA)、美國�
 ### 從主工具列
 
 1. 選取主工具列中的&#x200B;**引文** ![引文圖示](images/citations-icon.svg)圖示。
-1. 在&#x200B;**引文**&#x200B;對話方塊中，選擇引文。 您也可以選取多個引文。
+1. 在&#x200B;**引文**對話方塊中，選擇引文。 您也可以選取多個引文。
    ![引文對話方塊](images/citation-dialog-main-toolbar.png){width="300"}
 1. 您可以在&#x200B;**引文**&#x200B;對話方塊的搜尋面板中輸入前幾個字母來篩選引文。
 

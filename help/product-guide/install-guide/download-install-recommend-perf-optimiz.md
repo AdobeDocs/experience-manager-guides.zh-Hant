@@ -5,39 +5,54 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/6q077Ib1EIQ4AA51ktmZ966RZrSt08xJQh5t4llzgbQ
+TQID: 'https://experienceleague.adobe.com/6q077Ib1EIQ4AA51ktmZ966RZrSt08xJQh5t4llzgbQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: baa3aa24-d162-4a57-b73a-d27341145083
+    internal-label: Performance optimization
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: '892'
 ht-degree: 0%
-
 ---
-
 # 效能最佳化建議 {#id213BD0JG0XA}
 
 ## 設定資料存放區\（必要\）
 
 **有什麼變更？**
-在設定`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`下將`minRecordLength`屬性設定為值`100`如需檔案日期存放區和S3資料存放區的詳細資訊，請參閱[在AEM 6](https://helpx.adobe.com/tw/experience-manager/6-5/sites/deploying/using/data-store-config.html)中設定節點存放區和資料存放區。
+在設定`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`下將`minRecordLength`屬性設定為值`100`如需檔案日期存放區和S3資料存放區的詳細資訊，請參閱[在AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html)中設定節點存放區和資料存放區。
 
 >[!NOTE]
 >
@@ -71,7 +86,7 @@ JVM啟動引數應根據基礎架構和磁碟大小仔細調整。 建議您洽�
 
  — 將JVM棧積大小設定為最小總可用記憶體的1/4。 使用引數`-Xmx<size>`設定棧積記憶體大小。 設定 — `Xms`的值等於`-Xmx`。
 
- — 啟用`-XX:+HeapDumpOnOutOfMemoryError`並設定`-XX:HeapDumpPath=</path/to/folder` `>`的路徑。
+ — 啟用`-XX:+HeapDumpOnOutOfMemoryError`並設定`-XX:HeapDumpPath=</path/to/folder``>`的路徑。
 
  — 啟用Java GC記錄為：
 
@@ -100,7 +115,7 @@ JVM啟動引數應根據基礎架構和磁碟大小仔細調整。 建議您洽�
 ## 製作例項上的使用者端資料庫縮制\（選用\）
 
 **有什麼變更？**
-使用者端資料庫應在編寫執行個體中設定為最小化。 這可確保在使用者從不同位置瀏覽系統時，要下載的位元組會更少。 若要進行此變更，請從Felix主控台在&#x200B;**HTML資料庫管理員**&#x200B;中設定組態。
+使用者端資料庫應在編寫執行個體中設定為最小化。 這可確保在使用者從不同位置瀏覽系統時，要下載的位元組會更少。 若要進行此變更，請從Felix主控台在**HTML資料庫管理員**&#x200B;中設定組態。
 
 **何時設定？**
 您可以透過Felix主控台或程式碼部署，在執行階段完成此操作。
@@ -132,7 +147,7 @@ JVM啟動引數應根據基礎架構和磁碟大小仔細調整。 建議您洽�
 您可以透過Felix主控台或程式碼部署，在執行階段完成此操作。
 
 **此變更的結果**
-棧積&#x200B;**屬性中** Limit AEM Site Pages的增加數目會最佳化AEM網站輸出產生程式。
+棧積**屬性中** Limit AEM Site Pages的增加數目會最佳化AEM網站輸出產生程式。
 
 
-**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)

@@ -1,13 +1,19 @@
 ---
 title: 將舊的對應集合移轉至新的對應集合
 description: 瞭解如何將地圖集合從舊地圖集合移轉至新地圖集合
-source-git-commit: aa9f0768e2c6f23294f926c2ed9a1f7e51db7610
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 1%
-
 ---
-
 
 # 將舊的對應集合移轉至新的對應集合
 
@@ -55,7 +61,7 @@ ht-degree: 1%
 
    移轉任務的![對應集合功能](images/new-process.png) {width="350"}
 
-1. 選擇 **建立**。
+1. 選取「**建立**」。
 
 這會執行單一工作，將所有現有的舊地圖集合移轉到新的地圖集合。 無需額外設定。
 

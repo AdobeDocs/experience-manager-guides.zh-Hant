@@ -5,30 +5,46 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE
+TQID: 'https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+    internal-label: Report generation
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 9214
+source-wordcount: '9271'
 ht-degree: 1%
-
 ---
-
 # 升級Adobe Experience Manager Guides {#id224MBE0M0XA}
 
 >[!NOTE]
@@ -43,7 +59,7 @@ ht-degree: 1%
 - 如果您是使用4.3.x、4.2、4.2.1 (Hotfix 4.2.1.3)、4.1或4.1.x版，則必須先升級至4.4版，才能升級至5.0.0版。
 - 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.3.x版。
 - 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
+- 如果您使用的版本早於3.8.5，請參閱[Adobe Experience Manager Guides說明Experience Manager Guides封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的「升級PDF」一節。
 
 
 >[!NOTE]
@@ -76,11 +92,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 此升級程式僅適用於3.8.5版到4.0版。 如需從3.4版或更新版本升級至3.8.5的程式，請參閱[Experience Manager Guides說明PDF封存](https://helpx.adobe.com/tw/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的&#x200B;*升級Adobe Experience Manager Guides*&#x200B;一節。
+> 此升級程式僅適用於3.8.5版到4.0版。 如需從3.4版或更新版本升級至3.8.5的程式，請參閱[Experience Manager Guides說明PDF封存](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的產品特定安裝指南中的&#x200B;*升級Adobe Experience Manager Guides*&#x200B;一節。
 
 
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides升級程式之前，請確定您擁有：
 
@@ -134,7 +150,7 @@ ht-degree: 1%
 
    - 如果您使用UUID版本的軟體，請搜尋「適用於AEM 6.5的XML Documentation解決方案的4.0 UUID版本」。
    - 如果您使用非UUID版本的軟體，請搜尋「適用於AEM 6.5的XML Documentation解決方案非UUID版本4.0」。
-使用AEM封裝管理員將封裝上傳到現有的CRX伺服器執行個體並進行安裝。
+     使用AEM封裝管理員將封裝上傳到現有的CRX伺服器執行個體並進行安裝。
 
    >[!NOTE]
    >
@@ -153,7 +169,7 @@ ht-degree: 1%
 
 如果您是使用4.0、4.1或4.1.x版，則可以直接升級至4.2版。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.2升級程式之前，請確定您擁有：
 
@@ -287,7 +303,7 @@ ht-degree: 1%
 1. 在節點底下新增名稱為excert的新節點。
 
    `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
-並在節點中設定下列屬性：
+   並在節點中設定下列屬性：
 
    ```
    name - rep:excerpt
@@ -329,7 +345,7 @@ ht-degree: 1%
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.2.1升級程式之前，請確定您擁有：
 
@@ -485,7 +501,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
 
-- 請確定`damAssetLucene`索引已完成。視伺服器上呈現的資料量而定，最多可能需要幾個小時。您可以透過檢查中重新索引欄位是否設定為false來確認重新索引已完成
+- 請確定`damAssetLucene`索引已完成。 視伺服器上呈現的資料量而定，最多可能需要幾個小時。 您可以透過檢查中重新索引欄位是否設定為false來確認重新索引已完成
   `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在`damAssetLucene`中新增任何自訂，您可能需要再次套用它們。
 
 - 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （選用：您可以傳遞地圖的特定路徑來編列索引，依預設所有地圖都會編列索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
@@ -506,7 +522,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.3.0升級程式之前，請確定您擁有：
 
@@ -564,7 +580,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.3.1升級程式之前，請確定您擁有：
 
@@ -805,7 +821,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.4.0升級程式之前，請確定您擁有：
 
@@ -998,7 +1014,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 在此升級期間，由於`'order'`值從1000變更為50，因此您必須將現有的自訂重寫程式（若有的話）與`'fmdita-rewriter'`合併。
 
 
-**上層主題：**&#x200B;[&#x200B;下載並安裝](download-install.md)
+**上層主題：**[&#x200B;下載並安裝](download-install.md)
 
 
 ## 升級至4.6.0版
@@ -1013,7 +1029,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 >
 > 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 4.6.0升級程式之前，請確定您擁有：
 
@@ -1168,7 +1184,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 >
 > 後期處理和索引可能需要幾個小時。 我們建議您在非尖峰時段開始升級程式。
 
-**&#x200B;**&#x200B;先決條件&#x200B;**&#x200B;**
+****先決條件****
 
 在開始Experience Manager Guides 5.0.0升級程式之前，請確定您擁有：
 
@@ -1316,7 +1332,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 ## 重新索引damAssetLucene的步驟
 
-已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.0.0版後如何重新索引damAssetLucene。
+已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.0.0版後如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
@@ -1326,7 +1342,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 >[!IMPORTANT]
 >
-> 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.1.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您目前使用AEM 6.5，並計畫改用AEM 6.5 LTS，在繼續升級AEM 5.1.0之前，請務必先完成Experience Manager Guides升級。 如需詳細資訊，請檢視[升級至Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 **先決條件**
 
@@ -1483,7 +1499,7 @@ Experience Manager Guides有&#x200B;[**自訂sling重寫程式**](../cs-install-
 
 ## 重新索引damAssetLucene的步驟
 
-已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.1.0版後如何重新索引damAssetLucene。
+已更新包含Guides的damAssetLucene的索引定義。 請參閱[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，瞭解在升級至5.1.0版後如何重新索引damAssetLucene。
 
 >[!NOTE]
 >

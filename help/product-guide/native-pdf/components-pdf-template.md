@@ -5,7 +5,7 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
+TQID: 'https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,10 +16,16 @@ feature_v2:
     internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '5049'
 ht-degree: 0%
@@ -272,7 +278,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
   >如果您是CSS開發人員，則也可以直接在CSS檔案中定義導線格式。
 
 * **使用資料表接續標籤**：選取此選項可定義跨多頁之長資料表的標籤。
-您可以定義要在分頁前後顯示的文字。 例如，表格在第5頁中斷，而您為&#x200B;**中斷前文字**&#x200B;定義`<Continued on page %page-num%>`。  文字在第5頁底部顯示「繼續於第6頁」。
+您可以定義要在分頁前後顯示的文字。 例如，表格在第5頁中斷，而您為**中斷前文字**&#x200B;定義`<Continued on page %page-num%>`。  文字在第5頁底部顯示「繼續於第6頁」。
 
   使用語言變數來定義分行前後連續標籤文字。 根據您選取的語言，系統會自動在PDF輸出中挑選當地語系化的值。 例如，您可以將`Continued on page %page-num%`以英文和德文的文字發佈。`Fortsetzung auf Seite %page-num%`
 
@@ -496,11 +502,11 @@ AEM Guides提供下列現成可用的變數：
 當您將`${lng:<variable name>}`新增至「段落」區段時，輸出段落中的互動參照會包含當地語系化文字和頁碼。\
 例如，下列熒幕擷取畫面以英文顯示「View on page 1」互動參照，以德文顯示「Einzelheiten finden Sie auf der Seite 1」。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出" width ="800" border="2px">
 
 *以英文發佈時，段落中的互動參照。*
 
-<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出" width ="800" border="2px">
 
 *以德文發佈時，段落中的互動參照。*
 

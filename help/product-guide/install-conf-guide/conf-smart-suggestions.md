@@ -2,7 +2,15 @@
 title: 設定AI助理以提供智慧說明和編寫
 description: 瞭解如何在Experience Manager Guides中設定AI助理
 exl-id: 59da626d-8433-44c6-ba69-654c7796a264
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -37,7 +45,7 @@ ht-degree: 0%
 
 1. 從&#x200B;**專案**&#x200B;畫面選取&#x200B;**新增API**。  **新增API**&#x200B;畫面會出現。 此畫面會顯示Adobe產品與技術的所有可用API、事件和服務，供您開發應用程式。
 
-1. 選取&#x200B;**I/O管理API**&#x200B;以將其新增至您的專案。
+1. 選取&#x200B;**I/O管理API**以將其新增至您的專案。
    ![IO管理API](assets/confi-ss-io-management.png)
    *新增I/O Management API至您的專案。*
 

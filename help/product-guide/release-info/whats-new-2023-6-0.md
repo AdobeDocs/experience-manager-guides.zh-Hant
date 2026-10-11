@@ -4,24 +4,33 @@ description: 在2023年6月發行的Adobe Experience Manager Guides as a Cloud S
 exl-id: 625f9702-2b91-4622-9fec-282f47f1d7a6
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/fPOg5RioczOxug8ACT9X9seCvXgjZ84mpPMEBUD4yJs
+TQID: 'https://experienceleague.adobe.com/fPOg5RioczOxug8ACT9X9seCvXgjZ84mpPMEBUD4yJs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '1228'
 ht-degree: 0%
-
 ---
-
 # 2023年6月發行的Adobe Experience Manager Guides as a Cloud Service的新功能
 
 本文介紹2023年6月版Adobe Experience Manager Guides （以後稱為&#x200B;*AEM Guides as a Cloud Service*）中的新功能和增強功能。
@@ -30,7 +39,7 @@ ht-degree: 0%
 
 ## 網頁編輯器中的中斷連結報表
 
-AEM Guides可讓您檢查技術檔案的整體完整性，以及從網頁編輯器產生報告。現在於2023年6月發行AEM Guides，提供您檢視及修正失效連結的功能。此報表可協助您管理中斷的連結。您可以輕鬆地檢視DITA map中存在的中斷連結並加以修正。
+AEM Guides可讓您檢查技術檔案的整體完整性，以及從網頁編輯器產生報告。 現在於2023年6月發行AEM Guides，提供您檢視及修正失效連結的功能。 此報表可協助您管理中斷的連結。 您可以輕鬆地檢視DITA map中存在的中斷連結並加以修正。
 ![](assets/broken-link-report.png){width="800"}
 
 修正連結後，該連結不會顯示在失效連結清單下。
@@ -55,12 +64,12 @@ AEM Guides可讓您檢查技術檔案的整體完整性，以及從網頁編輯�
 
 ### 支援語言變數
 
-AEM Guides支援語言變數。您可以使用語言變數來定義PDF輸出中的現成可用標籤（例如「注意」、「警告」和「警告」或靜態文字）本地化版本。
+AEM Guides支援語言變數。 您可以使用語言變數來定義PDF輸出中的現成可用標籤（例如「注意」、「警告」和「警告」或靜態文字）本地化版本。
 您可以將語言變數或當地語系化的標籤版本新增至PDF輸出和輸出範本中的適當區段。
 
 #### PDF輸出中的語言變數
 
-您可以使用語言變數來定義「注意」、「警告」等元素的本地化標籤。您可以更新一或多個語言中這些變數的值，然後系統會自動在PDF輸出中挑選當地語系化的值。
+您可以使用語言變數來定義「注意」、「警告」等元素的本地化標籤。 您可以更新一或多個語言中這些變數的值，然後系統會自動在PDF輸出中挑選當地語系化的值。
 例如，您可以在PDF輸出中以下列方式呈現標籤「附註」：
 
 * 英文：備註
@@ -69,8 +78,8 @@ AEM Guides支援語言變數。您可以使用語言變數來定義PDF輸出中�
 
 #### 輸出範本中的語言變數
 
-如果您想要以各種語言建立PDF輸出，則必須建立不同的PDF範本，其中包含每種語言的本地化文字。現在有了語言變數功能，您只需要建立範本一次。然後針對您需要當地語系化的任何靜態文字，您可以建立對應的語言變數，並在範本中使用這些變數。
-您可以為較長的文字建立語言變數，例如整個句子或甚至段落。您也可以套用樣式，並使用HTML標籤來格式化這些語言變數。
+如果您想要以各種語言建立PDF輸出，則必須建立不同的PDF範本，其中包含每種語言的本地化文字。 現在有了語言變數功能，您只需要建立範本一次。 然後針對您需要當地語系化的任何靜態文字，您可以建立對應的語言變數，並在範本中使用這些變數。
+您可以為較長的文字建立語言變數，例如整個句子或甚至段落。 您也可以套用樣式，並使用HTML標籤來格式化這些語言變數。
 
 如需詳細資訊，請檢視[語言變數的支援](../native-pdf/native-pdf-language-variables.md)。
 
@@ -125,14 +134,14 @@ AEM Guides也支援Schematron中的抽象模式。 您可以定義一般抽象�
 
 ## 處理主旨定義和分項清單的階層定義
 
-AEM Guides隨附強大的功能，可建立主旨配置對應，這是一種專門的DITA對應，可用來定義分類主旨和控制值。現在，AEM Guides也可讓您定義對應中的主旨定義，以及另一個對應中的分項清單定義。然後，您可以新增地圖參照並使用主旨配置。
+AEM Guides隨附強大的功能，可建立主旨配置對應，這是一種專門的DITA對應，可用來定義分類主旨和控制值。 現在，AEM Guides也可讓您定義對應中的主旨定義，以及另一個對應中的分項清單定義。 然後，您可以新增地圖參照並使用主旨配置。
 主旨 — 列舉參照是在相同對應或參照的對應中進行解析。
 
 如需處理主旨定義與列舉之階層定義的詳細資訊，請參閱[左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS)區段中的&#x200B;**主旨配置**&#x200B;功能說明。
 
 ## 支援翻譯中的XLIFF格式
 
-AEM Guides也支援翻譯中的XML本地化交換檔案格式(XLIFF)格式。現在您也可以選擇&#x200B;**建立新的XLIFF翻譯專案**，將XML內容轉換成XLIFF格式。
+AEM Guides也支援翻譯中的XML本地化交換檔案格式(XLIFF)格式。 現在您也可以選擇&#x200B;**建立新的XLIFF翻譯專案**，將XML內容轉換成XLIFF格式。
 使用此格式，您可以將內容匯出為業界標準XLIFF格式，然後提供相同的內容給翻譯廠商。如需詳細資訊，請參閱[建立翻譯專案](../user-guide/translate-documents-web-editor.md#create-translation-project)。
 
 ![](assets/translation-project-types.png){width="350"}

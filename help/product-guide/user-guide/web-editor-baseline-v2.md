@@ -4,13 +4,29 @@ description: 從Adobe Experience Manager Guides的地圖主控台建立和管理
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
-
 ---
-
 # Experience Manager Guides中的新基準線(Beta)
 
 >[!NOTE]
@@ -127,7 +143,7 @@ ht-degree: 0%
 
 使用使用&#x200B;**新基準模型**&#x200B;建立的基準時，將會套用下列更新：
 
-- 針對使用[手動]和[自動]更新所建立的基準線，[選項]功能表中的[匯出基準線] **[匯出基準線]**&#x200B;選項已重新命名為[下載] **&#x200B;**。
+- 針對使用[手動]和[自動]更新所建立的基準線，[選項]功能表中的[匯出基準線] **[匯出基準線]**&#x200B;選項已重新命名為[下載] ****。
 
   ![](images/baseline-v2-options-menu.png)
 
@@ -136,10 +152,10 @@ ht-degree: 0%
   ![](images/baseline-v2-dynamic-baseline-new.png)
 
   您也可以使用為使用新基線模型建立的動態基線匯入的新選項：
-   - **編輯屬性**：可讓您編輯現有基準線的屬性。
-   - **重建**：可讓您在變更時重建動態基準線。
+  - **編輯屬性**：可讓您編輯現有基準線的屬性。
+  - **重建**：可讓您在變更時重建動態基準線。
 
-     ![rebuild-baseline](images/rebuild-baseline.png)
+    ![rebuild-baseline](images/rebuild-baseline.png)
 
 - **下載**&#x200B;動作支援分頁下載。 符合已套用篩選條件的所有基準內容都會包含在下載中，而不僅僅是目前頁面上顯示的內容。
 - 除了檔案名稱或檔案位置之外，還依GUID篩選檔案。 **篩選沒有標籤**&#x200B;的檔案的額外選項也可使用。
@@ -151,28 +167,28 @@ ht-degree: 0%
 
   執行以下步驟來編輯基準線：
 
-   - 從&#x200B;**基線**&#x200B;面板開啟基線。
+  - 從&#x200B;**基線**&#x200B;面板開啟基線。
 
-     基準參照的表格檢視隨即顯示。
+    基準參照的表格檢視隨即顯示。
 
-   - 導覽至您要編輯的檔案，並將滑鼠游標暫留在檔案上。
-   - 選取&#x200B;**編輯**&#x200B;圖示。
+  - 導覽至您要編輯的檔案，並將滑鼠游標暫留在檔案上。
+  - 選取&#x200B;**編輯**&#x200B;圖示。
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png)
+    ![edit-baseline-icon](images/edit-baseline-icon.png)
 
-     顯示&#x200B;**編輯版本**&#x200B;對話方塊。
-   - 從&#x200B;**版本**&#x200B;下拉式清單中選取所需的版本（例如，從1.0版變更為1.1版）。
+    顯示&#x200B;**編輯版本**&#x200B;對話方塊。
+  - 從&#x200B;**版本**&#x200B;下拉式清單中選取所需的版本（例如，從1.0版變更為1.1版）。
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png)
+    ![edit-version-baseline](images/edit-version-baseline.png)
 
-     新增和移除的相依性會進行評估並顯示為預覽。 在套用變更之前，請先檢閱變更。
+    新增和移除的相依性會進行評估並顯示為預覽。 在套用變更之前，請先檢閱變更。
 
-     ![](images/baseline-v2-version-added.png)
+    ![](images/baseline-v2-version-added.png)
 
-     如果未偵測到相依性變更，則會顯示空白狀態訊息。
+    如果未偵測到相依性變更，則會顯示空白狀態訊息。
 
-   - 選取&#x200B;**更新**&#x200B;以套用變更。
+  - 選取&#x200B;**更新**&#x200B;以套用變更。
 
   基準線會以選取的版本更新。
   +++

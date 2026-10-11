@@ -5,23 +5,29 @@ exl-id: 23fe404c-c76d-43ba-9b28-c49ab1e524de
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/-VGsv3zHE6oACLVpnYm24-rX9-H6uUGyz3SEsP2ILBE
+TQID: 'https://experienceleague.adobe.com/-VGsv3zHE6oACLVpnYm24-rX9-H6uUGyz3SEsP2ILBE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 197
+source-wordcount: '197'
 ht-degree: 1%
-
 ---
-
 # 在編輯器中設定檔案自動儲存 {#id199CC0J0M5Z}
 
 瀏覽器式編輯器中最常見的功能之一，是在特定期間後儲存資料的功能。 AEM Guides的編輯器也支援在指定的時間間隔自動儲存主題和地圖檔案。 觸發此功能時，會儲存主題或地圖的工作副本。 不會建立新版本的主題或地圖。 若要建立新版本，您必須按一下編輯器工具列中的「儲存修訂版本」圖示。
@@ -45,4 +51,4 @@ ht-degree: 1%
 1. 按一下&#x200B;**儲存**。
 
 
-**父級主題：**&#x200B;[&#x200B;自訂編輯器](conf-web-editor.md)
+**父級主題：**[&#x200B;自訂編輯器](conf-web-editor.md)

@@ -4,19 +4,23 @@ description: 使用AEM Guides中的通知重新指派稽核任務。 瞭解如�
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/Wc4JmI2Y1FlWINp8CyOicMSQqrcTyNrin491ZLukp0o
+TQID: 'https://experienceleague.adobe.com/Wc4JmI2Y1FlWINp8CyOicMSQqrcTyNrin491ZLukp0o'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '270'
 ht-degree: 0%
-
 ---
-
 # 使用通知重新指派稽核任務 {#id21BNH03M0KS}
 
 您可以將指派給您的稽核任務重新指派給已新增至相同稽核專案的其他使用者。 您可從收件匣中傳送的稽核通知輕鬆完成稽核任務重新指派。 但是，作為稽核者，您只能將稽核任務重新指派給個別使用者，而不能使用通知將稽核任務重新指派給使用者群組。
@@ -44,4 +48,4 @@ ht-degree: 0%
 
 指派的稽核者會在「收件匣」中收到重新指派稽核任務的通知。
 
-**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)
+**父級主題：**[&#x200B;檢閱簡介](review.md)

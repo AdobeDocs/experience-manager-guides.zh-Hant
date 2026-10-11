@@ -5,19 +5,23 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-TQID: https://experienceleague.adobe.com/q07HdBMHuEyjdQ12idI4-PuBol-NpCWXTsOuZgcAhps
+TQID: 'https://experienceleague.adobe.com/q07HdBMHuEyjdQ12idI4-PuBol-NpCWXTsOuZgcAhps'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2362
+source-wordcount: '2362'
 ht-degree: 0%
-
 ---
-
 # 檢閱主題 {#id2056B0W0FBI}
 
 如果您是稽核者，則會收到一封包含稽核主題連結的稽核請求電子郵件。 按一下連結即可前往檢閱頁面，您可在此加入對共用主題的意見反應。
@@ -138,7 +142,7 @@ ht-degree: 0%
 
 - 按一下註解會反白顯示檔案中的對應註解位置。
 - 您可以新增評論的回覆。
-- 您可以在[註解]面板中按一下註解文字，然後從[選項]功能表選取[編輯] **&#x200B;**，編輯您自己的註解。
+- 您可以在[註解]面板中按一下註解文字，然後從[選項]功能表選取[編輯] ****，編輯您自己的註解。
 - 您可以按一下「註解」面板中的註解，然後從「選項」功能表選取&#x200B;**刪除**&#x200B;選項，刪除自己的註解。
 
   ![](images/review-comment-options-menu.png){width="300"}
@@ -256,4 +260,4 @@ ht-degree: 0%
 
 若要移除篩選器並檢視所有註解，請從&#x200B;**篩選器型別**&#x200B;對話方塊中取消選取所有篩選器，然後按一下&#x200B;**套用**。
 
-**父級主題：**&#x200B;[&#x200B;檢閱主題或地圖](review.md)
+**父級主題：**[&#x200B;檢閱主題或地圖](review.md)

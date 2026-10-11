@@ -5,26 +5,34 @@ exl-id: 0963606c-010e-4a72-b7bf-850b86b34a84
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/kni90T4QnDideo-hhxJZRje3H4WTEvBfwEaLa2zOzcg
+TQID: 'https://experienceleague.adobe.com/kni90T4QnDideo-hhxJZRje3H4WTEvBfwEaLa2zOzcg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '389'
 ht-degree: 0%
-
 ---
-
 # 設定文字篩選 {#id21BPD0FK0XA}
 
 AEM Guides提供在AEM存放庫的所選路徑中存在的檔案中搜尋文字的功能。 您可以使用篩選器搜尋來搜尋存放庫面板中的檔案或瀏覽檔案。 在Web編輯器中工作時，您需要使用檔案瀏覽對話方塊來插入影像、參照或關鍵參照等元素。
@@ -83,14 +91,14 @@ AEM Guides提供在AEM存放庫的所選路徑中存在的檔案中搜尋文字�
 
       在上述程式碼片段中，第一個篩選器是用於DITA檔案。 篩選定義會採用下列引數：
 
-      **&#x200B;**&#x200B;標題&#x200B;**&#x200B;**：篩選的顯示名稱。 此標題會以篩選選項的形式顯示在檔案瀏覽對話方塊中。
+      ****標題****：篩選的顯示名稱。 此標題會以篩選選項的形式顯示在檔案瀏覽對話方塊中。
 
-      **&#x200B;**&#x200B;屬性&#x200B;**&#x200B;**：要符合檔案中繼資料的屬性。 例如，若要僅允許屬性中有dita\_class中繼資料的檔案，屬性篩選器會將「jcr:content/metadata/dita\_class」作為其值。
+      ****屬性****：要符合檔案中繼資料的屬性。 例如，若要僅允許屬性中有dita\_class中繼資料的檔案，屬性篩選器會將「jcr:content/metadata/dita\_class」作為其值。
 
-      **&#x200B;**&#x200B;作業&#x200B;**：**&#x200B;指定「存在」以符合屬性引數中所指定值的存在
+      ****作業&#x200B;**：**指定「存在」以符合屬性引數中所指定值的存在
 
 1. 上傳更新的ui\_config.json檔案（其中包含新增的篩選器）。
 
 篩選器面板中提供已設定的篩選器。
 
-**上層主題：**&#x200B;[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**上層主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)

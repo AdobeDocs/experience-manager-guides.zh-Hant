@@ -5,24 +5,33 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/1mlEDYRZrS3pVB8-TX42MezCZorpgsHz0ZGiYAaFdiE
+TQID: 'https://experienceleague.adobe.com/1mlEDYRZrS3pVB8-TX42MezCZorpgsHz0ZGiYAaFdiE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Customer experience
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2448
+source-wordcount: '2448'
 ht-degree: 0%
-
 ---
-
 # 移轉非DITA內容 {#id181AH0R02HT}
 
 本節將引導您完成移轉程式，將非DITA檔案移轉至DITA格式。 AEM Guides提供以下來源的移轉：
@@ -409,4 +418,4 @@ AEM Guides可讓您將現有的結構化檔案轉換為有效的DITA檔案。 �
 
 使用`<config> </config>`區塊，您可以定義一或多個轉換組態區塊。 會執行轉換工作流程，並以DITA主題形式的最終輸出儲存在`outputDir`元素中指定的位置。
 
-**上層主題：**&#x200B;[&#x200B;移轉現有內容](migrate-content.md)
+**上層主題：**[&#x200B;移轉現有內容](migrate-content.md)

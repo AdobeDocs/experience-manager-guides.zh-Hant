@@ -5,13 +5,28 @@ feature: Publishing FrameMaker Documents
 role: Admin
 level: Experienced
 exl-id: d63a6b8d-263b-4524-b24c-1127aa69ccb9
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
+    internal-label: Publishing FrameMaker documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 1%
-
 ---
-
 # 整合案頭式XML編輯器
 
 市面上有許多XML編輯器，您也可能已經使用了一個。 Adobe FrameMaker是最強大的XML編輯器之一，它附帶AEM聯結器。 使用FrameMaker中的AEM聯結器，您可以輕鬆與AEM存放庫連線、取出和簽入檔案，以及直接在FrameMaker中編輯檔案。 您也可以設定Experience Manager Guides以從編輯器啟動FrameMaker。 在FrameMaker中開啟檔案後，您可以編輯該檔案並將其簽回AEM存放庫。
@@ -59,7 +74,7 @@ ht-degree: 1%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;套件。
+1. 搜尋並按一下&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**套件。
    ![](assets/open-in-fm-config.png)
 
 1. 選取&#x200B;**在FrameMaker中顯示開啟按鈕**&#x200B;選項。

@@ -5,24 +5,30 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
-TQID: https://experienceleague.adobe.com/RTjruUSe-4ZbghbPl3au1OjZd3D5-7VN3R4GP8UqsRM
+TQID: 'https://experienceleague.adobe.com/RTjruUSe-4ZbghbPl3au1OjZd3D5-7VN3R4GP8UqsRM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 673
+source-wordcount: '773'
 ht-degree: 0%
-
 ---
-
 # 支援Schematron檔案
 
 「Schematron」是指用於定義XML檔案測試的規則型驗證語言。 網頁編輯器支援Schematron檔案。 您可以匯入Schematron檔案，也可以在Web編輯器中編輯它們。 使用Schematron檔案，您可以定義某些規則，然後針對DITA主題或地圖驗證這些規則。
@@ -41,7 +47,7 @@ ht-degree: 0%
 1. 在&#x200B;*存放庫檢視*&#x200B;中導覽至所需的資料夾（您要上傳檔案的位置）。
 1. 按一下&#x200B;**選項**&#x200B;圖示以開啟內容功能表，然後選擇&#x200B;**上傳Assets**。
 1. 在&#x200B;**上傳Assets**&#x200B;對話方塊中，您可以在&#x200B;**選取資產資料夾**&#x200B;欄位中變更目的地資料夾。
-1. 按一下&#x200B;**選擇檔案**&#x200B;並瀏覽以選取Schematron檔案。 您可以選取一或多個Schematron檔案，然後按一下[上傳]。**&#x200B;**
+1. 按一下&#x200B;**選擇檔案**&#x200B;並瀏覽以選取Schematron檔案。 您可以選取一或多個Schematron檔案，然後按一下[上傳]。****
 
 ## 使用Schematron驗證DITA主題或地圖
 
@@ -51,7 +57,7 @@ ht-degree: 0%
 * 已新增特定長度的簡短說明。
 * 地圖中應至少有一個topicref。
 
-當您在網頁編輯器中開啟主題時，右側會出現「架構驗證」面板。執行以下步驟，使用Schematron檔案新增並驗證主題或地圖：
+當您在網頁編輯器中開啟主題時，右側會出現「架構驗證」面板。 執行以下步驟，使用Schematron檔案新增並驗證主題或地圖：
 ![](images/schematron-validate.png){width="300"}
 
 1. 按一下「結構描述」圖示()以開啟「結構描述」面板。
@@ -88,8 +94,8 @@ AEM Guides也支援Schematron中的判斷提示和報表陳述式。 這些陳�
 
 ### 報表陳述式
 
-當測試陳述式評估為true時，報表陳述式會產生訊息。例如，如果您希望簡短說明少於或等於150個字元，可以定義報表陳述式，以檢查簡短說明超過150個字元的主題。
-使用結構描述驗證DITA主題時，您會獲得規則完整的報告，其中報告陳述式的評估為true。因此，您會收到一則主題訊息，其中簡短說明超過150個字元。
+當測試陳述式評估為true時，報表陳述式會產生訊息。 例如，如果您希望簡短說明少於或等於150個字元，可以定義報表陳述式，以檢查簡短說明超過150個字元的主題。
+使用結構描述驗證DITA主題時，您會獲得規則完整的報告，其中報告陳述式的評估為true。 因此，您會收到一則主題訊息，其中簡短說明超過150個字元。
 
 
 ```XML

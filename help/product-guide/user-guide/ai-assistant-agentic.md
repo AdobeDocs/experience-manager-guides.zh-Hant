@@ -1,7 +1,15 @@
 ---
 title: 智慧型標籤功能的Agentic AI Assistant
 description: 瞭解如何使用Agentic AI Assistant在單一操作中對主題和地圖執行智慧型標籤功能。
-source-git-commit: cea0720e6482361a87b0e1dcff82760e3105436c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 0%
@@ -112,7 +120,7 @@ ht-degree: 0%
      ![Agentic AI Assistant大量標籤](images/ai-map-selection.png){width="650"}
 
 1. 選取&#x200B;**傳送**。
-訊息會指出選取的地圖包含多個主題。 選取&#x200B;**選取主題**&#x200B;以選擇要標籤建議的主題。
+訊息會指出選取的地圖包含多個主題。 選取**選取主題**&#x200B;以選擇要標籤建議的主題。
 
    ![選取主題時，使用Agentic AI Assistant大量標籤](images/ai-select-topics.png){width="650"}
 

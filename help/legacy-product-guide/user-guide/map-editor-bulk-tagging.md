@@ -5,29 +5,38 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-TQID: https://experienceleague.adobe.com/mQXuCClDCF6tDYUudR2NqJPPK-OEvnlI4y-rY4KF2Ko
+TQID: 'https://experienceleague.adobe.com/mQXuCClDCF6tDYUudR2NqJPPK-OEvnlI4y-rY4KF2Ko'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: da9cce28-0561-45e7-851e-4500741b9744
+    internal-label: Metadata management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Data management
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # 大量標籤DITA內容 {#id179SG0TN05Z}
 
 標籤可讓您對內容存放庫及已發佈輸出中的內容進行分組或分類。 如果您已在內容上套用標籤，即可輕鬆地在DITA map中尋找可協助您編寫內容的相關主題。 透過已發佈的輸出，使用者將可透過適當的標籤更快找到所需內容。
 
-AEM Guides可讓您按幾下滑鼠，標籤DITA內容。 您可以使用大量標籤功能，在多個主題、DITA map或子對映上套用多個標籤。 或者，您也可以在個別主題上套用標籤。 標籤是AEM的原生功能，您可以在AEM檔案的[管理標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=zh-Hant)章節中找到有關建立和管理標籤的更多詳細資料。
+AEM Guides可讓您按幾下滑鼠，標籤DITA內容。 您可以使用大量標籤功能，在多個主題、DITA map或子對映上套用多個標籤。 或者，您也可以在個別主題上套用標籤。 標籤是AEM的原生功能，您可以在AEM檔案的[管理標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)章節中找到有關建立和管理標籤的更多詳細資料。
 
 依預設，AEM Guides不會將「讀取」存取權授與資料夾（AEM存放庫中的所有標籤皆儲存於此資料夾）上的任何使用者。 若要使用AEM存放庫中定義的標籤，您必須要求系統管理員授與標籤儲存所在資料夾的存取權。
 
@@ -112,11 +121,11 @@ AEM Guides可讓您按幾下滑鼠，標籤DITA內容。 您可以使用大量�
    >
    > 如果看不到「刪除標籤」圖示，請確定您尚未啟用「隱藏標籤」功能。
 
-1. 在[確認刪除]對話方塊中，按一下[確定]，從選取的主題移除標籤。**&#x200B;**
+1. 在[確認刪除]對話方塊中，按一下[確定]，從選取的主題移除標籤。****
 
 
 ## 顯示或隱藏標籤
 
 如果您的主題套用了很長的標籤清單，您可能會覺得導覽有點麻煩。 您可以按一下隱藏標籤圖示，輕鬆地從DITA map主控台檢視中隱藏標籤。 同樣地，當標籤不可見時，按一下「顯示標籤」會顯示所有標籤。
 
-**父級主題：**&#x200B;[&#x200B;管理中繼資料](manage-metadata.md)
+**父級主題：**[&#x200B;管理中繼資料](manage-metadata.md)

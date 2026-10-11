@@ -3,22 +3,36 @@ title: 在AEMaaCS上發佈基準的指南
 description: 瞭解AEM Cloud上發佈的系統限制。
 feature: Publishing
 role: User, Admin
-source-git-commit: b6e4fd5051018ce6c60aadf66e6bf7375322aaa1
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 20%
-
 ---
-
 # AEMaaCS上的AEM Guides發佈基準
 
 此基準會評估新發佈API在各種輸出預設集中的效能，並增加AEM Guides as a Cloud Service中的地圖大小。 目標是瞭解擴充性行為並找出效能瓶頸。
 
-發佈服務使用[微服務架構](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance)，並具備自動縮放功能，可透過額外的Pod處理較大的工作負載。
+發佈服務使用[微服務架構](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance)，並具備自動縮放功能，可透過額外的Pod處理較大的工作負載。
 
 ## 執行環境
 
-- **AEM版本**:2026.4.25322.20260407T085152Z
+- **AEM版本**：2026.4.25322.20260407T085152Z
 - **指南附加元件版本**： 2026.5.0
 - **初始pod計數**： 2 pod
 - **自動縮放行為**：隨著負載增加，在4個節點中將縮放至4個Pod

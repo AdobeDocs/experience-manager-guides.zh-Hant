@@ -4,7 +4,7 @@ description: 從Adobe Experience Manager Guides的地圖主控台建立和管理
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-TQID: https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g
+TQID: 'https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -26,10 +30,12 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1929'
 ht-degree: 0%
@@ -137,7 +143,7 @@ ht-degree: 0%
 >
 >當使用標籤在執行階段產生動態基準的參照時，動態基準的編輯作業可讓您編輯基準的屬性。
 
-基準線![&#128279;](images/baseline-options.png)的選項
+基準線](images/baseline-options.png)的![選項
 
 ### 現有基準的可用動作
 
@@ -150,7 +156,7 @@ ht-degree: 0%
 ![複製基準線](images/baseline-duplicate.png){width="300"}
 *根據標籤複製基準線或建立精確副本。*
 
-1. 從基準線的[選項]功能表選取[複製] **&#x200B;**。 **重複的基準線**&#x200B;對話方塊開啟。
+1. 從基準線的[選項]功能表選取[複製] ****。 **重複的基準線**&#x200B;對話方塊開啟。
 
    >[!NOTE]
    > 
@@ -199,5 +205,5 @@ ht-degree: 0%
 
 編輯基準線後，選取&#x200B;**儲存**&#x200B;以儲存基準線的變更。 如果您不想儲存變更並重設基準線，可以選取&#x200B;**重設**。 當您選取&#x200B;**重設**&#x200B;時，會顯示警告，指出您未儲存的變更將會遺失。
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)
 

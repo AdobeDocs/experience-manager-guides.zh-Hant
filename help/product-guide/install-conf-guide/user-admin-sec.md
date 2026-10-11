@@ -5,13 +5,28 @@ feature: User Management
 role: Admin
 level: Experienced
 exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: dc1f7602-db3c-4ad4-a440-ff999bb16455
+    internal-label: User management
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 10%
-
 ---
-
 # 使用者管理與安全性 {#id181AED00G5Z}
 
 若要存取和設定AEM Guides中的功能，您必須建立使用者。 接著，這些使用者就可以獲得許可權，以存取AEM Guides中的所有或特定功能。 瞭解如何設定和維護使用者授權，同時也瞭解在AEM中驗證和授權如何運作背後的理論。
@@ -20,7 +35,7 @@ Adobe Experience Manager檔案中的下列主題將幫助您瞭解使用者管�
 
 | 雲端服務 | 內部部署 |
 |---|---|
-| [AEM使用者、群組和許可權](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hant)<br>[使用者管理與安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=zh-Hant) | [AEM中的使用者和群組](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEM中的許可權](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[管理使用者和群組](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[管理許可權](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [AEM使用者、群組和許可權](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[使用者管理與安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) | [AEM中的使用者和群組](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEM中的許可權](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[管理使用者和群組](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[管理許可權](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## AEM Guides建立的使用者群組 {#id181TF0K0MHT}
@@ -85,11 +100,11 @@ AEM Guides提供三個現成可用的群組。 這些群組是： *作者*、*�
 
 - 根據預設，*發佈者*&#x200B;在DAM中擁有下列資料夾的存取權和許可權：
 
-   - `/content/fmdita` -\>讀取和寫入（套用至： ![](./assets/Smock_Cloud_18_N.svg)）<br>``/var/dxml``-\>讀取和寫入（套用至： ![](./assets/Smock_Building_18_N.svg)）
+  - `/content/fmdita` -\>讀取和寫入（套用至： ![](./assets/Smock_Cloud_18_N.svg)）<br>``/var/dxml``-\>讀取和寫入（套用至： ![](./assets/Smock_Building_18_N.svg)）
 
-   - `/content/dam/fmdita-outputs` -\>讀取和寫入
+  - `/content/dam/fmdita-outputs` -\>讀取和寫入
 
-   - `/content/output/sites` -\>讀取和寫入
+  - `/content/output/sites` -\>讀取和寫入
 
   如果您使用上述預設發佈位置以外的任何其他位置，則必須向您的發佈者授予明確的讀取和寫入許可權。
 

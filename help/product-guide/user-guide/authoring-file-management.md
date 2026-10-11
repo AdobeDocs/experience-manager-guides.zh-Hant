@@ -4,23 +4,29 @@ description: 瞭解如何在AEM Guides中管理檔案和資料夾。 複製並�
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-TQID: https://experienceleague.adobe.com/mI3V4UN3L9sHBCY89xOyOmR5UANb0Ko7Fg1CWi4Tkhc
+TQID: 'https://experienceleague.adobe.com/mI3V4UN3L9sHBCY89xOyOmR5UANb0Ko7Fg1CWi4Tkhc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c6cc5b187f72c1da1dc6f28186047989c3c1faa1
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3195
+source-wordcount: '3213'
 ht-degree: 0%
-
 ---
-
 # 管理檔案和資料夾 {#id2116G0L08XA}
 
 本節說明Adobe Experience Manager Guides如何處理基本檔案操作，例如複製、貼上、拖放和刪除檔案。 可能會出現以下情況：
@@ -228,7 +234,7 @@ Experience Manager Guides隨附大量移動工具，可協助管理員將具有�
 
    - 選取&#x200B;**大量移動**。
 
-     系統開始將檔案從來源移動到目的地位置。程式完成後，頁面右側會顯示移動程式的摘要。
+     系統開始將檔案從來源移動到目的地位置。 程式完成後，頁面右側會顯示移動程式的摘要。
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
 </details>
 
@@ -333,4 +339,4 @@ Experience Manager Guides隨附大量移動工具，可協助管理員將具有�
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**父級主題：**&#x200B;[&#x200B;管理內容](authoring.md)
+**父級主題：**[&#x200B;管理內容](authoring.md)

@@ -2,20 +2,26 @@
 title: 發行說明 | Adobe Experience Manager Guides 2026.06.0版的新增功能
 description: 瞭解2026.06.0版Adobe Experience Manager Guides中的新功能和增強功能
 role: Leader
-source-git-commit: f3f30400f776f746427e257e2c937ff3413aa9ac
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
-
 ---
-
 # 2026.06.0版（2026年6月）的新增功能
 
 本文介紹2026.06.0版Adobe Experience Manager Guides as a Cloud Service所推出的新功能和增強功能。
 
 如需此版本中修正的問題清單，請檢視[2026.06.0版本](fixed-issues-2026-06-0.md)中的已修正問題。
 
-瞭解2026.06.0版[&#128279;](../release-info/upgrade-instructions-2026-06-0.md)的升級指示。
+瞭解2026.06.0版](../release-info/upgrade-instructions-2026-06-0.md)的[升級指示。
 
 
 ## 新的地圖收集(Beta)，用於管理地圖和發佈輸出

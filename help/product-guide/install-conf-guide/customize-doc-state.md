@@ -5,13 +5,28 @@ feature: Document State
 role: Admin
 level: Experienced
 exl-id: 2f035c92-21f9-401a-a2cb-d1bc19c75598
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
-
 ---
-
 # 設定檔案狀態 {#id181GB0400UI}
 
 AEM Guides可讓您根據組織的需求定義DITA主題的檔案狀態。 您可以從頭到尾定義檔案的不同狀態。 例如，第一個狀態可以是「草稿」，可以移至「稽核」、「已核准」、「已翻譯」，最後移至「已發佈」。
@@ -62,11 +77,11 @@ AEM Guides隨附一組預設檔案狀態。 這些狀態包括：
    - 在&#x200B;**結束狀態**&#x200B;中指定檔案的結束狀態。
    - 在&#x200B;**狀態轉換**&#x200B;下的&#x200B;**從**&#x200B;到&#x200B;**到**&#x200B;中指定檔案的狀態轉換。
 
-      - 指定可以在&#x200B;**群組**&#x200B;中變更檔案狀態的使用者和使用者群組。
+     - 指定可以在&#x200B;**群組**&#x200B;中變更檔案狀態的使用者和使用者群組。
 
-      - 按一下&#x200B;**新增**&#x200B;按鈕以新增狀態轉換。
+     - 按一下&#x200B;**新增**&#x200B;按鈕以新增狀態轉換。
 
-      - 按一下「刪除」圖示以刪除狀態轉換。
+     - 按一下「刪除」圖示以刪除狀態轉換。
 
      >[!NOTE]
      >

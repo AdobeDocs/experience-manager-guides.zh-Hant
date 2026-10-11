@@ -3,26 +3,35 @@ title: 使用新的地圖集合以產生輸出
 description: 瞭解如何建立及刪除新的地圖集合，以及新增或刪除DITA map。 在AEM Guides中，從對應集合設定、產生和取消輸出產生工作。
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
+TQID: 'https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 56c9710820f790ed64e58521dd0d0f9ac343825f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: '1565'
 ht-degree: 0%
-
 ---
-
 # 使用新的對應集合來產生輸出
 
 >[!IMPORTANT]
@@ -48,7 +57,7 @@ Adobe Experience Manager Guides中的地圖集合可讓發佈專家將多個檔�
 
    ![](images/create-new-map-collection.png){width="350"}
 
-1. 選擇 **建立**。
+1. 選取「**建立**」。
 
    成功訊息會在建立地圖集合時顯示。
 
@@ -203,4 +212,4 @@ Adobe Experience Manager Guides中的地圖集合可讓發佈專家將多個檔�
 中繼資料屬性與檔案屬性同步。 更新後，您就可以從編輯器的&#x200B;**檔案屬性**&#x200B;面板中檢視這些檔案。
 
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)

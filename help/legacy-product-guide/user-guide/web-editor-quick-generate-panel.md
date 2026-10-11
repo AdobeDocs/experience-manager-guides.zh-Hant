@@ -5,25 +5,36 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
-TQID: https://experienceleague.adobe.com/WqJ5FQRk8XivgGjDbC-k0mRAMM3EqBYgrX0yXFLKpH4
+TQID: 'https://experienceleague.adobe.com/WqJ5FQRk8XivgGjDbC-k0mRAMM3EqBYgrX0yXFLKpH4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 260
+source-wordcount: '260'
 ht-degree: 0%
-
 ---
-
 # 使用快速產生面板來產生和檢視輸出 {#id22AKE050F5L}
 
 AEM Guides提供整合在網頁編輯器中的&#x200B;**快速產生**&#x200B;面板。 此面板可讓您同時產生為DITA map建立的輸出預設集的輸出。 您可以產生一或多個預設集的輸出，或產生為DITA map建立的所有預設集的輸出。 您也可以使用&#x200B;**快速產生**&#x200B;面板，以便稍後檢視針對預設集產生的輸出。
@@ -42,4 +53,4 @@ AEM Guides提供整合在網頁編輯器中的&#x200B;**快速產生**&#x200B;�
 1. 按一下&#x200B;**產生**&#x200B;產生所選預設集的輸出。 成功訊息會顯示在產生的輸出上。 如果產生失敗，會顯示錯誤訊息。 您也可以檢視錯誤記錄，以檢視產生程式中所發生錯誤的詳細資料。
 1. 按一下特定預設集的&#x200B;**檢視輸出** \( ![](images/view-output-icon.svg)\)圖示，即可檢視針對預設集產生的輸出。
 
-**上層主題：**&#x200B;[&#x200B;使用網頁編輯器](web-editor.md)
+**上層主題：**[&#x200B;使用網頁編輯器](web-editor.md)

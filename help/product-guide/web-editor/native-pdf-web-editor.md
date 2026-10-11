@@ -4,7 +4,7 @@ description: 瞭解如何使用原生PDF發佈、建立和產生PDF輸出預設�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
+TQID: 'https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -30,6 +32,10 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,7 +46,7 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '4071'
 ht-degree: 0%
@@ -97,7 +103,7 @@ ht-degree: 0%
 | **套用條件使用** | 針對條件式內容，請從下列選項中選擇，以根據這些條件產生PDF輸出： <br><ul> <li> **未套用**&#x200B;如果您不想在地圖和來源內容上套用任何條件，請選取此選項。<br><li> **DITAVAL檔案**&#x200B;選取DITAVAL檔案以產生條件式內容。 您可以使用瀏覽對話方塊或手動輸入檔案路徑來選取多個DITAVAL檔案。 若要移除選取的檔案，請按一下檔案名稱旁的十字圖示。 如果選取了無效的檔案，則會顯示錯誤訊息，指出&#x200B;**選取了無效的DITAVAL檔案**。<br> <br>每個DITAVAL檔案都可以包含一系列屬性，例如篩選條件和標幟樣式。 標幟可讓您使用開始和結束標幟以視覺化方式標示內容，這些標幟可包括影像或文字格式，例如粗體或斜體。 如果發生重疊條件或樣式衝突，您可以使用「樣式衝突」設定來定義背景顏色。 如需詳細資訊，請檢視[使用DITAVAL編輯器](../user-guide/ditaval-editor.md)。<br><li> **條件預設集**&#x200B;從下拉式清單中選取條件預設集，以在發佈輸出時套用條件。 如果您已為DITA map檔案新增條件，則會顯示此選項。 條件設定可在DITA map主控台的「條件預設集」標籤中使用。 若要進一步瞭解條件預設集，請檢視[使用條件預設集](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html)。<br> </ul> |
 | **使用基準線** | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。 檢視[使用基準線](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)以取得詳細資料。 |
 | **使用已發佈版本之間的變更列建立PDF** | 使用下列選項來建立PDF，使用變更列顯示兩個版本之間的內容差異： <br><ul><li> **先前版本的基準**&#x200B;選擇您要與目前版本或其他基準比較的基準版本。 PDF中會出現變更列，指出修改的內容。 變更列是垂直線，以視覺化方式識別新內容或修訂的內容。 變更列會顯示在已插入、變更或刪除的內容左側。<br> **注意**：如果您選取&#x200B;**使用基準線**&#x200B;並選擇要發佈的基準線，將會比較兩個選取的基準線版本。 例如，如果您在&#x200B;**使用基準線**&#x200B;下選擇基準線1.3版，而在先前版本&#x200B;**的**&#x200B;基準線下選擇基準線1.1版，則比較基準線1.1版和基準線1.3版。<br><li> **顯示新增的文字**&#x200B;選取以綠色和底線顯示插入的文字。 依預設，會選取此選項。<br> <li> **顯示已刪除的文字**&#x200B;選取此選項可讓刪除的文字以紅色顯示，並標示為刪除線。 依預設，會選取此選項。 <br>**附註**&#x200B;您也可以使用樣式表自訂變更列、插入內容或刪除內容的樣式。<br></ul> |
-| **語言** | 選取您要翻譯輸出的語言。 如果您偏好以與根對映的`xml:lang`屬性相同的語言發佈輸出，請選取&#x200B;**使用對映語言**&#x200B;選項，而不是明確地選取語言。<br> 如果地圖未定義`xml:lang`，輸出預設會設定為英文(en_US)。 當父對映已設定`xml:lang`屬性，因此您不需要每個語言的個別輸出預設集時，此功能會有所幫助。 若要瞭解此設定如何影響不同型別的內容，請檢視[&#x200B; DITA內容的語言解析度與輸出範本變數](../native-pdf/native-pdf-language-variables.md#language-resolution-for-dita-content-vs-output-template-variables)。 |
+| **語言** | 選取您要翻譯輸出的語言。 如果您偏好以與根對映的`xml:lang`屬性相同的語言發佈輸出，請選取&#x200B;**使用對映語言**&#x200B;選項，而不是明確地選取語言。<br> 如果地圖未定義`xml:lang`，輸出預設會設定為英文(en_US)。 當父對映已設定`xml:lang`屬性，因此您不需要每個語言的個別輸出預設集時，此功能會有所幫助。 若要瞭解此設定如何影響不同型別的內容，請檢視[ DITA內容的語言解析度與輸出範本變數](../native-pdf/native-pdf-language-variables.md#language-resolution-for-dita-content-vs-output-template-variables)。 |
 | **DITA-OT命令列引數** | 當您啟用&#x200B;**啟用DITA-OT預先處理**&#x200B;時，**DITA-OT命令列引數**&#x200B;欄位會變為可用。 在這裡，您可以指定在產生輸出時希望DITA-OT處理的其他引數。 如需DITA-OT支援之命令列引數的詳細資訊，請檢視[DITA-OT檔案](https://www.dita-ot.org/)。<br>**注意：** <br>預設不會將定義於DITA關聯性表格(`<reltable>`)的相關連結包含在原生PDF輸出中。 使用`-Dargs.rellinks=nofamily` DITA-OT引數將這類相關連結納入原生PDF輸出中。<br> 對於巢狀對映，預設情況下，對映參考上設定的`toc="no"`屬性不會從目錄排除其子主題。 使用`-Dpreprocess.move-meta-entries.skip=false` DITA-OT引數，確保子主題會從此類對映的TOC中排除。 |
 | **產生貼文工作流程** | 選取以顯示包含AEM中已設定所有工作流程的下拉式清單。 您可以選取在PDF產生工作流程完成後要執行的工作流程。 |
 
@@ -126,7 +132,7 @@ ht-degree: 0%
 
 * **提供XMP檔案**
 
-  您也可以匯入[XMP](https://www.adobe.com/tw/products/xmp.html) （可延伸中繼資料平台）檔案，直接填入中繼資料欄位。 您可以從這裡下載範例XMP檔案。
+  您也可以匯入[XMP](https://www.adobe.com/products/xmp.html) （可延伸中繼資料平台）檔案，直接填入中繼資料欄位。 您可以從這裡下載範例XMP檔案。
 
   [下載](assets/SampleXMP.xmp)
 
@@ -256,7 +262,7 @@ ht-degree: 0%
 | **包含追蹤變更** | 如果您想要在產生的PDF中包含追蹤變更以方便檢閱和比較，請選取此選項。 |
 | **包含草稿評論** | 如果您想要在產生的PDF中包含新增到所選地圖的DITA主題中的草稿註解，請選取此選項。<br> **注意**：僅啟用此選項不會使草稿註解出現在輸出中。 管理員還必須將草稿註解樣式的顯示屬性設定為用於對應的輸出範本中的可見值（例如`block`、`inline-block`、`grid`等）。 如需詳細資訊，請檢視[在原生PDF輸出中顯示或隱藏草稿註解](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output)。 |
 | **保留暫存檔案** | 如果您想要保留在產生原生HTML輸出時建立的臨時PDF檔案，請選取此選項。 您稍後可以在產生輸出後下載暫存檔案。 下載的檔案也會包含`system_config.xml`檔案，提供您有關作者URL、本機URL和發佈URL的資訊。 這些URL是在AEM外部化設定中設定，並反映在`system_config.xml`檔案中。 |
-| **PDF合規性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請檢視[關於PDF標準](https://helpx.adobe.com/tw/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
+| **PDF合規性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請檢視[關於PDF標準](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
 | **檔案屬性** | 選取您要傳遞至原生PDF發佈的中繼資料。 下拉式清單會同時列出自訂和預設屬性。 例如，`dc:description`、`dc:language`、`dc:title`和`docstate`為預設屬性，而您可以將`author`作為自訂屬性。 選取的中繼資料屬性會傳遞至使用原生PDF產生的PDF檔案。<br> 這些屬性是從下列位置可用的`metadataList`檔案中挑選的： `/libs/fmdita/config/metadataList`。 <br>此檔案可以覆蓋於： `/apps/fmdita/config/metadataList`。 |
 
 

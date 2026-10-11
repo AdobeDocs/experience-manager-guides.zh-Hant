@@ -1,19 +1,25 @@
 ---
-title: 發行說明 | 已修正2024.12.0版Adobe Experience Manager Guides中的問題
+title: 發行說明 |修正2024.12.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2024.12.0版中的錯誤修正。
 exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
-source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 1%
-
+source-wordcount: '422'
+ht-degree: 3%
 ---
-
 # 已修正2024.12.0版本中的問題
 
-本文介紹2024.12.0版Adobe Experience Manager Guides as a Cloud Service中多個區域修正的錯誤。
+本文介紹2024.12.0版Adobe Experience Manager Guides as a Cloud Service中不同區域修正的錯誤。
 
-瞭解2024.12.0版[&#128279;](./upgrade-instructions-2024-12-0.md)的升級指示。
+瞭解2024.12.0版](./upgrade-instructions-2024-12-0.md)的[升級指示。
 
 ## 製作
 
@@ -21,7 +27,7 @@ ht-degree: 1%
 - 關閉檔案時，**儲存變更及解除鎖定檔案**&#x200B;對話方塊中新增的註解和標籤沒有以新版本儲存在「版本記錄」中。 這是特定使用案例，其在`XMLEditorConfig`中啟用了&#x200B;**Ask for Check in Close**&#x200B;或&#x200B;**Ask for New Version on Close**。 (20065)
 - 儲存新版本之前，標籤為&#x200B;**完成**&#x200B;的檔案狀態會回覆成&#x200B;**草稿**，導致&#x200B;**完成**&#x200B;狀態不會持續存在於任何檔案版本中。 (20006)
 - 無法在網頁編輯器的主題中新增PDF檔案作為影像參考。 (21206)
-- 在Assets UI中選取DITA檔案會顯示&#x200B;**在FrameMaker中開啟**&#x200B;選項，即使在組態中停用亦然。 (20082)
+- 在Assets UI中選取DITA檔案會顯示&#x200B;**在FrameMaker中開啟**&#x200B;選項，即使在設定中停用亦然。 (20082)
 
 ## 發佈
 
@@ -44,7 +50,7 @@ ht-degree: 1%
 
 ## 因應措施的已知問題
 
-Adobe已在2024.12.0版的Adobe Experience Manager Guidesas a Cloud Service中找出下列已知問題。
+Adobe已在2024.12.0版的Adobe Experience Manager Guides as a Cloud Service中找出下列已知問題。
 
 **處理內容翻譯時專案建立失敗**
 
@@ -59,7 +65,7 @@ Adobe已在2024.12.0版的Adobe Experience Manager Guidesas a Cloud Service中�
 
 **因應措施**：若要解決此問題，請執行下列因應措施：
 
-1. 新增repoinit檔案。 如果檔案不存在，請執行[範例repoinit設定建立步驟](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854?profile.language=zh-Hant)來建立檔案。
+1. 新增repoinit檔案。 如果檔案不存在，請執行[範例repoinit設定建立步驟](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854)來建立檔案。
 2. 在檔案中新增下列行並部署程式碼：
 
    ```

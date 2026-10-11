@@ -4,27 +4,37 @@ description: 瞭解如何從地圖控制檯和地圖儀表板建立自訂預設�
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/zoJtHeS1Zs8Zs5NYWqY5B5ZshCiVSv2Sen0ZgpMCj7w
+TQID: 'https://experienceleague.adobe.com/zoJtHeS1Zs8Zs5NYWqY5B5ZshCiVSv2Sen0ZgpMCj7w'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1396
+source-wordcount: '1396'
 ht-degree: 0%
-
 ---
-
 # 自訂 {#id205BEF00PX0}
 
 自訂輸出預設集可用於自訂DITA-OT外掛程式。 您可以建立自訂DITA-OT輸出預設集，以使用自訂DITA-OT外掛程式發佈輸出。
@@ -121,5 +131,5 @@ ht-degree: 0%
 | 使用基準線 | 如果您已針對選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br> 檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得詳細資訊。 |
 | 檔案屬性/屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會顯示在&#x200B;**檔案屬性**&#x200B;欄位下。 選取屬性旁的十字圖示以將其移除。 <br><br>**附註**：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資料檢視，請[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞至輸出。 |
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
 

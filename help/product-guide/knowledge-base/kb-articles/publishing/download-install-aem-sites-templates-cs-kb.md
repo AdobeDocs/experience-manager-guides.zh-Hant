@@ -5,22 +5,33 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
-TQID: https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c
+TQID: 'https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '698'
 ht-degree: 1%
-
 ---
-
 # 下載及安裝AEM Sites範本（雲端服務）
 
 本指南提供逐步指示，說明如何設定並設定最新的AEM Guides範本，以在雲端環境中產生AEM Sites頁面。 請依照下列步驟安裝所需的套件、建立和設定預設集，以及產生AEM Sites。
@@ -33,14 +44,14 @@ ht-degree: 1%
 
 - **必要的許可權**：您必須擁有下列許可權：
 
-   - 存取&#x200B;**Cloud Manager**&#x200B;以部署套件。
-   - 存取與您的環境相關聯的&#x200B;**Git存放庫**。
-   - 在AEM Guides中建立和修改預設集的許可權。
+  - 存取&#x200B;**Cloud Manager**&#x200B;以部署套件。
+  - 存取與您的環境相關聯的&#x200B;**Git存放庫**。
+  - 在AEM Guides中建立和修改預設集的許可權。
 
 - **下載套件**：從軟體發佈入口網站下載下列套件：
 
-   - 元件套件： guides-components.all-1.x.0.zip
-   - 網站範本： aemg-docs-1.x.0.zip
+  - 元件套件： guides-components.all-1.x.0.zip
+  - 網站範本： aemg-docs-1.x.0.zip
 
 ## 透過雲端部署安裝套件
 
@@ -142,4 +153,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 在部署到生產環境之前，請確定所有設定都在非生產環境中進行測試。<br><br> 如需詳細資訊，請參閱正式[部署至AEM as a Cloud Service檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
+> 在部署到生產環境之前，請確定所有設定都在非生產環境中進行測試。<br><br> 如需詳細資訊，請參閱正式[部署至AEM as a Cloud Service檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。

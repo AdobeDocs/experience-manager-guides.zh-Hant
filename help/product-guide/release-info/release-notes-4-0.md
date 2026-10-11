@@ -1,13 +1,19 @@
 ---
 title: Adobe Experience Manager Guides 4.0.x發行說明
 description: 瞭解Adobe Experience Manager Guides 4.0、4.0.1、4.0.2和4.0.3版的錯誤修正、新功能和增強功能。
-source-git-commit: dc078c23c02c813fe39ca563e615dc3238c40253
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 5%
-
 ---
-
 
 # 發行說明 | Adobe Experience Manager Guides 4.0.x
 
@@ -209,10 +215,10 @@ ht-degree: 5%
 
 - 將核心架構從Coral型UI變更為頻譜型UI。 這可提供非常標準化和直覺式的UI。
 - 右側面板中引入了新的「檔案屬性」功能。 您可以檢查使用中檔案的屬性。 此資訊分為兩個區段：
-   - *一般*：包含一般檔案詳細資訊，例如，檔案名稱、UUID、中繼資料標籤、語言、建立日期、取出狀態以及檔案狀態。
-   - *參考*：包含傳入和傳出的參考。
+  - *一般*：包含一般檔案詳細資訊，例如，檔案名稱、UUID、中繼資料標籤、語言、建立日期、取出狀態以及檔案狀態。
+  - *參考*：包含傳入和傳出的參考。
 
-     ![檔案屬性面板](assets/file-properties.avif)
+    ![檔案屬性面板](assets/file-properties.avif)
 
 - 網頁編輯器中也新增了主旨配置的支援。 您現在可以使用「主題配置」面板來建立和使用主題配置。 除了主旨配置之外，您現在可以使用自己的公司中繼資料和分類法。
 

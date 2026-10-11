@@ -5,50 +5,62 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/Q7sMFjgwS0NIiXnSv3VWO6-sg-m7i0yXgNrkwS4FqwY
+TQID: 'https://experienceleague.adobe.com/Q7sMFjgwS0NIiXnSv3VWO6-sg-m7i0yXgNrkwS4FqwY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b455a250-64c4-4598-b015-7b6b6dc528b1
+    internal-label: Workflow configuration
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content and assets
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2228
+source-wordcount: '2228'
 ht-degree: 3%
-
 ---
-
 # 設定和自訂工作流程 {#id181AI0OJ0RO}
 
 工作流程可讓您自動化Adobe Experience Manager \(AEM\)活動。 工作流程包含一系列以特定順序執行的步驟。 您可以定義要在每個步驟上執行的不同活動。 例如，您可以在建立主題稽核時，傳送電子郵件通知給群組中的所有稽核者。 或者，當輸出產生工作完成時，傳送通知給發佈者。
 
 如需AEM工作流程的詳細資訊，請參閱：
 
-- [管理工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/workflows.html)
+- [管理工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 套用及參與工作流程： [使用工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/authoring/using/workflows.html)。
+- 套用及參與工作流程： [使用工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)。
 
-- 正在建立工作流程模型並擴充工作流程功能： [開發和擴充工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/workflows.html)。
+- 正在建立工作流程模型並擴充工作流程功能： [開發和擴充工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)。
 
-- 改善使用重要伺服器資源的工作流程效能： [並行工作流程處理](https://helpx.adobe.com/tw/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
+- 改善使用重要伺服器資源的工作流程效能： [並行工作流程處理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
 
 
 本主題中的各節將逐步引導您瞭解在AEM Guides中提供的預設工作流程中可以進行的各種自訂。
 
 ## 自訂稽核工作流程 {#id176NE0C00HS}
 
-每個組織的內容製作團隊都會以特定方式運作，以符合其業務需求。 某些組織設有專屬的編輯者，而其他組織則可設有自動編輯稽核系統。 例如，在組織中，典型的撰寫和發佈工作流程可能包括這樣的任務 — 每當作者完成編寫內容時，它會自動轉給稽核者，當稽核完成時，它就會轉給發佈者用於產生最終輸出。 在AEM中，您對內容和資產執行的活動可以程式形式合併，並對應至AEM工作流程。 如需AEM工作流程的詳細資訊，請參閱AEM檔案中的[管理工作流程](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/workflows.html)。
+每個組織的內容製作團隊都會以特定方式運作，以符合其業務需求。 某些組織設有專屬的編輯者，而其他組織則可設有自動編輯稽核系統。 例如，在組織中，典型的撰寫和發佈工作流程可能包括這樣的任務 — 每當作者完成編寫內容時，它會自動轉給稽核者，當稽核完成時，它就會轉給發佈者用於產生最終輸出。 在AEM中，您對內容和資產執行的活動可以程式形式合併，並對應至AEM工作流程。 如需AEM工作流程的詳細資訊，請參閱AEM檔案中的[管理工作流程](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)。
 
 AEM Guides可讓您自訂預設的稽核工作流程。 您可以搭配其他撰寫或發佈工作流程，使用下列四個自訂檢閱相關流程。
 
@@ -84,7 +96,7 @@ workflowdata.getMetaDataMap().put("isDitamap","false");
 workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
-地圖的&#x200B;**&#x200B;**
+地圖的&#x200B;****
 
 ```json
 var workflowdata = workItem.getWorkflowData();
@@ -129,7 +141,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `reviewType` | 字串 | 靜態值「AEM」。 |
 | `versionJson` | JSON 物件 | versionJson是正在稽核的主題清單，其中每個主題物件都有以下結構[ { &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | 布林值 | false/true |
-| `ditamapHierarchy` | JSON 物件 | 若已傳送地圖以供檢閱，則值應如下：[ &lbrace; &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： 「」，「items」： [] } ] ]。 |
+| `ditamapHierarchy` | JSON 物件 | 若已傳送地圖以供檢閱，則值應如下：[ { &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： 「」，「items」： [] } ] ]。 |
 | `ditamap` | 字串 | 指定稽核任務的ditamap路徑 |
 | `allowAllReviewers` | 布林值 | false/true |
 | `notifyViaEmail` | 布林值 | false/true |

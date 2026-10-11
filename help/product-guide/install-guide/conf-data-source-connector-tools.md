@@ -5,24 +5,31 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/VnRmYie1-SA-DFrz46j3xS6GEO6rJG4QAc4M-mNMYYc
+TQID: 'https://experienceleague.adobe.com/VnRmYie1-SA-DFrz46j3xS6GEO6rJG4QAc4M-mNMYYc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '548'
 ht-degree: 0%
-
 ---
-
 # 從使用者介面設定資料來源聯結器
 
 Experience Manager Guides隨附&#x200B;**資料來源**&#x200B;工具，可協助您設定資料來源的現成聯結器。 您可以為JIRA、SQL (MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce和Elasticsearch資料庫設定聯結器。
@@ -81,7 +88,7 @@ Experience Manager Guides隨附&#x200B;**資料來源**&#x200B;工具，可協�
 
 * **重新連線**：重新連線到中斷連線的聯結器。
 
-* **重複**：使用目前的聯結器做為基底來建立新的重複聯結器。根據預設，會以尾碼（如connectorname_1）建立重複的聯結器。例如，sample-elastic-search_1。
+* **重複**：使用目前的聯結器做為基底來建立新的重複聯結器。 根據預設，會以尾碼（如connectorname_1）建立重複的聯結器。 例如，sample-elastic-search_1。
 如果同名的聯結器存在，則會檢視錯誤。
 
 * **刪除**：刪除選取的聯結器。

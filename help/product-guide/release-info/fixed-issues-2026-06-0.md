@@ -1,20 +1,26 @@
 ---
 title: 發行說明 |修正2026.06.0版Adobe Experience Manager Guides中的問題
 description: 瞭解Adobe Experience Manager Guides as a Cloud Service 2026.06.0版中的錯誤修正。
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 0%
-
 ---
-
 # 2026.06.0版中的已修正問題
 
 本文介紹2026.06.0版Adobe Experience Manager Guides as a Cloud Service中多個區域修正的錯誤。
 
 如需新功能和增強功能的詳細資訊，請檢視[2026.06.0版的新增功能](whats-new-2026-06-0.md)。
 
-瞭解2026.06.0版[&#128279;](upgrade-instructions-2026-06-0.md)的升級指示。
+瞭解2026.06.0版](upgrade-instructions-2026-06-0.md)的[升級指示。
 
 ## 製作
 
@@ -63,10 +69,10 @@ ht-degree: 0%
 - 在AEM Sites上發佈具有`processing-role=resource-only`個元素的DITA map （具有舊版元件對應）時，會在其他情境（例如`topicgroup`元素和特定內容設定）中為這些元素產生孤立網站頁面。 (GUIDES-37650)
 - 將長名稱的對應新增到對應集合時，對應集合UI會以扭曲的版面配置呈現。 此問題已透過新地圖集合解決。 (GUIDES-42062)
 - 使用原生PDF引擎v1發佈：
-   - 為特定內容產生原生PDF輸出時，儘管中間HTML包含多個頁面的完整內容，PDF中仍只會轉譯第一個頁面。 (GUIDES-28270)
-   - 已啟用協助工具設定之原生PDF輸出內容的讀取順序不正確。 頁尾的頁碼會在主要內容之前讀取，而不是在結尾讀取。 (GUIDES-27790)
-   - 原生PDF輸出中的色彩列不會延伸至整個頁面寬度，且在自訂頁面大小時重疊，導致某些色彩方塊隱藏。 (GUIDES-15505)
-   - 原生PDF輸出中不遵循CSS `:is()`虛擬類別選擇器，導致與瀏覽器轉譯的樣式不同。 (GUIDES-11328)
+  - 為特定內容產生原生PDF輸出時，儘管中間HTML包含多個頁面的完整內容，PDF中仍只會轉譯第一個頁面。 (GUIDES-28270)
+  - 已啟用協助工具設定之原生PDF輸出內容的讀取順序不正確。 頁尾的頁碼會在主要內容之前讀取，而不是在結尾讀取。 (GUIDES-27790)
+  - 原生PDF輸出中的色彩列不會延伸至整個頁面寬度，且在自訂頁面大小時重疊，導致某些色彩方塊隱藏。 (GUIDES-15505)
+  - 原生PDF輸出中不遵循CSS `:is()`虛擬類別選擇器，導致與瀏覽器轉譯的樣式不同。 (GUIDES-11328)
 
   >[!NOTE]
   >

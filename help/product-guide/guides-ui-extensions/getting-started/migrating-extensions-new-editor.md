@@ -4,13 +4,28 @@ description: 瞭解如何移轉至Editor 2.0的擴充功能框架
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2006'
 ht-degree: 3%
-
 ---
-
 
 # 將擴充功能框架移轉至Editor 2.0 （新編輯器）
 
@@ -68,7 +83,7 @@ guides.ready(cb) // fires once at app load (view system ready) — before any fi
 
 ### 外掛程式註冊和執行階段閘道
 
-- **註冊** （`registerPlugin`，一次性設定）：在`guides.ready`中無條件執行&#x200B;**&#x200B;**。 在舊版編輯器上，這是無害的無操作式：舊版編輯器從不讀取外掛程式登入，而且您的工廠只會在實際建構MarkupEditor時執行。 它&#x200B;**不**&#x200B;擲回。
+- **註冊** （`registerPlugin`，一次性設定）：在`guides.ready`中無條件執行&#x200B;****。 在舊版編輯器上，這是無害的無操作式：舊版編輯器從不讀取外掛程式登入，而且您的工廠只會在實際建構MarkupEditor時執行。 它&#x200B;**不**&#x200B;擲回。
 
 - **執行階段呼叫** (`runCommand`， `runUtil`， `addDecoration`， ...)：Gate by version存在，且呼叫時不等於「1.0.0」。 它們不會擲回舊版編輯器（它們安全地傳回`false`/`undefined`），但閘道會避免無操作警告，並讓您保留舊版遞補。
 
@@ -91,7 +106,7 @@ function onMenuClick() {
 
 ### Hello world：僅限CSS的醒目提示外掛程式
 
-最小的實用擴充功能只提供&#x200B;**CSS**&#x200B;無操作的ProseMirror外掛程式加上樣式。 這個
+最小的實用擴充功能只提供&#x200B;**CSS**無操作的ProseMirror外掛程式加上樣式。 這個
 反白編輯器內具有黃色背景的每個`<note>`元素：
 
 ```js
@@ -105,7 +120,7 @@ guides.ready(() => {
 
 - 每個元素都會呈現為`data-xml-element="<tag>"`，因此您可以以此方式鎖定任何DITA元素
 (`note`， `codeblock`， `section`， `table`， ...)。
-- CSS **必須**&#x200B;透過registerPlugin出貨：編輯器位於影子DOM中，因此page/clientlib CSS無法
+- CSS **必須**透過registerPlugin出貨：編輯器位於影子DOM中，因此page/clientlib CSS無法
 觸及。
 - 開啟包含`<note>`的DITA主題以檢視其套用。 註冊為無條件(§2.1)，
 因此即使`version`在`guides.ready`時間仍為`1.0.0`，這是安全的。
@@ -320,7 +335,7 @@ tcx.eventHandler.next(tcx.eventHandler.KEYS.AUTHOR_SAVE_KEY);
 ## 移轉僅限轉譯的邏輯（DOM paint：裝飾）
 
 任何藉由變更DOM而新增CSS類別、`data-*`屬性或「顯示文字」的內容，都必須
-成為&#x200B;**裝飾**，或它在重新呈現時消失。 以下是簡單的宣告式案例：
+成為**裝飾**，或它在重新呈現時消失。 以下是簡單的宣告式案例：
 
 ```js
 guides.editor.addDecoration('important-sections', 'section', {

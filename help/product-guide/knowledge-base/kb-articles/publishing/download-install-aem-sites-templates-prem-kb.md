@@ -5,21 +5,31 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-TQID: https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI
+TQID: 'https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 0%
-
 ---
-
 # 下載及安裝AEM Sites範本（內部部署服務）
 
 本指南提供逐步指示，說明如何設定最新的AEM Guides範本，以產生AEM Sites。 請依照下列步驟安裝所需的套件、建立和設定預設集，以及產生AEM Sites。
@@ -32,19 +42,19 @@ ht-degree: 0%
 
 - **必要的許可權**：請確定擁有下列許可權：
 
-   - 存取&#x200B;**軟體發佈入口網站**&#x200B;以下載必要的封裝
-   - 存取&#x200B;**CRX封裝管理員**&#x200B;以在AEM中安裝封裝。
-   - 在AEM Guides中建立和修改預設集的許可權。
+  - 存取&#x200B;**軟體發佈入口網站**&#x200B;以下載必要的封裝
+  - 存取&#x200B;**CRX封裝管理員**&#x200B;以在AEM中安裝封裝。
+  - 在AEM Guides中建立和修改預設集的許可權。
 
 - **下載封裝**：從&#x200B;**軟體發佈入口網站**&#x200B;下載下列封裝：
 
-   - 元件套件： on-prem-guides-components.all-1.x.0.zip
-   - Sites套件： aemg-docs.all-1.x.0.zip
+  - 元件套件： on-prem-guides-components.all-1.x.0.zip
+  - Sites套件： aemg-docs.all-1.x.0.zip
 
 ## 使用CRX Package Manager安裝套件
 
 1. **安裝元件封裝：**
-   1. 瀏覽至&#x200B;[**CRX封裝管理員**](http://&lt;your-aem-instance>/crx/packmgr)。
+   1. 瀏覽至&#x200B;[**CRX封裝管理員**](http://<your-aem-instance>/crx/packmgr)。
    2. 上傳並安裝on-prem-guides-components.all-1.x.0.zip套件。
 
 2. **安裝Sites封裝：**&#x200B;使用CRX封裝管理員上傳並安裝aemg-docs.all-1.x.0.zip封裝。
