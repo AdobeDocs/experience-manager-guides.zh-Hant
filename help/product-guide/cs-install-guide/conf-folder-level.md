@@ -542,7 +542,7 @@ Adobe Experience Manager Guides中的AI Assistant是功能強大的AI驅動工�
 
 適用於Experience Manager Guides as a Cloud Service （![AEM雲端](assets/aem-cloud-icon.svg)）。
 
-您可以設定AI支援的智慧&#x200B;**說明**，協助作者提出問題，並從[Experience Manager Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中輕鬆找到所需內容。
+您可以設定AI支援的智慧&#x200B;**說明**，協助作者提出問題，並從[Experience Manager Guides檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)中輕鬆找到所需內容。
 
 **XML編輯器組態**&#x200B;索引標籤可讓您設定&#x200B;**說明**&#x200B;面板的預設問題。
 
@@ -594,7 +594,7 @@ Adobe Experience Manager Guides中的AI Assistant是功能強大的AI驅動工�
 
 此設定可讓您建立可反映`ui_config.json`檔案中所作修改的JSON副檔名。 您可以在資料夾設定檔層級獨立上傳這些擴充功能，提供增強的彈性和自訂功能。 例如，當您變更&#x200B;**XML編輯器組態** （例如更新按鈕）時，系統會自動識別差異。 透過將這些變更上傳到&#x200B;**XML編輯器UI設定**，並使用&#x200B;**將UI設定轉換為JSON**&#x200B;按鈕將它們轉換為JSON擴充功能，系統會產生合併新功能的擴充功能。
 
-深入瞭解[自訂JSON設定和轉換新AEM Guides編輯器的UI設定](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
+深入瞭解[自訂JSON設定和轉換新AEM Guides編輯器的UI設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
 
 >[!NOTE]
 >

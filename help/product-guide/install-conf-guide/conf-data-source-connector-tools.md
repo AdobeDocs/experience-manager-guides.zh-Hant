@@ -184,4 +184,4 @@ Experience Manager Guides隨附&#x200B;**資料來源**&#x200B;工具，可協�
 
 設定資料來源後，聯結器會列在編輯器的&#x200B;**資料來源面板**&#x200B;下。 然後，您可以連線至資料來源，並將內容片段插入主題中。 如需詳細資訊，請檢視[插入資料來源的內容片段](../user-guide/web-editor-content-snippet.md)。
 
-僅適用於On-Premise設定，您也可以建立自訂聯結器，並將其用於不同的資料來源。 瞭解如何[設定自訂聯結器](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)。
+僅適用於On-Premise設定，您也可以建立自訂聯結器，並將其用於不同的資料來源。 瞭解如何[設定自訂聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)。

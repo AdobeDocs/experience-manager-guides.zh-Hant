@@ -35,7 +35,7 @@ Adobe Experience Manager檔案中的下列主題將幫助您瞭解使用者管�
 
 | 雲端服務 | 內部部署 |
 |---|---|
-| [AEM使用者、群組和許可權](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[使用者管理與安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) | [AEM中的使用者和群組](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEM中的許可權](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[管理使用者和群組](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[管理許可權](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [AEM使用者、群組和許可權](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hant)<br>[使用者管理與安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=zh-Hant) | [AEM中的使用者和群組](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEM中的許可權](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[管理使用者和群組](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[管理許可權](https://helpx.adobe.com/tw/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## AEM Guides建立的使用者群組 {#id181TF0K0MHT}

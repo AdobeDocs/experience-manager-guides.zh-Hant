@@ -238,7 +238,7 @@ XPath查詢包含檔案型別的類別名稱。 `topic/topic`類別用於主題�
 
 >[!NOTE]
 >
-> 您可以使用此程式將任何其他資料夾位置新增至排除清單。 如需有關使用索引的詳細資訊，請參閱[內容搜尋與索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html)。
+> 您可以使用此程式將任何其他資料夾位置新增至排除清單。 如需有關使用索引的詳細資訊，請參閱[內容搜尋與索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=zh-Hant)。
 
 1. 在自訂damAssetLucene索引中新增以下屬性：
 

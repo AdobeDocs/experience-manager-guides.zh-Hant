@@ -247,7 +247,7 @@ AEM透過支援的雲端儲存空間提供者支援大量內容擷取，讓組�
 
 - 排程擷取：可排程在預先定義的時間範圍內進行內容擷取，確保對一般使用者和持續作業影響最小或沒有。
 
-如需詳細資訊，請檢視[使用大量匯入](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/bulk-import)。
+如需詳細資訊，請檢視[使用大量匯入](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/migration/bulk-import)。
 
 ## 使用AEM上傳進行大量擷取
 
