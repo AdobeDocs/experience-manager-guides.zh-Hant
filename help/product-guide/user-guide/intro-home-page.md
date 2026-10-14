@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 07928af0e6f028d01ff9e879d7ff79093a661a5d
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2351'
 ht-degree: 0%
 ---
 # Experience Manager Guides首頁體驗
@@ -180,7 +180,11 @@ Widget也提供排序和調整欄大小的選項。 若要檢視這些選項，�
 
 ### 對應集合
 
-Experience Manager Guides可讓您使用名為&#x200B;**地圖集合**&#x200B;的儀表板，組織內容以供發佈。 若要使用此功能，請從左側面板選取&#x200B;**對應集合**。 這會帶您進入&#x200B;**Assets UI**&#x200B;中的「對應集合」頁面，您可以[使用對應集合來產生輸出。](./generate-output-use-map-collection-output-generation.md)
+>[!NOTE]
+>
+> Experience Manager Guides as a Cloud Service自2026.08.0版開始提供新的地圖集合。 請聯絡您的客戶成功團隊以啟用此功能。
+
+Adobe Experience Manager Guides中的地圖集合可讓發佈專家將多個檔案整理到單一集合中、控制為每個檔案產生的輸出，以及從集中式儀表板有效率地批次產生和發佈輸出。 深入瞭解[使用新的對應集合來產生輸出。](./generate-output-use-new-map-collection-output-generation.md)
 
 ### 大量發佈
 
@@ -190,7 +194,7 @@ Experience Manager Guides可讓您使用名為&#x200B;**地圖集合**&#x200B;�
 
 當您在系統上執行大量發佈作業時，幾乎不可能個別檢查每個DITA map以監視其發佈作業。 Experience Manager Guides可讓管理員和發佈者統一檢視系統中執行的所有發佈任務。
 
-若要使用此功能，請從左側面板選取&#x200B;**發佈佇列**。 這會帶您進入Assets UI中的「發佈」儀表板頁面，您可在其中使用發佈儀表板[&#128279;](./generate-output-publish-dashboard.md)管理發佈任務。
+若要使用此功能，請從左側面板選取&#x200B;**發佈佇列**。 這會帶您進入Assets UI中的「發佈」儀表板頁面，您可在其中使用發佈儀表板](./generate-output-publish-dashboard.md)管理[發佈任務。
 
 ### 使用者偏好設定
 
