@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4b9859bf08ffdfc7047477203eb7c2b590dfb3d9
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2344'
 ht-degree: 0%
 ---
 # Experience Manager Guides首頁體驗
@@ -179,6 +179,10 @@ Widget也提供排序和調整欄大小的選項。 若要檢視這些選項，�
 存放庫是輕鬆探索資料夾和檔案的集中樞紐。 它提供所有檔案和資料夾的完整表格清單檢視，及其內容詳細資訊。 透過此統一介面，您可以順暢地瀏覽檔案，並使用強大的篩選選項執行搜尋，確保效率和增強體驗。 深入瞭解[存放庫](./home-page-repository-view.md)。
 
 ### 對應集合
+
+>[!NOTE]
+>
+>您可以從2026.08.0版開始，在Adobe Experience Manager Guides as a Cloud Service中使用新的地圖集合功能，將地圖管理和大量發佈結合到統一介面。 請聯絡您的客戶成功團隊以啟用此功能。進一步瞭解[使用新的地圖集合。](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides可讓您使用名為&#x200B;**地圖集合**&#x200B;的儀表板，組織內容以供發佈。 若要使用此功能，請從左側面板選取&#x200B;**對應集合**。 這會帶您進入&#x200B;**Assets UI**&#x200B;中的「對應集合」頁面，您可以[使用對應集合來產生輸出。](./generate-output-use-map-collection-output-generation.md)
 

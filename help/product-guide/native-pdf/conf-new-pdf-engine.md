@@ -21,19 +21,37 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f89becea89888f7dec81e18c9220dcabda8f4e7d
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '161'
+ht-degree: 4%
 ---
 
 # 設定原生PDF引擎v2
 
 原生PDF的新發佈引擎（即&#x200B;_原生PDF引擎v2_）提供&#x200B;_原生PDF引擎v1_&#x200B;問題的更新PDF演算功能及修正。
 
+>[!BEGINTABS]
+>[!TAB Cloud Service]
+
 使用[組態覆寫](../install-conf-guide/download-install-config-override.md)中提供的指示來建立組態檔。 在設定檔案中，提供下列（屬性）詳細資訊：
 
 | PID | 屬性索引鍵 | 屬性值 |
 |-----|--------------|----------------|
 | `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` <br>預設值： `v1` |
+
+>[!TAB 內部部署]
+
+
+對於內部部署，其可用性取決於AEM和Java版本。
+
+_原生PDF引擎v2_&#x200B;需要&#x200B;**Java 17或更新版本**。
+
+- **AEM 6.5：**&#x200B;不支援Native PDF Publishing Engine v2，因為AEM 6.5會在Java 8上執行。
+- **AEM 6.5 LTS：**&#x200B;預設已啟用Native PDF Publishing Engine v2。 無需額外設定。
+
+如果您偏好切換回AEM 6.5 LTS的&#x200B;_原生PDF引擎v2_，請解除安裝PDF發行者套件：
+來自CRX封裝管理員`/crx/packmgr/index.jsp#/etc/packages/com.adobe.guides/pdf-publisher-package-3.0.0.zip`。
+
+>[!ENDTABS]
 
