@@ -35,16 +35,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 0%
 ---
 # 從Map主控台建立和管理基準線 {#id223MB0ZF043}
 
 >[!NOTE]
 >
-> Experience Manager Guides 2026.03.0版提供新基準(Beta)，改善了效能和穩定性。 若要使用此基準線，請聯絡客戶成功團隊以啟用該功能。 深入瞭解[新基準線(Beta)](./web-editor-baseline-v2.md)。
+> Experience Manager Guides 2026.03.0版提供改善效能和穩定性的新基準線。 若要使用此基準線，請聯絡客戶成功團隊以啟用該功能。 深入瞭解[新基準線](./web-editor-baseline-v2.md)。
 
 「基線」功能可讓您建立主題和資產的版本，然後將其用於發佈或翻譯。 例如，如果您的DITA map有`topicA`和`imageA`，您可以建立基準線以使用第3版`topicA`，但使用第4版`ImageA`。 設定好「基準線」後，您就可以在單一步驟中發佈或翻譯不同版本的主題。
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 >
 >當使用標籤在執行階段產生動態基準的參照時，動態基準的編輯作業可讓您編輯基準的屬性。
 
-基準線![&#128279;](images/baseline-options.png)的選項
+基準線](images/baseline-options.png)的![選項
 
 ### 現有基準的可用動作
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 ![複製基準線](images/baseline-duplicate.png){width="300"}
 *根據標籤複製基準線或建立精確副本。*
 
-1. 從基準線的[選項]功能表選取[複製] **&#x200B;**。 **重複的基準線**&#x200B;對話方塊開啟。
+1. 從基準線的[選項]功能表選取[複製] ****。 **重複的基準線**&#x200B;對話方塊開啟。
 
    >[!NOTE]
    > 
@@ -205,5 +205,5 @@ ht-degree: 0%
 
 編輯基準線後，選取&#x200B;**儲存**&#x200B;以儲存基準線的變更。 如果您不想儲存變更並重設基準線，可以選取&#x200B;**重設**。 當您選取&#x200B;**重設**&#x200B;時，會顯示警告，指出您未儲存的變更將會遺失。
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)
 
