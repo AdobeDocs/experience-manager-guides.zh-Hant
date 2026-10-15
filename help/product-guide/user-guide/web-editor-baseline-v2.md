@@ -1,6 +1,6 @@
 ---
-title: 從地圖主控台建立和管理新基準線(Beta)
-description: 從Adobe Experience Manager Guides的地圖主控台建立和管理新基準線(Beta)。
+title: 從「地圖」控制檯建立和管理新基準線
+description: 從Adobe Experience Manager Guides的地圖主控台建立和管理新基準線。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
@@ -22,16 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1400'
 ht-degree: 0%
 ---
-# Experience Manager Guides中的新基準線(Beta)
+# Experience Manager Guides中的新基準線
 
 >[!NOTE]
 >
-> - 本文適用於新基準線（目前作為&#x200B;*Beta*&#x200B;功能提供），其可提供Experience Manager Guides 2026.04.0版本中改善的效能和穩定性。
+> - 本文適用於新基線，此基線提供Experience Manager Guides 2026.04.0版本提供的改良效能和穩定性。
 > - 若要啟用Cloud Service的新基準線功能，請聯絡客戶成功團隊。
 > - 若要啟用內部部署的新基準線功能，請檢視[設定新基準線](../install-conf-guide/conf-new-baseline-on-prem.md)。
 

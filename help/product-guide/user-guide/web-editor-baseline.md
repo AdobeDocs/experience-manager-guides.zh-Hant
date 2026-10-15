@@ -35,16 +35,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 0%
 ---
 # 從Map主控台建立和管理基準線 {#id223MB0ZF043}
 
 >[!NOTE]
 >
-> Experience Manager Guides 2026.03.0版提供新基準(Beta)，改善了效能和穩定性。 若要使用此基準線，請聯絡客戶成功團隊以啟用該功能。 深入瞭解[新基準線(Beta)](./web-editor-baseline-v2.md)。
+> Experience Manager Guides 2026.03.0版提供改善效能和穩定性的新基準線。 若要使用此基準線，請聯絡客戶成功團隊以啟用該功能。 深入瞭解[新基準線](./web-editor-baseline-v2.md)。
 
 「基線」功能可讓您建立主題和資產的版本，然後將其用於發佈或翻譯。 例如，如果您的DITA map有`topicA`和`imageA`，您可以建立基準線以使用第3版`topicA`，但使用第4版`ImageA`。 設定好「基準線」後，您就可以在單一步驟中發佈或翻譯不同版本的主題。
 
