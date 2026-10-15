@@ -44,7 +44,7 @@ ht-degree: 1%
 
 Knowledge AI會使用服務帳戶來安全地驗證及存取內容。
 
-1. 遵循[設定Microservices IMT組態](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)中的指示
+1. 遵循[設定Microservices IMT組態](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)中的指示
 
 1. 建立新的服務帳戶並下載產生的JSON憑證檔案。
 
