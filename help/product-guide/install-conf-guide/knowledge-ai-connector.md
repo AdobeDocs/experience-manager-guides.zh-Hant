@@ -4,7 +4,7 @@ description: 瞭解如何使用Guides知識人工智慧連結AEM Guides
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 9f0ca688ae040c9f2f8a0aba0ac4547301a659ad
+source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 Knowledge AI會使用服務帳戶來安全地驗證及存取內容。
 
-1. 遵循[設定Microservices IMT組態](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)中的指示
+1. 遵循[設定Microservices IMT組態](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)中的指示
 
 1. 建立新的服務帳戶並下載產生的JSON憑證檔案。
 
@@ -62,15 +62,13 @@ Knowledge AI會使用服務帳戶來安全地驗證及存取內容。
 若要授予Knowledge AI的存取權，請識別服務帳戶。
 
 1. 開啟下載的服務帳戶JSON檔案。
-1. 搜尋欄位名稱`technical_account_email`。
+1. 搜尋欄位名稱`technical_account_email`。 檢視類似下列的值：
 
-檢視類似下列的值：
-
-```json
-{
-"technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
-}
-```
+   ```json
+   {
+   "technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
+   }
+   ```
 
 1. 複製與`technical_account_email`關聯的電子郵件地址。 您將在下一個步驟中使用此電子郵件地址。
 
