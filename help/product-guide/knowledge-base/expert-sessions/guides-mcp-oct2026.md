@@ -39,9 +39,9 @@ ht-degree: 0%
 
 ## 相關資源
 
-- 在Experience League](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-conf-guide/aemg-integrations/mcp/configure-aem-guides-mcp)上&#x200B;**設定AEM Guides MCP伺服器** - [
+- 在Experience League[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-conf-guide/aemg-integrations/mcp/configure-aem-guides-mcp)上&#x200B;**設定AEM Guides MCP伺服器** - 
 
-- **在Experience League](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview)上使用AEM Guides MCP伺服器** - [
+- **在Experience League[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview)上使用AEM Guides MCP伺服器** - 
 
 - **社群論壇** — 若為Experience League上特定工作階段的社群互動，請造訪[AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
