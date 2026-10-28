@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 212757685049f8787ffe4d63be48c44977a67ef0
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '378'
 ht-degree: 6%
 ---
 # Experience Manager Guides檔案
@@ -171,53 +171,6 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 ::::
 
-## 新增功能
-
-<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
-
->[!BEGINSHADEBOX]
-
-<table>
-<tr style="border: 0;">
-<td>
-
-![Git聯結器](../assets/whats-new-git-connector.svg)
-
-**[使用Git Connector匯入內容](./user-guide/web-editor-git-connector.md)**
-
-直接從Git存放庫將內容匯入指南中。
-
-</td>
-<td>
-
-![對應集合](../assets/whats-new-map-collection.svg)
-
-**[新地圖集合](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
-
-用於管理地圖和發佈輸出的統一介面。
-
-</td>
-<td>
-
-![委派檢閱](../assets/whats-new-delegate-review.svg)
-
-**[委派稽核任務](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
-
-稽核者可以將稽核任務委派給其他稽核者。
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
-## 新增功能
-
-[!BADGE 2026.09.0版本]{type=Informative}
-
-2026.09.0版的Adobe Experience Manager Guides在AI Assistant中引入AI支援的智慧標籤，並在編寫、內容管理、發佈和整體使用者體驗方面提供增強功能。
-
-[探索新增功能](./release-info/whats-new-2026-09-0.md)
 
 ## 快速連結
 
@@ -262,11 +215,11 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 存取實用資源、檔案和支援，以充份運用該平台。
 
-* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.zh-Hant){target="_blank"}
-* [支援](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hant){target="_blank"}
-* [教學影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支援](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [教學影片](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[在社群上互動](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hant&lang=zh_tw)
+[在社群上互動](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
 
 </td>
 </tr>
@@ -274,14 +227,11 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 >[!ENDSHADEBOX]
 
-
-
-
 ## 其他資源
 
 * [Cloud Service發行說明](./release-info/latest-release-info-cs.md)
 * [On-Premise版本注意事項](./release-info/latest-release-info.md)
-* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hant&lang=zh_tw){target="_blank"}
-* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.zh-Hant){target="_blank"}
-* [支援](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hant){target="_blank"}
-* [教學影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支援](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [教學影片](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
