@@ -25,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -74,7 +74,7 @@ ht-degree: 0%
 >
 > 若要在您的環境中使用AI助理功能的代理模式，請聯絡客戶成功團隊。 啟用此功能後，管理員可以從Workspace設定中將其開啟或關閉。 一次只能啟用一個AI助理模式；Agentic或Standard。
 
-- **全能**：將Adobe CX Enterprise Coworker的智慧型、全能型智慧型標籤技能帶入編輯器，啟用自然的對話式內容標籤。 它會分析您的內容、建議相關標籤，並幫助您以最省力的方式套用一致且準確的中繼資料。 您可以檢閱建議的標籤，並選擇在確認選取之前套用或拒絕這些標籤。 [在代理模式中使用AI小幫手](../user-guide/ai-assistant-agentic.md)可簡化標籤程式，改善內容組織和可發現性。
+- **代理程式**：將來自Adobe CX Enterprise Coworker的智慧型代理程式智慧型標籤技能帶入編輯器，啟用自然的對話式內容標籤。 它會分析您的內容、建議相關標籤，並幫助您以最省力的方式套用一致且準確的中繼資料。 您可以檢閱建議的標籤，並選擇在確認選取之前套用或拒絕這些標籤。 [在代理模式中使用AI小幫手](../user-guide/ai-assistant-agentic.md)可簡化標籤程式，改善內容組織和可發現性。
 
 - **Standard**：功能強大、AI導向的工具，可透過智慧說明功能提升生產力。 此外，在編輯器介面中工作時，您可以利用AI Assistant的智慧型撰寫功能，透過對內容重複使用和最佳化的智慧型建議，讓您的撰寫流程更聰明、更快。
 
@@ -96,4 +96,4 @@ ht-degree: 0%
 
 - **編輯器設定**：帶您進入「編輯器設定」對話方塊，您可以在其中自訂個別作者層級的編輯器行為。 它可讓您在編寫期間控制標籤、註解和其他編輯器層級設定的可見度和行為。 如需詳細資訊，請檢視[編輯器設定](../user-guide/config-editor-settings.md)。
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)
