@@ -21,13 +21,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
+source-git-commit: 607a230b50d4c3025b6b0e91667138099b7a8000
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '414'
 ht-degree: 0%
-
 ---
-
 # 編輯器簡介 {#id181OD0QE05Z}
 
 Experience Manager Guides隨附易於使用的編輯器，用於建立和編輯結構化檔案。 編輯器會隱藏DITA結構的所有複雜程度，不讓編寫器看到。 編輯器會提供使用者通常需要在檔案中工作的DITA元素清單。
@@ -49,21 +47,13 @@ Experience Manager Guides隨附易於使用的編輯器，用於建立和編輯�
 - UI和UX細分：透過深色主題和更加豐富的預設作者和預覽模式CSS，改善可讀性和視覺舒適度，提供更現代的編輯介面。
 - 集中式編輯器設定：提供統一的設定面板以個人化編寫體驗，包括控制標籤、屬性、XML註解、不間斷空格和編輯器中的快速插入選單。
 
-### 新編輯器的限制
-
-新編輯器目前不支援下列功能。 這些功能預計將在即將發行的版本中推出。
-
-- 在啟用追蹤變更的情況下製作（任何現有的追蹤變更都會保留，並視為一般內容）
-
-
 >[!NOTE]
 >
 >「新編輯器」不支援DITA map的「版面」檢視。
-
 
 ## 舊編輯器
 
 Experience Manager Guides中的舊編輯器為結構化內容提供簡單而可靠的編寫體驗，抽象DITA的複雜性，同時確保遵循支援的標準，例如DITA 1.2、1.3、輕量型DITA和專門的DITA。 它提供使用通用區塊和內嵌元素的基本工具，因此非常適合在結構化架構中建立一致且受控制的內容。
 
 
-**父級主題：**&#x200B;[&#x200B;使用Experience Manager Guides製作內容](authoring-content-xml-doc.md)
+**父級主題：**[&#x200B;使用Experience Manager Guides製作內容](authoring-content-xml-doc.md)

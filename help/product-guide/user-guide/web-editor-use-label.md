@@ -31,14 +31,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # 使用標籤 {#id164JBG0M0T1}
 
-Adobe Experience Manager Guides可讓您將標籤新增至檔案的不同版本。 您可以使用這些標籤來指定要包含在基準線中以供發佈的版本。 如需使用標籤建立基準線的詳細資訊，請檢視[使用基準線](generate-output-use-baseline-for-publishing.md#)。
+Adobe Experience Manager Guides可讓您將標籤新增至檔案的不同版本。 您可以使用版本標籤來指定要包含在用於發行的[基準](./generate-output-use-baseline-for-publishing.md)中的主題版本，以及[管理非DITA檔案的版本](./authoring-file-management.md#work-with-media-and-other-non-dita-files)，例如影像、多媒體檔案、PDF和ZIP檔案。
 
 例如，如果您要在&#x200B;*版本2.0*&#x200B;中使用&#x200B;*版本1.0*&#x200B;中主題的&#x200B;*版本1.0*&#x200B;和&#x200B;*版本1.1*&#x200B;中的相同主題，您可以在&#x200B;*版本1.0*&#x200B;上新增&#x200B;*版本1.0*&#x200B;標籤，在&#x200B;*版本1.1*&#x200B;上新增&#x200B;*版本2.0*&#x200B;標籤。
 
@@ -104,4 +104,4 @@ Adobe Experience Manager Guides可讓您將標籤新增至檔案的不同版本�
 ![](images/delete-labels.png){width="300"}
 
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

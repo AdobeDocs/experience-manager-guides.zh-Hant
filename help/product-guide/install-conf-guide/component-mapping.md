@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1140'
 ht-degree: 0%
 ---
 # AEM Sites的元件對應
@@ -171,9 +171,30 @@ ht-degree: 0%
 ]
 ```
 
-定義要定位的元素和類別，使用`attributeMap`設定節點屬性，新增`path-attributes`專案以標準化路徑，並為要擷取的值選擇正確的`from`。 上面使用的`heroimage`是`we-retail`網站中的元件。
+定義要定位的元素和類別，使用`attributeMap`設定節點屬性，新增`path-attributes`專案以標準化路徑，並為要擷取的值選擇正確的`from`。 上面使用的`heroimage`是`we-retail`網站中的元件。  請務必討論預設RTF文字，並識別要使用此文字的元素。
 
-**注意**：請務必討論預設RTF文字，並識別使用它的元素。
+
+## 將序號中繼資料傳播至頁面標題
+
+產生含元件對應的AEM Sites輸出時，prolog中繼資料（例如作者、關鍵字和資源ID）會新增至產生的AEM Sites頁面內文，而非頁面標題。
+
+若要將prolog中繼資料傳播至輸出頁面的標題，請將下列對應新增至您的元件對應檔案：
+
+```json
+{
+  "name": "div",
+  "class": "prolog",
+  "resourceType": "guides-components/components/prolog",
+  "attributeMap": [
+    {
+      "from": "outerHTML",
+      "to": "prologContent"
+    }
+  ]
+}
+```
+
+新增此對應後，prolog中繼資料便可在產生頁面的標題中使用。 這支援搜尋索引等使用案例。
 
 ## 建立自訂元件
 

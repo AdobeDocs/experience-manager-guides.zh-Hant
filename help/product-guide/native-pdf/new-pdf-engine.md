@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '872'
 ht-degree: 0%
 ---
 # 使用原生PDF引擎v2
@@ -102,3 +102,4 @@ ht-degree: 0%
 - 已啟用協助工具設定之原生PDF輸出內容的讀取順序不正確。 頁尾的頁碼會在主要內容之前讀取，而不是在結尾讀取。 (GUIDES-27790)
 - 原生PDF輸出中的色彩列不會延伸至整個頁面寬度，且在自訂頁面大小時重疊，導致某些色彩方塊隱藏。 (GUIDES-15505)
 - 原生PDF輸出中不遵循`CSS:is()pseudo-class`選擇器，導致與瀏覽器呈現的樣式不同。 (GUIDES-11328)
+- 即使輸出語言設定為中文(zh-CN)，某些中文（簡體）字元也會在PDF原生輸出中使用日文字型進行轉譯。 (GUIDES-48094)

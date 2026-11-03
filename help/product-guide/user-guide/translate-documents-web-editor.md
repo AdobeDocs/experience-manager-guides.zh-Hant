@@ -37,9 +37,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '2794'
+source-wordcount: '2824'
 ht-degree: 0%
 ---
 # 從地圖主控台翻譯檔案 {#id21BKF0Z0YZF}
@@ -181,7 +181,7 @@ Experience Manager Guides在編輯器中提供強大的功能，可讓您將內�
 
      ![輸入專案路徑](images/project-path.png){width="650"}
 
-   - 如果您要新增至現有的翻譯專案，請選取該專案已存在的路徑。 然後，從&#x200B;**現有翻譯專案**&#x200B;清單中，選取您要新增目前翻譯任務的專案。 您也可以使用可用的&#x200B;**篩選器**&#x200B;來縮小清單。
+   - 如果您要新增至現有的翻譯專案，請選取該專案已存在的路徑。 然後，從&#x200B;**現有翻譯專案**&#x200B;清單中，選取您要新增目前翻譯任務的專案。 如果多個專案具有相同的標題，請使用每個專案標題一起顯示的路徑來識別正確的路徑。 您也可以使用可用的&#x200B;**篩選器**&#x200B;來縮小清單範圍，也可根據您的需求&#x200B;**排序**&#x200B;專案
 
      ![輸入現有的專案路徑](images/existing-project-path.png){width="650"}
 
@@ -288,4 +288,4 @@ Experience Manager Guides提供的功能可檢查主題的所選版本與上次�
 您也可以停用翻譯專案，以便稍後使用。 刪除專案會刪除專案中存在的所有檔案和資料夾。 停用專案並不會刪除專案，而是將其保留在存放庫中。 但您無法更新或編輯已停用的專案。  刪除或停用專案不會影響任何參考的翻譯狀態。
 
 
-**父級主題：**&#x200B;[&#x200B;編輯器簡介](web-editor.md)
+**父級主題：**[&#x200B;編輯器簡介](web-editor.md)

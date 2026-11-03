@@ -17,16 +17,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 2eb766dc53b23f750dd6eb232ab21025b0c0c46d
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2804'
 ht-degree: 0%
 ---
 # Workspace設定
 
 >[!NOTE]
 >
-> 在5.2版之前的內部部署設定中，**設定**&#x200B;選項會出現在編輯器的索引標籤列中。 對於5.2版及更新版本的Cloud Service及內部部署設定，此選項已重新命名為&#x200B;**Workspace設定**。 在&#x200B;**編輯器設定**&#x200B;下可用的所有現有設定選項維持不變。
+> 在5.2版之前的內部部署設定中，**設定**&#x200B;選項會出現在編輯器的索引標籤列中。 對於5.2版及更新版本的Cloud Service及內部部署設定，此選項已重新命名為&#x200B;**Workspace設定**。 在&#x200B;**編輯器設定**下可用的所有現有設定選項維持不變。
 > ![內部部署](assets/editor-settings-on-prem.png){width="650"}的編輯器設定
 
 
@@ -51,25 +51,25 @@ ht-degree: 0%
 
 ## 一般
 
-一般設定可讓您設定使用編輯器的設定。 此索引標籤包含五個區段：**AI小幫手**、**製作**、**引文**、**條件**&#x200B;以及&#x200B;**拼字檢查**。
+一般設定可讓您設定使用編輯器的設定。 此索引標籤包含： **AI功能**、**AI說明小幫手**、**製作**、**引用**、**條件**、**HTML編輯器**、**學習內容**&#x200B;和&#x200B;**拼字檢查**。
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **AI小幫手**
+- **AI功能**
 
   >[!NOTE]
   >
   > 若要在您的環境中使用AI助理功能的代理模式，請聯絡客戶成功團隊。
 
-  選取此項以啟用Experience Manager Guides中的[AI小幫手](../user-guide/ai-assistant.md)功能。 取消選取以停用該功能。
+  選取以啟用Experience Manager Guides中的AI助理功能。 取消選取以停用該功能。
 
-  AI助理有兩種模式可用： **Agentic**&#x200B;和&#x200B;**Standard**。 您可以透過啟用各自的切換來在這兩種模式之間進行選擇。
+  AI助理有兩種模式可用： **Agentic**&#x200B;和&#x200B;**Standard**。 您可以啟用個別的選項按鈕，在兩個模式之間進行選擇。
 
-  - **代理程式**：啟用此選項後，您將能夠從[首頁]上的[導覽列]和[編輯器]介面上的[索引標籤]列存取Agentic AI助理程式功能。 如需有關如何產生主題之AI建議標籤的詳細資訊，請檢視[在代理模式中使用AI助理](../user-guide/ai-assistant-agentic.md)。
+  - **代理程式**：啟用此選項後，您可以從Experience Manager Guides應用程式的導覽列存取Agentic AI小幫手。 您也可以設定「智慧標籤」技能使用的分類名稱空間，以產生標籤建議。 AI助理會根據AEM中定義的標籤，僅考量來自所選名稱空間的標籤。 如需詳細資訊，請檢視AI小幫手](../user-guide/ai-assistant.md#ai-assistant-modes)中的[代理模式。
 
-  ![](assets/agentic-ai-workspace.png){width="350"}
+    ![](assets/agentic-new.png){width="350"}
 
-  - **Standard**：啟用&#x200B;**Standard**&#x200B;切換功能後，您就可以使用&#x200B;**編寫快速動作**&#x200B;功能表，為作者設定在&#x200B;**編寫索引標籤**&#x200B;下顯示的選項，如下所示。
+  - **Standard**：啟用&#x200B;**Standard**&#x200B;選項後，您可以設定哪些選項會顯示在&#x200B;**編寫快速動作**&#x200B;功能表下方，如下所示。
 
     這些變更會套用至您使用的特定資料夾設定檔。 如果您建立新的資料夾設定檔，預設情況下，它將繼承&#x200B;**全域**&#x200B;資料夾設定檔中定義的Workspace設定。 您可以視需要使用&#x200B;**Workspace設定**&#x200B;修改這些設定，並儲存更新的設定。
 
@@ -82,6 +82,8 @@ ht-degree: 0%
   - 變更選項的顯示順序，視需要拖放選項。
 
   ![](assets/authoring-quick-actions-standard.png){width="350"}
+
+- **AI說明小幫手**：此功能預設為停用。 啟用此功能即可從首頁、編輯器和地圖主控台介面存取「說明小幫手」面板。 「說明小幫手」可讓您詢問有關Experience Manager Guides功能、工作流程和疑難排解的問題，並根據產品檔案提供相關答案。 如需詳細資訊，請檢視[智慧說明](../user-guide/ai-based-smart-help.md)。
 
 - **編寫**
 
@@ -115,7 +117,26 @@ ht-degree: 0%
     >
     > AEM拼字檢查會使用在檔案的language屬性中選取的語言，如果沒有為檔案指定語言，拼字檢查會回覆成AEM伺服器語言。
     >為了確保拼字檢查結果準確，在AEM中必須提供所選語言的字典。 如果設定語言所需的字典無法使用，拼字檢查會預設為`en_us`。
+- **學習內容**：此設定可讓您啟用或停用Experience Manager Guides執行個體的產品培訓和學習內容功能。 使用&#x200B;**啟用學習內容**&#x200B;切換功能，在資料夾設定檔層級啟用或停用此功能。 依預設，所有例證都會停用此功能。
 
+  深入瞭解[產品訓練與學習內容](../learning-content/intro.md)功能。
+
+  下列功能/選項只有在啟用「學習內容」設定時才可供使用：
+
+  - **課程製作**：啟用從編輯器和首頁建立和管理課程的選項。
+  - **SCORM範本**：啟用在編輯器中的&#x200B;*輸出範本*&#x200B;下建立SCORM範本的選項。
+  - **內容範本和輸出預設集**：啟用Workspace設定對話方塊中的內容範本和輸出預設集組態選項。
+
+學習內容停用時，上述所有選項在Experience Manager Guides介面中都將無法使用。
+
+如需詳細資訊，請檢視[設定資料夾設定檔](../lc-config-guide/lc-folder-profile.md)。
+
+- **HTML編輯器**：針對學習內容，此設定可讓您設定用於HTML式編寫的編輯器。 此設定中的主要組態選項如下：
+
+  - **隱藏內嵌樣式**：啟用此選項可防止作者將內嵌格式套用至課程內容。 啟用時，編輯器的右側面板中出現的所有內嵌樣式選項（例如「字型」、「邊框」、「版面」、「背景」和「欄」）對「作者」而言仍為隱藏狀態。 不過，作者仍可使用&#x200B;**樣式**&#x200B;面板中可用的全域類別型樣式選項。 這有助於維持與貴組織風格指引的一致性。
+  - **隱藏作者的Source檢視**：啟用此選項以限制對HTML原始碼的存取。 如果您想要簡化編輯體驗，或避免基礎程式碼意外變更，這個功能會很好用。
+
+  如需詳細資訊，請檢視[建立和自訂學習內容](../learning-content/lc-overview.md)。
 
 ## 面板
 
@@ -181,6 +202,12 @@ ht-degree: 0%
   - 選取下列OAuth範圍：
     - 完整存取權（完整）
     - 選取「透過API管理使用者資料(API)」
+    - 隨時執行請求(refresh_token、offline_access)
+
+    >[!NOTE]
+    >
+    >- 若要使用Proof Key for Code Exchange (PKCE)，請新增`Perform requests at any time`至範圍。 也請聯絡客戶成功團隊以啟用此功能。
+    >- 啟用Salesforce連線應用程式中支援的授權流程&#x200B;**設定的** Require Proof Key for Code Exchange (PKCE)延伸模組。 PKCE可防止將攔截到的授權代碼交換為存取權杖，進而提高Experience Manager Guides與Salesforce之間的連線安全性。
 
     設定應用程式後，Salesforce會提供&#x200B;**消費者金鑰**&#x200B;和&#x200B;**消費者機密**。 這些可用來建立Salesforce設定檔。
 
@@ -234,7 +261,7 @@ ht-degree: 0%
 
   這可防止使用者儲存任何破壞所選Schematron檔案中定義規則的檔案。 如果未選取此專案，在儲存變更之前，將不會驗證檔案。
 
-- **允許所有使用者在驗證面板中新增Schematron檔案**：選取此選項可允許使用者在編輯器的驗證面板中新增任何Schematron檔案。 這可讓使用者新增Schematron檔案，然後針對Schematron檔案驗證主題。 如果未選取此專案，則編輯器&#x200B;**驗證面板**&#x200B;的使用者無法使用新增結構描述檔案&#x200B;**新增結構描述檔案**&#x200B;按鈕的選項。
+- **允許所有使用者在驗證面板中新增Schematron檔案**：選取此選項可允許使用者在編輯器的驗證面板中新增任何Schematron檔案。 這可讓使用者新增Schematron檔案，然後針對Schematron檔案驗證主題。 如果未選取此專案，則編輯器&#x200B;**驗證面板**&#x200B;的使用者無法使用&#x200B;**新增Schematron檔案**&#x200B;按鈕。
 
   ![在工作區設定中驗證](../user-guide/images/editor-setting-validation.png){width="550"}
 
@@ -294,9 +321,9 @@ ht-degree: 0%
 
 工作區設定中的![中繼資料索引標籤](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-*設定&#x200B;**版本記錄**&#x200B;對話方塊的中繼資料。*
+*設定&#x200B;**版本記錄**對話方塊的中繼資料。*
 
 
 
 您也可以定義這些中繼資料標籤的顯示順序。 若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
-中繼資料標籤會以相同的順序顯示在編輯器的&#x200B;**版本記錄**&#x200B;對話方塊中。
+中繼資料標籤會以相同的順序顯示在編輯器的**版本記錄**&#x200B;對話方塊中。

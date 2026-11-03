@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3665'
 ht-degree: 1%
 ---
 # 設定輸出產生設定 {#id181AI0B0E30}
@@ -362,11 +362,11 @@ AEM Guides提供用於自訂地圖主控台的`apps.fmdita.dashboard-extn`類別
 
 >[!NOTE]
 >
-> 如需建立AEM使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hant)。
+> 如需建立AEM使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)。
 
 ## 在產生輸出期間處理影像轉譯 {#id177BF0G0VY4}
 
-AEM隨附一組預設工作流程和媒體控制代碼以處理資產。 在AEM中，有預先定義的工作流程可處理最常見MIME型別的資產處理。 一般而言，AEM會針對您上傳的每個影像，以二進位格式建立相同的多個轉譯。 這些轉譯可能大小不同、解析度不同、加上浮水印或其他已變更的特性。 如需AEM如何處理資產的詳細資訊，請參閱AEM檔案中的[使用媒體處理常式和工作流程處理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=zh-Hant)。
+AEM隨附一組預設工作流程和媒體控制代碼以處理資產。 在AEM中，有預先定義的工作流程可處理最常見MIME型別的資產處理。 一般而言，AEM會針對您上傳的每個影像，以二進位格式建立相同的多個轉譯。 這些轉譯可能大小不同、解析度不同、加上浮水印或其他已變更的特性。 如需AEM如何處理資產的詳細資訊，請參閱AEM檔案中的[使用媒體處理常式和工作流程處理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)。
 
 AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 例如，您可以選擇其中一個預設影像轉譯，或建立並使用相同的影像轉譯來發佈檔案。 發行檔案的影像轉譯對應儲存在`/libs/fmdita/config/ **renditionmap.xml**`檔案中。 `renditionmap.xml`檔案的片段如下：
 
@@ -423,7 +423,12 @@ AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 
 
 `/var/dxml/metadata/outputHistory`
 
-在一段時間內，所有記錄檔的集體大小可能會達到GB。 AEM Guides可讓您設定將這些記錄檔保留在存放庫中的時段。 在指定的時段後，記錄以及輸出產生歷史記錄會從存放庫中刪除。
+在一段時間內，所有記錄檔的集體大小可能會達到GB。 AEM Guides可讓您控制記錄檔和輸出產生歷史記錄在存放庫中保留的時間。 您可以透過下列其中一種方式來保留輸出歷史記錄：
+
+- **依年齡（預設）：**&#x200B;清除超過指定天數的專案。
+- **依計數：**&#x200B;每個地圖和預設集只會保留您指定的最近專案數。 系統會清除較舊的專案，不論其年齡為何。
+
+您也可以選擇清除會一併移除整個輸出歷史記錄專案及其日誌，還是隻移除日誌。 保留專案而不記錄記錄記錄可協助您保留產生輸出的記錄，以供稽核之用，同時仍會減少存放庫大小。
 
 >[!NOTE]
 >
@@ -431,11 +436,15 @@ AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 
 
 設定歷史記錄清除功能會影響儲存庫中所有DITA map的輸出產生。 在DITA map的「輸出」標籤中，在指定的天數之後，以及在設定中指定的時間清除歷史記錄。
 
+
+
 >[!NOTE]
 >
 > 移除記錄檔和輸出產生歷程記錄對產生的輸出沒有任何影響。
 
-下列標籤會提供根據您的Experience Manager Guides設定，設定清除輸出歷史記錄和記錄的日期和時間：Cloud Service或內部部署。
+下列標籤提供如何根據Experience Manager Guides設定來設定輸出歷史記錄和記錄檔清除的說明： Cloud Service或內部部署。
+
+![](assets/purging-history-setting.png){width="600"}
 
 >[!BEGINTABS]
 
@@ -445,8 +454,11 @@ AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 
 
 | PID | 屬性索引鍵 | 屬性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | 指定清除輸出歷史記錄以及輸出日誌的天數。 若要停用此功能，請將此屬性設為0。每天在指定的時間，針對此屬性指定天數之前產生的輸出執行清除程式。 | **預設值**： 5 |
-| `output.history.purgetime` | 指定開始永久刪除處理的時間。 | **預設值**： 0:00 \（或12:00午夜\） |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | 指定清除輸出歷史記錄以及輸出日誌的天數。 如果您要停用此功能，則將此屬性設定為0。 每天在指定的時間，針對此屬性中所指定天數之前產生的輸出執行清除程式。 此屬性僅在`output.history.retention.mode`為`AGE`時使用。 **預設值**： `5` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgetime` | 指定開始永久刪除處理的時間。 格式： `HH:MM` （例如，`15:30`）。 **預設值**： `0:00` （或午夜12:00） |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.mode` | 指定輸出記錄的保留策略。 可能的值為`AGE`和`COUNT`。 **預設值**： `AGE` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.count` | 指定每個對應和預設集要保留的最新輸出歷史記錄專案數。 請輸入正整數。 此屬性僅在`output.history.retention.mode`為`COUNT`時使用。 **預設值**： `25` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.action` | 指定在任一模式中，保留所移除的輸出歷史記錄專案會發生什麼情況。 可能的值為`DELETE_ENTRY`和`LOGS_ONLY`。 **預設值**： `DELETE_ENTRY` |
 
 >[!TAB 內部部署]
 
@@ -460,13 +472,19 @@ AEM Guides可讓您設定在為檔案產生輸出時要使用的影像轉譯。 
 
 1. 搜尋並按一下&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;套件。
 
-1. 在&#x200B;**輸出歷程記錄清除期間**&#x200B;屬性中，指定輸出歷程記錄以及輸出記錄清除的天數。 預設會設為5天。 如果您要停用此功能，則將此屬性設定為0。
+1. 在&#x200B;**輸出歷程記錄清除期間**&#x200B;屬性中，指定輸出歷程記錄以及輸出記錄清除的天數。 預設會設為5天。 如果您要停用此功能，則將此屬性設定為0。 此屬性僅在&#x200B;**輸出歷程記錄保留模式**&#x200B;設定為&#x200B;**AGE**&#x200B;時使用。
 
-1. 在&#x200B;**輸出歷程記錄清除時間**&#x200B;屬性中，指定清除程式的起始時間。 預設會設為0:00 \（或12:00午夜\）。 每天這個時間，清除程式都會在&#x200B;**輸出歷程記錄清除期間**&#x200B;屬性中指定的天數之前產生的輸出上執行。
+1. 在&#x200B;**輸出歷程記錄清除時間**&#x200B;屬性中，指定清除程式的起始時間。 預設為0:00 （或午夜12:00）。 每天這個時間，清除程式都會在&#x200B;**輸出歷程記錄清除期間**&#x200B;屬性中指定的天數之前產生的輸出上執行。
 
    >[!NOTE]
    >
-   > 依預設，清除功能會在每午夜的5天前輸出上執行。
+   >依預設，清除功能會在每午夜的5天前輸出上執行。
+
+1. 從&#x200B;**輸出歷程記錄保留模式**&#x200B;下拉式清單中，選取保留策略。 預設為&#x200B;**AGE**。 這兩種模式互斥。
+
+1. 在&#x200B;**輸出歷程記錄保留計數（每個預設集）**&#x200B;屬性中，指定每個對應和預設集要保留的最近輸出歷程記錄專案數。 預設為25。 此屬性僅在&#x200B;**輸出歷程記錄保留模式**&#x200B;設定為&#x200B;**COUNT**&#x200B;時使用。
+
+1. 從&#x200B;**輸出歷程記錄保留動作**&#x200B;下拉式清單中，選取保留所移除的專案有何變化。 預設為&#x200B;**DELETE_ENTRY**。
 
 1. 按一下&#x200B;**儲存**。
 

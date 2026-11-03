@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
+source-git-commit: b98bb66df096e0915c5d3c810b1c4b46d8473add
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2450'
 ht-degree: 0%
 ---
 # Experience Manager Guides首頁體驗
@@ -46,7 +46,7 @@ Experience Manager Guides首頁分為下列區段：
 >
 > 如果使用Adobe Experience Manager Guides as a Cloud Service，導覽列中會顯示一個標示為&#x200B;**AI小幫手**&#x200B;的其他功能。
 
-![](images/aem-home-nav-bar.png)
+![](images/aem-home-nav-bar-new.png)
 
 導覽列中可用的功能說明如下：
 
@@ -60,12 +60,13 @@ Experience Manager Guides首頁分為下列區段：
   >
   > 若要在您的環境中使用AI助理功能的代理模式，請聯絡客戶成功團隊。 啟用此功能後，管理員可以從Workspace設定中將其開啟或關閉。 一次只能啟用一個AI助理模式；Agentic或Standard。
 
-  - **代理程式**：將來自Adobe CX Enterprise Coworker的智慧型代理程式智慧型標籤技能帶入編輯器，啟用自然的對話式內容標籤。 它會分析您的內容、建議相關標籤，並幫助您以最省力的方式套用一致且準確的中繼資料。 您可以檢閱建議的標籤，並選擇在確認選取之前套用或拒絕這些標籤。 [在代理模式中使用AI小幫手](../user-guide/ai-assistant-agentic.md)可簡化標籤程式，改善內容組織和可發現性。
+  - **代理程式**： AI助理中的代理程式模式可讓您透過自然語言互動完成內容相關工作。 您可以在聊天面板中說明您的需求，AI助理規劃和執行任務，同時提供其進度的可見度。 它支援「匯入」等技能，可將裝置或內容存放庫中的PDF、Word或Markdown檔案轉換為結構化主題；「建立」可根據您的需求產生新主題，並可參考現有內容的色調和風格；「智慧型標籤」會根據您組織的分類推薦相關標籤，以改善中繼資料一致性。
 
-  - **Standard**：功能強大、AI導向的工具，可透過智慧說明功能提升生產力。 此外，在編輯器介面中工作時，您可以利用AI Assistant的智慧型撰寫功能，透過對內容重複使用和最佳化的智慧型建議，讓您的撰寫流程更聰明、更快。
+  - **Standard**：功能強大的AI驅動工具，可透過AI Assistant的智慧型撰寫功能提升生產力，透過內容重複使用和最佳化的智慧型建議，讓您的撰寫程式更聰明、更快。
 
   [AI助理](./ai-assistant.md)功能目前僅適用於Adobe Experience Manager as Cloud Service。
 
+- **說明小幫手**： Experience Manager Guides中的&#x200B;**說明小幫手**&#x200B;是創作AI支援的對話式搜尋功能，可協助您尋找有關產品功能、工作流程和疑難排解的資訊。 它提供以Experience Manager Guides檔案為基礎的相關答案，支援後續問題，並包含來源文章的連結以供進一步參考。 如需詳細資訊，請檢視[使用說明小幫手](./ai-based-smart-help.md)提高效率。
 - **自訂總覽區段**：可讓您隱藏或顯示Widget區段中的Widget。
 - **使用中的資料夾設定檔**：顯示目前正在使用的資料夾設定檔。
 - **其他動作**：提供其他選項的存取權。 選取此按鈕會開啟包含下列選項的功能表：
@@ -182,7 +183,7 @@ Widget也提供排序和調整欄大小的選項。 若要檢視這些選項，�
 
 >[!NOTE]
 >
->您可以從2026.08.0版開始，在Adobe Experience Manager Guides as a Cloud Service中使用新的地圖集合功能，將地圖管理和大量發佈結合到統一介面。 請聯絡您的客戶成功團隊以啟用此功能。進一步瞭解[使用新的地圖集合。](./generate-output-use-new-map-collection-output-generation.md)
+>您可以從2026.08.0版開始，在Adobe Experience Manager Guides as a Cloud Service中使用新的地圖集合功能，將地圖管理和大量發佈結合到統一介面。 請聯絡您的客戶成功團隊以啟用此功能。 進一步瞭解[使用新的地圖集合。](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides可讓您使用名為&#x200B;**地圖集合**&#x200B;的儀表板，組織內容以供發佈。 若要使用此功能，請從左側面板選取&#x200B;**對應集合**。 這會帶您進入&#x200B;**Assets UI**&#x200B;中的「對應集合」頁面，您可以[使用對應集合來產生輸出。](./generate-output-use-map-collection-output-generation.md)
 
@@ -194,7 +195,7 @@ Experience Manager Guides可讓您使用名為&#x200B;**地圖集合**&#x200B;�
 
 當您在系統上執行大量發佈作業時，幾乎不可能個別檢查每個DITA map以監視其發佈作業。 Experience Manager Guides可讓管理員和發佈者統一檢視系統中執行的所有發佈任務。
 
-若要使用此功能，請從左側面板選取&#x200B;**發佈佇列**。 這會帶您進入Assets UI中的「發佈」儀表板頁面，您可在其中使用發佈儀表板[&#128279;](./generate-output-publish-dashboard.md)管理發佈任務。
+若要使用此功能，請從左側面板選取&#x200B;**發佈佇列**。 這會帶您進入Assets UI中的「發佈」儀表板頁面，您可在其中使用發佈儀表板](./generate-output-publish-dashboard.md)管理[發佈任務。
 
 ### 使用者偏好設定
 

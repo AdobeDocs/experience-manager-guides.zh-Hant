@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # PDF範本的元件 {#components-pdf-template}
@@ -278,7 +278,7 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
   >如果您是CSS開發人員，則也可以直接在CSS檔案中定義導線格式。
 
 * **使用資料表接續標籤**：選取此選項可定義跨多頁之長資料表的標籤。
-您可以定義要在分頁前後顯示的文字。 例如，表格在第5頁中斷，而您為&#x200B;**中斷前文字**&#x200B;定義`<Continued on page %page-num%>`。  文字在第5頁底部顯示「繼續於第6頁」。
+您可以定義要在分頁前後顯示的文字。 例如，表格在第5頁中斷，而您為**中斷前文字**&#x200B;定義`<Continued on page %page-num%>`。  文字在第5頁底部顯示「繼續於第6頁」。
 
   使用語言變數來定義分行前後連續標籤文字。 根據您選取的語言，系統會自動在PDF輸出中挑選當地語系化的值。 例如，您可以將`Continued on page %page-num%`以英文和德文的文字發佈。`Fortsetzung auf Seite %page-num%`
 
@@ -287,14 +287,17 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
   >[!NOTE]
   >
   > 在&#x200B;**分行前文字**&#x200B;或&#x200B;**分行後文字**&#x200B;欄位中使用語言變數時，請確定整份文字是在單一語言變數中定義的。 在這些欄位中的語言變數之外新增的任何文字或變數都不會轉譯。 例如，不要在&#x200B;**Text After Break欄位**&#x200B;中使用如`${lng:Continued-from-page} %page-num%`的變陣列合，請在欄位中只使用`${lng:Continued-from-page}`，並單獨將`Continued-from-page`語言變數的值設定為`Continued-from-page %page-num%`。
-* **將字彙表辭彙連結至字彙表頁面**：選取此選項可將字彙表辭彙顯示為內容中的超連結，並將它們連結至字彙表頁面上的辭彙。 這可協助讀者快速檢視辭彙表中定義的辭彙定義。
+* **將字彙表辭彙連結至字彙表頁面**：啟用此選項可將字彙表辭彙顯示為內容中的超連結，並將它們連結至字彙表頁面上的辭彙。 這可協助讀者快速檢視辭彙表中定義的辭彙定義。
 
   若要將字彙表辭彙轉換成超連結，您需要：
   * 啟用DITA map **頁面配置順序**&#x200B;索引標籤中的&#x200B;**字彙表**。
   * 在書本地圖的Back Matter Pages中新增字彙表。
 
   如果您未啟用「字彙表」頁面，內容中的「字彙表」字彙不會轉換為PDF輸出中的超連結。
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **顯示所有字彙表專案**：啟用此選項以包含地圖中定義的每個字彙表專案，無論內容中是否參考了對應的字詞。 依預設，此選項會停用，而且字彙表頁面只會包含內容中實際使用的字彙表辭彙。
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### 頁面配置 {#page-layouts}
 
@@ -502,11 +505,11 @@ AEM Guides提供下列現成可用的變數：
 當您將`${lng:<variable name>}`新增至「段落」區段時，輸出段落中的互動參照會包含當地語系化文字和頁碼。\
 例如，下列熒幕擷取畫面以英文顯示「View on page 1」互動參照，以德文顯示「Einzelheiten finden Sie auf der Seite 1」。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫的互動參照的英文輸出" width ="800" border="2px">
 
 *以英文發佈時，段落中的互動參照。*
 
-<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="在段落中互動參照的德文輸出" width ="800" border="2px">
 
 *以德文發佈時，段落中的互動參照。*
 

@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4036'
+source-wordcount: '4222'
 ht-degree: 0%
 ---
 # 傳送主題以供檢閱 {#id199RD0S035Z}
@@ -401,5 +401,31 @@ Experience Manager Guides可讓您同時在DITA map中傳送一或多個主題�
 
 如需更多詳細資料，請檢視[瞭解檢閱通知](./review-understanding-review-notifications.md)。
 
+## 為稽核者新增註解
 
-**父級主題：**&#x200B;[&#x200B;檢閱簡介](review.md)
+作為稽核任務的發起者，您可以將內嵌註解新增至您傳送供稽核的主題。 建立稽核工作之後，請在&#x200B;**稽核UI**&#x200B;中開啟工作，以提供額外的內容，或吸引稽核者注意特定內容。
+
+執行下列步驟，將註解新增至稽核任務中的主題：
+
+1. 建立稽核任務並新增所需的主題和稽核者。
+
+2. 在&#x200B;**檢閱UI**&#x200B;中開啟已建立的檢閱工作。
+
+   身為檢閱發起人，您可以存取&#x200B;**註解**&#x200B;面板和左側的主題清單，類似於檢閱者可用的檢視。
+
+   ![](./images/add-comments-as-author.png)
+
+3. 從主題清單中，選取要新增註解的主題。
+
+4. 選取相關內容，並使用&#x200B;**註解**&#x200B;面板中的可用選項來新增您的意見或吸引稽核者注意特定內容。
+
+5. 視需要重複這些步驟，將註解新增至稽核任務中的其他主題。
+
+當稽核者存取稽核任務時，您新增的註釋對稽核者可見。 您新增評論時，檢閱者也會收到AEM通知。
+
+
+
+
+
+
+**父級主題：**[&#x200B;檢閱簡介](review.md)

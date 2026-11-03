@@ -20,36 +20,32 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 3aa727853173c89eb63ffa09f4caec92f6dff911
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 ---
-# 使用AI助理(Beta)中的智慧說明提高效率
+# 使用說明助理提升效率
 
->[!NOTE]
->
->此功能在標準模式中適用於AI助理。
-
-Experience Manager Guides提供GenAI智慧型說明，這是對話式搜尋功能，可協助您從[Adobe Experience Manager Guides檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/overview)尋找相關內容。
+Experience Manager Guides提供GenAI智慧型說明，這是對話式搜尋功能，可協助您從[Adobe Experience Manager Guides檔案](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)尋找相關內容。
 
 您可以透過資訊化方式詢問問題並獲得答案。 您的查詢答案取決於產品檔案中的內容。 此搜尋完全是對話式的。 您可以詢問有關Experience Manager Guides各種功能的問題，也可以選擇詢問疑難排解查詢。 您也可以根據回應提出進一步的問題。 回應也包含來原始檔的連結，您可以參閱以取得詳細資訊。
 
 例如，您可能想問諸如&#x200B;*如何發佈地圖？*&#x200B;之類的問題 您會收到回應，以及相關文章的連結。 然後，如果您想瞭解如何使用特定方法來發佈輸出，您可以詢問有關它的問題。 例如，*如何將地圖發佈至PDF？*
 
-當您在[首頁]、[對應]主控台或[編輯器]上開啟&#x200B;**AI小幫手**&#x200B;時，**說明**&#x200B;面板會在右側開啟。 如果是Editor，也會顯示「編寫」面板，提供您智慧型編寫功能。 如需詳細資訊，請檢視[AI助理以聰明地編寫檔案](./ai-assistant-right-panel.md)
+>[!NOTE]
+>
+>第一次使用說明助理時，系統會提示您先提供同意再存取Experience Manager Guides Generative AI功能。 如果您已同意使用AI助理員功能的准則，則系統將不再提示您並可繼續使用「說明」助理員，無需其他同意。
 
-![智慧型說明面板](images/smart-help-panel.png){width="300"}
+執行以下步驟，使用&#x200B;**說明小幫手**&#x200B;面板來尋找適當的內容並解決您的查詢：
 
-*檢視&#x200B;**說明**&#x200B;面板。*
-
-執行以下步驟，使用「說明」面板來尋找適當的內容並解決您的查詢：
-
-1. 選取&#x200B;**AI小幫手**&#x200B;以開啟[說明]面板。
+1. 選取&#x200B;**說明小幫手**&#x200B;圖示以開啟說明小幫手面板。
 
    >[!NOTE]
    >
    > 在[全域或資料夾層級設定檔](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant)中，您的管理員需要定義出現在面板中的預設問題。
+
+   ![智慧型說明面板](images/smart-help-panel-new.png){width="300"}
 
 1. 輸入問題以在Experience Manager Guides檔案中尋找相關內容。 您可以在面板中選取預設問題，或在文字方塊中輸入問題。
 
@@ -69,15 +65,18 @@ Experience Manager Guides提供GenAI智慧型說明，這是對話式搜尋功�
 
 您可以使用&#x200B;**說明**&#x200B;功能，快速找到查詢的相關解答，而不需搜尋使用手冊和參考檔案。 這有助於節省時間，讓您專注在內容建立上，進而提高生產力和效率。
 
-## AI助理說明回應的可用選項
+## 說明回應的可用選項
 
-當您在&#x200B;**說明**&#x200B;面板中收到AI助理的回應時，您可以與其互動或提供意見回饋，以提高其正確性和可靠性。 您的意見回饋可協助Experience Manager Guides團隊增強AI Assistant回應的準確性和關聯性，以隨著時間改進其效能。
+當您在&#x200B;**說明小幫手**&#x200B;面板中收到說明小幫手的回應時，您可以與其互動或提供意見回饋，以提高其正確性和可靠性。 您的意見回饋可協助Experience Manager Guides團隊增強正確性和關聯性回應，並隨著時間改善效能。
 
-下列選項可與AI助理&#x200B;**說明**&#x200B;面板提供的回應互動或提供回饋：
+下列選項可與&#x200B;**說明小幫手**&#x200B;面板提供的回應進行互動或提供回饋：
 
 ![](images/ai-assistant-response-options.png){width="300"}
 
 - **複製**：複製回應以用於您的檔案。
-- **Like**：表示回應有幫助或準確。 選取「讚」圖示來贊回應，並使用&#x200B;**告知更多**&#x200B;選項提供詳細的意見反應。
-- **不喜歡**：將回應標籤為無用或不正確。 選取「不喜歡」圖示來喜歡回應，並使用&#x200B;**告知我們更多**&#x200B;選項來提供詳細的意見反應。
-- **報告**：如果回應包含錯誤或不準確的內容，請將回應標幟為檢閱。 選取旗標圖示以開啟&#x200B;**報告結果**&#x200B;對話方塊。 從可用選項中選取，或提供自訂意見回饋。
+- **Like**：表示回應有幫助或準確。 選取「讚」圖示來贊回應，並使用&#x200B;**告知更多**選項提供詳細的意見反應。
+  ![](images/feedback-help.png){width="300"}
+- **不喜歡**：將回應標籤為無用或不正確。 選取「不喜歡」圖示來喜歡回應，並使用&#x200B;**告知我們更多**&#x200B;選項來提供詳細的意見反應。\
+  ![](images/dislike-help.png){width="300"}
+- **報告**：如果回應包含錯誤或不準確的內容，請將回應標幟為檢閱。 選取旗標圖示以開啟&#x200B;**報告結果**對話方塊。 從可用選項中選取，或提供自訂意見回饋。
+  ![](images/report-help.png){width="300"}

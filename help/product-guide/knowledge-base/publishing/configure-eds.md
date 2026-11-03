@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1916'
 ht-degree: 1%
 ---
 # Experience Manager Guides和Edge Delivery Services
@@ -39,7 +39,7 @@ Adobe Experience Manager Guides可讓您透過專用的GitHub型發佈設定檔�
 2. [在Experience Manager Guides中為EDS建立並設定發佈設定檔](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [使用EDS區塊自訂輸出](#customize-output-using-eds-blocks)
 
-如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
+如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
 
 
 
@@ -63,58 +63,6 @@ EDS需要預先定義結構的GitHub存放庫。 Adobe提供專為Experience Man
 存放庫現在已建立，並與樣版範本結構一致。
 
 ![](assets/eds-repo-created-github-view.png)
-
-### 透過AEM程式碼同步連線GitHub至Adobe
-
-Adobe Experience Manager使用名為&#x200B;**AEM Code Sync**&#x200B;的GitHub應用程式，將內容從Experience Manager Guides推送至GitHub。
-
-執行以下步驟來安裝和設定&#x200B;*AEM Code Sync*&#x200B;應用程式：
-
-1. 瀏覽至[AEM程式碼同步](https://github.com/apps/aem-code-sync)頁面，並選取&#x200B;**安裝**。
-2. *AEM Code Sync*&#x200B;會監視存放庫變更，並確保將更新正確推送至GitHub。
-
-   >[!NOTE]
-   >
-   >安裝應用程式時，請確定您使用擁有存放庫的相同GitHub帳戶。
-
-   ![](assets/eds-aem-code-sync-page.png)
-
-3. 在下一頁，授予您所建立之存放庫的存取權。 若要這麼做，請選取&#x200B;**僅選取存放庫**&#x200B;選項，然後從下拉式清單中選取您的存放庫。
-
-   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
-
-4. 選取&#x200B;**安裝並授權**。
-
-系統會將您重新導向至GitHub設定頁面，確認成功註冊&#x200B;*AEM Code Sync*&#x200B;應用程式。 您也可以從此頁面儲存您網站的預覽和即時URL。
-
-![](assets/eds-aem-code-sync-registered.png)
-
-### 建立新的GitHub應用程式
-
-1. 在GitHub上，導覽至左側邊欄並選取&#x200B;**開發人員設定**。
-2. 在左側邊欄中，選取&#x200B;**GitHub應用程式**。
-3. 選取&#x200B;**新的GitHub應用程式**。
-
-   ![](assets/eds-new-github-app.png){width="650"}
-
-4. 在&#x200B;**註冊新的GitHub應用程式**&#x200B;頁面上，提供下列詳細資料：
-
-   - **GitHub應用程式名稱**：輸入您應用程式的名稱。 例如`USERNAME-eds-app`，其中USERNAME是您的GitHub使用者名稱。
-   - **首頁URL**：輸入Experience Manager Guides執行個體的URL。
-
-     範例URL （格式）： `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
-
-     範例URL： `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
-
-   - **回呼URL**：與首頁URL相同。
-   - **Webhook URL**：停用此選項。
-   - **存放庫許可權**：設定&#x200B;*動作、管理和證明*&#x200B;的&#x200B;**讀取和寫入**&#x200B;許可權。
-
-5. 選取&#x200B;**建立GitHub應用程式**。
-
-您的應用程式現已準備就緒。 系統會將您重新導向至GitHub應用程式的&#x200B;**設定**&#x200B;頁面。
-
-![](assets/eds-github-app-registered-page.png)
 
 ### 建立新的OAuth應用程式
 
@@ -145,54 +93,122 @@ Adobe Experience Manager使用名為&#x200B;**AEM Code Sync**&#x200B;的GitHub�
 
 ### 在EDS存放庫中設定掛接點URL
 
-EDS會從`fstab.yaml`檔案中定義為&#x200B;*掛接點* URL的GitHub存放庫路徑讀取內容。
+EDS會從存放庫根目錄之`fstab.yaml`檔案中定義的&#x200B;*掛接點* URL讀取內容。 此URL會將EDS指向Experience Manager Guides發佈所產生內容的位置。
 
 若要在`fstab.yaml`檔案中設定掛接點URL：
 
-1. 開啟存放庫中的`fstab.yaml`檔案，並更新下列專案：
+1. 在您的GitHub存放庫中，開啟`fstab.yaml`檔案。
+2. 使用以下格式更新`url`值：
 
-   - `your-user-name`
-   - `your-repo-name`
+   ```text
+   https://guides.adobe.com/eds-workers/<account type>/<git acc domain>/<git username>/<git repo>/<branch>/<root folder>
+   ```
 
-   >[!NOTE]
-   >
-   > 在掛接點URL中，`main`表示您要發佈內容的分支，`docs`表示您正在處理的EDS存放庫的根資料夾。 如果您偏好在GitHub上變更分支名稱，則必須在&#x200B;*掛接點* URL （在`fstab.yaml`檔案中）中更新相同的分支名稱，並在Experience Manager Guides中更新對應的EDS發佈設定檔。
+   下表說明URL中的每個欄位：
+
+   | 欄位 | 說明 |
+   |---|---|
+   | `https://guides.adobe.com/eds-workers` | Experience Manager Guides用來將內容發佈至EDS的工作者URL。 請勿變更此值。 |
+   | `<account type>` | Git帳戶型別。 設定為`github`。 |
+   | `<git acc domain>` | Git帳戶的網域。 設定為`github.com`。 |
+   | `<git username>` | 您的GitHub使用者名稱。 |
+   | `<git repo>` | 您為EDS建立的GitHub存放庫名稱。 |
+   | `<branch>` | 您要發佈內容的分支。 預設值為 `main`。 如果您在GitHub上變更分支名稱，請在此處並在Experience Manager Guides的EDS發佈設定檔中更新。 |
+   | `<root folder>` | 已發佈檔案認可所在之存放庫的根資料夾。 預設值為 `docs`。 如果您在GitHub上變更資料夾名稱，請在此處並在Experience Manager Guides的EDS發佈設定檔中更新。 |
+
+   例如，若您的GitHub使用者名稱為`my-username`，而存放庫名稱為`my-eds-repo`，則`fstab.yaml`檔案會顯示如下：
+
+   ```yaml
+   mountpoints:
+     /:
+       url: https://guides.adobe.com/eds-workers/github/github.com/my-username/my-eds-repo/main/docs
+       type: markup
+   ```
 
    ![](assets/eds-fstab-yaml-file.png){width="650"}
 
-2. 選取&#x200B;**認可變更**，輸入認可詳細資料，然後確認。
-3. 返回[開發人員設定](https://github.com/settings/apps)，找到您的應用程式，然後選取&#x200B;**編輯**。
+   >[!NOTE]
+   >
+   > 如果您繼續使用舊版URL格式(`https://guides.adobe.com/eds-workers/<git username>/<git repo>/<branch>/<root folder>`)，則帳戶型別和網域預設為`github`和`github.com`。
 
-   ![](assets/eds-edit-github-app.png){width="650"}
+3. 透過AEM程式碼同步](#connect-github-to-adobe-via-aem-code-sync)區段從[連線GitHub至Adobe重複步驟2和3，以授權存放庫。
 
-4. 瀏覽至&#x200B;**安裝應用程式**&#x200B;頁面，並選取&#x200B;**安裝**。
+### 透過AEM程式碼同步連線GitHub至Adobe
 
-   ![](assets/eds-install-eds-app.png){width="650"}
+Adobe Experience Manager使用名為&#x200B;**AEM Code Sync**&#x200B;的GitHub應用程式，將內容從Experience Manager Guides推送至GitHub。
 
-5. 透過AEM程式碼同步[&#128279;](#connect-github-to-adobe-via-aem-code-sync)區段從連線GitHub至Adobe重複步驟2和3，以授權存放庫。
+執行以下步驟來安裝和設定&#x200B;*AEM Code Sync*&#x200B;應用程式：
+
+1. 瀏覽至[AEM程式碼同步](https://github.com/apps/aem-code-sync)頁面，並選取&#x200B;**安裝**。
+
+   **AEM Code Sync**&#x200B;會監視存放庫變更，並確保將更新正確推送至GitHub。
+
+   >[!NOTE]
+   >
+   >安裝應用程式時，請確定您使用擁有存放庫的相同GitHub帳戶。
+
+   ![](assets/eds-aem-code-sync-page.png)
+
+2. 在下一頁，授予您所建立之存放庫的存取權。 選取&#x200B;**僅選取存放庫**，然後從下拉式清單中選取您的存放庫。
+
+   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+
+3. 選取&#x200B;**安裝並授權**。
+
+   系統會將您重新導向至GitHub設定頁面。
+
+   ![](./assets/aem-code-sync-source-code-github.png)
+
+4. 檢閱原始程式碼詳細資料，並選取&#x200B;**下一步**。
+
+5. 在&#x200B;**內容來源**&#x200B;頁面上，設定下列設定：
+
+   - **內容來源型別：**&#x200B;選取&#x200B;**其他（使用您自己的標籤）**。
+   - **內容來源URL：**&#x200B;檢閱在`fstab.yaml`檔案中設定為掛接點URL的URL。 如果您尚未更新檔案中的URL，可以在此處更新。
+   - **副檔名：**&#x200B;將預設`.html`尾碼變更為`.htm`。
+
+   請確定已選取&#x200B;**使用不同的內容來源**。
+
+6. 在&#x200B;**使用者**&#x200B;頁面上，視需要新增使用者，然後選取&#x200B;**下一步**。
+
+7. 檢閱組態摘要，並選取&#x200B;**儲存**。
+
+   成功註冊後，確認頁面隨即顯示。 您可以從此頁面複製並儲存您網站的&#x200B;**預覽**&#x200B;和&#x200B;**即時** URL。
+
+   ![](assets/eds-aem-code-sync-registered.png)
+
+## 為EDS設定並設定GitLab
+
+如需將GitLab設定為Edge Delivery Services的發佈存放庫的指示，請檢視[設定EDS的GitLab ](./configure-eds-gitlab.md)。
 
 ## 在Experience Manager中為EDS建立並設定發佈設定檔
 
 以下各節將依序概述每個步驟，並說明如何在Experience Manager Guides中設定EDS發佈設定檔、設定輸出預設集及使用EDS產生輸出。
 
-### 建立EDS發佈設定檔
+### 建立GitHub或GitLab的EDS發佈設定檔
 
 1. 移至&#x200B;**[Workspace設定](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **發佈設定檔**。
 2. 選取&#x200B;**+**&#x200B;圖示以建立新的發佈設定檔，並提供下列詳細資料：
 
-   - **伺服器型別**：從下拉式清單中選取&#x200B;**GitHub Edge Delivery Services**。
-   - **名稱**：輸入此設定檔的名稱。
-   - **存放庫名稱**：使用從樣板建立的GitHub存放庫名稱。
-   - **使用者名稱**：輸入您的GitHub使用者名稱。
-   - **Branch main**：設定為主要（預設）。
-   - **根資料夾**：設定為檔案（預設）。
-   - **使用者端ID和使用者端密碼**：從您的GitHub應用程式擷取這些專案（如需詳細資訊，請參閱[建立新的OAuth應用程式](#create-a-new-oauth-app)區段）。
-
-3. 選取&#x200B;**登入**&#x200B;以進行驗證。
+   - **伺服器型別\*：**&#x200B;從下拉式清單中選取&#x200B;**Git （Edge Delivery服務）**。
+   - **名稱\*：**&#x200B;輸入發佈設定檔的名稱。
+   - **Git帳戶型別\*：**&#x200B;從下拉式清單中選取&#x200B;**GitHub**&#x200B;或&#x200B;**GitLab**，視您的Git存放庫提供者而定。
+   - **執行個體URL\*：**&#x200B;輸入GitHub或GitLab執行個體的URL，例如`https://github.com`或`https://gitlab.com`。
+   - **存放庫名稱\*：**&#x200B;輸入您的GitHub或GitLab存放庫名稱。
+   - **使用者名稱\*：**&#x200B;請輸入您的GitHub或GitLab使用者名稱。
+   - **分支名稱：**&#x200B;設定為`main` （預設）。
+   - **根資料夾\*：**&#x200B;設定為`docs` （預設）。
+   - **網站擁有者（*僅限GitLab*）：**&#x200B;輸入Edge Delivery Services網站的擁有者。
+   - **網站存放庫（*僅限GitLab*）：**&#x200B;請輸入與Edge Delivery Services網站關聯的存放庫名稱。
+   - **HLX API金鑰：**&#x200B;輸入您EDS組態的HLX API金鑰。 若要支援2026.11.0版Experience Manager Guides as a Cloud Service中推出的未發佈功能，此金鑰為必要專案。 此外，如果內容大小超過100個檔案，則需要金鑰才能將內容發佈到EDS。
+   - **驗證認證：**&#x200B;根據選取的Git帳戶型別提供認證：
+     - **GitHub：**&#x200B;輸入從您的GitHub OAuth應用程式取得的&#x200B;**使用者端識別碼\***和&#x200B;**使用者端密碼\***。 如需詳細資訊，請參閱[建立新的OAuth應用程式](#create-a-new-oauth-app)。
+     - **GitLab：**&#x200B;請輸入為您的GitLab帳戶產生的&#x200B;**Access Token\***。
+3. （*僅限GitHub*）選取&#x200B;**登入**&#x200B;以進行驗證。 對於GitLab，不需要登入，因為存取權杖是用於驗證。
 
    ![](assets/eds-publish-profile.png){width="650"}
 
-4. 成功驗證時，選取&#x200B;**儲存**。
+4. 選取「**儲存**」。 對於GitHub，在成功驗證後，**儲存**&#x200B;選項即可使用。
 
 現在已設定您的EDS發佈設定檔。
 
@@ -206,21 +222,25 @@ EDS會從`fstab.yaml`檔案中定義為&#x200B;*掛接點* URL的GitHub存放庫
 4. 選取「**新增**」。
 
    ![](assets/eds-output-preset.png){width="650"}
-5. 開啟新建立的EDS輸出預設集，並導覽至&#x200B;**Config**&#x200B;標籤。
-   - 選取在上一步建立的發佈設定檔。
-   - 啟用&#x200B;**推播至即時**。
+5. 開啟新建立的EDS輸出預設集，並設定下列欄位：
 
-   啟用&#x200B;**推送至即時**&#x200B;時，產生的輸出會認可至GitHub，而對應的更新會立即傳播至即時的網站。
+   - **條件式篩選：**&#x200B;選取&#x200B;**無**&#x200B;產生輸出而不進行篩選，或選取&#x200B;**使用DITAVAL**&#x200B;套用條件式篩選。
+   - **發佈子資料夾：**&#x200B;輸入發佈輸出的子資料夾名稱。 子資料夾會建立於根資料夾下的存放庫中，其名稱會出現在已發佈內容的EDS連結中。 例如，如果根資料夾為`docs`，而發佈子資料夾為`product-guide`，則內容會發佈至`docs/contents/product-guide`。
+   - **發佈設定檔：**&#x200B;選取在上一節中設定的GitHub或GitLab發佈設定檔。
 
-   ![](assets/eds-output-preset-config-tab.png){width="650"}
+     ![](assets/eds-output-preset-config.png){width="650"}
 
 6. 選取&#x200B;**儲存**，然後選取&#x200B;**產生輸出**。
 
 >[!NOTE]
 >
->產生的輸出儲存在EDS存放庫的&#x200B;**檔案**&#x200B;資料夾中。
+>產生的輸出儲存在EDS存放庫的`<root folder>/contents/<publish subfolder>`資料夾中。
 
 現在會產生EDS輸出。 內容以乾淨、回應式的版面配置呈現。 其中包含一般元素，例如頁面標題、階層連結、內文內容，以及主題中使用的任何區塊。 左側的目錄（從地圖產生）可協助您跨主題導覽，而右側的迷你目錄會反白標示目前頁面中的區段。 整個輸出可完全回應，確保裝置間的最佳化且一致讀取體驗。
+
+>[!NOTE]
+>
+> 您可以將多個DITA map發佈到相同的網站。 發佈的地圖會顯示在左側導覽面板中，可讓使用者存取每個地圖的內容。 發佈新地圖不會覆寫先前發佈的地圖。
 
 ![](assets/eds-site-output.png)
 

@@ -28,7 +28,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如需有關如何在AEM中設定作者與發佈執行個體的詳細資訊，請參閱[作者與發佈架構概覽](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=zh-Hant#prerequisites)。
+> 如需有關如何在AEM中設定作者與發佈執行個體的詳細資訊，請參閱[作者與發佈架構概覽](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)。
 
 透過AEM Guides的大量啟動功能，您可以快速輕鬆地啟動從製作到發佈執行個體的內容。 大量啟動功能可讓您靈活地：
 
@@ -63,4 +63,5 @@ JSON輸出預設集。
 - **[刪除大量啟用地圖集合](conf-bulk-activation-delete-map-collection.md)**
 
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)
+

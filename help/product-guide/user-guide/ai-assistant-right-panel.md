@@ -17,12 +17,12 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1067'
 ht-degree: 0%
 ---
-# 使用AI助理(Beta)聰明地編寫檔案
+# 使用AI助理聰明地編寫檔案
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Adobe Experience Manager Guides提供AI Assistant工具，可幫助您更聰明�
 
 >[!NOTE]
 >
-> 此編寫功能僅適用於DITA主題，且只能從編輯器介面存取。 在首頁和地圖主控台上，只顯示&#x200B;**說明**&#x200B;面板。 「製作」功能下可用的選項，由管理員使用Workspace設定在資料夾設定檔層級設定。
+> 此編寫功能僅適用於DITA主題，且只能從編輯器介面存取。 在首頁和地圖主控台上。 「製作」功能下可用的選項，由管理員使用Workspace設定在資料夾設定檔層級設定。
 
 在主題中選取文字後，您可以選擇執行任何「AI輔助程式」動作：
 
@@ -157,6 +157,6 @@ Adobe Experience Manager Guides提供AI Assistant工具，可幫助您更聰明�
 1. 從下拉式清單中選取目標語言。 翻譯的內容會顯示在「AI助理」面板中。
 
 1. （選擇性）選取&#x200B;**展開**&#x200B;以開啟&#x200B;**翻譯內容**&#x200B;編輯器。
-1. 您也可以從下拉式選單中選取其他語言，並以所選語言重新產生內容。 例如，如果您選取[法文]，然後選取[重新產生] **&#x200B;**，內容就會轉譯成法文。
+1. 您也可以從下拉式選單中選取其他語言，並以所選語言重新產生內容。 例如，如果您選取[法文]，然後選取[重新產生] ****，內容就會轉譯成法文。
 
 ![ai助理翻譯內容](./images/ai-assisstant-translate-content.png)
