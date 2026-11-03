@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '437'
 ht-degree: 1%
 ---
 
@@ -74,4 +74,4 @@ ht-degree: 1%
 
 為您的環境完成設定後，請聯絡客戶成功團隊以啟用代理模式。
 
-為您的環境啟用代理程式模式後，請瀏覽至&#x200B;**Workspace設定**，並在&#x200B;**AI助理**&#x200B;區段的&#x200B;**一般**&#x200B;標籤下啟用&#x200B;**代理**&#x200B;切換。
+為您的環境啟用代理模式後，請瀏覽至&#x200B;**Workspace設定**，並在&#x200B;**AI功能**&#x200B;區段的&#x200B;**一般**&#x200B;標籤下啟用&#x200B;**代理**&#x200B;選項。 如需詳細資料，請檢視[Workspace設定](../install-conf-guide/workspace-settings.md)。

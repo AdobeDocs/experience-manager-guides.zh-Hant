@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '724'
 ht-degree: 0%
 ---
 
@@ -70,6 +70,9 @@ Experience Manager Guides使用分頁API來載入檔案和資料夾。 資料夾
 - **新增或複製**：新檔案會顯示在資料夾頂端。
 - **移動**：在不相關的資料夾之間移動會將來源資料夾重新整理為其第一批資產，並在目的地頂端新增專案（如果尚未開啟目的地，則會載入該目的地的第一批資產）。
 - **重新整理**： Explorer面板標題中的新重新整理按鈕會重新載入根層級，顯示第一批資產。
+- **排序**：使用[檔案總管]面板頂端的[排序]按鈕，在遞增（預設）和遞減之間切換檔案和資料夾的順序。 總管面板中的檔案和資料夾會依它們顯示的名稱排序，這取決於您的&#x200B;**編輯器檔案在[使用者偏好設定](./intro-home-page.md#user-preferences)中的顯示組態**。 如果設定為「標題」，檔案和資料夾會依標題排序。 如果設定為「檔案名稱」，則會依檔案名稱排序。
+
+  ![總管排序](images/explorer-sorting.png){width="350"}
 
 ### 搜尋面板
 

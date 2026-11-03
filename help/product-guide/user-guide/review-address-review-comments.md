@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1613'
 ht-degree: 0%
 ---
 # 處理稽核意見 {#id2056B0X0KBI}
@@ -130,9 +130,10 @@ ht-degree: 0%
 
 **使用檢閱UI存取檢閱註解**
 
-如果您是稽核任務的發起人或作者，並從&#x200B;**專案主控台**&#x200B;開啟它，則主題將在稽核UI中啟動。 由於此任務未指派給您，因此您可以檢視並回覆註解，但無法執行任何稽核動作。 對於未指派給任務的使用者，註釋工具列保持停用狀態。
+身為稽核工作的發起者，您可以在&#x200B;**稽核UI**&#x200B;中開啟稽核工作，以檢視並回應稽核者的註解。 您也可以將註解加入稽核任務中的主題，以提供額外的上下文或吸引稽核者注意特定內容。
 
-![](images/review-comments-toolbar-disabled.png){width="350"}
+如需詳細資訊，請檢視[新增稽核者的註解](./review-send-topics-for-review.md#add-comments-for-reviewers)。
+
 
 ## 檢視主題的所有稽核任務
 

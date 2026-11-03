@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '597'
 ht-degree: 0%
 ---
 # 產生輸出
@@ -76,6 +76,9 @@ ht-degree: 0%
 >
 > 如果您的對映使用DITAVAL檔案，則會將DITAVAL檔案中參照的所有已標幟影像複製到輸出中與已發佈對映相關的位置。  此外，如果您在同一個對應中使用多個DITAVAL檔案進行篩選，請務必使用唯一的`.ditaval`檔案名稱，以避免在發佈期間出現檔案名稱重複的問題。
 
+您可以在&#x200B;**輸出歷程記錄**&#x200B;索引標籤中檢視輸出產生要求的目前狀態。 如需詳細資訊，請檢視[檢視輸出產生工作的狀態](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)。
+
+
 ## 從Map儀表板產生DITA map的輸出
 
 執行以下步驟，使用「對映」圖示板產生DITA map的輸出：
@@ -91,7 +94,7 @@ ht-degree: 0%
 1. 選取&#x200B;**產生**&#x200B;圖示以啟動輸出產生程式。
 
 
-您可以在&#x200B;**輸出**&#x200B;索引標籤中檢視輸出產生要求的目前狀態。 如需詳細資訊，請檢視[檢視輸出產生工作的狀態](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task)。
+您可以在&#x200B;**輸出**&#x200B;索引標籤中檢視輸出產生要求的目前狀態。 如需詳細資訊，請檢視[檢視輸出產生工作的狀態](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)。
 
 >[!IMPORTANT]
 >

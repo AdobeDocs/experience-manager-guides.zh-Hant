@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
 workflow-type: tm+mt
-source-wordcount: '3753'
+source-wordcount: '3746'
 ht-degree: 0%
 ---
 # 檢閱主題 {#id2056B0W0FBI}
@@ -235,7 +235,10 @@ ht-degree: 0%
 
 「註解」面板會顯示目前主題中提供的註解清單。 如果主題傳送給多位稽核者，此面板也會列出其他稽核者的註解。 註解面板中的每個註解都會連結到目前主題中的對應文字。 它有助於您識別註解的文字。 每個註解都會顯示已新增註解及時間戳記的檢閱者姓名。
 
-註解會以檔案中註解文字的順序顯示。 例如，在第一句有反白標示的註解，並在第一段中的第二句插入文字註解，則反白標示的文字註解會顯示在插入的文字註解之前。
+>[!NOTE]
+>
+> 稽核發起人也可以將註解新增至主題，以提供額外的內容，或吸引稽核者注意特定內容。 這些註解會與其他檢閱者的註解一起顯示在&#x200B;**註解**&#x200B;面板中。 如需詳細資訊，請檢視[新增稽核者的註解](./review-send-topics-for-review.md#add-comments-for-reviewers)。
+
 
 您可以使用「註解」面板執行的工作說明如下：
 

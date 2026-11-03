@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 0%
 ---
 # 建立和管理健康狀態檢查預設集
@@ -32,9 +32,9 @@ ht-degree: 0%
 >
 > 此功能預設為啟用。 如果您不想在環境中使用此功能，請聯絡您的客戶成功團隊。
 
-身為管理員，您可以在Experience Manager中的資料夾設定檔層級設定健康情況檢查功能，讓Author和Publishers能夠對DITA map執行健康情況檢查。 這包括在發佈前及早偵測地圖中的連結中斷、ID重複和Schematron驗證失敗等問題，而不是個別檢查每個檔案。 執行哪些檢查是由健康狀態檢查預設集所定義，這是一組可供作者與發佈者選取及執行的規則。
+身為管理員，您可以在Experience Manager中的資料夾設定檔層級設定健康情況檢查功能，讓作者和發佈者能夠對DITA map執行健康情況檢查。 這包括在發佈前及早偵測地圖中的連結中斷、ID重複和Schematron驗證失敗等問題，而不是個別檢查每個檔案。 執行哪些檢查是由健康狀態檢查預設集所定義，這是一組可供作者與發佈者選取及執行的規則。
 
-本文提供建立及管理健康情況檢查預設集的相關資訊。
+健康情況檢查功能在新編輯器和舊編輯器中都可用。
 
 ## 建立健康狀態檢查預設集
 

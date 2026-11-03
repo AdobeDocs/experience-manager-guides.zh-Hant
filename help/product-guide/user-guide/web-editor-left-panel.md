@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '11296'
+source-wordcount: '11329'
 ht-degree: 0%
 ---
 # 編輯器中的左側面板
@@ -859,7 +859,8 @@ Experience Manager Guides可讓您輕鬆建立和使用字彙表型別的檔案�
 
 >[!NOTE]
 >
-> 鍵入以建立新群組或為特定屬性選取現有群組。
+> - 鍵入以建立新群組或為特定屬性選取現有群組。
+> - 「條件」面板中的條件會根據其標籤而非其值依字母順序排序。 排序順序由指派給條件的標籤決定，無論其對應值為何。
 
 您可以使用`/`並定義子群組，例如`AEM Guides/Cloud Service`。
 

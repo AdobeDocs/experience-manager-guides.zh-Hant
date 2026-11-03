@@ -31,9 +31,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1584'
 ht-degree: 1%
 ---
 # 知識庫 {#knowledge-base}
@@ -78,6 +78,17 @@ ht-degree: 1%
 
 此索引標籤會顯示對映的樹狀結構或階層檢視。 選擇您要發佈至知識庫的主題。 展開TOC節點並選擇要發佈的主題。
 
+![](./images/articles-tab-kb.png)
+
+若未選取要發佈的主題，發佈至Salesforce時，**文章**&#x200B;索引標籤旁會出現警告圖示。 選取一或多個主題後，警告圖示就會消失。
+
+>[!NOTE]
+>
+> 此功能在Adobe Experience Manager Guides as Cloud Service 2026.11.0版中引入。 此功能預設為停用。 若要啟用此功能，請聯絡您的客戶成功團隊。 若要深入瞭解2026.11.0版匯入的Salesforce發佈增強功能，請檢視[使用後端處理的增強Salesforce發佈](./generate-output-for-a-dita-map.md#merging-different-topics-within-a-dita-map-using-the-chunk-attribute)。
+
+![](./images/articles-tab-salesforce-kb.png)
+
+
 ### Target - Adobe Experience Manager/ServiceNow/Salesforce
 
 組態選項會根據您選取的目標而變更。
@@ -114,6 +125,9 @@ ht-degree: 1%
 | 發佈設定檔 | 使用下拉式清單，從管理員設定的ServiceNow連線設定檔中選取。 若要深入瞭解管理員如何建立發佈設定檔，請在[左側面板](./web-editor-features.md#id2051EA0M0HS)區段中檢視&#x200B;**Workspace設定** （顯示為5.2 **之前之**&#x200B;內部部署設定的&#x200B;**設定**）功能說明。 |
 | 知識庫 | 使用此欄位來選取必要的ServiceNow知識庫。 您可以在ServiceNow網站中設定知識庫，以根據許可權儲存內容。 此DITA map中的文章可發佈至這些知識庫。 |
 | 類別和子類別 | 類別就像用來尋找及分類ServiceNow知識庫文章的階層樹狀結構。 新增類別和子類別，將目錄的主題和子主題發佈到ServiceNow網站上的該類別和子類別。 |
+| 上傳影像 | 如果您要將主題中的任何影像包含在發佈的輸出中，請選取此選項。 |
+| 上傳連結的檔案 | 選取此選項可將連結在主題中的檔案包含在已發佈的輸出中。 |
+| 移除文章本文中的元素 | 輸入專案的名稱（例如，`prolog`或`shortdesc`），然後按&#x200B;**Enter**&#x200B;將其加入清單。 您新增的任何元素都會從發佈輸出的文章本文中排除。 依預設，清單包含&#x200B;**title**，因此文章本文會隱藏主題標題。 如果要包含主題標題，請選取&#x200B;**標題**&#x200B;旁的`x`圖示，將其從清單中移除，或新增其他要排除的元素。 <br><br>**注意**：輸入DITA元素在ServiceNow文章原始程式碼檢視中轉換之HTML中顯示的確切類別名稱。 類別名稱必須符合可辨識的元素，排除才會生效。 如果輸入的名稱與可辨識的元素不符，則會忽略該元素，且該元素會保留在已發佈的文章中。 |
 
 **Salesforce**
 
@@ -125,17 +139,11 @@ ht-degree: 1%
 | 記錄型別 | 根據您的使用者設定檔的可見度設定，使用下拉式清單從Salesforce中設定的記錄型別中進行選取。 「Salesforce記錄型別」是將物件多個記錄分為一種型別的方式。 它們定義出版物的組織方式。 例如，您可以選取常見問題集記錄型別，並根據常見問題集頁面版面配置和欄位進行發佈。 |
 | 文章內容欄位 | 您可以擁有不同的欄位，並為每個記錄型別範本設定唯一的版面。 使用這些欄位來根據文章型別輸入特定資訊。 例如，您可以檢視常見問題集文章的標題、答案和方程式。 |
 | 類別 | 從下拉式清單中選取類別，即可在Salesforce網站上發佈該類別中目錄的主題。 |
-
-**其他選項**
-
-您也可以在Salesforce和ServiceNow預設集中檢視下列選項：
-
-| 選項 | 說明 |
-| --- | --- |
 | 從文章本文中移除主題標題。 | 選取此選項，從發佈輸出的文章中移除主題標題。 |
 | 上傳為草稿 | 選取此選項以上傳主題，將其共用為草稿，然後才可供使用者使用。 |
 | 上傳影像 | 如果您要將主題中的任何影像包含在發佈的輸出中，請選取此選項。 |
 | 上傳連結的檔案 | 選取此選項可將連結在主題中的檔案包含在已發佈的輸出中。 |
+
 
 
 

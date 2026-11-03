@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 閱讀 Adobe Experience Manager Guides 產品文件
 breadcrumb-title: AEM Guides 文件
-source-git-commit: 09b8fabaa75d656ae1465d741c8aac8307ce6231
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2705'
 ht-degree: 10%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 10%
       - {hide-from-toc}[部署指示](./release-info/deploy-xml-on-aemaacs.md)
       - [Cloud版本](./release-info/latest-release-info-cs.md)
       - 2026版本 {#2026-releases}
+        - 2026.11.0版 {#2611-release}
+          - [新增功能](./release-info/whats-new-2026-11-0.md)
+          - [已修正的問題](./release-info/fixed-issues-2026-11-0.md)
+          - [升級指示](./release-info/upgrade-instructions-2026-11-0.md)
         - 2026.09.0版 {#2609-release}
           - [新增功能](./release-info/whats-new-2026-09-0.md)
           - [已修正的問題](./release-info/fixed-issues-2026-09-0.md)
@@ -293,6 +297,10 @@ ht-degree: 10%
   - 地圖管理與發佈 {#map-management-publishing}
     - [地圖主控台概觀](./user-guide/map-console-overview.md)
     - [在地圖控制檯中開啟檔案](./user-guide/open-files-map-console.md)
+    - 分支和合併 {#work-with-branching}
+      - [概觀](./user-guide/branching-overview.md)
+      - [建立和管理分支](./user-guide/create-manage-branch.md)
+      - [合併分支](./user-guide/merge-branches.md)
     - 報告 {#reports-aem-guide}
       - [報表簡介](./user-guide/reports-intro.md)
       - [Map主控台的DITA map報表](./user-guide/reports-web-editor.md)
@@ -369,12 +377,15 @@ ht-degree: 10%
     - [Adobe Generative AI使用者披露](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI 助理概觀](./user-guide/ai-assistant.md)
     - 代理模式中的AI助理 {#ai-assistant-agentic}
-      - [以代理模式使用AI助理](./user-guide/ai-assistant-agentic.md)
+      - [使用AI助理匯入內容](./user-guide/import-ai-assistant.md)
+      - [建立內容的第一個草稿](./user-guide/create-ai-assistant.md)
+      - [使用AI助理進行智慧標籤](./user-guide/ai-assistant-agentic.md)
     - 標準模式中的AI助理 {#ai-assistant-standard}
-      - [AI支援的智慧型協助以搜尋內容](./user-guide/ai-based-smart-help.md)
       - [AI助理撰寫以聰明地撰寫檔案](./user-guide/ai-assistant-right-panel.md)
       - [創作內容的AI支援智慧型建議](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [常見問題](./user-guide/ai-assistant-faq.md)
+  - AEM Guides中的說明助理 {#help-assistant-aem}
+    - [由AI支援的智慧型說明以搜尋內容](./user-guide/ai-based-smart-help.md)
   - 管理學習內容 {#learning-training-content}
     - 快速入門手冊 {#get-started}
       - 簡介 {#intro-lc}
@@ -563,6 +574,7 @@ ht-degree: 10%
         - [套用樣式至註腳](./native-pdf/footnote-number-style.md)
         - [設定原生PDF的新發佈引擎](./native-pdf/conf-new-pdf-engine.md)
       - [使用原生PDF引擎v2](./native-pdf/new-pdf-engine.md)
+      - [針對原生PDF設定附錄演算地圖演算](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
       - [為Cloud Service的原生PDF發佈設定節點程式](./native-pdf/conf-node-options-cs.md)
       - [為內部部署的原生PDF發佈設定JVM旗標](./native-pdf/conf-jvm-flags-on-prem.md)
     - 設定Cloud Service的內容和體驗片段 {#conf-content-exp-fragment}
@@ -699,6 +711,7 @@ ht-degree: 10%
       - [使用JWT驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices.md)
       - [使用OAuth驗證設定微服務型發佈](./knowledge-base/publishing/configure-microservices-imt-config.md)
       - [設定Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
+      - [設定Edge Delivery Services的GitLab](./knowledge-base/publishing/configure-eds-gitlab.md)
       - [在AEM雲端上發佈基準](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
     - 工作流程 {#workflows}
       - [貼文產生工作流程](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)

@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
+source-git-commit: 772cc098cfa0abfafed142062a1c191ef266bbcd
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '775'
 ht-degree: 0%
 ---
 # 編輯器中的索引標籤列
@@ -74,11 +74,13 @@ ht-degree: 0%
 >
 > 若要在您的環境中使用AI助理功能的代理模式，請聯絡客戶成功團隊。 啟用此功能後，管理員可以從Workspace設定中將其開啟或關閉。 一次只能啟用一個AI助理模式；Agentic或Standard。
 
-- **代理程式**：將來自Adobe CX Enterprise Coworker的智慧型代理程式智慧型標籤技能帶入編輯器，啟用自然的對話式內容標籤。 它會分析您的內容、建議相關標籤，並幫助您以最省力的方式套用一致且準確的中繼資料。 您可以檢閱建議的標籤，並選擇在確認選取之前套用或拒絕這些標籤。 [在代理模式中使用AI小幫手](../user-guide/ai-assistant-agentic.md)可簡化標籤程式，改善內容組織和可發現性。
+- **代理程式**： AI助理中的代理程式模式可讓您透過自然語言互動完成內容相關工作。 您可以在聊天面板中說明您的需求，AI助理規劃和執行任務，同時提供其進度的可見度。 它支援「匯入」等技能，可將裝置或內容存放庫中的PDF、Word或Markdown檔案轉換為結構化主題；「建立」可根據您的需求產生新主題，並可參考現有內容的色調和風格；「智慧型標籤」會根據您組織的分類推薦相關標籤，以改善中繼資料一致性。
 
 - **Standard**：功能強大、AI導向的工具，可透過智慧說明功能提升生產力。 此外，在編輯器介面中工作時，您可以利用AI Assistant的智慧型撰寫功能，透過對內容重複使用和最佳化的智慧型建議，讓您的撰寫流程更聰明、更快。
 
 [AI助理](./ai-assistant.md)功能目前僅適用於Adobe Experience Manager as Cloud Service。
+
+**說明小幫手**： Experience Manager Guides中的&#x200B;**說明小幫手**&#x200B;是創作AI支援的對話式搜尋功能，可協助您尋找有關產品功能、工作流程和疑難排解的資訊。 它提供以Experience Manager Guides檔案為基礎的相關答案，支援後續問題，並包含來源文章的連結以供進一步參考。 如需詳細資訊，請檢視[使用說明小幫手](./ai-based-smart-help.md)提高效率。
 
 **展開檢視**：可讓您使用&#x200B;**展開**&#x200B;圖示展開頁面檢視。 在此檢視中，包含Adobe Experience Manager標誌的標題列會隱藏。 如此可最大化內容空間以供編輯。 若要返回標準檢視，請使用&#x200B;**結束展開檢視**&#x200B;圖示。
 

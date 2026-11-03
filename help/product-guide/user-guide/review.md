@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '445'
 ht-degree: 0%
 ---
 # 評論簡介 {#id1645H6010Q5}
@@ -42,6 +42,8 @@ Adobe Experience Manager Guides提供給&#x200B;*啟動器\（或作者\）*&#x2
 - 從「稽核儀表板」共用要稽核的更新版主題。
 
 - 存取不同主題版本上共用的註解。
+- 在主題中新增註解，以提供內容或吸引稽核者注意特定內容。
+
 - 在評論或回覆中輕鬆標籤特定稽核工作的使用者，以進行快速動作和後續追蹤。 系統會透過AEM和電子郵件通知，立即通知標籤的使用者。
 - 根據主題版本來分組和篩選註解。
 

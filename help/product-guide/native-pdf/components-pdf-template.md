@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # PDF範本的元件 {#components-pdf-template}
@@ -287,14 +287,17 @@ PDF範本有四個元件：頁面配置、樣式表、資源和設定。 您可�
   >[!NOTE]
   >
   > 在&#x200B;**分行前文字**&#x200B;或&#x200B;**分行後文字**&#x200B;欄位中使用語言變數時，請確定整份文字是在單一語言變數中定義的。 在這些欄位中的語言變數之外新增的任何文字或變數都不會轉譯。 例如，不要在&#x200B;**Text After Break欄位**&#x200B;中使用如`${lng:Continued-from-page} %page-num%`的變陣列合，請在欄位中只使用`${lng:Continued-from-page}`，並單獨將`Continued-from-page`語言變數的值設定為`Continued-from-page %page-num%`。
-* **將字彙表辭彙連結至字彙表頁面**：選取此選項可將字彙表辭彙顯示為內容中的超連結，並將它們連結至字彙表頁面上的辭彙。 這可協助讀者快速檢視辭彙表中定義的辭彙定義。
+* **將字彙表辭彙連結至字彙表頁面**：啟用此選項可將字彙表辭彙顯示為內容中的超連結，並將它們連結至字彙表頁面上的辭彙。 這可協助讀者快速檢視辭彙表中定義的辭彙定義。
 
   若要將字彙表辭彙轉換成超連結，您需要：
   * 啟用DITA map **頁面配置順序**&#x200B;索引標籤中的&#x200B;**字彙表**。
   * 在書本地圖的Back Matter Pages中新增字彙表。
 
   如果您未啟用「字彙表」頁面，內容中的「字彙表」字彙不會轉換為PDF輸出中的超連結。
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **顯示所有字彙表專案**：啟用此選項以包含地圖中定義的每個字彙表專案，無論內容中是否參考了對應的字詞。 依預設，此選項會停用，而且字彙表頁面只會包含內容中實際使用的字彙表辭彙。
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### 頁面配置 {#page-layouts}
 

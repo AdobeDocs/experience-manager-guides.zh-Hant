@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 # 地圖編輯器中的其他功能 {#id1942D0T0HUI}
@@ -90,7 +90,7 @@ DITA內容索引鍵參照，或`conkeyref`是將部分內容從一個主題插�
 
 ## 在地圖上執行健康狀態檢查
 
-快顯選單中的「執行健康狀態檢查」選項可讓您在選取的對應上執行健康狀態檢查，以在發佈之前擷取中斷連結、重複ID和Schematron驗證失敗等問題。
+內容功能表中的&#x200B;**執行健康狀態檢查**&#x200B;選項可讓您在發佈之前，對選取的對應執行健康狀態檢查以擷取中斷連結、重複ID和Schematron驗證失敗等問題。 此功能在新編輯器和舊編輯器中均可用。
 
 >[!NOTE]
 >

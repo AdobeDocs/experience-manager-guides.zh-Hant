@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: d859c31fb0241400fd0f1b4a8acfc0fed9554242
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '935'
 ht-degree: 0%
 ---
 # 地圖主控台概觀
@@ -67,7 +67,7 @@ Adobe Experience Manager Guides提供專用的主控台，稱為&#x200B;**地圖
   >
   > 如果使用Adobe Experience Manager Guides as a Cloud Service，導覽列中會顯示額外功能[AI小幫手](./ai-assistant.md)。
 
-- (**B**) **左側面板**：左側面板可讓您快速存取產生輸出、建立及管理報告、基準線、條件預設集、內容轉譯，以及Workfront （若已設定）功能。
+- (**B**) **左側面板**：左側面板可讓您快速存取產生「輸出」、「輸出歷史記錄」、「報告建立與管理」、「基準」、「條件預設集」、「內容翻譯」以及Workfront （僅在已設定時）功能。
 
   如需更多詳細資料，請參閱下方的[對應主控台功能](#map-console-features)區段。
 
@@ -81,6 +81,14 @@ Adobe Experience Manager Guides提供專用的主控台，稱為&#x200B;**地圖
 
 如需詳細資訊，請檢視[輸出產生](./generate-output.md)。
 
+**輸出歷程記錄**
+
+可讓您直接從編輯器檢視和管理所選DITA map的輸出產生工作。 您可以監視進行中及已完成任務的狀態、檢視輸出產生詳細資料、存取發佈記錄檔，以及管理輸出產生歷史記錄。
+
+您也可以根據預設型別、工作狀態、日期與時間範圍來搜尋及篩選輸出產生工作，並以CSV格式下載輸出產生歷史記錄。
+
+如需詳細資訊，請檢視[管理輸出產生程式](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)。
+
 **報告建立與管理**
 
 在組織設定中，您想要先驗證技術檔案的整體完整性，然後再開始處理或即時推送檔案。 在多使用者和大型環境中，這樣的需求變得更加重要。 透過Map主控台，您可以存取Experience Manager Guides報表，這些報表可提供存放庫中內容整體健康狀況的實用insight，以及說明檔案過程中如何使用內容。
@@ -88,6 +96,10 @@ Adobe Experience Manager Guides提供專用的主控台，稱為&#x200B;**地圖
 如需更多詳細資料，請在Experience Manager Guides[&#128279;](./reports-intro.md)中檢視報告。
 
 **基準線**
+
+>[!NOTE]
+>
+> 地圖主控台會顯示&#x200B;**Baseline**&#x200B;標籤或&#x200B;**Branches**&#x200B;標籤，視您的環境是否啟用分支而定。 自2026.11.0版開始，Experience Manager Guides as a Cloud Service中可提供分支功能，預設為停用。 若要啟用此功能，請聯絡Adobe客戶成功團隊。 啟用分支時，不再提供基準線。 如需詳細資訊，請檢視Experience Manager Guides中的[分支](./branching-overview.md)和[建立和管理DITA map的分支](./create-manage-branch.md#manage-branches)。
 
 Experience Manager Guides提供基線功能，可讓您建立主題和資產的版本，然後用於發佈或翻譯。 您也可以同時發佈同一DITA map的多個輸出預設集。
 

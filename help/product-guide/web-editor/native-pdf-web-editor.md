@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4071'
+source-wordcount: '4203'
 ht-degree: 0%
 ---
 # 原生PDF輸出預設集
@@ -264,6 +264,21 @@ ht-degree: 0%
 | **保留暫存檔案** | 如果您想要保留在產生原生HTML輸出時建立的臨時PDF檔案，請選取此選項。 您稍後可以在產生輸出後下載暫存檔案。 下載的檔案也會包含`system_config.xml`檔案，提供您有關作者URL、本機URL和發佈URL的資訊。 這些URL是在AEM外部化設定中設定，並反映在`system_config.xml`檔案中。 |
 | **PDF合規性** | 這是您打算儲存PDF以確保其相容的標準。 從下拉式清單中選取，以從可用的PDF標準清單中選擇。 如需支援標準的詳細資訊，請檢視[關於PDF標準](https://helpx.adobe.com/tw/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
 | **檔案屬性** | 選取您要傳遞至原生PDF發佈的中繼資料。 下拉式清單會同時列出自訂和預設屬性。 例如，`dc:description`、`dc:language`、`dc:title`和`docstate`為預設屬性，而您可以將`author`作為自訂屬性。 選取的中繼資料屬性會傳遞至使用原生PDF產生的PDF檔案。<br> 這些屬性是從下列位置可用的`metadataList`檔案中挑選的： `/libs/fmdita/config/metadataList`。 <br>此檔案可以覆蓋於： `/apps/fmdita/config/metadataList`。 |
+
+## 中繼HTML中的DITA元素對應
+
+在產生原生PDF期間，DITA內容會在產生PDF輸出之前轉換為中繼HTML。 您可以啟用原生PDF輸出預設集中的&#x200B;**保留暫存檔案**&#x200B;選項，來存取這些中繼檔案。
+
+作為此轉換的一部分，某些DITA元素可以對應至中間`merged.html`檔案中的不同HTML元素。 這些對應有助於在產生的PDF中保留預期的內嵌轉譯。
+
+如果您在中間檔案中使用依賴HTML元素結構的自訂或自動化，在處理產生的HTML時請考慮這些對應。
+
+目前，下列DITA元素對應適用於中繼`merged.html`檔案：
+
+| DITA元素 | HTML元素 | 說明 |
+|----|----|-----|
+| `<option>` | `<span>` | 將DITA `<option>`元素對應至HTML `<span>`元素，以保留所產生PDF中的周圍空格。 |
+
 
 
 
