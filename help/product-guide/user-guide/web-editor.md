@@ -56,4 +56,4 @@ Experience Manager Guides隨附易於使用的編輯器，用於建立和編輯�
 Experience Manager Guides中的舊編輯器為結構化內容提供簡單而可靠的編寫體驗，抽象DITA的複雜性，同時確保遵循支援的標準，例如DITA 1.2、1.3、輕量型DITA和專門的DITA。 它提供使用通用區塊和內嵌元素的基本工具，因此非常適合在結構化架構中建立一致且受控制的內容。
 
 
-**父級主題：**[&#x200B;使用Experience Manager Guides製作內容](authoring-content-xml-doc.md)
+**父級主題：**&#x200B;[&#x200B;使用Experience Manager Guides製作內容](authoring-content-xml-doc.md)

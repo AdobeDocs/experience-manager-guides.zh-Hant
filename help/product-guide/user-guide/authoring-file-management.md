@@ -359,7 +359,7 @@ Adobe Experience Manager Guides可讓您預覽非DITA檔案、檢視其版本記
 
    - **版本標籤**：開啟版本標籤對話方塊，您可以從下拉式清單中選取版本，並檢視其相關的標籤。 您可以使用可用的選項來新增或更新版本標籤。 如果有的話，對話方塊也會顯示所選檔案版本的預覽。
 
-   如需詳細資訊，請在編輯器](./web-editor-toolbar.md#menu-dropdown)的[工具列中檢視版本記錄與版本標籤區段。
+   如需詳細資訊，請在編輯器[&#128279;](./web-editor-toolbar.md#menu-dropdown)的工具列中檢視版本記錄與版本標籤區段。
 
 4. 對版本標籤進行必要的變更或檢閱版本資訊。
 
@@ -390,4 +390,4 @@ Adobe Experience Manager Guides可讓您預覽非DITA檔案、檢視其版本記
 
 
 
-**父級主題：**[&#x200B;管理內容](authoring.md)
+**父級主題：**&#x200B;[&#x200B;管理內容](authoring.md)

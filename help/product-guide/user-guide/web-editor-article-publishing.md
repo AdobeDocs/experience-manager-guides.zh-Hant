@@ -113,4 +113,4 @@ Adobe Experience Manager Guides隨附以文章為基礎的發佈功能，可讓�
 在Experience Manager Guides中啟用重新整理權杖支援會自動啟用PKCE支援。 不過，必須在Salesforce中啟用對應的設定，驗證才能成功運作。
 
 
-**父級主題：**[&#x200B;使用編輯器](web-editor.md)
+**父級主題：**&#x200B;[&#x200B;使用編輯器](web-editor.md)

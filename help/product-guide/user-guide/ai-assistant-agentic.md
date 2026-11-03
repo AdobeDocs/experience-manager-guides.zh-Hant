@@ -27,7 +27,7 @@ ht-degree: 0%
 執行以下步驟，使用AI Assistant以智慧標籤技能將標籤套用至單一或多個主題：
 
 1. 登入Experience Manager Guides。
-1. 在首頁上，從導覽列選取&#x200B;**AI小幫手**。 請確定管理員已啟用代理模式](../install-conf-guide/workspace-settings.md)中的[AI小幫手。
+1. 在首頁上，從導覽列選取&#x200B;**AI小幫手**。 請確定管理員已啟用代理模式[&#128279;](../install-conf-guide/workspace-settings.md)中的AI小幫手。
 1. 使用下列其中一種方法，新增您要為其產生標籤建議的主題：
 
    - **使用建議的提示**：對於回應區域中的第一個聊天，請選取&#x200B;**檔案提示的建議標籤**。 提示會自動新增至提示空間。 選取`[file]`，然後從&#x200B;**選取檔案**&#x200B;對話方塊中的儲存庫或集合中選擇主題。 您可以從&#x200B;**選取檔案**&#x200B;對話方塊中選取一個主題。
@@ -96,7 +96,7 @@ ht-degree: 0%
      ![Agentic AI Assistant大量標籤](images/ai-map-selection.png){width="650"}
 
 1. 選取&#x200B;**傳送**。
-訊息會指出選取的地圖包含多個主題。 選取**選取主題**&#x200B;以選擇要標籤建議的主題。
+訊息會指出選取的地圖包含多個主題。 選取&#x200B;**選取主題**&#x200B;以選擇要標籤建議的主題。
 
    ![選取主題時，使用Agentic AI Assistant大量標籤](images/ai-select-topics.png){width="650"}
 

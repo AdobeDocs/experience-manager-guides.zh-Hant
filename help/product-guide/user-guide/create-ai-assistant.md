@@ -14,7 +14,7 @@ AI Assistant的Agentic模式中的&#x200B;**建立**&#x200B;技能可協助您�
 您可以附加檔案，選取現有檔案作為色調和樣式的參照，並指定要儲存產生內容的資料夾。 若要建立所需內容的第一個草稿，請依照下列步驟進行：
 
 1. 登入Experience Manager Guides。
-1. 在首頁上，從導覽列選取&#x200B;**AI小幫手**。 請確定管理員已啟用代理模式](../install-conf-guide/workspace-settings.md)中的[AI小幫手。
+1. 在首頁上，從導覽列選取&#x200B;**AI小幫手**。 請確定管理員已啟用代理模式[&#128279;](../install-conf-guide/workspace-settings.md)中的AI小幫手。
 
 1. 從AI助理面板選取&#x200B;**建立**。
 

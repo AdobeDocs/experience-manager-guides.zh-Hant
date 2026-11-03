@@ -16,7 +16,7 @@ AI Assistant代理模式中的&#x200B;**匯入**&#x200B;技能可協助您將現
 您可以從裝置或內容存放庫匯入檔案、指定定義新主題開始的標題層級，以及選擇匯入內容的目的地資料夾。 若要匯入檔案，請遵循下列步驟：
 
 1. 登入Experience Manager Guides。
-1. 在首頁上，從導覽列選取&#x200B;**AI小幫手**。 請確定管理員已啟用代理模式](../install-conf-guide/workspace-settings.md)中的[AI小幫手。
+1. 在首頁上，從導覽列選取&#x200B;**AI小幫手**。 請確定管理員已啟用代理模式[&#128279;](../install-conf-guide/workspace-settings.md)中的AI小幫手。
 1. 從AI助理面板選取&#x200B;**匯入**。 您也可以使用其他提示，例如&#x200B;*將此Docx轉換為DITA主題* （針對Word檔案）或&#x200B;*將此Markdown轉換為DITA主題* （針對Markdown檔案）。
 
    提示方塊中會顯示起始提示&#x200B;*協助我從附加的PDF檔案匯入內容*。
