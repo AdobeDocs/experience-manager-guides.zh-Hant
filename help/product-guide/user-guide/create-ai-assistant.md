@@ -1,9 +1,9 @@
 ---
 title: 使用AI助理建立主題和地圖
 description: 瞭解如何使用AI Assistant從您的附註、規格或貼上的內容中草擬新的DITA主題和地圖，然後在儲存前檢閱它們。
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,7 @@ AI Assistant的Agentic模式中的&#x200B;**建立**&#x200B;技能可協助您�
 您可以附加檔案，選取現有檔案作為色調和樣式的參照，並指定要儲存產生內容的資料夾。 若要建立所需內容的第一個草稿，請依照下列步驟進行：
 
 1. 登入Experience Manager Guides。
-1. 在首頁上，從導覽列選取&#x200B;**AI小幫手**。 請確定管理員已啟用代理模式[&#128279;](../install-conf-guide/workspace-settings.md)中的AI小幫手。
+1. 在首頁上，從導覽列選取&#x200B;**AI小幫手**。 請確定管理員已啟用代理模式](../install-conf-guide/workspace-settings.md)中的[AI小幫手。
 
 1. 從AI助理面板選取&#x200B;**建立**。
 
@@ -30,7 +30,7 @@ AI Assistant的Agentic模式中的&#x200B;**建立**&#x200B;技能可協助您�
 
 1. *（選擇性）*&#x200B;在起始提示中，選取`[file]`。 選取您要與草稿相符之色調的現有主題。 您可以從存放庫或集合中選擇主題。 主題名稱會取代提示中的`[file]`。
 
-   ![選取檔案預留位置以選擇主題](images/sample-create.png){width="350"}
+   ![選取檔案預留位置以選擇主題](images/sample-create.png){width="650"}
 
 1. 選取&#x200B;**傳送**。
 
@@ -38,7 +38,7 @@ AI Assistant的Agentic模式中的&#x200B;**建立**&#x200B;技能可協助您�
 
 1. 回答來自AI助理的任何後續問題，以提供產生內容所需的詳細資訊。
 
-   ![選取檔案預留位置以選擇主題](images/folder-create.png){width="350"}
+   ![選取檔案預留位置以選擇主題](images/folder-create.png){width="650"}
 
 1. 選取&#x200B;**預覽**&#x200B;以檢閱產生的主題。
 

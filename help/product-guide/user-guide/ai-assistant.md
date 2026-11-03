@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 082688d62ed871fa52947e5152df35575b622164
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '757'
 ht-degree: 0%
 ---
 # AI 助理
@@ -38,10 +38,6 @@ ht-degree: 0%
 Adobe Experience Manager Guides中的AI Assistant是AI支援的工具，旨在透過簡化內容建立、管理和編寫工作流程來提升生產力。 它提供兩種模式：Agentic和Standard。 在&#x200B;**代理模式**&#x200B;中，AI Assistant可讓您透過自然語言互動來執行內容相關工作，並具備「匯入」、「建立」和「智慧標籤」等技能，以簡化內容建立、組織和中繼資料管理。 在&#x200B;**標準模式**&#x200B;中，AI助理可提供撰寫協助，協助您更有效率地建立、調整及管理內容。
 
 ## AI助理模式
-
->[!NOTE]
->
->若要針對您的環境以代理模式啟用AI助理，請聯絡客戶成功團隊。
 
 AI助理有兩種模式可用： **Agentic**&#x200B;和&#x200B;**Standard**。 管理員可以從&#x200B;**Workspace設定**&#x200B;中&#x200B;**一般**&#x200B;標籤的&#x200B;**AI功能**&#x200B;區段選取模式。 兩種模式中，編輯器中的AI助理面板都維持不變，但可用的功能有所不同：
 
@@ -91,8 +87,8 @@ AI Assistant中的代理程式模式可讓您透過自然語言互動來執行�
 1. 登入Experience Manager Guides。
 1. 在首頁上，從頂端選取&#x200B;**AI助理**。 確保您的管理員已在所需模式下啟用AI助理功能。
 
-AI助理顯示主要功能、使用者指南連結和&#x200B;**開始使用**&#x200B;按鈕。
-請仔細閱讀使用者准則，然後選取&#x200B;**開始使用**&#x200B;以啟動AI小幫手。
+AI助理顯示主要功能、使用者指南連結和&#x200B;**開始使用**按鈕。
+請仔細閱讀使用者准則，然後選取**開始使用**&#x200B;以啟動AI小幫手。
 
 >[!NOTE]
 >

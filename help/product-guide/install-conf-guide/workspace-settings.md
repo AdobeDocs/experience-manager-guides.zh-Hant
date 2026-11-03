@@ -17,16 +17,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2eb766dc53b23f750dd6eb232ab21025b0c0c46d
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2799'
 ht-degree: 0%
 ---
 # Workspace設定
 
 >[!NOTE]
 >
-> 在5.2版之前的內部部署設定中，**設定**&#x200B;選項會出現在編輯器的索引標籤列中。 對於5.2版及更新版本的Cloud Service及內部部署設定，此選項已重新命名為&#x200B;**Workspace設定**。 在&#x200B;**編輯器設定**&#x200B;下可用的所有現有設定選項維持不變。
+> 在5.2版之前的內部部署設定中，**設定**&#x200B;選項會出現在編輯器的索引標籤列中。 對於5.2版及更新版本的Cloud Service及內部部署設定，此選項已重新命名為&#x200B;**Workspace設定**。 在&#x200B;**編輯器設定**下可用的所有現有設定選項維持不變。
 > ![內部部署](assets/editor-settings-on-prem.png){width="650"}的編輯器設定
 
 
@@ -55,17 +55,13 @@ ht-degree: 0%
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **AI功能**
+- **AI功能**：使用此功能在Experience Manager Guides中啟用AI助理功能。 AI助理有兩種模式可用： **Agentic**&#x200B;和&#x200B;**Standard**。 您可以啟用個別的選項按鈕，在兩個模式之間進行選擇。
 
   >[!NOTE]
   >
   > 若要在您的環境中使用AI助理功能的代理模式，請聯絡客戶成功團隊。
 
-  選取以啟用Experience Manager Guides中的AI助理功能。 取消選取以停用該功能。
-
-  AI助理有兩種模式可用： **Agentic**&#x200B;和&#x200B;**Standard**。 您可以啟用個別的選項按鈕，在兩個模式之間進行選擇。
-
-  - **代理程式**：啟用此選項後，您可以從Experience Manager Guides應用程式的導覽列存取Agentic AI小幫手。 您也可以設定「智慧標籤」技能使用的分類名稱空間，以產生標籤建議。 AI助理會根據AEM中定義的標籤，僅考量來自所選名稱空間的標籤。 如需詳細資訊，請檢視AI小幫手[&#128279;](../user-guide/ai-assistant.md#ai-assistant-modes)中的代理模式。
+  - **代理程式**：啟用此選項後，您可以從Experience Manager Guides應用程式的導覽列存取Agentic AI小幫手。 您也可以設定「智慧標籤」技能使用的分類名稱空間，以產生標籤建議。 AI助理會根據AEM中定義的標籤，僅考量來自所選名稱空間的標籤。 如需詳細資訊，請檢視AI小幫手](../user-guide/ai-assistant.md#ai-assistant-modes)中的[代理模式。
 
     ![](assets/agentic-new.png){width="350"}
 
@@ -321,9 +317,9 @@ ht-degree: 0%
 
 工作區設定中的![中繼資料索引標籤](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-*設定&#x200B;**版本記錄**&#x200B;對話方塊的中繼資料。*
+*設定&#x200B;**版本記錄**對話方塊的中繼資料。*
 
 
 
 您也可以定義這些中繼資料標籤的顯示順序。 若要變更這些標籤的預設順序，請選取虛線以將標籤拖放到所需位置。
-中繼資料標籤會以相同的順序顯示在編輯器的&#x200B;**版本記錄**&#x200B;對話方塊中。
+中繼資料標籤會以相同的順序顯示在編輯器的**版本記錄**&#x200B;對話方塊中。

@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 1%
 ---
 # Experience Manager Guides和Edge Delivery Services
@@ -39,7 +39,7 @@ Adobe Experience Manager Guides可讓您透過專用的GitHub型發佈設定檔�
 2. [在Experience Manager Guides中為EDS建立並設定發佈設定檔](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [使用EDS區塊自訂輸出](#customize-output-using-eds-blocks)
 
-如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
+如需快速影片逐步解說，請檢視[在AEM Guides中發佈](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
 
 
 
@@ -131,7 +131,7 @@ EDS會從存放庫根目錄之`fstab.yaml`檔案中定義的&#x200B;*掛接點* 
    >
    > 如果您繼續使用舊版URL格式(`https://guides.adobe.com/eds-workers/<git username>/<git repo>/<branch>/<root folder>`)，則帳戶型別和網域預設為`github`和`github.com`。
 
-3. 透過AEM程式碼同步[&#128279;](#connect-github-to-adobe-via-aem-code-sync)區段從連線GitHub至Adobe重複步驟2和3，以授權存放庫。
+3. 透過AEM程式碼同步](#connect-github-to-adobe-via-aem-code-sync)區段從[連線GitHub至Adobe重複步驟2和3，以授權存放庫。
 
 ### 透過AEM程式碼同步連線GitHub至Adobe
 
@@ -149,7 +149,7 @@ Adobe Experience Manager使用名為&#x200B;**AEM Code Sync**&#x200B;的GitHub�
 
    ![](assets/eds-aem-code-sync-page.png)
 
-2. 在下一頁，授予您所建立之存放庫的存取權。 選取&#x200B;**僅選取存放庫**，然後從下拉式清單中選取您的存放庫。
+2. 在下一頁，授與您建立之存放庫的存取權。 選取&#x200B;**僅選取存放庫**，然後從下拉式清單中選取您的存放庫。
 
    ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
 
@@ -179,7 +179,7 @@ Adobe Experience Manager使用名為&#x200B;**AEM Code Sync**&#x200B;的GitHub�
 
 ## 為EDS設定並設定GitLab
 
-如需將GitLab設定為Edge Delivery Services的發佈存放庫的指示，請檢視[設定EDS的GitLab &#x200B;](./configure-eds-gitlab.md)。
+如需將GitLab設定為Edge Delivery Services的發佈存放庫的指示，請檢視[設定EDS的GitLab ](./configure-eds-gitlab.md)。
 
 ## 在Experience Manager中為EDS建立並設定發佈設定檔
 
