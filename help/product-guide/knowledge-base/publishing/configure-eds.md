@@ -131,7 +131,7 @@ EDS會從存放庫根目錄之`fstab.yaml`檔案中定義的&#x200B;*掛接點* 
    >
    > 如果您繼續使用舊版URL格式(`https://guides.adobe.com/eds-workers/<git username>/<git repo>/<branch>/<root folder>`)，則帳戶型別和網域預設為`github`和`github.com`。
 
-3. 透過AEM程式碼同步](#connect-github-to-adobe-via-aem-code-sync)區段從[連線GitHub至Adobe重複步驟2和3，以授權存放庫。
+3. 透過AEM程式碼同步[&#128279;](#connect-github-to-adobe-via-aem-code-sync)區段從連線GitHub至Adobe重複步驟2和3，以授權存放庫。
 
 ### 透過AEM程式碼同步連線GitHub至Adobe
 
@@ -179,7 +179,7 @@ Adobe Experience Manager使用名為&#x200B;**AEM Code Sync**&#x200B;的GitHub�
 
 ## 為EDS設定並設定GitLab
 
-如需將GitLab設定為Edge Delivery Services的發佈存放庫的指示，請檢視[設定EDS的GitLab ](./configure-eds-gitlab.md)。
+如需將GitLab設定為Edge Delivery Services的發佈存放庫的指示，請檢視[設定EDS的GitLab &#x200B;](./configure-eds-gitlab.md)。
 
 ## 在Experience Manager中為EDS建立並設定發佈設定檔
 
