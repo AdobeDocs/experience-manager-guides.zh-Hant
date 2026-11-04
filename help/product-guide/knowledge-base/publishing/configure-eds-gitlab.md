@@ -67,18 +67,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 建立下列專案所需的存取權杖：
 
-- **Cloud Manager**，驗證並存取存放庫。 深入瞭解[在Cloud Manager中新增外部存放庫](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)。
+- **Cloud Manager**，驗證並存取存放庫。 深入瞭解[在Cloud Manager中新增外部存放庫](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)。
 - **Experience Manager Guides發佈設定檔**，以認可已發佈的輸出。 建立具有&#x200B;**開發人員**&#x200B;角色和`api`範圍的GitLab專案存取權杖。 在[GitLab檔案](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html)中進一步瞭解。
 
 >[!NOTE]
 >
-> 在權杖到期前續約。 如果發佈設定檔中的Token已過期，發佈作業就會失敗。 若要更新Cloud Manager使用的權杖，請檢視[管理外部存放庫的存取權杖](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)。
+> 在權杖到期前續約。 如果發佈設定檔中的Token已過期，發佈作業就會失敗。 若要更新Cloud Manager使用的權杖，請檢視[管理外部存放庫的存取權杖](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)。
 
 ### &#x200B;5. 將GitLab存放庫新增至Cloud Manager
 
 在Cloud Manager中，移至&#x200B;**存放庫** > **新增存放庫**，選取&#x200B;**私人存放庫**，並使用存取權杖驗證所有權。 等到存放庫狀態為&#x200B;**就緒**。 BYOG選項只有在至少一個外部存放庫準備就緒後才能使用。
 
-如需相關步驟，請檢視[在Cloud Manager中新增外部存放庫](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)。
+如需相關步驟，請檢視[在Cloud Manager中新增外部存放庫](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)。
 
 ### &#x200B;6. 產生Cloud Manager API金鑰
 
