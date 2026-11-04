@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c6381f6d58f64bed575966423685b63971834d66
+source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 6%
+source-wordcount: '349'
+ht-degree: 5%
 ---
 # Experience Manager Guides檔案
 
@@ -114,7 +114,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 製作
 
-網頁編輯器、FrameMaker整合、可重複使用的內容以及稽核週期。
+使用編輯器和DITA編寫功能來建立和編輯結構化內容。
 
 [編寫您的內容](./user-guide/web-editor.md)
 :::
@@ -124,7 +124,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 檢閱
 
-稽核主題、管理稽核任務和稽核通知。
+建立及管理稽核任務、針對意見進行共同作業以及處理稽核評論。
 
 [評論簡介](./user-guide/review.md)
 :::
@@ -134,7 +134,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 發佈
 
-PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
+設定並產生AEM Sites、PDF、HTML5、EPUB、JSON和其他格式的輸出。
 
 [發佈您的內容](./user-guide/generate-output.md)
 :::
@@ -144,7 +144,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 翻譯
 
-多語言內容的人工和機器翻譯工作流程。
+使用人工或機器翻譯工作流程翻譯內容並追蹤翻譯狀態。
 
 [翻譯內容](./user-guide/translation.md)
 :::
@@ -154,7 +154,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 報告
 
-主題清單、多媒體、中斷的連結和中繼資料報表。
+評估內容健康狀態、管理中繼資料、識別中斷的連結，以及分析內容重複使用。
 
 [產生報表](./user-guide/reports-intro.md)
 :::
@@ -164,7 +164,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 設定
 
-資料夾設定檔、DITA-OT自訂和輸出範本。
+設定設定檔、範本、條件屬性、輸出預設集和編輯器設定。
 
 [設定資料夾設定檔](./install-conf-guide/conf-profiles.md)
 :::
@@ -172,7 +172,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 ::::
 
 
-## 快速連結
+## 資源和更新
 
 >[!BEGINSHADEBOX]
 
@@ -184,7 +184,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
 
 **AEM Guides的新功能**
 
-探索最新版Experience Manager Guides中推出的全新及增強功能。
+探索最新Experience Manager Guides版本2026.11.0中推出的新功能和增強功能。
 
 - 地圖層級分支和合併
 - 在AI助理中建立及匯入內容
