@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 1669028ab8ab2319e0f59626ed810f0979d014a9
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '451'
 ht-degree: 2%
 ---
 # Adobe Experience Manager Guides as a Cloud Service發行資訊
@@ -33,6 +33,7 @@ ht-degree: 2%
 
 | [!DNL AEM Guides]版本 | 發行說明 |
 |---|---|
+| **AEM Guides 2026.11.0** | [2026.11.0新增功能](./whats-new-2026-11-0.md)<br><br>[2026.11.0已修正問題](./fixed-issues-2026-11-0.md)<br><br>[2026.11.0升級指示](./upgrade-instructions-2026-11-0.md) |
 | **AEM Guides 2026.09.0** | [2026.09.0新增功能](./whats-new-2026-09-0.md)<br><br>[2026.09.0已修正問題](./fixed-issues-2026-09-0.md)<br><br>[2026.09.0升級指示](./upgrade-instructions-2026-09-0.md) |
 | **AEM Guides 2026.08.0** | [2026.08.0新增功能](./whats-new-2026-08-0.md)<br><br>[2026.08.0已修正問題](./fixed-issues-2026-08-0.md)<br><br>[2026.08.0升級指示](./upgrade-instructions-2026-08-0.md) |
 | **AEM Guides 2026.07.0** | [2026.07.0已修正問題](./fixed-issues-2026-07-0.md)<br><br>[2026.07.0升級指示](./upgrade-instructions-2026-07-0.md) |
