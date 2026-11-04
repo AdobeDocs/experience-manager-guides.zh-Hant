@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: b3c2c68321080aa4dde16befe4bfd0022bf9f61c
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -86,13 +86,12 @@ AI Assistant中的代理程式模式可讓您透過自然語言互動來執行�
 
 1. 登入Experience Manager Guides。
 1. 在首頁上，從頂端選取&#x200B;**AI助理**。 確保您的管理員已在所需模式下啟用AI助理功能。
-
 AI助理顯示主要功能、使用者指南連結和&#x200B;**開始使用**&#x200B;按鈕。
-請仔細閱讀使用者准則，然後選取&#x200B;**開始使用**&#x200B;以啟動AI小幫手。
+1. 請仔細閱讀使用者准則，然後選取&#x200B;**開始使用**&#x200B;以啟動AI小幫手。
 
 >[!NOTE]
 >
->如果您已經同意使用「說明小幫手」功能的准則，則系統將不再提示您同意，您可以繼續使用「AI小幫手」功能。
+>如果您已同意使用「說明助理」功能的准則，則系統將不再提示您同意，您可以繼續使用「AI助理」功能。
 
 **相關主題**
 
