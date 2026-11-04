@@ -1,7 +1,6 @@
 ---
-title: Experience Manager Guides的教學課程
-description: 尋找 Experience Manager Guides (以前稱為適用於 Adobe Experience Manager 的 XML Documentation) 的教學課程影片。 了解 Experience Manager 中的原生 DITA 支援和結構化製作。
-exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
+title: Experience Manager Guides檔案
+description: 尋找Adobe Experience Manager Guides的檔案。 瞭解Experience Manager中的原生DITA支援、結構化撰寫和多管道發佈。
 feature: AEM Guides Tutorials
 role: User
 TQID: 'https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs'
@@ -44,41 +43,190 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: c578f56f0aa976ea4421e4317e4c86dedfc5a700
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 10%
+source-wordcount: '328'
+ht-degree: 6%
 ---
 # Experience Manager Guides檔案
 
-[!DNL Experience Manager Guides]是功能強大、企業級元件內容管理解決方案(CCMS)。 如此可啟用Experience Manager中的原生DITA支援，使AEM能夠處理以DITA為主的內容建立和傳遞。 它可讓作者使用任何離線DITA編寫工具（例如Adobe FrameMaker或易於使用的內建編輯器）來建立內容。
+Experience Manager Guides是一款企業級CCMS，具備適用於結構化撰寫、多頻道發佈及內容生命週期管理的原生DITA支援。
 
-[!DNL Experience Manager Guides]解決方案提供所有核心CCMS功能，例如共同作業、檢閱、翻譯、搜尋及DITA內容報告，讓作者透過有效率的內容重複使用和強大的工作流程，以更少的時間完成更多工作。 此外，使用者可善用其同級最佳的單鍵發佈功能，針對最熱門的格式（Experience Manager Sites、PDF、HTML5、EPUB、JSON和透過DITA-OT的自訂輸出）產生DITA型輸出。
+**部署：** [!BADGE Cloud Service]{type=Positive} [!BADGE 內部部署]{type=Informative}
 
-透過[!DNL Experience Manager Guides]解決方案，企業可為使用者提供順暢且個人化的體驗，並確保售前和售後內容的一致性和一致性。 可以輕鬆實現對內容完整性的完整控制。 此外，本地化時間與成本也大幅降低。
+## 由您的角色開始
 
->[!NOTE]
-> 
-> Adobe Experience Manager Guides先前稱為Adobe Experience Manager的&#x200B;_XML Documentation_。 請注意，檔案中的某些參考資料可能仍會參考先前的品牌，但仍適用於目前的產品。
+::::landing-cards-container
+:::card
+![管理員圖示](../assets/admin.png)
 
-## 新增功能
+管理員
 
-* **[[!DNL Experience Manager Guides] 入門課程](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=zh-Hant){target="blank"}**
+設定檔案夾設定檔、許可權、工作流程設定和輸出範本。
 
-  _瞭解如何使用[!DNL Adobe Experience Manager Guides]建立、組織、製作及發佈內容。_
+[管理指南](./install-conf-guide/introduction.md)
+:::
 
-* 在內建編輯器中&#x200B;**[[!DNL Experience Manager Guides] 製作](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=zh-Hant){target="blank"}**
+:::card
+![作者圖示](../assets/author.png)
 
-  _瞭解如何在[!DNL Adobe Experience Manager Guides]中使用原生編輯器製作內容。 取得對使用者偏好設定、編輯器設定、設定、工具列等的完整瞭解。_
+作者
 
-* 產生&#x200B;**[輸出並顯示 [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=zh-Hant){target="blank"}**
+建立和管理DITA主題、地圖、內容重複使用和稽核工作流程。
 
-  _瞭解如何使用[!DNL Adobe Experience Manager Guides]產生輸出。 瞭解輸出產生的各種可用功能 — 報告、基線、條件、疑難排解、大量發佈和啟用。_
+[製作概觀](./user-guide/authoring-content.md)
+:::
+
+:::card
+![發佈者圖示](../assets/publisher.png)
+
+發佈者
+
+設定輸出預設集、管理基準線，以及跨通道產生輸出。
+
+[地圖管理與發佈](./user-guide/map-console-overview.md)
+:::
+
+::::
+
+<!--
+:::card
+![Architects icon](./user-guide/images/architect.svg)
+
+Architects
+
+Design DITA specializations, schemas, and content architecture for your implementation.
+
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
+:::
+
+::::
+-->
+
+## 依功能區域瀏覽
+
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
+
+::::landing-cards-container
+
+:::card
+![製作圖示](../assets/authoring.png)
+
+製作
+
+網頁編輯器、FrameMaker整合、可重複使用的內容以及稽核週期。
+
+[編寫您的內容](./user-guide/web-editor.md)
+:::
+
+:::card
+![檢閱圖示](../assets/review.png)
+
+檢閱
+
+稽核主題、管理稽核任務和稽核通知。
+
+[評論簡介](./user-guide/review.md)
+:::
+
+:::card
+![發佈圖示](../assets/publishing.png)
+
+發佈
+
+PDF、AEM Sites、HTML5、EPUB和JSON輸出型別。
+
+[發佈您的內容](./user-guide/generate-output.md)
+:::
+
+:::card
+![翻譯圖示](../assets/translation.png)
+
+翻譯
+
+多語言內容的人工和機器翻譯工作流程。
+
+[翻譯內容](./user-guide/translation.md)
+:::
+
+:::card
+![報告圖示](../assets/reports.png)
+
+報告
+
+主題清單、多媒體、中斷的連結和中繼資料報表。
+
+[產生報表](./user-guide/reports-intro.md)
+:::
+
+:::card
+![設定圖示](../assets/configure.png)
+
+設定
+
+資料夾設定檔、DITA-OT自訂和輸出範本。
+
+[設定資料夾設定檔](./install-conf-guide/conf-profiles.md)
+:::
+
+::::
 
 
-## 其他資源
+## 快速連結
 
-* [[!DNL Experience Manager Guides]使用手冊（舊的UI）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [[!DNL AEM Guides]學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League — 探索AEM](https://business.adobe.com/tw/products/experience-manager/adobe-experience-manager.html)
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![新功能](../assets/whats-new-git-connector.svg)
+
+**AEM Guides的新功能**
+
+探索最新版Experience Manager Guides中推出的全新及增強功能。
+
+- AI Assistant中的AI支援智慧標籤
+- 在稽核任務中將主題標示為已完成
+- 學習內容增強功能
+
+[全部探索](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![發行說明](../assets/whats-new-map-collection.svg)
+
+**發行說明**
+
+探索雲端和內部部署的最新發行說明和產品更新。
+
+- Cloud版本 | [檢視發行說明](./release-info/latest-release-info-cs.md)
+- 內部部署版本 | [檢視發行說明](./release-info/latest-release-info.md)
+
+[檢視發行藍圖](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![學習與支援](../assets/whats-new-delegate-review.svg)
+
+**學習與支援**
+
+存取實用資源、檔案和支援，以充份運用該平台。
+
+* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支援](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [教學影片](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
+
+
 
