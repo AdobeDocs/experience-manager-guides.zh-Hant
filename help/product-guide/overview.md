@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3c8ea4a0644121e4eb87877aeb6f9140fc365cc1
+source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 5%
@@ -184,7 +184,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 **AEM Guides的新功能**
 
-探索最新版Experience Manager Guides中推出的全新及增強功能。
+探索最新Experience Manager Guides版本2026.11.0中推出的新功能和增強功能。
 
 - 地圖層級分支和合併
 - 在AI助理中建立及匯入內容
@@ -215,10 +215,10 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 存取實用資源、檔案和支援，以充份運用該平台。
 
-* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.zh-Hant){target="_blank"}
-* [支援](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hant){target="_blank"}
-* [教學影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=zh_tw){target="_blank"}
+* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支援](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [教學影片](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
