@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
+source-git-commit: de4730d6b52026979ba40224dc7ff811a8915412
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '353'
+ht-degree: 6%
 ---
 # Experience Manager Guides檔案
 
@@ -120,6 +120,16 @@ Design DITA specializations, schemas, and content architecture for your implemen
 :::
 
 :::card
+![AI助理圖示](../assets/ai-author.png)
+
+AI 助理
+
+透過AI支援的協助，加速內容建立、尋找答案並套用智慧型標籤。
+
+[AI 助理](./install-conf-guide/conf-profiles.md)
+:::
+
+:::card
 ![檢閱圖示](../assets/review.png)
 
 檢閱
@@ -157,16 +167,6 @@ Design DITA specializations, schemas, and content architecture for your implemen
 評估內容健康狀態、管理中繼資料、識別中斷的連結，以及分析內容重複使用。
 
 [產生報表](./user-guide/reports-intro.md)
-:::
-
-:::card
-![設定圖示](../assets/configure.png)
-
-設定
-
-設定設定檔、範本、條件屬性、輸出預設集和編輯器設定。
-
-[設定資料夾設定檔](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
@@ -215,10 +215,10 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 存取實用資源、檔案和支援，以充份運用該平台。
 
-* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.zh-Hant){target="_blank"}
-* [支援](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hant){target="_blank"}
-* [教學影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=zh_tw){target="_blank"}
+* [GitHub存放庫](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支援](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [教學影片](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社群](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
