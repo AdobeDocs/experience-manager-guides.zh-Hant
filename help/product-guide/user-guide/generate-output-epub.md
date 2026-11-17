@@ -32,12 +32,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1201'
 ht-degree: 0%
 ---
 # ePub {#id205BED020YT}
+
+>[!NOTE]
+>
+>從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 因此，將無法使用EPUB預設集建立。  不過，「地圖」控制面板功能仍將對已使用此功能的現有客戶啟用。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
 
 您可以從地圖控制面板建立EPUB預設集。
 
@@ -74,7 +78,7 @@ ht-degree: 0%
 | 轉換名稱 | 指定您要產生的輸出型別。 如果您想要使用自己的自訂外掛程式產生輸出（已整合在DITA-OT外掛程式中），則需要此專案。 例如，如果您要產生XHTML輸出，請指定`xhtml`。 如需DITA-OT中可用的轉換清單，請在OASIS DITA-OT使用手冊中檢視[DITA-OT轉換（輸出格式）](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.md)。 |
 | 清除DITA-OT暫存檔 | 選取此選項可清除DITA-OT產生的暫存檔案。 可以在輸出產生記錄中找到DITA-OT儲存暫存檔的位置。<br><br>如果您在透過DITA-OT產生輸出時發生錯誤，可以取消選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。 |
 | 執行後期產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取在輸出產生工作流程完成後要執行的工作流程。<br><br>**注意**：如需建立自訂輸出後產生工作流程的詳細資訊，請在[安裝與設定Adobe Experience Manager Guides as a Cloud Service]中檢視&#x200B;_自訂輸出後產生工作流程_。 |
-| 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得詳細資料。 |
+| 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。 檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得詳細資訊。 <br>**注意**：如果您刪除輸出預設集中使用的基準線，預設集不會自動更新。 在產生輸出之前，請先執行下列動作： <ul><li>**如果您刪除唯一的基準線**： **使用基準線**&#x200B;選項保持啟用狀態，下拉式清單顯示為空白。 在此狀態下產生輸出失敗。 停用「使用基準線」切換並重新整理頁面，然後產生輸出。</li><li>**如果您有多個基準線並刪除選取的基準**： **使用基準**&#x200B;下拉式清單會繼續將刪除的基準線顯示為選取狀態。 從下拉式清單中選取有效的「基準線」，然後產生輸出。</li></ul> |
 | 屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會列在「屬性」欄位下方，並從下拉式清單中移除。 設定之後，這些屬性也會複製到對映中的主題中。<br><br>**注意**：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資料檢視，請[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞至輸出。 |
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

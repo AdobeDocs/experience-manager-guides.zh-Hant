@@ -27,14 +27,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '934'
 ht-degree: 0%
 ---
 # 下載檔案 {#id216MC0H0BE8}
 
-您可以下載資產，包括DITA和非DITA檔案。 您可以透過多種方式下載資產，有些是Adobe Experience Manager的原生方法，有些則受Adobe Experience Manager Guides支援。 如需原生Adobe Experience Manager資產下載資訊，請在Adobe Experience Manager檔案中檢視[從Adobe Experience Manager下載資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=zh-Hant)。 下節將說明在Experience Manager Guides中下載檔案的機制。
+您可以下載資產，包括DITA和非DITA檔案。 您可以透過多種方式下載資產，有些是Adobe Experience Manager的原生方法，有些則受Adobe Experience Manager Guides支援。 如需原生Adobe Experience Manager資產下載資訊，請在Adobe Experience Manager檔案中檢視[從Adobe Experience Manager下載資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)。 下節將說明在Experience Manager Guides中下載檔案的機制。
 
 ## 從編輯器下載DITA map檔案
 
@@ -90,6 +90,10 @@ ht-degree: 0%
 
 ## 從Map儀表板下載DITA map檔案
 
+>[!NOTE]
+>
+>從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
+
 在Adobe Experience Manager存放庫中擁有DITA map檔案後，您就可以下載對應檔案及其相依專案。 這可讓您彈性地共用完整的對應檔案，以進行離線編輯、驗證、檢閱或只是建立備份。
 
 執行以下步驟來下載DITA map檔案及其相依檔案：
@@ -133,4 +137,4 @@ ht-degree: 0%
 
 下載地圖後，您可以選取地圖，並使用上方的「開啟」圖示來開啟下載的內容。
 
-**父級主題：**&#x200B;[&#x200B;管理內容](authoring.md)
+**父級主題：**[&#x200B;管理內容](authoring.md)

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 7ff10bcfe560a12e048d9b21aa60ad2c7cb7d02b
 workflow-type: tm+mt
-source-wordcount: '3873'
+source-wordcount: '3971'
 ht-degree: 0%
 ---
 # 地圖主控台中的AEM Sites預設集
@@ -142,7 +142,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 | AEM Sites選項 | 說明 |
 | --- | --- |
-| 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得詳細資料。 |
+| 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。 檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得更多詳細資料。<br>**注意**：如果您刪除輸出預設集中使用的基準線，預設集不會自動更新。 在產生輸出之前，請先執行下列動作： <ul><li>**如果您刪除唯一的基準線**： **使用基準線**&#x200B;切換會保持啟用狀態，下拉式清單會顯示為空白。 在此狀態下產生輸出失敗。 停用「使用基準線」切換並重新整理頁面，然後產生輸出。</li><li>**如果您有多個基準線並刪除選取的基準**： **使用基準**&#x200B;下拉式清單會繼續將刪除的基準線顯示為選取狀態。 從下拉式清單中選取有效的「基準線」，然後產生輸出。</li></ul> |
 | 條件式篩選 | 選取下列其中一個選項：<br><br>**無**：如果您不想在發佈的輸出上套用任何條件，請選取此選項。<br>**使用DITAVAL**：選取DITAVal檔案以產生條件式內容。 您可以使用瀏覽對話方塊或輸入檔案路徑來選取多個DITAVal檔案。 使用檔案名稱附近的十字圖示可將其移除。 DITAVal檔案會依指定的順序計算，因此第一個檔案中指定的條件優先於後續檔案中指定的相符條件。 您可以透過新增或刪除檔案來維持檔案順序。 如果DITAVal檔案被移動到其他位置或被刪除，它不會自動從對映圖示板中刪除。 您必須更新位置，才能移動或刪除檔案。 您可以將滑鼠停留在檔案名稱上，檢視檔案儲存所在的AEM存放庫中的路徑。 您只能選取DITAVal檔案，如果您選取任何其他檔案型別，則會顯示錯誤。<br>**條件預設集**：從下拉式清單中選取條件預設集，以在發佈輸出時套用條件。 如果您已為DITA map檔案新增條件，則會顯示此選項。 條件設定可在DITA map主控台的「條件預設集」標籤中使用。 若要進一步瞭解條件預設集，請檢視[使用條件預設集](generate-output-use-condition-presets.md#id1825FL004PN)。 |
 | 其他DITA-OT命令列引數 | 指定在產生輸出時要DITA-OT處理的其他引數。 如需有關DITA-OT支援的命令列引數的詳細資訊，請檢視[DITA-OT檔案](https://www.dita-ot.org/)。 |
 | 中繼資料<br> <br>檔案(Assets)屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會顯示在&#x200B;**檔案屬性**&#x200B;欄位下。 選取屬性旁的十字圖示以將其移除。 <br><br>**注意**：中繼資料屬性區分大小寫。<br><br>*如果您選取了「基準線」，則屬性的值會以所選取之「基準線」的版本為基礎。<br>* 如果您尚未選取「基準線」，則屬性的值會根據最新版本。<br><br>您也可以使用DITA-OT發行將中繼資料傳遞至輸出。 如需詳細資料檢視，[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞給輸出。<br><br>**注意**：如果您尚未在「屬性」選項中定義`cq:tags`，則即使您已選取要發佈的基準線，`cq:tags`的值也會從目前的工作復本中挑選出來。 |
@@ -251,7 +251,7 @@ Experience Manager Guides可讓您使用`peer @scope`建立主題參考。 然�
 
    ![交叉對應參考](images/aem-sites-preset-cross-map-references.png)
 
-1. 如果要使用地圖中每個相依檔案最近發佈的輸出，請選取&#x200B;**對所有相依主題使用最近產生的**&#x200B;發佈內容。
+1. 如果要使用地圖中每個相依檔案最近發佈的輸出，請選取&#x200B;**對所有相依主題使用最近產生的**發佈內容。
 在發佈包含連結主題的地圖之前，您應該發佈選取為父對映的地圖。 如果含有已連結主題的地圖未發佈，則連結會在AEM Sites輸出中顯示為普通文字，而非超連結。
 您應該為連結的主題選取相同型別的AEM Sites預設集。 例如，如果目前的AEM Sites預設集使用舊版元件對應，則選取連結主題的類似AEM Sites預設集。
 1. 在「父對映」下拉式清單中，選取要與其輸出連結目前對映輸出的對映檔案。

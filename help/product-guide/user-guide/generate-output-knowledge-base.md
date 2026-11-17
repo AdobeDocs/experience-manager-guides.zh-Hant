@@ -31,9 +31,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
+source-git-commit: 4fda078909d4ae7d0b51f7097418f7e17f2b8230
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1682'
 ht-degree: 1%
 ---
 # 知識庫 {#knowledge-base}
@@ -71,7 +71,7 @@ ht-degree: 1%
 | 知識庫選項 | 說明 |
 | --- | --- |
 | 套用條件，使用 | 選取下列其中一個選項： <br><br>* **未套用任何專案**：如果您不想在發佈的輸出上套用任何條件，請選取此選項。<br>* **DITAVAL檔案**：選取DITAVAL檔案以產生個人化內容。 您可以使用瀏覽對話方塊或輸入檔案路徑來選取多個DITAVAL檔案。 使用檔案名稱附近的十字圖示可將其移除。 DITAVAL檔案會依指定的順序評估，因此第一個檔案中指定的條件優先於後續檔案中指定的相符條件。 您可以透過新增或刪除檔案來維持檔案順序。 如果DITAVAL檔案被移動到其他位置或刪除，它不會自動從預設集中刪除。 您必須更新位置，才能移動或刪除檔案。 您可以將滑鼠停留在檔案名稱上，檢視檔案儲存所在的Adobe Experience Manager存放庫中的路徑。 您只能選取DITAVAL檔案，如果您選取任何其他檔案型別，則會顯示錯誤。<br><br> **注意**：針對&#x200B;**Salesforce發佈**&#x200B;使用DITAVAL篩選時，請考慮下列事項： <br> — 每個DITAVAL屬性僅支援`Include`和`Exclude`動作。<br>  — 不支援在輸出中以視覺化方式標示或反白顯示條件式內容的標幟。<br>  — 在輸出預設集中，只能選取單一DITAVAL檔案進行發佈；Salesforce發佈不支援多個DITAVAL檔案選項。 不支援內容中的<br>- `ditavalref`參考。<br><br> **條件預設集**：從下拉式清單中選取條件預設集，以在發佈輸出時套用條件。 如果您在DITA map主控台的「條件預設集」標籤中新增條件，則會顯示選項。 若要進一步瞭解條件預設集，請檢視[使用條件預設集](generate-output-use-condition-presets.md#id1825FL004PN)。 |
-| 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得詳細資料。 |
+| 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。 檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得更多詳細資料。<br>**注意**：如果您刪除輸出預設集中使用的基準線，預設集不會自動更新。 在產生輸出之前，請先執行下列動作： <ul><li>**如果您刪除唯一的基準線**： **使用基準線**&#x200B;選項保持啟用狀態，下拉式清單顯示為空白。 在此狀態下產生輸出失敗。 停用「使用基準線」切換並重新整理頁面，然後產生輸出。</li><li>**如果您有多個基準線並刪除選取的基準**： **使用基準**&#x200B;下拉式清單會繼續將刪除的基準線顯示為選取狀態。 從下拉式清單中選取有效的「基準線」，然後產生輸出。</li></ul> |
 | 貼文產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含Adobe Experience Manager中設定的所有工作流程。 您必須選取要在輸出產生完成後執行的工作流程。<br><br>**注意**：進一步瞭解如何在Cloud Services的安裝與設定指南中[自訂輸出後產生工作流程](../cs-install-guide/customize-workflows.md#id17A6GI004Y4)一節。 |
 
 ### 文章
