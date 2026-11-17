@@ -18,7 +18,7 @@ ht-degree: 3%
 
 本文介紹Adobe Experience Manager Guides 5.2.0 Service Pack 3版的升級指示和相容性矩陣。
 
-如需此版本中已修正的問題清單，請檢視5.2.0 Service Pack 3版本](../release-info/fixed-issues-5-2-0-sp3.md)中的[已修正問題。
+如需此版本中已修正的問題清單，請檢視5.2.0 Service Pack 3版本[&#128279;](../release-info/fixed-issues-5-2-0-sp3.md)中的已修正問題。
 
 ## 相容性矩陣
 
