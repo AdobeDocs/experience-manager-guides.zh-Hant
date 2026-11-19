@@ -1,5 +1,5 @@
 ---
-title: 在AEM Guides中分支 |Adobe Experience Manager Guides`
+title: 在AEM Guides中分支 |Adobe Experience Manager Guides
 description: 瞭解如何在AEM Guides中建立和管理DITA map的分支，以支援平行撰寫、獨立發佈和合併檔案變更。
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3f0d8e31537ade58a4eab5ddf73eb6d263d3dd96
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '659'
 ht-degree: 0%
 ---
 # 概觀
@@ -54,8 +54,6 @@ Adobe Experience Manager Guides中的分支可讓您從&#x200B;**主要**&#x200B
 >會根據DITA map建立分支。 您也可以新增和編輯所選分支中的對映未參考的主題。 如需詳細資訊，請檢視[開啟或編輯目前對映](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map-context)之外的主題。
 
 當您建立DITA map的分支時，Experience Manager Guides不會自動將對映的參考主題複製到新分支中。 未變更的主題會從來源分支或預設分支（主要）中讀取。 只有當您編輯主題並儲存在新分支中時，它才會複製到該分支中。
-
-例如，一個DITA map參照100個主題，而存放庫包含50個其他主題，這些主題沒有被該map參照。 當您建立新分支（版本1.0）時，所有100個參照的主題都會自動成為1.0版的一部分，即使這些主題都未經過編輯。 這50個未參考的主題不會自動成為新分支的一部分。 如果您編輯其中10個，則只有這10個會成為1.0版的一部分。 其餘的40個未變更主題會繼續從預設分支（主要）使用。
 
 >[!NOTE]
 >
