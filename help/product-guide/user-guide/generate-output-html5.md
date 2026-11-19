@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1821'
 ht-degree: 0%
 ---
 # HTML5 {#id205BE700XO1}
@@ -97,6 +97,10 @@ ht-degree: 0%
 
 ## 從「地圖」控制面板建立HTML5輸出預設集
 
+>[!NOTE]
+>
+>從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
+
 執行以下步驟，從「地圖」控制面板建立HTML5預設集：
 
 1. 在Assets UI中，導覽至並選取DITA map，以在Map控制面板中開啟。
@@ -130,7 +134,7 @@ ht-degree: 0%
 | 貼文產生工作流程 | 選擇此選項時，會顯示新的「產生後工作流程」下拉式清單，其中包含AEM中設定的所有工作流程。 您必須選取要在輸出產生工作流程完成後執行的工作流程。<br><br>**注意**:For&#x200B;有關建立自訂輸出後產生工作流程的詳細資訊，請檢視「安裝與設定Adobe Experience Manager Guides as a Cloud Service」中的&#x200B;_自訂輸出後產生工作流程_。 |
 | 轉換名稱 | 指定您要產生的輸出型別。 如果您想要使用自己的自訂外掛程式產生輸出（已整合在DITA-OT外掛程式中），則需要此專案。 例如，如果您要產生XHTML輸出，請指定`xhtml`。 如需DITA-OT中可用的轉換清單，請在OASIS DITA-OT使用手冊中檢視[DITA-OT轉換（輸出格式）](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html)。 |
 | 保留暫存檔 | 選取此選項可保留DITA-OT產生的暫存檔案。 如果您在透過DITA-OT產生輸出時發生錯誤，請選取此選項以保留暫存檔案。 然後，您可以使用這些檔案來疑難排解輸出產生錯誤。<br> <br>產生輸出後，請選取&#x200B;**下載暫存檔** ![下載暫存檔圖示](images/download-temp-files-icon.svg)圖示來下載包含暫存檔的ZIP資料夾。 下載的檔案也會包含`system_config.xml`檔案，提供您有關作者URL、本機URL和發佈URL的資訊。 這些URL是在AEM外部化設定中設定，並反映在`system_config.xml`檔案中。<br><br> **注意**：如果在產生期間新增檔案屬性，輸出暫存檔也會包含包含包含這些屬性的&#x200B;*metadata.xml*&#x200B;檔案。 |
-| 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。<br><br>檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得詳細資料。 |
+| 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。 檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得詳細資訊。<br>**注意**：如果您刪除輸出預設集中使用的基準線，預設集不會自動更新。 在產生輸出之前，請先執行下列動作： <ul><li>**如果您刪除唯一的基準線**： **使用基準線**&#x200B;選項保持啟用狀態，下拉式清單顯示為空白。 在此狀態下產生輸出失敗。 停用「使用基準線」切換並重新整理頁面，然後產生輸出。</li><li>**如果您有多個基準線並刪除選取的基準**： **使用基準**&#x200B;下拉式清單會繼續將刪除的基準線顯示為選取狀態。 從下拉式清單中選取有效的「基準線」，然後產生輸出。</li></ul> |
 | 平面化檔案階層 | 選取選項，在平面資料夾階層中產生HTML5輸出。 整個內容會以平面檔案階層形式以HTML5輸出格式發佈，並儲存在單一資料夾中。<br> 如果取消選取此選項，會在巢狀資料夾階層中產生輸出，並復寫整個資料夾結構。 |
 | 檔案屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會顯示在&#x200B;**檔案屬性**&#x200B;欄位下。 選取屬性旁的十字圖示以將其移除。 <br><br>**附註**：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資料檢視，請[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞至輸出。 |
 

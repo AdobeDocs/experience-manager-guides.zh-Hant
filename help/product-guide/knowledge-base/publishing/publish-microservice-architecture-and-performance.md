@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -106,4 +106,4 @@ DITA發佈是一項耗用大量資源的程式，主要取決於可用的系統�
 
 每個發佈請求的某些部分都必須在AEM執行個體上執行，以擷取要傳送至微服務的正確發佈內容。 新雲端架構使用AEM工作，取代了舊架構中的AEM工作流程。 這項變更可讓AEM Guides管理員個別設定雲端發佈佇列設定，而不會影響其他AEM工作或工作流程設定。
 
-如需如何設定新發佈微服務的詳細資訊，請前往此處： [設定微服務](configure-microservices.md)
+如需如何設定新發佈微服務的詳細資訊，請前往此處： [設定微服務](./configure-microservices-imt-config.md)

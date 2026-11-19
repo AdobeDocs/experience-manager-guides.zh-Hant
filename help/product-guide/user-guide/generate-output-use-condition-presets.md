@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1224'
 ht-degree: 2%
 ---
 # 使用條件預設集 {#id1825FL004PN}
@@ -128,6 +128,9 @@ Experience Manager Guides可讓您從Map主控台建立和管理條件預設集�
 
 ## 地圖控制面板中的條件預設集
 
+>[!NOTE]
+>
+>從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
 
 ### 建立條件預設集
 

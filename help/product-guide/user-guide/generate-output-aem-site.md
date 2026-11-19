@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '735'
 ht-degree: 0%
 ---
 # 增量輸出產生
@@ -68,6 +68,10 @@ ht-degree: 0%
 
 
 ## 從對應控制面板產生增量輸出（適用於使用舊版元件對應的AEM網站）
+
+>[!NOTE]
+>
+>從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
 
 執行以下步驟，使用地圖儀表板產生AEM Sites的增量輸出：
 

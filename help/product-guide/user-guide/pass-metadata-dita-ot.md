@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '690'
 ht-degree: 0%
 ---
 # 使用DITA-OT將中繼資料傳遞至輸出 {#id21BJ00QD0XA}
@@ -82,6 +82,10 @@ ht-degree: 0%
 > 自2502年Experience Manager Guides發行版本開始，已棄用透過DITA-OT命令列傳遞根對應中繼資料引數的功能。 但是，為了避免任何中斷，`Config.Manager`中已新增屬性，以啟用或停用該功能。  如需詳細資訊，請檢視[設定輸出產生設定](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard)。
 
 ## 使用地圖儀表板
+
+>[!NOTE]
+>
+>從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
 
 如果使用&#x200B;**Assets UI**，請執行下列步驟，以使用DITA-OT發佈將中繼資料傳遞給輸出：
 

@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 ---
 # 產生輸出
@@ -80,6 +80,10 @@ ht-degree: 0%
 
 
 ## 從Map儀表板產生DITA map的輸出
+
+>[!NOTE]
+>
+>從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
 
 執行以下步驟，使用「對映」圖示板產生DITA map的輸出：
 

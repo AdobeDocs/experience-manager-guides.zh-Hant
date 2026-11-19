@@ -27,12 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '293'
 ht-degree: 1%
 ---
 # 瞭解輸出預設集 {#understanding_output_settings}
+
+>[!NOTE]
+>
+>從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
 
 Experience Manager Guides支援透過DITA-OT、原生PDF和FMPS以最熱門的格式（例如AEM Sites、PDF、知識庫、HTML5、EPUB、JSON和自訂輸出）建立輸出。 使用這些輸出格式，您可以設定各種輸出預設集。 在這裡，輸出預設集代表您想要發佈內容的自訂輸出格式。
 
