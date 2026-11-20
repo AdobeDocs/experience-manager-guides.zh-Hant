@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guides 2026.11.0版的新增功能
 description: 探索2026.11.0版Adobe Experience Manager Guides的新功能，包括地圖層級分支和AI助理內容建立。
 role: Leader
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1544'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 0%
 瞭解2026.11.0版[&#128279;](../release-info/upgrade-instructions-2026-11-0.md)的升級指示。
 
 ## 引進地圖層級分支和合併
+
+>[!NOTE]
+>
+> 目前僅在使用資料庫設定的Cloud Service環境中支援&#x200B;**分支和合併**&#x200B;功能，預設為停用。 若要在您的環境中啟用分支和合併，請聯絡您的客戶成功團隊。
 
 Experience Manager Guides引入地圖層級分支和合併功能，讓作者可同時處理多個檔案版本、功能更新和關鍵修正，而不會影響主要內容。 作者可以建立DITA map及其相依性的獨立分支，確保每個分支的編輯、鎖定和預覽都是特定的。
 

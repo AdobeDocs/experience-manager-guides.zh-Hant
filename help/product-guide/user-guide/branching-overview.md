@@ -1,5 +1,5 @@
 ---
-title: 在AEM Guides中分支 |Adobe Experience Manager Guides
+title: AEM Guides中的分支和合併 |Adobe Experience Manager Guides
 description: 瞭解如何在AEM Guides中建立和管理DITA map的分支，以支援平行撰寫、獨立發佈和合併檔案變更。
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 ---
 # 概觀
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> 分支和合併功能在2026.11.0版的Experience Manager Guides as a Cloud Service中引入，並預設為停用。 若要針對您的環境啟用此功能，請聯絡您的客戶成功團隊。
+> 自2026.11.0版的Experience Manager Guides as a Cloud Service開始，即可使用&#x200B;**分支和合併**&#x200B;功能。 目前僅在使用資料庫設定的Cloud Service環境中才支援此功能，預設為停用。 若要在您的環境中啟用分支和合併，請聯絡您的客戶成功團隊。
 
 Adobe Experience Manager Guides中的分支可讓您從&#x200B;**主要**&#x200B;分支中建立和管理多個分支，讓DITA map可同時處理不同的檔案發行。 每個分支可讓作者獨立管理內容變更，而不會影響其他分支中的對應內容。
 
