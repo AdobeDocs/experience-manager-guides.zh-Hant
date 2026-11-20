@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 4dbc008bb913b34a534eb65a146b33e9939febb8
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1158'
 ht-degree: 0%
 ---
 
@@ -45,15 +45,15 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果編輯器中已開啟另一個對應，則會顯示確認對話方塊。 選取&#x200B;**開啟**&#x200B;以開啟目前分支中選取的地圖。 如需詳細資訊，請檢視[開啟目前地圖內容之外的內容](#open-content-outside-the-current-map-context)。
+   > 如果編輯器中已開啟另一個對應，則會顯示確認對話方塊。 Select **開啟**&#x200B;以在目前分支中開啟選取的地圖。 如需詳細資訊，請檢視[開啟目前地圖內容外部的地圖](#open-a-map-outside-the-current-map-context)。
 
-1. 選取&#x200B;**主要**&#x200B;分支下拉式清單，並確認已選取必要的DITA map。
+1. Select **主要**&#x200B;分支下拉式清單，並確認已選取必要的DITA map。
 
    ![](./images/map-context-change.png)
 
-1. 選取&#x200B;**新增分支**&#x200B;以建立所選地圖的分支。
+1. Select **新增分支**&#x200B;以建立所選地圖的分支。
 
-1. 在&#x200B;**新分支**&#x200B;對話方塊中，輸入新分支的名稱，並選取要從中建立分支的父分支。
+1. 在&#x200B;**新分支**&#x200B;對話方塊中，輸入新分支的名稱，並選取您要建立它的&#x200B;**Source分支** （做為父分支）。
 
    ![](./images/new-branch-creation.png)
 
@@ -65,8 +65,8 @@ ht-degree: 0%
 
 執行以下步驟來切換分支：
 
-1. 選取編輯器頂端的&#x200B;**分支下拉式清單** （預設會顯示`main`）。 此時會顯示所選DITA map的可用分支清單。
-1. 選取您要使用的分支。
+1. Select編輯器頂端的&#x200B;**分支下拉式清單** （預設會顯示`main`）。 此時會顯示所選DITA map的可用分支清單。
+1. Select您要使用的分支。
 
    ![](./images/switch-branches.png)
 
@@ -76,13 +76,9 @@ ht-degree: 0%
 
 您現在可以在選取的分支內處理地圖及其相關內容。
 
-![](./images/branch-switched.png)
-
 >[!NOTE]
 >
 >如果在切換分支時主題有未儲存的變更，則會出現一個對話方塊，提示您先儲存變更，然後再切換至所選分支。
-
-您現在可以在選取的分支內處理地圖及其相關內容。
 
 ## 分支中的獨立編輯
 
@@ -126,7 +122,7 @@ ht-degree: 0%
 
 ![](./images/open-map-context-dialog.png)
 
-選取&#x200B;**開啟**&#x200B;以切換至選取的對應。
+Select **開啟**&#x200B;以切換至選取的地圖。
 
 `main`分支的對應內容已更新為新選取的對應，可讓您處理其關聯內容。
 
@@ -138,7 +134,7 @@ ht-degree: 0%
 
 ![](./images/edit-topic-current-branch.png)
 
-選取&#x200B;**在目前分支中編輯**，讓這些主題可在選取的分支中編輯。
+Select **在目前的分支**&#x200B;中編輯，讓這些主題可在所選分支中編輯。
 
 您現在可以編輯主題，而不影響其在`main`中的內容。 不過，此主題不會自動新增至相關聯的DITA map，也不會包含在已發佈的輸出中。 若要在輸出中包含主題，請將其新增至DITA map。
 
@@ -174,7 +170,7 @@ ht-degree: 0%
 >
 > 無法封存預設分支(`main`)。
 
-若要封存分支，請執行以下步驟：
+執行以下步驟來封存分支：
 
 1. 在&#x200B;**分支**&#x200B;面板中，選取&#x200B;**管理**&#x200B;圖示。
 
@@ -199,7 +195,7 @@ ht-degree: 0%
 
 當您需要繼續處理DITA map的內容時，可以恢復其已封存的分支。
 
-若要還原已封存的分支，請執行以下步驟：
+執行以下步驟來還原已封存的分支：
 
 1. 在&#x200B;**分支**&#x200B;面板中，選取&#x200B;**管理**&#x200B;圖示。
 2. 在&#x200B;**管理分支**&#x200B;對話方塊中，選取&#x200B;**已封存**&#x200B;索引標籤。
