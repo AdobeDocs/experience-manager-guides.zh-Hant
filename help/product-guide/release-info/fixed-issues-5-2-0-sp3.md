@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: 01aae4f8c25d87d2dd0a0255bedab8d7b091e54d
+source-git-commit: a3144f0078b2073289043befacc5e2358b9c0e02
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '816'
 ht-degree: 0%
 ---
 # 已修正5.2.0 Service Pack 3版本（2026年11月）中的問題
@@ -74,4 +74,4 @@ ht-degree: 0%
 
 Adobe已找出下列5.2.0 Service Pack 3版的已知問題：
 
-- 安裝Service Pack後，Schematron驗證可能會因`NoClassDefFoundError`例外狀況而失敗，您無法儲存編輯器中的主題。 <br>**因應措施：**&#x200B;從AEM網頁主控台(`/system/console/bundles`)重新整理`com.adobe.fmdita.schematron-wrapper`套件。
+- 安裝Service Pack後，Schematron驗證可能會因`NoClassDefFoundError`例外狀況而失敗，您無法儲存編輯器中的主題。 (GUIDES-60062)<br>**因應措施：**&#x200B;從AEM網頁主控台(`/system/console/bundles`)重新整理`com.adobe.fmdita.schematron-wrapper`套件。
