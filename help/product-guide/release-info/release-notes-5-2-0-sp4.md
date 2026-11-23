@@ -31,7 +31,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 5.2.0 Service Pack 4 (UUID) | 5.2.2 | [AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-如需更多詳細資料，請檢視[從Maven中央存放庫設定及使用API JAR](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)。
+如需更多詳細資料，請檢視[從Maven中央存放庫設定及使用API JAR](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-guides/using/api-reference/introduction)。
 
 ## 升級至Experience Manager Guides的5.2.0 Service Pack 4版本
 
