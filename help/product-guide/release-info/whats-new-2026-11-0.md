@@ -2,9 +2,9 @@
 title: 發行說明 | Adobe Experience Manager Guides 2026.11.0版的新增功能
 description: 探索2026.11.0版Adobe Experience Manager Guides的新功能，包括地圖層級分支和AI助理內容建立。
 role: Leader
-source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
+source-git-commit: 79ba2d52e002fd5c821678e5662d67e6607f7808
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 如需此版本中修正的問題清單，請檢視[2026.11.0版本](fixed-issues-2026-11-0.md)中的已修正問題。
 
-瞭解2026.11.0版[&#128279;](../release-info/upgrade-instructions-2026-11-0.md)的升級指示。
+瞭解2026.11.0版](../release-info/upgrade-instructions-2026-11-0.md)的[升級指示。
 
 ## 引進地圖層級分支和合併
 
@@ -118,7 +118,7 @@ Experience Manager Guides中的地圖主控台現在包含&#x200B;**輸出歷史
 
 您可以依年齡&#x200B;**（移除超過指定天數的專案）或**&#x200B;依計數&#x200B;**（僅保留指定數目的最近專案）清除輸出歷史記錄**。
 
-您也可以選擇只清除輸出日誌，同時保留歷史記錄專案以供稽核，或移除日誌及其相關專案。 這些選項有助於最佳化存放庫儲存空間，同時加強對輸出歷史記錄清除的控制。
+您可以選擇只清除輸出日誌，同時保留歷史記錄專案以供稽核之用，或者同時移除日誌及其相關專案。 這些選項有助於最佳化存放庫儲存空間，同時加強對輸出歷史記錄清除的控制。
 
 如需詳細資訊，請檢視[設定輸出歷程記錄](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q)的自動清除期間。
 
