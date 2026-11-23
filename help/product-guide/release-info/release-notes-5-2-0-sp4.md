@@ -14,14 +14,14 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: ad78587f55ec7190443dbbce80f596821ec41f9f
+source-git-commit: a232c8a03cda9b0ef7ae8114c3d901df5fb5bcb4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '530'
 ht-degree: 1%
 ---
 # 5.2.0 Service Pack 4版本（2026年11月）的發行說明
 
-本文提供Adobe Experience Manager Guides 5.2.0 Service Pack 4版本中的升級指示、Java SDK相容性、修正問題和已知問題的相關資訊。
+本文提供Adobe Experience Manager Guides 5.2.0 Service Pack 4版本中的升級指示、Java SDK相容性、已修正問題和已知問題的相關資訊。
 
 ## Java SDK資源
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 在開始Experience Manager Guides 5.2.0 Service Pack 4升級程式之前，請確定您使用的是5.2.0 Service Pack 1版。
 
-### 升級程式5.2.0 Service Pack 4版本
+### 5.2.0 Service Pack 4版本的升級程式
 
 1. 下載Experience Manager Guides套件5.2.0版Service Pack 4。
 1. 使用封裝管理員(`/crx/packmgr`)將封裝上傳到您的執行個體。
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 ### 製作
 
-- 將資產從Explorer面板拖放至地圖時，而該面板在另一位作者移動資產後並未重新整理，因此中斷的參照會新增至地圖。 (GUIDES-57869)
+- 當您將資產從Explorer面板拖放到地圖中，而該面板在另一位作者移動資產後尚未重新整理時，中斷的參照會新增到地圖中。 (GUIDES-57869)
 
 ### 資產管理
 
