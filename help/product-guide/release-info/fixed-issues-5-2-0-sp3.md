@@ -23,7 +23,7 @@ ht-degree: 0%
 
 本文章說明5.2.0 Service Pack 3版本Adobe Experience Manager Guides中不同區域所修正的錯誤。
 
-瞭解5.2.0 Service Pack 3版本](upgrade-instructions-5-2-0-sp3.md)的[升級指示。
+瞭解5.2.0 Service Pack 3版本[&#128279;](upgrade-instructions-5-2-0-sp3.md)的升級指示。
 
 ## 編輯器2.0
 
