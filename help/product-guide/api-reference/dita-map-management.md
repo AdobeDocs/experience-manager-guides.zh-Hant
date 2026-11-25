@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f3225fd7090ddfdcba5ec80908d9e300520ae995
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 4%
 ---
 # 使用DITA map的REST API {#id175UB30E05Z}
@@ -36,7 +36,7 @@ ht-degree: 4%
 
 ## 下載具有相依物件的DITA map
 
-一種GET方法，可下載DITA map及其所有相依專案，例如參照的主題、子地圖、影像以及在地圖和主題中使用的DTD。
+一種GET方法，可下載DITA map及其所有相依項，例如用於地圖和主題的參照主題、子地圖、影像和DTD。
 
 **要求URL**：
 http://*&lt;aem-guides-server\>*： *&lt;連線埠號碼\>*/bin/fmdita/exportditamap
