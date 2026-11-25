@@ -112,7 +112,7 @@ Adobe Experience Manager Guides提供管理員報告功能，可在檔案上線�
 
    ![](images/generate-DITA-map-report-new.png)
 
-1. 報告可供下載後，您將會收到通知。 選取「下載&#x200B;****」以下載產生報表的CSV。
+1. 報告可供下載後，您將會收到通知。 選取「下載&#x200B;**&#x200B;**」以下載產生報表的CSV。
 
    ![](images/download-report-dialog-new.png){width="550"}
 
@@ -125,4 +125,4 @@ Adobe Experience Manager Guides提供管理員報告功能，可在檔案上線�
 
 報告下載至收件匣後，您也可以選取報告，並使用頂端的開啟圖示開啟所選的報告。
 
-**父級主題：**[&#x200B;報告簡介](reports-intro.md)
+**父級主題：**&#x200B;[&#x200B;報告簡介](reports-intro.md)
