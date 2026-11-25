@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1649'
 ht-degree: 5%
 ---
 # 翻譯內容 {#id181GB0400UI}
@@ -78,7 +78,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
+>從2027.01.0版的Experience Manager Guides Cloud Service和5.3內部部署版本開始，新客戶將不再使用Map儀表板。 新客戶預設會使用「地圖」主控台。 在2027.03.0版中，地圖儀表板預設為停用。 我們建議您使用「地圖」主控台來管理和發佈未來的地圖。 如果您仍需存取Map控制面板，請聯絡客戶成功團隊以尋求協助。
 
 下列標籤會根據您的Experience Manager Guides設定，提供在DITA Map控制面板上隱藏翻譯標籤的說明： Cloud Service或內部部署。
 

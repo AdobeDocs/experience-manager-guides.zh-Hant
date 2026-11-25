@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '741'
 ht-degree: 0%
 ---
 # 增量輸出產生
@@ -47,7 +47,7 @@ ht-degree: 0%
 執行以下步驟，使用Map主控台產生AEM Sites的增量輸出：
 
 1. [在Map主控台](./open-files-map-console.md)中開啟DITA map檔案。
-1. 選取您要產生增量輸出的AEM Sites預設集。
+1. Select您要為其產生增量輸出的AEM Sites預設集。
 1. 在&#x200B;**主題**&#x200B;索引標籤中，選取您要發佈的主題。
 
    - 沒有基準線
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
+>從2027.01.0版的Experience Manager Guides Cloud Service和5.3內部部署版本開始，新客戶將不再使用Map儀表板。 新客戶預設會使用「地圖」主控台。 在2027.03.0版中，地圖儀表板預設為停用。 我們建議您使用「地圖」主控台來管理和發佈未來的地圖。 如果您仍需存取Map控制面板，請聯絡客戶成功團隊以尋求協助。
 
 執行以下步驟，使用地圖儀表板產生AEM Sites的增量輸出：
 
