@@ -32,16 +32,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1204'
 ht-degree: 0%
 ---
 # ePub {#id205BED020YT}
 
 >[!NOTE]
 >
->從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 因此，將無法使用EPUB預設集建立。  不過，「地圖」控制面板功能仍將對已使用此功能的現有客戶啟用。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
+>從2027.01.0版的Experience Manager Guides Cloud Service和5.3內部部署版本開始，新客戶將不再使用Map儀表板。 因此，將無法使用EPUB預設集建立。 新客戶預設會使用「地圖」主控台。 在2027.03.0版中，地圖儀表板預設為停用。 我們建議您使用「地圖」主控台來管理和發佈未來的地圖。 如果您仍需存取Map控制面板，請聯絡客戶成功團隊以尋求協助。
 
 您可以從地圖控制面板建立EPUB預設集。
 
@@ -81,4 +81,4 @@ ht-degree: 0%
 | 使用基準線 | 如果您已經為選取的DITA map建立基準線，請選取此選項以指定要發佈的版本。 檢視[使用基準線](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以取得詳細資訊。 <br>**注意**：如果您刪除輸出預設集中使用的基準線，預設集不會自動更新。 在產生輸出之前，請先執行下列動作： <ul><li>**如果您刪除唯一的基準線**： **使用基準線**&#x200B;選項保持啟用狀態，下拉式清單顯示為空白。 在此狀態下產生輸出失敗。 停用「使用基準線」切換並重新整理頁面，然後產生輸出。</li><li>**如果您有多個基準線並刪除選取的基準**： **使用基準**&#x200B;下拉式清單會繼續將刪除的基準線顯示為選取狀態。 從下拉式清單中選取有效的「基準線」，然後產生輸出。</li></ul> |
 | 屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會列在「屬性」欄位下方，並從下拉式清單中移除。 設定之後，這些屬性也會複製到對映中的主題中。<br><br>**注意**：您也可以使用DITA-OT發佈將中繼資料傳遞給輸出。 如需詳細資料檢視，請[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞至輸出。 |
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

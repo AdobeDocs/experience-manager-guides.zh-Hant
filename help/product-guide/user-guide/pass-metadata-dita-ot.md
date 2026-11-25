@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '696'
 ht-degree: 0%
 ---
 # 使用DITA-OT將中繼資料傳遞至輸出 {#id21BJ00QD0XA}
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    此檔案可覆蓋於： `/apps/fmdita/config/metadataList`。
 
-   若要傳遞您已為其定義值的自訂屬性，請檢視[在DITA-OT PDF輸出中使用AEM中繼資料](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=zh-Hant)。
+   若要傳遞您已為其定義值的自訂屬性，請檢視[在DITA-OT PDF輸出中使用AEM中繼資料](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)。
 
 1. 選取的屬性會列在下拉式清單下方。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
+>從2027.01.0版的Experience Manager Guides Cloud Service和5.3內部部署版本開始，新客戶將不再使用Map儀表板。 新客戶預設會使用「地圖」主控台。 在2027.03.0版中，地圖儀表板預設為停用。 我們建議您使用「地圖」主控台來管理和發佈未來的地圖。 如果您仍需存取Map控制面板，請聯絡客戶成功團隊以尋求協助。
 
 如果使用&#x200B;**Assets UI**，請執行下列步驟，以使用DITA-OT發佈將中繼資料傳遞給輸出：
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
    此檔案可覆蓋於： `/apps/fmdita/config/metadataList`。
 
-   若要傳遞您已為其定義值的自訂屬性，請檢視[在DITA-OT PDF輸出中使用AEM中繼資料](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=zh-Hant)。
+   若要傳遞您已為其定義值的自訂屬性，請檢視[在DITA-OT PDF輸出中使用AEM中繼資料](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)。
 
 1. 從&#x200B;**屬性**&#x200B;下拉式清單中，選取必要的自訂和預設屬性。 例如，選取`author`、`dc:title`和`dc:description`。 這些是在我們建立檔案後建立的標準`metadata/properties`。 選取的屬性會列在下拉式方塊下方。
 
@@ -118,4 +118,4 @@ ht-degree: 0%
 
 
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)

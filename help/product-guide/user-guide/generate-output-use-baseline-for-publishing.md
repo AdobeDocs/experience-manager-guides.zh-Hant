@@ -27,16 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1879'
 ht-degree: 0%
 ---
 # 從地圖儀表板處理基準線 {#id1825FI0J0PF}
 
 >[!NOTE]
 >
->從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
+>從2027.01.0版的Experience Manager Guides Cloud Service和5.3內部部署版本開始，新客戶將不再使用Map儀表板。 新客戶預設會使用「地圖」主控台。 在2027.03.0版中，地圖儀表板預設為停用。 我們建議您使用「地圖」主控台來管理和發佈未來的地圖。 如果您仍需存取Map控制面板，請聯絡客戶成功團隊以尋求協助。
 
 Experience Manager Guides提供基準線功能，可讓使用者建立基準線，並使用基準線來發佈或翻譯不同版本的主題。 它們也可以同時發佈同一DITA map的多個輸出預設集。
 
@@ -102,9 +102,9 @@ Experience Manager Guides提供基準線功能，可讓使用者建立基準線�
 
 執行以下步驟來編輯現有的基準線：
 
-1. 選取基準線並選取&#x200B;**編輯**。
+1. Select基準線並選取&#x200B;**編輯**。
 1. 在基準中進行所需的變更。 您可以變更主題或參考內容的名稱和版本。
-1. 如果您想要針對一或多個主題使用不同的版本，您可以手動選取這些主題來執行此操作。 選取&#x200B;**瀏覽主題**，選取您要使用其他版本的主題。 從選取主題的選取版本下拉式清單中，選取要用於基準線中的主題版本，然後選取&#x200B;**確定**。
+1. 如果您想要針對一或多個主題使用不同的版本，您可以手動選取這些主題來執行此操作。 Select **瀏覽主題**，選取您要使用其他版本的主題。 從Select所選主題的「版本」下拉式清單中，選取要用於基準線中的主題版本，然後選取&#x200B;**確定**。
 
    ![](images/baseline-select-version-drop-down.png)
 
@@ -196,4 +196,4 @@ Experience Manager Guides提供基準線功能，可讓使用者建立基準線�
 1. \(Optional\)若要匯出已匯出的基準，請選取&#x200B;**覆寫現有的基準**，然後選取&#x200B;**匯出基準**。
 
 
-**父級主題：**&#x200B;[&#x200B;輸出產生](generate-output.md)
+**父級主題：**[&#x200B;輸出產生](generate-output.md)

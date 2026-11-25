@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 7a29c5f8373907c02c84a125da8da5ad38584173
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1755'
 ht-degree: 0%
 ---
 # 建立DITA-OT PDF輸出預設集 {#id205BE600HAH}
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
+>從2027.01.0版的Experience Manager Guides Cloud Service和5.3內部部署版本開始，新客戶將不再使用Map儀表板。 新客戶預設會使用「地圖」主控台。 在2027.03.0版中，地圖儀表板預設為停用。 我們建議您使用「地圖」主控台來管理和發佈未來的地圖。 如果您仍需存取Map控制面板，請聯絡客戶成功團隊以尋求協助。
 
 執行以下步驟，從地圖控制面板建立PDF預設集：
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 | --- | --- |
 | 輸出型別（*僅適用於Map儀表板*） | 您要產生的輸出型別。 若要產生PDF輸出，請選擇PDF選項。 |
 | 設定名稱（*僅適用於Map儀表板*） | 為您正在建立的PDF輸出設定提供描述性名稱。 例如，您可以指定&#x200B;_內部客戶輸出_&#x200B;或&#x200B;_一般使用者輸出_。 |
-| 使用產生PDF （*僅適用於地圖儀表板*） | 選取&#x200B;**DITA-OT**&#x200B;以產生PDF輸出。 如果您的管理員已設定此選項，請選取&#x200B;**FrameMaker Publishing Server**。 選取FMPS時，某些組態選項會有所不同。 此外，FMPS組態選項僅適用於Map儀表板。 |
+| 使用產生PDF （*僅適用於地圖儀表板*） | Select **DITA-OT**&#x200B;以產生PDF輸出。 如果您的管理員已設定此選項，則Select **FrameMaker Publishing Server**。 選取FMPS時，某些組態選項會有所不同。 此外，FMPS組態選項僅適用於Map儀表板。 |
 | 輸出路徑/目的地路徑 | AEM存放庫內儲存PDF的路徑。<br>輸出路徑是透過管理員設定的變數`${base_output_path}`設定。 若要設定輸出路徑，請檢視[設定雲端服務的基底輸出位置](../native-pdf/configure-base-location-cs.md)或[根據您使用的服務，設定內部部署服務的基底輸出位置](../native-pdf/configure-base-output-location.md)。<br> 您也可以使用一些現成的變數來定義輸出路徑、檢視[使用變數來設定目的地路徑、網站名稱或檔案名稱選項](generate-output-use-variables.md#id18BUG70K05Z)。 |
 | DITA-OT命令列引數 | 指定在產生輸出時要DITA-OT處理的其他引數。 如需有關DITA-OT支援的命令列引數的詳細資訊，請檢視[DITA-OT檔案](https://www.dita-ot.org/)。 |
 | 轉換名稱 | 指定您要產生的輸出型別。 如果您想要使用自己的自訂外掛程式產生輸出（已整合在DITA-OT外掛程式中），則需要此專案。 例如，如果您要產生XHTML輸出，請指定`xhtml`。 如需DITA-OT中可用的轉換清單，請在OASIS DITA-OT使用手冊中檢視[DITA-OT轉換（輸出格式）](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html)。 |
@@ -136,4 +136,4 @@ ht-degree: 0%
 | 檔案屬性 | 選取您要當作中繼資料處理的屬性。 這些屬性是從DITA map或bookmap檔案的「屬性」頁面設定的。 您從下拉式清單中選取的屬性會顯示在&#x200B;**檔案屬性**&#x200B;欄位下。 選取屬性旁的十字圖示以將其移除。 <br><br>注意：您也可以使用DITA-OT發行將中繼資料傳遞至輸出。 如需詳細資料檢視，請[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)將中繼資料傳遞至輸出。 |
 
 
-**父級主題：**&#x200B;[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)
+**父級主題：**[&#x200B;瞭解輸出預設集](generate-output-understand-presets.md)

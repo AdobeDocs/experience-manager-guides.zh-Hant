@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Reporting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 ---
 # DITA map報表（從map儀表板） {#id205BB800EEN}
 
 >[!NOTE]
 >
->從2027.01.0版的Cloud Service和5.4版的Experience Manager Guides內部部署開始，新客戶將停止使用「地圖」控制面板功能。 不過，已使用此功能的現有客戶仍可使用此功能。 如果您想要停用Map儀表板，請聯絡您的客戶成功團隊。 建議您以後使用地圖主控台進行地圖管理和發佈。
+>從2027.01.0版的Experience Manager Guides Cloud Service和5.3內部部署版本開始，新客戶將不再使用Map儀表板。 新客戶預設會使用「地圖」主控台。 在2027.03.0版中，地圖儀表板預設為停用。 我們建議您使用「地圖」主控台來管理和發佈未來的地圖。 如果您仍需存取Map控制面板，請聯絡客戶成功團隊以尋求協助。
 
 Adobe Experience Manager Guides提供管理員報告功能，可在檔案上線或提供給一般使用者使用前，檢查檔案的整體完整性。 Experience Manager Guides中地圖控制面板的DITA map報告提供重要資訊，例如遺失主題、遺失元素的主題、參考主題和媒體檔案的UUID，以及每個主題的檢閱狀態。 詳細的個別主題層級報表也會提供DITA內容相關資訊，例如內容參照和遺失的影像或交叉參照。
 
@@ -112,7 +112,7 @@ Adobe Experience Manager Guides提供管理員報告功能，可在檔案上線�
 
    ![](images/generate-DITA-map-report-new.png)
 
-1. 報告可供下載後，您將會收到通知。 選取「下載&#x200B;**&#x200B;**」以下載產生報表的CSV。
+1. 報告可供下載後，您將會收到通知。 選取「下載&#x200B;****」以下載產生報表的CSV。
 
    ![](images/download-report-dialog-new.png){width="550"}
 
@@ -125,4 +125,4 @@ Adobe Experience Manager Guides提供管理員報告功能，可在檔案上線�
 
 報告下載至收件匣後，您也可以選取報告，並使用頂端的開啟圖示開啟所選的報告。
 
-**父級主題：**&#x200B;[&#x200B;報告簡介](reports-intro.md)
+**父級主題：**[&#x200B;報告簡介](reports-intro.md)
